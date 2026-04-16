@@ -1,0 +1,5 @@
+---@meta
+
+---A media source that selects other media sources based on target platform. Use this asset to override media sources on a per-platform basis.
+---@class UPlatformMediaSource: UMediaSource
+local UPlatformMediaSource = {}

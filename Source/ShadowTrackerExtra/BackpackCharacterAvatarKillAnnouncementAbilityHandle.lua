@@ -1,0 +1,14 @@
+---@meta
+
+---@class UBackpackCharacterAvatarKillAnnouncementAbilityHandle: UBackpackCharacterAvatarAbilityHandle
+local UBackpackCharacterAvatarKillAnnouncementAbilityHandle = {}
+
+function UBackpackCharacterAvatarKillAnnouncementAbilityHandle:ServerModifyFocusTarget() end
+
+function UBackpackCharacterAvatarKillAnnouncementAbilityHandle:ServerRestoreFocusTarget() end
+
+---@param InCharacter ASTExtraPlayerCharacter
+function UBackpackCharacterAvatarKillAnnouncementAbilityHandle:ClientModifyFocusTarget(InCharacter) end
+
+---@param InCharacter ASTExtraPlayerCharacter
+function UBackpackCharacterAvatarKillAnnouncementAbilityHandle:ClientRestoreFocusTarget(InCharacter) end

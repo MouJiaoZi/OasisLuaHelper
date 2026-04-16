@@ -1,0 +1,31 @@
+---@meta
+
+---@class UWeaponAntiCheatComp: UWeaponLogicBaseComponent
+---@field ShootRateCheckInterval number
+---@field ShootRateCheckTag boolean
+---@field ShootRateCheckMulCoff number
+---@field ShootHitTargetIntervalCheckTag boolean
+---@field ShootHitTargetIntervalMulCoff number
+---@field MaxParachuteHeightDist number @<竖直距离容差
+---@field MaxParachutePlaneDist number @<水平距离容差
+---@field DeCon6SpanTime number @断网策略6在网络恢复后的检查时长
+---@field ShootTimeInfoCheckClearInterval number @清空上报数据的间隔
+---@field ShootTimeInfoCheckLifeTime number @上报数据的保留的时间长度
+---@field ShootTimeGunPosBigCircle number @枪口信息校验 使用一个大的圆圈 不接受任何特殊情况的处理 可以根据枪械进行放大
+---@field ShootTimeGunPosZThres number @枪的位置与人的位置的竖直容错
+---@field ShootTimeGunPosMaxForwadDifNew number @枪的位置在人的前方的容错
+---@field ShootTimeGunPosForwardAdditionalVehicle number @人在载具中的额外前方距离容错
+---@field ShootTimeGunPosMaxRightDif number @枪的位置在人的左右方向的容错
+---@field ShootTimeGunPosMaxRightDifInVehicle number @人在载具中的额外左右方向的容错
+---@field MaxClientCapsuleHalfHeight number @允许的最大人物的模型半高
+---@field bVerifyTimeLineSync boolean @是否进行时间轴同步校验
+---@field TimeLineCheckDnBorders number @时间轴同步校验的下边界 允许射击包延迟到低于转换时间的程度，可用于对抗断网射击 调低这个值会导致高延迟玩家无法通过校验
+---@field TimeLineCheckUpBorder number @时间轴同步校验的上边界 允许转换后的时间戳超过当前服务器时间的程度，用于对抗直接加速硬件时间的情况 如果只加速世界时间的话，可以通过硬件时间戳来控制射击频率来对抗
+---@field ShootTimeConnectionDeltaThres number @射击时主控端没有收到任何数据包的时间上限
+---@field bVerifyStartFireTime boolean @是否对StartFire时的时间进行校验
+---@field MaxShootPassTimeDeltaBetweenSysAndLevel number @允许的射击时时间与StartFire时间进行计算时 关卡射击时间差与硬件时间差的最大差值
+---@field MuzzleDiffTorelate number @上报的枪口位置与射击时的枪口位置的容错 如果之后取消上报，这边的验证也取消掉
+---@field ShortDirReverseDistance number @在多长的距离以内允许射击方向校验的方向是反的
+---@field TolerateBulletDirOffsetSquared number @子弹飞行方向校验时允许的最大距离偏差
+---@field MaxFootRoot number @骨骼长度校验2 从脚到Root的最大长度
+local UWeaponAntiCheatComp = {}

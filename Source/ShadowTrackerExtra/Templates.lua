@@ -1,0 +1,60 @@
+---@meta
+
+---角色状态
+---@class EPawnState
+---@field Move number @//*UGC* 移动中
+---@field Sprint number @//*UGC* 冲刺中
+---@field Shoveling number @//*UGC* 滑铲中
+---@field ProneMove number @//*UGC* 匍匐移动中
+---@field Stand number @//*UGC* 站立中
+---@field Crouch number @//*UGC* 蹲伏中
+---@field Prone number @//*UGC* 匍匐中
+---@field Jump number @//*UGC* 跳跃中
+---@field GunFire number @//*UGC* 枪械开火中
+---@field GunReload number @//*UGC* 枪械换弹中
+---@field GunADS number @//*UGC* 枪械瞄准中
+---@field GunBolt number @//*UGC* 枪械拉栓中
+---@field Picth number @//*UGC* 侧身中
+---@field SwitchWeapon number @//*UGC* 切换武器中
+---@field Pick number @//*UGC* 拾取中
+---@field MeleeAttack number @//*UGC* 近战攻击中
+---@field HoldGrenade number @//*UGC* 握持投掷物中
+---@field Save number @//*UGC* 救助队友
+---@field UseConsumables number @//*UGC* 使用消耗品
+---@field Dying number @//*UGC* 正在被淘汰
+---@field Dead number @//*UGC* 已被淘汰
+---@field DriveVehicle number @//*UGC* 驾驶载具中
+---@field InVehicle number @//*UGC* 在载具中
+---@field LeanOutVehicle number @//*UGC* 载具探身中
+---@field Swim number @//*UGC* 游泳中
+---@field InParachute number @//*UGC* 跳伞中
+---@field Vault number @//*UGC* 攀爬中
+---@field InPlane number @//*UGC* 在飞机上
+---@field SwitchPP number @//*UGC* 切换视角中
+---@field PlayEmote number @//*UGC* 表情动作中
+---@field MagicDance number @//*UGC* 魔力舞中
+---@field Build number @//*UGC* 建造中
+---@field Stun number @//*UGC* 晕眩中
+---@field Zombie number @//*UGC* 异变中
+---@field DetectPaintDecal number @//*UGC* 检测喷漆
+---@field Imprisonment number @//*UGC* 监禁中
+---@field StunBurnNag number
+---@field GiftCanGive number @//*UGC* 可以给予礼物
+---@field GiftGiving number @//*UGC* 给予礼物中
+---@field GiftReceiving number @//*UGC* 接收礼物中
+---@field Revival number @//*UGC* 重生中
+---@field AirAttackLocator number @//*UGC* 空袭定位仪
+---@field ControlUnmannedVehicle number @//*UGC* 控制无人车中
+---@field BattleDance number @//*UGC* 斗舞中
+---@field OperatingMachine number @//*UGC* 操作机枪中
+---@field Frozen number @//*UGC* 冻结中
+---@field RemoteControlPawn number @//*UGC* RemoteControlPawn
+---@field WeaponAccPrepare number @//*UGC* 聚能步枪聚能准备
+---@field Interacting number @//*UGC* 交互中
+---@field CastingSkill number @//*UGC* 使用技能中
+---@field Carring number @//*UGC* 背负中
+---@field CustomFlying number @//*UGC* 自定义飞行
+---@field DoubleVault number @//*UGC* 合作攀爬
+---@field FastDraw number @//*UGC* 快速拔枪状态(持快拔长枪持手枪)
+---@field __MAX number @//*UGC* State数量
+EPawnState = {}

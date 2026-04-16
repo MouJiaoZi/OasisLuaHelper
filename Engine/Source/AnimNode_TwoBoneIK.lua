@@ -1,0 +1,23 @@
+---@meta
+
+---Simple 2 Bone IK Controller.
+---@class FAnimNode_TwoBoneIK
+---@field IKBone FBoneReference @Name of bone to control. This is the main bone chain to modify from. *
+---@field bAllowStretching number @Should stretching be allowed, to be prevent over extension
+---@field StartStretchRatio number @Limits to use if stretching is allowed. This value determines when to start stretch. For example, 0.9 means once it reaches 90% of the whole length of the limb, it will start apply.
+---@field MaxStretchScale number @Limits to use if stretching is allowed. This value determins what is the max stretch scale. For example, 1.5 means it will stretch until 150 % of the whole length of the limb.
+---@field StretchLimits_DEPRECATED FVector2D @Limits to use if stretching is allowed - old property DEPRECATED
+---@field bTakeRotationFromEffectorSpace number @Set end bone to use End Effector rotation
+---@field bMaintainEffectorRelRot number @Keep local rotation of end bone
+---@field EffectorLocationSpace EBoneControlSpace @Reference frame of Effector Location.
+---@field EffectorSpaceBoneName_DEPRECATED string @If EffectorLocationSpace is a bone, this is the bone to use. *
+---@field EffectorLocation FVector @Effector Location. Target Location to reach.
+---@field EffectorTarget FBoneSocketTarget
+---@field JointTargetLocationSpace EBoneControlSpace @Reference frame of Joint Target Location.
+---@field JointTargetLocation FVector @Joint Target Location. Location used to orient Joint bone. *
+---@field JointTargetSpaceBoneName_DEPRECATED string @If JointTargetSpaceBoneName is a bone, this is the bone to use. *
+---@field JointTarget FBoneSocketTarget
+---@field bAllowTwist boolean @Whether or not to apply twist on the chain of joints. This clears the twist value along the TwistAxis
+---@field TwistAxis FAxis @Specify which axis it's aligned. Used when removing twist
+---@field bNoTwist_DEPRECATED boolean @Whether or not to apply twist on the chain of joints. This clears the twist value along the TwistAxis
+FAnimNode_TwoBoneIK = {}

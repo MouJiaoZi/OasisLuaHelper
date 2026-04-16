@@ -1,0 +1,21 @@
+---@meta
+
+---@class UBTTask_ShortDistanceMove: UBTTask_BlackboardBase
+---@field MoveType EAIMovePose
+---@field MovePathType EAIMoveType
+---@field SampleNumber number
+---@field ControllPoint1 FVector2D
+---@field ControllPoint2 FVector2D
+---@field DirectionAngleRange FVector2D
+---@field MoveTargetDistRange FVector2D
+---@field ExecutionDuration FVector2D
+---@field RePlanTime number
+---@field AlwaysSuccess boolean
+---@field AcceptRadius number
+---@field StopOnOverlap boolean
+---@field UsePathfinding boolean
+---@field AllowPartialPath boolean
+---@field ProjectDestinationToNavigation boolean
+---@field ExceptionRandomRadius number
+---@field DebugDrawPath boolean
+local UBTTask_ShortDistanceMove = {}

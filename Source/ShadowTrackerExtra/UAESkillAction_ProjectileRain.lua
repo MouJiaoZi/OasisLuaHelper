@@ -1,0 +1,28 @@
+---@meta
+
+---@class UUAESkillAction_ProjectileRain: UUAESkillAction
+---@field bLaunchManyProjectile boolean
+---@field ProjectileSpawnOffset ULuaArrayHelper<FVector>
+---@field ProjectileActorTemplate APVEProjectileBase
+---@field bUseCharacterHeadLocation boolean
+---@field bUseHitLocation boolean
+---@field ProjectileLineOffset FVector
+---@field TargetActorOffset FVector
+---@field bAttachToTargetActorCenter boolean
+---@field ProjectileGravityScale number
+---@field Speed number
+---@field MaxDistance number
+---@field AttachSocketName string
+---@field DelayFlyTime number
+---@field bDelayTimeHide boolean
+---@field MaxLifeSpan number
+---@field bUseHighArc boolean
+---@field HighArcGravityScales ULuaArrayHelper<FHighArcParam>
+---@field bIsHoming boolean
+---@field HomingAccelerationMagnitude number
+---@field bIsRay boolean
+---@field bIsHorizontal boolean
+---@field VerifyStartDistance number
+---@field VerifyStartForwardDot number
+---@field CachedTargetLocation FVector
+local UUAESkillAction_ProjectileRain = {}

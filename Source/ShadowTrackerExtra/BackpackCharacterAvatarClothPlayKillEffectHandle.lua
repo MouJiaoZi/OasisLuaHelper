@@ -1,0 +1,14 @@
+---@meta
+
+---@class UBackpackCharacterAvatarClothPlayKillEffectHandle: UBackpackCharacterAvatarAbilityHandle
+local UBackpackCharacterAvatarClothPlayKillEffectHandle = {}
+
+function UBackpackCharacterAvatarClothPlayKillEffectHandle:ServerModifyFocusTarget() end
+
+function UBackpackCharacterAvatarClothPlayKillEffectHandle:ServerRestoreFocusTarget() end
+
+---@param InCharacter ASTExtraPlayerCharacter
+function UBackpackCharacterAvatarClothPlayKillEffectHandle:ClientModifyFocusTarget(InCharacter) end
+
+---@param InCharacter ASTExtraPlayerCharacter
+function UBackpackCharacterAvatarClothPlayKillEffectHandle:ClientRestoreFocusTarget(InCharacter) end

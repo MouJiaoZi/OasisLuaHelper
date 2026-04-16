@@ -1,0 +1,30 @@
+---@meta
+
+---玩家驾驶挖掘机的动画蓝图
+---@class USTExtraExcavatorAnimInstance: USTExtraVehicleAnimInstance
+---@field bIsExcavatorComp boolean
+---@field LODThreshold number
+---@field Foot_FB_Range FVector2D
+---@field Hand_LR_Range FVector2D
+---@field Hand_FB_Range FVector2D
+---@field OutputRange FVector2D
+---@field InterpSpeed number
+---@field HandL_FB number
+---@field HandL_LR number
+---@field HandR_FB number
+---@field HandR_LR number
+---@field Foot_FB number
+---@field HandL_FB_Target number
+---@field HandL_LR_Target number
+---@field HandR_FB_Target number
+---@field HandR_LR_Target number
+---@field Foot_FB_Target number
+---@field HandL_FB_TargetValue number
+---@field HandL_LR_TargetValue number
+---@field HandR_FB_TargetValue number
+---@field HandR_LR_TargetValue number
+---@field Foot_FB_TargetValue number
+---@field bIsPassengerControl boolean
+---@field PassengerRootRotator FRotator
+---@field FixADSScopeAnimRotationYaw FRotator
+local USTExtraExcavatorAnimInstance = {}

@@ -1,0 +1,35 @@
+---@meta
+
+---@class UBTTask_AnimalFindNearByPoint: UBTTaskNode
+---@field SearchRadiusRange FVector2D @搜索半径范围
+---@field RadiusSampleInterval number @半径采样间隔
+---@field AngleSampleInterval number @角度采样间隔
+---@field PointsSamplePerFrame number @每帧采样次数
+---@field TraceHeightOffset number @射线长度
+---@field FindTargetPointChannel ECollisionChannel
+---@field bSetTargetPointRelativeHeight boolean @是否设置目标点高度偏移
+---@field TargetLocHeightSetType EFlyTargetLocHeightSetType @目标点高度设置类型
+---@field TargetLocRelativeHeight number @目标点相对高度
+---@field bDoNavmeshProjectTest boolean @是否做NavMesh投影检测
+---@field ProjectFilterClass UNavigationQueryFilter @投影到NavMesh使用的Filter
+---@field ProjectExtent FVector @投影Extent
+---@field bCheckPath boolean @是否对目标点做路径检查
+---@field bLimitPathLength boolean @是否限制路径长度
+---@field PathMaxLength number @路径最大长度
+---@field bAllowPartialPath boolean @是否允许路径不能抵达终点
+---@field ReachableTolerance number @路径终点距离目标多远以内认为联通
+---@field bDoSamplePointVisibilityTest boolean @是否对采样点做可见性检测
+---@field bDoTargetPointVisibilityTest boolean @是否对目标点做可见性检测
+---@field VisibilityTestChannel ECollisionChannel
+---@field bDoOnlyStaticTrace boolean @只做静态物体检测(忽略水)
+---@field bDoWaterTest boolean @是否检测水体
+---@field bDoLimitFindPointArea boolean @是否限制区域
+---@field ValidDistanceOffsetToOwner number @相对于owner当前位置的最小有效2D距离(>0有效)
+---@field CenterLocValidMoveTolerance number @中心位置有效移动容忍值，超过这个阈值，节点直接失败
+---@field CenterBlackboardKey any
+---@field OutputBlackboardKey any
+---@field bDebugDrawSamplePoint boolean
+---@field DebugDrawSamplePointTime number
+---@field bDebugDrawTargetPoint boolean
+---@field DebugDrawTargetPointTime number
+local UBTTask_AnimalFindNearByPoint = {}

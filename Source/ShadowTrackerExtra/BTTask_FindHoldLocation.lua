@@ -1,0 +1,26 @@
+---@meta
+
+---流浪地球机械狗-寻找容纳对象位置
+---@class UBTTask_FindHoldLocation: UBTTaskNode
+---@field HoldTargetKey FBlackboardKeySelector
+---@field CenterTargetKey FBlackboardKeySelector
+---@field HoldLocationKey FBlackboardKeySelector
+---@field HoldLocationVisibleKey FBlackboardKeySelector
+---@field HoldLocationOnNavmeshKey FBlackboardKeySelector
+---@field HoldRadius number
+---@field HoldHalfHeight number
+---@field CheckHeightOffset number
+---@field HoldHeightOffset number
+---@field TraceDistance FVector2D
+---@field TraceChannel ECollisionChannel
+---@field bVisibleCheck boolean
+---@field bNavmeshCheck boolean
+---@field AngleRange ULuaArrayHelper<FVector2D>
+---@field RandomAngle number
+---@field StepAngle number
+---@field NavmeshRange FVector2D @X-目标点和原点最小距离(太近了可能会重叠在一起)；Y-在Navmesh上寻找点的范围，比X大
+---@field NavmeshTryMaxNum number
+---@field bNotWater boolean
+---@field bNotHouse boolean
+---@field bLog boolean
+local UBTTask_FindHoldLocation = {}

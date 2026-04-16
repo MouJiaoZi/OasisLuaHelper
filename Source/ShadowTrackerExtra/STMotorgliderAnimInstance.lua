@@ -1,0 +1,31 @@
+---@meta
+
+---@class USTMotorgliderAnimInstance: USTVehicleAnimInstance
+---@field PropellerRotation FRotator
+---@field PropellerRotationMask FVector
+---@field WingRollRot FRotator
+---@field WingRollRotMask FVector
+---@field RollMuliplier number
+---@field WingPitchRot FRotator
+---@field WingPitchRotMask FVector
+---@field PitchMuliplier number
+---@field FastRotorAlpha number
+---@field bUseCustomDriverAnim boolean
+---@field SteeringInterpSpeed number
+---@field Instrument_MaxSpeedRot FRotator
+---@field Instrument_MaxRPMRot FRotator
+---@field Instrument_MaxAltRot FRotator
+---@field Instrument_MaxFuelRot FRotator
+---@field Instrument_MinSpeedRot FRotator
+---@field Instrument_MinRPMRot FRotator
+---@field Instrument_MinAltRot FRotator
+---@field Instrument_MinFuelRot FRotator
+---@field Instrument_SpeedRot FRotator
+---@field Instrument_RPMRot FRotator
+---@field Instrument_AltRot FRotator
+---@field Instrument_FuelRot FRotator
+---@field MaxFlightSpeedInKm number
+---@field MaxRPM number
+---@field MaxFlightAltitudeInMeters number
+---@field bWakeUpSleepVehicle boolean
+local USTMotorgliderAnimInstance = {}

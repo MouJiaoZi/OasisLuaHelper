@@ -1,0 +1,32 @@
+---@meta
+
+---@class FLightPropagationVolumeSettings
+---@field bOverride_LPVIntensity number
+---@field bOverride_LPVDirectionalOcclusionIntensity number
+---@field bOverride_LPVDirectionalOcclusionRadius number
+---@field bOverride_LPVDiffuseOcclusionExponent number
+---@field bOverride_LPVSpecularOcclusionExponent number
+---@field bOverride_LPVDiffuseOcclusionIntensity number
+---@field bOverride_LPVSpecularOcclusionIntensity number
+---@field bOverride_LPVSize number
+---@field bOverride_LPVSecondaryOcclusionIntensity number
+---@field bOverride_LPVSecondaryBounceIntensity number
+---@field bOverride_LPVGeometryVolumeBias number
+---@field bOverride_LPVVplInjectionBias number
+---@field bOverride_LPVEmissiveInjectionIntensity number
+---@field LPVIntensity number @How strong the dynamic GI from the LPV should be. 0.0 is off, 1.0 is the "normal" value, but higher values can be used to boost the effect
+---@field LPVVplInjectionBias number @Bias applied to light injected into the LPV in cell units. Increase to reduce bleeding through thin walls
+---@field LPVSize number @The size of the LPV volume, in Unreal units
+---@field LPVSecondaryOcclusionIntensity number @Secondary occlusion strength (bounce light shadows). Set to 0 to disable
+---@field LPVSecondaryBounceIntensity number @Secondary bounce light strength (bounce light shadows). Set to 0 to disable
+---@field LPVGeometryVolumeBias number @Bias applied to the geometry volume in cell units. Increase to reduce darkening due to secondary occlusion
+---@field LPVEmissiveInjectionIntensity number
+---@field LPVDirectionalOcclusionIntensity number @Controls the amount of directional occlusion. Requires LPV. Values very close to 1.0 are recommended
+---@field LPVDirectionalOcclusionRadius number @Occlusion Radius - 16 is recommended for most scenes
+---@field LPVDiffuseOcclusionExponent number @Diffuse occlusion exponent - increase for more contrast. 1 to 2 is recommended
+---@field LPVSpecularOcclusionExponent number @Specular occlusion exponent - increase for more contrast. 6 to 9 is recommended
+---@field LPVDiffuseOcclusionIntensity number @Diffuse occlusion intensity - higher values provide increased diffuse occlusion.
+---@field LPVSpecularOcclusionIntensity number @Specular occlusion intensity - higher values provide increased specular occlusion.
+---@field LPVFadeRange number @LPV Fade range - increase to fade more gradually towards the LPV edges.
+---@field LPVDirectionalOcclusionFadeRange number @LPV Directional Occlusion Fade range - increase to fade more gradually towards the LPV edges.
+FLightPropagationVolumeSettings = {}

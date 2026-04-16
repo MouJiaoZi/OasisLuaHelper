@@ -1,0 +1,51 @@
+---@meta
+
+---@class UBTTask_VehicleBaseAvoidObstacle: UBTTaskNode
+---@field bModiCollision boolean
+---@field bModiStaticCollision boolean
+---@field bModiCheck boolean
+---@field bModiVisible boolean
+---@field bUpdateInputs boolean
+---@field MinRequiredThrottleChange number
+---@field MinRequiredSteeringChange number
+---@field SteeringRightMagnitudeScale number
+---@field VehicleForwardVectorLength number
+---@field SplineKeyDirectionVectorLength number
+---@field VectorLengthSpeedCompenationRatio number
+---@field MaxPathingVectorLength number
+---@field bAdaptToTargetSpeed boolean
+---@field TargetSpeed number
+---@field OriginalTargetSpeed number
+---@field ThrottleAtTargetSpeed number
+---@field ThrottleAtMaxSpeed number
+---@field OffsetSpeedWeightForAvoid number
+---@field MaxSpeed number
+---@field DefaultThrottleInput number
+---@field bUseHandbrakeWhenTurning boolean
+---@field HandbrakeSteeringThreshold number
+---@field HandbrakeBrakeSpeedThreshold number
+---@field bUseBrakeWhenTurning boolean
+---@field BrakeSpeedThreshold number
+---@field BrakeSteeringThreshold number
+---@field AvoidanceCheckDeltaRot number
+---@field CheckObstacleDis number
+---@field ArriveTargetLocationTol number
+---@field TraceForwardOffset number
+---@field TimeToObstacle number
+---@field WheelMaxRot number
+---@field ReverseExtraDis number
+---@field VehicleBoxScale number
+---@field ObjectTypesAvoidanceMap ULuaMapHelper<EObjectTypeQuery, FObjectTypeAvoidanceWeights>
+---@field TargetThrottleInputKey FBlackboardKeySelector
+---@field TargetSpeedModifierKey FBlackboardKeySelector
+---@field TargetSteeringInputKey FBlackboardKeySelector
+---@field TargetHandbrakeInputKey FBlackboardKeySelector
+---@field PathSplineKey FBlackboardKeySelector
+---@field PathInputKey FBlackboardKeySelector
+---@field IsPathingInReverseKey FBlackboardKeySelector
+---@field PathingLocationKey FBlackboardKeySelector
+---@field PreviousSecTimeKey FBlackboardKeySelector
+---@field IsInAvoidanceModeKey FBlackboardKeySelector
+---@field AvoidanceTargetLocationKey FBlackboardKeySelector
+---@field CamelGroupForceOffsetKey FBlackboardKeySelector
+local UBTTask_VehicleBaseAvoidObstacle = {}

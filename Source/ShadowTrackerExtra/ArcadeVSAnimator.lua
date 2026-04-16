@@ -1,0 +1,31 @@
+---@meta
+
+---This component will compute values for the VehicleAnimationBlueprint based on its parent vehicle state. This means that all visible animations (tilting / Rolling / wheels Turning and moving) are all purely visual effects and have no relation to the actual vehicle physics body. This is very handy as it means that changing physics setting on the vehicle will not change its animation.
+---@class UArcadeVSAnimator: UActorComponent
+---@field _wheelsMaxDirectionAngle number @The time it will take the wheels to go back to neutral from their maximum turning angle (This is visual only and will not affect gameplay)
+---@field _wheelsRotationToNeutralDuration number
+---@field _accelerationTiltMaxAngle number @The max tilt angle (Y-Axis) the car will reach when accelerating (parameter A of the equation https://www.geogebra.org/m/zXU3HUpm)
+---@field _brakingTiltMaxAngle number @The max tilt angle (Y-Axis) the car will reach when braking (parameter A of the equation https://www.geogebra.org/m/zXU3HUpm)
+---@field _accelerationTiltDamping number @How fast the acceleration oscillations will stabilize (parameter c of the equation https://www.geogebra.org/m/zXU3HUpm)
+---@field _brakingTiltDamping number @How fast the braking oscillations will will stabilize (parameter c of the equation https://www.geogebra.org/m/zXU3HUpm)
+---@field _accelerationTiltOscSpeed number @How fast the vehicle will oscillate when accelerating (parameter w of the equation https://www.geogebra.org/m/zXU3HUpm)
+---@field _brakingTiltOscSpeed number @How fast the vehicle will oscillate when braking (parameter w of the equation https://www.geogebra.org/m/zXU3HUpm)
+---@field _maxRollAngle number @Max roll angle the car will reach when turning
+---@field _rollScale number @Scale applied to the computed roll angle, needed as it may be hard to get the expected roll angle as the suspension will try to keep the vehicle on the ground
+---@field _scaleTiltWithSpeed number @Will scale the tilt angle based on the current speed. Ie accelerating when already going fast will produce less tilt movement than accelerating when stopped
+---@field _maxTiltAngle number
+---@field _tiltOscSpeed number
+---@field _tiltDamping number
+---@field _elapsedTimeSinceReset number
+---@field _resetTilt boolean
+---@field _directionChanged boolean
+---@field _axisScale number
+---@field _wheelRotationAngle number
+---@field _wheelsDirection number
+---@field _wheelsTargetDirection number
+---@field _wheelsPreviousDirection number
+---@field _wheelsDirectionTimer number
+---@field _wheelsDirectionChangeDuration number
+---@field _isVehicleAccelerating boolean
+---@field _isVehicleBraking boolean
+local UArcadeVSAnimator = {}

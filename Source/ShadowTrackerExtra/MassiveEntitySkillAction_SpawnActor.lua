@@ -1,0 +1,26 @@
+---@meta
+
+---@class UMassiveEntitySkillAction_SpawnActor: UMassiveEntitySkillAction
+---@field bOnlyServer boolean
+---@field ProjectileLineOffset FVector
+---@field bUseCharacterRotation boolean
+---@field bUseAutoTargetRotation boolean
+---@field TargetActorOffset FVector
+---@field ProjectileGravityScale number
+---@field Speed number
+---@field MaxDistance number
+---@field VerifyStartDistance number
+---@field VerifyStartForwardDot number
+---@field DelayFlyTime number
+---@field bDelayTimeHide boolean
+---@field DelayUpdateTargetLocationTime number
+---@field MaxLifeSpan number
+---@field SkillDamage number
+---@field bUseSelfLocationOffset boolean
+---@field SelfLocOffset FVector
+---@field SelfLocRot FRotator
+---@field ProneOffset FVector
+---@field CrouchOffset FVector
+---@field DragonBallLocOffset FVector
+---@field ProjectileActorTemplate APVEProjectileBase
+local UMassiveEntitySkillAction_SpawnActor = {}

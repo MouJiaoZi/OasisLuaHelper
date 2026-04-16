@@ -1,0 +1,21 @@
+---@meta
+
+---Class containing definition of a navigation area
+---@class UNavAreaMeta_SwitchByAgent: UNavAreaMeta
+---@field Agent0Area UNavArea
+---@field Agent1Area UNavArea
+---@field Agent2Area UNavArea
+---@field Agent3Area UNavArea
+---@field Agent4Area UNavArea
+---@field Agent5Area UNavArea
+---@field Agent6Area UNavArea
+---@field Agent7Area UNavArea
+---@field Agent8Area UNavArea
+---@field Agent9Area UNavArea
+---@field Agent10Area UNavArea
+---@field Agent11Area UNavArea
+---@field Agent12Area UNavArea
+---@field Agent13Area UNavArea
+---@field Agent14Area UNavArea
+---@field Agent15Area UNavArea
+local UNavAreaMeta_SwitchByAgent = {}

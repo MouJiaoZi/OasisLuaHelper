@@ -1,0 +1,33 @@
+---@meta
+
+---寻找附近随机点(FakePlayerAI|MobAI|HostAI)
+---@class UBTTask_FindNearbyRandomLoc: UBTTaskNode
+---@field InSrcBlackboardKey FBlackboardKeySelector
+---@field InSearchRadiusRange FVector2D @搜索半径
+---@field bUseBBSearchRadius boolean
+---@field InSearchRadiusBBKey any
+---@field InMaxSearchTimes number @最大搜索次数
+---@field bTestLocFindFloor boolean
+---@field bFindFloorUseMoveChannel boolean
+---@field InTraceFloorChannel ECollisionChannel
+---@field InFindFloorQueryMobilityType EOverrideQueryMobilityType
+---@field InTraceHeightUp number
+---@field InTraceHeightDown number
+---@field InValidHeightOffset number
+---@field InRandomLocZOffset number
+---@field InValidDistanceOffsetToOwner number @相对于owner当前位置的最小有效2D距离(>0有效)
+---@field bTestPathValid boolean
+---@field InFilterClass UNavigationQueryFilter
+---@field bDoNavmeshProjectTest boolean
+---@field ProjectNavmeshExtent FVector
+---@field bLimitLocInOwnerLivingRange boolean
+---@field bCheckOverlapAtLocation boolean
+---@field InCheckOverlapChannel ECollisionChannel
+---@field InCheckOverlapHeightOffset number
+---@field InCheckOverlapRadius number
+---@field InCheckOverlapHalfHeight number
+---@field bExcludeWaterAreas boolean
+---@field TestWaterVolumeBoxExtent FVector
+---@field bReturnFailedWhenNoValidLoc boolean
+---@field OutTargetLocBlackboardKey FBlackboardKeySelector
+local UBTTask_FindNearbyRandomLoc = {}

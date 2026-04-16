@@ -1,0 +1,41 @@
+---@meta
+
+---@class UInterpMovementComponent: UNavMovementComponent, IRVOAvoidanceInterface
+---@field FlyPathFollowingComp UFlyPathFollowingComponent @associated fly path following component
+---@field MaxMoveSpeed number
+---@field MaxStepHeight number
+---@field bUseDirectionAdjustVelocity number
+---@field ScalePower number
+---@field MinScaleFactor number
+---@field bFindFloorWhenMove number
+---@field bFindLandscapeAsFloorOnly number
+---@field FindFloorQueryMobilityType EOverrideQueryMobilityType
+---@field FindFloorChannel ECollisionChannel
+---@field FindFloorIgnoreCollisionChannels ULuaArrayHelper<ECollisionChannel>
+---@field bFindFloorUseObjectType number
+---@field FindFloorTraceObjectTypes ULuaArrayHelper<EObjectTypeQuery>
+---@field FindFloorTraceZUp number @find floor z offset
+---@field FindFloorTraceZDown number @find floor z offset
+---@field FindFloorInterval number
+---@field bTestPassWall boolean
+---@field TestPassWallQueryMobilityType EOverrideQueryMobilityType
+---@field TestPassWallChannel ECollisionChannel
+---@field bTestPassWallUseObjectType number
+---@field TestPassWallTraceObjectTypes ULuaArrayHelper<EObjectTypeQuery>
+---@field bStopMoveWhenPassWall number
+---@field bUseRVOAvoidance number @If set, component will use RVO avoidance. This only runs on the server.
+---@field AvoidanceWeight number
+---@field AvoidanceConsiderationRadius number
+---@field bUseCustomAvoidanceShape number
+---@field CustomAvoidanceRadius number
+---@field CustomAvoidanceHalfHeight number
+---@field AvoidanceGroup FNavAvoidanceMask
+---@field GroupsToAvoid FNavAvoidanceMask
+---@field GroupsToIgnore FNavAvoidanceMask
+---@field bLogOwnerLoc boolean
+---@field PendingLockVelocity FVector
+---@field bHasRequestedMove number @Was requested move by path following?
+---@field bHasRequestedCircleMove number
+---@field RequestedVelocity FVector
+---@field AvoidanceUID number
+local UInterpMovementComponent = {}

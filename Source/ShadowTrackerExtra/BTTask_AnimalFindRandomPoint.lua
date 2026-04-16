@@ -1,0 +1,25 @@
+---@meta
+
+---@class UBTTask_AnimalFindRandomPoint: UBTTaskNode
+---@field SearchRadiusRange FVector2D
+---@field TraceHeightOffset number
+---@field TryFindLocNum number
+---@field bDoNavmeshProjectTest boolean
+---@field ProjectFilterClass UNavigationQueryFilter @"None" will result in default filter being used
+---@field bCheckPath boolean
+---@field bLimitPathLength boolean
+---@field PathMaxLength number
+---@field bAllowPartialPath boolean
+---@field ReachableTolerance number
+---@field bDoOnlyStaticTrace boolean @只做静态物体检测(忽略水)
+---@field bDoWaterTest boolean
+---@field bDoLimitFindPointArea boolean
+---@field CollisionExcludeAngle number @如有碰撞，剔除CenterBlackboardKey前方某个角度内的点，和LimitInForwardAngle互斥
+---@field bLimitResultInForwardAngle boolean @只选择CenterBlackboardKey前方某个角度内的点
+---@field LimitInForwardAngle number @只选择CenterBlackboardKey前方该角度内的点（双向）,和CollisionExcludeAngle互斥
+---@field ValidDistanceOffsetToOwner number @相对于owner当前位置的最小有效2D距离(>0有效)
+---@field CenterBlackboardKey any
+---@field OutputBlackboardKey any
+---@field bDebugDraw boolean
+---@field DebugDrawPointTime number
+local UBTTask_AnimalFindRandomPoint = {}

@@ -1,0 +1,33 @@
+---@meta
+
+---@class UBTTask_VehicleBaseMoveToStopPoint: UBTTaskNode
+---@field bAdaptToTargetSpeed boolean
+---@field TargetSpeed number
+---@field OriginalTargetSpeed number
+---@field MaxSpeed number
+---@field ThrottleAtTargetSpeed number
+---@field ThrottleAtMaxSpeed number
+---@field bUseBrakeWhenTurning boolean
+---@field BrakeSpeedThreshold number
+---@field BrakeSteeringThreshold number
+---@field StopPointLocationKey FBlackboardKeySelector
+---@field StopPointRotationKey FBlackboardKeySelector
+---@field TargetThrottleInputKey FBlackboardKeySelector
+---@field TargetSteeringInputKey FBlackboardKeySelector
+---@field TargetHandbrakeInputKey FBlackboardKeySelector
+---@field TargetSpeedModifierKey FBlackboardKeySelector
+---@field CamelGroupForceOffsetKey FBlackboardKeySelector
+---@field OffsetSpeedWeightForBoid number
+---@field DefaultThrottleInput number
+---@field bUseHandbrakeWhenTurning boolean
+---@field HandbrakeSteeringThreshold number
+---@field HandbrakeBrakeSpeedThreshold number
+---@field bModiCollision boolean
+---@field bModiStaticCollision boolean
+---@field bModiCheck boolean
+---@field bModiVisible boolean
+---@field FinishParkingTolerance number
+---@field bCleanVelocityInFinishParking boolean
+---@field FinishParkingRotTolerance number
+---@field StopRotMoveRightInput number
+local UBTTask_VehicleBaseMoveToStopPoint = {}

@@ -1,0 +1,28 @@
+---@meta
+
+---@class UBTService_ChooseEnemy_AIHost: UBTService
+---@field MaxRememberEnemyTimeInSeconds number
+---@field MaxRememberLastAttackedMeTimeInSeconds number
+---@field MaxTraceLastAttackedMeDistance number
+---@field MinTimeWhenCannotSeeTarget number
+---@field MinTimeLockTarget number
+---@field SensedRadius number
+---@field EquipWeaponSensedRadius number
+---@field DefaultWeaponTypeToRanges ULuaArrayHelper<FWeaponTypeToRange>
+---@field WeatherToRange ULuaMapHelper<EWeatherStatusType, FWeatherToRange>
+---@field WeatherTypeToWeatherRange ULuaMapHelper<EWeatherStatusType, EWeatherStatusType>
+---@field bUseCircleDifficultyLevel boolean
+---@field CircleChooseEnemyDifficultyCfg ULuaMapHelper<number, FChooseEnemyRadiusConfig>
+---@field bUseFanChoose boolean
+---@field FanRadiusConfig FFanChooseEnemyRadiusConfig
+---@field bUseFanChooseDifficultyLevel boolean
+---@field FanChooseEnemyDifficultyCfg ULuaMapHelper<number, FFanChooseEnemyRadiusConfig>
+---@field TraceStartOffset FVector
+---@field TraceEndOffset FVector
+---@field ChooseEnemyTypes ULuaArrayHelper<EChooseEnemyType>
+---@field bChooseNearDeathPlayer boolean
+---@field CannotChooseNearDeathPlayerTime number
+---@field bChoosePlayerHiddenOnVehicle boolean
+---@field bChooseDisguisedPlayer boolean
+---@field PlayerRadiusForAIIgnoreOtherBTAI number
+local UBTService_ChooseEnemy_AIHost = {}

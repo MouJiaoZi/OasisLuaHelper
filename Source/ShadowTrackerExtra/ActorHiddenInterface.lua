@@ -1,0 +1,38 @@
+---@meta
+
+---@class EActorHiddenMask
+---@field ActorHiddenMask1 number
+---@field ActorHiddenMask2 number
+---@field ActorHiddenMask3 number
+---@field ActorHiddenMask4 number
+---@field ActorHiddenMask5 number
+---@field ActorHiddenMask6 number
+---@field ActorHiddenMask7 number
+---@field ActorHiddenMask8 number
+---@field ActorHiddenMask9 number
+---@field ActorHiddenMask10 number
+---@field ActorHiddenMask11 number
+---@field ActorHiddenMask12 number
+---@field ActorHiddenMask13 number
+---@field ActorHiddenMask14 number
+---@field ActorHiddenMask15 number
+---@field ActorHiddenMask16 number
+---@field ActorHiddenMask17 number
+---@field ActorHiddenMask18 number
+---@field ActorHiddenMask19 number
+---@field ActorHiddenMask20 number
+---@field ActorHiddenMask21 number
+---@field ActorHiddenMask22 number
+---@field ActorHiddenMask23 number
+---@field ActorHiddenMask24 number
+---@field ActorHiddenMask25 number
+---@field ActorHiddenMask26 number
+---@field ActorHiddenMask27 number
+---@field ActorHiddenMask28 number
+---@field ActorHiddenMask29 number
+---@field ActorHiddenMask30 number
+---@field ActorHiddenMask31 number
+---@field ActorHiddenMask32 number
+---@field HideOnNetLost number @断网隐藏人物
+---@field CyberSpider number @赛博蜘蛛大招隐藏
+EActorHiddenMask = {}

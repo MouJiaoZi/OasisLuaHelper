@@ -1,0 +1,6 @@
+---@meta
+
+---Wait task node. Wait for the time specified by a Blackboard key when executed.
+---@class UBTTask_WaitBlackboardTime: UBTTask_Wait
+---@field BlackboardKey any @blackboard key selector
+local UBTTask_WaitBlackboardTime = {}

@@ -1,0 +1,22 @@
+---@meta
+
+---@class UCustomCrowdFollowingComponent: UCrowdFollowingComponent
+---@field bEnableAnticipateTurns boolean
+---@field bEnableObstacleAvoidance boolean
+---@field bEnableSeparation boolean
+---@field bEnableOptimizeVisibility boolean
+---@field bEnableOptimizeTopology boolean
+---@field bEnableSlowdownAtGoal boolean
+---@field SeparationWeight number
+---@field CollisionQueryRange number
+---@field PathOptimizationRange number
+---@field AvoidanceRangeMultiplier number
+---@field bEnablePathOffset boolean
+---@field bAffectFallingVelocity boolean
+---@field bRotateToVelocity boolean
+---@field AvoidanceQuality number
+---@field OverrideAgentRadius number
+---@field OverrideAgentHalfHeight number
+---@field MaxAllowedPositionDiffSqured number
+---@field ForbidTurnAroundTimeWhenHitObstacle number
+local UCustomCrowdFollowingComponent = {}

@@ -1,0 +1,7 @@
+---@meta
+
+---StaticMeshActor is an instance of a UStaticMesh in the world. Static meshes are geometry that do not animate or otherwise deform, and are more efficient to render than other types of geometry. Static meshes dragged into the level from the Content Browser are automatically converted to StaticMeshActors.
+---@class AStaticMeshActor: AActor
+---@field bStaticMeshReplicateMovement boolean @This static mesh should replicate movement. Automatically sets the RemoteRole and bReplicateMovement flags. Meant to be edited on placed actors (those other two properties are not)
+---@field NavigationGeometryGatheringMode ENavDataGatheringMode
+local AStaticMeshActor = {}

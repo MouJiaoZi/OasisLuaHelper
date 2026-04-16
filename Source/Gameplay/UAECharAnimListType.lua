@@ -1,0 +1,149 @@
+---@meta
+
+---@class ECharacterNewFPPAnimType
+---@field ECharNewFPPAnim_BasePose number @枪械基础Pose(UAnimSequence)
+---@field ECharNewFPPAnim_BasePose_TPP number @枪械基础Pose_TPP模型(UAnimSequence)
+---@field ECharNewFPPAnim_BasePose_NearDeath number @枪械基础Pose_NearDeath(UAnimSequence)
+---@field ECharNewFPPAnim_MoveIdle number @Pose(Additive), Idle
+---@field ECharNewFPPAnim_MoveWalk number @Pose(Additive), Walk
+---@field ECharNewFPPAnim_MoveRun number @Pose(Additive), Run
+---@field ECharNewFPPAnim_MoveSprint number @Pose(Additive), Sprint
+---@field ECharNewFPPAnim_MoveNearDeath number @Pose(Additive), NearDeath
+---@field ECharNewFPPAnim_MoveLoopIdle number @循环动画(Additive), Idle
+---@field ECharNewFPPAnim_MoveLoopWalk number @循环动画(Additive), Walk
+---@field ECharNewFPPAnim_MoveLoopRun number @循环动画(Additive), Run
+---@field ECharNewFPPAnim_MoveLoopSprint number @循环动画(Additive), Sprint
+---@field ECharNewFPPAnim_MoveLoopBS number @循环动画(Additive), BS
+---@field ECharNewFPPAnim_MoveLoopNearDeath number @循环动画(Additive), NearDeath
+---@field ECharNewFPPAnim_WallPoseOffset number @姿势叠加OffsetPose(Additive),WalkPose
+---@field ECharNewFPPAnim_RunPoseOffset number @姿势叠加OffsetPose(Additive).RunPose
+---@field ECharNewFPPAnim_SprintPoseOffset number @姿势叠加OffsetPose(Additive),SprintPose
+---@field ECharNewFPPAnim_MoveChange_IdleToWalk number @转换动画(Additive), IdleToWalk
+---@field ECharNewFPPAnim_MoveChange_IdleToRun number @转换动画(Additive), IdleToRun
+---@field ECharNewFPPAnim_MoveChange_IdleToSprint number @转换动画(Additive), IdleToSprint
+---@field ECharNewFPPAnim_MoveChange_WalkToIdle number @转换动画(Additive), WalkToIdle
+---@field ECharNewFPPAnim_MoveChange_WalkToRun number @转换动画(Additive), WalkToRun
+---@field ECharNewFPPAnim_MoveChange_WalkToSprint number @转换动画(Additive), WalkToSprint
+---@field ECharNewFPPAnim_MoveChange_RunToIdle number @转换动画(Additive), RunToIdle
+---@field ECharNewFPPAnim_MoveChange_RunToWalk number @转换动画(Additive), RunToWalk
+---@field ECharNewFPPAnim_MoveChange_RunToSprint number @转换动画(Additive), RunToSprint
+---@field ECharNewFPPAnim_MoveChange_SprintToIdle number @转换动画(Additive), SprintToIdle
+---@field ECharNewFPPAnim_MoveChange_SprintToWalk number @转换动画(Additive), SprintToWalk
+---@field ECharNewFPPAnim_MoveChange_SprintToRun number @转换动画(Additive), SprintToRun
+---@field ECharNewFPPAnim_MoveChange_IdleToMove number @转换动画(Additive), MoveStart_BS2D
+---@field ECharNewFPPAnim_MoveChange_MoveToIdle number @转换动画(Additive), MoveStop_BS2D
+---@field ECharNewFPPAnim_PoseChange_ToCrouch_Idle number @姿态切换，蹲下（原地）(Additive), Idle
+---@field ECharNewFPPAnim_PoseChange_ToCrouch_Walk number @姿态切换，到蹲(Additive), Walk
+---@field ECharNewFPPAnim_PoseChange_ToCrouch_Run number @姿态切换，到蹲(Additive), Run
+---@field ECharNewFPPAnim_PoseChange_ToCrouch_Sprint number @姿态切换，蹲下（移动中）(Additive), Sprint
+---@field ECharNewFPPAnim_PoseChange_ToProne_Idle number @姿态切换，趴下（原地）(Additive), Idle
+---@field ECharNewFPPAnim_PoseChange_ToProne_Walk number @姿态切换，到趴(Additive), Walk
+---@field ECharNewFPPAnim_PoseChange_ToProne_Run number @姿态切换，到趴(Additive), Run
+---@field ECharNewFPPAnim_PoseChange_ToProne_Sprint number @姿态切换，趴下（移动中）(Additive), Sprint
+---@field ECharNewFPPAnim_PoseChange_ToStand_Idle number @姿态切换，站起（原地）(Additive), Idle
+---@field ECharNewFPPAnim_PoseChange_ToStand_Walk number @姿态切换，到站(Additive), Walk
+---@field ECharNewFPPAnim_PoseChange_ToStand_Run number @姿态切换，到站(Additive), Run
+---@field ECharNewFPPAnim_PoseChange_ToStand_Sprint number @姿态切换，站起（移动中）(Additive), Sprint
+---@field ECharNewFPPAnim_PickM number @拾取中(UAnimMontage)
+---@field ECharNewFPPAnim_PickL number @拾取低(UAnimMontage)
+---@field ECharNewFPPAnim_Aim number @瞄准(UAimOffsetBlendSpace)
+---@field ECharNewFPPAnim_Aim_Scope number @开镜瞄准(UAimOffsetBlendSpace)
+---@field ECharNewFPPAnim_Equip_Left_First number @装备左肩_首次(默认)(UAnimMontage)
+---@field ECharNewFPPAnim_Equip_Left number @装备左肩(默认)(UAnimMontage)
+---@field ECharNewFPPAnim_UnEquip_Left number @卸载左肩(默认)(UAnimMontage)
+---@field ECharNewFPPAnim_Equip_Right_First number @装备右肩_首次(UAnimMontage)
+---@field ECharNewFPPAnim_Equip_Right number @装备右肩(UAnimMontage)
+---@field ECharNewFPPAnim_UnEquip_Right number @卸载右肩(UAnimMontage)
+---@field ECharNewFPPAnim_Equip_Empty number @装备空手(UAnimMontage)
+---@field ECharNewFPPAnim_Hurt number @受击(UBlendSpace2D)
+---@field ECharNewFPPAnim_Hurt_New number @新版受击(UBlendSpace2D)
+---@field ECharNewFPPAnim_Reload number @武器换弹(UAnimMontage)
+---@field ECharNewFPPAnim_TacticsReload number @战术换弹(UAnimMontage)
+---@field ECharNewFPPAnim_ReloadType1 number @战术-特殊换弹1(UAnimMontage)
+---@field ECharNewFPPAnim_ReloadType2 number @全量-特殊换弹1(UAnimMontage)
+---@field ECharNewFPPAnim_Fire number @武器开火腰射(UAnimMontage)
+---@field ECharNewFPPAnim_SpecialFire number @武器特殊开火肩射(UAnimMontage)
+---@field ECharNewFPPAnim_AimFire number @武器开镜机瞄开火肩射(UAnimMontage)
+---@field ECharNewFPPAnim_FireMode_Change number @武器开火模式切换(UAnimMontage)
+---@field ECharNewFPPAnim_Accumulate number @武器蓄力(UAnimSequence)
+---@field ECharNewFPPAnim_PostFire number @武器开火结束(UAnimMontage)
+---@field ECharNewFPPAnim_Turn_L number @转身左(UAnimSequence)
+---@field ECharNewFPPAnim_Turn_R number @转身右(UAnimSequence)
+---@field ECharNewFPPAnim_PullingPlug number @拉栓(UAnimMontage)
+---@field ECharNewFPPAnim_PutDownWeapon number @收枪(UBlendSpace2D)
+---@field ECharNewFPPAnim_Peek number @侧身【模拟端】(UBlendSpace1D)
+---@field ECharNewFPPAnim_PeekScope number @侧身【主端与观战】(UBlendSpace1D)
+---@field ECharNewFPPAnim_PeekLeftAim number @左侧身瞄准(UAimOffsetBlendSpace)
+---@field ECharNewFPPAnim_PeekRightAim number @右侧身瞄准(UAimOffsetBlendSpace)
+---@field ECharNewFPPAnim_ForegripAnim number @握把(UBlendSpace1D)
+---@field ECharNewFPPAnim_SprintToProne number @疾跑到趴(UAnimSequence)
+---@field ECharNewFPPAnim_OpenDoor number @开门(UAnimMontage)
+---@field ECharNewFPPAnim_ShovelLoop number @滑铲(UAnimSequence)
+---@field ECharNewFPPAnim_EnterShovel number @滑铲进入(UAnimSequence)
+---@field ECharNewFPPAnim_LeaveShovel number @滑铲离开(UAnimSequence)
+---@field ECharNewFPPAnim_MovementUpBodyOverride number @移动上半身覆盖(UBlendSpace1D)
+---@field ECharNewFPPAnim_DropWeapon number @丢弃武器动画(UAnimMontage)
+---@field ECharNewFPPAnim_Dead number @死亡(正常)(UAnimMontage)
+---@field ECharNewFPPAnim_Dead_Swim number @死亡(游泳)(UAnimMontage)
+---@field ECharNewFPPAnim_Dead_Impact_Fly number @死亡(浮空)(UAnimMontage)
+---@field ECharNewFPPAnim_Dead_Impact_End number @死亡(浮空-落地)(UAnimMontage)
+---@field ECharNewFPPAnim_Swim_Up number @游泳（水上）(UBlendSpace2D)
+---@field ECharNewFPPAnim_Swim_Down number @游泳（水下）(UBlendSpace2D)
+---@field ECharNewFPPAnim_Swim_UpToDown number @游泳（水上到水下）(UAnimSequence)
+---@field ECharNewFPPAnim_Swim_DownToUp number @游泳（水下到水上）(UAnimSequence)
+---@field ECharNewFPPAnim_MoveChange_EnterNearDeath number @倒地进入(UAnimSequence), EnterNearDeath
+---@field ECharNewFPPAnim_MoveChange_LeaveNearDeath number @倒地退出(UAnimSequence), LeaveNearDeath
+---@field ECharNewFPPAnim_MoveChange_Dying_Rescue number @倒地救援(UAnimMontage), Rescue
+---@field ECharNewFPPAnim_UnEquip_Override number @取消装备覆盖(UAnimMontage)
+---@field ECharNewFPPAnim_Equip_Shield_Moving number @移动中装备盾牌(UAnimMontage)
+---@field ECharNewFPPAnim_UnEquip_Shield_Moving number @移动中取消装备盾牌(UAnimMontage)
+---@field ECharNewFPPAnim_WeaponInspect number @武器检视(UAnimMontage)
+---@field ECharNewFPPAnim_Dead_Rand1 number @死亡(正常)-随机1(UAnimMontage)
+---@field ECharNewFPPAnim_Dead_Rand2 number @死亡(正常)-随机2(UAnimMontage)
+---@field ECharNewFPPAnim_Dead_Forward number @死亡(正常)-向前倒(UAnimMontage)
+---@field ECharNewFPPAnim_Dead_Backward number @死亡(正常)-向后倒(UAnimMontage)
+---@field ECharNewFPPAnim_Scope_In number @右开镜(UAnimSequence)
+---@field ECharNewFPPAnim_Scope_InLeft number @左开镜(UAnimSequence)
+---@field ECharNewFPPAnim_Scope_Out number @关镜(UAnimSequence)
+---@field ECharNewFPPAnim_Scope_Angle number @开镜-侧边镜(UAnimSequence)
+---@field ECharNewFPPAnim_MoveIdle_Scope number @开镜，移动Pose(Additive), Idle/Loop
+---@field ECharNewFPPAnim_MoveLoopIdle_Scope number @开镜，移动循环动画(Additive), Idle
+---@field ECharNewFPPAnim_MoveLoopWalk_Scope number @开镜，移动循环动画(Additive), Walk
+---@field ECharNewFPPAnim_Fire_Scope number @开镜，武器开火(UAnimMontage)
+---@field ECharNewFPPAnim_PoseChange_Scope_ToCrouch_Idle number @开镜，姿态切换，蹲下（原地）(Additive), Idle
+---@field ECharNewFPPAnim_PoseChange_Scope_ToCrouch_Walk number @开镜，姿态切换，到蹲(Additive), Walk
+---@field ECharNewFPPAnim_PoseChange_Scope_ToCrouch_Run number @开镜，姿态切换，到蹲(Additive), Run
+---@field ECharNewFPPAnim_PoseChange_Scope_ToCrouch_Sprint number @开镜，姿态切换，蹲下（移动中）(Additive), Sprint
+---@field ECharNewFPPAnim_PoseChange_Scope_ToProne_Idle number @开镜，姿态切换，趴下（原地）(Additive), Idle
+---@field ECharNewFPPAnim_PoseChange_Scope_ToProne_Walk number @开镜，姿态切换，到趴(Additive), Walk
+---@field ECharNewFPPAnim_PoseChange_Scope_ToProne_Run number @开镜，姿态切换，到趴(Additive), Run
+---@field ECharNewFPPAnim_PoseChange_Scope_ToProne_Sprint number @开镜，姿态切换，趴下（移动中）(Additive), Sprint
+---@field ECharNewFPPAnim_PoseChange_Scope_ToStand_Idle number @开镜，姿态切换，站起（原地）(Additive), Idle
+---@field ECharNewFPPAnim_PoseChange_Scope_ToStand_Walk number @开镜，姿态切换，到站(Additive), Walk
+---@field ECharNewFPPAnim_PoseChange_Scope_ToStand_Run number @开镜，姿态切换，到站(Additive), Run
+---@field ECharNewFPPAnim_PoseChange_Scope_ToStand_Sprint number @开镜，姿态切换，站起（移动中）(Additive), Sprint
+---@field ECharNewFPPAnim_Fire_Volley number @武器开火-齐发(UAnimMontage)
+---@field ECharNewFPPAnim_Kick number @踢击可破坏箱(UAnimMontage)
+---@field ECharNewFPPAnim_Accumulate_Scope number @武器开镜蓄力(UAnimSequence)
+---@field ECharNewFPPAnim_Max number @无
+ECharacterNewFPPAnimType = {}
+
+
+---@class ECharWeaponAnimType
+---@field ECharWeaponAnim_Idle number @Idle(UAnimSequence)
+---@field ECharWeaponAnim_ChargeReload number @完全换弹(UAnimMontage)
+---@field ECharWeaponAnim_TacticalReload number @战术换弹(UAnimMontage)
+---@field ECharWeaponAnim_ChargeReload_Type1 number @完全换弹-特殊1(UAnimMontage)
+---@field ECharWeaponAnim_TacticalReload_Type1 number @战术换弹-特殊1(UAnimMontage)
+---@field ECharWeaponAnim_Bolt number @拉栓(UAnimMontage)
+---@field ECharWeaponAnim_Fire number @开火(UAnimMontage)
+---@field ECharWeaponAnim_Fire_Volley number @开火-齐发(UAnimMontage)
+---@field ECharWeaponAnim_Drop number @丢弃(UAnimMontage)
+---@field ECharWeaponAnim_BackPackToIdle number @掏枪(UAnimMontage)
+---@field ECharWeaponAnim_BackPackToIdle_First number @掏枪_首次(UAnimMontage)
+---@field ECharWeaponAnim_IdleToBackPack number @收枪(UAnimMontage)
+---@field ECharWeaponAnim_Inspect number @检视(UAnimMontage)
+---@field ECharWeaponAnim_SlideLock number @空仓挂机(UAnimSequence)
+---@field ECharWeaponAnim_Accumulate number @蓄力(UAnimSequence)
+---@field ECharWeaponAnim_Max number @无
+ECharWeaponAnimType = {}

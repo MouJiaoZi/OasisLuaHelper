@@ -1,0 +1,25 @@
+---@meta
+
+---@class UGeneralProjectSettings: UObject
+---@field CompanyName string @The name of the company (author, provider) that created the project.
+---@field CompanyDistinguishedName string @The distinguished name of the company (author, provider) that created the project.
+---@field CopyrightNotice string @The project's copyright and/or trademark notices.
+---@field Description string @The project's description text.
+---@field Homepage string @The project's homepage URL.
+---@field LicensingTerms string @The project's licensing terms.
+---@field PrivacyPolicy string @The project's privacy policy.
+---@field ProjectID FGuid @The project's unique identifier.
+---@field ProjectName string @The project's name.
+---@field ProjectVersion string @The project's version number.
+---@field SupportContact string @The project's support contact information.
+---@field ProjectDisplayedTitle string @The project's title as displayed on the window title bar (can include the tokens {GameName}, {PlatformArchitecture}, or {RHIName}, which will be replaced with the specified text)
+---@field ProjectDebugTitleInfo string @Additional data to be displayed on the window title bar in non-shipping configurations (can include the tokens {GameName}, {PlatformArchitecture}, or {RHIName}, which will be replaced with the specified text)
+---@field bShouldWindowPreserveAspectRatio boolean @Should the game's window preserve its aspect ratio when resized by user.
+---@field bUseBorderlessWindow boolean @Should the game use a borderless Slate window instead of a window with system title bar and border
+---@field bStartInVR boolean @Should the game attempt to start in VR, regardless of whether -vr was set on the commandline
+---@field bStartInAR boolean @Should the game start in AR
+---@field bAllowWindowResize boolean
+---@field bAllowClose boolean
+---@field bAllowMaximize boolean
+---@field bAllowMinimize boolean
+local UGeneralProjectSettings = {}

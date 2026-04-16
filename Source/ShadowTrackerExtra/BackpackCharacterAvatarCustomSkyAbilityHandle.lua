@@ -1,0 +1,18 @@
+---@meta
+
+---@class UBackpackCharacterAvatarCustomSkyAbilityHandle: UBackpackCharacterAvatarAbilityHandle
+local UBackpackCharacterAvatarCustomSkyAbilityHandle = {}
+
+function UBackpackCharacterAvatarCustomSkyAbilityHandle:ServerModifyFocusTarget() end
+
+function UBackpackCharacterAvatarCustomSkyAbilityHandle:ServerRestoreFocusTarget() end
+
+function UBackpackCharacterAvatarCustomSkyAbilityHandle:BP_ServerModifyFocusTarget() end
+
+function UBackpackCharacterAvatarCustomSkyAbilityHandle:BP_ServerRestoreFocusTarget() end
+
+---@param InCharacter ASTExtraPlayerCharacter
+function UBackpackCharacterAvatarCustomSkyAbilityHandle:ClientModifyFocusTarget(InCharacter) end
+
+---@param InCharacter ASTExtraPlayerCharacter
+function UBackpackCharacterAvatarCustomSkyAbilityHandle:ClientRestoreFocusTarget(InCharacter) end

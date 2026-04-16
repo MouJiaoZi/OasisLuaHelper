@@ -1,0 +1,22 @@
+---@meta
+
+---@class EGMDataType
+---@field EGMDT_None number
+---@field EGMDT_Team number
+---@field EGMDT_DeathMatchRecord number
+---@field EGMDT_PlayerStart number
+---@field EGMDT_DynamicObject number
+---@field EGMDT_SyncGameInfo number
+---@field EGDMT_AIProbe number
+---@field EGDMT_PxgCrowdMove number
+---@field EGDMT_AirRoute number
+---@field EGDMT_Navigation number
+---@field EGMDT_GlobalSettings number
+---@field EGDMT_AirDrop number
+---@field EGMDT_TherionShow number
+---@field EGDMT_PoisonCircle number
+---@field EGDMT_AirAttack number
+---@field EGDMT_PlayerRespawn number
+---@field EGDMT_GameModeStateManager number
+---@field EGDMT_LevelManager number
+EGMDataType = {}

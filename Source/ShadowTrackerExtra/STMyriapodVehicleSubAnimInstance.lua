@@ -1,0 +1,36 @@
+---@meta
+
+---@class USTMyriapodVehicleSubAnimInstance: UAnimInstanceBase
+---@field Speed number
+---@field SpeedXY number
+---@field VelocityXY number
+---@field VelocityZ number
+---@field AngularSpeed number
+---@field AngularSpeedLerpFactor number
+---@field MoveRight number
+---@field MoveForward number
+---@field MoveRight_InAir_ScaleValue number
+---@field bJumpAllow boolean
+---@field bSeriousInjury boolean
+---@field bIsBrakingPlay boolean
+---@field bIsInAir boolean
+---@field bIsSwimming boolean
+---@field bIsFlying boolean
+---@field MoveMode EMovementMode
+---@field Velocity FVector
+---@field bVeloctiyNearZero boolean
+---@field bVelocityZEQFalling boolean
+---@field bIsLowSpeed boolean
+---@field bIsLowSpeedXY boolean
+---@field bIsMoveRightZero boolean
+---@field bIsSpeedAndMoveRightNoZero boolean
+---@field bIsMovementToJumpFalling boolean
+---@field bMovementToTurnStart boolean
+---@field bMovementToTurn boolean
+---@field bTurnToTurnEnd boolean
+---@field bMovementToTurnStartXY boolean
+---@field bMovementToTurnXY boolean
+---@field bTurnToTurnEndXY boolean
+---@field bIsJumping boolean
+---@field bDriverUseWeapon boolean
+local USTMyriapodVehicleSubAnimInstance = {}

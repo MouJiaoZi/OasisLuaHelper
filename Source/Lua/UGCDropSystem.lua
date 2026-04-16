@@ -1,0 +1,20 @@
+---@meta
+
+---掉落系统接口库
+---@class UGCDropSystem
+UGCDropSystem = {}
+
+---根据掉落信息进行物品掉落
+---根据权重掉落：每次掉落一个物品
+---根据概率掉落：每次根据物品表的物品数量掉落物品
+---生效范围：服务器&客户端
+---@param DropID number @掉落ID
+---@return table @掉落结果 {key-物品ID : value-物品数量}
+function UGCDropSystem.DropItems(DropID) end
+
+---根据掉落组信息进行物品掉落
+---掉落组配置参考掉落表格配置（DropGroup Table）
+---生效范围：服务器&客户端
+---@param DropGroupID number @掉落组ID
+---@return table @掉落结果 {key-物品ID : value-物品数量}
+function UGCDropSystem.DropItemsByGroup(DropGroupID) end

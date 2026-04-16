@@ -1,0 +1,80 @@
+---@meta
+
+---@class ECollectedEventDataEventId
+---@field GameStatus number @对局状态起始事件
+---@field StartMatching number @开始匹配
+---@field PlaneSegment number @飞机航线
+---@field PlaneSegmentSelection number @飞机航线选择
+---@field PlaneCarrying number @飞机运载
+---@field PuttingDownCakeFireWorks number @放下胜利蛋糕、烟花
+---@field RankingScore number @进入结算
+---@field TakeDropItem number @拾取、丢弃物品
+---@field UsingItem number @使用物品
+---@field ConsumingItem number @消耗物品
+---@field Falling number @滞空
+---@field Climbing number @翻越
+---@field Carring number @背负
+---@field InFieldOfView number @视野范围内
+---@field UnderEnermyAttack number @受到敌人攻击
+---@field TakingDamage number @非攻击掉血
+---@field ReducingSignalValue number @掉信号值
+---@field CircleReducing number @信号区缩减
+---@field CircleChange number @信号区改变
+---@field Rescue number @扶助
+---@field DrivingVehicle number @载具驾驶
+---@field VehicleAvatar number @载具换装
+---@field ReloadingBullet number @换子弹
+---@field AirDrop number @空投
+---@field PlayerPos number @玩家当前位置
+---@field WeaponUsage number @武器使用(装备，卸下，开火)
+---@field ItemPackageCreate number @创建可拾取的物品箱，例如空投箱
+---@field ItemAttach number @配件安装拆卸
+---@field SyncInfo number @同步信息
+---@field PlayerInfo number @人物信息
+---@field MiniMapShowInfo number @小地图显示信息
+---@field Following number @跟随动作
+---@field MiniMapPinning number @地图标点
+---@field Blocking number @屏蔽操作
+---@field SwitchingPersonPerspective number @切换人称
+---@field Dancing number @跳舞
+---@field PickingupTombBox number @舔包
+---@field AirAttacking number @空袭
+---@field CurrentWeapon number @更换手持物品
+---@field SceneInfo number @场景信息
+---@field TeamInfo number @队伍信息
+---@field EnteringLeavingTeam number @进出队伍
+---@field OnOffline number @上线下线
+---@field RankList number @上下榜
+---@field TextMessage number @文字信息
+---@field PawnState number @人物状态
+---@field OpenCloseDoor number @开关门
+---@field MicSpeakerState number @麦喇叭状态
+---@field VehicleState number @载具状态
+---@field TravelDistance number @行进距离
+---@field EnergyState number @能量值状态
+---@field TeamDataChanged number @队伍数据变化
+---@field MaxKiller number @淘汰王
+---@field UnderEnermyAttack_Broadcast number @受到敌人攻击（广播）
+---@field TakingDamage_Broadcast number @非攻击掉血（广播）
+---@field QuickSign number @快捷标点
+---@field WeaponOperation number @武器使用情况
+---@field PickupBoxOpen number @拾取盒子（空投）打开
+---@field VehicleConnection number @载具连接、断开
+---@field CollectedEventTypeChanged number @Collected Event Type 改变
+---@field DoorBroken number @门被破坏
+---@field CG008_QiXiFestival number @CG008 七夕节
+---@field AsianGamesGuidePoint number @亚运会引导点相关
+---@field AsianGamesParachute number @亚运会跳伞相关
+---@field AsianGamesAthletePosition number @亚运会选手位置相关
+---@field AsianGamesVehiclePosition number @亚运会载具位置相关
+---@field EscapePlayerValue number @E玩法玩家收益
+---@field EscapePlayerStatus number @E玩法玩家状态
+---@field OBMatchInfo number @歼灭模式对局信息（对战区名称, 总回合数）
+---@field OBAttackDefenseInfo number @歼灭模式攻守信息（攻击方, 守护方）
+---@field OBRoundInfo number @歼灭模式回合信息（开始, 结束）
+---@field OBTeamScore number @歼灭模式比分信息（攻方分数, 守方分数）
+---@field SecretRoomDoorOpen number @海岛密室门被开启
+---@field LTPlayerValue number @L玩法玩家收益
+---@field LTPlayerSeasonValue number @L玩法玩家赛季收益
+---@field EnumMax number
+ECollectedEventDataEventId = {}

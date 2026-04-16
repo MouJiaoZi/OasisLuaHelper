@@ -1,0 +1,55 @@
+---@meta
+
+---@class EOpenHarmonyScreenOrientation
+---@field UNSPECIFIED number @Represents an undefined orientation mode, determined by the system.
+---@field Portrait number @Portrait orientation (the display is taller than it is wide).
+---@field Landscape number @Landscape orientation (the display is wider than it is tall).
+---@field PORTRAIT_INVERTED number @Represents reverse portrait display mode.
+---@field LANDSCAPE_INVERTED number @Represents reverse landscape display mode.
+---@field AUTO_ROTATION number @Represents sensor auto-rotation mode.
+---@field AUTO_ROTATION_PORTRAIT number @Represents sensor auto-rotation mode in portrait.
+---@field AUTO_ROTATION_LANDSCAPE number @Represents sensor auto-rotation mode in landscape.
+---@field AUTO_ROTATION_RESTRICTED number @Represents auto-rotation mode controlled by a switch.
+---@field AUTO_ROTATION_PORTRAIT_RESTRICTED number @Represents auto-rotation mode in portrait, controlled by a switch.
+---@field AUTO_ROTATION_LANDSCAPE_RESTRICTED number @Represents auto-rotation mode in landscape, controlled by a switch.
+---@field LOCKED number @Represents locked mode.
+EOpenHarmonyScreenOrientation = {}
+
+
+---Implements the settings for the OpenHarmony runtime platform.
+---@class UOpenHarmonyRuntimeSettings: UObject
+---@field PackageName string @下面的配置项会保存到 [ProjectName]/Config/DefaultEngine.ini 的 /Script/OpenHarmonyRuntimeSettings.OpenHarmonyRuntimeSettings 项中。
+---@field AppName string
+---@field VersionCode number
+---@field VersionDisplayName string
+---@field bBuildForArmV7 boolean
+---@field bBuildForArm64 boolean
+---@field bBuildForX86 boolean
+---@field bBuildForX8664 boolean
+---@field bBuildForES2 boolean
+---@field bBuildForES31 boolean
+---@field bSupportsVulkan boolean
+---@field bShowLaunchImage boolean @Show the launch image as a startup slash screen
+---@field bBuildAPP boolean
+---@field CertPath FDirectoryPath
+---@field StorePassword string
+---@field bEnableNewKeyboard boolean
+---@field Orientation EOpenHarmonyScreenOrientation
+---@field KeyAlias string
+---@field KeyPassword string
+---@field Profile FDirectoryPath
+---@field SignAlg string
+---@field StoreFile FDirectoryPath
+---@field bMultiTargetFormat_ETC1 boolean @Include ETC1 textures when packaging with the OpenHarmony (Multi) variant. ETC1 will be included if no other formats are selected.
+---@field bMultiTargetFormat_ETC2 boolean @Include ETC2 textures when packaging with the OpenHarmony (Multi) variant.
+---@field bMultiTargetFormat_DXT boolean @Include DXT textures when packaging with the OpenHarmony (Multi) variant.
+---@field bMultiTargetFormat_PVRTC boolean @Include PVRTC textures when packaging with the OpenHarmony (Multi) variant.
+---@field bMultiTargetFormat_ATC boolean @Include ATC textures when packaging with the OpenHarmony (Multi) variant.
+---@field bMultiTargetFormat_ASTC boolean @Include ASTC textures when packaging with the OpenHarmony (Multi) variant.
+---@field TextureFormatPriority_ETC1 number @Priority for the ETC1 texture format when launching on device or packaging using OpenHarmony_Multi. The highest priority format supported by the device will be used. Default value is 0.1.
+---@field TextureFormatPriority_ETC2 number @Priority for the ETC2 texture format when launching on device or packaging using OpenHarmony_Multi. The highest priority format supported by the device will be used. Default value is 0.2.
+---@field TextureFormatPriority_DXT number @Priority for the DXT texture format when launching on device or packaging using OpenHarmony_Multi. The highest priority format supported by the device will be used. Default value is 0.6.
+---@field TextureFormatPriority_PVRTC number @Priority for the PVRTC texture format when launching on device or packaging using OpenHarmony_Multi. The highest priority format supported by the device will be used. Default value is 0.8.
+---@field TextureFormatPriority_ATC number @Priority for the ATC texture format when launching on device or packaging using OpenHarmony_Multi. The highest priority format supported by the device will be used. Default value is 0.5.
+---@field TextureFormatPriority_ASTC number @Priority for the ASTC texture format when launching on device or packaging using OpenHarmony_Multi. The highest priority format supported by the device will be used. Default value is 0.9.
+local UOpenHarmonyRuntimeSettings = {}

@@ -1,0 +1,24 @@
+---@meta
+
+---@class UParticleModuleBeamNoise: UParticleModuleBeamBase
+---@field bLowFreq_Enabled number @Is low frequency noise enabled.
+---@field Frequency number @The frequency of noise points.
+---@field Frequency_LowRange number @If not 0, then the frequency will select a random value in the range [Frequency_LowRange..Frequency]
+---@field NoiseRange any @The noise point ranges.
+---@field NoiseRangeScale any @A scale factor that will be applied to the noise range.
+---@field bNRScaleEmitterTime number @If true,  the NoiseRangeScale will be grabbed based on the emitter time. If false, the NoiseRangeScale will be grabbed based on the particle time.
+---@field NoiseSpeed any @The speed with which to move each noise point.
+---@field bSmooth number @Whether the noise movement should be smooth or 'jerky'.
+---@field NoiseLockRadius number @Default target-point information to use if the beam method is endpoint.
+---@field bNoiseLock number @INTERNAL - Whether the noise points should be locked.
+---@field bOscillate number @Whether the noise points should be oscillate.
+---@field NoiseLockTime number @How long the  noise points should be locked - 0.0 indicates forever.
+---@field NoiseTension number @The tension to apply to the tessellated noise line.
+---@field bUseNoiseTangents number @If true, calculate tangents at each noise point.
+---@field NoiseTangentStrength any @The strength of noise tangents, if enabled.
+---@field NoiseTessellation number @The amount of tessellation between noise points.
+---@field bTargetNoise number @Whether to apply noise to the target point (or end of line in distance mode...) If true, the beam could potentially 'leave' the target...
+---@field FrequencyDistance number @The distance at which to deposit noise points. If 0.0, then use the static frequency value. If not, distribute noise points at the given distance, up to the static Frequency value. At that point, evenly distribute them along the beam.
+---@field bApplyNoiseScale number @If true, apply the noise scale to the beam.
+---@field NoiseScale any @The scale factor to apply to noise range. The lookup value is determined by dividing the number of noise points present by the maximum number of noise points (Frequency).
+local UParticleModuleBeamNoise = {}

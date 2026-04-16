@@ -1,0 +1,23 @@
+---@meta
+
+---@class UUAESkillAction_MeleeAttackDamage: UUAESkillAction
+---@field VictimBuffName string
+---@field HitEnemySkillEvent string
+---@field bUseDynamicDamageAmount boolean
+---@field DamageAmount number
+---@field DamageAmountHeadshot number
+---@field DynamicDamageAmountKey FUAEBlackboardKeySelector
+---@field DynamicAmountHeadshotKey FUAEBlackboardKeySelector
+---@field HitRate number
+---@field MeleeType EMeleeAttackType
+---@field bIsCheckBackAttack boolean
+---@field BackAttackBuffName string
+---@field BackAttackAngle number @Angle : (0 - 90) *
+---@field bAutoCalcItemIDAndSubDamageType boolean
+---@field SubMeleeDamageType EMeleeDamageSubType
+---@field SpecificItemID number
+---@field PreSetDamageTypeTags ULuaArrayHelper<string>
+---@field bSkipIsInFight boolean
+---@field bGetOwnerController boolean
+---@field DamageTypeClass UDamageType
+local UUAESkillAction_MeleeAttackDamage = {}

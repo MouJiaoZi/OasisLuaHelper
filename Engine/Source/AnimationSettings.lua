@@ -1,0 +1,28 @@
+---@meta
+
+---Default animation settings.
+---@class UAnimationSettings: UDeveloperSettings
+---@field CompressCommandletVersion number
+---@field KeyEndEffectorsMatchNameArray ULuaArrayHelper<string>
+---@field DefaultCompressionAlgorithm UAnimCompress
+---@field RotationCompressionFormat AnimationCompressionFormat
+---@field TranslationCompressionFormat AnimationCompressionFormat
+---@field MaxCurveError number @Max error for compression of curves using remove redundant keys
+---@field AlternativeCompressionThreshold number @The alternate error threshold (0.0 means don't try anything other than the current / default scheme) Determines the current setting for world-space error tolerance in the animation compressor. When requested, animation being compressed will also consider an alternative compression method if the end result of that method produces less error than the AlternativeCompressionThreshold. Also known as "Max End Effector Error"
+---@field ForceRecompression boolean
+---@field bOnlyCheckForMissingSkeletalMeshes boolean
+---@field bForceBelowThreshold boolean @If true and the existing compression error is greater than Alternative Compression Threshold, then any compression technique (even one that increases the size) with a lower error will be used until it falls below the threshold
+---@field bFirstRecompressUsingCurrentOrDefault boolean @If true, then the animation will be first recompressed with it's current compressor if non-NULL, or with the global default compressor (specified in the engine ini) Also known as "Run Current Default Compressor"
+---@field bRaiseMaxErrorToExisting boolean @If true and the existing compression error is greater than Alternative Compression Threshold, then Alternative Compression Threshold will be effectively raised to the existing error level
+---@field bTryFixedBitwiseCompression boolean @If true, the uniform bitwise techniques will be tried
+---@field bTryPerTrackBitwiseCompression boolean @If true, the per-track compressor techniques will be tried
+---@field bTryLinearKeyRemovalCompression boolean @If true, the linear key removal techniques will be tried
+---@field bTryIntervalKeyRemoval boolean @If true, the resampling techniques will be tried
+---@field bEnablePerformanceLog boolean
+---@field bStripAnimationDataOnDedicatedServer boolean @If true, animation track data will be stripped from dedicated server cooked data
+---@field AnimUpdateRateDistanceFactorThesholdsBelow60FPS ULuaArrayHelper<number>
+---@field AnimUpdateRateDistanceFactorThesholdsIn60FPS ULuaArrayHelper<number>
+---@field AnimUpdateRateDistanceFactorThesholdsIn90FPS ULuaArrayHelper<number>
+---@field AnimUpdateRateDistanceFactorThesholdsIn120FPS ULuaArrayHelper<number>
+---@field AnimUpdateRateDistanceFactorThesholdsInPC ULuaArrayHelper<number>
+local UAnimationSettings = {}

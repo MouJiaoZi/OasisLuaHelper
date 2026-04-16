@@ -1,0 +1,54 @@
+---@meta
+
+---@class ESimplePawnState
+---@field Move number
+---@field Sprint number @//*UGC* 移动中
+---@field Stand number @//*UGC* 冲刺中
+---@field Crouch number @//*UGC* 站立中
+---@field Prone number @//*UGC* 蹲伏中
+---@field Jump number @//*UGC* 匍匐中
+---@field Picth number @//*UGC* 跳跃中
+---@field MeleeAttack number @//*UGC* 侧身中
+---@field HoldGrenade number @//*UGC* 近战攻击中
+---@field DriveVehicle number @//*UGC* 握持投掷物中
+---@field InVehicle number @//*UGC* 驾驶载具中
+---@field LeanOutVehicle number @//*UGC* 在载具中
+---@field Swim number @//*UGC* 载具探身中
+---@field Vault number @//*UGC* 游泳中
+---@field PlayEmote number @//*UGC* 攀爬中
+---@field Interacting number @//*UGC* 表情动作中
+---@field InParachute number
+---@field Pose_Stand number
+---@field Pose_Crouch number
+---@field Pose_Prone number
+---@field Pose_Sprint number
+---@field Pose_CrouchSprint number
+---@field Pose_Crawl number
+---@field Pose_Swim number
+---@field Pose_SwimSprint number
+---@field Pose_Dying number
+---@field Stun number
+---@field DisMove number
+---@field DisSprint number @//*UGC* 移动中
+---@field DisStand number @//*UGC* 冲刺中
+---@field DisCrouch number @//*UGC* 站立中
+---@field DisProne number @//*UGC* 蹲伏中
+---@field DisJump number @//*UGC* 匍匐中
+---@field DisPicth number @//*UGC* 跳跃中
+---@field DisMeleeAttack number @//*UGC* 侧身中
+---@field DisHoldGrenade number @//*UGC* 近战攻击中
+---@field DisDriveVehicle number @//*UGC* 握持投掷物中
+---@field DisInVehicle number @//*UGC* 驾驶载具中
+---@field DisLeanOutVehicle number @//*UGC* 在载具中
+---@field DisSwim number @//*UGC* 载具探身中
+---@field DisVault number @//*UGC* 游泳中
+---@field DisPlayEmote number @//*UGC* 攀爬中
+---@field DisInteracting number @//*UGC* 表情动作中
+---@field DisInParachute number
+---@field _Max number
+ESimplePawnState = {}
+
+
+---@class FSimplePawnStateRepData
+---@field CurrentStates number
+FSimplePawnStateRepData = {}

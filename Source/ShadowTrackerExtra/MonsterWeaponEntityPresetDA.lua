@@ -1,0 +1,61 @@
+---@meta
+
+---怪物武器预设配置结构体 - 存储武器的所有可序列化配置
+---@class FMonsterWeaponEntityPresetConfig
+---@field WeaponType EMonsterWeaponType @武器类型
+---@field WeaponIndex number @枪械索引
+---@field TakeOffWeaponTime number @收起时长(秒)
+---@field TakeWeaponTime number @掏出时长(秒)
+---@field StandToCrouchTime number @站立转蹲下时长(秒)
+---@field CrouchToStandTime number @蹲下转站立时长(秒)
+---@field PeekInTime number @进入探头时长(秒)
+---@field PeekOutTime number @退出探头时长(秒)
+---@field PeekSwitchTime number @切换探头时长(秒)
+---@field AnimAssetMap ULuaMapHelper<FGameplayTag, FMonsterWeaponAnimConfig> @角色动画资源映射表
+---@field WeaponAnimAssetMap ULuaMapHelper<FGameplayTag, FMonsterWeaponAnimConfig> @武器动画资源映射表
+---@field WeaponAnimInstanceClass UAnimInstance @武器AnimInstance类
+---@field WeaponMesh USkeletalMesh @枪械Mesh
+---@field WeaponMeshHandSocket string @枪械Mesh手部挂点
+---@field WeaponMeshHandSocketOffset FTransform @枪械Mesh手部挂点偏移
+---@field WeaponMeshNoUseSocket string @枪械Mesh非使用挂点
+---@field WeaponMeshNoUseSocketOffset FTransform @枪械Mesh非使用挂点偏移
+---@field MuzzleSocket string @枪口Socket
+---@field MuzzleEffect UParticleSystem @枪口火焰特效
+---@field WeaponDamage number @枪械伤害
+---@field DamageTypeClass UDamageType @伤害类型Class
+---@field ShootHitRatio number @射击命中概率
+---@field ReloadTime number @换弹时长(秒)
+---@field ReloadTimeMagOut number @弹匣取下时间(秒)
+---@field ReloadTimeMagIn number @弹匣安装时间(秒)
+---@field MagOutSocket string @弹匣取下时挂接到角色的Socket
+---@field ShootRate number @射速(每秒射击次数)
+---@field MaxBulletNum number @最大子弹数
+---@field bFireFaceTarget boolean @开火时是否瞬间转向目标
+---@field AttachmentInfos ULuaArrayHelper<FAttachmentInfo> @武器配件配置列表
+---@field AttachmentSocket_Muzzle string
+---@field AttachmentSocket_Grip string
+---@field AttachmentSocket_Mag string
+---@field AttachmentSocket_Gunstock string
+---@field AttachmentSocket_Upper_Large string
+---@field AttachmentSocket_Upper_Small string
+---@field AttachmentSocket_Upper_Default string
+---@field AttachmentSocket_Ammo string
+---@field AttachmentSocket_Upper_Angled string
+---@field AttachmentSocket_RearGrip string
+---@field AttachmentSocket_RefitSight string
+---@field AttachmentSocket_Killscore_L string
+---@field AttachmentSocket_Killscore_R string
+---@field SingleShootAudio UAkAudioEvent @单发开火音效
+---@field bTakeWeaponAnimReverse boolean @掏枪动画是否倒放
+---@field bTakeOffWeaponAnimReverse boolean @收枪动画是否倒放
+---@field TakeOffWeaponAttachTime number @收枪挂接延迟时间(秒)
+---@field TakeWeaponAttachTime number @掏枪挂接延迟时间(秒)
+FMonsterWeaponEntityPresetConfig = {}
+
+
+---怪物武器预设DataAsset - 用于存储和复用武器配置
+---@class UMonsterWeaponEntityPresetDA: UDataAsset
+---@field PresetName string @预设名称
+---@field PresetDescription string @预设描述
+---@field WeaponConfig FMonsterWeaponEntityPresetConfig @武器配置
+local UMonsterWeaponEntityPresetDA = {}

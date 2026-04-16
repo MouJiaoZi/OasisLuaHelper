@@ -1,0 +1,45 @@
+---@meta
+
+---@class USTExtraMissileMovementComponent: UPawnMovementComponent
+---@field IsConstantSpeed boolean
+---@field ForwardAcc number
+---@field ForwardSpeed number
+---@field BoostForwardSpeed number
+---@field AccToBoostSpeedTime number
+---@field UpRotateSpeed number
+---@field DownRotateSpeed number
+---@field MaxDownPitch number
+---@field MaxPitchAngle number
+---@field YawRotateSpeed number
+---@field MaxYawAngle number
+---@field MaxRollBalanceSpeed number
+---@field MaxRollBalanceAngle number
+---@field AntiGravitySpeed number
+---@field MaxGravitySpeed number
+---@field UpdateDistanceToLandTickInterval number
+---@field LandTraceMaxHeight number
+---@field NormalSpeedCameraOffset number
+---@field MaxSpeedCameraOffset number
+---@field MaxSpeedFOVOffset number
+---@field DefaultHalfFOV number
+---@field CameraRotationPitch number
+---@field CameraRotationYaw number
+---@field CameraInputInitialized number
+---@field RepCameraRotationPitch number
+---@field RepCameraRotationYaw number
+---@field Launched boolean
+---@field Boosting boolean
+---@field CacheLinearVel FVector
+---@field PitchInput number
+---@field YawInput number
+---@field UpdateDistanceToLandTickTime number
+---@field NowDisToLand number
+---@field CacheGravitySpeed number
+---@field AccToBoostTimer number
+---@field SpeedAlpha number
+---@field CacheScreenEffectMeshLoc FVector
+local USTExtraMissileMovementComponent = {}
+
+---@param NewCameraRotationPitch number
+---@param NewCameraRotationYaw number
+function USTExtraMissileMovementComponent:ServerUpdateInput(NewCameraRotationPitch, NewCameraRotationYaw) end

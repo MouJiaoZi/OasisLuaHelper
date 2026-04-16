@@ -1,0 +1,26 @@
+---@meta
+
+---@class UBTTask_UGC_AnimalFindRandomPoint: UBTTaskNode
+---@field CenterBlackboardKey any
+---@field OutputBlackboardKey any
+---@field SearchRadiusRange FVector2D
+---@field TestTraceChannel ECollisionChannel
+---@field QueryMobilityType EOverrideQueryMobilityType
+---@field TraceHeightOffsetUp number
+---@field TraceHeightOffsetDown number
+---@field bDoNavmeshProjectTest boolean
+---@field ProjectFilterClass UNavigationQueryFilter @"None" will result in default filter being used
+---@field bAllowPointInWater boolean
+---@field ValidTargetLocZOffset number
+---@field bDoForwardCollisionTest boolean
+---@field ForwardCollisionTestDistance number
+---@field ForwardCollisionTraceChannel ECollisionChannel
+---@field ForwardCollisionQueryMobilityType EOverrideQueryMobilityType
+---@field ForwardCollisionExcludeAngle number @如参考点前方有碰撞，剔除参考点前方该角度内的点
+---@field bLimitResultInForwardAngle boolean @只选择参考点前方某个角度内的点
+---@field LimitInForwardAngle number @只选择参考点前方该角度内的点（双向）
+---@field TryFindLocNum number
+---@field bDebugDrawTargetPoint boolean
+---@field DebugDrawPointTime number
+---@field bDebugDrawForwardCollisionTestLine boolean
+local UBTTask_UGC_AnimalFindRandomPoint = {}

@@ -1,0 +1,77 @@
+---@meta
+
+---OB操作上报，用于蓝图调用
+---@class EOBReportReason_BP
+---@field None number
+---@field SwitchToFollowView number @切换到跟随视角
+---@field SwitchToFreeView number @切换到自由视角
+---@field SwitchShowOwnWeapon number @切换显示自身武器
+---@field ToggleMapInOB number @开关地图
+---@field TogglePlayerListInOB number @开关玩家列表
+---@field SwitchToTeammatePrev number @切换到上一个队友
+---@field SwitchToTeammateNext number @切换到下一个队友
+---@field ToggleTPPFreeView number @切换TPP自由视角
+---@field ToggleVehicleView number @切换车辆视角
+---@field OBVehicleLookBack number @车辆视角向后看
+---@field ToggleAirPhoto number @航拍模式
+---@field CameraMoveFar number @镜头移远
+---@field CameraMoveNear number @镜头移近
+---@field SwitchMouseShowType number @切换鼠标显示类型
+---@field ReplaySkipTimeComfirm number @回放跳过时间确认
+---@field OBForceToggleTPPView number @强制切换TPP视角
+---@field SwitchToTeam_InputOneNum number @输入队伍数字
+---@field SwitchToTeam_DelOneNum number @删除队伍数字
+---@field SwitchToTeam_ClearTeamID number @清空队伍ID
+---@field SwitchToTeam_PostTeamID number @提交队伍ID
+---@field SwitchToTeammate number @切换队友
+---@field SwitchToTeammate_WithBlend number @带混合的切换队友
+---@field ToggleUI number @显示隐藏游戏UI
+---@field ToggleLiteOBUI number @切换轻量OBUI
+---@field ToggleLockMouseInOB number @自由视角隐藏鼠标模式
+---@field RotatingOBFreeViewCamera_Clockwise number @公转镜头顺时针
+---@field RotatingOBFreeViewCamera_Counterclockwise number @公转镜头逆时针
+---@field OBSSwitchTeamLogo number @OBS切换队伍LOGO显示
+---@field OBSSwitchToPreTeam number @OBS手柄切换到上一队
+---@field OBSSwitchToNextTeam number @OBS手柄切换到下一队
+---@field OBChangeCheckDistance_Add number @增加观察距离
+---@field OBChangeCheckDistance_Reduce number @减少观察距离
+---@field OBChangeCheckDistance_ReSet number @重置观察距离
+---@field OBChangeBisOpenEnemyHeadUI number @开关敌人头部UI
+---@field OBChangeProjSmokeAlpha number @切换烟雾半透明
+---@field SpeedUpMovement number @加速（Shift）
+---@field SpeedDownMovement number @减速（Ctrl）
+---@field OnSpeedUpLevel number @移动速度增加
+---@field OnSpeedDownLevel number @移动速度减少
+---@field OnSpeedResetLevel number @移动速度重置
+---@field OnRotSpeedUpLevel number @转动速度增加
+---@field OnRotSpeedDownLevel number @转动速度减少
+---@field OnRotSpeedResetLevel number @转动速度重置
+---@field OnRightClickOBMap number @右键点击大地图任意位置
+---@field ToggleOutline number @切换轮廓（X键）
+---@field ToggleBackUpMovementAndCameraParams number @切换备份移动和摄像机参数（K键）
+---@field ClickPlayerListJump number @点击玩家列表内跳转
+---@field ClickTeamInfoJump number @点击队伍信息跳转
+---@field ClickSceneNameJump number @点击场景名条跳转
+---@field JumpToKillBattlefield number @跳转击杀信息战场
+---@field ClickMapOBButton number @点击地图【观战】按钮
+---@field ClickMapRouteButton number @点击地图【路线】按钮
+---@field CameraPitchDown number @操控镜头垂直向下（Q键）
+---@field CameraPitchUp number @操控镜头垂直向上（E键）
+---@field CameraDirectionInFreeView number @操控自由视角镜头方向(WASD)
+---@field ToggleGrenadeWindow number @开关跟雷窗口功能（T键）
+---@field TogglePickupList number @打开/关闭拾取列表（P键）
+---@field ShowPlayerBackpackInSubway number @地铁打开显示选手背包（N键）
+---@field ShowTeamLine number @显示队伍划线（:键）
+---@field ShowTeamPoint number @显示队伍标点（;键）
+---@field TogglePlayerInfoPanelInSubway number @地铁开关选手信息面板二级界面（O）
+---@field RemoveFogInSubway number @地铁玩法OB一键去除迷雾（R键）
+---@field SwitchToDamagerView number @切换施加伤害者视角（F5键）
+---@field ToggleMouseInDefaultView number @默认视角下鼠标显隐（Alt键）
+---@field TogglePlayerOverview number @打开关闭玩家总览界面（Tab键）
+EOBReportReason_BP = {}
+
+
+---@class EOBReportReason
+---@field None number
+---@field OB_Operation number
+EOBReportReason = {}

@@ -1,0 +1,25 @@
+---@meta
+
+---@class UAnimCompress_PerTrackCompression: UAnimCompress_RemoveLinearKeys
+---@field MaxZeroingThreshold number @Maximum threshold to use when replacing a component with zero. Lower values retain more keys, but yield less compression.
+---@field MaxPosDiffBitwise number @Maximum position difference to use when testing if an animation key may be removed. Lower values retain more keys, but yield less compression.
+---@field MaxAngleDiffBitwise number @Maximum angle difference to use when testing if an animation key may be removed. Lower values retain more keys, but yield less compression.
+---@field MaxScaleDiffBitwise number @Maximum position difference to use when testing if an animation key may be removed. Lower values retain more keys, but yield less compression.
+---@field AllowedRotationFormats ULuaArrayHelper<AnimationCompressionFormat> @Which encoding formats is the per-track compressor allowed to try on rotation keys
+---@field AllowedTranslationFormats ULuaArrayHelper<AnimationCompressionFormat> @Which encoding formats is the per-track compressor allowed to try on translation keys
+---@field AllowedScaleFormats ULuaArrayHelper<AnimationCompressionFormat> @Which encoding formats is the per-track compressor allowed to try on scale keys
+---@field bResampleAnimation number @If true, resample the animation to ResampleFramerate frames per second
+---@field ResampledFramerate number @When bResampleAnimation is true, this defines the desired framerate
+---@field MinKeysForResampling number @Animations with fewer keys than MinKeysForResampling will not be resampled.
+---@field bUseAdaptiveError number @If true, adjust the error thresholds based on the 'height' within the skeleton
+---@field bUseOverrideForEndEffectors number @If true, uses MinEffectorDiff as the threhsold for end effectors
+---@field TrackHeightBias number @A bias added to the track height before using it to calculate the adaptive error
+---@field ParentingDivisor number @Reduces the error tolerance the further up the tree that a key occurs EffectiveErrorTolerance = Max(BaseErrorTolerance / Power(ParentingDivisor, Max(Height+Bias,0) * ParentingDivisorExponent), ZeroingThreshold) Only has an effect bUseAdaptiveError is true
+---@field ParentingDivisorExponent number @Reduces the error tolerance the further up the tree that a key occurs EffectiveErrorTolerance = Max(BaseErrorTolerance / Power(ParentingDivisor, Max(Height+Bias,0) * ParentingDivisorExponent), ZeroingThreshold) Only has an effect bUseAdaptiveError is true
+---@field bUseAdaptiveError2 number @If true, the adaptive error system will determine how much error to allow for each track, based on the error introduced in end effectors due to errors in the track.
+---@field RotationErrorSourceRatio number @This ratio determines how much error in end effector rotation can come from a given track's rotation error or translation error. If 1, all of it must come from rotation error, if 0.5, half can come from each, and if 0.0, all must come from translation error.
+---@field TranslationErrorSourceRatio number @This ratio determines how much error in end effector translation can come from a given track's rotation error or translation error. If 1, all of it must come from rotation error, if 0.5, half can come from each, and if 0.0, all must come from translation error.
+---@field ScaleErrorSourceRatio number @This ratio determines how much error in end effector scale can come from a given track's rotation error or scale error. If 1, all of it must come from rotation error, if 0.5, half can come from each, and if 0.0, all must come from scale error.
+---@field MaxErrorPerTrackRatio number @A fraction that determines how much of the total error budget can be introduced by any particular track
+---@field PerturbationProbeSize number @How big of a perturbation should be made when probing error propagation
+local UAnimCompress_PerTrackCompression = {}

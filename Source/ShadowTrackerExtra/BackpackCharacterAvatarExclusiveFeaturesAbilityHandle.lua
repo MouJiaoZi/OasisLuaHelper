@@ -1,0 +1,14 @@
+---@meta
+
+---@class UBackpackCharacterAvatarExclusiveFeaturesAbilityHandle: UBackpackCharacterAvatarAbilityHandle
+local UBackpackCharacterAvatarExclusiveFeaturesAbilityHandle = {}
+
+function UBackpackCharacterAvatarExclusiveFeaturesAbilityHandle:ServerModifyFocusTarget() end
+
+function UBackpackCharacterAvatarExclusiveFeaturesAbilityHandle:ServerRestoreFocusTarget() end
+
+---@param InCharacter ASTExtraPlayerCharacter
+function UBackpackCharacterAvatarExclusiveFeaturesAbilityHandle:ClientModifyFocusTarget(InCharacter) end
+
+---@param InCharacter ASTExtraPlayerCharacter
+function UBackpackCharacterAvatarExclusiveFeaturesAbilityHandle:ClientRestoreFocusTarget(InCharacter) end

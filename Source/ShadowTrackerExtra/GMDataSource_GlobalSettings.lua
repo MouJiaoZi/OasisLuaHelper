@@ -1,0 +1,22 @@
+---@meta
+
+---@class UGMDataSource_GlobalSettings: UGMDataSource
+---@field EnableOverrideGravity boolean
+---@field OverrideGravity number
+---@field FallingDamageModifier number
+---@field bSkipNearDeath boolean
+---@field ItemGeneratorClass UItemGeneratorComponent
+---@field PickupBoxConfigClass UItemsBoxConfigDataAsset
+---@field UIModulePrefab string
+---@field EnableTeamFistDemage boolean
+---@field IsShowDeadBox boolean
+---@field bDropDeadBoxWrappersToGround boolean
+---@field VehicleGeneratorClass UVehicleAndTreasureBoxGeneratorComponent
+---@field bDestroyControllerAfterExit boolean
+---@field bDestroyCharacterAfterExit boolean
+---@field bDestroyControllerAfterExitBeforeStartState boolean
+---@field bDestroyCharacterAfterExitBeforeStartState boolean
+---@field bAlivePlayerNumEnabled boolean
+---@field bEarlierWinTipsEnabled boolean
+---@field AliveTeamNumToEarlierWin number
+local UGMDataSource_GlobalSettings = {}

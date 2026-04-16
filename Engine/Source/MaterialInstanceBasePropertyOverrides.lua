@@ -1,0 +1,23 @@
+---@meta
+
+---Properties from the base material that can be overridden in material instances.
+---@class FMaterialInstanceBasePropertyOverrides
+---@field bOverride_OpacityMaskClipValue boolean @Enables override of the opacity mask clip value.
+---@field bOverride_BlendMode boolean @Enables override of the blend mode.
+---@field bOverride_ShadingModel boolean @Enables override of the shading model.
+---@field bOverride_DitheredLODTransition boolean @Enables override of the dithered LOD transition property.
+---@field bOverride_ForceOpaqueLevelPointIndirectLighting boolean
+---@field bOverride_CastDynamicShadowAsMasked boolean @Enables override of whether to shadow using masked opacity on translucent materials.
+---@field bOverride_TwoSided boolean @Enables override of the two sided property.
+---@field bOverride_UsedWithTranslucentGI boolean @[SurfelGI - brainfkli ADD] Indicates that the material and its instances can be affected by GI in translucent blend mode.
+---@field bOverride_ShadingRate boolean @Enables override of the shading rate.
+---@field OpacityMaskClipValue number @If BlendMode is BLEND_Masked, the surface is not rendered where OpacityMask < OpacityMaskClipValue.
+---@field BlendMode EBlendMode @The blend mode
+---@field ShadingModel EMaterialShadingModel @The shading model
+---@field TwoSided number @Indicates that the material should be rendered without backface culling and the normal should be flipped for backfaces.
+---@field DitheredLODTransition number @Whether the material should support a dithered LOD transition when used with the foliage system.
+---@field ForceOpaqueLevelPointIndirectLighting number
+---@field bCastDynamicShadowAsMasked number @Whether the material should cast shadows as masked even though it has a translucent blend mode.
+---@field bUsedWithTranslucentGI number @[SurfelGI - brainfkli ADD] Indicates that the material and its instances can be affected by GI in translucent blend mode.
+---@field ShadingRate EMaterialShadingRate @The shading rate
+FMaterialInstanceBasePropertyOverrides = {}

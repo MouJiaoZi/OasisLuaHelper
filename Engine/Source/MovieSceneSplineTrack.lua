@@ -1,0 +1,5 @@
+---@meta
+
+---Handles manipulation of float properties in a movie scene
+---@class UMovieSceneSplineTrack: UMovieScenePropertyTrack
+local UMovieSceneSplineTrack = {}

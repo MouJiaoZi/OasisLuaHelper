@@ -1,0 +1,25 @@
+---@meta
+
+---@class EPickUpItemFlowSourceType
+---@field EPickUpItemFlowSourceType_Box number
+---@field EPickUpItemFlowSourceType_AirDrop number
+---@field EPickUpItemFlowSourceType_Normal number
+---@field EPickUpItemFlowSourceType_Activity number
+---@field EPickUpItemFlowSourceType_Npc number
+---@field EPickUpItemFlowSourceType_Vehicle number
+---@field EPickUpItemFlowSourceType_Drone number
+---@field EPickUpItemFlowSourceType_SpecialTag number
+---@field EPickUpItemFlowSourceType_AirDropRain number
+---@field EPickUpItemFlowSourceType_SpecialItem number
+---@field EPickUpItemFlowSourceType_PetGiftBox number
+---@field EPickUpItemFlowSourceType_SpecialInteraction number
+---@field EPickUpItemFlowSourceType_DelegateTask number
+---@field EPickUpItemFlowSourceType_SuperPeopleTreasureBox number
+---@field EPickUpItemFlowSourceType_SuperSourceCore number
+---@field EPickUpItemFlowSourceType_SuperSourceFragment number
+---@field EPickUpItemFlowSourceType_SeasonThemedGameplayBox number
+---@field EPickUpItemFlowSourceType_Gashapon number
+---@field EPickUpItemFlowSourceType_MilitaryBox number
+---@field EPickUpItemFlowSourceType_ActivityCommonBox number
+---@field EPickUpItemFlowSourceType_LostTombUnderworldSoldiers number
+EPickUpItemFlowSourceType = {}

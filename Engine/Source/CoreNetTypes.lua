@@ -1,0 +1,22 @@
+---@meta
+
+---Secondary condition to check before considering the replication of a lifetime property.
+---@class ELifetimeCondition
+---@field COND_None number @None
+---@field COND_InitialOnly number @Initial Only
+---@field COND_OwnerOnly number @Owner Only
+---@field COND_SkipOwner number @Skip Owner
+---@field COND_SimulatedOnly number @Simulated Only
+---@field COND_AutonomousOnly number @Autonomous Only
+---@field COND_SimulatedOrPhysics number @Simulated Or Physics
+---@field COND_InitialOrOwner number @Initial Or Owner
+---@field COND_Custom number @Custom
+---@field COND_ReplayOrOwner number @Replay Or Owner
+---@field COND_ReplayOnly number @Replay Only
+---@field COND_SimulatedOnlyNoReplay number @Simulated Only No Replay
+---@field COND_SimulatedOrPhysicsNoReplay number @Simulated Or Physics No Replay
+---@field COND_SimulatedOrReplay number @SimulatedOrReplay
+---@field COND_SimulatedOrReplayOrOwner number @COND_SimulatedOrReplayOrOwner
+---@field COND_SkipReplay number @Skip Replay
+---@field COND_Max number
+ELifetimeCondition = {}

@@ -1,0 +1,44 @@
+---@meta
+
+---@class UBTService_TDM_AIShooting_AIHost: UBTService
+---@field bUseDefaultConfig boolean
+---@field bUseTableDamageScale boolean
+---@field bUseDifficultyLevel boolean
+---@field WeaponShotType EAIWeaponShootType
+---@field DeviationScale number
+---@field ShootGunDeviationAngle number
+---@field RandomShootFreqRange FVector2D
+---@field ReloadBlackBoardKey FBlackboardKeySelector
+---@field bCheckShootingAngle boolean
+---@field TolerateShootingAngle number
+---@field bUseTargetEnemyCfg boolean
+---@field ShootUpDownRange FVector2D
+---@field ShootLeftRightRange FVector2D
+---@field ShootLeftRightRangeDistance FVector2D
+---@field ShootTargetSpeedRange FVector2D
+---@field ShootTargetDistanceRangeDueToSpeed FVector2D
+---@field HitRateLerpSpeed number
+---@field bUseLerpHitRate boolean
+---@field bMissOnPurpose boolean
+---@field ScaleForHitPart number
+---@field bStopShootingWhenCannotSee boolean
+---@field bEnableShootProbabilityCompensate boolean
+---@field bEnableRandomRangeShootTargetLoc boolean
+---@field InRandomRangeTowardsOwnerOffset number
+---@field InMinRandomShootTargetLocRadius number
+---@field InMaxRandomShootTargetLocRadius number
+---@field InMaxRandomShootTargetLocIterTimes number
+---@field InRandomShootTargetLocFindFloorQueryMobilityType EOverrideQueryMobilityType
+---@field InRandomShootTargetLocFindFloorChannel ECollisionChannel
+---@field InRandomShootTargetLocFloorHeightOffset number
+---@field InValidRandomShootTargetLocZOffset number
+---@field InRandomShootTargetTraceDownZ number
+---@field bShowDebugLine boolean
+---@field LineLifeTime number
+---@field bDrawDebugShootingArea boolean
+---@field DebugShootingAreaLineWidth number
+---@field DebugShootingTargetSphereRadius number
+local UBTService_TDM_AIShooting_AIHost = {}
+
+---@param Weapon ASTExtraWeapon
+function UBTService_TDM_AIShooting_AIHost:UpdateShootTargetLocOnCharacterShoot(Weapon) end

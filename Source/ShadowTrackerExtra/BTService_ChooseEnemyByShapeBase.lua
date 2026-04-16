@@ -1,0 +1,52 @@
+---@meta
+
+---@class EChooseEnemySearchMethod
+---@field SearchMethod_Nearest number @最近
+---@field SearchMethod_MostHP number @血量最多
+---@field SearchMethod_LeastHP number @血量最少
+---@field SearchMethod_ByBlackboardValue number @根据黑板值动态改变目标选取策略
+EChooseEnemySearchMethod = {}
+
+
+---@class UBTService_ChooseEnemyByShapeBase: UBTService
+---@field searchEnemyMethod EChooseEnemySearchMethod
+---@field BBKeySearchEnemyMethodIndex FBlackboardKeySelector
+---@field MaxRememberEnemyTimeInSeconds number
+---@field MaxRememberLastAttackedMeTimeInSeconds number
+---@field MaxTraceLastAttackedMeDistance number
+---@field MinTimeWhenCannotSeeTarget number
+---@field MinTimeLockTarget number
+---@field SensedRadius number
+---@field EquipWeaponSensedRadius number
+---@field EquipWeaponNightSensedRadius number
+---@field EmergencyRadius number
+---@field bChooseEnemyInLivingRange boolean
+---@field WeaponType2Ranges ULuaArrayHelper<FWeaponType2Range>
+---@field DefaultWeaponTypeToRanges ULuaArrayHelper<FWeaponTypeToRange>
+---@field WeatherToRange ULuaMapHelper<EWeatherStatusType, FWeatherToRange>
+---@field WeatherTypeToWeatherRange ULuaMapHelper<EWeatherStatusType, EWeatherStatusType>
+---@field PVESensedRadius number
+---@field FinalCircleSensedRate number
+---@field UnderGroundSensedRate number
+---@field DarkAreaSensedRate number
+---@field FinalCircleAIPriorityDistSqRate number
+---@field bEnableWarning boolean
+---@field WarningCD number
+---@field bEnableSmokingVisibilityCheck boolean
+---@field SmokingVisibilityCheckChannel ECollisionChannel
+---@field SmokingVisibilityCheckTag string
+---@field bEnablePeekShootingCheck boolean
+---@field bEnablePeekShootingCheckAtOcclusion boolean
+---@field PeekShootingCheckAtOcclusionOfOcclusionRadius number
+---@field PeekShootingCheckArray_Stand ULuaArrayHelper<EAIShootingPose>
+---@field PeekShootingCheckArray_Crouch ULuaArrayHelper<EAIShootingPose>
+---@field DoNotAttackNearDeathEnemyFirst boolean
+---@field DoNotAttackNearDeathEnemyAtAll boolean
+---@field bIgnoreAIWhenNoPlayerAround boolean
+---@field IgnoreAIRadius number
+---@field bSelectEnemyInSafety boolean
+---@field IgnoreEnemyWithDynamicStates ULuaArrayHelper<FGameplayTag>
+---@field bShowDebugInfo boolean
+---@field DebugInfoLife number
+---@field DebugRadius number
+local UBTService_ChooseEnemyByShapeBase = {}

@@ -1,0 +1,4 @@
+---@meta
+
+---@class FLogDataBase
+FLogDataBase = {}

@@ -1,0 +1,23 @@
+---@meta
+
+---@class FAnimNode_BlendSpacePlayer
+---@field X number
+---@field Y number
+---@field Z number
+---@field PlayRate number
+---@field bLoop boolean
+---@field StartPosition number
+---@field bResetPlayTimeWhenBlendSpaceChanges boolean
+---@field bResetPlayTimeWhenBlendSpaceReactive boolean
+---@field bResetSampleCacheWhenBlendSpaceChanges boolean
+---@field BlendFilter FBlendFilter
+---@field BlendSampleDataCache ULuaArrayHelper<FBlendSampleData>
+---@field EnableBSBlend boolean
+---@field BSBlendOutTime number
+---@field BSBlendBySyncGroup boolean
+---@field BSBlendResetNewTimeAccumulator boolean
+---@field BSBlendOutTime_Counter number
+---@field BSBlendOutTime_Alpha number
+---@field BSBlendOutWeight number
+---@field BlendOutPlayers_Cache ULuaArrayHelper<UBlendSpaceBase>
+FAnimNode_BlendSpacePlayer = {}

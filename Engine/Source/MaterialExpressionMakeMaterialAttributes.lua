@@ -1,0 +1,25 @@
+---@meta
+
+---@class UMaterialExpressionMakeMaterialAttributes: UMaterialExpression
+---@field BaseColor FExpressionInput
+---@field Metallic FExpressionInput
+---@field Specular FExpressionInput
+---@field Roughness FExpressionInput
+---@field EmissiveColor FExpressionInput
+---@field Opacity FExpressionInput
+---@field OpacityMask FExpressionInput
+---@field Normal FExpressionInput
+---@field WorldPositionOffset FExpressionInput
+---@field WorldDisplacement FExpressionInput
+---@field TessellationMultiplier FExpressionInput
+---@field SubsurfaceColor FExpressionInput
+---@field ClearCoat FExpressionInput
+---@field ClearCoatRoughness FExpressionInput
+---@field AmbientOcclusion FExpressionInput
+---@field Refraction FExpressionInput
+---@field PixelDepthOffset FExpressionInput
+---@field CustomizedVertexColor FExpressionInput
+---@field PlanarReflectionOffsetScale FExpressionInput
+---@field VertexDepthOffset FExpressionInput
+---@field PixelDepthOffsetNegative FExpressionInput
+local UMaterialExpressionMakeMaterialAttributes = {}

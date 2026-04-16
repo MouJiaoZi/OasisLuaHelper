@@ -1,0 +1,27 @@
+---@meta
+
+---@class ULobbyVehicleTireAnimInstance: ULobbyBaseAnimInstance
+---@field RotateY number
+---@field BurnSwitch boolean
+---@field ShiverX number
+---@field ShiverY number
+---@field beF_R_wheelBurn boolean
+---@field beF_L_wheelBurn boolean
+---@field beB_R_wheelBurn boolean
+---@field beB_L_wheelBurn boolean
+---@field TireState EVehicleTireState
+---@field PengState EVehiclePengState
+---@field PengStateMachineName string @emmahguo: Peng state machine begin ********
+---@field PengClosedStateName string
+---@field PengOpenedStateName string
+---@field PengClosingStateName string
+---@field PengOpeningStateName string
+---@field TireStateMachineName string @emmahguo: Tire state machine begin ********
+---@field TireStaticStateName string
+---@field TireEnterStateName string
+---@field TireBurnStateName string
+---@field TireUTurnStateName string
+---@field TireXuanMuStateName string
+---@field WheelRotate number @emmahguo: vehicle UTurn begin ********
+---@field YawRotateSpeed number
+local ULobbyVehicleTireAnimInstance = {}

@@ -1,0 +1,70 @@
+---@meta
+
+---@class FSTExtraAnimFM_VehicleMotorbike
+---@field bShouldUseDriverOffAimAnim boolean
+---@field bShouldUsePassengerDriverOffPoseOverride boolean
+---@field DriverVehSteerAngleMax number
+---@field DriverVehSteerRate number
+---@field DriverVehSteerVacateRate number
+---@field DriverVehGroundPitchAngleMax number
+---@field VehGroundPitchAdditiveTime number
+---@field PassengerVehSteerAngleMax number
+---@field PassengerVehSteerRate number
+---@field bDriverUseHandGripIKRot boolean
+---@field bIsMotorbikeDriverSeatOccupiers boolean
+---@field bIsMotorbikePassengerSeatOccupiers boolean
+---@field LeftHandGripSocketLocation FVector
+---@field LeftHandGripSocketRotation FRotator
+---@field RightHandGripSocketLocation FVector
+---@field RightHandGripSocketRotation FRotator
+---@field DriverSpineBoneName string
+---@field DriverSpineOffset FVector
+---@field DriverSpineOffsetAddictiveLeftHand FVector
+---@field DriverSpineOffsetAddictiveRightHand FVector
+---@field DriverSpineLeftLocation FVector
+---@field DriverSpineRightLocation FVector
+---@field DriverSpineSafeArea FBox
+---@field bShouldPassengerUseHandIK boolean
+---@field bPassengerHoldWeapon boolean
+---@field bPassengerHoldGun boolean
+---@field bPassengerHoldMelee boolean
+---@field bPassengerHoldThrowObj boolean
+---@field CachedDefaultDriverSpineBoneName string
+---@field CachedDefaultDriverSpineOffset FVector
+---@field CachedDefaultDriverSpineOffsetAddictiveLeftHand FVector
+---@field CachedDefaultDriverSpineOffsetAddictiveRightHand FVector
+---@field CachedDefaultDriverSpineSafeArea FBox
+---@field bIsUseVehicleBicycleAnim boolean
+---@field LeftPedalSocketLocation FVector
+---@field LeftPedalSocketRotation FRotator
+---@field RightPedalSocketLocation FVector
+---@field RightPedalSocketRotation FRotator
+---@field MountainBikePedalOffset FVector
+---@field MountainBikePedalOffsetSprint FVector
+---@field MountainBikePedalOffsetEnableSprintAlpha number
+---@field PedalRotAlpha number
+---@field MountainBikeSprintAlphaRange FVector2D
+---@field MountainBikeSprintAlpha number
+---@field VehicleIsUsingJumpAlpha number
+---@field VehicleJumpAlpha number
+---@field VehicleJumpAccumulation number
+---@field VehicleJumpAttenuation number
+---@field VacateHight number
+---@field IsVehicleMotorbike boolean
+---@field VacateHightAccRateDriver number
+---@field VacateHightAccRatePassenger number
+FSTExtraAnimFM_VehicleMotorbike = {}
+
+
+---@class FSTExtraAnimFM_VehicleMotorbike_Grenade
+---@field f_DisableSpineLeftIKTimeThreshold number
+---@field bIsGrenadeTypeHigh boolean
+---@field bIsHoldGrenadeAndHasAdditiveAimOffset boolean
+---@field bHasDriver boolean
+---@field bIsPlayedStartGrenade boolean
+---@field bIsPlayedEndGrenade boolean
+---@field bIsIdleToPrepareThrow boolean
+---@field bIsIdleHold boolean
+---@field bDisableChangeAnimBase boolean
+---@field bDisableSpineLeftIK boolean
+FSTExtraAnimFM_VehicleMotorbike_Grenade = {}

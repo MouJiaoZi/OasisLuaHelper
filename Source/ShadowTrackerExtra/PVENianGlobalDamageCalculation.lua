@@ -1,0 +1,70 @@
+---@meta
+
+---PVE年兽全局伤害计算类 负责处理各种伤害类型的计算和状态处理
+---@class UPVENianGlobalDamageCalculation: USTExtraGameMagnitudeCalculation
+---@field DAMAGE_TAG_FIRE string @伤害类型标签
+---@field DAMAGE_TAG_SKILL string
+---@field DAMAGE_TAG_FROST string
+---@field DAMAGE_TAG_LASER string
+---@field DAMAGE_TAG_BLOOD string
+---@field DAMAGE_TAG_EXPLO string
+---@field DAMAGE_TAG_ELIMINATE string
+---@field DAMAGE_TAG_MECHA string
+---@field DAMAGE_TAG_SHOOT string
+---@field DAMAGE_TAG_PURE string
+---@field DAMAGE_TAG_AI_RANGE string
+---@field DAMAGE_TAG_QTE string
+---@field NAME_Cfg_MechaPowerRate string
+---@field NAME_Cfg_SkillPowerRate string
+---@field NAME_Cfg_ElementPowerRate string
+---@field TAG_STATE_ENABLE_RANDOM_DAMAGE FGameplayTag @状态标签
+---@field TAG_STATE_INVINSIBLE_SHIELD FGameplayTag
+---@field TAG_STATE_PREVENT_FROM_DIE FGameplayTag
+---@field TAG_STATE_LOCK_HEALTH FGameplayTag
+---@field TAG_STATE_QTE_NOOTHERDAMAGE FGameplayTag
+---@field TAG_EXTRA_RESULT_LUCKY_ATTACK FGameplayTag
+---@field BASE_CHARACTER_CLASS ASTExtraBaseCharacter
+---@field LOCK_HEALTH_VALUE number
+---@field AI_RANGE_DAMAGE_SCALE number
+---@field LUCKY_CALC_FACTOR number
+---@field LUCKY_SCALE number
+---@field DAMAGE_TYPE_CLASS_Skill USTExtraDamageType
+---@field DAMAGE_TYPE_CLASS_Default USTExtraDamageType
+---@field ACTOR_TAG_BOSS string
+---@field ATTR_CONTAINER_ExtraAttack FGameAttributeContainer @属性容器
+---@field ATTR_CONTAINER_AttackScale FGameAttributeContainer
+---@field ATTR_CONTAINER_ShootHeadDamageScale FGameAttributeContainer
+---@field ATTR_CONTAINER_BasicHeadDamageReduceScale FGameAttributeContainer
+---@field ATTR_CONTAINER_ExtraHeadDamageReduceScale FGameAttributeContainer
+---@field ATTR_CONTAINER_ShootBodyDamageScale FGameAttributeContainer
+---@field ATTR_CONTAINER_FireDamageScale FGameAttributeContainer
+---@field ATTR_CONTAINER_ExtraFireDamage FGameAttributeContainer
+---@field ATTR_CONTAINER_FireDamageReduceScale FGameAttributeContainer
+---@field ATTR_CONTAINER_BasicFireDamageReduceVal FGameAttributeContainer
+---@field ATTR_CONTAINER_ExplosionDamageScale FGameAttributeContainer
+---@field ATTR_CONTAINER_ExtraExplosionDamage FGameAttributeContainer
+---@field ATTR_CONTAINER_ExplosionDamageReduceScale FGameAttributeContainer
+---@field ATTR_CONTAINER_BasicExplosionDamageReduceVal FGameAttributeContainer
+---@field ATTR_CONTAINER_LaserDamageScale FGameAttributeContainer
+---@field ATTR_CONTAINER_ExtraLaserDamage FGameAttributeContainer
+---@field ATTR_CONTAINER_LaserDamageReduceScale FGameAttributeContainer
+---@field ATTR_CONTAINER_BasicLaserDamageReduceVal FGameAttributeContainer
+---@field ATTR_CONTAINER_FrostDamageScale FGameAttributeContainer
+---@field ATTR_CONTAINER_BloodCoreDamageScale FGameAttributeContainer
+---@field ATTR_CONTAINER_GlobalDamageScale FGameAttributeContainer
+---@field ATTR_CONTAINER_GlobalExtraDamage FGameAttributeContainer
+---@field ATTR_CONTAINER_GlobalEaseHurtDamageScale FGameAttributeContainer
+---@field ATTR_CONTAINER_GlobalDamageReduceVal FGameAttributeContainer
+---@field ATTR_CONTAINER_LuckyValue FGameAttributeContainer
+---@field ATTR_CONTAINER_SkillDamageScale FGameAttributeContainer
+---@field ATTR_CONTAINER_ExtraSkillBasicDamage FGameAttributeContainer
+---@field ATTR_CONTAINER_CounterAttackScale FGameAttributeContainer
+---@field ATTR_CONTAINER_ElementDamageScale FGameAttributeContainer
+---@field ATTR_CONTAINER_MechaDamageScale FGameAttributeContainer
+---@field ATTR_CONTAINER_SkillDamageBossScale FGameAttributeContainer
+---@field ATTR_CONTAINER_DamageBearPercentByConstruction FGameAttributeContainer
+---@field DebugLogCategory string
+local UPVENianGlobalDamageCalculation = {}
+
+---@param VictimPlayer ASTExtraBaseCharacter
+function UPVENianGlobalDamageCalculation:GetConstructionsBP(VictimPlayer) end

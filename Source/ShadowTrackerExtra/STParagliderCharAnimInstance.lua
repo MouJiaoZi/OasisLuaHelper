@@ -1,0 +1,47 @@
+---@meta
+
+---@class USTParagliderCharAnimInstance: USTExtraVehicleAnimInstance
+---@field VelocityZ number
+---@field LinearVelocity FVector
+---@field AirControlInputX number
+---@field AirControlInputY number
+---@field bInJumpState boolean
+---@field bForceCheckFollowAnimInstance boolean
+---@field bIsJumping boolean
+---@field bIsIdle boolean
+---@field bIsFalling boolean
+---@field bIsLanding boolean
+---@field MaxLandingTime number
+---@field CurLandingTime number
+---@field bIsFlying boolean
+---@field bRunJumpState boolean
+---@field bFlyJumpState boolean
+---@field bVerticalJumpState boolean
+---@field bIsPlayingLandAnimEnd boolean
+---@field bIsPlayingJumpAnimEnd boolean
+---@field UseRunLandAnimForwardSpeed number
+---@field VehicleState EParagliderCharacterType
+---@field C_ForwardSpeed number
+---@field CurLinearVel FVector
+---@field JumpPlayRate number
+---@field JumpPlayBaseRate number
+---@field DontPlayLandAnimVel number
+---@field bEnableRunLand boolean
+---@field bMoveBack boolean
+---@field bMoveForward boolean
+---@field bIdle boolean
+---@field ControlInput FVector
+---@field ControlInputScale number
+---@field LocalMoveState EParagliderCharacterType
+---@field AnimMoveSpeedParam number
+---@field InAnimParamMoveSpeed FVector2D
+---@field OutAnimParamMoveSpeed FVector2D
+---@field bOnGround boolean
+---@field bLandingState boolean
+---@field bDecelerateState boolean
+---@field bHaveInputOnGround boolean
+local USTParagliderCharAnimInstance = {}
+
+---@param StateMachineName string
+---@return string
+function USTParagliderCharAnimInstance:GetParagliderStateName(StateMachineName) end

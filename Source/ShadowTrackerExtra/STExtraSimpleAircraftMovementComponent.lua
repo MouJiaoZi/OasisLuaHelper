@@ -1,0 +1,42 @@
+---@meta
+
+---@class USTExtraSimpleAircraftMovementComponent: USTExtraAircraftMovementComponent
+---@field SinglePlayerAngle number
+---@field bUseAdapt boolean
+---@field bSimulateOnClient boolean
+---@field DisableGoDownHeight number
+---@field DeltaLinearScale number
+---@field DeltaAngularScale number
+---@field PowerNormalScale number
+---@field SlowDownInput number
+---@field SlowDownFactorMin number
+---@field SlowDownFactorMax number
+---@field IgnoreInputDownSpeed number
+---@field Dis2LandIgnoreInput number
+---@field UpMoveSlowDownDis number
+---@field MaxUpSpeedLimit number
+---@field MaxDownSpeedLimit number
+---@field MaxMoveForwardSpeedLimit number
+---@field MaxMoveRightSpeedLimit number
+---@field MaxMoveHorizontalSpeedLimit number
+---@field bShouldDsControl boolean
+---@field MaxDistanceToLandToDSControl number
+---@field MaxDSControlTime number
+---@field CurDSControlTimeLeft number
+---@field MaxSpeedDeltaPerSeconds number
+---@field NeedCheckSpeedDelta boolean
+---@field LastSecondSpeed number
+---@field CheckSpeedTimeElapse number
+---@field bEnableDSForceCheckPenetrate boolean
+---@field DSForceCheckPenetrateTime number
+---@field DSForceCorrectPenetrateCount number
+---@field bUseCacheFrameVelocity boolean
+---@field ReplicatedNowDisToLand number
+---@field NowDisToLandTolerance number
+---@field CurFrameVelocity FVector
+---@field DefaultGravityZ number
+---@field DefaultGravityDelta number
+local USTExtraSimpleAircraftMovementComponent = {}
+
+---@return FVector
+function USTExtraSimpleAircraftMovementComponent:GetCurVelocity() end

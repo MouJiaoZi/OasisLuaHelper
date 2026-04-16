@@ -1,0 +1,21 @@
+---@meta
+
+---@class UBTTask_UGC_AnimalTeleport: UBTTaskNode
+---@field TargetBlackboardKey any
+---@field TeleportRange FVector2D
+---@field FindFloorTraceChannel ECollisionChannel
+---@field FindFloorQueryMobilityType EOverrideQueryMobilityType
+---@field FindFloorHeightOffsetUp number
+---@field FindFloorHeightOffsetDown number
+---@field bDoNavmeshProjectTest boolean
+---@field ProjectFilterClass UNavigationQueryFilter @"None" will result in default filter being used
+---@field bAllowPointInWater boolean
+---@field bAllowPointInHouse boolean
+---@field ValidTargetLocZOffset number
+---@field TargetLocZOffset number
+---@field TryFindLocNum number
+---@field bCheckOriginLocHasPlayer boolean @检测到周围半径内有玩家，会取消传送
+---@field OriginCheckRadius number
+---@field bCheckDestLocHasPlayer boolean @检测到周围半径内有玩家，会取消传送
+---@field DestCheckRadius number
+local UBTTask_UGC_AnimalTeleport = {}

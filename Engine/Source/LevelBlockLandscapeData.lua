@@ -1,0 +1,26 @@
+---@meta
+
+---@class FLevelBlockLandscapeData
+---@field LevelBlockGroup FLevelBlockGroup
+---@field Transform FTransform
+---@field RootLocation FVector
+---@field Size FIntPoint
+---@field BlendMaskSize FIntPoint
+---@field bHasHeightmap number
+---@field bHasBlendWeights number
+---@field bHasVisibility number
+---@field bHideFoliage number
+---@field LayerNames ULuaArrayHelper<string>
+---@field LayerNames_PC ULuaArrayHelper<string>
+---@field LayerNames_Mobile ULuaArrayHelper<string>
+---@field NoWeightBlendLayerIndices ULuaArrayHelper<number>
+---@field NoWeightBlendLayerIndices_PC ULuaArrayHelper<number>
+---@field NoWeightBlendLayerIndices_Mobile ULuaArrayHelper<number>
+---@field GrassTypes ULuaArrayHelper<ULandscapeGrassType>
+---@field GrassTypes_PC ULuaArrayHelper<ULandscapeGrassType>
+---@field GrassTypes_Mobile ULuaArrayHelper<ULandscapeGrassType>
+---@field MaterialTextureSize FIntPoint
+---@field MaterialTextureSize_Mobile FIntPoint
+---@field MaterialTextureSize_PC FIntPoint
+---@field DeformDataSize number
+FLevelBlockLandscapeData = {}

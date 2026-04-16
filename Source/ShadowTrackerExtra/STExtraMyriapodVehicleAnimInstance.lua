@@ -1,0 +1,43 @@
+---@meta
+
+---@class USTExtraMyriapodVehicleAnimInstance: USTExtraVehicleAnimInstance
+---@field Speed number
+---@field SpeedXY number
+---@field VelocityXY number
+---@field VelocityZ number
+---@field AngularSpeed number
+---@field bLerpAngularSpeed boolean
+---@field AngularSpeedLerpFactor number
+---@field MoveRight number
+---@field MoveForward number
+---@field bUpdateSpeedUseVelocity boolean
+---@field MoveMode EMovementMode
+---@field bIsInAir boolean
+---@field bIsSwimming boolean
+---@field bIsFlying boolean
+---@field bSeriousInjury boolean
+---@field bIsLowSpeed boolean
+---@field bIsLowSpeedXY boolean
+---@field bIsMoveRightZero boolean
+---@field bIsSpeedAndMoveRightNoZero boolean
+---@field bIsMovementToJumpFalling boolean
+---@field bMovementToTurnStart boolean
+---@field bMovementToTurn boolean
+---@field bTurnToTurnEnd boolean
+---@field bMovementToTurnStartXY boolean
+---@field bMovementToTurnXY boolean
+---@field bTurnToTurnEndXY boolean
+---@field bIsJumping boolean
+---@field MoveRight_InAir number
+---@field MoveRight_InAir_ScaleValue number
+---@field MoveRight_InAir_Lerp number
+---@field MoveRight_Landing_Lerp number
+---@field MoveRight_InAir_Scale number
+---@field bForceCheckFollowAnimInstance boolean
+---@field TurnAnimSpeedThreshold number
+---@field TurnAnimAngularSpeedThreshold number
+local USTExtraMyriapodVehicleAnimInstance = {}
+
+---@param BrakeVelocity number
+---@param bIsStopPlay boolean
+function USTExtraMyriapodVehicleAnimInstance:HandleBrakePerform(BrakeVelocity, bIsStopPlay) end

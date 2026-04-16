@@ -1,0 +1,29 @@
+---@meta
+
+---@class EServerErrorCode
+---@field ds_err_invalid_param number
+---@field ds_err_unexpected number
+---@field ds_err_offline number
+---@field ds_err_big_world_item_not_exist number
+---@field ds_err_big_world_item_not_enough number
+---@field ds_err_big_world_item_add_fail number
+---@field ds_err_big_world_item_del_fail number
+---@field ds_err_big_world_item_drop_fail number
+---@field ds_err_big_world_bindata_key_count_limit number
+---@field ds_err_big_world_bindata_key_len_limit number
+---@field ds_err_big_world_bindata_val_len_limit number
+---@field ds_err_coupon_cfg_not_exists number
+---@field ds_err_coupon_exceed_global_limit number
+---@field ds_err_coupon_exceed_global_daily_limit number
+---@field ds_err_coupon_exceed_user_limit number
+---@field ds_err_coupon_exceed_user_daily_limit number
+---@field ds_err_coupon_system_error number
+---@field ds_err_coupon_not_open_this_hour number
+---@field ds_err_collect_award_none number
+---@field ds_err_collect_award_already number
+---@field ds_err_fish_daily_limit number
+---@field ds_err_fish_week_limit number
+---@field ds_err_fish_season_limit number
+---@field ds_err_fish_require_level number
+---@field ds_err_repeated_award number
+EServerErrorCode = {}

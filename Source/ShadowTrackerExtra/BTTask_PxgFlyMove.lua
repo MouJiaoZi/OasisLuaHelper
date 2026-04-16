@@ -1,0 +1,31 @@
+---@meta
+
+---Fly Move Moves the AI pawn to the specified Actor or Location
+---@class UBTTask_PxgFlyMove: UBTTaskNode
+---@field TargetBlackboardKey any @目标位置或者Actor
+---@field AcceptableRadius number @fixed distance added to threshold between AI and goal location in destination reach test
+---@field FlyHeightOffset number @飞行高度偏移，参照高度为目标高度 目标为vector，目标高度为点到地面的高度，这时Offset最好为0 目标为actor，目标高度为actor头顶到地面的高度
+---@field bReachTestIncludesAgentRadius number @if set, radius of AI's capsule will be added to threshold between AI and goal location in destination reach test
+---@field bReachTestIncludesAgentHalfHeight number @if set, half height of AI's capsule will be added to threshold between AI and goal location in destination reach test
+---@field bReachTestIncludesGoalRadius number @if set, radius of goal's capsule will be added to threshold between AI and goal location in destination reach test
+---@field bIgnoreStartPenetrating number @ignore the start penetrating when sweep directly toward
+---@field FilterClass UNavigationQueryFilter @"None" will result in default filter being used
+---@field AnimalFlyPose EAnimalState @AnimalCharacter使用，其它不生效
+---@field bAnimalFlyRestorePoseWhenFinished boolean @AnimalCharacter使用，其它不生效
+---@field bUsePathfinding number @if set, move will use pathfinding
+---@field bAllowPartialPath number @if set, use incomplete path when goal can't be reached
+---@field bTrackMovingGoal number @if set, path to goal actor will update itself when actor moves
+---@field bObserveBlackboardValue number @if move goal in BB changes the move will be redirected to new location
+---@field bPredictMovement number @if predit movement of target goal
+---@field TrackGoalTetherDistance number @if task is expected to track move goal, when distance is greater than this value, repath is triggered
+---@field TrackGoalTimeInterval number @if task is expected to track move goal, the min time interval which repath can be triggered
+---@field TrackGoalMinOffsetZToFloor number
+---@field ObservedBlackboardValueTolerance number @if task is expected to react to changes to location represented by BB key this property can be used to tweak sensitivity of the mechanism. Value is recommended to be less then AcceptableRadius
+---@field MaxPredictMovementTime number
+---@field MinTargetSpeedForPredictMovement number
+---@field TraceChannel ECollisionChannel @the Trace Channel for find location
+---@field bOverrideDirectlyTowardPathQueryMobilityType boolean
+---@field DirectlyTowardPathQueryMobilityTypeOverride EOverrideQueryMobilityType
+---@field bAsyncExecuteTask boolean
+---@field bOnTaskFinishUpdateFacing boolean
+local UBTTask_PxgFlyMove = {}

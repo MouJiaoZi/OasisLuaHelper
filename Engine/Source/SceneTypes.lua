@@ -1,0 +1,38 @@
+---@meta
+
+---@class EMaterialProperty
+---@field MP_EmissiveColor number @Emissive
+---@field MP_Opacity number @Opacity
+---@field MP_OpacityMask number @Opacity Mask
+---@field MP_DiffuseColor number
+---@field MP_SpecularColor number
+---@field MP_BaseColor number @Diffuse
+---@field MP_Metallic number @Metallic
+---@field MP_Specular number @Specular
+---@field MP_Roughness number @Roughness 
+---@field MP_Normal number @Normal
+---@field MP_WorldPositionOffset number
+---@field MP_WorldDisplacement number
+---@field MP_TessellationMultiplier number
+---@field MP_SubsurfaceColor number @Subsurface
+---@field MP_CustomData0 number
+---@field MP_CustomData1 number
+---@field MP_AmbientOcclusion number @Ambient Occlusion
+---@field MP_Refraction number @Refraction
+---@field MP_CustomizedUVs0 number
+---@field MP_CustomizedUVs1 number
+---@field MP_CustomizedUVs2 number
+---@field MP_CustomizedUVs3 number
+---@field MP_CustomizedUVs4 number
+---@field MP_CustomizedUVs5 number
+---@field MP_CustomizedUVs6 number
+---@field MP_CustomizedUVs7 number
+---@field MP_PixelDepthOffset number
+---@field MP_CustomizedVertexColor number
+---@field MP_PlanarReflectionOffsetScale number @Planar Reflection Offset Scale
+---@field MP_VertexDepthOffset number
+---@field MP_PixelDepthOffsetNegative number
+---@field MP_MaterialAttributes number
+---@field MP_CustomOutput number
+---@field MP_MAX number @None
+EMaterialProperty = {}

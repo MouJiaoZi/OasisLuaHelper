@@ -1,0 +1,38 @@
+---@meta
+
+---@class UBTTask_AnimalTeleport: UBTTask_BlackboardBase
+---@field TeleportCoolDownTime number
+---@field RangeMin number
+---@field RangeMax number
+---@field bDoOnlyStaticTrace boolean
+---@field OnlyTeleportToLand boolean
+---@field NotTeleportToHouse boolean
+---@field bDoDistanceTooCloseTest boolean
+---@field bDoDistanceTooCloseTestUse2D boolean
+---@field bDoTeleportMinDistanceTest boolean
+---@field TeleportMinDistanceLimit number
+---@field bFindFloorUseObjectType boolean
+---@field FindFloorTraceChannel ECollisionChannel
+---@field FindFloorQueryMobilityType EOverrideQueryMobilityType
+---@field FindFloorTraceObjectTypes ULuaArrayHelper<EObjectTypeQuery>
+---@field bFindFloorUseSweep boolean
+---@field bDoNavmeshProjectTest boolean
+---@field bNeedTargetLocTargetActorVisible boolean
+---@field ProjectFilterClass UNavigationQueryFilter @"None" will result in default filter being used
+---@field ValidTargetLocZOffset number
+---@field ValidTargetLocZDiff FVector2D
+---@field OriginCheckRadius number
+---@field DestCheckRadius number
+---@field TraceHeightOffset number
+---@field TargetLocZOffset number
+---@field ValidTraceActorIncludeName ULuaArrayHelper<string>
+---@field TargetForwardExcludeAngle number
+---@field TargetBackwardExcludeAngle number
+---@field bUseCustomTargetRandomAngle boolean
+---@field TargetRandomAngle FVector2D
+---@field TryFindLocNum number
+---@field bForceSuccess boolean
+---@field bUseBattlePetTeleport boolean
+---@field bUseCustomTeleportRotation boolean
+---@field InTeleportRotation any
+local UBTTask_AnimalTeleport = {}

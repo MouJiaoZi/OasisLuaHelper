@@ -1,0 +1,37 @@
+---@meta
+
+---Represents the appearance of a toolbar
+---@class FToolBarStyle
+---@field BackgroundBrush FSlateBrush @The brush used for the background of the toolbar
+---@field ExpandBrush FSlateBrush @The brush used for the expand arrow when the toolbar runs out of room and needs to display toolbar items in a menu
+---@field SeparatorBrush FSlateBrush
+---@field LabelStyle FTextBlockStyle
+---@field EditableTextStyle FEditableTextBoxStyle
+---@field ToggleButton FCheckBoxStyle
+---@field ComboButtonStyle FComboButtonStyle
+---@field SettingsButtonStyle FButtonStyle
+---@field SettingsComboButton FComboButtonStyle
+---@field SettingsToggleButton FCheckBoxStyle
+---@field ButtonStyle FButtonStyle
+---@field LabelPadding FMargin
+---@field UniformBlockWidth number
+---@field UniformBlockHeight number
+---@field NumColumns number
+---@field IconPadding FMargin
+---@field SeparatorPadding FMargin
+---@field SeparatorThickness number
+---@field ComboButtonPadding FMargin
+---@field ButtonPadding FMargin
+---@field CheckBoxPadding FMargin
+---@field BlockPadding FMargin
+---@field IndentedBlockPadding FMargin
+---@field BackgroundPadding FMargin
+---@field IconSize FVector2D
+---@field bShowLabels boolean
+---@field ButtonContentMaxWidth number
+---@field ButtonContentFillWidth number
+---@field IconPaddingWithVisibleLabel FMargin
+---@field IconPaddingWithCollapsedLabel FMargin
+---@field VerticalAlignmentOverride EVerticalAlignment
+---@field RaisedChildrenRightPadding number
+FToolBarStyle = {}

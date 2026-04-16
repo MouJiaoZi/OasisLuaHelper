@@ -1,0 +1,15 @@
+---@meta
+
+---@class UFieldOfViewNotificationComponentRegistry: UObject
+---@field FieldOfViewNotificationComponentRegisteredDelegate FFieldOfViewNotificationComponentRegisteredDelegate
+---@field FieldOfViewNotificationComponentUnregisteredDelegate FFieldOfViewNotificationComponentUnregisteredDelegate
+local UFieldOfViewNotificationComponentRegistry = {}
+
+---@param FieldOfViewNotificationComponent UFieldOfViewNotificationComponent
+function UFieldOfViewNotificationComponentRegistry:Register(FieldOfViewNotificationComponent) end
+
+---@param FieldOfViewNotificationComponent UFieldOfViewNotificationComponent
+function UFieldOfViewNotificationComponentRegistry:Unregister(FieldOfViewNotificationComponent) end
+
+---@param OutRegisteredFieldOfViewNotificationComponents ULuaArrayHelper<UFieldOfViewNotificationComponent>
+function UFieldOfViewNotificationComponentRegistry:GetRegisteredFieldOfViewNotificationComponents(OutRegisteredFieldOfViewNotificationComponents) end

@@ -1,0 +1,41 @@
+---@meta
+
+---UGC 配件 Handle 基类
+---@class UUGCBackpackWeaponAttachHandle: UBackpackWeaponAttachHandle, IUGCItemDataInterface, IUGCObjectItemTableInterface, IUGCItemEquipTargetInterface, IUGCItemEquipmentInterface, IUGCCommonDeadDropItemInterface
+---@field CustomMesh FCustomItemHandleMeshConfig
+---@field ItemID number
+---@field ItemName string
+---@field MaxNumberOfStacks number
+---@field IconTexture FSoftObjectPath
+---@field CanUse boolean
+---@field CanDrop boolean
+---@field CanRemove boolean
+---@field ItemDetail string
+---@field PickupDetail string
+---@field BackpackSimple string
+---@field Tags ULuaArrayHelper<FGameplayTag>
+---@field ItemQuality number
+---@field CustomizedType string
+---@field PickupWrapperMesh FSoftObjectPath
+---@field TransformOffset FTransform
+---@field ShouldPersist boolean
+---@field UnitWeightConfig number
+---@field WeightforOrder number
+---@field ClassesTags ULuaMapHelper<string, number>
+---@field Slots ULuaArrayHelper<FUGCEquipmentItemSlot>
+---@field bAutoTryEquip boolean
+---@field PickUpSound string
+---@field PickUpBank string
+---@field DropSound string
+---@field DropBank string
+---@field EquipSound string
+---@field EquipBank string
+---@field UnEquipSound string
+---@field UnEquipBank string
+---@field ReloadID number
+---@field DeadDropItemType EDeadDropItemType
+local UUGCBackpackWeaponAttachHandle = {}
+
+---@param SlotName string
+---@return FItemDefineID
+function UUGCBackpackWeaponAttachHandle:GetEquippedItemBySlotName(SlotName) end

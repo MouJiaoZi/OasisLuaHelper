@@ -1,0 +1,48 @@
+---@meta
+
+---基于配置表的射击节点 可扫射，可点射
+---@class UBTService_BattleField_AIShooting: UBTService
+---@field bUseDefaultConfig boolean
+---@field bUseTableDamageScale boolean
+---@field bUseDifficultyLevel boolean
+---@field WeaponShotType EAIWeaponShootType
+---@field DeviationScale number
+---@field ShootGunDeviationAngle number
+---@field RandomShootFreqRange FVector2D
+---@field ReloadBlackBoardKey FBlackboardKeySelector
+---@field bCheckShootingAngle boolean
+---@field TolerateShootingAngle number
+---@field bUseTargetEnemyCfg boolean
+---@field ShootUpDownRange FVector2D
+---@field ShootLeftRightRange FVector2D
+---@field ShootLeftRightRangeDistance FVector2D
+---@field ShootTargetSpeedRange FVector2D
+---@field ShootTargetDistanceRangeDueToSpeed FVector2D
+---@field HitRateLerpSpeed number
+---@field bUseLerpHitRate boolean
+---@field bMissOnPurpose boolean
+---@field NoWeaponFixedDamageRate number
+---@field ShootDamageScale number
+---@field ScaleForHitPart number
+---@field bModifyRateScaleByHP boolean
+---@field bStopShootingWhenCannotSee boolean
+---@field bEnableShootProbabilityCompensate boolean
+---@field bEnableRandomRangeShootTargetLoc boolean
+---@field InRandomRangeTowardsOwnerOffset number
+---@field InMinRandomShootTargetLocRadius number
+---@field InMaxRandomShootTargetLocRadius number
+---@field InMaxRandomShootTargetLocIterTimes number
+---@field InRandomShootTargetLocFindFloorQueryMobilityType EOverrideQueryMobilityType
+---@field InRandomShootTargetLocFindFloorChannel ECollisionChannel
+---@field InRandomShootTargetLocFloorHeightOffset number
+---@field InValidRandomShootTargetLocZOffset number
+---@field InRandomShootTargetTraceDownZ number
+---@field bShowDebugLine boolean
+---@field LineLifeTime number
+---@field bDrawDebugShootingArea boolean
+---@field DebugShootingAreaLineWidth number
+---@field DebugShootingTargetSphereRadius number
+local UBTService_BattleField_AIShooting = {}
+
+---@param Weapon ASTExtraWeapon
+function UBTService_BattleField_AIShooting:UpdateShootTargetLocOnCharacterShoot(Weapon) end

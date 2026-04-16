@@ -1,0 +1,39 @@
+---@meta
+
+---@class USTExtraSeaPlaneAnimInstance: USTMotorgliderAnimInstance
+---@field TargetWheelRot_00 FRotator
+---@field TargetWheelRot_01 FRotator
+---@field TargetWheelRot_02 FRotator
+---@field TargetWheelRot_03 FRotator
+---@field TailVaneRot FRotator
+---@field HorizontalTailRot FRotator
+---@field VerticalTailRot FRotator
+---@field WheelSpinRot FRotator
+---@field WheelFoldTime number
+---@field WheelSpreadTime number
+---@field WheelFoldHeight number
+---@field WheelSpreadHeight number
+---@field WheelRadius number
+---@field TailVaneMaxTurnAngle number
+---@field TailVaneTurnSpeed number
+---@field TailVaneAngleSignMulti number
+---@field TailWingTurnSpeed number
+---@field HorizontalTailMaxTurnAngle number
+---@field HorizontalTailAngleSignMulti number
+---@field VerticalTailAngleSignMulti number
+---@field WheelRotOri_00 FRotator
+---@field WheelRotOri_01 FRotator
+---@field WheelRotOri_02 FRotator
+---@field WheelRotOri_03 FRotator
+---@field WheelRotFold_00 FRotator
+---@field WheelRotFold_01 FRotator
+---@field WheelRotFold_02 FRotator
+---@field WheelRotFold_03 FRotator
+---@field VerticalTailRotOri FRotator
+---@field VerticalTailRotTurn FRotator
+---@field bCurFoldState boolean
+---@field CurFoldValue number
+---@field LastRelativeAltitude number
+---@field CurTailVaneAngle number
+---@field CurHorizontalTailAngle number
+local USTExtraSeaPlaneAnimInstance = {}

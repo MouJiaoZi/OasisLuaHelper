@@ -1,0 +1,41 @@
+---@meta
+
+---DEPRECATED 废弃
+---@class ASTEShootWeaponBulletImpactEffect: AActor
+---@field bForceDefaultFX boolean
+---@field ExtendFleshFX ULuaMapHelper<string, UParticleSystem>
+---@field DefaultDecal any
+---@field ConcreteDecal any
+---@field DirtDecal any
+---@field WaterDecal any
+---@field MetalDecal any
+---@field WoodDecal any
+---@field GrassDecal any
+---@field GlassDecal any
+---@field FleshDecal any
+---@field FleshDecalAutomonous any
+---@field SteelDecal any
+---@field SandbagDecal any
+---@field SandDecal any
+---@field ClothDecal any
+---@field PlasticDecal any
+---@field LeatherDecal any
+---@field CeramicsDecal any
+---@field PaperDecal any
+---@field StoneDecal any
+---@field SnowDecal any
+---@field PopCanDecal any
+---@field PyreflyDecal any
+---@field LeafDecal any
+---@field CarDecal any
+---@field AsphaltDecal any
+---@field IceDecal any
+---@field FoodDecal any
+---@field IceEngravingDecal any
+---@field SurfaceHit FBulletHitInfoUploadData
+---@field bAudioOnly boolean
+---@field bFXOnly boolean
+---@field bIsAutonomousClient boolean
+local ASTEShootWeaponBulletImpactEffect = {}
+
+function ASTEShootWeaponBulletImpactEffect:TimerHideDecal() end

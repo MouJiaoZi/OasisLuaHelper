@@ -1,0 +1,30 @@
+---@meta
+
+---@class FSTExtraAnimFM_ADS
+---@field FirstAimSpine_StandAndCrouch FVector
+---@field FirstAimSpine_Prone FVector
+---@field v_ScopeAimRollRangeIN FVector2D
+---@field v_ScopeAimRollRangeOut FVector2D
+---@field f_ScopeAimInterSpeed_Spector number
+---@field FirstAimSpine FVector
+---@field r_C_FPPOffsetRotation_half FRotator
+---@field C_FPPOffsetLocation FVector
+---@field b_C_MoveVelocityLengthSquard_Bigger_0 boolean
+---@field b_C_AutoAimCenterRotator boolean
+---@field b_C_EnableAutoAimCenterRotator boolean
+---@field b_C_AutoAimCenterUseAnimNode boolean
+---@field f_AutoAimCenterRotatorLerpSpeed number
+---@field r_ScopeAimRotation FRotator
+---@field r_AutoAimCenterRotator FRotator
+---@field r_ScopeAimTransform FVector
+---@field WeaponDestinRotation FRotator
+---@field WeaponHandleName string
+---@field CacheBoneFlagName string
+---@field CachePreAimOffsetFlagName string
+---@field CachePostAimOffsetFlagName string
+---@field CachePrePeekFlagName string
+---@field CachePostPeekFlagName string
+---@field r_AutoAimCenterDestinRotator FRotator
+---@field r_AutoAimCenterBeginOffsetRotator FRotator
+---@field r_AutoAimCenterEndOffsetRotator FRotator
+FSTExtraAnimFM_ADS = {}

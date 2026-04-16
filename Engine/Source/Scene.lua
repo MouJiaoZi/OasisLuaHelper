@@ -1,0 +1,551 @@
+---@meta
+
+---Used by FPostProcessSettings Depth of Fields
+---@class EDepthOfFieldMethod
+---@field DOFM_BokehDOF number @BokehDOF
+---@field DOFM_Gaussian number @GaussianDOF
+---@field DOFM_CircleDOF number @CircleDOF
+---@field DOFM_MAX number
+EDepthOfFieldMethod = {}
+
+
+---Used by rendering project settings.
+---@class EAntiAliasingMethod
+---@field AAM_None number @None
+---@field AAM_FXAA number @FXAA
+---@field AAM_TemporalAA number @TemporalAA
+---@field AAM_MSAA number @Only supported with forward shading.  MSAA sample count is controlled by r.MSAACount.
+---@field AAM_DLSS number @DLSS
+---@field AAM_FSR number @FSR
+---@field AAM_ASR number @ASR
+---@field AAM_MetalFX2 number @MetalFX2
+---@field AAM_MAX number
+EAntiAliasingMethod = {}
+
+
+---Used by FPostProcessSettings Auto Exposure
+---@class EAutoExposureMethod
+---@field AEM_Histogram number @Not supported on mobile, requires compute shader to construct 64 bin histogram
+---@field AEM_Basic number @Not supported on mobile, faster method that computes single value by downsampling
+---@field AEM_MAX number
+EAutoExposureMethod = {}
+
+
+---@class EBloomMethod
+---@field BM_SOG number @Sum of Gaussian formulation
+---@field BM_FFT number @Fast Fourier Transform Image based convolution, intended for cinematics (too expensive for games)
+---@field BM_MAX number
+EBloomMethod = {}
+
+
+---@class EHBAOBlurRadius
+---@field AOBR_BlurRadius0 number @Disabled
+---@field AOBR_BlurRadius2 number @2 pixels
+---@field AOBR_BlurRadius4 number @4 pixels
+---@field AOBR_MAX number
+EHBAOBlurRadius = {}
+
+
+---@class FColorGradePerRangeSettings
+---@field Saturation FVector4
+---@field Contrast FVector4
+---@field Gamma FVector4
+---@field Gain FVector4
+---@field Offset FVector4
+FColorGradePerRangeSettings = {}
+
+
+---@class FColorGradingSettings
+---@field Global FColorGradePerRangeSettings
+---@field Shadows FColorGradePerRangeSettings
+---@field Midtones FColorGradePerRangeSettings
+---@field Highlights FColorGradePerRangeSettings
+---@field ShadowsMax number
+---@field HighlightsMin number
+FColorGradingSettings = {}
+
+
+---@class FFilmStockSettings
+---@field Slope number
+---@field Toe number
+---@field Shoulder number
+---@field BlackClip number
+---@field WhiteClip number
+FFilmStockSettings = {}
+
+
+---@class FGaussianSumBloomSettings
+---@field Intensity number @Multiplier for all bloom contributions >=0: off, 1(default), >1 brighter
+---@field Threshold number @minimum brightness the bloom starts having effect -1:all pixels affect bloom equally (physically correct, faster as a threshold pass is omitted), 0:all pixels affect bloom brights more, 1(default), >1 brighter
+---@field SizeScale number @Scale for all bloom sizes
+---@field Filter1Size number @Diameter size for the Bloom1 in percent of the screen width (is done in 1/2 resolution, larger values cost more performance, good for high frequency details) >=0: can be clamped because of shader limitations
+---@field Filter2Size number @Diameter size for Bloom2 in percent of the screen width (is done in 1/4 resolution, larger values cost more performance) >=0: can be clamped because of shader limitations
+---@field Filter3Size number @Diameter size for Bloom3 in percent of the screen width (is done in 1/8 resolution, larger values cost more performance) >=0: can be clamped because of shader limitations
+---@field Filter4Size number @Diameter size for Bloom4 in percent of the screen width (is done in 1/16 resolution, larger values cost more performance, best for wide contributions) >=0: can be clamped because of shader limitations
+---@field Filter5Size number @Diameter size for Bloom5 in percent of the screen width (is done in 1/32 resolution, larger values cost more performance, best for wide contributions) >=0: can be clamped because of shader limitations
+---@field Filter6Size number @Diameter size for Bloom6 in percent of the screen width (is done in 1/64 resolution, larger values cost more performance, best for wide contributions) >=0: can be clamped because of shader limitations
+---@field Filter1Tint FLinearColor @Bloom1 tint color
+---@field Filter2Tint FLinearColor @Bloom2 tint color
+---@field Filter3Tint FLinearColor @Bloom3 tint color
+---@field Filter4Tint FLinearColor @Bloom4 tint color
+---@field Filter5Tint FLinearColor @Bloom5 tint color
+---@field Filter6Tint FLinearColor @Bloom6 tint color
+FGaussianSumBloomSettings = {}
+
+
+---@class FConvolutionBloomSettings
+---@field Size number @Relative size of the convolution kernel image compared to the minor axis of the viewport
+---@field CenterUV FVector2D @The UV location of the center of the kernel.  Should be very close to (.5,.5)
+---@field PreFilterMin number @Boost intensity of select pixels  prior to computing bloom convolution (Min, Max, Multiplier).  Max < Min disables
+---@field PreFilterMax number @Boost intensity of select pixels  prior to computing bloom convolution (Min, Max, Multiplier).  Max < Min disables
+---@field PreFilterMult number @Boost intensity of select pixels  prior to computing bloom convolution (Min, Max, Multiplier).  Max < Min disables
+---@field BufferScale number @Implicit buffer region as a fraction of the screen size to insure the bloom does not wrap across the screen.  Larger sizes have perf impact.
+FConvolutionBloomSettings = {}
+
+
+---@class FLensBloomSettings
+---@field GaussianSum FGaussianSumBloomSettings @Bloom gaussian sum method specific settings.
+---@field Convolution FConvolutionBloomSettings @Bloom convolution method specific settings.
+---@field Method EBloomMethod @Bloom algorithm
+FLensBloomSettings = {}
+
+
+---@class FLensImperfectionSettings
+---@field DirtMaskIntensity number @BloomDirtMask intensity
+---@field DirtMaskTint FLinearColor @BloomDirtMask tint color
+FLensImperfectionSettings = {}
+
+
+---@class FLensSettings
+---@field Bloom FLensBloomSettings
+---@field Imperfections FLensImperfectionSettings
+---@field ChromaticAberration number @in percent, Scene chromatic aberration / color fringe (camera imperfection) to simulate an artifact that happens in real-world lens, mostly visible in the image corners.
+FLensSettings = {}
+
+
+---@class FCameraExposureSettings
+---@field Method EAutoExposureMethod @Luminance computation method
+---@field LowPercent number @The eye adaptation will adapt to a value extracted from the luminance histogram of the scene color. The value is defined as having x percent below this brightness. Higher values give bright spots on the screen more priority but can lead to less stable results. Lower values give the medium and darker values more priority but might cause burn out of bright spots. >0, <100, good values are in the range 70 .. 80
+---@field HighPercent number @The eye adaptation will adapt to a value extracted from the luminance histogram of the scene color. The value is defined as having x percent below this brightness. Higher values give bright spots on the screen more priority but can lead to less stable results. Lower values give the medium and darker values more priority but might cause burn out of bright spots. >0, <100, good values are in the range 80 .. 95
+---@field MinBrightness number @A good value should be positive near 0. This is the minimum brightness the auto exposure can adapt to. It should be tweaked in a dark lighting situation (too small: image appears too bright, too large: image appears too dark). Note: Tweaking emissive materials and lights or tweaking auto exposure can look the same. Tweaking auto exposure has global effect and defined the HDR range - you don't want to change that late in the project development. Eye Adaptation is disabled if MinBrightness = MaxBrightness
+---@field MaxBrightness number @A good value should be positive (2 is a good value). This is the maximum brightness the auto exposure can adapt to. It should be tweaked in a bright lighting situation (too small: image appears too bright, too large: image appears too dark). Note: Tweaking emissive materials and lights or tweaking auto exposure can look the same. Tweaking auto exposure has global effect and defined the HDR range - you don't want to change that late in the project development. Eye Adaptation is disabled if MinBrightness = MaxBrightness
+---@field SpeedUp number @>0
+---@field SpeedDown number @>0
+---@field Bias number @Logarithmic adjustment for the exposure. Only used if a tonemapper is specified. 0: no adjustment, -1:2x darker, -2:4x darker, 1:2x brighter, 2:4x brighter, ...
+---@field HistogramLogMin number @temporary exposed until we found good values, -8: 1/256, -10: 1/1024
+---@field HistogramLogMax number @temporary exposed until we found good values 4: 16, 8: 256
+FCameraExposureSettings = {}
+
+
+---@class FWeightedBlendable
+---@field Weight number @0:no effect .. 1:full effect
+FWeightedBlendable = {}
+
+
+---@class FWeightedBlendables
+---@field Array ULuaArrayHelper<FWeightedBlendable>
+FWeightedBlendables = {}
+
+
+---To be able to use struct PostProcessSettings.
+---@class FPostProcessSettings
+---@field bOverride_WhiteTemp number
+---@field bOverride_WhiteTint number
+---@field bOverride_ColorSaturation number
+---@field bOverride_ColorContrast number
+---@field bOverride_ColorGamma number
+---@field bOverride_ColorGain number
+---@field bOverride_ColorOffset number
+---@field bOverride_ColorSaturationShadows number
+---@field bOverride_ColorContrastShadows number
+---@field bOverride_ColorGammaShadows number
+---@field bOverride_ColorGainShadows number
+---@field bOverride_ColorOffsetShadows number
+---@field bOverride_ColorSaturationMidtones number
+---@field bOverride_ColorContrastMidtones number
+---@field bOverride_ColorGammaMidtones number
+---@field bOverride_ColorGainMidtones number
+---@field bOverride_ColorOffsetMidtones number
+---@field bOverride_ColorSaturationHighlights number
+---@field bOverride_ColorContrastHighlights number
+---@field bOverride_ColorGammaHighlights number
+---@field bOverride_ColorGainHighlights number
+---@field bOverride_ColorOffsetHighlights number
+---@field bOverride_ColorCorrectionShadowsMax number
+---@field bOverride_ColorCorrectionHighlightsMin number
+---@field bOverride_FilmWhitePoint number
+---@field bOverride_FilmSaturation number
+---@field bOverride_FilmChannelMixerRed number
+---@field bOverride_FilmChannelMixerGreen number
+---@field bOverride_FilmChannelMixerBlue number
+---@field bOverride_FilmContrast number
+---@field bOverride_FilmDynamicRange number
+---@field bOverride_FilmHealAmount number
+---@field bOverride_FilmToeAmount number
+---@field bOverride_FilmShadowTint number
+---@field bOverride_FilmShadowTintBlend number
+---@field bOverride_FilmShadowTintAmount number
+---@field bOverride_FilmSlope number
+---@field bOverride_FilmToe number
+---@field bOverride_FilmShoulder number
+---@field bOverride_FilmBlackClip number
+---@field bOverride_FilmWhiteClip number
+---@field bOverride_SceneColorTint number
+---@field bOverride_SceneFringeIntensity number
+---@field bOverride_AmbientCubemapTint number
+---@field bOverride_AmbientCubemapIntensity number
+---@field bOverride_BloomMethod number
+---@field bOverride_BloomIntensity number
+---@field bOverride_BloomThreshold number
+---@field bOverride_Bloom1Tint number
+---@field bOverride_Bloom1Size number
+---@field bOverride_Bloom2Size number
+---@field bOverride_Bloom2Tint number
+---@field bOverride_Bloom3Tint number
+---@field bOverride_Bloom3Size number
+---@field bOverride_Bloom4Tint number
+---@field bOverride_Bloom4Size number
+---@field bOverride_Bloom5Tint number
+---@field bOverride_Bloom5Size number
+---@field bOverride_Bloom6Tint number
+---@field bOverride_Bloom6Size number
+---@field bOverride_BloomSizeScale number
+---@field bOverride_BloomConvolutionTexture number
+---@field bOverride_BloomConvolutionSize number
+---@field bOverride_BloomConvolutionCenterUV number
+---@field bOverride_BloomConvolutionPreFilter_DEPRECATED number
+---@field bOverride_BloomConvolutionPreFilterMin number
+---@field bOverride_BloomConvolutionPreFilterMax number
+---@field bOverride_BloomConvolutionPreFilterMult number
+---@field bOverride_BloomConvolutionBufferScale number
+---@field bOverride_BloomDirtMaskIntensity number
+---@field bOverride_BloomDirtMaskTint number
+---@field bOverride_BloomDirtMask number
+---@field bOverride_RadialBlurCenterPos number
+---@field bOverride_RadialBlurIntensity number
+---@field bOverride_RadialBlurDistance number
+---@field bOverride_AutoExposureMethod number
+---@field bOverride_AutoExposureLowPercent number
+---@field bOverride_AutoExposureHighPercent number
+---@field bOverride_AutoExposureMinBrightness number
+---@field bOverride_AutoExposureMaxBrightness number
+---@field bOverride_AutoExposureSpeedUp number
+---@field bOverride_AutoExposureSpeedDown number
+---@field bOverride_AutoExposureBias number
+---@field bOverride_HistogramLogMin number
+---@field bOverride_HistogramLogMax number
+---@field bOverride_LensFlareIntensity number
+---@field bOverride_LensFlareTint number
+---@field bOverride_LensFlareTints number
+---@field bOverride_LensFlareBokehSize number
+---@field bOverride_LensFlareBokehShape number
+---@field bOverride_LensFlareThreshold number
+---@field bOverride_VignetteIntensity number
+---@field bOverride_GrainIntensity number
+---@field bOverride_GrainJitter number
+---@field bOverride_AmbientOcclusionIntensity number
+---@field bOverride_AmbientOcclusionStaticFraction number
+---@field bOverride_AmbientOcclusionRadius number
+---@field bOverride_AmbientOcclusionFadeDistance number
+---@field bOverride_AmbientOcclusionFadeRadius number
+---@field bOverride_HBAOPowerExponent number
+---@field bOverride_HBAORadius number
+---@field bOverride_HBAOBias number
+---@field bOverride_HBAODetailAO number
+---@field bOverride_HBAOBlurRadius number
+---@field bOverride_HBAOBlurSharpness number
+---@field bOverride_HBAOMaxViewDepth number
+---@field bOverride_HBAODepthSharpness number
+---@field bOverride_AmbientOcclusionDistance_DEPRECATED number
+---@field bOverride_AmbientOcclusionRadiusInWS number
+---@field bOverride_AmbientOcclusionPower number
+---@field bOverride_AmbientOcclusionBias number
+---@field bOverride_AmbientOcclusionQuality number
+---@field bOverride_AmbientOcclusionMipBlend number
+---@field bOverride_AmbientOcclusionMipScale number
+---@field bOverride_AmbientOcclusionMipThreshold number
+---@field bOverride_LPVIntensity number
+---@field bOverride_LPVDirectionalOcclusionIntensity number
+---@field bOverride_LPVDirectionalOcclusionRadius number
+---@field bOverride_LPVDiffuseOcclusionExponent number
+---@field bOverride_LPVSpecularOcclusionExponent number
+---@field bOverride_LPVDiffuseOcclusionIntensity number
+---@field bOverride_LPVSpecularOcclusionIntensity number
+---@field bOverride_LPVSize number
+---@field bOverride_LPVSecondaryOcclusionIntensity number
+---@field bOverride_LPVSecondaryBounceIntensity number
+---@field bOverride_LPVGeometryVolumeBias number
+---@field bOverride_LPVVplInjectionBias number
+---@field bOverride_LPVEmissiveInjectionIntensity number
+---@field bOverride_LPVFadeRange number
+---@field bOverride_LPVDirectionalOcclusionFadeRange number
+---@field bOverride_SRTIndirectLightingColor number
+---@field bOverride_SRTIndirectLightingIntensity number
+---@field bOverride_SRTIndirectLightingSaturation number
+---@field bOverride_SRTBakeGIIntensity number
+---@field bOverride_SRTBakeGIColor number
+---@field bOverride_SRTFallbackGIIntensity number
+---@field bOverride_SRTFallbackGIColor number
+---@field bOverride_SRTMaxOcclusionDistance number
+---@field bOverride_SRTMinOcclusion number
+---@field bOverride_SRTMinOcclusionDistance number
+---@field bOverride_SRTMinCharacterLum number
+---@field bOverride_SRTEnhanceBakedLocalLight number
+---@field bOverride_SRTGlobalBakeRadianceFactor number
+---@field bOverride_SRTFadeStartDistance number
+---@field bOverride_SRTFadeEndDistance number
+---@field bOverride_SRTSkyLightColor number
+---@field bOverride_SRTSkyLightIntensity number
+---@field bOverride_SRTDirectionalLightScale number
+---@field bOverride_SRTFilterSmoothness number
+---@field bOverride_SRTBentNormalAOQuality number
+---@field bOverride_SRTBentNormalAOIntensity number
+---@field bOverride_SRTBentNormalAOPower number
+---@field bOverride_SRTBentNormalFilterKernelSize number
+---@field bOverride_SRTNormalBias number
+---@field bOverride_SRTViewBias number
+---@field bOverride_SRTVolumePadding number
+---@field bOverride_SRTVolumeCenterElevation number
+---@field bOverride_IndirectLightingColor number
+---@field bOverride_IndirectLightingIntensity number
+---@field bOverride_ColorGradingIntensity number
+---@field bOverride_ColorGradingLUT number
+---@field bOverride_DepthOfFieldFocalDistance number
+---@field bOverride_DepthOfFieldFstop number
+---@field bOverride_DepthOfFieldSensorWidth number
+---@field bOverride_DepthOfFieldDepthBlurRadius number
+---@field bOverride_DepthOfFieldDepthBlurAmount number
+---@field bOverride_DepthOfFieldFocalRegion number
+---@field bOverride_DepthOfFieldNearTransitionRegion number
+---@field bOverride_DepthOfFieldFarTransitionRegion number
+---@field bOverride_DepthOfFieldScale number
+---@field bOverride_DepthOfFieldMaxBokehSize number
+---@field bOverride_DepthOfFieldNearBlurSize number
+---@field bOverride_DepthOfFieldFarBlurSize number
+---@field bOverride_DepthOfFieldMethod number
+---@field bOverride_MobileHQGaussian number
+---@field bOverride_DepthOfFieldBokehShape number
+---@field bOverride_DepthOfFieldOcclusion number
+---@field bOverride_DepthOfFieldColorThreshold number
+---@field bOverride_DepthOfFieldSizeThreshold number
+---@field bOverride_DepthOfFieldSkyFocusDistance number
+---@field bOverride_DepthOfFieldVignetteSize number
+---@field bOverride_ScopeCenter number
+---@field bOverride_ScopeDirection number
+---@field bOverride_ScopeRadius number
+---@field bOverride_MotionBlurAmount number
+---@field bOverride_MotionBlurMax number
+---@field bOverride_MotionBlurPerObjectSize number
+---@field bOverride_ScreenPercentage number
+---@field bOverride_ScreenSpaceReflectionIntensity number
+---@field bOverride_ScreenSpaceReflectionQuality number
+---@field bOverride_ScreenSpaceReflectionMaxRoughness number
+---@field bOverride_ScreenSpaceReflectionRoughnessScale number
+---@field bOverride_FxaaConsoleEdgeSharpness number
+---@field bOverride_FxaaConsoleEdgeThreshold number
+---@field bOverride_FxaaConsoleEdgeThresholdMin number
+---@field bOverride_FxaaSharpeningRatio number
+---@field WhiteTemp number
+---@field WhiteTint number
+---@field ColorSaturation FVector4
+---@field ColorContrast FVector4
+---@field ColorGamma FVector4
+---@field ColorGain FVector4
+---@field ColorOffset FVector4
+---@field ColorSaturationShadows FVector4
+---@field ColorContrastShadows FVector4
+---@field ColorGammaShadows FVector4
+---@field ColorGainShadows FVector4
+---@field ColorOffsetShadows FVector4
+---@field ColorCorrectionShadowsMax number
+---@field ColorSaturationMidtones FVector4
+---@field ColorContrastMidtones FVector4
+---@field ColorGammaMidtones FVector4
+---@field ColorGainMidtones FVector4
+---@field ColorOffsetMidtones FVector4
+---@field ColorSaturationHighlights FVector4
+---@field ColorContrastHighlights FVector4
+---@field ColorGammaHighlights FVector4
+---@field ColorGainHighlights FVector4
+---@field ColorOffsetHighlights FVector4
+---@field ColorCorrectionHighlightsMin number
+---@field FilmSlope number
+---@field FilmToe number
+---@field FilmShoulder number
+---@field FilmBlackClip number
+---@field FilmWhiteClip number
+---@field FilmWhitePoint FLinearColor
+---@field FilmShadowTint FLinearColor
+---@field FilmShadowTintBlend number
+---@field FilmShadowTintAmount number
+---@field FilmSaturation number
+---@field FilmChannelMixerRed FLinearColor
+---@field FilmChannelMixerGreen FLinearColor
+---@field FilmChannelMixerBlue FLinearColor
+---@field FilmContrast number
+---@field FilmToeAmount number
+---@field FilmHealAmount number
+---@field FilmDynamicRange number
+---@field SceneColorTint FLinearColor @Scene tint color
+---@field SceneFringeIntensity number @in percent, Scene chromatic aberration / color fringe (camera imperfection) to simulate an artifact that happens in real-world lens, mostly visible in the image corners.
+---@field BloomMethod EBloomMethod @Bloom algorithm
+---@field BloomIntensity number @Multiplier for all bloom contributions >=0: off, 1(default), >1 brighter
+---@field BloomThreshold number @minimum brightness the bloom starts having effect -1:all pixels affect bloom equally (physically correct, faster as a threshold pass is omitted), 0:all pixels affect bloom brights more, 1(default), >1 brighter
+---@field BloomSizeScale number @Scale for all bloom sizes
+---@field Bloom1Size number @Diameter size for the Bloom1 in percent of the screen width (is done in 1/2 resolution, larger values cost more performance, good for high frequency details) >=0: can be clamped because of shader limitations
+---@field Bloom2Size number @Diameter size for Bloom2 in percent of the screen width (is done in 1/4 resolution, larger values cost more performance) >=0: can be clamped because of shader limitations
+---@field Bloom3Size number @Diameter size for Bloom3 in percent of the screen width (is done in 1/8 resolution, larger values cost more performance) >=0: can be clamped because of shader limitations
+---@field Bloom4Size number @Diameter size for Bloom4 in percent of the screen width (is done in 1/16 resolution, larger values cost more performance, best for wide contributions) >=0: can be clamped because of shader limitations
+---@field Bloom5Size number @Diameter size for Bloom5 in percent of the screen width (is done in 1/32 resolution, larger values cost more performance, best for wide contributions) >=0: can be clamped because of shader limitations
+---@field Bloom6Size number @Diameter size for Bloom6 in percent of the screen width (is done in 1/64 resolution, larger values cost more performance, best for wide contributions) >=0: can be clamped because of shader limitations
+---@field Bloom1Tint FLinearColor @Bloom1 tint color
+---@field Bloom2Tint FLinearColor @Bloom2 tint color
+---@field Bloom3Tint FLinearColor @Bloom3 tint color
+---@field Bloom4Tint FLinearColor @Bloom4 tint color
+---@field Bloom5Tint FLinearColor @Bloom5 tint color
+---@field Bloom6Tint FLinearColor @Bloom6 tint color
+---@field BloomConvolutionSize number @Relative size of the convolution kernel image compared to the minor axis of the viewport
+---@field BloomConvolutionCenterUV FVector2D @The UV location of the center of the kernel.  Should be very close to (.5,.5)
+---@field BloomConvolutionPreFilter_DEPRECATED FVector
+---@field BloomConvolutionPreFilterMin number @Boost intensity of select pixels  prior to computing bloom convolution (Min, Max, Multiplier).  Max < Min disables
+---@field BloomConvolutionPreFilterMax number @Boost intensity of select pixels  prior to computing bloom convolution (Min, Max, Multiplier).  Max < Min disables
+---@field BloomConvolutionPreFilterMult number @Boost intensity of select pixels  prior to computing bloom convolution (Min, Max, Multiplier).  Max < Min disables
+---@field BloomConvolutionBufferScale number @Implicit buffer region as a fraction of the screen size to insure the bloom does not wrap across the screen.  Larger sizes have perf impact.
+---@field BloomDirtMaskIntensity number @BloomDirtMask intensity
+---@field BloomDirtMaskTint FLinearColor @BloomDirtMask tint color
+---@field RadialBlurCenterPos FVector2D @RadialBlur center point position
+---@field RadialBlurIntensity number @RadialBlur intensity
+---@field RadialBlurDistance number @RadialBlur distance from the center point
+---@field AmbientCubemapTint FLinearColor @AmbientCubemap tint color
+---@field AmbientCubemapIntensity number @To scale the Ambient cubemap brightness >=0: off, 1(default), >1 brighter
+---@field AutoExposureMethod EAutoExposureMethod @Luminance computation method
+---@field AutoExposureLowPercent number @The eye adaptation will adapt to a value extracted from the luminance histogram of the scene color. The value is defined as having x percent below this brightness. Higher values give bright spots on the screen more priority but can lead to less stable results. Lower values give the medium and darker values more priority but might cause burn out of bright spots. >0, <100, good values are in the range 70 .. 80
+---@field AutoExposureHighPercent number @The eye adaptation will adapt to a value extracted from the luminance histogram of the scene color. The value is defined as having x percent below this brightness. Higher values give bright spots on the screen more priority but can lead to less stable results. Lower values give the medium and darker values more priority but might cause burn out of bright spots. >0, <100, good values are in the range 80 .. 95
+---@field AutoExposureMinBrightness number @A good value should be positive near 0. This is the minimum brightness the auto exposure can adapt to. It should be tweaked in a dark lighting situation (too small: image appears too bright, too large: image appears too dark). Note: Tweaking emissive materials and lights or tweaking auto exposure can look the same. Tweaking auto exposure has global effect and defined the HDR range - you don't want to change that late in the project development. Eye Adaptation is disabled if MinBrightness = MaxBrightness
+---@field AutoExposureMaxBrightness number @A good value should be positive (2 is a good value). This is the maximum brightness the auto exposure can adapt to. It should be tweaked in a bright lighting situation (too small: image appears too bright, too large: image appears too dark). Note: Tweaking emissive materials and lights or tweaking auto exposure can look the same. Tweaking auto exposure has global effect and defined the HDR range - you don't want to change that late in the project development. Eye Adaptation is disabled if MinBrightness = MaxBrightness
+---@field AutoExposureSpeedUp number @>0
+---@field AutoExposureSpeedDown number @>0
+---@field BlindWatermarking number @paulshili add Blind Watermarking
+---@field ShowFFTResult number
+---@field bOverride_BlindWatermarking number
+---@field bOverride_ShowFFTResult number
+---@field bOverride_BlindWatermarkingTexture number
+---@field AutoExposureBias number @Logarithmic adjustment for the exposure. Only used if a tonemapper is specified. 0: no adjustment, -1:2x darker, -2:4x darker, 1:2x brighter, 2:4x brighter, ...
+---@field HistogramLogMin number @temporary exposed until we found good values, -8: 1/256, -10: 1/1024
+---@field HistogramLogMax number @temporary exposed until we found good values 4: 16, 8: 256
+---@field LensFlareIntensity number @Brightness scale of the image cased lens flares (linear)
+---@field LensFlareTint FLinearColor @Tint color for the image based lens flares.
+---@field LensFlareBokehSize number @Size of the Lens Blur (in percent of the view width) that is done with the Bokeh texture (note: performance cost is radius*radius)
+---@field LensFlareCount number @Minimum brightness the lens flare starts having effect (this should be as high as possible to avoid the performance cost of blurring content that is too dark too see)
+---@field LensFlareThreshold number @Minimum brightness the lens flare starts having effect (this should be as high as possible to avoid the performance cost of blurring content that is too dark too see)
+---@field VignetteIntensity number @0..1 0=off/no vignette .. 1=strong vignette
+---@field GrainJitter number @0..1 grain jitter
+---@field GrainIntensity number @0..1 grain intensity
+---@field HBAOPowerExponent number @0..4 >0 to enable HBAO+ (DX11/Windows only) .. the greater this parameter, the darker is the HBAO
+---@field HBAORadius number @0..2 in meters, bigger values means even distant surfaces affect the ambient occlusion
+---@field HBAOBias number @0.0..0.2 increase to hide tesselation artifacts
+---@field HBAODetailAO number @0..1 strength of the low-range occlusion .. set to 0.0 to improve performance
+---@field HBAOBlurRadius EHBAOBlurRadius @The HBAO blur is needed to hide noise artifacts .. Blur radius = 4 pixels is recommended
+---@field HBAOBlurSharpness number @0..32 the larger, the more the HBAO blur preserves edges
+---@field HBAOMaxViewDepth number @depth threshold max view depth
+---@field HBAODepthSharpness number @depth threshold sharpness in edge
+---@field AmbientOcclusionIntensity number @0..1 0=off/no ambient occlusion .. 1=strong ambient occlusion, defines how much it affects the non direct lighting after base pass
+---@field AmbientOcclusionStaticFraction number @0..1 0=no effect on static lighting .. 1=AO affects the stat lighting, 0 is free meaning no extra rendering pass
+---@field AmbientOcclusionRadius number @>0, in unreal units, bigger values means even distant surfaces affect the ambient occlusion
+---@field AmbientOcclusionRadiusInWS number @true: AO radius is in world space units, false: AO radius is locked the view space in 400 units
+---@field AmbientOcclusionFadeDistance number @>0, in unreal units, at what distance the AO effect disppears in the distance (avoding artifacts and AO effects on huge object)
+---@field AmbientOcclusionFadeRadius number @>0, in unreal units, how many units before AmbientOcclusionFadeOutDistance it starts fading out
+---@field AmbientOcclusionDistance_DEPRECATED number @>0, in unreal units, how wide the ambient occlusion effect should affect the geometry (in depth), will be removed - only used for non normal method which is not exposed
+---@field AmbientOcclusionPower number @>0, in unreal units, bigger values means even distant surfaces affect the ambient occlusion
+---@field AmbientOcclusionBias number @>0, in unreal units, default (3.0) works well for flat surfaces but can reduce details
+---@field AmbientOcclusionQuality number @0=lowest quality..100=maximum quality, only a few quality levels are implemented, no soft transition
+---@field AmbientOcclusionMipBlend number @Affects the blend over the multiple mips (lower resolution versions) , 0:fully use full resolution, 1::fully use low resolution, around 0.6 seems to be a good value
+---@field AmbientOcclusionMipScale number @Affects the radius AO radius scale over the multiple mips (lower resolution versions)
+---@field AmbientOcclusionMipThreshold number @to tweak the bilateral upsampling when using multiple mips (lower resolution versions)
+---@field SRTIndirectLightingColor FLinearColor @Adjusts surfel ray tracing indirect lighting color. (1,1,1) is default.
+---@field SRTIndirectLightingIntensity number @Scales the surfel ray tracing indirect lighting contribution. A value of 0 disables GI. Default is 1.
+---@field SRTIndirectLightingSaturation number @Scales the surfel ray tracing indirect lighting saturation. A value of 0 left GI in only intensity. Default is 1.
+---@field SRTSkyLightColor FLinearColor @Controls the Skylight color when calculate indirect lighting.
+---@field SRTSkyLightIntensity number @Controls the Skylight brightness scale when calculate indirect lighting.
+---@field SRTBakeGIColor FLinearColor @Controls the Skylight color when calculate indirect lighting.
+---@field SRTBakeGIIntensity number @Controls the Skylight brightness scale when calculate indirect lighting.
+---@field SRTFallbackGIColor FLinearColor @Controls the Skylight color when there is no gi data.
+---@field SRTFallbackGIIntensity number @Controls the Skylight brightness scale when there is no gi data.
+---@field SRTMaxOcclusionDistance number @Scales the surfel ray tracing ambient occlusion max occlusion distance contribution. Max value is equal to sky ao.
+---@field SRTMinOcclusion number @Controls the darkest that a fully occluded area can get.  This tends to destroy contact shadows, use Contrast or OcclusionExponent instead.
+---@field SRTMinOcclusionDistance number @Objects farther away than this distance are considered to have a lower amount of obstruction of the skylight, which is controlled by the "SkyLight Leaking" value.
+---@field SRTMinCharacterLum number @Increase GI intensity on character when environment is dark
+---@field SRTEnhanceBakedLocalLight number
+---@field SRTMaxValidHitDistForBake number @[Use VoxelRadius As Unit] The voxel less than this distance will be accounted when tracing baked radiance. -1 means disable this restriction. Suggest less value (e.g. 4) for multiple baked local lights case.
+---@field SRTLocalBakeRadianceFactor number @[Affect probes in given region] The value will be multiplied by original radiance when tracing baked radiance.
+---@field SRTGlobalBakeRadianceFactor number @[Affect all baked voxels] The value will be multiplied by original radiance when injecting lightmap color to voxel.
+---@field SRTFadeStartDistance number @Controls the fading start distance to the GI border.
+---@field SRTFadeEndDistance number @Controls the fading end distance to the GI border.
+---@field SRTDirectionalLightScale number @Controls the Directional Light brightness scale when calculate indirect lighting.
+---@field SRTFilterSmoothness number @Scales the surfel ray tracing filtering scale contribution. Default is 0.2. Larger value filter more, but lost of detail indirect shadow.
+---@field SRTNormalBias number @Apply face normal bias to 3d probe sampling position.
+---@field SRTViewBias number @Apply view bias to 3d probe sampling position.
+---@field SRTVolumePadding number @Fade the color near the border of the GI volume.
+---@field SRTVolumeCenterElevation number @Apply view bias to 3d probe sampling position.
+---@field SRTBentNormalAOQuality number @Control's bent normal AO's quality. Higher the value is, the more ray will be traced.
+---@field SRTBentNormalAOIntensity number @Scales the surfel bent normal AO intensity. 0..1 0=off/no ambient occlusion .. 1=strong ambient occlusion, defines how much it affects the indirect lighting pass of surfel GI
+---@field SRTBentNormalAOPower number @>0, in unreal units, bigger values means even distant surfaces affect the bent normal AO.
+---@field SRTBentNormalFilterKernelSize number @Control's bent normal AO's spatial filter's kernel size. 0 means no spatial filter.
+---@field IndirectLightingColor FLinearColor @Adjusts indirect lighting color. (1,1,1) is default. (0,0,0) to disable GI. The show flag 'Global Illumination' must be enabled to use this property.
+---@field IndirectLightingIntensity number @Scales the indirect lighting contribution. A value of 0 disables GI. Default is 1. The show flag 'Global Illumination' must be enabled to use this property.
+---@field ColorGradingIntensity number @Color grading lookup table intensity. 0 = no intensity, 1=full intensity
+---@field DepthOfFieldMethod EDepthOfFieldMethod @BokehDOF, Simple gaussian, ... Mobile supports Gaussian only.
+---@field bMobileHQGaussian number @Enable HQ Gaussian on high end mobile platforms. (ES3_1)
+---@field DepthOfFieldFstop number @CircleDOF only: Defines the opening of the camera lens, Aperture is 1/fstop, typical lens go down to f/1.2 (large opening), larger numbers reduce the DOF effect
+---@field DepthOfFieldSensorWidth number @Width of the camera sensor to assume, in mm.
+---@field DepthOfFieldFocalDistance number @Distance in which the Depth of Field effect should be sharp, in unreal units (cm)
+---@field DepthOfFieldDepthBlurAmount number @CircleDOF only: Depth blur km for 50%
+---@field DepthOfFieldDepthBlurRadius number @CircleDOF only: Depth blur radius in pixels at 1920x
+---@field DepthOfFieldFocalRegion number @Artificial region where all content is in focus, starting after DepthOfFieldFocalDistance, in unreal units  (cm)
+---@field DepthOfFieldNearTransitionRegion number @To define the width of the transition region next to the focal region on the near side (cm)
+---@field DepthOfFieldFarTransitionRegion number @To define the width of the transition region next to the focal region on the near side (cm)
+---@field DepthOfFieldScale number @SM5: BokehDOF only: To amplify the depth of field effect (like aperture)  0=off ES2: Used to blend DoF. 0=off
+---@field DepthOfFieldMaxBokehSize number @BokehDOF only: Maximum size of the Depth of Field blur (in percent of the view width) (note: performance cost scales with size*size)
+---@field DepthOfFieldNearBlurSize number @Gaussian only: Maximum size of the Depth of Field blur (in percent of the view width) (note: performance cost scales with size)
+---@field DepthOfFieldFarBlurSize number @Gaussian only: Maximum size of the Depth of Field blur (in percent of the view width) (note: performance cost scales with size)
+---@field DepthOfFieldOcclusion number @Occlusion tweak factor 1 (0.18 to get natural occlusion, 0.4 to solve layer color leaking issues)
+---@field DepthOfFieldColorThreshold number @Color threshold to do full quality DOF (BokehDOF only)
+---@field DepthOfFieldSizeThreshold number @Size threshold to do full quality DOF (BokehDOF only)
+---@field DepthOfFieldSkyFocusDistance number @Artificial distance to allow the skybox to be in focus (e.g. 200000), <=0 to switch the feature off, only for GaussianDOF, can cost performance
+---@field DepthOfFieldVignetteSize number @Artificial circular mask to (near) blur content outside the radius, only for GaussianDOF, diameter in percent of screen width, costs performance if the mask is used, keep Feather can Radius on default to keep it off
+---@field ScopeCenter FVector
+---@field ScopeDirection FVector
+---@field ScopeRadius number
+---@field MotionBlurAmount number @Strength of motion blur, 0:off, should be renamed to intensity
+---@field MotionBlurMax number @max distortion caused by motion blur, in percent of the screen width, 0:off
+---@field MotionBlurPerObjectSize number @The minimum projected screen radius for a primitive to be drawn in the velocity pass, percentage of screen width. smaller numbers cause more draw calls, default: 4%
+---@field LPVIntensity number @How strong the dynamic GI from the LPV should be. 0.0 is off, 1.0 is the "normal" value, but higher values can be used to boost the effect
+---@field LPVVplInjectionBias number @Bias applied to light injected into the LPV in cell units. Increase to reduce bleeding through thin walls
+---@field LPVSize number @The size of the LPV volume, in Unreal units
+---@field LPVSecondaryOcclusionIntensity number @Secondary occlusion strength (bounce light shadows). Set to 0 to disable
+---@field LPVSecondaryBounceIntensity number @Secondary bounce light strength (bounce light shadows). Set to 0 to disable
+---@field LPVGeometryVolumeBias number @Bias applied to the geometry volume in cell units. Increase to reduce darkening due to secondary occlusion
+---@field LPVEmissiveInjectionIntensity number
+---@field LPVDirectionalOcclusionIntensity number @Controls the amount of directional occlusion. Requires LPV. Values very close to 1.0 are recommended
+---@field LPVDirectionalOcclusionRadius number @Occlusion Radius - 16 is recommended for most scenes
+---@field LPVDiffuseOcclusionExponent number @Diffuse occlusion exponent - increase for more contrast. 1 to 2 is recommended
+---@field LPVSpecularOcclusionExponent number @Specular occlusion exponent - increase for more contrast. 6 to 9 is recommended
+---@field LPVDiffuseOcclusionIntensity number @Diffuse occlusion intensity - higher values provide increased diffuse occlusion.
+---@field LPVSpecularOcclusionIntensity number @Specular occlusion intensity - higher values provide increased specular occlusion.
+---@field ScreenSpaceReflectionIntensity number @Enable/Fade/disable the Screen Space Reflection feature, in percent, avoid numbers between 0 and 1 fo consistency
+---@field ScreenSpaceReflectionQuality number @0=lowest quality..100=maximum quality, only a few quality levels are implemented, no soft transition, 50 is the default for better performance.
+---@field ScreenSpaceReflectionMaxRoughness number @Until what roughness we fade the screen space reflections, 0.8 works well, smaller can run faster
+---@field LPVFadeRange number @LPV Fade range - increase to fade more gradually towards the LPV edges.
+---@field LPVDirectionalOcclusionFadeRange number @LPV Directional Occlusion Fade range - increase to fade more gradually towards the LPV edges.
+---@field ScreenPercentage number @To render with lower or high resolution than it is presented, controlled by console variable, 100:off, needs to be <99 to get upsampling and lower to get performance, >100 for super sampling (slower but higher quality), only applied in game
+---@field WeightedBlendables FWeightedBlendables @Allows custom post process materials to be defined, using a MaterialInstance with the same Material as its parent to allow blending. For materials this needs to be the "PostProcess" domain type. This can be used for any UObject object implementing the IBlendableInterface (e.g. could be used to fade weather settings).
+---@field FxaaConsoleEdgeSharpness number @there are only three safe values here: 2 and 4 and 8: 8.0 is sharper, 4.0 is softer, 2.0 is really soft.
+---@field FxaaConsoleEdgeThreshold number @there are only two safe values here: 1/4 and 1/8, 0.125 leaves less aliasing, but is softer, 0.25 leaves more aliasing, and is sharper.
+---@field FxaaConsoleEdgeThresholdMin number @Trims the algorithm from processing darks: 0.06 - faster but more aliasing in darks, 0.05 - default, 0.04 - slower and less aliasing in darks.
+---@field FxaaSharpeningRatio number @Apply sharpening method to original FXAA. 0 means no sharpening at all. 1 means fully sharpened.
+---@field Blendables_DEPRECATED ULuaArrayHelper<UObject>
+FPostProcessSettings = {}
+
+
+---@class UScene: UObject
+local UScene = {}

@@ -1,0 +1,25 @@
+---@meta
+
+---Follow Move Moves the AI pawn to the specified Actor
+---@class UBTTask_FollowMove: UBTTaskNode
+---@field TargetBlackboardKey any @follow target Actor
+---@field AcceptableRadius number @fixed distance added to threshold between AI and goal location in destination reach test
+---@field bReachTestIncludesAgentRadius number @if set, radius of AI's capsule will be added to threshold between AI and goal location in destination reach test
+---@field bReachTestIncludesGoalRadius number @if set, radius of goal's capsule will be added to threshold between AI and goal location in destination reach test
+---@field bUseDirectlyTowardPath number @if set, path between two actors can be used
+---@field TargetDirectlyPathOffset FVector @the offset used when finding directly path
+---@field bUseFollowTargetPath number @if set, path Follow Target can be used
+---@field bUsePathfinding number @if set, move will use pathfinding
+---@field FilterClass UNavigationQueryFilter @"None" will result in default filter being used
+---@field bAllowPartialPath number @if set, use incomplete path when goal can't be reached
+---@field bSetBlockedWhenRequestMoveFailed number @if set, OutIsBlockedKey is set when request move failed
+---@field bSetBlockedWhenOnMessageFailed number @if set, OutIsBlockedKey is set when onmessage failed
+---@field OutIsBlockedKey any @is blocked?
+---@field bObserveBlackboardValue number @if move goal in BB changes the move will be redirected to new location
+---@field TrackGoalTetherDistance number @if task is expected to track move goal, when distance is greater than this value, repath is triggered
+---@field TrackGoalTimeInterval number @if task is expected to track move goal, the min time interval which repath can be triggered
+---@field ObservedBlackboardValueTolerance number @if task is expected to react to changes to location represented by BB key this property can be used to tweak sensitivity of the mechanism. Value is recommended to be less then AcceptableRadius
+---@field bAsyncExecuteTask boolean
+---@field AnimalMoveType EAIMovePose
+---@field AnimalMoveTypeNew EAnimalMovePose
+local UBTTask_FollowMove = {}

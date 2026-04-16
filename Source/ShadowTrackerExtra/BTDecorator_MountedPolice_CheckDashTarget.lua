@@ -1,0 +1,21 @@
+---@meta
+
+---【E玩法】骑警检测冲撞技能对象
+---@class UBTDecorator_MountedPolice_CheckDashTarget: UBTDecorator
+---@field MinDistance number
+---@field MaxDistance number
+---@field AngleLimit number
+---@field bControlVehicle boolean
+---@field bFindNewTarget boolean
+---@field TargetTag string
+---@field bCanFindBackTarget boolean
+---@field bLocationOffset boolean
+---@field bForceDirectMove boolean
+---@field LocationOffset number
+---@field AngleStep number
+---@field OutIsDirectMoveBBK any
+---@field OutViaLocBBK any
+---@field bShowDebug boolean
+---@field DebugLineWidth number
+---@field DebugDuration number
+local UBTDecorator_MountedPolice_CheckDashTarget = {}

@@ -1,0 +1,26 @@
+---@meta
+
+---@class UBTTask_MobStrategyMove: UBTTask_BlackboardBase
+---@field MoveType EAIMovePose
+---@field bSetRotation boolean
+---@field SampleNumber number
+---@field ControllPoint1 FVector2D
+---@field ControllPoint2 FVector2D
+---@field DirectionAngleRange FVector2D
+---@field MoveTargetDistRange FVector2D
+---@field ExecutionDuration FVector2D
+---@field RePlanTime number
+---@field AlwaysSuccess boolean
+---@field AcceptRadius number
+---@field StopOnOverlap boolean
+---@field UsePathfinding boolean
+---@field bAllowStrafe boolean @pathfollowing时保持focus点在移动目标身上(不好用，移动路径的第一段并不会，所以默认关闭，需要focus到目标，用另外的service)
+---@field AllowPartialPath boolean
+---@field ProjectDestinationToNavigation boolean
+---@field ExceptionRandomRadius number
+---@field bCanMoveWhenNoTarget boolean
+---@field bCheckWallPass boolean
+---@field bOpenSetCharMovementMode boolean
+---@field DebugDrawPath boolean
+---@field bUseNavLink boolean
+local UBTTask_MobStrategyMove = {}

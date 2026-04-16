@@ -1,0 +1,46 @@
+---@meta
+
+---@class UBTTask_VehicleBaseNavigatePath: UBTTaskNode
+---@field bModiCollision boolean
+---@field bModiStaticCollision boolean
+---@field bModiCheck boolean
+---@field bModiVisible boolean
+---@field bOnlyDoMoveRight boolean
+---@field fAngleVehicleAndTarget number
+---@field MinRequiredThrottleChange number
+---@field MinRequiredSteeringChange number
+---@field SteeringRightMagnitudeScale number
+---@field SplineKeyDirectionVectorLength number
+---@field VectorLengthSpeedCompenationRatio number
+---@field DisToSplineCompenationRatio number
+---@field MaxPathingVectorLength number
+---@field bAdaptToTargetSpeed boolean
+---@field TargetSpeed number
+---@field OriginalTargetSpeed number
+---@field MaxSpeed number
+---@field OriginalMaxSpeed number
+---@field ThrottleAtTargetSpeed number
+---@field ThrottleAtMaxSpeed number
+---@field OffsetSpeedWeightForBoid number
+---@field DefaultThrottleInput number
+---@field bUseHandbrakeWhenTurning boolean
+---@field HandbrakeSteeringThreshold number
+---@field HandbrakeBrakeSpeedThreshold number
+---@field bUseBrakeWhenTurning boolean
+---@field BrakeSpeedThreshold number
+---@field BrakeSteeringThreshold number
+---@field TargetThrottleInputKey FBlackboardKeySelector
+---@field TargetSpeedModifierKey FBlackboardKeySelector
+---@field TargetSteeringInputKey FBlackboardKeySelector
+---@field IsInAvoidanceModeKey FBlackboardKeySelector
+---@field TargetHandbrakeInputKey FBlackboardKeySelector
+---@field PathSplineKey FBlackboardKeySelector
+---@field PathInputKey FBlackboardKeySelector
+---@field IsPathingInReverseKey FBlackboardKeySelector
+---@field TargetLocationKey FBlackboardKeySelector
+---@field PathingLocationKey FBlackboardKeySelector
+---@field PathInputLocationKey FBlackboardKeySelector
+---@field CamelGroupForceOffsetKey FBlackboardKeySelector
+---@field UseDistanceForTargetPoint boolean
+---@field IsNeedOnlyMoveRight FBlackboardKeySelector
+local UBTTask_VehicleBaseNavigatePath = {}

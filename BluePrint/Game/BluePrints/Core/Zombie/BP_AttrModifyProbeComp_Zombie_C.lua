@@ -1,0 +1,1 @@
+---@class BP_AttrModifyProbeComp_Zombie_C:UAttrModifyProbeComponent

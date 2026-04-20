@@ -1,0 +1,88 @@
+---@class HAS_Main_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field InitHasMain:fun()
+---@field PlaySoundsEffectEverySecond:fun(event:UAkAudioEvent)
+---@field SetAliveNum:fun(num:int32)
+---@field PlayGameStart:fun(round:int32)
+---@field GotoStep:fun(step:int32,round:int32)
+---@field SetRound:fun(round:int32)
+---@field PlaySoundsEffect:fun(AudioEvent:UAkAudioEvent)
+---@field HideRageTips:fun()
+---@field ShowRageTips:fun(TimeLen:int32)
+---@field ShowCountDown:fun(Time:float,MaxTime:float)
+---@field OnClicked_RevivalPlayer:fun()
+---@field DX_Zi1 UWidgetAnimation
+---@field DX_Zi UWidgetAnimation
+---@field DX_Tishi UWidgetAnimation
+---@field DX_GameStart UWidgetAnimation
+---@field DX_ResurrectionQuota UWidgetAnimation
+---@field DX_RemainingNumber UWidgetAnimation
+---@field CanvasPanel_CircleTips UCanvasPanel
+---@field CanvasPanel_ID UCanvasPanel
+---@field CanvasPanel_Revive UCanvasPanel
+---@field CanvasPanel_ReviveBtn UCanvasPanel
+---@field CanvasPanel_ReviveTips UCanvasPanel
+---@field CanvasPanel_ReviveUnActivity UCanvasPanel
+---@field CanvasPanel_SkillTips UCanvasPanel
+---@field CanvasPanel_Slot UCanvasPanel
+---@field CanvasPanel_Start UCanvasPanel
+---@field CanvasPanel_Tips UCanvasPanel
+---@field CDBarUI_BP CDBarUI_BP_C
+---@field HAS_Main_Score_1 HAS_Main_Score_UIBP_C
+---@field HAS_Main_Score_2 HAS_Main_Score_UIBP_C
+---@field HorizontalBox_ReviveWaiting UHorizontalBox
+---@field Image_Rage UImage
+---@field NewButton_Revive UNewButton
+---@field NewButton_SaveMe UNewButton
+---@field NewButton_ShowTable UNewButton
+---@field NewButton_ShowTable2 UNewButton
+---@field NewCheckBox_Round1 UNewCheckBox
+---@field NewCheckBox_Round2 UNewCheckBox
+---@field NewCheckBox_Round3 UNewCheckBox
+---@field RichText_RevivePlayer UUTRichTextBlock
+---@field RichText_Tips UUTRichTextBlock
+---@field TextBlock_CD UTextBlock
+---@field TextBlock_CircleCountDown UTextBlock
+---@field TextBlock_CurrRound UTextBlock
+---@field TextBlock_During UTextBlock
+---@field TextBlock_ID UTextBlock
+---@field TextBlock_Live UTextBlock
+---@field TextBlock_PlayerName UTextBlock
+---@field TextBlock_Rank UTextBlock
+---@field TextBlock_ReviveNum UTextBlock
+---@field TextBlock_ReviveTime UTextBlock
+---@field TextBlock_Round UTextBlock
+---@field TextBlock_SaveMeCD UTextBlock
+---@field TextBlock_Score UTextBlock
+---@field TextBlock_Time UTextBlock
+---@field WidgetSwitcher_Gender UWidgetSwitcher
+---@field WidgetSwitcher_ID UWidgetSwitcher
+---@field WidgetSwitcher_Stage UWidgetSwitcher
+---@field WidgetSwitcher_TipsType UWidgetSwitcher
+---@field RevivalCD UMaterialInstanceDynamic
+---@field RevivalMaxTime float
+---@field RoundText ULuaArrayHelper
+---@field URSeeker FText
+---@field URHider FText
+---@field HideStyle UUserWidgetStyle
+---@field SeekStyle UUserWidgetStyle
+---@field PrepareStyle UUserWidgetStyle
+---@field RageTimer FTimerHandle
+---@field WarningCircleEvent UAkAudioEvent
+---@field RevivalTimeEvent UAkAudioEvent
+---@field CrazyPeriodEvent UAkAudioEvent
+---@field WarningCircleAudio UAkAudioEvent
+---@field RevivalTimeAudio UAkAudioEvent
+---@field CrazyPeriodAudio UAkAudioEvent
+---@field RoundList ULuaArrayHelper
+---@field CurrRound int32
+---@field Play_HideAndSeek_UI_Hider UAkAudioEvent
+---@field Play_HideAndSeek_UI_Searcher UAkAudioEvent
+---@field lastSoundTime float
+---@field Play_HideAndSeek_Vo_01 UAkAudioEvent
+---@field Round1 int32
+---@field Round2 int32
+---@field SeekPrepareStyle UUserWidgetStyle
+---@field Play_HideAndSeek_UI_Countdown UAkAudioEvent
+---@field ReplayStyle UUserWidgetStyle
+---@field OBStyle UUserWidgetStyle

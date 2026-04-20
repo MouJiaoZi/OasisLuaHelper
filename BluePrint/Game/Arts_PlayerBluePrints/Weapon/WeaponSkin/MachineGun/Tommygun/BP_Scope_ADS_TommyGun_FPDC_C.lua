@@ -1,0 +1,1 @@
+---@class BP_Scope_ADS_TommyGun_FPDC_C:BP_Scope_ADS_TommyGun_C

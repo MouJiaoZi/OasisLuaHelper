@@ -1,0 +1,19 @@
+---@class BP_Skill_DragonBreath_C:AUAESkill
+---@field PlayLauncherMotage:fun()
+---@field RemoveLauncher:fun()
+---@field SpawnLauncher:fun()
+---@field UserConstructionScript:fun()
+---@field UTSkillAppearance_SoundCue UUTSkillAppearance_SoundCue
+---@field STBuffAction_CameraAnim USTBuffAction_CameraAnim
+---@field UAESkillAction_PlayMontage_WeaponState UUAESkillAction_PlayMontage_WeaponState
+---@field UTSkillSpecificAction UUTSkillSpecificAction
+---@field UTSkillEventEffectMapForEditor4 UUTSkillEventEffectMapForEditor
+---@field UTSkillEventEffectMapForEditor3 UUTSkillEventEffectMapForEditor
+---@field UTSkillAppearance_ParticleSystem UUTSkillAppearance_ParticleSystem
+---@field UTSkillAppearance_AddParticle UUTSkillAppearance_AddParticle
+---@field UTSkillEventEffectMapForEditor2 UUTSkillEventEffectMapForEditor
+---@field UTSkillEventEffectMapForEditor1 UUTSkillEventEffectMapForEditor
+---@field UTSkillEventEffectMapForEditor UUTSkillEventEffectMapForEditor
+---@field UAESkillAction_SpawnActor UUAESkillAction_SpawnActor
+---@field UAESkillPhase UUAESkillPhase
+---@field DefaultSceneRoot USceneComponent

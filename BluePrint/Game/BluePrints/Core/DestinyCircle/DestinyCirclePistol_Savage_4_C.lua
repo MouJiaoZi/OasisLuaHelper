@@ -1,0 +1,1 @@
+---@class DestinyCirclePistol_Savage_4_C:ADestinyCircle_Savage_4_C

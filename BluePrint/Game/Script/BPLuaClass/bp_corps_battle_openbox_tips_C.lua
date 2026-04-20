@@ -1,0 +1,18 @@
+---@class bp_corps_battle_openbox_tips_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_CorpsBattleOpenBoxTips_Open_Type int32
+---@field BP_ARRAY_CorpsBattleOpenBoxTipsRankList ULuaArrayHelper
+---@field BP_CorpsBattleOpenBoxTips_Progress int32
+---@field BP_CorpsBattleOpenBoxTips_CanGetSeasonHonor int32
+---@field BP_CorpsBattleOpenBoxTips_CurSelectItemUID FString
+---@field BP_CorpsBattleOpenBoxTips_CurAddFriendUID FString
+---@field BP_ARRAY_CorpsBattleOpenBoxTips_DropList ULuaArrayHelper
+---@field BP_CorpsBattleOpenBoxTips_Treasury_ID int32
+---@field BP_CorpsBattleOpenBoxTips_AvatarFrameID int32
+---@field BP_CorpsBattleOpenBoxTips_CurSeasonHonor int32
+---@field BP_CorpsBattleOpenBoxTips_CurAddFriendGender int32
+---@field BP_CorpsBattleOpenBoxTips_CurSelectItemIdx int32
+---@field BP_CorpsBattleOpenBoxTips_CurProgressSegment int32
+---@field BP_CorpsBattleOpenBoxTips_CurSelectItemOldIdx int32
+---@field BP_CorpsBattleOpenBoxTips_Previous_Treasury_ID int32

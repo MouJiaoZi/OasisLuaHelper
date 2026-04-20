@@ -1,0 +1,15 @@
+---@class BP_PlayerPistol_C:ASTExtraShootWeapon
+---@field UserConstructionScript:fun()
+---@field BulletHitInfoUpload UBulletHitInfoUploadComponent
+---@field CrossHair UCrossHairComponent
+---@field ShootWeaponEntity UShootWeaponEntity
+---@field WeaponStateDefault UWeaponStateDefault
+---@field NoBulletWeaponState UNoBulletWeaponState
+---@field ReloadWeaponState UReloadWeaponState
+---@field FireWeaponState UFireWeaponState
+---@field IdleWeaponState UIdleWeaponState
+---@field InactiveWeaponState UInactiveWeaponState
+---@field ShootWeaponStateManager UShootWeaponStateManager
+---@field ShootWeaponEffect UShootWeaponEffectComponent
+---@field STEShootWeaponProject USTEShootWeaponProjectComponent
+---@field bUseIdleAnim bool

@@ -1,0 +1,1 @@
+---@class BPTriggerItem_DoEmote_C:ATriggerItem_Task

@@ -1,0 +1,40 @@
+---@class Skill_TitanSword_Overload_C:AUAESkill
+---@field GetTitanSwordWeapon:fun():BP_WEP_TitanSword_C
+---@field IsCastingBlockSkill:fun():bool
+---@field IdleUndoAction:fun()
+---@field IdleDoAction:fun()
+---@field RemoveParticle:fun()
+---@field AddParticle:fun()
+---@field RemoveShield:fun()
+---@field AddShield:fun()
+---@field LeaveDynamicState:fun()
+---@field EnterDynamicState:fun()
+---@field EndSkill:fun()
+---@field StartSkill:fun()
+---@field RemoveSkillCover:fun()
+---@field AddSkillCover:fun()
+---@field UserConstructionScript:fun()
+---@field UAESkillAction_JumpPhase UUAESkillAction_JumpPhase
+---@field SkillAction_FullCD SkillAction_FullCD_C
+---@field UTSkillEventEffectMapForEditor5 UUTSkillEventEffectMapForEditor
+---@field UTSkillEventEffectMapForEditor4 UUTSkillEventEffectMapForEditor
+---@field UAESkillAction_StopSkill1 UUAESkillAction_StopSkill
+---@field UTSkillEventEffectMapForEditor6 UUTSkillEventEffectMapForEditor
+---@field UTSkillAppearance_SoundCue1 UUTSkillAppearance_SoundCue
+---@field UTSkillAppearance_AddParticle1 UUTSkillAppearance_AddParticle
+---@field UTSkillSpecificAction2 UUTSkillSpecificAction
+---@field UAESkillAction_AddCustomCameraData UUAESkillAction_AddCustomCameraData
+---@field UTSkillAppearance_SoundCue UUTSkillAppearance_SoundCue
+---@field UTSkillSpecificAction UUTSkillSpecificAction
+---@field UAESkillAction_ShowSkillButton UUAESkillAction_ShowSkillButton
+---@field UAESkillAction_ActiveSkill1 UUAESkillAction_ActiveSkill
+---@field UAESkillPhase2 UUAESkillPhase
+---@field UTSkillEventEffectMapForEditor3 UUTSkillEventEffectMapForEditor
+---@field UTSkillEventEffectMapForEditor2 UUTSkillEventEffectMapForEditor
+---@field UTSkillEventEffectMapForEditor1 UUTSkillEventEffectMapForEditor
+---@field UAESkillAction_HideSkillButton UUAESkillAction_HideSkillButton
+---@field UAESkillAction_ActiveSkill UUAESkillAction_ActiveSkill
+---@field UAESkillAction_PlayMontage_Pose UUAESkillAction_PlayMontage_Pose
+---@field UAESkillPhase1 UUAESkillPhase
+---@field UAESkillPhase UUAESkillPhase
+---@field DefaultSceneRoot USceneComponent

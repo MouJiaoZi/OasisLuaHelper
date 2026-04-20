@@ -1,0 +1,14 @@
+---@class RingMatch_Duel_UIBP_C:UUAEUserWidget
+---@field Common_Avatar_BP Common_Avatar_BP_C
+---@field Common_AvatarChallenge Common_Avatar_BP_C
+---@field Image_Challenge UImage
+---@field Image_Segment UImage
+---@field RingMatch_CardDuel_left RingMatch_CardItem_UIBP_C
+---@field RingMatch_CardDuel_Right RingMatch_CardItem_UIBP_C
+---@field Switcher_ChallengeGender UWidgetSwitcher
+---@field TextBlock_0 UTextBlock
+---@field TextBlock_DuelTime UTextBlock
+---@field TextBlock_Identity UTextBlock
+---@field TextBlock_Player UTextBlock
+---@field TextChallengeName UTextBlock
+---@field WidgetSwitcher_Gender UWidgetSwitcher

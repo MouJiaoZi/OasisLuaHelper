@@ -1,0 +1,13 @@
+---@class TempleLampNicheMapMark_C:UMapUIMarkBaseWidget
+---@field UpdateUIBPState:fun(InState:FCustomMarkEventData)
+---@field OnUIBPCreate:fun(InState:FCustomMarkEventData,ParentState:EMarkParentWidget,inRealLevelToMapScale:float,inMapScale:float)
+---@field Image_Gui UImage
+---@field Image_Hu UImage
+---@field Image_long UImage
+---@field Image_Que UImage
+---@field Switcher_Sixiang UWidgetSwitcher
+---@field ActivatedColor FLinearColor
+---@field long_hui UTexture2D
+---@field Gui_hui UTexture2D
+---@field Que_hui UTexture2D
+---@field Hu_hui UTexture2D

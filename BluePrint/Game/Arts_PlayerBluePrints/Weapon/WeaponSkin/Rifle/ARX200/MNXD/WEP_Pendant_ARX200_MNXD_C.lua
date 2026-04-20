@@ -1,0 +1,1 @@
+---@class WEP_Pendant_ARX200_MNXD_C:BattleItemHandle_WeapAttachment_C

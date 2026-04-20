@@ -1,0 +1,8 @@
+---@class BP_VH_EV3F4_C:BP_STExtraTankVehicle_C
+---@field UserConstructionScript:fun()
+---@field OnEngineStop:fun()
+---@field OnEngineStart:fun()
+---@field OnEntirelyUnderWaterChanged:fun(IsUnderWater:bool)
+---@field EV3F4ChaVehAnimList_Driver UUAEChaVehAnimListComponent
+---@field EV3F4ChaVehAnimList_PassengersR UUAEChaVehAnimListComponent
+---@field EV3F4ChaVehAnimList_PassengersL UUAEChaVehAnimListComponent

@@ -1,0 +1,1 @@
+---@class DestinyCircleSniperRifle_Desert_1_C:ADestinyCircleSniperRifle_1_C

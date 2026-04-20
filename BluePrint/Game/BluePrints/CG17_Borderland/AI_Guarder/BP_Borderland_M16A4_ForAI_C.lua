@@ -1,0 +1,4 @@
+---@class BP_Borderland_M16A4_ForAI_C:ABP_ShootWeaponBase_C
+---@field UserConstructionScript:fun()
+---@field WeaponAnimList_MachineGun_Vector WeaponAnimList_MachineGun_Vector_C
+---@field bUseIdleAnim_0_0 bool

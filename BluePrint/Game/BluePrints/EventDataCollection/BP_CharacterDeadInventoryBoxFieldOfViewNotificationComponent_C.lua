@@ -1,0 +1,5 @@
+---@class BP_CharacterDeadInventoryBoxFieldOfViewNotificationComponent_C:UBP_FieldOfViewNotificationComponent_C
+---@field GetActorLocation:fun(Actor:AActor):FVector
+---@field GetUniqueIdentifier:fun(Context:UObject):FString
+---@field GetFieldOfViewTargetCategory:fun(Context:UObject):FString
+---@field ReceiveBeginPlay:fun()

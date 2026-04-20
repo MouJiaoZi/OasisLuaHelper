@@ -1,0 +1,1 @@
+---@class SM_SandbagWall_02_C:BP_UGCMobileDecorationBaseActor_C

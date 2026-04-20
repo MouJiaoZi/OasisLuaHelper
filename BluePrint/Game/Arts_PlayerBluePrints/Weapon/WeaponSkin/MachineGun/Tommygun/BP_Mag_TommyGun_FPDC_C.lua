@@ -1,0 +1,1 @@
+---@class BP_Mag_TommyGun_FPDC_C:BP_Mag_TommyGun_C

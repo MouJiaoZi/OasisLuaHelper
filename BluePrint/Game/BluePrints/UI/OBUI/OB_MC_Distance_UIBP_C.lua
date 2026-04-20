@@ -1,0 +1,9 @@
+---@class OB_MC_Distance_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field CustomScrollBox_DistanceList UCustomScrollBox
+---@field TeamDistance1 OB_MC_Distance_Item1_UIBP_C
+---@field TeamDistance2 OB_MC_Distance_Item1_UIBP_C
+---@field TeamDistance3 OB_MC_Distance_Item1_UIBP_C
+---@field TeamDistance4 OB_MC_Distance_Item1_UIBP_C
+---@field TeamDistance5 OB_MC_Distance_Item1_UIBP_C
+---@field WidgetSwitcher_State UWidgetSwitcher

@@ -1,0 +1,8 @@
+---@class Ingame_LaserTraceWeapon_UIBP1_C:UUAEUserWidget
+---@field UIMsg_Show:fun()
+---@field UIMsg_Hide:fun()
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field Border_Opacity UBorder
+---@field BtnCancelLaserTraceTable CustomizeCanvasPanel_BP_C
+---@field NewButton_CancelLaserTraceTable UNewButton
+---@field TextBlock_0 UTextBlock

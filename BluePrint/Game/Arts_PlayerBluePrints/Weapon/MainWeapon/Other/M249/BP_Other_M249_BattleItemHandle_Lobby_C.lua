@@ -1,0 +1,1 @@
+---@class BP_Other_M249_BattleItemHandle_Lobby_C:UBackpackWeaponHandle

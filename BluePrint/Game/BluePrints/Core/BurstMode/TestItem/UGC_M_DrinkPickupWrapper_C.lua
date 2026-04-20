@@ -1,0 +1,1 @@
+---@class UGC_M_DrinkPickupWrapper_C:ADrinkWrapper_C

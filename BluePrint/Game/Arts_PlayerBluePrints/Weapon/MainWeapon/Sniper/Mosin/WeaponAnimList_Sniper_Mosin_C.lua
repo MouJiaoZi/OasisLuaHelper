@@ -1,0 +1,1 @@
+---@class WeaponAnimList_Sniper_Mosin_C:UUAECharacterAnimListComponent

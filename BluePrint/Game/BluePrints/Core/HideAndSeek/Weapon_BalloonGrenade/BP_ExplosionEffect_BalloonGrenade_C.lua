@@ -1,0 +1,4 @@
+---@class BP_ExplosionEffect_BalloonGrenade_C:ASTExtraExplosionEffect
+---@field UserConstructionScript:fun()
+---@field DefaultSceneRoot USceneComponent
+---@field ExplosionEffects UExplosionEffectDataAsset

@@ -1,0 +1,1 @@
+---@class BP_Sniper_AWM_BattleItemHandle_TBYX_C:BP_Sniper_AWM_BattleItemHandle_C

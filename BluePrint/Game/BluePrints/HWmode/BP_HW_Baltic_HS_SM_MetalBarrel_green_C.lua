@@ -1,0 +1,6 @@
+---@class BP_HW_Baltic_HS_SM_MetalBarrel_green_C:ASTExtraHouseActor
+---@field UserConstructionScript:fun()
+---@field BP_ItemSpotComponent BP_ItemSpotComponent_C
+---@field BP_ItemSpotGroupComponent BP_ItemSpotGroupComponent_C
+---@field Baltic_SM_MetalBarrel_green UStaticMeshComponent
+---@field DefaultSceneRoot USceneComponent

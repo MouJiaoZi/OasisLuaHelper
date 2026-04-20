@@ -1,0 +1,6 @@
+---@class Variety_Other_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field NewButton_OtherApply UNewButton
+---@field Variety_Slider_Ceiling Variety_Slider_UIBP_C
+---@field Variety_Slider_Multiple Variety_Slider_UIBP_C
+---@field Variety_Slider_SpeedUp Variety_Slider_UIBP_C

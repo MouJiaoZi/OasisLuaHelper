@@ -1,0 +1,1 @@
+---@class BattleItemHandle_BP_Ghillie_4_C:BattleItemHandle_AvatarBP_C

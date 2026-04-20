@@ -1,0 +1,33 @@
+---@class BP_UGCTargetPoint_C:BP_UGCMobileBaseActor_C
+---@field GetLuaModule:fun():FString
+---@field CheckPlayerEnterOut:fun(NewParam:FOverlapCheckActorArray)
+---@field UserConstructionScript:fun()
+---@field TriggerArea UBoxComponent
+---@field OverlapCheckArea UOverlapCheckAreaComponent
+---@field P_TriggerArea UParticleSystemComponent
+---@field TriggerAreaPoint USceneComponent
+---@field ActorMark UActorMarkComponent
+---@field UGCPrefabBillBoard UUGCPrefabBillBoardComponent
+---@field Icon int32
+---@field IconColor FLinearColor
+---@field IconAlpha float
+---@field IconSize float
+---@field TipStr FString
+---@field ShowIcon bool
+---@field ShowMeter bool
+---@field ShowDistance float
+---@field ShowCategory EUGCSwitchTargetTrigger6
+---@field ShowRelateTeams S_TeamChoice
+---@field ShowRelateCamps S_CampChoice
+---@field bDefaultEnable bool
+---@field bHideAfterTrigger bool
+---@field TriggerMutex EUGCMutexTarget
+---@field TriggerLength float
+---@field TriggerWidth float
+---@field TriggerHeight float
+---@field TriggerScore float
+---@field bShowMiniMap bool
+---@field bHideAfterRange bool
+---@field EnableAction FUGCMobileObjectAction
+---@field DisableAction FUGCMobileObjectAction
+---@field TriggerEvent FUGCMobileObjectEvent

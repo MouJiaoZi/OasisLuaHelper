@@ -1,0 +1,17 @@
+---@class HAS_Skill_Seek_UIBP_C:UUTSkillIconWidgetTemplate
+---@field Get_Image_Icon_ColorAndOpacity:fun():FLinearColor
+---@field Get_TextBlock_SkillNum:fun():FText
+---@field GetCurrentCDPercentage:fun(InCurEnergy:float,InMaxEnergy:float,DeltaEnergy:float):bool,float
+---@field Construct:fun()
+---@field DX_UpgradeSkills UWidgetAnimation
+---@field DX_UpgradeSkills_old UWidgetAnimation
+---@field DX_RefreshSkill UWidgetAnimation
+---@field Border_SkillSlot UBorder
+---@field Button_0 UButton
+---@field CanvasPanel_tips UCanvasPanel
+---@field CustomizeCanvasPanel_BP_C_1 CustomizeCanvasPanel_BP_C
+---@field Image_CDTime UImage
+---@field Image_Icon UImage
+---@field Text_Time UTextBlock
+---@field TextBlock_SkillNum UTextBlock
+---@field FunctionBPParam ULuaMapHelper

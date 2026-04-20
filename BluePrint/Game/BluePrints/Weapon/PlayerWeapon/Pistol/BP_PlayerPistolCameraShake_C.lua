@@ -1,0 +1,1 @@
+---@class BP_PlayerPistolCameraShake_C:UCameraShake

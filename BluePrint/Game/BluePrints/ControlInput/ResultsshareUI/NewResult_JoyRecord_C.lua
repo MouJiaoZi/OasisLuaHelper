@@ -1,0 +1,53 @@
+---@class NewResult_JoyRecord_C:UUAEUserWidget
+---@field UIMsg_ShowGameJoyAnimation:fun()
+---@field GenerateEliteReportInLua:fun()
+---@field OnEliteReportEnd:fun()
+---@field IfShowBadgeAndPointPanel:fun()
+---@field IsClassMode:fun():bool
+---@field SetEliteReportOnly:fun()
+---@field OnGetGameJoyImgSuccess:fun(picPath:FString,url:FString,texture:UTexture2D)
+---@field GenerateGamePCGJoyVideosInLua:fun()
+---@field GenerateGameJoyVideosInLua:fun()
+---@field SetQuitSpectateAndShowSingleFalse:fun()
+---@field SetQuitSpectateAndShowSingleTrue:fun()
+---@field IfPCGRecordData:fun():bool
+---@field OnRecordingPCGEndFail:fun()
+---@field OnRecordingPCGEnd:fun()
+---@field HideGameJoy:fun()
+---@field ShowJoyRecordWhenGameOver:fun()
+---@field ShowGameJoy:fun()
+---@field ShowSingleResult:fun()
+---@field StopGameJoyMomentRecord:fun()
+---@field OnGameJoyRecordVideoShare:fun()
+---@field OnGameJoyRecordingEndFail:fun()
+---@field GetModeUI:fun():FString
+---@field IsCorpsResult:fun():bool
+---@field SetRecordTipShow:fun()
+---@field OnGameJoyRecordingEnd:fun()
+---@field SetGameJoyLeftEndPercent:fun(leftPercent:float)
+---@field IfHasRecords:fun():bool
+---@field StopGameJoyRecord:fun()
+---@field GetMyName:fun():FString
+---@field ShowBattleRankingUI:fun()
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field Construct:fun()
+---@field DX_Settlement UWidgetAnimation
+---@field Button_PlayVideoRecord UButton
+---@field Canvas_VideoBtnCDBar UCanvasPanel
+---@field CanvasPanel_EliteReportTips UCanvasPanel
+---@field CanvasPanel_Protect UCanvasPanel
+---@field CanvasPanel_ShareVideoTips UCanvasPanel
+---@field CanvasPanel_VideoRecord UCanvasPanel
+---@field CanvasPanel_WXTips UCanvasPanel
+---@field GridPanel_IPX UGridPanel
+---@field Image_VideoBtnCDBar UImage
+---@field TextBlock_EliteReportTip UTextBlock
+---@field QuitSpectateAndShowSingle bool
+---@field IsGameJoyEndingCD bool
+---@field IfRecordEndOK bool
+---@field GameJoyLeftEndCD float
+---@field IfRecordEndFail bool
+---@field IsStopGameJoyRecord bool
+---@field isGeneratedGameJoy bool
+---@field isEliteReport bool
+---@field isEliteReportEndOK bool

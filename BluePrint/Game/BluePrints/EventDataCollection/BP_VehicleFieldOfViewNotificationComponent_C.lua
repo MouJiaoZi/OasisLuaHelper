@@ -1,0 +1,3 @@
+---@class BP_VehicleFieldOfViewNotificationComponent_C:UBP_FieldOfViewNotificationComponent_C
+---@field GetUniqueIdentifier:fun(Context:UObject):FString
+---@field GetFieldOfViewTargetCategory:fun(Context:UObject):FString

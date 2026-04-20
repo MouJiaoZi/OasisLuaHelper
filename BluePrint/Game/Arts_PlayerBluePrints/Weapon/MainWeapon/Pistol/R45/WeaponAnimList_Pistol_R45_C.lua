@@ -1,0 +1,1 @@
+---@class WeaponAnimList_Pistol_R45_C:UUAECharacterAnimListComponent

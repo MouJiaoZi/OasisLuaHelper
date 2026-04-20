@@ -1,0 +1,3 @@
+---@class IslandNewbieGuideTips06_UIBP_C:UNewbieGuideWidget
+---@field OnCreateAndShow:fun(GuideId:int32,UIConfigIndex:int32)
+---@field UTRichTextBlock_OperatingTips6 UUTRichTextBlock

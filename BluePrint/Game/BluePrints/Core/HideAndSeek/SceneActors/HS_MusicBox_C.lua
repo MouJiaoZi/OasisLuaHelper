@@ -1,0 +1,1 @@
+---@class HS_MusicBox_C:AHiderSceneActorBase_C

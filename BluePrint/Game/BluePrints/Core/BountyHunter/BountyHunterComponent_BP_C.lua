@@ -1,0 +1,1 @@
+---@class BountyHunterComponent_BP_C:UBountyHunterComponent

@@ -1,0 +1,2 @@
+---@class QuickChatHistory_UIBP_C:UBTReuseListNew
+---@field List UCustomScrollBox

@@ -1,0 +1,13 @@
+---@class AsianOB_CarMarkItem_UIBP_C:UObjectPositionWidget
+---@field GetLineColor:fun(teamid:int32)
+---@field GetTeamData:fun(teamid:int32)
+---@field ShowTeamInfo:fun(teamid:int32)
+---@field Construct:fun()
+---@field Event_InitParamEnd:fun()
+---@field Event_SetExParam:fun(InParam:int32)
+---@field CanvasPanel_0 UCanvasPanel
+---@field Image_Line UImage
+---@field NewButton_Click UNewButton
+---@field TextBlock_CountryName UTextBlock
+---@field MyTeamLowData FAsianTeamInfoLowFrequency
+---@field teamid int32

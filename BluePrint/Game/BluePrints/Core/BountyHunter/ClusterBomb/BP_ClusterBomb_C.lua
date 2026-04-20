@@ -1,0 +1,18 @@
+---@class BP_ClusterBomb_C:AActor
+---@field GenerateSubBomb:fun()
+---@field UserConstructionScript:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field Scene USceneComponent
+---@field Ak UAkComponent
+---@field StaticMesh UStaticMeshComponent
+---@field Shell3 UStaticMeshComponent
+---@field Shell2 UStaticMeshComponent
+---@field Shell1 UStaticMeshComponent
+---@field UAESkillManager UUAESkillManagerComponent
+---@field ProjectileMovement UProjectileMovementComponent
+---@field SubBombCount int32
+---@field ActivateHeight float
+---@field BombingRange float
+---@field RecordActivateLocation FVector
+---@field GenerateSubBombTime float
+---@field Particle UParticleSystem

@@ -1,0 +1,1 @@
+---@class BP_Rifle_AKM_BattleItemHandle_CJSPASS_Lobby_C:UBackpackWeaponHandle

@@ -1,0 +1,41 @@
+---@class UGC_MapMark_Main_UIBP_C:UUAEUserWidget
+---@field OnMapMarkRemoved:fun(MarkInstanceID:int32)
+---@field ExecuteShortcutAction:fun()
+---@field CloseDetailsPage:fun()
+---@field OnVisibilityContrPageToggle:fun()
+---@field ReloadVisibilityContrPage:fun(InPageIndex:int32)
+---@field OnClickedPrePageButton:fun()
+---@field OnClickedNextPageButton:fun()
+---@field PostNewMarkVisibilityContrItem:fun(WidgetItem:UUserWidget,Index:int32)
+---@field OnShowMarkDetails:fun(ResID:int32,InstanceID:int32)
+---@field Construct:fun()
+---@field Button_Close UButton
+---@field Button_Custom UButton
+---@field Button_Findingway UButton
+---@field Button_MultiMark UButton
+---@field Button_NextPage UButton
+---@field Button_PreviousPage UButton
+---@field Button_Teleport UButton
+---@field CanvasPanel_5 UCanvasPanel
+---@field CanvasPanel_MarkList UCanvasPanel
+---@field CanvasPanel_Preview UCanvasPanel
+---@field IconImage UImage
+---@field Image_Map UImage
+---@field MultiMarkText UTextBlock
+---@field TextBlock_0 UTextBlock
+---@field TextBlock_3 UTextBlock
+---@field TextBlock_5 UTextBlock
+---@field TextBlock_7 UTextBlock
+---@field TextBlock_describe UTextBlock
+---@field TextBlock_Number UTextBlock
+---@field TitleText UTextBlock
+---@field UGC_ReuseList2_Mark UGC_ReuseList2_C
+---@field WidgetSwitcher_But UWidgetSwitcher
+---@field WidgetSwitcher_MultiMark UWidgetSwitcher
+---@field CurrentMarkInstanceID int32
+---@field CurrentResID int32
+---@field MapMarkConfigKeys ULuaArrayHelper
+---@field CurrentPageIndex int32
+---@field ItemCountPerPage int32
+---@field TotalPageCount int32
+---@field bIsVisibilityContrPageOpened bool

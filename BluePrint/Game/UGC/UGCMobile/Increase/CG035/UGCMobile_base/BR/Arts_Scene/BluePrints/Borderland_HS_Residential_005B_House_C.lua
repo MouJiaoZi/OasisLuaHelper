@@ -1,0 +1,3 @@
+---@class Borderland_HS_Residential_005B_House_C:BP_UGCMobileHouseBase_C
+---@field UserConstructionScript:fun()
+---@field StaticMesh UStaticMeshComponent

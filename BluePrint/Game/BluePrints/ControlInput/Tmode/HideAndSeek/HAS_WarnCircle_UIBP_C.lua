@@ -1,0 +1,12 @@
+---@class HAS_WarnCircle_UIBP_C:UMapUIMarkBaseWidget
+---@field UpdateMarkSize:fun(inScale:float,inMapScale:float,MapScaleInUI:float)
+---@field OnUIBPCreate:fun(InState:FCustomMarkEventData,ParentState:EMarkParentWidget,inRealLevelToMapScale:float,inMapScale:float)
+---@field UpdateUIBPState:fun(InState:FCustomMarkEventData)
+---@field Image_WarnCircle UImage
+---@field WarnCircle_Red FLinearColor
+---@field WarnCircle_Yellow FLinearColor
+---@field AreaRadius float
+---@field RealSize float
+---@field bCircleIsRed bool
+---@field InWhichMap EAddMarkFlag
+---@field InRealLevelToMapScale float

@@ -1,0 +1,5 @@
+---@class NewTraining_MemberList_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field BTReuseMainList MemberReuseList_C
+---@field Button_Close UButton
+---@field bInited bool

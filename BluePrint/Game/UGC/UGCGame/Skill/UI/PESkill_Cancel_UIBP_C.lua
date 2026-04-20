@@ -1,0 +1,14 @@
+---@class PESkill_Cancel_UIBP_C:UPESkillWidget
+---@field OnClickCancel:fun()
+---@field Construct:fun()
+---@field SetText:fun(CancelText:FText)
+---@field Border_CancelThrowGrenade UBorder
+---@field CanvasPanel_BtnGroup UCanvasPanel
+---@field CustomCancelThrow CustomizeCanvasPanel_BP_C
+---@field InvalidationBox_2 UInvalidationBox
+---@field MultiLayer_CancelGrenadeCanvas UCanvasPanel
+---@field NewButton_Cancel UNewButton
+---@field TextBlock_0 UTextBlock
+---@field CancelInputTag FGameplayTag
+---@field NewVar_0 ULuaArrayHelper
+---@field NewVar_1 ULuaArrayHelper

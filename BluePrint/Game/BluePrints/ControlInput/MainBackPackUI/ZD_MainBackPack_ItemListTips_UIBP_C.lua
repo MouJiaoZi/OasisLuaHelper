@@ -1,0 +1,6 @@
+---@class ZD_MainBackPack_ItemListTips_UIBP_C:UUAEUserWidget
+---@field OnDragging:fun()
+---@field PreConstruct:fun(IsDesignTime:bool)
+---@field DX_ShowLoop UWidgetAnimation
+---@field CanvasPanel_BottomTip UCanvasPanel
+---@field CanvasPanel_TopTips UCanvasPanel

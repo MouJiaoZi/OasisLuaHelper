@@ -1,0 +1,41 @@
+---@class WaterSwimObject_C:AWaterSwimActor
+---@field RefreshWaterMaterial:fun()
+---@field DoTrySetWaterMaterial:fun(NewParam:int32)
+---@field TrySetWaterMaterial:fun(NewParam:int32)
+---@field IsSupportIndex:fun(NewParam:int32):bool
+---@field SetWaterMaterial:fun(NewParam:int32)
+---@field IsNewiOSDevice:fun():bool
+---@field ShowEnterWaterPartical:fun(Location:FVector,Rotation:FRotator)
+---@field SetWateMaterial:fun(bHDR:bool)
+---@field HideUnderWaterEffect:fun(WaterPlane:UStaticMeshComponent,CamFog:UExponentialHeightFogComponent)
+---@field ShowUnderWaterEffect:fun(WaterPlane:UStaticMeshComponent,CamFog:UExponentialHeightFogComponent)
+---@field IsCapsult:fun(playerpawn:UObject,comp:UActorComponent):bool
+---@field UserConstructionScript:fun()
+---@field ReceiveEndPlay:fun(EndPlayReason:EEndPlayReason)
+---@field GameEventListener UGameEventListener
+---@field P_Water_down_01 UParticleSystemComponent
+---@field Ak UAkComponent
+---@field PostProcess UPostProcessComponent
+---@field PostSceneBox UBoxComponent
+---@field watermesh UStaticMeshComponent
+---@field DefaultSceneRoot USceneComponent
+---@field Gamma float
+---@field NewVar_0 FPostProcessSettings
+---@field PlayerList ULuaArrayHelper
+---@field NewVar_1 ESTEPoseState
+---@field fogdensity float
+---@field heightfog AExponentialHeightFog
+---@field NoHDRWater UMaterialInstanceDynamic
+---@field HDROcean UMaterialInstanceDynamic
+---@field HDRSwamp UMaterialInstanceDynamic
+---@field HDROceanMaterial UMaterialInterface
+---@field SUPHDROceanMaterial UMaterialInterface
+---@field HDRSwampMaterial UMaterialInterface
+---@field SUPHDRSwampMaterial UMaterialInterface
+---@field NoHDRWaterMaterial UMaterialInterface
+---@field CurrentMaterialIndex int32
+---@field MaterialList ULuaArrayHelper
+---@field IsSetSwamp bool
+---@field WaterMaterial_Normal UMaterialInterface
+---@field WaterMaterial_HDR UMaterialInterface
+---@field WaterMaterial_SUP_HDR UMaterialInterface

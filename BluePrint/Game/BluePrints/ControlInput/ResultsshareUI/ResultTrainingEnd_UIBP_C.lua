@@ -1,0 +1,5 @@
+---@class ResultTrainingEnd_UIBP_C:UUAEUserWidget
+---@field RealExitGame:fun()
+---@field ShowLoadingUI:fun()
+---@field ShowTrainingOver:fun()
+---@field Button_0 UButton

@@ -1,0 +1,11 @@
+---@class AsianOB_SuppliesItem2_UIBP_C:UUAEUserWidget
+---@field Border_WeaponIcon UBorder
+---@field Image_Bullet UImage
+---@field Image_Flag UImage
+---@field Image_Gasoline UImage
+---@field ProfileImg UImage
+---@field TextBlock_Bullet UTextBlock
+---@field TextBlock_CountryName UTextBlock
+---@field TextBlock_Desc UTextBlock
+---@field TextBlock_Gasoline UTextBlock
+---@field TextBlock_Vehicle UTextBlock

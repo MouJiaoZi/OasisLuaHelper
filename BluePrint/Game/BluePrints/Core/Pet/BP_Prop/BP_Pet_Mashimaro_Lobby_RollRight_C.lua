@@ -1,0 +1,4 @@
+---@class BP_Pet_Mashimaro_Lobby_RollRight_C:AActor
+---@field UserConstructionScript:fun()
+---@field SK_Pet_Mashimaro_glass USkeletalMeshComponent
+---@field DefaultSceneRoot USceneComponent

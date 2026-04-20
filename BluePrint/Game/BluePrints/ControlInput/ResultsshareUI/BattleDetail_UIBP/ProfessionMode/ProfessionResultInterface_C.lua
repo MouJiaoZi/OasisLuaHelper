@@ -1,0 +1,1 @@
+---@class ProfessionResultInterface_C:UInterface

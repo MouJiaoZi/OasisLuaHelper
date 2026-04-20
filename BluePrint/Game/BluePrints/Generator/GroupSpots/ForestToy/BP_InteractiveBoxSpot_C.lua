@@ -1,0 +1,6 @@
+---@class BP_InteractiveBoxSpot_C:ASTExtraHouseActor
+---@field UserConstructionScript:fun()
+---@field BP_WerewolfBoxSpotComponent BP_WerewolfBoxSpotComponent_C
+---@field BP_WerewolfBoxGroupSceneComponent BP_WerewolfBoxGroupSceneComponent_C
+---@field Arrow UArrowComponent
+---@field DefaultSceneRoot USceneComponent

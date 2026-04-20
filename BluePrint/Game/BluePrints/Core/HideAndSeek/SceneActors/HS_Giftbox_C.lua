@@ -1,0 +1,1 @@
+---@class HS_Giftbox_C:AHiderSceneActorBase_C

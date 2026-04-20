@@ -1,0 +1,1 @@
+---@class BP_Other_DP28_BattleItemHandle_JDML_A_Lobby_C:UBackpackWeaponHandle

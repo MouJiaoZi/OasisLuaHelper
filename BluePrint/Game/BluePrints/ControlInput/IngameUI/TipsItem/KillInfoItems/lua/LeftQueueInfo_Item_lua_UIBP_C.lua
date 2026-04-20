@@ -1,0 +1,21 @@
+---@class LeftQueueInfo_Item_lua_UIBP_C:ULeftQueueItemWidget
+---@field GetConfigLeft:fun():bool
+---@field RefreshTranslationY:fun()
+---@field InitLeftQueueItemData:fun(observerMode:bool,KillTable:TScriptInterface)
+---@field SetQueueItemData:fun(RecordData:FClientFatalDamageRecordData)
+---@field ExecuteObserverModeStatusInBlueprint:fun()
+---@field Construct:fun()
+---@field ExecuteStatusInBlueprint:fun()
+---@field GlobalObserverSwitchingAnimation UWidgetAnimation
+---@field GlobalObserverInitAnimation UWidgetAnimation
+---@field SwitchingAnimation UWidgetAnimation
+---@field NormalAnimation UWidgetAnimation
+---@field Border_ColorSet UBorder
+---@field CanvasPanel_6 UCanvasPanel
+---@field ItemContainer UGridPanel
+---@field KillInfo_BGSlot_lua_UIBP KillInfo_BGSlot_lua_UIBP_C
+---@field KillInfo_Prompt_lua_UIBP KillInfo_Prompt_lua_UIBP_C
+---@field WidgetSwitcher_Type UWidgetSwitcher
+---@field TransformOffsetY float
+---@field config int32
+---@field KillTable TScriptInterface

@@ -1,0 +1,5 @@
+---@class Chicken_SubAnim_Peek_Normal_C:USubAnimInstanceBase
+---@field BlueprintInitializeAnimation:fun()
+---@field ParentExtraAnimInstanceBase USTExtraAnimInstanceBase
+---@field PeekParam FSTExtraAnimFM_WeaponPeek
+---@field WeaponDropParam FSTExtraAnimFM_WeaponDrop

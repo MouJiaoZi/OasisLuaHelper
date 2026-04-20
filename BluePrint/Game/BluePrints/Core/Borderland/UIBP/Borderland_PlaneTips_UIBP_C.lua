@@ -1,0 +1,12 @@
+---@class Borderland_PlaneTips_UIBP_C:UUAEUserWidget
+---@field ShowIFTeamAcedTip:fun()
+---@field GetRepTime:fun():float
+---@field GetRespawnTime:fun():bool,float
+---@field CanvasPanel_0 UCanvasPanel
+---@field Image_CD UImage
+---@field TextBlock_Num UTextBlock
+---@field RespawnProgressTimer FTimerHandle
+---@field CurRespawnTime float
+---@field TmpRespawnTime float
+---@field HasShow bool
+---@field SoundDone bool

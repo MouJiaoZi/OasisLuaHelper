@@ -1,0 +1,1 @@
+---@class BP_HardPointManagerComponent_C:UHardPointManagerComponent

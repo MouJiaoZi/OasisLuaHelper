@@ -1,0 +1,12 @@
+---@class OB_RouteListItem_UIBP_C:UUAEUserWidget
+---@field PlayerAni:fun()
+---@field RefreshIcon:fun(Texture2d:UTexture2D,download:UImageDownloader)
+---@field SetItemData:fun(TeamID:int32,ClubTeamName:FString,ClubTeamLogo:FString,RouteID:int32,bFind:bool)
+---@field DX_Change UWidgetAnimation
+---@field Image_Select UImage
+---@field Image_Selecting UImage
+---@field Image_TeamColor UImage
+---@field Text_FlightSegmentNum UTextBlock
+---@field TextBlock_TeamID UTextBlock
+---@field TextBlock_TeamName UTextBlock
+---@field WidgetSwitcher_Teamitem UWidgetSwitcher

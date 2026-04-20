@@ -1,0 +1,3 @@
+---@class TreasureChestLevelDirector_C:AUAELevelDirector
+---@field UserConstructionScript:fun()
+---@field DefaultSceneRoot USceneComponent

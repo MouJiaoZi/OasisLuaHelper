@@ -1,0 +1,1 @@
+---@class PESkill_UGC_IceBird_Skill_1_C:PESkillTemplate_Base_C

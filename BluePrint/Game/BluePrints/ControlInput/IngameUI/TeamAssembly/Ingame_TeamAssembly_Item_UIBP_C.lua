@@ -1,0 +1,18 @@
+---@class Ingame_TeamAssembly_Item_UIBP_C:UUAEUserWidget
+---@field PlayShowAnim:fun()
+---@field Show_anima UWidgetAnimation
+---@field CanvasPanel_CharismaValue UCanvasPanel
+---@field CanvasPanel_SeasonManualGroup UCanvasPanel
+---@field CanvasPanel_Xinyue UCanvasPanel
+---@field CharismaValue_Style3_UIBP CharismaValue_Style3_UIBP_C
+---@field GenderSwitcher UWidgetSwitcher
+---@field HorizontalBox_Plane UHorizontalBox
+---@field Image_GenderBoy UImage
+---@field Image_GenderGirl UImage
+---@field Image_SeasonManualIcon UImage
+---@field Image_Xinyue UImage
+---@field RichTextBlock_PlayerName UUTRichTextBlock
+---@field TextBlock_PlaneName UTextBlock
+---@field TextBlock_PlayerName UTextBlock
+---@field TextBlock_SeasonManualLevel UTextBlock
+---@field WidgetSwitcher_BGType UWidgetSwitcher

@@ -1,0 +1,1 @@
+---@class BTTask_BlueprintBase_Jump_C:UBTTask_BlueprintBase

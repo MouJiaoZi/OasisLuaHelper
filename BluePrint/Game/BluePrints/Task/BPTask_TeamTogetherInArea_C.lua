@@ -1,0 +1,4 @@
+---@class BPTask_TeamTogetherInArea_C:UUAETriggerObject_Task
+---@field ConstructActions:fun():ULuaArrayHelper
+---@field ConstructConditions:fun():UTriggerCondition
+---@field ConstructEvents:fun():ULuaArrayHelper

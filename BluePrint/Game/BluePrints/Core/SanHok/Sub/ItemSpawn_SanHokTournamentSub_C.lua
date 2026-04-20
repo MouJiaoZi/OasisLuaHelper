@@ -1,0 +1,1 @@
+---@class ItemSpawn_SanHokTournamentSub_C:UItemSpawn_SanHok_C

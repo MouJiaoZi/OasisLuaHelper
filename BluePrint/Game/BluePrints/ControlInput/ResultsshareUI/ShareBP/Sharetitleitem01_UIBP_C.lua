@@ -1,0 +1,5 @@
+---@class Sharetitleitem01_UIBP_C:UUserWidget
+---@field SetTitleAlpha:fun(value:float)
+---@field randomtips UTextBlock
+---@field titleBg UImage
+---@field titleName UTextBlock

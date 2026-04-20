@@ -1,0 +1,3 @@
+---@class BP_PoweredArmorBluePrintPickupWrapper_C:APickUpWrapperActor
+---@field UserConstructionScript:fun()
+---@field StaticMeshComponent UStaticMeshComponent

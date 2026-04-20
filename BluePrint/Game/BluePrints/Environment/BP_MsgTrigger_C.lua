@@ -1,0 +1,5 @@
+---@class BP_MsgTrigger_C:AActor
+---@field UserConstructionScript:fun()
+---@field Sphere USphereComponent
+---@field MsgID int32
+---@field bHasTriggeredTip bool

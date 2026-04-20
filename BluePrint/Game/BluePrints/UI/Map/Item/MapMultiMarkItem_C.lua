@@ -1,0 +1,12 @@
+---@class MapMultiMarkItem_C:UUAEUserWidget
+---@field RepositonMarkAngle:fun(bIsEndPoint:bool,Start:FVector2D,End:FVector2D,Color:FLinearColor)
+---@field Construct:fun()
+---@field Border_PathColor UBorder
+---@field DirectionLine UCanvasPanel
+---@field Image_0 UImage
+---@field Image_BG UImage
+---@field Image_End UImage
+---@field Image_LineUV UImage
+---@field Image_Start UImage
+---@field MultiMark UCanvasPanel
+---@field MultiMark_Switcher UWidgetSwitcher

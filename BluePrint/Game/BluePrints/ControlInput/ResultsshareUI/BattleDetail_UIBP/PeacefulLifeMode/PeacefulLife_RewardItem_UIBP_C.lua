@@ -1,0 +1,6 @@
+---@class PeacefulLife_RewardItem_UIBP_C:UUserWidget
+---@field UpdateDownloadIcon:fun(texture:UTexture2D,downloader:UImageDownloader)
+---@field SetAward:fun(Pic:FString,Name:FString)
+---@field CanvasPanel_6 UCanvasPanel
+---@field Image_Item UImage
+---@field TextBlock_Reward UTextBlock

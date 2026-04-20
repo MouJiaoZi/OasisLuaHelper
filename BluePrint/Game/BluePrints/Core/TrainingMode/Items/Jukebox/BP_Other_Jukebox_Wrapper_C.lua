@@ -1,0 +1,3 @@
+---@class BP_Other_Jukebox_Wrapper_C:APickUpWrapperActor
+---@field UserConstructionScript:fun()
+---@field SM_FireLanucher UStaticMeshComponent

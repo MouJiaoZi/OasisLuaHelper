@@ -1,0 +1,22 @@
+---@class ProjBurn_BP_C:AEliteProjectile
+---@field SaveTeamID:fun()
+---@field GetPSCTrail:fun():UParticleSystemComponent
+---@field EnterWater:fun()
+---@field IsWater:fun(Actor:AActor):bool
+---@field PlayFireSound:fun()
+---@field ShouldApplyDamage:fun(HitActor:AActor,HitComp:UPrimitiveComponent,HitItem:int32):bool
+---@field SpawnFireSpreading:fun()
+---@field UserConstructionScript:fun()
+---@field ReceiveEndPlay:fun(EndPlayReason:EEndPlayReason)
+---@field FireTrailFX UParticleSystemComponent
+---@field BurningSpreadClass UClass
+---@field OverlapIncreaseSpreadCount int32
+---@field BurningSpreadSoftClass UClass
+---@field HitWaterParticleSystem UParticleSystem
+---@field HitWaterAkEvent UAkAudioEvent
+---@field FireLifeSpan float
+---@field SpawnedSpreader ASTBuffApplifierSpreading
+---@field LocationMarker FActorLocationMarker
+---@field SpawnFireTime float
+---@field SpawnHit FHitResult
+---@field OwnerTeamID int32

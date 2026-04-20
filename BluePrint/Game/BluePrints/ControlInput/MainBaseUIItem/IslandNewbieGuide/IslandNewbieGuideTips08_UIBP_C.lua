@@ -1,0 +1,1 @@
+---@class IslandNewbieGuideTips08_UIBP_C:UUAEUserWidget

@@ -1,0 +1,78 @@
+---@class BP_Other_Shield_new_C:BP_ShieldWeaponBase_C
+---@field GetBulletHitEffectLifeTime:fun(HitComp:UPrimitiveComponent):float
+---@field ForceShowHitEffectWhenIsInvincible:fun(Causer:AActor):bool
+---@field GetBulletHitEffectDataAssetWithCaster:fun(HitComp:UPrimitiveComponent,Caster:UObject,CasterOwner:AActor):UHitEffectDataAsset
+---@field GetBulletHitEffectDataAsset:fun(HitComp:UPrimitiveComponent):UHitEffectDataAsset
+---@field GetBulletHitEffectDataAssetTag:fun(Comp:UPrimitiveComponent):FString
+---@field ShouldHideBulletHitEffect:fun(BulletOwner:UObject):bool
+---@field CheckDisableUploadAbsolutePointOnBulletImpact:fun(ShootWeapon:ASTExtraShootWeapon,HitComp:USceneComponent):bool
+---@field CheckUploadRelativePointOnBulletImpact:fun(ShootWeapon:ASTExtraShootWeapon,HitComp:USceneComponent):bool
+---@field CheckIgnoreBulletOnImpact:fun(ShootWeapon:ASTExtraShootWeapon,Bullet:ASTExtraShootWeaponBulletBase,bStartPenetrating:bool):bool
+---@field GetOverrideBulletHitComp:fun():UPrimitiveComponent
+---@field GetLuaModule:fun():FString
+---@field SetupNewFPPSprintAnimSpeedLimit:fun(bEquipShield:bool)
+---@field SetNewFPPScopeSubAnim:fun(Enable:bool)
+---@field UpdateEnableFppState:fun(bEquip:bool)
+---@field UpdateBackpacMesh:fun()
+---@field LoadMeshFinished:fun(LoadObj:UObject)
+---@field IsShootDamage:fun(InDamageType:UDamageType):bool
+---@field UpdateHPEffect:fun()
+---@field RegisterWeaponShieldAnimList:fun()
+---@field GetHPEffectParticleComp:fun():UParticleSystemComponent
+---@field RemoveStunAnimBuffWhenEquip:fun()
+---@field ClearBulletEffect:fun()
+---@field SetSwitchSubAnim:fun(Enable:bool)
+---@field LuaHandleBeginPlay:fun()
+---@field CheckEnableOnSwitch:fun(bCallFromDSOnly:bool):bool
+---@field InitHPFromHandle:fun(WeaponHandle:UBackpackWeaponHandle)
+---@field OnPostChangeHP:fun()
+---@field HandleReceiveDamage:fun(Damage:float,Instigator:AController,DamageType:UDamageType)
+---@field IsEnableVaultHolding:fun(VaultKey:FString):bool
+---@field SetupJumpFallSubAnim:fun(IsSetup:bool)
+---@field UpdateVaultAnim:fun(EnableShieldVault:bool)
+---@field SetFlashSkillActive:fun(Active:bool)
+---@field GetWeaponCustomFloatData:fun(Info:FString):float
+---@field HandleBroken:fun()
+---@field InitShieldCollision:fun()
+---@field EnableShieldCollision:fun(Enable:bool)
+---@field HandleWeaponStateChange:fun(CurState:EFreshWeaponStateType)
+---@field UserConstructionScript:fun()
+---@field ReceiveAnyDamage:fun(Damage:float,DamageType:UDamageType,InstigatedBy:AController,DamageCauser:AActor)
+---@field WeaponTickOptimizationOnEquipOrUnEquip:fun(bEquip:bool)
+---@field ReceiveEndPlay:fun(EndPlayReason:EEndPlayReason)
+---@field HandleHitByBullet:fun(Causer:AActor,bIsHeadshot:bool)
+---@field HPEffect UParticleSystemComponent
+---@field ST_WEP_FlashShield UStaticMeshComponent
+---@field WeaponAnimList_Other_Shield WeaponAnimList_Other_Shield_C
+---@field IsShowDebugWeapon bool
+---@field DebugWeapon AActor
+---@field CurHP float
+---@field WithShieldVaultAnimData UVaultAnimDataAsset
+---@field DelayShieldFirstPickupTimer FTimerHandle
+---@field DelayShowShieldFirstPickupAnim float
+---@field VaultHeightShouldNotHolding int32
+---@field bHasBroken bool
+---@field AutoRecoverHPInterval float
+---@field AutoRecoverHPPercent float
+---@field AutoRecoverHPNoHitTime float
+---@field LastHitTime float
+---@field MaxHP float
+---@field bIsAutoRecovering bool
+---@field LastAutoRecoverHPTime float
+---@field PlayerControllerClassTemplate UClass
+---@field BrokenSound UAkAudioEvent
+---@field BrokenEffectTemplate UParticleSystem
+---@field DisableSwitchMessageID int32
+---@field HPEffectStage1Percent float
+---@field HPEffectStage2Percent float
+---@field HPEffectStage1Template UParticleSystem
+---@field HPEffectStage2Template UParticleSystem
+---@field CurHPStage int32
+---@field ShootWeaponAttrModifyConfigList ULuaArrayHelper
+---@field DefaultBackpackMesh UStaticMesh
+---@field MainMeshToBackpackSoftMeshDataMap ULuaMapHelper
+---@field FlashSkillClass UClass
+---@field WithShieldNewFPPScopeSubAnimClass UClass
+---@field NewFPPSprintStartSpeed float
+---@field CachedNewFPPSprintStartSpeed float
+---@field NewShieldVaultAnimData UVaultAnimDataAssetBase

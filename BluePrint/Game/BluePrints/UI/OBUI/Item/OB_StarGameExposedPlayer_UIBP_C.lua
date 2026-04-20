@@ -1,0 +1,2 @@
+---@class OB_StarGameExposedPlayer_UIBP_C:UUAEUserWidget
+---@field WidgetSwitcher_State UWidgetSwitcher

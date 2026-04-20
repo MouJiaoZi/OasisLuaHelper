@@ -1,0 +1,18 @@
+---@class bp_corps_training_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_Train_TodayID int32
+---@field BP_Train_SelfTarget int32
+---@field BP_Train_SelfStatus int32
+---@field BP_ARRAY_CorpsTrainCorpsTask ULuaArrayHelper
+---@field BP_Train_isReLoadRankList bool
+---@field BP_Train_CorpsScore int32
+---@field BP_Train_SelectRankUid FString
+---@field BP_ARRAY_CorpsTrainRankList ULuaArrayHelper
+---@field BP_Train_CorpsHasAward bool
+---@field BP_Train_GetCorpsAwardIndex int32
+---@field BP_Train_SelfTaskID int32
+---@field BP_Train_SelectIsFriend bool
+---@field BP_Train_CorpsProgress int32
+---@field BP_Train_SelfScore int32
+---@field BP_ARRAY_CorpsTrainAward ULuaArrayHelper

@@ -1,0 +1,1 @@
+---@class BP_ItemsBoxConfig_BalticGunMaster_C:UBP_ItemsBoxDataConfig_C

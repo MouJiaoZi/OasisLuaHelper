@@ -1,0 +1,3 @@
+---@class AsianOB_NameItem_UIBP_C:UUAEUserWidget
+---@field TextBlock_CountryName UTextBlock
+---@field TextBlock_PlayerName UTextBlock

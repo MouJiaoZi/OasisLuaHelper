@@ -1,0 +1,12 @@
+---@class FPlayerTaskTableRowDef
+---@field ID int32
+---@field Enable bool
+---@field Type int32
+---@field Order int32
+---@field Title FString
+---@field Desc FString
+---@field Param1 int32
+---@field Param2 int32
+---@field Param3 int32
+---@field Param4 FString
+---@field IconPath FString

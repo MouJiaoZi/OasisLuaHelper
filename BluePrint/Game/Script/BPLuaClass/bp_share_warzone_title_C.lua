@@ -1,0 +1,15 @@
+---@class bp_share_warzone_title_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_ShareWarZoneTitle_Id int32
+---@field BP_ShareWarZoneTitle_KillTxt FString
+---@field BP_ShareWarZoneTitle_IconPath FString
+---@field BP_ShareWarZoneTitle_PetalPath FString
+---@field BP_ShareWarZoneTitle_RankName FString
+---@field BP_ShareWarZoneTitle_RankStr FString
+---@field BP_ShareWarZoneTitle_Str FString
+---@field BP_ShareWarZoneTitle_SubType int32
+---@field BP_ShareWarZoneTitle_FailTxt FString
+---@field BP_ShareWarZoneTitle_KillNum int32
+---@field BP_ShareWarZoneTitle_Type int32
+---@field BP_ShareWarZoneTitle_Success bool

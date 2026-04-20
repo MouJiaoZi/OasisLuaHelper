@@ -1,0 +1,1 @@
+---@class SkillTemplate_TopDown_IceArrow_C:PESkillTemplate_Base_C

@@ -1,0 +1,30 @@
+---@class BountyMode_Achievements_IngameTips_UIBP_C:UUAEUserWidget
+---@field OnCreateEffect:fun(Icon:UObject,resID:int32)
+---@field OnCreateIcon:fun(Icon:UObject,resID:int32)
+---@field StopHideAnim:fun()
+---@field IsHide:fun():bool
+---@field RefreshEffect:fun(Path:FString)
+---@field RefreshIcon:fun(Path:FString)
+---@field HideUI:fun()
+---@field SetTip:fun(NewParam:int32)
+---@field MoveUI:fun()
+---@field ShowUI:fun(AchievementID:int32)
+---@field Construct:fun()
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field DX_TipsDisappear_0 UWidgetAnimation
+---@field DX_TipsDisappear_1 UWidgetAnimation
+---@field DX_TipsMove UWidgetAnimation
+---@field DX_TipsAppear UWidgetAnimation
+---@field Border_Tips UBorder
+---@field FX_SweepLight01 UImage
+---@field Image_0 UImage
+---@field Image_1 UImage
+---@field TextBlock_0 UTextBlock
+---@field TextBlock_Tips01 UTextBlock
+---@field WidgetSwitcher_0 UWidgetSwitcher
+---@field ShowTime float
+---@field HasMoved bool
+---@field IsShow bool
+---@field MedalType EDeathMatchPersonalMedalType
+---@field CurrentAnimIndex int32
+---@field AkAudio UAkAudioEvent

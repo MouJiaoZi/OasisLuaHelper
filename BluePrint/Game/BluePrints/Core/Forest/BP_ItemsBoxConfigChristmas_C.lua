@@ -1,0 +1,1 @@
+---@class BP_ItemsBoxConfigChristmas_C:UBP_ItemsBoxConfig_C

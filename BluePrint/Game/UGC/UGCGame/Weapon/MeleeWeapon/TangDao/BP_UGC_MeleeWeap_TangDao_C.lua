@@ -1,0 +1,36 @@
+---@class BP_UGC_MeleeWeap_TangDao_C:BP_UGC_Melee_WEP_Base_C
+---@field ResetSprintData:fun()
+---@field GetLeftIdleTime:fun():float
+---@field UpdateTriggerIdleTime:fun(bClear:bool,bUseLastTriggerIdleTime:bool)
+---@field SetLastSprintTimes:fun(NewSprintTimes:int32)
+---@field ResetFOV:fun()
+---@field UpdateFOV:fun()
+---@field ApplyFOV:fun()
+---@field UserConstructionScript:fun()
+---@field BPAttachMeshToSocket:fun(AttachMesh:UMeshComponent)
+---@field AnimList_TangDaoJian AnimList_TangDaoJian_C
+---@field WeaponEntity UWeaponEntity
+---@field WeaponTriggerEventHandleSkill UWeaponTriggerEventHandleSkill
+---@field CrossHair UCrossHairComponent
+---@field WeaponEffect UWeaponEffectComponent
+---@field WeaponSpecificHandler UWeaponSpecificHandler
+---@field WeaponStateDefault UWeaponStateDefault
+---@field WeaponStateManager UWeaponStateManager
+---@field CachedPlayerCameraManager ASTPlayerCameraManager
+---@field AdditiveFOV float
+---@field FOVBlendWeightCurve UCurveFloat
+---@field FOVBlendDeltaTime float
+---@field DecreasePerFrame float
+---@field SprintTimesLeft int32
+---@field SprintInterval float
+---@field MaxSprintInterval float
+---@field TriggerIdleTime float
+---@field MaxIdleTime float
+---@field IdleTimeLeft float
+---@field LastTriggerIdleTime float
+---@field bPreviousFPP bool
+---@field SkillClassNameArray ULuaArrayHelper
+---@field EnergyRecoverSpeed float
+---@field bUseLastTriggerIdleTime bool
+---@field DeltaTime float
+---@field SkillResource UClass

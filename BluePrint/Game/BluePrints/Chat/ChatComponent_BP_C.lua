@@ -1,0 +1,56 @@
+---@class ChatComponent_BP_C:UChatComponent
+---@field TryInitExpressionList:fun()
+---@field OnServerSendMsgSuccessed:fun(ChatMsg:FInGameChatMsg,PlayerKey:FString)
+---@field ServerCanSendMsg:fun(msgItem:FInGameChatMsg):bool
+---@field TestAddAudioIds:fun()
+---@field CacheAudioEvent:fun(audio:UAkAudioEvent)
+---@field PlaySoundByAudioID:fun(audioID:int32)
+---@field PlaySoundByChatID:fun(chatTextID:int32)
+---@field SetQuickChatList:fun()
+---@field InitFromSetting:fun()
+---@field AddOneMsgToUIInner:fun(isMe:bool)
+---@field PlaySound:fun(msgID:int32,audioID:int32)
+---@field AddToArray:fun()
+---@field ReceiveBeginPlay:fun()
+---@field AddOneMsgToUI1:fun(item:FInGameChatMsg,name:FString,content:FString,msgID:int32,audioID:int32,isMe:bool,playSound:bool)
+---@field NotifyFriendChat:fun(str_gid:FString,sender_name:FString,chat_content:FString,self_msg:bool)
+---@field NotifyFriendReplyInvite:fun(str_gid:FString,sender_name:FString,bReply:bool)
+---@field SendDirtyFilter:fun(name:FString,content:FString,isMe:bool,isSys:bool,msgID:int32)
+---@field OnFilterFinish:fun(filterText:FString,callback_data:FString)
+---@field CloseChatHistoryList:fun()
+---@field UpdateQuickItemText:fun(msgID:int32,resID:int32,alternateMsgID:int32)
+---@field SendDirtyFilterContent:fun(content:FString)
+---@field ReportBattleChat:fun(msg:FString)
+---@field NotifyFriendInvite:fun(str_gid:FString,sender_name:FString)
+---@field SetAvatarQuickList:fun(Res:int32)
+---@field FilterQuickChatListBySetting:fun()
+---@field addToUIText FString
+---@field UITextArray ULuaArrayHelper
+---@field firstIndex int32
+---@field currContentMsg FString
+---@field Setting SettingConfig_C
+---@field bInitSetting bool
+---@field FriendChatStrGid FString
+---@field FriendChatSenderName FString
+---@field FriendChatContent FString
+---@field FriendChatSelfMsg bool
+---@field FriendInviteStrGid FString
+---@field FriendInviteSenderName FString
+---@field FriendInviteBattleTextValue FString
+---@field FriendReplyStrGid FString
+---@field FriendReplySenderName FString
+---@field FriendReplyReply bool
+---@field IsMe bool
+---@field UI_MsgID int32
+---@field UI_ItemName FString
+---@field UI_AlternateMsgID int32
+---@field ChatIDAudioFormatPath FText
+---@field AudioIDFormatPath FText
+---@field cacheEvent ULuaArrayHelper
+---@field currAddUIMsg FInGameChatMsg
+---@field CurrName FString
+---@field I FText
+---@field CountOf3DExpression int32
+---@field MaxNumSendExpression int32
+---@field ExpressionItemType int32
+---@field ExpressionItemList ULuaArrayHelper

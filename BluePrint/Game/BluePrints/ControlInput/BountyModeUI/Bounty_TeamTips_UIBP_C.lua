@@ -1,0 +1,2 @@
+---@class Bounty_TeamTips_UIBP_C:UNewbieGuideWidget
+---@field UTRichTextBlock_Tips15_Text2 UUTRichTextBlock

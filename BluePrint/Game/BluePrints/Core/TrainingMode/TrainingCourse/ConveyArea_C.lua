@@ -1,0 +1,12 @@
+---@class ConveyArea_C:AActor
+---@field GetLuaModule:fun():FString
+---@field ConvertTLog:fun(NewParam:APlayerController)
+---@field CreateDuplication:fun(PC:APlayerController):FVector
+---@field COND:fun(NewParam1:FGISCCF_Param):bool
+---@field UserConstructionScript:fun()
+---@field Box UBoxComponent
+---@field Sphere USphereComponent
+---@field StaticMesh UStaticMeshComponent
+---@field GISActorComponentBase UGISActorComponentBase
+---@field DefaultSceneRoot USceneComponent
+---@field ConveyRoomAk UAkAudioEvent

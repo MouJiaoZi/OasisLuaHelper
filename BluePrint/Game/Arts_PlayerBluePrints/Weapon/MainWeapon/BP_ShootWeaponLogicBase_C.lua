@@ -1,0 +1,101 @@
+---@class BP_ShootWeaponLogicBase_C:ASTExtraShootWeapon
+---@field GetTargetPlatformDataSetSoftClass:fun(TargetPlatform:EPropReplacePlatform):UClass
+---@field DoSkipReplaceSingleProp:fun(PropName:FString,PropComp:FString,SrcPropValue:float):bool
+---@field PostReplacePropsByDataSet:fun():bool
+---@field PostReplaceSingleProp:fun(PropName:FString,PropComp:FString):bool
+---@field PreReplacePropsByDataSet:fun():bool
+---@field PreReplaceSingleProp:fun(PropName:FString,PropComp:FString):bool
+---@field BPCheckWeaponReloadMagInOut:fun(bMagIn:bool):bool
+---@field OnAvatarAsyncLoadingFinishedFun:fun(AsyncLoadID:int32,LoadEventFrom:UAvatarComponent)
+---@field SetMagMeshVisible:fun(Visible:bool,IsNewFPP:bool)
+---@field UpdateMagMeshVisible:fun()
+---@field HandleLocalShoot:fun(ShootNum:int32)
+---@field OnWeaponMagEnd:fun()
+---@field HandleWeaponMagEnd:fun()
+---@field GetBulletNumFromBackpack:fun():int32
+---@field SetMagMeshMaterial:fun(TemplateComp:UMeshComponent,TargetMeshComp:UMeshComponent)
+---@field CreateMagMeshComp:fun(MeshComp:UMeshComponent):UMeshComponent
+---@field SetOldMagMeshVisible:fun(Visible:bool,IsNewFPP:bool)
+---@field GetOldMagMeshComp:fun():UMeshComponent
+---@field HandleWeaponMagIn:fun()
+---@field HandleWeaponMagOut:fun()
+---@field OnWeaponMagInNewFPP:fun()
+---@field OnWeaponMagOutNewFPP:fun()
+---@field HandlePreLocalShoot:fun(ShootNum:int32)
+---@field ChangeMuzzleFXScale:fun()
+---@field CheckAndResetMuzzleFXScale:fun()
+---@field ResetMuzzleFXScale:fun()
+---@field CacheMuzzleFXScale:fun()
+---@field CheckUseNewReload:fun():bool
+---@field TryInitClientPlatformDataSet:fun()
+---@field GetOwnerSTExtraPC:fun():ASTExtraPlayerController
+---@field CheckShouldHideMeshOnPickingUp:fun(OwnerCharacter:ASTExtraBaseCharacter,WeaponState:EFreshWeaponStateType):bool
+---@field BPAttrFunc_MaxBulletNumInOneClip:fun(PreValue:FName,CurValue:float)
+---@field IsWeaponSkinInPak:fun():bool
+---@field RetryApplyWeaponEffect:fun()
+---@field DelayApplyWeaponEffect:fun(Type:EChangeWeaponEffectType)
+---@field DebugCheckMagSocket:fun(self2:USceneComponent,InSocketName:FName,Object:UObject,InName:FName)
+---@field HandlePlayerEnterOrLeaveVehicle:fun(Vehicle:ASTExtraVehicleBase,bEnter:bool)
+---@field GetReloadMagOutAttach:fun():bool
+---@field TryGetMagComp:fun():UMeshComponent
+---@field OnShowBones:fun()
+---@field OnHideBones:fun()
+---@field OnWeaponMagDropDown:fun():bool
+---@field OnWeaponMagIn:fun()
+---@field OnWeaponMagOut:fun()
+---@field BeginRegReloadEvent:fun()
+---@field BP_PawnAttachMesh:fun():UMeshComponent
+---@field BP_OnWeaponReloadStart:fun()
+---@field BP_OnWeaponReloadEnd:fun()
+---@field ResetCamera:fun()
+---@field UserConstructionScript:fun()
+---@field PlayLocalShellDropFX:fun()
+---@field ReceiveDestroyed:fun()
+---@field BPPostInitializeComponents:fun()
+---@field bUseIdleAnim bool
+---@field Fov float
+---@field normalShotVoiceDis float
+---@field SlienceShotVoiceDis float
+---@field MagComp UMeshComponent
+---@field MagCompAttachSocket FName
+---@field BulletTrackRef UBulletTrackComponent
+---@field CrossHairRef UCrossHairComponent
+---@field ShootWeaponEffectRef UShootWeaponEffectComponent
+---@field ShootWeaponEntityRef UShootWeaponEntity
+---@field ShootWeaponStateManagerRef UShootWeaponStateManager
+---@field MagOutTimerHandle FTimerHandle
+---@field ReloadStartHideBoneDelayTime float
+---@field ReloadEndReverseShowBoneDelayTime float
+---@field HideBoneTimerHandle FTimerHandle
+---@field HideBoneList ULuaArrayHelper
+---@field bReloadMagOutAttach bool
+---@field bReloadMagOutAttachOnDyingUsing bool
+---@field bReloadMagOutAttachWithAdditionalWeapon bool
+---@field MagSocketName FName
+---@field AlertMag bool
+---@field DelayApplyWeaponEffectHandle FTimerHandle
+---@field BPPendingChangeWeaponEffectTypeList ULuaArrayHelper
+---@field MeshHideTimeOnPickUp float
+---@field bConsiderHideMeshOnPickUp bool
+---@field PropReplaceDataSetTmplate UClass
+---@field WeaponReloadState EWeaponReloadState
+---@field bNewReloadEnabledInSimulated bool
+---@field CacheOldScopeMuzzleFXScale FVector
+---@field CacheOldLocalMuzzleFXScale FVector
+---@field CacheOldRemoateMuzzleFXScale FVector
+---@field CacheOldScopeCompensatorMuzzleFXScale FVector
+---@field CacheOldLocalCompensatorMuzzleFXScale FVector
+---@field CacheOldRemoteCompensatorMuzzleFXScale FVector
+---@field bHasReplaceMuzzleFXScale bool
+---@field bHasCacheMuzzleFXScale bool
+---@field OldMagMeshComp UMeshComponent
+---@field bOldMagMeshVisible bool
+---@field bOldMagMeshNewFPPVisable bool
+---@field bMagMeshVisible bool
+---@field bMagMeshNewFPPVisible bool
+---@field bNeedRefreshOldMag bool
+---@field bHasReplaceFPPMuzzleFXScale bool
+---@field CacheOldScopeFPPMuzzleFXScale FVector
+---@field CacheOldLocalFPPMuzzleFXScale FVector
+---@field CacheOldScopeCompensatorFPPMuzzleFXScale FVector
+---@field CacheOldLocalCompensatorFPPMuzzleFXScale FVector

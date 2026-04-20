@@ -1,0 +1,4 @@
+---@class Team_RecordingTips_UIBP_C:UUserWidget
+---@field NewButton_Cancel UNewButton
+---@field NewButton_Open UNewButton
+---@field Text_Tips UTextBlock

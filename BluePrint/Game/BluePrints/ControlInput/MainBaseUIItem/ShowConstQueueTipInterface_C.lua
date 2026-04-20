@@ -1,0 +1,3 @@
+---@class ShowConstQueueTipInterface_C:UInterface
+---@field NotifyExcellentOperationTipShow:fun()
+---@field SetShowTip:fun()

@@ -1,0 +1,4 @@
+---@class BP_FortressZombieGunGroupSpotA_C:AUAEHouseActor
+---@field UserConstructionScript:fun()
+---@field BP_ItemSpotComponent2 BP_ItemSpotComponent_C
+---@field BP_ItemSpotGroupComponent BP_ItemSpotGroupComponent_C

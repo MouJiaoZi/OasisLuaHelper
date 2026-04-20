@@ -1,0 +1,15 @@
+---@class ColdMode_Thermometer_UIBP_C:UUAEUserWidget
+---@field InitTemperature:fun()
+---@field CheckTemperatureTips:fun(DeltaTime:float)
+---@field ShowTips:fun(TipsID:int32)
+---@field ResetImage:fun()
+---@field UpdateTemperature:fun(RatioTP:float)
+---@field ProgressBar_Thermometer UProgressBar
+---@field Switcher_thermometerIcon UWidgetSwitcher
+---@field TemperatureLevel int32
+---@field LastTemperatureLevel int32
+---@field BInit bool
+---@field BSpectator bool
+---@field TipsCD float
+---@field CurTemperatureRatio float
+---@field BSetTemperature bool

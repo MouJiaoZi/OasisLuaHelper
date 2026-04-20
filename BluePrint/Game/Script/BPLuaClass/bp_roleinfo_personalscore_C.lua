@@ -1,0 +1,31 @@
+---@class bp_roleinfo_personalscore_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_ARRAY_FPPCombatSurviveInfoList ULuaArrayHelper
+---@field BP_RoleInfo_PS_IsShareAwardGold bool
+---@field BP_RoleInfo_PS_CombatUrl FString
+---@field BP_ARRAY_CombatSurviveInfoList ULuaArrayHelper
+---@field BP_RoleInfo_PS_ShootTypeID int32
+---@field BP_RoleInfo_PS_ShootTypeMax int32
+---@field BP_ARRAY_RoleInfo_PS_ClassicModelTypeList ULuaArrayHelper
+---@field BP_ARRAY_RoleInfo_PS_ShootTypeNameList ULuaArrayHelper
+---@field BP_RoleInfo_PS_IsCombatUrlIDIP_Open bool
+---@field BP_RoleInfo_PS_IsSelf bool
+---@field BP_RoleInfo_PS_CombatReviewText FString
+---@field BP_ARRAY_FPPCombatTotalInfoList ULuaArrayHelper
+---@field BP_ARRAY_FPPCombatGradeInfoList ULuaArrayHelper
+---@field BP_RoleInfoSeason_ListID int32
+---@field BP_ARRAY_RoleInfoPeakSeasonIDList ULuaArrayHelper
+---@field BP_ARRAY_CombatGradeInfoList ULuaArrayHelper
+---@field BP_ARRAY_CombatBattleInfoList ULuaArrayHelper
+---@field BP_RoleInfoPeakSeason_ListID int32
+---@field BP_ARRAY_FPPCombatBattleInfoList ULuaArrayHelper
+---@field BP_RoleInfo_PS_IsShowTeamFightButton bool
+---@field BP_RoleInfo_PS_CombatModelType int32
+---@field BP_ARRAY_RoleInfoSeasonIDList ULuaArrayHelper
+---@field BP_RoleInfo_PS_ShareNum int32
+---@field BP_ARRAY_RoleInfoPeakSeasonNameList ULuaArrayHelper
+---@field BP_RoleInfo_PS_CombatType int32
+---@field BP_ARRAY_RoleInfoSeasonNameList ULuaArrayHelper
+---@field BP_RoleInfo_PS_CombatModelTypeMax int32
+---@field BP_ARRAY_CombatTotalInfoList ULuaArrayHelper

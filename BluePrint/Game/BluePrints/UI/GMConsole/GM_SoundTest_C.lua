@@ -1,0 +1,57 @@
+---@class GM_SoundTest_C:UUserWidget
+---@field ShowPerformance:fun(IsShow:bool)
+---@field CollapsedAllEventList:fun(IsShow:bool)
+---@field ShowEventList:fun(IsShow_All:bool,IsShowPerformance:bool)
+---@field CollapsedAllDetail:fun(IsShow:bool)
+---@field ShowDetail:fun(IsShow:bool)
+---@field Get_RTPC_Num_Text_0:fun():FText
+---@field GetValue_0:fun():float
+---@field SetSoundDetail:fun(SoundEvent:UAkComponent)
+---@field ClearMessage:fun()
+---@field PreConstruct:fun(IsDesignTime:bool)
+---@field Construct:fun()
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field Button_Apply UButton
+---@field Button_Close UButton
+---@field Button_Comfire UButton
+---@field Button_Detail_OepnClose UButton
+---@field Button_Event_OpenClose UButton
+---@field Button_Performance UButton
+---@field Button_PlaySound UButton
+---@field Button_ReStore UButton
+---@field Button_StopPlaySound UButton
+---@field EventList UScrollBox
+---@field MemeoryOver_List UVerticalBox
+---@field MemeoryOver_ListBase UVerticalBox
+---@field Message UScrollBox
+---@field Performance_List UVerticalBox
+---@field ProgressBar_Play2DSound UProgressBar
+---@field RTPC_Num UEditableTextBox
+---@field ScopeNum UEditableTextBox
+---@field ScopeNum_Button UButton
+---@field Slider_RTPC USlider
+---@field SliderBox UVerticalBox
+---@field Text_Event_OpenClose UTextBlock
+---@field Text_EventArray UTextBlock
+---@field Text_EventLocation UTextBlock
+---@field Text_EventName UTextBlock
+---@field Text_EventRTPC UTextBlock
+---@field Text_IsLoop UTextBlock
+---@field Text_IsLoseBnk UTextBlock
+---@field Text_Performance UTextBlock
+---@field Text_PlayObjectArray UTextBlock
+---@field Text_Radius UTextBlock
+---@field Text_SoundArray UTextBlock
+---@field TEXT_Switch_Value UTextBlock
+---@field TextBlock_2DSoundTime UTextBlock
+---@field TextBlock_CM UTextBlock
+---@field TextBlock_DetailMessage UTextBlock
+---@field TextBlock_OepnClose UTextBlock
+---@field TextBlock_Title UTextBlock
+---@field Test int32
+---@field ChildUI ULuaArrayHelper
+---@field AKCompArray ULuaArrayHelper
+---@field CurrentEvent UAkComponent
+---@field CurrentTimer FTimerHandle
+---@field bIsShowDetail bool
+---@field CurrentRTPC float

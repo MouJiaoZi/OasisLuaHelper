@@ -1,0 +1,14 @@
+---@class bp_sevendaysfun_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_ARRAY_SevenDaysFun_DayHotDot ULuaArrayHelper
+---@field BP_SevenDaysFun_CurSelectTab int32
+---@field BP_SevenDaysFun_CurSelectDay int32
+---@field BP_ARRAY_SevenDaysFun_TaskItemList ULuaArrayHelper
+---@field BP_SevenDaysFun_Opt_TaskID int32
+---@field BP_ARRAY_SevenDaysFun_ChestList ULuaArrayHelper
+---@field BP_SevenDaysFun_ChestProgress int32
+---@field BP_SevenDaysFun_ChestFinishProgress int32
+---@field BP_SevenDaysFun_remainTime FString
+---@field BP_SevenDaysFun_UnlockDayNum int32
+---@field BP_ARRAY_SevenDayFun_Tabs ULuaArrayHelper

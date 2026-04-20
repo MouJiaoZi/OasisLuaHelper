@@ -1,0 +1,1 @@
+---@class WeaponAnimList_Sniper_M24_C:UUAECharacterAnimListComponent

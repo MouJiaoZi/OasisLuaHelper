@@ -1,0 +1,4 @@
+---@class BP_HideAndSeek_GameModeStateFighting_C:UHideAndSeek_GameModeStateFighting
+---@field GetLuaModule:fun():FString
+---@field LuaEnter:fun()
+---@field LuaExecute:fun()

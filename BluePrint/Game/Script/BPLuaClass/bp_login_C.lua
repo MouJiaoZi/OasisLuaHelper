@@ -1,0 +1,6 @@
+---@class bp_login_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_InputOpenId FString
+---@field BP_ARRAY_ServerList_Info ULuaArrayHelper
+---@field BP_SelectedShowServerInfo int32

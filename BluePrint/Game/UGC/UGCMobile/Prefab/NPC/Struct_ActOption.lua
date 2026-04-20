@@ -1,0 +1,4 @@
+---@class Struct_ActOption
+---@field OptionName FString
+---@field StoryID int32
+---@field Condition Enum_InteractCondition

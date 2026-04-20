@@ -1,0 +1,13 @@
+---@class SpeedUpItem_C:AActor
+---@field AddRoundData:fun(Controller:UObject)
+---@field Jiafen:fun(Controller:AController)
+---@field Xunzhang:fun(Controller:UObject)
+---@field UserConstructionScript:fun()
+---@field ParticleSystem UParticleSystemComponent
+---@field TriggerBox UCapsuleComponent
+---@field DefaultSceneRoot USceneComponent
+---@field Score int32
+---@field RotatingSpeed float
+---@field SkillClass UClass
+---@field args int32
+---@field Play_HideAndSeek_Hider_Buff_Accelerate UAkAudioEvent

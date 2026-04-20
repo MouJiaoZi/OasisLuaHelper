@@ -1,0 +1,10 @@
+---@class PCVer_ScreenSettings_Item7_UIBP_C:UUAEUserWidget
+---@field OnMouseEnter:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent)
+---@field OnMouseLeave:fun(MouseEvent:FPointerEvent)
+---@field OnUnHoverdWithId__DelegateSignature:fun(idx:int32)
+---@field OnHoverdWithId__DelegateSignature:fun(idx:int32)
+---@field NewButton_Set UNewButton
+---@field TextBlock_text UTextBlock
+---@field WidgetSwitcher_BG UWidgetSwitcher
+---@field OnHoverdWithId ULuaMulticastDelegate
+---@field OnUnHoverdWithId ULuaMulticastDelegate

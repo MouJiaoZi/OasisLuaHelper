@@ -1,0 +1,47 @@
+---@class BP_UGCMobileButtonSwitch_C:BP_UGCMobileSwitchBase_C
+---@field InitMechaWeaponData:fun()
+---@field InitSpecialWeaponData:fun()
+---@field InitVehicleWeaponData:fun()
+---@field InitHeavyWeaponData:fun()
+---@field LuaPrint:fun(InStr:FString)
+---@field InitMeleeWeaponData:fun()
+---@field InitProjectileData:fun()
+---@field InitBulletData:fun()
+---@field OnBeginPlayBP:fun()
+---@field GetLuaModule:fun():FString
+---@field UserConstructionScript:fun()
+---@field AttackOverlapBox UBoxComponent
+---@field STBaseBuffSystem USTBaseBuffSystemComponent
+---@field BP_UGCDamageableActorComponent BP_UGCDamageableActorComponent_C
+---@field CarOverlapBox UBoxComponent
+---@field OverlapCheckArea UOverlapCheckAreaComponent
+---@field PlayerOverlapBox UBoxComponent
+---@field StaticMesh UStaticMeshComponent
+---@field CloseMat UMaterialInstance
+---@field bOpen bool
+---@field bInitOpen bool
+---@field TriggerMode EUGCSwitchTriggerMode
+---@field bSwitchOpenPlaySound bool
+---@field bRuntimeShow bool
+---@field bNeedAlwaysTouch bool
+---@field RelateTeams S_TeamChoice
+---@field CanRepeatTrigger bool
+---@field AutoCloseTime float
+---@field RepeatTriggerCD float
+---@field AutoOpenTime float
+---@field VaildTriggerTypes ULuaArrayHelper
+---@field ItemParamSetting_Bullet ULuaArrayHelper
+---@field VaildAttackTriggerTypes S_ScoreBallChoice
+---@field OpenAction FUGCMobileObjectAction
+---@field CloseAction FUGCMobileObjectAction
+---@field OpenEvent FUGCMobileObjectEvent
+---@field CloseEvent FUGCMobileObjectEvent
+---@field ItemIDList ULuaArrayHelper
+---@field ItemParamSetting_Projectile ULuaArrayHelper
+---@field ItemParamSetting_MeleeWeapon ULuaArrayHelper
+---@field MinPositiveNum float
+---@field OpenMat UMaterialInstance
+---@field DeactivedEvent FUGCMobileObjectAction
+---@field CurButtonEnableState int32
+---@field EnableAction FUGCMobileObjectAction
+---@field DisableAction FUGCMobileObjectAction

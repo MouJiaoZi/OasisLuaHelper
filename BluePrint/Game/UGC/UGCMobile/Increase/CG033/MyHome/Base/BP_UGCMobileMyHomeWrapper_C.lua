@@ -1,0 +1,20 @@
+---@class BP_UGCMobileMyHomeWrapper_C:BP_UGCMobileMyHomeWrapperBase_C
+---@field GetLuaModule:fun():FString
+---@field HideEquipment:fun(NewParam:ASTExtraBaseCharacter)
+---@field ShowEquipment:fun(NewParam1:ASTExtraBaseCharacter)
+---@field _HandleFinish:fun()
+---@field _HandleInteract:fun()
+---@field CanTrigger:fun(PlayerController:ASTExtraPlayerController):bool
+---@field UserConstructionScript:fun()
+---@field InteractTarget EUGCSwitchTargetTrigger5
+---@field CampIDs S_CampChoice
+---@field TeamIDs S_TeamChoice
+---@field bShowInGame bool
+---@field bEnabled bool
+---@field RoundReset bool
+---@field EnableAction FUGCMobileObjectAction
+---@field DisableAction FUGCMobileObjectAction
+---@field InteractEvent FUGCMobileObjectEvent
+---@field FinishEvent FUGCMobileObjectEvent
+---@field RuntimeEnable bool
+---@field HomelandType HomelandType

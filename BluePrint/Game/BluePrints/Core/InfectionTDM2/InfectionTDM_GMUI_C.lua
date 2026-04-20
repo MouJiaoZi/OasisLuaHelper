@@ -1,0 +1,29 @@
+---@class InfectionTDM_GMUI_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field OnMouseButtonDown_1:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field OnReceiveShowGMUI:fun()
+---@field OnMouseButtonDown_0:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field ButtonChangeMutator UButton
+---@field ButtonPause UButton
+---@field ButtonSetRage UButton
+---@field CampInfoSwitcher UWidgetSwitcher
+---@field TextBlockCamp UEditableTextBox
+---@field TextBlockCurRagePrase UEditableTextBox
+---@field TextBlockH1 UEditableTextBox
+---@field TextBlockH2 UEditableTextBox
+---@field TextBlockH3 UEditableTextBox
+---@field TextBlockH4 UEditableTextBox
+---@field TextBlockHealth UEditableTextBox
+---@field TextBlockI1 UEditableTextBox
+---@field TextBlockI2 UEditableTextBox
+---@field TextBlockI3 UEditableTextBox
+---@field TextBlockInfectionType UEditableText
+---@field TextBlockMeleeDMG UEditableTextBox
+---@field TextBlockPause UTextBlock
+---@field TextBlockRage UEditableTextBox
+---@field TextBlockRagePrase1 UEditableTextBox
+---@field TextBlockRagePrase2 UEditableTextBox
+---@field TextBlockRagePrase3 UEditableTextBox
+---@field TextBlockSpeed UEditableTextBox
+---@field TextBlockType UEditableTextBox
+---@field TextBlockWeaponDMG UEditableTextBox

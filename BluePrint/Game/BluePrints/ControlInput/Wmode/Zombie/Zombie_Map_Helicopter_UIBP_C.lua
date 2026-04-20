@@ -1,0 +1,17 @@
+---@class Zombie_Map_Helicopter_UIBP_C:UUAEUserWidget
+---@field MapScaleChangeRedrawPos:fun(NewScale:float):bool
+---@field CustomTickFunc:fun(DeltaTime:float):bool
+---@field GetMiniMapAdjustOffset:fun():FVector2D
+---@field TurnIcon:fun()
+---@field ReceivedInitWidget:fun()
+---@field Image_logo UImage
+---@field WidgetSwitcher_minimap UWidgetSwitcher
+---@field Helicopter ARescueHelicopterBase
+---@field LevelLandscapeCenter FVector
+---@field LevelToMapScale float
+---@field RotateAngle float
+---@field CacheTargetLoc FVector
+---@field CacheActorLoc FVector
+---@field CacheHelicopterState ERescueHelicopterState
+---@field IsNeedDockInMap bool
+---@field MiniMap NewMiniMap_C

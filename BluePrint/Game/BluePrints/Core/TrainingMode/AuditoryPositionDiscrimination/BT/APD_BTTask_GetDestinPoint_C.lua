@@ -1,0 +1,4 @@
+---@class APD_BTTask_GetDestinPoint_C:UBTTask_BlueprintBase
+---@field CurrentPathNodeIndex FName
+---@field DestinPos FName
+---@field SplineCom FName

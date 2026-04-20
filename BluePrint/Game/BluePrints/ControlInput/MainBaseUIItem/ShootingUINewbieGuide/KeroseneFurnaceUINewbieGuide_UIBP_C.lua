@@ -1,0 +1,24 @@
+---@class KeroseneFurnaceUINewbieGuide_UIBP_C:UNewbieGuideWidget
+---@field ShowGuide:fun()
+---@field OnCreateAndShow:fun(GuideId:int32,UIConfigIndex:int32)
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field Tips0 UCanvasPanel
+---@field Tips1 UCanvasPanel
+---@field Tips2 UCanvasPanel
+---@field Tips3 UCanvasPanel
+---@field Tips4 UCanvasPanel
+---@field Tips5 UCanvasPanel
+---@field Tips6 UCanvasPanel
+---@field Tips7 UCanvasPanel
+---@field Tips8 UCanvasPanel
+---@field UTRichTextBlock_0 UUTRichTextBlock
+---@field UTRichTextBlock_1 UUTRichTextBlock
+---@field UTRichTextBlock_2 UUTRichTextBlock
+---@field UTRichTextBlock_3 UUTRichTextBlock
+---@field UTRichTextBlock_4 UUTRichTextBlock
+---@field UTRichTextBlock_5 UUTRichTextBlock
+---@field UTRichTextBlock_6 UUTRichTextBlock
+---@field UTRichTextBlock_7 UUTRichTextBlock
+---@field UTRichTextBlock_Tips10_Text1 UUTRichTextBlock
+---@field ParentGrenadeList GrenadeList_C
+---@field LastShowType int32

@@ -1,0 +1,7 @@
+---@class CH_MainChar_Anim_BP_InfectedMan_04_C:UMainCharAnimInstance
+---@field TPPAnimInstance USTExtraAnimInstanceBase
+---@field FPPAnimInstance USTExtraAnimInstanceBase
+---@field NewVar_0 FSTExtraAnimFM_IK
+---@field TempFreshState EFreshWeaponStateType
+---@field LastCameraMode EPlayerCameraMode
+---@field CurAnimBlendTime float

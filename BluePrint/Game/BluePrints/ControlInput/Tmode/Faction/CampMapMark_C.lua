@@ -1,0 +1,22 @@
+---@class CampMapMark_C:UMapUIMarkDynamicWidget
+---@field ReceivePreDestroyBP:fun()
+---@field LuaUpdataState:fun(CustomString:FString)
+---@field PlayerStatusChanged:fun(NewParam:ECharacterHealthStatus,NewParam1:ECharacterHealthStatus)
+---@field RegistPlayerStatusChanged:fun()
+---@field LuaOnUIShow:fun(NewParam:FCustomMarkEventData)
+---@field SetState:fun(NewParam:int32)
+---@field OnUIBPShow:fun(InState:FCustomMarkEventData)
+---@field Destruct:fun()
+---@field Event_FindCharacter:fun()
+---@field UpdateMarkSize:fun(inScale:float,inMapScale:float,MapScaleInUI:float)
+---@field UpdateMarkPosition:fun(NewMapPos:FVector2D,MapAdjustOffset:FVector2D,Angle:float,MapWindowHalfExtent:float)
+---@field CanvasPanel_Name UCanvasPanel
+---@field IdxInTeam UTextBlock
+---@field Image_Color UImage
+---@field Image_ColorName UImage
+---@field PlayerName UTextBlock
+---@field TargetCharacterCite ASTExtraPlayerCharacter
+---@field TeamID int32
+---@field DataTable UDataTable
+---@field InTeamIndex int32
+---@field NewVar_0 UUserWidget

@@ -1,0 +1,3 @@
+---@class UGCM_ComboBox_CheckItem_UIBP_C:UUAEUserWidget
+---@field NewCheckBox_Item UNewCheckBox
+---@field Index int32

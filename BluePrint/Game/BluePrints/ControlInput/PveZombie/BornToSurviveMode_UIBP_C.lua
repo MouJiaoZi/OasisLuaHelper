@@ -1,0 +1,44 @@
+---@class BornToSurviveMode_UIBP_C:UUAEUserWidget
+---@field UIMsg_ShowFotressTipsTest:fun()
+---@field ShowUI:fun()
+---@field UIMsg_ShowOpenDoorGuide:fun()
+---@field UIMsg_ShowCloseDoorGuide:fun()
+---@field GetFortressTipsIconCallBack:fun(icon:UObject)
+---@field UIMsg_ShowFotressTips:fun(type:int32)
+---@field UIMsg_ShowBornToSurviveModeMonsterTips:fun(Type:int32)
+---@field GetGeneralTipsIconCallBack:fun(Icon:UObject)
+---@field UIMsg_ShowBornToSurviveModeGeneralTips:fun(Type:int32)
+---@field GetBossOrMonsterIconCallBack:fun(Icon:UObject)
+---@field UIMsg_ShowBornToSurviveModeBossTips:fun(Type:int32)
+---@field MonsterHealthBarShowUp:fun()
+---@field SetHealthBar:fun(Percent:float)
+---@field InitHealthBar:fun()
+---@field MonsterHealthBarTimer:fun()
+---@field Construct:fun()
+---@field ReceivedInitWidget:fun()
+---@field GeneralTips_anima UWidgetAnimation
+---@field Toptips_anima UWidgetAnimation
+---@field KillNumTipsHide_anima UWidgetAnimation
+---@field KillNumTipsShow_anima UWidgetAnimation
+---@field CanvasPanel_BossHP UCanvasPanel
+---@field CanvasPanel_NewBieGuideTips UCanvasPanel
+---@field Image_2 UImage
+---@field Image_14 UImage
+---@field Image_16 UImage
+---@field Image_26 UImage
+---@field Image_BossHP UImage
+---@field Image_goods UImage
+---@field Image_TopTipsIcon UImage
+---@field TextBlock_BossName UTextBlock
+---@field TopTipsWaining UUTRichTextBlock
+---@field UTRichTextBlock_0 UUTRichTextBlock
+---@field UTRichTextBlock_1 UUTRichTextBlock
+---@field UTRichTextBlock_2 UUTRichTextBlock
+---@field UTRichTextBlock_GeneralTips UUTRichTextBlock
+---@field UTRichTextBlock_Monster UUTRichTextBlock
+---@field WidgetSwitcher_Type UWidgetSwitcher
+---@field HealthBarMaxOffset float
+---@field MonsterHealthBarHideTimer FTimerHandle
+---@field TopTipsMsg ULuaArrayHelper
+---@field isBossComingHasShow bool
+---@field WidgetTypeMap ULuaMapHelper

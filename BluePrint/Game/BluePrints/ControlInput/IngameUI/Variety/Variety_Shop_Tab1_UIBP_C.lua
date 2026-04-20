@@ -1,0 +1,6 @@
+---@class Variety_Shop_Tab1_UIBP_C:UUAEUserWidget
+---@field Image_Select UImage
+---@field NewButton_Select UNewButton
+---@field TextBlock_Name UTextBlock
+---@field TextBlock_Name2 UTextBlock
+---@field WidgetSwitcher_Color UWidgetSwitcher

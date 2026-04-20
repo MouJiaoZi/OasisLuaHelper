@@ -1,0 +1,1 @@
+---@class BP_DragonBreathProjectile_C:ADragonBreathProjectile

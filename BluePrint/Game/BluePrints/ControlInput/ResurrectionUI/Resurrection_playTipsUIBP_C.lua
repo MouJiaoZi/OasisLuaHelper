@@ -1,0 +1,1 @@
+---@class Resurrection_playTipsUIBP_C:UUserWidget

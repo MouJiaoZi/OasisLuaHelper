@@ -1,0 +1,162 @@
+---@class PickUpListPanel_BP_C:UPickupListPanelC
+---@field SetHideForAimInf:fun(hide4Aim:bool):bool
+---@field NotifyBoxInf:fun(show:bool):bool
+---@field NotifyPickupInf:fun(show:bool):bool
+---@field DirectShowBoxInf:fun(boxArray:ULuaArrayHelper):bool
+---@field BleOpenTombBoxInf:fun():bool
+---@field BleOpenNormalPickupInf:fun():bool
+---@field ClearAllChecksumInf:fun():bool
+---@field BlePickFirstInf:fun():bool
+---@field PauseAutoPickInf:fun(item:FItemDefineID):bool
+---@field IsCustomUIDataValid:fun(Widget:UWidget,SaveDataSize:FVector2D):bool
+---@field UIMsg_ModifyWeaponSetting:fun()
+---@field UIMsg_SetDisableAutoPickupSwitcher:fun()
+---@field UIMsg_SetAutoPickupSwitch:fun()
+---@field AddTombboxMarkInfo:fun(OwnerID:int32,InstanceID:int32)
+---@field AddMarkInfo:fun(InstanceID:int32)
+---@field GetBackPackPanel:fun():UUserWidget
+---@field SetGridPanelPickUpListVisibility:fun(Visibility:ESlateVisibility)
+---@field CheckIsDamagedItem:fun(NewParam:FItemDefineID):bool
+---@field UIMSG_SetForbitAutoPickByValentinesDayFireBalloon:fun(AutoPick:FString)
+---@field IsReady:fun():bool
+---@field ScrollPickupToStart:fun()
+---@field UIMsg_SetForbitAutoPickByAct:fun(ForbitAutoPick:bool,ForbitType:FString)
+---@field CanAutoPick:fun():bool
+---@field IsOnRemoteControl:fun():bool
+---@field BleOpenTombBox:fun()
+---@field BleOpenNormalPickup:fun()
+---@field BlePickFirst:fun()
+---@field GetPlayerChoice:fun():EGroudStuffType
+---@field SetPlayerChoice:fun(playerChoise:EGroudStuffType)
+---@field UIMsg_RefreshPlayerTombBoxCheckSum:fun(TombName:FString)
+---@field CheckIsRevivalCardCanPick:fun(IsTeamTombBox:bool,DroperPlayerState:ASTExtraPlayerState,Info:FBattleSearchBoxSortingInfo):bool
+---@field UpdateGroundList:fun(item:UUAEUserWidget,index:int32)
+---@field ClearChecksumByUpdate:fun(defineID:FItemDefineID)
+---@field ClearChecksumByDelete:fun(defineID:FItemDefineID)
+---@field ClearAllChecksum:fun()
+---@field SearchTombCache:fun(SearchTombBox:ULuaArrayHelper):bool
+---@field SearchPickupGroundCache:fun(searchItemList:ULuaArrayHelper):bool
+---@field ModifySetting:fun()
+---@field InitRegistSetting:fun()
+---@field ClickCloseBoxByHand:fun()
+---@field RecoverCustomizeUIInfo:fun()
+---@field CheckPauseAutoPick:fun(resID:int32):bool
+---@field IsCurrWeaponReloading:fun():bool
+---@field SetOBAirBoxName:fun(item:PickUpListItem_Row_BP_C,name:FString)
+---@field DirectShowBox:fun(boxArray:ULuaArrayHelper)
+---@field UIMsg_BackpackClose:fun()
+---@field UIMsg_BackpackOpen:fun()
+---@field DeadBoxExistVisibilityControl:fun(IsExist:bool)
+---@field PickUpExistVisibilityControl:fun(BtnExist:bool)
+---@field IsPlayerCanSeeWidget:fun(NewParam:UWidget):bool
+---@field ShowNineOrSix:fun(bShow:bool,Nine:bool,Enable:bool)
+---@field PlayerSetBoxCol:fun(col:int32)
+---@field ShowNineOrSixCol:fun(itemRow:PickUpListItem_Row_BP_C,bShow:bool)
+---@field GetUseful2:fun(defineID:FItemDefineID,pickUpItemResult:FSearchedPickUpItemResult):int32
+---@field ResetTombCheckSum:fun()
+---@field NotifyBox:fun(show:bool)
+---@field NotifyPickup:fun(show:bool)
+---@field FindTombRowByName:fun(name:FString):PickUpListItem_Row_BP_C,bool
+---@field GetBulletAutoPickupLimit:fun(resID:int32):int32
+---@field DeleteTombs:fun()
+---@field CheckBoxChange:fun(result:FSearchedTombBoxAndWrapperListResult):bool
+---@field CheckChange:fun(Array:ULuaArrayHelper):bool
+---@field AutoPickGroundItem:fun(Array:ULuaArrayHelper)
+---@field ItemOpertation:fun(ItemDefineID:FItemDefineID,optType:EBattleItemOperationType,reason:uint8)
+---@field PauseAutoPick:fun(item:FItemDefineID)
+---@field InitRegistSettingBool:fun(PropertyName:FString,Delegate:ULuaDelegate):SettingConfig_C
+---@field InitRegistSettingInt:fun(PropertyName:FString,Delegate:ULuaDelegate):SettingConfig_C
+---@field AutoPickOneItem:fun(pickUpResult:FSearchedPickUpItemResult):bool
+---@field ClickCloseBoxPanel:fun()
+---@field SetBoxColumn:fun(column:int32)
+---@field ClickCloseCustomPanel:fun()
+---@field FillTombBoxList:fun(TargetArray:ULuaArrayHelper)
+---@field OnClickBoxTab:fun(index:int32)
+---@field MakeFlagToTabBox:fun()
+---@field FillButton:fun()
+---@field MakeSureBoxListEnough:fun(count:int32,result:ULuaArrayHelper)
+---@field FillGroundList:fun(Array:ULuaArrayHelper)
+---@field ShowPickMode:fun(pickType:EGroudStuffType)
+---@field GetIsShowingToolTips:fun():bool
+---@field GetToolTipsSingleton:fun():UUserWidget
+---@field HideToolTips:fun()
+---@field ShowToolTips:fun(Image:FSlateBrush,ItemName:FString,ItemDesc:FString)
+---@field UpdateListData:fun()
+---@field SetSettingControlUI:fun()
+---@field Construct:fun()
+---@field ReceivedInitWidget:fun()
+---@field SetCustomizeUIInfo:fun(SaveGame:BP_SAVEGAME_UIElemLayout_C,FireMode:int32)
+---@field AutoPickOneEvent:fun(result:FSearchedPickUpItemResult)
+---@field TombRowInvalidated_aa__DelegateSignature:fun(Sender:PickUpListPanel_BP_C)
+---@field TombRowHandled_aa__DelegateSignature:fun(Sender:PickUpListPanel_BP_C,TombBox:APlayerTombBox,PickUpListItemRowBP:PickUpListItem_Row_BP_C)
+---@field GridPanelPickUpListVisibilityChanged__DelegateSignature:fun(Sender:PickUpListPanel_BP_C,Target:UGridPanel)
+---@field CollapseStuffList__DelegateSignature:fun(bDeadBox:bool)
+---@field Border_PickBox UBorder
+---@field BoxInnerPanel UGridPanel
+---@field Button_Ninepalaces UButton
+---@field Button_OBmode_HideList UButton
+---@field Button_Sixpalaces UButton
+---@field Canvas_PickBox UCanvasPanel
+---@field CanvasPanel_EliminateThank UCanvasPanel
+---@field CanvasPanel_EliminateThank_Show UCanvasPanel
+---@field CustomizePickUpPanel_BP CustomizePickUpPanel_BP_C
+---@field DeadBoxBtnExistControl UCanvasPanel
+---@field GridPanel_Mode UGridPanel
+---@field GridPanel_PickUpList UGridPanel
+---@field GridPanel_root UGridPanel
+---@field ImageNine UImage
+---@field PickUpBtnExistControl UCanvasPanel
+---@field ScrollBox_PickUpListMode1 UCustomScrollBox
+---@field ScrollBox_PickUpListMode2 UCustomScrollBox
+---@field ShortcutMenu_BP ShortcutMenu_BP_C
+---@field SizeBox_PanelList USizeBox
+---@field TextBlockNine UTextBlock
+---@field Tips14_1 UCanvasPanel
+---@field TombBoxReuseList_BP TombBoxReuseList_BP_C
+---@field UTRichTextBlock_Tips14_1 UUTRichTextBlock
+---@field WidgetSwitcher_0 UWidgetSwitcher
+---@field WidgetSwitcherCol UWidgetSwitcher
+---@field deadBoxNum int32
+---@field CollapseStuffList ULuaMulticastDelegate
+---@field DisplayStuffType EGroudStuffType
+---@field PickupToolTips UUserWidget
+---@field ToolTipsOffset FVector2D
+---@field bGroundExist bool
+---@field playerChoise EGroudStuffType
+---@field boxChoise int32
+---@field bHideForAim bool
+---@field InAutoPickCD bool
+---@field lastAutoPickTime float
+---@field pickUpChecksum int32
+---@field sortInfoList_ ULuaArrayHelper
+---@field name2TombRow ULuaMapHelper
+---@field AutoPickDelay float
+---@field NeiborItemBoxName FString
+---@field PlayerBoxColumn int32
+---@field MoveOut bool
+---@field ForbitAutoPickByMode bool
+---@field NewVar_0 UWidget
+---@field PauseAutoPickItem ULuaMapHelper
+---@field LocalSaveGame BP_SAVEGAME_UIElemLayout_C
+---@field LocalLayoutIndex int32
+---@field PickBoxPosition FVector2D
+---@field CustomizePickupPosition FVector2D
+---@field bCloseNormal bool
+---@field bCloseNormalAuto bool
+---@field usefulLimit int32
+---@field usefulCount int32
+---@field GroundItemList ULuaArrayHelper
+---@field PickupItemPool UUIDuplicatedItemPool
+---@field InitSetting bool
+---@field lastOperationSecond float
+---@field ForbitAutpPickMap ULuaSetHelper
+---@field MainBackpackPanel UUserWidget
+---@field GridPanelPickUpListVisibilityChanged ULuaMulticastDelegate
+---@field TombRowHandled_aa ULuaMulticastDelegate
+---@field ForceAdjustPos bool
+---@field TombRowInvalidated_aa ULuaMulticastDelegate
+---@field MarkedArray ULuaArrayHelper
+---@field AutoPickResult FSearchedPickUpItemResult
+---@field MarkedTombDic ULuaArrayHelper
+---@field AutoPickSetting bool
+---@field DisableAutoPickSetting bool

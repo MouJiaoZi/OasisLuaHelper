@@ -1,0 +1,1 @@
+---@class CH_MainChar_Anim_BP_TeamScrimmage_C:UMainCharAnimInstance

@@ -1,0 +1,1 @@
+---@class BP_UGCM_PHTower01_C:BP_UGCM_GenericTowerBase_C

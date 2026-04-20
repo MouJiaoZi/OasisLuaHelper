@@ -1,0 +1,3 @@
+---@class bp_corps_rank_s_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent

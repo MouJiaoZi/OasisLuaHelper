@@ -1,0 +1,8 @@
+---@class BlackAirAttackRedZone_UIBP_C:UMapUIMarkBaseWidget
+---@field OnUIBPShow:fun(InState:FCustomMarkEventData)
+---@field OnUIBPCreate:fun(InState:FCustomMarkEventData,ParentState:EMarkParentWidget,inRealLevelToMapScale:float,inMapScale:float)
+---@field UpdateMarkSize:fun(inScale:float,inMapScale:float,MapScaleInUI:float)
+---@field Image_AirAttackZoneIcon UImage
+---@field AreaRadius float
+---@field ParentWidgetState EMarkParentWidget
+---@field BlackAirAttackArea FSlateBrush

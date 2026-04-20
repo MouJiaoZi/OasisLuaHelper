@@ -1,0 +1,2 @@
+---@class CampResultItemInterface_C:UInterface
+---@field SetCampResultItemIndex_inf:fun(index:int32):bool

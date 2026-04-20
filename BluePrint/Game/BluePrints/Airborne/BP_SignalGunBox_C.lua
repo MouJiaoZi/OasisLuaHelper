@@ -1,0 +1,4 @@
+---@class BP_SignalGunBox_C:ABP_AirDropBox_C
+---@field GetRandomGenerateWrappersData:fun():ULuaArrayHelper
+---@field UserConstructionScript:fun()
+---@field NextAirDropGroupName FString

@@ -1,0 +1,7 @@
+---@class MainBackPack_ChangeWingman_Icon_Item_UIBP_C:UUAEUserWidget
+---@field SelectSelf__DelegateSignature:fun(id:int32)
+---@field Image_Icon UImage
+---@field Image_Selected UImage
+---@field NewButton_Selected UNewButton
+---@field SelectSelf ULuaMulticastDelegate
+---@field itemID int32

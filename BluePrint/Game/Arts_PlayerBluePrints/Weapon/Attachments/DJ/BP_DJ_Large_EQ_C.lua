@@ -1,0 +1,1 @@
+---@class BP_DJ_Large_EQ_C:BattleItemHandle_WeapAttachment_C

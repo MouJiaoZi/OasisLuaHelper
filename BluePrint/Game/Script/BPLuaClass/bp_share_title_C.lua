@@ -1,0 +1,4 @@
+---@class bp_share_title_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_ShareTitle_SelectedTitle int32

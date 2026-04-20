@@ -1,0 +1,10 @@
+---@class NewTraining_Prompt_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field OnClickCancel:fun()
+---@field OnClickConfirm:fun()
+---@field Common_UIPopupBG Common_UIPopupBG_C
+---@field NewButton_Cancel UNewButton
+---@field NewButton_Close UNewButton
+---@field NewButton_Determine UNewButton
+---@field TextBlock_0 UTextBlock
+---@field WidgetSwitcher_Tips UWidgetSwitcher

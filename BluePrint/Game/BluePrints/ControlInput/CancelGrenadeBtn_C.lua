@@ -1,0 +1,3 @@
+---@class CancelGrenadeBtn_C:UUAEUserWidget
+---@field Button_0 UButton
+---@field TextBlock_0 UTextBlock

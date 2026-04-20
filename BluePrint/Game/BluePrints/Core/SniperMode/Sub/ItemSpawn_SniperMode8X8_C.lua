@@ -1,0 +1,1 @@
+---@class ItemSpawn_SniperMode8X8_C:UItemSpawn_Forest_C

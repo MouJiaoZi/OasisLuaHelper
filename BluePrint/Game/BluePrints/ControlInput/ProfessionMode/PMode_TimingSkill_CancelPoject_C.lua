@@ -1,0 +1,8 @@
+---@class PMode_TimingSkill_CancelPoject_C:UUTSkillIconWidgetTemplate
+---@field UIMsg_HideCancel:fun()
+---@field UIMsg_ShowCancel:fun()
+---@field DX_UpgradeSkills UWidgetAnimation
+---@field DX_RefreshSkill UWidgetAnimation
+---@field Button_Cancel UButton
+---@field Image_0 UImage
+---@field FunctionBPParam ULuaMapHelper

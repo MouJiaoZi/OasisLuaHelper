@@ -1,0 +1,5 @@
+---@class NewTraining_LogDetail_UIBP_C:UUAEUserWidget
+---@field CanvasSize UCanvasPanel
+---@field Image_Icon UImage
+---@field ReuseList2_Log ReuseList2_C
+---@field TextBlock_Name UTextBlock

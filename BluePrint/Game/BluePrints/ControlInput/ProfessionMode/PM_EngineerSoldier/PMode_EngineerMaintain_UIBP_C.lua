@@ -1,0 +1,7 @@
+---@class PMode_EngineerMaintain_UIBP_C:UUserWidget
+---@field CanvasPanel_Tips UCanvasPanel
+---@field Image_BG UImage
+---@field Image_CDTime UImage
+---@field Image_Icon UImage
+---@field Image_Select UImage
+---@field NewButton_maintain UNewButton

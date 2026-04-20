@@ -1,0 +1,1 @@
+---@class BP_Rifle_SCAR_BattleItemHandle_ADLS_Lobby_C:UBackpackWeaponHandle

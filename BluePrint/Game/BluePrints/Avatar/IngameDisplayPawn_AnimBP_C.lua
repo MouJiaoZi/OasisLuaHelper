@@ -1,0 +1,1 @@
+---@class IngameDisplayPawn_AnimBP_C:UAnimInstance

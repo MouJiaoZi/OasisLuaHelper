@@ -1,0 +1,1 @@
+---@class NewbieGuideComponent_Bp_C:UNewbieGuideComponent

@@ -1,0 +1,16 @@
+---@class BP_ConcertVideoPlayerBase_C:ABP_ConcertActivityActorBase_C
+---@field EndVideo:fun(InData:FConcertSequenceEventData)
+---@field StartVideo:fun(InData:FConcertSequenceEventData)
+---@field UserConstructionScript:fun()
+---@field ConcertActivityJump:fun(InSeconds:float)
+---@field TriggerActivityEvent:fun(IsSyncData:bool,Data:FConcertSequenceEventData)
+---@field ConcertSequenceStop:fun()
+---@field ReceiveEndPlay:fun(EndPlayReason:EEndPlayReason)
+---@field VideoPlane UStaticMeshComponent
+---@field BP_VideoPlayer BP_VideoPlayer_C
+---@field VideoConfigList ULuaArrayHelper
+---@field CurrentVideoIndex int32
+---@field TriggerTime float
+---@field IsPlaying bool
+---@field VideoFlag FString
+---@field EventType int32

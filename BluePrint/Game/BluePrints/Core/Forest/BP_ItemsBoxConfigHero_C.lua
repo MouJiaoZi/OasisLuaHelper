@@ -1,0 +1,1 @@
+---@class BP_ItemsBoxConfigHero_C:UBP_ItemsBoxConfig_C

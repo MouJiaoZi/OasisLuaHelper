@@ -1,0 +1,7 @@
+---@class Skill_DuetDance_StartReceive_C:AUAESkill
+---@field UserConstructionScript:fun()
+---@field UAESkillAction_PlayMontage_Pose UUAESkillAction_PlayMontage_Pose
+---@field UAESkillAction_SwitchWeapon UUAESkillAction_SwitchWeapon
+---@field UAESkillPhase1 UUAESkillPhase
+---@field UAESkillPhase UUAESkillPhase
+---@field DefaultSceneRoot USceneComponent

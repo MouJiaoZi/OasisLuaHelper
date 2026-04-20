@@ -1,0 +1,1 @@
+---@class WeaponAnimList_MachineGun_JS9_C:UUAECharacterAnimListComponent

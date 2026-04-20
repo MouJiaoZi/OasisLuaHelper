@@ -1,0 +1,10 @@
+---@class BP_InfecttionTDM_InfectedManBase_3_Frozen_C:ABP_InfecttionTDM_BasePawn_MonsterBase_C
+---@field PlayBirthParticle:fun()
+---@field UserConstructionScript:fun()
+---@field BPOnRespawned:fun()
+---@field P_TDM2_InfectedMan_03_Eye02 UParticleSystemComponent
+---@field P_TDM2_InfectedMan_03_Eye01 UParticleSystemComponent
+---@field P_TDM2_InfectedMan_03_Arms01 UParticleSystemComponent
+---@field Ak UAkComponent
+---@field ParticleSystem UParticleSystemComponent
+---@field BulletHitBuff UBulletHitBuffComponent

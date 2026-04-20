@@ -1,0 +1,9 @@
+---@class BTTask_BPBase_GetRandomLocationDirected_C:UBTTask_BlueprintBase
+---@field Radius float
+---@field OriginLocation(Actor) FBlackboardKeySelector
+---@field TargetRandomLocation FBlackboardKeySelector
+---@field NewVar_0 FBlackboardKeySelector
+---@field Orientation Orientation
+---@field Distance float
+---@field MovementDirection bool
+---@field HeightOffset float

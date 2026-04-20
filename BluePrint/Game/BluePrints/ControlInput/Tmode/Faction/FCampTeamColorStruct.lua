@@ -1,0 +1,3 @@
+---@class FCampTeamColorStruct
+---@field TeamIndex int32
+---@field TeamColor FLinearColor

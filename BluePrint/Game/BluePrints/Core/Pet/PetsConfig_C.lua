@@ -1,0 +1,1 @@
+---@class PetsConfig_C:APetsManager

@@ -1,0 +1,1 @@
+---@class BP_ItemsBoxConfig_KarakinGunMaster_C:UBP_ItemsBoxConfig_karakin_C

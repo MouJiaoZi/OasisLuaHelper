@@ -1,0 +1,6 @@
+---@class Zombie_Ranking_ItemUIBP_C:UUAEUserWidget
+---@field SetValue:fun(CurDamage:float,TeammatesMaxDamage:float,PlayName:FString,CueLevel:int32,ProgressBarColor:FLinearColor,SumDamage:float)
+---@field ProgressBar_pve UProgressBar
+---@field Text_level_number UTextBlock
+---@field Text_Percentage UTextBlock
+---@field Text_pve_name UTextBlock

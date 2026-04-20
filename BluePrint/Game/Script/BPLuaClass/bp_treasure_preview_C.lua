@@ -1,0 +1,4 @@
+---@class bp_treasure_preview_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field DefaultSelectItemIndex int32

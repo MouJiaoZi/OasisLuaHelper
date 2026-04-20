@@ -1,0 +1,25 @@
+---@class SetAdvanced_CheckGroup_UIBP_C:UUGCMobilePropertyWidget
+---@field GetLuaModule:fun():FString
+---@field SetChoosedAllTeam:fun(ChoosedAll:bool)
+---@field IsChoosedAllTeam:fun():bool
+---@field AddAllTeams:fun(TeamNum:int32)
+---@field RemoveAllTeams:fun()
+---@field GetChosedTeam:fun():ULuaArrayHelper
+---@field RemoveTeam:fun(TeamID:int32)
+---@field AddTeam:fun(TeamID:int32)
+---@field BindTextBlockToProperty_Enum:fun(InTextBlock:UTextBlock,ValueToDisplay:ULuaMapHelper)
+---@field OnGenerateSelectWidget:fun(Item:FString):UWidget
+---@field OnGenerateWidget:fun(Item:FString):UWidget
+---@field CanvasPanel_EmptyState UCanvasPanel
+---@field ComboBox_BelongTeam UComboBoxString
+---@field Image_2 UImage
+---@field MobileEditor_AdvHelp MobileEditor_AdvHelp_UIBP_C
+---@field NewButton_GoToAdd UNewButton
+---@field NewCheckBox_BelongTeamAll UNewCheckBox
+---@field Spacer_Size USpacer
+---@field Text_BelongTeamEmptyTips UTextBlock
+---@field TextBlock_BelongTeam UTextBlock
+---@field TextBlock_BelongTeam_List UTextBlock
+---@field UGCMobilePropertyBindableWidget_0 UUGCMobilePropertyBindableWidget
+---@field WidgetSwitcher_Style UWidgetSwitcher
+---@field CheckBoxClass UClass

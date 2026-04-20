@@ -1,0 +1,10 @@
+---@class ResetDoorActor_C:AActor
+---@field GetLuaModule:fun():FString
+---@field LuaResetDoubleDoor:fun(DoubleDoorActor:BP_DoubleDoorBase_C)
+---@field UpdateDoorList:fun(ForceUpdate:bool)
+---@field ResetAllDoor:fun()
+---@field ResetDoor:fun(NewParam:APUBGDoor)
+---@field UserConstructionScript:fun()
+---@field Sphere USphereComponent
+---@field DoorList ULuaArrayHelper
+---@field RegionID int32

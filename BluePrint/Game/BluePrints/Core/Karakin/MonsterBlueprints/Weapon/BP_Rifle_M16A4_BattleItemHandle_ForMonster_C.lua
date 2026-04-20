@@ -1,0 +1,1 @@
+---@class BP_Rifle_M16A4_BattleItemHandle_ForMonster_C:UBattleItemHandle_MainWeapon_C

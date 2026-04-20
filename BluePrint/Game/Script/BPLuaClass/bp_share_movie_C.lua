@@ -1,0 +1,3 @@
+---@class bp_share_movie_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent

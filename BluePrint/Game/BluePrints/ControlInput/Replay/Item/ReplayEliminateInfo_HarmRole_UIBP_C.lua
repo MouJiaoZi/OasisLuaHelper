@@ -1,0 +1,13 @@
+---@class ReplayEliminateInfo_HarmRole_UIBP_C:UUAEUserWidget
+---@field Harm_Color:fun(Selection:int32,Max:int32)
+---@field Image_Foot_L UImage
+---@field Image_Foot_R UImage
+---@field Image_Hand_L UImage
+---@field Image_Hand_R UImage
+---@field Image_Head UImage
+---@field Image_Leg_L UImage
+---@field Image_Leg_R UImage
+---@field Image_Trunk UImage
+---@field Color01 FLinearColor
+---@field Color02 FLinearColor
+---@field Color_Default FLinearColor

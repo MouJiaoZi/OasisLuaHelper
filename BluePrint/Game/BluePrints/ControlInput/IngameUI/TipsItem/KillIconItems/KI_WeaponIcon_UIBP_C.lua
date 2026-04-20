@@ -1,0 +1,17 @@
+---@class KI_WeaponIcon_UIBP_C:UKillIconBase_UIBP_C
+---@field GetConfigLeft:fun():bool
+---@field CheckSetByZombieTypeIcon:fun(AdditionParam:int32):bool
+---@field CheckSetByDamageTypeIcon:fun(DamageType:int32):bool
+---@field RefreshWeaponIcon:fun(NewParam:UObject)
+---@field CheckSetByItemID:fun(ItemID:int32):bool
+---@field CheckSetCDOData:fun(InClass:UClass):bool
+---@field GetCDO:fun(InClass:UClass):USTExtraDamageType
+---@field RefreshDetailInfo:fun(RecordData:FClientFatalDamageRecordData):bool
+---@field Image_WeaponIcon UImage
+---@field KillfeedPunch FSoftObjectPath
+---@field KillfeedDeath FSoftObjectPath
+---@field KillfeedDeath_en FSoftObjectPath
+---@field ZombieDamageIconMap ULuaMapHelper
+---@field DamageTypeMapIcon ULuaMapHelper
+---@field KillTable TScriptInterface
+---@field config int32

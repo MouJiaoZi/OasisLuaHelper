@@ -1,0 +1,2 @@
+---@class BP_HayBaleBase_C:ABP_CottageRoomBase_C
+---@field UserConstructionScript:fun()

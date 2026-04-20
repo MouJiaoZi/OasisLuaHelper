@@ -1,0 +1,5 @@
+---@class BPTask_DefaultPureCollection_C:UUAETriggerObject_CollectItem
+---@field ConstructRedoActions:fun():ULuaArrayHelper
+---@field ConstructActions:fun():ULuaArrayHelper
+---@field ConstructConditions:fun():UTriggerCondition
+---@field ConstructEvents:fun():ULuaArrayHelper

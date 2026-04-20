@@ -1,0 +1,3 @@
+---@class FBP_Struct_VendingCost
+---@field DefineID FItemDefineID
+---@field Num int32

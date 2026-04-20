@@ -1,0 +1,1 @@
+---@class WeaponAnimList_Other_Mortar_C:UUAECharacterAnimListComponent

@@ -1,0 +1,1 @@
+---@class BP_PlayerAIController_Desert_C:AFakePlayerAIController

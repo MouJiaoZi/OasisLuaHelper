@@ -1,0 +1,3 @@
+---@class FSAllowedStandOn
+---@field ActorClass UClass
+---@field Tag FName

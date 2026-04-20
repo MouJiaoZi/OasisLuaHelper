@@ -1,0 +1,1 @@
+---@class BP_MachineGun_MP5K_BattleItemHandle_SHMAN_Lobby_C:UBackpackWeaponHandle

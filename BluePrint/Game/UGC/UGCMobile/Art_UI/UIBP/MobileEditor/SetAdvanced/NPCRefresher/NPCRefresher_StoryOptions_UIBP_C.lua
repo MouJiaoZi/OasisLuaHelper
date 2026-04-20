@@ -1,0 +1,13 @@
+---@class NPCRefresher_StoryOptions_UIBP_C:UUGCMobilePropertyWidget
+---@field GetLuaModule:fun():FString
+---@field BindTextBlockToProperty_Enum:fun(InTextBlock:UTextBlock,ValueToDisplay:ULuaMapHelper)
+---@field On_ComboBox_GenerateWidget_0:fun(Item:FString):UWidget
+---@field OnGenerateSelectWidget:fun(Item:FString):UWidget
+---@field Button_Edit UNewButton
+---@field ComboBox UComboBoxString
+---@field EnumTextBlock UTextBlock
+---@field MobileEditor_AdvHelp MobileEditor_AdvHelp_UIBP_C
+---@field MobileEditor_AdvNamde MobileEditor_AdvNamde_UIBP_C
+---@field UGCMobilePropertyBindableWidget_0 UUGCMobilePropertyBindableWidget
+---@field UTRichTextBlock_Title UUTRichTextBlock
+---@field ComboBoxItemClass UClass

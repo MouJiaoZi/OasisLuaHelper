@@ -1,0 +1,4 @@
+---@class ST_UGCMPlotEditor
+---@field bUseTypewriter bool
+---@field bSkip bool
+---@field bUseVoice bool

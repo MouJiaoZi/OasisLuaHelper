@@ -1,0 +1,8 @@
+---@class AvatarDisplayPoseList_C:AActor
+---@field GetPoseComponent:fun(PoseIdx:int32):AvatarPoseComponent_BP_C
+---@field UserConstructionScript:fun()
+---@field AvatarPoseComponent_BP4 AvatarPoseComponent_BP_C
+---@field AvatarPoseComponent_BP3 AvatarPoseComponent_BP_C
+---@field AvatarPoseComponent_BP2 AvatarPoseComponent_BP_C
+---@field AvatarPoseComponent_BP1 AvatarPoseComponent_BP_C
+---@field DefaultSceneRoot USceneComponent

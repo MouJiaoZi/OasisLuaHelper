@@ -1,0 +1,5 @@
+---@class KI_ClubMedal_UIBP_C:UKillIconBase_UIBP_C
+---@field InitClubMedalData:fun(ImageDownLoader:UImageDownloader)
+---@field Image_ClubMedal UImage
+---@field CurImageDownLoader UImageDownloader
+---@field CurMedalUrl FString

@@ -1,0 +1,2 @@
+---@class OB_SkydivingAreaItem_UIBP_C:UUAEUserWidget
+---@field CanvasSkydivingArea UCanvasPanel

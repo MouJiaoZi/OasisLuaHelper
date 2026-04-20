@@ -1,0 +1,5 @@
+---@class UGCPickupWrapper_BP_C:AUGCPickUpWrapperActor
+---@field GetLuaModule:fun():FString
+---@field ExcReport:fun(ErrorMessage:FString)
+---@field UserConstructionScript:fun()
+---@field TestRepTag bool

@@ -1,0 +1,2 @@
+---@class TMode_Control_Interface_C:UInterface
+---@field TmodeControl_InitSubScoreBoard:fun(NewParam:UUserWidget)

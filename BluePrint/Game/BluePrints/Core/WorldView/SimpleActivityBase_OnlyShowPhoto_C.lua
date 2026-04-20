@@ -1,0 +1,14 @@
+---@class SimpleActivityBase_OnlyShowPhoto_C:AActivityBaseActor
+---@field ShowUIByIndex:fun(UIIndex:int32)
+---@field CloseUIByIndex:fun(UIIndex:int32)
+---@field IsNobodyInteracting:fun(Param:FGISCCF_Param):bool
+---@field UserConstructionScript:fun()
+---@field OnCloseUI:fun(UIIndex:int32)
+---@field Sphere USphereComponent
+---@field Scene USceneComponent
+---@field ActivityUI UActivityUIComponent
+---@field ActivityFakePossess UActivityFakePossessComponent
+---@field GISActorComponentBase UGISActorComponentBase
+---@field bShouldPerformance bool
+---@field bSetIgnoreInput bool
+---@field InteractType int32

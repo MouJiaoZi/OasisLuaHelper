@@ -1,0 +1,3 @@
+---@class BP_HeavyWeaponLevelDirector_C:AUAELevelDirector
+---@field UserConstructionScript:fun()
+---@field DefaultSceneRoot USceneComponent

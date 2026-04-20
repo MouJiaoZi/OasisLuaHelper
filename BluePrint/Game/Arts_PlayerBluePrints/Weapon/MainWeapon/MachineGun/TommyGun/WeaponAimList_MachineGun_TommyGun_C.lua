@@ -1,0 +1,1 @@
+---@class WeaponAimList_MachineGun_TommyGun_C:UUAECharacterAnimListComponent

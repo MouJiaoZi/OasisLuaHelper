@@ -1,0 +1,32 @@
+---@class TaskTracking_UIBP_C:USeasonTaskWidget
+---@field RefreshExWidget:fun(bForceJump:bool):bool
+---@field HideExWidget:fun():bool
+---@field ShowExWidget:fun():bool
+---@field GetTaskDescByTaskID:fun(TaskID:int32):FString,bool
+---@field HideExWidget_Internal:fun()
+---@field ShowExWidget_Internal:fun()
+---@field FindWeekItemsData:fun(WeekIndex:int32):FSeasonTaskUIWeekItems
+---@field FindWeekListUIBP:fun(WeekIndex:int32):bool,Task_WeekList_UIBP_C
+---@field ReadOpenStateFromFile:fun():bool
+---@field SaveOpenStateToFile:fun()
+---@field UpdateWeekTasks:fun(WeekIndex:int32)
+---@field UpdateTasksInVerticalBox:fun(inVerticalBox:UVerticalBox,TaskData:ULuaArrayHelper):bool
+---@field CreateTotalTaskWeekList:fun(TotalTaskByWeek:ULuaArrayHelper)
+---@field CreateOrRefreshTasksInVerticalBox:fun(ParentVerticalBox:UVerticalBox,TracingTasks:ULuaArrayHelper,bIsTracingTask:bool)
+---@field OnSwitchUpperPage:fun(isOnTracingPage:bool,isKeepCurState:bool)
+---@field OnUIStateUpdate:fun(isRefreshChildrens:bool,WeekIndex:int32,isCreateList:bool)
+---@field RefreshUIByEditTracing:fun(TaskID:int32,isTracing:bool,inWeekIndex:int32)
+---@field NotifyWidgetBeginPlay:fun()
+---@field CanvasPanel_List UCanvasPanel
+---@field CustomScrollBox_TotalList UCustomScrollBox
+---@field NewButton_AllTasks UNewButton
+---@field NewButton_GotoTotalTask UNewButton
+---@field NewButton_TaskTracking UNewButton
+---@field VerticalBox_TotalList UVerticalBox
+---@field VerticalBox_TracingList UVerticalBox
+---@field WidgetSwitcher_SelectedTask UWidgetSwitcher
+---@field WidgetSwitcher_UIState UWidgetSwitcher
+---@field bHasGetTracingData bool
+---@field bCreateTracingTaks bool
+---@field bCreateTotalWeeks bool
+---@field bIsTaskUIOpen bool

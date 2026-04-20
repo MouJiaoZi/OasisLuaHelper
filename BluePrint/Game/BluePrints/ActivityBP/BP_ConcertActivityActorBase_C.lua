@@ -1,0 +1,15 @@
+---@class BP_ConcertActivityActorBase_C:AActor
+---@field GetActivityType:fun():EConcertActivityType
+---@field IsActivityEnable:fun():bool
+---@field IsDS:fun():bool
+---@field UserConstructionScript:fun()
+---@field ReceiveEndPlay:fun(EndPlayReason:EEndPlayReason)
+---@field ConcertActivityStart:fun()
+---@field ConcertActivityEnd:fun()
+---@field ConcertActivityJump:fun(InSeconds:float)
+---@field TriggerActivityEvent:fun(IsSyncData:bool,Data:FConcertSequenceEventData)
+---@field ConcertSequenceStop:fun()
+---@field DefaultSceneRoot USceneComponent
+---@field ConcertPlayerComp UConcertPlayerComponent
+---@field IsEnable bool
+---@field ActivityType EConcertActivityType

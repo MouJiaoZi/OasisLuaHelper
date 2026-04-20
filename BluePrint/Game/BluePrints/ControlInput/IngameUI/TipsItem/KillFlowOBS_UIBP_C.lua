@@ -1,0 +1,22 @@
+---@class KillFlowOBS_UIBP_C:UUAEUserWidget
+---@field PushIntoUnusedItemPool:fun(UnusedKillItem:UObject)
+---@field PushIntoUsingItemPool:fun(UsingKillItem:UObject)
+---@field RemoveOldestItem:fun()
+---@field CreateKillFlowItem:fun(inKillData:FClientFatalDamageRecordData):KillInfoItem_Socket_UIBP_C
+---@field UpdateUIBP:fun(inDeltaTime:float,RecordArrayRef:ULuaArrayHelper)
+---@field InitKillFlowUIBP:fun(MainUIBP:MainControlBaseUI_C)
+---@field ItemsContainer UVerticalBox
+---@field DefaultDisplayLimitTime float
+---@field DefaultMaxDisplayCount int32
+---@field DefaultSumTime float
+---@field CurActiveItemBPCount int32
+---@field InternalTickRate float
+---@field InternalSumTime float
+---@field ParentWidgetRef MainControlBaseUI_C
+---@field KillInfoImageDownloader UObject
+---@field CurItemIndex int32
+---@field CurAnimaPlayState BP_EKillFlowAnimaState
+---@field SumTime_AnimPlay float
+---@field UpdateRate_AnimPlay float
+---@field KillInfoItemPool UUIDuplicatedItemPool
+---@field CurSocketItemPath FString

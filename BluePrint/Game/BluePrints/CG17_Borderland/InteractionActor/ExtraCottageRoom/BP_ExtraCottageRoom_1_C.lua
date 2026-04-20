@@ -1,0 +1,10 @@
+---@class BP_ExtraCottageRoom_1_C:ABP_ExtraCottageRoomBase_C
+---@field UserConstructionScript:fun()
+---@field BP_ItemSpotComponent4 BP_ItemSpotComponent_C
+---@field BP_ItemSpotComponent3 BP_ItemSpotComponent_C
+---@field BP_ItemSpotComponent2 BP_ItemSpotComponent_C
+---@field BP_ItemSpotComponent1 BP_ItemSpotComponent_C
+---@field BP_ItemSpotComponent BP_ItemSpotComponent_C
+---@field BP_ItemSpotGroupComponent BP_ItemSpotGroupComponent_C
+---@field ChildActor UChildActorComponent
+---@field Scene USceneComponent

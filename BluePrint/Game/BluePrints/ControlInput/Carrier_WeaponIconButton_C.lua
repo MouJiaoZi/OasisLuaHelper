@@ -1,0 +1,11 @@
+---@class Carrier_WeaponIconButton_C:UUAEUserWidget
+---@field SetTotalText:fun(Object:UObject,Infinite:bool)
+---@field RefreshBullets:fun(ShootingWeapon:ASTExtraShootWeapon)
+---@field RefreshWeaponImage:fun(Image:UObject)
+---@field UpdateWeaponImage:fun(Weapon:ASTExtraWeapon)
+---@field Border_WeaponIcon UBorder
+---@field ProfileImg UImage
+---@field ShootingPanel UHorizontalBox
+---@field TextBlock_1 UTextBlock
+---@field TextBlock_CarrierBullets_Surplus UTextBlock
+---@field TextBlock_CarrierBullets_Total UTextBlock

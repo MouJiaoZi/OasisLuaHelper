@@ -1,0 +1,17 @@
+---@class BP_WeaponCompanionRuleBase_C:UWeaponsCompanionVoiceRule
+---@field GetPlayerStateTeamID:fun(PlayerState:APlayerState):int32
+---@field IsPlayerStateMyTeam:fun(PlayerState:APlayerState):bool
+---@field IsPlayerStateEnemy:fun(PlayerState:APlayerState):bool
+---@field IsPlayerStateSameTeam:fun(Player1:APlayerState,Player2:APlayerState):bool
+---@field RunInDS:fun():bool
+---@field GetExtraPlayerState:fun():ASTExtraPlayerState
+---@field IsPlayerKeyMyTeam:fun(PlayerKey:int64):bool
+---@field IsSelfPlayerKey:fun(PlayerKey:int64):bool
+---@field GetGameModeComponent:fun():UWeaponsCompanionGameModeComponent
+---@field GetPlayerKeyTeamID:fun(PlayerKey:int64):int32
+---@field GetTeamID:fun(Player:AController):int32
+---@field EndRule:fun()
+---@field IsPlayerKeyEnemy:fun(PlayerKey:int64):bool
+---@field IsEnemy:fun(OtherPlayer:AController):bool
+---@field IsSameTeam:fun(PlayerA:AController,PlayerB:AController):bool
+---@field IsMyTeam:fun(OtherPlayer:AController):bool

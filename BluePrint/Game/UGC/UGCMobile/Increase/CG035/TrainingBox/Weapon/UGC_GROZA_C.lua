@@ -1,0 +1,5 @@
+---@class UGC_GROZA_C:AActor
+---@field UserConstructionScript:fun()
+---@field Scene USceneComponent
+---@field StaticMesh1 UStaticMeshComponent
+---@field StaticMesh UStaticMeshComponent

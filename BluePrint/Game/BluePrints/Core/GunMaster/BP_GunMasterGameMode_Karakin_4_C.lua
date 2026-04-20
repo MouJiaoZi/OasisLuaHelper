@@ -1,0 +1,7 @@
+---@class BP_GunMasterGameMode_Karakin_4_C:ABP_BattleRoyaleGameMode_C
+---@field UserConstructionScript:fun()
+---@field BP_ProduceDropItemComponent_GunMaster BP_ProduceDropItemComponent_GunMaster_C
+---@field AIGroupManager UAIGroupManagerComponent
+---@field AIWorldSoundManager UAIWorldSoundManagerComponent
+---@field AnimalTeleport UAnimalTeleportComponent
+---@field SpawnMonsterHelperComp USpawnMonsterHelperComp

@@ -1,0 +1,13 @@
+---@class RingMatch_SignUPInfo_UIBP_C:UUAEUserWidget
+---@field Common_Avatar_BP Common_Avatar_BP_C
+---@field Common_RankTitleInfo Common_RankTitleInfo_UIBP_C
+---@field Switcher_Challenger UWidgetSwitcher
+---@field TextBlock_Domination UTextBlock
+---@field TextBlock_DominationNum UTextBlock
+---@field TextBlock_Identity UTextBlock
+---@field TextBlock_Out UTextBlock
+---@field TextBlock_OutNum UTextBlock
+---@field TextBlock_Player UTextBlock
+---@field TextBlock_Streak UTextBlock
+---@field TextBlock_StreakNum UTextBlock
+---@field WidgetSwitcher_Gender UWidgetSwitcher

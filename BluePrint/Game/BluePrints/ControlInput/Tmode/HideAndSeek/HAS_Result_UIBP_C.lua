@@ -1,0 +1,54 @@
+---@class HAS_Result_UIBP_C:UUAEUserWidget
+---@field RefreshLikeInfo:fun(LuaObj:ALuaClassObj):bool
+---@field InitLikeInfo:fun(LuaObj:ALuaClassObj):bool
+---@field ResetLikeBtnState:fun(LuaObj:ALuaClassObj):bool
+---@field OnShowShareInfo:fun(LuaClass:ALuaClassObj):bool
+---@field UpdateAdditionBtnStatus:fun(bAddFriend:bool):bool
+---@field InitAdditionMainInfo:fun(LuaClass:ALuaClassObj,ItemCount:int32,IsObserver:bool):bool
+---@field UpdateAdditionPlayerHeadInfos:fun(HeadInfos:ULuaArrayHelper):bool
+---@field OpenOrCloseAllClickBtn:fun(bOpen:bool):bool
+---@field OnRefreshLikeInfo:fun(LuaObj:ALuaClassObj)
+---@field OnInitLikeInfo:fun(LuaObj:ALuaClassObj)
+---@field OnResetLikeBtnState:fun(LuaObj:ALuaClassObj)
+---@field UpdateMainItemsDataByTeam:fun(TeamIndexInLua:int32,PlayerDataList:ULuaArrayHelper,ResultInfo:FString,ItemListByTeam:ULuaArrayHelper)
+---@field CloseFriendTip:fun()
+---@field ShowAddFriendTip:fun(ShowInfo:FText)
+---@field UpdateBtnStatus:fun(AddFriend:bool)
+---@field ResetCurPlayerListVisibility:fun()
+---@field ResetAllData:fun()
+---@field InitMainInfo:fun(LuaClassObj:ALuaClassObj,ItemCount:int32,IsObserve:bool,TeamID:int32)
+---@field UpdatePlayerHead:fun(HeadUrlList:ULuaArrayHelper)
+---@field OpenOrCloseAllBtn:fun(Open:bool)
+---@field UpdateMainItemsData:fun(TeamIndexInLua:int32,PlayerDataList:ULuaArrayHelper,ResultInfo:FString)
+---@field Init:fun()
+---@field InitOriginalList:fun()
+---@field Construct:fun()
+---@field CanvasPanel_AddFriendTips UCanvasPanel
+---@field HAS_Result_Item_10 HAS_Result_Item_UIBP_C
+---@field HAS_Result_Item_11 HAS_Result_Item_UIBP_C
+---@field HAS_Result_Item_12 HAS_Result_Item_UIBP_C
+---@field HAS_Result_Item_13 HAS_Result_Item_UIBP_C
+---@field HAS_Result_Item_14 HAS_Result_Item_UIBP_C
+---@field HAS_Result_Item_15 HAS_Result_Item_UIBP_C
+---@field HAS_Result_Item_16 HAS_Result_Item_UIBP_C
+---@field HAS_Result_Item_01 HAS_Result_Item_UIBP_C
+---@field HAS_Result_Item_02 HAS_Result_Item_UIBP_C
+---@field HAS_Result_Item_03 HAS_Result_Item_UIBP_C
+---@field HAS_Result_Item_04 HAS_Result_Item_UIBP_C
+---@field HAS_Result_Item_05 HAS_Result_Item_UIBP_C
+---@field HAS_Result_Item_06 HAS_Result_Item_UIBP_C
+---@field HAS_Result_Item_07 HAS_Result_Item_UIBP_C
+---@field HAS_Result_Item_08 HAS_Result_Item_UIBP_C
+---@field HAS_Result_Item_09 HAS_Result_Item_UIBP_C
+---@field Text_AddFriendMsg UTextBlock
+---@field VerticalBox_0 UVerticalBox
+---@field VerticalBox_1 UVerticalBox
+---@field ItemList ULuaArrayHelper
+---@field SelfPlayerName FString
+---@field LuaClassObj ALuaClassObj
+---@field IsGlobalObserve bool
+---@field CurPlayerDataItemList ULuaArrayHelper
+---@field SelfTeamID int32
+---@field CurCount int32
+---@field CurPlayerDataItemList_Right ULuaArrayHelper
+---@field SelfUID FString

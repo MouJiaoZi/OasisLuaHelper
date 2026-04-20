@@ -1,0 +1,1 @@
+---@class BP_BattleRoyaleGameModeTeamPUBG_Four_2019_xmas_C:ABP_BattleRoyaleGameModeTeamPUBG_Four_C

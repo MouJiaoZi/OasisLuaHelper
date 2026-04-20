@@ -1,0 +1,3 @@
+---@class PF_Summerland_Building_04_House_C:BP_UGCMobileHouseBase_C
+---@field UserConstructionScript:fun()
+---@field StaticMesh UStaticMeshComponent

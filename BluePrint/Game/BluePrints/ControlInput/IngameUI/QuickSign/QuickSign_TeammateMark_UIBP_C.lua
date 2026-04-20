@@ -1,0 +1,15 @@
+---@class QuickSign_TeammateMark_UIBP_C:UObjectPositionWidget
+---@field GetLuaModule:fun():FString
+---@field Event_SetExParam:fun(InParam:int32)
+---@field Border_Content UBorder
+---@field CanvasPanel_0 UCanvasPanel
+---@field CanvasPanel_Dist UCanvasPanel
+---@field CanvasPanel_Rotate UCanvasPanel
+---@field Image_Arrow UImage
+---@field Image_Icon UImage
+---@field TextBlock_Dist UTextBlock
+---@field TextRotateRadius float
+---@field AlphaCurve UCurveFloat
+---@field bRotateTextOnEdgetSnapping bool
+---@field bEnableTickAlpha bool
+---@field CacheTeamIndex int32

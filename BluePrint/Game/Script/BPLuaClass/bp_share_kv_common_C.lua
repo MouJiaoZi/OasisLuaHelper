@@ -1,0 +1,6 @@
+---@class bp_share_kv_common_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_ShareKVCommon_ShareImg FString
+---@field BP_ShareKVCommon_SaveImg FString
+---@field BP_ShareKVCommon_SaveImgRel FString

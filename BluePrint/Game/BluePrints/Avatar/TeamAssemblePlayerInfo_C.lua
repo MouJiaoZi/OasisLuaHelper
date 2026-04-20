@@ -1,0 +1,14 @@
+---@class TeamAssemblePlayerInfo_C:UCustomActorIndicatorWidget
+---@field RefreshTrumpStatus:fun(TopTimes:int32)
+---@field GetPlayerFormatNickName:fun(PlayerName:FString):FText
+---@field ShouldPlayerShowNickName:fun(PlayerName:FString):bool
+---@field OnRefreshTeamAssemblePlayerInfo:fun(PlayerInfo:FTeamAssembleAvatarDisplayInfo,ItemIndex:int32)
+---@field OnSwitchWidgetVisibility:fun(IsVisible:bool)
+---@field OnWidgetCreated:fun()
+---@field Canvas_MarkPanel UCanvasPanel
+---@field Ingame_TeamAssembly_Item_UIBP Ingame_TeamAssembly_Item_UIBP_C
+---@field Ingame_TrumpMarkItem_UIBP Ingame_TrumpMarkItem_UIBP_C
+---@field RootCanvasPanel UCanvasPanel
+---@field NewVar_0 int32
+---@field Gender int32
+---@field PlayerUID FString

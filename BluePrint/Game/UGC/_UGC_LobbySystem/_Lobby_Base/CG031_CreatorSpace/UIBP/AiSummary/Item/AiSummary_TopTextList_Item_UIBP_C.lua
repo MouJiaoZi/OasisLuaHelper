@@ -1,0 +1,7 @@
+---@class AiSummary_TopTextList_Item_UIBP_C:UUAEUserWidget
+---@field TextBlock_Entry UTextBlock
+---@field TextBlock_Feedback UTextBlock
+---@field TextBlock_Kontips UTextBlock
+---@field TextBlock_Loading UTextBlock
+---@field TextBlock_Name UTextBlock
+---@field WidgetSwitcher_HighFrequency UWidgetSwitcher

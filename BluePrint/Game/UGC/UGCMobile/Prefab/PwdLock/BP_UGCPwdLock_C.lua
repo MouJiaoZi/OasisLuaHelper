@@ -1,0 +1,29 @@
+---@class BP_UGCPwdLock_C:BP_UGCMobileBaseActor_C
+---@field GetLuaModule:fun():FString
+---@field CheckPlayerEnterOut:fun(NewParam:FOverlapCheckActorArray)
+---@field ShowMainUI:fun(Click_Param:FClick_Param)
+---@field CheckCanShowBtn:fun(Click_Param:FClick_Param):bool
+---@field UserConstructionScript:fun()
+---@field TriggerArea USphereComponent
+---@field ActivityFakePossessMultiply UActivityFakePossessMultiplyComponent
+---@field OverlapCheckArea UOverlapCheckAreaComponent
+---@field ClickActorComponentBase UClickActorComponentBase
+---@field P_TriggerArea UParticleSystemComponent
+---@field TriggerAreaPoint USceneComponent
+---@field StaticMesh UStaticMeshComponent
+---@field BGImage int32
+---@field RightPw FString
+---@field BtnTipStr FString
+---@field bDisableAfterUnLock bool
+---@field bGameShow bool
+---@field TriggerRadius float
+---@field TriggreCategory EUGCSwitchTargetTrigger6
+---@field RelateTeams S_TeamChoice
+---@field RelateCamps S_CampChoice
+---@field bDefaultEnable bool
+---@field bFightToReset bool
+---@field EnableAction FUGCMobileObjectAction
+---@field DisableAction FUGCMobileObjectAction
+---@field StopAction FUGCMobileObjectAction
+---@field PwdRightEvent FUGCMobileObjectEvent
+---@field PwdWrongEvent FUGCMobileObjectEvent

@@ -1,0 +1,4 @@
+---@class FInitTargetStruct
+---@field bIsRandom bool
+---@field RandomBase FTargetRandomBaseStruct
+---@field OrderArray ULuaArrayHelper

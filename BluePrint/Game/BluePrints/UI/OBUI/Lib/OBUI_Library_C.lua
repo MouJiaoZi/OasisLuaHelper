@@ -1,0 +1,13 @@
+---@class OBUI_Library_C:UBlueprintFunctionLibrary
+---@field GetCustomSinglePlayerPicByUID fun(UID:FString,__WorldContext:UObject):UTexture2D
+---@field InitSinglePlayerColor fun(__WorldContext:UObject):FColor
+---@field DrawPlaneRouteSegment fun(MapSkydivingAreaItem:TScriptInterface,SegmentName:FString,CanJumpLocInMap:float,ForceJumpLocInMap:float,RouteLenghtInMap:float,RouteRotationAngle:float,__WorldContext:UObject)
+---@field IsTeamMatchByObj fun(Obj:UObject,__WorldContext:UObject):bool
+---@field GetCustomTeammatePicByName fun(Resolution:ULuaArrayHelper,PlayerName:FString,__WorldContext:UObject):bool,FString,UTexture2D
+---@field GetCustomTeamLogoPathByTeamID fun(TeamID:int32,__WorldContext:UObject):bool,FString
+---@field GetCustomCornerMarkByTeamID fun(TeamID:int32,__WorldContext:UObject):bool,FString
+---@field GetCustomTeamNameByTeamID fun(TeamID:int32,__WorldContext:UObject):bool,FString
+---@field IsTeamMatch fun(__WorldContext:UObject):bool
+---@field GetCustomTeamLogoByTeamID fun(TeamID:int32,Resolution:ULuaArrayHelper,__WorldContext:UObject):bool,FString,UTexture2D
+---@field GetPlayerNameColorByTeamID fun(TeamID:int32,__WorldContext:UObject):FColor
+---@field GetPlayerColorByTeamID fun(TeamID:int32,__WorldContext:UObject):FColor

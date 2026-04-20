@@ -1,0 +1,28 @@
+---@class BP_ZombieModeDoorControllComponent_C:UActorComponent
+---@field GetActorBoundingBox:fun(Actor:AActor):FBox
+---@field GetActorBoundingBox2:fun(Value:AActor):FVector,FVector
+---@field StopDoorOpenAkAudioEvent:fun()
+---@field PlayDoorOpenAkAudioEvent:fun()
+---@field StopDoorCloseAkAudioEvent:fun()
+---@field PlayDoorCloseAkAudioEvent:fun()
+---@field StopDoorMovingAkAudioEvent:fun()
+---@field PlayDoorMovingAkAudioEvent:fun()
+---@field GetIndexFromDoorInterpToMovementComponent:fun(Value:UInterpToMovementComponent2):int32
+---@field OnDoorInterpToMovementComponentMoveDeltaComputed:fun(Sender:UInterpToMovementComponent2,Time:float,Delta:FVector)
+---@field PushAwayFromDoorHeadCollisionComponents:fun()
+---@field EndPushAwayFromDoorHeadCollisionComponents:fun()
+---@field StartPushAwayFromDoorHeadCollisionComponents:fun()
+---@field PushAwayFromDoorBarrierCollisionComponent:fun(DoorBarrierCollisionComponent:UPrimitiveComponent)
+---@field SetDoorBarrierCollisionComponentCollisionEnabled:fun(DoorBarrierCollisionComponent:UPrimitiveComponent,Value:bool)
+---@field OnDoorInterpToMovementComponentInterpToStopped:fun(Sender:UInterpToMovementComponent2,HitResult:FHitResult,Time:float)
+---@field SetZombieModeControlledDoorInterface:fun(Value:TScriptInterface)
+---@field NotifyIsDoorOpenChanged:fun(IsOpen:bool,Time:float)
+---@field PushAwayObjectTypes ULuaArrayHelper
+---@field PushAwayActorClassFilter UClass
+---@field PushAwayActorsToIgnore ULuaArrayHelper
+---@field DoorUnitDirection FVector2D
+---@field AdditionalPushAwayDistance float
+---@field PushAwayFromDoorHeadCollisionComponentsTimerHandle FTimerHandle
+---@field DoorMovingAkAudioEventID int32
+---@field DoorCloseAkAudioEventID int32
+---@field DoorOpenAkAudioEventID int32

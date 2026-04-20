@@ -1,0 +1,1 @@
+---@class WeaponAnimList_MachineGun_UMP9_C:UUAECharacterAnimListComponent

@@ -1,0 +1,4 @@
+---@class EMode_AngerValue_Prompt_UIBP_C:UUAEUserWidget
+---@field Content UUTRichTextBlock
+---@field Content01 UTextBlock
+---@field Content02 UTextBlock

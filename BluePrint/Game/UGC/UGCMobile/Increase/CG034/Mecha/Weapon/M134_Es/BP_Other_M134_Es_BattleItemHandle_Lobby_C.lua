@@ -1,0 +1,1 @@
+---@class BP_Other_M134_Es_BattleItemHandle_Lobby_C:UBackpackWeaponHandle

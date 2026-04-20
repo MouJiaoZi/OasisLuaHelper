@@ -1,0 +1,6 @@
+---@class GMUI_TouchToHideInterface_C:UInterface
+---@field TouchToHideIngame_Init:fun(Actor:GM_TouchToHide_C)
+---@field TouchToHideIngame_RefreshFocusActorMsg:fun()
+---@field TouchToHide_RefreshActorList:fun()
+---@field TouchToHide_RefreshHideNum:fun()
+---@field TouchToHide_RevertAtIndex:fun(Index:int32)

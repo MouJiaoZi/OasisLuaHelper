@@ -1,0 +1,1 @@
+---@class BP_ItemsBoxConfigWarSniper_C:UBP_ItemsBoxConfigWar_C

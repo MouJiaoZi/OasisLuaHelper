@@ -1,0 +1,1 @@
+---@class BattleItemHandle_DFCK_BP_Mask_178_C:BattleItemHandle_AvatarBP_C

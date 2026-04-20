@@ -1,0 +1,1 @@
+---@class BP_BattleRoyaleGameModeTeamSanHok_2_Entertainment_C:ABP_BattleRoyaleGameModeTeamSanHok_2_C

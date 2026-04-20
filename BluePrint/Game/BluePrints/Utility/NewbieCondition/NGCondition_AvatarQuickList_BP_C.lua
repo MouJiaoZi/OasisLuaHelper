@@ -1,0 +1,5 @@
+---@class NGCondition_AvatarQuickList_BP_C:USTNewbieGuideConditionBase
+---@field InitItem:fun()
+---@field IsOK:fun():bool
+---@field Inited bool
+---@field ItemList ULuaArrayHelper

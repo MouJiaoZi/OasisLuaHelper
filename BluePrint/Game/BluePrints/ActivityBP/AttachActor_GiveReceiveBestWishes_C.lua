@@ -1,0 +1,1 @@
+---@class AttachActor_GiveReceiveBestWishes_C:AAttachActor_GiveReceiveBase_C

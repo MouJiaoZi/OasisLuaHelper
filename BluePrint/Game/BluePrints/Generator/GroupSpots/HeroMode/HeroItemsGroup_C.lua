@@ -1,0 +1,20 @@
+---@class HeroItemsGroup_C:AUAEHouseActor
+---@field UserConstructionScript:fun()
+---@field MedicSoldier02 BP_WerewolfBoxSpotComponent_C
+---@field AssaultSoldier02 BP_WerewolfBoxSpotComponent_C
+---@field Tri02 BP_WerewolfBoxSpotComponent_C
+---@field Squ02 BP_WerewolfBoxSpotComponent_C
+---@field Rou02 BP_WerewolfBoxSpotComponent_C
+---@field SupplySoldier02 BP_WerewolfBoxSpotComponent_C
+---@field EngineerSoldier02 BP_WerewolfBoxSpotComponent_C
+---@field AgileSoldier02 BP_WerewolfBoxSpotComponent_C
+---@field Tri BP_WerewolfBoxSpotComponent_C
+---@field Squ BP_WerewolfBoxSpotComponent_C
+---@field Rou BP_WerewolfBoxSpotComponent_C
+---@field SupplySoldier BP_WerewolfBoxSpotComponent_C
+---@field EngineerSoldier BP_WerewolfBoxSpotComponent_C
+---@field MedicSoldier BP_WerewolfBoxSpotComponent_C
+---@field AgileSoldier BP_WerewolfBoxSpotComponent_C
+---@field AssaultSoldier BP_WerewolfBoxSpotComponent_C
+---@field heroitems BP_WerewolfBoxGroupSceneComponent_C
+---@field DefaultSceneRoot USceneComponent

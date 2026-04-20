@@ -1,0 +1,3 @@
+---@class BP_AvatarShowCopyPose_C:ATrainingMode_AvatarCopyPose_C
+---@field SetMaterial:fun()
+---@field UserConstructionScript:fun()

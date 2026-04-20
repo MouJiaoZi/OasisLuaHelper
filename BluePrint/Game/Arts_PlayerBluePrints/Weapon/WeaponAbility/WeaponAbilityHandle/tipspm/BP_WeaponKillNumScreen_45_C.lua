@@ -1,0 +1,1 @@
+---@class BP_WeaponKillNumScreen_45_C:BP_WeaponKillNumScreenHandle_C

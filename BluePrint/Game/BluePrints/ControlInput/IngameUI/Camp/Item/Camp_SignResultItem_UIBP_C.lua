@@ -1,0 +1,3 @@
+---@class Camp_SignResultItem_UIBP_C:UUAEUserWidget
+---@field SetCampResultItemIndex_inf:fun(index:int32):bool
+---@field WidgetSwitcher_Camp UWidgetSwitcher

@@ -1,0 +1,4 @@
+---@class ABP_VH_EV3F4_Skeleton_AnimBlueprint_C:USTTankVehicleAnimInstance
+---@field BlueprintUpdateAnimation:fun(DeltaTimeX:float)
+---@field BlueprintInitializeAnimation:fun()
+---@field IsMoving bool

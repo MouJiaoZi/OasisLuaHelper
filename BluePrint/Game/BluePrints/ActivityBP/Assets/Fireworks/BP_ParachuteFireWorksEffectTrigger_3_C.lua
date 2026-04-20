@@ -1,0 +1,14 @@
+---@class BP_ParachuteFireWorksEffectTrigger_3_C:AFireworksTriggerActor
+---@field ShowMark:fun(BShow:bool)
+---@field UserConstructionScript:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field ClientCreateEffect:fun()
+---@field DefaultSceneRoot USceneComponent
+---@field PlaneActor AActor
+---@field TriggerDistance float
+---@field FrieworksAreaActor AActor
+---@field TriggerCurTime float
+---@field BShowMark bool
+---@field MarkInstanceID int32
+---@field TotalTime float
+---@field BCreated bool

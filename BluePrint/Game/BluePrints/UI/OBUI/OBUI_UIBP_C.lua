@@ -1,0 +1,197 @@
+---@class OBUI_UIBP_C:UUAEUserWidget
+---@field InitKillInfoOBS:fun()
+---@field UIMsg_RefreshCurrentTeamIndex:fun()
+---@field UIMsg_RefreshRouteSegmentList:fun()
+---@field UIMsg_RefreshClubTeamList:fun()
+---@field UIMsg_RefreshCurrentTeamIdx:fun()
+---@field UIMsg_SegmentsList:fun()
+---@field UIMsg_RefreshChooseTime:fun()
+---@field UIMsg_RefreshTeamSegmentsInfo:fun()
+---@field ChangeNationalFlagOpen:fun(bIsOpenNationalFlag:bool)
+---@field InitTeamFailTime:fun()
+---@field RefreshOBPositionDistance:fun()
+---@field RefreshOBGMButton:fun()
+---@field UIMsg_GMTestSpecialTips:fun(Type:EExcellentOperationResultType,Count:int32)
+---@field AfterShowSpecialTips:fun()
+---@field ShowSpecialKillTips:fun()
+---@field DealWithSpecialKillInfo:fun()
+---@field UIMsg_OBSpecialTips:fun(PlayerName:FString,KillType:EExcellentOperationResultType,KillNum:int32)
+---@field UIMsg_TestTeamKillTeamInfo:fun(TeamBID:int32,TeamAID:int32,bIsAll:bool)
+---@field ShowPlayerIconORTeamLogo:fun(PlayerName:FString,TeamID:int32)
+---@field SetTeamFailInfoUI:fun(TeamName:FText,TeamLogo:UTexture2D,CurAliveTeamNum:int32)
+---@field HighLightPlayerUI:fun(PlayerName:FString)
+---@field SetNoUIModeButtonOpacity:fun(bGray:bool)
+---@field ResetMapTexture:fun()
+---@field OnUIAnimFinish_TeamTopKilledTips:fun()
+---@field OnUIAnimFinish_TeamTopTips:fun()
+---@field UIMsg_RefreshOBFatalDamageEvent:fun()
+---@field TestKillInfoTips:fun()
+---@field ShowFatalKillTips:fun()
+---@field ShowMutilKillTips:fun()
+---@field RecoverOpacity:fun()
+---@field SetOpacityZero:fun()
+---@field OnEnterNoUIMode:fun()
+---@field UIMsg_EventPlayerBeHit:fun()
+---@field UIMsg_EventPlayerShoot:fun()
+---@field OnReceivedShowSignalUI:fun(bIsShow:bool)
+---@field ReInitForReplay:fun()
+---@field OnKillTipsFinish:fun()
+---@field OnMutilKillTipsIconLoad:fun(Icon:UObject)
+---@field ShowKillTips:fun()
+---@field UIMsg_OBShowMutilKillTips:fun(PlayerName:FString,TeamID:int32,PlayerKillNum:int32,TeamKillNum:int32)
+---@field RefreshOBFatalDamageEvent:fun(VictimName:FString)
+---@field SetFatalDamageInfo:fun(TeamID:int32,BVictim:bool,CurAliveTeamNum:int32):bool
+---@field StopObReplay:fun()
+---@field SetObReplayUI:fun()
+---@field UIMsgChangeToFreeView:fun()
+---@field ShowObserverHostUI:fun()
+---@field DelayAttachTMode:fun()
+---@field UIMsg_AttachTModeTableToOBUI:fun()
+---@field AttachTModeTableToOBUI:fun()
+---@field ProcessUAVState:fun()
+---@field RefreshViewTargetUID:fun(TargetUIDString:FString)
+---@field OnGetOBPlayerBattleInfo:fun()
+---@field ShouldShowPlayerInfoButton:fun():bool
+---@field HideInGamePlayerInfoUIButton:fun()
+---@field ShowInGamePlayerInfoUIButton:fun()
+---@field SwitchHDRMode:fun(IsHDR:bool)
+---@field RegistEventToPlayerInfoPanel:fun()
+---@field GetAvatarCaptureInfo:fun():AAvatarCapture
+---@field OnPlayerInfoButtonClicked:fun()
+---@field InitinGamePlayerInfoUIButton:fun()
+---@field UIMsg_VehicleUpdateInfo:fun(speed:float,hp:float,hpMax:float,fuel:float,fuelMax:float)
+---@field OnDetachedFromVehicle:fun()
+---@field OnAttachedToVehicle:fun()
+---@field OnToggleTablist:fun(Show:bool)
+---@field OnToggleEntireMap:fun()
+---@field UIMsg_OnOBPlayerKillNumsChanged:fun()
+---@field UIMsg_OnAliveTeamNumChangeHandle:fun()
+---@field RefreshDropBoxList:fun()
+---@field OnPlayerNumChangeHandle:fun()
+---@field OnFreeCameraChange:fun()
+---@field OnNotViewThePlane:fun()
+---@field OnViewThePlane:fun()
+---@field RefreshTeammateHealth:fun()
+---@field RefreshTotalPlayerPos:fun()
+---@field OnViewTargetChanged:fun()
+---@field UIMsg_RefreshNearPlayerList:fun()
+---@field RefreshTotalPlayerList:fun()
+---@field ShowOBUI:fun()
+---@field OnEntireMapOpenEvenHandle:fun()
+---@field OnEntireMapCloseEvenHandle:fun()
+---@field RefreshData:fun()
+---@field ReceivedInitWidget:fun()
+---@field Construct:fun()
+---@field TeamTopKilledTips_anima UWidgetAnimation
+---@field TeamTopTips_anima UWidgetAnimation
+---@field DX_GameOver UWidgetAnimation
+---@field Border_ListPos1 UBorder
+---@field Border_ListPos2 UBorder
+---@field Border_SetColor UBorder
+---@field Border_SetColor_EnterNoui UBorder
+---@field Border_TeamKilledTips UBorder
+---@field Border_TeamMateKilledTips UBorder
+---@field Border_TeamtipsColor UBorder
+---@field Button_BackToLobby UButton
+---@field Button_Down UButton
+---@field Button_Exit_NoUIMode UButton
+---@field Button_FreeCam UButton
+---@field Button_MiniMap UButton
+---@field Button_NoUIMode UButton
+---@field Button_showPlayerInfo UButton
+---@field Button_ShowTabList UButton
+---@field Button_SwitchPlayer UButton
+---@field Button_UP UButton
+---@field CanvasPanel_009OBS UCanvasPanel
+---@field CanvasPanel_CrtPlayer UCanvasPanel
+---@field CanvasPanel_Exist UCanvasPanel
+---@field CanvasPanel_FreeCam UCanvasPanel
+---@field CanvasPanel_GlobalKill UCanvasPanel
+---@field CanvasPanel_HiddenList UCanvasPanel
+---@field CanvasPanel_Judge UCanvasPanel
+---@field CanvasPanel_NationalFlag1 UCanvasPanel
+---@field CanvasPanel_NationalFlag2 UCanvasPanel
+---@field CanvasPanel_NationalFlag3 UCanvasPanel
+---@field CanvasPanel_NationalFlag_Killed UCanvasPanel
+---@field CanvasPanel_NoUIMode UCanvasPanel
+---@field CanvasPanel_NoUIModeTips UCanvasPanel
+---@field CanvasPanel_OBTopTips UCanvasPanel
+---@field CanvasPanel_Replay UCanvasPanel
+---@field CanvasPanel_Room UCanvasPanel
+---@field CanvasPanel_TC_Tab UCanvasPanel
+---@field CanvasPanel_Team UCanvasPanel
+---@field CanvasPanel_TeamInfo UCanvasPanel
+---@field CanvasPanel_UPDOWN UCanvasPanel
+---@field CanvasPanel_WithAdaption UCanvasPanel
+---@field EntireMap_OBmode EntireMap_OBmode_C
+---@field Image_ExitNoUI UImage
+---@field Image_FreeLook UImage
+---@field Image_LockLook UImage
+---@field Image_NationalFlag UImage
+---@field Image_NationFlag_Killed UImage
+---@field Image_NationFlagIcon1 UImage
+---@field Image_NationFlagIcon2 UImage
+---@field Image_PlayerIcon UImage
+---@field Image_TeamLogo UImage
+---@field Image_TeamLogo_Killed UImage
+---@field Image_TeamLogoIcon1 UImage
+---@field Image_TeamLogoIcon2 UImage
+---@field Image_Title UImage
+---@field IngamePlayerInfo_UIBP IngamePlayerInfo_UIBP_C
+---@field MiniMap UCanvasPanel
+---@field MiniMap_OBmode MiniMap_OBmode_C
+---@field NewButton_Judge UNewButton
+---@field NewButton_room UNewButton
+---@field NewButton_ShowJudgeList UNewButton
+---@field OB_MapPlayerList OB_MapPlayerList_BP_C
+---@field OB_NoUI_Hidden OB_NoUIMode_Item_UIBP_C
+---@field OB_NoUI_HiddenCameraOperation OB_NoUIMode_Item_UIBP_C
+---@field OB_NoUI_HiddenPlayer OB_NoUIMode_Item_UIBP_C
+---@field OB_PlayerHeadList_BP OB_PlayerHeadList_BP_C
+---@field OB_PlayerInfoPanel_BP OB_PlayerInfoPanel_BP_C
+---@field OB_TabList_UIBP OB_TabList_UIBP_C
+---@field OB_TeammateList OB_TeammateList_BP_C
+---@field OB_Title_UIBP OB_Title_UIBP_C
+---@field OB_VehicleInfoPanel_UIBP OB_VehicleInfoPanel_UIBP_C
+---@field SurvivePlayerNum UTextBlock
+---@field SurviveTeamNum UTextBlock
+---@field TeamName1 UUTRichTextBlock
+---@field TeamName2 UUTRichTextBlock
+---@field TextBlock_6 UTextBlock
+---@field TextBlock_CrtPlayerName UTextBlock
+---@field TextBlock_CurrentMaxRank UTextBlock
+---@field TextBlock_CurrentRank UTextBlock
+---@field TextBlock_KILLed UTextBlock
+---@field TextBlock_KilledContent UTextBlock
+---@field TextBlock_KilledNum UTextBlock
+---@field TextBlock_KilledTips UTextBlock
+---@field TextBlock_RoomMode UTextBlock
+---@field TextBlock_TeamName UTextBlock
+---@field UTRichTextBlock_TeammatesName_Killed UUTRichTextBlock
+---@field WidgetSwitcher_Btn UWidgetSwitcher
+---@field WidgetSwitcher_BtnState UWidgetSwitcher
+---@field IsPlayerListShow bool
+---@field PlayerColor ULuaArrayHelper
+---@field UseBottomSignalbar bool
+---@field SignalbarLoaded bool
+---@field SignalBar UUserWidget
+---@field HasSignalBar bool
+---@field watchGameUAVUI UUserWidget
+---@field OBKillTipsInfo ULuaArrayHelper
+---@field IsShowingOBKillTips bool
+---@field NoUIModeParams ULuaArrayHelper
+---@field ShowInNoUIMode ULuaArrayHelper
+---@field NoUIClickCount int32
+---@field originJoyStickOpacity float
+---@field btnUpColor FLinearColor
+---@field btnDownColor FLinearColor
+---@field CurHLPlayerName UTextBlock
+---@field OBSpecialKillTips ULuaArrayHelper
+---@field SpecialTipsTimerHandle FTimerHandle
+---@field TeamFailTime int32
+---@field BisChangeTeamFailTimeByOnRep bool
+---@field TempAliveNum int32
+---@field SpeicalTipTime float
+---@field FreeViewMode bool
+---@field watchGameRemoteControlUI UUserWidget
+---@field STExtraPlayerController ASTExtraPlayerController

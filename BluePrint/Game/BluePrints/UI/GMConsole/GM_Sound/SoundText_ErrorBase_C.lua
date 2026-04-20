@@ -1,0 +1,5 @@
+---@class SoundText_ErrorBase_C:UUserWidget
+---@field Construct:fun()
+---@field Text_ErrorName UTextBlock
+---@field Error FString
+---@field Color FLinearColor

@@ -1,0 +1,1 @@
+---@class BP_Borderland_AI_M16A4_BattleItemHandle_Lobby_C:UBackpackWeaponHandle

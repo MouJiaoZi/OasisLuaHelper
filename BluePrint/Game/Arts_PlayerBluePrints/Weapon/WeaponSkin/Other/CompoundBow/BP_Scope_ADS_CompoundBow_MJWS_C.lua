@@ -1,0 +1,1 @@
+---@class BP_Scope_ADS_CompoundBow_MJWS_C:BP_Scope_ADS_CompoundBow_C

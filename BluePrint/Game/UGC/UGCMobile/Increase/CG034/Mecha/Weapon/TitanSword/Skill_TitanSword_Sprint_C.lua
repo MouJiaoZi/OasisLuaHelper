@@ -1,0 +1,57 @@
+---@class Skill_TitanSword_Sprint_C:AUAESkill
+---@field RefreshDamage:fun()
+---@field GetTitanSwordWeapon:fun():BP_WEP_TitanSword_C
+---@field SpecificFunc_Attack_Do:fun()
+---@field JumpToAttackPhase:fun()
+---@field WhetherJumpToIdleAfterAttack:fun():bool
+---@field IsInCurveFlyMode:fun():bool
+---@field EndSprint:fun()
+---@field GetDirectionIndex:fun():int32
+---@field GetDirectionVector:fun():FVector
+---@field StartSprint:fun()
+---@field SetControlRotationLimits:fun()
+---@field SpecificFunc_Sprint_Undo:fun()
+---@field SpecificFunc_Sprint_Do:fun()
+---@field ResetControlRotationLimits:fun()
+---@field SpecificFunc_Idle_Do:fun()
+---@field ClearSprintIdleTime:fun()
+---@field IsInSprintInterval:fun():bool
+---@field SetSprintInterval:fun(bNewInterval:bool):float
+---@field ResetSprintData:fun()
+---@field SprintTimesDecrement:fun():int32
+---@field PlaySprintMontage:fun()
+---@field IsRightwardSprint:fun():bool
+---@field IsLeftwardSprint:fun():bool
+---@field IsBackwardSprint:fun():bool
+---@field IsForwardSprint:fun():bool
+---@field GetAngleBtwVelAndRot:fun():float,float
+---@field JumpPhase:fun()
+---@field LeaveDynamicState:fun()
+---@field EnterDynamicState:fun()
+---@field UserConstructionScript:fun()
+---@field UAESkillAction_ActionWithConditions UUAESkillAction_ActionWithConditions
+---@field UTSkillEventEffectMapForEditor2 UUTSkillEventEffectMapForEditor
+---@field UTSkillEventEffectMapForEditor1 UUTSkillEventEffectMapForEditor
+---@field UAESkillAction_StopMontageBySlot UUAESkillAction_StopMontageBySlot
+---@field UTSkillSpecificAction19 UUTSkillSpecificAction
+---@field UTSkillAppearance_AddBulletParticle1 UUTSkillAppearance_AddBulletParticle
+---@field STBuffAction_CameraAnim USTBuffAction_CameraAnim
+---@field UTSkillAppearance_AddBulletParticle UUTSkillAppearance_AddBulletParticle
+---@field UTSkillAppearance_SoundCue1 UUTSkillAppearance_SoundCue
+---@field UTSkillEventEffectMapForEditor3 UUTSkillEventEffectMapForEditor
+---@field UTSkillSpecificAction14 UUTSkillSpecificAction
+---@field UTSkillEventEffectMapForEditor14 UUTSkillEventEffectMapForEditor
+---@field UTSkillEventEffectMapForEditor8 UUTSkillEventEffectMapForEditor
+---@field UAESkillStringEventEffectMapForEditor3 UUAESkillStringEventEffectMapForEditor
+---@field UAESkillAction_MeleeAttackLaunch3 UUAESkillAction_MeleeAttackLaunch
+---@field UAESkillAction_BreakGlass UUAESkillAction_BreakGlass
+---@field UAESkillStringEventEffectMapForEditor UUAESkillStringEventEffectMapForEditor
+---@field UTSkillSpecificAction10 UUTSkillSpecificAction
+---@field UAESkillPhase3 UUAESkillPhase
+---@field UTSkillSpecificAction1 UUTSkillSpecificAction
+---@field UTSkillEventEffectMapForEditor UUTSkillEventEffectMapForEditor
+---@field UAESkillPhase4 UUAESkillPhase
+---@field UAESkillPhase1 UUAESkillPhase
+---@field UTSkillSpecificAction UUTSkillSpecificAction
+---@field UAESkillPhase2 UUAESkillPhase
+---@field DefaultSceneRoot USceneComponent

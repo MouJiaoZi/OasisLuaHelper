@@ -1,0 +1,1 @@
+---@class BurningWindmillDamageType_C:USTExtraDamageType

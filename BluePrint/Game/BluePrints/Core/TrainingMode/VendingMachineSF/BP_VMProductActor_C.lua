@@ -1,0 +1,19 @@
+---@class BP_VMProductActor_C:AUAERegionActor
+---@field GetAnimDuration:fun():float
+---@field GetFloatValue:fun(InAlpha:float):float
+---@field UserConstructionScript:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field SetTargetPos:fun(Pos:FVector)
+---@field AnimDone__DelegateSignature:fun()
+---@field mesh UStaticMeshComponent
+---@field DefaultSceneRoot USceneComponent
+---@field TargetPos FVector
+---@field IsAnimSet bool
+---@field AnimDone ULuaMulticastDelegate
+---@field CurveAnim UCurveFloat
+---@field CurrentTime float
+---@field AnimDuration float
+---@field DestinPos FVector
+---@field StartPos FVector
+---@field AkEvent UAkAudioEvent
+---@field DropFlag EEventDataCollectionValues_CG008_QiXiFestival_Action

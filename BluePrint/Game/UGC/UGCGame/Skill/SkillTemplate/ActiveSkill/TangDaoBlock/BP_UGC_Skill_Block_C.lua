@@ -1,0 +1,10 @@
+---@class BP_UGC_Skill_Block_C:PESkillTemplate_Base_C
+---@field GetLuaModule:fun():FString
+---@field StandMontageIdle UAnimMontage
+---@field DefaultMontage UAnimMontage
+---@field FireSound UAkAudioEvent
+---@field CrouchMontage UAnimMontage
+---@field ActorArray ULuaArrayHelper
+---@field ProjectileBaseClass UClass
+---@field NewVar_0 UClass
+---@field StandMontageCrounch UAnimMontage

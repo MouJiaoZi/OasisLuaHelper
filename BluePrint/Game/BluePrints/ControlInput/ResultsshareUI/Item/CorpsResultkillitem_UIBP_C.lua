@@ -1,0 +1,9 @@
+---@class CorpsResultkillitem_UIBP_C:UUAEUserWidget
+---@field RefreshCorpsIcon:fun(icon:UObject)
+---@field UpdateBeatCorpsItem:fun(beatCorps:FGameModeCorpsDetailData)
+---@field Construct:fun()
+---@field icon_Corps UImage
+---@field icon_CorpsLevel UImage
+---@field RT_BeatPlayerNum UUTRichTextBlock
+---@field TB_CorpsLevel UTextBlock
+---@field TB_Name UTextBlock

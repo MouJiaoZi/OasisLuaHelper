@@ -1,0 +1,17 @@
+---@class EBackpackClothArmorType
+---@field NewEnumerator0 int32
+---@field NewEnumerator1 int32
+---@field NewEnumerator2 int32
+---@field NewEnumerator3 int32
+---@field NewEnumerator4 int32
+---@field NewEnumerator10 int32
+---@field NewEnumerator5 int32
+---@field NewEnumerator6 int32
+---@field NewEnumerator7 int32
+---@field NewEnumerator9 int32
+---@field NewEnumerator11 int32
+---@field NewEnumerator12 int32
+---@field NewEnumerator14 int32
+---@field NewEnumerator15 int32
+---@field NewEnumerator8 int32
+---@field EBackpackClothArmorType_MAX int32

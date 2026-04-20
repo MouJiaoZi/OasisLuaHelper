@@ -1,0 +1,20 @@
+---@class QuickText_BP_C:UUAEUserWidget
+---@field SetMsg:fun(Msg:FQuickSignMsg,MsgID:int32,MsgContent:FString)
+---@field UIMsg_UpdateQuickText:fun()
+---@field OnTouchStarted:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field OnTouchEnded:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field CanvasGuideSlot UCanvasPanel
+---@field RichTextBlock UUTRichTextBlock
+---@field Spacer_Text USpacer
+---@field TextBlock_Tips UTextBlock
+---@field QuickSend bool
+---@field msgID int32
+---@field Invite bool
+---@field gid FString
+---@field name FString
+---@field msgType int32
+---@field bReply bool
+---@field Msg FQuickSignMsg
+---@field DiceText FText
+---@field KDAText FText
+---@field chatType QuickChatType

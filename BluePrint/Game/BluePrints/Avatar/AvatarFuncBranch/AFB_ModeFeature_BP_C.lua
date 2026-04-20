@@ -1,0 +1,1 @@
+---@class AFB_ModeFeature_BP_C:UAvatarFuncBranch_ModeFeature

@@ -1,0 +1,31 @@
+---@class Skill_PlaceHoloEmotion_C:AUAESkill
+---@field ConsumeSpecialCost:fun()
+---@field DeactivateSelf:fun()
+---@field CanDoSkill:fun():bool
+---@field UserConstructionScript:fun()
+---@field UTSkillSpecificAction1 UUTSkillSpecificAction
+---@field UTSkillSpecificAction UUTSkillSpecificAction
+---@field BP_BuffAction_IgnoreLookInput BP_BuffAction_IgnoreLookInput_C
+---@field UAESkillAction_CastUIMSG4 UUAESkillAction_CastUIMSG
+---@field UAESkillAction_CastUIMSG3 UUAESkillAction_CastUIMSG
+---@field UAESkillAction_CastUIMSG2 UUAESkillAction_CastUIMSG
+---@field UAESkillEventEffectMapForEditor7 UUAESkillEventEffectMapForEditor
+---@field UAESkillAction_ShowPrompt1 UUAESkillAction_ShowPrompt
+---@field UAESkillStringEventEffectMapForEditor5 UUAESkillStringEventEffectMapForEditor
+---@field UAESkillStringEventEffectMapForEditor4 UUAESkillStringEventEffectMapForEditor
+---@field UAESkillAction_CastUIMSG UUAESkillAction_CastUIMSG
+---@field UAESkillAction_EnableBuildSystem2 UUAESkillAction_EnableBuildSystem
+---@field UAESkillAction_EnableBuildSystem1 UUAESkillAction_EnableBuildSystem
+---@field UAESkillAction_Log4 UUAESkillAction_Log
+---@field UAESkillAction_Log3 UUAESkillAction_Log
+---@field UAESkillAction_Log1 UUAESkillAction_Log
+---@field UAESkillStringEventEffectMapForEditor3 UUAESkillStringEventEffectMapForEditor
+---@field UAESkillStringEventEffectMapForEditor2 UUAESkillStringEventEffectMapForEditor
+---@field UTSkillEventEffectMapForEditor4 UUTSkillEventEffectMapForEditor
+---@field UAESkillPhase3 UUAESkillPhase
+---@field UAESkillPhase2 UUAESkillPhase
+---@field UAESkillPhase1 UUAESkillPhase
+---@field UTSkillEventEffectMapForEditor3 UUTSkillEventEffectMapForEditor
+---@field UTSkillEventEffectMapForEditor2 UUTSkillEventEffectMapForEditor
+---@field UAESkillPhase UUAESkillPhase
+---@field DefaultSceneRoot USceneComponent

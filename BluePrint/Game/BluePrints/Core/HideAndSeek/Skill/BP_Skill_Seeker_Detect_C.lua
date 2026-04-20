@@ -1,0 +1,8 @@
+---@class BP_Skill_Seeker_Detect_C:AUAESkill
+---@field UserConstructionScript:fun()
+---@field UAESkillAction_AddItem UUAESkillAction_AddItem
+---@field UTSkillEventEffectMapForEditor1 UUTSkillEventEffectMapForEditor
+---@field UTSkillEventEffectMapForEditor UUTSkillEventEffectMapForEditor
+---@field UAESkillAction_AddRemoveBuff UUAESkillAction_AddRemoveBuff
+---@field UAESkillPhase UUAESkillPhase
+---@field DefaultSceneRoot USceneComponent

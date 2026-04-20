@@ -1,0 +1,37 @@
+---@class BP_MusicPlayer_C:AActivityBaseActor
+---@field StopLoop:fun()
+---@field StopMusic:fun(NewParam:FClick_Param)
+---@field CheckCanStop:fun(NewParam:FClick_Param):bool
+---@field PlayMusic:fun(NewParam:FClick_Param)
+---@field CheckCanTouch:fun(NewParam:FClick_Param):bool
+---@field UserConstructionScript:fun()
+---@field ReceiveAnyDamage:fun(Damage:float,DamageType:UDamageType,InstigatedBy:AController,DamageCauser:AActor)
+---@field Sphere USphereComponent
+---@field Scene USceneComponent
+---@field P_CG030_MusicPlayer_001 UParticleSystemComponent
+---@field Box UBoxComponent
+---@field SK_Box USkeletalMeshComponent
+---@field SM_Desk UStaticMeshComponent
+---@field ClickActorComponentBase UClickActorComponentBase
+---@field OverlapCheckArea UOverlapCheckAreaComponent
+---@field ActivityFakePossess UActivityFakePossessComponent
+---@field StopIconRef UObject
+---@field PlayIconRef UObject
+---@field MusicID int32
+---@field Index int32
+---@field AKArray ULuaArrayHelper
+---@field NewVar_2 UAnimMontage
+---@field NewVar_1 UAnimMontage
+---@field NewVar_0 UAnimMontage
+---@field MusicTime float
+---@field Health float
+---@field StopSoundID int32
+---@field PlaySoundID int32
+---@field ObjList ULuaArrayHelper
+---@field StrList ULuaArrayHelper
+---@field InteractiveController ASTExtraPlayerController
+---@field Music_Weight_Map ULuaMapHelper
+---@field MusicWeightSum int32
+---@field ChooseMusic MusicCount
+---@field MusicWeightSumRemember int32
+---@field StopTimer FTimerHandle

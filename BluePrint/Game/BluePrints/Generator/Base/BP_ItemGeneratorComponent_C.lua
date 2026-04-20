@@ -1,0 +1,3 @@
+---@class BP_ItemGeneratorComponent_C:UItemGeneratorComponent
+---@field LoadItemDataTable:fun()
+---@field LoadItemGenerateTable:fun()

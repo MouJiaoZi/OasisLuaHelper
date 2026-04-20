@@ -1,0 +1,1 @@
+---@class CG035_BP_ItemsBoxConfig_Desert_C:BP_ItemsBoxConfig_Desert_C

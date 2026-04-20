@@ -1,0 +1,13 @@
+---@class OB_AirDropList_BP_C:UUAEUserWidget
+---@field HideAllDropBoxIcon:fun()
+---@field GetAirDropActor:fun(id:int32):AAirDropBoxActor
+---@field RefreshTotalAirDrop:fun()
+---@field SetChildrenVisible:fun(isVisible:bool)
+---@field GetAirDropItem:fun(AirDropID:int32):UOBModeAirDropWidget
+---@field CanvasPanel_Content UCanvasPanel
+---@field UILimit FVector4
+---@field UIOffset FVector2D
+---@field isAllow bool
+---@field MapList ULuaArrayHelper
+---@field OBPlayer FObservedData
+---@field AirDropMap ULuaMapHelper

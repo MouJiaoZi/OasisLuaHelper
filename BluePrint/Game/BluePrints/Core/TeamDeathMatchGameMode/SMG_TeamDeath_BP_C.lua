@@ -1,0 +1,1 @@
+---@class SMG_TeamDeath_BP_C:URespawnItemConfig

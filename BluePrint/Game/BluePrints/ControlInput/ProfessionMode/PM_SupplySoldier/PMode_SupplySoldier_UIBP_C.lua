@@ -1,0 +1,3 @@
+---@class PMode_SupplySoldier_UIBP_C:UUserWidget
+---@field BtnDriverEnter UButton
+---@field BtnPassengerEnter UButton

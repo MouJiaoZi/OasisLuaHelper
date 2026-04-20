@@ -1,0 +1,1 @@
+---@class BP_PoweredArmorBluePrintHandle_C:UCurrencyItemHandle

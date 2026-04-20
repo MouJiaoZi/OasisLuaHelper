@@ -1,0 +1,8 @@
+---@class AsianOB_TeamList_UIBP_C:UUAEUserWidget
+---@field AsianGames_Flag AsianGames_FlagItem_UIBP_C
+---@field AsianOB_Player_00 AsianOB_NameItem_UIBP_C
+---@field AsianOB_Player_01 AsianOB_NameItem_UIBP_C
+---@field AsianOB_Player_02 AsianOB_NameItem_UIBP_C
+---@field AsianOB_Player_03 AsianOB_NameItem_UIBP_C
+---@field TextBlock_Name UTextBlock
+---@field VerticalBox_Panel UVerticalBox

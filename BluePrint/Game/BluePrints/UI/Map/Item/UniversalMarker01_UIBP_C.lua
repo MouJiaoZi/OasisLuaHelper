@@ -1,0 +1,1 @@
+---@class UniversalMarker01_UIBP_C:UMapUIMarkBaseWidget

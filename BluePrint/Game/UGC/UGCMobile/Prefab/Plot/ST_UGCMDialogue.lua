@@ -1,0 +1,17 @@
+---@class ST_UGCMDialogue
+---@field Id int32
+---@field DialogueName FString
+---@field SpeakerType E_UGCMDialogueSpeakerType
+---@field SpeakerId int32
+---@field DialogueSpeakerName FString
+---@field Dialogue FString
+---@field bTypeWriter bool
+---@field bEnabled bool
+---@field AnimationKey int32
+---@field AnimationCameraHeight float
+---@field AnimationCameraDistance float
+---@field AnimationLoop bool
+---@field EmojiId int32
+---@field bSkippable bool
+---@field bEnableVoice bool
+---@field VoiceType EDialogueVoiceType

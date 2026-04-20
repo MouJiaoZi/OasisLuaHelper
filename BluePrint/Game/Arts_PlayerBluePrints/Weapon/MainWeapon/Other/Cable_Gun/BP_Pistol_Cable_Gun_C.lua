@@ -1,0 +1,43 @@
+---@class BP_Pistol_Cable_Gun_C:BP_ShootPistol_Base_C
+---@field GetSlidePointByTracebackOverlap:fun(FromPoint:FVector,ToPoint:FVector):FVector
+---@field ShootCableInterrupt:fun()
+---@field CheckShootCableInterrupt:fun()
+---@field CheckOverlap:fun(FirstPoint:FVector,SecongPoint:FVector):bool
+---@field SetCanFire:fun(bCanFire:bool)
+---@field ChangeCrosshairUI:fun()
+---@field ToggleCrosshairUI:fun(bShow:bool)
+---@field ConfirmCheckSecondPoint_Autonomous:fun()
+---@field ConfirmCheckFirstPoint_Autonomous:fun()
+---@field PreCheckSecondPoint_Autonomous:fun()
+---@field PreCheckFirstPoint_Autonomous:fun()
+---@field GetMuzzleDir:fun():FVector
+---@field GetMuzzleLoc:fun():FVector
+---@field UserConstructionScript:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field StartFire:fun()
+---@field WeaponAnimList_Pistol_Cable_Gun WeaponAnimList_Pistol_Cable_Gun_C
+---@field CurPhase int32
+---@field Setting_CableMaxLength float
+---@field Setting_CableMinLength float
+---@field Setting_CheckPointDist float
+---@field Setting_OverlapBacktraceMaxLength float
+---@field Setting_OverlapBacktraceSubLength float
+---@field Setting_OverlapOffset FVector
+---@field Setting_InterruptDegree float
+---@field TraceIgnoreActors ULuaArrayHelper
+---@field TempImpactPoint FVector
+---@field FirstPoint FVector
+---@field SecondPoint FVector
+---@field FirstSlidePoint FVector
+---@field SecondSlidePoint FVector
+---@field CrosshairUIName FName
+---@field bCurCanFire bool
+---@field ShootCableClass UClass
+---@field CurShootCable BP_Pistol_ShootCable_C
+---@field FirstPointActor AActor
+---@field FinalCableActor BP_Pistol_FinalZiplineActor_C
+---@field FirstPointActorClass UClass
+---@field FinalCableActorClass UClass
+---@field CheckShootCableIgnoreActors ULuaArrayHelper
+---@field FirstPointHitActor AActor
+---@field EmptyIgnoreActors ULuaArrayHelper

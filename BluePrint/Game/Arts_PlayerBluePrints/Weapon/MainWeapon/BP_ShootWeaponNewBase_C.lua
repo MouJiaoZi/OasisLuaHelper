@@ -1,0 +1,42 @@
+---@class BP_ShootWeaponNewBase_C:BP_ShootWeaponLogicBase_C
+---@field SetCurShootType:fun(shootType:ESTEWeaponShootType):bool
+---@field ExtDropDownMag:fun()
+---@field TryGetMagComp:fun():UMeshComponent
+---@field UpdateSupportAttachments:fun()
+---@field OnWeaponMagDropDown:fun():bool
+---@field GetColorByTeamID:fun(TeamID:int32):FLinearColor
+---@field OnMagDropDown:fun()
+---@field OnHideDropDownMag:fun()
+---@field UserConstructionScript:fun()
+---@field PlayLocalShellDropFX:fun()
+---@field ReceiveEndPlay:fun(EndPlayReason:EEndPlayReason)
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field BP_BulletTrackComponent BP_BulletTrackComponent_C
+---@field BP_WeaponInspectComponent BP_WeaponInspectComponent_C
+---@field BP_WeaponDynamicAnimListManager BP_WeaponDynamicAnimListManager_C
+---@field FireWeaponNewState UFireWeaponNewState
+---@field BP_ShootProjectComponent BP_ShootProjectComponent_C
+---@field BulletHitInfoUpload UBulletHitInfoUploadComponent
+---@field CrossHair UCrossHairComponent
+---@field ShootWeaponEntity UShootWeaponEntity
+---@field WeaponStateDefault UWeaponStateDefault
+---@field NoBulletWeaponState UNoBulletWeaponState
+---@field ReloadWeaponState UReloadWeaponState
+---@field IdleWeaponState UIdleWeaponState
+---@field InactiveWeaponState UInactiveWeaponState
+---@field ShootWeaponStateManager UShootWeaponStateManager
+---@field ShootWeaponEffect UShootWeaponEffectComponent
+---@field bUseIdleAnim_0 bool
+---@field Fov_0 float
+---@field normalShotVoiceDis_0 float
+---@field SlienceShotVoiceDis_0 float
+---@field DropDownMag DropDownWeaponMag_C
+---@field DropDownMagTimerHandle FTimerHandle
+---@field MagDropDownDelay float
+---@field MagDropDownOffset FVector
+---@field MagDropDownEnable bool
+---@field MagDropDownHideDelay float
+---@field MagInShownDelay float
+---@field Ext_MagDropDown_SocketName FName
+---@field Ext_MagDropDown_InitVelocity FVector
+---@field bNeedExtDropDownMag bool

@@ -1,0 +1,4 @@
+---@class Projectile_Laser_C:APESkillProjectileBase
+---@field UserConstructionScript:fun()
+---@field ParticleSystem UParticleSystemComponent
+---@field Capsule1 UCapsuleComponent

@@ -1,0 +1,4 @@
+---@class BP_Sniper_SKS_C:BP_ShootWeaponBase_C
+---@field UserConstructionScript:fun()
+---@field WeaponAnimList_Sniper_SKS WeaponAnimList_Sniper_SKS_C
+---@field bUseIdleAnim_0_0 bool

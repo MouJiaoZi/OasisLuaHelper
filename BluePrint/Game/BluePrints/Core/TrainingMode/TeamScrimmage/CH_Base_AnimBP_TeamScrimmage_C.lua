@@ -1,0 +1,2 @@
+---@class CH_Base_AnimBP_TeamScrimmage_C:USTExtraAnimInstance
+---@field LeaveShovel_Rate float

@@ -1,0 +1,9 @@
+---@class EMode_RoleSwitch_Item_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field OnLoadIconSuccess:fun(NewParam:UObject)
+---@field SetIcon:fun(iconpath:FString)
+---@field Image_Role UImage
+---@field Image_Selecte UImage
+---@field Image_Suo UImage
+---@field NewButton_Click UNewButton
+---@field TextBlock_Name UTextBlock

@@ -1,0 +1,3 @@
+---@class FShowTextureInfo
+---@field Image UTexture2D
+---@field Size FVector2D

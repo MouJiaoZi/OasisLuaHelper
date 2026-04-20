@@ -1,0 +1,11 @@
+---@class VertLinePoint_BP_C:UMapUIMarkBaseWidget
+---@field UpdateUIBPState:fun(InState:FCustomMarkEventData)
+---@field OnUIBPShow:fun(InState:FCustomMarkEventData)
+---@field OnUIBPCreate:fun(InState:FCustomMarkEventData,ParentState:EMarkParentWidget,inRealLevelToMapScale:float,inMapScale:float)
+---@field CanvasPanel_Distance UCanvasPanel
+---@field CanvasPanel_Root UCanvasPanel
+---@field Image_Icon UImage
+---@field TextBlock_0 UTextBlock
+---@field NewVar_0 FCustomMarkEventData
+---@field NewVar_1 FCustomMarkEventData
+---@field NewVar_2 EMarkParentWidget

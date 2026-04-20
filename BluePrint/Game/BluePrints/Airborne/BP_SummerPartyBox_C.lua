@@ -1,0 +1,7 @@
+---@class BP_SummerPartyBox_C:AChannelBuoyBox
+---@field UserConstructionScript:fun()
+---@field BP_OnPlayerActiveRegionsChanged:fun(bEnter:bool,WorldParallelismID_:int32)
+---@field BoxStaticMesh UStaticMeshComponent
+---@field BoxName FName
+---@field ItemsBoxConfigGroupName FName
+---@field bItemsDataGenerated bool

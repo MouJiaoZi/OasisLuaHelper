@@ -1,0 +1,1 @@
+---@class BP_Rifle_M16A4_BattleItemHandle_ForMonster_Lobby_C:UBackpackWeaponHandle

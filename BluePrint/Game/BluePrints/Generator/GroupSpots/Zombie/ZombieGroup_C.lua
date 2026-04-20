@@ -1,0 +1,12 @@
+---@class ZombieGroup_C:AUAEHouseActor
+---@field UserConstructionScript:fun()
+---@field BP_ZombieSpotComponent7 BP_WerewolfSpotComponent_C
+---@field BP_ZombieSpotComponent6 BP_WerewolfSpotComponent_C
+---@field BP_ZombieSpotComponent5 BP_WerewolfSpotComponent_C
+---@field BP_ZombieSpotComponent4 BP_WerewolfSpotComponent_C
+---@field BP_ZombieSpotComponent3 BP_WerewolfSpotComponent_C
+---@field BP_ZombieSpotComponent2 BP_WerewolfSpotComponent_C
+---@field BP_ZombieSpotComponent1 BP_WerewolfSpotComponent_C
+---@field BP_ZombieSpotComponent BP_WerewolfSpotComponent_C
+---@field BP_ZombieGroupSceneComponent BP_WerewolfGroupSceneComponent_C
+---@field DefaultSceneRoot USceneComponent

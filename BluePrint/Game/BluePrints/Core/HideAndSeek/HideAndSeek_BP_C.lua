@@ -1,0 +1,1 @@
+---@class HideAndSeek_BP_C:URespawnItemConfig

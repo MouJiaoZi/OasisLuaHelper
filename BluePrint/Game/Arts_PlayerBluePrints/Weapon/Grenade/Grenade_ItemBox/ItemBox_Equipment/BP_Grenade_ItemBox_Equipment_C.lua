@@ -1,0 +1,11 @@
+---@class BP_Grenade_ItemBox_Equipment_C:ASTExtraWeapon
+---@field UserConstructionScript:fun()
+---@field WeaponAnimList_ItemBox WeaponAnimList_ItemBox_C
+---@field WeaponTriggerEventHandleSkill UWeaponTriggerEventHandleSkill
+---@field BOX_SK USkeletalMeshComponent
+---@field ThrowableWeaponCrossHair UThrowableWeaponCrossHairComponent
+---@field WeaponEntity UWeaponEntity
+---@field WeaponSpecificHandler UWeaponSpecificHandler
+---@field WeaponStateDefault UWeaponStateDefault
+---@field WeaponStateManager UWeaponStateManager
+---@field DelayHandle FTimerHandle

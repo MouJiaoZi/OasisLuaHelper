@@ -1,0 +1,3 @@
+---@class ReplayCompleteInterface_C:UInterface
+---@field InitDeathBoxWidget:fun(RelationshipWithTarget:ERelationshipWithTarget)
+---@field SetPlayerMarkIcon:fun(RelationShipWithTarget:ERelationshipWithTarget,MoveState:EPlayerMoveState)

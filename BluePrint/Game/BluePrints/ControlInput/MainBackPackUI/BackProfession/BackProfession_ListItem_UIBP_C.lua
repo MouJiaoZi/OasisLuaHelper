@@ -1,0 +1,31 @@
+---@class BackProfession_ListItem_UIBP_C:UUAEUserWidget
+---@field FinishLoad_HeroIcon:fun(obj:UObject,SkillID:int32)
+---@field FinishLoad:fun(obj:UObject,SkillID:int32)
+---@field RefreshOneSkill:fun(skilllID:int32,skillLevel:int32,bShowLevel:bool,bShowMask:bool):bool
+---@field Border_Mask UBorder
+---@field CanvasPanel_Level UCanvasPanel
+---@field CanvasPanel_show UCanvasPanel
+---@field Image_2 UImage
+---@field Image_5 UImage
+---@field Image_8 UImage
+---@field Image_9 UImage
+---@field Image_10 UImage
+---@field Image_11 UImage
+---@field Image_Hero UImage
+---@field Image_ItemIcon UImage
+---@field Image_Leve01 UImage
+---@field Image_Leve02 UImage
+---@field Image_Leve03 UImage
+---@field Image_Lock UImage
+---@field Image_Mask UImage
+---@field Image_Star1 UImage
+---@field Image_Star2 UImage
+---@field Image_Star3 UImage
+---@field TextBlock_4 UTextBlock
+---@field TextBlock_5 UTextBlock
+---@field TextBlock_Level UTextBlock
+---@field TextBlock_SkillName UTextBlock
+---@field TextBlock_Skilltype UTextBlock
+---@field TextBlock_Time UTextBlock
+---@field WidgetSwitcher_0 UWidgetSwitcher
+---@field CurSkillID int32

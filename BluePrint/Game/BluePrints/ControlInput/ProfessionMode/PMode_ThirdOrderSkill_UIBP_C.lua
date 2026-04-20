@@ -1,0 +1,23 @@
+---@class PMode_ThirdOrderSkill_UIBP_C:UUTSkillIconWidgetTemplate
+---@field UIMsg_HideCancel_ThirdOrderSkill:fun()
+---@field UIMsg_ShowCancel_ThirdOrderSkill:fun()
+---@field Construct:fun()
+---@field DX_UpgradeSkills UWidgetAnimation
+---@field DX_UpgradeSkills_old UWidgetAnimation
+---@field DX_RefreshSkill UWidgetAnimation
+---@field Border_SkillSlot UBorder
+---@field Button_Cancel UButton
+---@field CanvasPanel_1 UCanvasPanel
+---@field CustomizeCanvasPanel_BP_C_0 CustomizeCanvasPanel_BP_C
+---@field IconBtn UButton
+---@field Image_0 UImage
+---@field Image_BG UImage
+---@field Image_Progress_1 UImage
+---@field Image_Progress_2 UImage
+---@field Image_Progress_3 UImage
+---@field Image_SkillBtnBG1 UImage
+---@field Image_SkillIcon UImage
+---@field Image_SkillIconBar UImage
+---@field Text_Time UTextBlock
+---@field FunctionBPParam ULuaMapHelper
+---@field IsButtonZeroPressed bool

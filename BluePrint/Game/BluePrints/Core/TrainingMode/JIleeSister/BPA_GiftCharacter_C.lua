@@ -1,0 +1,9 @@
+---@class BPA_GiftCharacter_C:UAnimInstance
+---@field BlueprintBeginPlay:fun()
+---@field BlueprintUpdateAnimation:fun(DeltaTimeX:float)
+---@field DemonstrateCharacter BP_JileeSister_C
+---@field bCharacterInRange bool
+---@field bIsInteraction bool
+---@field bIsLeaven bool
+---@field RandomRelaxIndex int32
+---@field Random bool

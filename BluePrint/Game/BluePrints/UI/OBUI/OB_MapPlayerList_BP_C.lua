@@ -1,0 +1,62 @@
+---@class OB_MapPlayerList_BP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field RefreshCurrentTeamIdx:fun()
+---@field RefreshClubList:fun()
+---@field RefreshTeamSegmentsInfo:fun()
+---@field RefreshChooseTime:fun()
+---@field RefreshSegmentsList:fun()
+---@field SetMode:fun(Mode:OBMapPlayerListModeDefinedEnum)
+---@field SetBackgroundAlpha:fun()
+---@field RefreahOBPlayerChange:fun(PanelWidget:UPanelWidget)
+---@field OnOBPlayerChange:fun(CrtOBPlayer:FObservedData)
+---@field RefreshTotalListData:fun(DataList:ULuaArrayHelper,CrtOBPlayer:FObservedData)
+---@field RefreshNearListData:fun(DataList:ULuaArrayHelper,CrtOBPlayer:FObservedData)
+---@field RefreshListData:fun(DataList:ULuaArrayHelper,CustomScrollBox:UCustomScrollBox)
+---@field GetChildByIndex:fun(PanelWidget:UPanelWidget,Index:int32):OB_PlayerListGroup_BP_C
+---@field Button_ALL UNewButton
+---@field Button_MC UNewButton
+---@field Button_Nearby UNewButton
+---@field Button_ShowList UNewButton
+---@field CanvasPanel_12 UCanvasPanel
+---@field CanvasPanel_ButTop UCanvasPanel
+---@field CanvasPanel_CampGuideTips UCanvasPanel
+---@field CanvasPanel_ListTitle UCanvasPanel
+---@field CanvasPanel_MC UCanvasPanel
+---@field CanvasPanel_PlayerList UCanvasPanel
+---@field CanvasPanel_Title UCanvasPanel
+---@field CanvasPanel_TracingGuideTips UCanvasPanel
+---@field CustomScrollBox_MC UCustomScrollBox
+---@field CustomScrollBox_Nearby UCustomScrollBox
+---@field CustomScrollBox_Total UCustomScrollBox
+---@field CustomSocket_Route UCustomSocketPanel
+---@field Image_9 UImage
+---@field Image_17 UImage
+---@field Image_18 UImage
+---@field Image_All UImage
+---@field Image_Arrow UImage
+---@field Image_CampSelect UImage
+---@field Image_InviteFriendBG UImage
+---@field Image_MC UImage
+---@field Image_Nearby UImage
+---@field Image_TaskSelect UImage
+---@field Image_TitleBG UImage
+---@field NewButton_airline UNewButton
+---@field NewButton_Director UNewButton
+---@field NewButton_ListPage UNewButton
+---@field NewButton_ShowHide UNewButton
+---@field OB_RouteMain_UIBP OB_RouteMain_UIBP_C
+---@field TeamDistanceWarning OB_MC_Distance_UIBP_C
+---@field TextBlock_All UTextBlock
+---@field TextBlock_MC UTextBlock
+---@field TextBlock_Nearby UTextBlock
+---@field TextBlock_TeamID UTextBlock
+---@field TextBlock_TeamName UTextBlock
+---@field WidgetSwitcher_List UWidgetSwitcher
+---@field WidgetSwitcher_ShowHide UWidgetSwitcher
+---@field WidgetSwitcher_TitleType UWidgetSwitcher
+---@field CrtOBPlayer FObservedData
+---@field CurMode OBMapPlayerListModeDefinedEnum
+---@field Tab_Unselect FLinearColor
+---@field Tab_Select FLinearColor
+---@field Tab_Unselect_0 FSlateColor
+---@field Tab_Select_0 FSlateColor

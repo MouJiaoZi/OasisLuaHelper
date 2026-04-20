@@ -1,0 +1,5 @@
+---@class Projectile_Robot_C:APESkillProjectileBase
+---@field UserConstructionScript:fun()
+---@field ParticleSystem UParticleSystemComponent
+---@field StaticMesh UStaticMeshComponent
+---@field Capsule1 UCapsuleComponent

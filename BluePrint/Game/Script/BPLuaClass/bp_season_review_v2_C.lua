@@ -1,0 +1,12 @@
+---@class bp_season_review_v2_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_SeasonReview_Segment_Title FString
+---@field BP_ARRAY_SeasonReview_Tab ULuaArrayHelper
+---@field BP_ARRAY_SeasonReview_Summary ULuaArrayHelper
+---@field BP_ARRAY_SeasonReview_Page_RankSubTab ULuaArrayHelper
+---@field BP_ARRAY_SeasonReview_Page_SegmentItem ULuaArrayHelper
+---@field BP_SeasonReview_CurSeasonID int32
+---@field BP_SeasonReview_CurSeasonTab int32
+---@field BP_ARRAY_SeasonReview_Page_RankItem ULuaArrayHelper
+---@field BP_SeasonReview_CurSeasonSubTab int32

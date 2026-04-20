@@ -1,0 +1,5 @@
+---@class SwipeInputState
+---@field NewEnumerator0 int32
+---@field NewEnumerator4 int32
+---@field NewEnumerator5 int32
+---@field SwipeInputState_MAX int32

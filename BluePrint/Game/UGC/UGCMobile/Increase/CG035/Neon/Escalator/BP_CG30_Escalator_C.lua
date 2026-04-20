@@ -1,0 +1,34 @@
+---@class BP_CG30_Escalator_C:AActivityBaseActor
+---@field GetAcceleration:fun():FVector
+---@field SetAddSpeed:fun(AddSpeed:float)
+---@field OnVehicleOut:fun(OutVehicle:ASTExtraVehicleBase)
+---@field OnVehicleIn:fun(inVehicle:ASTExtraVehicleBase)
+---@field SetEnable:fun(bEnable:bool)
+---@field CheckActorNeedMove:fun(InActor:AActor):bool
+---@field ProcessMove:fun(InActor:AActor,DeltaTime:float)
+---@field OnGrenadeOut:fun(OutGrenade:ProjGrenade_BP_C)
+---@field OnGrenadeIn:fun(InGrenade:ProjGrenade_BP_C)
+---@field OnCharacterOut:fun(OutCharacter:ASTExtraBaseCharacter)
+---@field OnCharacterIn:fun(InCharacter:ASTExtraBaseCharacter)
+---@field UserConstructionScript:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field ReceiveEndPlay:fun(EndPlayReason:EEndPlayReason)
+---@field TopRight UBoxComponent
+---@field TopLeft UBoxComponent
+---@field ButtomRight UBoxComponent
+---@field ButtomLeft UBoxComponent
+---@field RightWall UBoxComponent
+---@field LeftWall UBoxComponent
+---@field BoxTop UBoxComponent
+---@field BoxButtom UBoxComponent
+---@field Scene USceneComponent
+---@field OverlapCheckArea UOverlapCheckAreaComponent
+---@field NE_DownTown_FootBridge_04 UStaticMeshComponent
+---@field OverlapCheckAreaMid UOverlapCheckAreaComponent
+---@field BoxMiddle UBoxComponent
+---@field AddSpeed float
+---@field AttachedActors ULuaSetHelper
+---@field CharacterVelocityMap ULuaMapHelper
+---@field Enabled bool
+---@field Receiver BP_CG30_EscalatorReceiver_C
+---@field Scale FVector

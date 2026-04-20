@@ -1,0 +1,1 @@
+---@class BP_Mag_AA12-G_MNXD_A_C:BP_Mag_AA12_C

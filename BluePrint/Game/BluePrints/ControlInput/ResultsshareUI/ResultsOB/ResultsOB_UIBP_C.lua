@@ -1,0 +1,37 @@
+---@class ResultsOB_UIBP_C:UUAEUserWidget
+---@field HideReplayLiveResult:fun()
+---@field ShowReplayLiveResult:fun()
+---@field ShowDXAnimation:fun()
+---@field ShowCustomTeamInfo:fun()
+---@field OnBGLoaded:fun(InputObject:UObject)
+---@field ShowBG:fun()
+---@field GetMaxTeamMemberCount:fun():int32
+---@field ShutDownNet:fun()
+---@field ShowNormalTeam:fun()
+---@field ShowTopTeam:fun()
+---@field GetMaxTopTeam:fun():int32
+---@field SplitTopAndNormalTeam:fun(AllTeam:ULuaArrayHelper)
+---@field ShowOBBattleResult:fun()
+---@field ReceivedInitWidget:fun()
+---@field DX_GameOver UWidgetAnimation
+---@field ChampionTeamShow_anima UWidgetAnimation
+---@field DX_ResultsOB UWidgetAnimation
+---@field Button_ShareGameData UButton
+---@field CanvasPanel_ChampionTeam UCanvasPanel
+---@field CanvasPanel_GameOver UCanvasPanel
+---@field Image_OBBG UImage
+---@field Image_TeamLogo UImage
+---@field NormalTeamScrollBox UCustomScrollBox
+---@field TextAnimation UBorder
+---@field TextBlock_TeamName UTextBlock
+---@field TopTeamVerticalBox UVerticalBox
+---@field WidgetSwitcher_BG UWidgetSwitcher
+---@field TeamCounts int32
+---@field MaxTeamMember int32
+---@field TopTeamList ULuaArrayHelper
+---@field NormalTeamList ULuaArrayHelper
+---@field IsShowGender bool
+---@field obSubMode int32
+---@field ModeUI FString
+---@field ParentZOrder int32
+---@field RootWidget UPanelWidget

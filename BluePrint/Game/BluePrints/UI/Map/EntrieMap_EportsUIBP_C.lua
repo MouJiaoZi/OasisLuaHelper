@@ -1,0 +1,27 @@
+---@class EntrieMap_EportsUIBP_C:UUAEUserWidget
+---@field SetAutoOpen:fun(NewParam:bool)
+---@field RefreshLeaderChoosingSegmentID:fun()
+---@field ShowSegmentTabs:fun()
+---@field RefreshCurrentTeamIdx:fun()
+---@field RefreshClubTeamList:fun()
+---@field NormalShowCallBack:fun()
+---@field RefreshTeamSegmentsInfo:fun()
+---@field RefreshSegmentChooseTime:fun()
+---@field RefreshSegmentList:fun()
+---@field GetAsyncSocketCallBack:fun()
+---@field GetAsyncSocket:fun()
+---@field CanvasPanel_5 UCanvasPanel
+---@field CustomSocket_Route UCustomSocketPanel
+---@field Image_RouteSelect UImage
+---@field NewButton_Route UNewButton
+---@field NewButton_ShowHide UNewButton
+---@field WidgetSwitcher_ExUI UWidgetSwitcher
+---@field WidgetSwitcher_ShowHide UWidgetSwitcher
+---@field MapExMgr UEntiremapExMgr
+---@field ListActiveIndex int32
+---@field DefaultClosedState EMapExOpenState
+---@field DefaultTaskState EMapExOpenState
+---@field IcampStatus int32
+---@field bAirPlaneDisAppear bool
+---@field bShowDetails bool
+---@field bAutoOpen bool

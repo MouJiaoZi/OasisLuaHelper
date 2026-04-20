@@ -1,0 +1,1 @@
+---@class BP_Sniper_Mosin_BattleItemHandle_JDML_Lobby_C:UBackpackWeaponHandle

@@ -1,0 +1,3 @@
+---@class BackPackDragWidget_BP_C:UUserWidget
+---@field SetPic:fun(InBrush:FSlateBrush)
+---@field Image_0 UImage

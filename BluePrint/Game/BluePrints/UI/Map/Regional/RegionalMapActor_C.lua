@@ -1,0 +1,55 @@
+---@class RegionalMapActor_C:AActor
+---@field GetLuaModule:fun():FString
+---@field ActivateTheFunction:fun()
+---@field DynamicAreaAnchors:fun(AreaAnchors:ULuaArrayHelper)
+---@field DynamicRange:fun(LeftTop:FVector,RightDown:FVector)
+---@field DynamicStandardPoint:fun(Value:FVector)
+---@field CheckAreaVectorList:fun()
+---@field SetExtendUIPtr:fun(Input:UObject)
+---@field GetExtendUIPtr:fun():UObject
+---@field InitializeMapRenderAttr:fun(MapInitSize:FVector2D,WidgetSize:FVector2D)
+---@field OnExitBox:fun()
+---@field OnEnterBox:fun()
+---@field CheckLoaclPlayerPostion:fun()
+---@field ClearTimer:fun()
+---@field SetRegionalUIPtr:fun(Input:UObject)
+---@field GetRegionalUIPtr:fun():UObject
+---@field GetEntireMapPtr:fun():UObject
+---@field SetEntireMapPtr:fun(Ptr:UObject)
+---@field Initialize:fun()
+---@field Uninitialize:fun()
+---@field InitMapRef:fun()
+---@field UserConstructionScript:fun()
+---@field ReceiveEndPlay:fun(EndPlayReason:EEndPlayReason)
+---@field DefaultSceneRoot USceneComponent
+---@field WidgetClassPath FString
+---@field InitTimerHandle FTimerHandle
+---@field EntireMapPtr UObject
+---@field MiniMapPtr UObject
+---@field RegionalUIPtr UObject
+---@field LeftTop FVector
+---@field RightDown FVector
+---@field CheckTimerHandle FTimerHandle
+---@field HasOut bool
+---@field MapMinScale float
+---@field ActorExtent FVector
+---@field MapInitSize FVector2D
+---@field UIInitSize FVector2D
+---@field CacheCurMapScale float
+---@field CacheMapMinScaleValue float
+---@field CacheMapMaxScaleValue float
+---@field UpperScaleOffset float
+---@field CacheYAlignmengRange FVector2D
+---@field CacheXAlignmengRange FVector2D
+---@field ImagePath FString
+---@field AreaAnchors ULuaArrayHelper
+---@field ExtendUIPtr UObject
+---@field UseBoxCheck bool
+---@field HasFinishedCreate bool
+---@field UseMovableStandardPoint bool
+---@field IsAutomaticSwitch bool
+---@field IsIgnoreZ bool
+---@field WhetherTheInitialActivation bool
+---@field StandardPoint FVector
+---@field CacheEntireMapPlayerMarkSlotSize FVector2D
+---@field EntireMapPlayerMarkSlotSize FVector2D

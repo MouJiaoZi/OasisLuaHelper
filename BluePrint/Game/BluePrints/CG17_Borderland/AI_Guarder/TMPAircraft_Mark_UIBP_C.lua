@@ -1,0 +1,1 @@
+---@class TMPAircraft_Mark_UIBP_C:UMapUIMarkBaseWidget

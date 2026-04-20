@@ -1,0 +1,4 @@
+---@class BP_Solo_PlayerPawn_C:BP_PlayerPawn_C
+---@field GetLuaModule:fun():FString
+---@field UserConstructionScript:fun()
+---@field AttrModifyComponent_RepOwner UAttrModifyComponent_RepOwner

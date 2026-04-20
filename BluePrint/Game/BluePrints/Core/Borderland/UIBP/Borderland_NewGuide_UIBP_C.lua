@@ -1,0 +1,3 @@
+---@class Borderland_NewGuide_UIBP_C:UUAEUserWidget
+---@field CanvasPanel_Tips UCanvasPanel
+---@field TextBlock_2 UTextBlock

@@ -1,0 +1,2 @@
+---@class TombBoxReuseList_BP_C:UBTReuseListNew
+---@field List UCustomScrollBox

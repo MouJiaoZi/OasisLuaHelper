@@ -1,0 +1,16 @@
+---@class SimpleActivityUI_C:UActivityUIWidget
+---@field Init_BP:fun(Actor:AActor,InUIIndex:int32)
+---@field ShowTips_anima UWidgetAnimation
+---@field Border_SetTopTipsColor UBorder
+---@field CanvasPanel_4 UCanvasPanel
+---@field Common_UIPopupBG Common_UIPopupBG_C
+---@field IgnoreInputImage UImage
+---@field Image_Icon UImage
+---@field NewButton_Close UNewButton
+---@field NewButton_NextPage UNewButton
+---@field NewButton_PreviousPage UNewButton
+---@field TopTipsCommon UUTRichTextBlock
+---@field UTRichTextBlock_CopyWiting2 UUTRichTextBlock
+---@field DelayShowUI float
+---@field TextureArray ULuaArrayHelper
+---@field CurrentPage int32

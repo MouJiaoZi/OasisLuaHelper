@@ -1,0 +1,1 @@
+---@class BP_Mag_Groza_FPDC_C:BP_Mag_Groza_C

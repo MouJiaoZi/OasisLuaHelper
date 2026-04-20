@@ -1,0 +1,3 @@
+---@class NoticeBoard_3DText_UIBP_C:UUAEUserWidget
+---@field Image_BG UImage
+---@field TextBlock_NoticeBoard UTextBlock

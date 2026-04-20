@@ -1,0 +1,6 @@
+---@class BP_TestLuaExtend_C:ABattleRoyalTrainingGameMode
+---@field GetLuaModule:fun():FString
+---@field StartTest:fun()
+---@field UserConstructionScript:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field DefaultSceneRoot USceneComponent

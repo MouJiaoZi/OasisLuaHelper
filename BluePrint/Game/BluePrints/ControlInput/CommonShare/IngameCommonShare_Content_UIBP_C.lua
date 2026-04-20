@@ -1,0 +1,2 @@
+---@class IngameCommonShare_Content_UIBP_C:UUAEUserWidget
+---@field Image_ScreenShoot UImage

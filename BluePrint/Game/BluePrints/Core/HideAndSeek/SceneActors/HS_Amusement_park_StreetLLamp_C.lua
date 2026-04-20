@@ -1,0 +1,1 @@
+---@class HS_Amusement_park_StreetLLamp_C:AHiderSceneActorBase_C

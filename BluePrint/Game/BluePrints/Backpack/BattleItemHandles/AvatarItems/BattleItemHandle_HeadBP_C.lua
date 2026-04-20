@@ -1,0 +1,2 @@
+---@class BattleItemHandle_HeadBP_C:UBattleItemHandle_AvatarBP_C
+---@field BodyResIDList ULuaArrayHelper

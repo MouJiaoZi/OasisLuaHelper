@@ -1,0 +1,4 @@
+---@class BP_UGCM_MusicPlayer_C:BP_UGCMobileBaseActor_C
+---@field GetLuaModule:fun():FString
+---@field UserConstructionScript:fun()
+---@field ChildActor UChildActorComponent

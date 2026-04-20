@@ -1,0 +1,32 @@
+---@class SpeakerPanel_UIBP_C:UUAEUserWidget
+---@field GetTeammateMicStates:fun():ULuaArrayHelper
+---@field RefreshTeammateMicphoneStatus:fun()
+---@field OnTouchEnded:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field OnTouchStarted:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field RefreshTeammateSpeakerStatus:fun()
+---@field SetForbidInfoToPlayerController:fun()
+---@field OnBtnForbidClicked:fun(playerID:int32,isRobot:bool,flag:bool)
+---@field InitForbidenInfo:fun()
+---@field InitCurSelectedChannel:fun()
+---@field HidePanel:fun()
+---@field ShowPanel:fun(parent:MainControlBaseUI_C)
+---@field allchannelspeaker_selected UImage
+---@field button_speakerAll UButton
+---@field button_speakerCamponly UButton
+---@field button_speakerclose UButton
+---@field button_speakerteamonly UButton
+---@field Camponlyspeaker_selected UImage
+---@field speaker_BtnAll UCanvasPanel
+---@field speaker_BtnCamp UCanvasPanel
+---@field speaker_BtnTeam UCanvasPanel
+---@field speakerclosed_selected UImage
+---@field SpeakerItem_UIBP SpeakerItem_UIBP_C
+---@field SpeakerItem_UIBP_3 SpeakerItem_UIBP_C
+---@field SpeakerItem_UIBP_4 SpeakerItem_UIBP_C
+---@field SpeakerItem_UIBP_5 SpeakerItem_UIBP_C
+---@field teamonlyspeaker_selected UImage
+---@field VerticalBox_lb_team UVerticalBox
+---@field SpeakerBpItemList ULuaArrayHelper
+---@field ParentPanel MainControlBaseUI_C
+---@field ForbidenCacheInfo ULuaMapHelper
+---@field ForbidenCacheInfoRobot ULuaMapHelper

@@ -1,0 +1,13 @@
+---@class BP_UGCM_Ascender_C:BP_UGCMobileBaseActor_C
+---@field GetLuaModule:fun():FString
+---@field StopInteractive:fun()
+---@field ResetButtomLocation:fun()
+---@field SetCheckCollisionEnable:fun(CheckCollisionEnable:bool)
+---@field SetChildActorRelativeLocation:fun()
+---@field ResetHeight:fun():float
+---@field SetSpeed:fun():float,float
+---@field UserConstructionScript:fun()
+---@field ChildActor UChildActorComponent
+---@field NormalSpeed float
+---@field AcceralateDownSpeed float
+---@field Height float

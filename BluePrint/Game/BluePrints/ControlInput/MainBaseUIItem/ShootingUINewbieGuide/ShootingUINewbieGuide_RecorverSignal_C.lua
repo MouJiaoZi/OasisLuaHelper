@@ -1,0 +1,3 @@
+---@class ShootingUINewbieGuide_RecorverSignal_C:UNewbieGuideWidget
+---@field OnCreateAndShow:fun(GuideId:int32,UIConfigIndex:int32)
+---@field UTRichTextBlock_Tips22_Text1 UUTRichTextBlock

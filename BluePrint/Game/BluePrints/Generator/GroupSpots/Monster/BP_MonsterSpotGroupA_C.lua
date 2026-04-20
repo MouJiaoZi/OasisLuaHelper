@@ -1,0 +1,2 @@
+---@class BP_MonsterSpotGroupA_C:ABP_SpotActor_C
+---@field UserConstructionScript:fun()

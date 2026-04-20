@@ -1,0 +1,10 @@
+---@class WatchGame_BackPackWeaponPanel_UIBP_C:UUAEUserWidget
+---@field CanvasPanel_WeaponInfoSlot UCanvasPanel
+---@field HorizontalBox_List2 UHorizontalBox
+---@field Image_Line UImage
+---@field VerticalBox_List UVerticalBox
+---@field WatchGame_BackPack_MainWeapon1 WatchGame_BackPack_MainWeapon_UIBP_C
+---@field WatchGame_BackPack_MainWeapon2 WatchGame_BackPack_MainWeapon_UIBP_C
+---@field WatchGame_BackPack_MeleeInfo WatchGame_BackPack_MeleeInfo_UIBP_C
+---@field WatchGame_BackPack_Pistolinfo WatchGame_BackPack_Pistolinfo_UIBP_C
+---@field WatchGame_PickUpItemTips_BP PickUpItemTips_BP_C

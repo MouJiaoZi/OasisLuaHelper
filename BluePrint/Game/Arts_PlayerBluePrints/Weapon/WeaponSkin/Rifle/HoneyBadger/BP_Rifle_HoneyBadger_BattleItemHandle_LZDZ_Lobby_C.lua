@@ -1,0 +1,1 @@
+---@class BP_Rifle_HoneyBadger_BattleItemHandle_LZDZ_Lobby_C:UBackpackWeaponHandle

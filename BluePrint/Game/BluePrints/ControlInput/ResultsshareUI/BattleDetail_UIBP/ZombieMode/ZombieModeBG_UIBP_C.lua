@@ -1,0 +1,6 @@
+---@class ZombieModeBG_UIBP_C:UUAEUserWidget
+---@field SetResultTop:fun(single:bool):bool
+---@field SetResultVictory:fun(vic:bool):bool
+---@field ShowResultModeBGDetail:fun(show:bool):bool
+---@field BattleDetailBG UCanvasPanel
+---@field Image_BtnBG UImage

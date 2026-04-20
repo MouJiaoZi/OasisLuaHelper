@@ -1,0 +1,6 @@
+---@class BPPlayerController_GunMaster_C:ABP_STExtraPlayerController_C
+---@field GetLuaModule:fun():FString
+---@field UserConstructionScript:fun()
+---@field OnGameModeStateChanged:fun()
+---@field BlockPlayReadySound bool
+---@field CheckReadySoundBlock bool

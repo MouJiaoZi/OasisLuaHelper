@@ -1,0 +1,1 @@
+---@class BuffManager_C:USTBaseBuffManager

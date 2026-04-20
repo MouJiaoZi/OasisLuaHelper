@@ -1,0 +1,1 @@
+---@class Ingame_DeviceInfo_UIBP_C:UUserWidget

@@ -1,0 +1,92 @@
+---@class PlayerInfoPanel_C:UPlayerInfoPanelWidget
+---@field EnterUCAV:fun():bool
+---@field ExitUCAV:fun():bool
+---@field EnterUAV:fun():bool
+---@field ExitUAV:fun():bool
+---@field UnInitDelegate_Inf:fun():bool
+---@field PlayerInfoUpdateEnergy_Inf:fun():bool
+---@field PlayerInfoSpectatorChangeUpdateEnergy_Inf:fun():bool
+---@field getCanvasPanelSignalBarGroup_Inf:fun():UCanvasPanel
+---@field OnUpdateHP_Inf:fun(currHP:float,RD_HP:float):bool
+---@field InitDelegate_Inf:fun():bool
+---@field OnPlayerNameChange_Inf:fun(playerName:FString):bool
+---@field IsCustomUIDataValid:fun(Widget:UWidget,SaveDataSize:FVector2D):bool
+---@field UpdateWithRealTimeEnergyPhaseData:fun()
+---@field IsUseRealTimeEnergyPhaseData:fun(InTargetChar:ASTExtraBaseCharacter):bool
+---@field OnUpdateOBHP:fun(currHP:float,radioHP:float)
+---@field StartUpdateHealth:fun()
+---@field UpdateHealthChange:fun(HealthChangeHistory:ULuaArrayHelper)
+---@field UIMsg_HideHpNumber:fun()
+---@field UIMsg_ShowHpNumber:fun()
+---@field UIMsg_ExitUCAV:fun()
+---@field UIMsg_EnterUCAV:fun()
+---@field UIMsg_MedicBulletHitMe_Hide:fun()
+---@field UIMsg_MedicBulletHitMe_Show:fun()
+---@field UIMsg_EnterUAV:fun()
+---@field UIMsg_ExitUAV:fun()
+---@field BuffUpdate:fun(DeltaSeconds:float)
+---@field BuffOnLeave:fun()
+---@field BuffOnEnter:fun()
+---@field BuffIsThisWidget:fun(Tag:FString):bool
+---@field PredictStayOverLogic:fun()
+---@field SetPreditTimerFunc:fun(PredictValue:float)
+---@field UIMsg_PlayerInfo_SpectatorChangeUpdateEnergy:fun()
+---@field UIMsg_HidePredictNextFrame:fun()
+---@field GetPlayerHealth:fun():float
+---@field UIMsg_ForceUpdate_Health:fun()
+---@field UpdatePlayerBuff:fun(Energy:float)
+---@field ClearHPUI:fun()
+---@field PlayerInfo_UpdateBreath:fun(Breath:float,Ratio:float,Who:ACharacter,HealthStatus:int32)
+---@field UIMsg_PlayerInfo_UpdatePredictHealth:fun()
+---@field PlayerInfo_UpdateEnergy:fun()
+---@field PlayerInfo_UpdateHealth:fun()
+---@field OnCanRescueOther:fun(CanRescueWho:ACharacter,Owner:ACharacter,IsBecomeCan:bool)
+---@field OnUpdateBreath:fun(Breath:float,Ratio:float,Who:ACharacter,HealthStatus:int32)
+---@field OnUpdateHP:fun(CurrentHP:float,RatioHP:float)
+---@field OnPlayerNameChange:fun(PlayerName:FString)
+---@field SetCustomizeUIInfo:fun(SaveGame:BP_SAVEGAME_UIElemLayout_C,FireMode:int32)
+---@field SetSettingControlUI:fun()
+---@field ReceivedInitWidget:fun()
+---@field ResetUIStateAfterRespawn:fun()
+---@field RespawnInitWidget:fun()
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field LessBlood_Anim UWidgetAnimation
+---@field EnergyChangeAnim UWidgetAnimation
+---@field CanvasFX_Tips UCanvasPanel
+---@field CanvasPanel_ListArea UCanvasPanel
+---@field CanvasPanel_SignalBarGroup UCanvasPanel
+---@field CanvasPanel_Thermometer UCanvasPanel
+---@field CanvasPanel_Vfx UCanvasPanel
+---@field GridPanel_Help UGridPanel
+---@field GridPanel_Power UGridPanel
+---@field GridPanel_Thermometer UGridPanel
+---@field GridPanel_ThermometerTips UGridPanel
+---@field HorizontalBox_1 UHorizontalBox
+---@field Image_LowHPWaringBG UImage
+---@field Image_NewSelfHP_Status UImage
+---@field Ingame_signalBar_UIBP Ingame_signalBar_UIBP_C
+---@field ProgressBar_LessBloodVFX UProgressBar
+---@field ProgressBar_Power1 UProgressBar
+---@field ProgressBar_Power2 UProgressBar
+---@field ProgressBar_Power3 UProgressBar
+---@field ProgressBar_Power4 UProgressBar
+---@field Self_Name UTextBlock
+---@field SizeBox_6 USizeBox
+---@field TextBlock_Energy UTextBlock
+---@field VerticalBox_ColdMode UVerticalBox
+---@field VerticalLifeInfo UVerticalBox
+---@field Player1NameValue FString
+---@field CurEnergy float
+---@field RecoverStartHealth float
+---@field RecoverCount int32
+---@field PredictStepValue float
+---@field PrePredictValue float
+---@field NeedPredictWaitForHide bool
+---@field IsMultAddHealth bool
+---@field LastTimeRatioHealth float
+---@field NewHpBarColor_Value ULuaArrayHelper
+---@field HealthHistory ULuaArrayHelper
+---@field NeedTick bool
+---@field lastHPTimeSecond float
+---@field DurationEveryPiece float
+---@field TotalPieceTime float

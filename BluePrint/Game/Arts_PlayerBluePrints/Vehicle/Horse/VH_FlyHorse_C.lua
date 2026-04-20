@@ -1,0 +1,1 @@
+---@class VH_FlyHorse_C:VH_Horse_1_C

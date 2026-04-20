@@ -1,0 +1,2 @@
+---@class ResurrectionUI_ModeTips_C:UUAEUserWidget
+---@field Button_ResurrectionClose UButton

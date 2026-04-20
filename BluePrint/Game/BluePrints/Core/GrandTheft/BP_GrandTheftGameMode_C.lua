@@ -1,0 +1,8 @@
+---@class BP_GrandTheftGameMode_C:AWarGameMode_GrandTheft
+---@field UserConstructionScript:fun()
+---@field BP_AttrModifyProbeComp_GrandTheft BP_AttrModifyProbeComp_GrandTheft_C
+---@field CircleMgr UCircleMgrComponent
+---@field DefaultSceneRoot USceneComponent
+---@field BP_WeatherGeneratorComponent BP_WeatherGeneratorComponent_C
+---@field AirAttack UAirAttackComponent
+---@field AirDrop UAirDropComponent

@@ -1,0 +1,11 @@
+---@class Ingame_RadarVehicleInfo_UIBP_C:UUAEAttachActorUI
+---@field UIMsg_WhenWidgetCreate:fun(status:int32)
+---@field PreConstruct:fun(IsDesignTime:bool)
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field Construct:fun()
+---@field TextBlock_Distance UTextBlock
+---@field WidgetSwitcher_Type UWidgetSwitcher
+---@field IconMap ULuaMapHelper
+---@field DefaultIcon int32
+---@field OffsetCurve UCurveFloat
+---@field DefaultWorldZOffset float

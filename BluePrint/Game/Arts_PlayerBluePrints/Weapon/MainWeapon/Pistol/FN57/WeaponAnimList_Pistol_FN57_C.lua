@@ -1,0 +1,1 @@
+---@class WeaponAnimList_Pistol_FN57_C:UUAECharacterAnimListComponent

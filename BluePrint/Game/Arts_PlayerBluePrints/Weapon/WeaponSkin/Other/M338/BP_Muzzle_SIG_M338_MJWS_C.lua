@@ -1,0 +1,1 @@
+---@class BP_Muzzle_SIG_M338_MJWS_C:BP_Muzzle_SIG_M338_C

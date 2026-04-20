@@ -1,0 +1,1 @@
+---@class BP_VideoFeatureCheckerMiddle_C:UObject

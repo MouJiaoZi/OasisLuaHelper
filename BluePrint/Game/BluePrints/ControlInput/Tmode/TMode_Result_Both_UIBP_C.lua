@@ -1,0 +1,47 @@
+---@class TMode_Result_Both_UIBP_C:UUAEUserWidget
+---@field Internal_RealClickReportBtn:fun(PlayerItem:UWidget)
+---@field UpdateData_EscapeCount:fun(myCount:int32,oppoCount:int32)
+---@field Internal_CreateItem:fun(ParentPanelWidget:UPanelWidget)
+---@field SwitchUIEndDisplayToResult:fun()
+---@field SwitchUIBattleToEndDisplay:fun()
+---@field ReleaseWdiget_TeamMode:fun()
+---@field UpdateData_PlayerHead:fun(inHeadInfoArray:ULuaArrayHelper,MyHeadInfoIndex:int32)
+---@field ShowWidget_TeamMode:fun()
+---@field HideWidget_TeamMode:fun()
+---@field UpdateBtnState:fun(inState:bool)
+---@field OnClickFinishReportRefreshUI:fun()
+---@field OnClickComplaintBtn:fun(iClickTeamID:int32,ClickNameStr:FString,isRobot:bool,ClickPlayerIndex:int32)
+---@field SetHideFriendMsg:fun()
+---@field ShowAddFriendMessage:fun(AddFriendMsg:FText)
+---@field OnClickAddFriendBtn:fun(iClickTeamID:int32,iItemIndexInArray:int32)
+---@field InitTeamListUI:fun(iMyTeamCount:int32,iOppoTeamCount:int32)
+---@field PreInitBothUIBP:fun(LuaClassObj:ALuaClassObj,UIModeType:ETDMUIType,isObserve:bool,index_in_lua:int32,inMyTeamID:int32,inMyNameStr:FString)
+---@field Border_Data UBorder
+---@field CanvasPanel_AddFriendTips UCanvasPanel
+---@field CanvasPanel_TC_Result_Title UCanvasPanel
+---@field CanvasPanel_Title UCanvasPanel
+---@field Image_SendTips UImage
+---@field Image_TC_Trapezoid_Blue UImage
+---@field Image_TC_Trapezoid_Red UImage
+---@field Image_TitleBg UImage
+---@field Image_Win UImage
+---@field Text_AddFriendMsg UTextBlock
+---@field TextBlock_Left UTextBlock
+---@field TextBlock_MyTeamScore UTextBlock
+---@field TextBlock_OpponentTeamScore UTextBlock
+---@field TextBlock_PlayerExit UTextBlock
+---@field TextBlock_Right UTextBlock
+---@field TextBlock_TC_Victory_Blue UTextBlock
+---@field TextBlock_TC_Victory_Red UTextBlock
+---@field VerticalBox_MyTeam UVerticalBox
+---@field VerticalBox_OpppTeam UVerticalBox
+---@field WidgetSwitcher_ResultUp UWidgetSwitcher
+---@field WidgetSwitcher_TC_Score_Blue UWidgetSwitcher
+---@field WidgetSwitcher_TC_Score_Red UWidgetSwitcher
+---@field UIModeType ETDMUIType
+---@field iMyTeamID int32
+---@field MyGameResult FString
+---@field myNameStr FString
+---@field is_global_observe bool
+---@field IndexInLuaData int32
+---@field LuaClassObject ALuaClassObj

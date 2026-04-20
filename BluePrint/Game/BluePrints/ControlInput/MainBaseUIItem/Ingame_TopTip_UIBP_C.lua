@@ -1,0 +1,28 @@
+---@class Ingame_TopTip_UIBP_C:UTopTipWidget
+---@field GetAnimationByName:fun(NewParam:FString):UWidgetAnimation
+---@field SetTipLayout:fun(NewParam:FAdvancedTipConfig)
+---@field SetImageLayout:fun(Image:UImage,ImageOffset:FTopTipImageWidgetConfig):bool
+---@field GetImageLayout:fun(NewParam:UImage)
+---@field InitWidgetsLayout:fun()
+---@field BPDoActionsWhenNewTipBegin:fun(data:FAdvancedTipConfig)
+---@field BPDoActionsWhenNewTipEnd:fun()
+---@field BPInitWhenSpawned:fun()
+---@field Reset:fun()
+---@field TopTips01_anima_Blue UWidgetAnimation
+---@field TopTips02_anima_long UWidgetAnimation
+---@field TopTips02_anima UWidgetAnimation
+---@field TopTips01_anima_Red UWidgetAnimation
+---@field Border_TopTips UBorder
+---@field CanvasPanel_BG2 UCanvasPanel
+---@field CanvasPanel_TopTips UCanvasPanel
+---@field HorizontalBox_Content UHorizontalBox
+---@field Image_BG1 UImage
+---@field Image_BG2 UImage
+---@field Image_BlueLightFX02 UImage
+---@field Image_LeftSide_Icon UImage
+---@field Image_RedLightFX01 UImage
+---@field Image_RightSide_Icon UImage
+---@field TopTips_Content UUTRichTextBlock
+---@field TextBlock FVector2D
+---@field AnimationPlay UWidgetAnimation
+---@field DefaultLayout ULuaMapHelper

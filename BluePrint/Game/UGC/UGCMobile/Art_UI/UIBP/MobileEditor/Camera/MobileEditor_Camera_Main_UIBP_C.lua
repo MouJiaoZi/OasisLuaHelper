@@ -1,0 +1,23 @@
+---@class MobileEditor_Camera_Main_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field CameraShakes_CanDelete:fun():bool
+---@field CameraConfigs_Create:fun()
+---@field CameraConfigs_Delete:fun(Index:int32)
+---@field CameraShakes_Create:fun()
+---@field CameraShakes_Delete:fun(Index:int32)
+---@field Construct:fun()
+---@field AddButton_UIBP MobileEditor_Camera_But_UIBP_C
+---@field Button_Mask UButton
+---@field CanvasPanel_2 UCanvasPanel
+---@field CanvasPanel_Edit UCanvasPanel
+---@field DetailView_UIBP MobileEditor_SkyBox_Transform_UIBP_C
+---@field HorizontalBox_Tab UHorizontalBox
+---@field NewButton_Close UNewButton
+---@field NewButton_Expand UNewButton
+---@field NewButton_Left UNewButton
+---@field NewButton_Right UNewButton
+---@field SetAdvanced_HelpTips_UIBP SetAdvanced_HelpTips_UIBP_C
+---@field Switcher_Left UWidgetSwitcher
+---@field WidgetSwitcher_Expand UWidgetSwitcher
+---@field WidgetSwitcher_Right UWidgetSwitcher
+---@field CameraEditor_UIStyle UUserWidgetStyle

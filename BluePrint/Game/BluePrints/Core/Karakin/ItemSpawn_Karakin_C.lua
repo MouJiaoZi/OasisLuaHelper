@@ -1,0 +1,1 @@
+---@class ItemSpawn_Karakin_C:UBP_ItemGeneratorComponent_C

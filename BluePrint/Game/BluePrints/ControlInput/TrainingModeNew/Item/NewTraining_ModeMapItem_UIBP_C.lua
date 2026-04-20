@@ -1,0 +1,11 @@
+---@class NewTraining_ModeMapItem_UIBP_C:UUAEUserWidget
+---@field Button_DescriptionTips UNewButton
+---@field Button_Selectced UNewButton
+---@field CanvasPanel_Lock UCanvasPanel
+---@field Image_0 UImage
+---@field Image_MapIcon1 UImage
+---@field Image_Selected UImage
+---@field TextBlock_Description UTextBlock
+---@field TextBlock_ThreeIocnName1 UTextBlock
+---@field TextBlock_ThreeIocnName2 UTextBlock
+---@field WidgetSwitcher_MapNameState UWidgetSwitcher

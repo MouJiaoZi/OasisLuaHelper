@@ -1,0 +1,2 @@
+---@class BTTask_SetPlayerAsTarget_C:UBTTask_BlueprintBase
+---@field TargetEnemyActor FBlackboardKeySelector

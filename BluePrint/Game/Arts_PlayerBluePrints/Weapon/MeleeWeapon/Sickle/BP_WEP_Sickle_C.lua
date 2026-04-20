@@ -1,0 +1,13 @@
+---@class BP_WEP_Sickle_C:ASTExtraWeapon_Throw
+---@field GetSkillIndexForMeleeWeapon:fun():int32
+---@field GetSkillEntryForMeleeWeapon:fun(IsPressed:bool):EUTSkillEntry
+---@field UserConstructionScript:fun()
+---@field BP_WEP_Sickle_AnimList BP_WEP_Sickle_AnimList_C
+---@field WeaponTriggerEventHandleSkill UWeaponTriggerEventHandleSkill
+---@field BP_ThrowComponent_Melee BP_ThrowComponent_Melee_C
+---@field CrossHair UCrossHairComponent
+---@field WeaponSpecificHandler UWeaponSpecificHandler
+---@field WeaponStateDefault UWeaponStateDefault
+---@field WeaponStateManager UWeaponStateManager
+---@field WeaponAnimList_Melee WeaponAnimList_Melee_C
+---@field WeaponEntity UWeaponEntity

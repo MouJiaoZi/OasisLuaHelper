@@ -1,0 +1,1 @@
+---@class DianYinMusicGame_UIBP_C:UMapUIMarkBaseWidget

@@ -1,0 +1,1 @@
+---@class BP_Baltic_DoorMetallic_C:ABP_DoorNormal_C

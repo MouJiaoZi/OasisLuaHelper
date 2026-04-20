@@ -1,0 +1,1 @@
+---@class ItemSpawn_Desert_Revival_C:UItemSpawn_Desert_C

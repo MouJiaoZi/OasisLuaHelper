@@ -1,0 +1,3 @@
+---@class ECustomMoveMentMode
+---@field NewEnumerator0 int32
+---@field ECustomMoveMentMode_MAX int32

@@ -1,0 +1,44 @@
+---@class BP_ConstructPossessActorForUGCM_C:BP_ConstructActivityActorBaseForUGCM_C
+---@field CanLeavePossess:fun(NewParam:FClick_Param):bool
+---@field OnClickLeave:fun(NewParam:FClick_Param)
+---@field CanEnterPossess:fun(NewParam:FClick_Param):bool
+---@field OnClickEnter:fun(Click_Param:FClick_Param)
+---@field GetAnimState:fun(Pawn:ASTExtraBaseCharacter):HomelandInteractAnimStateForUGCM
+---@field GetPlayerIndex:fun(Pawn:ASTExtraBaseCharacter):int32
+---@field GetPosIndex:fun(Pos:FVector):int32
+---@field CheckBlock:fun(PC:APlayerController):bool
+---@field ByOrderLeave:fun(Pawn:APawn)
+---@field ByOrderEnter:fun(Point:USceneComponent,Pawn:APawn)
+---@field GetSingleAnim:fun():UAnimSequence
+---@field GetAvatarGender:fun(UAECharacter:AUAECharacter):ECharacterGender
+---@field CheckClosestPos:fun(TargetPos:FVector):bool
+---@field SwitchSitPointBlock:fun(Enable:bool,Sitpoint:USceneComponent)
+---@field UpdateAnimState:fun()
+---@field GetAnimStateListIndex:fun(Pawn:ASTExtraBaseCharacter):int32
+---@field ModifyPlayerAnimState:fun(Pawn:ASTExtraBaseCharacter,NewState:HomelandInteractAnimStateForUGCM)
+---@field DeletePlayerAnimState:fun(Pawn:ASTExtraBaseCharacter)
+---@field PostPossess:fun(bPossess:bool,Controller:ASTExtraPlayerController)
+---@field InitialPositionPoint:fun()
+---@field SetPossessMove:fun(IsPossess:bool,Controller:ASTExtraPlayerController)
+---@field UserConstructionScript:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field OnAnimStateChange:fun(Pawn:ASTExtraBaseCharacter,State:HomelandInteractAnimStateForUGCM)
+---@field ReceiveDestroyed:fun()
+---@field ResetState:fun()
+---@field Camera UCameraComponent
+---@field ActivitySpringArm UActivitySpringArmComponent
+---@field Point2Index ULuaMapHelper
+---@field PlayerAnimStateList ULuaArrayHelper
+---@field CanPossess bool
+---@field CharacterAttachPoint USceneComponent
+---@field ClosePlayerCollision bool
+---@field BlockIgnoreTags ULuaArrayHelper
+---@field SitPointCheckOffset FVector2D
+---@field OriginRotation FRotator
+---@field KeepCameraPos bool
+---@field ClosestPosCheck bool
+---@field MirrorScenePoint ULuaArrayHelper
+---@field MirrorState bool
+---@field CharacterArray ULuaArrayHelper
+---@field CachedCharacterArray ULuaArrayHelper
+---@field ActorUpdateCounter int32

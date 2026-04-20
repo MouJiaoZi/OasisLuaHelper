@@ -1,0 +1,1 @@
+---@class BP_NavQueryFilter_NoArea3_C:UNavigationQueryFilter

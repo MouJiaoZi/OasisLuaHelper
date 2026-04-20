@@ -1,0 +1,38 @@
+---@class BP_Kite_ItemHandle_C:UBackpackUsableVehicleHandle
+---@field RefreshDecoratedKiteNum:fun()
+---@field ShowForbidUseInRegionTip:fun(ItemID:int32,PC:AUAEPlayerController)
+---@field ProcessAfterEnterKiteSuccess:fun()
+---@field HandleCheckEnoughSpace:fun(SpawnTransform:FTransform):bool
+---@field GetSpawnVehicleTransform:fun(Pawn:APawn):FTransform
+---@field CheckSpaceOnVehicleUseItem:fun(SpawnKiteLocation:FVector):bool
+---@field CheckSpaceOnLandUseItem:fun():bool
+---@field UseKiteOnVehicle:fun()
+---@field CheckCharacterStateOnVehicle:fun():bool
+---@field UpdateSkillActive:fun(Active:bool)
+---@field TriggerSkill:fun()
+---@field HandleDisuse:fun(Reason:EBattleItemDisuseReason):bool
+---@field SetEnableToAdditionData:fun(Enabled:bool)
+---@field CanSpawnVehicle:fun():bool
+---@field HandleDrop:fun(InCount:int32,Reason:EBattleItemDropReason):bool
+---@field SpawnWrapperOnGround:fun()
+---@field ShowTimeOutTips:fun()
+---@field CreateTimeOutWariningTimer:fun()
+---@field CheckCharacterState:fun():bool
+---@field HandlePickup:fun(ItemContainer:TScriptInterface,PickupInfo:FBattleItemPickupInfo,Reason:EBattleItemPickupReason):bool
+---@field HandleUse:fun(Target:FBattleItemUseTarget,Reason:EBattleItemUseReason):bool
+---@field CheckTimeState:fun():bool
+---@field HandleEnable:fun(bEnable:bool):bool
+---@field OnExitVehicle:fun(Player:ASTExtraPlayerCharacter,SeatType:ESTExtraVehicleSeatType,IsSucc:bool)
+---@field OnSpawnVehicle:fun()
+---@field OwningCharacter ASTExtraBaseCharacter
+---@field TimeOutTipsID int32
+---@field TimeOutWarningMsgID int32
+---@field TimerHandle FTimerHandle
+---@field SoftWrapperClass UClass
+---@field OwningPC ASTExtraPlayerController
+---@field SpawnVehicleSkill UClass
+---@field SkillHandle UClass
+---@field PivotWhenUseSkill FVector
+---@field UseKiteCollisionRadius float
+---@field CollisionTestLength float
+---@field LocalKiteActorModel ADecorateKite

@@ -1,0 +1,10 @@
+---@class SP_Map_TabList_UIBP_C:UUAEUserWidget
+---@field RefreshExWidget:fun(bForceJump:bool):bool
+---@field ShowExWidget:fun():bool
+---@field HideExWidget:fun():bool
+---@field GetLuaModule:fun():FString
+---@field OnHideWidget:fun()
+---@field OnShowWidget:fun()
+---@field ReuseListSp ReuseListSp_C
+---@field ModeList ULuaMapHelper
+---@field ReloadItemIDs ULuaMapHelper

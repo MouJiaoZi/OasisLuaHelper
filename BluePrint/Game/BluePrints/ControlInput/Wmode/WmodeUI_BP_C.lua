@@ -1,0 +1,51 @@
+---@class WmodeUI_BP_C:UUAEUserWidget
+---@field UIMsg_WarModeUpdateScoreProgress:fun()
+---@field ShowWModeFirstTips:fun()
+---@field WarMode_ShowScoreBar:fun()
+---@field WarMode_HandleScoreChange:fun()
+---@field HideWarModeInfoTips:fun()
+---@field GetRespawnBattleTextByTeamAliveState:fun(HasTeammateAlive:bool):FText
+---@field SortTeamScorePercent:fun(MyTeam:float,EnemyTeam:float):float,float
+---@field SetHighScoreTeamPercent:fun(Percent:float)
+---@field Reconnect_ResetUIByPlayerControllerState:fun()
+---@field GetDisplayEnemyScore:fun(MyScore:int32,HightestScore:int32,FollowScore:int32):int32
+---@field ClearUIData:fun()
+---@field WarMode_UpdatreWinScore:fun()
+---@field FormatTimeString:fun(TimeSecond:float):FText,int32,int32
+---@field WarMode_UpdateScore:fun()
+---@field WarMode_UpdateRank:fun()
+---@field WarMode_UpdateRespawnCountDown:fun()
+---@field WarMode_UpdateGameOverCountDown:fun()
+---@field UpdateAllWarModeUI:fun()
+---@field ShowWarModeUI:fun()
+---@field ReceivedInitWidget:fun()
+---@field Tips_Anima UWidgetAnimation
+---@field CanvasPanel_2 UCanvasPanel
+---@field CanvasPanel_EnemyTeam UCanvasPanel
+---@field CanvasPanel_MyTeam UCanvasPanel
+---@field CanvasPanel_RankAndPoint UCanvasPanel
+---@field CanvasPanel_Rebirthtime UCanvasPanel
+---@field HorizontalBox_ReparachuteTime UHorizontalBox
+---@field ModeTips UCanvasPanel
+---@field MyTeamRank UTextBlock
+---@field ProgressBar_High_Team UProgressBar
+---@field ProgressBar_Low_Team UProgressBar
+---@field Rank UTextBlock
+---@field ReparachuteTimeTips UUTRichTextBlock
+---@field TextBlock_RebirthTime UTextBlock
+---@field TextBlock_Scores UTextBlock
+---@field TextBlock_Team2 UTextBlock
+---@field TextBlock_Time UTextBlock
+---@field TextBlock_TotalRank UTextBlock
+---@field TextBlock_TotalScores UTextBlock
+---@field UTRichTextBlock_Tips UUTRichTextBlock
+---@field WinScore int32
+---@field ScoreProgressBarHeight float
+---@field MyTeamScorePercent float
+---@field EnemyTeamScorePercent float
+---@field MyTeamScoreHeight float
+---@field EnemyTeamScoreHeight float
+---@field BattleTextTableName FString
+---@field WModeBattleTextIDArray ULuaArrayHelper
+---@field WModeBattleTextMap ULuaMapHelper
+---@field WarmodeInfoTipsShowTime float

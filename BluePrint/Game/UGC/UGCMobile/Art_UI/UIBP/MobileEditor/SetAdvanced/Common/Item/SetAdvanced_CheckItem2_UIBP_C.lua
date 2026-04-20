@@ -1,0 +1,7 @@
+---@class SetAdvanced_CheckItem2_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field Get_NewCheckBox_Select_CheckedState_0:fun():ECheckBoxState
+---@field Button_Mask UButton
+---@field NewCheckBox_Select UNewCheckBox
+---@field TextBlock_Title UTextBlock
+---@field UnSelectedSlateColor FSlateColor

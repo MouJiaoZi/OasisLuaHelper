@@ -1,0 +1,6 @@
+---@class PickUpListNewbieGuide_Tips01_UIBP_C:UNewbieGuideWidget
+---@field OnCreateAndShow:fun(GuideId:int32,UIConfigIndex:int32)
+---@field UTRichTextBlock_Tips14 UUTRichTextBlock
+---@field CountDownTime float
+---@field IsCountDown bool
+---@field CacheLeaderPlayerState ASTExtraPlayerState

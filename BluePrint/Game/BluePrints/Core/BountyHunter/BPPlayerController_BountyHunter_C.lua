@@ -1,0 +1,5 @@
+---@class BPPlayerController_BountyHunter_C:ABP_STExtraPlayerController_C
+---@field GetLuaModule:fun():FString
+---@field CheckDamageAndHasMechaByDefineID:fun(Type:int32,ItemID:int32,DamageEvent:FDamageEvent):bool
+---@field UserConstructionScript:fun()
+---@field BountyHunterRPCComponent BP_BountyHunterControllerComponent_C

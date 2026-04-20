@@ -1,0 +1,1 @@
+---@class BP_BRGameMode_HeavyWeaponTD_4V4_C:ABP_BRGameMode_TeamDeathMatch_4V4_C

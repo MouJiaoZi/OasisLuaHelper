@@ -1,0 +1,26 @@
+---@class NewTraining_Settlement_UIBP_C:UUAEUserWidget
+---@field DX_In UWidgetAnimation
+---@field Button_determine UNewButton
+---@field CanvasPanel_6 UCanvasPanel
+---@field CanvasPanel_7 UCanvasPanel
+---@field CanvasPanel_SettlementTips UCanvasPanel
+---@field DuelinteractiveBut_01 RingMatch_interactiveBut_UIBP_C
+---@field DuelinteractiveBut_02 RingMatch_interactiveBut_UIBP_C
+---@field DuelPlayer_01 Duel_PlayerGroup_UIBP_C
+---@field DuelPlayer_02 Duel_PlayerGroup_UIBP_C
+---@field NewButton_ComeAgain UNewButton
+---@field NewButton_edit UNewButton
+---@field NewButton_share UNewButton
+---@field NewTraining_Zan NewTraining_Zan_UIBP_C
+---@field TextBlock_0 UTextBlock
+---@field TextBlock_11 UTextBlock
+---@field TextBlock_12 UTextBlock
+---@field TextBlock_13 UTextBlock
+---@field TextBlock_CD1 UTextBlock
+---@field TextBlock_CD2 UTextBlock
+---@field TextBlock_SettlementTitle UTextBlock
+---@field WidgetSwitcher_BtnStatus1 UWidgetSwitcher
+---@field WidgetSwitcher_BtnStatus2 UWidgetSwitcher
+---@field WidgetSwitcher_Duel UWidgetSwitcher
+---@field WidgetSwitcher_DuelTitle UWidgetSwitcher
+---@field WidgetSwitcher_Wep UWidgetSwitcher

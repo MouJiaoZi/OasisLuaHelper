@@ -1,0 +1,9 @@
+---@class BP_STPlayerStateBorderland_C:ASTExtraPlayerStateBorderland
+---@field IsCanBeWatch:fun():bool
+---@field UserConstructionScript:fun()
+---@field UIEvent_BP_BDLWatchHelicopter__DelegateSignature:fun()
+---@field UIEvent_BDLWatchHelicopter__DelegateSignature:fun()
+---@field DefaultSceneRoot USceneComponent
+---@field BP_BDLWatchHelicopter AActor
+---@field UIEvent_BDLWatchHelicopter ULuaMulticastDelegate
+---@field UIEvent_BP_BDLWatchHelicopter ULuaMulticastDelegate

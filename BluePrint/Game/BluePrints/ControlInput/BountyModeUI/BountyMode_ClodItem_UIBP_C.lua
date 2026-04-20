@@ -1,0 +1,4 @@
+---@class BountyMode_ClodItem_UIBP_C:UUserWidget
+---@field Border_Color UBorder
+---@field TextBlock_GoldNum UTextBlock
+---@field WidgetSwitcher_GoldIcon UWidgetSwitcher

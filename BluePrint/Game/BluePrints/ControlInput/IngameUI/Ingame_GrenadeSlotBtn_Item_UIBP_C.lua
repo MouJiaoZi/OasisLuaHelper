@@ -1,0 +1,9 @@
+---@class Ingame_GrenadeSlotBtn_Item_UIBP_C:UUAEUserWidget
+---@field Border_GrenadeSlot UBorder
+---@field CanvasPanel_ColdModeInfo1 UCanvasPanel
+---@field GrenadeSlot1CountText UTextBlock
+---@field GrenadeSlot_Selected UImage
+---@field GrenadeSlotBG UImage
+---@field GrenadeSlotImage UImage
+---@field Image_Drone_Electricity1 UImage
+---@field NewButton_GrenadeSlotBtn UNewButton

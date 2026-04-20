@@ -1,0 +1,3 @@
+---@class WolfLevelDirector_C:AUAELevelDirector
+---@field UserConstructionScript:fun()
+---@field DefaultSceneRoot USceneComponent

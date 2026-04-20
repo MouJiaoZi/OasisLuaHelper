@@ -1,0 +1,4 @@
+---@class BP_MapMarkManagerActor_C:AActor
+---@field UserConstructionScript:fun()
+---@field BP_MapMarkActorComponent BP_MapMarkActorComponent_C
+---@field DefaultSceneRoot USceneComponent

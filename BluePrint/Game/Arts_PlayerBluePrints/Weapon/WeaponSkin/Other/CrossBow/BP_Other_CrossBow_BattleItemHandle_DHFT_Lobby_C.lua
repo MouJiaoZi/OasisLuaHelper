@@ -1,0 +1,1 @@
+---@class BP_Other_CrossBow_BattleItemHandle_DHFT_Lobby_C:UBackpackWeaponHandle

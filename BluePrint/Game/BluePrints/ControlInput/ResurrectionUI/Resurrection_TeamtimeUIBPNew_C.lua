@@ -1,0 +1,16 @@
+---@class Resurrection_TeamtimeUIBPNew_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field LuaOnPlayerRevivalTimeChanged:fun(RemainingRevivalTime:int32)
+---@field LuaInit:fun()
+---@field LuaPlayerRevivalStateChanged:fun(InRevivalState:bool,IsIDCapPick:bool,PlayAniAndSound:bool)
+---@field OnPlayerRevivalStateChanged:fun(InRevivalState:bool,IsIDCapPick:bool,PlayAniAndSound:bool)
+---@field OnPlayerRevivalTimeChanged:fun(RemainingRevivalTime:int32,MaxRevivalTime:int32)
+---@field UnBindEvent:fun()
+---@field BindEvent:fun()
+---@field RespawnInitWidget:fun()
+---@field DX_Locking UWidgetAnimation
+---@field DX_FlyID UWidgetAnimation
+---@field Text_Resurrection_Time UTextBlock
+---@field WidgetSwitcher_Resurrection UWidgetSwitcher
+---@field PlayerState ASTExtraPlayerState
+---@field Akevent UAkAudioEvent

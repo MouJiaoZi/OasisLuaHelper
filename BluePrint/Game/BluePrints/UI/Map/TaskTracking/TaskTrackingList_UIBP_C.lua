@@ -1,0 +1,15 @@
+---@class TaskTrackingList_UIBP_C:UUAEUserWidget
+---@field GetUnfinishedTracingTaskCount:fun():int32
+---@field UpdateTaskProcessData:fun(ItemData:FSeasonTaskUISingleItem):bool
+---@field UpdateTaskItemTotalData:fun(TaskMainBP:TaskTracking_UIBP_C,ItemData:FSeasonTaskUISingleItem,isInTracingList:bool,ItemIndex:int32)
+---@field Button_SwitchTracing UNewButton
+---@field Text_Content UTextBlock
+---@field Text_Process UTextBlock
+---@field WidgetSwitcher_schedule UWidgetSwitcher
+---@field WidgetSwitcher_Tracking UWidgetSwitcher
+---@field TaskID int32
+---@field WeekIndex int32
+---@field MainTaskBP TaskTracking_UIBP_C
+---@field bIsTracing bool
+---@field IndexInWeekList int32
+---@field IsTaskFinished bool

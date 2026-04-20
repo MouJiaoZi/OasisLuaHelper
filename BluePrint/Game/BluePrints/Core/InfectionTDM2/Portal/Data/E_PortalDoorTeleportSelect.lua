@@ -1,0 +1,4 @@
+---@class E_PortalDoorTeleportSelect
+---@field NewEnumerator0 int32
+---@field NewEnumerator1 int32
+---@field E_MAX int32

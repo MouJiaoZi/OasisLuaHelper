@@ -1,0 +1,3 @@
+---@class BP_DropItemAction_C:UUAESkillActionBP
+---@field OnRealDoAction:fun():bool
+---@field PID int32

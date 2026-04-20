@@ -1,0 +1,3 @@
+---@class Ingame_OnlookersVideo_Tips_UIBP_C:UUAEUserWidget
+---@field DX_Tips UWidgetAnimation
+---@field TextBlock_VideoTips UTextBlock

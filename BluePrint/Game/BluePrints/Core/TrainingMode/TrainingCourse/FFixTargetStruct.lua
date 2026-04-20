@@ -1,0 +1,6 @@
+---@class FFixTargetStruct
+---@field PTag int32
+---@field lerpMin float
+---@field lerpMax float
+---@field TypeMin int32
+---@field TypeMax int32

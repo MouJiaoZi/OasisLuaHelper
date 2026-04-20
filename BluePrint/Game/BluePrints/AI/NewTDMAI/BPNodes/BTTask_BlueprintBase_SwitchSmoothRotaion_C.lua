@@ -1,0 +1,1 @@
+---@class BTTask_BlueprintBase_SwitchSmoothRotaion_C:UBTTask_BlueprintBase

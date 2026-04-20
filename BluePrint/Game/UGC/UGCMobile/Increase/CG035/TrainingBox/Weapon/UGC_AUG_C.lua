@@ -1,0 +1,5 @@
+---@class UGC_AUG_C:AActor
+---@field UserConstructionScript:fun()
+---@field StaticMesh2 UStaticMeshComponent
+---@field StaticMesh4 UStaticMeshComponent
+---@field StaticMesh3 UStaticMeshComponent

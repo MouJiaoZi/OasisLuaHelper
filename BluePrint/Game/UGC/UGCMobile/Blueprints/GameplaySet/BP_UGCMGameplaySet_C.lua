@@ -1,0 +1,21 @@
+---@class BP_UGCMGameplaySet_C:AUGCMobileBaseActor
+---@field GetLuaModule:fun():FString
+---@field UserConstructionScript:fun()
+---@field UGCMGameplaySetShowDamage UGCMGameplaySetShowDamage_C
+---@field UGCMGamePlaySetDetailView UGCMGamePlaySetDetailView_C
+---@field UGCMGameplaySetDetailFragDamage UGCMGameplaySetDetailFragDamage_C
+---@field UGCMGameplaySetDetailMeleeDamage UGCMGameplaySetDetailMeleeDamage_C
+---@field UGCMGameplaySetDetailDamage UGCMGameplaySetDetailDamage_C
+---@field UGCMGameplaySetDetailHUD UGCMGameplaySetDetailHUD_C
+---@field UGCMGameplaySetDetailCharacter UGCMGameplaySetDetailCharacter_C
+---@field UGCMGameplaySetDetailRound UGCMGameplaySetDetailRound_C
+---@field UGCMGameplaySetDetailBase UGCMGameplaySetDetailBase_C
+---@field UGCMobilePropertyEditorComponent UGCMobilePropertyEditorComponent_C
+---@field DefaultSceneRoot USceneComponent
+---@field PropertyEditorCompClass UClass
+---@field ViewDetailCompClass UClass
+---@field MiniMapUIStyle UUserWidgetStyle
+---@field DecorationItemHideFlags ULuaArrayHelper
+---@field AreaActiveFlags ULuaArrayHelper
+---@field ItemDecoratorActiveInfo ULuaArrayHelper
+---@field ItemDecoratorActiveInfoPre ULuaMapHelper

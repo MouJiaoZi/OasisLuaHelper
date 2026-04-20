@@ -1,0 +1,1 @@
+---@class ItemSpawn_Forest_LightFactory_C:UItemSpawn_Forest_C

@@ -1,0 +1,1 @@
+---@class BP_DamageNumberHUD_C:UDamageNumberWidget

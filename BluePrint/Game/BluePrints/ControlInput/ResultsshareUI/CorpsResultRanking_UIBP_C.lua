@@ -1,0 +1,41 @@
+---@class CorpsResultRanking_UIBP_C:UUAEUserWidget
+---@field UpdateCorps:fun(battleResult:bp_battleresult_C):bool
+---@field GetCorpsIndex:fun():int32
+---@field On_ImageHideTips_MouseButtonDown_0:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field LoadTips:fun()
+---@field UpdateCorpsRankItem:fun(item:UUAEUserWidget,index:int32)
+---@field UpdateCorpsRank:fun()
+---@field UpdateBeatCorps:fun()
+---@field RefreshMyCorpsIcon:fun(icon:UObject)
+---@field UpdateCorpsResult:fun(battleResult:bp_battleresult_C)
+---@field Construct:fun()
+---@field DX_Rank UWidgetAnimation
+---@field BeatScrollBox UCustomScrollBox
+---@field BTReuseList_Rank BTReuseList_BP_C
+---@field Button_BeatTab UButton
+---@field Button_CorpsTab UButton
+---@field Button_MembersTab UButton
+---@field Button_QA UButton
+---@field icon_CorpsLevel UImage
+---@field Image_BeatTab UImage
+---@field Image_CorpsTab UImage
+---@field Image_MembersTab UImage
+---@field ImageHideTips UImage
+---@field MyCorpsIcon UImage
+---@field RT_BeatCorpsNum UUTRichTextBlock
+---@field ScoreTips4 UCanvasPanel
+---@field TB_BeatCorps UTextBlock
+---@field TB_CorpsLevel UTextBlock
+---@field TB_DefeatPlayerNum UTextBlock
+---@field TB_Feats UTextBlock
+---@field TB_MyCorpsName UTextBlock
+---@field TB_SurviveTime UTextBlock
+---@field TB_teamRank UTextBlock
+---@field TB_teamTotal UTextBlock
+---@field TB_TotalDamage UTextBlock
+---@field TextBlock_Tips UTextBlock
+---@field VB_MyCorps UVerticalBox
+---@field WS_Corps UWidgetSwitcher
+---@field myCorpsName FString
+---@field sortDefeatedCorps ULuaArrayHelper
+---@field battleResultLua bp_battleresult_C

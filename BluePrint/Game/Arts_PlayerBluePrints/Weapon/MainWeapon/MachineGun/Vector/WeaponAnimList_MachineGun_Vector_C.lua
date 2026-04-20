@@ -1,0 +1,1 @@
+---@class WeaponAnimList_MachineGun_Vector_C:UUAECharacterAnimListComponent

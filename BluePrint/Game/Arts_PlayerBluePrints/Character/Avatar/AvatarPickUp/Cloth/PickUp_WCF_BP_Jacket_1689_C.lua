@@ -1,0 +1,3 @@
+---@class PickUp_WCF_BP_Jacket_1689_C:APickUpWrapperActor
+---@field UserConstructionScript:fun()
+---@field Bag_03_icon UStaticMeshComponent

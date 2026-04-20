@@ -1,0 +1,4 @@
+---@class bp_newer_guide_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_Newer_Guide_Selected_Type int32

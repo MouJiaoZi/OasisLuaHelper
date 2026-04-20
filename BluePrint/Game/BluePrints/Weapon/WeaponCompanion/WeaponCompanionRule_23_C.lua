@@ -1,0 +1,9 @@
+---@class WeaponCompanionRule_23_C:UBP_WeaponCompanionRuleBase_C
+---@field OnInit:fun()
+---@field OnRemove:fun()
+---@field OnTringgerEvent:fun(eventType:EWeaponsCompanionVoiceEvent,eventParam:UObject)
+---@field RegisterIndoorCharacter ASTExtraPlayerCharacter
+---@field Indoor bool
+---@field PickupCount int32
+---@field NeedPickupCount int32
+---@field FlareGunIDSet ULuaSetHelper

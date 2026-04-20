@@ -1,0 +1,54 @@
+---@class ReplayComplete_UIBP_C:UReplayWidgetComplete
+---@field UpdateFollowUIOnReplay:fun()
+---@field CheckSignalBar:fun()
+---@field UpdatePlayTime:fun()
+---@field GetGameType:fun()
+---@field Update_Vehicle_Total:fun()
+---@field Update_Vehicle_Speed:fun(SpeedValue:float)
+---@field InitMainBaseUI:fun()
+---@field Update_TotalFunc:fun()
+---@field On_PlayerInfoUpdateHP:fun()
+---@field OnWidgetInitialize:fun()
+---@field OnWidgetReInit:fun()
+---@field ForceRefreshUI:fun()
+---@field UpdateBulletUI:fun()
+---@field RefreshNearByList_BP:fun()
+---@field UpdateWeaponUI:fun()
+---@field RefreshAllList_BP:fun()
+---@field SetUIGroupState:fun(inUIGroupIndex:EReplayUIGroupType,bIsShow:bool)
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field OnInitChildWidget:fun()
+---@field Construct:fun()
+---@field RefreshUIInfoOnAttachCameraViewFinished:fun()
+---@field SetupUIRoot_BP:fun()
+---@field OnResetViewTarget_BP:fun(inSettingInfo:FOnReplaySetViewTarget)
+---@field RefreshHeadMarkData:fun(PlayerList:ULuaArrayHelper)
+---@field OpenEntireMap:fun()
+---@field CloseEntireMap:fun()
+---@field SetSignalReceivingAreaTipsVisible:fun(bIsShow:bool)
+---@field SetSkillPromptVisible:fun(bIsShow:bool)
+---@field ReceiveUseWeseeStyle:fun()
+---@field ResetPlayerInfoWidget:fun(ViewedPlayerPawn:APawn)
+---@field MoveMapCenterOnPoint:fun(TargetPoint:FVector2D)
+---@field ScaleEntireMap:fun(fFactor:float)
+---@field SetPlayerInfoWidgetVisible:fun(bIsShow:bool,TargetIndex:uint8)
+---@field CanvasPanel_DistanceUI UCanvasPanel
+---@field CanvasPanel_PlayerInfo UCanvasPanel
+---@field CanvasPanel_Root UCanvasPanel
+---@field CanvasPanel_Tab UCanvasPanel
+---@field CanvasPanel_time UCanvasPanel
+---@field CanvasPanel_Vehicle UCanvasPanel
+---@field ReplayComplete_Tab ReplayComplete_Tab_C
+---@field SpeedValues UTextBlock
+---@field TabButton UButton
+---@field Text_GameType UTextBlock
+---@field Text_PassTime UTextBlock
+---@field WatchGame_PlayerInfo_UIBP WatchGame_PlayerInfo_UIBP_C
+---@field VoiceCheckObject UIVoiceCheckObject_C
+---@field PlayerNameStr FString
+---@field Playback_TeamID int32
+---@field EnemyPlayerStateMap ULuaMapHelper
+---@field MainControlBaseUI_Ref MainControlBaseUI_C
+---@field MainTouchPanelTouchBtn_Ref MainControlPanelTochButton_C
+---@field EnemyPawnCount int32
+---@field bIsEnableVehicleUI bool

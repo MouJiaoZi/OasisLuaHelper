@@ -1,0 +1,1 @@
+---@class ItemSpawn_Forest_Revival_C:UItemSpawn_Forest_C

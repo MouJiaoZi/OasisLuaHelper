@@ -1,0 +1,10 @@
+---@class BattleItemHandle_Grenade_C:UWeaponSkillItemHandleBase_BP_C
+---@field GetSkillsConfigs:fun():ULuaArrayHelper
+---@field HandleDrop:fun(InCount:int32,Reason:EBattleItemDropReason):bool
+---@field HandlePickup:fun(ItemContainer:TScriptInterface,PickupInfo:FBattleItemPickupInfo,Reason:EBattleItemPickupReason):bool
+---@field HandleDisuse:fun(Reason:EBattleItemDisuseReason):bool
+---@field HandleUse:fun(Target:FBattleItemUseTarget,Reason:EBattleItemUseReason):bool
+---@field Init:fun(InDefineID:FItemDefineID)
+---@field WrapperClass UClass
+---@field SpecificLogicSlot FName
+---@field bAvatarHandle bool

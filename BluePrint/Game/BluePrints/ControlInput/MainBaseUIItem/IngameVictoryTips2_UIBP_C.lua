@@ -1,0 +1,28 @@
+---@class IngameVictoryTips2_UIBP_C:UUAEUserWidget
+---@field ShowVictoryFlag:fun():bool
+---@field CountDownWin:fun(delta:float)
+---@field CountDownComfirm:fun(B:float)
+---@field ContinueFighting:fun()
+---@field UIMsg_ShowWinTipsNew:fun()
+---@field PlayerStateChange:fun()
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field DX_Victory UWidgetAnimation
+---@field DX_VictoryTips UWidgetAnimation
+---@field Border_Tips1 UBorder
+---@field Button_quit UButton
+---@field Button_yesgoon UButton
+---@field CanvasPanel_Tips2 UCanvasPanel
+---@field CanvasPanel_Tips3 UCanvasPanel
+---@field NewButton_Continu UNewButton
+---@field NewButton_End UNewButton
+---@field TextBlock_ContinuGame UTextBlock
+---@field TipsTB UTextBlock
+---@field TX_Tipsquit UTextBlock
+---@field startCountDown bool
+---@field CountDownTime float
+---@field CountSec int32
+---@field bClickedShowTips bool
+---@field WinCountDown bool
+---@field CountWin float
+---@field CountWinSec int32
+---@field CountDownCanQuit float

@@ -1,0 +1,24 @@
+---@class BackpackBlueprintUtils_BP_C:UBackpackBlueprintUtils
+---@field GetBattleTextByID_UseCache:fun(ID:int32):FString
+---@field CovertToLobbyHandlePath:fun(InPath:FString):FString
+---@field GetOverrideItemDescByNoSignal:fun(ItemID:int32,GameState:AGameStateBase):FString
+---@field ReloadPakResID:fun(ResID:int32):int32
+---@field GetWeaponSupportAttachResID:fun(weaponID:int32):ULuaArrayHelper
+---@field GetWeaponAttachPosByResID:fun(resID:int32):EWeaponAttachmentSocketType
+---@field ModifySetting:fun()
+---@field ModifyPickupSetting:fun()
+---@field ModifyBulletAndMedician:fun()
+---@field AddToWeaponAttachPos:fun(attachID:int32,socket:EWeaponAttachmentSocketType)
+---@field InitItemTable:fun()
+---@field GetBPTableName:fun(Type:int32,TypeSpecificID:int32):FString
+---@field CreateBattleItemHandle_Character:fun(Outer:UObject):UBattleItemHandleBase
+---@field CreateBattleItemHandle_Default:fun(Type:int32,ID:int32,Outer:UObject):UBattleItemHandleBase
+---@field EmptyAdditionalData ULuaArrayHelper
+---@field EmptyAssociationMap ULuaMapHelper
+---@field EmptyAssociationArray ULuaArrayHelper
+---@field CharacterVirtualItem_Type int32
+---@field CharacterVirtualItem_TypeSpecificID int32
+---@field BattleTextTypeAndIDMap ULuaMapHelper
+---@field NoSignalItemDescOverrideMsgIDMap ULuaMapHelper
+---@field BattleTextCacheByID ULuaMapHelper
+---@field BattleWeaponItemDisplayDataCacheByTypeID ULuaMapHelper

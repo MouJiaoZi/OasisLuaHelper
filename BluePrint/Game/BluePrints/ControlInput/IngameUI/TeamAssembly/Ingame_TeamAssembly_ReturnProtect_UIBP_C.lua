@@ -1,0 +1,4 @@
+---@class Ingame_TeamAssembly_ReturnProtect_UIBP_C:UUAEUserWidget
+---@field DX_In UWidgetAnimation
+---@field CanvasPanel_TopBG UCanvasPanel
+---@field TextBlock_Des UTextBlock

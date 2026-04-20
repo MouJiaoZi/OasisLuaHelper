@@ -1,0 +1,1 @@
+---@class BP_Pistol_FN57_BattleItemHandle_SHV_Lobby_C:UBackpackWeaponHandle

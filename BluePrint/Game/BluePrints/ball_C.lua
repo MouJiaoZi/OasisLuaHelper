@@ -1,0 +1,4 @@
+---@class ball_C:AActor
+---@field UserConstructionScript:fun()
+---@field Sphere UStaticMeshComponent
+---@field DefaultSceneRoot USceneComponent

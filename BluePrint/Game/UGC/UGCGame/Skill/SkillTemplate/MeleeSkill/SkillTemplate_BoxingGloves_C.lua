@@ -1,0 +1,1 @@
+---@class SkillTemplate_BoxingGloves_C:PESkillTemplate_Base_C

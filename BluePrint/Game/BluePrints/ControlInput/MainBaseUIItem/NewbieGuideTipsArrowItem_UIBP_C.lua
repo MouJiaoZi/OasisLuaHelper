@@ -1,0 +1,3 @@
+---@class NewbieGuideTipsArrowItem_UIBP_C:UMonsterWarningWidget
+---@field Construct:fun()
+---@field ReceivedInitWidget:fun()

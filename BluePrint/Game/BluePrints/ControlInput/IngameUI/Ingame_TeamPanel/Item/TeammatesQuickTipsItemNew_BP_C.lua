@@ -1,0 +1,20 @@
+---@class TeammatesQuickTipsItemNew_BP_C:UObjectPositionExWidget
+---@field UpdateItemVisable:fun()
+---@field UpdateShowTime:fun()
+---@field RefreshIcon:fun(intpuObj:UObject)
+---@field LoadItemImage:fun()
+---@field ShowItem:fun()
+---@field HideItem:fun()
+---@field Event_SetExParam:fun(InParam:int32)
+---@field Event_InitParamEnd:fun()
+---@field ImageDefault UImage
+---@field ImageItem UImage
+---@field PanelItem UCanvasPanel
+---@field TextBlock_Distance2 UTextBlock
+---@field WidgetSwitcher_TipsType UWidgetSwitcher
+---@field duration float
+---@field ItemResID int32
+---@field ShowItemResID int32
+---@field FlagDuration ULuaArrayHelper
+---@field MaxAlpha ULuaArrayHelper
+---@field MinAlpha ULuaArrayHelper

@@ -1,0 +1,1 @@
+---@class BattleItemHandle_WeaponAttachment_C:UBattleItemHandleBase_BP_C

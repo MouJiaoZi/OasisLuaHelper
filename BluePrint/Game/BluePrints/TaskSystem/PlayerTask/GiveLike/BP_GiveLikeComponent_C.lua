@@ -1,0 +1,23 @@
+---@class BP_GiveLikeComponent_C:UTaskControllerComponent
+---@field GetOperationIDFromMgr:fun():int32
+---@field GetDataFromGiveLikeMgr:fun(TaskID:int32,ExcellentType:int32):int32,int32,int32
+---@field OnOBLikeTaskTaskDone:fun(TaskID:int32,ExcellentType:int32,NewTaskID:int32,OperationID:int32)
+---@field OnTeammateLikeTaskDone:fun(TaskID:int32,ExcellentType:int32,NewTaskID:int32,OperationID:int32)
+---@field GetPlayerInfo:fun():FString,FString,FString
+---@field OnTeamTaskDoneNotify:fun(TaskID:int32,OperationID:int32)
+---@field GetNewTaskID:fun(TaskID:int32):int32,uint8
+---@field OnPlayerTaskDoneNotify:fun(TaskID:int32)
+---@field IsClient:fun():bool
+---@field OnRescueFinished:fun(Pawn:ASTExtraBaseCharacter)
+---@field InitPersonalInfo:fun()
+---@field InitTeamInfo:fun()
+---@field ReceiveBeginPlay:fun()
+---@field OnTaskDoneNotify:fun(TaskId:int32)
+---@field ExcellentType FName
+---@field PlayerEventInstanceID UNetAlienationData
+---@field WhenBeRescuedTaskID int32
+---@field PlayerIDInTeam int32
+---@field GiveLikeNetDataInstanceID int32
+---@field IsClicked bool
+---@field GiveLikeType int32
+---@field GiveLikeIsOB bool

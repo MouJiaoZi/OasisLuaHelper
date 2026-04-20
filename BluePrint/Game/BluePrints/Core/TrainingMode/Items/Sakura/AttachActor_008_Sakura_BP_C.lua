@@ -1,0 +1,4 @@
+---@class AttachActor_008_Sakura_BP_C:AActor
+---@field UserConstructionScript:fun()
+---@field StaticMesh UStaticMeshComponent
+---@field DefaultSceneRoot USceneComponent

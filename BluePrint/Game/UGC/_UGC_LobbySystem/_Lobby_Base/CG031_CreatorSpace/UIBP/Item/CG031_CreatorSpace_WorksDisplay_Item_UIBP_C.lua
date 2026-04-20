@@ -1,0 +1,15 @@
+---@class CG031_CreatorSpace_WorksDisplay_Item_UIBP_C:UUAEUserWidget
+---@field CanvasPanel_Feedback UCanvasPanel
+---@field CanvasPanel_Select UCanvasPanel
+---@field HorizontalBox_HotPlay UHorizontalBox
+---@field Image_Bg UImage
+---@field Image_HotPlay UImage
+---@field Image_RedDot UImage
+---@field ImageEx_Icon UImageEx
+---@field NewButton_Select UNewButton
+---@field Oasis_Newlabel_UIBP Oasis_Newlabel_UIBP_C
+---@field Text_Name UTextBlock
+---@field TextBlock_HotPlay UTextBlock
+---@field TextBlock_New UTextBlock
+---@field TextBlock_Total UTextBlock
+---@field WidgetSwitcher_Feedback UWidgetSwitcher

@@ -1,0 +1,3 @@
+---@class BP_BattleRoyaleGameModeSurvivalPUBG_C:ABP_BattleRoyaleGameModeSurvival_C
+---@field UserConstructionScript:fun()
+---@field AirDrop UAirDropComponent

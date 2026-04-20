@@ -1,0 +1,1 @@
+---@class BattleItemHandle_IPDL_BP_Jacket_1773_C:BattleItemHandle_AvatarBP_C

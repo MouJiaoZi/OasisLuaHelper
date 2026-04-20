@@ -1,0 +1,83 @@
+---@class ControlCarUI_UIBP_C:UUAEUserWidget
+---@field ExitUAV:fun():bool
+---@field EnterUAV:fun():bool
+---@field OnUnManedVehicleFuelChanged_Inf:fun():bool
+---@field OnUnmanedVehicleHPChanged_Inf:fun():bool
+---@field HideSingleOperateMode:fun():bool
+---@field ShowSingleOperateMode:fun():bool
+---@field ShowOperateUI:fun():bool
+---@field HideOperateUI:fun():bool
+---@field UpdateSpeedHeight:fun(speed:float,height:float):bool
+---@field UAVStateChange:fun():bool
+---@field ProcessSingleOperateMode:fun():bool
+---@field SetVehicleControlPanel:fun(vehicleControlPanel:UUAEUserWidget):bool
+---@field UIMsg_UAVStateChanged:fun()
+---@field UpdateSpeed:fun(speed:float)
+---@field UpdateFuel:fun(curFuel:float,maxFuel:float)
+---@field UpdateHP:fun(curHP:float,maxHP:float)
+---@field UIMsg_UnmanedVehicleFuelChanged:fun()
+---@field UIMsg_UnmanedVehicleHPChanged:fun()
+---@field UIMsg_ShutDownUAV:fun()
+---@field UIMsg_ExitUAV:fun()
+---@field HideUI:fun()
+---@field ClickFPPMode:fun(flag:bool)
+---@field CheckFPPMode:fun(flag:bool)
+---@field UIMsg_PersonPerspectiveChanged:fun()
+---@field onScopeSliderChanged:fun(factor:float)
+---@field GetVehicleUser:fun():BP_VehicleUser_C
+---@field NowVehicleIsTelecar:fun():bool
+---@field OnLocalSignalChange:fun(curSignal:float,preSignal:float,ratio:float)
+---@field GetTelecar:fun():ASTExtraTelecarVehicle
+---@field InitUI:fun()
+---@field ShowUI:fun()
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field selfDestructCD UWidgetAnimation
+---@field readyLoop UWidgetAnimation
+---@field Border_FPP_TPP UBorder
+---@field Button_SwitchPMode UButton
+---@field Canvas_FPPModeControl UCanvasPanel
+---@field CanvasPanel_20 UCanvasPanel
+---@field CanvasPanel_Car_Focus UCanvasPanel
+---@field CanvasPanel_Car_Level2 UCanvasPanel
+---@field CanvasPanel_PMode UCanvasPanel
+---@field CanvasPanel_Ready UCanvasPanel
+---@field CDMask UCanvasPanel
+---@field distance_warn UImage
+---@field DriveDown UButton
+---@field DriveLeft UButton
+---@field DriveRight UButton
+---@field DriveUp UButton
+---@field electri_warn_2 UImage
+---@field GridPanel_ReloadBtn UCanvasPanel
+---@field hp_warn_1 UImage
+---@field MultiLayer_PMode UCanvasPanel
+---@field NewButton_Blast UNewButton
+---@field NewButton_Callback UNewButton
+---@field NewButton_Car_Leave UNewButton
+---@field NewButton_Return UNewButton
+---@field NewButton_Standby UNewButton
+---@field ProgressBar_Car_Electricity UProgressBar
+---@field ProgressBar_Car_HP UProgressBar
+---@field ReloadBtnBGImage UImage
+---@field ReloadCDBar UImage
+---@field ReloadCountDownTextBlock UTextBlock
+---@field Text_Distance UTextBlock
+---@field Text_Distance_Num UTextBlock
+---@field Text_Electricity UTextBlock
+---@field Text_HP UTextBlock
+---@field Text_Speed_Num UTextBlock
+---@field TextBlock_Electricity UTextBlock
+---@field TextBlock_HP UTextBlock
+---@field TextBlock_PmodeName UTextBlock
+---@field TextBlock_ThrowingTime UTextBlock
+---@field ThrowTimeInfo UCanvasPanel
+---@field Zoom_Uav_Focus USlider
+---@field bInit bool
+---@field lastShowSignalTips float
+---@field lastShowDistanceWarning float
+---@field lastThirdViewFov float
+---@field bFPP bool
+---@field whiteColor FSlateColor
+---@field redColor FSlateColor
+---@field lastPercent float
+---@field selfDestructLeftTime float

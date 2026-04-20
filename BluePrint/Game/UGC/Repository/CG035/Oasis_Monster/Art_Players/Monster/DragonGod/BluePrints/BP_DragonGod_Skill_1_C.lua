@@ -1,0 +1,1 @@
+---@class BP_DragonGod_Skill_1_C:PESkillTemplate_Base_C

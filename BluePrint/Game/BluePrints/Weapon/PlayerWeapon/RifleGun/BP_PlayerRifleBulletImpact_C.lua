@@ -1,0 +1,3 @@
+---@class BP_PlayerRifleBulletImpact_C:ASTEShootWeaponBulletImpactEffect
+---@field UserConstructionScript:fun()
+---@field DefaultSceneRoot USceneComponent

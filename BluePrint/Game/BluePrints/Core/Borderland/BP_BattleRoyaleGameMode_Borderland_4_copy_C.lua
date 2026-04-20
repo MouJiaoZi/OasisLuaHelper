@@ -1,0 +1,13 @@
+---@class BP_BattleRoyaleGameMode_Borderland_4_copy_C:ABattleRoyaleGameModeBorderland
+---@field IsEnableTeamAssembleDisplay:fun():bool
+---@field UserConstructionScript:fun()
+---@field SpawnMonsterHelperComp1 USpawnMonsterHelperComp
+---@field SpawnMonsterHelperComp USpawnMonsterHelperComp
+---@field AIGridLocationManager UAIGridLocationManagerComponent
+---@field AirAttack UAirAttackComponent
+---@field AirDrop UAirDropComponent
+---@field CircleMgr UCircleMgrComponent
+---@field BP_WeatherGeneratorComponent BP_WeatherGeneratorComponent_C
+---@field DefaultSceneRoot USceneComponent
+---@field AirCraftLocation ULuaArrayHelper
+---@field AirCraftRotation ULuaArrayHelper

@@ -1,0 +1,5 @@
+---@class BP_PlayerRifleGunWrapper_C:APickUpWrapperActor
+---@field UserConstructionScript:fun()
+---@field StaticMesh UStaticMeshComponent
+---@field SM_M4A1 UStaticMeshComponent
+---@field DefaultSceneRoot USceneComponent

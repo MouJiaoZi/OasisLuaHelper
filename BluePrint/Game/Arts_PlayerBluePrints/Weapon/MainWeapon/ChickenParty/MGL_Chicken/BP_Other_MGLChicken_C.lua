@@ -1,0 +1,18 @@
+---@class BP_Other_MGLChicken_C:BP_ShootWeaponProjectileBase_C
+---@field UserConstructionScript:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field OnWeaponMagOut:fun()
+---@field OnWeaponMagIn:fun()
+---@field BP_OnWeaponReloadStart:fun()
+---@field BP_OnWeaponReloadEnd:fun()
+---@field WeaponAnimList_Other_MGLChicken WeaponAnimList_Other_MGLChicken_C
+---@field ST_WEP_MGL140_DeviceReload UStaticMeshComponent
+---@field WeaponPostReloadState UWeaponPostReloadState
+---@field SK_WEP_MGL140_Mag USkeletalMeshComponent
+---@field ST_Mag UStaticMeshComponent
+---@field bUseIdleAnim_0 bool
+---@field CurMagRotSpeed float
+---@field MagRollDegreeOnShot float
+---@field MagRollSpeed float
+---@field TargetMagRollDegree float
+---@field EmptyMagReloadShowTime float

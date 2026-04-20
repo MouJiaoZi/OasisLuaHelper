@@ -1,0 +1,7 @@
+---@class HeavyWeaponSecretRoomGroup_C:AUAEHouseActor
+---@field UserConstructionScript:fun()
+---@field Outside_stack_001 UStaticMeshComponent
+---@field SecretRoom_2 BP_WerewolfBoxSpotComponent_C
+---@field SecretRoom_1 BP_WerewolfBoxSpotComponent_C
+---@field BP_SecretRoomGroupSceneComponent BP_WerewolfBoxGroupSceneComponent_C
+---@field DefaultSceneRoot USceneComponent

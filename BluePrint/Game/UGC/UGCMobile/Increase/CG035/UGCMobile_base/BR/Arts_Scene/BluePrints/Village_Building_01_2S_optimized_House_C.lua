@@ -1,0 +1,3 @@
+---@class Village_Building_01_2S_optimized_House_C:BP_UGCMobileHouseBase_C
+---@field UserConstructionScript:fun()
+---@field StaticMesh UStaticMeshComponent

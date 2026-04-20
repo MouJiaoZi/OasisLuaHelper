@@ -1,0 +1,3 @@
+---@class Ring_OBPlayerID_UIBP_C:UPlayerCharacterPositionWidget
+---@field Event_SetExParam:fun(InParam:int32)
+---@field WidgetSwitcher_PlayerID UWidgetSwitcher

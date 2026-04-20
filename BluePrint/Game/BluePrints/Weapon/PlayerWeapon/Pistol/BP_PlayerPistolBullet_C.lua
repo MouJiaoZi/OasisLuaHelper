@@ -1,0 +1,3 @@
+---@class BP_PlayerPistolBullet_C:ASTExtraShootWeaponBulletBase
+---@field UserConstructionScript:fun()
+---@field BulletMesh UStaticMeshComponent

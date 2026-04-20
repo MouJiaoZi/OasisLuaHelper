@@ -1,0 +1,27 @@
+---@class GM_34SnowWorld_C:UUserWidget
+---@field GetLuaModule:fun():FString
+---@field CreateAllBtn:fun()
+---@field RenameAndHiddenBtn:fun()
+---@field BindButtonWithIndex:fun(button:UButton,index:int32)
+---@field OnBtnClick:fun(Index:int32)
+---@field InitOptionWithVersion:fun()
+---@field ExecCommand:fun(Command:FString)
+---@field SplitAndExecCommands:fun(Commands:FString)
+---@field Construct:fun()
+---@field Btn_Close UButton
+---@field Btn_Hide UButton
+---@field Btn_Show UButton
+---@field GridPanel_0 UGridPanel
+---@field MainCanvasPanel_1 UCanvasPanel
+---@field TextBlock_2 UTextBlock
+---@field VersionSelectComboBox UComboBoxString
+---@field VerticalBox_Main UVerticalBox
+---@field VerticalBox_Visibility UVerticalBox
+---@field Rows ULuaArrayHelper
+---@field LoadedCommands ULuaArrayHelper
+---@field LoadedTips ULuaArrayHelper
+---@field Version int32
+---@field Versions ULuaArrayHelper
+---@field VerticalBoxList ULuaArrayHelper
+---@field BtnVolumnNum int32
+---@field BtnRowNum int32

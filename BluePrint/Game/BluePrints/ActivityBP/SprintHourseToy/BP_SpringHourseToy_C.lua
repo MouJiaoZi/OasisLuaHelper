@@ -1,0 +1,29 @@
+---@class BP_SpringHourseToy_C:AHorseToyActor
+---@field CanTrigger:fun(InController:APlayerController,Param:ULuaArrayHelper):bool
+---@field GetSpline:fun():USplineComponent
+---@field IsCharacterAttached:fun(param:FGISCCF_Param):bool
+---@field UserConstructionScript:fun()
+---@field OnExecute:fun(InController:APlayerController,Param:ULuaArrayHelper)
+---@field OnReceiveCUstomMessage:fun(InController:APlayerController,Param:ULuaArrayHelper)
+---@field OnTouchStartPoint:fun(force:float)
+---@field Camera UCameraComponent
+---@field STExtraSpringArm USTExtraSpringArmComponent
+---@field SprintHourseStaticMesh UStaticMeshComponent
+---@field BP_SpringHourse_Spline UChildActorComponent
+---@field Box UBoxComponent
+---@field SK_Prop_SpringToy USkeletalMeshComponent
+---@field GISActorComponentBase UGISActorComponentBase
+---@field AttachPlayerTo UAttachPlayerToComponent
+---@field DefaultSceneRoot USceneComponent
+---@field AttachParamName FName
+---@field SpeedUpAnimationRate float
+---@field SpeedDownTime float
+---@field ForwardSpeedStep float
+---@field GoalTolerance float
+---@field JustDetachedPlayers ULuaArrayHelper
+---@field SplineComp USplineComponent
+---@field ForwardSFX UAkAudioEvent
+---@field Idle UAkAudioEvent
+---@field Speedup UAkAudioEvent
+---@field AttachAKEventID int32
+---@field Forwarding UAkAudioEvent

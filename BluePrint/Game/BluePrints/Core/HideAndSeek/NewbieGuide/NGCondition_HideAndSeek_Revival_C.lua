@@ -1,0 +1,2 @@
+---@class NGCondition_HideAndSeek_Revival_C:USTNewbieGuideConditionBase
+---@field GetLuaModule:fun():FString

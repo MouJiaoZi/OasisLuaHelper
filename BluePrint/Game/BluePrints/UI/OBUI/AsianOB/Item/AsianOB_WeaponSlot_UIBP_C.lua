@@ -1,0 +1,80 @@
+---@class AsianOB_WeaponSlot_UIBP_C:UUAEUserWidget
+---@field DownloadImage:fun()
+---@field SetBlankWeaponBulletNum:fun(weaponslot:ESurviveWeaponPropSlot)
+---@field HandleBlankWeapon:fun(weapon:UWeaponManagerComponent)
+---@field SetBlankWeapon:fun(weapon:UWeaponManagerComponent)
+---@field GetCilpBulletNum:fun(WeaponSlot:ESurviveWeaponPropSlot):int32
+---@field SetSecBulletNumText:fun(Weapom:ASTExtraWeapon)
+---@field OnViewTargetDetachedFromVehicle:fun()
+---@field OnViewTargetAttachedToVehicle:fun()
+---@field OnOBPlayerWeaponChanged:fun()
+---@field OnOBPlayerBulletChanged:fun()
+---@field OnOBPlayerItemChanged:fun()
+---@field OnOBRefreshBackpackBullet:fun()
+---@field SetClipBullet:fun(WeaponSlot:ESurviveWeaponPropSlot,TargetSlot:AsianOB_WeaponSlotItem_UIBP_C)
+---@field ChangeWeaponSlot:fun(Slot1:ESurviveWeaponPropSlot,Slot2:ESurviveWeaponPropSlot)
+---@field SetWeaponIcon:fun(Weapon:ASTExtraWeapon,WeaponSlot:AsianOB_WeaponSlotItem_UIBP_C,IsDrive:bool)
+---@field Image2CallBack:fun(obj:UObject)
+---@field HandleOtherWeapon:fun(Manager:UWeaponManagerComponent)
+---@field HandleSubWeapon:fun(Manager:UWeaponManagerComponent)
+---@field HandleSecWeapon:fun(Manager:UWeaponManagerComponent)
+---@field HandleMainWeapon:fun(Manager:UWeaponManagerComponent)
+---@field HandleThrownWeapon:fun(Manager:UWeaponManagerComponent)
+---@field SetBackPackBullet:fun(WeaponSlot:ESurviveWeaponPropSlot):int32,int32
+---@field ImageIconCallback:fun(obj:UObject)
+---@field SetWeapon2Icon:fun(Weapon:ASTExtraWeapon,WeaponSlot:AsianOB_WeaponSlotItem_UIBP_C,isDrive:bool)
+---@field SetTotalBullet:fun()
+---@field SetSecWeapon:fun()
+---@field SetMainWeapon:fun(WeaponManger:UWeaponManagerComponent)
+---@field SetShootScore:fun()
+---@field SetWeaponInfo:fun()
+---@field SetPlayerTeamInfo:fun()
+---@field ShowPlayerInfo:fun(TeamLowData:FAsianTeamInfoLowFrequency,OBCharacter:APawn)
+---@field PlayerHeadListRefreshOBData:fun(MapPlayerList:ULuaArrayHelper,ObservedPlayer:FObservedData,Force:bool)
+---@field ReceiveUseWeseeStyle:fun()
+---@field SetPlayerInfoPlayerStausVisible:fun(bIsShow:bool)
+---@field SetPlayerInfoPlayerBackpackVisible:fun(bIsShow:bool)
+---@field CreateSignalBarWidget:fun()
+---@field Construct:fun()
+---@field ResetPlayerInfo:fun(PlayerPawn:APawn)
+---@field ReceivedInitWidget:fun()
+---@field AsianOB_Weapon01 AsianOB_WeaponSlotItem_UIBP_C
+---@field AsianOB_Weapon02 AsianOB_WeaponSlotItem_UIBP_C
+---@field Border_Bullet UBorder
+---@field Border_Oil UBorder
+---@field CanvasPanel_Info_01 UCanvasPanel
+---@field CanvasPanel_Info_02 UCanvasPanel
+---@field CanvasPanel_TeamInfo UCanvasPanel
+---@field Image_bg UImage
+---@field Image_Name_BG UImage
+---@field Image_NewTeamNameBG UImage
+---@field Image_PlayerMakeupPic UImage
+---@field Image_TeamLogo UImage
+---@field Image_TeamLogo_BG UImage
+---@field PlayerMakeupCanvans UCanvasPanel
+---@field TextBlock_Bullet UTextBlock
+---@field TextBlock_BulletNum UTextBlock
+---@field TextBlock_CrtPlayerName UTextBlock
+---@field TextBlock_Desc UTextBlock
+---@field TextBlock_KilledNum UTextBlock
+---@field TextBlock_Oil UTextBlock
+---@field TextBlock_OilNum UTextBlock
+---@field TextBlock_TeamID UTextBlock
+---@field TextBlock_TeamName UTextBlock
+---@field MyOBPlayerData FObservedData
+---@field MyTeamLowData FAsianTeamInfoLowFrequency
+---@field SumOfBulletCount int32
+---@field TotalBullet int32
+---@field CilpBullet1 int32
+---@field CilpBullet2 int32
+---@field BInitDefaultColor bool
+---@field DefaultTeamColor FColor
+---@field DefaultPlayerColor FColor
+---@field ColorWhite FLinearColor
+---@field ColorRead FLinearColor
+---@field RefreshHPEnergyTimer FTimerHandle
+---@field TextColorWhite FSlateColor
+---@field TextColorRed FSlateColor
+---@field BulletType1 int32
+---@field BulletType2 int32
+---@field MyPlayerKey int64

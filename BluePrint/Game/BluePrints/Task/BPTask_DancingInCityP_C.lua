@@ -1,0 +1,4 @@
+---@class BPTask_DancingInCityP_C:UUAETriggerObject_Task
+---@field ConstructActions:fun():ULuaArrayHelper
+---@field ConstructConditions:fun():UTriggerCondition
+---@field ConstructEvents:fun():ULuaArrayHelper

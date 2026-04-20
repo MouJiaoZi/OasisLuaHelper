@@ -1,0 +1,11 @@
+---@class OB_RouteMainList_UIBP_C:UUAEUserWidget
+---@field RouteMainListRefreshAll:fun():bool
+---@field ReuseList2_segment ReuseList2_C
+---@field Text_Teamtotal UTextBlock
+---@field TextTeam_SelectNum UTextBlock
+---@field SegInfos ULuaMapHelper
+---@field SetmengtArray ULuaArrayHelper
+---@field ClubTeamList ULuaArrayHelper
+---@field NewVar_0 FTeamSegmentInfo
+---@field NewVar_1 bool
+---@field ShowDx bool

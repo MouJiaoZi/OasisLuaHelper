@@ -1,0 +1,3 @@
+---@class KillInfoItemFX_BP_C:UKillInfoFXWidget
+---@field DX_01 UWidgetAnimation
+---@field WidgetSwitcher_FX UWidgetSwitcher

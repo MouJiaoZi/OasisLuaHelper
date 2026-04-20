@@ -1,0 +1,12 @@
+---@class Replay_BaseProgressBarEventUIItem_C:UUserWidget
+---@field RefreshItemColor:fun()
+---@field UpdateTipsPos:fun()
+---@field Construct:fun()
+---@field OB_ReplayUI_ProgressBar OB_ReplayUI_ProgressBar_C
+---@field EventInfo FReplayKillOrHitdownInfoUIModel
+---@field Tips OB_ReplayUI_VideoList_Item2_UIBP_C
+---@field ProgressBar UCanvasPanel
+---@field ShowTipsTimer FTimerHandle
+---@field CurPlayBack UGameReplay
+---@field bShowTips bool
+---@field AdvanceTime float

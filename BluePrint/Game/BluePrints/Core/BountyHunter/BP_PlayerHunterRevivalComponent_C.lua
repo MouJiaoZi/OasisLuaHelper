@@ -1,0 +1,1 @@
+---@class BP_PlayerHunterRevivalComponent_C:UPlayerHunterRevivalComponent

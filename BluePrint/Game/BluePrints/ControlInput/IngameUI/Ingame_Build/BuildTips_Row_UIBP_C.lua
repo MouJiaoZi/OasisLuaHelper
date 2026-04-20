@@ -1,0 +1,3 @@
+---@class BuildTips_Row_UIBP_C:UUserWidget
+---@field Image_96 UImage
+---@field JumpNum_BuildNum01 JumpNum_UIBP_C

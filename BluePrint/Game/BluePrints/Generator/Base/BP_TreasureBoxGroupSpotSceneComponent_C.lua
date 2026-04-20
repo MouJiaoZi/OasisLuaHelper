@@ -1,0 +1,1 @@
+---@class BP_TreasureBoxGroupSpotSceneComponent_C:UVehicleGroupSpotSceneComponent

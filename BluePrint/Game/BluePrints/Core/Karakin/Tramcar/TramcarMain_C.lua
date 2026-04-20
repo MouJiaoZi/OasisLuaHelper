@@ -1,0 +1,31 @@
+---@class TramcarMain_C:AActivityBaseActor
+---@field RequestTakeOn:fun(NewParam:FGISCCF_Param)
+---@field CanTakeOn:fun(NewParam:FGISCCF_Param):bool
+---@field GetPairCar:fun():TramcarMain_C
+---@field Transition:fun(Other:TramcarMain_C)
+---@field Init:fun()
+---@field RequestDrive:fun(NewParam:FGISCCF_Param)
+---@field CanDrive:fun(NewParam:FGISCCF_Param):bool
+---@field UserConstructionScript:fun()
+---@field StaticMesh UStaticMeshComponent
+---@field Scene5 USceneComponent
+---@field TakeOffsocket USceneComponent
+---@field Scene1 USceneComponent
+---@field Scene2 USceneComponent
+---@field Scene3 USceneComponent
+---@field Scene USceneComponent
+---@field CD_Sequence UActorSequenceComponent
+---@field CustomSphereCollision UCustomSphereCollisionComponent
+---@field GISActorComponentBase UGISActorComponentBase
+---@field ChildActor3 UChildActorComponent
+---@field ChildActor1 UChildActorComponent
+---@field ChildActor2 UChildActorComponent
+---@field StaticMesh1 UStaticMeshComponent
+---@field ChildActor UChildActorComponent
+---@field EmptyMovingIn_Sequence UActorSequenceComponent
+---@field MovingOut_Sequence UActorSequenceComponent
+---@field MovingIn_Sequence UActorSequenceComponent
+---@field Carriages ULuaArrayHelper
+---@field bUseRightTakeOffSocket bool
+---@field LevelName FString
+---@field LevelName2 FString

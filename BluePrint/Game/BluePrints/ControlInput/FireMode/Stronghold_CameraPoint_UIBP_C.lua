@@ -1,0 +1,2 @@
+---@class Stronghold_CameraPoint_UIBP_C:UUserWidget
+---@field WidgetSwitcher_Mode UWidgetSwitcher

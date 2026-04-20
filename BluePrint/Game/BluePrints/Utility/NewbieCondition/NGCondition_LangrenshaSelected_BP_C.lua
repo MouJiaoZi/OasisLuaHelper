@@ -1,0 +1,2 @@
+---@class NGCondition_LangrenshaSelected_BP_C:USTNewbieGuideConditionBase
+---@field GetLuaModule:fun():FString

@@ -1,0 +1,4 @@
+---@class FMapDynamicScaleStruct
+---@field UpperLimt float
+---@field LowerLimt float
+---@field ScaleFactor float

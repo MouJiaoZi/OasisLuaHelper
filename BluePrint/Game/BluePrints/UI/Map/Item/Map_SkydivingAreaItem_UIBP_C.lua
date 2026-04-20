@@ -1,0 +1,11 @@
+---@class Map_SkydivingAreaItem_UIBP_C:UUAEUserWidget
+---@field GetSelfWidget:fun():UWidget
+---@field GetSkydivingAreaWidget:fun():UCanvasPanel
+---@field GetRotateWidget:fun():UCanvasPanel
+---@field GetTextBlock:fun():UTextBlock
+---@field ShowSelectInfo:fun(NewParam:bool)
+---@field CanvasRotate UCanvasPanel
+---@field CanvasSkydivingArea UCanvasPanel
+---@field Image_FX UCanvasPanel
+---@field TextBlock_Title UTextBlock
+---@field NewVar_0 bool

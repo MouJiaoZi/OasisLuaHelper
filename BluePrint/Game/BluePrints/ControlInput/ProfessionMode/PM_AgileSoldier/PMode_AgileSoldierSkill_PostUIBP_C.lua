@@ -1,0 +1,7 @@
+---@class PMode_AgileSoldierSkill_PostUIBP_C:UActorPositionWidget
+---@field SetCurrentWidgetVisible:fun(Visible:bool)
+---@field PostAttachmentChanged:fun()
+---@field DX_Hit UWidgetAnimation
+---@field CanvasPanel_0 UCanvasPanel
+---@field CanvasPanel_Tips UCanvasPanel
+---@field WidgetSwitcher_Post UWidgetSwitcher

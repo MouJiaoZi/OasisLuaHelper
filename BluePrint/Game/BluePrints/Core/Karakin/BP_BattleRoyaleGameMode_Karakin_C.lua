@@ -1,0 +1,1 @@
+---@class BP_BattleRoyaleGameMode_Karakin_C:ABP_BattleRoyaleGameMode_PUBG_C

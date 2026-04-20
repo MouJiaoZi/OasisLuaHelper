@@ -1,0 +1,4 @@
+---@class FTargetRandomStruct
+---@field RandomBase FTargetRandomBaseStruct
+---@field MemberVar_2 int32
+---@field MemberVar_3 int32

@@ -1,0 +1,3 @@
+---@class UpdatePlayerStateInterface_C:UInterface
+---@field UpdatePlayerState:fun(State:ExtraPlayerLiveState,OwnerCharacter:ACharacter)
+---@field InitPlayerState:fun()

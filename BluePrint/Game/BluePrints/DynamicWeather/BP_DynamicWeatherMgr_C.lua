@@ -1,0 +1,22 @@
+---@class BP_DynamicWeatherMgr_C:ADynamicWeatherExMgr
+---@field StopSquallSound:fun()
+---@field PlaySquallSound:fun()
+---@field UserConstructionScript:fun()
+---@field ReceiveEndPlay:fun(EndPlayReason:EEndPlayReason)
+---@field DynamicSolarEclipseController UDynamicSolarEclipseController
+---@field DynamicDesertSunnyController UDynamicRainController
+---@field DynamicDustStormController UDynamicRainController
+---@field DynamicEmptyController_MidAutumnNight UDynamicEmptyWeatherController
+---@field DynamicEmptyController_MidAutumnEve UDynamicEmptyWeatherController
+---@field DynamicEmptyController_MidAutumnDaytime UDynamicEmptyWeatherController
+---@field DynamicEmptyController_PVENight UDynamicEmptyWeatherController
+---@field DynamicEmptyController_PVEEvening UDynamicEmptyWeatherController
+---@field DynamicEmptyController_PVEDaytime UDynamicEmptyWeatherController
+---@field DynamicNightController UDynamicNightController
+---@field DynamicSquallController UDynamicRainController
+---@field DynamicSnowController1 UDynamicRainController
+---@field DynamicSunnyController1 UDynamicSunnyController
+---@field DynamicFogController1 UDynamicFogController
+---@field DynamicRainController1 UDynamicRainController
+---@field DefaultSceneRoot USceneComponent
+---@field StormAkEvent int32

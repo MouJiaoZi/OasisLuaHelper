@@ -1,0 +1,1 @@
+---@class BP_DoorMetallic_Desert_C:ABP_Doormetallic_C

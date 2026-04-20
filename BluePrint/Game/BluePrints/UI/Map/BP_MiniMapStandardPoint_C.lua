@@ -1,0 +1,3 @@
+---@class BP_MiniMapStandardPoint_C:AMiniMapStandardPoint
+---@field UserConstructionScript:fun()
+---@field DefaultSceneRoot USceneComponent

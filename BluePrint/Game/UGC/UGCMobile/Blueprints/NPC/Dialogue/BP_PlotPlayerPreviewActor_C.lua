@@ -1,0 +1,9 @@
+---@class BP_PlotPlayerPreviewActor_C:UGCClientAvatarShowcaseActor_Base_BP_C
+---@field ChangeIdleAnim:fun(Anim:UAnimSequence)
+---@field Stop:fun()
+---@field GetLuaModule:fun():FString
+---@field PlayAnimEndWithIdle:fun(Anim:UAnimSequence,Loop:bool)
+---@field GetParticleSystemLocation:fun():FVector,FRotator,FVector
+---@field UserConstructionScript:fun()
+---@field Scene USceneComponent
+---@field NPCIdleAct UAnimSequence

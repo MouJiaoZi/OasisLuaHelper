@@ -1,0 +1,48 @@
+---@class Ingame_signalBar_UIBP_C:USignalUIWidget
+---@field RemoveCachePSDelegates:fun(bReplayOnly:bool,inPlayerState:APlayerState)
+---@field CalcSpeed:fun()
+---@field GetCurrentPlayerState:fun():ASTExtraPlayerState
+---@field UIMsg_ResetSignalbar:fun(FullRecovery:bool)
+---@field UIMsg_SignalHPPredictChange:fun()
+---@field UpdateText:fun(Quat:int32)
+---@field UpdateSignalStages:fun(Quat:int32)
+---@field GetColorByPercentage:fun(InPercentage:float):int32,FLinearColor
+---@field SetBarPercentage:fun(InPercentage:float,CellType:Ingame_SignalCellType,ForceVisible:bool)
+---@field ResetColor:fun(CellType:Ingame_SignalCellType)
+---@field SetBarVisibility:fun(NewVisible:bool,CellType:Ingame_SignalCellType)
+---@field SetCellColor:fun(CellType:Ingame_SignalCellType,Color:FLinearColor)
+---@field SetHP:fun(CurHP:float)
+---@field ResetBar:fun(FullRecovery:bool)
+---@field InitByPlayerState:fun(PlayerState:APlayerState)
+---@field InitByPlayerController:fun(InPlayerController:ASTExtraPlayerController)
+---@field SetCellPercentage:fun(CellType:Ingame_SignalCellType,Precentage:float,Visible:bool)
+---@field DX_StatusPrompt_Hurt UWidgetAnimation
+---@field DX_StatusPrompt_Reply UWidgetAnimation
+---@field Button_Tips UButton
+---@field CanvasPanel_SignalBar_NewbieGuide UCanvasPanel
+---@field CanvasPanel_TipsContent UCanvasPanel
+---@field Image_LevelBG UImage
+---@field Image_Stage1 UImage
+---@field Image_Stage2 UImage
+---@field Image_Stage3 UImage
+---@field Image_StateBG1 UImage
+---@field Ingame_SignalBarItemStyle2_UIBP Ingame_SignalBarItemStyle2_UIBP_C
+---@field TextBlock_StateName UTextBlock
+---@field PercentageColorMap ULuaMapHelper
+---@field Test float
+---@field StageEnableColor FColor
+---@field StageDisableColor FColor
+---@field PercentageColorMap_ForText ULuaMapHelper
+---@field QuatTextMap ULuaMapHelper
+---@field PercentageColorMap_ForStages ULuaMapHelper
+---@field currHP float
+---@field curPredictHP float
+---@field PercentageColorMap_ForFrame ULuaMapHelper
+---@field PrevStage int32
+---@field DisableRed bool
+---@field PlayerState APlayerState
+---@field PreviousHP float
+---@field CurSpeed float
+---@field EnableDynamicSpeed bool
+---@field RedBarFadeTime float
+---@field RedBarFadeSpeedScale float

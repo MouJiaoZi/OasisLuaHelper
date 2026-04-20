@@ -1,0 +1,1 @@
+---@class BP_Sniper_Kar98k_BattleItemHandle_LGZH_Lobby_C:UBackpackWeaponHandle

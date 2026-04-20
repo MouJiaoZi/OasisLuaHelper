@@ -1,0 +1,1 @@
+---@class BP_DJ_Sniper_ELOD_C:BattleItemHandle_WeapAttachment_C

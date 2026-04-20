@@ -1,0 +1,5 @@
+---@class DeathMatch_WidgetShowHide_C:UInterface
+---@field DeathMatch_UpdateALL:fun():bool
+---@field DeathMatch_FirstInit:fun():bool
+---@field DeathMatch_Hide:fun():bool
+---@field DeathMatch_Show:fun():bool

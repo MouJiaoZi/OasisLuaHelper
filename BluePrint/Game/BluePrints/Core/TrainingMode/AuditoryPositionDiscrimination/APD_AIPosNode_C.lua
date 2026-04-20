@@ -1,0 +1,6 @@
+---@class APD_AIPosNode_C:USceneComponent
+---@field GetRandomPathTag:fun():FString
+---@field GetPathTag:fun(PathType:FName):FString
+---@field ReceiveBeginPlay:fun()
+---@field AIPathMap ULuaMapHelper
+---@field PathList ULuaArrayHelper

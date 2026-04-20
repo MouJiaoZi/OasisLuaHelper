@@ -1,0 +1,38 @@
+---@class Glider_UIBP_C:UUAEUserWidget
+---@field SetCustomizeLayout:fun()
+---@field StepValue:fun(Cur:float,Dest:float,Step:float):float
+---@field GetVehicleUser:fun():BP_VehicleUser_C
+---@field UpdateMotorgliderInfo:fun(deltaTime:float)
+---@field Construct:fun()
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field MoveThrottleUp UWidgetAnimation
+---@field Border_V103 UBorder
+---@field Border_V104 UBorder
+---@field CanvasPanel_AltitudeBar UCanvasPanel
+---@field CanvasPanel_Speed UCanvasPanel
+---@field CanvasPanel_TipOff UCanvasPanel
+---@field CustomizeCanvasPanel_BP_V103 CustomizeCanvasPanel_BP_C
+---@field CustomizeCanvasPanel_BP_V104 CustomizeCanvasPanel_BP_C
+---@field CustomizeCanvasPanel_BP_V105 CustomizeCanvasPanel_BP_C
+---@field CustomizeCanvasPanel_BP_V106 CustomizeCanvasPanel_BP_C
+---@field CustomizeCanvasPanel_BP_V107 CustomizeCanvasPanel_BP_C
+---@field DownButton UButton
+---@field GliderLeft UButton
+---@field GliderRight UButton
+---@field HeightAndSpeedHorizontalBox UHorizontalBox
+---@field NewButton_SlowDown UNewButton
+---@field NewButton_SpeedUp UNewButton
+---@field ProgressBar_Down UProgressBar
+---@field ProgressBar_Up UProgressBar
+---@field Slider_Arrow USlider
+---@field SpeedBar UImage
+---@field SpeedT UTextBlock
+---@field TextBlock_6 UTextBlock
+---@field TextBlock_CurrentHeight UTextBlock
+---@field UpButton UButton
+---@field SpeedMatInstance UMaterialInstanceDynamic
+---@field NeedShowFlyTipEffect bool
+---@field ShowFlyTipEffectVelocity int32
+---@field EffectMaxShowTime float
+---@field EffectShowTimeElapse float
+---@field VehicleCustomizePanelList ULuaArrayHelper

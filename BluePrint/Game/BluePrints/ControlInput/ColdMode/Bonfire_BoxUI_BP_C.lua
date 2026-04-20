@@ -1,0 +1,23 @@
+---@class Bonfire_BoxUI_BP_C:UActorPositionWidget
+---@field OwnerBonfireDie:fun()
+---@field StartNewRoastCountDown:fun()
+---@field ItemCDBar:fun(Percent:float)
+---@field FireLifeChanged:fun()
+---@field ChangeTipsImage:fun(ImagePath:FSoftObjectPath)
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field Construct:fun()
+---@field DX_AddWoodPrompt UWidgetAnimation
+---@field ShowMeatIcon_anima UWidgetAnimation
+---@field CanvasPanel_0 UCanvasPanel
+---@field CanvasPanel_22 UCanvasPanel
+---@field CanvasPanelItemCDBar UCanvasPanel
+---@field Image_ItemCDBar UImage
+---@field TextBlock_bonfire_countdown UTextBlock
+---@field TextBlock_ItemCDTime UTextBlock
+---@field CountDownTotalTimeForRoast float
+---@field CountDownElapsedTimeForRoast float
+---@field RemainingForBonfire float
+---@field HasBeenStarted bool
+---@field ShownRemaining float
+---@field LerpTotalTimeSetting float
+---@field LerpElapsedTime float

@@ -1,0 +1,30 @@
+---@class TramcarCarriage_C:AActivityBaseActor
+---@field CanGotoTake:fun():bool
+---@field CanGotoNormal:fun():bool
+---@field HavePossess:fun():bool
+---@field TakeOffInner:fun()
+---@field TakeOnInner:fun(Character:ASTExtraBaseCharacter)
+---@field Init:fun(NewParam:TramcarMain_C,TakeOff:USceneComponent)
+---@field RequsetTakeOff:fun(NewParam:FGISCCF_Param)
+---@field RequsetTakeOn:fun(NewParam:FGISCCF_Param)
+---@field CanTakeOff:fun(NewParam:FGISCCF_Param):bool
+---@field CanTakeOn:fun(NewParam:FGISCCF_Param):bool
+---@field UserConstructionScript:fun()
+---@field K2_OnBecomeViewTarget:fun(PC:APlayerController)
+---@field K2_OnEndViewTarget:fun(PC:APlayerController)
+---@field LeftOffSocket USceneComponent
+---@field TakeOffSocket USceneComponent
+---@field CharacterSocket USceneComponent
+---@field CustomSphereCollision UCustomSphereCollisionComponent
+---@field Plane UStaticMeshComponent
+---@field CineCamera UCineCameraComponent
+---@field StaticMesh1 UStaticMeshComponent
+---@field Scene USceneComponent
+---@field MovingOut_Sequence UActorSequenceComponent
+---@field MovingIn_Sequence UActorSequenceComponent
+---@field GISActorComponentBase UGISActorComponentBase
+---@field ActivityFakePossess UActivityFakePossessComponent
+---@field MainOwner TramcarMain_C
+---@field bIsFront bool
+---@field EndViewTargetRot FRotator
+---@field TakeOff USceneComponent

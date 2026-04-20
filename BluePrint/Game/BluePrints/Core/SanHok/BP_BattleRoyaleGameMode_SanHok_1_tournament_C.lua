@@ -1,0 +1,1 @@
+---@class BP_BattleRoyaleGameMode_SanHok_1_tournament_C:ABP_BattleRoyaleGameMode_C

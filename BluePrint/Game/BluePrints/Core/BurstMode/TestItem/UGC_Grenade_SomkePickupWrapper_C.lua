@@ -1,0 +1,1 @@
+---@class UGC_Grenade_SomkePickupWrapper_C:AGrenade_Smoke_Wrapper_C

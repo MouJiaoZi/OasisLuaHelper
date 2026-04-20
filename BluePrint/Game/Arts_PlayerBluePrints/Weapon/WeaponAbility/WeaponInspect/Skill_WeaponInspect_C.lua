@@ -1,0 +1,64 @@
+---@class Skill_WeaponInspect_C:UPersistEffectWithState
+---@field PlayMeleeWeaponMontage:fun(Object:UObject,Key:UAnimInstance)
+---@field GetExpectedOldAnimMode:fun():bool
+---@field IsAvatarWeaponUseNewAnim:fun():bool
+---@field IsAvatarWeapon:fun():bool
+---@field CheckUseSpecificFOV:fun(SetFOV:bool)
+---@field DOFCheckEndTick:fun()
+---@field StopDepthOfField:fun(ForceStop:bool)
+---@field StartDepthOfField:fun()
+---@field StopInspectAnimNewFPP:fun()
+---@field PlayInspectAnimNewFPP_PlayMontage:fun(MontageToPlay:UAnimMontage)
+---@field PlayInspectAnimNewFPP:fun()
+---@field UpdateOBCheckFPP:fun()
+---@field SetUpOBCheckFPP:fun(bSetUp:bool)
+---@field TrySetPeekBack:fun()
+---@field TrySetWeaponMeshHide:fun(bHide:bool)
+---@field OnPawnDynamicStateEnter:fun(state:FGameplayTag)
+---@field SetPawnStateDisable:fun(ShouldDisable:bool)
+---@field SetUIStyleEnable:fun(Enable:bool)
+---@field SwitchSightAngled:fun()
+---@field GetSpectatorSyncMontageStart:fun():float
+---@field InterrupteInspecting:fun()
+---@field GetCharInspectAnim:fun():UAnimMontage
+---@field GetWeaponInspectComponent:fun():UWeaponInspectComponent
+---@field StopInspectAnim:fun()
+---@field GetInpsectDuration:fun():float
+---@field AutonomousSwitchFPP:fun(EnterFPP:bool)
+---@field PlayInspectAnim:fun()
+---@field CheckCanInspect:fun():bool
+---@field ShouldTransitToFinished:fun():bool
+---@field OwningPawn ASTExtraBaseCharacter
+---@field CachedWeaponInspectAnim UAnimMontage
+---@field CachedCharacterInspectAnim UAnimMontage
+---@field CachedWeaponInspectAnimNewFPP ULuaMapHelper
+---@field InspectTimerHandle FTimerHandle
+---@field DisablePawnState ULuaArrayHelper
+---@field CachedEnterIsFPP bool
+---@field InterruptedTipsID int32
+---@field StartInspectTime float
+---@field InspectUIStyleInfo UUserWidgetStyle
+---@field CachedWeapon ASTExtraWeapon
+---@field NeedInterruptPawnState ULuaArrayHelper
+---@field NeedInterruptWeaponChangeState ULuaSetHelper
+---@field OBCheckFPPTimerHandle FTimerHandle
+---@field IsPlayingSpectAnimNewFPP bool
+---@field NeedSwitchToOldFPP bool
+---@field DOFTickTime float
+---@field DOFConfig FDepthOfFieldConfig
+---@field DOFIsIn bool
+---@field DOFTickEndTime float
+---@field DOFEndTimerHandle FTimerHandle
+---@field DOFMontageTime float
+---@field PlayStartInSwitchOldAnim bool
+---@field DelayTimer FTimerHandle
+---@field InspectAnimBlendInOutTime float
+---@field CachedOriginFOV float
+---@field ForceFOVWeaponId ULuaArrayHelper
+---@field ForceSetFOVValue float
+---@field bForceSetFOVNewFPP bool
+---@field bCachedUsedSpecificFOV bool
+---@field CacheFrameCount int64
+---@field CachedFPPAnimMode bool
+---@field CachedForceNewfpp bool
+---@field ForceSwtichPPBackState ULuaArrayHelper

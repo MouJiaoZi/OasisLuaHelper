@@ -1,0 +1,1 @@
+---@class UGC_M_CommonItemItemHandle_C:UCommonItemHandle_C

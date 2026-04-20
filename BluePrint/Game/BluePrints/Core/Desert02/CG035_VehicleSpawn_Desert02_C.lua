@@ -1,0 +1,1 @@
+---@class CG035_VehicleSpawn_Desert02_C:VehicleSpawn_Desert02_C

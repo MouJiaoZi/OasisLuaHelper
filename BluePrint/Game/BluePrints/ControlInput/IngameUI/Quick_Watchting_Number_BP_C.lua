@@ -1,0 +1,6 @@
+---@class Quick_Watchting_Number_BP_C:UUserWidget
+---@field RefreshSpectatorItem:fun(SpectatorName:FText,SpectatorGender:int32)
+---@field SetName:fun(SpectatorName:FText)
+---@field SetGender:fun(TargetGender:int32)
+---@field RichTextBlock UUTRichTextBlock
+---@field WidgetSwitcher_gender UWidgetSwitcher

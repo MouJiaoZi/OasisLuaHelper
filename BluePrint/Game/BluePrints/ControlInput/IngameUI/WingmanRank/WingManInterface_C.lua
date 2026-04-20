@@ -1,0 +1,2 @@
+---@class WingManInterface_C:UInterface
+---@field OnWingManUICreateEvent:fun(Obj:UObject):bool

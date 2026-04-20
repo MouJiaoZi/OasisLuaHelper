@@ -1,0 +1,1 @@
+---@class HS_PhotoFrame03_C:AHiderSceneActorBase_C

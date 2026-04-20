@@ -1,0 +1,8 @@
+---@class KI_TeamLogo_UIBP_C:UKillIconBase_UIBP_C
+---@field InitTeamLogoData:fun(ImageDownLoader:UImageDownloader)
+---@field ShowTeamLogoForOB:fun(PlayerName:FString):bool
+---@field SetTeamLogData:fun(PlayerName:FString,PicUrl:FString)
+---@field Image_NationalityIcon UImage
+---@field Image_TeamLogo UImage
+---@field CurImageDownLoader UImageDownloader
+---@field CurLogoPath FString

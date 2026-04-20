@@ -1,0 +1,6 @@
+---@class BP_Fengyelin_HourseHway_C:ASTExtraHouseActor
+---@field UserConstructionScript:fun()
+---@field BP_ItemSpotGroupComponent BP_ItemSpotGroupComponent_C
+---@field BP_ItemSpotComponent1 BP_ItemSpotComponent_C
+---@field SM_Fengyelin_hway UStaticMeshComponent
+---@field DefaultSceneRoot USceneComponent

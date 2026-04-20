@@ -1,0 +1,2 @@
+---@class HAS_Guide1_UIBP_C:UUAEUserWidget
+---@field TextBlock_TipsContent UTextBlock

@@ -1,0 +1,75 @@
+---@class LuaTestBP_C:UObject
+---@field BPTestFuncParam2:fun(Param1:FString,Param2:ULuaArrayHelper,Param3:FString,Param4:ULuaArrayHelper):FString
+---@field BPTestFuncParam1:fun(StringParam:FString,TableParam:ULuaArrayHelper)
+---@field TestSetBPEnum:fun(Value:LuaTestBPEnum)
+---@field TestGetBPEnum:fun():LuaTestBPEnum
+---@field BPExecuteDelegate:fun(InString:FString)
+---@field BPDelegateBindFunc:fun(InString:FString)
+---@field BPBindDelegate:fun()
+---@field TestFuncRefOrValueParam:fun(RefArray:ULuaArrayHelper,ValueArray:ULuaArrayHelper)
+---@field TestFuncRefParam:fun(RefParam:FString,ValParam:FString,LeftValueRefParam:FString)
+---@field PerformanceTestBPInvokeLua:fun()
+---@field PerformanceTestBPInvokeCppFunc:fun()
+---@field PerfromanceTestBPInvokeCppProperty:fun()
+---@field PerformanceTestBPInvokeBPProperty:fun()
+---@field PerformanceTestBPInvokeBPFunc:fun()
+---@field PerformanceTestBPInvokeBPOperator:fun()
+---@field PerformanceTestBPInvokeCpp:fun()
+---@field PerformanceTestBPInvokeBP:fun()
+---@field RunPerformanceTest:fun()
+---@field TestSetFStructCall:fun(Value:FLuaTestBPStruct)
+---@field TestGetFStructCall:fun():FLuaTestBPStruct
+---@field TestSetTSetCall:fun(Value:ULuaSetHelper)
+---@field TestGetTSetCall:fun():ULuaSetHelper
+---@field TestSetTMapCall:fun(Value:ULuaMapHelper)
+---@field TestGetTMapCall:fun():ULuaMapHelper
+---@field TestSetTArrayCall:fun(Value:ULuaArrayHelper)
+---@field TestGetTArrayCall:fun():ULuaArrayHelper
+---@field TestSetFNameCall:fun(VAlue:FName)
+---@field TestGetFNameCall:fun():FName
+---@field TestSetFTextCall:fun(Value:FText)
+---@field TestGetFTextCall:fun():FText
+---@field TestSetFStringCall:fun(Value:FString)
+---@field TestGetFStringCall:fun():FString
+---@field TestSetObjectCall:fun(Value:UObject)
+---@field TestGetObjectCall:fun():UObject
+---@field TestSetFloatCall:fun(Value:float)
+---@field TestGetFloatCall:fun():float
+---@field TestSetEnumCall:fun(Value:LuaTestBPEnum)
+---@field TestGetEnumCall:fun():LuaTestBPEnum
+---@field TestSetInt64Call:fun(Value:int64)
+---@field TestGetInt64Call:fun():int64
+---@field TestSetInt32Call:fun(Value:int32)
+---@field TestGetInt32Call:fun():int32
+---@field TestSetByteCall:fun(Value:uint8)
+---@field TestGetByteCall:fun():uint8
+---@field TestSetBoolCall:fun(Value:bool)
+---@field TestGetBoolCall:fun():bool
+---@field TestEmptyCall:fun()
+---@field TestDelegate__DelegateSignature:fun(InString:FString)
+---@field OnEnterOneTest__DelegateSignature:fun()
+---@field BoolVar bool
+---@field EnumVar LuaTestBPEnum
+---@field ByteVar uint8
+---@field Int32Var int32
+---@field Int64Var int64
+---@field FloatVar float
+---@field FStringVar FString
+---@field FTextVar FText
+---@field FNameVar FName
+---@field TArrayVar ULuaArrayHelper
+---@field TMapVar ULuaMapHelper
+---@field TSetVar ULuaSetHelper
+---@field UObjectPointerVar UObject
+---@field FStructVar FLuaTestBPStruct
+---@field UClassPointerVar UClass
+---@field BPTimes ULuaMapHelper
+---@field StartTime int64
+---@field OnEnterOneTest ULuaMulticastDelegate
+---@field LoopCount int32
+---@field TestCppObj UTestClass
+---@field TestBPObj LuaTestBP_C
+---@field TestBPObjLua LuaTestBP_C
+---@field TestPawn BP_PlayerPawn_C
+---@field TestDelegate ULuaMulticastDelegate
+---@field BPDelegateTestString FString

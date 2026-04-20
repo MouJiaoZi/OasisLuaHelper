@@ -1,0 +1,7 @@
+---@class Template_Other_FireLauncher_C:UGCBackpackShootWeaponHandle_BP_C
+---@field GetSpecificSkillTemplateByData:fun(SpecificData:FString):FItemSkillsConfig
+---@field IsSpecificSkill:fun(InSkillConfig:FItemSkillsConfig):bool
+---@field GetSkillTemplates:fun():ULuaArrayHelper
+---@field UGC_TemplateSaveItemID:fun():int32
+---@field DefaultSkill ULuaArrayHelper
+---@field TDMSkill ULuaArrayHelper

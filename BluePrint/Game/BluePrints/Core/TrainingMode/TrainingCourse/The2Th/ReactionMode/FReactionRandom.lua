@@ -1,0 +1,7 @@
+---@class FReactionRandom
+---@field MinX int32
+---@field MaxX int32
+---@field MinY int32
+---@field MaxY int32
+---@field MinZ int32
+---@field MaxZ int32

@@ -1,0 +1,1 @@
+---@class BP_GunSmith_BattleItemHandle_jifazhuangzhi_1_C:UBattleItemHandle_Ammo_C

@@ -1,0 +1,4 @@
+---@class BP_ObjectPosMgr_C:UObjectPosUIMgr
+---@field GetLuaModule:fun():FString
+---@field LuaBeginPlay:fun()
+---@field ReceiveBeginPlay:fun()

@@ -1,0 +1,2 @@
+---@class BP_CheatCommand_AddItem_Variety_C:UCheatCommand_AddItem
+---@field IsPassCommandParamCheck:fun(InCommandInfo:FCheatCommandInfo,InCommandTriggerController:ASTExtraPlayerController):bool

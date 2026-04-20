@@ -1,0 +1,2 @@
+---@class BP_GiftConfigData_C:UGiftSetupDataExtended
+---@field ConfigMap ULuaMapHelper

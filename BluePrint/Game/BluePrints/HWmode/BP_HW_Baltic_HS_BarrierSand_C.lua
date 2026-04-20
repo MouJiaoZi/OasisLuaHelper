@@ -1,0 +1,7 @@
+---@class BP_HW_Baltic_HS_BarrierSand_C:ASTExtraHouseActor
+---@field UserConstructionScript:fun()
+---@field BP_ItemSpotComponent1 BP_ItemSpotComponent_C
+---@field BP_ItemSpotComponent BP_ItemSpotComponent_C
+---@field BP_ItemSpotGroupComponent BP_ItemSpotGroupComponent_C
+---@field Baltic_BarrierSand UStaticMeshComponent
+---@field DefaultSceneRoot USceneComponent

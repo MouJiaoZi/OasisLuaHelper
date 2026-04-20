@@ -1,0 +1,5 @@
+---@class BP_buggy_BattleItemHandle_EBBB3_C:BP_buggy_BattleItemHandle_EBBB_C
+---@field BurnTireDiffType EBurnTireDifferentialType
+---@field BurnTireWheelSpeedCurve UCurveFloat
+---@field Sfx_BurnTire UAkAudioEvent
+---@field STBurnTirePsArray FBurnTirePSArray

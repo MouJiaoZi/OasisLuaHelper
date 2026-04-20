@@ -1,0 +1,4 @@
+---@class EntireMap_ExUIInterface_C:UInterface
+---@field RefreshExWidget:fun(bForceJump:bool):bool
+---@field HideExWidget:fun():bool
+---@field ShowExWidget:fun():bool

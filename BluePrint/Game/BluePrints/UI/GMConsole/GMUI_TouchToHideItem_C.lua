@@ -1,0 +1,5 @@
+---@class GMUI_TouchToHideItem_C:UUAEUserWidget
+---@field Init:fun(Name:FString,Index:int32)
+---@field Button_Revert UButton
+---@field TextBlock_ActorName UTextBlock
+---@field Index int32

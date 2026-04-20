@@ -1,0 +1,3 @@
+---@class MapCircleBlackboard_Interface_C:UInterface
+---@field NewFunction_0:fun()
+---@field GetCircleInfo_Inf:fun(GameModeID:FString):bool,FVector2D,float

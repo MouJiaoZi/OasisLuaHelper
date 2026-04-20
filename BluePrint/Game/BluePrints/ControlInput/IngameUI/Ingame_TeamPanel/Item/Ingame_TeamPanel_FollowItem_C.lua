@@ -1,0 +1,34 @@
+---@class Ingame_TeamPanel_FollowItem_C:UTeamPanelFollowItem
+---@field InviteTransferLeaderCDFinished:fun()
+---@field InviteCDFinished:fun()
+---@field On_FollowDisableTipsImage_MouseButtonDown_0:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field RefreshState:fun(InTeamIdx:int32,PlayerInTeamIdx:int32,PFS:FParachuteFollowState,PlayerPFS:FParachuteFollowState,LiveState:ExtraPlayerLiveState)
+---@field Init:fun(TeammateName:FString)
+---@field BP_InitItem:fun(InTeammateName:FString)
+---@field BP_SimInvite:fun()
+---@field BP_RefreshState:fun(InTeamIndex:int32,InPlayerInTeamIndex:int32,InTeammateFollowState:FParachuteFollowState,InPlayerFollowState:FParachuteFollowState,InPlayerLiveState:ExtraPlayerLiveState)
+---@field Button_CancelFollow UButton
+---@field Button_FollowTeammate UButton
+---@field Button_InviteTeammate UButton
+---@field Button_UnableFollowTeammate UButton
+---@field Button_UnableInviteTeammate UButton
+---@field CancelFollowBtn UButton
+---@field FollowCancelSwitcher UWidgetSwitcher
+---@field FollowSwitcher UWidgetSwitcher
+---@field HorizontalBox_Follow UHorizontalBox
+---@field Image_5 UImage
+---@field InviteSwitcher UWidgetSwitcher
+---@field loading UImage
+---@field TextBlock_Btn1 UTextBlock
+---@field TextBlock_Btn2 UTextBlock
+---@field TextBlock_Btn3 UTextBlock
+---@field TextBlock_Btn4 UTextBlock
+---@field TeammateName FString
+---@field MyBaseCharacter ASTExtraBaseCharacter
+---@field InPlayerTeamIndex int32
+---@field LocalPlayerFollowState FParachuteFollowState
+---@field LocalPlayerTeamIndex int32
+---@field InPlayerFollowState FParachuteFollowState
+---@field InviteCD float
+---@field HasParachuted bool
+---@field IsTransferLeader bool

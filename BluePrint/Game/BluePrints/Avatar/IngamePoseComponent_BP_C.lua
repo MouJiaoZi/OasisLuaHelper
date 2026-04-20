@@ -1,0 +1,11 @@
+---@class IngamePoseComponent_BP_C:UAvatarDisplayPoseComponent
+---@field GetTakeOffAvatarList:fun(NewWearList:ULuaArrayHelper):ULuaArrayHelper
+---@field HasAvatarRecord:fun(AvatarId:int32):bool
+---@field RemoveAvatarRecord:fun(WearID:int32):bool
+---@field AddAvatarRecord:fun(WearID:int32):bool
+---@field SpawnAvatar:fun(IsUseLod:bool)
+---@field AvatarComponent CharacterAvatarComp_BP_C
+---@field PawnResPath FString
+---@field NormalHeight float
+---@field AvatarWearList ULuaArrayHelper
+---@field TakeOffAvatarList ULuaArrayHelper

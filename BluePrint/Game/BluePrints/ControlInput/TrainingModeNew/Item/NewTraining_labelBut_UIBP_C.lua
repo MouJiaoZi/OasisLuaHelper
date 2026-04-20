@@ -1,0 +1,3 @@
+---@class NewTraining_labelBut_UIBP_C:UUAEUserWidget
+---@field NewCheckBox_Mark UNewCheckBox
+---@field TextBlock_Name UTextBlock

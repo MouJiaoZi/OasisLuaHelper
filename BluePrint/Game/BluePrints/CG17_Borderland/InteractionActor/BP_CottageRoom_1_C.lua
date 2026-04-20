@@ -1,0 +1,24 @@
+---@class BP_CottageRoom_1_C:ABP_CottageRoomBase_C
+---@field UserConstructionScript:fun()
+---@field P_BlackSmoke_01 UParticleSystemComponent
+---@field P_Lnside_Big_Fire_01 UParticleSystemComponent
+---@field P_Cottages_LowFire_02 UParticleSystemComponent
+---@field P_Cottages_LowFire_01 UParticleSystemComponent
+---@field P_Cottages_MiddleFire_02 UParticleSystemComponent
+---@field P_Ruins UParticleSystemComponent
+---@field P_Cottages_BigFire_01_02 UParticleSystemComponent
+---@field P_Cottages_BigFire_01 UParticleSystemComponent
+---@field P_LowFire UParticleSystemComponent
+---@field P_BigFire UParticleSystemComponent
+---@field P_MiddleFire UParticleSystemComponent
+---@field P_Cottages_MiddleFire_01 UParticleSystemComponent
+---@field Box4 UBoxComponent
+---@field Box5 UBoxComponent
+---@field Box1 UBoxComponent
+---@field Box2 UBoxComponent
+---@field Box UBoxComponent
+---@field Ruins_Sequence UActorSequenceComponent
+---@field BigFire_Sequence UActorSequenceComponent
+---@field MiddleFire_Sequence UActorSequenceComponent
+---@field LowFire_Sequence UActorSequenceComponent
+---@field Box3 UBoxComponent

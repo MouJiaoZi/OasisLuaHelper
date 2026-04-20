@@ -1,0 +1,1 @@
+---@class BP_HideAndSeek_shapeshift_01_C:ULobbyParticleHandle

@@ -1,0 +1,4 @@
+---@class APD_BTService_Jump_C:UBTService_BlueprintBase
+---@field IsStart bool
+---@field IsJumppping bool
+---@field WaitTime float

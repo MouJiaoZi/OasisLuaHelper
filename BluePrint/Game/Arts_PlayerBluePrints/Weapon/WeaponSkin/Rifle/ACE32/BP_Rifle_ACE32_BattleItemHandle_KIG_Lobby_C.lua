@@ -1,0 +1,1 @@
+---@class BP_Rifle_ACE32_BattleItemHandle_KIG_Lobby_C:UBackpackWeaponHandle

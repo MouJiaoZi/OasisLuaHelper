@@ -1,0 +1,7 @@
+---@class FTestModelStruct
+---@field ID int32
+---@field ModelName FString
+---@field ModelWidget UClass
+---@field ModelEntity UClass
+---@field DefaultAnimBP UClass
+---@field DefaulePawn UClass

@@ -1,0 +1,17 @@
+---@class BoxUI_BP_C:UUAEUserWidget
+---@field SetScale:fun(dis:float)
+---@field HideBox:fun()
+---@field ShowBox:fun(totalTime:float,monsterBox:AMonsterTreasureBox,distance:float)
+---@field RefreshUI:fun(healthyRate:float,remainTime:float,distance:float)
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field Construct:fun()
+---@field Image_BoxCDBar UImage
+---@field Self_BoxHP UProgressBar
+---@field TextBlock_BoxCDTime UTextBlock
+---@field bVisible bool
+---@field bindedMonster AMonsterTreasureBox
+---@field startScale float
+---@field zoomRateDis float
+---@field MyWidget UWidgetComponent
+---@field basePivot float
+---@field totalTime float

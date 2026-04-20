@@ -1,0 +1,9 @@
+---@class IngameSubtitle_Item_C:UUAEUserWidget
+---@field Reset:fun()
+---@field HandleBackGround:fun(Tags:FMovieSceneSubtitleTagsKeyValue)
+---@field HandleAnimation:fun(Tags:FMovieSceneSubtitleTagsKeyValue)
+---@field HandleText:fun(Title:FText,Tags:ULuaArrayHelper)
+---@field Construct:fun()
+---@field Show02_anima UWidgetAnimation
+---@field Show01_anima UWidgetAnimation
+---@field UTRichTextBlock_Text01 UUTRichTextBlock

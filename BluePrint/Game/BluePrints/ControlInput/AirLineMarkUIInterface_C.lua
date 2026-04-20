@@ -1,0 +1,4 @@
+---@class AirLineMarkUIInterface_C:UInterface
+---@field StartSimulate:fun():bool
+---@field StopSimulate:fun():bool
+---@field UpdateSimulate:fun(MarkedActor:AActor,MapUIMarkManagerComp:UMapUIMarkManager,AirLineScale:float,ClientPlaneLocation:FVector,IsEntireMap:bool):bool

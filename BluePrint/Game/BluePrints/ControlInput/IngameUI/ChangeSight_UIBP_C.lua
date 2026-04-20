@@ -1,0 +1,42 @@
+---@class ChangeSight_UIBP_C:UUAEUserWidget
+---@field IsCustomUIDataValid:fun(Widget:UWidget,SaveDataSize:FVector2D):bool
+---@field SingleItemUpdate:fun(ItemDefineID:FItemDefineID)
+---@field ChangeSigntOK:fun(item:FItemDefineID)
+---@field DisuseCurrentSight:fun()
+---@field AddSightByFilter:fun(defineID:FItemDefineID,used:bool,mainHand:bool)
+---@field OnDrop:fun(MyGeometry:FGeometry,PointerEvent:FPointerEvent,Operation:UDragDropOperation):bool
+---@field InitRegistSettingBool:fun(PropertyName:FString,Delegate:ULuaDelegate):SettingConfig_C
+---@field IsForbit:fun(attach:FItemDefineID):bool
+---@field ShowList:fun()
+---@field HideList:fun()
+---@field BindItemEvent:fun(item:ChangeSight_Item01_UIBP_C)
+---@field OnItemBeDragCancelled:fun()
+---@field OnItemBeDragBegin:fun(itemDefineID:FItemDefineID)
+---@field RefreshSighItem:fun()
+---@field GetSightByWeaponDefineID:fun(weapon:FItemDefineID):FItemDefineID,bool
+---@field UpdateSightItem:fun()
+---@field SetSettingControlUI:fun()
+---@field ReceivedInitWidget:fun()
+---@field SetCustomizeUIInfo:fun(SaveGame:BP_SAVEGAME_UIElemLayout_C,FireMode:int32)
+---@field Border_Sight UBorder
+---@field Button_ChangeSight UButton
+---@field CanvasPanel_List UCanvasPanel
+---@field CanvasPanel_Sight UCanvasPanel
+---@field SizeBox_Sight USizeBox
+---@field TextBlock_SightName UTextBlock
+---@field WidgetSwitcher_ChangeSight UWidgetSwitcher
+---@field WrapBox_List UWrapBox
+---@field SightDefineIDNotUsed ULuaArrayHelper
+---@field DragSightDefineID FItemDefineID
+---@field mainSupportAttach ULuaArrayHelper
+---@field mainWeaponValid bool
+---@field LocalSaveGame BP_SAVEGAME_UIElemLayout_C
+---@field LocalLayoutIndex int32
+---@field SightSettingSwitch bool
+---@field CurrUsingSlot ESurviveWeaponPropSlot
+---@field MainWeaponSupported bool
+---@field MainWeaponSightID int32
+---@field BackItemList ULuaArrayHelper
+---@field sideSightList ULuaArrayHelper
+---@field penderUpdate bool
+---@field MainWeaponUsingSight FItemDefineID

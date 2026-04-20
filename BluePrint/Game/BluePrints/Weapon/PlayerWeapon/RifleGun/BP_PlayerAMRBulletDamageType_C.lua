@@ -1,0 +1,1 @@
+---@class BP_PlayerAMRBulletDamageType_C:USTExtraDamageType

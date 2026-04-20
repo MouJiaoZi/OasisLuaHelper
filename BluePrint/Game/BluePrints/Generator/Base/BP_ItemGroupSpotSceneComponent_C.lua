@@ -1,0 +1,1 @@
+---@class BP_ItemGroupSpotSceneComponent_C:UItemGroupSpotSceneComponent

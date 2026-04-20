@@ -1,0 +1,1 @@
+---@class BattleItemHandle_3_333_C:BattleItemHandle_DecalBase_C

@@ -1,0 +1,7 @@
+---@class S_UGCMTextSectionItem
+---@field TextContent FString
+---@field TextSize float
+---@field TextColor FLinearColor
+---@field TextBorderColor FLinearColor
+---@field TextBorderAlpha float
+---@field bNewLine bool

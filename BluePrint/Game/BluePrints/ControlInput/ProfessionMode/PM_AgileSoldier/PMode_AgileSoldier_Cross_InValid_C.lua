@@ -1,0 +1,4 @@
+---@class PMode_AgileSoldier_Cross_InValid_C:UUTSkillWidget
+---@field Construct:fun()
+---@field DX_Missing UWidgetAnimation
+---@field Image_1 UImage

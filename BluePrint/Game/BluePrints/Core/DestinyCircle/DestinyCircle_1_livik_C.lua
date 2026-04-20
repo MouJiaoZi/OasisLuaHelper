@@ -1,0 +1,1 @@
+---@class DestinyCircle_1_livik_C:ADestinyCircle_1_C

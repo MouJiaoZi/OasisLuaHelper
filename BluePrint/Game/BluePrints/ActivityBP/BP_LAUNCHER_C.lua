@@ -1,0 +1,5 @@
+---@class BP_LAUNCHER_C:AActor
+---@field GetSigletonID:fun():int32
+---@field UserConstructionScript:fun()
+---@field DefaultSceneRoot USceneComponent
+---@field Z float

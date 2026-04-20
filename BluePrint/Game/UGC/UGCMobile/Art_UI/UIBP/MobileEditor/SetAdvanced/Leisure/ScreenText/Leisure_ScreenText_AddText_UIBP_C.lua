@@ -1,0 +1,11 @@
+---@class Leisure_ScreenText_AddText_UIBP_C:UUGCMobilePropertyWidget
+---@field GetLuaModule:fun():FString
+---@field CanvasPanel_Add UCanvasPanel
+---@field CanvasPanel_Full UCanvasPanel
+---@field CustomScrollBox_List UCustomScrollBox
+---@field NewButton_AddTextSection UNewButton
+---@field TextBlock_1 UTextBlock
+---@field TextBlock_Full UTextBlock
+---@field TextBlock_NumOptions UTextBlock
+---@field TextBlock_Total UTextBlock
+---@field WidgetSwitcher_Button UWidgetSwitcher

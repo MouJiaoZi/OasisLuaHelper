@@ -1,0 +1,1 @@
+---@class BP_TaskControlComp_C:UTaskControllerComponent

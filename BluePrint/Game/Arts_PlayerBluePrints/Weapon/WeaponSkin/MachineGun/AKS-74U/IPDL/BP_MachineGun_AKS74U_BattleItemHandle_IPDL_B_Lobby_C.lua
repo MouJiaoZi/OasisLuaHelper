@@ -1,0 +1,1 @@
+---@class BP_MachineGun_AKS74U_BattleItemHandle_IPDL_B_Lobby_C:UBackpackWeaponHandle

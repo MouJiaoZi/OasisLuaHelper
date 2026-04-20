@@ -1,0 +1,5 @@
+---@class BP_FortressOut_C:AActor
+---@field UserConstructionScript:fun()
+---@field StaticMesh1 UStaticMeshComponent
+---@field StaticMesh UStaticMeshComponent
+---@field DefaultSceneRoot USceneComponent

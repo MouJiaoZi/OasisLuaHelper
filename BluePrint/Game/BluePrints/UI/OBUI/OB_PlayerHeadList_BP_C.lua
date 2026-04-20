@@ -1,0 +1,29 @@
+---@class OB_PlayerHeadList_BP_C:UOBModePlayerHeadList
+---@field GetHeadItemWidget:fun(obj:UObject)
+---@field SwitchNationalFlag:fun(MapPlayerList:ULuaArrayHelper,ObservedPlayer:FObservedData,bIsShow:bool)
+---@field GetCurSwitchOwnWeaponValue:fun():bool
+---@field InitShowOwnWeaponIcon:fun()
+---@field SwitchShowOwnWeaponIcon:fun(bOpen:bool)
+---@field UIMsg_SwitchShowOwnWeapon:fun()
+---@field CreateHeadItem:fun(PlayerName:FString):FHeadItem
+---@field RefreshOBData:fun(MapPlayerList:ULuaArrayHelper,ObservedPlayer:FObservedData,bForce:bool)
+---@field SetChildrenVisible:fun(isVisible:bool,Panel:UPanelWidget)
+---@field GetChildByIndex:fun(PanelWidget:UPanelWidget,Index:int32):OB_PlayerHeadHPItem_UIBP_C
+---@field RefreshData:fun(MapPlayerList:ULuaArrayHelper,ObservedPlayer:FObservedData)
+---@field ReceiveUseWeseeStyle:fun()
+---@field SetPlayerInfoPlayerStausVisible:fun(bIsShow:bool)
+---@field SetPlayerInfoPlayerBackpackVisible:fun(bIsShow:bool)
+---@field ResetPlayerInfo:fun(PlayerPawn:APawn)
+---@field CreateSignalBarWidget:fun()
+---@field PlayerHeadListRefreshOBData:fun(MapPlayerList:ULuaArrayHelper,ObservedPlayer:FObservedData,Force:bool)
+---@field CanvasPanel_Content UCanvasPanel
+---@field UILimit FVector4
+---@field UIOffset FVector2D
+---@field isAllow bool
+---@field MapList ULuaArrayHelper
+---@field OBPlayer FObservedData
+---@field OBDataList ULuaMapHelper
+---@field OBS_ShowOwnWeaponKey FString
+---@field UsingHeadItemWdiget OB_PlayerHeadHPItem_UIBP_C
+---@field StaticHeadItem UClass
+---@field UsingHeadItemClass UClass

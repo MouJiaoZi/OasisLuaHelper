@@ -1,0 +1,8 @@
+---@class WXV_DeathBox_UIBP_C:UUAEUserWidget
+---@field SetDeathBoxType:fun(RealtionshipWithRecordTarget:ERelationshipWithTarget)
+---@field SetPlayerMarkIcon:fun(RelationShipWithTarget:ERelationshipWithTarget,MoveState:EPlayerMoveState)
+---@field InitDeathBoxWidget:fun(RelationshipWithTarget:ERelationshipWithTarget)
+---@field DX_Green UWidgetAnimation
+---@field DX_Blue UWidgetAnimation
+---@field WidgetSwitcher_BoxType UWidgetSwitcher
+---@field bHasInitialized bool

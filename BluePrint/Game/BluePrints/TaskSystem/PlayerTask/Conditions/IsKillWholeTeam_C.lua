@@ -1,0 +1,4 @@
+---@class IsKillWholeTeam_C:UTaskCondition_Base
+---@field IsConditionSatisfy:fun():bool
+---@field KillerPlayerKey FTriggerEventParamKeySelector
+---@field DiePlayerKey FTriggerEventParamKeySelector

@@ -1,0 +1,19 @@
+---@class CampTool_GuideTips_UIBP_C:UUAEUserWidget
+---@field Camp_DetailsRanging Camp_Detailslist_UIBP_C
+---@field Camp_DetailsRoute Camp_Detailslist_UIBP_C
+---@field Camp_DetailsTeam Camp_Detailslist_UIBP_C
+---@field Camp_DetailsThrowPoint Camp_Detailslist_UIBP_C
+---@field Image_0 UImage
+---@field Image_1 UImage
+---@field Image_2 UImage
+---@field Image_Icon UImage
+---@field TextBlock_0 UTextBlock
+---@field TextBlock_1 UTextBlock
+---@field TextBlock_2 UTextBlock
+---@field TextBlock_3 UTextBlock
+---@field TextBlock_4 UTextBlock
+---@field TextBlock_5 UTextBlock
+---@field TextBlock_Content UTextBlock
+---@field TextBlock_Tips UTextBlock
+---@field TextBlock_Title UTextBlock
+---@field VerticalBox_List UVerticalBox

@@ -1,0 +1,5 @@
+---@class RingMatch_Match_UIBP_C:UUAEUserWidget
+---@field RingMatch_Card_Play1 RingMatch_CardItem_UIBP_C
+---@field RingMatch_Card_Play2 RingMatch_CardItem_UIBP_C
+---@field RingMatch_Card_Play3 RingMatch_CardItem_UIBP_C
+---@field WidgetSwitcher_OP UWidgetSwitcher

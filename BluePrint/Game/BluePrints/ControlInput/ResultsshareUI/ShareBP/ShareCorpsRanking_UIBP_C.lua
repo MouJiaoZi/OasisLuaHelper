@@ -1,0 +1,17 @@
+---@class ShareCorpsRanking_UIBP_C:UUAEUserWidget
+---@field BeatBox UVerticalBox
+---@field icon_CorpsLevel UImage
+---@field MyCorpsIcon UImage
+---@field MyCorpsMemberBox UVerticalBox
+---@field RT_BeatCorpsNum UUTRichTextBlock
+---@field TB_BeatCorps UTextBlock
+---@field TB_CorpsLevel UTextBlock
+---@field TB_DefeatPlayerNum UTextBlock
+---@field TB_Feats UTextBlock
+---@field TB_MyCorpsName UTextBlock
+---@field TB_SurviveTime UTextBlock
+---@field TB_teamRank UTextBlock
+---@field TB_teamTotal UTextBlock
+---@field TB_TotalDamage UTextBlock
+---@field VB_CorpsRanking UVerticalBox
+---@field WS_CorpsShare UWidgetSwitcher

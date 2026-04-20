@@ -1,0 +1,1 @@
+---@class BP_Other_CompoundBow_BattleItemHandle_MJWS_C:BP_Other_CompoundBow_BattleItemHandle_C

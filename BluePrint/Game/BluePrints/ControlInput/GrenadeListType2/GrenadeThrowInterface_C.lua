@@ -1,0 +1,4 @@
+---@class GrenadeThrowInterface_C:UInterface
+---@field HandleSlotChosen_Inf:fun(index:int32):bool
+---@field UpdateGrenadeBtnBGAndImage_Inf:fun(Index:int32,isHighLight:bool):bool
+---@field Reconnect_ResetUIByPlayerControllerState_Inf:fun():bool

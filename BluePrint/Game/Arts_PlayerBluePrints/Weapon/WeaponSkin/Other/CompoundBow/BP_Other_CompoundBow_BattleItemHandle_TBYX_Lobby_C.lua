@@ -1,0 +1,1 @@
+---@class BP_Other_CompoundBow_BattleItemHandle_TBYX_Lobby_C:UBackpackWeaponHandle

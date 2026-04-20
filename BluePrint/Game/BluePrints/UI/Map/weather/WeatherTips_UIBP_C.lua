@@ -1,0 +1,4 @@
+---@class WeatherTips_UIBP_C:UUAEUserWidget
+---@field SetWeatherTips:fun(String:FString):bool
+---@field CanvasPanel_Tips UCanvasPanel
+---@field TextBlock_0 UTextBlock

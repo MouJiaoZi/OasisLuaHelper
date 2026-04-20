@@ -1,0 +1,1 @@
+---@class CharacterAnimList_Base_C:UUAECharacterAnimListComponent

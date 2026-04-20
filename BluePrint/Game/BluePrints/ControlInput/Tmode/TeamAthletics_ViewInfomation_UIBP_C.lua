@@ -1,0 +1,1 @@
+---@class TeamAthletics_ViewInfomation_UIBP_C:UCustomUserWidget

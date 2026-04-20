@@ -1,0 +1,1 @@
+---@class UGC035_Town_SmallBillboard03_C:BP_UGCMobileDecorationBaseActor_C

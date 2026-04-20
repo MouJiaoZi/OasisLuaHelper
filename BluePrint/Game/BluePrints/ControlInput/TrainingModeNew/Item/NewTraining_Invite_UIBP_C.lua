@@ -1,0 +1,17 @@
+---@class NewTraining_Invite_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field DX_InviteTips_Out UWidgetAnimation
+---@field DX_InviteTips_IN UWidgetAnimation
+---@field Button_Agree UButton
+---@field Button_Refuse UButton
+---@field CanvasPanel_common_avatar UCanvasPanel
+---@field CheckBox_Refuse UCheckBox
+---@field Common_Avatar Common_Avatar_BP_C
+---@field modleName UTextBlock
+---@field ReuseCombobox_select ReuseCombobox_C
+---@field ReuseComboboxBG_select ReuseComboboxBG_C
+---@field ReuseComboboxGroup_select ReuseComboboxGroup_C
+---@field TextBlock_RefuseTips UTextBlock
+---@field TextBlock_s UTextBlock
+---@field UTRich_Invite UUTRichTextBlock
+---@field UTRichTextBlock_PlayerName UUTRichTextBlock

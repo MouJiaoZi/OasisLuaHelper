@@ -1,0 +1,10 @@
+---@class ResultRankingtitle_UIBP_C:UUAEUserWidget
+---@field clickTitleItem:fun(titleID:int32)
+---@field SetTitleList:fun(list:ULuaArrayHelper,isSelf:bool,myTitleID:int32)
+---@field SelectMYTitleID__DelegateSignature:fun(titleID:int32)
+---@field CanvasPanel_List UCanvasPanel
+---@field WrapBoxTitle UWrapBox
+---@field titleItemList ULuaArrayHelper
+---@field TitleList ULuaArrayHelper
+---@field Isme bool
+---@field SelectMYTitleID ULuaMulticastDelegate

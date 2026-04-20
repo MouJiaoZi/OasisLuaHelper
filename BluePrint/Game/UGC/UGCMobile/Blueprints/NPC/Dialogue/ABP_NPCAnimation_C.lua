@@ -1,0 +1,9 @@
+---@class ABP_NPCAnimation_C:UAnimInstance
+---@field ChangeIdleAnim:fun(Anim:UAnimSequence)
+---@field SetLoop:fun(Loop:bool)
+---@field TriggerPlayAnim:fun(Anim:UAnimSequence,Loop:bool)
+---@field IdleAnim UAnimSequence
+---@field PlayAnim UAnimSequence
+---@field PlayLoop bool
+---@field TriggerPlay bool
+---@field SwitchPlayAnim bool

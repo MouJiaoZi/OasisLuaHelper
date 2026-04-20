@@ -1,0 +1,9 @@
+---@class Borderland_PlanResurrection_UIBP_C:UUAEUserWidget
+---@field TeammateExpandWidget_UpdatePlayerState:fun(PlayerStateNew:ASTExtraPlayerState,PlayerStateOld:ASTExtraPlayerState):bool
+---@field OnInitUI:fun()
+---@field ReceivedInitWidget:fun()
+---@field Border_Color UBorder
+---@field Image_TvIcon UImage
+---@field TextBlock_nUM UTextBlock
+---@field NewVar_0 FText
+---@field CurPlayerState ASTExtraPlayerState

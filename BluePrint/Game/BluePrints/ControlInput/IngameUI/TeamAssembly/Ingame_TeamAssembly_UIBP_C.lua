@@ -1,0 +1,20 @@
+---@class Ingame_TeamAssembly_UIBP_C:URenderWidgetBase
+---@field UpdateInfoByGameMode:fun()
+---@field UpdateTeamLogo:fun()
+---@field IsPeakGameMode:fun():bool
+---@field OnCountDown:fun(CountDown:int32)
+---@field OnRefreshCountDownValue:fun(CountDownValue:int32,TotalCountDownValue:int32)
+---@field OnWidgetCreated:fun()
+---@field OnSwitchWidgetVisibility:fun(IsVisible:bool)
+---@field DX_In_02 UWidgetAnimation
+---@field DX_In UWidgetAnimation
+---@field CanvasPanel_Title UCanvasPanel
+---@field CanvasPanel_TitleEnglish UCanvasPanel
+---@field CanvasPanel_TopGame UCanvasPanel
+---@field Image_Bg UImage
+---@field Image_Countdown UImage
+---@field Image_Icon UImage
+---@field Image_Icon2 UImage
+---@field Logo_CanvasPanel UCanvasPanel
+---@field CountDownBrushList ULuaArrayHelper
+---@field PeakGameModeID FString

@@ -1,0 +1,1 @@
+---@class BP_M416_BattleItemHandle_XCS_Lobby_C:UBackpackWeaponHandle

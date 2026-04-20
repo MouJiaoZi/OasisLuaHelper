@@ -1,0 +1,4 @@
+---@class bp_share_history_results_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_ARRAY_ShareHistoryResults_TeammateInfoList ULuaArrayHelper

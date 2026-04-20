@@ -1,0 +1,3 @@
+---@class BP_UAV_Pickup_C:APickUpWrapperActor
+---@field UserConstructionScript:fun()
+---@field ST_Prop_TreeBranch UStaticMeshComponent

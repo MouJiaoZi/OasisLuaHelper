@@ -1,0 +1,3 @@
+---@class Fingame_Signalbar_StateStruct
+---@field Color FColor
+---@field Text FText

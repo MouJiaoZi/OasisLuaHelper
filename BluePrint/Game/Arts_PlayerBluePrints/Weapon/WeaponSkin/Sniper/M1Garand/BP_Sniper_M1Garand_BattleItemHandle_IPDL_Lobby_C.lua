@@ -1,0 +1,1 @@
+---@class BP_Sniper_M1Garand_BattleItemHandle_IPDL_Lobby_C:UBackpackWeaponHandle

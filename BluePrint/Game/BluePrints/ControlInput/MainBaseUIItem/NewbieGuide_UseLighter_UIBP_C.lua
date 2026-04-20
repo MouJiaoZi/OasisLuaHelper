@@ -1,0 +1,1 @@
+---@class NewbieGuide_UseLighter_UIBP_C:UUAEUserWidget

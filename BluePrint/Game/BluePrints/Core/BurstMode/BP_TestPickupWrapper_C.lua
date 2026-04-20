@@ -1,0 +1,1 @@
+---@class BP_TestPickupWrapper_C:ADrink_Pickup_C

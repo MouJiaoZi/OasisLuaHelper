@@ -1,0 +1,10 @@
+---@class SoundTest_EventListiitem_C:UUserWidget
+---@field Construct:fun()
+---@field CkeckSoundVisiable__DelegateSignature:fun()
+---@field ActorName UTextBlock
+---@field ButtonBase UButton
+---@field CkeckSoundVisiable ULuaMulticastDelegate
+---@field AKComponent UAkComponent
+---@field Parent GM_SoundTest_C
+---@field AudioEventName FString
+---@field SameEvent int32

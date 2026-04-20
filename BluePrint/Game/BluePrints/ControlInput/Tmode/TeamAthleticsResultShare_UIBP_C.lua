@@ -1,0 +1,6 @@
+---@class TeamAthleticsResultShare_UIBP_C:UUAEUserWidget
+---@field UIShow:fun()
+---@field UIHide:fun()
+---@field Construct:fun()
+---@field Shareinterface_UIBP Shareinterface_UIBP_C
+---@field TeamAthleticsResult_UI TeamAthleticsResultShare_UI_C

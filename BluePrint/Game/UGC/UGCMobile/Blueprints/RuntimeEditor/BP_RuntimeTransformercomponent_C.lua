@@ -1,0 +1,2 @@
+---@class BP_RuntimeTransformercomponent_C:UUGCMTransformerComponent
+---@field GetLuaModule:fun():FString

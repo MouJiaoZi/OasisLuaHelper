@@ -1,0 +1,5 @@
+---@class BP_KillerTracker_C:AKillerTracker
+---@field UserConstructionScript:fun()
+---@field Camera UCameraComponent
+---@field SpringArm USpringArmComponent
+---@field DefaultSceneRoot USceneComponent

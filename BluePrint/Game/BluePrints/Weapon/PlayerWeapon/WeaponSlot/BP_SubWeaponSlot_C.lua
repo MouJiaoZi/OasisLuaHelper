@@ -1,0 +1,1 @@
+---@class BP_SubWeaponSlot_C:UWeaponSlot_SubWeapon

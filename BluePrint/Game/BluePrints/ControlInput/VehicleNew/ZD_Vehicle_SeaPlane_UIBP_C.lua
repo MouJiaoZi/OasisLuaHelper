@@ -1,0 +1,38 @@
+---@class ZD_Vehicle_SeaPlane_UIBP_C:UUAEUserWidget
+---@field ShowExtraUI:fun(bDriver:bool):bool
+---@field SetVehicleControlParent:fun(VehicleControl:UUAEUserWidget):bool
+---@field IsAsyncUIValid:fun():bool
+---@field IsKeepUIWhenRemove:fun():bool
+---@field UpdateMotorgliderInfo:fun(DeltaTime:float)
+---@field GetVehicleUser:fun():UVehicleUserComponent
+---@field GetCurrentMotorglider:fun():ASTExtraMotorgliderVehicle
+---@field Construct:fun()
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field Destruct:fun()
+---@field Border_Down UBorder
+---@field Border_DriveDown UBorder
+---@field Border_DriveUp UBorder
+---@field Border_Up UBorder
+---@field CanvasPanel_AltitudeBar UCanvasPanel
+---@field CanvasPanel_Down UCanvasPanel
+---@field CanvasPanel_DriveDown UCanvasPanel
+---@field CanvasPanel_DriveUp UCanvasPanel
+---@field CanvasPanel_Up UCanvasPanel
+---@field CustomizeCanvasPanel_BP_Down CustomizeCanvasPanel_BP_C
+---@field CustomizeCanvasPanel_BP_DriveDown CustomizeCanvasPanel_BP_C
+---@field CustomizeCanvasPanel_BP_DriveUp CustomizeCanvasPanel_BP_C
+---@field CustomizeCanvasPanel_BP_Left CustomizeCanvasPanel_BP_C
+---@field CustomizeCanvasPanel_BP_Right CustomizeCanvasPanel_BP_C
+---@field CustomizeCanvasPanel_BP_Up CustomizeCanvasPanel_BP_C
+---@field CustomizeCanvasPanel_V_236 CustomizeCanvasPanel_BP_C
+---@field DriveDown UNewButton
+---@field DriveLeft UNewButton
+---@field DriveRight UNewButton
+---@field DriveUp UNewButton
+---@field HeightAndSpeedHorizontalBox UHorizontalBox
+---@field NewButton_Down UNewButton
+---@field NewButton_Up UNewButton
+---@field TextBlock_bicycle63 UTextBlock
+---@field TextBlock_bicycle64 UTextBlock
+---@field TextBlock_CurrentHeight UTextBlock
+---@field CurrentMotorglider ASTExtraMotorgliderVehicle

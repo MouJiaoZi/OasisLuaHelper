@@ -1,0 +1,4 @@
+---@class ResultModeBGInterface_C:UInterface
+---@field SetResultVictory:fun(vic:bool):bool
+---@field SetResultTop:fun(single:bool):bool
+---@field ShowResultModeBGDetail:fun(show:bool):bool

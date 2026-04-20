@@ -1,0 +1,19 @@
+---@class AsianOB_PanelSupplies_UIBP_C:UUAEUserWidget
+---@field ClearWeaponInfo:fun()
+---@field PlayerWeaponLcon_4:fun()
+---@field PlayerWeaponLcon_3:fun()
+---@field PlayerWeaponLcon_2:fun()
+---@field PlayerWeaponLcon_1:fun()
+---@field RefreshWeaponIcon:fun(WeaponManager:UWeaponManagerComponent,ItemUi:AsianOB_SuppliesItem1_UIBP_C)
+---@field RefreshTeamWeaponInfo:fun(TeamID:int32)
+---@field AsianGames_Flag AsianGames_FlagItem_UIBP_C
+---@field AsianOB_Supplies01 AsianOB_SuppliesItem1_UIBP_C
+---@field AsianOB_Supplies02 AsianOB_SuppliesItem1_UIBP_C
+---@field AsianOB_Supplies03 AsianOB_SuppliesItem1_UIBP_C
+---@field AsianOB_Supplies04 AsianOB_SuppliesItem1_UIBP_C
+---@field TextBlock_Country UTextBlock
+---@field TextBlock_Desc1 UTextBlock
+---@field TextBlock_Ranking UTextBlock
+---@field VerticalBox_Panel UVerticalBox
+---@field WidgetSwitcher_Supplies UWidgetSwitcher
+---@field WeaponManagers ULuaArrayHelper

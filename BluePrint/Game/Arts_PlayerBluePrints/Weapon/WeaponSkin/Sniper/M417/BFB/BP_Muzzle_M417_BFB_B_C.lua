@@ -1,0 +1,1 @@
+---@class BP_Muzzle_M417_BFB_B_C:BP_Muzzle_M417_C

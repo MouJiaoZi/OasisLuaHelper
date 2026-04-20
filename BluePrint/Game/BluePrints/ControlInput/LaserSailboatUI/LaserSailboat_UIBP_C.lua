@@ -1,0 +1,12 @@
+---@class LaserSailboat_UIBP_C:UUAEUserWidget
+---@field StepValue:fun(Cur:float,Dest:float,Step:float):float
+---@field GetVehicleUser:fun():BP_VehicleUser_C
+---@field UpdateMotorgliderInfo:fun(deltaTime:float)
+---@field Construct:fun()
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field MoveThrottleUp UWidgetAnimation
+---@field SpeedMatInstance UMaterialInstanceDynamic
+---@field NeedShowFlyTipEffect bool
+---@field ShowFlyTipEffectVelocity int32
+---@field EffectMaxShowTime float
+---@field EffectShowTimeElapse float

@@ -1,0 +1,30 @@
+---@class AsianOB_Main_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field PlayAudio:fun(Audio:UAkAudioEvent)
+---@field GetTeamLowData:fun(Teamid:int32):FAsianTeamInfoLowFrequency
+---@field GetCountryInfo:fun(TeamId:int32,Image_Icon:UImage,TextBlock:UTextBlock):bool
+---@field UIMsg_AsianGamesMiniMap:fun()
+---@field ChangeViewTarget:fun(Teamid:int32)
+---@field SettlementDisplayOrder:fun()
+---@field AsianOB_Countdown AsianGames_Countdown2_UIBP_C
+---@field AsianOB_FuelMeter_UIBP AsianOB_FuelMeter_UIBP_C
+---@field AsianOB_MapStage AsianOB_MapStage_UIBP_C
+---@field AsianOB_PanelScore AsianOB_PanelScore_UIBP_C
+---@field AsianOB_PanelStage AsianOB_PanelStage_UIBP_C
+---@field AsianOB_PanelSupplies AsianOB_PanelSupplies_UIBP_C
+---@field AsianOB_Process AsianOB_Countdown_UIBP_C
+---@field AsianOB_ScoreList AsianOB_ScoreListPanel_UIBP_C
+---@field AsianOB_Settle_UIBP AsianOB_Settle_UIBP_C
+---@field AsianOB_StageTips AsianOB_StageTips_UIBP_C
+---@field AsianOB_TeamList AsianOB_TeamList_UIBP_C
+---@field AsianOB_Tips AsianOB_Tips_UIBP_C
+---@field AsianOB_TipsChampion_UIBP AsianOB_TipsChampion_UIBP_C
+---@field AsianOB_TipsFirst_UIBP AsianOB_TipsFirst_UIBP_C
+---@field AsianOB_TipsStage AsianOB_TipsStage_UIBP_C
+---@field AsianOB_WeaponSlot AsianOB_WeaponSlot_UIBP_C
+---@field CanvasPanel_Common UCanvasPanel
+---@field CanvasPanel_Settlement UCanvasPanel
+---@field CanvasPanel_Vehicle UCanvasPanel
+---@field ImageList ULuaMapHelper
+---@field Play_UI_Finish_Music UAkAudioEvent
+---@field Stop_UI_Finish_Music UAkAudioEvent

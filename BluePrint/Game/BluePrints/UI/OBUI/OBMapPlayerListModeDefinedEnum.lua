@@ -1,0 +1,4 @@
+---@class OBMapPlayerListModeDefinedEnum
+---@field Normal int32
+---@field Judge int32
+---@field OBMapPlayerListModeDefinedEnum_MAX int32

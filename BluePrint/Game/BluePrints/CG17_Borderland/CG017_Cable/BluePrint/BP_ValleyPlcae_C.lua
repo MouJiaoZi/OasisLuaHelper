@@ -1,0 +1,21 @@
+---@class BP_ValleyPlcae_C:AActivityBaseActor
+---@field CheckAmmoType:fun(AmmoID:int32):bool
+---@field InitTime:fun()
+---@field CheakTime:fun():bool
+---@field CanUse:fun(NewParam:FGISCCF_Param):bool
+---@field Use:fun(NewParam:FGISCCF_Param)
+---@field UserConstructionScript:fun()
+---@field ReceiveAnyDamage:fun(Damage:float,DamageType:UDamageType,InstigatedBy:AController,DamageCauser:AActor)
+---@field ShootCheck USphereComponent
+---@field StaticMesh UStaticMeshComponent
+---@field Scene USceneComponent
+---@field Sphere USphereComponent
+---@field GISActorComponentBase UGISActorComponentBase
+---@field lable E_Placelable
+---@field Time float
+---@field CDTime float
+---@field Possessed BP_Wire_C
+---@field InRangeCharacters ULuaArrayHelper
+---@field ArrowItemArray ULuaArrayHelper
+---@field CheckAmmoID ULuaArrayHelper
+---@field TimeHander FTimerHandle

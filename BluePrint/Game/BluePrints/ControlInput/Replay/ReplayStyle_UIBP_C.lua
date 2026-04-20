@@ -1,0 +1,15 @@
+---@class ReplayStyle_UIBP_C:UReplayWidgetDeath
+---@field TimeColor:fun(Condition:bool)
+---@field Construct:fun()
+---@field DX_PC_Bottom UWidgetAnimation
+---@field Button_Mask UButton
+---@field Button_PCBottom UButton
+---@field CanvasPanel_IPX UCanvasPanel
+---@field NewButton_Back UNewButton
+---@field NewButton_EliminateInfo UNewButton
+---@field NewButton_Replay UNewButton
+---@field NewButton_Report UNewButton
+---@field TextBlock_Time UTextBlock
+---@field TextBlock_Txt UTextBlock
+---@field Color_White FSlateColor
+---@field Color_Red FSlateColor

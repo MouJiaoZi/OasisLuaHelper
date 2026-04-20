@@ -1,0 +1,25 @@
+---@class BP_DamageableActor_C:ADamageableActor
+---@field BP_GetCurrentHP:fun():float
+---@field BP_GetMaxHP:fun():float
+---@field BP_CalcFinalDamageRate:fun(DamageEvent:FDamageEvent,Attacker:AActor):float
+---@field BP_CalcFinalMomentum:fun(DamageTypeClass:UClass,BaseMomentun:float):float
+---@field BP_GetAdditionaAbsoluteDamageFromDamageEvent:fun(DamageEvent:FDamageEvent):float
+---@field BP_GetBulletBlockComponentTag:fun():FName
+---@field BP_GetCanBePicked:fun():bool
+---@field BP_GetDamageableGameObjectType:fun():ULuaArrayHelper
+---@field BP_GetDamageRateByTarget:fun(Target:AActor):float
+---@field BP_GetDamageRateFromDamageEvent:fun(DamageEvent:FDamageEvent):float
+---@field BP_GetPickingBoundingBox:fun():FVector,FVector,FRotator,float,bool
+---@field BP_JudgeComponentBlockBullet:fun(Comp:UPrimitiveComponent):bool
+---@field BP_PreTakeDamage:fun(DamageAmount:float,DamageEvent:FDamageEvent,EventInstigator:AController,DamageCauser:AActor):float
+---@field UserConstructionScript:fun()
+---@field ReceiveAnyDamage:fun(Damage:float,DamageType:UDamageType,InstigatedBy:AController,DamageCauser:AActor)
+---@field OnCurrentHpReachedZeroByAnyDamage__DelegateSignature:fun(Sender:BP_DamageableActor_C,Damage:float,DamageType:UDamageType,InstigatedBy:AController,DamageCauser:AActor)
+---@field OnAnyDamage__DelegateSignature:fun(Sender:BP_DamageableActor_C,Damage:float,DamageType:UDamageType,InstigatedBy:AController,DamageCauser:AActor)
+---@field DefaultSceneRoot USceneComponent
+---@field MaxHp float
+---@field CurrentHp float
+---@field OnAnyDamage ULuaMulticastDelegate
+---@field OnCurrentHpReachedZeroByAnyDamage ULuaMulticastDelegate
+---@field OldHp float
+---@field LogicAreaID int32

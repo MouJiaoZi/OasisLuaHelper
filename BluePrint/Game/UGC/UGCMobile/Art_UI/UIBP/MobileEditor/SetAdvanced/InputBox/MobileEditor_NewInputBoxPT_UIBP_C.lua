@@ -1,0 +1,11 @@
+---@class MobileEditor_NewInputBoxPT_UIBP_C:UUGCMobilePropertyWidget
+---@field GetLuaModule:fun():FString
+---@field Get_TextBlock_CurrentNum_Text_0:fun():FText
+---@field MultiLineEditableText_Input UMultiLineEditableText
+---@field MultiLineEditableText_Value UMultiLineEditableText
+---@field TextBlock_CurrentNum UTextBlock
+---@field TextBlock_Title UTextBlock
+---@field TextBlock_Total UTextBlock
+---@field UGCMobilePropertyBindableWidget_0 UUGCMobilePropertyBindableWidget
+---@field NormalColor FLinearColor
+---@field TransparentColor FLinearColor

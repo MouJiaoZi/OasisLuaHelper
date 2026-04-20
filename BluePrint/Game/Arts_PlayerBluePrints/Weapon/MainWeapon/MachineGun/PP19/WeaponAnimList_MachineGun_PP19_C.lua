@@ -1,0 +1,1 @@
+---@class WeaponAnimList_MachineGun_PP19_C:UUAECharacterAnimListComponent

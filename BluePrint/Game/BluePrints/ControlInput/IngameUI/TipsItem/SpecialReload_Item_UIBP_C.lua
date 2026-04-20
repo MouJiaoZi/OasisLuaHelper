@@ -1,0 +1,11 @@
+---@class SpecialReload_Item_UIBP_C:UUAEUserWidget
+---@field SetAsSelected:fun(flag:bool)
+---@field SetItemInfo:fun(num:int32,name:FString,itemID:int32)
+---@field ItemClickedCallback__DelegateSignature:fun(itemID:int32)
+---@field Button_Attach UButton
+---@field ImageIcon UCustomImage
+---@field Name UTextBlock
+---@field Number UTextBlock
+---@field WidgetSwitcher_Select UWidgetSwitcher
+---@field itemId int32
+---@field ItemClickedCallback ULuaMulticastDelegate

@@ -1,0 +1,5 @@
+---@class BountyMode_LifeRadarBtn_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field Button_UseRadar UButton
+---@field CanvasPanel_Btn UCanvasPanel
+---@field HorizontalBox_CloseDoor UHorizontalBox

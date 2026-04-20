@@ -1,0 +1,1 @@
+---@class Ingame_AttackBtnPanel_Rside_C:ULuaUserWidget

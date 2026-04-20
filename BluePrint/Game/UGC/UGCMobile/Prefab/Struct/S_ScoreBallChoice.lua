@@ -1,0 +1,16 @@
+---@class S_ScoreBallChoice
+---@field PawnEnable bool
+---@field BulletEnable bool
+---@field ProjectileEnable bool
+---@field MeleeWeaponEnable bool
+---@field VehicleWeaponEnable bool
+---@field HeavyWeaponEnable bool
+---@field MechaEnable bool
+---@field SpecialWeaponEnable bool
+---@field BulletList int32
+---@field ProjectileList int32
+---@field MeleeWeaponList int32
+---@field VehicleWeaponList int32
+---@field HeavyWeaponList int32
+---@field MechaList int32
+---@field SpecialWeaponList int32

@@ -1,0 +1,18 @@
+---@class Skill_Bandage_BP_C:AUAESkill
+---@field UserConstructionScript:fun()
+---@field UAESkillEventEffectMapForEditor6 UUAESkillEventEffectMapForEditor
+---@field UAESkillEventEffectMapForEditor5 UUAESkillEventEffectMapForEditor
+---@field UAESkillEventEffectMapForEditor4 UUAESkillEventEffectMapForEditor
+---@field UAESkillEventEffectMapForEditor3 UUAESkillEventEffectMapForEditor
+---@field UAESkillEventEffectMapForEditor2 UUAESkillEventEffectMapForEditor
+---@field UAESkillEventEffectMapForEditor1 UUAESkillEventEffectMapForEditor
+---@field UAESkillAction_ReportReplayItemUseData1 UUAESkillAction_ReportReplayItemUseData
+---@field UAESkillAction_ReportReplayItemUseData UUAESkillAction_ReportReplayItemUseData
+---@field UAESkillAction_SetPlayerState UUAESkillAction_SetPlayerState
+---@field UAESkillAction_BroadcastStringEvent UUAESkillAction_BroadcastStringEvent
+---@field UTSkillEventEffectMapForEditor3 UUTSkillEventEffectMapForEditor
+---@field UTSkillEventEffectMapForEditor2 UUTSkillEventEffectMapForEditor
+---@field UAESkillEventEffectMapForEditor UUAESkillEventEffectMapForEditor
+---@field UAESkillPhase1 UUAESkillPhase
+---@field UAESkillPhase UUAESkillPhase
+---@field DefaultSceneRoot USceneComponent

@@ -1,0 +1,10 @@
+---@class Bounty_Achievements_List_C:UUAEUserWidget
+---@field GetIconCallback:fun(InObject:UObject)
+---@field SetIcon:fun(InIconPath:FString)
+---@field Border_NotActivated UBorder
+---@field BountyMode_ClodItem BountyMode_ClodItem_UIBP_C
+---@field CanvasPanel_show UCanvasPanel
+---@field Image_Icon UImage
+---@field TextBlock_content UTextBlock
+---@field TextBlock_SkillName UTextBlock
+---@field TextBlock_Skilltype UTextBlock

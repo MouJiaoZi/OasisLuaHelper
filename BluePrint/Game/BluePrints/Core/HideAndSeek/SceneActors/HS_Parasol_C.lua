@@ -1,0 +1,1 @@
+---@class HS_Parasol_C:AHiderSceneActorBase_C

@@ -1,0 +1,7 @@
+---@class WeaponCompanionRule_20_C:UBP_WeaponCompanionRuleBase_C
+---@field OnInit:fun()
+---@field OnRemove:fun()
+---@field TempVehicle ASTExtraVehicleBase
+---@field TempDriver ASTExtraPlayerCharacter
+---@field DamageOrigin AEliteProjectile
+---@field TargetVehicle ASTExtraVehicleBase

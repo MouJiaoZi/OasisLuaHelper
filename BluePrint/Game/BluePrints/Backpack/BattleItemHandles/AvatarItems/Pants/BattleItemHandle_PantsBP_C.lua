@@ -1,0 +1,1 @@
+---@class BattleItemHandle_PantsBP_C:UBattleItemHandle_AvatarBP_C

@@ -1,0 +1,2 @@
+---@class BP_ProduceDropItemComponent_Deprecated_C:UProduceDropItemComponent
+---@field DataTableRef UUAEDataTable

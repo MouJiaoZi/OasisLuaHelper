@@ -1,0 +1,6 @@
+---@class BP_PlayerHurtBoltBullet_C:ASTExtraShootWeaponBulletBase
+---@field UserConstructionScript:fun()
+---@field P_CrossBrow_Trail_01 UParticleSystemComponent
+---@field Sphere USphereComponent
+---@field ST_Crossbow_Arrow UStaticMeshComponent
+---@field GravityCurve UCurveFloat

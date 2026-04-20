@@ -1,0 +1,1 @@
+---@class BP_DesertWindowCompJ_C:UBP_WindowCompBase_C

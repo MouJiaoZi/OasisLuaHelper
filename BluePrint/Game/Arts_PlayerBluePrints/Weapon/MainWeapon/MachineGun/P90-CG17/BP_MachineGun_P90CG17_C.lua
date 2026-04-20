@@ -1,0 +1,27 @@
+---@class BP_MachineGun_P90CG17_C:BP_ShootWeaponBase_C
+---@field RefreshWeaponSightAnim:fun(InPlayEnd:bool,IgnorePlayerAnim:bool)
+---@field PlaySwitchSightSound:fun(IsOnlyTurn:bool)
+---@field GetUseWeaponAngledSightRotator:fun():bool
+---@field GetWeapomAngledSightRotator:fun():FRotator
+---@field GetAngleSwitchCurve:fun():UCurveFloat
+---@field PlayPlayerSightAnim:fun(IsClose:bool,PlayEnd:bool)
+---@field IsShowSightMesh:fun():bool
+---@field RefreshSightMeshShow:fun()
+---@field PlaySightAnim:fun(IsClose:bool,PlayEnd:bool,IgnorePlayerAnim:bool)
+---@field HaveWeaponSight:fun():bool
+---@field UserConstructionScript:fun()
+---@field SwitchWeaponSight:fun()
+---@field InitProxyBP:fun(OwnerTarget:AActor)
+---@field WeaponAnimList_MachineGun_P90CG17 WeaponAnimList_MachineGun_P90CG17_C
+---@field bUseIdleAnim_0_0 bool
+---@field FovOffset float
+---@field OriginRotOffset FRotator
+---@field TargetRotOffset FRotator
+---@field OriginDollyZoomParam FDollyZoomParam
+---@field TargetDollyZoomParam FDollyZoomParam
+---@field RotOffset FRotator
+---@field NormalSightType ESightType
+---@field WeaponSightType ESightType
+---@field CannotPlayPlayerSightStates ULuaArrayHelper
+---@field AngleCurve UCurveFloat
+---@field IsScopeOut bool

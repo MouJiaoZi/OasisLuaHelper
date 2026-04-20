@@ -1,0 +1,1 @@
+---@class TeamScrimmageConfig_Training_C:URespawnItemConfig

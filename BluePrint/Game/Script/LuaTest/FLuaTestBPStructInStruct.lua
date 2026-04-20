@@ -1,0 +1,3 @@
+---@class FLuaTestBPStructInStruct
+---@field X int32
+---@field Y int32

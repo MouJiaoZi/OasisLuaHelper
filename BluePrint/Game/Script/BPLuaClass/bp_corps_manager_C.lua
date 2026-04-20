@@ -1,0 +1,6 @@
+---@class bp_corps_manager_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_ARRAY_CorpsManager_LevelOption ULuaArrayHelper
+---@field BP_ARRAY_CorpsManager_SegmentOption ULuaArrayHelper
+---@field BP_CorpsManager_IconID int32

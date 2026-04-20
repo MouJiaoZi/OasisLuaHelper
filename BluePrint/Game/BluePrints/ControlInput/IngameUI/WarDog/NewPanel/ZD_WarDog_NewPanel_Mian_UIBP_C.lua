@@ -1,0 +1,11 @@
+---@class ZD_WarDog_NewPanel_Mian_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field CanvasPanel_Content UCanvasPanel
+---@field CanvasPanel_Kou UCanvasPanel
+---@field CanvasPanel_Panel UCanvasPanel
+---@field CustomizeCanvasPanel_228 CustomizeCanvasPanel_BP_C
+---@field HorizontalBox_Tab UHorizontalBox
+---@field NewButton_GuanBi UNewButton
+---@field NewButton_Mark UNewButton
+---@field ReuseList2_Tab ReuseList2_C
+---@field WidgetSwitcher_Entry UWidgetSwitcher

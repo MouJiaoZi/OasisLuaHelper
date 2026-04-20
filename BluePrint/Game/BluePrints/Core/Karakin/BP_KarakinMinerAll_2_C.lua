@@ -1,0 +1,10 @@
+---@class BP_KarakinMinerAll_2_C:AActor
+---@field UserConstructionScript:fun()
+---@field CG011_KLJ_Tunnel_Col UStaticMeshComponent
+---@field BP_PF_Summerland_Bunker_Small_03 UChildActorComponent
+---@field StaticMesh UStaticMeshComponent
+---@field CG011_KLJ_Tunnel UStaticMeshComponent
+---@field CG011_KLJ_Fpga UStaticMeshComponent
+---@field PF_Summerland_Tunnel_02A UStaticMeshComponent
+---@field CG011_KLJ_Fpga02 UStaticMeshComponent
+---@field DefaultSceneRoot USceneComponent

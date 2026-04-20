@@ -1,0 +1,3 @@
+---@class BP_BattleRoyaleGameModeTeam_Faction2_C:ABP_BattleRoyaleGameModeTeamPUBG_Four_C
+---@field UserConstructionScript:fun()
+---@field SpawnMonsterHelperComp1 USpawnMonsterHelperComp

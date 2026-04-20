@@ -1,0 +1,3 @@
+---@class HS_Bedside01_C:AHiderSceneActorBase_C
+---@field UserConstructionScript:fun()
+---@field HideAndSeekSpot HideAndSeekSpot_C

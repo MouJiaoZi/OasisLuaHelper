@@ -1,0 +1,1 @@
+---@class CameraShake_GrenadeDamage_Left_C:UCameraShake

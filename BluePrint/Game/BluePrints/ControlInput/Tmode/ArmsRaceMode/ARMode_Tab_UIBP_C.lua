@@ -1,0 +1,66 @@
+---@class ARMode_Tab_UIBP_C:UUAEUserWidget
+---@field DeathMatch_UpdateALL:fun():bool
+---@field DeathMatch_FirstInit:fun():bool
+---@field DeathMatch_Hide:fun():bool
+---@field DeathMatch_Show:fun():bool
+---@field UpdateWeponListPos:fun()
+---@field InitWeaponList:fun(WeaponGroup:int32)
+---@field UpdateWeaponList:fun()
+---@field InitTeamColor:fun()
+---@field NewTabItemByPlayerInfo:fun(CurrentTeamTabItemList:ULuaArrayHelper,PlayerInfo:FDeathMatchPlayerInfo):Tmode_TabItem_UIBP_C
+---@field UpdateTabItemsByTeamData:fun(TeamScoreData:FDeathMatchTeamScoreData,UIDToTabItemsMap:ULuaMapHelper,CurrentTeamTabItemList:ULuaArrayHelper)
+---@field InitData:fun()
+---@field SetUIBP_isShow:fun(isShow:bool)
+---@field UpdateData_All:fun()
+---@field UpdateTeamItems:fun(GameState:ABRGameStateTeam_DeathMatch)
+---@field InitTeamItemList:fun()
+---@field Construct:fun()
+---@field CanvasPanel_Root UCanvasPanel
+---@field CanvasPanel_TC_Bg UCanvasPanel
+---@field CustomScrollBox_WeaponList UCustomScrollBox
+---@field NewButton_TC_Close UNewButton
+---@field TextBlock_CurrentLevel UTextBlock
+---@field TextBlock_FinalLevel UTextBlock
+---@field TextBlock_LeftSideTeam UTextBlock
+---@field TextBlock_MyTeam_Assist UTextBlock
+---@field TextBlock_MyTeam_Kill UTextBlock
+---@field TextBlock_MyTeam_Rate UTextBlock
+---@field TextBlock_MyTeamScore UTextBlock
+---@field TextBlock_OppoTeam_Assist UTextBlock
+---@field TextBlock_OppoTeam_Kill UTextBlock
+---@field TextBlock_OppoTeam_Rate UTextBlock
+---@field TextBlock_OppoTeamScore UTextBlock
+---@field TextBlock_RightSideTeam UTextBlock
+---@field Tmode_TabItem_UIBP_myTeam_0 Tmode_TabItem_UIBP_C
+---@field Tmode_TabItem_UIBP_myTeam_1 Tmode_TabItem_UIBP_C
+---@field Tmode_TabItem_UIBP_myTeam_2 Tmode_TabItem_UIBP_C
+---@field Tmode_TabItem_UIBP_myTeam_3 Tmode_TabItem_UIBP_C
+---@field Tmode_TabItem_UIBP_myTeam_4 Tmode_TabItem_UIBP_C
+---@field Tmode_TabItem_UIBP_myTeam_5 Tmode_TabItem_UIBP_C
+---@field Tmode_TabItem_UIBP_myTeam_6 Tmode_TabItem_UIBP_C
+---@field Tmode_TabItem_UIBP_myTeam_7 Tmode_TabItem_UIBP_C
+---@field Tmode_TabItem_UIBP_oppoTeam_0 Tmode_TabItem_UIBP_C
+---@field Tmode_TabItem_UIBP_oppoTeam_1 Tmode_TabItem_UIBP_C
+---@field Tmode_TabItem_UIBP_oppoTeam_2 Tmode_TabItem_UIBP_C
+---@field Tmode_TabItem_UIBP_oppoTeam_3 Tmode_TabItem_UIBP_C
+---@field Tmode_TabItem_UIBP_oppoTeam_4 Tmode_TabItem_UIBP_C
+---@field Tmode_TabItem_UIBP_oppoTeam_5 Tmode_TabItem_UIBP_C
+---@field Tmode_TabItem_UIBP_oppoTeam_6 Tmode_TabItem_UIBP_C
+---@field Tmode_TabItem_UIBP_oppoTeam_7 Tmode_TabItem_UIBP_C
+---@field RedColor FSlateColor
+---@field BlueColor FSlateColor
+---@field MyTeamID int32
+---@field IsInitData bool
+---@field TmodeTabItemList_myTeam ULuaArrayHelper
+---@field TmodeTabItemList_oppoTeam ULuaArrayHelper
+---@field UIDToTabItemsMap_MyTeam ULuaMapHelper
+---@field UIDToTabItemsMap_OPPOTeam ULuaMapHelper
+---@field IsUpdateData bool
+---@field MyUIDString FString
+---@field Tmode_TabItem_UIBP_myTeam_7_0 Tmode_TabItem_UIBP_C
+---@field WeaponDataTable UUAEDataTable
+---@field BInitWeaponList bool
+---@field WeaponList ULuaArrayHelper
+---@field MyScore int32
+---@field IsInited bool
+---@field IsSpectator bool

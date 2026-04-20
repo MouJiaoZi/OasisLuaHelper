@@ -1,0 +1,11 @@
+---@class SoundTest_ClassButtonItem_C:UUserWidget
+---@field Construct:fun()
+---@field CkeckSoundVisiable__DelegateSignature:fun()
+---@field ActorName UTextBlock
+---@field ButtonBase UButton
+---@field CkeckSoundVisiable ULuaMulticastDelegate
+---@field Parent SoundTestDetailList_C
+---@field Actor UClass
+---@field Num int32
+---@field AKCompMap ULuaMapHelper
+---@field Temp int32

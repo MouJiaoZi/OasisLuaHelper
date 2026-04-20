@@ -1,0 +1,48 @@
+---@class GM_TouchToHide_IngameUI_C:UUAEUserWidget
+---@field RefreshFocusActorMsg:fun()
+---@field Init:fun(TouchToHideActor:GM_TouchToHide_C)
+---@field TouchToHide_RevertAtIndex:fun(Index:int32)
+---@field TouchToHide_RefreshHideNum:fun()
+---@field TouchToHide_RefreshActorList:fun()
+---@field TouchToHideIngame_RefreshFocusActorMsg:fun()
+---@field TouchToHideIngame_Init:fun(Actor:GM_TouchToHide_C)
+---@field Button_ChangeMat UButton
+---@field Button_Clear UButton
+---@field Button_CloseInput UButton
+---@field Button_Collapse UButton
+---@field Button_Extend UButton
+---@field Button_Hide UButton
+---@field Button_HideDistance UButton
+---@field Button_HideFog UButton
+---@field Button_HideFoliage UButton
+---@field Button_HideMyLandscape UButton
+---@field Button_HidePickUp UButton
+---@field Button_HideSky UButton
+---@field Button_HideWater UButton
+---@field Button_Last UButton
+---@field Button_Next UButton
+---@field Button_OpenInput UButton
+---@field Button_Revert UButton
+---@field Button_RevertMat UButton
+---@field Button_Show UButton
+---@field Button_ShowDistance UButton
+---@field Button_ShowFog UButton
+---@field Button_ShowFoliage UButton
+---@field Button_ShowMyLandscape UButton
+---@field Button_ShowPickUp UButton
+---@field Button_ShowSky UButton
+---@field Button_ShowWater UButton
+---@field TextBlock_FocusActorName UTextBlock
+---@field TextBlock_FocusIndex UTextBlock
+---@field WidgetSwitcher_0 UWidgetSwitcher
+---@field WidgetSwitcher_Distant UWidgetSwitcher
+---@field WidgetSwitcher_Ext UWidgetSwitcher
+---@field WidgetSwitcher_Fog UWidgetSwitcher
+---@field WidgetSwitcher_Foliage UWidgetSwitcher
+---@field WidgetSwitcher_Input UWidgetSwitcher
+---@field WidgetSwitcher_Mat UWidgetSwitcher
+---@field WidgetSwitcher_MyLandscape UWidgetSwitcher
+---@field WidgetSwitcher_PickUp UWidgetSwitcher
+---@field WidgetSwitcher_SkySphere UWidgetSwitcher
+---@field WidgetSwitcher_Water UWidgetSwitcher
+---@field TouchToHideActor GM_TouchToHide_C

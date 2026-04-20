@@ -1,0 +1,10 @@
+---@class NormalEscapeAlertItemInterface_C:UInterface
+---@field UpdateOnMapScaleChange:fun()
+---@field DisableItem:fun():bool
+---@field UpdateSelf:fun():bool
+---@field SetOuterMapInstance:fun(OuterMap:UUserWidget):bool
+---@field GetAlertItemIDAndItemIndex:fun():int32,int32
+---@field SetAlertItemIDAndItemIndex:fun(AlertItemIndex:int32,AlertItemID:int32):bool
+---@field IsNeedUpdateMapLoc:fun(LatestLevelLoc:FVector):bool
+---@field UpdateItemLocInMap:fun(LocInMap:FVector2D,LocInLevel:FVector):FVector2D
+---@field UpdateItemAppearance:fun(ItemAppearanceState:uint8):uint8

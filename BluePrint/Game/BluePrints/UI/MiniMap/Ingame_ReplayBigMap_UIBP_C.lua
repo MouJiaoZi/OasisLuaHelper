@@ -1,0 +1,16 @@
+---@class Ingame_ReplayBigMap_UIBP_C:UUAEUserWidget
+---@field Construct:fun()
+---@field MarkerClick__DelegateSignature:fun()
+---@field BigMiniMapUIBP Ingame_BigMiniMap_UIBP_C
+---@field Button_BigMapArea UButton
+---@field Button_DelMarkIcon UButton
+---@field Button_HideMap UButton
+---@field Button_SelfLock UButton
+---@field Button_SelfMark UButton
+---@field Button_ZoomIn UButton
+---@field Button_ZoomOut UButton
+---@field CanvasPanel_5 UCanvasPanel
+---@field CanvasPanel_ScaleButton UCanvasPanel
+---@field Slider_MapZoom USlider
+---@field MarkerClick ULuaMulticastDelegate
+---@field MiniMapBridgeClass UClass

@@ -1,0 +1,1 @@
+---@class BP_ToggleDoorNode_C:UATTaskNode_ToggleDoor

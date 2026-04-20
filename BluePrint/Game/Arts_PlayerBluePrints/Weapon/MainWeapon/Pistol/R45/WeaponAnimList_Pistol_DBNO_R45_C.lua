@@ -1,0 +1,1 @@
+---@class WeaponAnimList_Pistol_DBNO_R45_C:UUAECharacterAnimListComponent

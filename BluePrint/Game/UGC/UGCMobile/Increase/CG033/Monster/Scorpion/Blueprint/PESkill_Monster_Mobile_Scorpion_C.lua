@@ -1,0 +1,1 @@
+---@class PESkill_Monster_Mobile_Scorpion_C:PESkillTemplate_Base_C

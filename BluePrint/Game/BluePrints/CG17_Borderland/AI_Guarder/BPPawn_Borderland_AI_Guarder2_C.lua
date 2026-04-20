@@ -1,0 +1,12 @@
+---@class BPPawn_Borderland_AI_Guarder2_C:ABPPawn_Zombie_Base_C
+---@field GetBulletHitEffectDataAsset:fun(HitComp:UPrimitiveComponent):UHitEffectDataAsset
+---@field GetBulletHitEffectDataAssetTag:fun(Comp:UPrimitiveComponent):FString
+---@field GetUIDisplayName:fun():FString
+---@field UserConstructionScript:fun()
+---@field MonsterAnimList_Human_GunGuarder_2 MonsterAnimList_Human_GunGuarder_2_C
+---@field WeaponOwner UWeaponOwnerComponent
+---@field SimpleWeaponManager USimpleWeaponManagerComponent
+---@field DisplayName FString
+---@field HasDroppedItems bool
+---@field MarkInsID int32
+---@field MarkType int32

@@ -1,0 +1,9 @@
+---@class SuperPeopleHeroBackpackHandle_Base_C:UBattleItemHandleBase
+---@field GetPlayerCharacter:fun():ASTExtraBaseCharacter
+---@field SpecialPeriodWhenDrop:fun()
+---@field SpecialPeriodWhenPickUp:fun()
+---@field HandleDropLua:fun(InCount:int32,Reason:EBattleItemDropReason,InResult:bool):bool
+---@field HandlePickUpLua:fun(ItemContainer:TScriptInterface,PickupInfo:FBattleItemPickupInfo,Reason:EBattleItemPickupReason,InResult:bool):bool
+---@field HandleDrop:fun(InCount:int32,Reason:EBattleItemDropReason):bool
+---@field HandlePickup:fun(ItemContainer:TScriptInterface,PickupInfo:FBattleItemPickupInfo,Reason:EBattleItemPickupReason):bool
+---@field HandleTable ULuaArrayHelper

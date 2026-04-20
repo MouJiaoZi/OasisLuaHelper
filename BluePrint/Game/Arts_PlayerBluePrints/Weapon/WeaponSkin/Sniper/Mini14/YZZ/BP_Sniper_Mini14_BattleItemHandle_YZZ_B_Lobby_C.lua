@@ -1,0 +1,1 @@
+---@class BP_Sniper_Mini14_BattleItemHandle_YZZ_B_Lobby_C:UBackpackWeaponHandle

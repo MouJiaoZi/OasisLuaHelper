@@ -1,0 +1,5 @@
+---@class FSpline
+---@field PlaceA FVector
+---@field PlaceB FVector
+---@field CapsuleCollisionLocation FVector
+---@field CapsuleHalfLenth float

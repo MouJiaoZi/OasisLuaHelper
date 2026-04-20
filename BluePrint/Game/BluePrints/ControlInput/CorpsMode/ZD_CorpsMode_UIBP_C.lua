@@ -1,0 +1,50 @@
+---@class ZD_CorpsMode_UIBP_C:UUAEUserWidget
+---@field HideCorpsModeUI:fun()
+---@field GetCorpsLeftCoutFormatText:fun(CorpsName:int32):FText
+---@field GetCorpsOutByOthers_Loser_FormatText:fun(CorpsName:FString):FText
+---@field GetCorpsOutByOthers_Winner_FormatText:fun(CorpsName:FString):FText
+---@field GetCorpsOutBySelfFormatText:fun(CorpsName:FString):FText
+---@field GetCorpsJoinFormatText:fun(CorpsName:FString):FText
+---@field AddPostfix:fun(IconPath:FString):FString
+---@field PlayTopTipsAnim:fun()
+---@field UIMsg_UpdateLeftCorpsCounts:fun()
+---@field SaveBadgeTextureToMap:fun(object:UObject,id:int32)
+---@field ChangeTopTipsWidget:fun(ActiveWidget:UWidget)
+---@field ShowCorpsAcedTips:fun(EnemyCorpsID:int32,AcedCorpsID:int32)
+---@field ShowCorpsJoinTips:fun(CorpsID:int32)
+---@field UIMsg_UpdateCorpsRealTimeRanking:fun()
+---@field ShowCorpsModeUI:fun()
+---@field Construct:fun()
+---@field ReceivedInitWidget:fun()
+---@field TopTips_anima UWidgetAnimation
+---@field Border_CorpsTips UBorder
+---@field Button_OpenCorpsList UButton
+---@field CanvasPanel_CorpsMemberListGroup UCanvasPanel
+---@field CanvasPanel_Ipx UCanvasPanel
+---@field CorpsAcedByOthersTips UHorizontalBox
+---@field CorpsAcedTips UHorizontalBox
+---@field CorpsJoinTips UHorizontalBox
+---@field CorpsListBtnBGSwitcher UWidgetSwitcher
+---@field CustomScrollBox_MemberList UCustomScrollBox
+---@field HorizontalBox_num UHorizontalBox
+---@field Image_CorpsIcon1 UImage
+---@field Image_CorpsIcon2 UImage
+---@field Image_CorpsIcon3 UImage
+---@field Image_CorpsIcon4 UImage
+---@field Image_HideCorpsList UImage
+---@field Image_ListCollapsed UImage
+---@field Image_ListExpand UImage
+---@field Image_ShowCorpsList UImage
+---@field TextBlock_CorpsNum UTextBlock
+---@field TextBlock_TotalCorpsNum UUTRichTextBlock
+---@field UTRichTextBlock_CorpsName1 UUTRichTextBlock
+---@field UTRichTextBlock_CorpsName2 UUTRichTextBlock
+---@field UTRichTextBlock_CorpsName3 UUTRichTextBlock
+---@field UTRichTextBlock_CorpsName4 UUTRichTextBlock
+---@field WidgetSwitcher_ListShowandHide UWidgetSwitcher
+---@field WidgetSwitcher_TipsType UWidgetSwitcher
+---@field BPZorder int32
+---@field CorpsIconIDToCorpsSmallIcon ULuaMapHelper
+---@field CorpsIconIDToSmallIconPath ULuaMapHelper
+---@field CorpsIconIDToBigIconPath ULuaMapHelper
+---@field TextIDToBattleText ULuaMapHelper

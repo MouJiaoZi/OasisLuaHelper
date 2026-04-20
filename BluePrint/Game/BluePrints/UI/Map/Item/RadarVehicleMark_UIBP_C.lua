@@ -1,0 +1,1 @@
+---@class RadarVehicleMark_UIBP_C:UMapUIMarkWidget_CustomizeTypes

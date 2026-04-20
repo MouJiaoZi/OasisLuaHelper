@@ -1,0 +1,13 @@
+---@class OB_AirLineAll_C:UUAEUserWidget
+---@field AirLineAll_GetWigetAll:fun():UCanvasPanel
+---@field CanvasPanel_AirLineAll UCanvasPanel
+---@field SkydivingArea_0 Map_SkydivingAreaItem_UIBP_C
+---@field SkydivingArea_1 Map_SkydivingAreaItem_UIBP_C
+---@field SkydivingArea_2 Map_SkydivingAreaItem_UIBP_C
+---@field SkydivingArea_3 Map_SkydivingAreaItem_UIBP_C
+---@field SkydivingArea_4 Map_SkydivingAreaItem_UIBP_C
+---@field SkydivingArea_5 Map_SkydivingAreaItem_UIBP_C
+---@field SkydivingArea_6 Map_SkydivingAreaItem_UIBP_C
+---@field SkydivingArea_7 Map_SkydivingAreaItem_UIBP_C
+---@field SkydivingArea_8 Map_SkydivingAreaItem_UIBP_C
+---@field SkydivingArea_9 Map_SkydivingAreaItem_UIBP_C

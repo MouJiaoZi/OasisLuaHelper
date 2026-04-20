@@ -1,0 +1,5 @@
+---@class MobileEditor_GlobalTab2_Item_UIBP_C:UUAEUserWidget
+---@field CanvasPanel_Select UCanvasPanel
+---@field Image_Icon UImage
+---@field NewButton_Select UNewButton
+---@field TextBlock_Name UTextBlock

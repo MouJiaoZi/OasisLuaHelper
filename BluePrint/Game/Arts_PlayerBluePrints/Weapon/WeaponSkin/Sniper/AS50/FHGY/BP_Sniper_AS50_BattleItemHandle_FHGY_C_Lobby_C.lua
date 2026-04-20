@@ -1,0 +1,1 @@
+---@class BP_Sniper_AS50_BattleItemHandle_FHGY_C_Lobby_C:UBackpackWeaponHandle

@@ -1,0 +1,13 @@
+---@class BP_STExtraPlayerController_BDL_C:ABP_STExtraPlayerController_C
+---@field BDLCheckTeamAllDead:fun():bool
+---@field SetReviveHandleSingle:fun(Time:float)
+---@field SetReviveHandle:fun(Time:float)
+---@field GetSpecialOBViewTarget:fun():AActor
+---@field PlayerWillBeRevival:fun():bool
+---@field CanObserveOtherPlayer:fun(OtherPC:AUAEPlayerController):bool
+---@field UserConstructionScript:fun()
+---@field ReceiveClientRestart:fun()
+---@field Helicopter bool
+---@field ReviveHandle FTimerHandle
+---@field HideSpectateUI bool
+---@field ReviveHandleSingle FTimerHandle

@@ -1,0 +1,25 @@
+---@class Bounty_ResultsBadges_UIBP_C:UUAEUserWidget
+---@field OnScrollItem:fun(NewParam:float)
+---@field HideAllDetail:fun()
+---@field GetShareAchievementID:fun():int32
+---@field GetShareTitleID:fun():int32
+---@field OnClickShare:fun()
+---@field OnTouchDetail:fun(Pos:FVector2D,AchievementID:int32)
+---@field UpdateBG:fun(bVisible:bool)
+---@field OpenBountyResultMetalDetail:fun()
+---@field OnInitItem:fun(Widget:UUserWidget,Index:int32)
+---@field FillAchievements:fun()
+---@field Construct:fun()
+---@field Button_close UButton
+---@field Button_left UButton
+---@field Button_Right UButton
+---@field Button_ShareTitle UButton
+---@field CanvasPanel_FX_Arrow UCanvasPanel
+---@field DetailTips Bounty_Achievements_ReachTips_UIBP_C
+---@field FX_Arrow UImage
+---@field ReuseList2 ReuseList2_C
+---@field TextBlockTitleNum UTextBlock
+---@field AchievementsTable UUAEDataTable
+---@field DetailOffset FVector2D
+---@field NewVar_0 Bounty_Achievements_ReachTips_UIBP_C
+---@field ArrowOffset FVector2D

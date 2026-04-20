@@ -1,0 +1,23 @@
+---@class RegionalMapUI_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field GetExtendEntireMapUIClass:fun():UClass
+---@field CaculateAlignment:fun(CurMapSize:FVector2D,SelfHalfSize:FVector2D,SelfTranslation:FVector2D,MapInitSize:FVector2D):float,float,float,float
+---@field InitRenderSize:fun(Input:FVector):FVector2D
+---@field InitRenderTranslation:fun()
+---@field CaculateLoc:fun(PointLocationInLevel:FVector):FVector2D
+---@field ApplyTranslation:fun()
+---@field SetActorPtr:fun(Input:UObject)
+---@field GetActorPtr:fun():UObject
+---@field GetMapPtr:fun():UObject
+---@field SetMapPtr:fun(Ptr:UObject)
+---@field ApplyUIPanel UCanvasPanel
+---@field TargetImage UImage
+---@field MapPtr UObject
+---@field ActorPtr UObject
+---@field MapScaleCPP float
+---@field Alignment FVector2D
+---@field Size FVector2D
+---@field SelfLevelToMapScale float
+---@field SelfTranslation FWidgetTransform
+---@field SelfSize FVector2D
+---@field ExtendEntireMapUIClass UClass

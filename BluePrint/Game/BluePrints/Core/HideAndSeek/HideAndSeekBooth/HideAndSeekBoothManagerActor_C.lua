@@ -1,0 +1,27 @@
+---@class HideAndSeekBoothManagerActor_C:AActor
+---@field GetLuaModule:fun():FString
+---@field PlayParticleEffect:fun(Index:int32)
+---@field InitializeBoothArray:fun()
+---@field ClearBooth:fun()
+---@field Clear:fun()
+---@field Initialize:fun()
+---@field RemoveBoothKilledHiderBox:fun(BoothIndex:int32,KilledHiderPlayerKey:int64)
+---@field GetBoothActor:fun(Index:int32):HideAndSeekBoothChildActor_C
+---@field SpawnBoothBox:fun():HideAndSeekBoothChildActorBox_C
+---@field InitBoothBoxPool:fun()
+---@field ReleaseBoothBox:fun(BoothBox:HideAndSeekBoothChildActorBox_C)
+---@field ObtainBoothBox:fun():HideAndSeekBoothChildActorBox_C
+---@field AddBoothKilledHiderBox:fun(BoothIndex:int32,KilledHiderPlayerKey:int64,HiderName:FName)
+---@field SetBoothSeekerName:fun(Index:int32,SeekerName:FName)
+---@field UserConstructionScript:fun()
+---@field ReceiveEndPlay:fun(EndPlayReason:EEndPlayReason)
+---@field ChildActorPoint3 UChildActorComponent
+---@field ChildActorPoint2 UChildActorComponent
+---@field ChildActorPoint1 UChildActorComponent
+---@field ChildActorPoint0 UChildActorComponent
+---@field DefaultSceneRoot USceneComponent
+---@field BoothBoxPool ULuaArrayHelper
+---@field bHasInitBoothBoxPool bool
+---@field TmpBoothBox HideAndSeekBoothChildActorBox_C
+---@field bHasInitBoothActor bool
+---@field BoothArray ULuaArrayHelper

@@ -1,0 +1,43 @@
+---@class GameOverTips_UIBP_C:UUAEUserWidget
+---@field GetWinnerAirdropParams:fun():bool,FText,int32,FText
+---@field SkipTipsForReplay:fun()
+---@field ReportSkipTipsForReplay:fun()
+---@field UIMsg_CakePlacementFailed:fun()
+---@field UIMsg_CakePlacementSucceeded:fun()
+---@field ShowResult:fun()
+---@field SearchCakeSetter:fun()
+---@field CakePlacement:fun(succ:bool)
+---@field On_BtnCakeImg_MouseButtonDown_0:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field ShowCountDownUI:fun()
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field Construct:fun()
+---@field EndTips_anima UWidgetAnimation
+---@field Show_anima UWidgetAnimation
+---@field Border_CakeInfo UBorder
+---@field BtnCakeImg UImage
+---@field Button_SkipTips UButton
+---@field CakeBtn UButton
+---@field Image_BG UImage
+---@field Image_cakeBG UImage
+---@field SkipPanel UCanvasPanel
+---@field tempBtn UButton
+---@field TerminatorTips TerminatorTips_C
+---@field TextBlock_3 UTextBlock
+---@field TextBlock_ResultTips UTextBlock
+---@field TextBlock_Times UTextBlock
+---@field VicoryColor FSlateColor
+---@field FailureColor FSlateColor
+---@field textureChicken UTexture2D
+---@field textureVic UTexture2D
+---@field currTime float
+---@field countDownTime float
+---@field currSec int32
+---@field SkipDelay int32
+---@field cakeBtnPath FString
+---@field controllerCount int32
+---@field IsPlayerFPP bool
+---@field WinnerTempBoxSkill UClass
+---@field WinnerAirdropSkill UClass
+---@field NormalCakeImg UTexture
+---@field YellowCakeImg UTexture
+---@field bHasShowResult bool

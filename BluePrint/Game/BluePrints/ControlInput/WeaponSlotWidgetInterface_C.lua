@@ -1,0 +1,3 @@
+---@class WeaponSlotWidgetInterface_C:UInterface
+---@field Interface_UpdateFireModeShape:fun(Show:bool)
+---@field Interface_SetBorderOpacity:fun(Opacity:float)

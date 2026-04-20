@@ -1,0 +1,8 @@
+---@class SeasonTopGame_Stage_PlayerName_UIBP_C:UUAEUserWidget
+---@field UpdateTeamInfo:fun(TeamName:FString,TeamLogoID:FString):FString
+---@field UpdateGradeInfo:fun(Rank:int32,KillNumber:int32):int32
+---@field UpdatePlayerInfo:fun(PlayerName:FString,Gender:int32,Visible:bool,PlayerUID:FString):bool
+---@field UpdatePlayerName:fun(PlayerName:FString)
+---@field UpdatePlayerGender:fun(Gender:int32,PlayerUID:FString)
+---@field TextBlock_PlayerName UTextBlock
+---@field WidgetSwitcher_Gender UWidgetSwitcher

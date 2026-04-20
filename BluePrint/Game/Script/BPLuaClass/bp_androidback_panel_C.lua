@@ -1,0 +1,5 @@
+---@class bp_androidback_panel_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_AndroidBack_msg FString
+---@field BP_AndroidBack_title FString

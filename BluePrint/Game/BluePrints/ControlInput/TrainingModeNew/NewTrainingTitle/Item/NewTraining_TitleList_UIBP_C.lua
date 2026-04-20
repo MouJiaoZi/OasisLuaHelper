@@ -1,0 +1,7 @@
+---@class NewTraining_TitleList_UIBP_C:UUAEUserWidget
+---@field Border_Click UBorder
+---@field CanvasPanel_Lock UCanvasPanel
+---@field Image_Line UImage
+---@field Image_TitleIcon UImage
+---@field TextBlock_synopsis UTextBlock
+---@field TextBlock_Title UTextBlock

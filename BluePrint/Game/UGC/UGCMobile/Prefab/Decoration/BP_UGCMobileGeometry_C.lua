@@ -1,0 +1,38 @@
+---@class BP_UGCMobileGeometry_C:BP_UGCMobileDecorationBaseActor_C
+---@field GetDynamicInstanceParam:fun():FUGCMMaterialParamConfigData
+---@field FillMaterialGeometryParams:fun():FUGCMMaterialGeometryParams
+---@field HasMaterialGeometryParams:fun():bool
+---@field GetLuaModule:fun():FString
+---@field UserConstructionScript:fun()
+---@field UpdateCustomMaterialParamColor:fun(DefaultParam:FUGCMaterialGeometryDefaultParam,Reset:bool)
+---@field SetAllDynamicInstancingParameter:fun(InMeshComp:UStaticMeshComponent)
+---@field SetMaterialGeometryParams:fun(InGeometryPrams:FUGCMMaterialGeometryParams)
+---@field SetDynamicInstanceParam:fun(InParam:FUGCMMaterialParamConfigData)
+---@field EnableAction FUGCMobileObjectAction
+---@field DisableAction FUGCMobileObjectAction
+---@field Metallicity float
+---@field Roughness float
+---@field Transparency float
+---@field Emissive float
+---@field GradientDiraction int32
+---@field GradientCenter float
+---@field GradientLevel float
+---@field TexUVScale float
+---@field TexOffsetU float
+---@field TexOffsetV float
+---@field TexRotate float
+---@field FlowSpeed float
+---@field FlowDistance float
+---@field RimLight float
+---@field HasMetallicity bool
+---@field HasEmissive bool
+---@field HasGradient bool
+---@field HasTexChange bool
+---@field HasFlow bool
+---@field HasDistance bool
+---@field HasRimLight bool
+---@field HasTexScale bool
+---@field HasRoughtness bool
+---@field HasOpacity bool
+---@field LocalTintList ULuaArrayHelper
+---@field NewVar_0 FUGCMaterialGeometryDefaultParam

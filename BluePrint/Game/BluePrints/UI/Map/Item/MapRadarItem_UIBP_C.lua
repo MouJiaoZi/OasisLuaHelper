@@ -1,0 +1,2 @@
+---@class MapRadarItem_UIBP_C:UMapUIMarkBaseWidget
+---@field UpdateMarkSize:fun(inScale:float,inMapScale:float,MapScaleInUI:float)

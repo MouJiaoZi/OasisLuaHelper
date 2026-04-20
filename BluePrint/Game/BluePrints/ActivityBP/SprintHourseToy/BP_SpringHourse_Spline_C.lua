@@ -1,0 +1,4 @@
+---@class BP_SpringHourse_Spline_C:AActor
+---@field UserConstructionScript:fun()
+---@field Spline USplineComponent
+---@field DefaultSceneRoot USceneComponent

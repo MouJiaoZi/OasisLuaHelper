@@ -1,0 +1,11 @@
+---@class BP_MotionControlErrorComdition_C:UCompareCustomCondition
+---@field UpdateTimerFun:fun(DeltaTime:float,DurationTime:float)
+---@field Event_GetConditionInfo:fun():FString
+---@field BP_InitCompareNode:fun()
+---@field TempInfo FString
+---@field RegexStr FString
+---@field IsTrigger bool
+---@field UpdateTime float
+---@field IsReport bool
+---@field UpdateStr FString
+---@field DelayReportTime float

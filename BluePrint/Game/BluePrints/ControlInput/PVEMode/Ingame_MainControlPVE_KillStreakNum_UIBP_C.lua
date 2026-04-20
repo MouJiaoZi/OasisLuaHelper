@@ -1,0 +1,11 @@
+---@class Ingame_MainControlPVE_KillStreakNum_UIBP_C:UUAEUserWidget
+---@field InitIcon:fun()
+---@field OnKillStreakNumChange:fun()
+---@field SetNum:fun(Num:int32)
+---@field ReceivedInitWidget:fun()
+---@field DelayHide UWidgetAnimation
+---@field CanvasPanel_Main UCanvasPanel
+---@field Image_Icon UImage
+---@field TextBlock_Num UTextBlock
+---@field BindEventTryTimes int32
+---@field GameModeIconPathMap ULuaMapHelper

@@ -1,0 +1,11 @@
+---@class SurviveGameState_Creation_C:ASTExtraGameStateBase
+---@field UserConstructionScript:fun()
+---@field BP_ObjectPosMgr BP_ObjectPosMgr_C
+---@field TriggerLevels UTriggerLevelsComponent
+---@field AirAttackCS UAirAttackCS
+---@field DefaultSceneRoot USceneComponent
+---@field PlaneCanJumpPos FVector
+---@field PlaneForceJumpPos FVector
+---@field WidgetAngle float
+---@field RouteLength float
+---@field CanJumpLocInMap FVector2D

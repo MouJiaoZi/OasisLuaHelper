@@ -1,0 +1,31 @@
+---@class BP_CG30_Ascender_C:AActivityBaseActor
+---@field StopInteractive:fun()
+---@field ResetHeight:fun(NewMiddleRopeHeight:float)
+---@field SetAcceralateDownSpeed:fun(AcceralateDownSpeed:float)
+---@field SetNormalSpeed:fun(NormalSpeed:float)
+---@field StopInteract:fun()
+---@field BeginInteract:fun(Click_Param:FClick_Param)
+---@field InteractCheck:fun(Click_Param:FClick_Param):bool
+---@field InitHeight:fun()
+---@field UserConstructionScript:fun()
+---@field CG030_Ascender UStaticMeshComponent
+---@field VehicleBlock UBoxComponent
+---@field ClickActorComponentBase1 UClickActorComponentBase
+---@field BoxButtom UBoxComponent
+---@field SkeletalMesh USkeletalMeshComponent
+---@field DeatchScene USceneComponent
+---@field BP_CG30_AscenderCustomMove UChildActorComponent
+---@field BoxTop UBoxComponent
+---@field ClickActorComponentBaseButtom UClickActorComponentBase
+---@field CG030_Ascender03 UStaticMeshComponent
+---@field CG030_Ascender01 UStaticMeshComponent
+---@field DefaultSceneRoot USceneComponent
+---@field MiddleRopeHeight float
+---@field SaveRopeHeightTop float
+---@field SaveRopeHeightBottom float
+---@field InteractPC APlayerController
+---@field NormalSpeed float
+---@field AcceralateDownSpeed float
+---@field TopPosition FVector
+---@field CurAkEvent int32
+---@field DynamicMeshComps ULuaArrayHelper

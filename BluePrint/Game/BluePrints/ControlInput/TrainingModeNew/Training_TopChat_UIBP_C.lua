@@ -1,0 +1,9 @@
+---@class Training_TopChat_UIBP_C:UPlayerCharacterPositionWidget
+---@field HideContent:fun()
+---@field RefreshTopChatContent:fun()
+---@field Event_InitParamEnd:fun()
+---@field Event_UnInitParam:fun()
+---@field CanvasPanel_0 UCanvasPanel
+---@field UTRichTextBlock_Content UUTRichTextBlock
+---@field CanShow bool
+---@field Timer FTimerHandle

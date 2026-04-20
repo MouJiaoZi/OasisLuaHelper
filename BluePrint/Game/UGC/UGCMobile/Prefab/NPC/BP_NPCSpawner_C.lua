@@ -1,0 +1,83 @@
+---@class BP_NPCSpawner_C:BP_UGCMobileBaseActor_C
+---@field GetSkeletalMesh:fun():USkeletalMeshComponent
+---@field GetLuaModule:fun():FString
+---@field GetValidPosAround:fun(Pawn:AActor,Poss:FVector,Rott:FRotator,Radiuss:float,halfSize:float):FVector
+---@field UpdateWidgetPreview:fun()
+---@field UpdateInteractEAName:fun()
+---@field UpdateInteractActionEnable:fun()
+---@field NPCNamePropertyChanged:fun()
+---@field ChangeCharacterName:fun()
+---@field GetWaypointData:fun():ULuaArrayHelper
+---@field ProcessMoveEventEnable:fun()
+---@field LuaOnBehaviorModified:fun()
+---@field GetNPCIdleAct:fun():UAnimSequence
+---@field LuaIdleActModified:fun()
+---@field LuaNPCNameModified:fun()
+---@field GetNPCCDO:fun():BP_UGCM_GenericNPCPawn_C
+---@field LuaPawnSelecterModified:fun()
+---@field GetNPCPlotEditInfo:fun()
+---@field OnOptionTriggerCallBack:fun(Idx:int32)
+---@field PrintTransform:fun(InTransform:FTransform)
+---@field AttachNPC:fun(bAttach:bool)
+---@field LuaSetChildActorVisible:fun(bVisible:bool)
+---@field NPCLocomotion:fun(NPCInstance:BP_UGCM_GenericNPCPawn_C)
+---@field UpdateSkeletalAnim:fun()
+---@field GetOptionIconList:fun(UserData:FString):ULuaArrayHelper
+---@field GetOptionIcon:fun(UseData:FString):UTexture2D
+---@field GetBlackBoard:fun(NPC:BP_UGCM_GenericNPCPawn_C):UBlackboardComponent
+---@field UnitConversion:fun(m:float):float
+---@field UpdateLandLocation:fun()
+---@field LuaSetNPCProperty:fun(NPCInstance:BP_UGCM_GenericNPCPawn_C)
+---@field UpdateSkeletalMesh:fun()
+---@field SpawnNPC:fun()
+---@field SetNPCProperty:fun(NPCInstance:BP_UGCM_GenericNPCPawn_C)
+---@field PrintDebugString:fun(Info:FString)
+---@field UserConstructionScript:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field Widget UWidgetComponent
+---@field BP_UGCMBindComponent BP_UGCMBindComponent_C
+---@field SkeletalMesh USkeletalMeshComponent
+---@field Behavior Enum_NPCBehavior
+---@field PatrolRadius float
+---@field WayPointStruct Struct_UGCM_WayPoints
+---@field AllNPCList ULuaArrayHelper
+---@field PatrolTiming Enum_PatrolTiming
+---@field PatrolDelay float
+---@field PatrolDuration float
+---@field PatrolEndStrategy Enum_NPC_PatrolEndStrategy
+---@field bEvent_PauseMove bool
+---@field bEvent_StartMove bool
+---@field bEvent_MoveNext bool
+---@field bEvent_MoveToEnd bool
+---@field bEvent_MoveBackSpawnLocation bool
+---@field PawnSelecter int32
+---@field IdleAct int32
+---@field bNameBar bool
+---@field AutoEnable bool
+---@field NPCName FString
+---@field Speed float
+---@field InteractRadius float
+---@field InteractTeams S_TeamChoice
+---@field InteractOptions ULuaArrayHelper
+---@field NPCOption FString
+---@field AnimOption FString
+---@field MeshBoxExtent FVector
+---@field Action_ReceiveSpawnNPC FUGCMobileObjectAction
+---@field Action_ReceiveClearNPC FUGCMobileObjectAction
+---@field Action_ReceiveStartMove FUGCMobileObjectAction
+---@field Action_ReceiveStopMove FUGCMobileObjectAction
+---@field Action_ReceiveMoveNextWayPoint FUGCMobileObjectAction
+---@field Action_ReceiveMoveToEnd FUGCMobileObjectAction
+---@field Action_ReceiveMoveBackSpawnLocation FUGCMobileObjectAction
+---@field BPAliveNPC BP_UGCM_GenericNPCPawn_C
+---@field NPCPlotID int32
+---@field AllNPCInstance bool
+---@field InteractEventCluster UUGCMobileEventCluster
+---@field InteractActionCluster UUGCMobileActionCluster
+---@field InteractActionConditionArray ULuaArrayHelper
+---@field InteractActionArray ULuaArrayHelper
+---@field InteractEventConditionArray ULuaArrayHelper
+---@field InteractEventArray ULuaArrayHelper
+---@field bBlueprintTick bool
+---@field CanAcceptEmitterObj UParticleSystem
+---@field CanSubmitEmitterObj UParticleSystem

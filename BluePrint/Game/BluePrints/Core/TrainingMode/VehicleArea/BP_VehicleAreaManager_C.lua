@@ -1,0 +1,13 @@
+---@class BP_VehicleAreaManager_C:AActor
+---@field GetLuaModule:fun():FString
+---@field UserConstructionScript:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field DefaultSceneRoot USceneComponent
+---@field AllowedStandOns ULuaArrayHelper
+---@field MillisecondsToInterruptAfterOutOfVehicleArea float
+---@field PlayBGMAkAudioEventObjectPath UAkAudioEvent
+---@field PlayBGMAkAudioEventObjectPath_LuaBug FString
+---@field StopBGMAkAudioEventObjectPath UAkAudioEvent
+---@field StopBGMAkAudioEventObjectPath_LuaBug FString
+---@field BP_VehiclePlayerStatus ULuaArrayHelper
+---@field RoleToTickIntervals ULuaMapHelper

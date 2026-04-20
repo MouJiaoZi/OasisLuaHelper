@@ -1,0 +1,4 @@
+---@class PendantTool_C:AActor
+---@field UserConstructionScript:fun()
+---@field PendantComp USkeletalMeshComponent
+---@field BackpackComp USkeletalMeshComponent

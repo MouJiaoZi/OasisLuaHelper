@@ -1,0 +1,8 @@
+---@class BP_VehicleAreaManagerEx_C:ABP_VehicleAreaManager_C
+---@field GetLuaModule:fun():FString
+---@field UserConstructionScript:fun()
+---@field MillsecondsToDestoryVehicleAfterExit float
+---@field MillsecondsToShowParticleSystemAfterExit float
+---@field TipIdAfterExit int32
+---@field ExitVehicleParticleSystemObjectPath UParticleSystem
+---@field ExitVehicleParticleSystemObjectPath_LuaBug FString

@@ -1,0 +1,43 @@
+---@class Leisure_ArmorEditor_Main_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field Get_TextBlock_Name_Text_0:fun():FText
+---@field ActorDetailViewWidget UGCMobileDetailViewWidget_C
+---@field Button_Mask UButton
+---@field CanvasPanel_Edit UCanvasPanel
+---@field CanvasPanel_IPX UCanvasPanel
+---@field CanvasPanel_LeftArmor UCanvasPanel
+---@field CustomScrollBox_1 UCustomScrollBox
+---@field HorizontalBox_But UHorizontalBox
+---@field Image_DesEdit UImage
+---@field Image_NameEdit UImage
+---@field NewButton_Advanced UNewButton
+---@field NewButton_Base UNewButton
+---@field NewButton_Close UNewButton
+---@field NewButton_Copy UNewButton
+---@field NewButton_Custom UNewButton
+---@field NewButton_DelMotion UNewButton
+---@field NewButton_Description_Edit UNewButton
+---@field NewButton_ExpandMask UNewButton
+---@field NewButton_ExpandReset UNewButton
+---@field NewButton_Help UNewButton
+---@field NewButton_More UNewButton
+---@field NewButton_Name_Edit UNewButton
+---@field NewButton_Official UNewButton
+---@field NewButton_Reset UNewButton
+---@field NewButton_Restore UNewButton
+---@field NewButton_Revoke UNewButton
+---@field NewButton_SaveAsCustom UNewButton
+---@field NewButton_SaveChanges UNewButton
+---@field PreviewSceneShow PreviewSceneShow_C
+---@field ReuseList2_Armor ReuseList2_C
+---@field SetAdvanced_HelpTips_UIBP SetAdvanced_HelpTips_UIBP_C
+---@field SettingTipsContent UUTRichTextBlock
+---@field Switcher_Official UWidgetSwitcher
+---@field TextBlock_Name UTextBlock
+---@field VerticalBox_Expand UCanvasPanel
+---@field WidgetSwitcher_Advanced UWidgetSwitcher
+---@field WidgetSwitcher_Base UWidgetSwitcher
+---@field WidgetSwitcher_Btn UWidgetSwitcher
+---@field WidgetSwitcher_Custom UWidgetSwitcher
+---@field WidgetSwitcher_Restore UWidgetSwitcher
+---@field WidgetSwitcher_Revoke UWidgetSwitcher

@@ -1,0 +1,5 @@
+---@class Variety_Move_Operaete_UIBP_C:UUAEUserWidget
+---@field Image_Icon UImage
+---@field Image_Select UImage
+---@field NewButton_Operate UNewButton
+---@field TextBlock_Destination UTextBlock

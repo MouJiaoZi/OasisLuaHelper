@@ -1,0 +1,9 @@
+---@class SoundTest_Base_C:UUserWidget
+---@field Construct:fun()
+---@field CkeckSoundVisiable__DelegateSignature:fun()
+---@field ActorName UTextBlock
+---@field ButtonBase UButton
+---@field SoundVisiable UCheckBox
+---@field CkeckSoundVisiable ULuaMulticastDelegate
+---@field Event UAkComponent
+---@field Parent GM_SoundTest_C

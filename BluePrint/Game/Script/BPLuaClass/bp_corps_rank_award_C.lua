@@ -1,0 +1,4 @@
+---@class bp_corps_rank_award_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_CorpsRankAward_Player_ID FString

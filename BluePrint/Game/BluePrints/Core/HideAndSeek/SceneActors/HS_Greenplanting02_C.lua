@@ -1,0 +1,1 @@
+---@class HS_Greenplanting02_C:AHiderSceneActorBase_C

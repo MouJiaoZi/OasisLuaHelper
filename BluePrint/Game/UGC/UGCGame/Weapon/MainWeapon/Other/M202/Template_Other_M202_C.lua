@@ -1,0 +1,3 @@
+---@class Template_Other_M202_C:UGCBackpackShootWeaponHandle_BP_C
+---@field UGC_TemplateSaveItemID:fun():int32
+---@field AttachmentPath UClass

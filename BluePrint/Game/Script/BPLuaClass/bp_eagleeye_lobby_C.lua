@@ -1,0 +1,7 @@
+---@class bp_eagleeye_lobby_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_EagleEye_Lobby_Watching_InWhiteList bool
+---@field BP_EagleEye_Lobby_Watching_Name FString
+---@field BP_EagleEye_Lobby_Watching_UID FString
+---@field BP_EagleEye_Lobby_Watching_IsOnline bool

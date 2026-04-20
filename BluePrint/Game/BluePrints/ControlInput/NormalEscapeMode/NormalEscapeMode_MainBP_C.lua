@@ -1,0 +1,19 @@
+---@class NormalEscapeMode_MainBP_C:UNormalEscapeWidget
+---@field AddNewItemOnMap:fun(AlertID:int32,AlertItemIndex:int32,Location:FVector,Status:uint8,MiniMapItemPool:UUIDuplicatedItemPool,EntireMapItemPool:UUIDuplicatedItemPool)
+---@field GetEntiremapDynamicItemCanvasPanel:fun():UCanvasPanel
+---@field GetMiniMapDynamicItemCanvasPanel:fun():UCanvasPanel
+---@field AddNewRocketGrenadeOnMap:fun(AlertID:int32,AlertItemIndex:int32,Location:FVector,Status:uint8)
+---@field AddNewWatchDogOnMap:fun(AlertID:int32,AlertItemIndex:int32,Location:FVector,Status:uint8)
+---@field ShowNormalEscapeUI:fun()
+---@field Construct:fun()
+---@field ReceivedInitWidget:fun()
+---@field MinimapWatchDogItemPoolTag ULuaArrayHelper
+---@field MinimapRocketGrenadeItemPoolTag ULuaArrayHelper
+---@field EntiremapRocketGrenadeItemPoolTag ULuaArrayHelper
+---@field EntiremapWatchDogItemPoolTag ULuaArrayHelper
+---@field MinimapWatchDogPool UUIDuplicatedItemPool
+---@field EntiremapWatchDogPool UUIDuplicatedItemPool
+---@field MinimapRocketGrenadePool UUIDuplicatedItemPool
+---@field EntiremapRocketGrenadePool UUIDuplicatedItemPool
+---@field MinimapRef UUAEUserWidget
+---@field EntiremapRef UUAEUserWidget

@@ -1,0 +1,2 @@
+---@class NGCondition_TeamScrimmageArea_BP_C:USTNewbieGuideConditionBase
+---@field IsOK:fun():bool

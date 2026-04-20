@@ -1,0 +1,10 @@
+---@class Variety_Photo_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field CustomScrollBox_List UCustomScrollBox
+---@field Variety_Slider_Aperture Variety_Slider_UIBP_C
+---@field Variety_Slider_FocalLength Variety_Slider_UIBP_C
+---@field Variety_Slider_FOV Variety_Slider_UIBP_C
+---@field Variety_Switch_Follow Variety_Switch_UIBP_C
+---@field Variety_Switch_Gyroscope Variety_Switch_UIBP_C
+---@field Variety_Switch_SeeEnemy Variety_Switch_UIBP_C
+---@field Variety_Switch_TeammateMark Variety_Switch_UIBP_C

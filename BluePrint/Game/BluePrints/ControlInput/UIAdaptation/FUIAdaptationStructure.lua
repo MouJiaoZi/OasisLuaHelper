@@ -1,0 +1,6 @@
+---@class FUIAdaptationStructure
+---@field DeviceName FString
+---@field LeftOffset float
+---@field RightOffset float
+---@field TopOffset float
+---@field BottomOffset float

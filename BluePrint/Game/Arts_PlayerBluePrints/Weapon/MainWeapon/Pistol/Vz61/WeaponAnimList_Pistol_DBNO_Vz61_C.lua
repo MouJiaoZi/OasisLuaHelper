@@ -1,0 +1,1 @@
+---@class WeaponAnimList_Pistol_DBNO_Vz61_C:UUAECharacterAnimListComponent

@@ -1,0 +1,2 @@
+---@class BP_SimpleSequenceNode_StartEquipOrUnequipWeapon_C:USimpleSequenceNode_StartEquipOrUnequipWeapon
+---@field LocalUnEquipWeapnFinished:fun(TargetWeapon:ASTExtraWeapon):bool

@@ -1,0 +1,3 @@
+---@class AnimBP_Horse_Aim_Bow_C:USubAnimInstanceBase
+---@field VehicleHorseFM BP_STExtraAnimFM_VehicleHorse_C
+---@field Horse_ADSFM FSTExtraAnimFM_Horse_ADS

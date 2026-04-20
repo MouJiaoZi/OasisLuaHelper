@@ -1,0 +1,1 @@
+---@class BP_SpringArmModifierTPP_C:USpringArmModifierTPP

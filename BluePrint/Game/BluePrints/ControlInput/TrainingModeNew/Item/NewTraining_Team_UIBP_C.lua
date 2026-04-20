@@ -1,0 +1,16 @@
+---@class NewTraining_Team_UIBP_C:UUAEUserWidget
+---@field WeixinLiveStatusActive:fun()
+---@field WeixinLiveStatus:fun(LiveID:FString)
+---@field VoiceAnimation UWidgetAnimation
+---@field CanvasPanel_voice UCanvasPanel
+---@field CustomSocketPanel_OnlookersVideo UCustomSocketPanel
+---@field Image_IDBG UImage
+---@field Image_locationMark UImage
+---@field Image_PlayerDisConn UImage
+---@field Image_PlayerDriving UImage
+---@field Image_voice UImage
+---@field TextBlock_PlayerName UTextBlock
+---@field TextBlock_TeamIdx UTextBlock
+---@field WidgetSwitcher_Gender UWidgetSwitcher
+---@field WidgetSwitcher_Mark UWidgetSwitcher
+---@field WidgetSwitcher_State UWidgetSwitcher

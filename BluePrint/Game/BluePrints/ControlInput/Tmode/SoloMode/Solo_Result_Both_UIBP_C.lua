@@ -1,0 +1,76 @@
+---@class Solo_Result_Both_UIBP_C:UUAEUserWidget
+---@field SoloHeadUrlInfo:fun(HeadUrlInfo:ULuaArrayHelper,MyHeadinfoIndex:int32):bool
+---@field InitAdditionSoloMianInfo:fun(LuaClassObj:ALuaClassObj,ItemCount:int32,ISObServer:bool,MyCount:int32,OppoCount:int32,MyName:FString):bool
+---@field UpdateAdditionBtnStatus:fun(bAddFriend:bool):bool
+---@field InitAdditionMainInfo:fun(LuaClass:ALuaClassObj,ItemCount:int32,IsObserver:bool):bool
+---@field UpdateAdditionMainInfo:fun(DeathResultInfo:BP_STRUCT_DeathMatchResultInfo):bool
+---@field UpdateAdditionPlayerHeadInfos:fun(HeadInfos:ULuaArrayHelper):bool
+---@field UpdateAdditionHistoryMainInfo:fun(HistoryAllData:BP_STRUCT_TDMHistroy_AllData):bool
+---@field OpenOrCloseAllClickBtn:fun(bOpen:bool):bool
+---@field OnShowShareInfo:fun(LuaClass:ALuaClassObj):bool
+---@field GetLuaModule:fun():FString
+---@field LuaHandleInGameResult:fun()
+---@field LuaHandleHistoryResult:fun()
+---@field ShowExitPlayerCallBack:fun()
+---@field GetModeUI:fun(ModeID:int32):FString
+---@field UpdatePlayerHead:fun(HeadUrlList:ULuaArrayHelper)
+---@field ReUpdateMainDataInfo:fun()
+---@field CloseFriendTip:fun()
+---@field ShowAddFriendTip:fun(tEXT:FText)
+---@field UpdateHistoryMainDataInfo:fun(HistoryData:BP_STRUCT_TDMHistroy_AllData)
+---@field UpdateBtnStatus:fun(AddFriend:bool)
+---@field OpenOrCloseAllBtn:fun(Open:bool)
+---@field InitMainInfo:fun(LuaClassOBJ:ALuaClassObj,ItemCount:int32,IsObserver:bool)
+---@field ResultAllData:fun()
+---@field InitItemList:fun()
+---@field UpdateMainDataInfo:fun(DeathMatchResultInfo:BP_STRUCT_DeathMatchResultInfo)
+---@field InitTeamColor:fun(CamType:int32)
+---@field Border_Data UBorder
+---@field BottomArea UBorder
+---@field CanvasPanel_AddFriendTips UCanvasPanel
+---@field CanvasPanel_Solo15_Both UCanvasPanel
+---@field CanvasPanel_TC_Result_Title UCanvasPanel
+---@field CanvasPanel_Title UCanvasPanel
+---@field Image_0 UImage
+---@field Image_TilteBg1 UImage
+---@field Image_TitleBg UImage
+---@field Solo_Result_List1 Solo_Result_Item_UIBP_C
+---@field Solo_Result_List2 Solo_Result_Item_UIBP_C
+---@field Solo_Result_List3 Solo_Result_Item_UIBP_C
+---@field Solo_Result_List4 Solo_Result_Item_UIBP_C
+---@field Solo_Result_List5 Solo_Result_Item_UIBP_C
+---@field Solo_Result_List6 Solo_Result_Item_UIBP_C
+---@field Solo_Result_List7 Solo_Result_Item_UIBP_C
+---@field Solo_Result_List8 Solo_Result_Item_UIBP_C
+---@field Text_AddFriendMsg UTextBlock
+---@field Text_ResItemHeader1 UTextBlock
+---@field Text_ResItemHeader2 UTextBlock
+---@field Text_ResItemHeader3 UTextBlock
+---@field Text_ResItemHeader4 UTextBlock
+---@field Text_ResItemHeader5 UTextBlock
+---@field Text_ResItemHeader6 UTextBlock
+---@field TextBlock_Left UTextBlock
+---@field TextBlock_MyTeamScore UTextBlock
+---@field TextBlock_OpponentTeamScore UTextBlock
+---@field TextBlock_Right UTextBlock
+---@field TextBlock_TC_Victory_Blue UTextBlock
+---@field TextBlock_TC_Victory_Red UTextBlock
+---@field VerticalBox_MyTeam UVerticalBox
+---@field VerticalBox_OpppTeam UVerticalBox
+---@field WidgetSwitcher_ResultUp UWidgetSwitcher
+---@field LeftItemList ULuaArrayHelper
+---@field RightItemList ULuaArrayHelper
+---@field IsGlobalObserve bool
+---@field LuaClassObj ALuaClassObj
+---@field CurCount int32
+---@field RedColor FSlateColor
+---@field BlueColor FSlateColor
+---@field SelfPlayerName FString
+---@field SelfUID FString
+---@field EnemyCount int32
+---@field SelfTeamID int32
+---@field UpdateMainDataCalled bool
+---@field ResultInfo BP_STRUCT_DeathMatchResultInfo
+---@field MyGameResult FString
+---@field IsHideItem bool
+---@field HistoryData BP_STRUCT_TDMHistroy_AllData

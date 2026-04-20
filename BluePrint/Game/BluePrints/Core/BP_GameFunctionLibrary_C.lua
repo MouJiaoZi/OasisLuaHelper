@@ -1,0 +1,14 @@
+---@class BP_GameFunctionLibrary_C:UBlueprintFunctionLibrary
+---@field IsUGCDefineMap fun(__WorldContext:UObject):bool
+---@field CheckLanguageMapPath fun(__WorldContext:UObject):FString
+---@field Internationalized fun(__WorldContext:UObject):bool
+---@field GetMiniMapPath fun(__WorldContext:UObject):FString
+---@field IsInFloatRangeUpperBound fun(Value:float,FloatRangeBound:FFloatRangeBound,__WorldContext:UObject):bool
+---@field IsInFloatRangeLowerBound fun(Value:float,FloatRangeBound:FFloatRangeBound,__WorldContext:UObject):bool
+---@field IsInFloatRange fun(Value:float,FloatRange:FFloatRange,__WorldContext:UObject):bool
+---@field GetCurLevelMapMaxScaleValue fun(__WorldContext:UObject):float
+---@field ClampStringLength fun(Source:FString,Length:int32,__WorldContext:UObject):FString
+---@field IsPlayerCanSeeWidget fun(NewParam:UWidget,__WorldContext:UObject):bool
+---@field GetActorsByTag fun(Tag:FName,ContextObject:UObject,ActorClass:UClass,__WorldContext:UObject):ULuaArrayHelper
+---@field AddActorTag fun(Target:AActor,TagInfo:FName,__WorldContext:UObject)
+---@field SetUpGamePostProcessEffectData fun(Volume:APostProcessVolume,ContextObject:UObject,__WorldContext:UObject)

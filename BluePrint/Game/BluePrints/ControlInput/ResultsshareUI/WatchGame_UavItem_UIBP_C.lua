@@ -1,0 +1,12 @@
+---@class WatchGame_UavItem_UIBP_C:UUAEUserWidget
+---@field UpdateFuelAndHp:fun()
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field CanvasPanel_20 UCanvasPanel
+---@field electri_warn_2 UImage
+---@field hp_warn_1 UImage
+---@field ProgressBar_Uav_Electricity UProgressBar
+---@field ProgressBar_Uav_HP UProgressBar
+---@field Text_Electricity UTextBlock
+---@field Text_HP UTextBlock
+---@field TextBlock_Electricity UTextBlock
+---@field TextBlock_HP UTextBlock

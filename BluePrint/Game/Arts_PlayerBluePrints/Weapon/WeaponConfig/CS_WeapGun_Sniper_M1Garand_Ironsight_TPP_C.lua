@@ -1,0 +1,1 @@
+---@class CS_WeapGun_Sniper_M1Garand_Ironsight_TPP_C:UCameraShake

@@ -1,0 +1,8 @@
+---@class BP_PlacableActorTemplate_C:AActor
+---@field UserConstructionScript:fun()
+---@field DefaultSceneRoot USceneComponent
+---@field InvalidMaterialInstance UMaterialInterface
+---@field Mesh UStaticMesh
+---@field SoftPlacableActorClass UClass
+---@field SpawnTransformOffset FTransform
+---@field ValidMaterialInstance UMaterialInterface

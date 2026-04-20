@@ -1,0 +1,12 @@
+---@class SP_ReplayEliminateInfo_ItemList_UIBP_C:UUAEUserWidget
+---@field HarmItem01 SP_ReplayEliminateInfo_HarmItem_UIBP_C
+---@field HarmItem02 SP_ReplayEliminateInfo_HarmItem_UIBP_C
+---@field HarmItem03 SP_ReplayEliminateInfo_HarmItem_UIBP_C
+---@field HarmRole SP_ReplayEliminateInfo_HarmRole_UIBP_C
+---@field Image_HarnBG UImage
+---@field Image_Icon UImage
+---@field Image_Item UImage
+---@field TextBlock_Distance UTextBlock
+---@field TextBlock_ItemName UTextBlock
+---@field WidgetSwitcher_Image UWidgetSwitcher
+---@field DamageTypeMapIcon ULuaMapHelper

@@ -1,0 +1,1 @@
+---@class BP_Borderland_AIGuardBulletDamageType_C:USTExtraDamageType

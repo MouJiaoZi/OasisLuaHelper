@@ -1,0 +1,1 @@
+---@class WEP_Pendant_PKM_MNXD_C:BattleItemHandle_WeapAttachment_C

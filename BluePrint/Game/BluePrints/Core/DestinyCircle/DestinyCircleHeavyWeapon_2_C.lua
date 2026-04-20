@@ -1,0 +1,1 @@
+---@class DestinyCircleHeavyWeapon_2_C:ADestinyCircle_2_C

@@ -1,0 +1,5 @@
+---@class SCA_HuntingBow_CameraOffset_HorseMan_C:USightBlueprintActionNode
+---@field BP_EnterNode:fun(NodeOwner:USightScopeMgr,DeltaTime:float):bool
+---@field BP_LeaveNode:fun(NodeOwner:USightScopeMgr,DeltaTime:float)
+---@field OverShoulderStand FCameraOffsetData
+---@field OverShoulderCrouch FCameraOffsetData

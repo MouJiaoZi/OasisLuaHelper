@@ -1,0 +1,8 @@
+---@class ShootAimBtn_C:UCustomUserWidget
+---@field SwitchCamera:fun()
+---@field OnTouchEnded:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field OnTouchStarted:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field Profile UImage
+---@field NormalBrush FSlateBrush
+---@field TouchBrush FSlateBrush
+---@field bHasTouchStarted bool

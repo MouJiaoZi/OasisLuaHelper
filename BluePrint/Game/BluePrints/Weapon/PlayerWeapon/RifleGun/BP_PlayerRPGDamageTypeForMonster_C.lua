@@ -1,0 +1,1 @@
+---@class BP_PlayerRPGDamageTypeForMonster_C:USTExtraDamageType

@@ -1,0 +1,8 @@
+---@class OB_StarGameTips_UIBP_C:UUAEUserWidget
+---@field OnShowUITips:fun(Object:UObject)
+---@field StarGameShowUITips:fun(EventType:int32)
+---@field TopTips_anima UWidgetAnimation
+---@field Border_SetTopTipsColor UBorder
+---@field Image_TipsIcon UImage
+---@field UTRichTextBlock_EventTips UUTRichTextBlock
+---@field ShowTipsString FString

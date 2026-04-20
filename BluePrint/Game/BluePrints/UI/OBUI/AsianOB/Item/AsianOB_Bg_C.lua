@@ -1,0 +1,2 @@
+---@class AsianOB_Bg_C:UUserWidget
+---@field Button_0 UButton

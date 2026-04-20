@@ -1,0 +1,28 @@
+---@class BP_Tarmac_C:AActor
+---@field GetSeconds:fun():float
+---@field GetDoorOpenAkComponent:fun():UAkComponent
+---@field GetDoorMovingAkComponent:fun():UAkComponent
+---@field GetDoorCloseAkComponent:fun():UAkComponent
+---@field GetDoorCollisionDissolvedUnitDirectionVector:fun(Index:int32):FVector
+---@field GetDoorCollisionComponent:fun(Index:int32):UPrimitiveComponent
+---@field GetDoorMaterialScaleParameterName:fun(Index:int32):FName
+---@field GetDoorMeshComponent:fun(Index:int32):UMeshComponent
+---@field GetDoorHeadCollisionComponent:fun(Index:int32):UPrimitiveComponent
+---@field GetDoorCount:fun():int32
+---@field GetDoorBarrierCollisionComponent:fun():UPrimitiveComponent
+---@field GetDoorInterpToMovementComponent:fun(Index:int32):UInterpToMovementComponent2
+---@field GetDoorOpen:fun():bool
+---@field GetDoorMoving:fun():bool
+---@field UserConstructionScript:fun()
+---@field SetDoorOpen:fun(Value:bool,Time:float)
+---@field SetSeconds:fun(Value:float)
+---@field BP_TimerDoorComponent BP_TimerDoorComponent_C
+---@field LeftDoorInterpToMovementComponent UInterpToMovementComponent3
+---@field DoorCloseAkComponent UAkComponent
+---@field DoorOpenAkComponent UAkComponent
+---@field DoorMovingAkComponent UAkComponent
+---@field BP_ZombieModeDoorControllComponent BP_ZombieModeDoorControllComponent_C
+---@field LeftBoxComponent UBoxComponent
+---@field LeftDoorStaticMeshComponent UStaticMeshComponent
+---@field SharedRoot USceneComponent
+---@field SecondsToOpenDoor float

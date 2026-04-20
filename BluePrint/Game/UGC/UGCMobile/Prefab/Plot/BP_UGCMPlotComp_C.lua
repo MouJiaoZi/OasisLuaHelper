@@ -1,0 +1,9 @@
+---@class BP_UGCMPlotComp_C:UActorComponent
+---@field GetLuaModule:fun():FString
+---@field Plot ST_UGCMPlot
+---@field EventCluster UUGCMobileEventCluster
+---@field EventInfoList ULuaArrayHelper
+---@field EventDataList ULuaArrayHelper
+---@field ActionCluster UUGCMobileActionCluster
+---@field ActionInfoList ULuaArrayHelper
+---@field ActionDataList ULuaArrayHelper

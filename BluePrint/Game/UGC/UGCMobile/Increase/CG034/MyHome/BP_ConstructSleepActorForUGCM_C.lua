@@ -1,0 +1,3 @@
+---@class BP_ConstructSleepActorForUGCM_C:BP_ConstructPossessActorForUGCM_C
+---@field CanEnterPossess:fun(NewParam:FClick_Param):bool
+---@field UserConstructionScript:fun()

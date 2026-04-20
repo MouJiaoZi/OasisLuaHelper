@@ -1,0 +1,3 @@
+---@class HeadFlagInterface_C:UInterface
+---@field ActiveByPS:fun(PS:AUAEPlayerState):bool
+---@field ActiveByPawn:fun(BC:ASTExtraBaseCharacter):bool

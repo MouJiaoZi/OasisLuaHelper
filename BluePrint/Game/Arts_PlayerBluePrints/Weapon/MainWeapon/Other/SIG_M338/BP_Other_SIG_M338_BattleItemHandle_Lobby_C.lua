@@ -1,0 +1,1 @@
+---@class BP_Other_SIG_M338_BattleItemHandle_Lobby_C:UBackpackWeaponHandle

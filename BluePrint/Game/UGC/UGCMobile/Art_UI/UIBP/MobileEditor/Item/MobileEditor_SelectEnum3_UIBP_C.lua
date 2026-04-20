@@ -1,0 +1,17 @@
+---@class MobileEditor_SelectEnum3_UIBP_C:UUGCMobilePropertyWidget
+---@field GetLuaModule:fun():FString
+---@field GetIconVisibility:fun():ESlateVisibility
+---@field GetImageIcon:fun():FSlateBrush
+---@field On_ComboBox_GenerateWidget_0:fun(Item:FString):UWidget
+---@field OnGenerateSelectWidget:fun(Item:FString):UWidget
+---@field BindTextBlockToProperty_Enum:fun(InTextBlock:UTextBlock,ValueToDisplay:ULuaMapHelper)
+---@field CanvasPanel_Icon UCanvasPanel
+---@field ComboBox UComboBoxString
+---@field EnumTextBlock UTextBlock
+---@field Image_Icon UImage
+---@field MobileEditor_AdvHelp MobileEditor_AdvHelp_UIBP_C
+---@field MobileEditor_AdvNamde2_UIBP MobileEditor_AdvNamde2_UIBP_C
+---@field TextBlock_Title UTextBlock
+---@field UGCMobilePropertyBindableWidget_0 UUGCMobilePropertyBindableWidget
+---@field ComboBoxItemClass UClass
+---@field ImageBrush FSlateBrush

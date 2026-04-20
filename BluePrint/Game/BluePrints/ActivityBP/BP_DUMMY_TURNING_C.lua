@@ -1,0 +1,3 @@
+---@class BP_DUMMY_TURNING_C:AActor
+---@field UserConstructionScript:fun()
+---@field DefaultSceneRoot USceneComponent

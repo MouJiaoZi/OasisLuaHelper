@@ -1,0 +1,29 @@
+---@class Variety_Move_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field VarietyMoveValid:fun(validMark:bool)
+---@field CanvasPanel_Map UCanvasPanel
+---@field MapPositionReuseList_BP MapPositionReuseList_BP_C
+---@field NewButton_AirDrop UNewButton
+---@field NewButton_Apply UNewButton
+---@field NewButton_Bomb UNewButton
+---@field NewButton_Comfirm UNewButton
+---@field NewButton_FreeCamera UNewButton
+---@field NewButton_NoValid UNewButton
+---@field NewCheckBox_AirDrop UNewCheckBox
+---@field NewCheckBox_Bomb UNewCheckBox
+---@field Switcher_ApplyState UWidgetSwitcher
+---@field Switcher_ComfirmState UWidgetSwitcher
+---@field Variety_Move_Operaete_10 Variety_Move_Operaete_UIBP_C
+---@field Variety_Move_Operaete_01 Variety_Move_Operaete_UIBP_C
+---@field Variety_Move_Operaete_02 Variety_Move_Operaete_UIBP_C
+---@field Variety_Move_Operaete_03 Variety_Move_Operaete_UIBP_C
+---@field Variety_Move_Operaete_04 Variety_Move_Operaete_UIBP_C
+---@field Variety_Move_Operaete_05 Variety_Move_Operaete_UIBP_C
+---@field Variety_Move_Operaete_06 Variety_Move_Operaete_UIBP_C
+---@field Variety_Move_Operaete_07 Variety_Move_Operaete_UIBP_C
+---@field Variety_Move_Operaete_08 Variety_Move_Operaete_UIBP_C
+---@field Variety_Move_Operaete_09 Variety_Move_Operaete_UIBP_C
+---@field VerticalBox_AirDrop UVerticalBox
+---@field VerticalBox_Bomb UVerticalBox
+---@field WidgetSwitcher_TabContent UWidgetSwitcher
+---@field Table UUAEDataTable

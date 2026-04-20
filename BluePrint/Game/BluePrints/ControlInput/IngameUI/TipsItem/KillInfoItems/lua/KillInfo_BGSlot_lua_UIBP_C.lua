@@ -1,0 +1,25 @@
+---@class KillInfo_BGSlot_lua_UIBP_C:UKillInfoBase
+---@field GetLuaModule:fun():FString
+---@field BGSelector UWidgetSwitcher
+---@field Border_SetColor1 UBorder
+---@field Border_SetColor2 UBorder
+---@field CanvasPanel_BG UCanvasPanel
+---@field CustomBG UImage
+---@field FXAddCanvas UCanvasPanel
+---@field Image_eliminateBG UImage
+---@field KI_Causer_ClubMedal_UIBP KI_ClubMedal_Lua_UIBP_C
+---@field KI_Causer_PlatformGroup_UIBP KI_PlatformGroup_Lua_UIBP_C
+---@field KI_Causer_PlayerName_UIBP KI_Causer_PlayerName_Lua_UIBP_C
+---@field KI_Causer_TeamLogo_UIBP KI_TeamLogo_Lua_UIBP_C
+---@field KI_KillTypeIcon_UIBP KI_KillTypeIcon_Lua_UIBP_C
+---@field KI_MaxKillerIcon_UIBP KI_MaxKillerIcon_Lua_UIBP_C
+---@field KI_Victim_ClubMedal_UIBP KI_ClubMedal_Lua_UIBP_C
+---@field KI_Victim_PlatformGroup_UIBP KI_PlatformGroup_Lua_UIBP_C
+---@field KI_Victim_PlayerName_UIBP KI_Victim_PlayerName_Lua_UIBP_C
+---@field KI_Victim_TeamLogo_UIBP KI_TeamLogo_Lua_UIBP_C
+---@field KI_WeaponIcon_UIBP KI_WeaponIcon_Lua_UIBP_C
+---@field KillInfoBG UImage
+---@field WidgetSwitcher_Size UWidgetSwitcher
+---@field KillTable TScriptInterface
+---@field config int32
+---@field ImageDownloader UImageDownloader

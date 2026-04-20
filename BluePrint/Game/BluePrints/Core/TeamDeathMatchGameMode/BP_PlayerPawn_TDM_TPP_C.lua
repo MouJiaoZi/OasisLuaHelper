@@ -1,0 +1,6 @@
+---@class BP_PlayerPawn_TDM_TPP_C:ABP_PlayerPawn_C
+---@field GetNonSimulatedComponents:fun():ULuaArrayHelper
+---@field UserConstructionScript:fun()
+---@field KillCharacterDieEffectComponent KillCharacterDieEffectComponent_C
+---@field AttrModifyComponent_RepOwner UAttrModifyComponent_RepOwner
+---@field PersistentAssetRefs ULuaArrayHelper

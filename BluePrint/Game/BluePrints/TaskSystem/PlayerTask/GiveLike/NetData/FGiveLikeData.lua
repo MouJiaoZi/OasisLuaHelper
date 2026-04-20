@@ -1,0 +1,11 @@
+---@class FGiveLikeData
+---@field PlayerKey FString
+---@field QueueLifeSpanTime int32
+---@field KeepLifeSpanTime int32
+---@field Priority uint8
+---@field GiveLikeType int32
+---@field PlayerName FString
+---@field PlayerUID FString
+---@field CurrentTime int32
+---@field TextID int32
+---@field OperationID int32

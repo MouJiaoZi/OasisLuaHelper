@@ -1,0 +1,4 @@
+---@class Bounty_Ingame_ResurrectionCard_C:UUAEUserWidget
+---@field Border_Color UBorder
+---@field Image_ReviveIcon UImage
+---@field TextBlock_TimeNum UTextBlock

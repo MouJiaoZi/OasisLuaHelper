@@ -1,0 +1,5 @@
+---@class PlayerTypeCompared_C:UTaskCondition_Base
+---@field IsConditionSatisfy:fun():bool
+---@field PlayerKey FTriggerEventParamKeySelector
+---@field ParamSource EUniversalTaskTableParamType
+---@field TypeId int32

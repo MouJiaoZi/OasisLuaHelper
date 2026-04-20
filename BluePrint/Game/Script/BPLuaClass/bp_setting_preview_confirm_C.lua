@@ -1,0 +1,3 @@
+---@class bp_setting_preview_confirm_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent

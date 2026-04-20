@@ -1,0 +1,3 @@
+---@class ShootingUINewbieGuide_Tips07_UIBP_C:UNewbieGuideWidget
+---@field OnCreateAndShow:fun(GuideId:int32,UIConfigIndex:int32)
+---@field UTRichTextBlock_Tips2_Text1 UUTRichTextBlock

@@ -1,0 +1,1 @@
+---@class WeaponAnimList_Sniper_AS50_C:UUAECharacterAnimListComponent

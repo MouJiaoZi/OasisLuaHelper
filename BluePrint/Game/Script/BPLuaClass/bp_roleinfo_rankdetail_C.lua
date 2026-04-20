@@ -1,0 +1,6 @@
+---@class bp_roleinfo_rankdetail_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_ARRAY_RoleRankDetailTypeList ULuaArrayHelper
+---@field BP_ARRAY_RoleRankDetailSingleList ULuaArrayHelper
+---@field BP_ItemMax int32

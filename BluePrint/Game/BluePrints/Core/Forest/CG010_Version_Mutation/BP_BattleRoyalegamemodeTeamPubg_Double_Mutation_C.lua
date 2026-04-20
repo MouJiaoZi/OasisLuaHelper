@@ -1,0 +1,1 @@
+---@class BP_BattleRoyalegamemodeTeamPubg_Double_Mutation_C:ABP_BattleRoyaleGameModeTeamPUBG_Double_C

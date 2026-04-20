@@ -1,0 +1,1 @@
+---@class BP_WarGameMode_4_C:ABP_WarGameMode_C

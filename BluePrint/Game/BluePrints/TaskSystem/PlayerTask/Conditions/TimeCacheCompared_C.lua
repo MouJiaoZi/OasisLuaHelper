@@ -1,0 +1,6 @@
+---@class TimeCacheCompared_C:UTaskCondition_Base
+---@field IsConditionSatisfy:fun():bool
+---@field TimeCacheKey FTaskBlackboardKeySelector
+---@field Operation EParamCompareType
+---@field ParamSource EUniversalTaskTableParamType
+---@field TimeInterval int32

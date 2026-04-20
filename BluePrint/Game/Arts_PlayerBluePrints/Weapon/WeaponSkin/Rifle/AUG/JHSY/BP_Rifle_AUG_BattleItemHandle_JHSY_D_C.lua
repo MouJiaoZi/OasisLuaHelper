@@ -1,0 +1,1 @@
+---@class BP_Rifle_AUG_BattleItemHandle_JHSY_D_C:BP_Rifle_AUG_BattleItemHandle_C

@@ -1,0 +1,12 @@
+---@class FBHMPlayerTaskTableRowDef
+---@field ID int32
+---@field Enable bool
+---@field Type int32
+---@field Title FString
+---@field Desc FString
+---@field IntParam1 int32
+---@field IntParam2 int32
+---@field IntParam3 int32
+---@field IntParam4 int32
+---@field IntParam5 int32
+---@field IntParam6 int32

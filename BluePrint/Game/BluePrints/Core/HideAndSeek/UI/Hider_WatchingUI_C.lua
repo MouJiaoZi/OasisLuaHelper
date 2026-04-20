@@ -1,0 +1,5 @@
+---@class Hider_WatchingUI_C:UUAEUserWidget
+---@field Construct:fun()
+---@field Exit UButton
+---@field Left UButton
+---@field Right UButton

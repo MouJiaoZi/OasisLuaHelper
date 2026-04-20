@@ -1,0 +1,3 @@
+---@class ShineInterface_C:UInterface
+---@field ShowNormal:fun()
+---@field ShowShine:fun()

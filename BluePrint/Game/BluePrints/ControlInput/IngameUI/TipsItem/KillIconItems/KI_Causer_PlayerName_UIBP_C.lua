@@ -1,0 +1,5 @@
+---@class KI_Causer_PlayerName_UIBP_C:UKillIconBase_UIBP_C
+---@field IsSameCamp:fun(uid:FString):bool
+---@field RefreshDetailInfo:fun(RecordData:FClientFatalDamageRecordData):bool
+---@field TextBlock_Camp UTextBlock
+---@field TextBlock_PlayerName UTextBlock

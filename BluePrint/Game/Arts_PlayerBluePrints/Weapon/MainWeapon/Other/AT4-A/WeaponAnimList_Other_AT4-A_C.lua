@@ -1,0 +1,1 @@
+---@class WeaponAnimList_Other_AT4-A_C:UUAECharacterAnimListComponent

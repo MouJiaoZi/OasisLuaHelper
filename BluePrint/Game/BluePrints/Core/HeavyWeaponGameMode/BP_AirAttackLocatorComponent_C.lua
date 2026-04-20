@@ -1,0 +1,1 @@
+---@class BP_AirAttackLocatorComponent_C:UAirAttackLocatorComponent

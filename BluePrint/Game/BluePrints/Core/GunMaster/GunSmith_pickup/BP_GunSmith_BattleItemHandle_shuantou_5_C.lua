@@ -1,0 +1,1 @@
+---@class BP_GunSmith_BattleItemHandle_shuantou_5_C:UBattleItemHandle_Ammo_C

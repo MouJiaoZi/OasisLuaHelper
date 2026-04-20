@@ -1,0 +1,3 @@
+---@class RoomCamp_But_UIBP_C:UUAEUserWidget
+---@field NewButton_RoomCamp UNewButton
+---@field Text_RoomCamp UTextBlock

@@ -1,0 +1,12 @@
+---@class HS_Bookshelf02_C:AHiderSceneActorBase_C
+---@field UserConstructionScript:fun()
+---@field HideAndSeekSpot8 HideAndSeekSpot_C
+---@field HideAndSeekSpot7 HideAndSeekSpot_C
+---@field HideAndSeekSpot6 HideAndSeekSpot_C
+---@field HideAndSeekSpot1 HideAndSeekSpot_C
+---@field HideAndSeekSpot9 HideAndSeekSpot_C
+---@field HideAndSeekSpot3 HideAndSeekSpot_C
+---@field HideAndSeekSpot2 HideAndSeekSpot_C
+---@field HideAndSeekSpot5 HideAndSeekSpot_C
+---@field HideAndSeekSpot4 HideAndSeekSpot_C
+---@field HideAndSeekSpot HideAndSeekSpot_C

@@ -1,0 +1,7 @@
+---@class BPGameState_BountyHunter_C:ASTExtraGameStateBase
+---@field GetLuaModule:fun():FString
+---@field UserConstructionScript:fun()
+---@field TriggerLevels UTriggerLevelsComponent
+---@field BP_ObjectPosMgr BP_ObjectPosMgr_C
+---@field AirAttackCS UAirAttackCS
+---@field DefaultSceneRoot USceneComponent

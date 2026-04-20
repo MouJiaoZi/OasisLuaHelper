@@ -1,0 +1,2 @@
+---@class BP_UGCMobileEdDriver_C:UUGCMobileEdDriver
+---@field GetLuaModule:fun():FString

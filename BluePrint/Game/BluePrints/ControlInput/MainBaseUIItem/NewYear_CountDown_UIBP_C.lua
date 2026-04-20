@@ -1,0 +1,12 @@
+---@class NewYear_CountDown_UIBP_C:UUAEUserWidget
+---@field HideSpringFestivalTip:fun()
+---@field UIMSG_ShowSpringFestivalTip:fun()
+---@field UIMSG_UpdateSpringFestival:fun(NewParam:FString)
+---@field DX_10Second UWidgetAnimation
+---@field DX_Countdown UWidgetAnimation
+---@field Border_1 UBorder
+---@field Image_Number1 UImage
+---@field Image_Number2 UImage
+---@field Image_Number3 UImage
+---@field WidgetSwitcher_0 UWidgetSwitcher
+---@field bHuanhu bool

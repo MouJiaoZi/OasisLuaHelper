@@ -1,0 +1,14 @@
+---@class RoomConveyArea_C:AActor
+---@field GetNetRelevancyGroup:fun():FNetRelevancyGroup
+---@field ExitCurrentTargetRoom:fun(NewParam:APlayerController)
+---@field COND:fun(NewParam:FGISCCF_Param):bool
+---@field UserConstructionScript:fun()
+---@field ReceiveEndPlay:fun(EndPlayReason:EEndPlayReason)
+---@field SetNetRelevancyGroup:fun(Group:FNetRelevancyGroup)
+---@field CustomParticleSystem UCustomParticleSystemComponent
+---@field GISActorComponentBase UGISActorComponentBase
+---@field Sphere USphereComponent
+---@field StaticMesh UStaticMeshComponent
+---@field DefaultSceneRoot USceneComponent
+---@field NetRelevancyGroup FNetRelevancyGroup
+---@field NewVar_0 FNetRelevancyGroup

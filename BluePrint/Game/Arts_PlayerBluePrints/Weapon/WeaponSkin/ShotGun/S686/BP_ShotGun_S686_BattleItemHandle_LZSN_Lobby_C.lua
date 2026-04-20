@@ -1,0 +1,1 @@
+---@class BP_ShotGun_S686_BattleItemHandle_LZSN_Lobby_C:UBackpackWeaponHandle

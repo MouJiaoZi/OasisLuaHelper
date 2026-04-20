@@ -1,0 +1,21 @@
+---@class BP_Other_CrossBow_C:BP_ShootWeaponBase_C
+---@field HandleBulletNumChange:fun()
+---@field UpdateMagCompVisibility:fun(bOnlyConsiderClipBullets:bool)
+---@field 新建函数_0:fun()
+---@field ResetHitEffect:fun()
+---@field ResetMagMeshMat:fun()
+---@field SetMagMat:fun(LoadObject:UObject)
+---@field SetMagStMesh:fun(LoadObject:UObject)
+---@field SetHitEffectDataAsset:fun(LoadObject:UObject)
+---@field CustomWeaponPartsEquipped:fun(WeaponSlotID:int32,IsEquipped:bool)
+---@field OnArrowShooted:fun()
+---@field UserConstructionScript:fun()
+---@field OnWeaponMagOut:fun()
+---@field OnWeaponMagIn:fun()
+---@field OnWeaponMagEnd:fun()
+---@field OnWeaponMagOutNewFPP:fun()
+---@field OnWeaponMagInNewFPP:fun()
+---@field ST_PlayerMag UStaticMeshComponent
+---@field ST_Mag UStaticMeshComponent
+---@field WeaponAnimList_Other_CrossBow WeaponAnimList_Other_CrossBow_C
+---@field bUseIdleAnim_0_0 bool

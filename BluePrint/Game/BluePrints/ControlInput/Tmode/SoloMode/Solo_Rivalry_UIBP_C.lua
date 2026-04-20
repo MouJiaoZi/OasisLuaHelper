@@ -1,0 +1,42 @@
+---@class Solo_Rivalry_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field WinColor:fun(Iswin:bool)
+---@field InitColor:fun(Index:int32)
+---@field DX_In UWidgetAnimation
+---@field CanvasPanel_Enemy UCanvasPanel
+---@field CanvasPanel_OurSide UCanvasPanel
+---@field CanvasPanel_VS UCanvasPanel
+---@field Common_UIPopupBG Common_UIPopupBG_C
+---@field CommonAvatar_Enemy Common_Avatar_BP_C
+---@field CommonAvatar_Our Common_Avatar_BP_C
+---@field HorizontalBox_2 UHorizontalBox
+---@field Image_Left_Icon UImage
+---@field Image_Right_Icon UImage
+---@field ScaleBox_IPX UScaleBox
+---@field Text_Playername1 UTextBlock
+---@field TextBlock_0 UTextBlock
+---@field TextBlock_1 UTextBlock
+---@field TextBlock_3 UTextBlock
+---@field TextBlock_24 UTextBlock
+---@field TextBlock_Best1 UTextBlock
+---@field TextBlock_Best2 UTextBlock
+---@field TextBlock_Bout UTextBlock
+---@field TextBlock_Bout2 UTextBlock
+---@field TextBlock_End UTextBlock
+---@field TextBlock_EndTime UTextBlock
+---@field TextBlock_Enemy UTextBlock
+---@field TextBlock_LeftGrade UTextBlock
+---@field TextBlock_my UTextBlock
+---@field TextBlock_Result UTextBlock
+---@field TextBlock_RightGrade UTextBlock
+---@field TextBlock_Wing UTextBlock
+---@field WidgetSwitcher_CampBg UWidgetSwitcher
+---@field WidgetSwitcher_Gender1 UWidgetSwitcher
+---@field WidgetSwitcher_Gender2 UWidgetSwitcher
+---@field WidgetSwitcher_VictoryOrDefeat UWidgetSwitcher
+---@field RedColor FSlateColor
+---@field BlueColor FSlateColor
+---@field WhiteColor FSlateColor
+---@field YellowColor FSlateColor
+---@field WinVideo UAkAudioEvent
+---@field FailVideo UAkAudioEvent

@@ -1,0 +1,8 @@
+---@class BP_Grenade_Frag4TDM_Weapon_C:ASTExtraWeapon
+---@field UserConstructionScript:fun()
+---@field WeaponTriggerEventHandleSkill UWeaponTriggerEventHandleSkill
+---@field WeaponAnimList_Grenade WeaponAnimList_Grenade_C
+---@field WeaponEntity UWeaponEntity
+---@field WeaponSpecificHandler UWeaponSpecificHandler
+---@field WeaponStateDefault UWeaponStateDefault
+---@field WeaponStateManager UWeaponStateManager

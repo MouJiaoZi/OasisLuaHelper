@@ -1,0 +1,4 @@
+---@class BP_WerewolfPlayerAIC_C:ANewFakePlayerAIController
+---@field UserConstructionScript:fun()
+---@field AISensorDevice UAISensorDeviceComponent
+---@field AIChooseEnemy UAIChooseEnemyComponent

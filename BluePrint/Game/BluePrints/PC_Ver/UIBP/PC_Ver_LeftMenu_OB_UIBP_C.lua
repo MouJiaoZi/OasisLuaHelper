@@ -1,0 +1,23 @@
+---@class PC_Ver_LeftMenu_OB_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field UIMsg_OBOpenHideLeftMenu:fun()
+---@field DX_Out_PC UWidgetAnimation
+---@field DX_In_PC UWidgetAnimation
+---@field DX_Out UWidgetAnimation
+---@field DX_In UWidgetAnimation
+---@field Border_194 UBorder
+---@field CanvasPanel_7 UCanvasPanel
+---@field CanvasPanel_commerce UCanvasPanel
+---@field CanvasPanel_Keys UCanvasPanel
+---@field CustomizeCanvasPanel_BP_194 CustomizeCanvasPanel_BP_C
+---@field Image_8 UImage
+---@field NewButton_OpenHide UNewButton
+---@field PCVer_Key_Display_UIBP PCVer_Key_Display_Guide_UIBP_C
+---@field ReuseList2_KeyList1 ReuseList2_C
+---@field ReuseListSp_KeyList ReuseListSp_C
+---@field TitleNameText UTextBlock
+---@field WidgetSwitcher_Deduct UWidgetSwitcher
+---@field NewVar_0 UUAEDataTable
+---@field NewVar_1 UUAEDataTable
+---@field NewVar_2 UUAEDataTable
+---@field NewVar_3 UUAEDataTable

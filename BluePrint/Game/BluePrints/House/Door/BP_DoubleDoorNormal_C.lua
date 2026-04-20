@@ -1,0 +1,2 @@
+---@class BP_DoubleDoorNormal_C:ABP_DoubleDoorBase_C
+---@field UserConstructionScript:fun()

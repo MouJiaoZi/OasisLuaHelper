@@ -1,0 +1,59 @@
+---@class BP_UGCM_GenericMobPawn_C:BP_UGC_GenericMobPawn_Base_C
+---@field GetBlackboardParam_Object:fun(Selecter:FName):UObject
+---@field SetBlackboardParam_Object:fun(Selecter:FName,bInput:float)
+---@field TickHatredType:fun()
+---@field UpdateOutOfWorld:fun()
+---@field LuaGetWorldKillZ:fun():float
+---@field PauseTickTime:fun()
+---@field StartTickTime:fun()
+---@field NPCMoveTick:fun(Delta:float)
+---@field LuaBPDie:fun(KillingDamage:float,EventInstigator:AController,DamageCauser:AActor,DamageEvent:FDamageEvent,DamageTypeID:int32)
+---@field ProcessCurrencyNum:fun(Object:UObject)
+---@field LuaShowCurrencyNum:fun()
+---@field GetSkeletalMeshComp:fun():USkeletalMeshComponent
+---@field SetBlackboardParam_Float:fun(Selecter:FName,bInput:float)
+---@field GetBlackboardParam_Float:fun(Selecter:FName):float
+---@field TickPatrolDelay:fun(DeltaSeconds:float,Remain:bool)
+---@field TickPatrolDuration:fun(DeltaSeconds:float):bool
+---@field SetPatrolParam:fun(Delay:float,Duration:float,EndStrategy:Enum_PatrolEndStrategy,WaypointsNum:int32,WayPointStrategy:Enum_WayPointStrategy)
+---@field MoveBackSpawnLocation:fun()
+---@field SetPatrolEndStrategy:fun(InStrategy:Enum_PatrolEndStrategy)
+---@field SetBlackboardParam_Vector:fun(Selecter:FName,InVector:FVector)
+---@field GetBlackboardParam_Vector:fun(Selecter:FName):FVector
+---@field MoveToNextWaypoint:fun(Inc:int32)
+---@field OnPatrolEnd:fun()
+---@field SetBlackboardParam_Bool:fun(Selecter:FName,bInput:bool)
+---@field GetBlackboardParam_Bool:fun(Selecter:FName):bool
+---@field PrintDebugMessage:fun(Msg:FString)
+---@field GetFollowWaypointPart:fun():UBasicLogicPart
+---@field PausePatrol:fun()
+---@field StartPatrol:fun()
+---@field GetLuaModule:fun():FString
+---@field UserConstructionScript:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field BPOnRespawned:fun()
+---@field BPOnRecycled:fun()
+---@field BPDie:fun(KillingDamage:float,EventInstigator:AController,DamageCauser:AActor,DamageEvent:FDamageEvent,DamageTypeID:int32)
+---@field SetHatredType:fun(Typee:int32)
+---@field STBaseBuffSystem USTBaseBuffSystemComponent
+---@field bPatrol FName
+---@field bUsePathPoint FName
+---@field TargetWayPoint int32
+---@field SpawnLoc FName
+---@field PatrolEndStrategy Enum_PatrolEndStrategy
+---@field PatrolRange_Max FName
+---@field PatrolRange_Min FName
+---@field PatrolDelay float
+---@field PatrolDuration float
+---@field WaypointIdx int32
+---@field bDelayCompleted bool
+---@field CurrencyNum int32
+---@field DrawOutlineColor FLinearColor
+---@field DrawTextColor FLinearColor
+---@field bForceReturnSpawnLocation FName
+---@field bMoveTick bool
+---@field DrawOutlineSize int32
+---@field HatredType int32
+---@field Target FName
+---@field WayPointNum int32
+---@field WayPointStrategy Enum_WayPointStrategy

@@ -1,0 +1,31 @@
+---@class EmergencyCallMapMark_AirLine_UIBP_C:UMapUIMarkClientSimulateWidget
+---@field StartSimulate:fun():bool
+---@field UpdateSimulate:fun(MarkedActor:AActor,MapUIMarkManagerComp:UMapUIMarkManager,AirLineScale:float,ClientPlaneLocation:FVector,IsEntireMap:bool):bool
+---@field StopSimulate:fun():bool
+---@field UpdateClientSmoothMove:fun()
+---@field UpdatePassedRouteScale:fun()
+---@field UpdateEndPos:fun()
+---@field ShowAirLine:fun()
+---@field OnUIBPShow:fun(InState:FCustomMarkEventData)
+---@field UpdateMarkSize:fun(inScale:float,inMapScale:float,MapScaleInUI:float)
+---@field UpdateUIBPState:fun(InState:FCustomMarkEventData)
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field OnUIBPCreate:fun(InState:FCustomMarkEventData,ParentState:EMarkParentWidget,inRealLevelToMapScale:float,inMapScale:float)
+---@field AirRoute UImage
+---@field CanvasPanel_Airline UCanvasPanel
+---@field CanvasPanel_AirLineGroup UCanvasPanel
+---@field CanvasPanel_End UCanvasPanel
+---@field CanvasPanel_Start UCanvasPanel
+---@field PassedRoute UImage
+---@field MapScale float
+---@field Angel float
+---@field Length float
+---@field EventName FString
+---@field WhichMap EAddMarkFlag
+---@field PassedRouteScale float
+---@field ClientSmoothMove bool
+---@field CurSpeed float
+---@field IsInitSpeed bool
+---@field IsSimulateOver bool
+---@field IsClientSimulate bool
+---@field MapType EMarkParentWidget

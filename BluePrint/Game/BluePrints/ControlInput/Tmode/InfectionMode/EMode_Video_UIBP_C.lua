@@ -1,0 +1,3 @@
+---@class EMode_Video_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field Video FString

@@ -1,0 +1,8 @@
+---@class BoardAKActor_C:AUAERegionActor
+---@field GetLuaModule:fun():FString
+---@field PlayAKEvent:fun(index:int32)
+---@field UserConstructionScript:fun()
+---@field DefaultSceneRoot USceneComponent
+---@field AKAudioArray ULuaArrayHelper
+---@field BisPlayAK bool
+---@field CurAKEvent int32

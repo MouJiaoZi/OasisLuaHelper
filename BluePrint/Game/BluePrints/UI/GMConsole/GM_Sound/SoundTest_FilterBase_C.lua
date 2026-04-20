@@ -1,0 +1,4 @@
+---@class SoundTest_FilterBase_C:UUserWidget
+---@field GetLoopResult:fun(Array:ULuaArrayHelper):ULuaArrayHelper
+---@field GetResult:fun(Array:ULuaArrayHelper):ULuaArrayHelper
+---@field ComboBoxString_FilterCondition UComboBoxString

@@ -1,0 +1,5 @@
+---@class Ingame_Photo_Guide3_UIBP_C:UUAEUserWidget
+---@field CanvasPanel_Guide3 UCanvasPanel
+---@field CanvasPanel_Text3 UCanvasPanel
+---@field Image_FX UImage
+---@field UTRichTextBlock_Tips3_Text3 UUTRichTextBlock

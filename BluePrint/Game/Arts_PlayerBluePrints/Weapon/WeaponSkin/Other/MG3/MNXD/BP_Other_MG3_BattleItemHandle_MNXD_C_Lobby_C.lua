@@ -1,0 +1,1 @@
+---@class BP_Other_MG3_BattleItemHandle_MNXD_C_Lobby_C:UBackpackWeaponHandle

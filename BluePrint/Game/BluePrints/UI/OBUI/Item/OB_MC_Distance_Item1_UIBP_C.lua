@@ -1,0 +1,10 @@
+---@class OB_MC_Distance_Item1_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field NewButton_ChangeView UNewButton
+---@field Team1 OB_MC_Distance_Item2_UIBP_C
+---@field Team2 OB_MC_Distance_Item2_UIBP_C
+---@field Team3 OB_MC_Distance_Item2_UIBP_C
+---@field Team4 OB_MC_Distance_Item2_UIBP_C
+---@field Team5 OB_MC_Distance_Item2_UIBP_C
+---@field TextBlock_Distance UTextBlock
+---@field WidgetSwitcher_Line UWidgetSwitcher

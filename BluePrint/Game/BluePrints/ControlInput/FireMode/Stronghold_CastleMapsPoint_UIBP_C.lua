@@ -1,0 +1,9 @@
+---@class Stronghold_CastleMapsPoint_UIBP_C:UMapUIMarkBaseWidget
+---@field SetRemainTime:fun(RemainTime:float)
+---@field OnUIBPShow:fun(InState:FCustomMarkEventData)
+---@field CanvasPanel_Time UCanvasPanel
+---@field Image_CDBar UImage
+---@field TextBlock_Time UTextBlock
+---@field WidgetSwitcher_Mappoint UWidgetSwitcher
+---@field UIBeginTime float
+---@field UILastTime float

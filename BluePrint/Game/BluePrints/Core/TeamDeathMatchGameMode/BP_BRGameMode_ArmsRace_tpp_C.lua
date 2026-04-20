@@ -1,0 +1,3 @@
+---@class BP_BRGameMode_ArmsRace_tpp_C:ABP_BRGameMode_ArmsRace_C
+---@field GetLuaModule:fun():FString
+---@field UserConstructionScript:fun()

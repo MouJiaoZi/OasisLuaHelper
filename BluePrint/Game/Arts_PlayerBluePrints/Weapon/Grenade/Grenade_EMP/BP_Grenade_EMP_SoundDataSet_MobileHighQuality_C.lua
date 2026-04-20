@@ -1,0 +1,3 @@
+---@class BP_Grenade_EMP_SoundDataSet_MobileHighQuality_C:UPropReplaceDataSet
+---@field ProjectilePrepareSound UAkAudioEvent
+---@field SoundDataMap ULuaMapHelper

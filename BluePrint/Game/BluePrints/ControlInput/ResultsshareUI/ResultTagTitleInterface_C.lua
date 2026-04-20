@@ -1,0 +1,2 @@
+---@class ResultTagTitleInterface_C:UInterface
+---@field SetPostableMoments:fun(moments:ULuaArrayHelper):bool

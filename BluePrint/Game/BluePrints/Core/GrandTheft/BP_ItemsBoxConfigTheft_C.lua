@@ -1,0 +1,1 @@
+---@class BP_ItemsBoxConfigTheft_C:UBP_ItemsBoxConfig_C

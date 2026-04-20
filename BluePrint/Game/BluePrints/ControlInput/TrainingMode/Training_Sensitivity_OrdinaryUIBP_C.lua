@@ -1,0 +1,20 @@
+---@class Training_Sensitivity_OrdinaryUIBP_C:USettingPlusMinusSlider
+---@field On_Border_Training_minus_MouseButtonUp_0:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field On_Border_Training_add_MouseButtonUp_0:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field SetLocalFlag:fun()
+---@field InitAll:fun(name:FString,SettingKey:FString)
+---@field OnValueChanged:fun()
+---@field InitValue:fun()
+---@field RefreshSlider:fun()
+---@field Border_Training_add UBorder
+---@field Border_Training_minus UBorder
+---@field Button_Training_add UButton
+---@field Button_Training_minus UButton
+---@field ProgressBar_Training UProgressBar
+---@field Slider_Training USlider
+---@field TextBlock_Title UTextBlock
+---@field TrainingValue UTextBlock
+---@field MutipleRate float
+---@field CurrentValue float
+---@field MutipleRateGyro float
+---@field MutipleRateNormal float

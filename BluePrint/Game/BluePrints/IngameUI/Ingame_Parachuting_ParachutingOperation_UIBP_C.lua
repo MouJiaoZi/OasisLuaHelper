@@ -1,0 +1,4 @@
+---@class Ingame_Parachuting_ParachutingOperation_UIBP_C:ULuaUserWidget
+---@field Construct:fun()
+---@field Image_TB_tuoli_icon FSlateBrush
+---@field Image_TB_open_icon FSlateBrush

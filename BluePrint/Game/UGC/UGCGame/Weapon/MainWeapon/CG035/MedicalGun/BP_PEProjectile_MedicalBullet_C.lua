@@ -1,0 +1,5 @@
+---@class BP_PEProjectile_MedicalBullet_C:APESkillProjectileBase
+---@field UserConstructionScript:fun()
+---@field P_MedicSoldier_djf02 UParticleSystemComponent
+---@field StaticMesh USTCustomMeshComponent
+---@field Box UBoxComponent

@@ -1,0 +1,15 @@
+---@class BP_Other_M202_TDM_C:BP_ShootWeaponProjectileBase_C
+---@field ShowValidMag:fun()
+---@field HideAllMag:fun()
+---@field UpdateMagVisibility:fun()
+---@field AttachMag:fun(MagMesh:UStaticMeshComponent,Parent:UMeshComponent,SocketName:FName,IsPickup:bool)
+---@field OnArrowShooted:fun()
+---@field UserConstructionScript:fun()
+---@field BP_OnWeaponReloadEnd:fun()
+---@field WeaponAnimList_M202 WeaponAnimList_M202_C
+---@field ST_MagD UStaticMeshComponent
+---@field ST_MagC UStaticMeshComponent
+---@field ST_MagB UStaticMeshComponent
+---@field ST_MagA UStaticMeshComponent
+---@field MagList ULuaArrayHelper
+---@field MagSocketList ULuaArrayHelper

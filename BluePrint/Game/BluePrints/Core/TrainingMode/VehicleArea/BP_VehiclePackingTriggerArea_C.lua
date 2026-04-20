@@ -1,0 +1,6 @@
+---@class BP_VehiclePackingTriggerArea_C:ABP_TriggerArea_C
+---@field GetLuaModule:fun():FString
+---@field UserConstructionScript:fun()
+---@field VehicleRespawnIntervalSeconds float
+---@field VehicleRespawnAdjustOffset2D FVector2D
+---@field VehicleRespawnMaximumDeltaZ float

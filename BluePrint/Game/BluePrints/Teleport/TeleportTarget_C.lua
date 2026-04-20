@@ -1,0 +1,4 @@
+---@class TeleportTarget_C:AActor
+---@field UserConstructionScript:fun()
+---@field TargetLocation USceneComponent
+---@field DefaultSceneRoot USceneComponent

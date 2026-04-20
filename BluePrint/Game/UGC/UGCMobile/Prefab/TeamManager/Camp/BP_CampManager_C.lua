@@ -1,0 +1,11 @@
+---@class BP_CampManager_C:BP_UGCMobileBaseActor_C
+---@field GetLuaModule:fun():FString
+---@field GetRegionActor:fun(NewParam:BP_StartRegion_M_C):BP_StartRegion_M_C
+---@field UserConstructionScript:fun()
+---@field UGCPrefabBillBoard UUGCPrefabBillBoardComponent
+---@field CampInfos ULuaArrayHelper
+---@field IsCampSettlement bool
+---@field Event_SendCampPlayerDead FUGCMobileObjectEvent
+---@field Event_SendCampAllPlayerDead FUGCMobileObjectEvent
+---@field Event_SendCampPlayerRespawn FUGCMobileObjectEvent
+---@field Event_SendCampPlayerKill FUGCMobileObjectEvent

@@ -1,0 +1,4 @@
+---@class Consumable_Pickup_C:APickUpWrapperActor
+---@field UserConstructionScript:fun()
+---@field StaticMesh UStaticMeshComponent
+---@field Bag_03_icon UStaticMeshComponent

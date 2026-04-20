@@ -1,0 +1,21 @@
+---@class Kalajin_Parts_UIBP_C:UUAEUserWidget
+---@field CanvasPanel_IP UCanvasPanel
+---@field CanvasPanel_KLJ_Parts UCanvasPanel
+---@field CanvasPanel_Refit UCanvasPanel
+---@field CanvasPanel_Reward UCanvasPanel
+---@field CanvasPanel_TextTips01 UCanvasPanel
+---@field Gunsmith_Reward_Btn UButton
+---@field Image_Icon UImage
+---@field NewButton_Cilck UNewButton
+---@field NewButton_KLJ_Help UNewButton
+---@field NewResult_KLJ_Accessories_UIBP_0 NewResult_KLJ_Accessories_UIBP_C
+---@field NewResult_KLJ_Accessories_UIBP_1 NewResult_KLJ_Accessories_UIBP_C
+---@field NewResult_KLJ_Accessories_UIBP_2 NewResult_KLJ_Accessories_UIBP_C
+---@field NewResult_KLJ_PickUpItemTips_UIBP NewResult_KLJ_PickUpItemTips_UIBP_C
+---@field ReuseList2_List ReuseList2_C
+---@field TextBlock_KLJ_Money UTextBlock
+---@field TextBlock_KLJ_Num UTextBlock
+---@field UTRichTextBlock_Tips01 UUTRichTextBlock
+---@field VerticalBox_4 UVerticalBox
+---@field WidgetSwitcher_0 UWidgetSwitcher
+---@field WidgetSwitcher_Icon UWidgetSwitcher

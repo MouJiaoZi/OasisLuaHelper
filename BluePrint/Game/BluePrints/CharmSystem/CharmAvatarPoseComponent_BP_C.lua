@@ -1,0 +1,11 @@
+---@class CharmAvatarPoseComponent_BP_C:UAvatarDisplayPoseComponent
+---@field PlayCustomMontage:fun(Montage:UAnimMontage)
+---@field GetTakeOffAvatarList:fun(NewWearList:ULuaArrayHelper):ULuaArrayHelper
+---@field ClearAvatarParticles:fun()
+---@field SpawnAvatar:fun(IsUseLod:bool)
+---@field AvatarComponent CharacterAvatarComp_BP_C
+---@field SectionName FString
+---@field NormalHeight float
+---@field ParticleSet ULuaArrayHelper
+---@field TakeOffAvatarList ULuaArrayHelper
+---@field AvatarWearList ULuaArrayHelper

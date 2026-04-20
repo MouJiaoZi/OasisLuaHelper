@@ -1,0 +1,59 @@
+---@class BP_AnimSeqRootCurveComp_UpDownHorse_C:UAnimSeqRootCurveComponent
+---@field GetLuaModule:fun():FString
+---@field TeleportTriggerStopPerfrom:fun(PlayerCharacter:ASTExtraBaseCharacter,FromTransform:FTransform,DestinationTransform:FTransform)
+---@field HandleTeleportEventTrigger:fun(BaseCharacter:ASTExtraBaseCharacter,bIsBind:bool)
+---@field GetCharacterSwitchLastWeaponFlag:fun(InCharacter:ASTExtraBaseCharacter):int32
+---@field HandleClientAttachToHorse:fun(CurrentAttachVehicle:ASTExtraVehicleBase,SelfRef:ASTExtraBaseCharacter)
+---@field HandleBeginAttachToEnterPoint:fun(OwnerBSCharacter:ASTExtraBaseCharacter,EnterSocketName:FName)
+---@field FindEventPoint_Internal:fun(SocketName:FName,SeatIndex:int32,ConfigToFind:ULuaArrayHelper):int32
+---@field HandleTickCharNearDeath:fun(Character:ASTExtraBaseCharacter,CurveUID:int32):bool
+---@field ClearOldPlayingCurve:fun(Character:ASTExtraBaseCharacter,UID:int32)
+---@field EnableCompTick:fun(bIsEnable:bool,CurveUID:int32)
+---@field CalculateDownHorseBaseRot:fun(DownHorseSocket:FString):FRotator
+---@field CheckAdvanceStopUpHorse:fun(BaseCharacter:ASTExtraBaseCharacter,MontagePlaying:UAnimMontage,UID:int32)
+---@field HandleAnimOnHorseDied:fun()
+---@field CheckUpHorseFinalAttach:fun(Character:ASTExtraBaseCharacter):bool
+---@field SimulateRoleEnableSmooth:fun(Character:ASTExtraBaseCharacter,bIsEnable:bool,bIsClear:bool)
+---@field CheckValidUsePlayRootCurve:fun():bool
+---@field HandleDownReloadState:fun(InputCharacter:ASTExtraBaseCharacter)
+---@field AsyncLoadWeaponHorseAnimList:fun(Character:ASTExtraBaseCharacter)
+---@field HandleSeatAnimFinish:fun(bIsFinish:bool,Seatidx:int32)
+---@field HandleReplaceChildAnim:fun(bIsAdd:bool,Character:ASTExtraPlayerCharacter)
+---@field FindEventPoint:fun(SocketName:FName,SeatIndex:int32):int32,FString,ULuaArrayHelper,ULuaArrayHelper,UCurveVector,UCurveVector,UCurveVector
+---@field CanDriverBehindUpdownHorse:fun(SeatPeform:FSTExtraVehicleSeatPerformConfig):bool
+---@field StopUpDownHorsePlaying:fun(UniqueID:int32,Character:ASTExtraBaseCharacter)
+---@field DownHorseCacheDataIsValid:fun():bool
+---@field HandleSwitchWeapon:fun(bIsEquip:bool,Character:ASTExtraBaseCharacter)
+---@field HandleAnimEnd:fun(UniqueID:int32,Character:ASTExtraBaseCharacter,RootAnimType:int32,SeatIndex:int32)
+---@field EnterAnimFinish:fun(Character:ASTExtraBaseCharacter,SeatCom:UVehicleSeatComponent,SeatID:int32)
+---@field CheckIsPlayingPerform:fun(Character:ASTExtraBaseCharacter,PerformType:int32):bool
+---@field CanPlayPerform:fun(InCharacter:ASTExtraBaseCharacter,bIsEnter:bool):bool
+---@field FindDownHorseScale:fun(SeatIndex:int32,Character:ASTExtraBaseCharacter):bool,FVector,FSTExtraVehicleSeatPerformConfig
+---@field FindUpHorseSocketAndOffset:fun(SeatIndex:int32,Character:ASTExtraBaseCharacter):bool,FName,FVector,FVector,FSTExtraVehicleSeatPerformConfig
+---@field PlayUpOrDownHorseAnim:fun(InCharacter:ASTExtraPlayerCharacter,SeatIndex:int32,UpOrDown:bool,SeatPerform:FSTExtraVehicleSeatPerformConfig,PositionScale:FVector)
+---@field AttachtoUpHorseSocket:fun(InCharacter:ASTExtraBaseCharacter,UpHorsePointSocket:FName,SocketOffset:FVector,bIsDriverSocket:bool)
+---@field ReceiveBeginPlay:fun()
+---@field ReceiveEndPlay:fun(EndPlayReason:EEndPlayReason)
+---@field TickCheckBP_Client:fun(CurveIndex:int32,DeltaTime:float)
+---@field TickCheckBP_Server:fun(CurveIndex:int32,DeltaTime:float)
+---@field CurrentVehicle ASTExtraHorseVehicle
+---@field DownGroundMaxOffset FVector
+---@field EnterPointDistance float
+---@field CharacterRootAnimPlayingList ULuaMapHelper
+---@field MaxEnterSpeed float
+---@field MaxLeaveSpeed float
+---@field HandleAdaptRotation FTimerHandle
+---@field bIsClientDrawDebugCapsuleLua bool
+---@field CachePawnWorldYawArr ULuaArrayHelper
+---@field CachePawnOriginYawArr ULuaArrayHelper
+---@field CacheUniqueIDArr ULuaArrayHelper
+---@field CacheDownHorseCharacter ULuaArrayHelper
+---@field HandleEnableMoveInterrupt FTimerHandle
+---@field EnablePlayUpHorsePose ULuaArrayHelper
+---@field InterruptDownHorseState ULuaArrayHelper
+---@field SimulateCharacterToNetWorkSmoothMode ULuaMapHelper
+---@field EnterMinAttachOffsetZ float
+---@field CharacterEnableStopUping ULuaSetHelper
+---@field AnimListGroupName FName
+---@field bClientBeginUpHorseAttachOpt bool
+---@field CharacterPendingAttachToHorse ULuaArrayHelper

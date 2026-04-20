@@ -1,0 +1,46 @@
+---@class GM_NewBieGuid_C:UUserWidget
+---@field showMessage:fun(Index:int32,NewBieGuideItem:FNewbieGuideItem):bool
+---@field RefreshEnabled:fun()
+---@field ResetInfo:fun()
+---@field Construct:fun()
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field Button_AddFinishCounts UButton
+---@field Button_CloseList UButton
+---@field Button_CLoseWidget UButton
+---@field Button_Enable UButton
+---@field Button_EnableAll UButton
+---@field Button_GuidInfo UButton
+---@field Button_HideAll UButton
+---@field Button_Reset UButton
+---@field Button_test UButton
+---@field Button_Top UButton
+---@field CanvasPanel_Basic UCanvasPanel
+---@field CanvasPanel_List UCanvasPanel
+---@field CanvasPanel_Widget UCanvasPanel
+---@field ComboBoxString_level UComboBoxString
+---@field EditableTextBox_WidgetName UEditableTextBox
+---@field IngameUIOutliner UIngameUIOutliner
+---@field ScrollBox_Items UScrollBox
+---@field SpinBox_GameModeID USpinBox
+---@field SpinBox_NewbieID USpinBox
+---@field TextBlock_Condition UTextBlock
+---@field TextBlock_CurID UTextBlock
+---@field TextBlock_Enable UTextBlock
+---@field TextBlock_EnableAll UTextBlock
+---@field TextBlock_FinshCount UTextBlock
+---@field TextBlock_FrontID UTextBlock
+---@field TextBlock_HideAll UTextBlock
+---@field TextBlock_ID UTextBlock
+---@field TextBlock_Index UTextBlock
+---@field TextBlock_Message UTextBlock
+---@field TextBlock_priority UTextBlock
+---@field TextBlock_Time UTextBlock
+---@field bStart bool
+---@field DeltaTime float
+---@field InputRecoder InputRecoderTest_C
+---@field NewBie UNewbieGuideComponent
+---@field Conditions ULuaArrayHelper
+---@field Level ENewbieGuidePlayerCategory
+---@field SelectIndex int32
+---@field IsEnableAll bool
+---@field PanelVisbility ULuaArrayHelper

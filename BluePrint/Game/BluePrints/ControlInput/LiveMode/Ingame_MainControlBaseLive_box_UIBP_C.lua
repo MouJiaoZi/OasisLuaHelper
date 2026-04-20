@@ -1,0 +1,15 @@
+---@class Ingame_MainControlBaseLive_box_UIBP_C:UUAEUserWidget
+---@field ClearDestroyTimer:fun()
+---@field TickHide:fun()
+---@field DelayHideWhenDestroy:fun()
+---@field HideUI:fun()
+---@field ShowUI:fun(monsterBox:AMonsterTreasureBox)
+---@field RefreshUI:fun(healthRate:float,RemainTime:float,Distance:float,screenPos:FVector2D)
+---@field bloodBar UProgressBar
+---@field BloodBarNode UCanvasPanel
+---@field RemainTime UUTRichTextBlock
+---@field bindedMonster AMonsterTreasureBox
+---@field isVisiable bool
+---@field isBinded bool
+---@field curHealthRate float
+---@field isInDelayHideState bool

@@ -1,0 +1,1 @@
+---@class BP_Muzzle_MG36_MJWS_C:BP_Muzzle_MG36_C

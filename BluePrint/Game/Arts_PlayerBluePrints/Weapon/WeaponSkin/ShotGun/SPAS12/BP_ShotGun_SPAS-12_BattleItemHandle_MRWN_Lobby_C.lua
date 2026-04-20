@@ -1,0 +1,1 @@
+---@class BP_ShotGun_SPAS-12_BattleItemHandle_MRWN_Lobby_C:UBackpackWeaponHandle

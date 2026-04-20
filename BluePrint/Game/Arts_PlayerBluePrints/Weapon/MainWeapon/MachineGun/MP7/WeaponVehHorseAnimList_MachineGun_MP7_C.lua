@@ -1,0 +1,1 @@
+---@class WeaponVehHorseAnimList_MachineGun_MP7_C:UUAEChaVehHorseAnimListComponent

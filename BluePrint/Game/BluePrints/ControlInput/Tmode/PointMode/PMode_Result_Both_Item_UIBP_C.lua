@@ -1,0 +1,28 @@
+---@class PMode_Result_Both_Item_UIBP_C:UUAEUserWidget
+---@field HideForReplay:fun()
+---@field SetReportButtonData:fun(HasReported:bool)
+---@field DeathNumToWarLossRate:fun(KillNum:int32,DeathNum:int32):float
+---@field UpdateBtnState:fun(isAddFriendState:bool,inNameStr:FString)
+---@field SetAddFriendButtonData:fun(iAddFriendBtnState:int32)
+---@field Button_Result_AddFriend UButton
+---@field Button_Result_Report UButton
+---@field CanvasPanel_Avatar UCanvasPanel
+---@field CanvasPanel_Result_MultipleKill UCanvasPanel
+---@field Common_Avatar_BP Common_Avatar_BP_C
+---@field TextBlock_OP_Assist UTextBlock
+---@field TextBlock_OP_Kill UTextBlock
+---@field TextBlock_OP_Rate UTextBlock
+---@field TextBlock_Result_MultipleKill UTextBlock
+---@field TextBlock_Result_PlayerName UTextBlock
+---@field WidgetSwitcher_Result_Gender UWidgetSwitcher
+---@field WidgetSwitcher_Result_MVP UWidgetSwitcher
+---@field WidgetSwitcher_ResultItem UWidgetSwitcher
+---@field ColorYellow FSlateColor
+---@field ColorWhite FSlateColor
+---@field iIndexInParentArray int32
+---@field iAddFriendBtnState int32
+---@field ParentWidgetPtr TMode_Result_Both_UIBP_C
+---@field iClickTeamID int32
+---@field ThisItemPlayerName FString
+---@field is_robot bool
+---@field is_observe bool

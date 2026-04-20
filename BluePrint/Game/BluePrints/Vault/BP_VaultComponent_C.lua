@@ -1,0 +1,1 @@
+---@class BP_VaultComponent_C:USTExtraPlayerVaultComponent

@@ -1,0 +1,4 @@
+---@class PeakDisplayInterface_C:UInterface
+---@field UpdatePlayerInfo:fun(PlayerName:FString,Gender:int32,Visible:bool,PlayerUID:FString):bool
+---@field UpdateGradeInfo:fun(Rank:int32,KillNumber:int32):int32
+---@field UpdateTeamInfo:fun(TeamName:FString,TeamLogoID:FString):FString

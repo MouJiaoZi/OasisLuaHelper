@@ -1,0 +1,14 @@
+---@class Bounty_ResultsBadgesTips_UIBP_C:UUAEUserWidget
+---@field FillGold:fun(GoldCount:int32)
+---@field FillIcon1:fun(InAchievementID:int32)
+---@field OnIcon1Callback:fun(InObject:UObject)
+---@field FillAchievements:fun()
+---@field Construct:fun()
+---@field Achievements_Condition UTextBlock
+---@field Button_Open UButton
+---@field CanvasPanel_IPX UCanvasPanel
+---@field Image_badges_1 UImage
+---@field TextBlock_AchievementsNum UTextBlock
+---@field AchievementsTable UUAEDataTable
+---@field Icon1_AchievementID int32
+---@field Icon2_AchievementID int32

@@ -1,0 +1,7 @@
+---@class bp_setting_friendlist_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_Setting_Current_Sharecode FString
+---@field BP_Setting_Current_UID FString
+---@field BP_ARRAY_FriendList ULuaArrayHelper
+---@field BP_Setting_ViewingFriendlist bool

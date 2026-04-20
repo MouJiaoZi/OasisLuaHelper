@@ -1,0 +1,46 @@
+---@class PC_Ver_ModeIntroduction_UIBP_C:UUAEUserWidget
+---@field Construct:fun()
+---@field NewEventDispatcher_Esc__DelegateSignature:fun()
+---@field NewEventDispatcher_Tab__DelegateSignature:fun()
+---@field DX_ZJ_xiao UWidgetAnimation
+---@field DX_ZJ_da UWidgetAnimation
+---@field DX_MB_xiao UWidgetAnimation
+---@field DX_MB_da UWidgetAnimation
+---@field DX_PC_xiao UWidgetAnimation
+---@field DX_PC_da UWidgetAnimation
+---@field CanvasPanel_PitchOn UCanvasPanel
+---@field CanvasPanel_PitchOn_HT UCanvasPanel
+---@field CanvasPanel_SZ UCanvasPanel
+---@field Common_UIPopupBG Common_UIPopupBG_C
+---@field Details_L_HoverBtn_State UImage
+---@field Details_R_HoverBtn_State UImage
+---@field HorizontalBox_HT UHorizontalBox
+---@field HorizontalBox_PC UHorizontalBox
+---@field Image_DuanYou_Selected UImage
+---@field Image_HandTour UImage
+---@field Image_HT UImage
+---@field Image_WhitePC UImage
+---@field NewButton_Details_L UNewButton
+---@field NewButton_Details_R UNewButton
+---@field NewButton_DuanYou_Selected UNewButton
+---@field NewButton_DuanYou_YuLan UNewButton
+---@field NewButton_HandTour UNewButton
+---@field NewButton_HT UNewButton
+---@field NewButton_OK UNewButton
+---@field NewButton_pc UNewButton
+---@field NewButton_PCPRE UNewButton
+---@field OK_HoverBtn_State UImage
+---@field TextBlock_HandTour UTextBlock
+---@field TextBlock_HT UTextBlock
+---@field TextBlock_PC UTextBlock
+---@field TextBlock_Selection UTextBlock
+---@field TextBlock_Small_PC UTextBlock
+---@field WidgetSwitcher_DuanYou UWidgetSwitcher
+---@field WidgetSwitcher_DuanYou_YuLan UWidgetSwitcher
+---@field WidgetSwitcher_GQ UWidgetSwitcher
+---@field WidgetSwitcher_MB UWidgetSwitcher
+---@field WidgetSwitcher_OK UWidgetSwitcher
+---@field WidgetSwitcher_PC UWidgetSwitcher
+---@field WidgetSwitcher_SZ UWidgetSwitcher
+---@field NewEventDispatcher_Tab ULuaMulticastDelegate
+---@field NewEventDispatcher_Esc ULuaMulticastDelegate

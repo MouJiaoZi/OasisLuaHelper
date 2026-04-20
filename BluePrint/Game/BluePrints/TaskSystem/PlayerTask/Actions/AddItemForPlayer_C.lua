@@ -1,0 +1,7 @@
+---@class AddItemForPlayer_C:UTaskAction_Base
+---@field AddItem:fun(PlayerState:ASTExtraPlayerState,Count:int32)
+---@field OnExecute:fun():bool
+---@field PlayerStateKey FTaskBlackboardKeySelector
+---@field ItemCountKey FTaskBlackboardKeySelector
+---@field ItemDefineID int32
+---@field IsAddToTeammates bool

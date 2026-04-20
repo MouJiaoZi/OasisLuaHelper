@@ -1,0 +1,4 @@
+---@class BP_MapUIMarkStatic_C:AActor
+---@field UserConstructionScript:fun()
+---@field DefaultSceneRoot USceneComponent
+---@field StaticMarkList ULuaArrayHelper

@@ -1,0 +1,9 @@
+---@class FireTMode_MapSign_Item_UIBP_C:UMapUIMarkBaseWidget
+---@field SetIconCD:fun(RemainTime:float)
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field OnUIBPShow:fun(InState:FCustomMarkEventData)
+---@field UpdateUIBPState:fun(InState:FCustomMarkEventData)
+---@field CanvasPanel_Image UCanvasPanel
+---@field Image_CD UImage
+---@field RefreshTimeStamp float
+---@field PickUpCD float

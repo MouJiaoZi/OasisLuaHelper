@@ -1,0 +1,1 @@
+---@class UGC_E_Helmet1PickupWrapper_C:AHelmet_Lv1_Wrapper_C

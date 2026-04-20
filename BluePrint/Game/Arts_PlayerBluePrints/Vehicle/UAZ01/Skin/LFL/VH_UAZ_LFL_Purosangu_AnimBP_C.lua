@@ -1,0 +1,1 @@
+---@class VH_UAZ_LFL_Purosangu_AnimBP_C:USTVehicleAnimInstance

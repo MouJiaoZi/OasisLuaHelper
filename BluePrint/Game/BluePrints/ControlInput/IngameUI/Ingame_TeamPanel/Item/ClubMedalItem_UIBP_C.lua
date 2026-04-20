@@ -1,0 +1,3 @@
+---@class ClubMedalItem_UIBP_C:UUAEUserWidget
+---@field RefreshMedalIcon:fun(MedalUrl:FString)
+---@field Image_ClubMedal UImage

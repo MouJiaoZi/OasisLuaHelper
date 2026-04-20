@@ -1,0 +1,3 @@
+---@class ResultPerfectTimeInterface_C:UInterface
+---@field SetPerfectTimeStart:fun():bool
+---@field SetPerfectTimeMoments:fun(Moments:ULuaArrayHelper):bool

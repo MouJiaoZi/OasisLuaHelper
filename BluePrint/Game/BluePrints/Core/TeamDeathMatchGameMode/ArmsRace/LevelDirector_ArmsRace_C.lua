@@ -1,0 +1,3 @@
+---@class LevelDirector_ArmsRace_C:ASTExtraLevelDirector
+---@field UserConstructionScript:fun()
+---@field DefaultSceneRoot USceneComponent

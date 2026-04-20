@@ -1,0 +1,23 @@
+---@class LiveMode_Logic_C:UUAEUserWidget
+---@field ShowFightingTextGuide:fun()
+---@field EnterFlying:fun()
+---@field OnPlayerLanded:fun()
+---@field HideFightingTextGuide:fun()
+---@field Process_FirstTimeTips:fun()
+---@field UpdateEntireMap:fun()
+---@field UpdateMiniMap:fun()
+---@field RemoveLiveMapItem:fun(InputPin:UUserWidget)
+---@field UIMsg_RemoveLiveMapItem:fun(id:int32)
+---@field UIMsg_AddLiveMapItem:fun(loc:FVector,id:int32)
+---@field ShowModeUI:fun()
+---@field LiveMode_FPP LiveMode_FPP_C
+---@field mapItemPool UUIDuplicatedItemPool
+---@field MiniMap UUserWidget
+---@field EntireMap UUserWidget
+---@field MiniMapID ULuaMapHelper
+---@field EnterMapID ULuaMapHelper
+---@field isShow bool
+---@field is_first_time bool
+---@field GuideTimerHandle FTimerHandle
+---@field LiveModeFirstGuide LiveMode_FPP_C
+---@field BindEventTryTimes int32

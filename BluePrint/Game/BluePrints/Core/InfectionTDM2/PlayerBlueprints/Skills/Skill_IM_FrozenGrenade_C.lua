@@ -1,0 +1,24 @@
+---@class Skill_IM_FrozenGrenade_C:AUAESkill
+---@field TriggerWeaponFinishThrow:fun()
+---@field TriggerWeaponPrepareThrow:fun()
+---@field UserConstructionScript:fun()
+---@field UAESkillStringEventEffectMapForEditor1 UUAESkillStringEventEffectMapForEditor
+---@field UTSkillSpecificAction UUTSkillSpecificAction
+---@field UTSkillSpecificAction1 UUTSkillSpecificAction
+---@field UAESkillAction_ShowWeapon1 UUAESkillAction_ShowWeapon
+---@field UAESkillAction_AddItem2 UUAESkillAction_AddItem
+---@field UAESkillPhase4 UUAESkillPhase
+---@field UAESkillAction_SpawnActor UUAESkillAction_SpawnActor
+---@field UAESkillAction_JumpPhase UUAESkillAction_JumpPhase
+---@field UAESkillAction_LockItem UUAESkillAction_LockItem
+---@field UAESkillAction_SwitchWeaponToGrenade UUAESkillAction_SwitchWeaponToGrenade
+---@field UAESkillAction_AddItem UUAESkillAction_AddItem
+---@field UAESkillEventEffectMapForEditor2 UUAESkillEventEffectMapForEditor
+---@field UAESkillEventEffectMapForEditor1 UUAESkillEventEffectMapForEditor
+---@field UAESkillEventEffectMapForEditor UUAESkillEventEffectMapForEditor
+---@field UTSkillEventEffectMapForEditor UUTSkillEventEffectMapForEditor
+---@field UAESkillPhase3 UUAESkillPhase
+---@field UAESkillPhase2 UUAESkillPhase
+---@field UAESkillPhase1 UUAESkillPhase
+---@field UAESkillPhase UUAESkillPhase
+---@field DefaultSceneRoot USceneComponent

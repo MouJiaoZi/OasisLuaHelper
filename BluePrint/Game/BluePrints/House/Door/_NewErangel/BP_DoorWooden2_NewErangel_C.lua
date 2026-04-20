@@ -1,0 +1,1 @@
+---@class BP_DoorWooden2_NewErangel_C:ABP_DoorNormal_C

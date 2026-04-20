@@ -1,0 +1,9 @@
+---@class FFlagBattleKeyInfo
+---@field BattleInviter BP_PlayerPawn_C
+---@field BattleReceiver BP_PlayerPawn_C
+---@field BattleState uint8
+---@field BattleResult uint8
+---@field BattleType uint8
+---@field BattleDSRepWaitingAcceptanceStartTime float
+---@field InviterPlayerKey int64
+---@field ReceiverPlayerKey int64

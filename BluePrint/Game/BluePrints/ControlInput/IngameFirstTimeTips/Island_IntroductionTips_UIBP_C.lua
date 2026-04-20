@@ -1,0 +1,4 @@
+---@class Island_IntroductionTips_UIBP_C:UNewbieGuideWidget
+---@field OnCreateAndShow:fun(GuideId:int32,UIConfigIndex:int32)
+---@field NewButton_closeUI UNewButton
+---@field GuideID int32

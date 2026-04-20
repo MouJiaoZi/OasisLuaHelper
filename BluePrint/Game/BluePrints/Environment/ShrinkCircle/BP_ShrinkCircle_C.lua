@@ -1,0 +1,5 @@
+---@class BP_ShrinkCircle_C:AShrinkCircleActor
+---@field UserConstructionScript:fun()
+---@field StaticMesh1 UStaticMeshComponent
+---@field StaticMesh UStaticMeshComponent
+---@field DefaultSceneRoot USceneComponent

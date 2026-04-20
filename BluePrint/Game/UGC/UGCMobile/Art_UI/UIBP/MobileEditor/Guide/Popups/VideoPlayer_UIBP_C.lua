@@ -1,0 +1,18 @@
+---@class VideoPlayer_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field TickProgressBar:fun()
+---@field IsPause:fun():bool
+---@field GetSolution:fun():int32,int32
+---@field IsPlaying:fun():bool
+---@field GetCurTime:fun():int32,int32
+---@field Close:fun():int32
+---@field Seek:fun(SeekTime:float):int32
+---@field Resume:fun():int32
+---@field Pause:fun():int32
+---@field Play:fun(Url:FString,beLoopKey:bool):int32
+---@field PlayEx:fun(Url:FString,beLoopKey:bool,beAutoPlayKey:bool)
+---@field Construct:fun()
+---@field Destruct:fun()
+---@field CanvasPanel_Main UCanvasPanel
+---@field PVideoWidget VideoPlayerWidget_C
+---@field IfTickProgressBar bool

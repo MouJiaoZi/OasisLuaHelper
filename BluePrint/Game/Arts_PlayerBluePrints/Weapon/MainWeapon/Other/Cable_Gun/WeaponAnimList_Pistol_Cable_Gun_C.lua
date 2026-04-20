@@ -1,0 +1,1 @@
+---@class WeaponAnimList_Pistol_Cable_Gun_C:UUAECharacterAnimListComponent

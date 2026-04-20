@@ -1,0 +1,55 @@
+---@class HAS_CommonUIBP_C:UUserWidget
+---@field SkipBuffer:fun()
+---@field HideExtraIcon:fun()
+---@field ShowExtraIcon:fun(iconPath:FString,position:FVector2D,size:FVector2D,ZOrder:int32)
+---@field HideForReplay:fun()
+---@field ClearBuffer:fun()
+---@field UseAsyncLoad:fun(async:bool)
+---@field LoadIconFinish:fun(obj:UObject)
+---@field IsInFighting:fun():bool
+---@field SetTeamLevel:fun(level:int32)
+---@field SetRegisterTime:fun(registerTimeStr:FString)
+---@field SetPlayerIconGray:fun(isGray:bool)
+---@field OnMouseButtonUp:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field SetFrameTextureExt:fun(frameLevel:int32,texture2D:UTexture2D):UTexture2D
+---@field SetFrameTexture:fun(texture2D:UTexture2D)
+---@field SetPlayerLevel:fun(Level:int32)
+---@field SetPlayerGender:fun(Gd:int32)
+---@field SetPlayerUid:fun(Uid:FString)
+---@field GetRankFrameLevelPath:fun(frameLevel:int32):FString
+---@field SetFrame:fun(level:int32)
+---@field SetDefaultIcon:fun()
+---@field SetPlayerIcon:fun(url:FString)
+---@field InitView:fun(style:int32,uid:FString,iconURL:FString,gender:int32,frameLevel:int32,playerLevel:int32,ignoreFrame:bool,IsMySelf:bool)
+---@field Construct:fun()
+---@field OnClickItemCallback__DelegateSignature:fun(uid:FString)
+---@field GridPanel_0 UGridPanel
+---@field acatarStyle int32
+---@field playerUid FString
+---@field iconURL FString
+---@field frameLevel int32
+---@field gender int32
+---@field targetUI UUserWidget
+---@field imageDefaultGirl UImage
+---@field imageDefault UImage
+---@field imagePlayer UImage
+---@field OnClickItemCallback ULuaMulticastDelegate
+---@field imageFrame UImage
+---@field playerLevel int32
+---@field textPlayerLevel UTextBlock
+---@field rawUrl FString
+---@field imageMySelf UImage
+---@field blueprintFrameRoot UGridPanel
+---@field playerIconMask UImage
+---@field curBlueprintFrame UUserWidget
+---@field imageTeamLevelIcon UImage
+---@field textTeamLevel UTextBlock
+---@field canvasTeamLevelRoot UCanvasPanel
+---@field pendingAsyncList ULuaMapHelper
+---@field pendingLoadID int32
+---@field asyncLoad bool
+---@field frameBufferMap ULuaMapHelper
+---@field inuseBPFrame FString
+---@field frameBufferList ULuaArrayHelper
+---@field DynaCanvas_Root UDynaCanvasPanel
+---@field disableBuffering bool

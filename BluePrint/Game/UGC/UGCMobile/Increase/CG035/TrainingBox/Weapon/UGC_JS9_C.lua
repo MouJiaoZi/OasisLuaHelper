@@ -1,0 +1,4 @@
+---@class UGC_JS9_C:AActor
+---@field UserConstructionScript:fun()
+---@field StaticMesh UStaticMeshComponent
+---@field StaticMesh1 UStaticMeshComponent

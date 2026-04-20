@@ -1,0 +1,3 @@
+---@class BP_KLJ_Gold_Pickup_for50_C:APickUpWrapperActor
+---@field UserConstructionScript:fun()
+---@field SM_Summerland_GoldPile_C UStaticMeshComponent

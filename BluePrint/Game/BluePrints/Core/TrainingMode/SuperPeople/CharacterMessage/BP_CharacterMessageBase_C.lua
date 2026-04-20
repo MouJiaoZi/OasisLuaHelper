@@ -1,0 +1,10 @@
+---@class BP_CharacterMessageBase_C:AActivityBaseActor
+---@field UserConstructionScript:fun()
+---@field ActivityFakePossess UActivityFakePossessComponent
+---@field DefaultSceneRoot USceneComponent
+---@field TalkPlayer ULuaArrayHelper
+---@field UIStyle UUserWidgetStyle
+---@field bIsActive bool
+---@field CoolDownTime float
+---@field PickUpInfor FBattleItemPickupInfo
+---@field ValidItemID ULuaArrayHelper

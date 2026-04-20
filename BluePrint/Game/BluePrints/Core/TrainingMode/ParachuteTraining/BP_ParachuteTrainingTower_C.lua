@@ -1,0 +1,6 @@
+---@class BP_ParachuteTrainingTower_C:AUAERegionActor
+---@field UserConstructionScript:fun()
+---@field RightChair UChildActorComponent
+---@field TowerMEsh UStaticMeshComponent
+---@field LeftChair UChildActorComponent
+---@field FrontChair UChildActorComponent

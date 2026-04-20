@@ -1,0 +1,51 @@
+---@class MobileEditor_Event_SelectTabNew_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field On_ComboBox_GoodsType_GenerateSelectWidget_0:fun(Item:FString):UWidget
+---@field On_ComboBox_GoodsType_GenerateWidget_0:fun(Item:FString):UWidget
+---@field On_ComboBox_Sorting_GenerateSelectWidget_0:fun(Item:FString):UWidget
+---@field On_ComboBox_Sorting_GenerateWidget_0:fun(Item:FString):UWidget
+---@field Button_Mask UButton
+---@field CanvasPanel_CheckList UCanvasPanel
+---@field CanvasPanel_Empty UCanvasPanel
+---@field CanvasPanel_Filter UCanvasPanel
+---@field CanvasPanel_Sort UCanvasPanel
+---@field CanvasPanel_StatusBar UCanvasPanel
+---@field CanvasPanel_Tab UCanvasPanel
+---@field CanvasPanel_TabSearch UCanvasPanel
+---@field ComboBox_GoodsType UComboBoxString
+---@field ComboBox_Sorting UComboBoxString
+---@field DX_Chicken DX_Chicken_C
+---@field DX_Chicken_C_0 DX_Chicken_C
+---@field DX_Chicken_C_1 DX_Chicken_C
+---@field EditableText_Search UEditableText
+---@field EnumTextBlock UTextBlock
+---@field Image_Icon UImage
+---@field NewButton_Filter UNewButton
+---@field NewButton_FilterClose UButton
+---@field NewButton_GlobalEvent UNewButton
+---@field NewButton_GoodsEvent UNewButton
+---@field NewButton_Quit UNewButton
+---@field NewButton_TabSearch UNewButton
+---@field NewButton_TabSearchDelete UNewButton
+---@field NewButton_Teaching UNewButton
+---@field ReuseListSp_SearchGoods ReuseListSp_C
+---@field ReuseListSp_Shape ReuseListSp_C
+---@field ScrollBox_SearchGlobal UScrollBox
+---@field ScrollBoxList_Global UScrollBox
+---@field Switcher_Global UWidgetSwitcher
+---@field Text_Default_Search UTextBlock
+---@field Text_ExteriorName UTextBlock
+---@field TextBlock_Describe UTextBlock
+---@field TextBlock_Filter UTextBlock
+---@field TextBlock_FilterNum UTextBlock
+---@field TextBlock_GoodsType UTextBlock
+---@field TextBlock_OperationTips UTextBlock
+---@field TextBlock_SearchEmptyTips UTextBlock
+---@field TextBlock_Title UTextBlock
+---@field UGCM_ComboBox_CheckList UGCM_ComboBox_CheckList_UIBP_C
+---@field WidgetSwitcher_Filter UWidgetSwitcher
+---@field WidgetSwitcher_Goods UWidgetSwitcher
+---@field WidgetSwitcher_GoodsType UWidgetSwitcher
+---@field WidgetSwitcher_List UWidgetSwitcher
+---@field WidgetSwitcher_ListEvent UWidgetSwitcher
+---@field ComboBoxItemClass UClass

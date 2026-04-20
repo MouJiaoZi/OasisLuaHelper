@@ -1,0 +1,1 @@
+---@class LobbyAvatarLogic_AsyncModule_BP_C:ULobbyAvatarLogic_AsyncModule

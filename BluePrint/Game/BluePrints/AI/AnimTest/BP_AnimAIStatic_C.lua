@@ -1,0 +1,25 @@
+---@class BP_AnimAIStatic_C:ASTExtraBaseCharacter
+---@field EnableFastPathTestAnim:fun(Enable:bool)
+---@field SetRender:fun(ShouldRend:bool)
+---@field SetAnimUpdate:fun(ShouldAnim:bool)
+---@field UserConstructionScript:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field Pendant UStaticMeshComponent
+---@field BackPack UStaticMeshComponent
+---@field Shoes UStaticMeshComponent
+---@field Pants UStaticMeshComponent
+---@field Hair UStaticMeshComponent
+---@field Skirt UStaticMeshComponent
+---@field CharacterAvatarComp_My CharacterAvatarComp_BP_C
+---@field StaticMesh UStaticMeshComponent
+---@field CharacterAnimList_Base CharacterAnimList_Base_C
+---@field CharacterAnimList_Skill CharacterAnimList_Skill_C
+---@field CharacterAnimList_Parachute CharacterAnimList_Parachute_C
+---@field CoustomAvatarList ULuaArrayHelper
+---@field PickupInf FBattleItemPickupInfo
+---@field Anim CH_Base_AnimBP_C
+---@field PosesToPlay ULuaArrayHelper
+---@field Index int32
+---@field PoseNum int32
+---@field DefaultAnimBP UClass
+---@field FastPathAnimBP UClass

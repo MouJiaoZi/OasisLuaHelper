@@ -1,0 +1,2 @@
+---@class ItemBlueprintUtils_BP_C:UItemBlueprintUtils
+---@field GetBPTableNameByItemID:fun(DefineID:FItemDefineID):FString

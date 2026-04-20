@@ -1,0 +1,1 @@
+---@class BP_QT_A_MNXD_C:BP_QT_A_C

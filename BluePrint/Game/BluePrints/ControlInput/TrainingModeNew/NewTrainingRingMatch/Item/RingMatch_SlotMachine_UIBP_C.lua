@@ -1,0 +1,21 @@
+---@class RingMatch_SlotMachine_UIBP_C:UUserWidget
+---@field InitImage:fun()
+---@field ShowRandomWeapon:fun(RowName:FName)
+---@field ModifyImage:fun()
+---@field ScrollFunction:fun(DeltaTime:float)
+---@field PreConstruct:fun(IsDesignTime:bool)
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field Image0 UImage
+---@field Image1 UImage
+---@field Image2 UImage
+---@field Image3 UImage
+---@field ScrollBox_63 UScrollBox
+---@field SizeBox0 USizeBox
+---@field TextBlock_WeaponName UTextBlock
+---@field CurOff float
+---@field Velocity float
+---@field DelayFlag bool
+---@field RandomGun FRandomStream
+---@field IconPath FString
+---@field RowNameMin int32
+---@field RowNum int32

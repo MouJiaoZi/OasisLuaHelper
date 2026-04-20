@@ -1,0 +1,9 @@
+---@class BP_InfecttionTDM_SuperMan_2_Grenade_C:ABP_InfecttionTDM_BasePawn_C
+---@field PlayBirthParticle:fun()
+---@field UserConstructionScript:fun()
+---@field BPOnRespawned:fun()
+---@field BulletHitBuff UBulletHitBuffComponent
+---@field Ak UAkComponent
+---@field ParticleSystem UParticleSystemComponent
+---@field ItemMap ULuaArrayHelper
+---@field SupermanBirthAudio UAkAudioEvent

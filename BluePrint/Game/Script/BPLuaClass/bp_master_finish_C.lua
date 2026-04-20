@@ -1,0 +1,8 @@
+---@class bp_master_finish_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_MasterFinish_MyName FString
+---@field BP_MasterFinish_MasterDesc FString
+---@field BP_MasterFinish_DiscipleDesc FString
+---@field BP_MasterFinish_FinishType int32
+---@field BP_MasterFinish_SignName FString

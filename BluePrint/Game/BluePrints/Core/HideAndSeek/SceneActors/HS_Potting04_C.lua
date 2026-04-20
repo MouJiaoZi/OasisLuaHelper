@@ -1,0 +1,1 @@
+---@class HS_Potting04_C:AHiderSceneActorBase_C

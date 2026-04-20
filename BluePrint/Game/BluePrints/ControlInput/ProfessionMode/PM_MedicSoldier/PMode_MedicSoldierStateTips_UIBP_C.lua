@@ -1,0 +1,18 @@
+---@class PMode_MedicSoldierStateTips_UIBP_C:UUAEUserWidget
+---@field SetHitActor:fun(InActor:AActor)
+---@field SetOwnerActor:fun(InActor:AActor)
+---@field CanvasPanel_Tips4 UCanvasPanel
+---@field UTRichTextBlock_StateTips UUTRichTextBlock
+---@field TargetPrefix FString
+---@field UserPrefix FString
+---@field bShow bool
+---@field UserIsMate bool
+---@field TargetIsMate bool
+---@field UserIsSelf bool
+---@field TargetIsSelf bool
+---@field FinalString FString
+---@field UserName FString
+---@field TargetName FString
+---@field NewVar_0 bool
+---@field HItAtcor AActor
+---@field OwnerActor AActor

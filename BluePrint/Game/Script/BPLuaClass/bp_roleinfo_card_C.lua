@@ -1,0 +1,20 @@
+---@class bp_roleinfo_card_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_RoleInfoCard_PreferedRole2 FString
+---@field BP_RoleInfoCard_SignOpenStatus int32
+---@field BP_RoleInfoCardSign FString
+---@field BP_RoleInfoCard_PlayTime2 FString
+---@field BP_RoleInfoCard_WarZoneLocation FString
+---@field BP_ARRAY_RoleInfoCardLabelList ULuaArrayHelper
+---@field BP_ARRAY_RoleInfoCardEditInfoListTendency ULuaArrayHelper
+---@field BP_ARRAY_RoleInfoCard_Time1List ULuaArrayHelper
+---@field BP_RoleInfoCardSignHintText FString
+---@field BP_RoleInfoCard_IsMySelf bool
+---@field BP_RoleInfoCard_PlayTime1 FString
+---@field BP_RoleInfoCardSignNullText FString
+---@field BP_RoleInfoCard_FriendExtraInfo FString
+---@field BP_RoleInfoCard_PreferedRole1 FString
+---@field BP_ARRAY_RoleInfoCard_PreferedRoleList ULuaArrayHelper
+---@field BP_RoleInfoCard_tendency FString
+---@field BP_ARRAY_RoleInfoCard_Time2List ULuaArrayHelper

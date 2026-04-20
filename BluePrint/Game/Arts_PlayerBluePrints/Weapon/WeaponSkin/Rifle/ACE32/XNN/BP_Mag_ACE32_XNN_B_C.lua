@@ -1,0 +1,1 @@
+---@class BP_Mag_ACE32_XNN_B_C:BP_Mag_ACE32_C

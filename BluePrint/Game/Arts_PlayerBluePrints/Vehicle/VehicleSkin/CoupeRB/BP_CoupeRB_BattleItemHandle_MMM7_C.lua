@@ -1,0 +1,1 @@
+---@class BP_CoupeRB_BattleItemHandle_MMM7_C:BP_CoupeRB_BattleItemHandle_MMM3_C

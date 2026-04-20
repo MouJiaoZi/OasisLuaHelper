@@ -1,0 +1,7 @@
+---@class BP_SpaceQueryActor_C:ASpaceQueryActor
+---@field GetAllOverlappingActors:fun():ULuaArrayHelper
+---@field QueryPassed:fun():bool
+---@field UserConstructionScript:fun()
+---@field DrawDebugStuff:fun(bPass:bool)
+---@field Box UBoxComponent
+---@field DefaultSceneRoot USceneComponent

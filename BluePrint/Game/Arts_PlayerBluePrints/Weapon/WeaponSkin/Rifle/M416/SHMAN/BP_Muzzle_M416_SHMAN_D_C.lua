@@ -1,0 +1,1 @@
+---@class BP_Muzzle_M416_SHMAN_D_C:BP_Muzzle_M416_C

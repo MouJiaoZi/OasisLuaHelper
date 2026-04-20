@@ -1,0 +1,2 @@
+---@class Bounty_MapRadar_UIBP_C:UMapUIMarkBaseWidget
+---@field Text_Time UTextBlock

@@ -1,0 +1,5 @@
+---@class BP_UGC_SkillRifle_LaserGun_C:BP_UGC_ShootWeaponBase_C
+---@field UserConstructionScript:fun()
+---@field WeaponAnimList_UGC_LaserGun WeaponAnimList_UGC_LaserGun_C
+---@field bUseIdleAnim_0_0 bool
+---@field Firenum float

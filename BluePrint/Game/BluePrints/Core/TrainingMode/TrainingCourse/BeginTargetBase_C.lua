@@ -1,0 +1,7 @@
+---@class BeginTargetBase_C:ANewTrainShootingPracticeTarget
+---@field GetNetRelevancyGroup:fun():FNetRelevancyGroup
+---@field UserConstructionScript:fun()
+---@field SetNetRelevancyGroup:fun(Group:FNetRelevancyGroup)
+---@field ReceiveAnyDamage:fun(Damage:float,DamageType:UDamageType,InstigatedBy:AController,DamageCauser:AActor)
+---@field Degree int32
+---@field NetRelevancyGroup FNetRelevancyGroup

@@ -1,0 +1,4 @@
+---@class UGC_ShootingBall_C:UGC_Projectile_C
+---@field UserConstructionScript:fun()
+---@field Ak UAkComponent
+---@field P_mofadan_01 UCustomParticleSystemComponent

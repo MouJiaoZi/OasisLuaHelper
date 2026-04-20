@@ -1,0 +1,43 @@
+---@class NewTraining_Main_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field ChangeWeaponStaus:fun(Index:int32)
+---@field Construct:fun()
+---@field DX_WarningTips UWidgetAnimation
+---@field Border_WarningTips UBorder
+---@field Button_ExitTraining2 UButton
+---@field Button_fold UButton
+---@field Button_Menu UNewButton
+---@field Button_spread UButton
+---@field Button_TeamInfo UNewButton
+---@field Button_TeamUp2 UButton
+---@field Canvas_Panel_Menu UCanvasPanel
+---@field Canvas_WarningTips UCanvasPanel
+---@field CanvasPanel_DuelSlot UCanvasPanel
+---@field CanvasPanel_MenuTopList UCanvasPanel
+---@field CanvasPanel_RangeSlot UCanvasPanel
+---@field CanvasPanel_RingMatchSlot UCanvasPanel
+---@field CanvasPanel_ROOT UCanvasPanel
+---@field CanvasPanel_Slot UCanvasPanel
+---@field CanvasPanel_Team UCanvasPanel
+---@field CustomSocketPanel_RingBut UCustomSocketPanel
+---@field GunRefittingList GunRefitting_UIBP_C
+---@field HorizontalBox_SpreadList UHorizontalBox
+---@field MolePromptPop MolePromptPop_UIBP_C
+---@field NewButton_0 UNewButton
+---@field NewButton_Arena2 UNewButton
+---@field NewButton_friend2 UNewButton
+---@field NewButton_Sensitivity2 UNewButton
+---@field NewButton_SignUp UNewButton
+---@field NewButton_SignUp2 UNewButton
+---@field NewTraining_ModeEntrance NewTraining_ModeEntrance_UIBP_C
+---@field NewTraining_Team_01 NewTraining_Team_UIBP_C
+---@field NewTraining_Team_02 NewTraining_Team_UIBP_C
+---@field NewTraining_Team_03 NewTraining_Team_UIBP_C
+---@field NewTraining_Team_04 NewTraining_Team_UIBP_C
+---@field TextBlock_WarningTips UTextBlock
+---@field Training_SensitivityList_UIBP Training_SensitivityList_UIBP_C
+---@field TrainingSwitch_List TrainingSwitch_List_UIBP_C
+---@field Widget_SensitivityPanel UCanvasPanel
+---@field WidgetSwitcher_BG UWidgetSwitcher
+---@field WidgetSwitcher_Icon UWidgetSwitcher
+---@field WidgetSwitcher_Sensitivity2 UWidgetSwitcher

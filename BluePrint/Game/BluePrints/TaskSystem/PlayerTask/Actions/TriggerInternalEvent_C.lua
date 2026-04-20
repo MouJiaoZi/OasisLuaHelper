@@ -1,0 +1,3 @@
+---@class TriggerInternalEvent_C:UTaskAction_Base
+---@field OnExecute:fun():bool
+---@field EventName FString

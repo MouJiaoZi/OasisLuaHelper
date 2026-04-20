@@ -1,0 +1,11 @@
+---@class ScoreBoardQueue_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field Construct:fun()
+---@field PreConstruct:fun(IsDesignTime:bool)
+---@field DX_In UWidgetAnimation
+---@field RingMatch_Duel_UIBP RingMatch_Duel_UIBP_C
+---@field RingMatch_GradesShow_UIBP RingMatch_GradesShow_UIBP_C
+---@field RingMatch_Match_UIBP RingMatch_Match_UIBP_C
+---@field WS UWidgetSwitcher
+---@field GirlImage FSlateBrush
+---@field ManImage FSlateBrush

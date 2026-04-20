@@ -1,0 +1,1 @@
+---@class BP_Mag_M417_BFB_B_C:BP_Mag_M417_C

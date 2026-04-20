@@ -1,0 +1,1 @@
+---@class BPTriggerItem_DeathBox_C:ATriggerItem_Task

@@ -1,0 +1,4 @@
+---@class bp_activity_bonus_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field ActivityBonusFirstTimeShareToday bool

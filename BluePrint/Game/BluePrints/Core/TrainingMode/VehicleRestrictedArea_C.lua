@@ -1,0 +1,6 @@
+---@class VehicleRestrictedArea_C:AActor
+---@field DestroyVehicle:fun(Vehicle:ASTExtraVehicleBase)
+---@field UserConstructionScript:fun()
+---@field Sphere USphereComponent
+---@field DefaultSceneRoot USceneComponent
+---@field Lock bool

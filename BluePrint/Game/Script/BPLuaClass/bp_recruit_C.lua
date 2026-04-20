@@ -1,0 +1,21 @@
+---@class bp_recruit_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_Recruit_IsLobbyTeam bool
+---@field BP_ModelStr FString
+---@field BP_WorldRecruit bool
+---@field BP_ChannelRecruit bool
+---@field BP_CorpsRecruit bool
+---@field BP_ModelPLayCountStr FString
+---@field BP_IsUIShow bool
+---@field BP_ChatannelRoomID int32
+---@field BP_SendMessage FString
+---@field MySelfUID FString
+---@field IsFull bool
+---@field BP_FrientRecruit bool
+---@field BP_IsFinalFightMode bool
+---@field BP_HasJoinCorps bool
+---@field BP_Recruit_TitleName FString
+---@field CurSelectModelType int32
+---@field BP_ModeNameYellow FString
+---@field BP_ChannelName FString

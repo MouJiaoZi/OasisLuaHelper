@@ -1,0 +1,1 @@
+---@class BP_ItemsBoxConfigChristmas_DihorOtok_C:UBP_ItemsBoxConfigChristmas_C

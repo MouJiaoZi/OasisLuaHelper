@@ -1,0 +1,1 @@
+---@class BP_Other_MG3_BattleItemHandle_YHAI_Lobby_C:UBackpackWeaponHandle

@@ -1,0 +1,7 @@
+---@class bp_master_apply_list_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_MasterMasterApplistIsShow bool
+---@field BP_CurrentMasterCheck bool
+---@field BP_CurrentMasterApplistUID FString
+---@field BP_ARRAY_Master_ApplyList ULuaArrayHelper

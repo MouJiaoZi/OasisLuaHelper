@@ -1,0 +1,1 @@
+---@class PlayerCharacter_buff_C:USTBaseBuffList

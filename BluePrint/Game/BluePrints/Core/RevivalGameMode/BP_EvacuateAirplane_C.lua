@@ -1,0 +1,10 @@
+---@class BP_EvacuateAirplane_C:AAirplaneCharacter
+---@field UserConstructionScript:fun()
+---@field ReceiveEndPlay:fun(EndPlayReason:EEndPlayReason)
+---@field OnSetOwnFlyingData:fun()
+---@field AirLineMarkComp AirLineMarkComp_C
+---@field Camera UCameraComponent
+---@field STExtraSpringArm USTExtraSpringArmComponent
+---@field Ak UAkComponent
+---@field STCustomMesh USTCustomMeshComponent
+---@field SpringDist2Original float

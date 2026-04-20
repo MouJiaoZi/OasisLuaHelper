@@ -1,0 +1,25 @@
+---@class OB_CircleChasingProgress_BP_C:UChasingBar
+---@field RefreshOBCircleChasingProgress:fun()
+---@field OnCountDownTextInvisible:fun()
+---@field UpdateCountDownText:fun()
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field OnPlayerEnterExitBlueCircle:fun()
+---@field CleanTheProgressBar:fun()
+---@field ReceivedInitWidget:fun()
+---@field OnCircleNotCountDown:fun()
+---@field BlueCircleRunning UWidgetAnimation
+---@field CleaningProgressBar UWidgetAnimation
+---@field CautionIcon UImage
+---@field CountDownText UTextBlock
+---@field GridPanel_TimInfo UGridPanel
+---@field ProgressBar_BlueBar UProgressBar
+---@field TextBlock_RingNum UTextBlock
+---@field TextBlock_Time UTextBlock
+---@field STExtraGamestate ASTExtraGameStateBase
+---@field CautionFlashing float
+---@field Taopao_zhongdu_R FSlateBrush
+---@field Taopao_zhongdu_W FSlateBrush
+---@field Taopao_zhongduTips_R FSlateBrush
+---@field Taopao_zhongduTips_W FSlateBrush
+---@field PlayerEscapProgressMax float
+---@field IsRefreshCircleDistance_0 bool

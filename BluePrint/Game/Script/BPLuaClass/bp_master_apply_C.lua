@@ -1,0 +1,9 @@
+---@class bp_master_apply_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_MasterApply_TargetType int32
+---@field BP_MasterApply_ClickPlayerId FString
+---@field BP_MasterApply_InputString FString
+---@field BP_MasterApply_ApplyToDiscipleDefaultMsg FString
+---@field BP_MasterApply_ClickPlayerMsg FString
+---@field BP_MasterApply_ApplyToTeacherDefaultMsg FString

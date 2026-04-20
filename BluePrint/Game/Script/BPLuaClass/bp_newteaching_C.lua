@@ -1,0 +1,4 @@
+---@class bp_newteaching_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_NewteachingUI_CurrentSelectIdx int32

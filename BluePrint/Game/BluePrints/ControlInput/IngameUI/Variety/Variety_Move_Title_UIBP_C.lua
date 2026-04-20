@@ -1,0 +1,5 @@
+---@class Variety_Move_Title_UIBP_C:UUAEUserWidget
+---@field NewButton_ShowList UNewButton
+---@field TextBlock_Direction UTextBlock
+---@field WidgetSwitcher_Select UWidgetSwitcher
+---@field WrapBox_List UWrapBox

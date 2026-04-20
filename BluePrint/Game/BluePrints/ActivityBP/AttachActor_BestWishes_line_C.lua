@@ -1,0 +1,15 @@
+---@class AttachActor_BestWishes_line_C:AExtraLinkLine
+---@field ToggleLineConsideringDistance:fun()
+---@field PrintLogWithTips:fun(inputString:FString)
+---@field EnableLineParticleInTick:fun()
+---@field DestroyOldLines:fun(OwnerCharacter:ASTExtraBaseCharacter)
+---@field UpdateLineLoc:fun()
+---@field UserConstructionScript:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field Line UParticleSystemComponent
+---@field DefaultSceneRoot USceneComponent
+---@field GiverMesh USkeletalMeshComponent
+---@field SocketName FName
+---@field TimeDelta float
+---@field MaxShowDistanceSquare float
+---@field MaxRelatedDistanceSquare float

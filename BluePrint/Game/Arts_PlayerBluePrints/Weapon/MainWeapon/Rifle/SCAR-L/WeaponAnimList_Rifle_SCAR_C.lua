@@ -1,0 +1,1 @@
+---@class WeaponAnimList_Rifle_SCAR_C:UUAECharacterAnimListComponent

@@ -1,0 +1,20 @@
+---@class bp_versionupdate_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_VersionUpdate_IsNoticeShow bool
+---@field BP_PufferUpdate_CurStage FString
+---@field BP_PufferUpdate_TotalSize int32
+---@field BP_CurStage FString
+---@field BP_VersionUpdate_Download_Speed int32
+---@field BP_ShaderCompileCurPercent int32
+---@field BP_CurPercent int32
+---@field BP_PufferUpdate_CurSize int32
+---@field BP_Get_VersionInfo bool
+---@field BP_VersionUpdate_Last_Time int32
+---@field BP_VersionUpdate_TimeAccBeginStamp int32
+---@field BP_IsExamin bool
+---@field BP_VersionUpdate_Download_LeftTime FString
+---@field BP_VersionUpdate_Last_File_Size int32
+---@field BP_VersionUpdate_Lock int32
+---@field BP_PufferUpdate_CurPercent FString
+---@field BP_VersionUpdate_UserCancelAgreement int32

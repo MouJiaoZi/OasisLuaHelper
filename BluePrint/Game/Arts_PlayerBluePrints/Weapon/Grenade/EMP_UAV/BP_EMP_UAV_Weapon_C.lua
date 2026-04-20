@@ -1,0 +1,13 @@
+---@class BP_EMP_UAV_Weapon_C:ASTExtraWeapon
+---@field OnWeaponEffectAction:fun(WeaponAction:EWeaponAction)
+---@field GetSkillEntryForMeleeWeapon:fun(IsPressed:bool):EUTSkillEntry
+---@field UserConstructionScript:fun()
+---@field WeaponTriggerEventHandleSkill UWeaponTriggerEventHandleSkill
+---@field EMPSeekAndLockCrossHair UEMPSeekAndLockCrossHairComponent
+---@field EMPSeekAndLockWeapon UEMPSeekAndLockWeaponComponent
+---@field WeaponAnimList_Grenade WeaponAnimList_Grenade_C
+---@field WeaponEntity UWeaponEntity
+---@field WeaponSpecificHandler UWeaponSpecificHandler
+---@field WeaponStateDefault UWeaponStateDefault
+---@field WeaponStateManager UWeaponStateManager
+---@field WeaponActionToAkEvents ULuaMapHelper

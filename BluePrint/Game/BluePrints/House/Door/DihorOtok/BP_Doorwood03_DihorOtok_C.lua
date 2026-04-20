@@ -1,0 +1,1 @@
+---@class BP_Doorwood03_DihorOtok_C:ABP_DoorNormal_C

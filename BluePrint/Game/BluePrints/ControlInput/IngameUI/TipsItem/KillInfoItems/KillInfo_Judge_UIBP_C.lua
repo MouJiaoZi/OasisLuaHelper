@@ -1,0 +1,10 @@
+---@class KillInfo_Judge_UIBP_C:UKillInfo_Base_UIBP_C
+---@field GetLocalTeamLogo:fun(PlayerName:FString):bool
+---@field ShowKillInfoStatus:fun(NewParam:FClientFatalDamageRecordData,ImageDownloader:UObject,BaseUI:MainControlBaseUI_C)
+---@field ShowLeftQueueBaseInfo:fun(NewParam:FClientFatalDamageRecordData,ImageDownloader:UImageDownloader)
+---@field Image_2 UImage
+---@field Image_TeamLogoJudge UImage
+---@field SizeBox_TeamLogo USizeBox
+---@field TextBlock_PlayerName UTextBlock
+---@field KillfeedDeath_en UTexture2D
+---@field KillfeedDeath UTexture2D

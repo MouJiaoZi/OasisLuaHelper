@@ -1,0 +1,2 @@
+---@class BTDecorator_BPBase_IsGameState_C:UBTDecorator_BlueprintBase
+---@field GameModeState FName

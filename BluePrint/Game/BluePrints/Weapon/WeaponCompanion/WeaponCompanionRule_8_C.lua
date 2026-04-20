@@ -1,0 +1,5 @@
+---@class WeaponCompanionRule_8_C:UBP_WeaponCompanionRuleBase_C
+---@field ChekOnlyMe:fun()
+---@field OnInit:fun()
+---@field OnRemove:fun()
+---@field OnlyMe bool

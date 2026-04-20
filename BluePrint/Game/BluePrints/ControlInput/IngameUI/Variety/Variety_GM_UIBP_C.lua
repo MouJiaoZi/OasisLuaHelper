@@ -1,0 +1,4 @@
+---@class Variety_GM_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field Custom_Canvas_121 CustomizeCanvasPanel_BP_C
+---@field NewButton_GM UNewButton

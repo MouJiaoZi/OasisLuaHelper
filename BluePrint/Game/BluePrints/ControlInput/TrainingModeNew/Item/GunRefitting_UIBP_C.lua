@@ -1,0 +1,8 @@
+---@class GunRefitting_UIBP_C:UUAEUserWidget
+---@field Button_Classic UNewButton
+---@field Button_Karakin UNewButton
+---@field NewButton_Team UNewButton
+---@field Refit_List UCanvasPanel
+---@field SwitcherClassic UWidgetSwitcher
+---@field SwitcherKarakin UWidgetSwitcher
+---@field SwitcherTeam UWidgetSwitcher

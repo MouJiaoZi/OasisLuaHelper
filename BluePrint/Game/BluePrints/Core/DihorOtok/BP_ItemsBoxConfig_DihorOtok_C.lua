@@ -1,0 +1,1 @@
+---@class BP_ItemsBoxConfig_DihorOtok_C:UBP_ItemsBoxDataConfig_C

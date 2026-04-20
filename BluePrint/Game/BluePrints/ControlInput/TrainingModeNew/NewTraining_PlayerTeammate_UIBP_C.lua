@@ -1,0 +1,4 @@
+---@class NewTraining_PlayerTeammate_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field Button_Close UButton
+---@field VerticalBox_TeamInfo UVerticalBox

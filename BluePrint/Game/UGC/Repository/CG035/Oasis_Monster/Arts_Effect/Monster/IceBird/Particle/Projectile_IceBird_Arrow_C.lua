@@ -1,0 +1,5 @@
+---@class Projectile_IceBird_Arrow_C:APESkillProjectileBase
+---@field UserConstructionScript:fun()
+---@field P_CG035_IceBird_Missile_01 UParticleSystemComponent
+---@field Capsule UCapsuleComponent
+---@field StaticMesh UStaticMeshComponent

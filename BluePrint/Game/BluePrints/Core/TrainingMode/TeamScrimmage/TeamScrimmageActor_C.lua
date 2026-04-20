@@ -1,0 +1,33 @@
+---@class TeamScrimmageActor_C:AActor
+---@field GetLuaModule:fun():FString
+---@field CheckParkCoinNum:fun(InPC:APlayerController):int32
+---@field UserConstructionScript:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field PlayerRepsawnPoint_5 UArrowComponent
+---@field PlayerRepsawnPoint_4 UArrowComponent
+---@field PlayerRepsawnPoint_3 UArrowComponent
+---@field PartSpawnPoint_6 UArrowComponent
+---@field PartSpawnPoint_5 UArrowComponent
+---@field BattleArea UCapsuleComponent
+---@field PlayerRepsawnPoint_2 UArrowComponent
+---@field PlayerRepsawnPoint_1 UArrowComponent
+---@field PartSpawnPoint_4 UArrowComponent
+---@field PartSpawnPoint_3 UArrowComponent
+---@field PartSpawnPoint_2 UArrowComponent
+---@field PartSpawnPoint_1 UArrowComponent
+---@field DefaultSceneRoot USceneComponent
+---@field DeathDropScoreRatio float
+---@field ItemConfigClass UClass
+---@field LeaveMidwayMaxTime float
+---@field BombGunMaxExpConfig ULuaMapHelper
+---@field PartSpawnPointComponentNames ULuaArrayHelper
+---@field PartSpawnFrequency float
+---@field PartCoexistNumMax int32
+---@field SingleTeamMaxScroeAndPart int32
+---@field MVPTeamMinScoreLine int32
+---@field PartClass UClass
+---@field PlayerRepsawnPointComponentNames ULuaArrayHelper
+---@field DropPartLifeSpan float
+---@field PartSpawnEffect UParticleSystem
+---@field SoulClass UClass
+---@field MVPChangeSound UAkAudioEvent

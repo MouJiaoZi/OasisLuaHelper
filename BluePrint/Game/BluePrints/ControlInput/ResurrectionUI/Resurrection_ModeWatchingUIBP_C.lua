@@ -1,0 +1,15 @@
+---@class Resurrection_ModeWatchingUIBP_C:UUAEUserWidget
+---@field ShowBattleReusltMsg:fun()
+---@field OnRepIsInRevivalState:fun()
+---@field OnRepRemainingRevivalTime:fun()
+---@field OnRepIDCardCaptured:fun()
+---@field RefreshIDCardPickedUp:fun()
+---@field RefreshIDCardNoPickUp:fun(LeftPickUpTime:int32)
+---@field RefreshTipsState:fun()
+---@field ShowSpectateTips:fun()
+---@field Retrieve_Watch_tips2_ani UWidgetAnimation
+---@field Retrieve_Watch_tips1_ani UWidgetAnimation
+---@field Border_Retrieve_Watch_tips2 UBorder
+---@field BorderRetrieve_Watch_tips1 UBorder
+---@field Retrieve_Watch_CountDown UTextBlock
+---@field RemindeTipCounting bool

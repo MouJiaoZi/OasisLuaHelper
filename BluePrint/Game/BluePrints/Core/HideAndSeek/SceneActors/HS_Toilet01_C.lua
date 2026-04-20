@@ -1,0 +1,1 @@
+---@class HS_Toilet01_C:AHiderSceneActorBase_C

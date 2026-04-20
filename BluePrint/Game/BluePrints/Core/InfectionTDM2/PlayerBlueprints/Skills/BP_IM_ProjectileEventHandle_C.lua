@@ -1,0 +1,7 @@
+---@class BP_IM_ProjectileEventHandle_C:AActor
+---@field TriggerThrowFinish:fun()
+---@field TriggerThrowPrepare:fun()
+---@field OnProjectileSpawned:fun(NewProjectile:AEliteProjectile)
+---@field UserConstructionScript:fun()
+---@field ReceiveDestroyed:fun()
+---@field DefaultSceneRoot USceneComponent

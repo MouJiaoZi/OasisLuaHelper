@@ -1,0 +1,135 @@
+---@class RingThrowButUI_C:UUAEUserWidget
+---@field HandleSlotChosen_Inf:fun(index:int32):bool
+---@field UpdateGrenadeBtnBGAndImage_Inf:fun(Index:int32,isHighLight:bool):bool
+---@field Reconnect_ResetUIByPlayerControllerState_Inf:fun():bool
+---@field GetItemAttrValue:fun(AddiInfo:ULuaArrayHelper,Name:FName,DefaultVal:float):float
+---@field UIMsg_HandleBackPackItemUpdate:fun()
+---@field FinishPickOneGrenadeBySelect:fun(select:bool)
+---@field HideRingSelected:fun()
+---@field GetIsACloseByItemID:fun(itemID:int32):bool
+---@field IsLocalpositionInBorder:fun(LocalCoordinate:FVector2D,Border:UWidget):bool
+---@field RefreshElectricty:fun(ElectrictyImage:UImage,ElectrictyPanel:UCanvasPanel,LeftTimeText:UTextBlock,BattleItemData:FBattleItemData,InEnergyItem:EnergyItem_BP_C)
+---@field CollapsRingAndClearTimer:fun()
+---@field RemoveIgnoreFinger:fun()
+---@field FinishPickOneGrenadeByTouch:fun()
+---@field ThrowGrenade:fun()
+---@field FinishPickOneGrenade:fun()
+---@field RefreshGrenadeObj:fun(obj:UObject,index:int32)
+---@field OnTouchEnded:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field HideAllSelect:fun()
+---@field On_Border_Throw_MouseButtonDown_0:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field OnTouchStarted:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field OnTouchMoved:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field GetGrenadeTypeByItemID:fun(item_ID:int32):EGrenadeType
+---@field InitGrenadeSortPriorityDataTableMap:fun()
+---@field HandleSlotChosen:fun(Index:int32)
+---@field GetIsArrayHasGrenade:fun():bool
+---@field RefreshCenterObj:fun(Obj:UObject)
+---@field UpdateSelectItem:fun(itemData:FBattleItemData,isGrenade:bool,avatarID:int32)
+---@field AutoCollapseGrenadeSlot:fun()
+---@field SetAutoCollapse:fun()
+---@field SetGrenadeVisibilityByCurStatus:fun()
+---@field SetInteractiveTriangleByCurStatus:fun()
+---@field GetGrenadeAvatarID:fun(resID:int32):int32
+---@field MakeItemArray:fun()
+---@field UpdateDataToSlot:fun()
+---@field SetGrenadeOrder:fun(Array:ULuaArrayHelper)
+---@field HandleBackPackItemUpdate:fun(force:bool)
+---@field MarkDownUsingStatus:fun(Slot:ESurviveWeaponPropSlot)
+---@field GetGrenadePriorityByID:fun(_Type:int32):int32
+---@field GetIsAGrenadeByItemID:fun(ItemID:int32):bool
+---@field GetGrenadeIDByWeapon:fun():int32
+---@field RefreshGrenadeAndMeleeWeaponDataArray:fun()
+---@field GetPlayerCharacter:fun():ASTExtraPlayerCharacter
+---@field RespawnInitWidget:fun()
+---@field ReceivedInitWidget:fun()
+---@field ResetUIStateAfterRespawn:fun()
+---@field OnUseAndSwitchGrenade__DelegateSignature:fun(GrenadeID:int32)
+---@field OnUseFist__DelegateSignature:fun()
+---@field OnUseMelee__DelegateSignature:fun(itemID:FItemDefineID)
+---@field OnGrenadeEmpty__DelegateSignature:fun()
+---@field OnUseGrenade__DelegateSignature:fun(GrenadeType:EGrenadeType,GrenadeID:int32)
+---@field Border_Throw UBorder
+---@field Border_Throw_02 UBorder
+---@field Border_Throw_03 UBorder
+---@field Border_Throw_04 UBorder
+---@field Border_Throw_05 UBorder
+---@field CanvasPanel_Center UCanvasPanel
+---@field CanvasPanel_Guide UCanvasPanel
+---@field CanvasPanel_ModeInfo UCanvasPanel
+---@field CanvasPanel_RingList UCanvasPanel
+---@field CanvasPanel_spread UCanvasPanel
+---@field EnergyItem_BP_Cur EnergyItem_BP_C
+---@field GrenadeItem00 GrenadeList_Type2_Item_UIBP_C
+---@field GrenadeItem01 GrenadeList_Type2_Item_UIBP_C
+---@field GrenadeItem02 GrenadeList_Type2_Item_UIBP_C
+---@field GrenadeItem03 GrenadeList_Type2_Item_UIBP_C
+---@field GrenadeItem04 GrenadeList_Type2_Item_UIBP_C
+---@field GrenadeItem10 GrenadeList_Type2_Item_UIBP_C
+---@field GrenadeItem11 GrenadeList_Type2_Item_UIBP_C
+---@field GrenadeItem12 GrenadeList_Type2_Item_UIBP_C
+---@field GrenadeItem13 GrenadeList_Type2_Item_UIBP_C
+---@field GrenadeItem14 GrenadeList_Type2_Item_UIBP_C
+---@field Image_Changan UImage
+---@field Image_Drone_Electricity_Current UImage
+---@field Image_Owning1 UImage
+---@field Image_Owning2 UImage
+---@field Image_Owning3 UImage
+---@field Image_Owning4 UImage
+---@field Image_Select UImage
+---@field InteractiveTriangleToDown UImage
+---@field InteractiveTriangleToUp UImage
+---@field ItemsBox UHorizontalBox
+---@field NewButton_Arrow UNewButton
+---@field TextBlock_CDTime UTextBlock
+---@field ThrowItem_01 UImage
+---@field ThrowItem_02 UImage
+---@field ThrowItem_02_Select UImage
+---@field ThrowItem_03 UImage
+---@field ThrowItem_03_Select UImage
+---@field ThrowItem_04 UImage
+---@field ThrowItem_04_Select UImage
+---@field ThrowItem_05 UImage
+---@field ThrowItem_05_Select UImage
+---@field ThrowText_01_num UTextBlock
+---@field ThrowText_02_num UTextBlock
+---@field ThrowText_03_num UTextBlock
+---@field ThrowText_04_num UTextBlock
+---@field ThrowText_05_num UTextBlock
+---@field WidgetSwitcher_Arrow UWidgetSwitcher
+---@field STExtraPlayerCharacter ASTExtraPlayerCharacter
+---@field GrenadeAndMeleeDataArray ULuaArrayHelper
+---@field MeleeSubType int32
+---@field GrenadeSubType int32
+---@field GrenadeSortPriority ULuaMapHelper
+---@field bIsUsingGrenade bool
+---@field LastTimeUsingGrenadeID int32
+---@field ItemList ULuaArrayHelper
+---@field IsListExpand bool
+---@field IsAutoCollapseInterupted bool
+---@field PressingCenter bool
+---@field expandGrenade bool
+---@field OnUseGrenade ULuaMulticastDelegate
+---@field OnGrenadeEmpty ULuaMulticastDelegate
+---@field OnUseMelee ULuaMulticastDelegate
+---@field OnUseFist ULuaMulticastDelegate
+---@field GrenadeIDToType ULuaMapHelper
+---@field ThrowItemList ULuaArrayHelper
+---@field ThrowNumList ULuaArrayHelper
+---@field ThrowSelectList ULuaArrayHelper
+---@field PressCenterPoint FVector2D
+---@field CenterGrenadeIDList ULuaMapHelper
+---@field SelectIndex int32
+---@field CanMoveAndEnd bool
+---@field CenterGrenadeIndexList ULuaMapHelper
+---@field FinishPickOneGrenadeHandle FTimerHandle
+---@field FinishPickOneGrenadeTime float
+---@field CurFingerIndex ETouchIndex
+---@field CurGeo FGeometry
+---@field CurTouch FPointerEvent
+---@field TouchStarted bool
+---@field OnUseAndSwitchGrenade ULuaMulticastDelegate
+---@field StartTouchPickOne FTimerHandle
+---@field StartTouchPickDelay float
+---@field OwingImage ULuaArrayHelper
+---@field QuickThrowPressSetting bool

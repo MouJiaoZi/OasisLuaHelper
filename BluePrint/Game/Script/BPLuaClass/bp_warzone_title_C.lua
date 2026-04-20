@@ -1,0 +1,12 @@
+---@class bp_warzone_title_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field WarZoneTitleCurTitleID int32
+---@field BP_Array_WarZoneTitleList ULuaArrayHelper
+---@field BP_ARRAY_WarZoneTitleHolidayID ULuaArrayHelper
+---@field WarZoneTitleCurRankNo int32
+---@field BP_ARRAY_WarZoneTitleRedPointList ULuaArrayHelper
+---@field WarZoneTitleCurZoneId int32
+---@field WarZoneTitleCurRankId int32
+---@field BP_WarZoneTitleUseTab int32
+---@field WarZoneTitleSelectTab int32

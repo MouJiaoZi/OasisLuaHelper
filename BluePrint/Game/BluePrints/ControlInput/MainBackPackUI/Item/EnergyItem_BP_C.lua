@@ -1,0 +1,19 @@
+---@class EnergyItem_BP_C:UUAEUserWidget
+---@field SplitCircle:fun(MaxElec:float)
+---@field SetCurElectricity:fun(bDiscrete:bool,CurElec:float,MaxElec:float)
+---@field PreConstruct:fun(IsDesignTime:bool)
+---@field CanvasPanel_Black0 UCanvasPanel
+---@field CanvasPanel_Black1 UCanvasPanel
+---@field CanvasPanel_Black2 UCanvasPanel
+---@field CanvasPanel_Black3 UCanvasPanel
+---@field CanvasPanel_Black4 UCanvasPanel
+---@field CanvasPanel_Black5 UCanvasPanel
+---@field CanvasPanel_Black6 UCanvasPanel
+---@field CanvasPanel_Black7 UCanvasPanel
+---@field CanvasPanel_BLD UCanvasPanel
+---@field CanvasPanel_ColdModeInfo UCanvasPanel
+---@field CanvasPanel_DroneInfo1 UCanvasPanel
+---@field Image_Drone_Electricity UImage
+---@field Image_LV UImage
+---@field Image_LV2 UImage
+---@field SplitRects ULuaArrayHelper

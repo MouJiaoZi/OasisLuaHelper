@@ -1,0 +1,275 @@
+---@class NewEntireMap_C:UEntireMapWidget
+---@field AddOuterItemToMapCanvas:fun(Widget:UWidget):UPanelSlot
+---@field LevelLocToMapLoc:fun(LevelLoc:FVector):FVector2D
+---@field ModifyMapMarkActor:fun(PlayerController:ASTExtraPlayerController,WorldLocation:FVector4)
+---@field UIMsg_RefreshRouteSegmentList:fun()
+---@field ShowEports:fun()
+---@field UIMsg_RefreshLeaderChoosingSegmentID:fun()
+---@field DrawRouteList:fun()
+---@field UIMsg_RefreshClubTeamList:fun()
+---@field UIMsg_RefreshCurrentTeamIndex:fun()
+---@field UIMsg_RefreshTeamSegmentsInfo:fun()
+---@field UIMsg_RefreshChooseTime:fun()
+---@field UIMsg_SegmentsList:fun()
+---@field CanRefreshMapImage:fun():bool
+---@field BrocastMarkValid:fun()
+---@field ShowMarkButton:fun(bShow:bool)
+---@field UpdateVehicleRouteList:fun()
+---@field AutoPilotLoaded:fun()
+---@field ShowAutoPilot:fun(vehicle:ASTExtraVehicleBase)
+---@field NoisyMapLoaded:fun(obj:UObject,id:int32)
+---@field AirshipGuideLoaded:fun()
+---@field UIMsg_ShowAirshipGuide:fun(show:FString)
+---@field SetToHideWidgets:fun(bOriVis:bool)
+---@field CheckToHideWidgets:fun():bool
+---@field CollectToHideWidgetsItem:fun(Item:UWidget)
+---@field CollectToHideWidgets:fun()
+---@field SetAirPlaneStatusToMgr:fun()
+---@field CheckInitMapEventInfo:fun()
+---@field UpdateAirDropLine:fun()
+---@field UIMsg_CloseCampToolUI:fun()
+---@field DisPatchFoLog:fun(Pos:FVector)
+---@field ShowAirLinePlus:fun()
+---@field ShowVertLinePlus:fun()
+---@field FilterMarkPos:fun(MarkPos:FVector)
+---@field CalcLocToTrans:fun(param:FVector):FVector2D
+---@field UpdateCampAirLineData:fun(CampAirLineStartPos:FVector,CampAirLineEndPos:FVector)
+---@field IsEnableExUI:fun(inExtendType:EMapExUIType):bool
+---@field IsEnterFighting:fun():bool
+---@field CleanupVertLineData:fun()
+---@field UIMsg_RefreshCampAssistNum:fun()
+---@field UIMsg_RefreshCampKillNum:fun()
+---@field RedrawVertLine:fun()
+---@field CalcVertPoint3D:fun(startPoint:FVector2D,endPoint:FVector2D,otherPoint:FVector2D):FVector2D
+---@field DrawVertLineInBase:fun(bShow:bool,PlayerCoord:FVector2D)
+---@field Trans3DToMap2D:fun(3DPos:FVector):FVector2D
+---@field HideVertLint:fun()
+---@field RepositionSelfMultiMarker:fun()
+---@field Trans2DPosToWorldPos:fun(MarkAlign:FVector2D):FVector2D
+---@field RefreshLocalPlayerIndex:fun(NewIndex:int32)
+---@field UIMsg_RobotCancelMark:fun()
+---@field UIMsg_RobotMakeMark:fun(posX:float,posY:float)
+---@field AddOneUAV:fun(playerIndex:int32)
+---@field InitPlayers:fun()
+---@field Replay_HideDeadIcon:fun()
+---@field RepositionAllMapMark:fun(NewParam:int32)
+---@field ChangeToSpectator:fun()
+---@field UIMsg_RemoveMapItem:fun(ItemType:int32,ItemID:int32)
+---@field UIMsg_AddMapItem:fun(ItemType:int32,ItemID:int32,location:FVector)
+---@field AddOnePlayer:fun(Index:int32)
+---@field HideSpectatorPlayerMarker:fun()
+---@field ReadMapTable:fun()
+---@field HideFakeEdge:fun()
+---@field HideAllMapMark:fun()
+---@field ResetLocalPlayerIndex:fun()
+---@field HideAirplane:fun()
+---@field UIMsg_ShowAirplane:fun()
+---@field TryActiveSelfCenterZoom:fun()
+---@field CalSliderValue:fun(CurScale:float):float
+---@field ClampMapScaleValue:fun(InputMapScale:float):float
+---@field MovePointOnMapToCenter:fun(PointOnMap:FVector2D)
+---@field RecalMapInfo:fun():FMapRealTimeInfo
+---@field ZoomToFitBlueCircle:fun()
+---@field OnCharacterStateChange:fun(Teammate:APawn,LiveState:ExtraPlayerLiveState)
+---@field UpdateLastDriveVehicleIcon:fun()
+---@field UpdateAirplaneRoute:fun(Start:FVector,Stop:FVector,IsDraw:bool,FromBase:bool)
+---@field ShowFriendsDistance:fun()
+---@field MarkPoint2RealLocation:fun(InVec:FVector2D):FVector2D
+---@field CaclMarkDir:fun(MarkPoint:FVector2D):int32
+---@field ShowMarkerDistance:fun()
+---@field SetSelfInfoAndColor:fun(playState:ASTExtraPlayerState)
+---@field MakeMarker:fun(MarkAligment:FVector2D)
+---@field ShowMarkerLocationText:fun(Vector:FVector2D)
+---@field GMShowMarkerLocation:fun()
+---@field Reconnect_ResetUIByPlayerControllerState:fun()
+---@field SetMateName:fun(playerName:FString,LabName:UTextBlock)
+---@field SetMateColor:fun(TargetImg:UImage,PlayerIndex:int32)
+---@field SetMateNum:fun(PlayerImg:UImage,PlayerIndex:int32)
+---@field HandleReconnectInfo:fun(ReconnectInfo:FReConnectGameStateInfo)
+---@field SetPlayerIdxAndColor:fun(Idx:int32)
+---@field GetPlayerColorByIndex:fun(Index:int32):FLinearColor
+---@field Parachuting_ShowHideBtn:fun()
+---@field GetTeamMateListFromPlayerState:fun():ULuaArrayHelper
+---@field RepositionMapMark:fun(ChangeIndex:int32)
+---@field BindTeamMapMarkDelegate:fun()
+---@field SetTeamMateNameInMap:fun()
+---@field GetTeamMateBySerialNumber:fun(TeamMateIndex:int32):int32
+---@field SetTeamLocAndRot:fun(Array:ULuaArrayHelper)
+---@field SetTeamInfoName:fun()
+---@field RepositionSelfMarker:fun()
+---@field GetObjectAligInCurMapSize:fun(Pos:FVector2D):float,float
+---@field ClampAlig:fun(MaxAlig:float,MinAlig:float)
+---@field GetMapMaxAligByMapSize:fun(MapSize:FVector2D):float,float
+---@field HandleMapMove:fun(MoveOffset:FVector2D)
+---@field ChangeMapPivot:fun(AligX:float,AligY:float)
+---@field RepositionMarkerAndPin:fun()
+---@field ChangeMapSize:fun(Size:FVector2D,CanChangeMapPivot:bool)
+---@field HandleAirAttackBroadcast:fun(AttackMsg:EAirAttackInfo,Wave:int32,AirAttackMode:EAirAttackMode)
+---@field OnPaint:fun(Context:FPaintContext)
+---@field MapVectorToWorldVector:fun(MapVector:FVector2D):FVector2D
+---@field GetMarkerToWorldVector:fun():FVector
+---@field UpdatePlayerState:fun(State:ExtraPlayerLiveState,OwnerCharacter:ACharacter)
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field InitPlayerState:fun()
+---@field Construct:fun()
+---@field ReceivedInitWidget:fun()
+---@field ResetUIStateAfterRespawn:fun()
+---@field SetupUIMarkRoot:fun()
+---@field RespawnInitWidget:fun()
+---@field OnMapItemNoise:fun(isApply:bool)
+---@field SetupExUIParentSlot:fun()
+---@field OnInitializeExtendUI:fun()
+---@field ChangeAirLineState:fun(bShow:bool)
+---@field ChangeVerticalLineState:fun(bShow:bool)
+---@field SetAirlineVisible:fun(bShow:bool)
+---@field SetAirAttckVisible:fun(bShow:bool)
+---@field SetVisibleButtonOnEntireMap:fun(bIsShow:bool)
+---@field SetEntireMapMaskAlpha:fun(fAlpha:float)
+---@field MapAligDispatchers__DelegateSignature:fun()
+---@field MapSizeDispatchers__DelegateSignature:fun()
+---@field SetCustomMarker__DelegateSignature:fun(Position:FVector2D)
+---@field MarkerClick__DelegateSignature:fun()
+---@field DX_Button_Out UWidgetAnimation
+---@field DX_Button_In UWidgetAnimation
+---@field AirAttackArea UImage
+---@field Bounty_Airline_UIBP Bounty_Airline_UIBP_C
+---@field Button_0 UButton
+---@field Button_ClearMultiMark UButton
+---@field Button_DelMarkIcon UButton
+---@field Button_HideMap UButton
+---@field Button_MultiMark UButton
+---@field Button_PostMultiMark UButton
+---@field Button_RevertMultiMark UButton
+---@field Button_SelfLock UButton
+---@field Button_SelfMark UButton
+---@field Button_ZoomIn UButton
+---@field Button_ZoomOut UButton
+---@field CampAirLineGroup UCanvasPanel
+---@field CanvasPanel_2 UCanvasPanel
+---@field CanvasPanel_5 UCanvasPanel
+---@field CanvasPanel_17 UCanvasPanel
+---@field CanvasPanel_ActiveAreaTips UCanvasPanel
+---@field CanvasPanel_AirLineSegment UCanvasPanel
+---@field CanvasPanel_AirLineSelf UCanvasPanel
+---@field CanvasPanel_AllMarks UCanvasPanel
+---@field CanvasPanel_Bg UCanvasPanel
+---@field CanvasPanel_BountyAirline UCanvasPanel
+---@field CanvasPanel_ClipMaskBox UCanvasPanel
+---@field CanvasPanel_MapImageSize UCanvasPanel
+---@field CanvasPanel_NewEntireMap UCanvasPanel
+---@field CanvasPanel_Player UCanvasPanel
+---@field CanvasPanel_ScaleButton UCanvasPanel
+---@field CanvasPanel_TaskTrackingSlot UCanvasPanel
+---@field CmpAirLine UCanvasPanel
+---@field CustomSocket_Asian UCanvasPanel
+---@field CustomSocketAirLineAll UCustomSocketPanel
+---@field DynamicAddPanel UCanvasPanel
+---@field EditableTextBox_Location UEditableTextBox
+---@field EntireMap_ExtendTools EntireMap_ExtendTools_UIBP_C
+---@field EntireMapImage UImage
+---@field EntrieMap_EportsUIBP EntrieMap_EportsUIBP_C
+---@field ExtendTools_Slot UCanvasPanel
+---@field HorizontalBox_PathBtn UHorizontalBox
+---@field Image_14 UImage
+---@field Image_AutoDrivePath UImage
+---@field Image_CarTips UImage
+---@field Image_Inner UImage
+---@field Image_Mask UImage
+---@field Map_SkydivingAreaItem_UIBP Map_SkydivingAreaItem_UIBP_C
+---@field MapCircleAndLineBlackboard MapCircleAndLineBlackboard_C
+---@field MapEventDetails_PanelSlot UCustomSocketPanel
+---@field MapEventInfo_PanelSolt UCustomSocketPanel
+---@field MapStaticUILogic MapStaticUILogic_C
+---@field MultiMarkText UTextBlock
+---@field ScaleBox_AutoDrivePath UScaleBox
+---@field Slider_MapZoom USlider
+---@field Soc_MarkSwitch UCustomSocketPanel
+---@field Sock_AirShip UCustomSocketPanel
+---@field Sock_AutoPilot UCustomSocketPanel
+---@field Sock_Godzilla UCustomSocketPanel
+---@field Socket_RoomCampBut UCustomSocketPanel
+---@field WereWolfTask_Slot UCanvasPanel
+---@field MapTopLeftOnScreen FVector2D
+---@field MapCenterOnScreen FVector2D
+---@field MouseClickedPosition FVector2D
+---@field MarkerClick ULuaMulticastDelegate
+---@field MiniMap NewMiniMap_C
+---@field LevelLandScapeExtent float
+---@field STEPlayerController ASTExtraPlayerController
+---@field STEGameStateBase ASTExtraGameStateBase
+---@field LastestAirAttackWave int32
+---@field MapInitSize FVector2D
+---@field MapCurSize FVector2D
+---@field MaxScaleValue float
+---@field CorrectLevelToMapScale float
+---@field LocalPlayerMarkerAlig FVector2D
+---@field bNeedDrawNaviGuideLine bool
+---@field STEPlayerState ASTExtraPlayerState
+---@field TeamMatePlayerStateList ULuaArrayHelper
+---@field LocalPlayerIndex int32
+---@field PlayerMarkerTextArray ULuaArrayHelper
+---@field PlayerTeamLocAndRotArray ULuaArrayHelper
+---@field PlayerMarkerGuideBtnGridArray ULuaArrayHelper
+---@field NameMaxLength int32
+---@field TeamPlayerWithoutLocalPlayer ULuaArrayHelper
+---@field GuideLineMaxLength float
+---@field BrushList ULuaArrayHelper
+---@field bShowMarkerLocation bool
+---@field TeammateIndex int32
+---@field AdaptationBottomOffset float
+---@field ZoomToFitBlueCircleVar float
+---@field bSelfCenterZoom bool
+---@field bCanZoonToFitBlueCircle bool
+---@field CurMapSize float
+---@field AirLineScale float
+---@field MaxAddScaleValue float
+---@field PlayerIconPool UUIDuplicatedItemPool
+---@field PlayerMarkPool UUIDuplicatedItemPool
+---@field PlayerMarkBPArray ULuaArrayHelper
+---@field OuterMapItem ULuaArrayHelper
+---@field UAVIconPool UUIDuplicatedItemPool
+---@field InnerCircleGameModeID ULuaArrayHelper
+---@field InnerCircle BP_FakeRadiation_C
+---@field MultiMarkMaxNum int32
+---@field bIsDrawMultiGuideLine bool
+---@field bSelfMultiMarksChanged bool
+---@field CacheStartPos FVector
+---@field CacheEndPos FVector
+---@field VertInstanceID int32
+---@field 3DPos FVector
+---@field IsFirstData bool
+---@field PaintContextTest FPaintContext
+---@field bDrawVertLine bool
+---@field CacheVertPoint3D FVector2D
+---@field CacheMarkPos FVector
+---@field isReConnect bool
+---@field HasMark bool
+---@field AuthShowVertFromCamp bool
+---@field AuthShowAirLineFromCamp bool
+---@field HasFinishJump bool
+---@field bAirPlaneDisappear bool
+---@field IgnoreSubModeIDForTask ULuaArrayHelper
+---@field bInitAirAttackIcon bool
+---@field BlackAirAttackArea FSlateBrush
+---@field TempMapPath FString
+---@field SetMarkerSwitch bool
+---@field ToHideWidgets ULuaArrayHelper
+---@field ToHideWidgetsOriVis ULuaArrayHelper
+---@field bSetCustomMarker bool
+---@field SetCustomMarker ULuaMulticastDelegate
+---@field AutoPilotVehicle ASTExtraVehicleBase
+---@field RouteList ULuaArrayHelper
+---@field ScaleFactor float
+---@field RouteStart int32
+---@field CanRefreshMapImageByModeID bool
+---@field AutoPilorColor FLinearColor
+---@field IsPlaneRouteShowing bool
+---@field LeaderChooseing int32
+---@field MapRealTimeInfoBP FMapRealTimeInfo
+---@field MapSizeDispatchers ULuaMulticastDelegate
+---@field MapAligDispatchers ULuaMulticastDelegate
+---@field MinScaleValue float
+---@field YAlignmengRange FVector2D
+---@field XAlignmengRange FVector2D
+---@field bAutoChangeAlignment bool
+---@field PlayerMarkSlotSize FVector2D

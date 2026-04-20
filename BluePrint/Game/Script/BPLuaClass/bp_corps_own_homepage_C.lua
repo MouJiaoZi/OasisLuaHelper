@@ -1,0 +1,26 @@
+---@class bp_corps_own_homepage_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_CorpsBindCorpsGroupFlag bool
+---@field BP_CorpsHomePage_CorpsWarSystemSwitch bool
+---@field BP_CorpsSelfRankByWeekActive int32
+---@field BP_CorpsSelfRankByWeekHonor int32
+---@field BP_CorpsInGroup bool
+---@field BP_CorpsJoinCorpsGroupFlag bool
+---@field BP_CorpsIsCommander bool
+---@field CorpsGroupShow bool
+---@field BP_CorpsHomepage_AnnouncementOpenFlag int32
+---@field BP_CorpsHomePage_WarOpenFlag int32
+---@field BP_CorpsHomePage_NeedRemindInvite bool
+---@field BP_CorpsHomePage_CorpsMatchRedPoint bool
+---@field BP_CorpsHomepage_CorpsWarOpenTimeText FString
+---@field BP_CorpsHomePageAnnouncement FString
+---@field BP_CorpsIsQQGuild bool
+---@field BP_CorpsHasGroup bool
+---@field BP_CorpsHomePage_SkipGroup bool
+---@field BP_CorpsIsSecCommander bool
+---@field BP_CorpsMemberNum int32
+---@field BP_CorpsHomePage_TrainRedPoint bool
+---@field BP_CorpsHomePageCorpsMoney int32
+---@field BP_CorpsHomepageShowAnimation bool
+---@field BP_CorpsHomePageIsWX bool

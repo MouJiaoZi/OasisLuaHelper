@@ -1,0 +1,3 @@
+---@class Village_Farmhouse_Destroyed_01_1S_2_House_C:BP_UGCMobileHouseBase_C
+---@field UserConstructionScript:fun()
+---@field StaticMesh UStaticMeshComponent

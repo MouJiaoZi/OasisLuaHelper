@@ -1,0 +1,1 @@
+---@class BP_BirthIslandEnvSound_C:ABirthIslandEnvSound

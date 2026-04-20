@@ -1,0 +1,6 @@
+---@class bp_corps_season_review_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_CorpsSeasonReview_CurrentSeason int32
+---@field BP_CorpsSeasonReview_LastSeason int32
+---@field BP_CorpsSeasonReview_AvatarIndex int32

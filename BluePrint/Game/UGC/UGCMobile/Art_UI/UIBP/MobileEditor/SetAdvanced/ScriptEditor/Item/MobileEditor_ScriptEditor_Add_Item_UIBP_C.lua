@@ -1,0 +1,18 @@
+---@class MobileEditor_ScriptEditor_Add_Item_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field CanvasPanel_Details UCanvasPanel
+---@field CanvasPanel_Submit UCanvasPanel
+---@field CanvasPanel_Task UCanvasPanel
+---@field Image_Select UImage
+---@field NewButton_Text UNewButton
+---@field NewButton_Tips UNewButton
+---@field NewButton_Title UNewButton
+---@field TextBlock_Receive UTextBlock
+---@field TextBlock_Submit UTextBlock
+---@field TextBlock_TaskName UTextBlock
+---@field TextBlock_Text1 UTextBlock
+---@field TextBlock_Title UTextBlock
+---@field TextBlock_Title1 UTextBlock
+---@field TextBlock_Title2 UTextBlock
+---@field UTRichTextBlock_BuffDetailsTips UUTRichTextBlock
+---@field WidgetSwitcher_Dialogue UWidgetSwitcher

@@ -1,0 +1,1 @@
+---@class BP_BattleRoyaleGameMode_Karakin_Creation_C:ABP_BattleRoyaleGameMode_Karakin_C

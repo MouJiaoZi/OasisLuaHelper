@@ -1,0 +1,3 @@
+---@class BP_NewFakePlayerAIC_GunMaster_C:ANewFakePlayerAIController
+---@field UserConstructionScript:fun()
+---@field AIBreakWindow UAIBreakWindowComponent

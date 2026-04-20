@@ -1,0 +1,1 @@
+---@class BP_PlayerState_Faction_C:ABP_PlayerState_C

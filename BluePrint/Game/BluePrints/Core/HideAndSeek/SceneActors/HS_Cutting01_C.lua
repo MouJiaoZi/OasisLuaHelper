@@ -1,0 +1,1 @@
+---@class HS_Cutting01_C:AHiderSceneActorBase_C

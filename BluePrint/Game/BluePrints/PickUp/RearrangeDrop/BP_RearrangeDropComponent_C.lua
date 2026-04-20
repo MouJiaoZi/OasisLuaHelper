@@ -1,0 +1,1 @@
+---@class BP_RearrangeDropComponent_C:URearrangeDropComponent

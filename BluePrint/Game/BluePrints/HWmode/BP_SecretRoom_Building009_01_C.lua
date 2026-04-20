@@ -1,0 +1,15 @@
+---@class BP_SecretRoom_Building009_01_C:ABP_SecretRoomBase_C
+---@field UserConstructionScript:fun()
+---@field StaticMesh5 UStaticMeshComponent
+---@field StaticMesh UStaticMeshComponent
+---@field SpotLocScene5 USpotLocSceneComponent
+---@field SpotLocScene4 USpotLocSceneComponent
+---@field SpotLocScene1 USpotLocSceneComponent
+---@field SpotLocScene USpotLocSceneComponent
+---@field SpotGroupLocScene USpotGroupLocSceneComponent
+---@field StaticMesh4 UStaticMeshComponent
+---@field StaticMesh3 UStaticMeshComponent
+---@field StaticMesh2 UStaticMeshComponent
+---@field StaticMesh1 UStaticMeshComponent
+---@field BP_SteelDoor UChildActorComponent
+---@field Scene USceneComponent

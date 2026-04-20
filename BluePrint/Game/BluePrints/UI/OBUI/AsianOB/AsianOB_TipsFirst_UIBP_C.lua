@@ -1,0 +1,7 @@
+---@class AsianOB_TipsFirst_UIBP_C:UUAEUserWidget
+---@field Construct:fun()
+---@field Button_Determine UNewButton
+---@field Image_Flag UImage
+---@field ScaleBox_IPX UScaleBox
+---@field TextBlock_CountryName UTextBlock
+---@field TextBlock_Ranking UTextBlock

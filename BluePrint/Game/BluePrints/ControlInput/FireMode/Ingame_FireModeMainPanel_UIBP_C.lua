@@ -1,0 +1,7 @@
+---@class Ingame_FireModeMainPanel_UIBP_C:UUAEUserWidget
+---@field UIMSG_HeavyWeaponBoxTip:fun(MsgId:int32)
+---@field ShowBoxTips_anima UWidgetAnimation
+---@field NewAnimation_1 UWidgetAnimation
+---@field ShowBoxTips_anima1 UWidgetAnimation
+---@field FireModeSuperBoxTips UUTRichTextBlock
+---@field Image_SuperBoxIcon UImage

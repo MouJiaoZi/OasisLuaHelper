@@ -1,0 +1,1 @@
+---@class ItemSpawn_Baltic_C:UBP_ItemGeneratorComponent_C

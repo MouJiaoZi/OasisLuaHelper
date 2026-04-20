@@ -1,0 +1,3 @@
+---@class AvatarPose_AnimBP_C:UAvatarPoseAnimInstance
+---@field BlueprintInitializeAnimation:fun()
+---@field CopyComponent USkeletalMeshComponent

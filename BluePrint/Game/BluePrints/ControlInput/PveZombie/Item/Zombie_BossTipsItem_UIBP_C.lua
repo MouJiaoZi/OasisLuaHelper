@@ -1,0 +1,5 @@
+---@class Zombie_BossTipsItem_UIBP_C:UMapUIMarkBaseWidget
+---@field UpdateUIBPState:fun(InState:FCustomMarkEventData)
+---@field Construct:fun()
+---@field Image_BossIcon UImage
+---@field Image_BossVfx UImage

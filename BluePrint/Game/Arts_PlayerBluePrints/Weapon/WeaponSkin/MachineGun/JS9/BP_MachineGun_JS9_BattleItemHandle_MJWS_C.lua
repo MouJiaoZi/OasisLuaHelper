@@ -1,0 +1,1 @@
+---@class BP_MachineGun_JS9_BattleItemHandle_MJWS_C:BP_MachineGun_JS9_BattleItemHandle_C

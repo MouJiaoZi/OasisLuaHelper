@@ -1,0 +1,9 @@
+---@class bp_setting_picture_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_ProfiledScreenSwitch bool
+---@field BP_IsProfiledScreenModified bool
+---@field BP_CurrentResID int32
+---@field BP_PictureResDownloadRate int32
+---@field ShoudShowSuperHighQualityRedPoint bool
+---@field BP_ResBtnStatus int32

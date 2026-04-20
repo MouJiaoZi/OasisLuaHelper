@@ -1,0 +1,5 @@
+---@class BP_TreasureBoxSpot_C:ABP_SpotActor_C
+---@field UserConstructionScript:fun()
+---@field Arrow UArrowComponent
+---@field BP_TreasureBoxSpotSceneComponent BP_TreasureBoxSpotSceneComponent_C
+---@field BP_TreasureBoxGroupSpotSceneComponent BP_TreasureBoxGroupSpotSceneComponent_C

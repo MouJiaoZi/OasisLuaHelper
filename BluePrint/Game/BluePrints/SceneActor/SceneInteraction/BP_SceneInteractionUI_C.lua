@@ -1,0 +1,4 @@
+---@class BP_SceneInteractionUI_C:USceneInteractionUI
+---@field SetShowText:fun(TitleID:int32,TextID:int32,ActiveIndex:int32,TexturePath:FSoftObjectPath)
+---@field Button_0 UButton
+---@field TextBlock_ShowText UTextBlock

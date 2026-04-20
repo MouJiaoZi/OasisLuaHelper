@@ -1,0 +1,5 @@
+---@class BP_BattleRoyaleHUD_C:ASurviveHUD
+---@field GetPlayerNameColorByTeamID:fun(TeamID:int32):FLinearColor
+---@field GetColorByTeamID:fun(TeamID:int32):FLinearColor
+---@field UserConstructionScript:fun()
+---@field DefaultSceneRoot USceneComponent

@@ -1,0 +1,11 @@
+---@class Leisure_ScreenText_PanelPop_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field OnTouchStarted:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field BGSelectedChanged__DelegateSignature:fun()
+---@field NewButton_Close UNewButton
+---@field NewButton_Confirm UNewButton
+---@field ReuseList2_BGs UGC_ReuseList2_C
+---@field UGCM_Common_PopupBG_UIBP UGCM_Common_PopupBG_UIBP_C
+---@field UGCM_Message_PopupsBG_UIBP UGCM_Message_PopupsBG_UIBP_C
+---@field WidgetSwitcher_BtnState UWidgetSwitcher
+---@field BGSelectedChanged ULuaMulticastDelegate

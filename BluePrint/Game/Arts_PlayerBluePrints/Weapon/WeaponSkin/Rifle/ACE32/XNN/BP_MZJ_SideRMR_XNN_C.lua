@@ -1,0 +1,1 @@
+---@class BP_MZJ_SideRMR_XNN_C:BP_MZJ_SideRMR_C

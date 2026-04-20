@@ -1,0 +1,5 @@
+---@class WeaponCompanionRule_16_C:UBP_WeaponCompanionRuleBase_C
+---@field OnInit:fun()
+---@field OnTringgerEvent:fun(eventType:EWeaponsCompanionVoiceEvent,eventParam:UObject)
+---@field NeedMarchDistance float
+---@field OriginMarchDistance float

@@ -1,0 +1,2 @@
+---@class BarrageRootUI_C:UUserWidget
+---@field TopHUDPanel_Root UTopHUDPanel

@@ -1,0 +1,2 @@
+---@class BP_AvatarFuncLib_C:UBlueprintFunctionLibrary
+---@field 打开Avatar的IK fun(Character:ASTExtraBaseCharacter,Enable:bool,IKParam:FAnimNotifyForceIKStateParam,__WorldContext:UObject)

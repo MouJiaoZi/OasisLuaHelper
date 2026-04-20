@@ -1,0 +1,17 @@
+---@class Build_Guide_UIBP_C:UUAEUserWidget
+---@field HideBuildModeTipsUI:fun()
+---@field ShowBuildModeTipsUI:fun()
+---@field ShowPage:fun()
+---@field ReceivedInitWidget:fun()
+---@field Construct:fun()
+---@field Button_close UButton
+---@field Button_left UButton
+---@field Button_right UButton
+---@field CanvasPanel_IPX UCanvasPanel
+---@field CheckBox_0 UCheckBox
+---@field WidgetSwitcher_page UWidgetSwitcher
+---@field WidgetSwitcher_progress UWidgetSwitcher
+---@field WidgetSwitcher_title UWidgetSwitcher
+---@field PageNum int32
+---@field IsShow bool
+---@field HasShowAlready bool

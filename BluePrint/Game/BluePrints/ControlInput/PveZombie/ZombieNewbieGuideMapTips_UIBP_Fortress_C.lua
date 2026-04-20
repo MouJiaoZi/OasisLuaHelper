@@ -1,0 +1,1 @@
+---@class ZombieNewbieGuideMapTips_UIBP_Fortress_C:UUAEUserWidget

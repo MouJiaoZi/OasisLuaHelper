@@ -1,0 +1,15 @@
+---@class BP_GlobalMonsterListDefine_C:BP_UGCMobileBaseActor_C
+---@field GetLuaModule:fun():FString
+---@field LuaMonsterPreviewChange:fun()
+---@field GetMonsterColorIconList:fun(ClassId:int32):ULuaArrayHelper
+---@field GetMonsterColorIcon:fun(ClassId:int32,Idx:int32):Struct_UGCM_ColorIcon
+---@field GetMonsterClassPathByID:fun(ClassId:int32):FString
+---@field RemoveMonsterByID:fun(NewParam:int32)
+---@field UserConstructionScript:fun()
+---@field DefinedMonsterList ULuaMapHelper
+---@field UniqueCustomMonsterID int32
+---@field AvailableMonsterIconList ULuaArrayHelper
+---@field CustomMonsterList ULuaMapHelper
+---@field ExtraMonsterInfoList ULuaMapHelper
+---@field MonsterClassPathList ULuaArrayHelper
+---@field TempMonsterPrefab Struct_UGCM_MonsterInfo

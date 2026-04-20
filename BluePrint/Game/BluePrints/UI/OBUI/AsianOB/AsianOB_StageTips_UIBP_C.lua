@@ -1,0 +1,14 @@
+---@class AsianOB_StageTips_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field HideText:fun()
+---@field Canvas_HitTips UCanvasPanel
+---@field Image_Icon UImage
+---@field Switcher_StageBg UWidgetSwitcher
+---@field TextBlock_Desc1 UTextBlock
+---@field TextBlock_Desc2 UTextBlock
+---@field TextBlock_HitTips UTextBlock
+---@field TextBlock_HitTipsNum UTextBlock
+---@field TextBlock_MaxValue UTextBlock
+---@field TextBlock_Name UTextBlock
+---@field TextBlock_Num UTextBlock
+---@field TextBlock_Stage UTextBlock

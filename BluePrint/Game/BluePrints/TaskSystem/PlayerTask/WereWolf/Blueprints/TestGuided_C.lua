@@ -1,0 +1,7 @@
+---@class TestGuided_C:UObjectPositionWidget
+---@field Event_InitParamEnd:fun()
+---@field Event_InitParam:fun(InParam:FWidgetParamInfo,InDestinPos:FVector,InTargetActor:AActor)
+---@field CanvasPanel_3 UCanvasPanel
+---@field CanvasPanel_Arrow UCanvasPanel
+---@field CanvasPanel_Normal UCanvasPanel
+---@field TextBlock_Sidedistance UTextBlock

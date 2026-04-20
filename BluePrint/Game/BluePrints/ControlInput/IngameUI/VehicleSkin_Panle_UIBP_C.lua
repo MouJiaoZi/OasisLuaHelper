@@ -1,0 +1,8 @@
+---@class VehicleSkin_Panle_UIBP_C:UUAEUserWidget
+---@field OnSkinItemUpdate:fun(ItemWidget:UUserWidget,ItemIndex:int32)
+---@field RefreshVehicleSkinList:fun(InTargetVehicle:ASTExtraVehicleBase)
+---@field Construct:fun()
+---@field CanvasPanel_SwichVehicleSkin UCanvasPanel
+---@field Image_2 UImage
+---@field ReuseList2 ReuseList2_C
+---@field DisplayVehicleAvatarID int32

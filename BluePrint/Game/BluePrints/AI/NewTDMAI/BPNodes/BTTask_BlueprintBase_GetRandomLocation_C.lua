@@ -1,0 +1,5 @@
+---@class BTTask_BlueprintBase_GetRandomLocation_C:UBTTask_BlueprintBase
+---@field Radius float
+---@field OriginLocation FBlackboardKeySelector
+---@field TargetRandomLocation FBlackboardKeySelector
+---@field NewVar_0 FBlackboardKeySelector

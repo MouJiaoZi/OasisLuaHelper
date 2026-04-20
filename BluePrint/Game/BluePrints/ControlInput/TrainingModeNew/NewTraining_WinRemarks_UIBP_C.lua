@@ -1,0 +1,6 @@
+---@class NewTraining_WinRemarks_UIBP_C:UUAEUserWidget
+---@field Button_Close UButton
+---@field Button_determine UNewButton
+---@field MultiLineEditableText_Content UMultiLineEditableTextBox
+---@field ReuseList2_label ReuseList2_C
+---@field TextBlock_labelNum UTextBlock

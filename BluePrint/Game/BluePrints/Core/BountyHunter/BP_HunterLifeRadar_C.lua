@@ -1,0 +1,16 @@
+---@class BP_HunterLifeRadar_C:AActor
+---@field GetLuaModule:fun():FString
+---@field UserConstructionScript:fun()
+---@field FrontScene USceneComponent
+---@field StaticMesh UStaticMeshComponent
+---@field DefaultSceneRoot USceneComponent
+---@field TaskID int32
+---@field OperateDisMin float
+---@field UseOpreateDegree bool
+---@field OpreateDegreeMin float
+---@field OpreateDegreeMax float
+---@field OpreateAnim FString
+---@field MoveLockTime float
+---@field UseOpreateHeight bool
+---@field OpreateHeightMin float
+---@field OpreateHeightMax float

@@ -1,0 +1,7 @@
+---@class Camp_EnterList_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field CanvasPanel_4 UCanvasPanel
+---@field Image_Bg UImage
+---@field NewButton_Click UNewButton
+---@field TextBlock_Camp UTextBlock
+---@field TextBlock_Remain UTextBlock

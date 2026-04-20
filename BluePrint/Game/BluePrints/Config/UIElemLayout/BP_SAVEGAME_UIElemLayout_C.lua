@@ -1,0 +1,18 @@
+---@class BP_SAVEGAME_UIElemLayout_C:USaveGame
+---@field LayoutDetailDict1 ULuaMapHelper
+---@field LayoutDetailDict2 ULuaMapHelper
+---@field LayoutDetailDict3 ULuaMapHelper
+---@field IsDataValid1 bool
+---@field IsDataValid2 bool
+---@field IsDataValid3 bool
+---@field RushTriggerLength1 float
+---@field RushTriggerLength2 float
+---@field RushTriggerLength3 float
+---@field SaveSlotName FString
+---@field LayoutName1 FString
+---@field LayoutName2 FString
+---@field LayoutName3 FString
+---@field TimeTag int32
+---@field InvalidArray1 ULuaArrayHelper
+---@field InvalidArray2 ULuaArrayHelper
+---@field InvalidArray3 ULuaArrayHelper

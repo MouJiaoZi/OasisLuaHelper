@@ -1,0 +1,2 @@
+---@class ColdSkillBtnInterface_C:UInterface
+---@field CheckColdSkillBtn:fun():bool

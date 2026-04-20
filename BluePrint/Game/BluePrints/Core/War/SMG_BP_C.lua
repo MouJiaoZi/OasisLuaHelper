@@ -1,0 +1,1 @@
+---@class SMG_BP_C:URespawnItemConfig

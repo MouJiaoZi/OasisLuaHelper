@@ -1,0 +1,9 @@
+---@class Skill_Gift_StartReceive_C:AUAESkill
+---@field UserConstructionScript:fun()
+---@field UAESkillAction_SwitchWeapon1 UUAESkillAction_SwitchWeapon
+---@field UAESkillAction_SwitchWeapon UUAESkillAction_SwitchWeapon
+---@field UAESkillAction_DisablePickup UUAESkillAction_DisablePickup
+---@field UAESkillAction_AttachActor UUAESkillAction_AttachActor
+---@field UAESkillPhase1 UUAESkillPhase
+---@field UAESkillPhase UUAESkillPhase
+---@field DefaultSceneRoot USceneComponent

@@ -1,0 +1,31 @@
+---@class AnchorFlag_BP_C:UAnchorFlagShouldShow
+---@field ActiveByPS:fun(PS:AUAEPlayerState):bool
+---@field ActiveByPawn:fun(BC:ASTExtraBaseCharacter):bool
+---@field CheckShowMedal:fun(MedalID:FString,MedalLevel:int32)
+---@field CreateCardBuyIcon:fun(icon:UObject,resID:int32)
+---@field SetPassCardBuyType:fun(name:FString,buyType:int32,buyLevel:int32,showEnjoyCord:bool)
+---@field SetCorpName:fun(corpName:FString)
+---@field CreateIcon:fun(icon:UObject,resID:int32)
+---@field SetPlatIconAndName:fun(platID:int32,colorID:int32,name:FString)
+---@field ShowTrumpMark:fun()
+---@field ShowTrumpMarkAnim:fun()
+---@field ShowCorp:fun(_BaseCharacter:ASTExtraBaseCharacter)
+---@field ReceivedInitWidget:fun()
+---@field CanvasPanel_CorpsInfo UCanvasPanel
+---@field CanvasPanel_PassInfo UCanvasPanel
+---@field CanvasPanel_RobotIcon_Slot UCanvasPanel
+---@field CanvasPanel_State UCanvasPanel
+---@field CanvasPanel_TopKingMarkSlot UCanvasPanel
+---@field CustomSocketPanel_ClubSlot UCustomSocketPanel
+---@field GridPanel_Name UGridPanel
+---@field Image_BG UImage
+---@field Image_blank_HideOrCollapsed UImage
+---@field Image_PassIcon UImage
+---@field Image_PlatformIcon UImage
+---@field KingMarkSocket UCustomSocketPanel
+---@field TextBlock_CorpsName UTextBlock
+---@field TextBlock_PassLevel UTextBlock
+---@field TextBlock_Teammate_Name UUTRichTextBlock
+---@field AnchorName FString
+---@field nameYellow bool
+---@field PlayerState ASTExtraPlayerState

@@ -1,0 +1,4 @@
+---@class BP_Pistol_DesertEagle_BF_C:BP_ShootPistol_Base_C
+---@field UserConstructionScript:fun()
+---@field WeaponAnimList_Pistol_DesertEagle WeaponAnimList_Pistol_DesertEagle_C
+---@field bUseIdleAnim_0_0_0 bool

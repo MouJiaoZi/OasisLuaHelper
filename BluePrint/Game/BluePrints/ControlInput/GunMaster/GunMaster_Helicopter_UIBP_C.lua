@@ -1,0 +1,32 @@
+---@class GunMaster_Helicopter_UIBP_C:UUAEUserWidget
+---@field OnHelicopterSeatStateChange:fun(SeatsStateStr:FString)
+---@field ShowMysteriosEscapeTaxi_WaitDriver:fun()
+---@field HideMysteriosEscapeTaxi:fun()
+---@field HideEscapeUI:fun()
+---@field HideMysteriosEscapeTaxi_Escape:fun()
+---@field HideMysteriosEscapeTaxi_Pay:fun()
+---@field ShowMysteriosEscapeTaxi_Escape:fun()
+---@field ShowMysteriosEscapeTaxi_Pay:fun(PayCashCount:FString)
+---@field HideGunMasterBoardingUI:fun()
+---@field ShowGunMasterBoardingUI:fun()
+---@field ReceivedInitWidget:fun()
+---@field CanvasPanel_0 UCanvasPanel
+---@field CanvasPanel_6 UCanvasPanel
+---@field CanvasPanel_7 UCanvasPanel
+---@field DriverSleepingPanel UCanvasPanel
+---@field EscapeHelicopterPanel UCanvasPanel
+---@field Image_Car UImage
+---@field Image_Icon UImage
+---@field MysteriosEscapeTaxiPanel UCanvasPanel
+---@field NewButton_0 UNewButton
+---@field NewButton_Close UNewButton
+---@field NewButton_Close02 UNewButton
+---@field NewButton_OK UNewButton
+---@field NewButton_PayAsk UNewButton
+---@field NewButton_SleepingAsk UNewButton
+---@field PayEscapePanel UCanvasPanel
+---@field Taxi_Escape UNewButton
+---@field Taxi_Pay UNewButton
+---@field TextBlock_Money UTextBlock
+---@field TextBlock_Text UTextBlock
+---@field ZD_CarlaGold_Plane_Seats_Tips_UIBP ZD_CarlaGold_Plane_Seats_Tips_UIBP_C

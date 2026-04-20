@@ -1,0 +1,12 @@
+---@class RaceRrack_Ranking_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field Button_Close UNewButton
+---@field Button_Friends UNewButton
+---@field Button_local UNewButton
+---@field CanvasPanel_Tips UCanvasPanel
+---@field RaceRrack_ListSelf RaceRrack_RankingList_UIBP_C
+---@field ReuseList2 ReuseList2_C
+---@field TextBlock_1 UTextBlock
+---@field TextBlock_10 UTextBlock
+---@field WidgetSwitcher_Entertainment UWidgetSwitcher
+---@field WidgetSwitcher_range UWidgetSwitcher

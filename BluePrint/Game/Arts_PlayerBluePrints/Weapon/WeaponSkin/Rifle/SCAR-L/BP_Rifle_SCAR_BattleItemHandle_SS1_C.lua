@@ -1,0 +1,1 @@
+---@class BP_Rifle_SCAR_BattleItemHandle_SS1_C:BP_Rifle_SCAR_BattleItemHandle_C

@@ -1,0 +1,1 @@
+---@class AR_BPforCE_C:URespawnItemConfig

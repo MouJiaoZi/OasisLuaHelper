@@ -1,0 +1,1 @@
+---@class BP_Mag_JS9_MJWS_C:BP_Mag_JS9_C

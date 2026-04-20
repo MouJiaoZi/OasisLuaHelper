@@ -1,0 +1,30 @@
+---@class MiniMapPlayerIconItem_C:UUserWidget
+---@field BindPlayerStateDelagate:fun(PlayerState:ASTExtraPlayerState):bool
+---@field SwitchVisibility:fun(IsShow:bool):bool
+---@field SetSelfStyle:fun(IsSelf:bool):bool
+---@field GetRotationDisplayWidget:fun():UWidget
+---@field SetTeammateInfo:fun(TeammateIndex:int32,TeammateColor:FLinearColor):bool
+---@field UseSingleStyle:fun():bool
+---@field OnLoadDone:fun(NewParam:UObject,NewParam1:int32)
+---@field ShowDamageEffect:fun(PUID:FString)
+---@field BindDelegate:fun(index:int32,PS:ASTExtraPlayerState)
+---@field AddTeamIndicatorArrowOffset:fun(Degree:int32)
+---@field LoadTeamIndexIcon:fun(NewParam:int32)
+---@field DX_Injure UWidgetAnimation
+---@field CanvasPanel_SelfArrow UCanvasPanel
+---@field CanvasPanel_SelfPosition UCanvasPanel
+---@field CanvasPanel_Single UCanvasPanel
+---@field CanvasPanel_Team UCanvasPanel
+---@field Image_NumIndex UImage
+---@field Image_SelfArrow UImage
+---@field Image_SelfBG UImage
+---@field Image_SelfDead UImage
+---@field Image_SelfNumIcon UImage
+---@field Image_TeamArrow UImage
+---@field OutRangeIndicator UCanvasPanel
+---@field SelfPosiionIcon UImage
+---@field CurIndexIconPath FString
+---@field CirclePlayerIcon FSlateBrush
+---@field SquarePlayerIcon FSlateBrush
+---@field IsLocalPlayer bool
+---@field LoadIndex int32

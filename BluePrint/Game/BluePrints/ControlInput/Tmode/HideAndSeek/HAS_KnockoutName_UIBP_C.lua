@@ -1,0 +1,4 @@
+---@class HAS_KnockoutName_UIBP_C:UUAEUserWidget
+---@field SetHiderName:fun(PlayerName:FName)
+---@field SetSeekerName:fun(PlayerName:FName)
+---@field TextBlock_Name UTextBlock

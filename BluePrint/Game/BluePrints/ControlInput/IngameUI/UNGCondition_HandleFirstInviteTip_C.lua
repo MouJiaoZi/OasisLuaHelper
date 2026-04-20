@@ -1,0 +1,3 @@
+---@class UNGCondition_HandleFirstInviteTip_C:UNewbieGuideWidget
+---@field CanvasPanel_ChatTIPSGuide UCanvasPanel
+---@field TextBlock_ChatTIPS UTextBlock

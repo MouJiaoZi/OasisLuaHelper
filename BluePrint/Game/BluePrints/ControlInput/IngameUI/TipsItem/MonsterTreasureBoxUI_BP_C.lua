@@ -1,0 +1,21 @@
+---@class MonsterTreasureBoxUI_BP_C:UUAEUserWidget
+---@field Remove2dWerewolfHud:fun()
+---@field Update2dItemInfo:fun()
+---@field Create2dBoxUIItem:fun()
+---@field Update3dItemInfo:fun()
+---@field Create3dBoxUIItem:fun()
+---@field SetUIItemPos:fun(panelSlot:UCanvasPanelSlot,treasureBox:AMonsterTreasureBox)
+---@field OnLeaveMonsterBox:fun()
+---@field OnTriggerMonsterBox:fun()
+---@field UIHide:fun()
+---@field InitBoxControlUI:fun()
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field btn_startRunning UButton
+---@field ItemParentNode UCanvasPanel
+---@field NodeBtnStart UOverlay
+---@field 2dBoxUIItemArray ULuaArrayHelper
+---@field isRunningBtnShow bool
+---@field RunningMonsterBoxes ULuaArrayHelper
+---@field 3dBoxUIItemArray ULuaArrayHelper
+---@field hideDis float
+---@field WerewolfBoxHud Ingame_MainControlBaseLive_box_UIBP_C

@@ -1,0 +1,3 @@
+---@class PMode_EnemyItem_UIBP_C:UVisualFieldItem
+---@field SetItemData:fun(ItemMetaInfo:FVisualFieldMetaInfo,ViewerLayerID:int32)
+---@field Image_EnemyIcon UImage

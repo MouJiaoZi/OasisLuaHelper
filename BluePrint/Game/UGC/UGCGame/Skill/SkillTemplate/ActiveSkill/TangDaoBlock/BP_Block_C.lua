@@ -1,0 +1,9 @@
+---@class BP_Block_C:AActor
+---@field GetLuaModule:fun():FString
+---@field UserConstructionScript:fun()
+---@field ST_CH_Hypaspist_weapon UStaticMeshComponent
+---@field Box UBoxComponent
+---@field ProjectileBaseClass UClass
+---@field WallDurability int32
+---@field NewVar_0 int32
+---@field UniversalProjectileBaseClass2 BP_PEProjectile_RPG7_super_C

@@ -1,0 +1,6 @@
+---@class BP_VideoAdvertisementActor_C:AUAENetActor
+---@field UserConstructionScript:fun()
+---@field BP_VideoPlayer BP_VideoPlayer_C
+---@field Box UBoxComponent
+---@field Plane UStaticMeshComponent
+---@field DefaultSceneRoot USceneComponent

@@ -1,0 +1,8 @@
+---@class BombItem_C:AActor
+---@field GetLuaModule:fun():FString
+---@field UserConstructionScript:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field TriggerBox_Remove UBoxComponent
+---@field TriggerBox_Pickup UBoxComponent
+---@field StaticMesh UStaticMeshComponent
+---@field DefaultSceneRoot USceneComponent

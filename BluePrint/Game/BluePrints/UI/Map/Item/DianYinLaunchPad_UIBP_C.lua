@@ -1,0 +1,1 @@
+---@class DianYinLaunchPad_UIBP_C:UMapUIMarkBaseWidget

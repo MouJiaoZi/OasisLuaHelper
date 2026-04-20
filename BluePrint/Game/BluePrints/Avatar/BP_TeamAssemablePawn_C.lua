@@ -1,0 +1,4 @@
+---@class BP_TeamAssemablePawn_C:ABP_IngameDisplayPawn_C
+---@field UserConstructionScript:fun()
+---@field curEquipingWeapon_0 ASTExtraWeapon
+---@field curWeaponResId_0 int32

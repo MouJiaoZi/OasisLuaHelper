@@ -1,0 +1,1 @@
+---@class BattleItemHandle_CJSPASS_BP_Shoes_403_C:BattleItemHandle_AvatarBP_C

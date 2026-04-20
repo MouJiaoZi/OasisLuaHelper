@@ -1,0 +1,1 @@
+---@class BP_Other_MG36_BattleItemHandle_MJWS_C:BP_Other_MG36_BattleItemHandle_C

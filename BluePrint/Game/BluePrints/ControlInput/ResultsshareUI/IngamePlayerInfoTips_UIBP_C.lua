@@ -1,0 +1,10 @@
+---@class IngamePlayerInfoTips_UIBP_C:UUserWidget
+---@field SetEquipQuality:fun(InQuality:int32)
+---@field ShowPlayerItemInfoTips:fun()
+---@field HidePlayerItemInfoTips:fun()
+---@field RefreshItemInfoTips:fun(ItemID:int32,ItemName:FString,ItemDescription:FString,ItemImageIcon:FSlateBrush,ItemQuality:int32)
+---@field Image_color UImage
+---@field Image_icon UImage
+---@field ItemName1 UMultiLineEditableText
+---@field UTRichTextBlock_3 UUTRichTextBlock
+---@field CurrentItemID int32

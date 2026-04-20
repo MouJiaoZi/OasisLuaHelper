@@ -1,0 +1,1 @@
+---@class BP_Other_Shield_BattleItemHandle_ZHJ_Lobby_C:UBackpackWeaponHandle

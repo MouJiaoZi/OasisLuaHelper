@@ -1,0 +1,7 @@
+---@class Skill_Cheers_StartReceive_C:AUAESkill
+---@field UserConstructionScript:fun()
+---@field UAESkillAction_SwitchWeapon UUAESkillAction_SwitchWeapon
+---@field UAESkillAction_DisablePickup UUAESkillAction_DisablePickup
+---@field UAESkillPhase1 UUAESkillPhase
+---@field UAESkillPhase UUAESkillPhase
+---@field DefaultSceneRoot USceneComponent

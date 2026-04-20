@@ -1,0 +1,2 @@
+---@class BP_HoloEmotion_C:ASTBuildingActorBase
+---@field UserConstructionScript:fun()

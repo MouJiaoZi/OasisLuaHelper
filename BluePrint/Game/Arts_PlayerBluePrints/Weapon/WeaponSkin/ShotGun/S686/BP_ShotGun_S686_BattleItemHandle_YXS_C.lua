@@ -1,0 +1,1 @@
+---@class BP_ShotGun_S686_BattleItemHandle_YXS_C:BP_ShotGun_S686_BattleItemHandle_C

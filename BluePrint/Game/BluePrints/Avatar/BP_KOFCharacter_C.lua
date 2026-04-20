@@ -1,0 +1,15 @@
+---@class BP_KOFCharacter_C:ACharacter
+---@field PlayNormalAnimation:fun()
+---@field TakeOtherDamage:fun()
+---@field InitAvatar:fun()
+---@field UserConstructionScript:fun()
+---@field Capsule UCapsuleComponent
+---@field CharacterAvatarComp_BP CharacterAvatarComp_BP_C
+---@field DefaultAvatarList ULuaArrayHelper
+---@field Gender EGender
+---@field HeadAvatarID int32
+---@field HairAvatarID int32
+---@field NormalAnimation FSoftObjectPath
+---@field HurtAnimation FSoftObjectPath
+---@field TimerHandle FTimerHandle
+---@field LoadQL int32

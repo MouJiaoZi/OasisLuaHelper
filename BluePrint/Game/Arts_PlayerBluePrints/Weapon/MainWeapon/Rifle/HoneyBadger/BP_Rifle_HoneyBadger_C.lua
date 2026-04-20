@@ -1,0 +1,9 @@
+---@class BP_Rifle_HoneyBadger_C:BP_ShootWeaponBase_C
+---@field ChangeSequenceState:fun(StateType:EFreshWeaponStateType):bool
+---@field UserConstructionScript:fun()
+---@field BP_Rifle_HoneyBadgerPreIdleState BP_Rifle_HoneyBadgerPreIdleState_C
+---@field WeaponAnimList_Rifle_HoneyBadger WeaponAnimList_Rifle_HoneyBadger_C
+---@field bUseIdleAnim_0_0 bool
+---@field OffsetRotation FRotator
+---@field OffsetLocation FVector
+---@field CannotPawnStates ULuaArrayHelper

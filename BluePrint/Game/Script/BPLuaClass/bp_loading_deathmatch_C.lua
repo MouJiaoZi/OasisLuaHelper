@@ -1,0 +1,15 @@
+---@class bp_loading_deathmatch_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_Loading_TipsEndIndex int32
+---@field BP_ARRAY_myTeam_HeadUrlInfo ULuaArrayHelper
+---@field BP_InitPercent int32
+---@field BP_Percent_f float
+---@field BP_myUID FString
+---@field BP_DeathMatch_GameAccelerator_Status int32
+---@field BP_TDMLoading_TipIndex int32
+---@field BP_TDMLoading_DefaultIndex int32
+---@field BP_TDMLoadingUI_Index int32
+---@field BP_LoadingModeIndex int32
+---@field BP_isNeedSwapPosition bool
+---@field BP_ARRAY_oppoTeam_HeadUrlInfo ULuaArrayHelper

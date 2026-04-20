@@ -1,0 +1,12 @@
+---@class BP_SubmitMachine_C:ABP_WarteringAreaBase_C
+---@field SubmitFail:fun()
+---@field IsInExchangeList:fun(NewParam:int32):bool
+---@field GetValidExchangeList:fun(NewParam:UBackpackComponent):ULuaArrayHelper
+---@field DoSubmit:fun(NewParam:ASTExtraPlayerController)
+---@field UserConstructionScript:fun()
+---@field ServerDoWaterLogic:fun(PlayerController:APlayerController,ExMsg:FString)
+---@field Plane UStaticMeshComponent
+---@field ParticleSystem UParticleSystemComponent
+---@field ExchangeConfigGroupList ULuaArrayHelper
+---@field AKEvent UAkAudioEvent
+---@field SubFailTips int32

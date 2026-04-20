@@ -1,0 +1,1 @@
+---@class QuickExpressionNewUIBP_C:UUserWidget

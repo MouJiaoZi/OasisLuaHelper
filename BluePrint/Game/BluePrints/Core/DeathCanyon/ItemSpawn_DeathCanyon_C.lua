@@ -1,0 +1,1 @@
+---@class ItemSpawn_DeathCanyon_C:UBP_ItemGeneratorComponent_C

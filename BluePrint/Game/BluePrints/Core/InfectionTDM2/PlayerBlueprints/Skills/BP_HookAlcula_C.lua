@@ -1,0 +1,53 @@
+---@class BP_HookAlcula_C:AActor
+---@field UpdateAlculaMeshRot:fun(IsForward:bool)
+---@field TickLaunchSafeTime:fun(DeltaTime:float)
+---@field CheckCaptureDistanceSafe:fun()
+---@field ClientUnHideBone:fun()
+---@field ClientHideBone:fun()
+---@field StopSplineJitter:fun()
+---@field UpdateSplineJitter:fun(DeltaTime:float)
+---@field SplineInitialize:fun()
+---@field UpdateMoveReturn:fun()
+---@field UpdateMoveForward:fun()
+---@field HandleReturnEnd:fun()
+---@field RemoveBuffFromCaptureTarget:fun(CaptureTarget:ASTExtraBaseCharacter)
+---@field AddBuffToCaptureTarget:fun(CaptureTarget:ASTExtraBaseCharacter)
+---@field CaptureTarget:fun(CaptureActor:AActor)
+---@field ReleaseCaptureActor:fun()
+---@field HandleCollisionActor:fun()
+---@field TriggerSkillStrEvent:fun(EventString:FString)
+---@field SwtichToState:fun(NewState:EHookState)
+---@field OnSwitchState:fun()
+---@field BeginLaunch:fun(FlyForward:FVector)
+---@field UpdateMove:fun()
+---@field OnAnyDamage:fun(DamagedActor:AActor,Damage:float,DamageType:UDamageType,InstigatedBy:AController,DamageCauser:AActor)
+---@field InitDamageEvent:fun()
+---@field UserConstructionScript:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field ReceiveDestroyed:fun()
+---@field Mesh USkeletalMeshComponent
+---@field SplineGenerator USplineGeneratorComponent
+---@field Movement UProjectileMovementComponent
+---@field CaptureRoot UCapsuleComponent
+---@field RootCollision UCapsuleComponent
+---@field HookState EHookState
+---@field CurHealth float
+---@field MaxHealth float
+---@field CaptureActor AActor
+---@field SkillClassName FString
+---@field CaptureEnchainBuffName FName
+---@field MaxLimitDistance float
+---@field TolerateMaxDistance float
+---@field ForwardSpeed float
+---@field ReturnSpeed float
+---@field ReturnMinDistance float
+---@field SpineSocketName FName
+---@field StartLocationOffset FVector
+---@field LengthPerPiece float
+---@field FinishedTime float
+---@field CacheCaptureActorGravityScale float
+---@field BoneName FName
+---@field DebugCapture bool
+---@field MaxCaptureDistance float
+---@field MaxLaunchSafeTime float
+---@field CurLaunchSafeTime float

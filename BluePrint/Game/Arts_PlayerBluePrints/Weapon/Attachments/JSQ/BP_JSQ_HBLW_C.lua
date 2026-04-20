@@ -1,0 +1,1 @@
+---@class BP_JSQ_HBLW_C:BattleItemHandle_WeapAttachment_C

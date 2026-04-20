@@ -1,0 +1,10 @@
+---@class SoundTest_RTPCButtonItem_C:UUserWidget
+---@field Construct:fun()
+---@field CkeckSoundVisiable__DelegateSignature:fun()
+---@field ActorName UTextBlock
+---@field ButtonBase UButton
+---@field CkeckSoundVisiable ULuaMulticastDelegate
+---@field Parent GM_SoundTest_C
+---@field NameName FString
+---@field RTPCValue float
+---@field SwitchValue bool

@@ -1,0 +1,4 @@
+---@class AdditionResultLike_Interface_C:UInterface
+---@field ResetLikeBtnState:fun(LuaObj:ALuaClassObj):bool
+---@field InitLikeInfo:fun(LuaObj:ALuaClassObj):bool
+---@field RefreshLikeInfo:fun(LuaObj:ALuaClassObj):bool

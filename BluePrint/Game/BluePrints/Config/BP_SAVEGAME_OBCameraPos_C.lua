@@ -1,0 +1,3 @@
+---@class BP_SAVEGAME_OBCameraPos_C:USaveGame
+---@field CameraPos ULuaArrayHelper
+---@field CameraAngle ULuaArrayHelper

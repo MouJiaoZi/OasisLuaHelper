@@ -1,0 +1,1 @@
+---@class BP_BattleRoyaleGameState_PUBG_Mutation_C:ASurviveGameState_C

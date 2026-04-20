@@ -1,0 +1,1 @@
+---@class VehicleSpawn_Karakin_C:UVehicleSpawn_C

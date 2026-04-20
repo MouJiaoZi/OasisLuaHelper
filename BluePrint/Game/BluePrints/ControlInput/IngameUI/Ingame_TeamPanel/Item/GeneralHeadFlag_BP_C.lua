@@ -1,0 +1,5 @@
+---@class GeneralHeadFlag_BP_C:UGeneralHeadFlag
+---@field Construct:fun()
+---@field ActivateFlag:fun(headFlagType:FString)
+---@field CanvasPanel_LivePanel UCanvasPanel
+---@field LivePeopleSocket UCustomSocketPanel

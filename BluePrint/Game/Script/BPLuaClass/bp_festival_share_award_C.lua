@@ -1,0 +1,9 @@
+---@class bp_festival_share_award_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_FestivalShare_ActiveTime FString
+---@field BP_FestivalShare_CurNum int32
+---@field BP_FestivalShare_GetAwardIndex int32
+---@field BP_FestivalShare_IsTodayDone bool
+---@field BP_FestivalShare_BgImage FString
+---@field BP_ARRAY_FestivalShareActInfoList ULuaArrayHelper

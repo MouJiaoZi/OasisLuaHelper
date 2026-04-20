@@ -1,0 +1,1 @@
+---@class BP_QK_Mid_FlashHider_HBLW_C:BattleItemHandle_WeapAttachment_C

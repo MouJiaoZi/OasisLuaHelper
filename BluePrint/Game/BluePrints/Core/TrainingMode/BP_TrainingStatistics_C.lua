@@ -1,0 +1,2 @@
+---@class BP_TrainingStatistics_C:UActorComponent
+---@field GetLuaModule:fun():FString

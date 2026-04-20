@@ -1,0 +1,1 @@
+---@class BP_QT_A_SHMAN_C:BP_QT_A_C

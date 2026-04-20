@@ -1,0 +1,6 @@
+---@class BP_BattleRoyaleGameModeTeamPUBG_Double_C:ABP_BattleRoyaleGameModeTeamPUBG_C
+---@field UserConstructionScript:fun()
+---@field BP_AIWorldSoundManager BP_AIWorldSoundManager_C
+---@field AIGroupManager UAIGroupManagerComponent
+---@field AnimalTeleport UAnimalTeleportComponent
+---@field SpawnMonsterHelperComp USpawnMonsterHelperComp

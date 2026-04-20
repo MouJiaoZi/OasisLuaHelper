@@ -1,0 +1,3 @@
+---@class FirstTime_TaskTips_UIBP_C:UUserWidget
+---@field Button_close UButton
+---@field Common_UIPopupBG Common_UIPopupBG_C

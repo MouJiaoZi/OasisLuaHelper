@@ -1,0 +1,6 @@
+---@class BP_ParachuteFireworksArea_2_C:AFireworksAreaActor
+---@field UserConstructionScript:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field FireWorks2 UBoxComponent
+---@field FireWorks UBoxComponent
+---@field DefaultSceneRoot USceneComponent

@@ -1,0 +1,42 @@
+---@class BattleUIVideo_UIBP_C:UUAEUserWidget
+---@field ShowSkipButton:fun()
+---@field DelayCallPlayEvent:fun()
+---@field DelayCallLoadCallback:fun()
+---@field LoadVideoHidePanel:fun(InPath:FString,InHide:bool,CheckID:int32)
+---@field OnMediaPlay:fun()
+---@field CanPlayVideo:fun():bool
+---@field StopVideo:fun()
+---@field LoadVideo:fun(InPath:FString,Source:UFileMediaSource,CheckId:int32)
+---@field OnEndReached:fun()
+---@field OnMediaHasLoaded:fun(OpenedUrl:FString)
+---@field PlayVideo:fun()
+---@field ReceivedInitWidget:fun()
+---@field Destruct:fun()
+---@field PreConstruct:fun(IsDesignTime:bool)
+---@field EventOnStartPlaySuccess__DelegateSignature:fun()
+---@field EventOnPlayFinish__DelegateSignature:fun()
+---@field EventOnLoadDone__DelegateSignature:fun()
+---@field EventEndReached__DelegateSignature:fun()
+---@field Button_0 UButton
+---@field CanvasPanel_1 UCanvasPanel
+---@field CanvasPanel_Root UCanvasPanel
+---@field Common_Skip_UIBP Common_Skip_UIBP_C
+---@field Image_VideoPanel UImage
+---@field LuaChecker BP_VideoFeatureChecker_C
+---@field LuaCheckerClass UClass
+---@field VideoPath FString
+---@field MediaPlayer UMediaPlayer
+---@field IsPlayed bool
+---@field EventEndReached ULuaMulticastDelegate
+---@field IsLoad bool
+---@field EventOnLoadDone ULuaMulticastDelegate
+---@field PlayOnLoad bool
+---@field ClickButtomStop bool
+---@field EventOnPlayFinish ULuaMulticastDelegate
+---@field EventOnStartPlaySuccess ULuaMulticastDelegate
+---@field DelayPlayTime float
+---@field IsFirstPlayCalled bool
+---@field VideoPlayTimerHandle FTimerHandle
+---@field OnMediaPlayTimerHandle FTimerHandle
+---@field CheckID int32
+---@field CsvData UDataTable

@@ -1,0 +1,2 @@
+---@class BP_HeroGamemode_Four_C:ABP_BattleRoyaleGameModeTeamPUBG_C
+---@field UserConstructionScript:fun()

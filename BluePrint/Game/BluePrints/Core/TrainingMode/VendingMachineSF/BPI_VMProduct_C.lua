@@ -1,0 +1,3 @@
+---@class BPI_VMProduct_C:UInterface
+---@field GetAnimDuration:fun():float
+---@field SetTargetPos:fun(Pos:FVector)

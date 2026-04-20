@@ -1,0 +1,35 @@
+---@class Tmode_People_Item_C:UUAEUserWidget
+---@field WeixinLiveStatusActive:fun()
+---@field WeixinLiveStatus:fun()
+---@field SetProcessBarVisibleByHP:fun(InVisibility:ESlateVisibility)
+---@field SetUIPercent:fun(percent:float)
+---@field SetKillCount:fun(InCount:int32,InUIDPlayer:FString)
+---@field SetTextAlpha:fun(IsDead:bool)
+---@field SetVoice:fun(Status:int32)
+---@field SetGender:fun(IsMale:bool)
+---@field SetPlayerName:fun(Index:int32,PlayerName:FString)
+---@field SetState:fun(State:ExtraPlayerLiveState)
+---@field SetHP:fun(Percent:float)
+---@field CanvasPanel_Kill UCanvasPanel
+---@field CustomSocketPanel_OnlookersVideo UCustomSocketPanel
+---@field GridPanel_PlayerVoiceIcon UGridPanel
+---@field Image_gender UImage
+---@field Image_IDBG UImage
+---@field Image_LowBloodAlarm UImage
+---@field Image_No1 UImage
+---@field Image_PlayerDead UImage
+---@field Image_PlayerHPBar UImage
+---@field Image_PlayerOffOnline UImage
+---@field Text_KillNumber UTextBlock
+---@field TextBlock_PlayerName UTextBlock
+---@field TextBlock_TeamNum UTextBlock
+---@field WidgetSwitcher_BG UWidgetSwitcher
+---@field FullColor FLinearColor
+---@field HpColor_Phase1 FLinearColor
+---@field HpColor_Phase2 FLinearColor
+---@field HpColor_Phase3 FLinearColor
+---@field MaleIcon FSlateBrush
+---@field FemaleIcon FSlateBrush
+---@field PlayerState ASTExtraPlayerState
+---@field CurrentHP float
+---@field LiveID FString

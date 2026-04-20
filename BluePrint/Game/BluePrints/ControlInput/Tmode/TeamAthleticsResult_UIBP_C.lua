@@ -1,0 +1,187 @@
+---@class TeamAthleticsResult_UIBP_C:UUAEUserWidget
+---@field SwitchViewToDisplayAvatar:fun()
+---@field GetGlobalMvpPlayerPawn:fun():BP_PlayerLobbyPawn_C
+---@field OnPlayMVPAnim:fun(CurEmoteId:int32)
+---@field CheckAndSetHasSharedVisible:fun()
+---@field RefreshLikeInfo:fun()
+---@field ResetLikeBtnState:fun()
+---@field SwitchShowResultPanel:fun()
+---@field CheckAndCreateResultPanel:fun(PanelName:FString,PanelPath:FString)
+---@field IsAdditionPanelExistByName:fun(PanelName:FString):bool,int32
+---@field ShowHASTextInfo:fun(MVPData1:int32,MVPData2:int32,MVPData3:int32)
+---@field CheckShowHASBattleSceneAvatar:fun(DisplayDirector:BP_BattleSceneAvatarDisplayDirector_C)
+---@field UpdateHASMainData:fun()
+---@field ShowHASRank:fun(Rank:int32)
+---@field IsHASMode:fun():bool
+---@field ProcessForWechatLive:fun()
+---@field ShowGunsmithReward:fun()
+---@field CloseAllClickBtn:fun()
+---@field OpenAllClickBtn:fun()
+---@field ShowBottomArea:fun()
+---@field HideBottomArea:fun()
+---@field CheckShowInfectionBattleSceneAvatar:fun(DisplayDirector:BP_BattleSceneAvatarDisplayDirector_C)
+---@field TestDebugPrintAllGloablMVP:fun()
+---@field CheckShowSwitcherMode:fun()
+---@field ShowInfectionTextInfo:fun(MvpData1:int32,MvpData2:int32,MvpData3:int32)
+---@field ShowNormalTextInfo:fun(MvpData1:int32,MvpData2:float,MvpData3:int32)
+---@field UpdateInfectionMainData:fun()
+---@field ShowInfectionRank:fun(Rank:int32)
+---@field GetIsInfectionMode:fun():bool
+---@field PlayGlobalMVPUIAnimation:fun()
+---@field GetGlobalMVPDirector:fun():BP_GlobalMVPDisplayDirector_C
+---@field OnShowBattleUI:fun()
+---@field PrepareGlobalMVPDisplayInfo:fun()
+---@field SetLightEnable:fun(IsEnabled:bool)
+---@field MVPPawnUseFixedSkelBounds:fun(IsUseFixedSkelBounds:bool,MVPPosCom:UBattleSceneAvatarDisplayPoseComponent)
+---@field PlayGlobalMVPAnimMsg:fun()
+---@field GetAchieveDataInTable:fun(id:int32):FString,FString
+---@field PlayMVPAnim:fun(MVPName:FString,AnimID:int32,MVPDirector:ABattleSceneAvatarDisplayDirector)
+---@field DisplayGlobalMVP:fun()
+---@field SetGlobalMVPBadge:fun(TargetBadgeImage:UImage,BadgeID:int32)
+---@field UpdateAchiveAndExpInfo:fun()
+---@field Show_TDM_ResultUI:fun()
+---@field HideGlobalMVP:fun()
+---@field InitGlobalMVPInfo:fun(TeamResultDataArray:ULuaArrayHelper,HeadInfoList:ULuaArrayHelper)
+---@field SwitchToTeamResultPage:fun()
+---@field ShowGlobalMVP:fun()
+---@field HandleDelayShowButton:fun()
+---@field GetIsIOSCheck:fun():bool
+---@field VisitorPlayerHideShareBtn:fun()
+---@field HideCrossHair:fun()
+---@field HideBattleAvatar:fun()
+---@field HideEmtpyAvatarPoseWidget:fun(StartIndex:int32)
+---@field InitAvatarPoseResultWidgetArray:fun()
+---@field DelayShowBackToLobbyButton:fun()
+---@field SwitchUIEndDisplayToResult:fun()
+---@field SwitchUIBattleToEndDisplay:fun()
+---@field InitOneDisplayAvatar:fun(DisplayDirector:ABattleSceneAvatarDisplayDirector,InTargetPlayerName:FString)
+---@field CheckBattleSceneAvatarDisplay:fun()
+---@field GetLocalizeString:fun(id:int32):FString
+---@field Check_IsIOS:fun(isIOSCheck:bool)
+---@field UpdateData_ShareUI:fun()
+---@field ShowCommonLoadingUI:fun()
+---@field ReleaseWidget_TeamMode:fun()
+---@field ImageCallBack:fun()
+---@field BackLobbyAndExitGame:fun()
+---@field TimePassOneSecond:fun()
+---@field HideIngameUI:fun()
+---@field ShowWidget_TeamMode:fun()
+---@field InitTeamListUI:fun(iMyTeamCount:int32,iOppoTeamCount:int32,isIOSCheck:bool,isVisitorLogin:bool)
+---@field HideWidget_TeamMode:fun()
+---@field UpdateData_All:fun()
+---@field Construct:fun()
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field ReceivedInitWidget:fun()
+---@field DX_MVP UWidgetAnimation
+---@field DX_ResultFailure UWidgetAnimation
+---@field DX_ResultVictory UWidgetAnimation
+---@field BottomArea UBorder
+---@field Button_DisplayContinue UButton
+---@field Button_Result_Continue UButton
+---@field Button_Result_Method UButton
+---@field Button_Result_Report UButton
+---@field Button_Result_ShareData UButton
+---@field Button_Result_SharePose UButton
+---@field Button_ResultItem_AddFriend UButton
+---@field Canvas_Panel_Common_Avatar UCanvasPanel
+---@field CanvasPanel_11 UCanvasPanel
+---@field CanvasPanel_BackLobby UCanvasPanel
+---@field CanvasPanel_Continue UCanvasPanel
+---@field CanvasPanel_DoubleExp UCanvasPanel
+---@field CanvasPanel_EMode_Grade UCanvasPanel
+---@field CanvasPanel_KLJ_TextTips UCanvasPanel
+---@field CanvasPanel_MVP UCanvasPanel
+---@field CanvasPanel_Result_Tips UCanvasPanel
+---@field CanvasPanel_ResultShare_Role UCanvasPanel
+---@field CanvasPanel_Root UCanvasPanel
+---@field CanvasPanel_TC_Achievement UCanvasPanel
+---@field CanvasPanel_TC_Result_CharacterTitle UCanvasPanel
+---@field Common_Avatar_BP_C_0 Common_Avatar_BP_C
+---@field HorizontalBox_1 UHorizontalBox
+---@field HorizontalBox_4 UHorizontalBox
+---@field HorizontalBox_Exp UHorizontalBox
+---@field HorizontalBox_HASExp UHorizontalBox
+---@field HorizontalBox_KLJ UHorizontalBox
+---@field Image_Icon_Money UImage
+---@field Image_TC_Result_MVP_Badge1 UImage
+---@field Image_TC_Result_MVP_Badge2 UImage
+---@field NewButton_GetBadge UNewButton
+---@field NewButton_KLJ_Help UNewButton
+---@field NewButton_ShareRank UNewButton
+---@field NewButton_TC_Result_Date_Explain UNewButton
+---@field NewButton_TC_Result_MVP_Continue UNewButton
+---@field NewButton_TC_Result_MVP_Share UNewButton
+---@field ScaleBox_IPX UScaleBox
+---@field TeamAthletics_RoleShare_UIBP1 TeamAthletics_RoleShare_UIBP_C
+---@field TeamAthletics_RoleShare_UIBP2 TeamAthletics_RoleShare_UIBP_C
+---@field TeamAthletics_RoleShare_UIBP3 TeamAthletics_RoleShare_UIBP_C
+---@field TeamAthletics_RoleShare_UIBP4 TeamAthletics_RoleShare_UIBP_C
+---@field TeamCompetition_Result_Data_ExplainTips_UIBP TeamCompetition_Result_Data_ExplainTips_UIBP_C
+---@field TextBlock_ContinueTimeLeft UTextBlock
+---@field TextBlock_EMode_Grade UTextBlock
+---@field TextBlock_EMode_Rank UTextBlock
+---@field TextBlock_ExpRate UTextBlock
+---@field TextBlock_GetBadge_Amount UTextBlock
+---@field TextBlock_HASExp UTextBlock
+---@field TextBlock_KLJ_Money UTextBlock
+---@field TextBlock_MVP_Data1 UTextBlock
+---@field TextBlock_MVP_Data2 UTextBlock
+---@field TextBlock_MVP_Data3 UTextBlock
+---@field TextBlock_MVP_PlayerName2 UTextBlock
+---@field TextBlock_ResultShare_Score1 UTextBlock
+---@field TextBlock_ResultShare_Score2 UTextBlock
+---@field TextBlock_ShareTips UTextBlock
+---@field TextBlock_TC_Result_Date_Experience UTextBlock
+---@field TextBlock_TC_Result_MVP_Death UTextBlock
+---@field TextBlock_TC_Result_MVP_Kill UTextBlock
+---@field TextBlock_TC_Result_MVP_PlayerName UTextBlock
+---@field TextBlock_TC_Result_MVP_Rate UTextBlock
+---@field TextBlock_TeamExpColor UTextBlock
+---@field TMode_Result_Both_UIBP TMode_Result_Both_UIBP_C
+---@field UTRichTextBlock_KLJ_Text UUTRichTextBlock
+---@field WidgetSwitcher_Flag UWidgetSwitcher
+---@field WidgetSwitcher_Mode UWidgetSwitcher
+---@field WidgetSwitcher_Result UWidgetSwitcher
+---@field WidgetSwitcher_ResultShare_Final UWidgetSwitcher
+---@field WidgetSwitcher_TC_Result UWidgetSwitcher
+---@field WidgetSwitcher_TC_Result_MVP_Gender UWidgetSwitcher
+---@field iMyTeamID int32
+---@field myNameStr FString
+---@field iMyTeamScore int32
+---@field iOppoTeamScore int32
+---@field isHasConstruct bool
+---@field g_iMaxOneTeamPlayerCount int32
+---@field iTimeLeft int32
+---@field iMyTeamLength int32
+---@field iOppoTeamLength int32
+---@field iMyTeamRank int32
+---@field isMyselfFirst bool
+---@field iFirstTeamLength int32
+---@field isAddFriendState bool
+---@field GameEndAvatarDisplayTime float
+---@field TestDisplay bool
+---@field DelayShowTimerHandle FTimerHandle
+---@field DelayShowDone bool
+---@field TimerHandler_DelayShowBackToLobby FTimerHandle
+---@field BattleSceneAvatarPoseWidgetList ULuaArrayHelper
+---@field isVisitorLogin bool
+---@field DelayShowButtonAreaTimer FTimerHandle
+---@field IndexInLuaData int32
+---@field AchieveIDList ULuaArrayHelper
+---@field GlobalMVPName FString
+---@field GlobalMVPActionID1 int32
+---@field is_global_observe bool
+---@field MyGameResult FString
+---@field MVPAnimParam FMVPAvatarDisplayParam
+---@field MVPAvatarDisplayInfo FBattleSceneAvatarDisplayInfo
+---@field isPlayAchieveAnim bool
+---@field Achieve_TickRate float
+---@field Achieve_TickSum float
+---@field CurAchieveIndex int32
+---@field is_room_mode bool
+---@field CurSubModeGroup int32
+---@field CurAdditionModeUI UUserWidget
+---@field bIsWechatLive bool
+---@field WhiteColor FSlateColor
+---@field HasColor FSlateColor
+---@field bSwitchViewToDisplayAvatar bool

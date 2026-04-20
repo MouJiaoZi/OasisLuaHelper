@@ -1,0 +1,44 @@
+---@class BP_PlayerPawn_Hider_C:ABP_PlayerPawn_C
+---@field GetLuaModule:fun():FString
+---@field GetExtraDisplayMeshComps:fun():ULuaArrayHelper
+---@field ActiveFoundedEffect:fun()
+---@field CallOnFindedDelegate:fun(bFinded:bool)
+---@field IsSmooth:fun():bool
+---@field AddScore:fun(Score:int32)
+---@field Init:fun()
+---@field UserConstructionScript:fun()
+---@field OnLanded:fun(Hit:FHitResult)
+---@field BPDie:fun(KillingDamage:float,EventInstigator:AController,DamageCauser:AActor,KillingHitInfo:FHitResult,KillingHitImpulseDir:FVector,DamageEvent:FDamageEvent,IsClient:bool,IsPointDamage:bool,IsHeadShotDamage:bool,damageTypeID:int32)
+---@field ReceiveAddRadialImpulse:fun(Origin:FVector,Radius:float,Strength:float,DamageTypeClass:UClass,bLinearFalloff:bool,bVelChange:bool)
+---@field ReceivePossessed:fun(NewController:AController)
+---@field ReceiveUnpossessed:fun(OldController:AController)
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field OnHiderDetected__DelegateSignature:fun()
+---@field OnHiderFinded__DelegateSignature:fun(bFinded:bool)
+---@field KillCharacterDieEffectComponent KillCharacterDieEffectComponent_C
+---@field ST_WEP_BombGun_Lod UStaticMeshComponent
+---@field HiderTransCom HiderTransCom_C
+---@field StaticMesh UStaticMeshComponent
+---@field FindedEffect UParticleSystemComponent
+---@field DisablePawnState ULuaArrayHelper
+---@field ItemConfigClass UClass
+---@field ScorePosUIInstanceID int32
+---@field UpwardImpulseScale float
+---@field TransformEffect UParticleSystem
+---@field LevelUPEffect UParticleSystem
+---@field PreDeathAnim UAnimMontage
+---@field AddScoreEffect UParticleSystem
+---@field HealthGrowValue int32
+---@field BGMSound UAkAudioEvent
+---@field ExitAreaSound UAkAudioEvent
+---@field FPPProtectTime float
+---@field DeathEffect UParticleSystem
+---@field DefaultHurtEvent UAkAudioEvent
+---@field DefaultDeathSoundEvent UAkAudioEvent
+---@field TransHurtEvent UAkAudioEvent
+---@field TransDeathSoundEvent UAkAudioEvent
+---@field OnHiderFinded ULuaMulticastDelegate
+---@field bFind bool
+---@field bDetect bool
+---@field OnHiderDetected ULuaMulticastDelegate
+---@field TimerHandle FTimerHandle

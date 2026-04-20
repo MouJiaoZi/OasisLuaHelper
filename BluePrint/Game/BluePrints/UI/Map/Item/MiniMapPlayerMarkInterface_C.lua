@@ -1,0 +1,5 @@
+---@class MiniMapPlayerMarkInterface_C:UInterface
+---@field UpdateMultiMark:fun(bIsShow:bool,MultiMarkRenderTranslation:ULuaArrayHelper,Opacity:float):bool
+---@field UpdateMark:fun(IsShow:bool,MarkRenderTranslation:FVector2D,Opacity:float):bool
+---@field GetIconDisplayWidget:fun():UWidget
+---@field SetMarkColor:fun(Color:FLinearColor):FLinearColor

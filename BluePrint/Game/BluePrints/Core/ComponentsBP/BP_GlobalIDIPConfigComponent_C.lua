@@ -1,0 +1,2 @@
+---@class BP_GlobalIDIPConfigComponent_C:UGlobalIDIPConfigComponent
+---@field GetLuaModule:fun():FString

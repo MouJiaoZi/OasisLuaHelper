@@ -1,0 +1,4 @@
+---@class BP_GameProjectVolumeBase_C:AGameProjectAreaVolume
+---@field GetLuaModule:fun():FString
+---@field UserConstructionScript:fun()
+---@field OnPlayerEnterGameProjectArea:fun(PC:APlayerController)

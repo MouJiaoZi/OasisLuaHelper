@@ -1,0 +1,1 @@
+---@class CS_WeapGun_Rifle_556_Mk12_ADS_NewFPP_C:UCameraShake

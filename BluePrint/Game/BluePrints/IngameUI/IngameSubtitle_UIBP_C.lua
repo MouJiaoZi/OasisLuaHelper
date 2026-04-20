@@ -1,0 +1,19 @@
+---@class IngameSubtitle_UIBP_C:UUAEUserWidget
+---@field HandleCustomUIInfo:fun(Text:FText,Tags:ULuaArrayHelper)
+---@field HandleCustomUI:fun(Tags:FMovieSceneSubtitleTagsKeyValue)
+---@field UpdateReplaceStrFromLua:fun(key:FString,value:FString)
+---@field UpdateTextFromLua:fun(Text:FText,Tags:ULuaArrayHelper)
+---@field Reset:fun()
+---@field HandleRichText:fun(Text:FText,Tag:FMovieSceneSubtitleTagsKeyValue)
+---@field HandleAnchor:fun(Tags:FMovieSceneSubtitleTagsKeyValue)
+---@field CanvasPanel_CustomUI UCanvasPanel
+---@field IngameSubtitle_Item IngameSubtitle_Item_C
+---@field IngameSubtitle_Item_C_1 IngameSubtitle_Item_C
+---@field IngameSubtitle_Item_C_2 IngameSubtitle_Item_C
+---@field WidgetSwitcher_0 UWidgetSwitcher
+---@field NormalRichText FText
+---@field H1RichText FText
+---@field EndText FText
+---@field H2RichText FText
+---@field ReplaceStr ULuaMapHelper
+---@field CustomUI UUAEUserWidget

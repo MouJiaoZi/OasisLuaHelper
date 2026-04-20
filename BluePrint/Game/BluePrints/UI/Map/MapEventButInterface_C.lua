@@ -1,0 +1,2 @@
+---@class MapEventButInterface_C:UInterface
+---@field InitMapEventButInfo:fun(CustomSocket:UCustomSocketPanel)

@@ -1,0 +1,1 @@
+---@class WeaponAnimList_MachineGun_MP7_C:UUAECharacterAnimListComponent

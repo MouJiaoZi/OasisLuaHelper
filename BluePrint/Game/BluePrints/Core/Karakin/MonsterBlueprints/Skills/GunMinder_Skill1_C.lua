@@ -1,0 +1,9 @@
+---@class GunMinder_Skill1_C:AUAEAISkill
+---@field UserConstructionScript:fun()
+---@field UAESkillAction_LaserAiming1 UUAESkillAction_LaserAiming
+---@field UAESkillAction_LaserAiming UUAESkillAction_LaserAiming
+---@field UAESkillEventEffectMapForEditor2 UUAESkillEventEffectMapForEditor
+---@field UAESkillEventEffectMapForEditor1 UUAESkillEventEffectMapForEditor
+---@field UAESkillEventEffectMapForEditor UUAESkillEventEffectMapForEditor
+---@field UAESkillPhase UUAESkillPhase
+---@field DefaultSceneRoot USceneComponent

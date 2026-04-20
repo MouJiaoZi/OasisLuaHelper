@@ -1,0 +1,2 @@
+---@class NGCondition_EModeVideo_BP_C:USTNewbieGuideConditionBase
+---@field IsOK:fun():bool

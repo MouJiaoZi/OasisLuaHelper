@@ -1,0 +1,1 @@
+---@class BP_AnimListComponent_Melee_Cowbar_WHSJ_C:UUAECharacterAnimListComponent

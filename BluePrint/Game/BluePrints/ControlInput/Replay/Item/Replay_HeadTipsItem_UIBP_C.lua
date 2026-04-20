@@ -1,0 +1,7 @@
+---@class Replay_HeadTipsItem_UIBP_C:UPlayerHeadWidget
+---@field SetupUIInBP:fun(WidgetType:EPlayerHeadType)
+---@field CanvasPanel_Distance UCanvasPanel
+---@field CanvasPanel_Name UCanvasPanel
+---@field CanvasPanel_Root UCanvasPanel
+---@field TextBlock_Distance UTextBlock
+---@field TextBlock_Name UTextBlock

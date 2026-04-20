@@ -1,0 +1,19 @@
+---@class CG030_TangDao_SprintSkill_UIBP_C:UUTSkillIconWidgetTemplate
+---@field Get_TextBlock_Frequency_Visibility_0:fun():ESlateVisibility
+---@field Get_Image_CD_Visibility_0:fun():ESlateVisibility
+---@field Get_TextBlock_Frequency_Text_0:fun():FText
+---@field Construct:fun()
+---@field DX_UpgradeSkills UWidgetAnimation
+---@field DX_UpgradeSkills_old UWidgetAnimation
+---@field DX_RefreshSkill UWidgetAnimation
+---@field Border_SkillSlot UBorder
+---@field Button_0 UButton
+---@field CanvasPanel_Frequency UCanvasPanel
+---@field CanvasPanel_tips UCanvasPanel
+---@field CustomizeCanvasPanel_SprintSkill CustomizeCanvasPanel_BP_C
+---@field Image_CD UImage
+---@field Image_CDTime UImage
+---@field Text_Name UTextBlock
+---@field Text_Time UTextBlock
+---@field TextBlock_Frequency UTextBlock
+---@field FunctionBPParam ULuaMapHelper

@@ -1,0 +1,1 @@
+---@class BP_BattleRoyaleGameMode_Karakin_Four_Entertainment_C:ABP_BattleRoyaleGameMode_Karakin_Four_C

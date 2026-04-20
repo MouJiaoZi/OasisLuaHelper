@@ -1,0 +1,157 @@
+---@class BP_STExtraPlayerController_C:ASTExtraPlayerController
+---@field ShowVehicleBtnCondition:fun(Vehicle:ASTExtraVehicleBase):bool
+---@field StopReadyAkEvent:fun()
+---@field CampSetPlaneData:fun(startPos:FVector,targetPos:FVector)
+---@field ShowTouchInterface_bp:fun(bShow:bool)
+---@field GetGlobalConfig:fun():BP_GlobalConfig_C
+---@field IsTeamAssembleDisplayLevelLoaded:fun():bool
+---@field AddIgnoreCameraMoveIndex:fun(index:ETouchIndex)
+---@field InitJoystickBindSetting:fun()
+---@field GetRemarkNameByGID:fun(actorName:FString,actorUID:FString):FString
+---@field ReadEmoteDataRowPC:fun()
+---@field AddTestCompont:fun()
+---@field IsAtaptation:fun():bool
+---@field ReadAdaptationTable:fun()
+---@field InitWeather:fun()
+---@field GetStickLeftSize:fun():FVector2D
+---@field ShowFightingUI:fun()
+---@field ShowAutoSprintBtn:fun(visible:bool,showPos_:FVector2D,inside:bool)
+---@field ReadConfigCrossHairColor:fun(NewParam:int32)
+---@field ReadConfigMotionControl:fun(NewParam:int32)
+---@field ReadConfigAutoAim:fun(NewParam:bool)
+---@field ReadConfigFromHUD:fun()
+---@field MakeFireModeEffect:fun()
+---@field DebugNotDrawGuideLine:fun()
+---@field ShowBackpackTombBox:fun(show:bool)
+---@field BindOrUnBindJoyStickSprint:fun(IsBind:bool)
+---@field CreateRank:fun(kills:int32,rank:int32)
+---@field DisableAimIfUnEquipWeapon:fun(WeaponType:ESurviveWeaponPropSlot)
+---@field SwitchAimMode:fun()
+---@field DoInitUI:fun()
+---@field HandleJumpBtnPressEvent:fun()
+---@field UpdateInputPanel:fun()
+---@field ShowBackpackIconSplash:fun(bShow:bool)
+---@field RefreshWeaponPanel:fun()
+---@field SetTouchInputEnabled:fun(bEnabled:bool)
+---@field ShowMainInputControl:fun(bShow:bool)
+---@field EnableDeathGray:fun(BlendWeight:float)
+---@field SetDeathGrayLerpValue:fun(lerp:float)
+---@field SetPostProcessVolume:fun()
+---@field UserConstructionScript:fun()
+---@field OnShowAnimationButton:fun(IsShow:bool,NewUIType:int32)
+---@field OnSpectatorCameraChange:fun(bDie:bool)
+---@field OnLandOnGroundAfterJumpPlaneEnd:fun()
+---@field JoystickTriggerSprint:fun(bIsSprint:bool)
+---@field SetPanels:fun(panels:ULuaArrayHelper)
+---@field PressFire:fun(fingerIndex:int32)
+---@field ShowFireBtn:fun(bShow:bool)
+---@field PressGrenade:fun(isThrow:bool)
+---@field InitJoyStickAfterActivation:fun()
+---@field MemberVoice:fun(member:int32,status:int32,isRobot:bool)
+---@field ReceiveClientRestart:fun()
+---@field OnWeaponEquipAttachment:fun(WeaponPropSlot:ESurviveWeaponPropSlot,DefineID:FItemDefineID,bEquip:bool)
+---@field ResetMissingUIUpdate:fun()
+---@field InitNewbieComponent:fun(FinishedGuide:ULuaArrayHelper,FinishedCounts:ULuaArrayHelper,PlayerLevel:int32,PlayerExperienceType:int32)
+---@field BP_OceanSideDetected:fun(OceansideLocation:FVector,bDetectedRiver:bool)
+---@field CallShowTouchInterface:fun(InShow:bool)
+---@field OnGameModeStateChanged:fun()
+---@field OnLocalSettingChanged:fun()
+---@field DebugSetUIVisibility:fun(bUIVisibility:bool)
+---@field OnRep_InWateringRangeBP:fun()
+---@field OnEnableTeamAssembleDisplayView:fun(IsEnable:bool)
+---@field ShowTouchInterface:fun(BShow:bool)
+---@field MemberVoiceLBS:fun(member:int32,status:int32,isRobot:bool)
+---@field SetIsJoyStickShow:fun(IsShow:bool)
+---@field BindEventToBackpackComponent__DelegateSignature:fun()
+---@field PlayerLeaveWater__DelegateSignature:fun(HideLung:bool)
+---@field PlayerEnterWater__DelegateSignature:fun()
+---@field AirborneLanded__DelegateSignature:fun()
+---@field ReloadingCDEnd__DelegateSignature:fun()
+---@field ReloadingCDStart__DelegateSignature:fun(CD:float)
+---@field PlanGReportEventComp UPlanGReportEventComp
+---@field PlayerCameraPossessManager_BP PlayerCameraPossessManager_BP_C
+---@field BP_GISPlayerComponent BP_GISPlayerComponent_C
+---@field BP_TipsManager BP_TipsManager_C
+---@field BP_ReportClientFieldOfViewDataComponent1 BP_ReportClientFieldOfViewDataComponent_C
+---@field BP_MapUIMarkManager BP_MapUIMarkManager_C
+---@field QuickSignComponent_BP QuickSignComponent_BP_C
+---@field BP_GameEventListener BP_GameEventListener_C
+---@field BP_ServerSwitcher BP_ServerSwitcher_C
+---@field STExtraUnderWaterEffectComp USTExtraUnderWaterEffectComp
+---@field ChatComponent_BP ChatComponent_BP_C
+---@field BP_CommonBtn BP_CommonBtn_C
+---@field BP_VehicleUser BP_VehicleUser_C
+---@field GrayToOne UTimelineComponent
+---@field GrayToZero UTimelineComponent
+---@field MainPostProcessVolume APostProcessVolume
+---@field LastCameraMode EPlayerCameraMode
+---@field PrePlayerPawn APawn
+---@field WaitingUI UObject
+---@field SimulatePlane UObject
+---@field ReloadingCDStart ULuaMulticastDelegate
+---@field ReloadingCDEnd ULuaMulticastDelegate
+---@field AlreadyAimed bool
+---@field ClosedAimTarget_0 ASTExtraBaseCharacter
+---@field CurAimTargets ULuaArrayHelper
+---@field CloseDistance float
+---@field AutoAimDrawType EDrawDebugTrace
+---@field AirborneLanded ULuaMulticastDelegate
+---@field bDefaultIsAutoAimEnabled bool
+---@field DriveWithForwardAxis bool
+---@field DriveWithRightAxis bool
+---@field PlayerEnterWater ULuaMulticastDelegate
+---@field PlayerLeaveWater ULuaMulticastDelegate
+---@field bindWeapon bool
+---@field LastTime float
+---@field MotionDataStack ULuaArrayHelper
+---@field CurMotionData FVector
+---@field BindEventToBackpackComponent ULuaMulticastDelegate
+---@field AdaptationDict ULuaMapHelper
+---@field CurDeviceAdaptationOffset FUIAdaptationStructure
+---@field CurDeviceAdaptationData FUIAdaptationStructure
+---@field bIsJoyStickShow bool
+---@field bIsInitSensibility bool
+---@field 3DTouchSwitcher bool
+---@field ActiveDevicProfileName FString
+---@field adaption bool
+---@field initAdaptation bool
+---@field IsJoystickTriggerSprint bool
+---@field UITouchMoveX float
+---@field UITouchMoveY float
+---@field PressFireFingerIndex int32
+---@field IsShowFireBtn bool
+---@field IsThrowGrenade bool
+---@field VoiceMemberID int32
+---@field VoiceMemberStatus int32
+---@field AttachmentAttachSlot ESurviveWeaponPropSlot
+---@field AttachmentDefineID FItemDefineID
+---@field AutoSprintBtnTouchPos FVector2D
+---@field IsAutoSprintBtnVisible bool
+---@field IsFingerInsideAutoSprintBtn bool
+---@field IsBindJoystickSprint bool
+---@field UnequipWeaponType ESurviveWeaponPropSlot
+---@field IsShowInputControl bool
+---@field AutoNavigateTranslation FVector2D
+---@field bLongPressSideSwitch bool
+---@field bLongPressSniperSwitch bool
+---@field AimBtnPos FVector2D
+---@field AimBtnSize FVector2D
+---@field HasWatered bool
+---@field CurrentPlatformName FString
+---@field MotionDataSameCount int32
+---@field MotionDataSameCountMax int32
+---@field ModeList_ForbidGuide ULuaArrayHelper
+---@field isDrugRecoverSignal bool
+---@field MinLevel int32
+---@field MaxLevel int32
+---@field NextMinLevel int32
+---@field NextMaxLevel int32
+---@field TeamDisplayLevelName FName
+---@field HasUnLoadDiplayLevel bool
+---@field IsRobotVoice bool
+---@field CampPlaneCanJumpPos FVector
+---@field CampPlaneForceJumpPos FVector
+---@field bHasFinishedTaskGuide bool
+---@field ReadyAkEvent int32
+---@field bCanShowEnterVehicleBtn bool
+---@field ScreenOrientation EScreenOrientation

@@ -1,0 +1,4 @@
+---@class SkillAera_Tornado_C:BP_MagicFieldActorBase_C
+---@field UserConstructionScript:fun()
+---@field P_CG035_Sandworm_Skill02_02 UParticleSystemComponent
+---@field Capsule UCapsuleComponent

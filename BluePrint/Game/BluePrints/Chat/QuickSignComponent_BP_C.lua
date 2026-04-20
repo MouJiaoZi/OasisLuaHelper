@@ -1,0 +1,26 @@
+---@class QuickSignComponent_BP_C:UQuickSignComponent
+---@field CheckDoorState:fun(TargetActor:AActor):FString,bool
+---@field SpecialActorState:fun(targetActor:AActor,InputConfigKey:FString):FString
+---@field RefreshSignMarkInfoIconBg:fun(PlayerName:FString):int32
+---@field GetStrArgument:fun(QuickSignID:FString,StringParam:FString):FString
+---@field OrganizeMsg:fun(TextID:int32,PlayerName:FString,IsSelf:bool,StrParam:FString):FString
+---@field PickupWrapperActorHandle:fun(Param:FString,MarkInfo:FQuickSignMark)
+---@field GenerateMarkInfo:fun(MsgItem:FQuickSignMsg):FQuickSignMark,bool
+---@field LoadConfig:fun()
+---@field ReceiveBeginPlay:fun()
+---@field ShowMsgTipsVoice:fun(MsgItem:FQuickSignMsg,IsSelf:bool)
+---@field QuickSignDataTable UUAEDataTable
+---@field QuickTableConfigMap ULuaMapHelper
+---@field QuickMarkMap ULuaMapHelper
+---@field TeammateColor FString
+---@field SelfColor FString
+---@field ColonChar FString
+---@field EndChar FString
+---@field SelfName FString
+---@field currMsg FQuickSignMsg
+---@field IsPlayVoiceCooldown bool
+---@field BankSwitchName FString
+---@field SelfNameText FText
+---@field HitDirect float
+---@field CurGameModeID FString
+---@field HasLoadConfig bool

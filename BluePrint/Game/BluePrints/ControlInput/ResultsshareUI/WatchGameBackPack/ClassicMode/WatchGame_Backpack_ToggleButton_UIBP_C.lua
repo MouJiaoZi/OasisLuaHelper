@@ -1,0 +1,17 @@
+---@class WatchGame_Backpack_ToggleButton_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field OnToggleBackpack:fun()
+---@field Backpack_Border UBorder
+---@field Backpack_Level UImage
+---@field BackpackBG UImage
+---@field BackpackImage UImage
+---@field Button_Backpack UButton
+---@field Canvas_Panel_BackpackGuide UCanvasPanel
+---@field CanvasPanel_47 UCanvasPanel
+---@field CanvasPanel_BackpackSlot UCanvasPanel
+---@field CanvasPanel_MahjongGuide UCanvasPanel
+---@field Image_65 UImage
+---@field Image_103 UImage
+---@field Image_BackPackCDBar UImage
+---@field Image_FullStatus UImage
+---@field TextBlock_backpackTips UTextBlock

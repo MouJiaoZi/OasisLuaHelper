@@ -1,0 +1,2 @@
+---@class BP_MinerGate_C:ABP_DoorNormal_C
+---@field UserConstructionScript:fun()

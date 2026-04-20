@@ -1,0 +1,3 @@
+---@class BP_BattleRoyaleGameMode_Desert_1_C:ABP_BattleRoyaleGameMode_C
+---@field UserConstructionScript:fun()
+---@field SpawnMonsterHelperComp USpawnMonsterHelperComp

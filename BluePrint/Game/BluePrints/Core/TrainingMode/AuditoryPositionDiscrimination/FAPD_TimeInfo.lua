@@ -1,0 +1,3 @@
+---@class FAPD_TimeInfo
+---@field RemainTimeTotal int32
+---@field RemainTimeRound int32

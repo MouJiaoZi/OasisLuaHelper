@@ -1,0 +1,10 @@
+---@class FBP_VoiceCheckData
+---@field CheckType BP_VoiceCheckType
+---@field checkLength float
+---@field TriggerCD float
+---@field ShowCD float
+---@field MaxShowCDSCale float
+---@field MinShowCDScale float
+---@field MaxSizeScale float
+---@field MinSizeScale float
+---@field Minspeed float

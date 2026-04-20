@@ -1,0 +1,21 @@
+---@class BP_Beacon_C:AActivityBaseActor
+---@field ShowEnemy:fun(NewParam:bool)
+---@field UseBeaconCanTrigger:fun(NewParam:FGISCCF_Param):bool
+---@field OnUseBeacon:fun(NewParam:FGISCCF_Param)
+---@field UserConstructionScript:fun()
+---@field OnUse_Sequence UActorSequenceComponent
+---@field P_Drop_Light_Purple UParticleSystemComponent
+---@field SkeletalMesh USkeletalMeshComponent
+---@field CustomSphere USphereComponent
+---@field Scene USceneComponent
+---@field GISActorComponentBase UGISActorComponentBase
+---@field DefaultSceneRoot USceneComponent
+---@field CoolDown float
+---@field bCanUseBeacon bool
+---@field TH_BeaconCD FTimerHandle
+---@field E_UserCampType EInfectionCampType
+---@field BeaconDuration float
+---@field ShowedEnemyPlayer ULuaArrayHelper
+---@field bTestMode bool
+---@field TempCoolDown float
+---@field TipsID int32

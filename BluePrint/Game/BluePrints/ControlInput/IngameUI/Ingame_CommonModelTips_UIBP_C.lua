@@ -1,0 +1,4 @@
+---@class Ingame_CommonModelTips_UIBP_C:UNewbieGuideWidget
+---@field OnCreateAndShow:fun(GuideId:int32,UIConfigIndex:int32)
+---@field Image_tipsbg UImage
+---@field UTRichTextBlock_tips UUTRichTextBlock

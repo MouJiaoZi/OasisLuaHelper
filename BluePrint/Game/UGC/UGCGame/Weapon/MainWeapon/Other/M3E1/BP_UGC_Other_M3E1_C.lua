@@ -1,0 +1,23 @@
+---@class BP_UGC_Other_M3E1_C:BP_UGC_Other_M3E1_Base_C
+---@field UpdateMagCompVisibility:fun(bOnlyConsiderClipBullets:bool)
+---@field OnShootBullet:fun()
+---@field ScopeIn:fun():bool
+---@field UserConstructionScript:fun()
+---@field ReceiveEndPlay:fun(EndPlayReason:EEndPlayReason)
+---@field OnWeaponMagOut:fun()
+---@field OnWeaponMagIn:fun()
+---@field FPP_Particle UParticleSystemComponent
+---@field TPP_Particle UParticleSystemComponent
+---@field WeaponAnimList_Other_M3E1 WeaponAnimList_Other_M3E1_C
+---@field SeekAndLockWeapon USeekAndLockWeaponComponent
+---@field ST_Mag UStaticMeshComponent
+---@field ScopeInIndex int32
+---@field ScopeOutIndex int32
+---@field Stand UAnimMontage
+---@field Crouch UAnimMontage
+---@field Prone UAnimMontage
+---@field Stand_0 UAnimMontage
+---@field Crouch_0 UAnimMontage
+---@field Prone_0 UAnimMontage
+---@field IsFadeIn bool
+---@field IsEndPlay bool

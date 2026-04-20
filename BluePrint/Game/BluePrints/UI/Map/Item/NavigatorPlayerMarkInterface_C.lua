@@ -1,0 +1,5 @@
+---@class NavigatorPlayerMarkInterface_C:UInterface
+---@field ChangeAlpha:fun(bHigher:bool):bool
+---@field GetMarkDistWidget:fun():UTextBlock
+---@field GetIconDisplayWidget:fun():UWidget
+---@field SetMarkColor:fun(Color:FLinearColor,bSelfPlayer:bool):FLinearColor

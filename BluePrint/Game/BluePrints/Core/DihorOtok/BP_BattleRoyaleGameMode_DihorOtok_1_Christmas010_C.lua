@@ -1,0 +1,3 @@
+---@class BP_BattleRoyaleGameMode_DihorOtok_1_Christmas010_C:ABP_BattleRoyaleGameMode_DihorOtok_1_C
+---@field UserConstructionScript:fun()
+---@field AIWorldSoundManager UAIWorldSoundManagerComponent

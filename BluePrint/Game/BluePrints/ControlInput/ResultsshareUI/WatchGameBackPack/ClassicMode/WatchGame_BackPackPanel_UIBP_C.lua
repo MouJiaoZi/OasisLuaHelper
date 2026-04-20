@@ -1,0 +1,18 @@
+---@class WatchGame_BackPackPanel_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field UIMsg_BigPanelWidgetOpen:fun(UI:FString)
+---@field GetWeaponDataTableRowbyItemID:fun(ItemID:int32):bool,BP_STRUCT_BattleItem_type
+---@field CanvasPanel_BackPackListSlot UCanvasPanel
+---@field CanvasPanel_BackPackSlotList UCanvasPanel
+---@field CanvasPanel_EscapeModeBGType UCanvasPanel
+---@field CanvasPanel_LSlot UCanvasPanel
+---@field CanvasPanel_PCSlot_Bg UCanvasPanel
+---@field CanvasPanel_RBtnGroupSlot UCanvasPanel
+---@field CanvasPanel_WatchGameBackPack UCanvasPanel
+---@field CanvasPanel_WeaponInfoSlot UCanvasPanel
+---@field HorizontalBox_Slot UHorizontalBox
+---@field WatchGame_BackPackRBtnGroup WatchGame_BackPackRBtnGroup_UIBP_C
+---@field WidgetSwitcher_BGType UWidgetSwitcher
+---@field CacheBattleItemData FBattleItemData
+---@field WeaponDataMap ULuaMapHelper
+---@field NewWeaponDataList ULuaArrayHelper

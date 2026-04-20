@@ -1,0 +1,1 @@
+---@class BP_ScreenAppearanceActor_C:AScreenAppearanceActor

@@ -1,0 +1,37 @@
+---@class BP_CG30_EscalatorHor_C:AActivityBaseActor
+---@field GetAcceleration:fun():FVector
+---@field SetAddSpeed:fun(AddSpeed:float)
+---@field GetAkTransforms:fun():ULuaArrayHelper
+---@field InitMesh:fun()
+---@field SetEnable:fun(bEnable:bool)
+---@field OnVehicleOut:fun(OutVehicle:ASTExtraVehicleBase)
+---@field OnVehicleIn:fun(InVehicle:ASTExtraVehicleBase)
+---@field CheckActorNeedMove:fun(InActor:AActor):bool
+---@field ProcessMove:fun(InActor:AActor,DeltaTime:float)
+---@field OnGrenadeOut:fun(OutGrenade:ProjGrenade_BP_C)
+---@field OnGrenadeIn:fun(InGrenade:ProjGrenade_BP_C)
+---@field OnCharacterOut:fun(OutCharacter:ASTExtraBaseCharacter)
+---@field OnCharacterIn:fun(InCharacter:ASTExtraBaseCharacter)
+---@field InitLength:fun()
+---@field UserConstructionScript:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field ReceiveEndPlay:fun(EndPlayReason:EEndPlayReason)
+---@field RightWall UBoxComponent
+---@field LeftWall UBoxComponent
+---@field OverlapCheckArea1 UOverlapCheckAreaComponent
+---@field NE_DownTown_FootBridge_01_Start UStaticMeshComponent
+---@field Scene USceneComponent
+---@field OverlapCheckArea UOverlapCheckAreaComponent
+---@field Box UBoxComponent
+---@field NE_DownTown_FootBridge_01_End1A01 UStaticMeshComponent
+---@field NE_DownTown_FootBridge_01_StartA01 UStaticMeshComponent
+---@field NE_DownTown_FootBridge_01_End1 UStaticMeshComponent
+---@field Length int32
+---@field AddSpeed float
+---@field AttachedActors ULuaSetHelper
+---@field CharacterVelocityMap ULuaMapHelper
+---@field Enabled bool
+---@field Meshes ULuaArrayHelper
+---@field AkEventMultiplePositionDist float
+---@field BaseMesh ULuaArrayHelper
+---@field Receiver BP_CG30_EscalatorReceiver_C

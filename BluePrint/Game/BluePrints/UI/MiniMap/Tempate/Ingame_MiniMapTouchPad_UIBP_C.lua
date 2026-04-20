@@ -1,0 +1,31 @@
+---@class Ingame_MiniMapTouchPad_UIBP_C:UUAEUserWidget
+---@field GetAnotherFingerIndex:fun(CurIndex:int32):int32
+---@field RemoveArrayItemByIndex:fun(Index:int32)
+---@field OnTouchEnded:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field OnTouchMoved:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field OnTouchStarted:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field OnMouseLeave:fun(MouseEvent:FPointerEvent)
+---@field OperateBegin__DelegateSignature:fun()
+---@field OperateEnd__DelegateSignature:fun()
+---@field ScaleMap__DelegateSignature:fun(ScaleValue:float,Pivot:FVector2D)
+---@field SetMarker__DelegateSignature:fun(Position:FVector2D)
+---@field MoveMap__DelegateSignature:fun(Offset:FVector2D)
+---@field CanvasPanel_2 UCanvasPanel
+---@field Image_2 UImage
+---@field MapSize float
+---@field MoveMap ULuaMulticastDelegate
+---@field LastTickFingerPosition ULuaArrayHelper
+---@field PutMarkerThreshold float
+---@field TouchStartFingerPosition ULuaArrayHelper
+---@field STExtraPC ASTExtraPlayerController
+---@field SetMarker ULuaMulticastDelegate
+---@field FingerMoveDis ULuaArrayHelper
+---@field bMultiTouch bool
+---@field ScaleMap ULuaMulticastDelegate
+---@field MultiTouchScaleRatio float
+---@field MultiTouchToScaleInitDis float
+---@field ScaleVector FVector2D
+---@field TouchInMouseIndex ULuaArrayHelper
+---@field OperateEnd ULuaMulticastDelegate
+---@field OperateBegin ULuaMulticastDelegate
+---@field ScalePivot FVector2D

@@ -1,0 +1,10 @@
+---@class BP_Grenade_ShockHammer_Weapon_C:ASTExtraWeapon
+---@field UserConstructionScript:fun()
+---@field WeaponTriggerEventHandleSkill UWeaponTriggerEventHandleSkill
+---@field WeaponAnimList_ShockHammer WeaponAnimList_ShockHammer_C
+---@field ThrowableWeaponCrossHair UThrowableWeaponCrossHairComponent
+---@field StaticMesh UStaticMeshComponent
+---@field WeaponEntity UWeaponEntity
+---@field WeaponSpecificHandler UWeaponSpecificHandler
+---@field WeaponStateDefault UWeaponStateDefault
+---@field WeaponStateManager UWeaponStateManager

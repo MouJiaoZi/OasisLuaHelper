@@ -1,0 +1,2 @@
+---@class BP_BountyHunterControllerComponent_C:UBountyHunterControllerComponent
+---@field GetLuaModule:fun():FString

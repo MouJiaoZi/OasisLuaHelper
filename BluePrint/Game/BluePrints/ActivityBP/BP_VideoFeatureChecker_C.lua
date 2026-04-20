@@ -1,0 +1,5 @@
+---@class BP_VideoFeatureChecker_C:UBP_VideoFeatureCheckerMiddle_C
+---@field GetRaealPath:fun(InPath:FString):FString
+---@field CanPlayVIdeo:fun():bool
+---@field SetGameInstance:fun(GameInstance:UGameInstance)
+---@field GameInstance UGameInstance

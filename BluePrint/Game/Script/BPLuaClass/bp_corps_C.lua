@@ -1,0 +1,5 @@
+---@class bp_corps_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_CorpsUI_Has_New_IvitedCorps bool
+---@field BP_Corps_Checkbox_ID int32

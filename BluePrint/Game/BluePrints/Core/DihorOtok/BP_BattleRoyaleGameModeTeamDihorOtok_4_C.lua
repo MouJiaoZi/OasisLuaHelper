@@ -1,0 +1,3 @@
+---@class BP_BattleRoyaleGameModeTeamDihorOtok_4_C:ABP_BattleRoyaleGameModeTeamDihorOtok_2_C
+---@field UserConstructionScript:fun()
+---@field SpawnMonsterHelperComp1 USpawnMonsterHelperComp

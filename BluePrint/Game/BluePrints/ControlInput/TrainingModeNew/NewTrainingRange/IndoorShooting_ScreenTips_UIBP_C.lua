@@ -1,0 +1,22 @@
+---@class IndoorShooting_ScreenTips_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field ToTimeText:fun(Seconds:float):FString
+---@field SetTimeText:fun(Secondes:float)
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field DX_Animation_Difficulty UWidgetAnimation
+---@field DX_Animation_2 UWidgetAnimation
+---@field DX_Animation_Ring UWidgetAnimation
+---@field MoveTargetTrainSub_UIBP MoveTargetTrainSub_UIBP_C
+---@field TextBlock_0 UTextBlock
+---@field TextBlock_1 UTextBlock
+---@field TextBlock_3 UTextBlock
+---@field TextBlock_4 UTextBlock
+---@field TextBlock_Difficulty UTextBlock
+---@field TextBlock_HistorRingNum UTextBlock
+---@field TextBlock_NewRingNum UTextBlock
+---@field TextBlock_RingNUm1 UTextBlock
+---@field TextBlock_RingNumTips UTextBlock
+---@field TextBlock_time2 UTextBlock
+---@field WidgetSwitcher_Grade UWidgetSwitcher
+---@field WidgetSwitcher_Match UWidgetSwitcher
+---@field TipsShowTime float

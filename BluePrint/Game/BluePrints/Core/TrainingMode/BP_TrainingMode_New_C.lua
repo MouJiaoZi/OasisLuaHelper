@@ -1,0 +1,5 @@
+---@class BP_TrainingMode_New_C:ABP_BattleRoyalTrainingGameMode_C
+---@field GetLuaModule:fun():FString
+---@field UserConstructionScript:fun()
+---@field BP_TrainingStatistics BP_TrainingStatistics_C
+---@field TeamScrimmagePawnClass UClass

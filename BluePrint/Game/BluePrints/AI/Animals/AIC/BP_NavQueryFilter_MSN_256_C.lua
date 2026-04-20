@@ -1,0 +1,1 @@
+---@class BP_NavQueryFilter_MSN_256_C:UNavigationQueryFilterMSN

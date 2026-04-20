@@ -1,0 +1,20 @@
+---@class BP_ParachuteFireworksArea_2020NEW_linshi_C:AFireworksAreaActor
+---@field UserConstructionScript:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field Bottom5 UBoxComponent
+---@field Bottom4 UBoxComponent
+---@field Bottom3 UBoxComponent
+---@field Bottom2 UBoxComponent
+---@field B_t1 UBoxComponent
+---@field B_b1 UBoxComponent
+---@field B_l1 UBoxComponent
+---@field B_r1 UBoxComponent
+---@field beam UBoxComponent
+---@field 2020 UBoxComponent
+---@field B_t UBoxComponent
+---@field B_b UBoxComponent
+---@field B_l UBoxComponent
+---@field B_r UBoxComponent
+---@field Top UBoxComponent
+---@field Bottom UBoxComponent
+---@field DefaultSceneRoot USceneComponent

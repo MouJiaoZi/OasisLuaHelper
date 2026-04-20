@@ -1,0 +1,33 @@
+---@class bp_lobby_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_Exciting_Party_Open bool
+---@field BP_SystemTargetCameraIndex int32
+---@field BP_LobbySwitchCameraForceSwitch bool
+---@field BP_LobbySwitchCameraPosOffsetExtend FString
+---@field BP_SystemTargetCameraBlendTime int32
+---@field BP_CurrentMaxExp int32
+---@field EmulatorCheck_FirstinLobby bool
+---@field BP_Lobby_OpenShoporWardrobe bool
+---@field BP_Lobby_Exp_Rate int32
+---@field BP_LobbyNetworkDelay int32
+---@field BP_ARRAY_Lobby_ActivityNotOpenList ULuaArrayHelper
+---@field BP_LobbySwitchCameraPosOffset FString
+---@field BP_SystemTargetCameraSysName FString
+---@field BP_LobbySwitchCameraRotOffset FString
+---@field BP_Free_Data_Open bool
+---@field BP_Lobby_Gold_Rate int32
+---@field BP_ARRAY_Lobby_GoldBuffInfo ULuaArrayHelper
+---@field BP_ARRAY_Lobby_ExpBuffInfo ULuaArrayHelper
+---@field BP_Lobby_Has_Gold_Rate bool
+---@field BP_Lobby_Has_Exp_Rate bool
+---@field BP_STRUCT_LOBBY_GoldExp_BuffInfo BP_STRUCT_LOBBY_GoldExp_BuffInfo
+---@field BP_Lobby_MenuOpen bool
+---@field BP_Lobby_WeaponStatusChange_UID FString
+---@field BP_LobbyTargetCameraBlendTime int32
+---@field BP_Lobby_WeaponStatusChange_WeaponResId int32
+---@field BP_COLLECT_EQUIPMENT_Open bool
+---@field BP_LOBBY_CurSeasonId int32
+---@field BP_LobbyTargetCameraIndex int32
+---@field BP_LOBBY_GameJoyRecordOn bool
+---@field BP_LobbyNetworkStatus bool

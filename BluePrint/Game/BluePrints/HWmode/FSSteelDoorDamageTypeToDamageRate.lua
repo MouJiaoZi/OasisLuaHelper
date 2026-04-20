@@ -1,0 +1,4 @@
+---@class FSSteelDoorDamageTypeToDamageRate
+---@field DamageEvent UClass
+---@field DamageRate float
+---@field IsChildDamageEventIncluded bool

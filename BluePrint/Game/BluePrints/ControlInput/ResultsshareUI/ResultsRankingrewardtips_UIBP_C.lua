@@ -1,0 +1,33 @@
+---@class ResultsRankingrewardtips_UIBP_C:UUAEUserWidget
+---@field ActivityTimes:fun(value:int32):FString
+---@field OnMouseButtonDown_0:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field ResultRankingreward_itemUIBP ResultRankingreward_itemUIBP_C
+---@field ResultRankingreward_itemUIBP_0 ResultRankingreward_itemUIBP_C
+---@field ResultRankingreward_itemUIBP_23 ResultRankingreward_itemUIBP_C
+---@field ResultRankingreward_itemUIBP_24 ResultRankingreward_itemUIBP_C
+---@field ResultRankingreward_itemUIBP_25 ResultRankingreward_itemUIBP_C
+---@field ResultRankingreward_itemUIBP_27 ResultRankingreward_itemUIBP_C
+---@field ResultRankingreward_itemUIBP_28 ResultRankingreward_itemUIBP_C
+---@field ResultRankingreward_itemUIBP_29 ResultRankingreward_itemUIBP_C
+---@field ResultRankingreward_itemUIBP_30 ResultRankingreward_itemUIBP_C
+---@field ResultRankingreward_itemUIBP_31 ResultRankingreward_itemUIBP_C
+---@field ResultRankingreward_itemUIBP_32 ResultRankingreward_itemUIBP_C
+---@field ResultRankingreward_itemUIBP_33 ResultRankingreward_itemUIBP_C
+---@field ResultRankingreward_itemUIBP_C_ms ResultRankingreward_itemUIBP_C
+---@field ResultRankingreward_itemUIBP_C_PriviAdd ResultRankingreward_itemUIBP_C
+---@field ResultRankingreward_itemUIBP_C_st ResultRankingreward_itemUIBP_C
+---@field ResultRankingreward_itemUIBP_C_zd ResultRankingreward_itemUIBP_C
+---@field ResultRankingreward_itemUIBP_DE ResultRankingreward_itemUIBP_C
+---@field ResultRankingreward_itemUIBP_DG ResultRankingreward_itemUIBP_C
+---@field ResultRankingreward_itemUIBP_E_MD ResultRankingreward_itemUIBP_C
+---@field ResultRankingreward_itemUIBP_egz ResultRankingreward_itemUIBP_C
+---@field ResultRankingreward_itemUIBP_G_MD ResultRankingreward_itemUIBP_C
+---@field ResultRankingreward_itemUIBP_gz ResultRankingreward_itemUIBP_C
+---@field ResultRankingreward_itemUIBP_jingbika ResultRankingreward_itemUIBP_C
+---@field ResultRankingreward_itemUIBP_ms ResultRankingreward_itemUIBP_C
+---@field ResultRankingreward_itemUIBP_st ResultRankingreward_itemUIBP_C
+---@field TextBlock_65 UTextBlock
+---@field TextBlock_68 UTextBlock
+---@field TextBlock_71 UTextBlock
+---@field WidgetSwitcher_0 UWidgetSwitcher
+---@field isWin bool

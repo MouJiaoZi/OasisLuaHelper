@@ -1,0 +1,1 @@
+---@class BP_WEP_Cowbar_AnimList_C:UUAECharacterAnimListComponent

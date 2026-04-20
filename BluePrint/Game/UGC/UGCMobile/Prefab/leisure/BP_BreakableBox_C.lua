@@ -1,0 +1,40 @@
+---@class BP_BreakableBox_C:BP_UGCMobileBaseActor_C
+---@field GetLuaModule:fun():FString
+---@field InitMechaWeaponData:fun()
+---@field InitSpecialWeaponData:fun()
+---@field InitVehicleWeaponData:fun()
+---@field InitHeavyWeaponData:fun()
+---@field LuaBeginPlay:fun()
+---@field InitMeleeWeaponData:fun()
+---@field InitProjectileData:fun()
+---@field InitBulletData:fun()
+---@field OnReceiveTakeDamageEvent:fun(DamageItemID:int32,EventInstigator:AController,DamageCauser:AActor,DamageAmount:float)
+---@field OnBeginPlayBP:fun()
+---@field UserConstructionScript:fun()
+---@field STBaseBuffSystem USTBaseBuffSystemComponent
+---@field P_ExplodeEffect UParticleSystemComponent
+---@field BP_UGCDamageableActorComponent BP_UGCDamageableActorComponent_C
+---@field Box UStaticMeshComponent
+---@field VaildTrigger EUGCSwitchTargetTrigger2
+---@field RelateTeams S_TeamChoice
+---@field BreakType EUGCBreakType
+---@field bCanRespawn bool
+---@field RespawnInterval int32
+---@field bRoundFightReset bool
+---@field VaildAttackTriggerTypes S_ScoreBallChoice
+---@field SwitchColor ULuaArrayHelper
+---@field CurBoxState int32
+---@field MaxHealth int32
+---@field EnableEvent FUGCMobileObjectEvent
+---@field DisableEvent FUGCMobileObjectEvent
+---@field HPOverEvent FUGCMobileObjectEvent
+---@field EnableAction FUGCMobileObjectAction
+---@field DisableAction FUGCMobileObjectAction
+---@field SwitchColorAction FUGCMobileObjectAction
+---@field BrokenAction FUGCMobileObjectAction
+---@field ItemIDList ULuaArrayHelper
+---@field ItemParamSetting_Bullet ULuaArrayHelper
+---@field ItemParamSetting_Projectile ULuaArrayHelper
+---@field ItemParamSetting_MeleeWeapon ULuaArrayHelper
+---@field SwitchColor2 ULuaArrayHelper
+---@field bInGame bool

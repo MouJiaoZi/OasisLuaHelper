@@ -1,0 +1,100 @@
+---@class IngamePlayerInfo_UIBP_C:UUAEUserWidget
+---@field CheckSpacialState:fun()
+---@field StopCheckSpacialState:fun()
+---@field StartCheckSpacialState:fun()
+---@field RefreshTrumpMarkStatus:fun(Times:int32)
+---@field RefreshRangeSelectedPlayerRecordInfo:fun(WinNum:int32,Critrate:int32,RoleKD:float,KillNum:int32,Top10Num:int32,GameNum:int32,TopSegmentTimes:int32)
+---@field RefreshRangeSelectedPlayerWear:fun(WatchPlayerWearInfo:UOBPlayer_WearInfo,PlayerOBInfo:FPlayerOBInfo)
+---@field ShowRangeSelectedPlayerInfo:fun(PlayerPawn:BP_PlayerPawn_C)
+---@field HideAllInfoItems:fun()
+---@field GetAvatarCapture:fun():AAvatarCapture
+---@field HandleItemScrollListRelease:fun()
+---@field DisplayOneAvatarItem:fun(AvatarItemID:int32,AvatarItemSlotType:EAvatarSlotType):bool
+---@field SwitchHDRInner:fun(IsHDR:bool)
+---@field EventReportPlayerInfoButtonClick:fun()
+---@field OnGetOBPlayerBattleInfo:fun()
+---@field InitMyLuaManager:fun(InLuaManager:bp_battleresult_C)
+---@field SetCombatMatchMode:fun()
+---@field GetSpectatePlayerInfo:fun():bool
+---@field RefreshPlayerSimpleInfo:fun()
+---@field ToggleItemSelected:fun(InSelectedItem:int32)
+---@field RefreshPlayerItemsInfo:fun(AvatarCaptureInclude:bool)
+---@field SetPlayerTitleInfo:fun(TitleLevel:int32,TitleName:FString)
+---@field SetPlayerTitleIcon:fun(TitleLevel:int32)
+---@field SetPlayerTitleBG:fun(TitleLevel:int32)
+---@field GetPlayerTitleColor:fun(TitleLevel:int32):FLinearColor
+---@field SetPlayerTitleName:fun(TitleLevel:int32,TitleName:FString)
+---@field InitPlayerInfoItems:fun()
+---@field InitPlayerInfoItemsArray:fun()
+---@field InitPlayerInfoItemClieckEventHandle:fun()
+---@field HandlePlayerInfoItemClicked:fun(ShowTips:bool,ItemID:int32,ItemName:FString,ItemDescription:FString,ItemIconBrush:FSlateBrush,ItemQuality:int32)
+---@field RegistEventToPlayerInfoItem:fun(NewParam:IngamePlayerInfoItem_UIBP_C)
+---@field RefreshSepctatePlayerInfo:fun()
+---@field CanWatchPlayerCombatData:fun():bool
+---@field HideSpectatePlayerInfo:fun()
+---@field ShowSpectatePlayerInfo:fun(PlayerRemarkName:FString)
+---@field SetCombatKillBeatenRatio:fun(KillBeatenRatio:float)
+---@field SetCombatKillCount:fun(KillCount:FString)
+---@field SetCombatTopTenCount:fun(TopTenCount:FString)
+---@field SetCombatWinCount:fun(WinCount:FString)
+---@field SetCombatTotalCount:fun(TotalCount:FString)
+---@field SetCombatTotalInfo:fun()
+---@field SetRankIntegraInfo:fun(RankIntegral:int32)
+---@field SetPlayerName:fun(InPlayerName:FString)
+---@field Construct:fun()
+---@field ReceivedInitWidget:fun()
+---@field OnAddFriendBtnClicked__DelegateSignature:fun()
+---@field OnCloseButtonClicked__DelegateSignature:fun()
+---@field Button_Close UButton
+---@field Common_RankTitleInfo_UIBP Common_RankTitleInfo_UIBP_C
+---@field CustomScrollBox_0 UCustomScrollBox
+---@field EquipmentMenu1 IngamePlayerInfoItem_UIBP_C
+---@field EquipmentMenu10 IngamePlayerInfoItem_UIBP_C
+---@field EquipmentMenu11 IngamePlayerInfoItem_UIBP_C
+---@field EquipmentMenu12 IngamePlayerInfoItem_UIBP_C
+---@field EquipmentMenu2 IngamePlayerInfoItem_UIBP_C
+---@field EquipmentMenu3 IngamePlayerInfoItem_UIBP_C
+---@field EquipmentMenu4 IngamePlayerInfoItem_UIBP_C
+---@field EquipmentMenu5 IngamePlayerInfoItem_UIBP_C
+---@field EquipmentMenu6 IngamePlayerInfoItem_UIBP_C
+---@field EquipmentMenu7 IngamePlayerInfoItem_UIBP_C
+---@field EquipmentMenu8 IngamePlayerInfoItem_UIBP_C
+---@field EquipmentMenu9 IngamePlayerInfoItem_UIBP_C
+---@field Image_14 UImage
+---@field Image_icon UImage
+---@field Image_Placelogo UImage
+---@field IngamePlayerInfoTips_BP IngamePlayerInfoTips_UIBP_C
+---@field IngamePlayerTrumpMark_UIBP IngamePlayerTrumpMark_UIBP_C
+---@field NewButton_AddFriend UNewButton
+---@field NewButton_Kickout UNewButton
+---@field PlaceTitle UCanvasPanel
+---@field TextBlock_5 UTextBlock
+---@field TextBlock_6 UTextBlock
+---@field TextBlock_7 UTextBlock
+---@field TextBlock_10 UTextBlock
+---@field TextBlock_12 UTextBlock
+---@field TextBlock_14 UTextBlock
+---@field TextBlock_16 UTextBlock
+---@field TextBlock_18 UTextBlock
+---@field TextBlock_20 UTextBlock
+---@field TextBlock_44 UTextBlock
+---@field WatchUIAvatarItem_UIBP WatchGameUIAvatarItem_UIBP_C
+---@field WidgetSwitcher_0 UWidgetSwitcher
+---@field WidgetSwitcher_Friends UWidgetSwitcher
+---@field PlayerInfoItemArray ULuaArrayHelper
+---@field TitleBGIconName ULuaArrayHelper
+---@field TitleIconName ULuaArrayHelper
+---@field OnCloseButtonClicked ULuaMulticastDelegate
+---@field WatchPlayerInfo FPlayerOBInfo
+---@field ObservedPlayerData FObservedData
+---@field WatchPlayerName FString
+---@field MyLuaManager bp_battleresult_C
+---@field AvatarSlotOrder ULuaArrayHelper
+---@field PlayerRemarkName FString
+---@field WatchPlayerWearInfo UOBPlayer_WearInfo
+---@field CurrentEquipSlotItemIndex int32
+---@field DisplayHelmet bool
+---@field OnAddFriendBtnClicked ULuaMulticastDelegate
+---@field WatchTopSegmentTimes int32
+---@field CheckSpecialState_TimerHandle FTimerHandle
+---@field CachedHDRVavlue int32

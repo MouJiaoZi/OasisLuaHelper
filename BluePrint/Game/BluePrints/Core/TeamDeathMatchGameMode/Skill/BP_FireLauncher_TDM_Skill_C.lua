@@ -1,0 +1,5 @@
+---@class BP_FireLauncher_TDM_Skill_C:AUAESkill
+---@field UserConstructionScript:fun()
+---@field STExtraBuffAction_PeriodAction USTExtraBuffAction_PeriodAction
+---@field UAESkillPhase UUAESkillPhase
+---@field DefaultSceneRoot USceneComponent

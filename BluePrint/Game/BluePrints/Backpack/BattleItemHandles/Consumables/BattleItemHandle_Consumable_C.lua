@@ -1,0 +1,9 @@
+---@class BattleItemHandle_Consumable_C:UBattleItemHandleBase_BP_C
+---@field GetWrapperClass:fun():UClass
+---@field HandlePickup:fun(ItemContainer:TScriptInterface,PickupInfo:FBattleItemPickupInfo,Reason:EBattleItemPickupReason):bool
+---@field HandleDrop:fun(InCount:int32,Reason:EBattleItemDropReason):bool
+---@field HandleUse:fun(Target:FBattleItemUseTarget,Reason:EBattleItemUseReason):bool
+---@field SkillTriggerEvent EUTSkillEntry
+---@field WrapperClass UClass
+---@field LocationList ULuaArrayHelper
+---@field SkillTriggerIndex int32

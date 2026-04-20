@@ -1,0 +1,12 @@
+---@class ReplayEliminateInfo_Item_UIBP_C:UUAEUserWidget
+---@field Txt_Color:fun(ColorState:bool)
+---@field CustomScrollBox_ItemList UCustomScrollBox
+---@field RankTitleInfo Common_RankTitleInfo_UIBP_C
+---@field TextBlock_Info UTextBlock
+---@field TextBlock_Name UTextBlock
+---@field TextBlock_Txt UTextBlock
+---@field WidgetSwitcher_BGColor UWidgetSwitcher
+---@field WidgetSwitcher_Damage UWidgetSwitcher
+---@field Color_Red FSlateColor
+---@field Color_White FSlateColor
+---@field DamageTypeText ULuaMapHelper

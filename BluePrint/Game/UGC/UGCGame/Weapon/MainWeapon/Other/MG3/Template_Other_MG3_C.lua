@@ -1,0 +1,2 @@
+---@class Template_Other_MG3_C:UGCBackpackShootWeaponHandle_BP_C
+---@field UGC_TemplateSaveItemID:fun():int32

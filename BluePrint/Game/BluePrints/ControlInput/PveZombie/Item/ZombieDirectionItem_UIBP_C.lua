@@ -1,0 +1,13 @@
+---@class ZombieDirectionItem_UIBP_C:UMonsterWarningWidget
+---@field HideGuideDirectionTips:fun()
+---@field ShowGuideDirectionTips:fun()
+---@field Construct:fun()
+---@field ReceivedInitWidget:fun()
+---@field CanvasPanel_ZombieDirection1 UCanvasPanel
+---@field CanvasPanel_ZombieDirection2 UCanvasPanel
+---@field CanvasPanel_ZombieDirection3 UCanvasPanel
+---@field CanvasPanel_ZombieDirection4 UCanvasPanel
+---@field CanvasPanel_ZombieDirection5 UCanvasPanel
+---@field ZombieDirectionTips UCanvasPanel
+---@field NewbieTipsTickTimer FTimerHandle
+---@field NewVar_0 float

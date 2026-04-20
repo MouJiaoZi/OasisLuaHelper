@@ -1,0 +1,23 @@
+---@class UGC_BackpackMain_Half_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field Button_Close_OnClicked:fun()
+---@field Construct:fun()
+---@field Backpack_DeleteItem UGC_Backpack_DeleteItem_UIBP_C
+---@field BackpackUIBP UGC_HalfBackpack_UIBP_C
+---@field BGSlot CustomizeCanvasPanel_BP_C
+---@field Button_Close UButton
+---@field CanvasPanel_DisCard UCanvasPanel
+---@field CanvasPanel_WepEquip_Slot UCanvasPanel
+---@field DeleteItemSlot CustomizeCanvasPanel_BP_C
+---@field EquipSlot CustomizeCanvasPanel_BP_C
+---@field GridsSlot CustomizeCanvasPanel_BP_C
+---@field Image_HighLight UImage
+---@field InventorySlot CustomizeCanvasPanel_BP_C
+---@field ItemDetailSlot CustomizeCanvasPanel_BP_C
+---@field OptionSlot CustomizeCanvasPanel_BP_C
+---@field ScaleBox_IPX UScaleBox
+---@field TextBlock_Content4 UTextBlock
+---@field UGC_ComboBox_Group_BP UGC_ComboBox_Group_BP_C
+---@field UGC_ReuseList2_Tab UGC_ReuseList2_C
+---@field UGCCommonDragDropItem_0 UGCCommonDragDropItem_C
+---@field UISlot CustomizeCanvasPanel_BP_C

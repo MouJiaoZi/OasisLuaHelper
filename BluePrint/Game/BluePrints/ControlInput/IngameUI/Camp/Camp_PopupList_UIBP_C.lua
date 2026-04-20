@@ -1,0 +1,8 @@
+---@class Camp_PopupList_UIBP_C:UUAEUserWidget
+---@field NewButton_Close UNewButton
+---@field TextBlock_Camp1 UTextBlock
+---@field TextBlock_Camp2 UTextBlock
+---@field TextBlock_Remain01 UTextBlock
+---@field TextBlock_Remain02 UTextBlock
+---@field WrapGroupBox_Camp01 UWrapGroupBox
+---@field WrapGroupBox_Camp02 UWrapGroupBox

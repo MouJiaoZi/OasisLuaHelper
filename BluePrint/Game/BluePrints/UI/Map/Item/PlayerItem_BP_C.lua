@@ -1,0 +1,58 @@
+---@class PlayerItem_BP_C:UPlayerItemInMap
+---@field GetPlayerMarkUI_InWesee:fun():UUserWidget
+---@field SetBGColorAndOpacity:fun(BGImage:UImage,ColorAndOpacity:FLinearColor)
+---@field IsShowName:fun(isMiniMapNotEntire:bool,isSameTeam:bool,isMyself:bool):bool
+---@field GetTeammateIndexName:fun(TeamPlayerState:ASTExtraPlayerState):FString
+---@field PlayHitAnim:fun()
+---@field SetNameFont:fun(Size:int32)
+---@field OnTouchEnded:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field ShowCone:fun(IsShow:bool)
+---@field ShowBeSelectCircle:fun(IsShow:bool)
+---@field ShowName:fun(IsFull:bool)
+---@field ShowAngle:fun(IsShowAngle:bool,RotationZ:float)
+---@field ShowData:fun(PlayerInfo:FPlayerInfoInOB,IsSinglar:bool,IsObing:bool,IsShowName:bool)
+---@field OnInitWidgetBp:fun()
+---@field ShowDataForReplay:fun(inPlayerState:ASTExtraPlayerState,isReset:bool)
+---@field ReceiveUseWeSeeStyle:fun(bUseStyle:bool)
+---@field ShowDataBp:fun(PlayerInfo:FPlayerInfoInOB,isSingle:bool,isObing:bool,isShowName:bool)
+---@field ShowNameBp:fun(isFull:bool)
+---@field BeSelected__DelegateSignature:fun(PlayerInfo:FPlayerInfoInOB,IsDoubleClick:bool)
+---@field DX_Hit UWidgetAnimation
+---@field CanvasPanel_MarkInWeSeeStyle UCanvasPanel
+---@field CanvasPanel_Player UCanvasPanel
+---@field CanvasPanel_PlayerState UCanvasPanel
+---@field CanvasPanel_SelfArrow UCanvasPanel
+---@field CanvasPanel_Striking UCanvasPanel
+---@field CanvasPanel_TeamLogo UCanvasPanel
+---@field CurrentPlayerMaker UImage
+---@field GridPanel_NameGroup UGridPanel
+---@field Image_CenterPoint UImage
+---@field Image_DeadVfxTips UImage
+---@field Image_NormalNameBG UImage
+---@field Image_Parachute UImage
+---@field Image_PlayerDead UImage
+---@field Image_PlayerDriving UImage
+---@field Image_PlayerDying UImage
+---@field Image_PlayerOffOnline UImage
+---@field Image_RingBG UImage
+---@field Image_SelectedBG UImage
+---@field Image_SelectedNameBG UImage
+---@field NewButton_RingNum UNewButton
+---@field PlayerTeamID UTextBlock
+---@field ReplayChangeViewer UNewButton
+---@field TextBlock_PlayerName UTextBlock
+---@field BeSelected ULuaMulticastDelegate
+---@field MyInfo FPlayerInfoInOB
+---@field FullName FString
+---@field ShortName FString
+---@field LastState ExtraPlayerLiveState
+---@field bInitOnceForReplay bool
+---@field ReplayItemUID FString
+---@field bIsCurViewer bool
+---@field PlayerNameForReplay FString
+---@field MarkUI_InWeSeeStyle Playback_Mark_UIBP_C
+---@field EntireTarget EntireMap_OBmode_C
+---@field isdouble bool
+---@field ClickTime int32
+---@field ClickTimes int32
+---@field bWidgetUsingForReplay bool

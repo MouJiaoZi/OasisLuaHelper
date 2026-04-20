@@ -1,0 +1,4 @@
+---@class BP_ShotGun_SPAS-12_C:BP_ShotGunBase_C
+---@field UserConstructionScript:fun()
+---@field WeaponPostReloadState UWeaponPostReloadState
+---@field bUseIdleAnim_0_0_0 bool

@@ -1,0 +1,1 @@
+---@class GiftSpawnHelper_BestWishes_ToSelf_C:AGiftSpawnHelper_C

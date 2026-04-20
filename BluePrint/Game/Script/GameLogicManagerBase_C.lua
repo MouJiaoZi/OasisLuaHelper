@@ -1,0 +1,1 @@
+---@class GameLogicManagerBase_C:UGameBusinessManager

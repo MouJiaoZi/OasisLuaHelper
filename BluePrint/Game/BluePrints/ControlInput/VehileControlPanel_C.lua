@@ -1,0 +1,536 @@
+---@class VehileControlPanel_C:UVehicleControlPanelUI
+---@field UpdateVehicleLayout_Inf:fun():bool
+---@field OnSwitchDriverFireState:fun(bFire:bool):bool
+---@field OnUpdateVehicleWeaponUI:fun(bUse:bool,VehicleWeapon:ASTExtraShootWeapon):bool
+---@field OnUnManedVehicleFuelChanged_Inf:fun():bool
+---@field OnUnmanedVehicleHPChanged_Inf:fun():bool
+---@field GetUcavUI:fun():UUserWidget
+---@field RefreshChargingState:fun(State:bool):bool
+---@field GetUavUI:fun():UUserWidget
+---@field BleDriveUpPressWraper:fun():bool
+---@field BleDriveDownPressWraper:fun():bool
+---@field BleDriveUpReleaseWraper:fun():bool
+---@field BleDriveDownReleaseWraper:fun():bool
+---@field SpeakerReleaseWraper:fun():bool
+---@field SpeakerPressWraper:fun():bool
+---@field HideVehicleControlGUIWrapper:fun():bool
+---@field ShowVehicleControlGUIWrapper:fun(isDriving:bool):bool
+---@field SetSteeringValueWrapper:fun(value:float):bool
+---@field UpdateGUISpeedWrapper:fun(rawSpeed:float,vehHight:float):bool
+---@field UpdateGUISeatsWrapper:fun(seatsGUIType:ULuaArrayHelper,MaxInUseGUIIdx:int32,seatConfig:ULuaArrayHelper):bool
+---@field RefreshMotorcycleAirControlBtnsWrapper:fun(show:bool):bool
+---@field RefreshWheelsInfoWrapper:fun():bool
+---@field UpdateGUIFuelWrapper:fun(Fuel:float,FuelMax:float):bool
+---@field UpdateGUIHPWarpper:fun(hp:float,HPMax:float):bool
+---@field GetBorder_ButtonsOnlyWrapper:fun():UBorder
+---@field GetBorder_OpacityWrapper:fun():UBorder
+---@field Reconnect_ResetUIByPlayerControllerStateWrapper:fun():bool
+---@field CheckVehicleShootingStateWrapper:fun():bool
+---@field Msg_VehicleLeanOutOrInWrapper:fun():bool
+---@field Msg_VehicleSpeedUpReleaseWrapper:fun():bool
+---@field Msg_VehicleSpeedUpPressWrapper:fun():bool
+---@field Msg_VehicleChangeSeatWrapper:fun():bool
+---@field Msg_DriveRightPressWrapper:fun():bool
+---@field Msg_DriveRightReleaseWrapper:fun():bool
+---@field Msg_DriveLeftReleaseWrapper:fun():bool
+---@field Msg_DriveLeftPressWrapper:fun():bool
+---@field Msg_LeaveVehicleWrapper:fun():bool
+---@field Msg_VehiclePushDownReleaseWrapper:fun():bool
+---@field Msg_VehiclePushDownPressWrapper:fun():bool
+---@field Msg_VehicleLiftUpReleaseWrapper:fun():bool
+---@field Msg_VehicleLiftUpPressWrapper:fun():bool
+---@field GetIsDrivingWrapper:fun():bool
+---@field IsCustomUIDataValid:fun(Widget:UWidget,SaveDataSize:FVector2D):bool
+---@field LoadVehicleSeatPanelFinishEvent:fun(Widget:UUserWidget)
+---@field ShowVehicleSeatPanel:fun(SeatPanel:UObject)
+---@field UIMsg_ShowBattleRankUIClient:fun()
+---@field Get_BtnLeaveVehicle_Visibility:fun():ESlateVisibility
+---@field InitVehicleUser:fun()
+---@field GetExtraUI:fun(Vehicle:ASTExtraVehicleBase,needCreate:bool):UUserWidget
+---@field HideForReplay:fun()
+---@field GetBalloonUI:fun(CreateNew:bool):UUAEUserWidget
+---@field UpdateKayakBoostCD:fun()
+---@field OnVehicleAINavStateAllowableDistanceChangedDelegate:fun(allowdis:int32)
+---@field AutoDriveBUttonEffectShowHide:fun(bshow:bool)
+---@field AutoDriveButtonChange:fun(bopen:bool)
+---@field BindVehicleAutoDriveStateChangeDelegate:fun(bBind:bool)
+---@field OnVehicleAutoDriveStateChangeDelegate:fun(bOpenChange:bool)
+---@field UpdateBaseLayout:fun()
+---@field UIMsg_LeanOutVehicleChanged:fun()
+---@field SetActiveProneBtn:fun(Btn:UButton)
+---@field SetIsHandBraking:fun(IsBraking:bool)
+---@field UpdateBattleshipBoostCD:fun()
+---@field UpdatePopKartPassDoorBtn:fun()
+---@field CheckNeedShowPopKartRaceNodeTip:fun()
+---@field UIMsg_PopKartRaceBegin:fun()
+---@field ShowPopKartRaceNodeTip:fun()
+---@field UIMsg_DragonBoatBoostChanged:fun()
+---@field GetMotorgliderUIBP:fun(needCreate:bool):UUAEUserWidget
+---@field UpdateDriverLastWeaponPanel:fun()
+---@field GetFuelItemList:fun():ULuaArrayHelper
+---@field ResetAllPanel:fun()
+---@field GetVehicleWeaponUIBP:fun(bNeedCreate:bool):UUserWidget
+---@field DoVehicleWeaponGUI:fun()
+---@field SwitchDriverFireState:fun(bFire:bool)
+---@field UpdateChagingState:fun(ChargingState:bool)
+---@field ProcessHelicopterOperate:fun()
+---@field UpdateVehicleLayout:fun()
+---@field DoUcavGUI:fun()
+---@field GetUcavUIBP:fun(needCreate:bool):UUserWidget
+---@field CheckDragonBoatSeat:fun()
+---@field CanShowChangeSeatAccurate:fun():bool
+---@field OnUpdateVehicleWeaponUIImp:fun(Use:bool,VehicleWeapon:ASTExtraShootWeapon)
+---@field FlyVehiclesJoystickUIBPIsVisible:fun():bool
+---@field HideFlyVehiclesJoystickUIBP:fun()
+---@field ShowFlyVehiclesJoystickUIBP:fun()
+---@field HilicopeterUIUpdate:fun()
+---@field LoadVehicleSeatPanel:fun()
+---@field GetTelecarUIBP:fun(needCreate:bool):UUserWidget
+---@field ProcessUpDownGUI:fun(flag:bool)
+---@field UIMsg_UAVSingleOperate:fun()
+---@field UAVStateChanged:fun()
+---@field UpdateSurfingBtnText:fun()
+---@field SetActiveSurfingText:fun(Text:UTextBlock)
+---@field UpdateKeroseneBG:fun(IsHightLight:bool)
+---@field GetUAVUIBP:fun(needCreate:bool):UUserWidget
+---@field UpdateElectricty:fun()
+---@field ShowUpDownGUI:fun():bool
+---@field GetUAVBase:fun():ASTExtraUAVVehicleBase
+---@field InitSeat:fun()
+---@field InitSeatUI:fun(IsHelicoptor:bool)
+---@field UpdateHelicoptorGUISeats:fun(SeatGUITypes:ULuaArrayHelper,MaxInUseGUIIdx:int32,seatConfig:ULuaArrayHelper)
+---@field GetHeliCopter:fun():ASTExtraHelicopterVehicle
+---@field HideGUIVehicleStatePanel:fun()
+---@field UpdateVehicleItemNum:fun(ItemDefID:FItemDefineID)
+---@field UpdateGUIVehicleStatePanel:fun()
+---@field UpdateMaintenanceVehicleItemNum:fun()
+---@field SetActiveSurfingBtn:fun(Btn:UButton)
+---@field Msg_DriveRightRelease:fun()
+---@field Msg_DriveLeftRelease:fun()
+---@field Msg_VehiclePushDownRelease:fun()
+---@field Msg_VehicleLiftUpRelease:fun()
+---@field Msg_VehicleLeanOutOrIn:fun()
+---@field Msg_VehicleSpeedUpRelease:fun()
+---@field Msg_VehicleSpeedUpPress:fun()
+---@field Msg_VehicleChangeSeat:fun()
+---@field Msg_DriveRightPress:fun()
+---@field Msg_DriveLeftPress:fun()
+---@field Msg_LeaveVehicle:fun():FEventReply
+---@field Msg_VehiclePushDownPress:fun()
+---@field Msg_VehicleLiftUpPress:fun()
+---@field UpdateFuelItemNum:fun()
+---@field On_BtnLeaveVehicle_MouseButtonDown_0:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field SWModeSetSideArrowLight:fun(Left:UImage,Right:UImage,LeftLight:UImage,RightLight:UImage,Input:float)
+---@field SetSpeedBoostBtn:fun(Btn:UButton)
+---@field SetMotorcycleAirControlBtns:fun(BtnF:UCanvasPanel,BtnB:UCanvasPanel)
+---@field RefreshMotorcycleAirControlBtns:fun(Show:bool)
+---@field UpdateGUISeats:fun(SeatGUITypes:ULuaArrayHelper,MaxInUseGUIIdx:int32,seatConfig:ULuaArrayHelper)
+---@field LeanOutVehicleChanged:fun()
+---@field CheckVehicleShootingState:fun()
+---@field RefreshWheelsInfo:fun()
+---@field InitWheelsInfo:fun()
+---@field PlayBtnAnim:fun(AnimToPlay:UWidgetAnimation,AnimToStop:UWidgetAnimation)
+---@field Reconnect_ResetUIByPlayerControllerState:fun()
+---@field SetSliderPercent:fun(Percent:float)
+---@field UpdateGUISpeed:fun(RawSpeed:float,vehHeight:float)
+---@field UpdateGUIFuel:fun(Fuel:float,FuelMax:float)
+---@field UpdateGUIHP:fun(HP:float,HPMax:float)
+---@field GetVehicleUser:fun():BP_VehicleUser_C
+---@field HideEnterVehiclePanel:fun()
+---@field ShowEnterVehiclePanel:fun(CanDrive:bool,CanRide:bool)
+---@field HideVehicleControlGUI:fun()
+---@field ShowVehicleControlGUI:fun(IsDriving:bool)
+---@field SetThrottleValue:fun(Value:float)
+---@field SetSteeringValue:fun(Value:float)
+---@field OnVehicleChange:fun()
+---@field OnVehicleHPChange:fun(Health:float,RatioHealth:float,Controller:AController)
+---@field ReceivedInitWidget:fun()
+---@field Destruct:fun()
+---@field SetSettingControlUI:fun()
+---@field SetCustomizeUIInfo:fun(SaveGame:BP_SAVEGAME_UIElemLayout_C,FireMode:int32)
+---@field UpdateGUIEnergyWrapper:fun()
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field Construct:fun()
+---@field HidePanelForReplay:fun()
+---@field DX_Autopilot UWidgetAnimation
+---@field DX_Prone_L_SWMode UWidgetAnimation
+---@field DX_Prone_R_SWMode UWidgetAnimation
+---@field DX_Prone_R_Mode2 UWidgetAnimation
+---@field DX_Prone_L UWidgetAnimation
+---@field DX_Prone_R UWidgetAnimation
+---@field DX_BattleshipBoost UWidgetAnimation
+---@field DX_helicopterUpButton UWidgetAnimation
+---@field DX_helicopterDownButton UWidgetAnimation
+---@field DX_SW_Surfing_Mode_L UWidgetAnimation
+---@field DX_SW_Surfing_Mode_R UWidgetAnimation
+---@field DX_Right_Surfing_Mode2 UWidgetAnimation
+---@field DX_Left_Surfing_Mode_1 UWidgetAnimation
+---@field DX_Right_Surfing_Mode_1 UWidgetAnimation
+---@field DX_Brake_Mode_2 UWidgetAnimation
+---@field DX_Left_Brake_Mode_1 UWidgetAnimation
+---@field DX_Right_Brake_Mode_1 UWidgetAnimation
+---@field DX_Pushdown_Mode_R UWidgetAnimation
+---@field DX_Liftup_Mode_R UWidgetAnimation
+---@field DX_Speedup_Mode_R UWidgetAnimation
+---@field DX_Pushdown_Mode_L UWidgetAnimation
+---@field DX_Liftup_Mode_L UWidgetAnimation
+---@field DX_Speedup_Mode_L UWidgetAnimation
+---@field DX_SW_Pushdown_Mode_R UWidgetAnimation
+---@field DX_SW_Liftup_Mode_R UWidgetAnimation
+---@field DX_SW_Speedup_Mode_R UWidgetAnimation
+---@field DX_SW_Pushdown_Mode_L UWidgetAnimation
+---@field DX_SW_Liftup_Mode_L UWidgetAnimation
+---@field DX_SW_Speedup_Mode_L UWidgetAnimation
+---@field DX_Right_Speedup_Mode2 UWidgetAnimation
+---@field DX_Right_Pushdown_Mode2 UWidgetAnimation
+---@field DX_Right_Liftup_Mode2 UWidgetAnimation
+---@field DX_Sw_Braking_Locked_Mod_L UWidgetAnimation
+---@field DX_SW_CarSpeaker_Locked_Mode_1 UWidgetAnimation
+---@field DX_SW_Braking_Locked_Mod_R UWidgetAnimation
+---@field DX_SW_Down_Locked_Mode_2 UWidgetAnimation
+---@field DX_SW_UP_Locked_Mode_2 UWidgetAnimation
+---@field DX_SW_Down_Locked_Mode_1 UWidgetAnimation
+---@field DX_SW_UP_Locked_Mode_1 UWidgetAnimation
+---@field DX_Right_Locked_Mode_2 UWidgetAnimation
+---@field DX_Left_Locked_Mode_2 UWidgetAnimation
+---@field DX_Down_Locked_Mode_2 UWidgetAnimation
+---@field DX_UP_Locked_Mode_2 UWidgetAnimation
+---@field DX_Right_Locked_Mode_1 UWidgetAnimation
+---@field DX_Left_Locked_Mode_1 UWidgetAnimation
+---@field DX_Down_Locked_Mode_1 UWidgetAnimation
+---@field DX_UP_Locked_Mode_1 UWidgetAnimation
+---@field BattleshipBoost UButton
+---@field Border_ButtonsOnly UBorder
+---@field Border_Opacity UBorder
+---@field BtnChangeDriveGUIType UButton
+---@field BtnMode_Left_Liftup UCanvasPanel
+---@field BtnMode_Left_Pushdown UCanvasPanel
+---@field BtnMode_Myriapod_Graze UCanvasPanel
+---@field BtnMode_Myriapod_Jump UCanvasPanel
+---@field BtnMode_Myriapod_Run UCanvasPanel
+---@field BtnMode_Myriapod_SpeedMode UCanvasPanel
+---@field BtnMode_Myriapod_Walk UCanvasPanel
+---@field BtnMode_Right_Liftup UCanvasPanel
+---@field BtnMode_Right_Pushdown UCanvasPanel
+---@field Button_BtnMode_Left_Brake UButton
+---@field Button_BtnMode_Left_Liftup UButton
+---@field Button_BtnMode_Left_Pushdown UButton
+---@field Button_BtnMode_Left_Speedup UButton
+---@field Button_BtnMode_Right_Brake UButton
+---@field Button_BtnMode_Right_Liftup UButton
+---@field Button_BtnMode_Right_Pushdown UButton
+---@field Button_BtnMode_Right_Speedup UButton
+---@field Button_HIde_ZoomPanel UButton
+---@field Button_LBtn_Prone1 UButton
+---@field Button_LBtn_Surfing UButton
+---@field Button_Left_Braking UButton
+---@field Button_MaintenanceVehicle UButton
+---@field Button_Mode2_Brake UButton
+---@field Button_Mode2_RBtn_Prone1 UButton
+---@field Button_Mode2_Right_Liftup UButton
+---@field Button_Mode2_Right_Pushdown UButton
+---@field Button_Mode2_Right_Speedup UButton
+---@field Button_Mode2_Right_Surfing UButton
+---@field Button_Myriapod_Graze UButton
+---@field Button_Myriapod_Jump UButton
+---@field Button_Myriapod_Run UButton
+---@field Button_Myriapod_Walk UButton
+---@field Button_Oil UButton
+---@field Button_RBtn_Prone1 UButton
+---@field Button_RBtn_Surfing UButton
+---@field Button_Right_Braking UButton
+---@field Button_ShootingOnTheVehile UButton
+---@field Button_SWMode_LBtn_Prone1 UButton
+---@field Button_SWMode_LBtn_Surfing UButton
+---@field Button_SWMode_Left_Down UButton
+---@field Button_SWMode_Left_Liftup UButton
+---@field Button_SWmode_Left_Pushdown UButton
+---@field Button_SWMode_Left_Speedup UButton
+---@field Button_SWMode_Left_Up UButton
+---@field Button_SWMode_RBtn_Prone1 UButton
+---@field Button_SWMode_RBtn_Surfing UButton
+---@field Button_SWMode_Right_Down UButton
+---@field Button_SWMode_Right_Liftup UButton
+---@field Button_SWmode_Right_Pushdown UButton
+---@field Button_SWMode_Right_Speedup UButton
+---@field Button_SWMode_Right_Up UButton
+---@field Button_ZoomBtn UButton
+---@field Canvas_Mode2_Right_Surfing_slot UCanvasPanel
+---@field Canvas_SWMode_LBtn_Surfing_Slot UCanvasPanel
+---@field Canvas_SWMode_RBtn_Surfing_Slot UCanvasPanel
+---@field CanvasLBtn_Surfing_SlotTips UCanvasPanel
+---@field CanvasPanel_AutoDrive UCanvasPanel
+---@field CanvasPanel_B_HelicopterFireSeat02 UCanvasPanel
+---@field CanvasPanel_B_HelicopterFireSeat03 UCanvasPanel
+---@field CanvasPanel_B_HelicopterFireSeat04 UCanvasPanel
+---@field CanvasPanel_B_HelicopterFireSeat05 UCanvasPanel
+---@field CanvasPanel_B_HelicopterFireSeat06 UCanvasPanel
+---@field CanvasPanel_B_HelicopterFireSeat07 UCanvasPanel
+---@field CanvasPanel_B_HelicopterFireSeat08 UCanvasPanel
+---@field CanvasPanel_CameraOffsetData UCanvasPanel
+---@field CanvasPanel_CarSpeaker UCanvasPanel
+---@field CanvasPanel_CRKJetSocket UCanvasPanel
+---@field CanvasPanel_DrummingIcon UCanvasPanel
+---@field CanvasPanel_FireSlot1 UCanvasPanel
+---@field CanvasPanel_FireSlot2 UCanvasPanel
+---@field CanvasPanel_FireSlot3 UCanvasPanel
+---@field CanvasPanel_FireSlot4 UCanvasPanel
+---@field CanvasPanel_FireSlot5 UCanvasPanel
+---@field CanvasPanel_FireSlot6 UCanvasPanel
+---@field CanvasPanel_FireSlot7 UCanvasPanel
+---@field CanvasPanel_FireSlot8 UCanvasPanel
+---@field CanvasPanel_LBtn_Prone UCanvasPanel
+---@field CanvasPanel_LBtn_Surfing UCanvasPanel
+---@field CanvasPanel_Left_Speedup UCanvasPanel
+---@field CanvasPanel_Mode2_RBtn_Prone UCanvasPanel
+---@field CanvasPanel_Mode2_RBtn_Surfing UCanvasPanel
+---@field CanvasPanel_RBtn_Prone UCanvasPanel
+---@field CanvasPanel_RBtn_Surfing UCanvasPanel
+---@field CanvasPanel_Right_Speedup UCanvasPanel
+---@field CanvasPanel_S_HelicopterFireSeat02 UCanvasPanel
+---@field CanvasPanel_S_HelicopterFireSeat03 UCanvasPanel
+---@field CanvasPanel_S_HelicopterFireSeat04 UCanvasPanel
+---@field CanvasPanel_S_HelicopterFireSeat05 UCanvasPanel
+---@field CanvasPanel_S_HelicopterFireSeat06 UCanvasPanel
+---@field CanvasPanel_S_HelicopterFireSeat07 UCanvasPanel
+---@field CanvasPanel_S_HelicopterFireSeat08 UCanvasPanel
+---@field CanvasPanel_ShootingOnTheVehile UCanvasPanel
+---@field CanvasPanel_ShowX8Panel UCanvasPanel
+---@field CanvasPanel_SWMode_LBtn_Prone UCanvasPanel
+---@field CanvasPanel_SWMode_LBtn_Surfing UCanvasPanel
+---@field CanvasPanel_SWMode_RBtn_Prone UCanvasPanel
+---@field CanvasPanel_SWMode_RBtn_Surfing UCanvasPanel
+---@field CanvasPanel_SWMode_Right_Speedup UCanvasPanel
+---@field Carrier_WeaponIconSlot UCanvasPanel
+---@field ChangeSeatCanvasPanel UCanvasPanel
+---@field CustomizeCanvasPanel_BP_V_62 CustomizeCanvasPanel_BP_C
+---@field CustomizeCanvasPanel_BP_V_86 CustomizeCanvasPanel_BP_C
+---@field CustomizeCanvasPanel_BP_V_93 CustomizeCanvasPanel_BP_C
+---@field CustomizeCanvasPanel_BP_V_94 CustomizeCanvasPanel_BP_C
+---@field CustomizeCanvasPanel_BP_V_95 CustomizeCanvasPanel_BP_C
+---@field CustomizeCanvasPanel_BP_V_96 CustomizeCanvasPanel_BP_C
+---@field CustomizeCanvasPanel_BP_V_97 CustomizeCanvasPanel_BP_C
+---@field CustomizeCanvasPanel_BP_V_98 CustomizeCanvasPanel_BP_C
+---@field CustomizeCanvasPanel_V_63 CustomizeCanvasPanel_BP_C
+---@field CustomizeCanvasPanel_V_64 CustomizeCanvasPanel_BP_C
+---@field CustomizeCanvasPanel_V_65 CustomizeCanvasPanel_BP_C
+---@field CustomizeCanvasPanel_V_66 CustomizeCanvasPanel_BP_C
+---@field CustomizeCanvasPanel_V_67 CustomizeCanvasPanel_BP_C
+---@field CustomizeCanvasPanel_V_68 CustomizeCanvasPanel_BP_C
+---@field CustomizeCanvasPanel_V_69 CustomizeCanvasPanel_BP_C
+---@field CustomizeCanvasPanel_V_70 CustomizeCanvasPanel_BP_C
+---@field CustomizeCanvasPanel_V_71 CustomizeCanvasPanel_BP_C
+---@field CustomizeCanvasPanel_V_72 CustomizeCanvasPanel_BP_C
+---@field CustomizeCanvasPanel_V_83 CustomizeCanvasPanel_BP_C
+---@field CustomizeCanvasPanel_V_84 CustomizeCanvasPanel_BP_C
+---@field DriveDown UButton
+---@field DriveLeft UButton
+---@field DriveRight UButton
+---@field DriverLastWeaponPanel Carrier_WeaponIconButton_C
+---@field DriveUp UButton
+---@field FullImage UImage
+---@field HeightPanel UHorizontalBox
+---@field helicopterDownButton UButton
+---@field helicopterUpButton UButton
+---@field HelicopterUpDownPanel UCanvasPanel
+---@field HorizontalBox_1 UHorizontalBox
+---@field Image_B_HelicopterDriver UImage
+---@field Image_B_HelicopterSeat01 UImage
+---@field Image_B_HelicopterSeat02 UImage
+---@field Image_B_HelicopterSeat03 UImage
+---@field Image_B_HelicopterSeat04 UImage
+---@field Image_B_HelicopterSeat05 UImage
+---@field Image_B_HelicopterSeat06 UImage
+---@field Image_B_HelicopterSeat07 UImage
+---@field Image_B_HelicopterSeat08 UImage
+---@field Image_BoostCD UImage
+---@field Image_FireSlot2 UImage
+---@field Image_FireSlot3 UImage
+---@field Image_FireSlot4 UImage
+---@field Image_FireSlot5 UImage
+---@field Image_FireSlot6 UImage
+---@field Image_FireSlot7 UImage
+---@field Image_FireSlot8 UImage
+---@field Image_HelicopterSeat02 UImage
+---@field Image_HelicopterSeat03 UImage
+---@field Image_HelicopterSeat04 UImage
+---@field Image_HelicopterSeat05 UImage
+---@field Image_HelicopterSeat06 UImage
+---@field Image_HelicopterSeat07 UImage
+---@field Image_HelicopterSeat08 UImage
+---@field Image_KayakBoostCD UImage
+---@field Image_Mode1_LeftSide UImage
+---@field Image_Mode1_LeftSide_Light UImage
+---@field Image_Mode1_RightSide UImage
+---@field Image_Mode1_RightSide_Light UImage
+---@field Image_Mode2_LeftSide UImage
+---@field Image_Mode2_LeftSide_Light UImage
+---@field Image_Mode2_RightSide UImage
+---@field Image_Mode2_RightSide_Light UImage
+---@field Image_Oil UImage
+---@field Image_S_HelicopterSeat01 UImage
+---@field Image_S_HelicopterSeat02 UImage
+---@field Image_S_HelicopterSeat03 UImage
+---@field Image_S_HelicopterSeat04 UImage
+---@field Image_S_HelicopterSeat05 UImage
+---@field Image_S_HelicopterSeat06 UImage
+---@field Image_S_HelicopterSeat07 UImage
+---@field Image_S_HelicopterSeat08 UImage
+---@field Image_S_HelicopterSeatTag01 UImage
+---@field Image_S_HelicopterSeatTag02 UImage
+---@field Image_S_HelicopterSeatTag03 UImage
+---@field Image_S_HelicopterSeatTag04 UImage
+---@field Image_S_HelicopterSeatTag05 UImage
+---@field Image_S_HelicopterSeatTag06 UImage
+---@field Image_S_HelicopterSeatTag07 UImage
+---@field Image_S_HelicopterSeatTag08 UImage
+---@field Image_Seat01Status UImage
+---@field Image_Seat02Status UImage
+---@field Image_Seat03Status UImage
+---@field Image_Seat04Status UImage
+---@field Image_Seat05Status UImage
+---@field Image_Seat06Status UImage
+---@field Image_Seat07Status UImage
+---@field Image_Seat08Status UImage
+---@field Image_ShootingOnTheVehile_On UImage
+---@field Image_TeslaIcon UImage
+---@field Image_ThreeSeats_01_Driver UImage
+---@field Image_VehileIcon UImage
+---@field InvalidationBox_0 UInvalidationBox
+---@field InvalidationBox_3 UInvalidationBox
+---@field InvalidationBox_5 UInvalidationBox
+---@field KayakBoost UButton
+---@field KeroseneBG UImage
+---@field KeroseneBorder UBorder
+---@field KeroseneBtn UButton
+---@field KeroseneCountDownText UTextBlock
+---@field KeroseneCountText UTextBlock
+---@field KeroseneImage UImage
+---@field KeroseneInfoPanel UCanvasPanel
+---@field KerosenePanel UGridPanel
+---@field LaserSailboat_UIBP_Socket UCustomSocketPanel
+---@field Lside_SteeringWeel UImage
+---@field LsideDriveLeft UButton
+---@field LsideDriveRight UButton
+---@field Mode2_Right_Liftup UCanvasPanel
+---@field Mode2_Right_Pushdown UCanvasPanel
+---@field Motorglider_UIBP_Socket UCustomSocketPanel
+---@field NewBtn_AutoDrive_Go UNewButton
+---@field NewBtn_AutoDrive_Go_FX UImage
+---@field NewBtn_AutoDrive_OpenMap UNewButton
+---@field NewBtn_AutoDrive_Pause UNewButton
+---@field NewButton_B_HelicopterSeat01 UNewButton
+---@field NewButton_B_HelicopterSeat02 UNewButton
+---@field NewButton_B_HelicopterSeat03 UNewButton
+---@field NewButton_B_HelicopterSeat04 UNewButton
+---@field NewButton_B_HelicopterSeat05 UNewButton
+---@field NewButton_B_HelicopterSeat06 UNewButton
+---@field NewButton_B_HelicopterSeat07 UNewButton
+---@field NewButton_B_HelicopterSeat08 UNewButton
+---@field NewButton_ShowBigPanel UNewButton
+---@field PanelButtonsOnlyMode UWidgetSwitcher
+---@field PanelSteeringWheelMode UWidgetSwitcher
+---@field PopKart_NodeTips_Socket UCustomSocketPanel
+---@field RabbitVehicleSlot UCustomSocketPanel
+---@field RBtn_Surfing_SlotTips UCanvasPanel
+---@field RightCarSpeaker UButton
+---@field Rside_SteeringWeel UImage
+---@field RsideDriveDown UButton
+---@field RsideDriveUp UButton
+---@field Slider_PlayerCameraOffsetData USlider
+---@field SWMode_Left_Liftup UCanvasPanel
+---@field SWmode_Left_Pushdown UCanvasPanel
+---@field SWMode_Right_Liftup UCanvasPanel
+---@field SWmode_Right_Pushdown UCanvasPanel
+---@field TeleCar_UIBP_Socket UCustomSocketPanel
+---@field Text_Button_MyriapodRun UTextBlock
+---@field Text_LBtn_Surfing UTextBlock
+---@field Text_Mode2_Right_Surfing UTextBlock
+---@field Text_RBtn_Surfing UTextBlock
+---@field Text_SWMode_LBtn_Surfing UTextBlock
+---@field Text_SWMode_RBtn_Surfing UTextBlock
+---@field TextBlock_0 UTextBlock
+---@field TextBlock_29 UTextBlock
+---@field TextBlock_37 UTextBlock
+---@field TextBlock_Boost UTextBlock
+---@field TextBlock_EnergyTips UTextBlock
+---@field TextBlock_KayakBoost UTextBlock
+---@field TimelinePanel UCanvasPanel
+---@field UavUI_UIBP_Socket UCustomSocketPanel
+---@field UcavUI_UIBP_Socket UCustomSocketPanel
+---@field VehicleChangeSeatSocket UCustomSocketPanel
+---@field VehicleInfo_CanvasPanel UCanvasPanel
+---@field VehicleJoystickPanel_Socket UCustomSocketPanel
+---@field VehicleWeaponUISocket UCustomSocketPanel
+---@field WidgetSwitcher_AutoDriveState UWidgetSwitcher
+---@field WidgetSwitcher_KeroseneBG UWidgetSwitcher
+---@field StrVehicleSpeed FString
+---@field StrVehicleFuel FString
+---@field StrVehicleHP FString
+---@field VehicleHealthPercent float
+---@field DriveGUIType int32
+---@field JoystickLRReverted bool
+---@field ButtonLRReverted bool
+---@field IsDriving bool
+---@field IsVehicleControlGUIVisible bool
+---@field Seats ULuaArrayHelper
+---@field ActiveMortorcycleAirControlBtnF UCanvasPanel
+---@field ActiveMortorcycleAirControlBtnB UCanvasPanel
+---@field CurrentBoostAnim UWidgetAnimation
+---@field ActiveSpeedBoostBtn UButton
+---@field ForwardBtnPressed bool
+---@field BoostBtnPressed bool
+---@field FuelItemNum int32
+---@field FuelItemDefID FItemDefineID
+---@field GasCanSkillID int32
+---@field ActiveSurfingBtn UButton
+---@field MaintenanceVehicleItemNum int32
+---@field MaintenanceVehicleItemDefID FItemDefineID
+---@field MaintenanceVehicleSkillID int32
+---@field MaintenanceVehicle_Show bool
+---@field Fuel_Show bool
+---@field VehicleWheelBadNum int32
+---@field ShowBigPanelPressed bool
+---@field HelicoptorSeats ULuaArrayHelper
+---@field BigPanelHovered bool
+---@field ChangeToSeatIndex int32
+---@field StrVehicleHeight FString
+---@field ActiveLampBtn UButton
+---@field KeroseneFurnaceDefID FItemDefineID
+---@field uavUIBP UUserWidget
+---@field KeroseneHightLightBG FSlateBrush
+---@field KeroseneNormalBG FSlateBrush
+---@field ActiveSurfingText UTextBlock
+---@field LeftSecond int32
+---@field ShowSkillPrompt bool
+---@field telecarUIBP UUserWidget
+---@field VehicleSeatPanel UUserWidget
+---@field bShowVehicleSeatPanelPressed bool
+---@field vehicleJoystickUIBP UUserWidget
+---@field SeatTags ULuaArrayHelper
+---@field HelicoptorSeatTags ULuaArrayHelper
+---@field VehicleWeaponUI UUserWidget
+---@field ucavUIBP UUserWidget
+---@field bInitCustomSetting bool
+---@field bChargingState bool
+---@field bUsedVehicleWeapon bool
+---@field VehicleWeaponRef ASTExtraShootWeapon
+---@field FuelItemDefID2 FItemDefineID
+---@field FuelItemList ULuaArrayHelper
+---@field FuelWarningValue float
+---@field MotorgliderUIBP UUAEUserWidget
+---@field PopKartRaceTip UUAEUserWidget
+---@field PopKartAccleratePanel UUAEUserWidget
+---@field bIsBattleshipHighSpeed bool
+---@field ActiveProneBtn UButton
+---@field LaserSailBoatUIBP UUAEUserWidget
+---@field FirstTipsAllowableDistanceChanged bool
+---@field BalloonUIBP UUAEUserWidget
+---@field ExtraUIMap ULuaMapHelper
+---@field LastExtraUI UUserWidget
+---@field VehicleUserComponent BP_VehicleUser_C
+---@field HelicopterNormalSeat ULuaArrayHelper
+---@field HelicopterNormalSeatTag ULuaArrayHelper
+---@field NewVar_0 BP_VehicleUser_C
+---@field NewVar_1 BP_VehicleUser_C
+---@field IsShowBattleResult bool

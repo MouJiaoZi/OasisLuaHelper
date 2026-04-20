@@ -1,0 +1,734 @@
+---@class MainControlBaseUI_C:UUAEUserWidget
+---@field IsCustomUIDataValid:fun(Widget:UWidget,SaveDataSize:FVector2D):bool
+---@field GetQuickSignUIRef:fun():UUAEUserWidget
+---@field TrackShowLoaded:fun()
+---@field ChangeCountDownText:fun()
+---@field UIMsg_VoiceChangerNotify:fun(PlayerKey:FString,VoiceChangerOpen:bool)
+---@field LoadRemoteControlDogUI:fun(NeedCreate:bool):UUserWidget
+---@field UpdateReadySuitSkin:fun()
+---@field IsHideParachuteHeightUI:fun():bool
+---@field UIMsg_ShowAutoPilot:fun(vehicle:ASTExtraVehicleBase)
+---@field GetEntireMapRef:fun():NewEntireMap_C
+---@field GetMiniMapRef:fun():NewMiniMap_C
+---@field UIMsg_WingmanRank1:fun()
+---@field UIMsg_CheckShowTopPlatformTips:fun(NewParam:FClientFatalDamageRecordData)
+---@field LoadRemoteControlTip:fun(NeedCreate:bool):UUserWidget
+---@field UIMsg_RemoteControlPause:fun()
+---@field UIMsg_RemoteControlEnter:fun()
+---@field UIMsg_CloseGunMasterStore:fun()
+---@field UIMsg_AddNewFatalDamageInfo:fun()
+---@field ShouldUpdateCDBarForReplay:fun():bool
+---@field CheckOnLookerWX:fun()
+---@field IsSupportMatchLabel:fun():bool
+---@field CancelChatRemind:fun()
+---@field UpdateOneInspectateTargetHealth:fun(Index:int32)
+---@field OnParachuteClassLoadFinish:fun(parachuteUIClass:UClass,NextOpt:int32)
+---@field InvalidateVehicleCustomizePanelModified:fun()
+---@field UpdateVehicleCustomizePanelLayout:fun()
+---@field UIMsg_ActiveCricleTopTips:fun(NewParam:FString)
+---@field DisplayBlackAirAttackTip:fun()
+---@field ActiveVehicleSkinPanelAsyncFinish:fun()
+---@field ShowVehicleSkinPanel:fun(IsShow:bool)
+---@field UIMsg_ShowSpectatingGiveLike:fun()
+---@field UpdateIngameLogoVisibility:fun()
+---@field UpdateSignalTipPanelVisibility:fun()
+---@field Process_UIMsg_OnEnableSignalSystemChanged:fun()
+---@field RemindTeammateExitGame:fun()
+---@field UIMsg_MapUIUpdateCampAirLineData:fun()
+---@field ActiveCustomWeatherTipsFinish:fun()
+---@field ActiveCustomWeatherTips:fun(NewParam:bool)
+---@field UIMsg_StartChatBarAnim:fun()
+---@field InitMainLocalModule:fun()
+---@field IsGlobalObserverMode:fun():bool
+---@field UIMsg_StartRemoteControl:fun()
+---@field UIMsg_ShowGameStarTipsForWhiteCircle:fun()
+---@field UIMsg_AddExcellentOperationTip:fun()
+---@field UIMsg_ShowTeamerMaxKiller:fun()
+---@field HandleExecGiftSkill:fun()
+---@field ExtendedGiftLogic:fun(GiftData:FGiftTypeData)
+---@field AddNewFatalDamageClassASyncFinish:fun(class:UClass,id:int32)
+---@field IsValidPath:fun(Path:FString):bool
+---@field RemoveDamageAsyncLoadReq:fun(id:int32):bool
+---@field AddDamageAsyncLoadReq:fun(id:int32)
+---@field AddNewFatalDamageInfoASyncFinish:fun(obj:UObject,id:int32)
+---@field UIMsg_ExitUCAV:fun()
+---@field UIMsg_EnterUCAV:fun()
+---@field UIMsg_ShowGameStarTips:fun(EventID:int32)
+---@field UIMsg_MapNoiseClose:fun()
+---@field UIMsg_MapNoiseOpen:fun()
+---@field SignalHPRemainingTimeChange:fun(InRemainTime:float)
+---@field BindInnerCircleDelegate:fun()
+---@field UIMsg_TotalPhysicalGBAboveThree:fun()
+---@field UIMsg_AddGMPanel:fun()
+---@field LoadUAVFlightTip:fun(NeedCreate:bool):UUserWidget
+---@field UIMsg_ShowMedicBulletHitTips:fun(Msg:FString)
+---@field UIMsg_ConcertStart:fun(countDownTime:float)
+---@field UIMsg_EnterSpectating:fun()
+---@field UIMsg_HideFreeCamera:fun()
+---@field UIMsg_ShowFreeCamera:fun()
+---@field UIMSG_SkipCreateParachuteUI_False:fun()
+---@field UIMSG_SkipCreateParachuteUI_True:fun()
+---@field UIMsg_CheckSmallMapIsOpen:fun()
+---@field UIMsg_ShowOccupationSkillTips:fun(skillID:int32)
+---@field UIMsg_ShowMainUIConcert:fun()
+---@field UIMsg_HideMainUIInConcert:fun()
+---@field UIMSG_HideSpringFestival:fun()
+---@field UIMSG_ShowSpringFestival:fun()
+---@field NewYearActivity_HideNoneConcertUI:fun()
+---@field ShowAttachUI:fun(Widget:UActorPositionWidget)
+---@field UIMSG_HideHalloween:fun()
+---@field GameJoyRecorderStart:fun(status:int32)
+---@field UIMSG_ShowHalloween:fun()
+---@field ItemOperation:fun(ItemDefineID:FItemDefineID,optType:EBattleItemOperationType,reason:uint8)
+---@field UIMSG_ShouldShowGlideConfig:fun()
+---@field UIMsg_ToggleBackpackPanel:fun()
+---@field UIMsg_ExitUAV:fun()
+---@field UIMsg_EnterUAV:fun()
+---@field LocalTestGameResult:fun(ModeID:int32,TeamMemNum:int32)
+---@field GetPlayerInfoPanel:fun():UUAEUserWidget
+---@field ReleaseParachutePanelUI:fun()
+---@field SetParachutePanelUIVisibility:fun(InVisibility:ESlateVisibility)
+---@field ShouldCreateParachutePanelUI:fun():bool
+---@field GetParachutePanelUIInstance:fun(ForceCreate:bool,NextOpt:int32):UParachutePanelUI
+---@field DisplayGameTipById:fun(MsgId:int32)
+---@field UpdateLogoPos:fun(IsNormal:bool)
+---@field SetNavigationPanelVisible:fun(Visible:bool)
+---@field InitKillFlowOBS_UIBP:fun()
+---@field UIMsg_ChangeVehicleSkinSuccessNotify:fun(UserName:FString,SkinItemID:int32)
+---@field UIMsg_UpdateVehicleSkinBtn:fun()
+---@field HideForReplayUI:fun()
+---@field OnFinishLoadWinflagNew:fun(loadedclass:UClass,id:int32)
+---@field ShowWinflagNew:fun()
+---@field InitArtQualityLabel:fun()
+---@field ZombieMode_PlayerEnterFighting:fun()
+---@field ZombieBindInLanded:fun()
+---@field UIMsg_OnHiddenRevivalPointTips:fun()
+---@field UIMsg_OnShowRevivalPointTips:fun()
+---@field UIMsg_PlayerInfo_IsCanReceiveGift:fun()
+---@field SetGiftButtonIcon:fun(NewParam:EUTGiftType)
+---@field SetGiftButtonIconCallBack:fun(NewParam:UObject)
+---@field GetTopTipsIconCallBack:fun(Icon:UObject)
+---@field CachePlatformIcon:fun()
+---@field OnLoadPushImageClass:fun(class:UClass)
+---@field PushImage:fun()
+---@field UIMsg_HideWinFlag:fun()
+---@field OnFinishLoadWinflag:fun(loadedclass:UClass)
+---@field ExitSprint:fun()
+---@field DisplayGameWarnTipWithMsgIDAndString:fun(id:int32,Param1:FString,Param2:FString)
+---@field SwitchUIEndDisplayToResult:fun()
+---@field SwitchUIBattleToEndDisplay:fun()
+---@field SwitchUIStartDisplayToBattle:fun()
+---@field SwitchUIBattleToStartDisplay:fun()
+---@field UIMsg_ShowLiveMsg:fun(type:int32)
+---@field AddChildBetweenEntiremapAndMinimap:fun(WidgetInstance:UUserWidget):int32
+---@field ShowWinFlag:fun()
+---@field RefreshFireworksCount:fun(ChangedItemDefineID:FItemDefineID)
+---@field EnableFireworksButton:fun(Enable:bool)
+---@field UIMsg_EnableFireworksUI:fun()
+---@field SetTipsOnImprisonment:fun(InText:FText)
+---@field ClickTipsNo:fun()
+---@field ClickTipsYes:fun(logType:int32)
+---@field SetTips2CountDown:fun(_count:int32)
+---@field ShowReuseTips2:fun(tipsType:int32)
+---@field UIMsg_ResetBattleUI:fun()
+---@field DisplayLastSafeZoneTip:fun()
+---@field PrebuildTouchUp:fun()
+---@field ReadArmorLevelAndDataRow:fun()
+---@field UIMsg_ShowDeathMatchUI:fun()
+---@field HideFatalDamageWidget:fun()
+---@field ShowFatalDamageWidget:fun(WidgetIndex:int32)
+---@field StopBuildOper:fun()
+---@field InitBuildUI:fun()
+---@field HideBuildUI:fun()
+---@field ShowBuildUI:fun()
+---@field RegistZombieEvent:fun()
+---@field UpdateZombieWaveMarker:fun(HalfPix:float)
+---@field OnZombieWaveStart:fun()
+---@field ShowWarningTip:fun(TargetMsg:FText)
+---@field OnZombieWaveWarning:fun(TimeToWaveStart:float)
+---@field CloseLbsMicWhenCorpsMode:fun()
+---@field CheckIsNeedOpenGameJoy:fun():bool
+---@field GetBackpackLevelByID:fun(ItemID:int32):int32
+---@field GetArmourLevelByID:fun(ItemID:int32):int32
+---@field GetEquipLevelByID:fun(ItemID:int32):int32
+---@field HideEscapeNotice:fun()
+---@field UIMsg_ShowEscapeNotice:fun()
+---@field UpdateMatchLabelImage:fun(MatchLabel:UObject)
+---@field IsTopPlatformUseSingleLineTips:fun(Causer:FString,damageType:int32):bool
+---@field UIMsg_HideAirplane:fun()
+---@field UIMsg_ShowAirplane:fun()
+---@field GetTopPlatformCauserColoredText:fun(InString:FString,anchorColorID:int32):FText
+---@field GetTopPlatformVictimeColoredText:fun(InString:FString,anchorColorID:int32):FText
+---@field GetTopPlatformAnchorColor:fun(index:int32):FString
+---@field GetTopPlatformKilledString:fun(Victim:FString,damagetype:int32,anchorColorID:int32):FText
+---@field GetTopPlatformVictimNonIcon:fun(index:int32):FString
+---@field GetTopPlatformVictimNonIconCallback:fun(NewParam:UObject)
+---@field GetTopPlatformVictimIconCallback_0:fun(NewParam:UObject)
+---@field GetTopPlatformVictimIcon:fun(index:int32):FString
+---@field GetTopPlatformCauserIconCallback:fun(NewParam:UObject)
+---@field GetTopPlatformCauserIcon:fun(index:int32):FString
+---@field OpenAndCloseDoor:fun()
+---@field OpenSettingPanel:fun()
+---@field DidBroadcastDawnBegin:fun()
+---@field DidBroadcastDarkMost:fun()
+---@field DidBroadcastDustBegin:fun()
+---@field GetDurabilityByResID:fun(resID:int32):int32
+---@field InitSwimControlUI:fun()
+---@field SetEmoteControlVisibility:fun(Panel:UPanelWidget,IsVisible:bool)
+---@field InvalidateMainControlBaseUI:fun()
+---@field OnClickGMLogic:fun()
+---@field GMClickReg:fun()
+---@field GetKillInfoPanel:fun():KillInfoItem_Socket_UIBP_C
+---@field InitKillInfoPanel:fun()
+---@field UIMsg_RefreshWhenEnterTeamRoom:fun()
+---@field HideMicphoneFx:fun()
+---@field GetDayTimeStr:fun():int32
+---@field RefreshVoiceSpecialImage:fun()
+---@field UpdateVoiceCheckByGameState:fun()
+---@field InitVoiceRelatedFx:fun()
+---@field IsShowHit:fun():bool
+---@field UIMsg_ForceEndConsumeItemUI:fun()
+---@field UIMSG_GameModeDisplayNameChanged:fun()
+---@field UIMsg_ReceivedTranningFieldID:fun()
+---@field NavigateJoystickTips:fun()
+---@field UpdateTraining:fun()
+---@field HideGameTipForLowFPSWarning:fun()
+---@field DisplayLowFPSCountingDown:fun()
+---@field DisplayGameTipForLowFPSWarning:fun()
+---@field RemindOneMsg:fun(InInt:int32,InString:FString,InString2:FString)
+---@field RedrawBackpackUI:fun()
+---@field UIMsg_BigPanelWidgetOpen:fun(UI:FString)
+---@field HideQuickChatMenu:fun()
+---@field RemindQuickChatBtn:fun(ShowRedPoint:bool,ShowTime:int32)
+---@field ShowQuickChatMenu:fun()
+---@field RedrawInvalidationImage:fun()
+---@field UIMsg_MapUIHideAirplaneRoute:fun()
+---@field UIMsg_MapUIDrawAirplaneRoute:fun()
+---@field GetTargetAvatarCurDurability:fun(Arrary:ULuaArrayHelper):int32
+---@field UpdateEquipmentDurability:fun(CurHP:float,RatioHP:float)
+---@field UpdateHelmetAndArmorLevel:fun(BackpackComponent:UBackpackComponent)
+---@field UpdateBagLevel:fun(BackpackComponent:UBackpackComponent)
+---@field DisplayGameTipWithMsgIDAndParam:fun()
+---@field UpdateInspectatTargetHealth:fun()
+---@field UIMsg_ongamemodestatechanged:fun()
+---@field InitVoiceStatus:fun()
+---@field Reconnect_ResetUIByPlayerControllerState:fun()
+---@field ShowFlyingInfo:fun(isShow:bool)
+---@field UIMsg_RefreshFlyNum:fun()
+---@field UpdateItemUsingProgress:fun()
+---@field AlivePlayerNumForMainUI:fun()
+---@field MessageBoxBackToLobby:fun()
+---@field MessageBoxCencel:fun()
+---@field UIMsg_OnPlayerControllerStateChanged:fun()
+---@field DisplayGameTipWithMsgID:fun()
+---@field DisplayAirAttackTip:fun(AirAttackMode:EAirAttackMode)
+---@field DidplayCircleTip:fun(Msg:FText)
+---@field EnterFightingSetUI:fun()
+---@field EnterJumpingSetUI:fun()
+---@field AddNewFatalDamageInfo:fun()
+---@field GetFatalDamageWidget:fun():KillInfoItem_Socket_UIBP_C
+---@field BackPackCDBar:fun(CD:float)
+---@field UIMsg_Parachuting_HeightBarMoveBack:fun()
+---@field UIMsg_Parachuting_HeightBarMoveLeft:fun()
+---@field ShowCountDown:fun(Show:bool)
+---@field InitPlayerState:fun()
+---@field SetAutoSprintUI:fun(AutoSprint:bool)
+---@field UpdatePickupList:fun()
+---@field UpdateCommonBtn:fun(type:ECommonBtn)
+---@field On_CommonBG_MouseButtonDown_0:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field RedrawMinimapAndSettingUI:fun()
+---@field SetRenderTransformIfValid:fun(Position:FVector2D,GridPanel:UPanelWidget)
+---@field On_EntireMapTrigger_MouseButtonDown_0:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field InitJoinGameUIVisible:fun()
+---@field HideJoinGameUI:fun()
+---@field UpdateStartButtonVisible:fun()
+---@field UpdateJoinPlayerNum:fun()
+---@field GetMainControl:fun()
+---@field On_GetOutCarBG_MouseButtonDown_0:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field On_GetInCarBG_MouseButtonDown_0:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field OnCircleBlueCircleRun:fun(time:float)
+---@field OnCircleBlueCirclePreWarning:fun(Time:float)
+---@field OnCircleSafeZoneTips:fun(Time:float)
+---@field InitCircleInfo:fun()
+---@field OnKillTips:fun(TipsBlock:FKilledTipsBlock)
+---@field On_GMConsole_MouseButtonDown_0:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field UnInitDelegate:fun()
+---@field InitDelegate:fun()
+---@field InitPlayerInfo:fun()
+---@field UpdateMarker:fun()
+---@field OnClickMapMarker:fun()
+---@field InitMap:fun()
+---@field ReceivedInitWidget:fun()
+---@field SetCustomizeUIInfo:fun(SaveGame:BP_SAVEGAME_UIElemLayout_C,FireMode:int32)
+---@field Destruct:fun()
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field SetSettingControlUI:fun()
+---@field ResetUIStateAfterRespawn:fun()
+---@field RespawnInitWidget:fun()
+---@field ED_CommonBtn__DelegateSignature:fun(commontype:uint8)
+---@field ED_DriveCar__DelegateSignature:fun(Direction:int32)
+---@field ED_EnterExitCar__DelegateSignature:fun(IsIn:bool)
+---@field TopTips02_anima_long UWidgetAnimation
+---@field DX_Armor UWidgetAnimation
+---@field DX_Helmet UWidgetAnimation
+---@field TopTips03_anima UWidgetAnimation
+---@field TopPlatformTips01_anima UWidgetAnimation
+---@field DX_Number UWidgetAnimation
+---@field Tips3_anima UWidgetAnimation
+---@field Chat_Bar UWidgetAnimation
+---@field DX_Arrow UWidgetAnimation
+---@field BottomTips01_anima_Ver1 UWidgetAnimation
+---@field DX_RunLock UWidgetAnimation
+---@field TipsText01 UWidgetAnimation
+---@field TopTips02_anima UWidgetAnimation
+---@field TopTips01_anima UWidgetAnimation
+---@field BottomTips01_anima UWidgetAnimation
+---@field AutoSprintCountDown UWidgetAnimation
+---@field Armor_BG UImage
+---@field Armor_Image UImage
+---@field Armor_Image_Eff UImage
+---@field Armor_Level UImage
+---@field Armor_RuinPercentage UProgressBar
+---@field ArrowLight01 UImage
+---@field ArrowLight02 UImage
+---@field AutoSprintImage UImage
+---@field AutoSprintImage_Light UImage
+---@field Backpack_Border UBorder
+---@field Backpack_Level UImage
+---@field BackpackBG UImage
+---@field BackpackButton UButton
+---@field BackpackImage UImage
+---@field BackPackPickUpPanel_BP_0 BackPackPickUpPanel_BP_C
+---@field BaozhaTips UImage
+---@field BasicSkillsSocket UCustomSocketPanel
+---@field BattleSceneAvatarDisplay_UIBP BattleSceneAvatarDisplay_UIBP_C
+---@field Border_AutoNavigate UBorder
+---@field Border_ChatAndChatPanel UBorder
+---@field Border_close UBorder
+---@field Border_Microphone UBorder
+---@field Border_Normal UBorder
+---@field Border_QuickLanguage UBorder
+---@field Border_SetBottomTipsColor UBorder
+---@field Border_Setting UBorder
+---@field Border_SetTopTipsColor UBorder
+---@field Border_Sigh_yellow UBorder
+---@field Border_Speaker UBorder
+---@field Border_TopPlatformTipsColor UBorder
+---@field BrokenGlassTips UImage
+---@field BuffPanel_UIBP BuffPanel_UIBP_C
+---@field Button_0 UButton
+---@field Button_B_Sigh_yellow UButton
+---@field Button_Border_close UButton
+---@field Button_Fireworks UNewButton
+---@field Button_noNightVision UButton
+---@field Button_Observed UButton
+---@field Button_ShowMicrophone UButton
+---@field Button_showSpeaker UButton
+---@field Button_tipsDetermine UButton
+---@field Button_tipsRefuse UButton
+---@field Button_yesNightVision UButton
+---@field Canvas_Panel_BackpackGuide UCanvasPanel
+---@field Canvas_Speaker CustomizeCanvasPanel_BP_C
+---@field CanvasEnterSetting UCanvasPanel
+---@field CanvasFluctuationtips UCanvasPanel
+---@field CanvasFluctuationtips2 UCanvasPanel
+---@field CanvasPanel_0 UCanvasPanel
+---@field CanvasPanel_5 UCanvasPanel
+---@field CanvasPanel_8 UCanvasPanel
+---@field CanvasPanel_9 UCanvasPanel
+---@field CanvasPanel_11 UCanvasPanel
+---@field CanvasPanel_12 UCanvasPanel
+---@field CanvasPanel_13 UCanvasPanel
+---@field CanvasPanel_16 UCanvasPanel
+---@field CanvasPanel_47 UCanvasPanel
+---@field CanvasPanel_2th_AirShip UCanvasPanel
+---@field CanvasPanel_ActorUISlot UCanvasPanel
+---@field CanvasPanel_AdditionalButton UCanvasPanel
+---@field CanvasPanel_AdditionalTips UCanvasPanel
+---@field CanvasPanel_ArrowVfxGroup UCanvasPanel
+---@field CanvasPanel_AsianGames UCanvasPanel
+---@field CanvasPanel_AutoJoinPanel UCanvasPanel
+---@field CanvasPanel_AutoNavigate UCanvasPanel
+---@field CanvasPanel_BackPack_ChangeSuit UCanvasPanel
+---@field CanvasPanel_BackpackPanel UCanvasPanel
+---@field CanvasPanel_BackpackSlot UCanvasPanel
+---@field CanvasPanel_CG017_Arts_Timeliness UCanvasPanel
+---@field CanvasPanel_CG018_Arts_Timeliness UCanvasPanel
+---@field CanvasPanel_ChristmasSlot UCanvasPanel
+---@field CanvasPanel_CircleTipsPanel UCanvasPanel
+---@field CanvasPanel_CustomSkiSlot UCanvasPanel
+---@field CanvasPanel_DontHide UCanvasPanel
+---@field CanvasPanel_FireMode UCanvasPanel
+---@field CanvasPanel_FreeCamera UCanvasPanel
+---@field CanvasPanel_FX_Sound UCanvasPanel
+---@field CanvasPanel_FX_YY UCanvasPanel
+---@field CanvasPanel_HelmetArmor UCanvasPanel
+---@field CanvasPanel_HItTips UCanvasPanel
+---@field CanvasPanel_IDPanel UCanvasPanel
+---@field CanvasPanel_IslandPeople UCanvasPanel
+---@field CanvasPanel_KillTipsOBS UCanvasPanel
+---@field CanvasPanel_LocatorPanel UCanvasPanel
+---@field CanvasPanel_MahjongGuide UCanvasPanel
+---@field CanvasPanel_Main UCanvasPanel
+---@field CanvasPanel_Micphone UCanvasPanel
+---@field CanvasPanel_MicTips UCanvasPanel
+---@field CanvasPanel_MiniMapAndSetting UCanvasPanel
+---@field CanvasPanel_Navigating UCanvasPanel
+---@field CanvasPanel_NumOfPeopleInAircraft UCanvasPanel
+---@field CanvasPanel_ObjectIcon UCanvasPanel
+---@field CanvasPanel_Observed UCanvasPanel
+---@field CanvasPanel_OnlookersSocket UCanvasPanel
+---@field CanvasPanel_ParachutingMsg UCanvasPanel
+---@field CanvasPanel_ParachutingMsg2 UCanvasPanel
+---@field CanvasPanel_PhotoShareLayer UCanvasPanel
+---@field CanvasPanel_quality UCanvasPanel
+---@field CanvasPanel_QuickLanguage UCanvasPanel
+---@field CanvasPanel_QuickLanguage01 UCanvasPanel
+---@field CanvasPanel_QuickSign UCanvasPanel
+---@field CanvasPanel_RevivalPoint UCanvasPanel
+---@field CanvasPanel_Ring UCanvasPanel
+---@field CanvasPanel_RunState UCanvasPanel
+---@field CanvasPanel_SignalTower UCanvasPanel
+---@field CanvasPanel_SkiSlot UCanvasPanel
+---@field CanvasPanel_Speaker UCanvasPanel
+---@field CanvasPanel_TeamerKillTipSlot UCanvasPanel
+---@field CanvasPanel_TimeDown UCanvasPanel
+---@field CanvasPanel_TopTips UCanvasPanel
+---@field CanvasPanel_TrainingModeSlot UCanvasPanel
+---@field CanvasPanel_TRM_HeadTips UCanvasPanel
+---@field CanvasPanel_VehicleSkin UCustomSocketPanel
+---@field CanvasPanel_VehicleSkinBtn UCanvasPanel
+---@field CanvasPanel_WingmanRank UCanvasPanel
+---@field CanvasPanel_ZombieCheckPanel UCanvasPanel
+---@field CanvasPanelEscapeNotice UCanvasPanel
+---@field CanvasPanelEscapeNotice2 UCanvasPanel
+---@field CanvasPanelSurviveKill UCanvasPanel
+---@field CanvasQuickMenu UCanvasPanel
+---@field CarlaGold_BackpackSocket UCustomSocketPanel
+---@field CarlaGold_BackpackSocket2 UCanvasPanel
+---@field CarTips UImage
+---@field CDBarUI_BP CDBarUI_BP_C
+---@field ChangeSight_UIBP ChangeSight_UIBP_C
+---@field Chat UCanvasPanel
+---@field ChatAndChatPanelCanvas UCanvasPanel
+---@field CircleChasingProgress CircleChasingProgress_C
+---@field CircleTips UTextBlock
+---@field CircleTipsBG UImage
+---@field Countdown UTextBlock
+---@field CP_PushImage UCanvasPanel
+---@field CustomizeQuickLanguage CustomizeCanvasPanel_BP_C
+---@field CustomSocket_AsianCountdown UCustomSocketPanel
+---@field CustomSocket_AsianTeam UCustomSocketPanel
+---@field CustomSocket_AsianTime UCustomSocketPanel
+---@field CustomSocket_EmergencyCall UCustomSocketPanel
+---@field CustomSocketPanel_InnerCircle UCustomSocketPanel
+---@field CustomSocketPanel_WeatherTips UCustomSocketPanel
+---@field DX_Light_C06 UImage
+---@field DX_Light_C07 UImage
+---@field DX_Light_C08 UImage
+---@field DynaCanvasPanel_Hit_FeedBack UDynaCanvasPanel
+---@field Emote_DrivingControl UCanvasPanel
+---@field Emote_FlyingControl UCanvasPanel
+---@field Emote_SettingControl UCanvasPanel
+---@field Emote_SpectatingControl UCanvasPanel
+---@field Emote_SwimingControl UCanvasPanel
+---@field EntireMapTrigger UButton
+---@field Fireworks_Number UTextBlock
+---@field Fireworks_UIBP UCanvasPanel
+---@field footTips UImage
+---@field FX_Scaleimage UImage
+---@field FX_Sound UImage
+---@field FX_SoundS UImage
+---@field FX_wave UImage
+---@field FX_wave_BG UImage
+---@field FX_YY UImage
+---@field FX_YYS UImage
+---@field FX_ZBLight01 UImage
+---@field FX_ZBLight02 UImage
+---@field FX_ZBLight03 UImage
+---@field GM UButton
+---@field GridPanel_Armor UGridPanel
+---@field GridPanel_Helmet UGridPanel
+---@field GridPanel_NavigateCD UGridPanel
+---@field HalloweenTips UCustomSocketPanel
+---@field Helmet_BG UImage
+---@field Helmet_Image UImage
+---@field Helmet_Image_Eff UImage
+---@field Helmet_Level UImage
+---@field Helmet_RuinPercentage UProgressBar
+---@field HorizontalBox_KeepRunningTips UHorizontalBox
+---@field HorizontalBox_NavigatingTips UHorizontalBox
+---@field HorizontalBox_Team UHorizontalBox
+---@field Image_0 UImage
+---@field Image_24 UImage
+---@field Image_51 UImage
+---@field Image_65 UImage
+---@field Image_89 UImage
+---@field Image_103 UImage
+---@field Image_BackPackCDBar UImage
+---@field Image_BG UImage
+---@field Image_ChatCDBar UImage
+---@field Image_colour UImage
+---@field Image_Fireworks UImage
+---@field Image_FullStatus UImage
+---@field Image_HideMicrophonePanel UImage
+---@field Image_HideVoicePanel UImage
+---@field Image_hot UImage
+---@field Image_IngameLogo UImage
+---@field Image_interphone UImage
+---@field Image_Microphone UImage
+---@field Image_MicrophoneDisabled UImage
+---@field Image_PlatformIcon UImage
+---@field Image_SettingConsoleBtn UImage
+---@field Image_TeamTypeLogo UImage
+---@field Image_tipsbg UImage
+---@field Image_TipsICON UImage
+---@field Image_TopPlatformIcon1 UImage
+---@field Image_TopPlatformIcon2 UImage
+---@field Image_VehicleSkinBtn UImage
+---@field Image_Voice UImage
+---@field Image_VoiceDisabled UImage
+---@field IngamePhoneInfo_UIBP IngamePhoneInfo_UIBP_C
+---@field InvalidationBox_2 UInvalidationBox
+---@field InvalidationBox_3 UInvalidationBox
+---@field InvalidationBox_6 UInvalidationBox
+---@field InvalidationBox_7 UInvalidationBox
+---@field InvalidationBox_8 UInvalidationBox
+---@field InvalidationBox_9 UInvalidationBox
+---@field InvalidationBox_GM UInvalidationBox
+---@field InvalidationBox_TipsContainer UInvalidationBox
+---@field IslandSurviveCountText UTextBlock
+---@field KillFightBack_LimitSlot UCanvasPanel
+---@field KillTipContainer UGridPanel
+---@field MatchLabel_LevelControl UHorizontalBox
+---@field MicphonePanel_UIBP MicphonePanel_UIBP_C
+---@field MicrophoneBG UImage
+---@field MiniMap UCanvasPanel
+---@field MiniMapAndSettingBorder UBorder
+---@field MiniMapBox UCanvasPanel
+---@field NavigatorPanel NavigatorPanel_C
+---@field NewButton_VehicleSkinBtn UNewButton
+---@field NewEntireMap NewEntireMap_C
+---@field NewFreeCameraBtn FreeCameraBtn_C
+---@field NewMiniMap NewMiniMap_C
+---@field NewYearConcertCountDownSocket UCustomSocketPanel
+---@field NewYearCountDown UCustomSocketPanel
+---@field OB_StarGameTips UCanvasPanel
+---@field OccupationTipsSocket UCustomSocketPanel
+---@field PlayerInfoSocket UCustomSocketPanel
+---@field ProgressBar_NavigateCD UProgressBar
+---@field QuickDecal_BP QuickDecal_BP_C
+---@field QuickExpressionUIBP QuickExpressionUIBP_C
+---@field QuickMenu_BP QuickMenu_BP_C
+---@field RemoteControlDog UCustomSocketPanel
+---@field Resurrection_Mode UCanvasPanel
+---@field SettingBG UImage
+---@field SettingConsole UImage
+---@field SettingConsoleBtn UButton
+---@field shotTips UImage
+---@field ShousanTips UImage
+---@field ShowTrack UCustomSocketPanel
+---@field SignalReceivingAreaTIPS_UIBP SignalReceivingAreaTIPS_UIBP_C
+---@field SkiMainUI UCanvasPanel
+---@field SlienceTips UImage
+---@field SpeakerBG UImage
+---@field SpeakerPanel_UIBP SpeakerPanel_UIBP_C
+---@field SurviveInfoPanel SurviveInfoPanel_C
+---@field TextBlock_0 UTextBlock
+---@field TextBlock_16 UTextBlock
+---@field TextBlock_AdditionalTips UTextBlock
+---@field TextBlock_backpackTips UTextBlock
+---@field TextBlock_BID UTextBlock
+---@field TextBlock_FollowTips UTextBlock
+---@field TextBlock_Microphonestatus UTextBlock
+---@field TextBlock_ModeName UTextBlock
+---@field TextBlock_NumOfPeopleInAircraft UTextBlock
+---@field TextBlock_PID UTextBlock
+---@field TextBlock_quality UTextBlock
+---@field TextBlock_SpeakerStatus UTextBlock
+---@field TextBlock_TeamType UTextBlock
+---@field TextBlock_TimeDown UTextBlock
+---@field TextBlock_WaitingTips UTextBlock
+---@field TextGameStartCountDown UTextBlock
+---@field TextScale UTextBlock
+---@field tips2CountDown UTextBlock
+---@field TipsPanel KilledTipsPanel_C
+---@field TmodePanel UCanvasPanel
+---@field TopPlatformPlayerName1 UUTRichTextBlock
+---@field TopPlatformPlayerName2 UUTRichTextBlock
+---@field TopPlatformPlayerName3 UUTRichTextBlock
+---@field TopTipsCommon UUTRichTextBlock
+---@field TopTipsDanger UUTRichTextBlock
+---@field TopTipsWaining UUTRichTextBlock
+---@field TrainingModeNew_Socket UCustomSocketPanel
+---@field TX_TipsNo UTextBlock
+---@field TX_TipsYes UTextBlock
+---@field UTRichTextBlock_0 UUTRichTextBlock
+---@field UTRichTextBlock_1 UUTRichTextBlock
+---@field UTRichTextBlock_0TIPS UUTRichTextBlock
+---@field UTRichTextBlock_Airplane UUTRichTextBlock
+---@field UTRichTextBlock_eliminate UUTRichTextBlock
+---@field UTRichTextBlock_kalajin UUTRichTextBlock
+---@field UTRichTextBlock_TipsContent UUTRichTextBlock
+---@field UTRichTextBlock_ysy UUTRichTextBlock
+---@field VoiceCheckPanel UCanvasPanel
+---@field VoiceCheckPanel_AngleRoot UCanvasPanel
+---@field VoicePanel UCanvasPanel
+---@field WidgetSwitcher_Chat UWidgetSwitcher
+---@field WidgetSwitcher_Run UWidgetSwitcher
+---@field WidgetSwitcher_TopPlatformTips UWidgetSwitcher
+---@field WidgetSwitcher_TopTips UWidgetSwitcher
+---@field WModePanel UCanvasPanel
+---@field STExtraPlayerController ASTExtraPlayerController
+---@field Marker bool
+---@field EnterCarShow ESlateVisibility
+---@field ExitCarShow ESlateVisibility
+---@field MainControl MainControlPanelTochButton_C
+---@field ED_EnterExitCar ULuaMulticastDelegate
+---@field ED_DriveCar ULuaMulticastDelegate
+---@field KillTipsValue FString
+---@field CircleInfo FText
+---@field CircleInfoShow ESlateVisibility
+---@field DamageTextValue FString
+---@field STExtraGameStateBase ASTExtraGameStateBase
+---@field AirAttackWarningText FText
+---@field BlueWarningBrush FSlateBrush
+---@field RedWarningBrush FSlateBrush
+---@field NavigateCorrecteAngle float
+---@field ED_CommonBtn ULuaMulticastDelegate
+---@field CommonBtnType ECommonBtn
+---@field CommonBtnType_brush ULuaArrayHelper
+---@field STExtraPlyaerState ASTExtraPlayerState
+---@field IsShowingCountDown bool
+---@field FatalDamageCount int32
+---@field CurFatalDamageWidget KillInfoItem_Socket_UIBP_C
+---@field FatalDamageElapsedTime float
+---@field PrevFatalDamageWidget KillInfoItem_Socket_UIBP_C
+---@field CurFatalDamageClearTimer FTimerHandle
+---@field BackToLobbyBox UUserWidget
+---@field ItemCDCurTime float
+---@field DebugPing int32
+---@field SettingConfig SettingConfig_C
+---@field PingDebug bool
+---@field BagSubType int32
+---@field HelmetSubType int32
+---@field ArmorSubType int32
+---@field BagItemInBag FBattleItemData
+---@field HelmetItemInBag FBattleItemData
+---@field ArmorItemInBag FBattleItemData
+---@field Level1Image FSlateBrush
+---@field Level2Image FSlateBrush
+---@field HelmetLevel1Image FSlateBrush
+---@field Level3Image FSlateBrush
+---@field CacheCapacity float
+---@field CacheHelmetDefineID FItemDefineID
+---@field CacheArmorDefineID FItemDefineID
+---@field CacheArmorDurability int32
+---@field CacheHelmetDurability int32
+---@field HelmetLevel2Image FSlateBrush
+---@field HelmetLevel3Image FSlateBrush
+---@field ArmorLevel1Image FSlateBrush
+---@field ArmorLevel2Image FSlateBrush
+---@field ArmorLevel3Image FSlateBrush
+---@field VoiceCheckObject UIVoiceCheckObject_C
+---@field BackpackLevel1Image FSlateBrush
+---@field BackpackLevel2Image FSlateBrush
+---@field BackpackLevel3Image FSlateBrush
+---@field BackpackDefaultImage FSlateBrush
+---@field bReminding bool
+---@field RemindList ULuaArrayHelper
+---@field currRemind FMainUIRemingTips
+---@field ChatOpenTime float
+---@field SpeakerFlag bool
+---@field MicphoneFlag bool
+---@field PlayerIdList ULuaArrayHelper
+---@field TextMemberIndexList ULuaArrayHelper
+---@field MemberForbidMarkList ULuaArrayHelper
+---@field teammateVoiceItemList ULuaArrayHelper
+---@field MicphoneFxHided bool
+---@field teammateVoiceStateList ULuaMapHelper
+---@field KillInfoPanelCache ULuaMapHelper
+---@field KillInfoPanelCacheIndex int32
+---@field CacheAutoSprint bool
+---@field SwimControlArray ULuaArrayHelper
+---@field HasRecevieInitWidgetEvent bool
+---@field VictimKillTipLogoImg UImage
+---@field KillInfoImageDownloader UObject
+---@field MapZBufferFlag bool
+---@field FightStyleTextDict ULuaMapHelper
+---@field FightStyleImagePath ULuaMapHelper
+---@field IsNeedTeamPanel bool
+---@field EquipmentIDToLevel ULuaMapHelper
+---@field Level4Image FSlateBrush
+---@field HelmetLevel4Image FSlateBrush
+---@field ArmorLevel4Image FSlateBrush
+---@field BackpackLevel4Image FSlateBrush
+---@field EquipmentIDDurability ULuaMapHelper
+---@field TipsCount int32
+---@field TipsType int32
+---@field isMicphonePressing bool
+---@field isPressChecking bool
+---@field LiveTipsMsg ULuaArrayHelper
+---@field VoicePanelOldPos FVector2D
+---@field EmoteButtonOldPos FVector2D
+---@field VoicePanelAvatarDisplayPos FVector2D
+---@field EmoteButtonAvatarDisplayPos FVector2D
+---@field LiveTipsColor ULuaArrayHelper
+---@field WinFlag UUserWidget
+---@field IsPushImage bool
+---@field UpdateConsumableSkillCountdownTimer FTimerHandle
+---@field PlatformPrefixMap ULuaMapHelper
+---@field GiftTypeToIconMap ULuaMapHelper
+---@field ActivityEntryEvent EUTSkillEntry
+---@field RevivalPointWidget UUAEUserWidget
+---@field isBossComingHasShow bool
+---@field GiftTypeRecord EUTGiftType
+---@field LastUpdateArtQuality ERenderQuality
+---@field WinFlagNew UUserWidget
+---@field KillFlowObs_UIBP KillFlowOBS_UIBP_C
+---@field ParachutePanelInstance UParachutePanelUI
+---@field AutoGroupParachuteTeamTipBar UUAEUserWidget
+---@field AutoFollowTipsLastTime float
+---@field HasSetAutoSprintUI bool
+---@field YearMonsterInMapRecord bool
+---@field bSkipCreateParachuteUI bool
+---@field AutoFollowTipsDelayShowWaitingTime float
+---@field UIGM UUserWidget
+---@field MedicBulletHitUI PMode_MedicSoldierStateTips_UIBP_C
+---@field MedicBulletHitUIValue FString
+---@field MedicBulletTimerHandle FTimerHandle
+---@field WarModeUI UUserWidget
+---@field uavFlightTip UUserWidget
+---@field InnerCircle BP_FakeRadiation_C
+---@field InnerSignalTipsInit bool
+---@field KillIconList ULuaArrayHelper
+---@field StarGameTipsPanel OB_StarGameTips_UIBP_C
+---@field FatalDamageIndex int32
+---@field FatalDamageMap ULuaMapHelper
+---@field FatalDamageList ULuaArrayHelper
+---@field FatalDamageCountMap ULuaMapHelper
+---@field SyncObjList ULuaArrayHelper
+---@field SyncClassList ULuaArrayHelper
+---@field GiftSubType BPGiftTypeExtension
+---@field GiftConfigDataAsset BP_GiftConfigData_C
+---@field bHasFreeCamera bool
+---@field PutDownMsgTime float
+---@field RevengerTextList ULuaArrayHelper
+---@field NewVar_0 FString
+---@field AirAttackWarningIndex int32
+---@field CricleActive bool
+---@field ParachuteCallbackVisibility ESlateVisibility
+---@field CancelChatRemindTimer FTimerHandle
+---@field SuperColdSnowboardBtn UUserWidget
+---@field ChatReminding bool
+---@field RemoteControlTip UUserWidget
+---@field hasLoadWingRankUI bool
+---@field ExcellOPCauserName FString
+---@field ExcellOPResultType EExcellentOperationResultType
+---@field bUseTipsManager bool
+---@field RemoteControlDogUI UUserWidget
+---@field CustomSettingTrialUIName FName
+---@field StaticCountDownText FText
+---@field ShowQuickSignUIName FName
+---@field QuickSignUIRef UUAEUserWidget
+---@field bNeedShowQuickSign bool

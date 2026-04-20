@@ -1,0 +1,3 @@
+---@class BP_UTssAntiDataSingletonBase_C:UTssAntiDataSingletonBase
+---@field OnCallAntiData:fun(FireCall:bool,HeartbeatCall:bool,IsSpectator:bool)
+---@field LastCRC int64

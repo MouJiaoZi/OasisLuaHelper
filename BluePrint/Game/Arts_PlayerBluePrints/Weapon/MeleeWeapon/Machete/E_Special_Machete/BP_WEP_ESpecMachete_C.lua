@@ -1,0 +1,11 @@
+---@class BP_WEP_ESpecMachete_C:ASTExtraWeapon_Throw
+---@field GetSkillIndexForMeleeWeapon:fun():int32
+---@field GetSkillEntryForMeleeWeapon:fun(IsPressed:bool):EUTSkillEntry
+---@field UserConstructionScript:fun()
+---@field WeaponTriggerEventHandleSkill UWeaponTriggerEventHandleSkill
+---@field CrossHair UCrossHairComponent
+---@field WeaponStateDefault UWeaponStateDefault
+---@field WeaponStateManager UWeaponStateManager
+---@field WeaponSpecificHandler UWeaponSpecificHandler
+---@field WeaponAnimList_Melee WeaponAnimList_Melee_C
+---@field WeaponEntity UWeaponEntity

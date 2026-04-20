@@ -1,0 +1,1 @@
+---@class BP_ClassicGameModeStateFightingTeam_C:UGameModeStateFightingTeam

@@ -1,0 +1,6 @@
+---@class GM_BorderlandTimeUI_C:UUAEUserWidget
+---@field OnMouseButtonDown_1:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field OnMouseButtonDown_0:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field TextBlock0 UEditableTextBox
+---@field TextBlock1 UEditableTextBox
+---@field RespawnProgressTimer FTimerHandle

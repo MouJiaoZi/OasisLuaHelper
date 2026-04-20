@@ -1,0 +1,6 @@
+---@class Wire_ShootCable_BP_C:ACableActor
+---@field SetLength:fun(CableLength:float)
+---@field UserConstructionScript:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field LengthScale float
+---@field MaxLength float

@@ -1,0 +1,1 @@
+---@class BP_SkillCondition_IsPlacementSucceeded_C:UUAESkillCondition

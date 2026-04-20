@@ -1,0 +1,10 @@
+---@class BP_Other_Shield_C:BP_ShootWeaponBase_C
+---@field StartFireEvent:fun()
+---@field UserConstructionScript:fun()
+---@field OnWeaponMagOut:fun()
+---@field MagOutDelayEvent__DelegateSignature:fun()
+---@field WeaponAnimList_Other_Shield WeaponAnimList_Other_Shield_C
+---@field bUseIdleAnim_0_0 bool
+---@field MagOutDelayEvent ULuaMulticastDelegate
+---@field IsShowDebugWeapon bool
+---@field DebugWeapon AActor

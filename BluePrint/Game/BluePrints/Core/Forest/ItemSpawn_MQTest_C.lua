@@ -1,0 +1,1 @@
+---@class ItemSpawn_MQTest_C:UItemSpawn_WaterMelon_C

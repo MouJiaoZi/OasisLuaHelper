@@ -1,0 +1,1 @@
+---@class BP_Sniper_railgun_BattleItemHandle1_Lobby_C:UBackpackWeaponHandle

@@ -1,0 +1,54 @@
+---@class PersistEffectGM_C:UPersistEffectBase
+---@field GetLuaModule:fun():FString
+---@field RequestSingleAttr:fun(TargetActor:AActor,AttrName:FString)
+---@field SetCharacterHealth:fun(Character:ASTExtraBaseCharacter,Health:float)
+---@field ResetAllAttrModify:fun(TargetActor:AActor)
+---@field ResetAttrModify:fun(InOwnerActor:AActor,AttrName:FString)
+---@field DispatchAllLogs:fun(AllLogs:ULuaArrayHelper)
+---@field BindPEGM:fun()
+---@field RequestAllLogs:fun()
+---@field UnBindSkill:fun()
+---@field RemovePEGM:fun()
+---@field SetAttrValue:fun(AttrName:FString,AttrValue:float,TargetActor:AActor)
+---@field GetAllAttrServer:fun(TargetActor:AActor):ULuaArrayHelper,ULuaArrayHelper
+---@field RequestAllAttr:fun(TargetActor:AActor)
+---@field RemoveSkill:fun(TargetActor:AActor,PESkill:UPersistEffectSkill)
+---@field ReleaseSkill:fun(InSkill:UPersistEffectSkill)
+---@field GetTag:fun(InCharacter:ASTExtraBaseCharacter)
+---@field AddSkill:fun(TargetActor:AActor,PersistEffectSkill:UClass,SlotTagName:FName)
+---@field OnDeactivate:fun(Reason:EPESkillDeActivateReason)
+---@field OnActivateCheckFailed:fun(Reason:EPESkillActivatableReason)
+---@field BindSkillState:fun(InSkill:UPersistEffectSkill)
+---@field GetObjectPath:fun(ObjectReference:UObject):FString
+---@field GetAllBuff:fun(InActor:AActor):ULuaArrayHelper
+---@field RemoveBuff:fun(TargetActor:AActor,BuffClass:UClass,RemoveNum:int32)
+---@field SetSkillConsume:fun(InSkill:UPersistEffectSkill,AttrValues:ULuaArrayHelper,ItemIDs:ULuaArrayHelper,ItemNums:ULuaArrayHelper)
+---@field AddBuff:fun(PersistEffectBuff:UClass,Time:float,StackNum:int32,TargetActor:AActor,CauserActor:AActor,bForce:bool)
+---@field GetSkillClasses:fun():ULuaArrayHelper
+---@field GetBuffClasses:fun():ULuaArrayHelper
+---@field GetAllSkill:fun(目标:AActor):ULuaArrayHelper
+---@field AddBuffStackNum:fun(Buff:UPersistEffectBuff,AddNum:int32)
+---@field OnReceiveSingleAttr__DelegateSignature:fun(TargetActor:AActor,AttrName:FString,AttrValue:float)
+---@field OnReceiveNewLog__DelegateSignature:fun(NewLog:FString,TimeStamp:FDateTime)
+---@field OnReceiveAllLogs__DelegateSignature:fun(AllLogs:ULuaArrayHelper)
+---@field OnReceiveAllAttrs__DelegateSignature:fun(AttrNames:ULuaMapHelper)
+---@field OnReceiveTags__DelegateSignature:fun(Tags:FGameplayTagContainer,TargetCharacter:ASTExtraBaseCharacter)
+---@field DeactivateHandle__DelegateSignature:fun(Reason:EPESkillDeActivateReason)
+---@field CheckActivateFailedHandle__DelegateSignature:fun(Reason:EPESkillActivatableReason)
+---@field CheckActivateFailedHandle ULuaMulticastDelegate
+---@field DeactivateHandle ULuaMulticastDelegate
+---@field OnReceiveTags ULuaMulticastDelegate
+---@field OnReceiveAllAttrs ULuaMulticastDelegate
+---@field AttributesMap ULuaMapHelper
+---@field BindedSkill UPersistEffectSkill
+---@field SkillPaths ULuaArrayHelper
+---@field BuffPaths ULuaArrayHelper
+---@field OnReceiveAllLogs ULuaMulticastDelegate
+---@field OnReceiveNewLog ULuaMulticastDelegate
+---@field ReferenceCount int32
+---@field LogsCache ULuaArrayHelper
+---@field AttrModifyMap ULuaMapHelper
+---@field OnReceiveSingleAttr ULuaMulticastDelegate
+---@field TimeHandle FTimerHandle
+---@field LogsRemember ULuaArrayHelper
+---@field LogsCount int32

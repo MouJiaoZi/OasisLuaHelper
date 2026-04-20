@@ -1,0 +1,5 @@
+---@class BP_PlaneCloudCloudFxActor_C:AActor
+---@field UserConstructionScript:fun()
+---@field CloudFX UParticleSystemComponent
+---@field DefaultSceneRoot USceneComponent
+---@field DelayTime float

@@ -1,0 +1,2 @@
+---@class NewResult_WaitingTips_UIBP_C:UUAEUserWidget
+---@field WaitingNode_Tips UCanvasPanel

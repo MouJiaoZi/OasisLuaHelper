@@ -1,0 +1,5 @@
+---@class ResultTitleItemInterface_C:UInterface
+---@field SetTitleSayHelloInfo:fun(flag:bool):bool
+---@field NoReturnNoParam:fun()
+---@field TestDjw:fun(NewParam:bool,NewParam1:bool):bool
+---@field RefreshAssistStatus:fun(isSingleMode:bool):bool

@@ -1,0 +1,2 @@
+---@class BackpackSkill_Interface_C:UInterface
+---@field ResetOpenStatusInf:fun():bool

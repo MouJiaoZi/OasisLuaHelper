@@ -1,0 +1,1 @@
+---@class WeaponAnimList_Pistol_DBNO_DesertEagle_C:UUAECharacterAnimListComponent

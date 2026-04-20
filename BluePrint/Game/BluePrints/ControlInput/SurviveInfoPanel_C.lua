@@ -1,0 +1,31 @@
+---@class SurviveInfoPanel_C:UUAEUserWidget
+---@field UIMsg_UserSetLiveNumber:fun(var:int32)
+---@field UIMsg_UserSetKillNumber:fun(var:int32)
+---@field ChangeClockColorByCircleIndex:fun(CircleIndex:int32)
+---@field ReadClockColorTable:fun()
+---@field UpdateClock:fun(GameProgress:float)
+---@field GetMaxGameTime:fun()
+---@field UpdateElapsedColor:fun(GameProgress:float)
+---@field UpdatePointerRot:fun(GameProgress:float)
+---@field UIMsg_ForceUpdate_KillNums:fun()
+---@field UIMsg_ForceUpdate_SurviveNums:fun()
+---@field UIMsg_RefreshKillNum:fun()
+---@field Construct:fun()
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field ReceivedInitWidget:fun()
+---@field CanvasPanel_2 UCanvasPanel
+---@field CanvasPanel_KillPanel UCanvasPanel
+---@field CanvasPanel_KillPanelReplay UCanvasPanel
+---@field Image_Hour UImage
+---@field Image_Mask UImage
+---@field SlainCountText UTextBlock
+---@field SurviveCountText UTextBlock
+---@field SurviveCount FString
+---@field STExtraGameState ASTExtraGameStateBase
+---@field SlainCount FString
+---@field STExtraPlayerState ASTExtraPlayerState
+---@field MaxGameTime float
+---@field ClockElapsedMaterial UMaterialInstanceDynamic
+---@field CircleIndexToClockColorMap ULuaMapHelper
+---@field IsInited bool
+---@field isCheating bool

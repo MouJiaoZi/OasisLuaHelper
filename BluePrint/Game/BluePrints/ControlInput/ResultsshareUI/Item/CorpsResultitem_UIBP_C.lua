@@ -1,0 +1,11 @@
+---@class CorpsResultitem_UIBP_C:UUserWidget
+---@field UpdateMyHead:fun()
+---@field UpdateTeammateHead:fun()
+---@field Common_Avatar_BP Common_Avatar_BP_C
+---@field Image_MVP UImage
+---@field KillNum UTextBlock
+---@field TB_DamageNum UTextBlock
+---@field TB_PlayerName UTextBlock
+---@field TB_Score UTextBlock
+---@field WS_Position UWidgetSwitcher
+---@field name FString

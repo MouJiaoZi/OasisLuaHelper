@@ -1,0 +1,4 @@
+---@class UsingItemEventDataGetter_C:UUAESkillCollectedEventDataGetter
+---@field GetCollectedEventDataFromEventId:fun(STExtraCharacter:ASTExtraCharacter,EventId:ECollectedEventDataEventId):FCollectedEventData
+---@field Status FString
+---@field ItemDefineId FItemDefineID

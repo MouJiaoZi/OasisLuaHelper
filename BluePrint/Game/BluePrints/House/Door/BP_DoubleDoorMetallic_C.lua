@@ -1,0 +1,1 @@
+---@class BP_DoubleDoorMetallic_C:ABP_DoubleDoorNormal_C

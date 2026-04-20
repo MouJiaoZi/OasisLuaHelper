@@ -1,0 +1,13 @@
+---@class Profession_SkillUPTips_UIBP_C:UUAEUserWidget
+---@field ShowSkillTipsInf:fun(skillID:int32):bool
+---@field RefreshIcon:fun(obj:UObject,id:int32)
+---@field RemindOneMsg:fun(skillID:int32)
+---@field MoveUp UWidgetAnimation
+---@field CanvasPanelSkill UCanvasPanel
+---@field Image_SkillIcon UImage
+---@field Text_TIPS UTextBlock
+---@field SkillList ULuaArrayHelper
+---@field CurrSkill int32
+---@field Reminding bool
+---@field LastOccupation int32
+---@field Duration float

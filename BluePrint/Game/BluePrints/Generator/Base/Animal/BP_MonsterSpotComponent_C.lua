@@ -1,0 +1,1 @@
+---@class BP_MonsterSpotComponent_C:UItemSpotSceneComponent

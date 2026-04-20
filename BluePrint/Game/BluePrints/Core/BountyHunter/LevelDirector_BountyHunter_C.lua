@@ -1,0 +1,3 @@
+---@class LevelDirector_BountyHunter_C:ASTExtraLevelDirector
+---@field UserConstructionScript:fun()
+---@field DefaultSceneRoot USceneComponent

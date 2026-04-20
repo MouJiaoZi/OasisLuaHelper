@@ -1,0 +1,1 @@
+---@class Ingame_FocalLength_Tips_UIBP_C:UUserWidget

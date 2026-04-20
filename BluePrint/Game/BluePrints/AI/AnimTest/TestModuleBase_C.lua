@@ -1,0 +1,13 @@
+---@class TestModuleBase_C:AActor
+---@field CreateAITarget:fun(PawnClass:UClass,AnimClass:UClass,Location:FVector):ASTExtraBaseCharacter
+---@field InitCharacterParams:fun(CharacterClass:UClass,AnimClass:UClass)
+---@field AddAI:fun(Num:int32)
+---@field ClearAI:fun()
+---@field UserConstructionScript:fun()
+---@field ReceiveEndPlay:fun(EndPlayReason:EEndPlayReason)
+---@field DefaultSceneRoot USceneComponent
+---@field HudInstance BP_HUD_Anim_C
+---@field AIPawns ULuaArrayHelper
+---@field GameStateInstance TestModelGameState_C
+---@field PawnClass UClass
+---@field AnimClass UClass

@@ -1,0 +1,1 @@
+---@class VehicleSpawnTournament_C:UVehicleSpawn_C

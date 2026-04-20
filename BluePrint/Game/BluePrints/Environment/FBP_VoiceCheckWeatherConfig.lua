@@ -1,0 +1,5 @@
+---@class FBP_VoiceCheckWeatherConfig
+---@field weatherType int32
+---@field footrate float
+---@field weaponRate float
+---@field vehicleRate float

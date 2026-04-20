@@ -1,0 +1,3 @@
+---@class BP_STExtraLevelDirector_C:ASTExtraLevelDirector
+---@field UserConstructionScript:fun()
+---@field DefaultSceneRoot USceneComponent

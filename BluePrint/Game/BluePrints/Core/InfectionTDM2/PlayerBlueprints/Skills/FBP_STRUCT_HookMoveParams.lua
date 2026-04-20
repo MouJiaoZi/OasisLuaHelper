@@ -1,0 +1,4 @@
+---@class FBP_STRUCT_HookMoveParams
+---@field DestLoc FVector
+---@field StartLoc FVector
+---@field bShouldUpdateMove bool

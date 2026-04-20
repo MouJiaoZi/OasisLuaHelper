@@ -1,0 +1,14 @@
+---@class RangeScoreManager_C:AActor
+---@field GetLuaModule:fun():FString
+---@field OnRepBillboardTeamScrimmage:fun()
+---@field OnRepPlayerTeamScrimmage:fun()
+---@field OnRepBillboardRange:fun()
+---@field OnRepPlayerRange:fun()
+---@field GMAddUIScores:fun(value:int32)
+---@field UserConstructionScript:fun()
+---@field DefaultSceneRoot USceneComponent
+---@field PlayerStatus_Range ULuaArrayHelper
+---@field BillboardScores_Range ULuaArrayHelper
+---@field PlayerStatus_TeamScrimmage ULuaArrayHelper
+---@field BillboardScores_TeamScrimmage ULuaArrayHelper
+---@field bRemoveScore bool

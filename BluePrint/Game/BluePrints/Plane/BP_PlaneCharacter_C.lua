@@ -1,0 +1,20 @@
+---@class BP_PlaneCharacter_C:APlaneCharacter
+---@field GetSpringArm:fun():USpringArmComponent
+---@field GetPlaneCamera:fun():UCameraComponent
+---@field UserConstructionScript:fun()
+---@field ReceiveFlyToJumpPoint:fun()
+---@field PlayPlaneSound:fun()
+---@field PlaneCamera UCameraComponent
+---@field PlaneSpringArm USpringArmComponent
+---@field StaticMesh UStaticMeshComponent
+---@field ParticleSystem7 UParticleSystemComponent
+---@field ParticleSystem6 UParticleSystemComponent
+---@field ParticleSystem5 UParticleSystemComponent
+---@field ParticleSystem4 UParticleSystemComponent
+---@field P_Plan_light_green_01 UParticleSystemComponent
+---@field P_Plan_light_red_02 UParticleSystemComponent
+---@field P_Plan_light_blue_01 UParticleSystemComponent
+---@field Ak UAkComponent
+---@field Timeline_0 UTimelineComponent
+---@field SpringDist2Original float
+---@field NewVar_0 UCurveFloat

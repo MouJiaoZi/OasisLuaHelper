@@ -1,0 +1,25 @@
+---@class BP_ActorTriggerArea_C:ABP_TriggerArea_C
+---@field SetMaterialInterface:fun(MaterialInterface:UMaterialInterface)
+---@field ResolveMaterialInterface:fun(MaterialInterface:UMaterialInterface,Index:int32)
+---@field OnMaterialInterfaceAsyncLoaded:fun(MaterialInterface:UObject,Index:int32)
+---@field SwitchMaterialInterface:fun(Index:int32)
+---@field SetStaticMesh:fun(StaticMesh:UStaticMesh)
+---@field ResolveStaticMesh:fun(StaticMesh:UStaticMesh,Index:int32)
+---@field OnStaticMeshAsyncLoaded:fun(StaticMesh:UObject,Index:int32)
+---@field SwitchStaticMesh:fun(Index:int32)
+---@field GetLuaModule:fun():FString
+---@field UserConstructionScript:fun()
+---@field StaticMeshComponent UStaticMeshComponent
+---@field ID int32
+---@field PrerequisitesIDs ULuaArrayHelper
+---@field MutualIDs ULuaArrayHelper
+---@field StaticMeshes ULuaArrayHelper
+---@field LoadedStaticMeshes ULuaArrayHelper
+---@field LastAsyncLoadedStaticMeshIndex int32
+---@field MaterialInterfaces ULuaArrayHelper
+---@field bTickCanBeDisabled bool
+---@field StaticMeshComponents ULuaArrayHelper
+---@field LoadedMaterialInterfaces ULuaArrayHelper
+---@field LastAsyncLoadedMaterialInterfaceIndex int32
+---@field AkAudioEventObjectPath UAkAudioEvent
+---@field AkAudioEventObjectPath_LuaBug FString

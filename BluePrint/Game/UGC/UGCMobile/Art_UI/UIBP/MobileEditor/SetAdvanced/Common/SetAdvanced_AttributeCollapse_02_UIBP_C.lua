@@ -1,0 +1,9 @@
+---@class SetAdvanced_AttributeCollapse_02_UIBP_C:UUGCMobilePropertyWidget
+---@field GetLuaModule:fun():FString
+---@field CanvasPanel_List UCanvasPanel
+---@field MobileEditor_AdvHelp MobileEditor_AdvHelp_UIBP_C
+---@field NewButton_Fold UNewButton
+---@field NewButton_PropItemDel UNewButton
+---@field Text_PropItem_Name UTextBlock
+---@field VerticalBox_List UVerticalBox
+---@field WidgetSwitcher_Fold UWidgetSwitcher

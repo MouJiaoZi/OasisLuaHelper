@@ -1,0 +1,4 @@
+---@class BP_ProduceItemActor_C:AActor
+---@field UserConstructionScript:fun()
+---@field BP_ProduceDropItemComponent BP_ProduceDropItemComponent_Deprecated_C
+---@field DefaultSceneRoot USceneComponent

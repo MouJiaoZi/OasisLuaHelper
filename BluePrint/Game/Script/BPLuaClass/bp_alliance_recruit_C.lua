@@ -1,0 +1,18 @@
+---@class bp_alliance_recruit_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_AllianceRecruitLeader bool
+---@field BP_Alliance_InvitedRemainNum int32
+---@field BP_AllianceApply_Gid FString
+---@field BP_ARRAY_Alliance_ApplyList ULuaArrayHelper
+---@field BP_ARRAY_AllianceRecruit_Lite_Profile ULuaArrayHelper
+---@field BP_Alliance_Recruit_Scroll_End int32
+---@field BP_Alliance_Recruit_Scroll_Start int32
+---@field BP_ARRAY_AllianceRecruit_Detail_Profile ULuaArrayHelper
+---@field BP_Alliance_TargetType int32
+---@field BP_AllianceFriendNumStr FString
+---@field BP_AllianceRecruit_CurType int32
+---@field BP_AllianceRecruit_IsShow bool
+---@field BP_AllianceRecruit_InviterGid FString
+---@field BP_AllianceRecruitReadPoint bool
+---@field BP_Alliance_UpdateInnerIndex int32

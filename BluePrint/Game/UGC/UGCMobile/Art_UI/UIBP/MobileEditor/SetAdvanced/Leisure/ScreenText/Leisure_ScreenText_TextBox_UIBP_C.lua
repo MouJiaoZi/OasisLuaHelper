@@ -1,0 +1,10 @@
+---@class Leisure_ScreenText_TextBox_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field Construct:fun()
+---@field Button_Mask UButton
+---@field CanvasPanel_IPX UCanvasPanel
+---@field CustomScrollBox_List UCustomScrollBox
+---@field NewButton_Close UNewButton
+---@field SectionItemDetailViewWidget UGCMobileDetailViewWidget_C
+---@field SetAdvanced_HelpTips_UIBP SetAdvanced_HelpTips_UIBP_C
+---@field TextSectionName UTextBlock

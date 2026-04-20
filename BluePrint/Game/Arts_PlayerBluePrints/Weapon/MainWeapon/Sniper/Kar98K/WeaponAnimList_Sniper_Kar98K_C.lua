@@ -1,0 +1,1 @@
+---@class WeaponAnimList_Sniper_Kar98K_C:UUAECharacterAnimListComponent

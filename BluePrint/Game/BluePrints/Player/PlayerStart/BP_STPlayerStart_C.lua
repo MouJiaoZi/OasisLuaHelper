@@ -1,0 +1,1 @@
+---@class BP_STPlayerStart_C:ASTExtraPlayerStart

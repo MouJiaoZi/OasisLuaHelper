@@ -1,0 +1,5 @@
+---@class HiderSceneActorBase_C:AHideAndSeekActor
+---@field UserConstructionScript:fun()
+---@field TagShapeTransInfo UTagShapeTransInfoComponent
+---@field StaticMesh UStaticMeshComponent
+---@field DefaultSceneRoot USceneComponent

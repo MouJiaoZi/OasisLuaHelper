@@ -1,0 +1,1 @@
+---@class BP_ObjectPropertyCompareComponent_C:UObjectPropertyCompareComponent

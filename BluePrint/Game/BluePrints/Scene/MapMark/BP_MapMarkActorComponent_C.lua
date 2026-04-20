@@ -1,0 +1,1 @@
+---@class BP_MapMarkActorComponent_C:UMapMarkActorComponent

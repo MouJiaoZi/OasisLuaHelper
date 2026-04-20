@@ -1,0 +1,1 @@
+---@class UGC_Grenade_StunItemHandle_C:UGrenade_Stun_ItemHandle_C

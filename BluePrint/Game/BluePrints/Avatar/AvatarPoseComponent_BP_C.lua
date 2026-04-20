@@ -1,0 +1,6 @@
+---@class AvatarPoseComponent_BP_C:UAvatarDisplayPoseComponent
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field SpawnAvatar:fun(IsUseLod:bool)
+---@field ReceiveEndPlay:fun(EndPlayReason:EEndPlayReason)
+---@field AvatarComponent CharacterAvatarComp_BP_C
+---@field SectionName FString

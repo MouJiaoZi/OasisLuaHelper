@@ -1,0 +1,1 @@
+---@class BP_Rifle_QBZ_BattleItemHandle_HSXY_Lobby_C:UBackpackWeaponHandle

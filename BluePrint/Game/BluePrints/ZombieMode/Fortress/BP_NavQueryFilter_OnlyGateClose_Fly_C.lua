@@ -1,0 +1,1 @@
+---@class BP_NavQueryFilter_OnlyGateClose_Fly_C:UNavigationQueryFilterEx

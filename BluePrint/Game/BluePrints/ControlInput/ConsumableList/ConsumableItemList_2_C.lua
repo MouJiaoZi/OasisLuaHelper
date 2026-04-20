@@ -1,0 +1,152 @@
+---@class ConsumableItemList_2_C:UUAEUserWidget
+---@field UseCurrDrugPress_Inf:fun():bool
+---@field UseFirstItem_Inf:fun():bool
+---@field Reconnect_ResetUIByPlayerControllerStateInf:fun():bool
+---@field GetLuaModule:fun():FString
+---@field IsCustomUIDataValid:fun(Widget:UWidget,SaveDataSize:FVector2D):bool
+---@field MergeSameConsumeItem:fun()
+---@field AutoSelectFirst:fun()
+---@field OnItemSelected:fun(Index:int32)
+---@field GetConsumableListIndexBySelectIndex:fun(SelectIndex:int32):int32
+---@field GetSettingConfigCustomQuickThrow:fun()
+---@field QuickUseConsume:fun()
+---@field FinishPickOneGrenadeBySelect:fun(select:bool)
+---@field FinishPickOneGrenade:fun()
+---@field FinishPickOneGrenadeByTouch:fun()
+---@field HideRingSelected:fun()
+---@field CollapsRingAndClearTimer:fun()
+---@field RefreshGrenadeObj:fun(obj:UObject,index:int32)
+---@field MakeItemArray:fun()
+---@field HideAllSelect:fun()
+---@field IsLocalpositionInBorder:fun(LocalCoordinate_:FVector2D,Border_:UWidget):bool
+---@field OnTouchEnded:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field OnTouchMoved:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field OnTouchStarted:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field RefreshIcon:fun(obj:UObject,id:int32)
+---@field UpdateIconsTexture:fun()
+---@field IsAggregationUsedIcon:fun(DefineID:FItemDefineID):bool
+---@field CallServerUseItem:fun(TargetDefineID:FItemDefineID,PlayerController:ASTExtraPlayerController)
+---@field AddCountAggregationItem:fun(BattleItemData:FBattleItemData):bool
+---@field IsAggregationItem:fun(DefineID:FItemDefineID):bool
+---@field CheckLastItemBattery:fun()
+---@field HandleSignalChange:fun(signal:float)
+---@field GetPriorityInCurSortModeByType:fun(SortMode:EConsumableListSortMode,ConsumableType:EConsumeItemType):int32
+---@field IsInSortCD:fun():bool
+---@field RefreshItemImage:fun(NewParam:UObject)
+---@field Reconnect_ResetUIByPlayerControllerState:fun()
+---@field ResetItemPriorityInArray:fun(In:ULuaArrayHelper):ULuaArrayHelper
+---@field OnItemClickAndUse:fun(Index:int32)
+---@field SetSortModeBySetting:fun()
+---@field SetItemPriorityBySortMode:fun(InData:FCompatableComsumableItemType):FCompatableComsumableItemType
+---@field HandleHPChange:fun(CurHP:float)
+---@field UpdateInterativeTriangle:fun()
+---@field UpdateItemPressOrRelease:fun(Index:int32,IsPress:bool)
+---@field CollapseFolder:fun()
+---@field ResetCurUsingItemType:fun()
+---@field GetConsumableItemUIWidgetGroupByIndex:fun(Index:int32):UImage,UImage,UButton,UTextBlock,UBorder,UWidget
+---@field UpdateFloderListImage:fun()
+---@field UpdateFirstItemImage:fun()
+---@field IsFirstItemRunOut:fun():bool
+---@field GetConsumItemTypeBySpecificID:fun(DefineID:FItemDefineID):EConsumeItemType
+---@field UpdateConsumableItemArray:fun(newItemDefineID:FItemDefineID)
+---@field IsAConsumableItem:fun(DefineID:FItemDefineID):bool
+---@field GetConsumableItemDataTableMap:fun()
+---@field GetPlayerCharacter:fun():ASTExtraPlayerCharacter
+---@field ReceivedInitWidget:fun()
+---@field SetSettingControlUI:fun()
+---@field SetCustomizeUIInfo:fun(SaveGame:BP_SAVEGAME_UIElemLayout_C,FireMode:int32)
+---@field Border_InteractivePanel UBorder
+---@field Border_Throw_02 UBorder
+---@field Border_Throw_03 UBorder
+---@field Border_Throw_04 UBorder
+---@field Border_Throw_05 UBorder
+---@field CanvasPanel_Center UCanvasPanel
+---@field CanvasPanel_CenterSelect USizeBox
+---@field CanvasPanel_RingList UCanvasPanel
+---@field ConsumableCenterItem ConsumableCenterItem_C
+---@field ConsumableItem_1 ConsumableItem_UIBP_C
+---@field ConsumableItem_2 ConsumableItem_UIBP_C
+---@field ConsumableItem_3 ConsumableItem_UIBP_C
+---@field ConsumableItem_4 ConsumableItem_UIBP_C
+---@field ConsumableItem_5 ConsumableItem_UIBP_C
+---@field ConsumableItem_6 ConsumableItem_UIBP_C
+---@field ConsumableItem_7 ConsumableItem_UIBP_C
+---@field GridPanel_ConsumeItemFolder UGridPanel
+---@field InteractivePanel UGridPanel
+---@field InterativeBtn UButton
+---@field ThrowItem_02 UImage
+---@field ThrowItem_02_Select UImage
+---@field ThrowItem_03 UImage
+---@field ThrowItem_03_Select UImage
+---@field ThrowItem_04 UImage
+---@field ThrowItem_04_Select UImage
+---@field ThrowItem_05 UImage
+---@field ThrowItem_05_Select UImage
+---@field ThrowText_02_num UTextBlock
+---@field ThrowText_03_num UTextBlock
+---@field ThrowText_04_num UTextBlock
+---@field ThrowText_05_num UTextBlock
+---@field WidgetSwitcher_0 UWidgetSwitcher
+---@field BtnNormalBG FSlateBrush
+---@field BtnHightLightBG FSlateBrush
+---@field IsListExpand bool
+---@field InteractiveNormalBG FSlateBrush
+---@field InteractiveHighLightBG FSlateBrush
+---@field IsAutoCollapseInterupted bool
+---@field AutoCollapsedTime float
+---@field STExtraPlayerCharacter ASTExtraPlayerCharacter
+---@field ConsumableItemDataTableMap ULuaMapHelper
+---@field CompableItemArray ULuaArrayHelper
+---@field ConsumableMinID int32
+---@field ConsumableMaxID int32
+---@field CurFirstItemTypeData FCompatableComsumableItemType
+---@field bIntelligentDrugs bool
+---@field CacheHP float
+---@field SortingMode EConsumableListSortMode
+---@field bIsDoneFullHealthSort bool
+---@field bIsDoneLittleBitWoundSort bool
+---@field bIsDonePlentyWoundSort bool
+---@field bIsDoneSeriousWoundSort bool
+---@field bIsDoneAlmostDieSort bool
+---@field bForceUpdate bool
+---@field LastMannualSortTime float
+---@field MannualSortTimeThreshold float
+---@field FirstItemImagePath FString
+---@field ConsumableIDToType ULuaMapHelper
+---@field ConsumableIDToNotIntelligencePriority ULuaMapHelper
+---@field ConsumableIDToIntelligenceFullHealthPriority ULuaMapHelper
+---@field ConsumableIDToIntelligenceLittleBitWoundPriority ULuaMapHelper
+---@field ConsumableIDToIntelligencePlentyWoundPriority ULuaMapHelper
+---@field ConsumableIDToIntelligenceSeriousWoundPriority ULuaMapHelper
+---@field ConsumableIDToIntelligenceAlmostDiePriority ULuaMapHelper
+---@field LocalSignal float
+---@field AggregationItemIndex int32
+---@field AggregationItemsArray ULuaArrayHelper
+---@field AggregationIconTexture UTexture2D
+---@field IconTextureTem UTexture2D
+---@field AggregationIconPathCounter int32
+---@field CurImage_AggregationBG11 UImage
+---@field CurFingerIndex ETouchIndex
+---@field TouchStarted bool
+---@field PressCenterPoint FVector2D
+---@field SelectIndex int32
+---@field CanMoveAndEnd bool
+---@field StartTouchPickDelay float
+---@field StartTouchPickOne FTimerHandle
+---@field CurGeo FGeometry
+---@field CurTouch FPointerEvent
+---@field PressingCenter bool
+---@field canSetTimer bool
+---@field FinishPickOneGrenadeHandle FTimerHandle
+---@field FinishPickOneGrenadeTime float
+---@field ThrowSelectList ULuaArrayHelper
+---@field CenterGrenadeIDList ULuaMapHelper
+---@field CenterGrenadeIndexList ULuaMapHelper
+---@field ThrowItemList ULuaArrayHelper
+---@field QuickConsumePressSwitch bool
+---@field ThrowNumList ULuaArrayHelper
+---@field OwingImage ULuaArrayHelper
+---@field ShowInConsumableListTag FName
+---@field EscapeItemReflexMap ULuaMapHelper
+---@field PCIcon FName
+---@field RouletteThrow Ingame_ThrowingRoulette_UIBP_C

@@ -1,0 +1,6 @@
+---@class BP_HunterTeamDataMgr_C:AHunterTaskTeamMgr
+---@field UserConstructionScript:fun()
+---@field DefaultSceneRoot USceneComponent
+---@field WarningUIName FName
+---@field UICache bool
+---@field WarningWidgetRef UUserWidget

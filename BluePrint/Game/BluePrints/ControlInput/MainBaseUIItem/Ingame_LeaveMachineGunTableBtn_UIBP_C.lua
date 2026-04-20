@@ -1,0 +1,28 @@
+---@class Ingame_LeaveMachineGunTableBtn_UIBP_C:UM2FixGunUserWidget
+---@field UIMSg_OnGetM2Weapon:fun()
+---@field UIMsg_RefreshFixWeaponUI:fun()
+---@field ResumeHiddenWidges:fun()
+---@field HideWidget:fun(Name:FString)
+---@field HandleExitUI:fun()
+---@field AttachContentUIBack:fun()
+---@field HandleEnterUI:fun()
+---@field AttachContentUIToRoot:fun(WidgetName:FString)
+---@field UIMsg_UpdateM2Bullet:fun(LeftVal:int32,RightVal:int32,HasInfiniteBullets:bool)
+---@field UIMsg_HideM2UI:fun()
+---@field UIMsg_ShowM2UI:fun()
+---@field Construct:fun()
+---@field Border_Opacity UBorder
+---@field BtnLeaveMachineGunTable CustomizeCanvasPanel_BP_C
+---@field CanvasPanel_WeaponInfo UCanvasPanel
+---@field NewButton_LeaveMachineGunTable UNewButton
+---@field TextBlock_Current_01_Num UTextBlock
+---@field TextBlock_Current_02_Num UTextBlock
+---@field TextBlock_Leave UTextBlock
+---@field TextBlock_Max_Num UTextBlock
+---@field WeaponIcon UImage
+---@field WidgetSwitcher_Type UWidgetSwitcher
+---@field ParentUIMap ULuaMapHelper
+---@field ShootingUIRef ShootingUIPanel_C
+---@field BaseUIRef UUAEUserWidget
+---@field HdWidgetOldVisMap ULuaMapHelper
+---@field ConfigHiddenWidgetList ULuaArrayHelper

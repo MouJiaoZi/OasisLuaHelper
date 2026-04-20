@@ -1,0 +1,8 @@
+---@class BP_Other_M2_C:BP_ShootWeaponBase_C
+---@field CheckShootEnviroment:fun():bool
+---@field UserConstructionScript:fun()
+---@field OnWeaponMagIn:fun()
+---@field OnWeaponMagOut:fun()
+---@field WeaponAnimList_Rifle_M2 WeaponAnimList_Rifle_M2_C
+---@field bUseIdleAnim_0_0 bool
+---@field BurstTemperatureRef UBurstTemperatureComponent

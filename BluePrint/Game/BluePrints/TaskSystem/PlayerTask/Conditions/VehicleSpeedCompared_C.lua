@@ -1,0 +1,4 @@
+---@class VehicleSpeedCompared_C:UTaskCondition_Base
+---@field IsConditionSatisfy:fun():bool
+---@field PlayerKey FTriggerEventParamKeySelector
+---@field Speed float

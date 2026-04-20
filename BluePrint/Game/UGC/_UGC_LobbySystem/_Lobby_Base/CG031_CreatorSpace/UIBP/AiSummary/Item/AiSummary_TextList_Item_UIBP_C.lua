@@ -1,0 +1,2 @@
+---@class AiSummary_TextList_Item_UIBP_C:UUAEUserWidget
+---@field TextBlock_Content UUTRichTextBlock

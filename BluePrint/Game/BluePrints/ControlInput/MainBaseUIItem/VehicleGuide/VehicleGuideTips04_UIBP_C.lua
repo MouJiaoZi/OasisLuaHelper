@@ -1,0 +1,2 @@
+---@class VehicleGuideTips04_UIBP_C:UNewbieGuideWidget
+---@field UTRichTextBlock_SeatTips UUTRichTextBlock

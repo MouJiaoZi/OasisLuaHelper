@@ -1,0 +1,5 @@
+---@class BP_BattleRoyaleGameModeTeamPUBG_Four_Zombie_C:ABP_BattleRoyaleGameModeTeamPUBG_C
+---@field UserConstructionScript:fun()
+---@field Fortress UFortressComponent
+---@field BP_AttrModifyProbeComp_Zombie BP_AttrModifyProbeComp_Zombie_C
+---@field SpawnMonsterHelperComp USpawnMonsterHelperComp

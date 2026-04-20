@@ -1,0 +1,3 @@
+---@class BP_Horse_BattleItemHandle_ABM_C:UBackpackVehicleHandle
+---@field ParticleSoftWrapperMap ULuaMapHelper
+---@field bUpdateIdleMoveParticle bool

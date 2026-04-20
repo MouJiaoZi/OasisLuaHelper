@@ -1,0 +1,1 @@
+---@class HS_FireHydrant_C:AHiderSceneActorBase_C

@@ -1,0 +1,8 @@
+---@class BP_Rifle_Famas_C:BP_ShootWeaponNewBase_C
+---@field GetOverrideDSVerifyShootType:fun():ESTEWeaponShootType
+---@field AutoFireCheck:fun():bool
+---@field UserConstructionScript:fun()
+---@field WeaponAnimList_Rifle_Famas WeaponAnimList_Rifle_Famas_C
+---@field bUseIdleAnim_0_0 bool
+---@field OffsetRotation FRotator
+---@field OffsetLocation FVector

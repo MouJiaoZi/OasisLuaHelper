@@ -1,0 +1,4 @@
+---@class KillCharacterDieEffectComponent_C:UActorComponent
+---@field GetLuaModule:fun():FString
+---@field KillEffectItemId int32
+---@field DieEffectItemId int32

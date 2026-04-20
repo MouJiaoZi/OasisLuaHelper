@@ -1,0 +1,1 @@
+---@class BP_Stock_M416_SHMAN_A_C:BP_Stock_M416_C

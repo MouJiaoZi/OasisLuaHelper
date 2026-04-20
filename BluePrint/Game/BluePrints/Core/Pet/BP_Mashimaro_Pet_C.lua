@@ -1,0 +1,3 @@
+---@class BP_Mashimaro_Pet_C:APet
+---@field UserConstructionScript:fun()
+---@field CrowdAgent UCrowdAgentComponent

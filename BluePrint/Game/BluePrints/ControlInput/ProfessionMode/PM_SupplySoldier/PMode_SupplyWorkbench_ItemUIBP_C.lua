@@ -1,0 +1,7 @@
+---@class PMode_SupplyWorkbench_ItemUIBP_C:UUserWidget
+---@field CanvasPanel_DistanceInfo UCanvasPanel
+---@field CanvasPanel_Tips UCanvasPanel
+---@field Image_Arrow UImage
+---@field Image_BG UImage
+---@field Image_Icon UImage
+---@field TextBlock_Distance UTextBlock

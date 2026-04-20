@@ -1,0 +1,1 @@
+---@class DestinyCircleSniperRifle_1_C:ABP_BattleRoyaleGameMode_C

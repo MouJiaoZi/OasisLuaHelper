@@ -1,0 +1,4 @@
+---@class BunkerBase_C:AUAERegionActor
+---@field UserConstructionScript:fun()
+---@field StaticMesh UStaticMeshComponent
+---@field DefaultSceneRoot USceneComponent

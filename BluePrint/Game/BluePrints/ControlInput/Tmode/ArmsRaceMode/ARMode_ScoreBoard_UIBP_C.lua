@@ -1,0 +1,112 @@
+---@class ARMode_ScoreBoard_UIBP_C:UUAEUserWidget
+---@field DeathMatch_ResetonReplayGotoTime:fun():bool
+---@field DeathMatch_ReInitReplay:fun():bool
+---@field DeathMatch_UpdateScoreBoard:fun(OwnerTeamID:int32):bool
+---@field DeathMatch_InitScoreBoard:fun(OwnerTeamID:int32,TextureRed:FSlateBrush,TextureBlue:FSlateBrush,ColorRed:FSlateColor,ColorBlue:FSlateColor):bool
+---@field DeathMatch_UpdateBattleTime:fun():bool
+---@field DeathMatch_GetButton:fun():UButton
+---@field DeathMatch_FirstReadyTime:fun():bool
+---@field DeathMatch_InitWidget:fun():bool
+---@field DeathMatch_OnCreate:fun(IsFirstGame:bool):bool
+---@field DeathMatch_UpdateReadyTime:fun(InTime:int32):bool
+---@field DeathMatch_GlobalNotify:fun(InReson:EDeathMatchGlobalNotifyReason,KillerData:FDeathMatchPlayerStateData):bool
+---@field UIMsg_RefreshNextWeapon:fun()
+---@field BindReplayDelegate:fun()
+---@field ReplayUpdateInitInfo:fun()
+---@field ReplayUpdateMaxPlayerHeadIconForbitAnimation:fun(TeamID:int32,UIDStr:FString)
+---@field ReplayUpdateTeamMaxPlayerScoreForbitAnimation:fun(inTeamID:int32,PlayerScore:int32)
+---@field ResetReplayAvatarIcon:fun(TeamID:int32)
+---@field IsRedTeam:fun(TeamID:int32):bool
+---@field ReplayUpdateMaxPlayerHeadIcon:fun(TeamID:int32,UIDStr:FString)
+---@field ReplayUpdateTeamMaxPlayerScore:fun(inTeamID:int32,PlayerScore:int32)
+---@field InitializeWidget:fun()
+---@field UpdateHeadIcon:fun(TeamID:int32,BShow:bool,PlayerInfo:FDeathMatchPlayerInfo,Avatar:Common_Avatar_BP_C,Title:UTextBlock,WidgetSwitcher:UWidgetSwitcher,Animation:UWidgetAnimation,SlotBG:UImage,ScoreBG:UImage,ChampionLevel:UTextBlock,ForbitAnimation:bool)
+---@field UpdateScoreText:fun(TeamID:int32,Score:int32,CurrentNum:UTextBlock,KillBar:UImage,KillBarAnimation:UWidgetAnimation,ForbitAnimation:bool)
+---@field IsPlayerInTeam:fun(TeamScoreData:FDeathMatchTeamScoreData,PlayerUID:FString):bool
+---@field OnObViewTargetChanged:fun()
+---@field InitMyScore:fun()
+---@field HideBackpack:fun()
+---@field GetPlayerColor:fun(Index:int32):FLinearColor
+---@field GetWeaponDataByIndex:fun(Index:int32):bool,int32
+---@field UpdatePlayerScore:fun(KillerData:FDeathMatchPlayerStateData,VictimerData:FDeathMatchPlayerStateData,IsHeadShoot:bool)
+---@field CreatePanSlot:fun()
+---@field OnLoadWeaponIcon:fun(Image:UObject)
+---@field GetTModeControllerUI:fun()
+---@field TestPlayMsgAnimation:fun()
+---@field OnGlobalNotify:fun(KillerData:FDeathMatchPlayerStateData,VictimerData:FDeathMatchPlayerStateData,Reason:EDeathMatchGlobalNotifyReason)
+---@field RefreshNextWeaponSlot:fun(KillerData:FDeathMatchPlayerStateData)
+---@field InitWeaponSlot:fun()
+---@field OnMsgAnimationFinish:fun()
+---@field PlayMsgAnimation:fun()
+---@field UpdateTeamScore:fun(TeamID:int32)
+---@field UpdateBattleTime:fun()
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field DeathMatch_PlayerResume:fun()
+---@field DeathMatch_PlayerDeath:fun()
+---@field DeathMatch_OnReplayGameStateReady:fun()
+---@field DX_KillRefresh_R UWidgetAnimation
+---@field DX_Growth_L UWidgetAnimation
+---@field DX_Growth_R UWidgetAnimation
+---@field DX_KillRefresh_L UWidgetAnimation
+---@field Pan_anima UWidgetAnimation
+---@field Border_LeftSideTeam UBorder
+---@field Border_PanTips UBorder
+---@field Border_RightSideTeam UBorder
+---@field CanvasPanel_1 UCanvasPanel
+---@field CanvasPanel_LeftSidechampion UCanvasPanel
+---@field CanvasPanel_RightSidechampion UCanvasPanel
+---@field CanvasPanel_ScoreBoard UCanvasPanel
+---@field Common_LeftSide_Champion_Avatar_BP Common_Avatar_BP_C
+---@field Common_Pan_Avatar_BP Common_Avatar_BP_C
+---@field Common_RightSide_Champion_Avatar_BP Common_Avatar_BP_C
+---@field HorizontalBox_1 UHorizontalBox
+---@field HorizontalBox_2 UHorizontalBox
+---@field Image_LeftSide_ScoreBG UImage
+---@field Image_LeftSide_ScoreBG2 UImage
+---@field Image_LeftSide_SlotBG UImage
+---@field Image_LeftSideKillBar UImage
+---@field Image_RightSide_ScoreBG UImage
+---@field Image_RightSide_ScoreBG2 UImage
+---@field Image_RightSide_SlotBG UImage
+---@field Image_RightSideKillBar UImage
+---@field Image_Tips_Bg UImage
+---@field LeftSide_ChampionTitle UTextBlock
+---@field NewButton_TC_ScoreBoard UNewButton
+---@field RightSide_ChampionTitle UTextBlock
+---@field TextBlock_GameTime UTextBlock
+---@field TextBlock_LeftSide_Champion_Level UTextBlock
+---@field TextBlock_LeftSide_Current_Num UTextBlock
+---@field TextBlock_LeftSide_Total_Num UTextBlock
+---@field TextBlock_PlayerName UTextBlock
+---@field TextBlock_RightSide_Champion_Level UTextBlock
+---@field TextBlock_RightSide_Current_Num UTextBlock
+---@field TextBlock_RightSide_Total_Num UTextBlock
+---@field TextBlock_TargetNum UTextBlock
+---@field TextBlock_tipsContent UTextBlock
+---@field WidgetSwitcher_LeftSide_ScoreBG UWidgetSwitcher
+---@field WidgetSwitcher_RightSide_ScoreBG UWidgetSwitcher
+---@field WinScore int32
+---@field BlueTeamScore int32
+---@field RedTeamScore int32
+---@field LastLevelMsgQueue ULuaArrayHelper
+---@field IsPlaying bool
+---@field PanWeaponSlot ARMode_WeaponSlot_Item_UIBP_C
+---@field NextWeaponSlot ARMode_WeaponSlot_Item_UIBP_C
+---@field WeaponDataTable UUAEDataTable
+---@field WeaponIndex int32
+---@field TmodeUI Tmode_Control_UIBP_C
+---@field BStopPlayLastKill bool
+---@field LastLevelMsgQueueIsBlueTeam ULuaArrayHelper
+---@field ShowTipsTime float
+---@field BInitWidget bool
+---@field OwnerTeamID int32
+---@field BlueVipUID FString
+---@field RedVipUID FString
+---@field WeaponIDMap ULuaMapHelper
+---@field BInitPlayerScore bool
+---@field PlayerColorMap ULuaMapHelper
+---@field BInitPlayerDelegate bool
+---@field BHideBackpack bool
+---@field BInitNextWeapon bool
+---@field bIsInPlayingReplay bool
+---@field bIsInitScoreBoard bool

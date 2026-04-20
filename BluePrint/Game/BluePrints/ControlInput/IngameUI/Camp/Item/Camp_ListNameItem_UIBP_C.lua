@@ -1,0 +1,4 @@
+---@class Camp_ListNameItem_UIBP_C:UUAEUserWidget
+---@field TextBlock_Name UTextBlock
+---@field TextBlock_Num UTextBlock
+---@field TextBlock_Rank UTextBlock

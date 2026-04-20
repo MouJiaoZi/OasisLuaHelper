@@ -1,0 +1,1 @@
+---@class BP_Rifle_ARX200_BattleItemHandle_HYYZ_Lobby_C:UBackpackWeaponHandle

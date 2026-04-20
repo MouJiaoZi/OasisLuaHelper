@@ -1,0 +1,34 @@
+---@class Ingame_3dExpression_Item_UIBP_C:UUAEUserWidget
+---@field SetSpineAtlasAndSkeleton:fun(SpineAtlas:USpineAtlasAsset,SpineSkeleton:USpineSkeletonDataAsset)
+---@field TimerHideExpression:fun()
+---@field InitExpressionScale:fun()
+---@field PlayExpressionAnim:fun()
+---@field SetBrushMaterial:fun(InMaterial:UMaterialInterface)
+---@field OnLoadExpressionHandle:fun(DefineID:FItemDefineID,ItemHandle:UBattleItemHandleBase)
+---@field HandleClientReceiveMsg:fun(MsgItem:FInGameChatMsg,PlayerKey:FString,IsMe:bool)
+---@field TryInitParent:fun():bool
+---@field SetBrushImage:fun(NewImage:UObject)
+---@field SetExpressionImage:fun(ItemID:int32)
+---@field ReceivedInitWidget:fun()
+---@field Construct:fun()
+---@field DX_Expression UWidgetAnimation
+---@field CanvasPanel_Expression UCanvasPanel
+---@field Image_Icon_left UImage
+---@field Image_Icon_right UImage
+---@field SpineWidget_Left USpineWidget
+---@field SpineWidget_Right USpineWidget
+---@field WidgetSwitcher_BG UWidgetSwitcher
+---@field WidgetSwitcher_Icon_Left UWidgetSwitcher
+---@field WidgetSwitcher_Icon_Right UWidgetSwitcher
+---@field ItemIsRightSide bool
+---@field IsLoading bool
+---@field TeamItemUIRef UUserWidget
+---@field TeamPanelUIRef UUserWidget
+---@field TeamItemPlayerKey FString
+---@field IsInit bool
+---@field PivotRight FVector2D
+---@field PivotLeft FVector2D
+---@field ClientExpressionHandleList ULuaMapHelper
+---@field ShowTime float
+---@field CanPlayAnim bool
+---@field ResetScale FVector2D

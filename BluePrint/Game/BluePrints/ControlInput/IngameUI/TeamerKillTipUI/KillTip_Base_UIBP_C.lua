@@ -1,0 +1,3 @@
+---@class KillTip_Base_UIBP_C:UUAEUserWidget
+---@field ShowKillOrPutDownInfo:fun(MsgData:FKillOrPutDownMessage):bool
+---@field CheckShowExcellentStatus:fun(OperationResults:ULuaArrayHelper,ExcellentOperationUI:ExcellentOperationTip_UIBP_C)

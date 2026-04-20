@@ -1,0 +1,1 @@
+---@class HS_Radio_C:AHiderSceneActorBase_C

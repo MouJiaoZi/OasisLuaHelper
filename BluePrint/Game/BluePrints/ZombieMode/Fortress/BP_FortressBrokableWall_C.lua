@@ -1,0 +1,7 @@
+---@class BP_FortressBrokableWall_C:AActor
+---@field UserConstructionScript:fun()
+---@field ReceiveAnyDamage:fun(Damage:float,DamageType:UDamageType,InstigatedBy:AController,DamageCauser:AActor)
+---@field DamageDrivenMeshChanger UDamageDrivenMeshChanger
+---@field StaticMesh UStaticMeshComponent
+---@field DefaultSceneRoot USceneComponent
+---@field HP float

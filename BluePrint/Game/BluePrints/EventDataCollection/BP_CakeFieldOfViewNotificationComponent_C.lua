@@ -1,0 +1,2 @@
+---@class BP_CakeFieldOfViewNotificationComponent_C:UBP_FieldOfViewNotificationComponent_C
+---@field GetFieldOfViewTargetCategory:fun(Context:UObject):FString

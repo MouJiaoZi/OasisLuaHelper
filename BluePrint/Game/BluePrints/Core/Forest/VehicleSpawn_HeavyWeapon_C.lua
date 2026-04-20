@@ -1,0 +1,2 @@
+---@class VehicleSpawn_HeavyWeapon_C:UBP_VehicleAndTreasureBoxGeneratorComponent_C
+---@field LoadVehicleGenerateTable:fun()

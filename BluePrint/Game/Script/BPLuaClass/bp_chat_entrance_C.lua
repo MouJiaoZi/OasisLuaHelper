@@ -1,0 +1,21 @@
+---@class bp_chat_entrance_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_ChatEntranceTickBufferList bool
+---@field BP_ChatEntranceQuickMsgId int32
+---@field BP_ChatEntranceEnterWaitingRoom bool
+---@field BP_ChatFriendNewMsgCount int32
+---@field BP_ChatEntranceTeamed bool
+---@field BP_ChatEntranceNewMsg FString
+---@field BP_ChatEntranceEnterRoom bool
+---@field BP_ChatEntranceNewChannel int32
+---@field BP_ChatEntranceEnterCorps bool
+---@field BP_ChatEntranceChatroomNewMsgCount int32
+---@field BP_CorpsLobbyUI_Hide_Background_Image bool
+---@field BP_ChatEntranceOnlineFriendNum int32
+---@field BP_ChatEntranceNewSender FString
+---@field BP_ChatEntranceValid bool
+---@field BP_ChatEntranceFriendListInRoom bool
+---@field BP_ChatEntranceVoiceRoomId FString
+---@field BP_ChatEntranceClearGID FString
+---@field BP_ChatEntranceQuickMsgStr FString

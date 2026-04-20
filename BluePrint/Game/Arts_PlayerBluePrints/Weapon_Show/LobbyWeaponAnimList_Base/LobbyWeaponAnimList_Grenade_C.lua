@@ -1,0 +1,1 @@
+---@class LobbyWeaponAnimList_Grenade_C:UUAECharacterAnimListComponent

@@ -1,0 +1,4 @@
+---@class FSTR_CameraSetting
+---@field TargetArmLength float
+---@field LagSpeed float
+---@field SocketOffset FVector

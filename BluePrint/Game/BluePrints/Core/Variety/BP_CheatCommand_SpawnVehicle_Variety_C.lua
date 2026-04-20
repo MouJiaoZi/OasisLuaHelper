@@ -1,0 +1,4 @@
+---@class BP_CheatCommand_SpawnVehicle_Variety_C:UCheatCommand_SpawnVehicle
+---@field GetVehicleShapeBoxSize:fun(InVehicleID:int32):FString
+---@field IsWaterAreaVehicle:fun(InVehicleID:int32):bool
+---@field GetVehiclePathFromID:fun(InVehicleID:int32):FString

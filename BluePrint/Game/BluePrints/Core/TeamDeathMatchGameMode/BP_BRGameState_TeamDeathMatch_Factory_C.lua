@@ -1,0 +1,3 @@
+---@class BP_BRGameState_TeamDeathMatch_Factory_C:BP_BRGameState_TeamDeathMatch_C
+---@field UserConstructionScript:fun()
+---@field BP_TDMCommonGameplayComp BP_TDMCommonGameplayComp_C

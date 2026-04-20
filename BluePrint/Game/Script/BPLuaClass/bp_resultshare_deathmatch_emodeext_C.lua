@@ -1,0 +1,4 @@
+---@class bp_resultshare_deathmatch_emodeext_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_ShareDeathMatchEmodeExtType int32

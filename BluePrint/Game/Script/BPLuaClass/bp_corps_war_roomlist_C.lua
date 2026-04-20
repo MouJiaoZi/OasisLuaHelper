@@ -1,0 +1,10 @@
+---@class bp_corps_war_roomlist_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_CorpsWarRoomListUI_ShwoPlatformInviteBtnByTable bool
+---@field BP_CorpsWarRoomlistUI_AvatarUID FString
+---@field BP_ARRAY_CorpsWarRoomList ULuaArrayHelper
+---@field BP_CorpsWarRoomListUI_EnableAutoJoin bool
+---@field BP_CorpsWarRoomListUI_ShowPlatformInviteBtn bool
+---@field BP_CorpsWarRoomListUI_ShowPlatformInviteBtnClickTime int32
+---@field BP_CorpsWarRoomlistUI_CurrentOperateRoomID FString

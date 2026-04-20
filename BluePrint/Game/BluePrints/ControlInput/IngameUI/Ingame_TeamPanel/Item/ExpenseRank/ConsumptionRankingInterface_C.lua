@@ -1,0 +1,5 @@
+---@class ConsumptionRankingInterface_C:UInterface
+---@field RefreshSuperHeroTopRankInfo:fun(TopRank:int32)
+---@field RefreshTeamPlayerCharmInfo:fun(IsShow:bool,CharmLevel:int32,CharmValue:int32)
+---@field PlayConsumptionAnimation:fun()
+---@field RefreshConsumptionRankingIcon:fun(RankResID:int32,ProvinceID:int32,RankID:int32)

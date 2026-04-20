@@ -1,0 +1,2 @@
+---@class BP_BuffAction_HookEnchained_C:USTExtraBuffAction
+---@field OnRealDoAction:fun():bool

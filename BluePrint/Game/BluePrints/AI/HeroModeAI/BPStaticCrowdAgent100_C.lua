@@ -1,0 +1,5 @@
+---@class BPStaticCrowdAgent100_C:ACrowdAgentActor
+---@field UserConstructionScript:fun()
+---@field DynamicObstacleAvoidance UDynamicObstacleAvoidanceComponent
+---@field CrowdAgent UCrowdAgentComponent
+---@field DefaultSceneRoot USceneComponent

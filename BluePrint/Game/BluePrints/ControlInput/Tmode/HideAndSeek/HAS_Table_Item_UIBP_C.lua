@@ -1,0 +1,10 @@
+---@class HAS_Table_Item_UIBP_C:UUAEUserWidget
+---@field Common_Avatar_Style_1 Common_Avatar_Style1_UIBP_C
+---@field TextBlock_PlayerName UTextBlock
+---@field TextBlock_RankNum UTextBlock
+---@field TextBlock_Score UTextBlock
+---@field TextBlock_Seek UTextBlock
+---@field TextBlock_Survive UTextBlock
+---@field WidgetSwitcher_Bg UWidgetSwitcher
+---@field WidgetSwitcher_Gender UWidgetSwitcher
+---@field WidgetSwitcher_State UWidgetSwitcher

@@ -1,0 +1,16 @@
+---@class CH_Vehicle_Horse_AnimBP_C:USTExtraMyriapodVehicleAnimInstance
+---@field GetHorseVehicleOwner:fun():ASTExtraHorseVehicle
+---@field ClearBrakeState:fun()
+---@field BlueprintInitializeAnimation:fun()
+---@field HandleBrakePerform:fun(BrakeVelocity:float,bIsStopPlay:bool)
+---@field BlueprintUpdateAnimation:fun(DeltaTimeX:float)
+---@field EIdlePose HorseIdlePose
+---@field VehicleHorseFM BP_STExtraAnimFM_VehicleHorse_C
+---@field ParentAnim USTExtraAnimInstanceBase
+---@field HorseReplaceSubAnimFM FSTExtraAnimFM_HorseSubAnimReplace
+---@field AimParamFM FSTExtraAnimFM_Weapon_Aim
+---@field CacheBrakeVelocity float
+---@field IsSoar bool
+---@field NeedUpDownAdditive bool
+---@field HasLoadedHorseFlying bool
+---@field LoadedFlyAnimationType EHorseAvatarType

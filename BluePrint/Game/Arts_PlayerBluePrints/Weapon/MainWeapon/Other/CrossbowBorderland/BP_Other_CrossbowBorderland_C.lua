@@ -1,0 +1,35 @@
+---@class BP_Other_CrossbowBorderland_C:BP_ShootWeaponBase_C
+---@field HandleBulletNumChange:fun()
+---@field UpdateMagCompVisibility:fun(bConlyConsiderClipBullets:bool)
+---@field UpdateEffectCompActive:fun(bForceShow:bool)
+---@field ResetHitEffect:fun()
+---@field ResetMagMeshMat:fun()
+---@field SetMagMat:fun(LoadObject:UObject)
+---@field SetMagStMesh:fun(LoadObject:UObject)
+---@field SetHitEffectDataAsset:fun(LoadObject:UObject)
+---@field CustomWeaponPartsEquipped:fun(WeaponSlotID:int32,IsEquipped:bool)
+---@field HandleOnWeaponShootHitDelegateFunc:fun(DamageEvent:FShootWeaponDamageEvent,HitData:FBulletHitInfoUploadData,LocalHitData:FLocalShootHitData)
+---@field HandleWeaponChangeStateCommonFunc:fun(LastState:EFreshWeaponStateType,NewState:EFreshWeaponStateType)
+---@field HandlePreShootBulletFunc:fun(Bullet:ASTExtraShootWeaponBulletBase)
+---@field GetDamageTypeClassByShootID:fun(ShootID:int32):UClass
+---@field GetCurrentHitBuffName:fun():FName
+---@field GetBulletHitBuffNameByShootID:fun(ShootID:int32):FName
+---@field GetBulletTailEffect:fun():UParticleSystem
+---@field OnArrowShooted:fun()
+---@field UserConstructionScript:fun()
+---@field OnWeaponMagOut:fun()
+---@field OnWeaponMagIn:fun()
+---@field OnWeaponMagOutNewFPP:fun()
+---@field OnWeaponMagInNewFPP:fun()
+---@field OnWeaponMagEnd:fun()
+---@field EffectComop UParticleSystemComponent
+---@field BP_CrossbowBordAmmoMgr BP_CrossbowBordAmmoMgr_C
+---@field WeaponAnimList_Other_CrossbowBorderland WeaponAnimList_Other_CrossbowBorderland_C
+---@field ST_PlayerMag UStaticMeshComponent
+---@field ST_Mag UStaticMeshComponent
+---@field bUseIdleAnim_0_0 bool
+---@field BulletTailEffectMap ULuaMapHelper
+---@field BulletEffectMap ULuaMapHelper
+---@field BulletBuffMap ULuaMapHelper
+---@field BulletHitBuffMap ULuaMapHelper
+---@field DamageTypeBuffMap ULuaMapHelper

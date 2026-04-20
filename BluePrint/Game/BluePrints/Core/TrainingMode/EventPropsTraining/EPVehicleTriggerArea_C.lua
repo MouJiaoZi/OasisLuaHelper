@@ -1,0 +1,5 @@
+---@class EPVehicleTriggerArea_C:BP_TriggerArea_C
+---@field TestPrint:fun()
+---@field GetLuaModule:fun():FString
+---@field 新建函数_0:fun()
+---@field UserConstructionScript:fun()

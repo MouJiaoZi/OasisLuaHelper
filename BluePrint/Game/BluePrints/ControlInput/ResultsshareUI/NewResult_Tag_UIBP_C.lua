@@ -1,0 +1,37 @@
+---@class NewResult_Tag_UIBP_C:UUAEUserWidget
+---@field SetPostableMoments:fun(moments:ULuaArrayHelper):bool
+---@field ResultIconLoaded:fun(obj:UObject,id:int32)
+---@field PerfectTimeLoaded:fun()
+---@field SetPlayerTitleFinish:fun()
+---@field LoadMetalIconPathListFinish:fun(objList:ULuaArrayHelper,ID:int32)
+---@field GetModeUI:fun():FString
+---@field TitleLoadFinish__DelegateSignature:fun()
+---@field ButtonOpenMyTitle UNewButton
+---@field CanvasPanel_NormalTagNum UCanvasPanel
+---@field CanvasPanel_TitleGroup UCanvasPanel
+---@field CanvasPanel_TitleGroup2 UCanvasPanel
+---@field CanvasPanelTitleAll UCanvasPanel
+---@field FX_Light_01 UImage
+---@field FX_Light_02 UImage
+---@field Image_Tag3 UImage
+---@field Image_TitleName UImage
+---@field Image_TitleName2 UImage
+---@field ImageTitleBase UImage
+---@field ImageTitleBase2 UImage
+---@field NewButton_OpenNormalTag2 UNewButton
+---@field NewButton_OpenPerfectTag UNewButton
+---@field NodeTitleBase UCanvasPanel
+---@field SockPerfectTime UCustomSocketPanel
+---@field TextBlock_NormalNum2 UTextBlock
+---@field TextBlock_PerfectNum UTextBlock
+---@field TextBlockAllTitleNum UTextBlock
+---@field WidgetSwitcher_TagType UWidgetSwitcher
+---@field TitleLoadFinish ULuaMulticastDelegate
+---@field MyMetalList ULuaArrayHelper
+---@field ShowSelfTitle int32
+---@field titleCanvasPanel ULuaArrayHelper
+---@field TitleImage ULuaArrayHelper
+---@field imageTitleBaseList ULuaArrayHelper
+---@field SubMode int32
+---@field Result UUAEUserWidget
+---@field ShareMoments ULuaArrayHelper

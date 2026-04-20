@@ -1,0 +1,5 @@
+---@class ResultsOB_ResultTitle_Type
+---@field NewEnumerator0 int32
+---@field NewEnumerator1 int32
+---@field NewEnumerator2 int32
+---@field ResultsOB_ResultTitle_MAX int32

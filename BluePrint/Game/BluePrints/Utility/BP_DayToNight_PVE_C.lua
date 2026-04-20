@@ -1,0 +1,8 @@
+---@class BP_DayToNight_PVE_C:ADayToNightActorPVE
+---@field SwitchBattleMusic:fun()
+---@field UserConstructionScript:fun()
+---@field BP_PVEOnEnterNightEvent:fun()
+---@field BP_PVEOnExitNightEvent:fun()
+---@field DefaultSceneRoot USceneComponent
+---@field CockEvent UAkAudioEvent
+---@field StarShowerLocations ULuaArrayHelper

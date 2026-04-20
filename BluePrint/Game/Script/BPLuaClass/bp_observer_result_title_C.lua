@@ -1,0 +1,5 @@
+---@class bp_observer_result_title_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field CurDetailTitleName FString
+---@field BP_ARRAY_TITLE_MORE_DETAIL_GENERAL_DATA ULuaArrayHelper

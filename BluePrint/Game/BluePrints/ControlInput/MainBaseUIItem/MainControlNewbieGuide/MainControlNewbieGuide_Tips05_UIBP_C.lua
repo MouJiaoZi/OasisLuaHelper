@@ -1,0 +1,3 @@
+---@class MainControlNewbieGuide_Tips05_UIBP_C:UNewbieGuideWidget
+---@field OnCreateAndShow:fun(GuideId:int32,UIConfigIndex:int32)
+---@field UTRichTextBlock_Tips3_Text1 UUTRichTextBlock

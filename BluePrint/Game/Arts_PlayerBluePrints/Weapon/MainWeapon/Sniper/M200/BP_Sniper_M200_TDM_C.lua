@@ -1,0 +1,3 @@
+---@class BP_Sniper_M200_TDM_C:BP_Sniper_M200_C
+---@field UserConstructionScript:fun()
+---@field bUseIdleAnim_0_0_0 bool

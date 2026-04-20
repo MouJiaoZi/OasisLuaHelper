@@ -1,0 +1,4 @@
+---@class TopGame_ShareBut_UIBP_C:UUAEUserWidget
+---@field Btnshare UHorizontalBox
+---@field NewButton_TopGame_Continue UNewButton
+---@field NewButton_TopGame_Share UNewButton

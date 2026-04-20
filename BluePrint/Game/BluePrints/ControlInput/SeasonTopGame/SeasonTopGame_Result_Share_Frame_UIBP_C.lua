@@ -1,0 +1,7 @@
+---@class SeasonTopGame_Result_Share_Frame_UIBP_C:UUAEUserWidget
+---@field HidePeakCompetitionShareUI:fun()
+---@field ShowPeakCompetitionShareUI:fun()
+---@field Construct:fun()
+---@field SeasonTopGame_Result_Share_Content_UIBP SeasonTopGame_Result_Share_Content_UIBP_C
+---@field Shareinterface_UIBP Shareinterface_UIBP_C
+---@field MySelfObj bp_share_result_C

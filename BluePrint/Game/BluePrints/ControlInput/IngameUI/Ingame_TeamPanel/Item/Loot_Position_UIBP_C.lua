@@ -1,0 +1,1 @@
+---@class Loot_Position_UIBP_C:UUserWidget

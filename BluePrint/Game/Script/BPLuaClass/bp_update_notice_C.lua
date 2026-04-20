@@ -1,0 +1,8 @@
+---@class bp_update_notice_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_Update_Notice_Tip_Scene FString
+---@field BP_Update_Notice_Ok_Text FString
+---@field BP_Update_Notice_Type int32
+---@field BP_Update_Notice_Scene FString
+---@field BP_Update_Notice_Cancel_Text FString

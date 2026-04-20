@@ -1,0 +1,1 @@
+---@class Light_UIBP_C:UMapUIMarkBaseWidget

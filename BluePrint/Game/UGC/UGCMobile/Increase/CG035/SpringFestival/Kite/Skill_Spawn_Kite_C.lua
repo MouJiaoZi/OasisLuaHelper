@@ -1,0 +1,21 @@
+---@class Skill_Spawn_Kite_C:AUAESkill
+---@field OnInterruptSkill:fun()
+---@field SpawnKitePivotActor:fun(KitePivotLoc:FVector,OwnerKite:ASTExtraVehicleBase):KitePivotActor_C
+---@field FindKitePivot:fun(CharacterLoc:FVector):FVector
+---@field PlayPutMontage:fun()
+---@field GetOwnerCharacter:fun():ASTExtraBaseCharacter
+---@field CanSpawnVehicle:fun():bool
+---@field SpawnVehicle:fun()
+---@field UserConstructionScript:fun()
+---@field UAESkillEventEffectMapForEditor3 UUAESkillEventEffectMapForEditor
+---@field UAESkillEventEffectMapForEditor2 UUAESkillEventEffectMapForEditor
+---@field UTSkillSpecificAction UUTSkillSpecificAction
+---@field UAESkillAction_SwitchWeapon UUAESkillAction_SwitchWeapon
+---@field UAESkillEventEffectMapForEditor4 UUAESkillEventEffectMapForEditor
+---@field UAESkillEventEffectMapForEditor1 UUAESkillEventEffectMapForEditor
+---@field UAESkillEventEffectMapForEditor UUAESkillEventEffectMapForEditor
+---@field UAESkillPhase1 UUAESkillPhase
+---@field UAESkillPhase UUAESkillPhase
+---@field DefaultSceneRoot USceneComponent
+---@field PutMontage UAnimMontage
+---@field CacheOwnerCharacter ASTExtraBaseCharacter

@@ -1,0 +1,15 @@
+---@class RoomCamp_Main_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field GetCampTeamColorTableData:fun(InInt:int32):FTeamPlayerColorStruct
+---@field CanvasPanel_0 UCanvasPanel
+---@field CanvasPanel_2 UCanvasPanel
+---@field CanvasPanel_4 UCanvasPanel
+---@field CanvasPanel_List UCanvasPanel
+---@field CanvasPanel_TracingGuideTips UCanvasPanel
+---@field Image_Select UImage
+---@field NewButton_RoomPage UNewButton
+---@field NewButton_ShowHide UNewButton
+---@field RoomCamp_ReuseList RoomCamp_ReuseList_C
+---@field Switcher_ShowHide UWidgetSwitcher
+---@field Text_RoomCampName UTextBlock
+---@field Text_SurplusNum UTextBlock

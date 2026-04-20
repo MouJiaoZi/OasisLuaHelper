@@ -1,0 +1,2 @@
+---@class SkillRootPanel_BP_C:UUAEUserWidget
+---@field CanvasPanel_Root UCanvasPanel

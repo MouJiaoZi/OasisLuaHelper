@@ -1,0 +1,1 @@
+---@class AR_AIWeaponConfig_BP_C:URespawnItemConfig

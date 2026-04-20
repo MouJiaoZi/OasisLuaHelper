@@ -1,0 +1,4 @@
+---@class bp_watermark_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field WaterMarkOpen bool

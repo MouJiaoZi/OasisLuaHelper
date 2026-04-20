@@ -1,0 +1,9 @@
+---@class Resurrection_TeamtimeUIBP_C:UUAEUserWidget
+---@field TeamtimeUIBP_SetPickupState:fun(IsPickUp:bool,PlayAniAndSound:bool)
+---@field TeamtimeUIBP_SetTime:fun(InTime:int32)
+---@field SetPickupState:fun(IsPick:bool,PlayAniAndSound:bool)
+---@field SetTime:fun(InTime:int32)
+---@field DX_Locking UWidgetAnimation
+---@field DX_FlyID UWidgetAnimation
+---@field Text_Resurrection_Time UTextBlock
+---@field WidgetSwitcher_Resurrection UWidgetSwitcher

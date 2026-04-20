@@ -1,0 +1,17 @@
+---@class TeamerKillTipControl_UIBP_C:UUAEUserWidget
+---@field UIMsg_KillTipStopAnimation:fun()
+---@field GetIdxByType:fun(KillType:TeamerKillTipType):int32
+---@field UpdateInfoBySocket:fun(Socket:UCustomSocketPanel)
+---@field UpdateKillDetailItemInfo:fun(KillInfoType:TeamerKillTipType)
+---@field UIMsg_ShowTeamerKillInfoTip:fun()
+---@field MainShowAnim UWidgetAnimation
+---@field Border_Main UBorder
+---@field Socket_BeKilled UCustomSocketPanel
+---@field Socket_BePutDown UCustomSocketPanel
+---@field Socket_KilledOtherStyle1 UCustomSocketPanel
+---@field Socket_KilledOtherStyle2 UCustomSocketPanel
+---@field Socket_PutDownOtherStyle1 UCustomSocketPanel
+---@field Socket_PutDownOtherStyle2 UCustomSocketPanel
+---@field WidgetSwitcher_KillTips UWidgetSwitcher
+---@field CurKillData FKillOrPutDownMessage
+---@field ResPathArray ULuaArrayHelper

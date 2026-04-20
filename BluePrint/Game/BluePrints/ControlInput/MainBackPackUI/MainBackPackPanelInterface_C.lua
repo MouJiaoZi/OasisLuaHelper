@@ -1,0 +1,5 @@
+---@class MainBackPackPanelInterface_C:UInterface
+---@field SetBackpackChildWidgetInf:fun(widget:UUAEUserWidget):bool
+---@field CloseDropDlgInf:fun():bool
+---@field DropAllUselessItemInf:fun():bool
+---@field SetUAVCDInf:fun(cd:int32):bool

@@ -1,0 +1,18 @@
+---@class VH_LostMobile_C:ASTExtraLostMobileVehicle
+---@field DriverLeave:fun(SeatType:ESTExtraVehicleSeatType)
+---@field UserConstructionScript:fun()
+---@field K2_OnBecomeViewTarget:fun(PC:APlayerController)
+---@field VFX4 UStaticMeshComponent
+---@field VehicleSkillManager VehicleSkillManager_C
+---@field HoverMovement HoverMovement_C
+---@field Camera UCameraComponent
+---@field VehicleSpringArm UVehicleSpringArmComponent
+---@field UAEChaVehAnimList_Driver UUAEChaVehAnimListComponent
+---@field UAEChaVehAnimList_PassengersR UUAEChaVehAnimListComponent
+---@field UAEChaVehAnimList_PassengersL UUAEChaVehAnimListComponent
+---@field Sfx_Takeoff UAkAudioEvent
+---@field Sfx_Accelerate UAkAudioEvent
+---@field GroundParticleSpeedThreshold float
+---@field GlideParticleSpeedThreshold float
+---@field GlideTImeToChangeEffect float
+---@field NewVar_0 FTimerHandle

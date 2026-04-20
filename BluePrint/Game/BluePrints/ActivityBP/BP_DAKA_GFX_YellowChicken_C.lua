@@ -1,0 +1,1 @@
+---@class BP_DAKA_GFX_YellowChicken_C:ABP_DAKA_GFX_C

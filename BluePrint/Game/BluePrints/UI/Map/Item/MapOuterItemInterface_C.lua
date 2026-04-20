@@ -1,0 +1,2 @@
+---@class MapOuterItemInterface_C:UInterface
+---@field MapScaleChange:fun():bool

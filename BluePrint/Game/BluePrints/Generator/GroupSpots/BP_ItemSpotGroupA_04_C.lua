@@ -1,0 +1,4 @@
+---@class BP_ItemSpotGroupA_04_C:ABP_SpotActor_C
+---@field UserConstructionScript:fun()
+---@field BP_ItemSpotComponent BP_ItemSpotComponent_C
+---@field BP_ItemSpotGroupComponent BP_ItemSpotGroupComponent_C

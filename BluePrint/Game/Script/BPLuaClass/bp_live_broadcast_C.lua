@@ -1,0 +1,6 @@
+---@class bp_live_broadcast_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_Live_BroadcastNetworkStatus bool
+---@field BP_Live_BroadcastNetworkDelay int32
+---@field BP_Live_Broadcast_Url FString

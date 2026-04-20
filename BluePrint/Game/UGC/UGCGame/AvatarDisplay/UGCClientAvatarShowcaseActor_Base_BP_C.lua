@@ -1,0 +1,20 @@
+---@class UGCClientAvatarShowcaseActor_Base_BP_C:AActivityActorForClient
+---@field GetLuaModule:fun():FString
+---@field CanDownload:fun():bool
+---@field DontHideParticle:fun():bool
+---@field DontUseMaterialEffectSystem:fun():bool
+---@field IsDisplayAvatar:fun():bool
+---@field IsInteracting:fun():bool
+---@field IsNeedUseLobbyMesh:fun():bool
+---@field GetMasterComponent:fun():USkeletalMeshComponent
+---@field InitializeMasterComp:fun():bool
+---@field IsRenderAllHandle:fun():bool
+---@field ServerShowAvatar:fun(PlayerUID:int64)
+---@field PlayAnim:fun(NewAnimToPlay:UAnimationAsset,bLooping:bool)
+---@field ClientShowAvatar:fun(PlayerUID:int64)
+---@field EnableAvatarToShow:fun(Enable:bool)
+---@field ModifyAvatarList:fun(UpdateFlag:EMeshComponentUpdateFlag)
+---@field UserConstructionScript:fun()
+---@field PlayerHead USkeletalMeshComponent
+---@field UGCCharAvatarShowcaseComp_BP UGCCharAvatarShowcaseComp_BP_C
+---@field Capsule UCapsuleComponent

@@ -1,0 +1,23 @@
+---@class Ingame_SignalBarItemStyle2_UIBP_C:UUAEUserWidget
+---@field SetBarVisibility:fun(NewVisible:bool,CellType:Ingame_SignalCellType)
+---@field InitByPlayerController:fun(InPlayerController:ASTExtraPlayerController)
+---@field PreConstruct:fun(IsDesignTime:bool)
+---@field SetCellPercentage:fun(CellType:Ingame_SignalCellType,Precentage:float,Visible:bool)
+---@field InitByPlayerState:fun(PlayerState:APlayerState)
+---@field ResetBar:fun(FullRecovery:bool)
+---@field SetHP:fun(CurHP:float)
+---@field SetCellColor:fun(CellType:Ingame_SignalCellType,Color:FLinearColor)
+---@field Construct:fun()
+---@field ResetColor:fun(CellType:Ingame_SignalCellType)
+---@field DX_Opactity UWidgetAnimation
+---@field Image_ColorBar UImage
+---@field Image_Pre_add2 UImage
+---@field Image_RedBar UImage
+---@field Image_SignalBarBG UImage
+---@field MinPercentage float
+---@field MaxPercentage float
+---@field Index int32
+---@field CellUnit float
+---@field FlashingPercentage float
+---@field IsPlayingAnimatin bool
+---@field DefaultColorMap ULuaMapHelper

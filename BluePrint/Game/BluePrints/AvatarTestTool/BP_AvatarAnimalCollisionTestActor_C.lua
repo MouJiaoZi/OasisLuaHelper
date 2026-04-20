@@ -1,0 +1,3 @@
+---@class BP_AvatarAnimalCollisionTestActor_C:AAvatarAnimalCollisionTestActor
+---@field UserConstructionScript:fun()
+---@field CharacterAvatarComp_BP CharacterAvatarComp_BP_C

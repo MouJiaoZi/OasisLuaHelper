@@ -1,0 +1,5 @@
+---@class GMUIStyleItem_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field OnTouchEnded:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field TouchEndLua:fun()
+---@field TextBlock_UIStyle UTextBlock

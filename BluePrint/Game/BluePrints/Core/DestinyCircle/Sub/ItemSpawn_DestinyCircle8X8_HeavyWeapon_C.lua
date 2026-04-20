@@ -1,0 +1,1 @@
+---@class ItemSpawn_DestinyCircle8X8_HeavyWeapon_C:UItemSpawn_DestinyCircle8X8_C

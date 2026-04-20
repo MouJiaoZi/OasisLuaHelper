@@ -1,0 +1,8 @@
+---@class FirstTimeTips_war_FPP_C:UUAEUserWidget
+---@field ReceivedInitWidget:fun()
+---@field Button_CloseUI UButton
+---@field UTRichTextBlock_KillPoints UUTRichTextBlock
+---@field UTRichTextBlock_RescuePlusPoints UUTRichTextBlock
+---@field UTRichTextBlock_TIPS UUTRichTextBlock
+---@field UTRichTextBlock_Title UUTRichTextBlock
+---@field BattleTextTableName FString

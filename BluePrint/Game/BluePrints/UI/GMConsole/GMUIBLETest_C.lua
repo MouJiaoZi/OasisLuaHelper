@@ -1,0 +1,8 @@
+---@class GMUIBLETest_C:UUserWidget
+---@field InitUI:fun(BaseRef:MainControlBaseUI_C)
+---@field Construct:fun()
+---@field BtnClose UButton
+---@field BtnOK UButton
+---@field TextTriggerID UEditableTextBox
+---@field Controller UObject
+---@field BaseUIRef MainControlBaseUI_C

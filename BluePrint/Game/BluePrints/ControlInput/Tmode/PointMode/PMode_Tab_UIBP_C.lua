@@ -1,0 +1,53 @@
+---@class PMode_Tab_UIBP_C:UUAEUserWidget
+---@field DeathMatch_UpdateALL:fun():bool
+---@field DeathMatch_FirstInit:fun():bool
+---@field DeathMatch_Show:fun():bool
+---@field DeathMatch_Hide:fun():bool
+---@field InitTeamColor:fun()
+---@field NewTabItemByPlayerInfo:fun(CurrentTeamTabItemList:ULuaArrayHelper,PlayerInfo:FDeathMatchPlayerInfo):PMode_Tab_Item_UIBP_C
+---@field UpdateTabItemsByTeamData:fun(TeamScoreData:FDeathMatchTeamScoreData,UIDToTabItemsMap:ULuaMapHelper,CurrentTeamTabItemList:ULuaArrayHelper)
+---@field InitData:fun()
+---@field SetUIBP_isShow:fun(isShow:bool)
+---@field UpdateData_All:fun()
+---@field UpdateTeamItems:fun(GameState:ABRGameStateTeam_DeathMatch)
+---@field InitTeamItemList:fun()
+---@field Construct:fun()
+---@field Button_OP_Close UButton
+---@field CanvasPanel_OP_Bg UCanvasPanel
+---@field CanvasPanel_Root UCanvasPanel
+---@field PMode_Tab_Item_MyTeam1 PMode_Tab_Item_UIBP_C
+---@field PMode_Tab_Item_MyTeam2 PMode_Tab_Item_UIBP_C
+---@field PMode_Tab_Item_MyTeam3 PMode_Tab_Item_UIBP_C
+---@field PMode_Tab_Item_MyTeam4 PMode_Tab_Item_UIBP_C
+---@field PMode_Tab_Item_MyTeam5 PMode_Tab_Item_UIBP_C
+---@field PMode_Tab_Item_MyTeam6 PMode_Tab_Item_UIBP_C
+---@field PMode_Tab_Item_MyTeam7 PMode_Tab_Item_UIBP_C
+---@field PMode_Tab_Item_MyTeam8 PMode_Tab_Item_UIBP_C
+---@field PMode_Tab_Item_OppoTeam1 PMode_Tab_Item_UIBP_C
+---@field PMode_Tab_Item_OppoTeam2 PMode_Tab_Item_UIBP_C
+---@field PMode_Tab_Item_OppoTeam3 PMode_Tab_Item_UIBP_C
+---@field PMode_Tab_Item_OppoTeam4 PMode_Tab_Item_UIBP_C
+---@field PMode_Tab_Item_OppoTeam5 PMode_Tab_Item_UIBP_C
+---@field PMode_Tab_Item_OppoTeam6 PMode_Tab_Item_UIBP_C
+---@field PMode_Tab_Item_OppoTeam7 PMode_Tab_Item_UIBP_C
+---@field PMode_Tab_Item_OppoTeam8 PMode_Tab_Item_UIBP_C
+---@field TextBlock_MyTeam_Assist UTextBlock
+---@field TextBlock_MyTeam_Kill UTextBlock
+---@field TextBlock_MyTeam_Occupation UTextBlock
+---@field TextBlock_MyTeam_Rate UTextBlock
+---@field TextBlock_MyTeamScore UTextBlock
+---@field TextBlock_OppoTeam_Assist UTextBlock
+---@field TextBlock_OppoTeam_Kill UTextBlock
+---@field TextBlock_OppoTeam_Occupation UTextBlock
+---@field TextBlock_OppoTeam_Rate UTextBlock
+---@field TextBlock_OppoTeamScore UTextBlock
+---@field RedColor FSlateColor
+---@field BlueColor FSlateColor
+---@field MyTeamID int32
+---@field IsInitData bool
+---@field TmodeTabItemList_myTeam ULuaArrayHelper
+---@field TmodeTabItemList_oppoTeam ULuaArrayHelper
+---@field UIDToTabItemsMap_MyTeam ULuaMapHelper
+---@field UIDToTabItemsMap_OPPOTeam ULuaMapHelper
+---@field IsUpdateData bool
+---@field MyUIDString FString

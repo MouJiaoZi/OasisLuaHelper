@@ -1,0 +1,73 @@
+---@class BP_UGCM_GenericNPCPawn_C:AUGCGenericNPCCharacter
+---@field LuaGetWorldKillZ:fun():float
+---@field UpdateOutOfWorld:fun()
+---@field GetNameBarSettings:fun():FName,FVector
+---@field NPCMoveTick:fun(Delta:float)
+---@field PauseTickTime:fun()
+---@field StartTickTime:fun()
+---@field SetBlackboardParam_Float:fun(Selecter:FName,bInput:float)
+---@field GetBlackboardParam_Float:fun(Selecter:FName):float
+---@field TickPatrolDelay:fun(DeltaSeconds:float,Remain:bool)
+---@field TickPatrolDuration:fun(DeltaSeconds:float):bool
+---@field GetPlotAnimationByKey:fun(AnimKey:int32):UAnimationAsset
+---@field GetTeamIDByPC:fun(PC:APlayerController):int32
+---@field ParseButtonMessage:fun(SourceString:FString):int32,int32
+---@field InteractExcuteFunction:fun(Click_Param:FClick_Param)
+---@field InteractCheckFunction:fun(Click_Param:FClick_Param):bool
+---@field UpdateClickButtonEnable:fun(Idx:int32,Enable:bool)
+---@field SetClickButtonInfos:fun(InteractRadius:float,InteractTeams:S_TeamChoice,InteractOptions:ULuaArrayHelper)
+---@field ClientPlayAnimByTag:fun(AnimTag:FGameplayTag)
+---@field SwitchIdleAnim:fun(Idx:int32)
+---@field ShowNameBar:fun(bShow:bool)
+---@field MoveBackSpawnLocation:fun()
+---@field SetBlackboardParam_Vector:fun(Selecter:FName,InVector:FVector)
+---@field GetBlackboardParam_Vector:fun(Selecter:FName):FVector
+---@field MoveToNextWaypoint:fun(Inc:int32)
+---@field OnPatrolEnd:fun()
+---@field StartPatrol:fun()
+---@field SetBlackboardParam_Bool:fun(Selecter:FName,bInput:bool)
+---@field GetBlackboardParam_Bool:fun(Selecter:FName):bool
+---@field PrintDebugMessage:fun(Msg:FString)
+---@field GetFollowWaypointPart:fun():UBasicLogicPart
+---@field PausePatrol:fun()
+---@field SetPatrolParam:fun(Delay_:float,Duration:float,EndStrategy:Enum_NPC_PatrolEndStrategy,WaypointsNum:int32,WayPointStrategy:Enum_WayPointStrategy)
+---@field UserConstructionScript:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field BPOnRespawned:fun()
+---@field BPOnRecycled:fun()
+---@field OnInteractOptionTrigger__DelegateSignature:fun(Idx:int32)
+---@field OnPartrolEnd_BP__DelegateSignature:fun(MonsterInstance:BP_UGCM_GenericNPCPawn_C)
+---@field InteractTrigger USphereComponent
+---@field ClickActorComponentBase UClickActorComponentBase
+---@field ActorMark UActorMarkComponent
+---@field SimulateSyncSmooth USimulateSyncSmoothComponent
+---@field CrowdAgent UCrowdAgentComponent
+---@field bPatrol FName
+---@field bUsePathPoint FName
+---@field TargetWayPoint int32
+---@field OnPartrolEnd_BP ULuaMulticastDelegate
+---@field ConductPatrolHandle FTimerHandle
+---@field PatrolEndHandle FTimerHandle
+---@field SpawnLoc FName
+---@field PatrolEndStrategy Enum_NPC_PatrolEndStrategy
+---@field IdleAnimationList ULuaArrayHelper
+---@field PatrolRange_Min FName
+---@field PatrolRange_Max FName
+---@field InteractTeams S_TeamChoice
+---@field InteractButtonTexturePath FSoftObjectPath
+---@field InteractButtonEnable ULuaArrayHelper
+---@field CheckFunctionName FName
+---@field ExecuteFunctionName FName
+---@field ButtonClassPath FSoftClassPath
+---@field OnInteractOptionTrigger ULuaMulticastDelegate
+---@field PatrolDuration float
+---@field PatrolDelay float
+---@field bDelayCompleted bool
+---@field WaypointIdx int32
+---@field InteractRadius float
+---@field bShowNameBar bool
+---@field bMoveTick bool
+---@field bForceReturnSpawnLocation FName
+---@field WayPointNum int32
+---@field WayPointStrategy Enum_WayPointStrategy
+---@field DisablePawnState ULuaArrayHelper

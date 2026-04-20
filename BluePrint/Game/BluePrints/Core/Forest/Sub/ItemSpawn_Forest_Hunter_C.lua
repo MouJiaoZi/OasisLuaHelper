@@ -1,0 +1,1 @@
+---@class ItemSpawn_Forest_Hunter_C:UItemSpawn_Forest_C

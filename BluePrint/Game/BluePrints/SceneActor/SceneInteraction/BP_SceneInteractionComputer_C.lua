@@ -1,0 +1,6 @@
+---@class BP_SceneInteractionComputer_C:ASceneInteractionActor
+---@field UserConstructionScript:fun()
+---@field InteractionAction_Submit UInteractionAction_Submit
+---@field InteractionCondition_Distance UInteractionCondition_Distance
+---@field DynamicTextRender UDynamicTextRenderComponent
+---@field BP_ProduceDropItemComponent BP_ProduceDropItemComponent_Deprecated_C

@@ -1,0 +1,2 @@
+---@class WeatherUIInterface_C:UInterface
+---@field SetWeatherTips:fun(String:FString):bool

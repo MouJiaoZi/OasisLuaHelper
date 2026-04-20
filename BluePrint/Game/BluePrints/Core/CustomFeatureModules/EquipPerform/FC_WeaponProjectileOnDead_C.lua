@@ -1,0 +1,4 @@
+---@class FC_WeaponProjectileOnDead_C:AEliteProjectile
+---@field UserConstructionScript:fun()
+---@field SkeletalMesh USkeletalMeshComponent
+---@field bPendingDestroy bool

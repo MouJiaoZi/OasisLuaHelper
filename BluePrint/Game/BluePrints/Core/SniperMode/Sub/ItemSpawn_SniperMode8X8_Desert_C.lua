@@ -1,0 +1,1 @@
+---@class ItemSpawn_SniperMode8X8_Desert_C:UItemSpawn_Desert_C

@@ -1,0 +1,30 @@
+---@class BP_CG30_AscenderCustomMove_C:AActivityBaseActor
+---@field ReceiveSpeedChange:fun(Speed:float)
+---@field TryEndInteract:fun()
+---@field GoIdle:fun()
+---@field EndInteract:fun(IsInterrupt:bool)
+---@field BeginInteract:fun(PC:BP_STExtraPlayerController_C,InAscenderActor:BP_CG30_Ascender_C,FromBack:bool):bool
+---@field GoFastDown:fun()
+---@field GoDown:fun()
+---@field GoUp:fun()
+---@field InteractCheck:fun(Click_Param:FClick_Param):bool
+---@field UserConstructionScript:fun()
+---@field ReceiveEndPlay:fun(EndPlayReason:EEndPlayReason)
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field StaticMesh UStaticMeshComponent
+---@field SkeletalMeshPos USceneComponent
+---@field RightHandSocket USceneComponent
+---@field LeftHandSocket USceneComponent
+---@field SkeletalMesh USkeletalMeshComponent
+---@field Scene USceneComponent
+---@field ActivityFakePossess UActivityFakePossessComponent
+---@field CustomActorMove UCustomActorMoveComponent
+---@field AscenderActor BP_CG30_Ascender_C
+---@field SubAnim bool
+---@field WeaponSlot ESurviveWeaponPropSlot
+---@field SlideInput float
+---@field AscenderPE UPersistEffectBase
+---@field CurAkEvent int32
+---@field RepSpeed float
+---@field UISlot FUISlotSelector
+---@field BeginHandle FTimerHandle

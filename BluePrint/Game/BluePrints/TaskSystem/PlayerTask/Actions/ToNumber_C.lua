@@ -1,0 +1,10 @@
+---@class ToNumber_C:UTaskAction_Base
+---@field CopyToValue2:fun()
+---@field GenerateValue1:fun()
+---@field OnExecute:fun():bool
+---@field Param1Source ETaskParamSrcType
+---@field Param1TypeValue FUAEBlackboardParameter
+---@field Param2TypeValue FUAEBlackboardParameter
+---@field Param1CacheValue FTaskBlackboardKeySelector
+---@field Param1EventValue FTriggerEventParamKeySelector
+---@field TargetBlackboardSelector FTaskBlackboardKeySelector

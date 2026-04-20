@@ -1,0 +1,12 @@
+---@class Ingame_ThrowingRoulette_Item_UIBP_C:UUAEUserWidget
+---@field PreConstruct:fun(IsDesignTime:bool)
+---@field Construct:fun()
+---@field CanvasPanel_cursorCD UCanvasPanel
+---@field CanvasPanel_IconCD UCanvasPanel
+---@field CanvasPanel_Slot UCanvasPanel
+---@field Image_Icon UImage
+---@field Image_Select UImage
+---@field TextBlock_cursorCD UTextBlock
+---@field TextBlock_IconCD UTextBlock
+---@field TextBlock_Num UTextBlock
+---@field NewVar_Slot FWidgetTransform

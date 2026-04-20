@@ -1,0 +1,10 @@
+---@class Skill_Sakura_StartReceive_C:AUAESkill
+---@field UserConstructionScript:fun()
+---@field UAESkillAction_SwitchWeapon1 UUAESkillAction_SwitchWeapon
+---@field UTSkillAppearance_SimpleParticleSystem UUTSkillAppearance_SimpleParticleSystem
+---@field UTSkillAppearance_ParticleSystem UUTSkillAppearance_ParticleSystem
+---@field UAESkillAction_SwitchWeapon UUAESkillAction_SwitchWeapon
+---@field UAESkillAction_DisablePickup UUAESkillAction_DisablePickup
+---@field UAESkillPhase1 UUAESkillPhase
+---@field UAESkillPhase UUAESkillPhase
+---@field DefaultSceneRoot USceneComponent

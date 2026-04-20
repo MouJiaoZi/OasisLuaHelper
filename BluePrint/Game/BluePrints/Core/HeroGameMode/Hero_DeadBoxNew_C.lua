@@ -1,0 +1,11 @@
+---@class Hero_DeadBoxNew_C:ACharacterDeadInventoryBox_C
+---@field PlayParticle:fun()
+---@field CheckDisShow:fun()
+---@field CheckShowHeroPartical:fun()
+---@field UserConstructionScript:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field ParticleSystem UParticleSystemComponent
+---@field bNeedShowParticle bool
+---@field HeroParticleMap ULuaMapHelper
+---@field LastID int32
+---@field ParticlePlayed bool

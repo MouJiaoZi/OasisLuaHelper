@@ -1,0 +1,3 @@
+---@class BP_OccpationPlayerState_C:ASTOccupationPlayerState
+---@field UserConstructionScript:fun()
+---@field DefaultSceneRoot USceneComponent

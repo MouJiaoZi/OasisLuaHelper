@@ -1,0 +1,9 @@
+---@class Ingame_MainControlBaseLive_UIBP_C:ULiveWeatherCountDown
+---@field CanvasPanel_Root UCanvasPanel
+---@field Image_sunmoon UImage
+---@field ProgressBar_temp UProgressBar
+---@field TextBlock_zhouye UTextBlock
+---@field NightImage FSlateBrush
+---@field DayImage FSlateBrush
+---@field NightColor FLinearColor
+---@field DayColor FLinearColor

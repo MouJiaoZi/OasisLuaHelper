@@ -1,0 +1,23 @@
+---@class BackPackFunctionLibrary_BP_C:UBlueprintFunctionLibrary
+---@field CheckAndReplaceSignalAreaText fun(ContextObject:UObject,InStr:FString,__WorldContext:UObject):FString
+---@field AttachSocket2Index fun(Selection:EWeaponAttachmentSocketType,__WorldContext:UObject):int32
+---@field GetWeaponAttachments fun(WeaponID:int32,IsContainBullet:bool,__WorldContext:UObject):ULuaArrayHelper
+---@field IsGunSupportAttachByResID fun(gunresID:int32,attachresID:int32,widget:UUAEUserWidget,__WorldContext:UObject):bool
+---@field IsGunSupportAttachByDefineID fun(gunDefine:FItemDefineID,attachDefine:FItemDefineID,widget:UUAEUserWidget,__WorldContext:UObject):bool
+---@field GetWeaponSupportSocket fun(weaponID:int32,widget:UUAEUserWidget,__WorldContext:UObject):ULuaArrayHelper
+---@field GetWeaponSupportAttachResID fun(weaponID:int32,widget:UUAEUserWidget,__WorldContext:UObject):ULuaArrayHelper
+---@field GetWeaponAttachPosByResID fun(resID:int32,widget:UUAEUserWidget,__WorldContext:UObject):EWeaponAttachmentSocketType
+---@field IsGunSupportBullet fun(weapon:ASTExtraWeapon,bulletDefineID:FItemDefineID,__WorldContext:UObject):bool,bool
+---@field IsBullet fun(defineID:FItemDefineID,__WorldContext:UObject):bool
+---@field getItemTypeByDefineID fun(defineID:FItemDefineID,__WorldContext:UObject):int32
+---@field IsGunSupportAttachByRes fun(gunResID:int32,attachResID:int32,widget:UUAEUserWidget,__WorldContext:UObject):bool
+---@field getBPIDbyResID fun(resID:int32,__WorldContext:UObject):int32
+---@field getBPIDbyDefineID fun(defineID:FItemDefineID,__WorldContext:UObject):int32
+---@field IsGunSupportAttachByDefine fun(gunDefine:FItemDefineID,attachDefine:FItemDefineID,widget:UUAEUserWidget,__WorldContext:UObject):bool
+---@field GetVolAvatarConfigByResID fun(resID:int32,outer:UObject,__WorldContext:UObject):BattleItemHandle_AvatarBP_C
+---@field IsAttach fun(defineID:FItemDefineID,__WorldContext:UObject):bool
+---@field IsGun fun(defineID:FItemDefineID,__WorldContext:UObject):bool
+---@field GetBattleItemByDefineID fun(defineID:FItemDefineID,widget:UUserWidget,__WorldContext:UObject):FBattleItemData
+---@field GetWeaponHandleByBPID fun(BPID:int32,outer:UObject,__WorldContext:UObject):BattleItemHandle_MainWeapon_C
+---@field GetWeaponHandleByResID fun(resID:int32,outer:UObject,__WorldContext:UObject):BattleItemHandle_MainWeapon_C
+---@field GetWeaponAttachConfigByResID fun(resID:int32,outer:UObject,__WorldContext:UObject):FWeaponAttachmentConfig

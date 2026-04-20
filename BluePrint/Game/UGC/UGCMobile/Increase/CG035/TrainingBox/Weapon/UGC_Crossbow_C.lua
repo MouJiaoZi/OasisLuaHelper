@@ -1,0 +1,3 @@
+---@class UGC_Crossbow_C:AActor
+---@field UserConstructionScript:fun()
+---@field StaticMesh UStaticMeshComponent

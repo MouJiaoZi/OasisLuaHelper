@@ -1,0 +1,21 @@
+---@class MobileEditor_ScriptEditor_SetTab_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field ActorDetailViewWidget UGCMobileDetailViewWidget_C
+---@field CanvasPanel_Edit UCanvasPanel
+---@field CustomScrollBox_1 UCustomScrollBox
+---@field EditableText_name UEditableText
+---@field HorizontalBox_But UHorizontalBox
+---@field Image_Icon UImage
+---@field NewButton_Base UNewButton
+---@field NewButton_Close UNewButton
+---@field NewButton_Copy UNewButton
+---@field NewButton_Delete UNewButton
+---@field NewButton_Event UNewButton
+---@field NewButton_Exterior UNewButton
+---@field NewButton_Mack UNewButton
+---@field SendReceiveEvent_TabBut_UIBP SendReceiveEvent_TabBut_UIBP_C
+---@field UGCMobilePropertyBindableWidget_HiddenManually UUGCMobilePropertyBindableWidget
+---@field UGCMobilePropertyBindableWidget_Lock UUGCMobilePropertyBindableWidget
+---@field WidgetSwitcher_Base UWidgetSwitcher
+---@field WidgetSwitcher_Event UWidgetSwitcher
+---@field WidgetSwitcher_Tab UWidgetSwitcher

@@ -1,0 +1,1 @@
+---@class BP_JukeBox_Test_C:ABP_JukeBox_C

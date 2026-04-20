@@ -1,0 +1,16 @@
+---@class ReplayComplete_TabSingleItem_C:UUAEUserWidget
+---@field OnMouseButtonUp:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field UpdateByPlayerState:fun(inTeamID:int32,inPlayerIndex:int32,inPlayerState:ASTExtraPlayerState,ReplayUID:FString)
+---@field Border_Parent UBorder
+---@field Btn_Copyuid UNewButton
+---@field CanvasPanel_IDX UCanvasPanel
+---@field Image_CurrentSelected UImage
+---@field Image_DeadIcon UImage
+---@field Image_IsActvie UImage
+---@field TextBlock_KillNum UTextBlock
+---@field TextBlock_PlayerName UTextBlock
+---@field TextBlock_PlayerUID UTextBlock
+---@field TextBlock_TeamIdx UTextBlock
+---@field PlayerUID FString
+---@field isPlayerAlive bool
+---@field isCurViewTarget bool

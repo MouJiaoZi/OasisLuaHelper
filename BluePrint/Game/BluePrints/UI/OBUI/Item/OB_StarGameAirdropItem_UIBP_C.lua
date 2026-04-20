@@ -1,0 +1,8 @@
+---@class OB_StarGameAirdropItem_UIBP_C:UUAEUserWidget
+---@field OnTouchEnded:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field SelectItem:fun(Select:bool,OnlyUI:bool,WaveIndex:int32)
+---@field OnSelectEvent__DelegateSignature:fun(Widget:UUserWidget)
+---@field NewButton_Selected UNewButton
+---@field TextBlock_BtnName UTextBlock
+---@field WidgetSwitcher_BtnState UWidgetSwitcher
+---@field OnSelectEvent ULuaMulticastDelegate

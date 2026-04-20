@@ -1,0 +1,3 @@
+---@class BlackHouseDoor2_C:ABP_DoubleDoorMetallic_C
+---@field GetLuaModule:fun():FString
+---@field UserConstructionScript:fun()

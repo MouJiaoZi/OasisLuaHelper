@@ -1,0 +1,33 @@
+---@class QuickSignCircle_UIBP_C:UUserWidget
+---@field SetFingerPointPos:fun(Delta:FVector2D)
+---@field Vector2yupClockDegrees:fun(InVec:FVector2D):float
+---@field HideSelf:fun():uint8
+---@field SetMoveDelta:fun(VectorDeltar:FVector2D)
+---@field ShowSelf:fun()
+---@field Construct:fun()
+---@field Image_Cancel UImage
+---@field Image_Select_00 UImage
+---@field Image_Select_01 UImage
+---@field Image_Select_02 UImage
+---@field Image_Select_03 UImage
+---@field Image_Select_04 UImage
+---@field Image_Select_05 UImage
+---@field Image_Select_06 UImage
+---@field Image_Select_07 UImage
+---@field Image_Touch UImage
+---@field QuickSignCircle_Item_UIBP_0 QuickSignCircle_Item_UIBP_C
+---@field QuickSignCircle_Item_UIBP_1 QuickSignCircle_Item_UIBP_C
+---@field QuickSignCircle_Item_UIBP_2 QuickSignCircle_Item_UIBP_C
+---@field QuickSignCircle_Item_UIBP_3 QuickSignCircle_Item_UIBP_C
+---@field QuickSignCircle_Item_UIBP_4 QuickSignCircle_Item_UIBP_C
+---@field QuickSignCircle_Item_UIBP_5 QuickSignCircle_Item_UIBP_C
+---@field QuickSignCircle_Item_UIBP_6 QuickSignCircle_Item_UIBP_C
+---@field QuickSignCircle_Item_UIBP_7 QuickSignCircle_Item_UIBP_C
+---@field CircleItemArray ULuaArrayHelper
+---@field ImageSelectMap ULuaMapHelper
+---@field CancelDist float
+---@field CurrentItem EQuickSignType
+---@field DegreePerZone float
+---@field ZoneIndexTypeMap ULuaMapHelper
+---@field FingerPointFactor float
+---@field FingerMaxDist float

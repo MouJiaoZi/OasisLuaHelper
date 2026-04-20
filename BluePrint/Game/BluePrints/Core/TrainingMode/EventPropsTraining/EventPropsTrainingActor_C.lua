@@ -1,0 +1,22 @@
+---@class EventPropsTrainingActor_C:GT_GameModeActor_EPBase_C
+---@field GetLuaModule:fun():FString
+---@field UserConstructionScript:fun()
+---@field ChildActor4 UChildActorComponent
+---@field ChildActor3 UChildActorComponent
+---@field ChildActor2 UChildActorComponent
+---@field ChildActor1 UChildActorComponent
+---@field Items USceneComponent
+---@field StaticMesh8 UStaticMeshComponent
+---@field StaticMesh11 UStaticMeshComponent
+---@field StaticMesh7 UStaticMeshComponent
+---@field StaticMesh6 UStaticMeshComponent
+---@field StaticMesh5 UStaticMeshComponent
+---@field StaticMesh4 UStaticMeshComponent
+---@field StaticMesh3 UStaticMeshComponent
+---@field StaticMesh2 UStaticMeshComponent
+---@field Buildings USceneComponent
+---@field InstancedStaticMesh3 UInstancedStaticMeshComponent
+---@field InstancedStaticMesh2 UInstancedStaticMeshComponent
+---@field StaticMesh UStaticMeshComponent
+---@field InstancedStaticMesh1 UInstancedStaticMeshComponent
+---@field InstancedStaticMesh UInstancedStaticMeshComponent

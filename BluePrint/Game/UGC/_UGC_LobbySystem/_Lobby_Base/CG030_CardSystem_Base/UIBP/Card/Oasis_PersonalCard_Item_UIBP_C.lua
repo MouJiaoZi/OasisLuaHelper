@@ -1,0 +1,10 @@
+---@class Oasis_PersonalCard_Item_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field Image_1 UImage
+---@field Image_2 UImage
+---@field Image_Mask UImage
+---@field ImageEx_IconCard UImageEx
+---@field NewButton_Click UNewButton
+---@field TextBlock_CardGame01 UTextBlock
+---@field TextBlock_CardName03 UTextBlock
+---@field WidgetSwitcher_BG UWidgetSwitcher

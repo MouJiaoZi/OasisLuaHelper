@@ -1,0 +1,1 @@
+---@class BP_DoorGreen_Desert_C:ABP_DoorNormal_C

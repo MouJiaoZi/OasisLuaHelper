@@ -1,0 +1,1 @@
+---@class DestinyCircleHeavyWeapon_DihorOtok_1_C:ADestinyCircleHeavyWeapon_1_C

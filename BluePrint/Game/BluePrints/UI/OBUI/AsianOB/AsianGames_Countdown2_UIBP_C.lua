@@ -1,0 +1,10 @@
+---@class AsianGames_Countdown2_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field Getdata:fun()
+---@field Construct:fun()
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field NewButton_Place UNewButton
+---@field TextBlock_Desc UTextBlock
+---@field TextBlock_Time UTextBlock
+---@field Time float
+---@field IsLeaveAirPlane bool

@@ -1,0 +1,57 @@
+---@class TeammatePositionItemNew_BP_C:UPlayerStatePositionWidget
+---@field ShowDamageEffect:fun(UID:FString)
+---@field PrintPanelInfo:fun()
+---@field GetRichTextForName:fun(Name:FString)
+---@field GetPlayBoxTipsUIBP:fun():UUserWidget
+---@field SwitchUIMode:fun(ToRevival:bool)
+---@field SetTimePercent:fun(TotalTime:float,CurrentTime:float)
+---@field SetRevivalTimeVisable:fun(IsShow:bool)
+---@field SetAssumedName:fun(isMySelf:bool,isMyTeam:bool,index:int32)
+---@field HideDist:fun()
+---@field SetFightStyle:fun(FightStyle:int32)
+---@field UIMsg_CongregationFlag:fun()
+---@field HideAll:fun()
+---@field ShowImage:fun(isShow:bool)
+---@field SetColor:fun(NewParam:FLinearColor)
+---@field SetState:fun(State:ExtraPlayerLiveState)
+---@field SetPlayerName:fun(Name:FString,Index:int32)
+---@field Construct:fun()
+---@field UpdatePlayerRevivalTime:fun(RemainingRevivalTime:int32,MaxRevivalTime:int32)
+---@field UpdatePlayerRevivalState:fun(InRevivalState:bool,IsIDCapPick:bool)
+---@field UpdatePlayerInfo_BP:fun(InIndexID:int32,InPlayerName:FString)
+---@field Event_InitParam:fun(InParam:FWidgetParamInfo,InDestinPos:FVector,InTargetActor:AActor)
+---@field Event_UnInitParam:fun()
+---@field DX_Injure UWidgetAnimation
+---@field CanvasPanel_1 UCanvasPanel
+---@field CanvasPanel_DistanceInfo UCanvasPanel
+---@field CanvasPanel_Play_Recall UCanvasPanel
+---@field CanvasPanel_QuickTips UCanvasPanel
+---@field FightStyle_GameModeStateControl UCanvasPanel
+---@field FightStyle_PlayerLevelControl UCanvasPanel
+---@field GridPanel_0 UGridPanel
+---@field Image_Arrow UImage
+---@field Image_Arrow2 UImage
+---@field Image_InAirCraftStateBG UImage
+---@field Image_LandingTeammate UImage
+---@field Image_ParachutingBG UImage
+---@field Image_PlayerDead UImage
+---@field Image_PlayerDeadBG UImage
+---@field Image_PlayerFallToTheGroundBG UImage
+---@field Image_PlayerOffOnlineBG UImage
+---@field Image_ResurrectionCDBar UImage
+---@field Image_SaveCD UImage
+---@field Text_Resurrection UTextBlock
+---@field TextBlock_Distance UTextBlock
+---@field TextBlock_SelectTeam UTextBlock
+---@field TextBlock_Teammate_Name UTextBlock
+---@field TextBlock_TeammateID UTextBlock
+---@field WidgetSwitcher_TeammateState UWidgetSwitcher
+---@field ImageList ULuaArrayHelper
+---@field HideImageNum int32
+---@field FightStyleTextDict ULuaMapHelper
+---@field HeadColor FLinearColor
+---@field IsShowTeammateID bool
+---@field IsDeadColor bool
+---@field PlayBoxTipsUIBP_Widget UUserWidget
+---@field RobotIconItem Robot_PositionItem_UIBP_C
+---@field CurrentIndex int32

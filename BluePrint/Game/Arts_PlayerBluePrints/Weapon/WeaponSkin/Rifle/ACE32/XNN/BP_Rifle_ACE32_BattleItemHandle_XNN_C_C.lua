@@ -1,0 +1,1 @@
+---@class BP_Rifle_ACE32_BattleItemHandle_XNN_C_C:BP_Rifle_ACE32_BattleItemHandle_C

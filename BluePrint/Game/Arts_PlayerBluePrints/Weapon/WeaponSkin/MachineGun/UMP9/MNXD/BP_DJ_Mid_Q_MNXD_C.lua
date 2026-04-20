@@ -1,0 +1,1 @@
+---@class BP_DJ_Mid_Q_MNXD_C:BattleItemHandle_WeapAttachment_C

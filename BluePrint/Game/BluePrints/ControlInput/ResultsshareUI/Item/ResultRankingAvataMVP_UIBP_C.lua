@@ -1,0 +1,1 @@
+---@class ResultRankingAvataMVP_UIBP_C:UUserWidget

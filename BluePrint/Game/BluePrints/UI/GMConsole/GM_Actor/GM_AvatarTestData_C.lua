@@ -1,0 +1,4 @@
+---@class GM_AvatarTestData_C:AActor
+---@field UserConstructionScript:fun()
+---@field DefaultSceneRoot USceneComponent
+---@field AvatarDataList ULuaArrayHelper

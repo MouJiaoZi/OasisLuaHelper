@@ -1,0 +1,12 @@
+---@class BP_ScoreBoard_C:AScoreBoardActor
+---@field getred:fun():int32
+---@field getblue:fun():int32
+---@field IsLowDevice:fun():bool
+---@field UserConstructionScript:fun()
+---@field BP_UpdateDisplay:fun(BlueScore:int32,RedScore:int32)
+---@field Cube UStaticMeshComponent
+---@field DefaultSceneRoot USceneComponent
+---@field blue0 UMaterialInstanceDynamic
+---@field blue1 UMaterialInstanceDynamic
+---@field red0 UMaterialInstanceDynamic
+---@field red1 UMaterialInstanceDynamic

@@ -1,0 +1,6 @@
+---@class Ingame_WarningTipsFromTable_UIBP_C:UUserWidget
+---@field TopTips_Stytle2_Anima UWidgetAnimation
+---@field TopTips_Stytle1_Anima UWidgetAnimation
+---@field DX_Number_Anima UWidgetAnimation
+---@field BottomTips_Anima UWidgetAnimation
+---@field TopPlatFormTips_Anima UWidgetAnimation

@@ -1,0 +1,1 @@
+---@class BP_Window_G02_C:ABP_Window_A_C

@@ -1,0 +1,1 @@
+---@class BP_Pistol_DoubleFlareGun_C:BP_Pistol_Flaregun_C

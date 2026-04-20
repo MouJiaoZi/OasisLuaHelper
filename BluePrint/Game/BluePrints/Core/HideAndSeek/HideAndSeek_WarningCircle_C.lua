@@ -1,0 +1,11 @@
+---@class HideAndSeek_WarningCircle_C:AHideAndSeekCircleBase
+---@field GetLuaModule:fun():FString
+---@field BP_ClearColor:fun()
+---@field SetSphere:fun(RadiusScale:float)
+---@field BP_SetColorToYellow:fun()
+---@field BP_SetColorToRed:fun()
+---@field UserConstructionScript:fun()
+---@field Sphere USphereComponent
+---@field ParticleSystem UParticleSystemComponent
+---@field DefaultSceneRoot USceneComponent
+---@field BP_FindPlayer bool

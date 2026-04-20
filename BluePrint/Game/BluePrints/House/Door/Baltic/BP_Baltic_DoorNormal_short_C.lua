@@ -1,0 +1,1 @@
+---@class BP_Baltic_DoorNormal_short_C:ABP_DoorNormal_C

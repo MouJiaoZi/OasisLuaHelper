@@ -1,0 +1,7 @@
+---@class bp_corps_apply_list_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_ARRAY_Corps_ApplyList ULuaArrayHelper
+---@field BP_Corps_ApplyList_OptionID FString
+---@field BP_CorpsApplyList_PlayerDetailUID FString
+---@field BP_Corps_ApplyList_ShowType int32

@@ -1,0 +1,4 @@
+---@class Resultsplayersitem_BP_C:UUserWidget
+---@field ShowPlayerInfo:fun(name:FString)
+---@field playericon UImage
+---@field TextBlock_0 UTextBlock

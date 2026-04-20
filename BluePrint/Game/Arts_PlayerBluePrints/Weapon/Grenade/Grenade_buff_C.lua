@@ -1,0 +1,1 @@
+---@class Grenade_buff_C:USTBaseBuffList

@@ -1,0 +1,4 @@
+---@class NewResult_ProcessBut_UIBP_C:UUAEUserWidget
+---@field NewButton_Continue UNewButton
+---@field NewButton_Return UNewButton
+---@field Switcher_ResultBtn UWidgetSwitcher

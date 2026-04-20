@@ -1,0 +1,1 @@
+---@class BattleItemHandle_SHMAN_BP_Jacket_1719_Lv2_C:BattleItemHandle_AvatarBP_C

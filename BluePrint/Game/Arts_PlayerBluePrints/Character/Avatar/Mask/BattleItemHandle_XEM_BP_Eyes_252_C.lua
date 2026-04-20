@@ -1,0 +1,1 @@
+---@class BattleItemHandle_XEM_BP_Eyes_252_C:BattleItemHandle_AvatarBP_C

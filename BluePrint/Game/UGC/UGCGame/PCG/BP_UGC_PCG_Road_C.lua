@@ -1,0 +1,5 @@
+---@class BP_UGC_PCG_Road_C:AActor
+---@field UserConstructionScript:fun()
+---@field PCG UPCGComponent
+---@field Spline USplineComponent
+---@field DefaultSceneRoot USceneComponent

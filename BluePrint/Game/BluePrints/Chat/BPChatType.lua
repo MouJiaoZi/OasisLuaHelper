@@ -1,0 +1,4 @@
+---@class BPChatType
+---@field NewEnumerator0 int32
+---@field NewEnumerator1 int32
+---@field BPChatType_MAX int32

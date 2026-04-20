@@ -1,0 +1,18 @@
+---@class BP_BrainMachine_C:ABP_WarteringAreaBase_C
+---@field StopSkill:fun()
+---@field StopRemoteControl:fun()
+---@field AttachToDamageActor:fun()
+---@field CanTriggertEvent:fun(CurPawn:APawn):bool
+---@field TriggerEntryEvent:fun(EntryEvent:EUTSkillEntry):bool
+---@field UserConstructionScript:fun()
+---@field ServerDoWaterLogic:fun(PlayerController:APlayerController,ExMsg:FString)
+---@field TriggerCustomEvent:fun(EventType:EUAESkillEvent)
+---@field K2_OnBecomeViewTarget:fun(PC:APlayerController)
+---@field K2_OnEndViewTarget:fun(PC:APlayerController)
+---@field Camera UCameraComponent
+---@field DamageActor UChildActorComponent
+---@field VehicleRef ASTExtraVehicleBase
+---@field CurrentController ASTExtraPlayerController
+---@field TeslaScreenMatref UMaterial
+---@field SkillIndex int32
+---@field SpawnTransform FTransform

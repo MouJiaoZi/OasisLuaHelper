@@ -1,0 +1,26 @@
+---@class TrainingMode_AvatarCopyPose_C:AAvatarCopyPose
+---@field GetMasterComponent:fun():USkeletalMeshComponent
+---@field ModifyFaceRepState:fun()
+---@field SendFaceStateToServer:fun(Player:ASTExtraPlayerController)
+---@field SetFakeVisible:fun(bVIsible:bool)
+---@field PlayOriginalPose:fun()
+---@field TriggerPlayPose:fun(NewParam:UActorComponent)
+---@field TriggerRepFaceInfo:fun(NewParam:EFaceHiddenState,FaceInfo:FString)
+---@field PlayPose:fun(Pose:UAnimSequence)
+---@field OnAsyncLoadResFinished:fun(AsyncLoadID:int32,LoadFrom:UAvatarComponent)
+---@field ModifyAvatarList:fun()
+---@field SetAvatarVisibility:fun(IsVisible:bool,AvatarComp:UCharacterAvatarComponent)
+---@field InitWithPawn:fun(NewParam:ASTExtraBaseCharacter)
+---@field CopyPawn:fun(PlayerAvatarComp:UAvatarComponent)
+---@field UserConstructionScript:fun()
+---@field InitializeMasterComp:fun()
+---@field GalaxyFaceComponent GalaxyFaceComponent_C
+---@field PlayerAvatar CharacterAvatarComp_BP_C
+---@field MeshContainer USceneComponent
+---@field PlayerHead USkeletalMeshComponent
+---@field CopySlots ULuaArrayHelper
+---@field OldStr FString
+---@field bStateAvailable bool
+---@field bComponentInited bool
+---@field CurCharacter BP_PlayerPawn_C
+---@field CurClientBakeState EFaceHiddenState

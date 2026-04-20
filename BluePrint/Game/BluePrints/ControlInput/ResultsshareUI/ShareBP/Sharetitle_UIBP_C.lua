@@ -1,0 +1,15 @@
+---@class Sharetitle_UIBP_C:UUAEUserWidget
+---@field BG UImage
+---@field CanvasPanel_TitleGroup UCanvasPanel
+---@field CurrentTitleBg UImage
+---@field CurrentTitleName UImage
+---@field ShareBounty_Slot UCustomSocketPanel
+---@field Sharetitleitem01_UIBP01 Sharetitleitem01_UIBP_C
+---@field Sharetitleitem01_UIBP02 Sharetitleitem01_UIBP_C
+---@field Sharetitleitem02_UIBP03 Sharetitleitem02_UIBP_C
+---@field Sharetitleitem02_UIBP04 Sharetitleitem02_UIBP_C
+---@field Sharetitleitem02_UIBP05 Sharetitleitem02_UIBP_C
+---@field Sharetitleitem02_UIBP06 Sharetitleitem02_UIBP_C
+---@field Sharetitleitem02_UIBP07 Sharetitleitem02_UIBP_C
+---@field Sharetitleitem02_UIBP08 Sharetitleitem02_UIBP_C
+---@field Sharetitleitem02_UIBP09 Sharetitleitem02_UIBP_C

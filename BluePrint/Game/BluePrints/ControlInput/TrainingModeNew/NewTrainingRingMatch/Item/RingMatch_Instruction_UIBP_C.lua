@@ -1,0 +1,13 @@
+---@class RingMatch_Instruction_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field ClickLeft:fun():int32
+---@field ClickRight:fun():int32
+---@field PreConstruct:fun(IsDesignTime:bool)
+---@field Button_pageleft UNewButton
+---@field Button_pageright UNewButton
+---@field Common_UIPopupBG Common_UIPopupBG_C
+---@field NewButton_Close UNewButton
+---@field WidgetSwitcher_Content UWidgetSwitcher
+---@field WidgetSwitcher_page UWidgetSwitcher
+---@field PagePosition int32
+---@field RowNum int32

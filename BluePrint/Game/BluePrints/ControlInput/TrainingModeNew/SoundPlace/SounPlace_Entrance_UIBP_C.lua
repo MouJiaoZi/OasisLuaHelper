@@ -1,0 +1,4 @@
+---@class SounPlace_Entrance_UIBP_C:UUAEUserWidget
+---@field Button_Close UButton
+---@field Button_RingMatch UButton
+---@field WidgetSwitcher_RingMatch UWidgetSwitcher

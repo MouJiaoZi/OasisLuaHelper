@@ -1,0 +1,36 @@
+---@class BP_Wire_C:AActivityBaseActor
+---@field SequenceEvent__ENTRYPOINTBP_Wire_23:fun()
+---@field SequenceEvent__ENTRYPOINTBP_Wire_22:fun()
+---@field SequenceEvent__ENTRYPOINTBP_Wire_21:fun()
+---@field SequenceEvent__ENTRYPOINTBP_Wire_20:fun()
+---@field SequenceEvent__ENTRYPOINTBP_Wire_19:fun()
+---@field SequenceEvent__ENTRYPOINTBP_Wire_18:fun()
+---@field SequenceEvent__ENTRYPOINTBP_Wire_17:fun()
+---@field SequenceEvent__ENTRYPOINTBP_Wire_16:fun()
+---@field SequenceEvent__ENTRYPOINTBP_Wire_15:fun()
+---@field SequenceEvent__ENTRYPOINTBP_Wire_14:fun()
+---@field SequenceEvent__ENTRYPOINTBP_Wire_13:fun()
+---@field SequenceEvent__ENTRYPOINTBP_Wire_12:fun()
+---@field CheckSequenceName:fun(NewParam:float,NewParam1:FName):FName
+---@field CharacterRotation:fun()
+---@field CheakStateIsWiring:fun():bool
+---@field Init:fun(CableLocation:FCableLocation)
+---@field ActivityWire:fun(NewParam1:APlayerController,NewParam:E_Placelable)
+---@field UserConstructionScript:fun()
+---@field SkeletalMesh USkeletalMeshComponent
+---@field Camera1 UCameraComponent
+---@field CharacterOverlapCollision UBoxComponent
+---@field STExtraVehicleSpringArm USTExtraVehicleSpringArmComponent
+---@field SK_Prop_BorderlandSlide_FBX_Borderland_Slide USkeletalMeshComponent
+---@field OffsetScene USceneComponent
+---@field Spline USplineComponent
+---@field Scene USceneComponent
+---@field Root USceneComponent
+---@field Scenelocation USceneComponent
+---@field ActivityFakePossess UActivityFakePossessComponent
+---@field Splien_st FSpline
+---@field Cablelocation FCableLocation
+---@field HiddeUIStyle UUserWidgetStyle
+---@field SequenceName FString
+---@field CheckVehicleTime float
+---@field CheckVehiclTH FTimerHandle

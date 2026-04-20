@@ -1,0 +1,3 @@
+---@class MidAutLevelDirector_C:AUAELevelDirector
+---@field UserConstructionScript:fun()
+---@field DefaultSceneRoot USceneComponent

@@ -1,0 +1,1 @@
+---@class WeaponAnimList_Rifle_Uzi_C:UUAECharacterAnimListComponent

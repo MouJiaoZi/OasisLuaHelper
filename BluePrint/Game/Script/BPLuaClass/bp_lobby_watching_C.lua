@@ -1,0 +1,9 @@
+---@class bp_lobby_watching_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_Array_LobbyWatching_FriendData ULuaArrayHelper
+---@field BP_LobbyWatching_FriendCutDownIdx int32
+---@field BP_LobbyWatching_FriendCutDownTime int32
+---@field BP_LobbyWatching_ShowVideo bool
+---@field BP_LobbyWatching_CurPanel_Type int32
+---@field BP_LobbyWatching_CurPlayerItem_Idx int32

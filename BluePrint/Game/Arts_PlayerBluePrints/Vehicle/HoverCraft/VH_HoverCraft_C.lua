@@ -1,0 +1,17 @@
+---@class VH_HoverCraft_C:BP_STExtraHoverCraft_C
+---@field GetFxSpawnLocation:fun(nIndex:int32):FVector
+---@field GetSpawnPSCount:fun():int32
+---@field UserConstructionScript:fun()
+---@field OnBoostingChanged:fun()
+---@field HandleLocalPlayerLeaveVehicle:fun(Player:ASTExtraPlayerCharacter)
+---@field Ak UAkComponent
+---@field UAEChaVehAnimList_PassengersFR UUAEChaVehAnimListComponent
+---@field UAEChaVehAnimList_PassengersR UUAEChaVehAnimListComponent
+---@field UAEChaVehAnimList_PassengersL UUAEChaVehAnimListComponent
+---@field UAEChaVehAnimList_Driver UUAEChaVehAnimListComponent
+---@field LastTickContactWater bool
+---@field SprayFadeOutTimerHandle FTimerHandle
+---@field Alpha float
+---@field SprayFadeOutTime float
+---@field SprayFadeInTime float
+---@field SprayFadeInTimerHandle FTimerHandle

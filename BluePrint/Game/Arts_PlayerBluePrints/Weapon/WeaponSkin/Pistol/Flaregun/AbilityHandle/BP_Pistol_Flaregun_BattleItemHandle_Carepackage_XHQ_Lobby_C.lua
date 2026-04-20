@@ -1,0 +1,1 @@
+---@class BP_Pistol_Flaregun_BattleItemHandle_Carepackage_XHQ_Lobby_C:UBackpackAirdroppedSuppliesHandle

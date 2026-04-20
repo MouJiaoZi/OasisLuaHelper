@@ -1,0 +1,23 @@
+---@class LivePeoplePosition_BP_C:UAnchorFlagWidget
+---@field RefreshRobotIcon:fun(flag:bool)
+---@field CreateRobotIcon:fun()
+---@field CreateCardBuyIcon:fun(Icon:UObject,resID:int32)
+---@field SetPassCardBuyType:fun(Name:FString,BuyType:int32,BuyLevel:int32,ShowEnjoyCord:bool)
+---@field SetCorpName:fun(CorpName:FString)
+---@field CreateIcon:fun(Icon:UObject,resID:int32)
+---@field SetPlatIconAndName:fun(platID:int32,colorID:int32,Name:FString)
+---@field Construct:fun()
+---@field CanvasPanel_CorpsInfo UCanvasPanel
+---@field CanvasPanel_PassInfo UCanvasPanel
+---@field CanvasPanel_RobotIcon_Slot UCanvasPanel
+---@field CanvasPanel_State UCanvasPanel
+---@field GridPanel_Name UGridPanel
+---@field Image_BG UImage
+---@field Image_blank_HideOrCollapsed UImage
+---@field Image_PassIcon UImage
+---@field Image_PlatformIcon UImage
+---@field TextBlock_CorpsName UTextBlock
+---@field TextBlock_PassLevel UTextBlock
+---@field TextBlock_Teammate_Name UUTRichTextBlock
+---@field WidgetMap ULuaMapHelper
+---@field RobotIconItem Robot_PositionItem_UIBP_C

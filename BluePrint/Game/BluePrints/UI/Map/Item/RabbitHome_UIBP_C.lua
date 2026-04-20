@@ -1,0 +1,1 @@
+---@class RabbitHome_UIBP_C:UMapUIMarkBaseWidget

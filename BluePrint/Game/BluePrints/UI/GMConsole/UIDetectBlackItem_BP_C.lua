@@ -1,0 +1,8 @@
+---@class UIDetectBlackItem_BP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field TouchEndLua:fun()
+---@field OnTouchEnded:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field TextBlock_Name UTextBlock
+---@field TextBlock_State UTextBlock
+---@field TextBlock_UIPath UTextBlock
+---@field TextBlock_Visibility UTextBlock

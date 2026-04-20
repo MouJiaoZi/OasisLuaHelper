@@ -1,0 +1,18 @@
+---@class BP_FerrisWheel_C:AActor
+---@field DestroyEditorPreview:fun()
+---@field SpawnFerrisWheelCar:fun(FollowSceneComp:USceneComponent)
+---@field UserConstructionScript:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field Framework UStaticMeshComponent
+---@field Scene7 USceneComponent
+---@field Scene6 USceneComponent
+---@field Scene5 USceneComponent
+---@field Scene4 USceneComponent
+---@field Scene3 USceneComponent
+---@field Scene2 USceneComponent
+---@field Scene1 USceneComponent
+---@field Scene USceneComponent
+---@field Wheel UStaticMeshComponent
+---@field DefaultSceneRoot USceneComponent
+---@field EditorFerrisWheelCars ULuaArrayHelper
+---@field AnglePerSecond float

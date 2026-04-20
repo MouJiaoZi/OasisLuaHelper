@@ -1,0 +1,12 @@
+---@class VehicleBackpack_C:UUAEUserWidget
+---@field SetItemList_Inf:fun(itemList:ULuaArrayHelper,capacity:float):bool
+---@field GetItemCapacity:fun(defineID:FItemDefineID,count:int32):float
+---@field SetItemList:fun(dataList:ULuaArrayHelper,capacity:float)
+---@field ReceivedInitWidget:fun()
+---@field Image_BG_01 UImage
+---@field Image_BG_02 UImage
+---@field Text_Level_num UTextBlock
+---@field TextBlock_Tips UTextBlock
+---@field WrapBox UWrapBox
+---@field ItemPool UUIDuplicatedItemPool
+---@field id2Cap ULuaMapHelper

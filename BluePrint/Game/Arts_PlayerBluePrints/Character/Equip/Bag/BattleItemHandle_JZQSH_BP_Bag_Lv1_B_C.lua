@@ -1,0 +1,1 @@
+---@class BattleItemHandle_JZQSH_BP_Bag_Lv1_B_C:BattleItemHandle_VolAvaBP_C

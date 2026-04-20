@@ -1,0 +1,1 @@
+---@class ItemSpawn_DihorOtokQuestL_C:UItemSpawn_DihorOtokFlaregunQuestL_C

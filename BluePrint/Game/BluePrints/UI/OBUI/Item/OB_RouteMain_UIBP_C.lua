@@ -1,0 +1,64 @@
+---@class OB_RouteMain_UIBP_C:UUAEUserWidget
+---@field RouteMain_RefreshLeaderChoose:fun():bool
+---@field RouteMain_RefreshCurrentTeamIdx:fun():bool
+---@field RouteMain_RefreshClubList:fun():bool
+---@field RouteMain_RefreshAll:fun():bool
+---@field RouteMain_RefreshChooseTime:fun():bool
+---@field RouteMain_RefreshSegmentsList:fun():bool
+---@field RouteMain_RefreshTeamSegmentsInfo:fun():bool
+---@field ClearIcon:fun(NewParam:UTexture2D,NewParam1:UImageDownloader)
+---@field RefreshLeaderChoose:fun()
+---@field RefreshOthers:fun()
+---@field GetSelfTeamIndex:fun(TeamID:int32):int32
+---@field NewFunction_0:fun(Value:int32):FText
+---@field RefreshIcon:fun(NewParam:UTexture2D,NewParam1:UImageDownloader)
+---@field RefreshCurrentTeamIdx:fun()
+---@field RefreshClubList:fun()
+---@field RefreshAll:fun()
+---@field RefreshSegmentsList:fun()
+---@field RefreshTeamSegmentsInfo:fun()
+---@field OnAsyncRouteMainListUIBP:fun()
+---@field RefreshSegmentChooseTime:fun()
+---@field RefreshTeamSelect:fun()
+---@field Construct:fun()
+---@field DX_In UWidgetAnimation
+---@field Border_7 UBorder
+---@field Border_Time UBorder
+---@field Button_Airline UNewButton
+---@field Button_team UNewButton
+---@field Canvas_TeamLogo UCanvasPanel
+---@field CanvasPanel_7 UCanvasPanel
+---@field CanvasPanel_18 UCanvasPanel
+---@field CanvasPanel_ButTop UCanvasPanel
+---@field CanvasPanel_ready UCanvasPanel
+---@field Horizontal_Countdown UHorizontalBox
+---@field HorizontalBox_1 UHorizontalBox
+---@field HorizontalBox_2 UHorizontalBox
+---@field Image_Airline UImage
+---@field Image_Selct UImage
+---@field Image_Team UImage
+---@field Image_TeamLogo UImage
+---@field Image_TitleBG UImage
+---@field NewButton_determine UNewButton
+---@field OB_ReadyTeam OB_RouteTeamItem_UIBP_C
+---@field OB_RouteBut_Num1 OB_RouteNumBut_UIBP_C
+---@field OB_RouteBut_Num2 OB_RouteNumBut_UIBP_C
+---@field OB_RouteBut_Num3 OB_RouteNumBut_UIBP_C
+---@field OB_RouteMainList_UIBP OB_RouteMainList_UIBP_C
+---@field OB_RouteMainTeam_UIBP OB_RouteMainTeam_UIBP_C
+---@field Switcher_page UWidgetSwitcher
+---@field Switcher_Selectstate UWidgetSwitcher
+---@field TextBlock_Airline UTextBlock
+---@field TextBlock_Countdown UTextBlock
+---@field TextBlock_Name UTextBlock
+---@field TextBlock_Num UTextBlock
+---@field TextBlock_Num2 UTextBlock
+---@field TextBlock_ready UTextBlock
+---@field TextBlock_Team UTextBlock
+---@field TextBlock_TeamName UTextBlock
+---@field TextBlock_Time UTextBlock
+---@field WidgetSwitcher_Route UWidgetSwitcher
+---@field CurrentSelectIndex int32
+---@field NewVar_0 bool
+---@field SelectColor FSlateColor
+---@field UnSelectColor FSlateColor

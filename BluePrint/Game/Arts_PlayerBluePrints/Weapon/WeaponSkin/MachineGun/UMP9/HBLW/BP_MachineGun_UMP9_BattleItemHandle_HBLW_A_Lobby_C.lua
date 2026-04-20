@@ -1,0 +1,1 @@
+---@class BP_MachineGun_UMP9_BattleItemHandle_HBLW_A_Lobby_C:UBackpackWeaponHandle

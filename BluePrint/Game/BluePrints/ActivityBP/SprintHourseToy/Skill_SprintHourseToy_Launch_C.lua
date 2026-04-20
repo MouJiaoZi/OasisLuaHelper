@@ -1,0 +1,12 @@
+---@class Skill_SprintHourseToy_Launch_C:AUAESkill
+---@field UserConstructionScript:fun()
+---@field UTSkillAppearance_AddParticle UUTSkillAppearance_AddParticle
+---@field UAESkillAction_ChangeCameraSpringArmLength UUAESkillAction_ChangeCameraSpringArmLength
+---@field UAESkillAction_Log4 UUAESkillAction_Log
+---@field UAESkillAction_PlayMontage_Pose1 UUAESkillAction_PlayMontage_Pose
+---@field UAESkillAction_SwitchWeapon1 UUAESkillAction_SwitchWeapon
+---@field UAESkillAction_DisablePickup UUAESkillAction_DisablePickup
+---@field UAESkillAction_Log1 UUAESkillAction_Log
+---@field UAESkillPhase3 UUAESkillPhase
+---@field UAESkillPhase UUAESkillPhase
+---@field DefaultSceneRoot USceneComponent

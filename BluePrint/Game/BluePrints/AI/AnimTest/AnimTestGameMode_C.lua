@@ -1,0 +1,3 @@
+---@class AnimTestGameMode_C:ASTExtraGameMode
+---@field UserConstructionScript:fun()
+---@field DefaultSceneRoot USceneComponent

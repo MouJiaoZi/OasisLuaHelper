@@ -1,0 +1,13 @@
+---@class BattleItemHandle_Card_C:UOccupationCardItemHandle
+---@field HandleDisuse:fun(Reason:EBattleItemDisuseReason):bool
+---@field HandleUse:fun(Target:FBattleItemUseTarget,Reason:EBattleItemUseReason):bool
+---@field HandlePickup:fun(ItemContainer:TScriptInterface,PickupInfo:FBattleItemPickupInfo,Reason:EBattleItemPickupReason):bool
+---@field HandleDrop:fun(InCount:int32,Reason:EBattleItemDropReason):bool
+---@field ExtractItemData:fun():FBattleItemData
+---@field SoftWrapperClass UClass
+---@field OwningCharacter ASTExtraBaseCharacter
+---@field OwningPlayerController ASTExtraPlayerController
+---@field OwningAIController ABaseAIController
+---@field OwningBackpackComponent UBackpackComponent
+---@field CharacterItemHandle UBattleItemHandleBase
+---@field OccupationMode FName

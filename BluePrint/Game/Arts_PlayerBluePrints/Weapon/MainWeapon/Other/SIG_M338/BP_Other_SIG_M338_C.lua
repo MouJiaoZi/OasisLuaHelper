@@ -1,0 +1,6 @@
+---@class BP_Other_SIG_M338_C:BP_ShootWeaponBase_C
+---@field UserConstructionScript:fun()
+---@field WeaponAnimList_Other_SIG_M338 WeaponAnimList_Other_SIG_M338_C
+---@field ReplaceMesh_Mag UStaticMeshComponent
+---@field ReplaceMesh_Main UStaticMeshComponent
+---@field bUseIdleAnim_0_0 bool

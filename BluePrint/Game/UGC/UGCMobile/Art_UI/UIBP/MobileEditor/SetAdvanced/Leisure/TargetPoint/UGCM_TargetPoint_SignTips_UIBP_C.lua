@@ -1,0 +1,9 @@
+---@class UGCM_TargetPoint_SignTips_UIBP_C:UObjectPositionWidget
+---@field GetLuaModule:fun():FString
+---@field CanvasPanel_Icon UCanvasPanel
+---@field HorizontalBox_Distance UHorizontalBox
+---@field Image_Icon UImage
+---@field ScaleBox_Icon UScaleBox
+---@field Text_Distance UTextBlock
+---@field Text_Meter UTextBlock
+---@field Text_TipStr UTextBlock

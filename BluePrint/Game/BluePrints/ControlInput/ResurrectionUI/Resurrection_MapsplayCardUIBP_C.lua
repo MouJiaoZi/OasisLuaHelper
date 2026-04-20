@@ -1,0 +1,8 @@
+---@class Resurrection_MapsplayCardUIBP_C:UMapUIMarkBaseWidget
+---@field CountDown:fun()
+---@field OnUIBPShow:fun(InState:FCustomMarkEventData)
+---@field Image_BG_card UImage
+---@field Image_BOXCDBar UImage
+---@field Text_palyName UTextBlock
+---@field CreateTime float
+---@field CountDownMaxTime int32

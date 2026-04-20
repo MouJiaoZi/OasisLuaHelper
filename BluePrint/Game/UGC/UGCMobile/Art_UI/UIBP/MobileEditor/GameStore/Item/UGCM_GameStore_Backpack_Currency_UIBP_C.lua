@@ -1,0 +1,18 @@
+---@class UGCM_GameStore_Backpack_Currency_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field Update_TextBlock_Currency_Amount_Text:fun()
+---@field StopCurrencyIncrease:fun()
+---@field CurrencyIncreaseOne:fun()
+---@field StartCurrencyIncrease:fun()
+---@field Get_TextBlock_Currency_Amount_Text_0:fun():FText
+---@field UIMsg_ReceiveBackpackComponent:fun()
+---@field Shark UWidgetAnimation
+---@field CanvasPanel_1 UCanvasPanel
+---@field Image_Currency_Icon UImage
+---@field TextBlock_Currency_Amount UTextBlock
+---@field CurCurrencyNum int32
+---@field TargetNum int32
+---@field IncreaseGuard bool
+---@field IncreaseTimerHandle FTimerHandle
+---@field MaxIncreaseNum int32
+---@field CurIncreaseNum int32

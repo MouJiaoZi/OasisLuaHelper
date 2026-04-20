@@ -1,0 +1,1 @@
+---@class BP_MacroLibrary_C:UObject

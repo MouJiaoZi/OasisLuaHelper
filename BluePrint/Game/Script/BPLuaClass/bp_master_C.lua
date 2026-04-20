@@ -1,0 +1,13 @@
+---@class bp_master_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_Master_RedPoint_HasApply bool
+---@field BP_Master_RedPoint_HasTask bool
+---@field BP_Master_RedPoint_HasPrivilege bool
+---@field BP_HasMasterOrDisciple bool
+---@field BP_ARRAY_MASTER_DISCIPLE ULuaArrayHelper
+---@field BP_ARRAY_MASTER_SAME_DISCIPLE ULuaArrayHelper
+---@field BP_MASTER_MAIN_select_item_uid FString
+---@field BP_Master_Disciple_Tips FString
+---@field BP_MASTER_MAIN_select_item_gender int32
+---@field BP_Master_Master_Tips FString

@@ -1,0 +1,1 @@
+---@class BP_BattleRoyaleGameModeTeam_Karakin_Double_Entertainment_C:ABP_BattleRoyaleGameModeTeam_Karakin_Double_C

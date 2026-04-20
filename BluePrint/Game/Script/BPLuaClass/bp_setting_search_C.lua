@@ -1,0 +1,5 @@
+---@class bp_setting_search_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_Setting_FireMode int32
+---@field BP_Setting_SearchCode FString

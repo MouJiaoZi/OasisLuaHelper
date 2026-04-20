@@ -1,0 +1,9 @@
+---@class ClassicModeTitleItem_UIBP_C:UUAEUserWidget
+---@field RefreshAssistStatus:fun(isSingleMode:bool):bool
+---@field TestDjw:fun(NewParam:bool,NewParam1:bool):bool
+---@field SetTitleSayHelloInfo:fun(flag:bool):bool
+---@field ShowSayHelloSpacer:fun(IsShow:bool)
+---@field NoReturnNoParam:fun()
+---@field GridPanel_AssistNum UGridPanel
+---@field GridPanel_nice UGridPanel
+---@field Spacer_Sayhello USpacer

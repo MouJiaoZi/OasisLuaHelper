@@ -1,0 +1,5 @@
+---@class BP_Pistol_FN57_C:BP_ShootPistol_Base_C
+---@field UserConstructionScript:fun()
+---@field WeaponAnimList_Pistol_DBNO_FN57 WeaponAnimList_Pistol_DBNO_FN57_C
+---@field WeaponAnimList_Pistol_FN57 WeaponAnimList_Pistol_FN57_C
+---@field bUseIdleAnim_0_0_0 bool

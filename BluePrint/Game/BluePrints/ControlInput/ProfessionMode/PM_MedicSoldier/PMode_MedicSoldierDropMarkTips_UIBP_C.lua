@@ -1,0 +1,4 @@
+---@class PMode_MedicSoldierDropMarkTips_UIBP_C:UUserWidget
+---@field CanvasPanel_Tips UCanvasPanel
+---@field Image_BG UImage
+---@field Image_Icon UImage

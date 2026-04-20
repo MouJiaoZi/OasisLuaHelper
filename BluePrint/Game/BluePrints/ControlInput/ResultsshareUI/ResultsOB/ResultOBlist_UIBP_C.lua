@@ -1,0 +1,45 @@
+---@class ResultOBlist_UIBP_C:UUAEUserWidget
+---@field GetPlayerInfoFromUID:fun(UID:FString,name:FString):FPlayerInfoInOB
+---@field GetTeamIconSwitcherAndActiveIndexImage:fun():UWidgetSwitcher,int32,UImage
+---@field UpdateTeamIcon:fun(NewParam:UTexture2D,NewParam1:UImageDownloader)
+---@field GetTeamIcon:fun(OBPersonalData:ULuaArrayHelper,MaxTeamMemberNum:int32):bool
+---@field AdjustNormalBottomMargin:fun(TeamMemberCount:int32)
+---@field AdjustTopBottomMargin:fun(TeamMemberCount:int32)
+---@field HighLightFirstTeam:fun(modeUI:FString,top1:bool)
+---@field SetWidgetData:fun(TeamMemberResult:ULuaArrayHelper,MaxTeamMemberNum:int32,IsTop:bool,IsShowGender:bool,ModeUI:FString)
+---@field Construct:fun()
+---@field ReceivedInitWidget:fun()
+---@field BottomMargin UImage
+---@field Image_Normal_LOGO_Four UImage
+---@field Image_Normal_LOGO_Tow UImage
+---@field Image_Top_LogoFour UImage
+---@field Image_Top_LogoTow UImage
+---@field NormalBottomMargin UImage
+---@field NormalRankText UTextBlock
+---@field NormalTopMargin UImage
+---@field RankTypeSwitcher UWidgetSwitcher
+---@field ResultOBlistitem_UIBP ResultOBlistitem_UIBP_C
+---@field ResultOBlistitem_UIBP_C_0 ResultOBlistitem_UIBP_C
+---@field ResultOBlistitem_UIBP_C_1 ResultOBlistitem_UIBP_C
+---@field ResultOBlistitem_UIBP_C_2 ResultOBlistitem_UIBP_C
+---@field ResultOBlistitem_UIBP_C_3 ResultOBlistitem_UIBP_C
+---@field ResultOBlistitem_UIBP_C_4 ResultOBlistitem_UIBP_C
+---@field ResultOBlistitem_UIBP_C_5 ResultOBlistitem_UIBP_C
+---@field ResultOBlistitem_UIBP_C_6 ResultOBlistitem_UIBP_C
+---@field TopBGSwitcher UWidgetSwitcher
+---@field TopMargin UImage
+---@field TopRankSwitcher UWidgetSwitcher
+---@field TopRankText UTextBlock
+---@field WidgetSwitcher_Normal_TeamLogo UWidgetSwitcher
+---@field WidgetSwitcher_Top_TeamLogo UWidgetSwitcher
+---@field TeamData ULuaArrayHelper
+---@field TopTeamItem ULuaArrayHelper
+---@field NormalTeamItem ULuaArrayHelper
+---@field Top1PersonTeamMargin FVector2D
+---@field Top2PersonTeamMargin FVector2D
+---@field Top4PersonTeamMargin FVector2D
+---@field Normal1PersonTeamMargin FVector2D
+---@field Normal2PersonTeamMargin FVector2D
+---@field Normal4PersonTeamMargin FVector2D
+---@field TeamIconURL FString
+---@field NumPerTeam int32

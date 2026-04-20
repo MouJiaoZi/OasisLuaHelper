@@ -1,0 +1,4 @@
+---@class BP_Rifle_Groza_C:BP_ShootWeaponBase_C
+---@field UserConstructionScript:fun()
+---@field WeaponAnimList_Rifle_Groza WeaponAnimList_Rifle_Groza_C
+---@field bUseIdleAnim_0_0 bool

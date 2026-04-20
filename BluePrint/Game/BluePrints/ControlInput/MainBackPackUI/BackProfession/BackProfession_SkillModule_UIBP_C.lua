@@ -1,0 +1,24 @@
+---@class BackProfession_SkillModule_UIBP_C:ULuaUserWidgetExtIngame
+---@field ResetOpenStatusInf:fun():bool
+---@field OnSwitchListOpenStatus:fun()
+---@field ResetOpenStatus:fun()
+---@field RefreshOccupationUI:fun(NewParam:int32)
+---@field Button_select UButton
+---@field Image_2 UImage
+---@field Image_3 UImage
+---@field Image_4 UImage
+---@field Image_5 UImage
+---@field Image_6 UImage
+---@field Image_7 UImage
+---@field Image_BG_01 UImage
+---@field Image_BG_02 UImage
+---@field Image_Level_1 UImage
+---@field Image_Level_2 UImage
+---@field Image_Level_3 UImage
+---@field SkillModuleItem_UIBP BackProfession_SkillModuleItem_UIBP_C
+---@field SkillModuleItem_UIBP_0 BackProfession_SkillModuleItem_UIBP_C
+---@field SkillModuleItem_UIBP_1 BackProfession_SkillModuleItem_UIBP_C
+---@field SkillModuleItem_UIBP_2 BackProfession_SkillModuleItem_UIBP_C
+---@field Text_Level_num UTextBlock
+---@field Text_PrtofessionName UTextBlock
+---@field WidgetSwitcher_Select UWidgetSwitcher

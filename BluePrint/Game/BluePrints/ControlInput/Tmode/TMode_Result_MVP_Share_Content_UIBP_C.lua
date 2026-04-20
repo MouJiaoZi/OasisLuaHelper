@@ -1,0 +1,10 @@
+---@class TMode_Result_MVP_Share_Content_UIBP_C:UUAEUserWidget
+---@field Image_TC_Result_MVP_Bg UImage
+---@field TextBlock_One UTextBlock
+---@field TextBlock_TC_ModeName UTextBlock
+---@field TextBlock_TC_Result_MVP_Death UTextBlock
+---@field TextBlock_TC_Result_MVP_Kill UTextBlock
+---@field TextBlock_TC_Result_MVP_PlayerName UTextBlock
+---@field TextBlock_TC_Result_MVP_Rate UTextBlock
+---@field TextBlock_Three UTextBlock
+---@field TextBlock_Two UTextBlock

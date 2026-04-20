@@ -1,0 +1,4 @@
+---@class BP_Other_MG36_C:BP_ShootWeaponBase_C
+---@field UserConstructionScript:fun()
+---@field WeaponAnimList_Rifle_MG36 WeaponAnimList_Rifle_MG36_C
+---@field bUseIdleAnim_0_0 bool

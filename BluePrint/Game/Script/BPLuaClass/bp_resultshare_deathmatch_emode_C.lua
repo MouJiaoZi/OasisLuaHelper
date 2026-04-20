@@ -1,0 +1,4 @@
+---@class bp_resultshare_deathmatch_emode_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_IsShareHistoryDeathMatchEmode bool

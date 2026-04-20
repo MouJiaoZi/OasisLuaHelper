@@ -1,0 +1,10 @@
+---@class BP_Grenade_UCAVcontroller_Weapon_C:ASTExtraWeapon
+---@field GetSkillEntryForMeleeWeapon:fun(IsPressed:bool):EUTSkillEntry
+---@field UserConstructionScript:fun()
+---@field WeaponTriggerEventHandleSkill UWeaponTriggerEventHandleSkill
+---@field WeaponAnimList_Grenade WeaponAnimList_Grenade_C
+---@field WeaponEntity UWeaponEntity
+---@field WeaponSpecificHandler UWeaponSpecificHandler
+---@field WeaponStateDefault UWeaponStateDefault
+---@field WeaponStateManager UWeaponStateManager
+---@field MySkill FItemSkillsConfig

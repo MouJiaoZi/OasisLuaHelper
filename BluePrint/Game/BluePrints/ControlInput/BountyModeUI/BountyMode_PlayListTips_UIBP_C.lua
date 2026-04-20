@@ -1,0 +1,3 @@
+---@class BountyMode_PlayListTips_UIBP_C:UUserWidget
+---@field BountyMode_Clod_01 BountyMode_ClodItem_UIBP_C
+---@field BountyMode_Clod_02 BountyMode_ClodItem_UIBP_C

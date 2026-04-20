@@ -1,0 +1,3 @@
+---@class Ingame_Fade_UIBP_C:UUAEUserWidget
+---@field StopFade UWidgetAnimation
+---@field Fade_anima UWidgetAnimation

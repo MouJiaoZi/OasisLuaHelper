@@ -1,0 +1,5 @@
+---@class Common_Skip_UIBP_C:UNewbieGuideWidget
+---@field SendNewbieMessage:fun()
+---@field Construct:fun()
+---@field CanvasPanel_IPX UCanvasPanel
+---@field NewButton_Skip UNewButton

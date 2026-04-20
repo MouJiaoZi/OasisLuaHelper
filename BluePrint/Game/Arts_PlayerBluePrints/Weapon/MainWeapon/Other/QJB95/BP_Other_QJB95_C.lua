@@ -1,0 +1,4 @@
+---@class BP_Other_QJB95_C:BP_ShootWeaponBase_C
+---@field UserConstructionScript:fun()
+---@field WeaponAnimList_Other_QJB95 WeaponAnimList_Other_QJB95_C
+---@field bUseIdleAnim_0_0 bool

@@ -1,0 +1,7 @@
+---@class bp_share_day_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_ShareDayGold int32
+---@field BP_ShareDayNum int32
+---@field BP_ShareDayIsShow bool
+---@field BP_ShareFirst bool

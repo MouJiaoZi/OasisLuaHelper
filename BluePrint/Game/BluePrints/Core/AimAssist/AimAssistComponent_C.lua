@@ -1,0 +1,4 @@
+---@class AimAssistComponent_C:UActorComponent
+---@field ReceiveBeginPlay:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field NewVar_0 AActor

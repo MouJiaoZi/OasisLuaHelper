@@ -1,0 +1,11 @@
+---@class RaceRrack_MatchTips_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field Canvas_RecordTips UCanvasPanel
+---@field CanvasPanel_Result UCanvasPanel
+---@field TextBlock_HistoricalTime UTextBlock
+---@field TextBlock_NewRecord UTextBlock
+---@field TextBlock_RecordTips UTextBlock
+---@field TextBlock_Time UTextBlock
+---@field WidgetSwitcher_Match UWidgetSwitcher
+---@field TipsShowTime float

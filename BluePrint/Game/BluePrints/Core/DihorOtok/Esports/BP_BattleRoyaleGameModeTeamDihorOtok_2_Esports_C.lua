@@ -1,0 +1,1 @@
+---@class BP_BattleRoyaleGameModeTeamDihorOtok_2_Esports_C:ABP_BattleRoyaleGameModeTeamPUBG_C

@@ -1,0 +1,20 @@
+---@class bp_corps_suggestion_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_Corps_Suggestion_SearchName FString
+---@field BP_Corps_Suggestion_SearchResult bool
+---@field BP_Corps_Suggestion_WarzoneID int32
+---@field BP_CorpsSuggestionShowAnimation bool
+---@field BP_Corps_Suggestion_Toggle int32
+---@field BP_Corps_Suggestion_CurSelectedIndex int32
+---@field BP_Corps_Suggestion_CurSelectItemType int32
+---@field BP_ARRAY_Corps_InvitedCorpsList ULuaArrayHelper
+---@field BP_Corps_Suggestion_NotNeedApproval bool
+---@field BP_ARRAY_Corps_SearchList ULuaArrayHelper
+---@field BP_ARRAY_Corps_SuggestionList ULuaArrayHelper
+---@field BP_ARRAY_Corps_SelectedFriends ULuaArrayHelper
+---@field BP_ARRAY_Corps_ApplicationTempIDList ULuaArrayHelper
+---@field BP_Corps_Suggestion_OldSelectedIndex int32
+---@field BP_Corps_Suggestion_AccordRequirement bool
+---@field BP_Corps_MemberID FString
+---@field BP_ARRAY_Corps_ApplicationList ULuaArrayHelper

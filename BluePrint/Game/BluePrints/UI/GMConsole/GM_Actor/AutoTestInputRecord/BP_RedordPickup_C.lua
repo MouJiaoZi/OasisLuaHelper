@@ -1,0 +1,1 @@
+---@class BP_RedordPickup_C:URecordDataInstance_Pickup

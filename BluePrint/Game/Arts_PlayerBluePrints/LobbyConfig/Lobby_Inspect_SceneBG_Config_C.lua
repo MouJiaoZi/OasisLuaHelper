@@ -1,0 +1,1 @@
+---@class Lobby_Inspect_SceneBG_Config_C:ULobbyInspectBgConfig

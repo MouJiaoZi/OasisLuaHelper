@@ -1,0 +1,26 @@
+---@class BattleItemHandle_Shield_C:UBattleItemHandleWeaponBase_Handle_C
+---@field GetOwingtWeapon:fun():ASTExtraWeapon
+---@field AutoEquipAttachments:fun()
+---@field UpdateEquipedAttach:fun(WeapAttachSockType:EWeaponAttachmentSocketType,WeapAttachItemHandle:BattleItemHandle_WeapAttachment_C,IsEquip:bool)
+---@field LocalHandleDisuse:fun(Reason:EBattleItemDisuseReason)
+---@field CreateWrapperOnGround:fun()
+---@field GetAvailableTargetLogicSocketName:fun(TargetSocket:FName):FName,bool,bool
+---@field GetAvailableInstantLogicSocketName:fun():FName,bool,bool
+---@field JudgeHasTargetAttachmentSlot:fun(TypeSpecificId:int32,AttachType:EWeaponAttachmentSocketType,AttachHandle:UBackpackWeaponAttachHandle):bool,bool,bool
+---@field HandleDisuse:fun(Reason:EBattleItemDisuseReason):bool
+---@field HandleUse:fun(Target:FBattleItemUseTarget,Reason:EBattleItemUseReason):bool
+---@field HandleDrop:fun(InCount:int32,Reason:EBattleItemDropReason):bool
+---@field HandlePickup:fun(ItemContainer:TScriptInterface,PickupInfo:FBattleItemPickupInfo,Reason:EBattleItemPickupReason):bool
+---@field WeaponManager UWeaponManagerComponent
+---@field Socket FName
+---@field CharacterItemHandle UBattleItemHandleBase
+---@field WeaponClass UClass
+---@field AvailableWeaponAttachment ULuaArrayHelper
+---@field TargetWeaponActor ASTExtraWeapon
+---@field MainLogicSlot1Name FName
+---@field MainLogicSlot2Name FName
+---@field WrapperClass UClass
+---@field WeaponAttachmentSockTypeList ULuaMapHelper
+---@field BulletWrapperClass UClass
+---@field EquipedWeapAttachments ULuaMapHelper
+---@field SubLogicSlotName FName

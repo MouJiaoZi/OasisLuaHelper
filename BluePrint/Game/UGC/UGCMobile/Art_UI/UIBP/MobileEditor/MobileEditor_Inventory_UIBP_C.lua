@@ -1,0 +1,44 @@
+---@class MobileEditor_Inventory_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field OnMouseWheel:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field Canvas_ObjectPreview UCanvasPanel
+---@field CanvasPanel_Combination UCanvasPanel
+---@field CanvasPanel_ItemColumn UCanvasPanel
+---@field CanvasPanel_ItemTab UCanvasPanel
+---@field CanvasPanel_ItemTips UCanvasPanel
+---@field CanvasPanel_Label UCanvasPanel
+---@field CanvasPanel_Null UCanvasPanel
+---@field CanvasPanel_Search UCanvasPanel
+---@field CanvasPanel_Size UCanvasPanel
+---@field CanvasPanel_Sorting UCanvasPanel
+---@field CanvasPanel_Type UCanvasPanel
+---@field ComboBox_BP ComboBox_BP_C
+---@field ComboBox_Group_BP ComboBox_Group_BP_C
+---@field CustomScrollBox_List UCustomScrollBox
+---@field DX_Chicken DX_Chicken_C
+---@field Image_CD UImage
+---@field NewButton_AddTo UNewButton
+---@field NewButton_CombinationCode UNewButton
+---@field NewButton_Expand UNewButton
+---@field NewButton_Filter UNewButton
+---@field NewButton_FilterReset UNewButton
+---@field NewButton_Finish UNewButton
+---@field NewButton_Label UNewButton
+---@field NewButton_PutAway UNewButton
+---@field Panel_ItemColumn_Unfold UCanvasPanel
+---@field ReuseList2_ItemTab ReuseList2_C
+---@field ReuseList2_Lable ReuseList2_C
+---@field SearchContent UEditableText
+---@field Spacer_Size USpacer
+---@field TextBlock_Capacity2 UTextBlock
+---@field TextBlock_FilterQuantity UTextBlock
+---@field TextBlock_Null UTextBlock
+---@field TextBlock_Search UTextBlock
+---@field UGCMObile_HandleClickOrDrag UGCMObile_HandleClickOrDrag_C
+---@field UGCMObile_HandleClickOrDrag_More UGCMObile_HandleClickOrDrag_C
+---@field WidgetSwitcher_Expand UWidgetSwitcher
+---@field WidgetSwitcher_Filter UWidgetSwitcher
+---@field WidgetSwitcher_ObjectPreview UWidgetSwitcher
+---@field WrapGroupBox_Type UWrapGroupBox
+---@field ExpendUIStyle UUserWidgetStyle
+---@field isExpand bool

@@ -1,0 +1,14 @@
+---@class BattleFlagActor_C:AUAERegionActor
+---@field GetLuaModule:fun():FString
+---@field PlayFlagAnim:fun()
+---@field UserConstructionScript:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field Ak UAkComponent
+---@field ParticleSystem_Observer UParticleSystemComponent
+---@field ParticleSystem_End UParticleSystemComponent
+---@field SK_Shooting_Range_flag USkeletalMeshComponent
+---@field ParticleSystem_Begin UParticleSystemComponent
+---@field FlagBattleMontageDisablePawnStateList ULuaArrayHelper
+---@field BattleAreaRadius float
+---@field BattleDistanceMax float
+---@field BattleKeyInfo FFlagBattleKeyInfo

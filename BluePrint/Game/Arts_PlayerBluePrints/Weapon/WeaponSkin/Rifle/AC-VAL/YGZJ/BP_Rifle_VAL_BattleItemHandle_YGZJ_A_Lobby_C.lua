@@ -1,0 +1,1 @@
+---@class BP_Rifle_VAL_BattleItemHandle_YGZJ_A_Lobby_C:UBackpackWeaponHandle

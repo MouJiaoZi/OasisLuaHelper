@@ -1,0 +1,3 @@
+---@class AvatarModelTool_C:AAvatarModelSocketTool
+---@field UserConstructionScript:fun()
+---@field SkeletalMesh USkeletalMeshComponent

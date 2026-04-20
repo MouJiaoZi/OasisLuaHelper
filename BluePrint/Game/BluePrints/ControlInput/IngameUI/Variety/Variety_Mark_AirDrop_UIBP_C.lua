@@ -1,0 +1,2 @@
+---@class Variety_Mark_AirDrop_UIBP_C:UMapUIMarkBaseWidget
+---@field TextBlock_AirDrop UTextBlock

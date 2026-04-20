@@ -1,0 +1,1 @@
+---@class BP_BattleResultShareUIFilter_C:UBattleUIFilter

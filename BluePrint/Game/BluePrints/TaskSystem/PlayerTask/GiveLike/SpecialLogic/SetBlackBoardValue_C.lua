@@ -1,0 +1,4 @@
+---@class SetBlackBoardValue_C:UUniversalTaskFuncBPBase
+---@field SetBlackBoard:fun()
+---@field KeyName FName
+---@field KeyValue FTriggerEventParamKeySelector

@@ -1,0 +1,17 @@
+---@class SkillIconTemplate_Func_BP_Base_C_PropertyEnum
+---@field DefaultValue int32
+---@field UberGraphFrame int32
+---@field SkillIcon_Ptr int32
+---@field SkillBtn_Ptr int32
+---@field SkillBtnSelect_Ptr int32
+---@field FXWidgetSwitcher_Ptr int32
+---@field IconStateSwitcher_Ptr int32
+---@field ProgressImage_Ptr int32
+---@field NameText_Ptr int32
+---@field PointImagesPanel_Ptr int32
+---@field TimeText_Ptr int32
+---@field SkillStatue int32
+---@field Anim_RefreshSkill int32
+---@field Anim_UpgrateSkill int32
+---@field HighLightBtn_Ptr int32
+---@field SkillIconTemplate_Func_BP_Base_C_MAX int32

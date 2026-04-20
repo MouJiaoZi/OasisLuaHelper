@@ -1,0 +1,2 @@
+---@class RingMatch_Result_Share1_UIBP_C:UUAEUserWidget
+---@field Image_ScreenShoot UImage

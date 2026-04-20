@@ -1,0 +1,1 @@
+---@class BP_Borderland_AI_M16A4_BattleItemHandle_C:UBattleItemHandle_MainWeapon_C

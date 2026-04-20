@@ -1,0 +1,20 @@
+---@class GM_VisibleTestItem_C:UUserWidget
+---@field DrawBox:fun()
+---@field PrintActorInfo:fun()
+---@field GetScreenSize:fun(dist:float,radius:float):float
+---@field JudgeIsInCamera:fun(origin:FVector):bool
+---@field Init6Plane:fun()
+---@field IntersectBox:fun(origin:FVector,extend:FVector):bool
+---@field IntersectSphere:fun(origin:FVector,extend:float):bool
+---@field SetInfo:fun(String:FString,TextBlock:UTextBlock)
+---@field PrintComponentInfo:fun()
+---@field Button_0 UButton
+---@field TextBlock_0 UTextBlock
+---@field object UObject
+---@field Parent GM_VisibleTest_C
+---@field IsFirst bool
+---@field PlaneList ULuaArrayHelper
+---@field MaterialSlot ULuaArrayHelper
+---@field TempMaterial UMaterialInterface
+---@field CellSize int32
+---@field NewVar_0 bool

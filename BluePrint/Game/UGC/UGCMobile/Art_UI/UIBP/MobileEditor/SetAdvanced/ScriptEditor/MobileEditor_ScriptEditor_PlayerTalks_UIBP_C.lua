@@ -1,0 +1,26 @@
+---@class MobileEditor_ScriptEditor_PlayerTalks_UIBP_C:UPlotDialogueBaseUI
+---@field GetLuaModule:fun():FString
+---@field OnPressEscUI:fun()
+---@field UpdateDialogueOptionList:fun(Options:ULuaArrayHelper)
+---@field GetLocalPlayerName:fun():FString
+---@field ClearDialogue:fun()
+---@field GetLocalPlayerKey:fun():int32
+---@field RefreshNPC:fun(SpeakerID:int32,AnimID:int32,bAnimLoop:bool,EmojiID:int32,Distance:float,Height:float)
+---@field Button_Mask1 UButton
+---@field Button_Mask2 UButton
+---@field DialogRangeButton UButton
+---@field Image_People2 UImageEx
+---@field NewButton_Close UNewButton
+---@field NewButton_Jump UNewButton
+---@field NewButton_JumpAll UNewButton
+---@field ReuseList2_Add ReuseList2_C
+---@field TextBlock_Name_NPC UTextBlock
+---@field TextBlock_Name_Player UTextBlock
+---@field TextBlock_ReportDes UTextBlock
+---@field TextBox_ReportDes UMultiLineEditableTextBox
+---@field WidgetSwitcher_Role UWidgetSwitcher
+---@field PreviewLevelKey FString
+---@field TotalDialogue FString
+---@field CurDialogue FString
+---@field CurDialogueTime float
+---@field TypeWriteCharacterPerSecond float

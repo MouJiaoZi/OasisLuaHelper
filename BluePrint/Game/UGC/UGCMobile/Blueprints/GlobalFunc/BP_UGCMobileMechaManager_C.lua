@@ -1,0 +1,12 @@
+---@class BP_UGCMobileMechaManager_C:BP_UGCMobileBaseActor_C
+---@field FindMechaPrefabData:fun(MechaPrefabID:int32):FMechaPrefabData,bool
+---@field HasMechaPrefab:fun(MechaPrefabID:int32):bool
+---@field GetLuaModule:fun():FString
+---@field GetMechaPrefabData:fun(InMechaPrefabID:int32):S_MechaPrefabStruct
+---@field UserConstructionScript:fun()
+---@field OfficialPrefabMap ULuaMapHelper
+---@field CustomPrefabMap ULuaMapHelper
+---@field MainWeaponUIConfigList ULuaArrayHelper
+---@field ShoulderCannonUIConfigList ULuaArrayHelper
+---@field MechaIconPathConfigList ULuaArrayHelper
+---@field TempMechaPrefab S_MechaPrefabStruct

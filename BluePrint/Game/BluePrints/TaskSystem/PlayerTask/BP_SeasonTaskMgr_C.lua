@@ -1,0 +1,11 @@
+---@class BP_SeasonTaskMgr_C:ASeasonTaskMgr
+---@field HasContainsTargetTaskParamID:fun(TaskID:int32,ExParam:FString):bool
+---@field GetTaskParamsFromDataTable:fun(InTaskID:int32):FString,FString,bool
+---@field GetShowTaskTypeFormDataTable:fun(TaskType:int32):int32
+---@field GetTargetProgressFormDataTable:fun(TaskID:int32):int32
+---@field GetTaskParamsFromDataTableBlueprint:fun(InTaskID:int32):FString,FString,bool
+---@field GetTaskTypeFormDataTable:fun(TaskID:int32):int32
+---@field UserConstructionScript:fun()
+---@field ExecuteSimpleTask:fun(TaskController:UUniversalTaskController,TaskType:int32,Count:int32,Location:FVector,ExtraParam:FString,IsCumulative:bool)
+---@field DefaultSceneRoot USceneComponent
+---@field PlayerStateRef AUAEPlayerState

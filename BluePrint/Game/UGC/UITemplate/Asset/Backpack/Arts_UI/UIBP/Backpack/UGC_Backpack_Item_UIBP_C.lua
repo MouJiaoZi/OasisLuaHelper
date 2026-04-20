@@ -1,0 +1,25 @@
+---@class UGC_Backpack_Item_UIBP_C:UUserWidget
+---@field GetLuaModule:fun():FString
+---@field CreateDragDropWidget:fun():UGC_Backpack_DrapDropWidget_C
+---@field CanvasPanel_6 UCanvasPanel
+---@field CanvasPanel_8 UCanvasPanel
+---@field CanvasPanel_CustomContainer UCanvasPanel
+---@field CanvasPanel_Icon UCanvasPanel
+---@field CanvasPanel_Lock UCanvasPanel
+---@field CanvasPanel_New UCanvasPanel
+---@field CanvasPanel_Replace UCanvasPanel
+---@field Durable_Mask UProgressBar
+---@field HorizontalBox_Unlock UHorizontalBox
+---@field Image_Currency UImage
+---@field Image_Icon UImage
+---@field Image_Null UImage
+---@field Image_QualityBar UImage
+---@field Image_QualityBarBg UImage
+---@field Image_Select UImage
+---@field SizeBox_0 USizeBox
+---@field Text_UnlockCurrencyNum UTextBlock
+---@field TextBlock_Num UTextBlock
+---@field UGC_Common_Item_UIBP UCanvasPanel
+---@field UGC_QualityPoint_UIBP UCanvasPanel
+---@field UGCCommonDragDropItem UGCCommonDragDropItem_C
+---@field WrapGroupBox_QualityPoint UWrapGroupBox

@@ -1,0 +1,9 @@
+---@class BP_HunterBattleArea_C:AActor
+---@field GetLuaModule:fun():FString
+---@field UserConstructionScript:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field DefaultSceneRoot USceneComponent
+---@field MiniMapIconID int32
+---@field MiniMapSizeList ULuaArrayHelper
+---@field MiniMapShowTime float
+---@field MiniMapHideTime float

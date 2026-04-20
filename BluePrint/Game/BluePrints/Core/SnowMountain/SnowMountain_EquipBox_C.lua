@@ -1,0 +1,3 @@
+---@class SnowMountain_EquipBox_C:AEquipmentBoxActor
+---@field UserConstructionScript:fun()
+---@field StaticMesh UStaticMeshComponent

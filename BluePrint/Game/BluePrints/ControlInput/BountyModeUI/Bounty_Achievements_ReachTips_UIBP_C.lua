@@ -1,0 +1,9 @@
+---@class Bounty_Achievements_ReachTips_UIBP_C:UUserWidget
+---@field Clear:fun()
+---@field FillDetail:fun(InAchievementID:int32)
+---@field Button_0 UButton
+---@field CanvasPanel_list UCanvasPanel
+---@field TextBlock_Condition UTextBlock
+---@field TextBlock_Name UTextBlock
+---@field AchievementID int32
+---@field AchievementTable UUAEDataTable

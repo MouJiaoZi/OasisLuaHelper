@@ -1,0 +1,1 @@
+---@class UGC_E_Bag1ItemHandle_C:UBag_Lv1_ItemHandle_C

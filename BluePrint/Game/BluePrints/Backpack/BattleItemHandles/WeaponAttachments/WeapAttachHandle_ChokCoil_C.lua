@@ -1,0 +1,1 @@
+---@class WeapAttachHandle_ChokCoil_C:UBattleItemHandle_WeapAttachment_C

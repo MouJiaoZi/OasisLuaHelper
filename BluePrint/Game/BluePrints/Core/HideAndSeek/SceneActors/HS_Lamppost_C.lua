@@ -1,0 +1,1 @@
+---@class HS_Lamppost_C:AHiderSceneActorBase_C

@@ -1,0 +1,2 @@
+---@class VehicleSpawn_DesertMatch_C:UBP_VehicleAndTreasureBoxGeneratorComponent_C
+---@field LoadVehicleGenerateTable:fun()

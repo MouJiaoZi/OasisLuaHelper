@@ -1,0 +1,23 @@
+---@class BP_CellarBreakableDoor_C:ADamageableActor
+---@field BP_GetDamageRateFromDamageEvent:fun(DamageEvent:FDamageEvent):float
+---@field BP_CalcFinalDamageRate:fun(DamageEvent:FDamageEvent,Attacker:AActor):float
+---@field BP_GetDamageableGameObjectType:fun():ULuaArrayHelper
+---@field GetVehicleDamagedCoefficient:fun():int32
+---@field RecoverHP:fun()
+---@field BP_PreTakeDamage:fun(DamageAmount:float,DamageEvent:FDamageEvent,EventInstigator:AController,DamageCauser:AActor):float
+---@field BP_GetCanBePicked:fun():bool
+---@field GetVehicleDamagedSpeed:fun():int32
+---@field UserConstructionScript:fun()
+---@field ReceiveAnyDamage:fun(Damage:float,DamageType:UDamageType,InstigatedBy:AController,DamageCauser:AActor)
+---@field Baltic_HS_Residential_01_B_Door UStaticMeshComponent
+---@field Scene USceneComponent
+---@field STBaseBuffSystem USTBaseBuffSystemComponent
+---@field DamageDrivenMeshChanger UDamageDrivenMeshChanger
+---@field CurHP float
+---@field VehicleDamagedSpeed int32
+---@field MaxHP float
+---@field RecoverHPSpeed float
+---@field RecoverHPAmount float
+---@field RecoverHPHandle FTimerHandle
+---@field VehicleDamagedCoefficient int32
+---@field DamageableGameObjectTypeList ULuaArrayHelper

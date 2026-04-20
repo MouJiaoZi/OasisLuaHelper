@@ -1,0 +1,5 @@
+---@class Resurrection_RecallTipsNewUIBP_C:UObjectPositionWidget
+---@field Event_InitParamEnd:fun()
+---@field CanvasPanel_Arrow UCanvasPanel
+---@field CanvasPanel_Normal UCanvasPanel
+---@field TextBlock_Sidedistance UTextBlock

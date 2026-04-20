@@ -1,0 +1,8 @@
+---@class EliminateThank_BP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field CanvasPanel_Thank_Click UCanvasPanel
+---@field GridPanel_Eliminate UGridPanel
+---@field Image_Icon UImage
+---@field NewButton_Click UNewButton
+---@field TextBlock_Text UTextBlock
+---@field WidgetSwitcher_Unfold UWidgetSwitcher

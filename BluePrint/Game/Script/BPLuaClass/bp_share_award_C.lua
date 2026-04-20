@@ -1,0 +1,18 @@
+---@class bp_share_award_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_GetAwardIndex int32
+---@field BP_AwardName1 FString
+---@field BP_AwardTime1 int32
+---@field BP_GetAwardID int32
+---@field BP_ShareAward_ActiveTime FString
+---@field BP_AwardNum1 int32
+---@field BP_AwardItem2 int32
+---@field BP_AwardNum2 int32
+---@field BP_AwardTime2 int32
+---@field BP_CurShareNum int32
+---@field BP_SelAwardIndex int32
+---@field BP_ARRAY_ShareAwardInfoList ULuaArrayHelper
+---@field BP_AwardName2 FString
+---@field BP_IsTodayShareDone bool
+---@field BP_AwardItem1 int32

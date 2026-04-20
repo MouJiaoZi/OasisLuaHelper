@@ -1,0 +1,8 @@
+---@class BP_ListenTrain_C:AActivityBaseActor
+---@field CanLeaveTrigger:fun(NewParam:FGISCCF_Param):bool
+---@field OnLeave:fun(LeaveTrigger:FGISCCF_Param)
+---@field UserConstructionScript:fun()
+---@field Sphere1 USphereComponent
+---@field GISActorComponentBase UGISActorComponentBase
+---@field DefaultSceneRoot USceneComponent
+---@field SafePostion FVector

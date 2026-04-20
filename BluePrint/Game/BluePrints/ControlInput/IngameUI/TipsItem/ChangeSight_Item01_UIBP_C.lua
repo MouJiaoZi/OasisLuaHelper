@@ -1,0 +1,21 @@
+---@class ChangeSight_Item01_UIBP_C:UUAEUserWidget
+---@field OnTouchEnded:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field OnTouchStarted:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field OnDragDetected:fun(MyGeometry:FGeometry,PointerEvent:FPointerEvent):UDragDropOperation
+---@field RefreshIcon:fun(icon:UObject)
+---@field SetSightItem:fun(used:bool,mainHand:bool,defineID:FItemDefineID)
+---@field ReceivedInitWidget:fun()
+---@field OnDragCancelled:fun(PointerEvent:FPointerEvent,Operation:UDragDropOperation)
+---@field DisuseCurringSight__DelegateSignature:fun()
+---@field ChangeSightOK__DelegateSignature:fun(item:FItemDefineID)
+---@field ItemBeDrapCancelled__DelegateSignature:fun()
+---@field ItemBeDragBegin__DelegateSignature:fun(defineID:FItemDefineID)
+---@field ImageIcon UImage
+---@field Name UTextBlock
+---@field WidgetSwitcher_Select UWidgetSwitcher
+---@field itemDefineID FItemDefineID
+---@field ItemBeDragBegin ULuaMulticastDelegate
+---@field ItemBeDrapCancelled ULuaMulticastDelegate
+---@field ChangeSightOK ULuaMulticastDelegate
+---@field forbitUse bool
+---@field DisuseCurringSight ULuaMulticastDelegate

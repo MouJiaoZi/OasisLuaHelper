@@ -1,0 +1,5 @@
+---@class MapMark_C4Bomb_UIBP_C:UMapUIMarkBaseWidget
+---@field refresh:fun(State:int32)
+---@field UpdateUIBPState:fun(InState:FCustomMarkEventData)
+---@field OnUIBPShow:fun(InState:FCustomMarkEventData)
+---@field Image_Icon UImage

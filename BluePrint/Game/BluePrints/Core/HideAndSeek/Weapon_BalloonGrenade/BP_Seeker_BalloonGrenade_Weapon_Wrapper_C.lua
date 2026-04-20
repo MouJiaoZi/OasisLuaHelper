@@ -1,0 +1,3 @@
+---@class BP_Seeker_BalloonGrenade_Weapon_Wrapper_C:APickUpWrapperActor
+---@field UserConstructionScript:fun()
+---@field M18 UStaticMeshComponent

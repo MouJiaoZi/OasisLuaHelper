@@ -1,0 +1,5 @@
+---@class GeneralHeadFlagMgr_BP_C:UGeneralHeadFlagMgr
+---@field AddFlag_Inf:fun(BC:ASTExtraBaseCharacter,HeadFlag:FString):bool
+---@field AddFlagPS_Inf:fun(PS:AUAEPlayerState,HeadFlag:FString):bool
+---@field Construct:fun()
+---@field RootPanel UCanvasPanel

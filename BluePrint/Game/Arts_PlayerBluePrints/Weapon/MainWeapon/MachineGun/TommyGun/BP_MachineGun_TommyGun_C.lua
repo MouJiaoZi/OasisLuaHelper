@@ -1,0 +1,4 @@
+---@class BP_MachineGun_TommyGun_C:BP_ShootWeaponBase_C
+---@field UserConstructionScript:fun()
+---@field WeaponAimList_Rifle_TommyGun WeaponAimList_MachineGun_TommyGun_C
+---@field bUseIdleAnim_0_0 bool

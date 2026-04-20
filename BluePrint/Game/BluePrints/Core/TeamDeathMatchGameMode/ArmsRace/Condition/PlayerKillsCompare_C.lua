@@ -1,0 +1,2 @@
+---@class PlayerKillsCompare_C:UTriggerCondition_Blueprint
+---@field IsSatisfy_BlueprintScript:fun():bool

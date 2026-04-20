@@ -1,0 +1,12 @@
+---@class BP_SuperDefuser_Weapon_C:ASTExtraWeapon_Throw
+---@field ModifyMeshLight:fun(NewColor:FLinearColor)
+---@field UserConstructionScript:fun()
+---@field WeaponTriggerEventHandleSkill UWeaponTriggerEventHandleSkill
+---@field BP_ThrowComponent BP_ThrowComponent_C
+---@field ThrowableWeaponCrossHair UThrowableWeaponCrossHairComponent
+---@field WeaponAnimList_Grenade WeaponAnimList_Grenade_C
+---@field WeaponEntity UWeaponEntity
+---@field WeaponSpecificHandler UWeaponSpecificHandler
+---@field WeaponStateDefault UWeaponStateDefault
+---@field WeaponStateManager UWeaponStateManager
+---@field DynamicMaterial UMaterialInstanceDynamic

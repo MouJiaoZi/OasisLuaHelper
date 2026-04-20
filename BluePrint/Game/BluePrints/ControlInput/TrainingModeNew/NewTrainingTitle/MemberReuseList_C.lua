@@ -1,0 +1,12 @@
+---@class MemberReuseList_C:UBTReuseList
+---@field SetTemplate:fun()
+---@field FBox UGridPanel
+---@field List UCustomScrollBox
+---@field NewTraining_MemberItem_UIBP NewTraining_MemberItem_UIBP_C
+---@field NewTraining_MemberItem_UIBP_0 NewTraining_MemberItem_UIBP_C
+---@field NewTraining_MemberItem_UIBP_1 NewTraining_MemberItem_UIBP_C
+---@field NewTraining_MemberItem_UIBP_2 NewTraining_MemberItem_UIBP_C
+---@field NewTraining_MemberItem_UIBP_3 NewTraining_MemberItem_UIBP_C
+---@field NewTraining_MemberItem_UIBP_C_1 NewTraining_MemberItem_UIBP_C
+---@field ItemParent UUAEUserWidget
+---@field MemberItems ULuaArrayHelper

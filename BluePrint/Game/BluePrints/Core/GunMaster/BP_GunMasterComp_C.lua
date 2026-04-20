@@ -1,0 +1,1 @@
+---@class BP_GunMasterComp_C:UGunMasterComponent

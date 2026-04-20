@@ -1,0 +1,23 @@
+---@class ScoreBoard_1_C:AActor
+---@field GetLuaModule:fun():FString
+---@field PrintNeedData:fun()
+---@field ClearAllBank:fun()
+---@field StopAKEvent:fun()
+---@field PlayAKEvent:fun(index:int32)
+---@field TestServerData:fun()
+---@field UserConstructionScript:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field Park_BigScreen01_SM_TV UStaticMeshComponent
+---@field Widget3DInstanced UWidget3DInstancedComponent
+---@field WidgetScene USceneComponent
+---@field Scene USceneComponent
+---@field Path FString
+---@field Num int32
+---@field Test int32
+---@field repfuck bool
+---@field AKAudioArray ULuaArrayHelper
+---@field CurAKEvent int32
+---@field BisPlayAK bool
+---@field MasterData FPlayerBoardData
+---@field AttackerData FPlayerBoardData
+---@field LeaderListData ULuaArrayHelper

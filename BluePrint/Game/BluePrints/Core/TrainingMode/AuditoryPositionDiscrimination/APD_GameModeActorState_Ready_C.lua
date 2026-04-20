@@ -1,0 +1,2 @@
+---@class APD_GameModeActorState_Ready_C:UGameModeActorState
+---@field GetLuaModule:fun():FString

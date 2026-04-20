@@ -1,0 +1,11 @@
+---@class MobileEditor_Action_SendReceiveGroup_Level2_UIBP_C:UUGCMobilePropertyWidget
+---@field GetLuaModule:fun():FString
+---@field CanvasPanel_Slot UCanvasPanel
+---@field MobileEditor_AdvHelp MobileEditor_AdvHelp_UIBP_C
+---@field NewButton_Add UNewButton
+---@field NewButton_Fold UNewButton
+---@field Text_EventTitle UTextBlock
+---@field TextBlock_AddText UTextBlock
+---@field TextBlock_Num UTextBlock
+---@field VerticalBox_Slot UVerticalBox
+---@field WidgetSwitcher_Fold UWidgetSwitcher

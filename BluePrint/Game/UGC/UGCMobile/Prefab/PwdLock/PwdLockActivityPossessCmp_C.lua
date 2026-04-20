@@ -1,0 +1,1 @@
+---@class PwdLockActivityPossessCmp_C:UActivityFakePossessComponent

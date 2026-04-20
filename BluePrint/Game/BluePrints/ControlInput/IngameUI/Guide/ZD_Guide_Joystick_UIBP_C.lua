@@ -1,0 +1,8 @@
+---@class ZD_Guide_Joystick_UIBP_C:UUAEUserWidget
+---@field SetPosition:fun()
+---@field Construct:fun()
+---@field Border_JoyStick UBorder
+---@field CanvasPanel_Guide UCanvasPanel
+---@field CanvasPanel_IPX UCanvasPanel
+---@field CustomizeCanavsPanel_JoyStick CustomizeCanavsPanel_JoyStick_C
+---@field CurDeviceAdaptationData UIAdaptationStructure

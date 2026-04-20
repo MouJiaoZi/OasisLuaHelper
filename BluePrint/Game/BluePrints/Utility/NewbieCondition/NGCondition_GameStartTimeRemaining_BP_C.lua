@@ -1,0 +1,3 @@
+---@class NGCondition_GameStartTimeRemaining_BP_C:USTNewbieGuideConditionBase
+---@field IsOK:fun():bool
+---@field TimeRemaining int32

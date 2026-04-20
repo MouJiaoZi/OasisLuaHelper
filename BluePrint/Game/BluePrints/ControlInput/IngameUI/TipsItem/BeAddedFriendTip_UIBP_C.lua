@@ -1,0 +1,14 @@
+---@class BeAddedFriendTip_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field EventAnimShowOutComplete:fun()
+---@field EventAnimShowInComplete:fun()
+---@field DX_Out UWidgetAnimation
+---@field DX_In UWidgetAnimation
+---@field CanvasPanel_Main UCanvasPanel
+---@field Common_Avatar_BP Common_Avatar_BP_C
+---@field Common_RankTitleInfo_UIBP Common_RankTitleInfo_UIBP_C
+---@field NewButton_Agree UNewButton
+---@field NewButton_Refuse UNewButton
+---@field TextBlock_PlayerMessage UTextBlock
+---@field TextBlock_PlayerName UTextBlock
+---@field WidgetSwitcher_Gender UWidgetSwitcher

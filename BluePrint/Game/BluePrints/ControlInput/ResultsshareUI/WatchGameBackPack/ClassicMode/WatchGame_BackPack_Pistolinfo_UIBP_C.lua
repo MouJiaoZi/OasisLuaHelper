@@ -1,0 +1,45 @@
+---@class WatchGame_BackPack_Pistolinfo_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field UpdateSlotVisibility:fun()
+---@field RefreshBigIcon:fun(Assert:UObject)
+---@field UpdateWeaponAttach:fun()
+---@field GetWeaponAvatarRes:fun(AvatarID:int32):BP_STRUCT_BattleItem_type
+---@field UpdateWeaponAppearance:fun(WeaponData:BP_STRUCT_BattleItem_type,Avatar:int32)
+---@field BulletBox UHorizontalBox
+---@field CanvasPanel_AirdropInfo UCanvasPanel
+---@field CanvasPanel_EscapeMode UCanvasPanel
+---@field CanvasPanel_EscapeMode_ItemQuality UCanvasPanel
+---@field CanvasPanel_EscapeMode_QualityBG UCanvasPanel
+---@field CanvasPanel_EscapeModeInfo UCanvasPanel
+---@field CanvasPanel_PCSlot UCanvasPanel
+---@field FitingSlotItem_BP FitingSlotItem_BP_C
+---@field FitingSlotItem_BP_C_0 FitingSlotItem_BP_C
+---@field FitingSlotItem_BP_C_1 FitingSlotItem_BP_C
+---@field FitingSlotItem_BP_C_2 FitingSlotItem_BP_C
+---@field FitingSlotItem_BP_C_3 FitingSlotItem_BP_C
+---@field GridPanel_1 UGridPanel
+---@field GridPanel_ UGridPanel
+---@field HorizontalBox_TimeLimit UHorizontalBox
+---@field Image_BlankPistolSlot UImage
+---@field Image_PCHover UImage
+---@field Image_PistolIcon UImage
+---@field Image_SelectedStatus UImage
+---@field Image_Time UImage
+---@field Pisol_UsingTips UTextBlock
+---@field TextBlock_BulletName UTextBlock
+---@field TextBlock_CurrentNumberOfBullets UTextBlock
+---@field TextBlock_MaxNumberOfBullets UTextBlock
+---@field TextBlock_Time UTextBlock
+---@field TextBlock_WeaponName UTextBlock
+---@field WatchGame_FitingSlotInfo1 WatchGame_BackPack_FitingSlotInfo_UIBP_C
+---@field WatchGame_FitingSlotInfo2 WatchGame_BackPack_FitingSlotInfo_UIBP_C
+---@field WatchGame_FitingSlotInfo3 WatchGame_BackPack_FitingSlotInfo_UIBP_C
+---@field WatchGame_FitingSlotInfo4 WatchGame_BackPack_FitingSlotInfo_UIBP_C
+---@field WatchGame_FitingSlotInfo5 WatchGame_BackPack_FitingSlotInfo_UIBP_C
+---@field WidgetSwitcher_BoxState UWidgetSwitcher
+---@field WidgetSwitcher_VehicleState UWidgetSwitcher
+---@field MySlot ESurviveWeaponPropSlot
+---@field DragOrign EBackPackDragOrigin
+---@field WeaponDataRow_0 BP_STRUCT_BattleItem_type
+---@field Slot2Index ULuaMapHelper
+---@field SlotItemArray ULuaArrayHelper

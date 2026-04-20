@@ -1,0 +1,15 @@
+---@class Ingame_Signal_IndicationTips_UIBP_C:UUserWidget
+---@field LeftPage:fun()
+---@field RightPage:fun()
+---@field Button_close UButton
+---@field Button_left UButton
+---@field Button_right UButton
+---@field CanvasPanel_Tips UCanvasPanel
+---@field CheckBox_Tips UCheckBox
+---@field Image_118 UImage
+---@field Image_119 UImage
+---@field Image_120 UImage
+---@field WidgetSwitcher_page UWidgetSwitcher
+---@field currPage int32
+---@field Brush_white FSlateBrush
+---@field Brush_gray FSlateBrush

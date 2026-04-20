@@ -1,0 +1,1 @@
+---@class BP_Rifle_M417_BattleItemHandle_WQDD_Lobby_C:UBackpackWeaponHandle

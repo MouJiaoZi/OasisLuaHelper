@@ -1,0 +1,1 @@
+---@class BP_RecordShoot_C:URecordDataInstance_Shoot

@@ -1,0 +1,59 @@
+---@class BP_HunterStore_C:AUAERegionActor
+---@field GetLuaModule:fun():FString
+---@field SetMeshCollisionEnable:fun(bIsEnable:bool)
+---@field UserConstructionScript:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field Box2 UBoxComponent
+---@field Box1 UBoxComponent
+---@field Box UBoxComponent
+---@field BP_Grenade_ItemBox_Ammo_Wrapper UChildActorComponent
+---@field BP_Grenade_ItemBox_Medical_Wrapper UChildActorComponent
+---@field BP_Grenade_ItemBox_Equipment_Wrapper UChildActorComponent
+---@field ScreenParticle UCustomParticleSystemComponent
+---@field ChildActor1 UChildActorComponent
+---@field UAECustomHouseItem UUAECustomHouseItemComponent
+---@field StaticMesh1 UStaticMeshComponent
+---@field CG009_BountyHunter_WeaponShop USkeletalMeshComponent
+---@field BountyHunter_Computer USkeletalMeshComponent
+---@field ChildActor UChildActorComponent
+---@field FrontScene USceneComponent
+---@field StaticMesh UStaticMeshComponent
+---@field DefaultSceneRoot USceneComponent
+---@field GoodsExchange ULuaArrayHelper
+---@field BuyFrequence float
+---@field OpenTime float
+---@field CloseTime float
+---@field MiniMapIconID int32
+---@field BuyRevivalPrice ULuaMapHelper
+---@field SelfRevivalPrice ULuaMapHelper
+---@field SelfRevivalName FString
+---@field SelfRevivalDesc int32
+---@field RefreshTeammateListCD int32
+---@field ItemDescTable FString
+---@field CurrencyConfig ULuaMapHelper
+---@field BuyRevivalDesc int32
+---@field LifeRadarDelayTime float
+---@field LifeRadarTrans FTransform
+---@field LifeRadarPath FString
+---@field OperateDisMin float
+---@field UseOpreateDegree bool
+---@field OpreateDegreeMin float
+---@field OpreateDegreeMax float
+---@field SelfRevivalItemIcon FString
+---@field RadarOpenAnim FString
+---@field RadarCloseAnim FString
+---@field ShopOpenAnim FString
+---@field ShopOpenIdleAnim FString
+---@field ShopCloseAnim FString
+---@field ShopCloseIdleAnim FString
+---@field ShopOpenAnimDuration float
+---@field ShopCloseAnimDuration float
+---@field RadarBackDelay float
+---@field ComputerParticle UParticleSystem
+---@field ComputerParticleHideDelay float
+---@field ComputerHLMaterial UMaterialInstance
+---@field ComputerNormalMaterial UMaterialInstance
+---@field UseOpreateHeight bool
+---@field OpreateHeightMin float
+---@field OpreateHeightMax float
+---@field RevivalCountMax int32

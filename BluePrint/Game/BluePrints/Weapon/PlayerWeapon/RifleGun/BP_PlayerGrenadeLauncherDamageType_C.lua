@@ -1,0 +1,1 @@
+---@class BP_PlayerGrenadeLauncherDamageType_C:USTExtraDamageType

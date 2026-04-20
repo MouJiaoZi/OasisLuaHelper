@@ -1,0 +1,1 @@
+---@class UGC_Grenade_StunPickupWrapper_C:AGrenade_Stun_Wrapper_C

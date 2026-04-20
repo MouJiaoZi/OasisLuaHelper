@@ -1,0 +1,8 @@
+---@class WerewolfBoxGroup_C:AUAEHouseActor
+---@field UserConstructionScript:fun()
+---@field Werewolf_2 BP_WerewolfBoxSpotComponent_C
+---@field WerewolfBox_2 BP_WerewolfBoxSpotComponent_C
+---@field Werewolf_1 BP_WerewolfBoxSpotComponent_C
+---@field WerewolfBox_1 BP_WerewolfBoxSpotComponent_C
+---@field BP_WerewolfBoxGroupSceneComponent BP_WerewolfBoxGroupSceneComponent_C
+---@field DefaultSceneRoot USceneComponent

@@ -1,0 +1,5 @@
+---@class BP_DragonBoatSpot_C:ASTExtraHouseActor
+---@field UserConstructionScript:fun()
+---@field BP_WerewolfBoxGroupSceneComponent BP_WerewolfBoxGroupSceneComponent_C
+---@field BP_WerewolfBoxSpotComponent BP_WerewolfBoxSpotComponent_C
+---@field Arrow UArrowComponent

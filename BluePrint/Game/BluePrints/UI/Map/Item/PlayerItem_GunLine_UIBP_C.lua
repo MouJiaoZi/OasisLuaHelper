@@ -1,0 +1,10 @@
+---@class PlayerItem_GunLine_UIBP_C:UPlayerItemInMap
+---@field RemoveSelf:fun()
+---@field InitByShootLineData:fun(ShootLineInfo:FMapShootLineInfo,InMapScale:float,UIPool:UUIDuplicatedItemPool)
+---@field DX_Arrow UWidgetAnimation
+---@field CanvasPanel_Root UCanvasPanel
+---@field Image_ArrowDX UImage
+---@field Image_GunLine_Arrow UImage
+---@field Image_GunLine_Line UImage
+---@field TimeToRemove float
+---@field UIPool UUIDuplicatedItemPool

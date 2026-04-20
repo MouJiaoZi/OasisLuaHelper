@@ -1,0 +1,12 @@
+---@class PlayerInfoInterface_C:UInterface
+---@field EnterUCAV:fun():bool
+---@field ExitUCAV:fun():bool
+---@field EnterUAV:fun():bool
+---@field ExitUAV:fun():bool
+---@field UnInitDelegate_Inf:fun():bool
+---@field PlayerInfoUpdateEnergy_Inf:fun():bool
+---@field PlayerInfoSpectatorChangeUpdateEnergy_Inf:fun():bool
+---@field getCanvasPanelSignalBarGroup_Inf:fun():UCanvasPanel
+---@field OnUpdateHP_Inf:fun(currHP:float,RD_HP:float):bool
+---@field InitDelegate_Inf:fun():bool
+---@field OnPlayerNameChange_Inf:fun(playerName:FString):bool

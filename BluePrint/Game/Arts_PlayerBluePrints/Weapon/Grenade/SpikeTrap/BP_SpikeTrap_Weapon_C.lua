@@ -1,0 +1,14 @@
+---@class BP_SpikeTrap_Weapon_C:ASTExtraWeapon_Throw
+---@field ReceiveActorHiddenInGame:fun(bNewHidden:bool):bool
+---@field HideAvatar:fun(NewHidden:bool)
+---@field Vehicle:fun(CurrentState:EThrowState)
+---@field GetSkillEntryForMeleeWeapon:fun(IsPressed:bool):EUTSkillEntry
+---@field UserConstructionScript:fun()
+---@field WeaponTriggerEventHandleSkill UWeaponTriggerEventHandleSkill
+---@field WeaponAnimList_SpikeTrap WeaponAnimList_SpikeTrap_C
+---@field BP_ThrowComponent BP_ThrowComponent_C
+---@field ThrowableWeaponCrossHair UThrowableWeaponCrossHairComponent
+---@field WeaponEntity UWeaponEntity
+---@field WeaponSpecificHandler UWeaponSpecificHandler
+---@field WeaponStateDefault UWeaponStateDefault
+---@field WeaponStateManager UWeaponStateManager

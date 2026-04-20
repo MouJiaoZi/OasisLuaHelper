@@ -1,0 +1,1 @@
+---@class BP_HeroPlayerPawn_C:BP_PlayerPawn_C

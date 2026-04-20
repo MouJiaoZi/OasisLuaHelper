@@ -1,0 +1,33 @@
+---@class BP_UGC_Road_C:AActor
+---@field CalcState:fun(Degs:ULuaArrayHelper,Tol:float):ULuaArrayHelper
+---@field CalcDeg:fun(Positions:ULuaArrayHelper):ULuaArrayHelper,ULuaArrayHelper
+---@field BuildRail:fun()
+---@field Snapping:fun()
+---@field UserConstructionScript:fun()
+---@field PCG UPCGComponent
+---@field Spline USplineComponent
+---@field DefaultSceneRoot USceneComponent
+---@field Settings BS_PCGRoad_Setting
+---@field Graph UPCGGraph
+---@field RoadActorClass UClass
+---@field SnappingSettings BS_Snapping
+---@field BARRIERS__Mesh UStaticMesh
+---@field BARRIERS__SampleDistance float
+---@field BARRIERS__Offset FVector
+---@field BARRIERS__Scale FVector
+---@field BARRIERS__Rotate FRotator
+---@field LIGHTS__Mesh UStaticMesh
+---@field LIGHTS__SampleDistance float
+---@field LIGHTS__Offset FVector
+---@field LIGHTS__Scale FVector
+---@field ROAD__Mesh UStaticMesh
+---@field ROAD__SampleDistance float
+---@field ROAD__Offset FVector
+---@field ROAD__Rotate FRotator
+---@field ROAD__Width float
+---@field ROAD__ForwardAxis EAxisType
+---@field RAIL__MESH__START UStaticMesh
+---@field RAIL__MESH ULuaArrayHelper
+---@field RAIL__MESH__END UStaticMesh
+---@field RAIL__SampleDistance float
+---@field RAIL__OFFSET FVector

@@ -1,0 +1,8 @@
+---@class EntireMapPlayerIconInterface_C:UInterface
+---@field SetDist:fun(Dist:FText):FText
+---@field SetPlayerName:fun(Name:FText):FText
+---@field SwitchVisibility:fun(IsShow:bool):bool
+---@field GetRotationDisplayWidget:fun():UWidget
+---@field SetSelfStyle:fun(IsSelf:bool):bool
+---@field SetTeammateInfo:fun(TeammateIndex:int32,TeammateColor:FLinearColor):bool
+---@field SetSingleStyle:fun(IsSingle:bool):bool

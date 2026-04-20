@@ -1,0 +1,4 @@
+---@class bp_corps_edit_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_corpsAnnouncement FString

@@ -1,0 +1,1 @@
+---@class BP_MachineGun_AKS74U_BattleItemHandle_ORFF_Lobby_C:UBackpackWeaponHandle

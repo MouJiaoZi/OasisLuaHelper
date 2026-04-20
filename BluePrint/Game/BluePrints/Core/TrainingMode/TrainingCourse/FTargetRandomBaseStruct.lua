@@ -1,0 +1,8 @@
+---@class FTargetRandomBaseStruct
+---@field MinNum int32
+---@field MaxNum int32
+---@field MinSpeed int32
+---@field MaxSpeed int32
+---@field MinType int32
+---@field MaxType int32
+---@field RandomTagArray ULuaArrayHelper

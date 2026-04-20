@@ -1,0 +1,6 @@
+---@class BP_TestRepOnce_C:ATestRepOnce
+---@field GetLuaModule:fun():FString
+---@field UserConstructionScript:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field StaticMesh UStaticMeshComponent
+---@field DefaultSceneRoot USceneComponent

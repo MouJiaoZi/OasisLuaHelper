@@ -1,0 +1,47 @@
+---@class OB_VehicleInfoPanel_UIBP_C:UUAEUserWidget
+---@field HideVehicle:fun()
+---@field GetVehicle:fun():ASTExtraVehicleBase
+---@field UpdateGUISpeed:fun(RawSpeed:float)
+---@field ShowVehicle:fun()
+---@field InitWheelsInfo:fun()
+---@field OnVehicleHPChange:fun(Health:float,RatioHealth:float)
+---@field UpdateGUIHP:fun(HP:float,HPMax:float)
+---@field UpdateGUIFuel:fun(Fuel:float,FuelMax:float)
+---@field GetVehicleUser:fun():BP_VehicleUser_C
+---@field RefreshWheelsInfo:fun()
+---@field CanvasPanel_FuelGroup UCanvasPanel
+---@field CanvasPanel_Mode1 UCanvasPanel
+---@field CanvasPanel_Mode2 UCanvasPanel
+---@field CanvasPanel_Mode3 UCanvasPanel
+---@field CanvasPanel_Mode4 UCanvasPanel
+---@field CanvasPanel_Mode5 UCanvasPanel
+---@field FuelPointerImage UImage
+---@field Image_FrontWheel UImage
+---@field Image_Mode1_L1 UImage
+---@field Image_Mode1_L2 UImage
+---@field Image_Mode1_R1 UImage
+---@field Image_Mode1_R2 UImage
+---@field Image_Mode2_L1 UImage
+---@field Image_Mode2_L2 UImage
+---@field Image_Mode2_R1 UImage
+---@field Image_Mode2_R2 UImage
+---@field Image_Mode3_L1 UImage
+---@field Image_Mode3_L2 UImage
+---@field Image_Mode3_R1 UImage
+---@field Image_Mode3_R2 UImage
+---@field Image_RearWheel UImage
+---@field Image_TeslaIcon UImage
+---@field Image_ThreeWheel_01 UImage
+---@field Image_ThreeWheel_02 UImage
+---@field Image_ThreeWheel_03 UImage
+---@field Image_VehileIcon UImage
+---@field ProgressBar_FuelBar UProgressBar
+---@field SizeBox_HP USizeBox
+---@field TextBlock_172 UTextBlock
+---@field VehicleHP UProgressBar
+---@field WheelColor FColor
+---@field VehicleHealthPercent float
+---@field Pink float
+---@field Red float
+---@field StrVehicleSpeed FString
+---@field CurController ASTExtraPlayerController

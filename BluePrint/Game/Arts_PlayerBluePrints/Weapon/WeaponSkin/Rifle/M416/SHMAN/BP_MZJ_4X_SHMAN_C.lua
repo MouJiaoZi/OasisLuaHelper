@@ -1,0 +1,1 @@
+---@class BP_MZJ_4X_SHMAN_C:BP_MZJ_4X_C

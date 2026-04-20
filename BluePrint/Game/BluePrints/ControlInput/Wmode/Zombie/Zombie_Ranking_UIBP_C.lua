@@ -1,0 +1,47 @@
+---@class Zombie_Ranking_UIBP_C:UUAEUserWidget
+---@field UIMsg_PlayLevelUpAnimation:fun()
+---@field UIMsg_RefreshLevelAndExp:fun()
+---@field OnReallyShow:fun()
+---@field SetExpProgress:fun()
+---@field SortPlayerListByDamage:fun()
+---@field ShowWDZombieRankingUI:fun()
+---@field UIMsg_SetPropertiesAddition:fun()
+---@field UIMsg_SetDamageRankingList:fun()
+---@field UpdatePlayerStateList:fun()
+---@field ReceivedInitWidget:fun()
+---@field DX_LevelUp UWidgetAnimation
+---@field DX_AttributesUp UWidgetAnimation
+---@field DX_UpgradeInTheBattle UWidgetAnimation
+---@field Button_Attribute_close UButton
+---@field Button_Attribute_open UButton
+---@field Button_Top_attr UButton
+---@field Button_Top_close UButton
+---@field CanvasPanel_Details UCanvasPanel
+---@field CanvasPanel_top UCanvasPanel
+---@field Image_CD UImage
+---@field T_Attribute_open UTextBlock
+---@field Text_Details_1 UTextBlock
+---@field Text_Details_2 UTextBlock
+---@field Text_Details_3 UTextBlock
+---@field Text_Tips01 UTextBlock
+---@field TextBlock_12 UTextBlock
+---@field TextBlock_Tips02 UTextBlock
+---@field TextBlock_Tips03 UTextBlock
+---@field WidgetSwitcher_Attribute UWidgetSwitcher
+---@field WidgetSwitcher_Panel UWidgetSwitcher
+---@field WidgetSwitcher_Top UWidgetSwitcher
+---@field Zombie_Ranking_ItemUIBP Zombie_Ranking_ItemUIBP_C
+---@field Zombie_Ranking_ItemUIBP_0 Zombie_Ranking_ItemUIBP_C
+---@field Zombie_Ranking_ItemUIBP_1 Zombie_Ranking_ItemUIBP_C
+---@field Zombie_Ranking_ItemUIBP_2 Zombie_Ranking_ItemUIBP_C
+---@field PlayerStateList ULuaArrayHelper
+---@field BPZorder int32
+---@field DamageRanking ULuaArrayHelper
+---@field DamageToName ULuaMapHelper
+---@field IndexToDamage ULuaMapHelper
+---@field SortedIndex ULuaArrayHelper
+---@field RankingItem ULuaArrayHelper
+---@field bClickAttributeButton bool
+---@field LastBackpackGrowth float
+---@field LastSpeedGrowth float
+---@field LastDamageGrowth float

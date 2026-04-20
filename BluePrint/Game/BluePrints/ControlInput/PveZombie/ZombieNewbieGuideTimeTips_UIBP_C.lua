@@ -1,0 +1,1 @@
+---@class ZombieNewbieGuideTimeTips_UIBP_C:UUAEUserWidget

@@ -1,0 +1,2 @@
+---@class WatchingUIInteractingInterface_C:UInterface
+---@field AttachWatchingUIToAppropriateWidget:fun(WatchingUIInstance:UUserWidget):int32

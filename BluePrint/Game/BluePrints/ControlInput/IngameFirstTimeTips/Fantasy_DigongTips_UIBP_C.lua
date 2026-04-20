@@ -1,0 +1,3 @@
+---@class Fantasy_DigongTips_UIBP_C:UUAEUserWidget
+---@field Button_close UButton
+---@field Common_UIPopupBG Common_UIPopupBG_C

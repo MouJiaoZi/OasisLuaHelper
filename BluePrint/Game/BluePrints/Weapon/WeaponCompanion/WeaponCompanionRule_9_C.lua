@@ -1,0 +1,5 @@
+---@class WeaponCompanionRule_9_C:UBP_WeaponCompanionRuleBase_C
+---@field OnInit:fun()
+---@field OnRemove:fun()
+---@field NeedKillCount int32
+---@field KillMap ULuaMapHelper

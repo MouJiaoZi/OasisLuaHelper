@@ -1,0 +1,5 @@
+---@class BP_ShootingPracticeTargetBase_C:AShootingPracticeTarget
+---@field GetLuaModule:fun():FString
+---@field UserConstructionScript:fun()
+---@field BPHandleHealthZero:fun(EventInstigator:AController)
+---@field ControlTag int32

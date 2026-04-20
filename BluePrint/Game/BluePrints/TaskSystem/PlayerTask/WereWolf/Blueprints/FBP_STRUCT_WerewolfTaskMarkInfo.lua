@@ -1,0 +1,6 @@
+---@class FBP_STRUCT_WerewolfTaskMarkInfo
+---@field TaskID int32
+---@field Position FVector
+---@field TaskType TaskType
+---@field TaskState int32
+---@field SubTaskType int32

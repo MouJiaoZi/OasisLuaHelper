@@ -1,0 +1,1 @@
+---@class BP_NightVisionComponent_C:UNightVisionComponent

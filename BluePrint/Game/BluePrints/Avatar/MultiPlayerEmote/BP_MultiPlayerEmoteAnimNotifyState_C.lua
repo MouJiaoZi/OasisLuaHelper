@@ -1,0 +1,6 @@
+---@class BP_MultiPlayerEmoteAnimNotifyState_C:UAnimNotifyState_MultiEmoteTimeAkEvent
+---@field GetNotifyName:fun():FString
+---@field Received_NotifyEnd:fun(MeshComp:USkeletalMeshComponent,Animation:UAnimSequenceBase,InvokeAnimInstance:UAnimInstance):bool
+---@field Received_NotifyBegin:fun(MeshComp:USkeletalMeshComponent,Animation:UAnimSequenceBase,TotalDuration:float,InvokeAnimInstance:UAnimInstance):bool
+---@field AKEvent UAkAudioEvent
+---@field NotifyName FString

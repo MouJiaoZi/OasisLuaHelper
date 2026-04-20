@@ -1,0 +1,3 @@
+---@class BP_Sniper_AS50_10000_C:BP_LobbyShootWeaponBase_C
+---@field UserConstructionScript:fun()
+---@field LobbyWeaponAnimList_Rifle LobbyWeaponAnimList_C

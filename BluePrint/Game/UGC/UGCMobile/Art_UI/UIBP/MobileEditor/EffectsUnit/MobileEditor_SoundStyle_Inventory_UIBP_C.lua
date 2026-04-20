@@ -1,0 +1,34 @@
+---@class MobileEditor_SoundStyle_Inventory_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field OnMouseWheel:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field Canvas_ObjectPreview UCanvasPanel
+---@field CanvasPanel_ItemColumn UCanvasPanel
+---@field CanvasPanel_ItemTab UCanvasPanel
+---@field CanvasPanel_ItemTips UCanvasPanel
+---@field CanvasPanel_Null UCanvasPanel
+---@field CanvasPanel_Search UCanvasPanel
+---@field CanvasPanel_Type UCanvasPanel
+---@field CustomScrollBox_List UCustomScrollBox
+---@field DX_Chicken DX_Chicken_C
+---@field Image_CD UImage
+---@field MobileEditor_SpecialEffects_Item_UIBP MobileEditor_SpecialEffects_Item_UIBP_C
+---@field NewButton_AddTo UNewButton
+---@field NewButton_Expand UNewButton
+---@field NewButton_Finish UNewButton
+---@field NewButton_PutAway UNewButton
+---@field Panel_ItemColumn_Unfold UCanvasPanel
+---@field ReuseList2_1List ReuseList2_C
+---@field ReuseList2_3List ReuseList2_C
+---@field ReuseList2_Item1List ReuseList2_C
+---@field ReuseList2_Item3List ReuseList2_C
+---@field ReuseList2_ItemTab ReuseList2_C
+---@field SearchContent UEditableText
+---@field TextBlock_Capacity2 UTextBlock
+---@field TextBlock_Name UTextBlock
+---@field TextBlock_Null UTextBlock
+---@field TextBlock_Search UTextBlock
+---@field WidgetSwitcher_Expand UWidgetSwitcher
+---@field WidgetSwitcher_ObjectPreview UWidgetSwitcher
+---@field WrapGroupBox_Type UWrapGroupBox
+---@field ExpendUIStyle UUserWidgetStyle
+---@field isExpand bool

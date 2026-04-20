@@ -1,0 +1,2 @@
+---@class BP_ProduceDropItemComponent_GunMaster_C:UProduceDropItemComponent
+---@field DataTableRef UUAEDataTable

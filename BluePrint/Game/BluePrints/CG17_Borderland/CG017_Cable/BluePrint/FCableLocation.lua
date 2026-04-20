@@ -1,0 +1,3 @@
+---@class FCableLocation
+---@field StartLocation FVector
+---@field Endlocation FVector

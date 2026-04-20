@@ -1,0 +1,27 @@
+---@class Training_UIBP_C:UUAEUserWidget
+---@field NewFriendTips_Inf:fun(show:bool):bool
+---@field UpdateTraining_Inf:fun():bool
+---@field EnterTrainingMode_Inf:fun():bool
+---@field NewYearActivity_HideNoneConcertUI_Sub:fun()
+---@field OnHideNewbieGuide:fun()
+---@field OnShowNewbieGuild:fun()
+---@field UIMsg_EnterTrainingMode:fun()
+---@field UpdateTraining:fun()
+---@field ReceivedInitWidget:fun()
+---@field Button_ExitTraining UButton
+---@field CanvasPanel_AddFriend UCanvasPanel
+---@field CanvasPanel_Guide_Friend UCanvasPanel
+---@field CanvasPanel_Sensitivity UCanvasPanel
+---@field Image_NewFriendTip UImage
+---@field NewButton_AddFriend UNewButton
+---@field NewButton_Sensitivity UNewButton
+---@field Training_SensitivityList_UIBP Training_SensitivityList_UIBP_C
+---@field TrainingCourse UCanvasPanel
+---@field TrainingSwitch_List UCanvasPanel
+---@field WidgetSwitcher_AddFriend UWidgetSwitcher
+---@field WidgetSwitcher_Sensitivity UWidgetSwitcher
+---@field STExtraPlayerController ASTExtraPlayerController
+---@field OpenMenu bool
+---@field MaxFTTCount int32
+---@field OpenAddFriend bool
+---@field OpenSensitive bool

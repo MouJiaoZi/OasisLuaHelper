@@ -1,0 +1,5 @@
+---@class HeavyWeaponRadarGroup_C:AUAEHouseActor
+---@field UserConstructionScript:fun()
+---@field Radar_1 BP_WerewolfBoxSpotComponent_C
+---@field BP_RadarGroupSceneComponent BP_WerewolfBoxGroupSceneComponent_C
+---@field DefaultSceneRoot USceneComponent

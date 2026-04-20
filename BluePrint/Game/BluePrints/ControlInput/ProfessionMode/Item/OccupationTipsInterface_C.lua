@@ -1,0 +1,2 @@
+---@class OccupationTipsInterface_C:UInterface
+---@field ShowSkillTipsInf:fun(skillID:int32):bool

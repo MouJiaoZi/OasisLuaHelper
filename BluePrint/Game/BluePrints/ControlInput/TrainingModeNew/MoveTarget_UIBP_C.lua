@@ -1,0 +1,2 @@
+---@class MoveTarget_UIBP_C:UUAEUserWidget
+---@field MoveTargetTrainSub_UIBP MoveTargetTrainSub_UIBP_C

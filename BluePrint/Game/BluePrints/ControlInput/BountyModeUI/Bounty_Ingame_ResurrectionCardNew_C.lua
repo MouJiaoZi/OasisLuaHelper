@@ -1,0 +1,8 @@
+---@class Bounty_Ingame_ResurrectionCardNew_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field LuaInit:fun()
+---@field LuaHasRevivalSign:fun()
+---@field ReceivedInitWidget:fun()
+---@field Border_Color UBorder
+---@field Image_ReviveIcon UImage
+---@field TextBlock_TimeNum UTextBlock

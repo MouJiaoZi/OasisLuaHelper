@@ -1,0 +1,13 @@
+---@class BP_WarteringAreaBase_FixM2_Child_C:ABP_WarteringAreaBase_FixM2_C
+---@field CanTriggertEvent:fun(CurPawn:APawn):bool
+---@field Init:fun()
+---@field UserConstructionScript:fun()
+---@field ReceiveAnyDamage:fun(Damage:float,DamageType:UDamageType,InstigatedBy:AController,DamageCauser:AActor)
+---@field ST_WEP_M2_Damage UStaticMeshComponent
+---@field DamageDrivenMeshChanger UDamageDrivenMeshChanger
+---@field Hp float
+---@field MaxHp float
+---@field IsDestroyed bool
+---@field M2SkillId int32
+---@field M2Destroy bool
+---@field WreckAge bool

@@ -1,0 +1,1 @@
+---@class HS_Roadblock01_C:AHiderSceneActorBase_C

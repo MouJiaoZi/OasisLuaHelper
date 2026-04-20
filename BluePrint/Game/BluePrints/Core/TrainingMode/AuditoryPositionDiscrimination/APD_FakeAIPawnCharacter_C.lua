@@ -1,0 +1,26 @@
+---@class APD_FakeAIPawnCharacter_C:ABP_PlayerPawn_C
+---@field GetLuaModule:fun():FString
+---@field LuaDead:fun(NewParam1:AController)
+---@field GetCurSpeed:fun():float
+---@field UpdateAnim:fun()
+---@field GetDestinPath:fun():USplineComponent
+---@field FillSplineList:fun()
+---@field SetBlackboardIntValue:fun(ParamName:FName,ParamValue:int32)
+---@field UserConstructionScript:fun()
+---@field ReceiveAnyDamage:fun(Damage:float,DamageType:UDamageType,InstigatedBy:AController,DamageCauser:AActor)
+---@field GameModeActor AActor
+---@field CurJumpWaitTime float
+---@field JumpWaitTime float
+---@field SplineList ULuaMapHelper
+---@field CurMoveType int32
+---@field SpeedWalk float
+---@field SpeeRun float
+---@field SpeedProne float
+---@field SpeedJump float
+---@field CurPathType int32
+---@field PathTagList ULuaArrayHelper
+---@field AIPlayerName FString
+---@field CurFloor int32
+---@field IsJumpping bool
+---@field CurrentHP float
+---@field MaxHP float

@@ -1,0 +1,5 @@
+---@class IngameCommonShare_UIBP_C:UUAEUserWidget
+---@field ResetScreenShotWithoutUI:fun()
+---@field ResetScreenShot:fun()
+---@field IngameCommonShare_Content_UIBP IngameCommonShare_Content_UIBP_C
+---@field Shareinterface_UIBP Shareinterface_UIBP_C

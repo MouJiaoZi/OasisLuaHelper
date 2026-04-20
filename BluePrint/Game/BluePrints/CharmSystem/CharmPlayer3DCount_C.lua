@@ -1,0 +1,4 @@
+---@class CharmPlayer3DCount_C:URenderWidgetBase
+---@field OnRefreshCountDownValue:fun(CountDownValue:int32,TotalCountDownValue:int32)
+---@field OnRefreshSeasonId:fun(SeasonId:int32)
+---@field RankInfoWidget Ingame_IslandCharismaRank_UIBP_C

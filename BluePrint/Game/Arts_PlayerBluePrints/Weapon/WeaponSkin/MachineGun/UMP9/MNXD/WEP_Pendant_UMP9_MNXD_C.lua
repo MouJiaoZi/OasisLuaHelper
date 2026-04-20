@@ -1,0 +1,1 @@
+---@class WEP_Pendant_UMP9_MNXD_C:BattleItemHandle_WeapAttachment_C

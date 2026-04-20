@@ -1,0 +1,5 @@
+---@class ZD_Guide_Joystick_First_UIBP_C:UUAEUserWidget
+---@field SetPosition:fun()
+---@field Construct:fun()
+---@field CanvasPanel_Main UCanvasPanel
+---@field TextBlock_Des UTextBlock

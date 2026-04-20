@@ -1,0 +1,15 @@
+---@class UGCM_AssetStore_Combination_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field CanvasPanel_Filter UCanvasPanel
+---@field CanvasPanel_Navigation UCanvasPanel
+---@field DynaCanvasPanel_Search UDynaCanvasPanel
+---@field NewButton_CloseFilter UNewButton
+---@field NewButton_Filter UNewButton
+---@field NewButton_Rule UNewButton
+---@field NewButton_Search UNewButton
+---@field ReuseList2_Combination ReuseList2_C
+---@field ReuseList2_Navigation ReuseList2_C
+---@field ReuseListSp_Filter ReuseListSp_C
+---@field TextBlock_Filter UTextBlock
+---@field UGCM_CombinationTips MobileEditor_CombinationTips_Pop_UIBP_C
+---@field WidgetSwitcher_Filter UWidgetSwitcher

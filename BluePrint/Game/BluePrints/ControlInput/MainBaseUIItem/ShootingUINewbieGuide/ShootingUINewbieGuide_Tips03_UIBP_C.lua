@@ -1,0 +1,7 @@
+---@class ShootingUINewbieGuide_Tips03_UIBP_C:UNewbieGuideWidget
+---@field OnCreateAndShow:fun(GuideId:int32,UIConfigIndex:int32)
+---@field CanvasPanel_LeftBtn UCanvasPanel
+---@field Image_Arrow UImage
+---@field Image_FX UImage
+---@field Image_LeftBtn UImage
+---@field UTRichTextBlock_Tips1_Text1 UUTRichTextBlock

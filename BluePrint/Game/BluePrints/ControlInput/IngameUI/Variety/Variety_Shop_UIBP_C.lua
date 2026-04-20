@@ -1,0 +1,13 @@
+---@class Variety_Shop_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field TestFunction:fun()
+---@field Construct:fun()
+---@field CanvasPanel_3 UCanvasPanel
+---@field CanvasPanel_Tab2 UCanvasPanel
+---@field CanvasPanel_VehicleHP UCanvasPanel
+---@field NewButton_AddIcon UNewButton
+---@field ReuseList2_Tab2 ReuseList2_C
+---@field ReuseList2_Tab3 ReuseList2_C
+---@field TextBlock_Describe UTextBlock
+---@field TextBlock_Title UTextBlock
+---@field Variety_Slider_VehicleHP Variety_Slider_UIBP_C

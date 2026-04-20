@@ -1,0 +1,5 @@
+---@class KillTip_KillCount_UIBP_C:UUAEUserWidget
+---@field SetKillTipsData:fun(InKillTipsData:FExtractDamageParamKillTipsData):bool
+---@field SetBGImageOnLoaded:fun(NewTexture:UObject)
+---@field Image_Frame_Bg UImage
+---@field TextBlock_Count UTextBlock

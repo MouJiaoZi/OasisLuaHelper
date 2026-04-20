@@ -1,0 +1,1 @@
+---@class BP_DamageType_IM_Frozen_C:USTExtraDamageType

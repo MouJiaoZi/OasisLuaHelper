@@ -1,0 +1,3 @@
+---@class IngamePhoneInfo_UIBP_C:UBatteryAndSignalWidget
+---@field UpdateChargingImage:fun(bisCharge:bool)
+---@field Image_Charge UImage

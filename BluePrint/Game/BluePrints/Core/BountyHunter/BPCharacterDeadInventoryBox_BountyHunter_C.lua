@@ -1,0 +1,4 @@
+---@class BPCharacterDeadInventoryBox_BountyHunter_C:ACharacterDeadInventoryBox_C
+---@field GetLuaModule:fun():FString
+---@field UserConstructionScript:fun()
+---@field AdditionalItemIDs ULuaArrayHelper

@@ -1,0 +1,6 @@
+---@class BP_UGC_SkillGun_ChargeRifle_C:BP_UGC_ShootWeaponBase_C
+---@field GetLuaModule:fun():FString
+---@field UserConstructionScript:fun()
+---@field WeaponAnimList_Rifle_AKM WeaponAnimList_Rifle_AKM_C
+---@field bUseIdleAnim_0_0 bool
+---@field Firenum float

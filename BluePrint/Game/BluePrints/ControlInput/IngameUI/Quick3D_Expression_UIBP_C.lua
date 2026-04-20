@@ -1,0 +1,7 @@
+---@class Quick3D_Expression_UIBP_C:UUAEUserWidget
+---@field OnLoadBrushSuccessed:fun(NewParam:UObject)
+---@field LoadBrush:fun(InItemData:FBattleItemData)
+---@field OnTouchEnded:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field OnTouchStarted:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field Image_3dExpression UImage
+---@field ItemData FBattleItemData

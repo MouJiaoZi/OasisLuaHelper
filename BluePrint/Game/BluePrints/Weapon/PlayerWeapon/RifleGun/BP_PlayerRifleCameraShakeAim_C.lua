@@ -1,0 +1,1 @@
+---@class BP_PlayerRifleCameraShakeAim_C:UCameraShake

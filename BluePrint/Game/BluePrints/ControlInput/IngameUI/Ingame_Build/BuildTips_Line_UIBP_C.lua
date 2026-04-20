@@ -1,0 +1,1 @@
+---@class BuildTips_Line_UIBP_C:UUserWidget

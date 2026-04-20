@@ -1,0 +1,4 @@
+---@class WeaponCompanion_ProjectileBounceDelegate_C:UObject
+---@field OnProjectileBounce__DelegateSignature:fun(Projectile:AEliteProjectile)
+---@field OnProjectileBounce ULuaMulticastDelegate
+---@field Projectile AEliteProjectile

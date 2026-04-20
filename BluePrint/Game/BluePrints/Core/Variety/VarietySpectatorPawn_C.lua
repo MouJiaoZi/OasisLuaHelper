@@ -1,0 +1,10 @@
+---@class VarietySpectatorPawn_C:AVRSpectatorPawn_C
+---@field DestroyPPV:fun()
+---@field CreatePPV:fun()
+---@field SetCameraAperture:fun(NewAperture:float)
+---@field FollowVehicle:fun(bWantsFollow:bool)
+---@field SetFocalLength:fun(FocalLength:float)
+---@field UserConstructionScript:fun()
+---@field ReceiveEndPlay:fun(EndPlayReason:EEndPlayReason)
+---@field CineCamera UCineCameraComponent
+---@field PPV_Aperture APostProcessVolume

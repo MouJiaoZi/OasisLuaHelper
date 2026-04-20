@@ -1,0 +1,1 @@
+---@class BattleItemHandle_RQJLB_BP_Hair_1290_C:BattleItemHandle_AvatarBP_C

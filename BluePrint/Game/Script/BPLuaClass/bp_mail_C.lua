@@ -1,0 +1,25 @@
+---@class bp_mail_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field Mail_OpenUrl FString
+---@field Mail_IDIP_Success_Mail_MailID int32
+---@field BP_ARRAY_INVITE_INFO_LIST ULuaArrayHelper
+---@field Mail_Safe_Unread_Count int32
+---@field Mail_Friend_Unread_Count int32
+---@field Mail_Notice_Unread_Count int32
+---@field BP_ARRAY_MailList ULuaArrayHelper
+---@field BP_XUNYOU_TYPE int32
+---@field Mail_Filter_Type FString
+---@field Mail_Count int32
+---@field Mail_Sys_Unread_Count int32
+---@field Mail_ShowRecvAttachMailId int32
+---@field Mail_UpdateOneMailItem int32
+---@field BP_APPLY_UID FString
+---@field BP_XUNYOU_JUMP FString
+---@field Mail_GiftShare_Unread_Count int32
+---@field Mail_Max_Count int32
+---@field BP_MailClickHead_UID FString
+---@field BP_Mail_PlayerInTeam bool
+---@field BP_INVITE_UID FString
+---@field Mail_Gift_Unread_Count int32
+---@field Mail_Select_ID int32

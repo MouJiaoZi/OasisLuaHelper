@@ -1,0 +1,2 @@
+---@class VehicleSpawn_DihorOtokChristmasTree_C:UVehicleSpawn_DihorOtok_C
+---@field LoadVehicleGenerateTable:fun()

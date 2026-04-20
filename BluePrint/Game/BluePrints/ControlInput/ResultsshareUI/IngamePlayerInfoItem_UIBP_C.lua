@@ -1,0 +1,17 @@
+---@class IngamePlayerInfoItem_UIBP_C:UUserWidget
+---@field OnTouchEnded:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field OnTouchStarted:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field SetEquipQuality:fun(InQuality:int32)
+---@field ToggleItemSelected:fun(InSelectedItem:int32)
+---@field OnItemIconLoadDone:fun(LoadedObject:UObject)
+---@field RefreshItemInfo:fun()
+---@field HideInfoItem:fun()
+---@field ShowInfoItem:fun()
+---@field SetItemInfo:fun(ItemSpecificID:int32,ItemSlotType:EAvatarSlotType)
+---@field OnPlayerInfoItemClicked__DelegateSignature:fun(ShowTips:bool,ItemID:int32,ItemName:FString,ItemDescription:FString,ItemIconBrush:FSlateBrush,ItemQuality:int32)
+---@field Button_2 UButton
+---@field Image_colour UImage
+---@field Image_icon UImage
+---@field Image_Select UImage
+---@field OnPlayerInfoItemClicked ULuaMulticastDelegate
+---@field SlotType EAvatarSlotType

@@ -1,0 +1,1 @@
+---@class PESkill_Monster_Mobile_Werewolf_C:PESkillTemplate_Base_C

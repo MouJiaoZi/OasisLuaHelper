@@ -1,0 +1,59 @@
+---@class CG035_QuickSignNewStyle_UIBP_C:UAdvancedQuickSignMarkWidget
+---@field UpdateIcon:fun(IconPath:FString)
+---@field UpdateType:fun()
+---@field UpdateColor:fun(TeamIndex:int32,SignType:FString)
+---@field DealWithEdge:fun(InPosition:FVector2D,WorldLocation:FVector):FVector2D
+---@field ShowSelf:fun(Loc:FVector,IconPath:FString,IsSelfMark:bool,TeamIndex:int32,SignType:FString,AttachedActor:AActor,AttachVector:FVector)
+---@field Construct:fun()
+---@field OnWidgetAlphaChange:fun(NewAlpha:float)
+---@field HandleNonAim:fun()
+---@field HandleOnlyAim:fun()
+---@field HandleAimFire:fun()
+---@field Destruct:fun()
+---@field DX_huiying UWidgetAnimation
+---@field DX_InBig UWidgetAnimation
+---@field DX_chushiye UWidgetAnimation
+---@field DX_In UWidgetAnimation
+---@field NewAnimation_OpenHide UWidgetAnimation
+---@field Border_Content UBorder
+---@field Border_DistInfo UBorder
+---@field Border_DistInfo1 UBorder
+---@field Border_DistInfo2 UBorder
+---@field Border_DistInfo3 UBorder
+---@field Border_Line UBorder
+---@field CanvasPanel_0 UCanvasPanel
+---@field CanvasPanel_DistInfo UCanvasPanel
+---@field CanvasPanel_DistInfo1 UCanvasPanel
+---@field CanvasPanel_DistInfo2 UCanvasPanel
+---@field CanvasPanel_DistInfo3 UCanvasPanel
+---@field CanvasPanel_DistInfoBox UCanvasPanel
+---@field CanvasPanel_DistPanel UCanvasPanel
+---@field CanvasPanel_Icon UCanvasPanel
+---@field CanvasPanel_Rotate UCanvasPanel
+---@field FX_kuosan01_1 UImage
+---@field FX_kuosan02_1 UImage
+---@field FX_kuosan02_2 UImage
+---@field FX_kuosan03_1 UImage
+---@field Image_Border UImage
+---@field Image_Dian UImage
+---@field Image_Icon UImage
+---@field Image_IconBG UImage
+---@field Image_Point UImage
+---@field TextBlock_Distance1 UTextBlock
+---@field TextBlock_Distance2 UTextBlock
+---@field TextBlock_Distance3 UTextBlock
+---@field DivisionFactor float
+---@field DivisionDistance float
+---@field IsDivision bool
+---@field LastFireTime float
+---@field PCUI_LongMarkLineHeight float
+---@field PCUI_ShortMarkLineHeight float
+---@field UpAnchorData FAnchorData
+---@field NormalAnchorData FAnchorData
+---@field RightAnchorData FAnchorData
+---@field LeftAnchorData FAnchorData
+---@field AttentionLinearColor FLinearColor
+---@field bSpecialSign bool
+---@field NormalIconPath FString
+---@field AttentionIconPath FString
+---@field bAttentionSign bool

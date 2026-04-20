@@ -1,0 +1,1 @@
+---@class BP_Grenade_Frag_BattleItemHandle_QJKD_C:BP_Grenade_Frag4TDM_Weapon_BattleItemHandle_C

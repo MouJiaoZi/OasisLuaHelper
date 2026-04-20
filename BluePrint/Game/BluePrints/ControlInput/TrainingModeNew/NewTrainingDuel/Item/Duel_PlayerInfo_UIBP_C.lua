@@ -1,0 +1,4 @@
+---@class Duel_PlayerInfo_UIBP_C:UUAEUserWidget
+---@field Common_RankTitleInfo Common_RankTitleInfo_UIBP_C
+---@field TextBlock_name UTextBlock
+---@field WidgetSwitcher_Gender UWidgetSwitcher

@@ -1,0 +1,1 @@
+---@class BattleItemHandle_SJQ12_BP_Mask_177_C:BattleItemHandle_AvatarBP_C

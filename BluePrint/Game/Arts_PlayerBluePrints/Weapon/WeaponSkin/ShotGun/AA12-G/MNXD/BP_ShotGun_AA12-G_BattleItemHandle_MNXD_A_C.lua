@@ -1,0 +1,1 @@
+---@class BP_ShotGun_AA12-G_BattleItemHandle_MNXD_A_C:BP_ShotGun_AA12_BattleItemHandle_C

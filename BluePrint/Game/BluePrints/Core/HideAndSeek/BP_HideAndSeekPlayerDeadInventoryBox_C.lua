@@ -1,0 +1,10 @@
+---@class BP_HideAndSeekPlayerDeadInventoryBox_C:ACharacterDeadInventoryBox_C
+---@field GetLuaModule:fun():FString
+---@field CheckSeparatedByWall:fun(StartLocation:FVector):bool
+---@field OnReceiveTick:fun(DeltaTime:float)
+---@field HideRevivalButton:fun(OtherActor:AActor)
+---@field ShowRevivalButton:fun(OtherActor:AActor)
+---@field UserConstructionScript:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field OnOwnerPawnDead:fun(DeadCharacter:ASTExtraCharacter,Killer:AController,DamageCaster:AActor,KillingHitInfo:FHitResult,KillingHitImpulseDir:FVector,DamageType:int32,DamageTypeClass:USTExtraDamageType,IsHeadShotDamage:bool)
+---@field Sphere USphereComponent

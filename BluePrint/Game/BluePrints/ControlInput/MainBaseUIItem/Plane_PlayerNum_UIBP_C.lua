@@ -1,0 +1,22 @@
+---@class Plane_PlayerNum_UIBP_C:UTeammateInPlaneWidget
+---@field CheckVisible:fun():bool
+---@field ScaleFirstItem:fun()
+---@field AdjustUIPosition:fun()
+---@field HideAllCanvasPanel:fun()
+---@field Init:fun()
+---@field CanvasPanel_Teamate1 UCanvasPanel
+---@field CanvasPanel_Teamate2 UCanvasPanel
+---@field CanvasPanel_Teamate3 UCanvasPanel
+---@field CanvasPanel_Teamate4 UCanvasPanel
+---@field CanvasPanel_Total UCanvasPanel
+---@field Image_0 UImage
+---@field Image_1 UImage
+---@field Image_2 UImage
+---@field Image_3 UImage
+---@field TextBlock_0 UTextBlock
+---@field TextBlock_1 UTextBlock
+---@field TextBlock_2 UTextBlock
+---@field TextBlock_3 UTextBlock
+---@field CanvasPanelListPassagers ULuaArrayHelper
+---@field TeamIdTextList ULuaArrayHelper
+---@field ImageList ULuaArrayHelper

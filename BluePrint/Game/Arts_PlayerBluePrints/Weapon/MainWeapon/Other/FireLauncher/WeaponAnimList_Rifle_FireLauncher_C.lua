@@ -1,0 +1,1 @@
+---@class WeaponAnimList_Rifle_FireLauncher_C:UUAECharacterAnimListComponent

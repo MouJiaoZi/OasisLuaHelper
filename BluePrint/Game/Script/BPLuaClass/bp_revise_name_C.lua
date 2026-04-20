@@ -1,0 +1,4 @@
+---@class bp_revise_name_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_ReviseRole_Name FString

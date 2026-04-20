@@ -1,0 +1,1 @@
+---@class BattleItemHandle_XEM_BP_Shoes_394_C:BattleItemHandle_AvatarBP_C

@@ -1,0 +1,7 @@
+---@class HAS_Result_Share2_UIBP_C:UUAEUserWidget
+---@field UpdateData:fun(IsHistoryData:bool)
+---@field UIHide:fun()
+---@field UIShow:fun()
+---@field HAS_Result_Share1_UIBP HAS_Result_Share1_UIBP_C
+---@field Shareinterface_UIBP Shareinterface_UIBP_C
+---@field LuaObj ALuaClassObj

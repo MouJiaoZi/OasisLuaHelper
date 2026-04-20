@@ -1,0 +1,9 @@
+---@class Variety_PlayerController_FM_C:ABP_STExtraPlayerController_FM_C
+---@field GetLuaModule:fun():FString
+---@field CommandResult:fun(command:int32,retCode:int32)
+---@field IsEnertFighting:fun():bool
+---@field BindEventsInBP:fun()
+---@field UserConstructionScript:fun()
+---@field BPClientCheatCommandResult:fun(InCheatCommandResultInfo:FCheatCommandResultInfo)
+---@field OnPlayerEnterFightDisPatch__DelegateSignature:fun()
+---@field OnPlayerEnterFightDisPatch ULuaMulticastDelegate

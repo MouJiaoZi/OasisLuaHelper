@@ -1,0 +1,29 @@
+---@class HideAndSeekBoothChildActor_C:AActor
+---@field SetSeekerName:fun(Name:FName)
+---@field InitializePointList:fun()
+---@field ClearBooth:fun()
+---@field RemoveKilledHiderBox:fun(PlayerKey:int64)
+---@field AddKilledHiderBox:fun(KilledHiderPlayerKey:int64,HiderName:FName)
+---@field UserConstructionScript:fun()
+---@field Scene11 USceneComponent
+---@field Scene10 USceneComponent
+---@field Scene9 USceneComponent
+---@field Scene8 USceneComponent
+---@field Scene7 USceneComponent
+---@field Scene6 USceneComponent
+---@field Scene5 USceneComponent
+---@field Scene4 USceneComponent
+---@field Scene3 USceneComponent
+---@field Scene2 USceneComponent
+---@field Scene1 USceneComponent
+---@field Scene0 USceneComponent
+---@field PointSceneRoot USceneComponent
+---@field ParticleSystem UParticleSystemComponent
+---@field StaticMesh UStaticMeshComponent
+---@field PointList ULuaArrayHelper
+---@field ChildBoxList ULuaArrayHelper
+---@field TempIndex int32
+---@field OwnedManagerActor HideAndSeekBoothManagerActor_C
+---@field TempBoxActor HideAndSeekBoothChildActorBox_C
+---@field PlayerKeyList ULuaArrayHelper
+---@field RepSeekerName FName

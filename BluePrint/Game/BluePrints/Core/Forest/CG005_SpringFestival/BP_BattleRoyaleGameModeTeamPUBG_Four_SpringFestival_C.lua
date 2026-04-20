@@ -1,0 +1,3 @@
+---@class BP_BattleRoyaleGameModeTeamPUBG_Four_SpringFestival_C:ABP_BattleRoyaleGameModeTeamPUBG_Four_C
+---@field UserConstructionScript:fun()
+---@field AIGroupManager_0 UAIGroupManagerComponent

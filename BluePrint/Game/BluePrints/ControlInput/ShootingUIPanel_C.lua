@@ -1,0 +1,532 @@
+---@class ShootingUIPanel_C:UShootingUIWidget
+---@field OnUseGrenadeByRing:fun(GrenadeType:EGrenadeType,GrenadeID:int32):bool
+---@field OnGrenadeEmptyByRing:fun():bool
+---@field OnUseMeleeByRing:fun(itemID:FItemDefineID):bool
+---@field OnUseFistByRing:fun():bool
+---@field OnUseAndSwitchGrenadeByRing:fun(GrenadeID:int32):bool
+---@field IsCustomUIDataValid:fun(Widget:UWidget,SaveDataSize:FVector2D):bool
+---@field InitFistIcons:fun(FistIconID:int32)
+---@field UpdateGrenadeExplosionTimerInternal:fun(TotalTime:float)
+---@field GetCurrentGrenadeWeaponCoutdownTime:fun():float
+---@field UIMsg_RespawnSetUI:fun()
+---@field On_OnFireBtn_LReleaseBtn_MouseButtonUp_0:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field On_OnFireBtn_ReleaseBtn_MouseButtonUp_0:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field UIMsg_EnterVehicleFinished:fun()
+---@field UIMsg_BackpackOpen:fun()
+---@field SetVehicleWeaponOverrideBrushes:fun(InNormal:FSlateBrush,InLight:FSlateBrush)
+---@field GetCurVehicleWeaponHightLightAndNormalIcon:fun():FSlateBrush,FSlateBrush
+---@field ShowVehicleDriverShooting:fun()
+---@field UIMsg_VehicleShootingCheckShootingState:fun()
+---@field ShowHideUIForReplay:fun(bIsEnableUIRec:bool)
+---@field InitUGCCustomizePanelLayout:fun()
+---@field UIMSG_SetGrenadeCountDownTrue:fun()
+---@field UIMSG_HideCancelGrenadeBtn:fun()
+---@field RecordPlayerOPEvent:fun(OperationEvent:FSyncPersionalOPInfo)
+---@field ReleaseSightZoomButtonAndUnbind:fun(InputPin:ASTExtraPlayerController,Delegate:ULuaDelegate,B:ETouchIndex,Delegate2:ULuaDelegate)
+---@field ReleaseSightZoomButton:fun(self2:ASTExtraPlayerController)
+---@field UIMsg_InvalidateShootingUIPanel:fun()
+---@field SightZoomTouchMove:fun(FingerIndex:ETouchIndex,TouchLoc:FVector)
+---@field OnWeaponShootIntervalModeChange:fun(weapon:ASTExtraShootWeapon)
+---@field HandleProjectileSpawned:fun(NewProjectile:AEliteProjectile)
+---@field ReadSightZoom:fun(controller:ASTExtraPlayerController,FPPComp:UBaseFPPComponent,ShootWeapon:ASTExtraShootWeapon):float,bool
+---@field ShowSightZoomText:fun(Value:float,Alpha:float)
+---@field HideSightZoom:fun()
+---@field ShowSIghtZoom:fun()
+---@field ChangeSightZoom:fun(B:float)
+---@field On_Button_8XBtn_MouseButtonDown_0:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field SetOverrideMeleeIcons:fun(WeaponID:int32)
+---@field UIMsg_ShutdownCloseWeaponSwitch:fun()
+---@field OnRingGrenadeActived:fun()
+---@field UIMsg_UpdateWeaponFuntion:fun()
+---@field HandleProjectileExploded:fun(NewProjectile:AEliteProjectile)
+---@field UIMsg_SetGrenadeCountDownFalse:fun()
+---@field UIMsg_ShowCancelGrenadeThrow:fun()
+---@field ProcessPModeVisible:fun()
+---@field OnUseGrenadeWithoutThrow:fun()
+---@field IsGrenadeType:fun(DefineID:FItemDefineID):bool
+---@field Scope:fun()
+---@field UIMsg_ShootingUIPanelStopFire:fun()
+---@field CheckIsInSprintState:fun()
+---@field PMoveVisible:fun()
+---@field UIMsg_ShowMainUIConcert:fun()
+---@field UIMsg_HideMainUIInConcert:fun()
+---@field NewYearActivity_HideNoneConcertUI:fun()
+---@field UIMsg_StopFade:fun()
+---@field UIMsg_FadeIn:fun()
+---@field AimAutoPeek:fun(InputPin:ASTExtraPlayerCharacter)
+---@field PerformCrouchLogic:fun(CanEnterShovel:bool,CanCrouchEnterShovel:bool)
+---@field SwitchUIByWeaponType:fun(WeaponType:EExtraWeaponUIType)
+---@field HandleWeaponChange:fun(Slot:ESurviveWeaponPropSlot)
+---@field ChangeFireStatusAndUpdateFireBtn:fun(Status:ECurPlayerHandStatus)
+---@field ToDo:fun(SlateVisibility:ESlateVisibility):ESlateVisibility
+---@field Block3DTouch:fun()
+---@field GetGrenadeSkillIndexByDefineID:fun():int32
+---@field GetCountDownByDefineID:fun():int32
+---@field GrenadeThrowIconCallback:fun(NewParam:UObject)
+---@field GrenadeTimerIconCallback:fun(NewParam:UObject)
+---@field SwitchUIBattleToEndDisplay:fun()
+---@field OnHoldFire:fun()
+---@field On_ReleaseScreenBtn:fun(FingerIndex:uint8)
+---@field OnReleaseAngledSightBtn:fun(FingerIndex:int32)
+---@field On_OnGrenadeAim_MouseButtonDown:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field ExitSprint:fun()
+---@field IsTeamDeathMatchGameMode:fun():bool
+---@field SetGrenadeCountDown2Seconds:fun()
+---@field RefreshSwimUI:fun()
+---@field On_OnFireBtn_MouseButtonMove:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent)
+---@field FireBtnRelease:fun(FingerIndex:ETouchIndex,IsRight:bool)
+---@field On_AimFIreBtn_MouseButtonUp_0:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field On_AimFIreBtn_MouseButtonDown_0:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field On_Button_RightSideOfTheBody_MouseMove_0:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field UIMsg_CharacterThrowGrenadeModeChange:fun()
+---@field UpdateGunHoldingControlVisibilityByGun:fun(Manager:UWeaponManagerComponent)
+---@field InitGunControlArray:fun()
+---@field On_OnFireBtn_ReleaseBtn_MouseMove_0:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field UpdateAimVisibilityByGun:fun(Manager:UWeaponManagerComponent)
+---@field InitScopeZoomUI:fun(NewParam:float,NewParam1:ESightType,NewParam2:bool)
+---@field NormalGrenadeFireBtn:fun()
+---@field ChangeGrenadeModeLow:fun()
+---@field ChangeGrenadeModeHigh:fun()
+---@field BleLeanRightPress:fun(findex:int32)
+---@field DoRightSideOftheBody:fun(FingerIndex:int32)
+---@field BleLeanLeftPress:fun(findex:int32)
+---@field DoLeftSideOftheBody:fun(FingerIndex:int32)
+---@field OnTouchMove:fun(NewParam1:ETouchIndex,NewParam:FVector)
+---@field OnReleasePeek:fun(FingerIndex:int32)
+---@field OnHoldOpenShootAim:fun(FingerIndex:int32)
+---@field RightLean:fun(InInt:int32)
+---@field LeftLean:fun(InInt:int32)
+---@field OpenShootAim:fun(InInt:int32,ScopeIn:bool,IgnoreAngledSight:bool,PushButton:bool)
+---@field InvalidateShootingUIPanel:fun()
+---@field ToogleThrowMode:fun(GrenadeThrowMode:EThrowGrenadeMode)
+---@field UIMsg_FPPModeChange:fun()
+---@field UIMsg_ScopeChanged:fun()
+---@field UIMsg_PersonPerspectiveChanged:fun()
+---@field GetUpdateFireBtnWidget:fun(IsRightHand:bool):UImage,UImage
+---@field On_CancelReleaseFireBtn_MouseButtonDown_0:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field UIMsg_ResetCancelFireBtn:fun()
+---@field UIMsg_ReloadEnd:fun()
+---@field CheckAutoScoping:fun():bool
+---@field UIMsg_PrefireEnd:fun()
+---@field ReleaseFireScopeOut:fun()
+---@field ResetCancelFireBtn:fun()
+---@field ShowCancelReleaseFireBtn:fun(IsRightSidePress:bool)
+---@field IsNeedReleaseFire:fun(ShootWeapon:ASTExtraShootWeapon):bool,EReleaseToFireType
+---@field UpdateCancelShootBtn:fun(Status:ECurPlayerHandStatus)
+---@field UIMSG_CheckX8Slider:fun()
+---@field DEBUGFPS:fun()
+---@field SetGrenadeCountDownTrue:fun()
+---@field UIMSG_NormalAimBtn:fun()
+---@field UIMSG_HightLightAimBtn:fun()
+---@field On_ShootAimBtn2_MouseButtonDown_0:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field UpdateGunImage:fun()
+---@field OnRightSideOfTheBody:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field OnLeftSideOfTheBody:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field StartVaultCastUIMsg:fun()
+---@field SetFireBtnVisible:fun(NewParam:ESlateVisibility)
+---@field Do3DTouch:fun(control:BP_STExtraPlayerController_C)
+---@field FireWeapon:fun(InputPin:ETouchIndex,force:float)
+---@field SetRightFirebtnAndGrenadeBtnCircularHitTestRadius:fun(Scale:float)
+---@field UIMsg_HideLeanIcon:fun()
+---@field UIMsg_ShowLeanIcon:fun()
+---@field SwimUICheck:fun()
+---@field EventDriveOutWater:fun()
+---@field UIMsg_EventDriveIntoWater:fun()
+---@field RefreshPostolIcon:fun(Image:UObject)
+---@field RefreshMeleeIcon:fun(Image:UObject)
+---@field OnDisablePeek:fun()
+---@field OnPeekRight:fun()
+---@field OnPeekLeft:fun()
+---@field CombineKeyDownLogic:fun()
+---@field CheckIsKeyDown:fun(KeyCode:FKey):bool
+---@field VehicleShootingCheckShootingState:fun()
+---@field HandlePlayerEnterVehicle:fun(IsEnter:bool)
+---@field ShowWeaponEquipAttachmentAnim:fun(Slot:ESurviveWeaponPropSlot,DefineID:FItemDefineID,IsEquip:bool)
+---@field ShowUIByOperation:fun(Operation:EOperation)
+---@field UIMsg_BackpackOpen_StopFire:fun()
+---@field ShouldThrowGrenadeFunc:fun(SkillEntryEvent:EUTSkillEntry)
+---@field HideRefreshUI:fun()
+---@field UpdateWeaponImageByDefineID:fun(slot:ESurviveWeaponPropSlot,defineID:FItemDefineID)
+---@field GrenadeThrow:fun()
+---@field GrenadePrepareToThrow:fun(NewParam:ETouchIndex)
+---@field GetBP_PlayerPawn:fun():BP_PlayerPawn_C
+---@field Reconnect_ResetUIByPlayerControllerState:fun()
+---@field UIMsg_OnSprintStateInterrupt:fun()
+---@field GetGrenadeTimerIconByType:fun()
+---@field HandleReloadFinish:fun()
+---@field StartReloadAnim:fun()
+---@field UIMsg_PlayerInfo_UpdatePlayerBreathAmmount:fun()
+---@field On_OnFireBtn_Lside_MouseButtonDown_0:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field Swim_OutWaterShowUI:fun()
+---@field Swim_EnterWaterHideUI:fun()
+---@field UpdateItemUsingProgress:fun()
+---@field UpdateWeaponBulletCount:fun()
+---@field ResetUIOnPlane:fun()
+---@field CanPlayerAutoSprintOrSwim:fun():bool
+---@field UIChangeWhenPlayerOnPlane:fun()
+---@field HandleCurWeaponFireModeChange:fun()
+---@field UpdateWeaponImage:fun()
+---@field UIMsg_ActiveSprint:fun()
+---@field SimSprint:fun()
+---@field ShowAutoSprintUI:fun()
+---@field UpdateWeaponBulletOnShoot:fun()
+---@field UpdateTopRightWeaponBulletWhenUsing:fun(Weapon:ASTExtraWeapon)
+---@field UpdateTopRightWeaponBulletWhenEquipAndUnequip:fun(WeaponSlot:ESurviveWeaponPropSlot)
+---@field HandleTopRightWeaponSwitch:fun(TopRightWeaponSlot:ESurviveWeaponPropSlot)
+---@field SimulateStopSprint:fun()
+---@field HideAutoSprintUI:fun()
+---@field NormalFireBtnByStatus:fun(isRight:bool)
+---@field GetCurMeleeHightLightAndNormalIcon:fun():FSlateBrush,FSlateBrush
+---@field HightLightFireBtnByStatus:fun(IsRightHand:bool)
+---@field HightLightCurUseWeapon:fun()
+---@field UpdateTopRightWeapnIcon:fun(SlotName:ESurviveWeaponPropSlot,ImagePath:FString)
+---@field SetGrenadeCountDown:fun(IsBeginThrow:bool,ExplicitCountdownDuration:float)
+---@field DealSwimForce:fun(upoffset:float,player:AActor):bool
+---@field HandleThrowOutGrenade:fun()
+---@field HandleReadyThrowOutGrenade:fun(NewParam:ETouchIndex)
+---@field GetGrenadeIconByType:fun()
+---@field OnUseGrenadeChangeUI:fun()
+---@field SetRenderTransformIfValid:fun(Position:FVector2D,GridPanel:UGridPanel)
+---@field ApplyCustomUIPosition:fun()
+---@field RightBtnStatus:fun(Index:int32)
+---@field UpdateStandCrouchProneAndSprint:fun(NewParam:ESTEPoseState)
+---@field EnableMovement:fun()
+---@field StopMovementIfProne:fun()
+---@field FireInteruptedIfProne:fun()
+---@field AimInterupted:fun()
+---@field SprintInterupted:fun()
+---@field UpdateBulletLeftCountText:fun(Text:FText)
+---@field UpdateGunBulletCountText:fun(Text:FText)
+---@field UpdateReloadCountDownText:fun(Text:FText)
+---@field SwitchAimMode:fun()
+---@field UpdateReloadCD:fun(NewParam:float)
+---@field UpdateData:fun()
+---@field ShowBackpackIconSplash:fun(Show:bool)
+---@field UpdateInstantPickUpList:fun()
+---@field OnReleaseFireBtn:fun()
+---@field HaveBullet:fun():bool
+---@field OnPressFireBtn:fun(FingerIndex:ETouchIndex,force:float,FireType:ETouchFireType,isRightSide:bool)
+---@field On_OnFireBtn_MouseButtonDown_0:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field On_BackPackBtn_MouseButtonDown_0:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent)
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field ReceivedInitWidget:fun()
+---@field SetCustomizeUIInfo:fun(SaveGame:BP_SAVEGAME_UIElemLayout_C,FireMode:int32)
+---@field SetSettingControlUI:fun()
+---@field ResetUIStateAfterRespawn:fun()
+---@field RespawnInitWidget:fun()
+---@field SetMeleeOverrideBrushes:fun(InNormal:FSlateBrush,InLight:FSlateBrush)
+---@field Tips1_anima UWidgetAnimation
+---@field Chat_Bar UWidgetAnimation
+---@field DX_SwimDown_Unlock UWidgetAnimation
+---@field DX_SwimDown_Locked UWidgetAnimation
+---@field DX_SwimUP_Unlock UWidgetAnimation
+---@field DX_SwimUP_Locked UWidgetAnimation
+---@field ReloadCountDown UWidgetAnimation
+---@field AimBtn_GunControl UCanvasPanel
+---@field AimFire_GunControl UCanvasPanel
+---@field AimFire_SwimControl UCanvasPanel
+---@field AimGrid_SwimControl UCanvasPanel
+---@field AttackBtnBorder_Lside UBorder
+---@field AttackModeSwitcher_Rside UWidgetSwitcher
+---@field Border_AimBtn UBorder
+---@field Border_CancelThrowGrenade UBorder
+---@field Border_CrouchBtn UBorder
+---@field Border_FPP_TPP UBorder
+---@field Border_JumpBtn UBorder
+---@field Border_Lean_Lside UBorder
+---@field Border_Lean_Rside UBorder
+---@field Border_Prone UBorder
+---@field Border_RedSight UBorder
+---@field Border_RightFireSide UBorder
+---@field Border_Swim UBorder
+---@field Border_SwitchThrow UBorder
+---@field Border_Throw UBorder
+---@field Border_X8Zoom UBorder
+---@field Button_8XBtn UButton
+---@field Button_GrenadeAim UButton
+---@field Button_HIdeX8Panel UButton
+---@field Button_LeftSideOfTheBody UButton
+---@field Button_RightSideOfTheBody UButton
+---@field Button_SwitchPMode UButton
+---@field Button_Throw_Mode UButton
+---@field Button_ThrowPlus UButton
+---@field CancelFireBtn_Rside UButton
+---@field CancelGrenadeBtn CancelGrenadeBtn_C
+---@field CancelReleaseFireBtn UButton
+---@field Canvas_FPPModeControl UCanvasPanel
+---@field CanvasPanel_5 UCanvasPanel
+---@field CanvasPanel_16 UCanvasPanel
+---@field CanvasPanel_22 UCanvasPanel
+---@field CanvasPanel_BtnGroup UCanvasPanel
+---@field CanvasPanel_CustomUGCSlot UCanvasPanel
+---@field CanvasPanel_PMode UCanvasPanel
+---@field CanvasPanel_ShowX8Panel UCanvasPanel
+---@field CanvasPanel_ShowZoomFactor UCanvasPanel
+---@field CanvasPanel_ThreeStageSliderSlot UCanvasPanel
+---@field Carrier_WeaponIconSlot UCanvasPanel
+---@field CDMask UCanvasPanel
+---@field ChatScrollBox UScrollBox
+---@field ConsumableItemList ConsumableItemList_C
+---@field ConsumeList_SwimControl UCanvasPanel
+---@field ConsumeListPanel UCanvasPanel
+---@field CustomAimFire CustomizeCanvasPanel_BP_C
+---@field CustomCancelThrow CustomizeCanvasPanel_BP_C
+---@field CustomCrouch CustomizeCanvasPanel_BP_C
+---@field CustomFireBtnL CustomizeCanvasPanel_BP_C
+---@field CustomFireBtnR CustomizeCanvasPanel_BP_C
+---@field Customize_ThrowPlus CustomizeCanvasPanel_BP_C
+---@field Customize_ThrowRing CustomizeCanvasPanel_BP_C
+---@field CustomJumpBtn CustomizeCanvasPanel_BP_C
+---@field CustomLeanL CustomizeCanvasPanel_BP_C
+---@field CustomLeanR CustomizeCanvasPanel_BP_C
+---@field CustomProne CustomizeCanvasPanel_BP_C
+---@field CustomReload CustomizeCanvasPanel_BP_C
+---@field CustomShootAim CustomizeCanvasPanel_BP_C
+---@field CustomShootRed CustomizeCanvasPanel_BP_C
+---@field CustomSpecialReload UCanvasPanel
+---@field CustomSprint CustomizeCanvasPanel_BP_C
+---@field CustomSwitchFPP CustomizeCanvasPanel_BP_C
+---@field CustomSwitchThrow CustomizeCanvasPanel_BP_C
+---@field CustomX8Zoom CustomizeCanvasPanel_BP_C
+---@field drawcall_horizonbox UHorizontalBox
+---@field drawcalls UTextBlock
+---@field Fade Ingame_Fade_UIBP_C
+---@field FirBtnL_SwimControl UCanvasPanel
+---@field FirBtnR_SwimControl UCanvasPanel
+---@field FireBtnModelContainerR UCanvasPanel
+---@field fps UTextBlock
+---@field fps_horizonbox UHorizontalBox
+---@field GrenadeAimBtn_Rside GrenadeAimBtn_C
+---@field GrenadeBG_LSide UImage
+---@field GrenadeBtn_LSide UCanvasPanel
+---@field GrenadeBtnBG_Rside UImage
+---@field GrenadeBtnImage_Rside UImage
+---@field GrenadeImage_LSide UImage
+---@field GrenadeListPanel CustomizeCanvasPanel_BP_C
+---@field GrenadeListSocket UCustomSocketPanel
+---@field GridPanel_GrenadeList UGridPanel
+---@field GridPanel_GrenadeRing UGridPanel
+---@field GridPanel_ReloadBtn UCanvasPanel
+---@field GridPnael_SprintBtn UBorder
+---@field GunHoldingControl_Lean_Lside UCanvasPanel
+---@field GunHoldingControl_Lean_Rside UCanvasPanel
+---@field Image_AimTrigger UImage
+---@field Image_CDMask UImage
+---@field Image_ClickLeftSideOfTheBody UImage
+---@field Image_ClickRightSideOfTheBody UImage
+---@field Image_CroucnBG UImage
+---@field Image_GrenadeIcon UImage
+---@field Image_JumpIcon UImage
+---@field Image_OneButtonOpenFireBG UImage
+---@field Image_ProneBG UImage
+---@field Image_Selected_Right_Crouch UImage
+---@field Image_Selected_Right_Prone UImage
+---@field Image_SwimDown UImage
+---@field Image_SwimUp UImage
+---@field Image_ThrowingCD UImage
+---@field Ingame_ThreeStageSlider_UIBP Ingame_ThreeStageSlider_UIBP_C
+---@field InvalidationBox_2 UInvalidationBox
+---@field JumpBtn UButton
+---@field JumpBtnBG UImage
+---@field Lean_Lside_ProneCrouchControl UCanvasPanel
+---@field Lean_Rside_ProneCrouchControl UCanvasPanel
+---@field Lean_SettingControl_Lside UCanvasPanel
+---@field Lean_SettingControl_Rside UCanvasPanel
+---@field LeftGrenade_Btn UButton
+---@field LungIcon UCanvasPanel
+---@field mem UTextBlock
+---@field mem_horizonbox UHorizontalBox
+---@field MultiLayer_AimCanvas UCanvasPanel
+---@field MultiLayer_AimFire UCanvasPanel
+---@field MultiLayer_CancelGrenadeCanvas UCanvasPanel
+---@field MultiLayer_ConsumableCanvas UCanvasPanel
+---@field MultiLayer_CrouchCanvas UCanvasPanel
+---@field MultiLayer_GrenadeCanvas UCanvasPanel
+---@field MultiLayer_JumpCanvas UCanvasPanel
+---@field MultiLayer_LeanCanvas_Lside UCanvasPanel
+---@field MultiLayer_LeanCanvas_Rside UCanvasPanel
+---@field MultiLayer_LeftFireCanvas UCanvasPanel
+---@field MultiLayer_LeftWeaponSlot UCanvasPanel
+---@field MultiLayer_LungCanvas UCanvasPanel
+---@field MultiLayer_Pistol UCanvasPanel
+---@field MultiLayer_ProneCanvas UCanvasPanel
+---@field MultiLayer_ReloadCanvas UCanvasPanel
+---@field MultiLayer_RightFireCanvas UCanvasPanel
+---@field MultiLayer_RightWeaponSlot UCanvasPanel
+---@field MultiLayer_RingThrowCanvas UCanvasPanel
+---@field MultiLayer_SiwmUpCanvas UCanvasPanel
+---@field MultiLayer_SprintPanel UCanvasPanel
+---@field MultiLayer_SwimDownCanvs UCanvasPanel
+---@field MultiLayer_SwitchThrowCanvas UCanvasPanel
+---@field NearDeathControl_Lean_Lside UCanvasPanel
+---@field NearDeathControl_Lean_Rside UCanvasPanel
+---@field NewbieGuideCanvas UCanvasPanel
+---@field NewTrainingSocket UCustomSocketPanel
+---@field OneButtonOpenFire UBorder
+---@field OnFireBtn_LReleaseBtn UButton
+---@field OnFireBtn_LsideImage UImage
+---@field OnFireBtn_ReleaseBtn UButton
+---@field OnFireBtn_Rside UImage
+---@field OnFireBtnBG_Lside UImage
+---@field OnFireBtnBG_Rside UImage
+---@field OnFireBtnPanel_Lside UCanvasPanel
+---@field OnThrowGrenadePanel_Rside UCanvasPanel
+---@field PistolMode PistolMode_C
+---@field PMode_ScopeControl UCanvasPanel
+---@field ProgressBar_Lung UProgressBar
+---@field RedSight_UIBP RedSight_UIBP_C
+---@field ReleaseFireSwitcher UWidgetSwitcher
+---@field ReleaseFireSwitcher_Lside UWidgetSwitcher
+---@field ReloadBtnAndBulletBorder UBorder
+---@field ReloadBtnBGImage UImage
+---@field ReloadButton UButton
+---@field ReloadCDBar UImage
+---@field ReloadCountDownTextBlock UTextBlock
+---@field RightCrouch UButton
+---@field RightProne UButton
+---@field RingThrowButUISocket UCustomSocketPanel
+---@field SettingConfig_AimFire UCanvasPanel
+---@field SettingConfig_FireBtn_L UCanvasPanel
+---@field ShootAimBtn2 UButton
+---@field Slider_X8Zoom USlider
+---@field Sprint UButton
+---@field SprintBtnBG UImage
+---@field SprintImg UImage
+---@field Swim UCanvasPanel
+---@field SwimControl_Lean_Lside UCanvasPanel
+---@field SwimControl_Lean_Rside UCanvasPanel
+---@field SwimControlThrowGrid UCanvasPanel
+---@field SwimDown UButton
+---@field SwimUp UButton
+---@field SwitchWeaponSlot_Mode2 SwitchWeaponSlot_Mode2_C
+---@field SwitchWeaponSlot_Mode2_C_0 SwitchWeaponSlot_Mode2_C
+---@field TextBlock_7 UTextBlock
+---@field TextBlock_8 UTextBlock
+---@field TextBlock_12 UTextBlock
+---@field TextBlock_17 UTextBlock
+---@field TextBlock_PmodeName UTextBlock
+---@field TextBlock_ThrowingTime UTextBlock
+---@field TextBlock_ThrowTextTips UTextBlock
+---@field TextBlock_ZoomFactor UTextBlock
+---@field Throw_Mode_Image UImage
+---@field ThrowTimeInfo UCanvasPanel
+---@field TipsLeftFire_BareHandControl UCanvasPanel
+---@field TipsLeftFire_SwimControl UCanvasPanel
+---@field TipsReload_BareHandControl UCanvasPanel
+---@field TipsReload_SwimControl UCanvasPanel
+---@field TipsRightFire_BareHandControl UCanvasPanel
+---@field TipsRightFire_SwimControl UCanvasPanel
+---@field triangles UTextBlock
+---@field triangles_horizonbox UHorizontalBox
+---@field WidgetSwitcher_FirebtnLSide UWidgetSwitcher
+---@field WidgetSwitcher_Throw UWidgetSwitcher
+---@field PoseStateOffset int32
+---@field CrouchImg FSlateBrush
+---@field StandImg FSlateBrush
+---@field ProneImg FSlateBrush
+---@field ReloadingCD_0 float
+---@field BackpackImgSplashBrush FSlateBrush
+---@field BackpackImgNormalBrush FSlateBrush
+---@field PoseStateBackup ESTEPoseState
+---@field PickUpPanelVisibility ESlateVisibility
+---@field CollapseBtnVisibility ESlateVisibility
+---@field ExpandBtnVisibility ESlateVisibility
+---@field NormalAimMode bool
+---@field SprintNormalBrush FSlateBrush
+---@field SprintLightBrush FSlateBrush
+---@field bPlayerHasWeaponOnHand bool
+---@field IsFirePressed bool
+---@field BtnSelectedStatusGroup ULuaArrayHelper
+---@field BtnNormalStatusGroup ULuaArrayHelper
+---@field ThrowMode EThrowGrenadeMode
+---@field HighThrowBrush FSlateBrush
+---@field LowThrowBrush FSlateBrush
+---@field FireBtnStatus ECurPlayerHandStatus
+---@field Fire_NormalIcon FSlateBrush
+---@field Fire_HighLightIcon FSlateBrush
+---@field Fist_NormalIcon FSlateBrush
+---@field Fist_HighLightIcon FSlateBrush
+---@field Melee_NormalIcon FSlateBrush
+---@field Melee_HighLightIcon FSlateBrush
+---@field Jump_NormalIcon FSlateBrush
+---@field Jump_HighLightIcon FSlateBrush
+---@field FireBG_NormalIcon FSlateBrush
+---@field FireBG_HighLight FSlateBrush
+---@field unswing bool
+---@field GrenadeCountDownDict ULuaMapHelper
+---@field GrenadeCountDownTimer FTimerHandle
+---@field GrenadeElapsedSeconds float
+---@field BP_STEPlayerController BP_STExtraPlayerController_C
+---@field WeaponManager UWeaponManagerComponent
+---@field CurUsingWeaponSlot ESurviveWeaponPropSlot
+---@field InitItemCDTime float
+---@field ItemCDCurTime float
+---@field ShowItemCD bool
+---@field EnterWaterHideUI ULuaArrayHelper
+---@field CurUsingShootWeapon ASTExtraShootWeapon
+---@field Settings_LeftHandFire int32
+---@field SwimUp_Press FSlateBrush
+---@field SwimUp_Releass FSlateBrush
+---@field SwimDown_Releass FSlateBrush
+---@field SwimDown_Press FSlateBrush
+---@field LastGrenadeThrowTime float
+---@field CurGrenadeThrowTime float
+---@field MultiLayerArray ULuaArrayHelper
+---@field IsPreHoldGrenade bool
+---@field IsRunning bool
+---@field bIsShowPeek bool
+---@field IsInVehicleStatus bool
+---@field Fire3DTouchWatchFrame int32
+---@field SwimCheckTime float
+---@field 3DTouchFingerIndex ETouchIndex
+---@field bIsUseClickPeek bool
+---@field BareHandHideTipsArray ULuaArrayHelper
+---@field AimNormalBrush FSlateBrush
+---@field AimHighLightBrush FSlateBrush
+---@field DebugShowFPS bool
+---@field AutoCollapsedScoping bool
+---@field ShotGunReleaseFireType int32
+---@field SniperReleaseFireType int32
+---@field ReleaseFireWeaponCache ASTExtraShootWeapon
+---@field UsingX8Scope bool
+---@field ScopeAfterPrefire bool
+---@field ScopeAfterReload bool
+---@field AimHoldComp HoldComponent_C
+---@field PressPeekLeft bool
+---@field GunHoldingControlUIArray ULuaArrayHelper
+---@field FireFingerIndex_Right ETouchIndex
+---@field FireFingerIndex_Left ETouchIndex
+---@field FireBtnMouseEventRecord FPointerEvent
+---@field AimAndFireFireModeControl bool
+---@field AimAndFireGameModeControl bool
+---@field CrouchImg_HighLight FSlateBrush
+---@field CrouchBtnPressTime float
+---@field ProneImg_HighLight FSlateBrush
+---@field TempUIElemType BP_UIENUM_UIElemTypes
+---@field IsMatchGameMode bool
+---@field IsAimFiring bool
+---@field FireFingerIndex_AimFire ETouchIndex
+---@field TeamDeathMatchResultBlock3DTouch bool
+---@field CancelReleaseFireBtnFinger ETouchIndex
+---@field CurGrenadeDefineID FItemDefineID
+---@field RotateViewWithPeekSwitch bool
+---@field RotateViewWithSniperSwitch bool
+---@field CurWeaponUIType EExtraWeaponUIType
+---@field CurrentThrowingGrenadeID FItemDefineID
+---@field GrenadeTypeCache ULuaMapHelper
+---@field ScopeZoomTextMap ULuaMapHelper
+---@field CurrentEliteProjectile AEliteProjectile
+---@field SlideTouchLoc FVector
+---@field HasPerformCrouchLogic bool
+---@field LastSightZoomIndex float
+---@field SightZoomMemoryIndex float
+---@field SightZoomScale float
+---@field ButtonDown EPersonalOperateType
+---@field GrenadeIsFishingState bool
+---@field STExtraController ASTExtraPlayerController
+---@field VehicleWeaponNormalIconOverride FSlateBrush
+---@field VehicleWeaponLightIconOverride FSlateBrush
+---@field CurWeaponID int32
+---@field CurGrenadeTimerIconPath FString
+---@field CurGrenadeWeaponThrowConfig FThrowableConfig
+---@field CurGrenadeIconPath FString

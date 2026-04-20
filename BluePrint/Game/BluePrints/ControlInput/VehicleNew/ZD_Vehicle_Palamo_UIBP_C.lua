@@ -1,0 +1,33 @@
+---@class ZD_Vehicle_Palamo_UIBP_C:UUAEUserWidget
+---@field ShowExtraUI:fun(bDriver:bool):bool
+---@field SetVehicleControlParent:fun(VehicleControl:UUAEUserWidget):bool
+---@field IsAsyncUIValid:fun():bool
+---@field IsKeepUIWhenRemove:fun():bool
+---@field SetCustomizeLayout:fun()
+---@field GetVehicleUser:fun():UVehicleUserComponent
+---@field Construct:fun()
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field CanvasPanel_AltitudeBar UCanvasPanel
+---@field CanvasPanel_Gradienter UCanvasPanel
+---@field CustomizeCanvasPanel_V_229 CustomizeCanvasPanel_BP_C
+---@field CustomizeCanvasPanel_V_230 CustomizeCanvasPanel_BP_C
+---@field CustomizeCanvasPanel_V_231 CustomizeCanvasPanel_BP_C
+---@field CustomizeCanvasPanel_V_232 CustomizeCanvasPanel_BP_C
+---@field CustomizeCanvasPanel_V_233 CustomizeCanvasPanel_BP_C
+---@field CustomizeCanvasPanel_V_234 CustomizeCanvasPanel_BP_C
+---@field CustomizeCanvasPanel_V_236 CustomizeCanvasPanel_BP_C
+---@field CustomizeCanvasPanel_V_237 CustomizeCanvasPanel_BP_C
+---@field DriveDown UNewButton
+---@field DriveLeft UNewButton
+---@field DriveRight UNewButton
+---@field DriveUp UNewButton
+---@field HeightAndSpeedHorizontalBox UHorizontalBox
+---@field NewButton_Down UNewButton
+---@field NewButton_Jump UNewButton
+---@field NewButton_Up UNewButton
+---@field ProgressBar_Bar UProgressBar
+---@field StateSwitcher UWidgetSwitcher
+---@field TextBlock_bicycle63 UTextBlock
+---@field TextBlock_bicycle64 UTextBlock
+---@field TextBlock_CurrentHeight UTextBlock
+---@field VehicleCustomizePanelList ULuaArrayHelper

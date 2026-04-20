@@ -1,0 +1,1 @@
+---@class LittleYellowDuck_UIBP_C:UMapUIMarkBaseWidget

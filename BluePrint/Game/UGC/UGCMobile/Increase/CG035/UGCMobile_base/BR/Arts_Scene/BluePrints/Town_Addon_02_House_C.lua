@@ -1,0 +1,3 @@
+---@class Town_Addon_02_House_C:BP_UGCMobileHouseBase_C
+---@field UserConstructionScript:fun()
+---@field StaticMesh UStaticMeshComponent

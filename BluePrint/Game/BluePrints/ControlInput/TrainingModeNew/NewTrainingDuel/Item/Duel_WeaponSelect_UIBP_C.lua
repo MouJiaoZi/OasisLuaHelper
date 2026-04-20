@@ -1,0 +1,20 @@
+---@class Duel_WeaponSelect_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field InitIconAndText:fun()
+---@field Construct:fun()
+---@field Button_Close UButton
+---@field Button_Duel UNewButton
+---@field CanvasPanel_ordinary UCanvasPanel
+---@field CanvasPanel_random UCanvasPanel
+---@field CanvasPanel_TypeSelect UCanvasPanel
+---@field Duel_WeaponSelectItem_1 Duel_WeaponSelectItem_UIBP_C
+---@field Duel_WeaponSelectItem_2 Duel_WeaponSelectItem_UIBP_C
+---@field Duel_WeaponSelectItem_3 Duel_WeaponSelectItem_UIBP_C
+---@field Duel_WeaponSelectItem_4 Duel_WeaponSelectItem_UIBP_C
+---@field NewButton_ordinary UNewButton
+---@field NewButton_random UNewButton
+---@field NewTraining_Settlement NewTraining_Settlement_UIBP_C
+---@field TextBlock_Tips UTextBlock
+---@field WidgetSwitcher_ordinary UWidgetSwitcher
+---@field WidgetSwitcher_random UWidgetSwitcher
+---@field ResultAk UAkAudioEvent

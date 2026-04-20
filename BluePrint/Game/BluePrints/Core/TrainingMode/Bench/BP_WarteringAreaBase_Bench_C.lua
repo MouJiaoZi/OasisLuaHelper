@@ -1,0 +1,11 @@
+---@class BP_WarteringAreaBase_Bench_C:ABP_WarteringAreaBase_C
+---@field UserConstructionScript:fun()
+---@field ServerDoWaterLogic:fun(PlayerController:APlayerController,ExMsg:FString)
+---@field Seat2 UStaticMeshComponent
+---@field Seat1 UStaticMeshComponent
+---@field Box UBoxComponent
+---@field VoiceChannelGrouping_0 UVoiceChannelGroupingComponent
+---@field Camera UCameraComponent
+---@field STExtraSpringArm USTExtraSpringArmComponent
+---@field IsPlayingAnim bool
+---@field Counter int32

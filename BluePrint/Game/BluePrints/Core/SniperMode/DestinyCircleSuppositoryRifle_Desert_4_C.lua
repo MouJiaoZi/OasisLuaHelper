@@ -1,0 +1,1 @@
+---@class DestinyCircleSuppositoryRifle_Desert_4_C:ADestinyCircleSuppositoryRifle_4_C

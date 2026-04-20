@@ -1,0 +1,22 @@
+---@class AimAndFireComponent_C:UActorComponent
+---@field GetPawn:fun():BP_PlayerPawn_C
+---@field ClearPressedTimes:fun()
+---@field DelayPress_WeaponVersion:fun()
+---@field DelayPress:fun(State:EPawnState)
+---@field MultiPress:fun(FingerIndex:ETouchIndex):bool
+---@field IsPressed:fun():bool
+---@field Release:fun(FingerIndex:ETouchIndex,releaseFinger:bool)
+---@field Press:fun(FingerIndex:ETouchIndex):bool
+---@field HoldFire__DelegateSignature:fun()
+---@field OpenFire__DelegateSignature:fun(NewParam:FGeometry,NewParam1:FPointerEvent)
+---@field ScopeOut__DelegateSignature:fun(FingerIndex:int32,ScopeIn:bool,IgnoreAngledSight:bool,PushButton:bool)
+---@field ScopeIn__DelegateSignature:fun(FingerIndex:int32,ScopeIn:bool,IgnoreAngledSight:bool,PushButton:bool)
+---@field Pawn BP_PlayerPawn_C
+---@field ScopeIn ULuaMulticastDelegate
+---@field ScopeOut ULuaMulticastDelegate
+---@field OpenFire ULuaMulticastDelegate
+---@field HoldFire ULuaMulticastDelegate
+---@field FingerIndex ETouchIndex
+---@field PressedTimes int32
+---@field FireDelay float
+---@field PreADS bool

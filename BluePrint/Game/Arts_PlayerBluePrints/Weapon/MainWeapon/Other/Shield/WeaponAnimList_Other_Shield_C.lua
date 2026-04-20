@@ -1,0 +1,1 @@
+---@class WeaponAnimList_Other_Shield_C:UUAECharacterAnimListComponent

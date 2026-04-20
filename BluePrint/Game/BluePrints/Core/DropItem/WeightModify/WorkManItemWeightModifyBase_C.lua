@@ -1,0 +1,8 @@
+---@class WorkManItemWeightModifyBase_C:UDropItemWeightModifyObjectBase
+---@field SavePlayerWorkConfig:fun(Key:int64,WorkString:FString)
+---@field CheckPlayerWorkCanDrop:fun(WorkModify:int32,ItemID:int32):bool
+---@field ExecuteModifyWeight:fun(StrategyContext:FDropItemStrategyContext,WeightModifyContext:FDropItemWeightModifyContext,InWeight:int32):int32
+---@field CanModifyWeight:fun(StrategyContext:FDropItemStrategyContext,WeightModifyContext:FDropItemWeightModifyContext,InWeight:int32):bool
+---@field WorkIDs ULuaArrayHelper
+---@field CachedPlayerMap ULuaMapHelper
+---@field WorkManConfigItem ULuaMapHelper

@@ -1,0 +1,4 @@
+---@class ShinyCard_CDXX_Item_UIBP_C:UUAEUserWidget
+---@field PreConstruct:fun(IsDesignTime:bool)
+---@field DX_Loop UWidgetAnimation
+---@field MaskBox_14 UMaskBox

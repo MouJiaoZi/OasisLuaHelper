@@ -1,0 +1,113 @@
+---@class WatchGame_PlayerInfo_UIBP_C:UUAEUserWidget
+---@field IsCustomUIDataValid:fun(Widget:UWidget,SaveDataSize:FVector2D):bool
+---@field SetWeaponIcon:fun(WeaponObj:ASTExtraWeapon,WeaponIcon:UImage)
+---@field ImageLoaded:fun(obj:UObject)
+---@field ShowHideSignalBar:fun(bIsShow:bool)
+---@field ShowHideNoUseInfoForReplay:fun(bIsShow:bool)
+---@field InitTempareture:fun()
+---@field OnUpdateTemp:fun(currentTP:float,ratioTP:float)
+---@field ShowColdModeUI:fun()
+---@field GrenadeThrowIconCallback:fun(NewParam:UObject)
+---@field GetPlayerState:fun():APlayerState
+---@field SetWatchType:fun(IsFriend:bool,IsEnemy:bool)
+---@field UpdateHP:fun()
+---@field ShowImageIcon:fun(TargetImage:UImage)
+---@field FlipWeaponAndGrenadeImageIcon:fun()
+---@field SetInfoArmor:fun()
+---@field SetImgByIcon:fun(TargetImage:UImage,NewParam:FString)
+---@field SetInfoWeapon:fun()
+---@field PredictStayOverLogic:fun()
+---@field SetPreditTimerFunc:fun(PredictValue:float)
+---@field UIMsg_PlayerInfo_SpectatorChangeUpdateEnergy:fun()
+---@field HidePredictNextFrame:fun()
+---@field GetPlayerHealth:fun():float
+---@field UIMsg_ForceUpdate_Health:fun()
+---@field UpdatePlayerBuff:fun(Energy:float)
+---@field ClearHPUI:fun()
+---@field PlayerInfo_UpdateBreath:fun(Breath:float,Ratio:float,Who:ACharacter,HealthStatus:int32)
+---@field UIMsg_PlayerInfo_UpdatePredictHealth:fun()
+---@field PlayerInfo_UpdateEnergy:fun()
+---@field PlayerInfo_UpdateHealth:fun()
+---@field OnCanRescueOther:fun(CanRescueWho:ACharacter,Owner:ACharacter,IsBecomeCan:bool)
+---@field OnUpdateBreath:fun(Breath:float,Ratio:float,Who:ACharacter,HealthStatus:int32)
+---@field OnUpdateHP:fun(CurrentHP:float,RatioHP:float)
+---@field OnPlayerNameChange:fun(PlayerName:FString)
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field Destruct:fun()
+---@field ReceivedInitWidget:fun()
+---@field SetSettingControlUI:fun()
+---@field SetCustomizeUIInfo:fun(SaveGame:BP_SAVEGAME_UIElemLayout_C,FireMode:int32)
+---@field EnergyChangeAnim UWidgetAnimation
+---@field Button_Down UButton
+---@field Button_FreeCam UButton
+---@field Button_UP UButton
+---@field CanvasPanel_ExitPatrol UCanvasPanel
+---@field CanvasPanel_FreeCam UCanvasPanel
+---@field CanvasPanel_LOGO UCanvasPanel
+---@field CanvasPanel_ModeName UCanvasPanel
+---@field CanvasPanel_Pose UCanvasPanel
+---@field CanvasPanel_Report UCanvasPanel
+---@field CanvasPanel_Tishi UCanvasPanel
+---@field CanvasPanel_UPDOWN UCanvasPanel
+---@field CanvasPanel_VideoInspection UCanvasPanel
+---@field CanvasPanel_Weapon UCanvasPanel
+---@field GridPanel_Help UGridPanel
+---@field GridPanel_Power UGridPanel
+---@field GridPanel_Self_Living UGridPanel
+---@field HorizontalBox_Buff UHorizontalBox
+---@field Image_FreeLook UImage
+---@field Image_LockLook UImage
+---@field Image_ThrowIcon UImage
+---@field Image_WeaponIcon UImage
+---@field Ingame_signalBar_UIBP Ingame_signalBar_UIBP_C
+---@field NewButton_ExitPatrol UNewButton
+---@field NewButton_Report UNewButton
+---@field ProgressBar_Addition UProgressBar
+---@field ProgressBar_Power1 UProgressBar
+---@field ProgressBar_Power2 UProgressBar
+---@field ProgressBar_Power3 UProgressBar
+---@field ProgressBar_Power4 UProgressBar
+---@field ScaleBox_Thermometer UScaleBox
+---@field Self_BeingHitBar UProgressBar
+---@field Self_DeadBar UProgressBar
+---@field Self_LowHPWaringBar UProgressBar
+---@field Self_Name UTextBlock
+---@field TextBlock_BulletNum UTextBlock
+---@field TextBlock_friend UTextBlock
+---@field Watch_KeepWarm_Buff UCanvasPanel
+---@field Watch_ThermometerSlot UCanvasPanel
+---@field WidgetSwitcher_3 UWidgetSwitcher
+---@field WidgetSwitcher_Self_HPStatus UWidgetSwitcher
+---@field WidgetSwitcher_State UWidgetSwitcher
+---@field Player1NameValue FString
+---@field CurEnergy float
+---@field RecoverStartHealth float
+---@field RecoverCount int32
+---@field PredictStepValue float
+---@field PrePredictValue float
+---@field TotalAddToHealth float
+---@field WaitAddPredictTime float
+---@field NeedPredictWaitForHide bool
+---@field IsMultAddHealth bool
+---@field PredictHideBaseHealth float
+---@field FistImage FSlateBrush
+---@field GrenadeImage_Frag FSlateBrush
+---@field GrenadeImage_Smoke FSlateBrush
+---@field GrenadeImage_Fire FSlateBrush
+---@field GrenadeImage_Apple FSlateBrush
+---@field MeleeImage FSlateBrush
+---@field GrenadeImage_Stun FSlateBrush
+---@field GrenadeImage_Dance FSlateBrush
+---@field CurGrenadeID int32
+---@field CurGrenadeCount int32
+---@field UseBottomSignalbar bool
+---@field SignalbarLoaded bool
+---@field PlayerState APlayerState
+---@field coldmodeTemperature ColdMode_Thermometer_UIBP_C
+---@field coldmodePlayerState Ingame_ColdModePlayerState_UIBP_C
+---@field BNeedInitTempareture bool
+---@field bIsEnableEnergyUI bool
+---@field TxtEagleWatch FText
+---@field TxtWatchAlreadyEnd FText
+---@field TxtConfirmQuitWatch FText
+---@field TxtQuitWatchTitle FText

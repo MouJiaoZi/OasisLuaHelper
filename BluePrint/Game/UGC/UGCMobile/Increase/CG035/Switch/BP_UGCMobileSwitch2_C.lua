@@ -1,0 +1,52 @@
+---@class BP_UGCMobileSwitch2_C:BP_UGCMobileSwitchBase_C
+---@field LuaOnClickReceive:fun(InController:ASTExtraPlayerController)
+---@field LuaCheckTeamID:fun(InTeamID:int32):bool
+---@field OnClickReceive:fun(Click_Param:FClick_Param)
+---@field CheckCanInteractive:fun(Click_Param:FClick_Param):bool
+---@field InitPropertyForPlayMap:fun()
+---@field InitMechaWeaponData:fun()
+---@field InitSpecialWeaponData:fun()
+---@field InitVehicleWeaponData:fun()
+---@field InitHeavyWeaponData:fun()
+---@field LuaPrint:fun(InStr:FString)
+---@field InitMeleeWeaponData:fun()
+---@field InitProjectileData:fun()
+---@field InitBulletData:fun()
+---@field OnTakeDamageEvent:fun(DamageItemID:int32,EventInstigator:AController,DamageCauser:AActor,DamageAmount:float)
+---@field OnBeginPlayBP:fun()
+---@field GetLuaModule:fun():FString
+---@field UserConstructionScript:fun()
+---@field UGC_switch_03 UStaticMeshComponent
+---@field PlayerOverlap USphereComponent
+---@field AttackOverlaoBox UBoxComponent
+---@field BP_UGCDamageableActorComponent BP_UGCDamageableActorComponent_C
+---@field ClickActorComponentBase UClickActorComponentBase
+---@field UGC_switch_02 UStaticMeshComponent
+---@field StaticMesh UStaticMeshComponent
+---@field TriggerMode EUGCSwitchTriggerMode
+---@field bInitOpen bool
+---@field bRuntimeShow bool
+---@field bSwitchOpenPlaySound bool
+---@field RelateTeams S_TeamChoice
+---@field CanRepeatTrigger bool
+---@field RepeatTriggerCD float
+---@field AutoCloseTime float
+---@field AutoOpenTIme float
+---@field Distance float
+---@field Details FString
+---@field VaildAttackTriggerTypes S_ScoreBallChoice
+---@field ItemIDList ULuaArrayHelper
+---@field ItemParamSetting_Projectile ULuaArrayHelper
+---@field ItemParamSetting_MeleeWeapon ULuaArrayHelper
+---@field OpenAction FUGCMobileObjectAction
+---@field CloseAction FUGCMobileObjectAction
+---@field DeactivedEvent FUGCMobileObjectAction
+---@field EnableAction FUGCMobileObjectAction
+---@field DisableAction FUGCMobileObjectAction
+---@field OpenEvent FUGCMobileObjectEvent
+---@field CloseEvent FUGCMobileObjectEvent
+---@field bOpen bool
+---@field CurButtonEnableState int32
+---@field CloseMat UMaterialInstance
+---@field OpenMat UMaterialInstance
+---@field MinPositiveNum int32

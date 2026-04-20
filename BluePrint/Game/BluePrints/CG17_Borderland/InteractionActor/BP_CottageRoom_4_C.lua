@@ -1,0 +1,31 @@
+---@class BP_CottageRoom_4_C:ABP_CottageRoomBase_C
+---@field UserConstructionScript:fun()
+---@field P_Lnside_Big_Fire_04 UParticleSystemComponent
+---@field P_Cottages_LowFire_04_04 UParticleSystemComponent
+---@field P_Cottages_LowFire_04_01 UParticleSystemComponent
+---@field P_Cottages_LowFire_04_02 UParticleSystemComponent
+---@field P_Cottages_LowFire_04_03 UParticleSystemComponent
+---@field P_Cottages_MiddleFire_04_04 UParticleSystemComponent
+---@field P_BlackSmoke_02 UParticleSystemComponent
+---@field P_Cottages_MiddleFire_04_02 UParticleSystemComponent
+---@field P_Cottages_MiddleFire_04_03 UParticleSystemComponent
+---@field P_Cottages_BigFire_04_04 UParticleSystemComponent
+---@field P_Cottages_BigFire_04_03 UParticleSystemComponent
+---@field P_Cottages_BigFire_04_02 UParticleSystemComponent
+---@field P_Cottages_BigFire_04_01 UParticleSystemComponent
+---@field P_Cottages_MiddleFire_04_01 UParticleSystemComponent
+---@field Box7 UBoxComponent
+---@field Box10 UBoxComponent
+---@field Box9 UBoxComponent
+---@field Box8 UBoxComponent
+---@field Box UBoxComponent
+---@field Box6 UBoxComponent
+---@field Box5 UBoxComponent
+---@field Box4 UBoxComponent
+---@field Box3 UBoxComponent
+---@field Box2 UBoxComponent
+---@field Box1 UBoxComponent
+---@field Ruins_Sequence UActorSequenceComponent
+---@field BigFire_Sequence UActorSequenceComponent
+---@field MiddleFire_Sequence UActorSequenceComponent
+---@field LowFire_Sequence UActorSequenceComponent

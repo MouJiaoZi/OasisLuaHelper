@@ -1,0 +1,1 @@
+---@class BP_AirForceEscort_C:AAirForceEscort

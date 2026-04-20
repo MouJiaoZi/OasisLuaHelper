@@ -1,0 +1,1 @@
+---@class ValentinesDayFireBalloon_UIBP_C:UMapUIMarkBaseWidget

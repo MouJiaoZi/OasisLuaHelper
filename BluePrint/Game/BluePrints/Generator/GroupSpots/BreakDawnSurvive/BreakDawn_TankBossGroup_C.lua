@@ -1,0 +1,11 @@
+---@class BreakDawn_TankBossGroup_C:AUAEHouseActor
+---@field UserConstructionScript:fun()
+---@field Tank_6 BP_WerewolfBoxSpotComponent_C
+---@field Tank_5 BP_WerewolfBoxSpotComponent_C
+---@field Tank_4 BP_WerewolfBoxSpotComponent_C
+---@field Tank_3 BP_WerewolfBoxSpotComponent_C
+---@field Tank_2 BP_WerewolfBoxSpotComponent_C
+---@field Tank_1 BP_WerewolfBoxSpotComponent_C
+---@field Boss_1 BP_WerewolfBoxSpotComponent_C
+---@field BP_TankBossGroupSceneComponent BP_WerewolfBoxGroupSceneComponent_C
+---@field DefaultSceneRoot USceneComponent

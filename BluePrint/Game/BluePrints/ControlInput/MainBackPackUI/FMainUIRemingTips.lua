@@ -1,0 +1,4 @@
+---@class FMainUIRemingTips
+---@field tipsID int32
+---@field param1 FString
+---@field param2 FString

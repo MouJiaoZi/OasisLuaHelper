@@ -1,0 +1,14 @@
+---@class BP_Grenade_Radar_Weapon_C:ASTExtraWeapon
+---@field InteruptPlacement:fun()
+---@field BindShootWeaponChangeStateDelegate:fun()
+---@field HandleShootWeaponChangeState:fun(OldFreshWeaponStateType:EFreshWeaponStateType,NewFreshWeaponStateType:EFreshWeaponStateType)
+---@field GetSkillEntryForMeleeWeapon:fun(IsPressed:bool):EUTSkillEntry
+---@field UserConstructionScript:fun()
+---@field ReceiveDestroyed:fun()
+---@field WeaponTriggerEventHandleSkill UWeaponTriggerEventHandleSkill
+---@field WeaponAnimList_Grenade WeaponAnimList_Grenade_C
+---@field WeaponEntity UWeaponEntity
+---@field WeaponSpecificHandler UWeaponSpecificHandler
+---@field WeaponStateDefault UWeaponStateDefault
+---@field WeaponStateManager UWeaponStateManager
+---@field SkillIndex int32

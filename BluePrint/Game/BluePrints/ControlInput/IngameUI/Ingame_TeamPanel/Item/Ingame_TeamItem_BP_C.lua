@@ -1,0 +1,178 @@
+---@class Ingame_TeamItem_BP_C:UUAEUserWidget
+---@field OnCommonRevivalCardWidgetLoaded:fun(CommonRevivalWidget:UUserWidget)
+---@field GetCommonRevivalCardWidget:fun()
+---@field OnCommonRevivalStateChanged:fun(bCanRevival:bool)
+---@field BindEventToCommonRevival:fun()
+---@field UpdatePlayerMark:fun()
+---@field OnAirshipRecallCardWidgetLoaded:fun(widget:UUserWidget)
+---@field OnCanRevivalSelfChange:fun(bCanRevivalSelf:bool)
+---@field BindAirshipEvent:fun()
+---@field GetAirshipRecallCardWidget:fun()
+---@field ShowDamageEffect:fun(PUID:FString)
+---@field BindNoticeUIShowDamageEffect:fun()
+---@field LoadImprintIcon:fun(icon:UObject)
+---@field UpdateImprint:fun()
+---@field LoadBuffIcon:fun(icon:UObject)
+---@field UpdateBuff:fun()
+---@field SetParachuteFollowImage:fun()
+---@field WeixinLiveStatusActive:fun()
+---@field WeixinLiveStatus:fun()
+---@field CheckEscape:fun()
+---@field Process_UIMsg_OnEnableSignalSystemChanged:fun()
+---@field OnHunterRevivalCardCreate:fun()
+---@field OnHunterGoldCreate:fun()
+---@field UpdateMaxKillerTip:fun()
+---@field SetProcessBarVisibleByHP:fun(InVisibility:ESlateVisibility)
+---@field SetUIPercent:fun(percent:float)
+---@field GetVehicle:fun():ASTExtraVehicleBase
+---@field HideMicMark:fun()
+---@field ProcessDrivingIcon:fun()
+---@field VehicleIsUAV:fun():bool
+---@field GetVehicleUAV:fun():ASTExtraUAVVehicleBase
+---@field DisplayFloatStringMsg:fun()
+---@field UIMsg_DisplayCharStateWhenOperateUAV:fun()
+---@field StopShoot:fun()
+---@field UpdateShoot:fun(show:bool)
+---@field InitByPlayerState:fun(InPlayerState:ASTExtraPlayerState,ItemIndex:int32,Parent:UUAEUserWidget)
+---@field GetTeamtimeWidget:fun():UUserWidget
+---@field OnPlayerRevivalStateChanged:fun(InRevivalState:bool,IsIDCapPick:bool,PlayAniAndSound:bool)
+---@field OnPlayerRevivalTimeChanged:fun(RemainingRevivalTime:int32,MaxRevivalTime:int32)
+---@field UnBindRevivalEvent:fun()
+---@field BindRevivalEvent:fun()
+---@field CheckCold:fun()
+---@field SetAssumedName:fun(isMySelf:bool,isMyTeam:bool,index:int32)
+---@field SwitchGenderIcon:fun(bIsMan:bool)
+---@field SetParachuteFollowState:fun(ParachuteFollowState:FParachuteFollowState)
+---@field UIMsg_StartFollowTarget:fun()
+---@field UIMsg_CanFollowTarget:fun()
+---@field UpdateVoice:fun(status:int32,isRobot:bool)
+---@field SetTextAlpha:fun(isDead:bool)
+---@field SetBreathHP:fun(HP:float)
+---@field SetPlayerName:fun(Name:FString,Index:int32)
+---@field SetState:fun(State:ExtraPlayerLiveState)
+---@field SetHP:fun(Percent:float,bIsDying:bool)
+---@field ReceivedInitWidget:fun()
+---@field OnPlayerStateBeforeInit__DelegateSignature:fun()
+---@field OnPlayerStateInit__DelegateSignature:fun()
+---@field DX_Injure UWidgetAnimation
+---@field DX_EliminatonKing UWidgetAnimation
+---@field DX_EarlyWarning UWidgetAnimation
+---@field DX_Talk UWidgetAnimation
+---@field Border_AllSet UBorder
+---@field Bounty_TeamGold_Solt UCustomSocketPanel
+---@field Button_Follow UButton
+---@field CanvasPanel_1 UCanvasPanel
+---@field CanvasPanel_BountyRevive_Solt UCustomSocketPanel
+---@field CanvasPanel_Buff UCanvasPanel
+---@field CanvasPanel_EliminationKing UCanvasPanel
+---@field CanvasPanel_Escape UCanvasPanel
+---@field CanvasPanel_FourHolyBuff UCanvasPanel
+---@field CanvasPanel_Fuhuo UCanvasPanel
+---@field CanvasPanel_LandFollowBtnGroup UCanvasPanel
+---@field CanvasPanel_LandFollowStatus UCanvasPanel
+---@field CanvasPanel_ParachuteGroup UCanvasPanel
+---@field CanvasPanel_PlayerImprint UCanvasPanel
+---@field CanvasPanel_StateInfo UCanvasPanel
+---@field CanvasPanel_TeammateSingalBar UCanvasPanel
+---@field CanvasPanelResurrection UCanvasPanel
+---@field CarTips UImage
+---@field CustomSocket_Profession UCustomSocketPanel
+---@field CustomSocketPanel_Expression_Left UCustomSocketPanel
+---@field CustomSocketPanel_Expression_Right UCustomSocketPanel
+---@field CustomSocketPanel_OnlookersVideo UCustomSocketPanel
+---@field CustomSocketPanel_Plane UCustomSocketPanel
+---@field CustomSocketPanel_VersionTV UCustomSocketPanel
+---@field footTips UImage
+---@field GridPanel_PlayerVoiceIcon UGridPanel
+---@field HorizontalBox_1 UHorizontalBox
+---@field hurtTips UImage
+---@field Image_Buff UImage
+---@field Image_Cold UImage
+---@field Image_Escape UImage
+---@field Image_gender UImage
+---@field Image_IDBG UImage
+---@field Image_LowBloodAlarm UImage
+---@field Image_No1 UImage
+---@field Image_No2 UImage
+---@field Image_No3 UImage
+---@field Image_No4 UImage
+---@field Image_Parachute UImage
+---@field Image_ParachuteBG UImage
+---@field Image_ParachuteFollow UImage
+---@field Image_PlayerDead UImage
+---@field Image_PlayerDriving UImage
+---@field Image_PlayerFallToTheGround UImage
+---@field Image_PlayerHPBar UImage
+---@field Image_PlayerImprint UImage
+---@field Image_PlayerMark01 UImage
+---@field Image_PlayerOffOnline UImage
+---@field Image_PlayerVoiceIcon UImage
+---@field Image_Shoot UImage
+---@field Ingame_TeamMateSignalBar_UIBP Ingame_TeamMateSignalBar_UIBP_C
+---@field shotTips UImage
+---@field SizeBox_HP USizeBox
+---@field TextBlock_ParachuteFollowID UTextBlock
+---@field TextBlock_PlayerName UTextBlock
+---@field TextBlock_TeamIdx UTextBlock
+---@field WidgetSwitcher_BG UWidgetSwitcher
+---@field WidgetSwitcher_StateTips UWidgetSwitcher
+---@field FullColor FLinearColor
+---@field HpColor_Phase1 FLinearColor
+---@field HpColor_Phase2 FLinearColor
+---@field HpColor_Phase3 FLinearColor
+---@field PlayerState ASTExtraPlayerState
+---@field Player01Color FLinearColor
+---@field Player02Color FLinearColor
+---@field Player03Color FLinearColor
+---@field Player04Color FLinearColor
+---@field DeadColor FLinearColor
+---@field isLostOrExit bool
+---@field playerId int32
+---@field IdxColor1 FSlateColor
+---@field IdxColor2 FSlateColor
+---@field TeammatePlayerName FString
+---@field IsFollowingOther bool
+---@field IsFollowingOther_0 bool
+---@field AlivePlayerColor FLinearColor
+---@field ManIcon FSlateBrush
+---@field WomenIcon FSlateBrush
+---@field SuperCold bool
+---@field TeammateSignalBarColor_1 FLinearColor
+---@field TeammateSignalBarColor_2 FLinearColor
+---@field TeammateSignalBarColor_3 FLinearColor
+---@field TeammateSignalBarColor_4 FLinearColor
+---@field TeammateSignalBarColor_5 FLinearColor
+---@field PlayerState_Previous ASTExtraPlayerState
+---@field IsRevivalNeedSet bool
+---@field PlayerLiveState ExtraPlayerLiveState
+---@field Resurrection_TeamtimeWidget UUserWidget
+---@field ItemIndex int32
+---@field ShootTimerHandle FTimerHandle
+---@field uavIcon FSlateBrush
+---@field commonvehicleIcon FSlateBrush
+---@field lastVehicleSound float
+---@field lastMoveSound float
+---@field lastBulletSound float
+---@field lastHurtSound float
+---@field lastVehicleTip float
+---@field lastMoveTip float
+---@field lastBulleTip float
+---@field lastHurtTip float
+---@field OnPlayerStateInit ULuaMulticastDelegate
+---@field telecarIcon FSlateBrush
+---@field robotVoiceBrush FSlateBrush
+---@field playerVoiceBrush FSlateBrush
+---@field MicMarkTimerHandle FTimerHandle
+---@field CurrentHP float
+---@field IsEvacuated bool
+---@field LiveID FString
+---@field FollowerState EFollowState
+---@field BuffIconList ULuaMapHelper
+---@field ImprintList ULuaMapHelper
+---@field ImprintIDList ULuaMapHelper
+---@field ImprintColor ULuaMapHelper
+---@field AirshipRecallCardWidget UUserWidget
+---@field bCanRevicalSelf bool
+---@field OnPlayerStateBeforeInit ULuaMulticastDelegate
+---@field CommonRevivalCardWidget UUserWidget
+---@field ItemPlayerKey FString

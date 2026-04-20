@@ -1,0 +1,16 @@
+---@class VH_BBCar_C:ASTExtraBallVehicle
+---@field VehicleHealthStateChanged:fun(InVehicleHealthState:ESTExtraVehicleHealthState)
+---@field UserConstructionScript:fun()
+---@field OnBoostJump:fun()
+---@field OnPlayLandEffect:fun(OtherActor:AActor,NormalImpulse:FVector,Hit:FHitResult)
+---@field BP_OnEntryOrExitWater:fun(bIsEntryWater:bool,CurrentVel:FVector)
+---@field STExtraFloatingBallMovement USTExtraFloatingBallMovementComponent
+---@field AirVehicle UAirVehicleComponent
+---@field BP_AirJumpComp BP_AirJumpComp_C
+---@field HardreferenceUObject UHardreferenceUObject
+---@field SciFiAnimList_Driver UUAEChaVehAnimListComponent
+---@field SciFiAnimList_PassengersR UUAEChaVehAnimListComponent
+---@field STExtraBallMovement USTExtraBallMovementComponent
+---@field Camera UCameraComponent
+---@field VehicleSpringArm UVehicleSpringArmComponent
+---@field OriginMaxAcc float

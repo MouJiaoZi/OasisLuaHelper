@@ -1,0 +1,1 @@
+---@class TyrantBossDeadInventoryBox_Child_C:AZombieDeadInventoryBox_Child_C

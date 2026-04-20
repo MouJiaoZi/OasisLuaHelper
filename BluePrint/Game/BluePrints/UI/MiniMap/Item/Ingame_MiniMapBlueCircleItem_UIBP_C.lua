@@ -1,0 +1,11 @@
+---@class Ingame_MiniMapBlueCircleItem_UIBP_C:UCommMiniMapItemBase
+---@field UpdateWidgetItemCircle:fun(RefreshType:ECommMiniMapRefreshType,RealTimeInfo:FCircleTypeItemInfo)
+---@field InitializeCanvasSetting:fun(ParentSlot:UCanvasPanelSlot,InitMapSize:FVector2D)
+---@field OnMiniMapResize:fun(AdjustSize:FVector2D,ScaleFactor:float,LastCoordination:FVector)
+---@field CanvasPanelCircle UCanvasPanel
+---@field Image_RingArea UImage
+---@field CurIndexIconPath FString
+---@field CirclePlayerIcon FSlateBrush
+---@field SquarePlayerIcon FSlateBrush
+---@field IsOutRange bool
+---@field CircleMaterial UMaterialInstanceDynamic

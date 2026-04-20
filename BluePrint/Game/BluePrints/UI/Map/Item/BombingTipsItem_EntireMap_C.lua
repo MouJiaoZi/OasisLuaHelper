@@ -1,0 +1,21 @@
+---@class BombingTipsItem_EntireMap_C:UUAEUserWidget
+---@field MapScaleChange:fun():bool
+---@field DisableItem:fun():bool
+---@field UpdateSelf:fun():bool
+---@field SetAlertItemIDAndItemIndex:fun(AlertItemIndex:int32,AlertItemID:int32):bool
+---@field GetAlertItemIDAndItemIndex:fun():int32,int32
+---@field SetOuterMapInstance:fun(OuterMap:UUserWidget):bool
+---@field IsNeedUpdateMapLoc:fun(LatestLevelLoc:FVector):bool
+---@field UpdateItemAppearance:fun(ItemAppearanceState:uint8):uint8
+---@field UpdateItemLocInMap:fun(LocInMap:FVector2D,LocInLevel:FVector):FVector2D
+---@field ForceUpdateLoc:fun(InputPin:FVector)
+---@field UpdateOnMapScaleChange:fun()
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field CurLevelLoc FVector
+---@field CurMapLoc FVector2D
+---@field PendingOffCountDownTime float
+---@field bIsPendingOff bool
+---@field PendingOffTotalCountDownTime float
+---@field AlertIndex int32
+---@field OuterMapInst UUserWidget
+---@field ItemID int32

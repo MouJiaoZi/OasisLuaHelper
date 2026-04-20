@@ -1,0 +1,4 @@
+---@class bp_first_recharge_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_Array_First_Recharge_Data ULuaArrayHelper

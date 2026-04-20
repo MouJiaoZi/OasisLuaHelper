@@ -1,0 +1,16 @@
+---@class BP_ShowBookUI_C:ABP_WarteringAreaBase_C
+---@field SetInfo:fun()
+---@field OnLoadCompleted:fun(ObjectRef:UClass,ID:int32)
+---@field OncloseUI:fun()
+---@field ShowUI:fun()
+---@field CanTriggertEvent:fun(CurPawn:APawn):bool
+---@field UserConstructionScript:fun()
+---@field OnSpawnTreeParticleCPP:fun(PlayerController:APlayerController)
+---@field ServerDoWaterLogic:fun(PlayerController:APlayerController,ExMsg:FString)
+---@field UIInfo FShowUIDataUIInfo
+---@field ShowUIDataConfigList ULuaArrayHelper
+---@field ShowConfigData FShowUIDataConfig
+---@field IsNeedShowUI bool
+---@field PTargetWidget USceneInteractionUI
+---@field IsASyncLoadUI bool
+---@field IsShow bool

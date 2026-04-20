@@ -1,0 +1,1 @@
+---@class UGC_Grenade_BurnItemHandle_C:UGrenade_Burn_ItemHandle_C

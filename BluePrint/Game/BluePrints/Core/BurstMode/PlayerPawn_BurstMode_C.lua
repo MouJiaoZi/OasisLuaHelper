@@ -1,0 +1,3 @@
+---@class PlayerPawn_BurstMode_C:ABP_PlayerPawn_C
+---@field GetLuaModule:fun():FString
+---@field UserConstructionScript:fun()

@@ -1,0 +1,3 @@
+---@class AutoDriveInterface_C:UInterface
+---@field Mark3DPositionInf:fun(Pos:FVector):bool
+---@field SetVehicleInf:fun(vehicle:ASTExtraVehicleBase):bool

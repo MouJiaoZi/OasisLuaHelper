@@ -1,0 +1,10 @@
+---@class PickupListInterface_C:UInterface
+---@field SetHideForAimInf:fun(hide4Aim:bool):bool
+---@field NotifyBoxInf:fun(show:bool):bool
+---@field NotifyPickupInf:fun(show:bool):bool
+---@field DirectShowBoxInf:fun(boxArray:ULuaArrayHelper):bool
+---@field BleOpenTombBoxInf:fun():bool
+---@field BleOpenNormalPickupInf:fun():bool
+---@field ClearAllChecksumInf:fun():bool
+---@field BlePickFirstInf:fun():bool
+---@field PauseAutoPickInf:fun(item:FItemDefineID):bool

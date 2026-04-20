@@ -1,0 +1,11 @@
+---@class GrenadeAimBtn_C:UCustomUserWidget
+---@field SwitchCamera:fun()
+---@field OnTouchEnded:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field OnTouchStarted:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field GrenadeThrown__DelegateSignature:fun()
+---@field GrenadeTriggerHit__DelegateSignature:fun(NewParam:ETouchIndex)
+---@field GrenadeTriggerHit ULuaMulticastDelegate
+---@field GrenadeThrown ULuaMulticastDelegate
+---@field CircularHitTestRadius float
+---@field bIsGrenadeTriggerHit bool
+---@field bIsUseEnhancedHitTest bool

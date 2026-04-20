@@ -1,0 +1,25 @@
+---@class HAS_Table_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field UIMsg_BigPanelWidgetOpen:fun(UIName:FString)
+---@field PlayOpenLeaderboardSound:fun()
+---@field Construct:fun()
+---@field GridPanel_PlayerList UGridPanel
+---@field HAS_Guide_UIBP HAS_Guide_UIBP_C
+---@field Hide_Table_Item_10 HAS_Table_Item_UIBP_C
+---@field Hide_Table_Item_11 HAS_Table_Item_UIBP_C
+---@field Hide_Table_Item_12 HAS_Table_Item_UIBP_C
+---@field Hide_Table_Item_13 HAS_Table_Item_UIBP_C
+---@field Hide_Table_Item_14 HAS_Table_Item_UIBP_C
+---@field Hide_Table_Item_15 HAS_Table_Item_UIBP_C
+---@field Hide_Table_Item_16 HAS_Table_Item_UIBP_C
+---@field Hide_Table_Item_01 HAS_Table_Item_UIBP_C
+---@field Hide_Table_Item_02 HAS_Table_Item_UIBP_C
+---@field Hide_Table_Item_03 HAS_Table_Item_UIBP_C
+---@field Hide_Table_Item_04 HAS_Table_Item_UIBP_C
+---@field Hide_Table_Item_05 HAS_Table_Item_UIBP_C
+---@field Hide_Table_Item_06 HAS_Table_Item_UIBP_C
+---@field Hide_Table_Item_07 HAS_Table_Item_UIBP_C
+---@field Hide_Table_Item_08 HAS_Table_Item_UIBP_C
+---@field Hide_Table_Item_09 HAS_Table_Item_UIBP_C
+---@field NewButton_Close UNewButton
+---@field NewButton_Guide UNewButton

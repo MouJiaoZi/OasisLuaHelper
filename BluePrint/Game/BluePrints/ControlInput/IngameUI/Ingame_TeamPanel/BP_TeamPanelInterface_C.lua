@@ -1,0 +1,4 @@
+---@class BP_TeamPanelInterface_C:UInterface
+---@field TeamPanel_GetTeammateItem:fun(NewParam:int32):UUAEUserWidget
+---@field TeamPanel_IsMatchingPlayerKey:fun(PlayerKey:FString,InWidget:UUserWidget):bool
+---@field TeamPanel_SetTeamItemZorder:fun(NewParam:UUserWidget):bool

@@ -1,0 +1,41 @@
+---@class Ingame_HotAirBalloonControl_UIBP_C:UUAEUserWidget
+---@field UIMSG_HideCameraOffsetSettings:fun()
+---@field UIMSG_ShowFireBalloonCameraOffsetSettings:fun()
+---@field RequestDriveFireBalloon:fun()
+---@field SetZoomVisible:fun(bNewVisible:bool)
+---@field SetCameraOffsetData:fun(Alpha:float,UpdateCameraLocation:bool)
+---@field SetShootingUIPanelWidgetVisible:fun(bNewVisible:bool)
+---@field UpdateObservationAreaUI:fun()
+---@field GetBalloonHeightParams:fun(FireBalloon:BP_ValentinesDayFireBalloon_Base_C):float,float,float,float
+---@field UpdateBalloonHeight:fun()
+---@field UIMSG_UpdateDriveUIVisible:fun()
+---@field UIMSG_HideValentinesDaySkill:fun()
+---@field UIMSG_ShowValentinesDaySkill:fun()
+---@field RefreshUI:fun()
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field ReceivedInitWidget:fun()
+---@field Down_Btn_anima UWidgetAnimation
+---@field Up_Btn_anima UWidgetAnimation
+---@field Border_Opacity UBorder
+---@field Button_Heart UButton
+---@field Button_HIde_ZoomPanel UButton
+---@field Button_ZoomBtn UButton
+---@field CanvasPanel_CameraOffsetData UCanvasPanel
+---@field CanvasPanel_Enter UCanvasPanel
+---@field CanvasPanel_Heart UCanvasPanel
+---@field CanvasPanel_HotAirBallHeightBar UCanvasPanel
+---@field CanvasPanel_Leave CustomizeCanvasPanel_BP_C
+---@field CanvasPanel_ShowX8Panel UCanvasPanel
+---@field CanvasPanel_UpAndDown UCanvasPanel
+---@field DownButton UButton
+---@field EnterControl UButton
+---@field Image_BtnIcon01 UImage
+---@field Image_Height UImage
+---@field Image_HotAirBall UImage
+---@field LeaveControl UButton
+---@field Slider_PlayerCameraOffsetData USlider
+---@field TextBlock_Btn01Name UTextBlock
+---@field TextBlock_LeaveControl UTextBlock
+---@field UpButton UButton
+---@field MoveUpValue float
+---@field bSkillUIVIisble bool

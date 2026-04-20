@@ -1,0 +1,5 @@
+---@class AsianOB_NameItem2_UIBP_C:UUAEUserWidget
+---@field TextBlock_CountryName UTextBlock
+---@field TextBlock_Head UTextBlock
+---@field TextBlock_PlayerName UTextBlock
+---@field TextBlock_Score UTextBlock

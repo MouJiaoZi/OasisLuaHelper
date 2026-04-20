@@ -1,0 +1,13 @@
+---@class AsianOBUI_Library_C:UBlueprintFunctionLibrary
+---@field GetDefaultTeamColorByTeamID fun(teamid:int32,__WorldContext:UObject):FColor
+---@field GetTeamColorByTeamID fun(TeamID:int32,__WorldContext:UObject):FColor
+---@field GetTeamShortNameByTeamID fun(TeamNo:int32,__WorldContext:UObject):FString
+---@field GetTeamInfoByTeamID fun(TeamNo:int32,__WorldContext:UObject):FCountryTeamLogo
+---@field GetPlayerMakeupPicByUID fun(UID:FString,__WorldContext:UObject):bool,FString,UTexture2D
+---@field GetTeamPicByPath fun(Key:FString,__WorldContext:UObject):UTexture2D
+---@field GetTeamPicMaxByTeamID fun(TeamNo:int32,__WorldContext:UObject):UTexture2D
+---@field GetTeamPicMiddleByTeamID fun(TeamNo:int32,__WorldContext:UObject):UTexture2D
+---@field GetTeamPicMinByTeamID fun(TeamNo:int32,__WorldContext:UObject):UTexture2D
+---@field GetSinglePicByUID fun(UID:FString,__WorldContext:UObject):UTexture2D
+---@field GetSinglePicPathByUID fun(NewParam:FString,__WorldContext:UObject):FString
+---@field GetTeamNameByTeamID fun(NewParam:int32,__WorldContext:UObject):FString

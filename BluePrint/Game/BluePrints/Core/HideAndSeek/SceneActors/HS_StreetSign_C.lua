@@ -1,0 +1,1 @@
+---@class HS_StreetSign_C:AHiderSceneActorBase_C

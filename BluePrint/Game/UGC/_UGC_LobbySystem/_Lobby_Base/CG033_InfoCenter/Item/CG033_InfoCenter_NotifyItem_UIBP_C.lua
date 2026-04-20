@@ -1,0 +1,9 @@
+---@class CG033_InfoCenter_NotifyItem_UIBP_C:UUAEUserWidget
+---@field CanvasPanel_7 UCanvasPanel
+---@field CanvasPanel_New UCanvasPanel
+---@field CanvasPanel_Select UCanvasPanel
+---@field NewButton_Select UNewButton
+---@field Text_nfoCenter_Notify UTextBlock
+---@field TextBlock_NotifyTime UTextBlock
+---@field WidgetSwitcher_appendix UWidgetSwitcher
+---@field WidgetSwitcher_BG UWidgetSwitcher

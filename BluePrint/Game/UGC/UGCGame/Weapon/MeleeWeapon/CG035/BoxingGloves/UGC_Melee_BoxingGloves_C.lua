@@ -1,0 +1,1 @@
+---@class UGC_Melee_BoxingGloves_C:UGCPickupWrapper_BP_C

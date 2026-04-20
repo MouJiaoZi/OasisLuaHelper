@@ -1,0 +1,5 @@
+---@class NewResult_KLJ_PickUpItemTips_UIBP_C:UUAEUserWidget
+---@field Image_ItemIcon UImage
+---@field Image_QualityBg UImage
+---@field ItemName1 UMultiLineEditableText
+---@field TextBlock_ItemDescrip UUTRichTextBlock

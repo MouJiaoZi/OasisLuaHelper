@@ -1,0 +1,1 @@
+---@class WeaponAnimList_Pistol_TMP_BF_C:UUAECharacterAnimListComponent

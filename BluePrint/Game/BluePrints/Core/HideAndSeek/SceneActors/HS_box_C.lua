@@ -1,0 +1,1 @@
+---@class HS_box_C:AHiderSceneActorBase_C

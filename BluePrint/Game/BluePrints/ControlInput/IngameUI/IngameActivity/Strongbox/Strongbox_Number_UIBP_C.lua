@@ -1,0 +1,14 @@
+---@class Strongbox_Number_UIBP_C:UUserWidget
+---@field OnClickPW_Close__DelegateSignature:fun()
+---@field OnClickPW_InputButton__DelegateSignature:fun(MyNumber:int32)
+---@field DX_Perss_01 UWidgetAnimation
+---@field DX_Perss UWidgetAnimation
+---@field NewButton_Click UNewButton
+---@field NewButton_Close UNewButton
+---@field TextBlock_Number UTextBlock
+---@field WidgetSwitcher_Key UWidgetSwitcher
+---@field OnClickPW_InputButton ULuaMulticastDelegate
+---@field Number int32
+---@field OnClickPW_Close ULuaMulticastDelegate
+---@field PressedAudio UAkAudioEvent
+---@field ClosePressedAudio UAkAudioEvent

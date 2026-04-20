@@ -1,0 +1,68 @@
+---@class Solo_Main_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field PC_ReadyButtonClick:fun()
+---@field PCHideScoreboard:fun()
+---@field PCShowScoreboard:fun()
+---@field DelayFromLua:fun()
+---@field DelayTimerCallBack:fun()
+---@field InitColor:fun(IsRed:bool)
+---@field DX_ProcessTips UWidgetAnimation
+---@field DX_AdjustmentTips UWidgetAnimation
+---@field DX_StageTips UWidgetAnimation
+---@field DX_Duel_In UWidgetAnimation
+---@field Border_AdjustmentTips UBorder
+---@field Border_ProcessTips UBorder
+---@field Border_StageTips UBorder
+---@field Canvas_Panel_Tips UCanvasPanel
+---@field CanvasPanel_Content UCanvasPanel
+---@field CanvasPanel_HardPointState UCanvasPanel
+---@field CanvasPanel_Mian UCanvasPanel
+---@field CanvasPanel_ProcessTips UCanvasPanel
+---@field CanvasPanel_Ready UCanvasPanel
+---@field CanvasPanel_Root UCanvasPanel
+---@field CanvasPanel_ScorePoint UCanvasPanel
+---@field CanvasPanel_StageTips UCanvasPanel
+---@field HorizontalBox_HostileOB UHorizontalBox
+---@field HorizontalBox_OneselfOB UHorizontalBox
+---@field Image_ArrowaLeft UImage
+---@field InvalidationBox_Main UInvalidationBox
+---@field InvalidationBox_War_Damaged UInvalidationBox
+---@field NewButton_OP_ScoreBoard UNewButton
+---@field NewButton_Ready UNewButton
+---@field NewButton_ReadyCancel UNewButton
+---@field Text_AdjustRound UTextBlock
+---@field Text_KIll UTextBlock
+---@field Text_Session UTextBlock
+---@field TextBlock_1 UTextBlock
+---@field TextBlock_11 UTextBlock
+---@field TextBlock_Assist UTextBlock
+---@field TextBlock_Chang UTextBlock
+---@field TextBlock_Die UTextBlock
+---@field TextBlock_EnemyLeft UTextBlock
+---@field TextBlock_EnemyRight UTextBlock
+---@field TextBlock_Kaishi UTextBlock
+---@field TextBlock_LeftTeamScore UTextBlock
+---@field TextBlock_OP_SurplusTime UTextBlock
+---@field TextBlock_Overtime UTextBlock
+---@field TextBlock_PointNumber UTextBlock
+---@field TextBlock_ReadyNum UTextBlock
+---@field TextBlock_ReadyNumMAx UTextBlock
+---@field TextBlock_Result UTextBlock
+---@field TextBlock_RightTeamScore UTextBlock
+---@field TextBlock_Round UTextBlock
+---@field TextBlock_Time UTextBlock
+---@field Widget_Switcher_CampColour UWidgetSwitcher
+---@field WidgetSwitcher_Ready UWidgetSwitcher
+---@field WidgetSwitcher_Top UWidgetSwitcher
+---@field WrapGroupBox_HostileOB UWrapGroupBox
+---@field WrapGroupBox_OneselfOB UWrapGroupBox
+---@field WrapGroupBox_Ready_L UWrapGroupBox
+---@field WrapGroupBox_Ready_R UWrapGroupBox
+---@field UIstyle UUserWidgetStyle
+---@field OBUIStyle UUserWidgetStyle
+---@field RedColor FSlateColor
+---@field BlueColor FSlateColor
+---@field ResultUIStyle UUserWidgetStyle
+---@field PickAudio UAkAudioEvent
+---@field StartAudio UAkAudioEvent
+---@field HardPoint UAkAudioEvent

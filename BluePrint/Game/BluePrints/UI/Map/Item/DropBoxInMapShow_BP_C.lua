@@ -1,0 +1,11 @@
+---@class DropBoxInMapShow_BP_C:UUserWidget
+---@field ShowBeSelectCircle:fun(IsShow:bool)
+---@field ShowDropBox:fun(Info:FAirDropBoxInOb)
+---@field OnBoxBeClicked__DelegateSignature:fun(BoxInfo:FAirDropBoxInOb)
+---@field Button_SelectedBox UButton
+---@field Image_Empty UImage
+---@field Image_Flying UImage
+---@field Image_Full UImage
+---@field WidgetSwitcher_BoxState UWidgetSwitcher
+---@field OnBoxBeClicked ULuaMulticastDelegate
+---@field MyInfo FAirDropBoxInOb

@@ -1,0 +1,3 @@
+---@class GMCheatManager_BP_C:UGMCheatManager
+---@field StartCamMasterPath:fun(Path:FString,bAdditivePawnLocation:bool,bAdditivePawnRotation:bool)
+---@field StartCamMaster:fun(ID:int32)

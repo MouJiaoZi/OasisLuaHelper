@@ -1,0 +1,19 @@
+---@class BP_NewYearEveFireWorksEffectTrigger_2020linshi_C:AFireworksTriggerActor
+---@field TraceGroundPoint:fun(InVector:FVector):FVector
+---@field GetWhiteeCirclePos:fun():FVector
+---@field CheckFireworksPos:fun()
+---@field GetFireworksPos:fun(PlayerKey:FString):FVector,FRotator,bool
+---@field UserConstructionScript:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field ClientCreateEffect:fun()
+---@field ComputeFireworksPos:fun()
+---@field DefaultSceneRoot USceneComponent
+---@field TriggerDistance float
+---@field FrieworksAreaActor AFireworksAreaActor
+---@field TriggerCurTime float
+---@field TotalTime float
+---@field FireworksPosInfo ULuaArrayHelper
+---@field CurPlayerKey FString
+---@field TempPlayerKey FString
+---@field TempPosition FVector
+---@field BCreated bool

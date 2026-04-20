@@ -1,0 +1,10 @@
+---@class Bounty_Ingame_TeamGoldNew_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field LuaInit:fun()
+---@field ReceivedInitWidget:fun()
+---@field Border_Color UBorder
+---@field CanvasPanel_Add UCanvasPanel
+---@field Image_GoldIcon UImage
+---@field TextBlock_GoldNum UTextBlock
+---@field TextBlock_RadarTime UTextBlock
+---@field PlayerState ASTExtraPlayerState

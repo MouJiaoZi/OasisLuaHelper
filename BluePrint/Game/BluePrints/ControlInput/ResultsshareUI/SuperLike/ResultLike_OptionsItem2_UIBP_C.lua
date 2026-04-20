@@ -1,0 +1,7 @@
+---@class ResultLike_OptionsItem2_UIBP_C:UUAEUserWidget
+---@field OnSelfBtnClicked__DelegateSignature:fun(index:int32)
+---@field NewButton_Click UNewButton
+---@field TextBlock_Name UTextBlock
+---@field WidgetSwitcher_Icon UWidgetSwitcher
+---@field index int32
+---@field OnSelfBtnClicked ULuaMulticastDelegate

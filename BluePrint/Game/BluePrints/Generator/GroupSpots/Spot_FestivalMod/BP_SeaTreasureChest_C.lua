@@ -1,0 +1,6 @@
+---@class BP_SeaTreasureChest_C:ASTExtraHouseActor
+---@field UserConstructionScript:fun()
+---@field Cube UStaticMeshComponent
+---@field BP_ItemSpotComponent BP_ItemSpotComponent_C
+---@field BP_ItemSpotGroupComponent BP_ItemSpotGroupComponent_C
+---@field DefaultSceneRoot USceneComponent

@@ -1,0 +1,12 @@
+---@class QuickSignCommonMapMark_UIBP_C:UMapUIMarkBaseWidget
+---@field GetLuaModule:fun():FString
+---@field UpdateNormalColor:fun(TeamIndex:int32)
+---@field Image_Border UImage
+---@field Image_Icon UImage
+---@field Image_IconBG UImage
+---@field Image_Mark UImage
+---@field Image_MarkBg UImage
+---@field Image_Point UImage
+---@field WidgetSwitcher_Advanced UWidgetSwitcher
+---@field WidgetSwitcher_State UWidgetSwitcher
+---@field AttentionSignColor FLinearColor

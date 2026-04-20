@@ -1,0 +1,17 @@
+---@class Struct_UGCM_MonsterInfo
+---@field MonsterID int32
+---@field MonsterName FString
+---@field MonsterClassId int32
+---@field ColorIconIdx int32
+---@field MonsterDetails FString
+---@field FieldRange float
+---@field FieldAngle float
+---@field IsPerspective bool
+---@field HateValue Enum_MonsterHateType
+---@field AttackRate float
+---@field HealthMax int32
+---@field HurtRate float
+---@field SpeedRate float
+---@field DeadDrop int32
+---@field ExtraInfoID int32
+---@field CurrencyNum int32

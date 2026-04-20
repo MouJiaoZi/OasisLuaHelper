@@ -1,0 +1,8 @@
+---@class BP_WarGameMode_C:AWarGameMode
+---@field UserConstructionScript:fun()
+---@field BP_AttrModifyProbeComp_War BP_AttrModifyProbeComp_War_C
+---@field BP_WeatherGeneratorComponent BP_WeatherGeneratorComponent_C
+---@field BP_VehicleSpotSceneComponent BP_VehicleSpotSceneComponent_C
+---@field CircleMgr UCircleMgrComponent
+---@field AirAttack UAirAttackComponent
+---@field AirDrop UAirDropComponent

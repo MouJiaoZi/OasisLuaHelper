@@ -1,0 +1,16 @@
+---@class Ingame_TeamMateSignalBar_UIBP_C:UUserWidget
+---@field SetCellColor:fun(CellType:Ingame_SignalCellType,Color:FLinearColor)
+---@field SetBarVisibility:fun(NewVisible:bool,CellType:Ingame_SignalCellType)
+---@field ResetColor:fun(CellType:Ingame_SignalCellType)
+---@field SetHP:fun(CurHP:float)
+---@field ResetBar:fun(FullRecovery:bool)
+---@field InitByPlayerState:fun(PlayerState:APlayerState)
+---@field InitByPlayerController:fun(InPlayerController:ASTExtraPlayerController)
+---@field SetCellPercentage:fun(CellType:Ingame_SignalCellType,Precentage:float,Visible:bool)
+---@field Image_TeammateColorSignalBar UImage
+---@field TeammateSignalBarColor_1 FLinearColor
+---@field TeammateSignalBarColor_2 FLinearColor
+---@field TeammateSignalBarColor_3 FLinearColor
+---@field TeammateSignalBarColor_4 FLinearColor
+---@field TeammateSignalBarColor_5 FLinearColor
+---@field PercentageColorMap ULuaMapHelper

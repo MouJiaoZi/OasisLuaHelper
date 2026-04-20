@@ -1,0 +1,1 @@
+---@class BP_MachineGun_UMP9_BattleItemHandle_AYMG_C_C:BP_MachineGun_UMP9_BattleItemHandle_C

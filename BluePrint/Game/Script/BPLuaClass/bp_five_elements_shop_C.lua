@@ -1,0 +1,3 @@
+---@class bp_five_elements_shop_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent

@@ -1,0 +1,18 @@
+---@class BP_DynamicWeatherExMgr_Backup_C:ABP_DynamicWeatherMgr_C
+---@field UserConstructionScript:fun()
+---@field DynamicSpawnController_Aurora UDynamicSpawnController
+---@field DynamicEmptyController_MidAutumnNight_0 UDynamicEmptyWeatherController
+---@field DynamicEmptyController_MidAutumnEve_0 UDynamicEmptyWeatherController
+---@field DynamicEmptyController_MidAutumnDaytime_0 UDynamicEmptyWeatherController
+---@field DynamicEmptyController_PVENight_0 UDynamicEmptyWeatherController
+---@field DynamicEmptyController_PVEEvening_0 UDynamicEmptyWeatherController
+---@field DynamicEmptyController_PVEDaytime_0 UDynamicEmptyWeatherController
+---@field DynamicNightController1 UDynamicNightController
+---@field DynamicSquallController_0 UDynamicRainController
+---@field DynamicSnowController1_0 UDynamicRainController
+---@field DynamicSunnyController1_0 UDynamicSunnyController
+---@field DynamicFogController1_0 UDynamicFogController
+---@field DynamicRainController1_0 UDynamicRainController
+---@field MoonScalarName FName
+---@field SkySwitchParam FName
+---@field StormAkEvent_0 int32

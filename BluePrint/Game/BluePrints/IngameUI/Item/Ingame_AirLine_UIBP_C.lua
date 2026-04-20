@@ -1,0 +1,1 @@
+---@class Ingame_AirLine_UIBP_C:ULuaUserWidget

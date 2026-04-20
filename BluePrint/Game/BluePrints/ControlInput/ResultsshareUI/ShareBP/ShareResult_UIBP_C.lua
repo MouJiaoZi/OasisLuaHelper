@@ -1,0 +1,8 @@
+---@class ShareResult_UIBP_C:UUAEUserWidget
+---@field SetVariable:fun()
+---@field UIHide:fun()
+---@field UIShow:fun()
+---@field Construct:fun()
+---@field Shareinterface_UIBP Shareinterface_UIBP_C
+---@field Shareranking_UIBP Shareranking_UIBP_C
+---@field MySelfObj bp_share_result_C

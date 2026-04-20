@@ -1,0 +1,8 @@
+---@class Ingame_SmallMiniMap_UIBP_C:UCommMiniMapBase
+---@field OnInitBlueprint:fun()
+---@field OnAdjustMapOffsetBlueprint:fun(AdjustOffset:FVector2D,MapAlignOffset:FVector2D)
+---@field OnInitBlueprintItem:fun(ItemRef:UCommMiniMapItemBase)
+---@field OnMiniMapResizeBlueprint:fun(AdjustSize:FVector2D,AdjustAlignment:FVector2D,UpdatePivot:bool)
+---@field ItemCanvas UCanvasPanel
+---@field MapandCircleCanvas UCanvasPanel
+---@field MiniMap UImage

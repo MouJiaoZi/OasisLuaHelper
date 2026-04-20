@@ -1,0 +1,7 @@
+---@class BP_BattleRoyaleGameModeTeamDihorOtok_2_Squall_C:ABP_BattleRoyaleGameModeTeamDihorOtok_2_C
+---@field UserConstructionScript:fun()
+---@field SpawnMonsterHelperComp1 USpawnMonsterHelperComp
+---@field BP_AnimalSpawn_DihorOtok1 BP_AnimalSpawn_DihorOtok1_C
+---@field AIGroupManager UAIGroupManagerComponent
+---@field AIWorldSoundManager UAIWorldSoundManagerComponent
+---@field AnimalTeleport UAnimalTeleportComponent

@@ -1,0 +1,1 @@
+---@class WeaponAnimList_RPG_C:WeaponAnimList_Rifle_C

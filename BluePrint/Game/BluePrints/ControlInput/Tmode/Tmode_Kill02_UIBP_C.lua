@@ -1,0 +1,5 @@
+---@class Tmode_Kill02_UIBP_C:UUAEUserWidget
+---@field SetInfo:fun(InInfo:FDeathMatchDamageRecordData)
+---@field TextBlock_KillerName UTextBlock
+---@field TextBlock_Number UTextBlock
+---@field WidgetSwitcher_Kill UWidgetSwitcher

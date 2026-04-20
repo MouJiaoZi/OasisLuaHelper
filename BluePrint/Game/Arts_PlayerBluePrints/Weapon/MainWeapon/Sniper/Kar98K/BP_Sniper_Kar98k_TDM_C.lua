@@ -1,0 +1,7 @@
+---@class BP_Sniper_Kar98k_TDM_C:BP_ShootWeaponBase_C
+---@field UserConstructionScript:fun()
+---@field WeaponAnimList_Sniper_Kar98K WeaponAnimList_Sniper_Kar98K_C
+---@field WeaponPostReloadState UWeaponPostReloadState
+---@field WeaponPostFireState UWeaponPostFireState
+---@field WeaponPreFireState UWeaponPreFireState
+---@field bUseIdleAnim_0_0 bool

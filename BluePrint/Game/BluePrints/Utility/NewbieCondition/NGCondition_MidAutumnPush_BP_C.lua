@@ -1,0 +1,3 @@
+---@class NGCondition_MidAutumnPush_BP_C:USTNewbieGuideConditionBase
+---@field IsOK:fun():bool
+---@field ModeIDList ULuaArrayHelper

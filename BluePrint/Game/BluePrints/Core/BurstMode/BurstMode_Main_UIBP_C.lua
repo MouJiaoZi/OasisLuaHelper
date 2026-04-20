@@ -1,0 +1,17 @@
+---@class BurstMode_Main_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field BombExplodeCountDownBox UCanvasPanel
+---@field Button_BackToLobby UButton
+---@field Button_InstallBomb UButton
+---@field Button_RemoveBomb UButton
+---@field Image_Result UImage
+---@field Panel_BattleTips UCanvasPanel
+---@field ReadyStateReamainTimePanel UCanvasPanel
+---@field ResultPanel UCanvasPanel
+---@field Text_BattleTipsContent UTextBlock
+---@field Text_BattleTipsPlayerName UTextBlock
+---@field Text_BlueTeamScore UTextBlock
+---@field Text_FightingStateRemainTime UTextBlock
+---@field Text_ReadyStateRemainTime UTextBlock
+---@field Text_RedTeamScore UTextBlock

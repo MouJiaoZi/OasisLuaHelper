@@ -1,0 +1,5 @@
+---@class RaceRrack_PlayerMVP_UIBP_C:UUAEUserWidget
+---@field Common_Avatar_BP Common_Avatar_BP_C
+---@field Text_PlayerName UTextBlock
+---@field Text_Score UTextBlock
+---@field WidgetSwitcher_PlayerGender UWidgetSwitcher

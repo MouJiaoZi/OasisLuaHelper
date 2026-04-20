@@ -1,0 +1,1 @@
+---@class BP_DJ_Large_EQ_SHMAN_C:BP_DJ_Large_EQ_C

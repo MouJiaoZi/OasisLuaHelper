@@ -1,0 +1,2 @@
+---@class ZD_WarDog_Gudie01_UIBP_C:UUAEUserWidget
+---@field UTRichTextBlock_Text UUTRichTextBlock

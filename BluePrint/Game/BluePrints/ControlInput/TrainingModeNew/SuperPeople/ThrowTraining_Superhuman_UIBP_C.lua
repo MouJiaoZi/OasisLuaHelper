@@ -1,0 +1,56 @@
+---@class ThrowTraining_Superhuman_UIBP_C:UActivityUIWidget
+---@field SetTag:fun()
+---@field SetDifficulty:fun(count:int32)
+---@field InitMessage:fun()
+---@field UpdateMessage:fun(State:int32)
+---@field RestoreButtonState:fun()
+---@field UpdateButtonName:fun()
+---@field Construct:fun()
+---@field Init_BP:fun(Actor:UObject,InUIIndex:int32)
+---@field CanvasPanel_Tag1 UCanvasPanel
+---@field CanvasPanel_Tag2 UCanvasPanel
+---@field CanvasPanel_Tag3 UCanvasPanel
+---@field Common_UIPopupBG_C_2 Common_UIPopupBG_C
+---@field Image_Bdege1 UImage
+---@field Image_Bdege2 UImage
+---@field Image_Bdege3 UImage
+---@field NewBtnClose UNewButton
+---@field NewButton_Go UNewButton
+---@field NewCheckBox_Difficulty1 UNewCheckBox
+---@field NewCheckBox_Difficulty2 UNewCheckBox
+---@field NewCheckBox_Difficulty3 UNewCheckBox
+---@field TextBlock_2 UTextBlock
+---@field TextBlock_3 UTextBlock
+---@field TextBlock_5 UTextBlock
+---@field TextBlock_6 UTextBlock
+---@field TextBlock_7 UTextBlock
+---@field TextBlock_8 UTextBlock
+---@field TextBlock_9 UTextBlock
+---@field TextBlock_Descriptions UTextBlock
+---@field TextBlock_Job UTextBlock
+---@field TextBlock_Passive UTextBlock
+---@field TextBlock_Tag1 UTextBlock
+---@field TextBlock_Tag2 UTextBlock
+---@field TextBlock_Tag3 UTextBlock
+---@field Title_BadWoman ThrowTraining_Title_Item_UIBP_C
+---@field Title_Beltway ThrowTraining_Title_Item_UIBP_C
+---@field Title_ChiFeng ThrowTraining_Title_Item_UIBP_C
+---@field Title_Commander ThrowTraining_Title_Item_UIBP_C
+---@field Title_Cowboy ThrowTraining_Title_Item_UIBP_C
+---@field Title_CuteRabbit ThrowTraining_Title_Item_UIBP_C
+---@field Title_CyberSpider ThrowTraining_Title_Item_UIBP_C
+---@field Title_Doctor ThrowTraining_Title_Item_UIBP_C
+---@field Title_DolphinGirl ThrowTraining_Title_Item_UIBP_C
+---@field Title_DragonBoy ThrowTraining_Title_Item_UIBP_C
+---@field Title_Driver ThrowTraining_Title_Item_UIBP_C
+---@field Title_Geeker ThrowTraining_Title_Item_UIBP_C
+---@field Title_Ghost ThrowTraining_Title_Item_UIBP_C
+---@field Title_IceWoman ThrowTraining_Title_Item_UIBP_C
+---@field Title_Lightning ThrowTraining_Title_Item_UIBP_C
+---@field Title_MucisGirl ThrowTraining_Title_Item_UIBP_C
+---@field Title_Paintinggirl ThrowTraining_Title_Item_UIBP_C
+---@field Title_RocketBoy ThrowTraining_Title_Item_UIBP_C
+---@field CurrState int32
+---@field Character_GAS ULuaMapHelper
+---@field CharacterArray ULuaArrayHelper
+---@field PossessActor AActor

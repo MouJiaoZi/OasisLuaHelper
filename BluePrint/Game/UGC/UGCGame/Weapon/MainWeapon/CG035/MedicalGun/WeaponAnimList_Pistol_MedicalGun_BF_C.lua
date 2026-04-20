@@ -1,0 +1,1 @@
+---@class WeaponAnimList_Pistol_MedicalGun_BF_C:UUAECharacterAnimListComponent

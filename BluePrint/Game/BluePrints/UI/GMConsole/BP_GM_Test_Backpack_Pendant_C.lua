@@ -1,0 +1,17 @@
+---@class BP_GM_Test_Backpack_Pendant_C:UUserWidget
+---@field Next:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field Init:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field BackpackCombo UComboBoxString
+---@field Button_NextBackpack UButton
+---@field Button_NextPendant UButton
+---@field Button_PreviousBackpack UButton
+---@field Button_PreviousPendant UButton
+---@field PendantComboBox UComboBoxString
+---@field TextBlock_4 UTextBlock
+---@field TextBlock_5 UTextBlock
+---@field WidgetSwitcher_0 UWidgetSwitcher
+---@field DataActor BP_GM_CustomTest_BackpackPendant_C
+---@field bAuto bool
+---@field Delta float
+---@field InitDone bool

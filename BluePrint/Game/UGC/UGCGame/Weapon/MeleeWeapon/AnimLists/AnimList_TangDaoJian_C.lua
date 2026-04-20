@@ -1,0 +1,1 @@
+---@class AnimList_TangDaoJian_C:WeaponAnimList_Melee_C

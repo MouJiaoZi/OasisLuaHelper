@@ -1,0 +1,7 @@
+---@class bp_reservation_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_ReservationInviteFriendID FString
+---@field BP_ReservationMyPlyerCount int32
+---@field BP_ARRAY_Reservation_Friend_Profile ULuaArrayHelper
+---@field BP_Reservation_ClickHeadID FString

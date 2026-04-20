@@ -1,0 +1,1 @@
+---@class BP_Pistol_Flaregun_BattleItemHandle_GGBYG_Lobby_C:UBackpackWeaponHandle

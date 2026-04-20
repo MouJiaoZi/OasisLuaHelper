@@ -1,0 +1,10 @@
+---@class ReplayEliminateInfo_UIBP_C:UReplayWidgetDeath
+---@field GetLuaModule:fun():FString
+---@field RefreshDamageInfo:fun()
+---@field GetDamageInfoCount:fun(InBattleResult:bool,PlayerID:FString):int32
+---@field GetDamageInfo:fun(IsBattleResult:bool)
+---@field Construct:fun()
+---@field NewButton_Close UNewButton
+---@field NewButton_Mask UNewButton
+---@field ReuseListSp_ItemList ReuseListSp_C
+---@field ScaleBox_IPX UScaleBox

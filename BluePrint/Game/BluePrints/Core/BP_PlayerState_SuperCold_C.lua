@@ -1,0 +1,3 @@
+---@class BP_PlayerState_SuperCold_C:ASTExtraPlayerState_SuperCold
+---@field UserConstructionScript:fun()
+---@field DefaultSceneRoot USceneComponent

@@ -1,0 +1,1 @@
+---@class BP_CustomMove_MeleeAbsorb_C:UCustomMovemeneWalking

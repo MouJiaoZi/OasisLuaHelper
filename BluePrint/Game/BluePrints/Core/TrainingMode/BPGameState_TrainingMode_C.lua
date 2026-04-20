@@ -1,0 +1,11 @@
+---@class BPGameState_TrainingMode_C:ASTExtraGameStateBase
+---@field GetLuaModule:fun():FString
+---@field OnAddTrainingPlayerListByController:fun(InPlayerController:ASTExtraPlayerController)
+---@field OnRemoveTrainingPlayerList:fun(InPlayerKey:int64)
+---@field IsContainsPlayer:fun(NewParam:FTrainingPlayerInfo):bool
+---@field OnAddTrainingPlayerList:fun(InPlayerData:FTrainingPlayerInfo)
+---@field UserConstructionScript:fun()
+---@field TriggerLevels UTriggerLevelsComponent
+---@field BP_ObjectPosMgr BP_ObjectPosMgr_C
+---@field DefaultSceneRoot USceneComponent
+---@field PlayerMemberList ULuaArrayHelper

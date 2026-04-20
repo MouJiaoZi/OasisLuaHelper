@@ -1,0 +1,3 @@
+---@class PMode_MedicSoldierStateTips_UIBP_Interface_C:UInterface
+---@field SetOwnerActor:fun(InActor:AActor)
+---@field SetHitActor:fun(InActor:AActor)

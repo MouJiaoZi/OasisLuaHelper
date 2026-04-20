@@ -1,0 +1,5 @@
+---@class BombInstallArea_C:AActor
+---@field GetLuaModule:fun():FString
+---@field UserConstructionScript:fun()
+---@field TriggerBox UBoxComponent
+---@field DefaultSceneRoot USceneComponent

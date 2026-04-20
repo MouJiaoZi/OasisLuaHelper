@@ -1,0 +1,1 @@
+---@class BP_Stock_M249_HYJJ_A_C:BP_Stock_M249_C

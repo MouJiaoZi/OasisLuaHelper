@@ -1,0 +1,10 @@
+---@class TrainingChatMsg_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field Construct:fun()
+---@field Button_Chat UNewButton
+---@field ChatAndChatPanelCanvas UCanvasPanel
+---@field ChatScrollBox UScrollBox
+---@field CustomizeChat CustomizeCanvasPanel_BP_C
+---@field Image_NotifyEffect UImage
+---@field UTRichTextBlock_One UUTRichTextBlock
+---@field UTRichTextBlock_Two UUTRichTextBlock

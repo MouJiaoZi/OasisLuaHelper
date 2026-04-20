@@ -1,0 +1,16 @@
+---@class BP_FortressGroupSpotB_C:AUAEHouseActor
+---@field UserConstructionScript:fun()
+---@field BP_ItemSpotComponent12 BP_ItemSpotComponent_C
+---@field BP_ItemSpotComponent11 BP_ItemSpotComponent_C
+---@field BP_ItemSpotComponent10 BP_ItemSpotComponent_C
+---@field BP_ItemSpotComponent9 BP_ItemSpotComponent_C
+---@field BP_ItemSpotComponent8 BP_ItemSpotComponent_C
+---@field BP_ItemSpotComponent7 BP_ItemSpotComponent_C
+---@field BP_ItemSpotComponent6 BP_ItemSpotComponent_C
+---@field BP_ItemSpotComponent5 BP_ItemSpotComponent_C
+---@field BP_ItemSpotComponent4 BP_ItemSpotComponent_C
+---@field BP_ItemSpotComponent3 BP_ItemSpotComponent_C
+---@field BP_ItemSpotComponent2 BP_ItemSpotComponent_C
+---@field BP_ItemSpotComponent1 BP_ItemSpotComponent_C
+---@field BP_ItemSpotComponent BP_ItemSpotComponent_C
+---@field BP_ItemSpotGroupComponent BP_ItemSpotGroupComponent_C

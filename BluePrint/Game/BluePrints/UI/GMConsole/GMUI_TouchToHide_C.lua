@@ -1,0 +1,51 @@
+---@class GMUI_TouchToHide_C:UUAEUserWidget
+---@field RefreshSwitcher:fun()
+---@field RevertAtIndex:fun(Index:int32)
+---@field RefreshActorList:fun()
+---@field RefreshHideNum:fun()
+---@field TouchToHideIngame_RefreshFocusActorMsg:fun()
+---@field TouchToHideIngame_Init:fun(Actor:GM_TouchToHide_C)
+---@field Construct:fun()
+---@field TouchToHide_RevertAtIndex:fun(Index:int32)
+---@field TouchToHide_RefreshHideNum:fun()
+---@field TouchToHide_RefreshActorList:fun()
+---@field Button_CloseInput UButton
+---@field Button_DisDrawDebug UButton
+---@field Button_DrawDebug UButton
+---@field Button_HideDistant UButton
+---@field Button_HideFog UButton
+---@field Button_HideFoliage UButton
+---@field Button_HideMyLandscape UButton
+---@field Button_HidePickUp UButton
+---@field Button_HideSky UButton
+---@field Button_HideWater UButton
+---@field Button_OpenInput UButton
+---@field Button_RevertAll UButton
+---@field Button_RevertLast UButton
+---@field Button_ShowDistant UButton
+---@field Button_ShowFog UButton
+---@field Button_ShowFoliage UButton
+---@field Button_ShowMyLandscape UButton
+---@field Button_ShowPickUp UButton
+---@field Button_ShowSky UButton
+---@field Button_ShowWater UButton
+---@field Button_StartTouchToHide UButton
+---@field Button_StopTouchToHide UButton
+---@field Button_UseFootstep UButton
+---@field Button_UseVisibility UButton
+---@field EditableTextBox_Distance UEditableTextBox
+---@field GridPanel_ActorList UGridPanel
+---@field TextBlock_HideNum UTextBlock
+---@field WidgetSwitcher_0 UWidgetSwitcher
+---@field WidgetSwitcher_Distant UWidgetSwitcher
+---@field WidgetSwitcher_DrawDebug UWidgetSwitcher
+---@field WidgetSwitcher_Fog UWidgetSwitcher
+---@field WidgetSwitcher_Foliage UWidgetSwitcher
+---@field WidgetSwitcher_Input UWidgetSwitcher
+---@field WidgetSwitcher_MyLandscape UWidgetSwitcher
+---@field WidgetSwitcher_PickUp UWidgetSwitcher
+---@field WidgetSwitcher_SkySphere UWidgetSwitcher
+---@field WidgetSwitcher_UseCursor UWidgetSwitcher
+---@field WidgetSwitcher_Water UWidgetSwitcher
+---@field TouchToHideActor GM_TouchToHide_C
+---@field MaxListNum int32

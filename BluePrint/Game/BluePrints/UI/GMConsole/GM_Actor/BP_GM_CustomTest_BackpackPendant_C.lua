@@ -1,0 +1,5 @@
+---@class BP_GM_CustomTest_BackpackPendant_C:AActor
+---@field UserConstructionScript:fun()
+---@field DefaultSceneRoot USceneComponent
+---@field TestBackpackList ULuaArrayHelper
+---@field TestBackpackPendantList ULuaArrayHelper

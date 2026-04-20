@@ -1,0 +1,1 @@
+---@class BP_ItemsBoxConfigWeapon_C:UBP_ItemsBoxDataConfig_C

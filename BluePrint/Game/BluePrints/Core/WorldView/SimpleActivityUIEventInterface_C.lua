@@ -1,0 +1,2 @@
+---@class SimpleActivityUIEventInterface_C:UInterface
+---@field OnCloseUI:fun(UIIndex:int32)

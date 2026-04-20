@@ -1,0 +1,37 @@
+---@class GT_FakeAICharacter_C:BP_PlayerPawn_C
+---@field GetLuaModule:fun():FString
+---@field UpdateWeaponMaterial:fun(AsyncLoadID:int32,AvatarCom:UAvatarComponent)
+---@field LoadedWeapon:fun(NewParam:ESurviveWeaponPropSlot)
+---@field UpdateMaterial:fun(NewParam:UAvatarComponent)
+---@field LuaEndPlay:fun()
+---@field SetAIPathNode:fun(NewParam:AActor,NewParam1:bool)
+---@field LuaAnyDamage:fun(NewParam:float)
+---@field LuaClientSimlateDamage:fun(NewParam:float)
+---@field LuaUpdatePoseType:fun()
+---@field LuaDead:fun(NewParam1:AController)
+---@field GetCurSpeed:fun():float
+---@field GetDestinPath:fun():USplineComponent
+---@field FillSplineList:fun()
+---@field SetBlackboardIntValue:fun(ParamName:FName,ParamValue:int32)
+---@field UserConstructionScript:fun()
+---@field ReceiveAnyDamage:fun(Damage:float,DamageType:UDamageType,InstigatedBy:AController,DamageCauser:AActor)
+---@field BPOnRespawned:fun()
+---@field ReceiveEndPlay:fun(EndPlayReason:EEndPlayReason)
+---@field GameModeActor AActor
+---@field CurMoveType int32
+---@field SpeedWalk float
+---@field SpeeRun float
+---@field SpeedProne float
+---@field SpeedJump float
+---@field AIPlayerName FString
+---@field CurrentHP float
+---@field MaxHP float
+---@field AIPathTag FString
+---@field AIPath USplineComponent
+---@field DefaultItemList ULuaArrayHelper
+---@field IsDead bool
+---@field AIPathNode AActor
+---@field InitAIPathNodeCache AActor
+---@field AIPathActor AActor
+---@field NeedShowMaterial bool
+---@field ShowPos bool

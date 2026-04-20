@@ -1,0 +1,12 @@
+---@class BP_LeafAmbientSource_C:AActor
+---@field StopSound:fun()
+---@field PlaySound:fun()
+---@field UserConstructionScript:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field ReceiveEndPlay:fun(EndPlayReason:EEndPlayReason)
+---@field DefaultSceneRoot USceneComponent
+---@field RangeDadius float
+---@field bIsPlayingSound bool
+---@field RangeHeight float
+---@field AmbientSound UAkAudioEvent
+---@field AmbientSoundStop UAkAudioEvent

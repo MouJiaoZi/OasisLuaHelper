@@ -1,0 +1,13 @@
+---@class bp_rank_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_ARRAY_RankList ULuaArrayHelper
+---@field BP_RankInfoSelfBelow1wDisplay FString
+---@field BP_RankSelectItemUid FString
+---@field BP_RankScrollPos int32
+---@field BP_RankShowHelpContent FString
+---@field BP_RankShowRoleUid FString
+---@field BP_RankRegionType FString
+---@field BP_RankUpdateIdx int32
+---@field BP_RankSelectMemberType FString
+---@field BP_RankSelectType FString

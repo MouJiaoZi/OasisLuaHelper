@@ -1,0 +1,51 @@
+---@class BP_WarteringAreaBase_FixM2_C:ABP_WarteringAreaBase_C
+---@field CanTriggertEvent:fun(CurPawn:APawn):bool
+---@field MoveOtherPlayersBackwrad:fun()
+---@field LoadMeshMatIns:fun()
+---@field AttachMeshBacktoPawn:fun()
+---@field RemoveTickPrerequisite:fun()
+---@field AddTickPrerequisite:fun()
+---@field EnableWeaponAnimBlend:fun(Enable:bool)
+---@field CopyPlayerCameraDataToCameraWhenReload:fun()
+---@field CopyPlayerCameraDataToCameraWhenGetOn:fun()
+---@field EnsureLocalView:fun():bool
+---@field GetOrSetPlayerType:fun()
+---@field SetObserverCameraUseCompRot:fun(bUse:bool)
+---@field UpdateTemperatureEffect:fun(Param:float)
+---@field AttachPawnToWeapon:fun(CheckLocalControl:bool)
+---@field AttachPawnToBase:fun(CheckLocalControl:bool)
+---@field AttachFPPCameraBackToPawn:fun(DisuseWeapon:bool)
+---@field AttachFPPCameraToWeapon:fun()
+---@field UpdateAnimRot:fun(Rot:FRotator)
+---@field IsLocalOrSpectorPlayer:fun(Player:ASTExtraCharacter):bool
+---@field UserConstructionScript:fun()
+---@field K2_OnBecomeViewTarget:fun(PC:APlayerController)
+---@field K2_OnEndViewTarget:fun(PC:APlayerController)
+---@field Capsule4 UCapsuleComponent
+---@field ExcludeCapsule UCapsuleComponent
+---@field Capsule3 UCapsuleComponent
+---@field Capsule2 UCapsuleComponent
+---@field Capsule1 UCapsuleComponent
+---@field P_Smoke_Gun_01 UParticleSystemComponent
+---@field BurstTemperature UBurstTemperatureComponent
+---@field SK_WEP_M2 USkeletalMeshComponent
+---@field SK_WEP_Base_M2 UStaticMeshComponent
+---@field FixWeaponManager UFixWeaponManagerComponent
+---@field Camera UCameraComponent
+---@field IsPlayingAnim bool
+---@field Counter int32
+---@field SavedTemperature float
+---@field CacheOldFPPSpringArmRelativeTrans FTransform
+---@field CacheOldFPPSpringArmAttachSocket FName
+---@field YawOffsetParam float
+---@field CacheFppSpringArm USpringArmComponent
+---@field WeaponMeshMatIns UMaterialInstanceDynamic
+---@field ActorMeshMatIns UMaterialInstanceDynamic
+---@field CacheIsLocalOrSpectorPlayer bool
+---@field PlayerOldCameraLoc FVector
+---@field MoveOtherPlayersBackwradDis float
+---@field ReachMaxTemperatureSound UAkAudioEvent
+---@field StopReachMaxTemperatureSound UAkAudioEvent
+---@field FPPSpringArmParams FSpringArmParams
+---@field ADSSpringArmParams FSpringArmParams
+---@field SkillRawRef UClass

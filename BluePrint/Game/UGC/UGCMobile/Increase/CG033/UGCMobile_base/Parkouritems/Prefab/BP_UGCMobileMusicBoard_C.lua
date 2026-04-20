@@ -1,0 +1,42 @@
+---@class BP_UGCMobileMusicBoard_C:BP_UGCMobileBaseActor_C
+---@field GetLuaModule:fun():FString
+---@field LuaPostSpawnActorAndDragFinish:fun()
+---@field OnReceiveTakeDamageEvent:fun(DamageItemID:int32,EventInstigator:AController,DamageCauser:AActor,DamageAmount:float)
+---@field OnBeginPlayMap:fun()
+---@field UserConstructionScript:fun()
+---@field PostSpawnActorAndDragFinish:fun()
+---@field STBuildSystem USTBuildSystemComponent
+---@field SideMesh UStaticMeshComponent
+---@field CenterMesh UStaticMeshComponent
+---@field P_MusicEffect UParticleSystemComponent
+---@field BP_UGCDamageableActorComponent BP_UGCDamageableActorComponent_C
+---@field OverlapCheckArea UOverlapCheckAreaComponent
+---@field OverlapBox UBoxComponent
+---@field MotherBoard UStaticMeshComponent
+---@field MusicType EUGCMusicType
+---@field InstrumentType EUGCMusicInstrumentType
+---@field MusicGroupType EUGCMusicGroupType
+---@field NotationPitchType S_NotationAndPitch
+---@field PlayTime float
+---@field Volume float
+---@field TriggerMode S_MusicBoardTriggerMode
+---@field ParticleColor FLinearColor
+---@field bTurnOffWhenTrigger bool
+---@field bShowInGame bool
+---@field bRoundFightReset bool
+---@field AkAudioEventMap ULuaMapHelper
+---@field EnableAction FUGCMobileObjectAction
+---@field DisableAction FUGCMobileObjectAction
+---@field PlayMusicAction FUGCMobileObjectAction
+---@field EnableEvent FUGCMobileObjectEvent
+---@field DisableEvent FUGCMobileObjectEvent
+---@field BeTriggerEvent FUGCMobileObjectEvent
+---@field bEnable bool
+---@field TimbreType EUGCTimbre
+---@field DrumKitMap ULuaMapHelper
+---@field NotationMeshList ULuaArrayHelper
+---@field PitchMeshList ULuaArrayHelper
+---@field InstrumentMeshList ULuaArrayHelper
+---@field MusicGroupSelectList ULuaMapHelper
+---@field NotationMIDINote ULuaArrayHelper
+---@field InstrumentSelectList ULuaMapHelper

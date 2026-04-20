@@ -1,0 +1,11 @@
+---@class NewTraining_RingBut_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field ButtonAction UNewButton
+---@field ButtonAddFriend UNewButton
+---@field ButtonBattle UNewButton
+---@field ButtonChat UNewButton
+---@field ButtonInteract UNewButton
+---@field ButtonTeamUp UNewButton
+---@field ButtonViewPlayerInfo UNewButton
+---@field NewButton_BG UNewButton
+---@field NewButton_Close UNewButton

@@ -1,0 +1,5 @@
+---@class FOBCameraPosition
+---@field PositionType CameraPositionType
+---@field Rot FRotator
+---@field Loc FVector
+---@field PlayerName FString

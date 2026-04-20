@@ -1,0 +1,14 @@
+---@class BackProfession_SkillList_UIBP_C:ULuaUserWidgetExtIngame
+---@field ResetOpenStatusInf:fun():bool
+---@field ClearOccupationSkillUI:fun()
+---@field RefreshOccupationSkillUI:fun(SkillHandleList:ULuaArrayHelper)
+---@field BackProfession_ListItem_UIBP BackProfession_ListItem_UIBP_C
+---@field BackProfession_ListItem_UIBP_0 BackProfession_ListItem_UIBP_C
+---@field BackProfession_ListItem_UIBP_1 BackProfession_ListItem_UIBP_C
+---@field BackProfession_ListItem_UIBP_2 BackProfession_ListItem_UIBP_C
+---@field CanvasPanel_1 UCanvasPanel
+---@field Image_ColorBG_List UImage
+---@field NewButton_Lookselect UNewButton
+---@field NewButton_return UNewButton
+---@field Text_PrtofessionName UTextBlock
+---@field ItemList ULuaArrayHelper

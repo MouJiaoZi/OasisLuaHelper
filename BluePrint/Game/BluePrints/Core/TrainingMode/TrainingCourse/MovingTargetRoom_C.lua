@@ -1,0 +1,326 @@
+---@class MovingTargetRoom_C:AActivityBaseActor
+---@field GetNetRelevancyGroup:fun():FNetRelevancyGroup
+---@field GetLuaModule:fun():FString
+---@field ManageReactionTarget:fun()
+---@field LuaReactionTrainBegin:fun()
+---@field ReactionTrainBegin:fun()
+---@field TrainEndDestroy:fun()
+---@field DestroyAllBunker:fun()
+---@field ControlSpeedByFrame:fun():float
+---@field TestForFixTargetForArray:fun(NewParam:ULuaArrayHelper)
+---@field PlayEndTrainAK:fun()
+---@field PlayBeginTrainAK:fun()
+---@field PreForFireMap:fun()
+---@field FixedTargetForArray:fun(NewParam:ULuaArrayHelper)
+---@field LuaTrainBegin:fun()
+---@field GetFireTimes:fun():int32
+---@field ClearData:fun()
+---@field RecoverClientUI:fun()
+---@field SendMessageToBoard:fun()
+---@field SetBeginTargetState:fun()
+---@field ManagerNetGroup:fun(NRG:FNetRelevancyGroup)
+---@field ResetState:fun()
+---@field RemoveUI:fun()
+---@field InitUI:fun()
+---@field DestroyAllTarget:fun()
+---@field HandleTargetDestroy:fun(Target:UObject)
+---@field ManageSpawnTarget:fun()
+---@field OrderForArray:fun(T:ULuaArrayHelper)
+---@field RandomForArray:fun(m:FTargetRandomBaseStruct)
+---@field TargetSpawnBegin:fun(NewParam:bool,NewParam1:FTargetRandomBaseStruct,NewParam2:ULuaArrayHelper)
+---@field UserConstructionScript:fun()
+---@field ReceiveEndPlay:fun(EndPlayReason:EEndPlayReason)
+---@field SetNetRelevancyGroup:fun(Group:FNetRelevancyGroup)
+---@field DestroyAllBunkerDelagate__DelegateSignature:fun()
+---@field DestroyDelegate__DelegateSignature:fun()
+---@field P90_Wrapper UChildActorComponent
+---@field ReactionTrainPoint USceneComponent
+---@field ChildActor18 UChildActorComponent
+---@field PointSceneComp13 PointSceneComp_C
+---@field WeaponScene USceneComponent
+---@field RankBoard UChildActorComponent
+---@field Dynamic_ShootingRange UStaticMeshComponent
+---@field ConveyPoint USceneComponent
+---@field BeginTargetHard UChildActorComponent
+---@field BeginTargetMid UChildActorComponent
+---@field BeginTargetEasy UChildActorComponent
+---@field Scene3 USceneComponent
+---@field InteractivePlace UChildActorComponent
+---@field ConveyPlace UChildActorComponent
+---@field Scene USceneComponent
+---@field ChildActor27 UChildActorComponent
+---@field ChildActor25 UChildActorComponent
+---@field ChildActor22 UChildActorComponent
+---@field ChildActor3 UChildActorComponent
+---@field Dynamic_ShootingRange_Target03 UStaticMeshComponent
+---@field Dynamic_ShootingRange_Target04 UStaticMeshComponent
+---@field P1_M3 PointSceneComp_C
+---@field P1_M2 PointSceneComp_C
+---@field P1_M1 PointSceneComp_C
+---@field P1_Dao3 PointSceneComp_C
+---@field P1_Dao2 PointSceneComp_C
+---@field P1_M4 PointSceneComp_C
+---@field P1_Lai2 PointSceneComp_C
+---@field P1_Lai1 PointSceneComp_C
+---@field P1_Ying3 PointSceneComp_C
+---@field P1_Ying2 PointSceneComp_C
+---@field P1_Ying1 PointSceneComp_C
+---@field P1_Dao1 PointSceneComp_C
+---@field E43 PointSceneComp_C
+---@field B43 PointSceneComp_C
+---@field E42 PointSceneComp_C
+---@field B42 PointSceneComp_C
+---@field E41 PointSceneComp_C
+---@field B41 PointSceneComp_C
+---@field E40 PointSceneComp_C
+---@field B40 PointSceneComp_C
+---@field Dynamic_ShootingRange_TV UStaticMeshComponent
+---@field E39 PointSceneComp_C
+---@field B39 PointSceneComp_C
+---@field E38 PointSceneComp_C
+---@field B38 PointSceneComp_C
+---@field E37 PointSceneComp_C
+---@field B37 PointSceneComp_C
+---@field E36 PointSceneComp_C
+---@field B36 PointSceneComp_C
+---@field E35 PointSceneComp_C
+---@field B35 PointSceneComp_C
+---@field E34 PointSceneComp_C
+---@field B34 PointSceneComp_C
+---@field E33 PointSceneComp_C
+---@field B33 PointSceneComp_C
+---@field E32 PointSceneComp_C
+---@field B32 PointSceneComp_C
+---@field E31 PointSceneComp_C
+---@field B31 PointSceneComp_C
+---@field E30 PointSceneComp_C
+---@field B30 PointSceneComp_C
+---@field E29 PointSceneComp_C
+---@field B29 PointSceneComp_C
+---@field P1_He3 PointSceneComp_C
+---@field P1_He1 PointSceneComp_C
+---@field P1_He2 PointSceneComp_C
+---@field ChildActor37 UChildActorComponent
+---@field ChildActor51 UChildActorComponent
+---@field ChildActor50 UChildActorComponent
+---@field ChildActor49 UChildActorComponent
+---@field ChildActor48 UChildActorComponent
+---@field ChildActor47 UChildActorComponent
+---@field ChildActor46 UChildActorComponent
+---@field ChildActor43 UChildActorComponent
+---@field ChildActor41 UChildActorComponent
+---@field ChildActor39 UChildActorComponent
+---@field ChildActor38 UChildActorComponent
+---@field ChildActor8 UChildActorComponent
+---@field ChildActor36 UChildActorComponent
+---@field ChildActor35 UChildActorComponent
+---@field ChildActor34 UChildActorComponent
+---@field ChildActor33 UChildActorComponent
+---@field ChildActor32 UChildActorComponent
+---@field ChildActor31 UChildActorComponent
+---@field ChildActor30 UChildActorComponent
+---@field ChildActor29 UChildActorComponent
+---@field ChildActor28 UChildActorComponent
+---@field ChildActor26 UChildActorComponent
+---@field ChildActor24 UChildActorComponent
+---@field ChildActor23 UChildActorComponent
+---@field ChildActor21 UChildActorComponent
+---@field ChildActor20 UChildActorComponent
+---@field ChildActor19 UChildActorComponent
+---@field ChildActor17 UChildActorComponent
+---@field ChildActor16 UChildActorComponent
+---@field ChildActor15 UChildActorComponent
+---@field ChildActor14 UChildActorComponent
+---@field ChildActor13 UChildActorComponent
+---@field ChildActor12 UChildActorComponent
+---@field ChildActor11 UChildActorComponent
+---@field ChildActor10 UChildActorComponent
+---@field ChildActor9 UChildActorComponent
+---@field ChildActor7 UChildActorComponent
+---@field ChildActor6 UChildActorComponent
+---@field ChildActor5 UChildActorComponent
+---@field ChildActor4 UChildActorComponent
+---@field ChildActor2 UChildActorComponent
+---@field ChildActor1 UChildActorComponent
+---@field ChildActor UChildActorComponent
+---@field M249__Wrapper UChildActorComponent
+---@field CrossBow_Wrapper UChildActorComponent
+---@field AWM_Wrapper1 UChildActorComponent
+---@field UMP9_Wrapper UChildActorComponent
+---@field P18C_Wrapper UChildActorComponent
+---@field P92_Wrapper UChildActorComponent
+---@field Desert_Wrapper UChildActorComponent
+---@field P1911_Wrapper UChildActorComponent
+---@field Tommy_Wrapper UChildActorComponent
+---@field Vector_Wrapper UChildActorComponent
+---@field Win94_Wrapper UChildActorComponent
+---@field Vz61_Wrapper UChildActorComponent
+---@field UZI_Wrapper UChildActorComponent
+---@field PP19_Wrapper UChildActorComponent
+---@field VSS_Wrapper UChildActorComponent
+---@field MP5K_Wrapper UChildActorComponent
+---@field R45_Wrapper UChildActorComponent
+---@field Sawed_Wrapper UChildActorComponent
+---@field S12K_Wrapper UChildActorComponent
+---@field DBS_Wrapper UChildActorComponent
+---@field S686_Wrapper UChildActorComponent
+---@field S1897_Wrapper UChildActorComponent
+---@field MK47_Wrapper UChildActorComponent
+---@field MK14_Wrapper UChildActorComponent
+---@field Groza_Wrapper UChildActorComponent
+---@field SKS_Wrapper UChildActorComponent
+---@field AKM_Wrapper UChildActorComponent
+---@field DP28_Wrapper UChildActorComponent
+---@field M24_Wrapper UChildActorComponent
+---@field Mosin__Wrapper UChildActorComponent
+---@field M762_Wrapper UChildActorComponent
+---@field Kar98k_Wrapper UChildActorComponent
+---@field R1895_Wrapper UChildActorComponent
+---@field SLR_Wrapper UChildActorComponent
+---@field Mini14_Wrapper UChildActorComponent
+---@field QBU_Wrapper UChildActorComponent
+---@field M16A4_Wrapper UChildActorComponent
+---@field G36C_Wrapper UChildActorComponent
+---@field AUG_Wrapper UChildActorComponent
+---@field SCAL_Wrapper UChildActorComponent
+---@field QBZ_Wrapper UChildActorComponent
+---@field M416_Wrapper UChildActorComponent
+---@field L16_Sequence UActorSequenceComponent
+---@field L15_Sequence UActorSequenceComponent
+---@field L14_Sequence UActorSequenceComponent
+---@field L13_Sequence UActorSequenceComponent
+---@field L12_Sequence UActorSequenceComponent
+---@field L11_Sequence UActorSequenceComponent
+---@field E10 PointSceneComp_C
+---@field E28 PointSceneComp_C
+---@field B28 PointSceneComp_C
+---@field E27 PointSceneComp_C
+---@field B27 PointSceneComp_C
+---@field E26 PointSceneComp_C
+---@field B26 PointSceneComp_C
+---@field E25 PointSceneComp_C
+---@field B25 PointSceneComp_C
+---@field E24 PointSceneComp_C
+---@field B24 PointSceneComp_C
+---@field E23 PointSceneComp_C
+---@field B23 PointSceneComp_C
+---@field E22 PointSceneComp_C
+---@field B22 PointSceneComp_C
+---@field E21 PointSceneComp_C
+---@field B21 PointSceneComp_C
+---@field E20 PointSceneComp_C
+---@field B20 PointSceneComp_C
+---@field E19 PointSceneComp_C
+---@field B19 PointSceneComp_C
+---@field E18 PointSceneComp_C
+---@field B18 PointSceneComp_C
+---@field E17 PointSceneComp_C
+---@field B17 PointSceneComp_C
+---@field E16 PointSceneComp_C
+---@field B16 PointSceneComp_C
+---@field E15 PointSceneComp_C
+---@field B15 PointSceneComp_C
+---@field E14 PointSceneComp_C
+---@field B14 PointSceneComp_C
+---@field E13 PointSceneComp_C
+---@field B13 PointSceneComp_C
+---@field E12 PointSceneComp_C
+---@field B12 PointSceneComp_C
+---@field E11 PointSceneComp_C
+---@field B11 PointSceneComp_C
+---@field B10 PointSceneComp_C
+---@field E9 PointSceneComp_C
+---@field B9 PointSceneComp_C
+---@field E8 PointSceneComp_C
+---@field B8 PointSceneComp_C
+---@field E7 PointSceneComp_C
+---@field B7 PointSceneComp_C
+---@field E6 PointSceneComp_C
+---@field B6 PointSceneComp_C
+---@field E5 PointSceneComp_C
+---@field B5 PointSceneComp_C
+---@field P7_T_R PointSceneComp_C
+---@field P6_T_R PointSceneComp_C
+---@field P5_T_R PointSceneComp_C
+---@field P4_T_R PointSceneComp_C
+---@field P3_T_R PointSceneComp_C
+---@field P2_T_R PointSceneComp_C
+---@field P1_T_R PointSceneComp_C
+---@field P7_B_R PointSceneComp_C
+---@field P6_B_R PointSceneComp_C
+---@field P5_B_R PointSceneComp_C
+---@field P4_B_R PointSceneComp_C
+---@field P3_B_R PointSceneComp_C
+---@field P2_B_R PointSceneComp_C
+---@field P1_B_R PointSceneComp_C
+---@field P7_T_L PointSceneComp_C
+---@field P6_T_L PointSceneComp_C
+---@field P5_T_L PointSceneComp_C
+---@field P4_T_L PointSceneComp_C
+---@field P3_T_L PointSceneComp_C
+---@field P2_T_L PointSceneComp_C
+---@field P1_T_L PointSceneComp_C
+---@field P7_B_L PointSceneComp_C
+---@field P6_B_L PointSceneComp_C
+---@field P5__B_L PointSceneComp_C
+---@field E4 PointSceneComp_C
+---@field B4 PointSceneComp_C
+---@field P4_B_L PointSceneComp_C
+---@field L10_Sequence UActorSequenceComponent
+---@field L9_Sequence UActorSequenceComponent
+---@field L8_Sequence UActorSequenceComponent
+---@field L7_Sequence UActorSequenceComponent
+---@field L6_Sequence UActorSequenceComponent
+---@field L5_Sequence UActorSequenceComponent
+---@field L4_Sequence UActorSequenceComponent
+---@field L3_Sequence UActorSequenceComponent
+---@field L2_Sequence UActorSequenceComponent
+---@field E3 PointSceneComp_C
+---@field B3 PointSceneComp_C
+---@field P3_B_L PointSceneComp_C
+---@field AreaDuplication UAreaDuplicationComponent
+---@field Start_Sequence UActorSequenceComponent
+---@field E2 PointSceneComp_C
+---@field B2 PointSceneComp_C
+---@field E1 PointSceneComp_C
+---@field B1 PointSceneComp_C
+---@field P2_B_L PointSceneComp_C
+---@field P1_B_L PointSceneComp_C
+---@field L1_Sequence UActorSequenceComponent
+---@field AllTarget ULuaArrayHelper
+---@field AllP ULuaMapHelper
+---@field TempArray ULuaArrayHelper
+---@field CurLevel int32
+---@field CurTargetNum int32
+---@field DestroyDelegate ULuaMulticastDelegate
+---@field PraticeTime int32
+---@field PraticeUI IndoorShooting_ScreenTips_UIBP_C
+---@field CurTime int32
+---@field PraticeTimeHandle FTimerHandle
+---@field DestroyTargetNum int32
+---@field CurDegree int32
+---@field NetRelevancyGroup FNetRelevancyGroup
+---@field CurAreaDuplicationID FAreaDuplicationID
+---@field ConveyBackLocation FVector
+---@field ConveyBackExtend FVector
+---@field CurPlayerController APlayerController
+---@field BisTrainEnd bool
+---@field DeltaZ int32
+---@field BisBeginOpenButton bool
+---@field OldFireNum int32
+---@field FireNum int32
+---@field CritNum int32
+---@field HitNum int32
+---@field WeaponHit ULuaMapHelper
+---@field EasyCoeff int32
+---@field NormalCoeff int32
+---@field HardCoeff int32
+---@field BaseGrade int32
+---@field AllGrade int32
+---@field BeginTrainAK UAkAudioEvent
+---@field EndTrainAK UAkAudioEvent
+---@field BPSpeedMul float
+---@field DestroyAllBunkerDelagate ULuaMulticastDelegate
+---@field ReactionPraticeTime int32
+---@field BisInTrain bool
+---@field ReactionRandomData FReactionRandom

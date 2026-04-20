@@ -1,0 +1,6 @@
+---@class BP_Sniper_AMR_TDM_C:BP_Sniper_AMR_C
+---@field UserConstructionScript:fun()
+---@field WeaponAnimList_Rifle_AMR1 WeaponAnimList_Rifle_AMR_C
+---@field WeaponPostFireState1 UWeaponPostFireState
+---@field WeaponPreFireState1 UWeaponPreFireState
+---@field bUseIdleAnim_0_0_0 bool

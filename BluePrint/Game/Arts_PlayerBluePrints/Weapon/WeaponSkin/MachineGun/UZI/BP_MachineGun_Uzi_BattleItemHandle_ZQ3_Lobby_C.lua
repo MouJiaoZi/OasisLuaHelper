@@ -1,0 +1,1 @@
+---@class BP_MachineGun_Uzi_BattleItemHandle_ZQ3_Lobby_C:UBackpackWeaponHandle

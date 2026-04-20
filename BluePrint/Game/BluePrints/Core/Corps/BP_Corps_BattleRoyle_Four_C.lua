@@ -1,0 +1,7 @@
+---@class BP_Corps_BattleRoyle_Four_C:ABattleRoyalCorpsWarMode
+---@field UserConstructionScript:fun()
+---@field AirAttack UAirAttackComponent
+---@field AirDrop UAirDropComponent
+---@field CircleMgr UCircleMgrComponent
+---@field BP_WeatherGeneratorComponent BP_WeatherGeneratorComponent_C
+---@field DefaultSceneRoot USceneComponent

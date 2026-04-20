@@ -1,0 +1,2 @@
+---@class Template_MachineGun_PP19_C:UGCBackpackShootWeaponHandle_BP_C
+---@field UGC_TemplateSaveItemID:fun():int32

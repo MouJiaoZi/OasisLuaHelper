@@ -1,0 +1,31 @@
+---@class BuildTips_UIBP_New_C:UUserWidget
+---@field OnTouchEnded:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field On_Border_Replace_MouseButtonDown_0:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field RefreshCDTime:fun(CrtCDTime:ULuaMapHelper,TotalCDTime:ULuaMapHelper)
+---@field ChangeOperType:fun(IsBuildType:bool,IsShowTip:bool)
+---@field OnTouchStarted:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field OnHide:fun()
+---@field OnShow:fun()
+---@field RefreshMateNum:fun(MateNumMap:ULuaMapHelper)
+---@field Init:fun(BuildComp:UBuildSystemComponent)
+---@field Construct:fun()
+---@field OnMouseLeave:fun(MouseEvent:FPointerEvent)
+---@field OnItemTouchStartEvent__DelegateSignature:fun(FingerIndex:ETouchIndex,IsBuildType:bool)
+---@field CanvasPanel_tips UCanvasPanel
+---@field HorizontalBox_BuildTipsColume UHorizontalBox
+---@field Replace_OFF UCanvasPanel
+---@field Replace_ON UCanvasPanel
+---@field TextBlock_Tip UTextBlock
+---@field WidgetSwitcher_Replace UWidgetSwitcher
+---@field MateTextMap ULuaMapHelper
+---@field MateDataTable UUAEDataTable
+---@field ItemList ULuaMapHelper
+---@field MetaNumMap ULuaMapHelper
+---@field MyBuildComp UBuildSystemComponent
+---@field OnItemTouchStartEvent ULuaMulticastDelegate
+---@field ShowTipsWaitTime float
+---@field CancelBuildWaitTime float
+---@field DragDetectLength float
+---@field OnItemBeSelectEvent ULuaMulticastDelegate
+---@field IsBuildType bool
+---@field ItemColumeMap ULuaMapHelper

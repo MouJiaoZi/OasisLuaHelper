@@ -1,0 +1,7 @@
+---@class UGCBPPlayerController_GunMaster1_C:ABP_STExtraPlayerController_C
+---@field GetLuaModule:fun():FString
+---@field UserConstructionScript:fun()
+---@field OnGameModeStateChanged:fun()
+---@field DamageReduction UDamageReductionComponent
+---@field BlockPlayReadySound bool
+---@field CheckReadySoundBlock bool

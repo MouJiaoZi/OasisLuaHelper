@@ -1,0 +1,11 @@
+---@class KillTip_KilledStyleTwo_UIBP_C:UKillTip_Base_UIBP_C
+---@field OnKillCountUILoaded:fun(LoadedWidget:UUserWidget)
+---@field ShowKillOrPutDownInfo:fun(MsgData:FKillOrPutDownMessage):bool
+---@field ExcellentOperation_KillOtherStyle2 ExcellentOperationTip_UIBP_C
+---@field Image_platformIcon1 UImage
+---@field KillNum_Style2 UUTRichTextBlock
+---@field KillOtherTipContent_Style2 UUTRichTextBlock
+---@field Socket_KillCount UCustomSocketPanel
+---@field TextBlock_PlatformPlayerName1 UTextBlock
+---@field TempKillTipsData FExtractDamageParamKillTipsData
+---@field TempKillTipsUIRef UUAEUserWidget

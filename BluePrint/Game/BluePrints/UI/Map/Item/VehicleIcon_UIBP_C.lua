@@ -1,0 +1,4 @@
+---@class VehicleIcon_UIBP_C:UMapUIMarkBaseWidget
+---@field UpdateUIBPState:fun(InState:FCustomMarkEventData)
+---@field OnUIBPShow:fun(InState:FCustomMarkEventData)
+---@field Image_Icon UImage

@@ -1,0 +1,36 @@
+---@class NewResult_MVP_UIBP_C:UUAEUserWidget
+---@field ImageCallBack:fun()
+---@field ReportContinueForReplay:fun()
+---@field ShowTeamResultInReplay:fun()
+---@field LoadTeamAvatarLevelFinish:fun()
+---@field SetLightEnable:fun(IsEnable:bool,LightTag:FName)
+---@field GetMyName:fun():FString
+---@field ShowMVPScene:fun()
+---@field GetTeamMVPActionID:fun():int32
+---@field GetTeamMVPDisplayDirector:fun():ABattleSceneAvatarDisplayDirector
+---@field PlayTeamMVPAnimMsg:fun()
+---@field PlayMVPAnim:fun(MVPName:FString,AnimID:int32,MVPDirector:ABattleSceneAvatarDisplayDirector)
+---@field MVPPawnUseFixedSkelBounds:fun(IsUseFixedSkelBounds:bool,MVPPosCom:UBattleSceneAvatarDisplayPoseComponent)
+---@field GetMVPDisplayLevelName:fun():FString
+---@field CallResultFunction:fun(Func:FString)
+---@field DisplayTeamMVP:fun()
+---@field Construct:fun()
+---@field DX_MVP UWidgetAnimation
+---@field CanvasPanel_CommonAvatar UCanvasPanel
+---@field Common_Avatar_BP Common_Avatar_BP_C
+---@field Common_RankTitleInfo_UIBP Common_RankTitleInfo_UIBP_C
+---@field Ingame_TrumpMarkItem_UIBP Ingame_TrumpMarkItem_UIBP_C
+---@field MicroMatch_MyselfInfor DT_MicroMatch_ShareInforItem2_UIBP_C
+---@field NewButton_Continu UNewButton
+---@field ScaleBox_Hole UScaleBox
+---@field TextBlock_AssistNum UTextBlock
+---@field TextBlock_hurtNum UTextBlock
+---@field TextBlock_KillNum UTextBlock
+---@field TextBlock_MVP_PlayerName2 UTextBlock
+---@field TextBlock_PlayerName UTextBlock
+---@field TextBlock_Score UTextBlock
+---@field WidgetSwitcher_MVP_Gender UWidgetSwitcher
+---@field DefaultMVPActionList ULuaArrayHelper
+---@field TeamMVPName FString
+---@field MVPActionID int32
+---@field GotLoadTeamAvatarLevelFinishMsg bool

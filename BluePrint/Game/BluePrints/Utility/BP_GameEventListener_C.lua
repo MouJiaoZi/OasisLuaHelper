@@ -1,0 +1,11 @@
+---@class BP_GameEventListener_C:UGameEventListener
+---@field SetDefaultNearClipPlane:fun()
+---@field IsIOSPlatform:fun():bool
+---@field SetDefaultRendering:fun()
+---@field EnableGrassLOD:fun(enable:int32)
+---@field ChangeStreamingLevel:fun(bFlying:bool)
+---@field InitIncaseReconnect:fun()
+---@field ReceiveBeginPlay:fun()
+---@field ReceiveEndPlay:fun(EndPlayReason:EEndPlayReason)
+---@field FLYTREE FName
+---@field bFlyTreeLoaded bool

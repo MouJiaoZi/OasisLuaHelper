@@ -1,0 +1,6 @@
+---@class FCAvatarData
+---@field PlayerUID FString
+---@field IconURL FString
+---@field Gender int32
+---@field FrameLevel int32
+---@field PlayerLevel int32

@@ -1,0 +1,8 @@
+---@class BP_ClassicTeamMVPDisplayDirector_C:ABattleSceneAvatarDisplayDirector
+---@field ConstructMVPActionHandle:fun(InMVPActionID:int32):UObject
+---@field UserConstructionScript:fun()
+---@field AvatarDisplay_sky11 UStaticMeshComponent
+---@field AvatarDisplay_sky1 UStaticMeshComponent
+---@field AvatarGlobalMVP BP_BattleSceneAvatarPoseComponent_C
+---@field Camera UCameraComponent
+---@field Scene USceneComponent

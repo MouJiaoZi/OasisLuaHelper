@@ -1,0 +1,27 @@
+---@class BP_PlacableActorPlacementChecker_C:AActor
+---@field CheckFlatHeightDifference:fun():bool,bool
+---@field CheckHasPlacedNumber:fun():bool
+---@field LoadClass:fun(PathString:FString):UClass
+---@field IsLegalActor:fun(ActorClass:UClass):bool
+---@field SnapToGround:fun(MoveActor:bool):FVector,bool,bool
+---@field CheckOverlap:fun():bool
+---@field UserConstructionScript:fun()
+---@field ReceiveDestroyed:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field Cube UStaticMeshComponent
+---@field Box UBoxComponent
+---@field DefaultSceneRoot USceneComponent
+---@field Placable bool
+---@field PlacableActorClass UClass
+---@field SnapToGroundMoveActorOffset FVector
+---@field DisallowedActorSurface ULuaArrayHelper
+---@field DoNothing bool
+---@field MaxAllowedNumber int32
+---@field SoftPlacableActorTemplateClass UClass
+---@field PlacableActorTemplateClass UClass
+---@field InvalidMaterialInstance UMaterialInstance
+---@field ValidMaterialInstance UMaterialInstance
+---@field SkillId int32
+---@field AllowedHeight float
+---@field FlatHeightDifference float
+---@field OriginalRelativeLocationZ float

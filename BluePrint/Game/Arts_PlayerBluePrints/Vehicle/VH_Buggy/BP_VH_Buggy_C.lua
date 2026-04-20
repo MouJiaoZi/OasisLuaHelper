@@ -1,0 +1,5 @@
+---@class BP_VH_Buggy_C:BP_STExtraWheeledVehicle_C
+---@field UserConstructionScript:fun()
+---@field VehicleSkillManager VehicleSkillManager_C
+---@field UAEChaVehAnimList_Passenger UUAEChaVehAnimListComponent
+---@field UAEChaVehAnimList_Driver UUAEChaVehAnimListComponent

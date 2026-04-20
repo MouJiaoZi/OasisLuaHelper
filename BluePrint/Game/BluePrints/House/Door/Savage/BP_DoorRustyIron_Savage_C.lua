@@ -1,0 +1,1 @@
+---@class BP_DoorRustyIron_Savage_C:ABP_Doormetallic_C

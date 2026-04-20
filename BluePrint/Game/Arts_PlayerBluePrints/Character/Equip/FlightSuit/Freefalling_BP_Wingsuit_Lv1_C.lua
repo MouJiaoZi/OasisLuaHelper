@@ -1,0 +1,1 @@
+---@class Freefalling_BP_Wingsuit_Lv1_C:BattleItemHandle_AvatarBP_C

@@ -1,0 +1,11 @@
+---@class VH_DesertCar_C:BP_STExtraWheeledVehicle_C
+---@field UserConstructionScript:fun()
+---@field OnSetTailLightValue:fun(LightValue:float)
+---@field OnEngineStart:fun()
+---@field OnEngineStop:fun()
+---@field SetAvatarMID:fun(MatDMI:UMaterialInterface)
+---@field UAEChaVehAnimList_PassengersR UUAEChaVehAnimListComponent
+---@field UAEChaVehAnimList_PassengersL UUAEChaVehAnimListComponent
+---@field UAEChaVehAnimList_Driver UUAEChaVehAnimListComponent
+---@field NewVar_0_0 UCurveFloat
+---@field HasOccupier bool

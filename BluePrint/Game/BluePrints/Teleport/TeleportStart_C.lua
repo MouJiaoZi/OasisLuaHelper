@@ -1,0 +1,9 @@
+---@class TeleportStart_C:AActor
+---@field COND:fun(NewParam:FGISCCF_Param):bool
+---@field FindRandomTarget:fun(PC:APlayerController):FVector
+---@field UserConstructionScript:fun()
+---@field GISActorComponentBase UGISActorComponentBase
+---@field Box UBoxComponent
+---@field Sphere USphereComponent
+---@field StaticMesh UStaticMeshComponent
+---@field DefaultSceneRoot USceneComponent

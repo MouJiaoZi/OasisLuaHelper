@@ -1,0 +1,7 @@
+---@class OB_SkipTimeline_Popups_UIBP_C:UUAEUserWidget
+---@field NewButton_Close UNewButton
+---@field NewButton_Confirm UNewButton
+---@field TextBlock_Duration UTextBlock
+---@field TextBlock_Note UTextBlock
+---@field TextBox_Hour UMultiLineEditableTextBox
+---@field TextBox_Minute UMultiLineEditableTextBox

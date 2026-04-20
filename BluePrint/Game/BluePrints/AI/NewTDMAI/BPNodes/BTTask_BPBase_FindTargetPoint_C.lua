@@ -1,0 +1,4 @@
+---@class BTTask_BPBase_FindTargetPoint_C:UBTTask_BlueprintBase
+---@field OutTargetPoint FBlackboardKeySelector
+---@field InverseTeamID bool
+---@field HasTeamID bool

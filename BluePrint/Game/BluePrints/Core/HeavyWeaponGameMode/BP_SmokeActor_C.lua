@@ -1,0 +1,7 @@
+---@class BP_SmokeActor_C:AActor
+---@field UserConstructionScript:fun()
+---@field ReceiveHit:fun(MyComp:UPrimitiveComponent,Other:AActor,OtherComp:UPrimitiveComponent,bSelfMoved:bool,HitLocation:FVector,HitNormal:FVector,NormalImpulse:FVector,Hit:FHitResult)
+---@field Ak UAkComponent
+---@field StaticMesh UStaticMeshComponent
+---@field ProjectileMovement UProjectileMovementComponent
+---@field bSmokePlayed bool

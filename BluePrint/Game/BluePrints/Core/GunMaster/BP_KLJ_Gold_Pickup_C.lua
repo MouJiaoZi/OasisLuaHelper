@@ -1,0 +1,10 @@
+---@class BP_KLJ_Gold_Pickup_C:APickUpWrapperActor
+---@field SetStaticMesh:fun(StaticMeshComponent:UStaticMeshComponent,StaticMesh:UStaticMesh)
+---@field OnStaticMeshAsyncLoaded:fun(StaticMesh:UObject,Count:int32)
+---@field InvalidateStaticMeshComponent:fun()
+---@field UserConstructionScript:fun()
+---@field BPOnRespawned:fun()
+---@field StaticMeshComponent UStaticMeshComponent
+---@field CountToStaticMeshes ULuaMapHelper
+---@field CountToStaticMesheObjects ULuaMapHelper
+---@field LastAsyncLoadCount int32

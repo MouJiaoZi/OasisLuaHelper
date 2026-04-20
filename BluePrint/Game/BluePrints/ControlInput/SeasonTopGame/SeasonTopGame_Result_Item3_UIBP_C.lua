@@ -1,0 +1,8 @@
+---@class SeasonTopGame_Result_Item3_UIBP_C:UUAEUserWidget
+---@field HighlightText:fun()
+---@field LobbyTeam_Logo_UIBP LobbyTeam_Logo_UIBP_C
+---@field TextBlock_31 UTextBlock
+---@field TextBlock_KillScore UTextBlock
+---@field TextBlock_Rank UTextBlock
+---@field TextBlock_RankScore UTextBlock
+---@field TextBlock_WeekScore UTextBlock

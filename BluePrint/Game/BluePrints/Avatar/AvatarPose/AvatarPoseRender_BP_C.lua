@@ -1,0 +1,9 @@
+---@class AvatarPoseRender_BP_C:AAvatarPoseRender
+---@field UserConstructionScript:fun()
+---@field ReceiveEndPlay:fun(EndPlayReason:EEndPlayReason)
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field PlayerGetFrozen UAkAudioEvent
+---@field PlayerEndFrozen UAkAudioEvent
+---@field FX_EndPlay UParticleSystem
+---@field PlayerEndFrozenSound UAkAudioEvent
+---@field FX_EndPlayCache UParticleSystem

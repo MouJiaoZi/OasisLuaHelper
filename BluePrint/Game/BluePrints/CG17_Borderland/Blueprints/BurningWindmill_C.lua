@@ -1,0 +1,8 @@
+---@class BurningWindmill_C:AActivityBaseActor
+---@field UserConstructionScript:fun()
+---@field DamageCheck UBoxComponent
+---@field Fire UParticleSystemComponent
+---@field OverlapCheckArea UOverlapCheckAreaComponent
+---@field CustomNetRelevantByZ UCustomNetRelevantByZ
+---@field DefaultSceneRoot USceneComponent
+---@field BuffName FName

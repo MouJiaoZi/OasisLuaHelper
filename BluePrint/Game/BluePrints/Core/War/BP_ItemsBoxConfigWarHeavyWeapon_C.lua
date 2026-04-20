@@ -1,0 +1,1 @@
+---@class BP_ItemsBoxConfigWarHeavyWeapon_C:UBP_ItemsBoxConfigWar_C

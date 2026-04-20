@@ -1,0 +1,1 @@
+---@class BP_Other_MG36_BattleItemHandle_NNAB_B_Lobby_C:UBackpackWeaponHandle

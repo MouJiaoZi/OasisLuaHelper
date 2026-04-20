@@ -1,0 +1,15 @@
+---@class BackProfession_HeroName_UIBP_C:UUserWidget
+---@field ShowDefaultBG:fun()
+---@field OnSetBG:fun(Obj:UObject)
+---@field SetBG:fun(Path:FString)
+---@field OnSetIcon:fun(Obj:UObject)
+---@field SetIcon:fun(Path:FString)
+---@field SetSelectionText:fun(Name:FString)
+---@field ShowHideBGSelect:fun(BShow:bool)
+---@field Image_0 UImage
+---@field Image_BG UImage
+---@field Image_BGSelect UImage
+---@field Image_skill_Icon UImage
+---@field NewButton_select UNewButton
+---@field Text_heroname UTextBlock
+---@field DefaultBrush FSlateBrush

@@ -1,0 +1,7 @@
+---@class AirAttackRedZone_UIBP_C:UMapUIMarkBaseWidget
+---@field OnUIBPCreate:fun(InState:FCustomMarkEventData,ParentState:EMarkParentWidget,inRealLevelToMapScale:float,inMapScale:float)
+---@field UpdateMarkSize:fun(inScale:float,inMapScale:float,MapScaleInUI:float)
+---@field OnUIBPShow:fun(InState:FCustomMarkEventData)
+---@field Image_AirAttackZoneIcon UImage
+---@field AreaRadius float
+---@field ParentWidgetState EMarkParentWidget

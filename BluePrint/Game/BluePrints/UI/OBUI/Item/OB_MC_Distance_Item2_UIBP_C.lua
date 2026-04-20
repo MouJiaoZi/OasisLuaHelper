@@ -1,0 +1,7 @@
+---@class OB_MC_Distance_Item2_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field CanvasPanel_TeamName UCanvasPanel
+---@field Image_NoTeamName UImage
+---@field Image_TeamColor UImage
+---@field TextBlock_TeamID UTextBlock
+---@field TextBlock_TeamName UTextBlock

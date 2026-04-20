@@ -1,0 +1,1 @@
+---@class Qixi_UIBP_C:UMapUIMarkBaseWidget

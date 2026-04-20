@@ -1,0 +1,2 @@
+---@class OBBaseLogic_C:UUAEUserWidget
+---@field SetWeaponIconBase:fun(Icon:UImage):bool

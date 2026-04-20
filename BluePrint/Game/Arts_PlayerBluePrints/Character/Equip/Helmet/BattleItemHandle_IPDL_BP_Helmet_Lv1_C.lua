@@ -1,0 +1,1 @@
+---@class BattleItemHandle_IPDL_BP_Helmet_Lv1_C:BattleItemHandle_AvatarBP_C

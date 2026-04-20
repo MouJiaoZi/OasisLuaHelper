@@ -1,0 +1,16 @@
+---@class BP_DoorBaseInter_C:AActivityBaseActor
+---@field UpdateDoorState:fun()
+---@field GetElevator:fun():BP_ElevatoBaser_C
+---@field UpdateCurrentFloorNum:fun(CurrentFloorNum:int32)
+---@field UserConstructionScript:fun()
+---@field Close_Sequence UActorSequenceComponent
+---@field Door_R UStaticMeshComponent
+---@field Door_L UStaticMeshComponent
+---@field Scene USceneComponent
+---@field Box_R UBoxComponent
+---@field Box_L UBoxComponent
+---@field Open_Sequence UActorSequenceComponent
+---@field Close_process_Sequence UActorSequenceComponent
+---@field Open_process_Sequence UActorSequenceComponent
+---@field CurrentFloorNum int32
+---@field bIs_Overing bool

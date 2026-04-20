@@ -1,0 +1,19 @@
+---@class PMode_Sign_SceneNew_UIBP_C:UObjectPositionWidget
+---@field UpdateOwnerUI:fun()
+---@field OnPointOwnedIdChange:fun(NewParam:AHardPointActor,NewParam1:int32)
+---@field OnPointStateChanged:fun(NewParam:AHardPointActor,NewParam1:EHardPointOccupyState)
+---@field OnPointRemainTime:fun(TargetPoint:AHardPointActor,RemaindTime:int32)
+---@field BindEvent:fun(NewParam:AHardPointActor,NewParam1:bool)
+---@field OnHardPointChange:fun(NewHardPoint:AHardPointActor)
+---@field Event_SetExParam:fun(InParam:int32)
+---@field Event_InitParamEnd:fun()
+---@field CanvasPanel_OP_NewbieGuide01 UCanvasPanel
+---@field CanvasPanel_Sign_Direction UCanvasPanel
+---@field Image_Sign_ArrowLeft UImage
+---@field Image_Sign_ArrowRight UImage
+---@field TextBlock_Sign_Number UTextBlock
+---@field TextBlock_Sign_Status UTextBlock
+---@field TextBlock_Sign_SurplusTime UTextBlock
+---@field WidgetSwitcher_OP_Sign UWidgetSwitcher
+---@field CurrentHardPoint AHardPointActor
+---@field MyTeamID int32

@@ -1,0 +1,6 @@
+---@class ZombieNoteGroup_C:AUAEHouseActor
+---@field UserConstructionScript:fun()
+---@field BP_ZombieSpotComponent1 BP_WerewolfSpotComponent_C
+---@field BP_ZombieSpotComponent BP_WerewolfSpotComponent_C
+---@field BP_ZombieGroupSceneComponent BP_WerewolfGroupSceneComponent_C
+---@field DefaultSceneRoot USceneComponent

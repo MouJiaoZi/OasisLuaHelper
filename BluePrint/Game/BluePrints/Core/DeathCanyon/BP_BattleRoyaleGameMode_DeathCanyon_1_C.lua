@@ -1,0 +1,1 @@
+---@class BP_BattleRoyaleGameMode_DeathCanyon_1_C:ABP_BattleRoyaleGameMode_C

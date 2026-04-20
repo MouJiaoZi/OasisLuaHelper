@@ -1,0 +1,8 @@
+---@class FBP_Struct_GoodConfig
+---@field GoodItemID int32
+---@field Name FName
+---@field Price ULuaMapHelper
+---@field ItemDescID int32
+---@field ItemIcon FString
+---@field BuyConditionFunc ULuaMapHelper
+---@field TipsType int32

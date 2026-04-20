@@ -1,0 +1,8 @@
+---@class Tmode_Kill_UIBP_C:UUAEUserWidget
+---@field ShowUI:fun(DamageType:int32,ItemID:int32,Damage:int32)
+---@field RefreshWeaponIcon:fun(Obj:UObject)
+---@field GetIconByItemID:fun(ItemID:int32)
+---@field Image_Weapon UImage
+---@field TextBlock_Kill UTextBlock
+---@field DamageTypeIconMap ULuaMapHelper
+---@field KillfeedPunch FSoftObjectPath

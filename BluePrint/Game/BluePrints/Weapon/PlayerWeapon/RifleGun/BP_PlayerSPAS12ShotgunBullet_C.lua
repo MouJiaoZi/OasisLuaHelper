@@ -1,0 +1,4 @@
+---@class BP_PlayerSPAS12ShotgunBullet_C:ASTExtraShootWeaponBulletBase
+---@field UserConstructionScript:fun()
+---@field ParticleSystem UParticleSystemComponent
+---@field Sphere USphereComponent

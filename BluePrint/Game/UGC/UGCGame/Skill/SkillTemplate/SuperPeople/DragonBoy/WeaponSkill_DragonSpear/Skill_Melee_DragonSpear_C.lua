@@ -1,0 +1,1 @@
+---@class Skill_Melee_DragonSpear_C:PESkillTemplate_Base_C

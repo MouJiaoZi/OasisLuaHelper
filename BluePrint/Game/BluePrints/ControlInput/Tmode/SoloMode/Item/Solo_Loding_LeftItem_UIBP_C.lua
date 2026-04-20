@@ -1,0 +1,10 @@
+---@class Solo_Loding_LeftItem_UIBP_C:UUAEUserWidget
+---@field GetBadagImageByID:fun(ID:int32):FString
+---@field SetBadgeImage:fun(badge_array:ULuaArrayHelper,PlayerName:FString,Relasex:int32,IsHideName:bool,HideName:FString,IsSelf:bool,uid:FString)
+---@field BattleGenderUI_0 UBattleGenderUI
+---@field Common_Avatar_TC_Loading_Left Common_Avatar_BP_C
+---@field DynaCanvasPanel_Imprint UDynaCanvasPanel
+---@field Image_TC_Loading_Item_Badge1 UImage
+---@field Image_TC_Loading_Item_Badge2 UImage
+---@field TextBlock_Num UTextBlock
+---@field TextBlock_TC_Loading_PlayerName1 UTextBlock

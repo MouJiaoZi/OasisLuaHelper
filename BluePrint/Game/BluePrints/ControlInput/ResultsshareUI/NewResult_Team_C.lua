@@ -1,0 +1,232 @@
+---@class NewResult_Team_C:UUAEUserWidget
+---@field ShowSuperLikeTips:fun()
+---@field ShowNormalLikeTips:fun()
+---@field OnSuperLikeBtnClicked:fun(playerUId:FString,index:int32)
+---@field CampNoResultLoaded:fun(widget:UWidget)
+---@field ShowCampNoResult:fun()
+---@field CampSocketLoaded:fun()
+---@field UIMsg_ShowFactionResult:fun()
+---@field ImageCallBack:fun()
+---@field CallResultFunction:fun(Func:FString)
+---@field TitleTagUILoaded:fun()
+---@field GetPostableBattleMoment:fun()
+---@field ClearLikedPopTips:fun()
+---@field ProcessForReplay:fun()
+---@field ShowKLJTips:fun()
+---@field PeaceFulCallback:fun()
+---@field OnSayHelloItemBtnClicked:fun(uid:FString)
+---@field InitSingleMode:fun()
+---@field ShowAddFriendTips:fun()
+---@field NoTickReturnLobby:fun()
+---@field IsShowSingle:fun():bool
+---@field OnCreateTop:fun(obj:UClass,id:int32)
+---@field OnCreateBackUI:fun(obj:UClass,id:int32)
+---@field OnCreateDetailClass:fun(obj:UClass,id:int32)
+---@field GetCorrectStrategyURL:fun():FString
+---@field OnCanViewEnemy:fun()
+---@field HideRankingUI:fun()
+---@field ShowReplayWidgets:fun()
+---@field RefreshActivity:fun()
+---@field On_Image_BlackName_MouseButtonDown_0:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field SetPromotedRank:fun(rank:int32,text:UTextBlock)
+---@field StopOnceMoreBtnWaitingState:fun()
+---@field ResetLikeBtnState:fun()
+---@field InitLikeInfo:fun()
+---@field RefreshLikeInfo:fun()
+---@field On_ImageHideTitleTips_MouseButtonDown_0:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field ClickPlayerTitle:fun(Name:FString,Index:int32,AbsPos:FVector2D)
+---@field SetScoreImg:fun(FinalRankStr:FString)
+---@field GetWinType:fun():int32
+---@field SetResultText:fun()
+---@field ShowDetailRank:fun()
+---@field OnShowDetailCountDown:fun(Delta:float)
+---@field UpdateDeltaTime:fun(Delta:float)
+---@field BroadCastResultMsg:fun()
+---@field GetRadarDataByMode:fun():ULuaArrayHelper,ULuaArrayHelper
+---@field GetRadarTextByMode:fun():ULuaArrayHelper
+---@field UpdateRadar:fun(Name:ULuaArrayHelper,Data:ULuaArrayHelper,DataStr:ULuaArrayHelper)
+---@field UpdateRadarByMode:fun()
+---@field EnterTeamPoseStage:fun()
+---@field DelayShowReturnButton:fun()
+---@field OnCreateDetailTitleByMode:fun(obj:UClass,id:int32)
+---@field OnTimeOutExit:fun()
+---@field TickTimeOutExit:fun(deltaTime:float)
+---@field UIMsg_ShowTeamResultWithLoadLevel:fun()
+---@field ShowTeamResultWithoutLoadLevel:fun()
+---@field ShowLoadingUI:fun()
+---@field RealExitGame:fun()
+---@field SwitchShowRtnBtn:fun()
+---@field ShowOnceMoreBtn:fun()
+---@field ResetAvatarUIPos:fun(ScreenPos:FVector2D,Widget:UWidget,Type:FString)
+---@field InitAvatarUIItem:fun()
+---@field HideShareNodeWhenIOSCheck:fun()
+---@field InitShareInfo:fun()
+---@field OnBtnEnterPoseLevelClicked:fun(RealEnterAvatarScene:bool)
+---@field getAvatarLevelName:fun():FString
+---@field AddFriendClicked:fun(itemIndexInList:int32)
+---@field OnLikeTeammateBtnClicked:fun(playerID:FString)
+---@field TeamRankDetail:fun(enterSpectateMode:bool)
+---@field GetTeamPoseMap:fun()
+---@field GetFinalRank:fun(playerRank:int32,teamRank:int32,isSingle:bool):int32
+---@field TeamRank:fun()
+---@field DisplaySceneShowRating:fun()
+---@field RefreshRankInfoForTeam:fun()
+---@field GetEnemyMurderName:fun():FString
+---@field ShouldShowReportBtn:fun():bool
+---@field ShowReportBtn:fun()
+---@field SwitchStyleByMode:fun()
+---@field SetShareBtnState:fun()
+---@field GetModeUI:fun():FString
+---@field SetBtnDetailVisible:fun(InVisibility:ESlateVisibility)
+---@field GetMyName:fun():FString
+---@field SelectMyTitle:fun(TitleID:int32)
+---@field ActiveUI:fun()
+---@field InitStrategyBtnNode:fun()
+---@field InitRadarChart:fun()
+---@field ShowTeamResult:fun()
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field DX_Sendtips UWidgetAnimation
+---@field DX_Settlement UWidgetAnimation
+---@field DX_Evaluation UWidgetAnimation
+---@field BattleDetail UCanvasPanel
+---@field BottomPlayerItems UCanvasPanel
+---@field btn_OpenStrategy UButton
+---@field BtnBattleDetail UButton
+---@field BtnHideDetail UButton
+---@field Btnshare UHorizontalBox
+---@field Button_BackToLobby UButton
+---@field Button_BattleReplay UButton
+---@field Button_continue UButton
+---@field Button_oncemore UButton
+---@field Button_ShareGameData UButton
+---@field Button_SharePersonalRank UButton
+---@field Button_ShowPose UButton
+---@field Button_WatchingOtherPeople UButton
+---@field Canvas_Panel_victory2 UCanvasPanel
+---@field Canvas_TeamSocket UCanvasPanel
+---@field CanvasPanel_32 UCanvasPanel
+---@field CanvasPanel__TotalPoints UCanvasPanel
+---@field CanvasPanel_ActivityInfoTips UCanvasPanel
+---@field CanvasPanel_DataList UCanvasPanel
+---@field CanvasPanel_DoubleScore UCanvasPanel
+---@field CanvasPanel_DoubleUp UCanvasPanel
+---@field CanvasPanel_Elitebadge UCanvasPanel
+---@field CanvasPanel_FirstBattleTips UCanvasPanel
+---@field CanvasPanel_NotDropPoint UCanvasPanel
+---@field CanvasPanel_qipao UCanvasPanel
+---@field CanvasPanel_RankProtection UCanvasPanel
+---@field CanvasPanel_risk1 UCanvasPanel
+---@field CanvasPanel_team UCanvasPanel
+---@field CanvasPanel_TextTips02 UCanvasPanel
+---@field CanvasPanel_Yuanfen UCanvasPanel
+---@field GridPanel_IPX UGridPanel
+---@field Horizontal_TeamTopRanking UHorizontalBox
+---@field Image_oncemore_mask UImage
+---@field ImageHideTips UImage
+---@field ImageHideTitleTips UImage
+---@field ImageRadar UImage
+---@field ImageRadar1 UImage
+---@field ImageRadar2 UImage
+---@field ImageRadar3 UImage
+---@field ImageRadar4 UImage
+---@field ImageRadar5 UImage
+---@field MicroMatch_Infor DT_MicroMatch_ItemResult2_UIBP_C
+---@field NewButton_KLJ_Help01 UNewButton
+---@field NiceTipsNode UCanvasPanel
+---@field NodeOpenStrategy UCanvasPanel
+---@field Overlay_oncemore UOverlay
+---@field Panel_Share_Tips UGridPanel
+---@field Personal_Ranking UCanvasPanel
+---@field RadarData1 UTextBlock
+---@field RadarData2 UTextBlock
+---@field RadarData3 UTextBlock
+---@field RadarData4 UTextBlock
+---@field RadarData5 UTextBlock
+---@field RadarText1 UTextBlock
+---@field RadarText2 UTextBlock
+---@field RadarText3 UTextBlock
+---@field RadarText4 UTextBlock
+---@field RadarText5 UTextBlock
+---@field randomTips UTextBlock
+---@field Rank UCanvasPanel
+---@field RankProtection UWidgetSwitcher
+---@field Report UButton
+---@field ResultRankingAvataitem_UIBP1 ResultRankingAvataitem_UIBP_C
+---@field ResultRankingAvataitem_UIBP2 ResultRankingAvataitem_UIBP_C
+---@field ResultRankingAvataitem_UIBP3 ResultRankingAvataitem_UIBP_C
+---@field ResultRankingAvataitem_UIBP4 ResultRankingAvataitem_UIBP_C
+---@field ResultRankingtitle_UIBP ResultRankingtitle_UIBP_C
+---@field ScoreImg UImage
+---@field Sendtips UCanvasPanel
+---@field Socket_PeacefulLife UCustomSocketPanel
+---@field SocketPanel_Camp UCustomSocketPanel
+---@field SockTag UCustomSocketPanel
+---@field SRadarChartUserWidget_0 USRadarChartUserWidget
+---@field SuperLike UCustomSocketPanel
+---@field Text_Elitebadge01 UTextBlock
+---@field Text_Elitebadge02 UTextBlock
+---@field Text_RankProtection01 UTextBlock
+---@field Text_RankProtection02 UTextBlock
+---@field TextBlock_73 UTextBlock
+---@field TextBlock_95 UTextBlock
+---@field TextBlock_96 UTextBlock
+---@field TextBlock_Activity UTextBlock
+---@field TextBlock_ActivityDetailsTips UTextBlock
+---@field TextBlock_ActivityNameTips UTextBlock
+---@field TextBlock_ContinueCountDown UUTRichTextBlock
+---@field TextBlock_DoubleScore UTextBlock
+---@field TextBlock_DoubleUp UTextBlock
+---@field TextBlock_ExitCountDownTime UTextBlock
+---@field TextBlock_FirstBattle UTextBlock
+---@field TextBlock_NotDropPoint UTextBlock
+---@field TextBlock_oncemore UTextBlock
+---@field TextBlock_PersonalRanking UTextBlock
+---@field TextBlock_Rank UTextBlock
+---@field TextBlock_RingofDestinyTips3 UTextBlock
+---@field TextBlock_ShareTips UTextBlock
+---@field TextBlock_team UTextBlock
+---@field TextBlock_tips UTextBlock
+---@field TextBlock_win2 UTextBlock
+---@field TextBlock_Yuanfen UTextBlock
+---@field title_0 UCanvasPanel
+---@field title_1 UCanvasPanel
+---@field title_2 UCanvasPanel
+---@field title_3 UCanvasPanel
+---@field TitleGrid UGridPanel
+---@field UTRichTextBlock_KLJ_Text UUTRichTextBlock
+---@field VerticalBox_LeftTop UVerticalBox
+---@field VerticalBox_TeamRankList UVerticalBox
+---@field WaitingNode UCanvasPanel
+---@field WidgetSwitcher_2 UWidgetSwitcher
+---@field WidgetSwitcher_Btn UWidgetSwitcher
+---@field WidgetSwitcher_OpenDetail UWidgetSwitcher
+---@field WidgetSwitcher_Rank UWidgetSwitcher
+---@field TimeOutElapsed float
+---@field ShowDetailTimeCount float
+---@field RankingItemList ULuaArrayHelper
+---@field TitlePositionList ULuaArrayHelper
+---@field isTickTimeOut bool
+---@field myShowTitleID int32
+---@field battleDetailOrderArray ULuaArrayHelper
+---@field teamPoseArray ULuaArrayHelper
+---@field CachedAvatarLevelName FString
+---@field hasEnterPoseScene bool
+---@field canCountDown bool
+---@field AvatarDirector AvatarDisplayDirector_BP_C
+---@field ArrayBottomPlayerUI ULuaArrayHelper
+---@field isBattleDetailShowed bool
+---@field DelayShowReturnBtn bool
+---@field NeadLoadLevel bool
+---@field IsSharePanelOpenned bool
+---@field ShowDetail bool
+---@field ScoreImageMap ULuaMapHelper
+---@field DetailBG UUAEUserWidget
+---@field MyName FString
+---@field BtnOneMoreGameCD bool
+---@field IsSingleMode bool
+---@field bCanTickTime bool
+---@field LikedPopTips ULuaArrayHelper
+---@field CampNoResult UWidget
+---@field SuperLikeText ULuaArrayHelper
+---@field isSuperLiked bool
+---@field NormalLikeTipText ULuaArrayHelper

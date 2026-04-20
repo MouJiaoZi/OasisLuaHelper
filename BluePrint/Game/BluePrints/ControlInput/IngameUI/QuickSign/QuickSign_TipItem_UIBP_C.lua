@@ -1,0 +1,16 @@
+---@class QuickSign_TipItem_UIBP_C:UQuickSignMarkWidget
+---@field LoadIconFinished:fun(Icon:UObject,ResID:int32)
+---@field ShowSelf:fun(Loc:FVector,IconPath:FString,BGPath:FString,IconPathOuter:FString,BGPathOuter:FString,IsSelfMark:bool)
+---@field OnCenterOffsetChange:fun(CenterOffset:FVector2D)
+---@field Construct:fun()
+---@field OnWidgetAlphaChange:fun(NewAlpha:float)
+---@field Border_BG_Inner UBorder
+---@field Border_DistInfo UBorder
+---@field Image_BG_Inner UImage
+---@field Image_BG_Outer UImage
+---@field Image_Icon_Inner UImage
+---@field Image_Icon_Outer UImage
+---@field WidgetSwitcher_Content UWidgetSwitcher
+---@field DivisionFactor float
+---@field DivisionDistance float
+---@field IsInCenter bool

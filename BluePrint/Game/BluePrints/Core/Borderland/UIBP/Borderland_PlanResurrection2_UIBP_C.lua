@@ -1,0 +1,8 @@
+---@class Borderland_PlanResurrection2_UIBP_C:UUAEUserWidget
+---@field OnInitUI:fun()
+---@field RefreshReviveCount:fun()
+---@field ReceivedInitWidget:fun()
+---@field CanvasPanel_0 UCanvasPanel
+---@field CanvasPanel_Tips UCanvasPanel
+---@field TextBlock_1 UTextBlock
+---@field NewVar_0 FText

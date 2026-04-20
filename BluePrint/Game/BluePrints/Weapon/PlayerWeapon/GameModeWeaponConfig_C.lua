@@ -1,0 +1,1 @@
+---@class GameModeWeaponConfig_C:UGameModeWeaponConfigBase

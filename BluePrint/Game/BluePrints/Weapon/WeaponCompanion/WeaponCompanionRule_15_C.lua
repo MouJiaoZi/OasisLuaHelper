@@ -1,0 +1,6 @@
+---@class WeaponCompanionRule_15_C:UBP_WeaponCompanionRuleBase_C
+---@field OnInit:fun()
+---@field OnRemove:fun()
+---@field GrenadeObject AEliteProjectile
+---@field GrenadeBeatCount int32
+---@field GrenadeNeedBeatCount int32

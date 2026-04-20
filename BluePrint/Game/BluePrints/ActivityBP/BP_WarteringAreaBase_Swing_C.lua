@@ -1,0 +1,20 @@
+---@class BP_WarteringAreaBase_Swing_C:ABP_WarteringAreaBase_C
+---@field StaticsCalculation:fun(IsEnd:bool,PC:ASTExtraPlayerController)
+---@field UserConstructionScript:fun()
+---@field OnSkeletalAnimationSyncData:fun(InSkeletalAnimationSyncData:FSkeletalAnimationSyncData)
+---@field K2_OnBecomeViewTarget:fun(PC:APlayerController)
+---@field K2_OnEndViewTarget:fun(PC:APlayerController)
+---@field OnPlayerAttached:fun(AttachedPlayer:AActor,AttachedComponent:USceneComponent)
+---@field OnPlayerDetached:fun(AttachedPlayer:AActor,AttachedComponent:USceneComponent)
+---@field InstancedStaticMesh2 UInstancedStaticMeshComponent
+---@field CG03_SwingB_Rig USkeletalMeshComponent
+---@field CG03_SwingA_Rig USkeletalMeshComponent
+---@field Sphere1 USphereComponent
+---@field InstancedStaticMesh1 UInstancedStaticMeshComponent
+---@field Camera UCameraComponent
+---@field STExtraSpringArm USTExtraSpringArmComponent
+---@field IsPlayingAnim bool
+---@field Counter int32
+---@field PlayerTimerCount ULuaMapHelper
+---@field SwingAAnim UAnimSequence
+---@field SwingBAnim UAnimSequence

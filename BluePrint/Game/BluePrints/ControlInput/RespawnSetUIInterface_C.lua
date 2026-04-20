@@ -1,0 +1,2 @@
+---@class RespawnSetUIInterface_C:UInterface
+---@field ResetUIStateAfterRespawn:fun()

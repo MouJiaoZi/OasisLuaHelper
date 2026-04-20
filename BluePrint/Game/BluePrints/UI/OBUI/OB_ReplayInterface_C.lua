@@ -1,0 +1,7 @@
+---@class OB_ReplayInterface_C:UInterface
+---@field CreateSignalBarWidget:fun()
+---@field ResetPlayerInfo:fun(PlayerPawn:APawn)
+---@field SetPlayerInfoPlayerBackpackVisible:fun(bIsShow:bool)
+---@field SetPlayerInfoPlayerStausVisible:fun(bIsShow:bool)
+---@field ReceiveUseWeseeStyle:fun()
+---@field PlayerHeadListRefreshOBData:fun(MapPlayerList:ULuaArrayHelper,ObservedPlayer:FObservedData,Force:bool)

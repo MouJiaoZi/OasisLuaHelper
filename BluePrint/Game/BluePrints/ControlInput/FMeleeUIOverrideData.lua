@@ -1,0 +1,3 @@
+---@class FMeleeUIOverrideData
+---@field NormalIconSoftRef UPaperSprite
+---@field LightIconSoftRef UPaperSprite

@@ -1,0 +1,1 @@
+---@class BP_3008_BattleResultStar_C:UNewbieGuideItemObject

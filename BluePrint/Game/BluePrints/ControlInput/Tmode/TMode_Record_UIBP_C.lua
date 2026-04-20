@@ -1,0 +1,29 @@
+---@class TMode_Record_UIBP_C:UUAEUserWidget
+---@field TimerSetTimeCountdown:fun()
+---@field SetTimeCountdown:fun(leftSec:float)
+---@field OnGameJoyRecordingEndFailReplay:fun()
+---@field OnGameJoyRecordingEndReplay:fun()
+---@field GenerateRecordVideo:fun()
+---@field FinishedRecordVideo:fun(isFinished:bool,RecordViodeTimeList:ULuaArrayHelper)
+---@field StartRecordVideo:fun(TotalTime:float)
+---@field Construct:fun()
+---@field DX_Transition UWidgetAnimation
+---@field CanvasPanel_BulletScreen UCanvasPanel
+---@field CanvasPanel_IPX UCanvasPanel
+---@field Common_Avatar_BP Common_Avatar_BP_C
+---@field FX_Bg_Black1 UImage
+---@field FX_Bg_Black2 UImage
+---@field Image_Record_Badge1 UImage
+---@field Image_Record_Badge2 UImage
+---@field NewButton_Continue UNewButton
+---@field NewButton_Record_AddFriend UNewButton
+---@field NewButton_Record_GoodGame UNewButton
+---@field NewButton_Share UNewButton
+---@field Team_RecordingTips_UIBP Team_RecordingTips_UIBP_C
+---@field TextBlock_Countdown UTextBlock
+---@field TextBlock_Record_PlayerName UTextBlock
+---@field WidgetSwitcher_ButtonState UWidgetSwitcher
+---@field WidgetSwitcher_Record_Gender UWidgetSwitcher
+---@field RecordVideoTimeList ULuaArrayHelper
+---@field TotalTimeSec float
+---@field IfReplayMomentSwitchOn bool

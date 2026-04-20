@@ -1,0 +1,4 @@
+---@class bp_common_data_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_ARRAY_CommonItemData ULuaArrayHelper

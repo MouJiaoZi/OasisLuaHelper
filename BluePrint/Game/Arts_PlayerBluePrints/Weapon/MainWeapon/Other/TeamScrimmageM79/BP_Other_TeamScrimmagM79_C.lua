@@ -1,0 +1,18 @@
+---@class BP_Other_TeamScrimmagM79_C:BP_ShootWeaponProjectileBase_C
+---@field GetLuaModule:fun():FString
+---@field OnLuaWeaponAction:fun(WeaponAction:uint8)
+---@field GetCurLevelData:fun():TeamScrimmagM79LvDataData
+---@field OnArrowShooted:fun()
+---@field UserConstructionScript:fun()
+---@field OnWeaponMagOut:fun()
+---@field OnWeaponMagIn:fun()
+---@field OnScoreChangedEvent__DelegateSignature:fun()
+---@field OnLevelUpdateEvent__DelegateSignature:fun()
+---@field WeaponAnimList_Other_TeamScrimmagM79 WeaponAnimList_Other_TeamScrimmagM79_C
+---@field ST_Mag UStaticMeshComponent
+---@field ST_PlayerMag UStaticMeshComponent
+---@field LevelDatas ULuaArrayHelper
+---@field CurLevel int32
+---@field OnLevelUpdateEvent ULuaMulticastDelegate
+---@field CurScore int32
+---@field OnScoreChangedEvent ULuaMulticastDelegate

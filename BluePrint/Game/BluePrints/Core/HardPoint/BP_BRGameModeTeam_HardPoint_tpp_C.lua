@@ -1,0 +1,5 @@
+---@class BP_BRGameModeTeam_HardPoint_tpp_C:ABP_BRGameModeTeam_HardPoint_C
+---@field UserConstructionScript:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field TeamWork_StartDef__DelegateSignature:fun(NewParam:bool)
+---@field TeamWork_StartDef ULuaMulticastDelegate

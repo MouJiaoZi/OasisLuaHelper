@@ -1,0 +1,9 @@
+---@class SoundTest_AKCompListiitem_C:UUserWidget
+---@field Construct:fun()
+---@field CkeckSoundVisiable__DelegateSignature:fun()
+---@field ActorName UTextBlock
+---@field ButtonBase UButton
+---@field CkeckSoundVisiable ULuaMulticastDelegate
+---@field AKComponent UAkComponent
+---@field Parent GM_SoundTest_C
+---@field Num int32

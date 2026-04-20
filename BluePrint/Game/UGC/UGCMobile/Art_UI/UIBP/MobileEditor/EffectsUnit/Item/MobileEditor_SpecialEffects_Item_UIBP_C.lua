@@ -1,0 +1,11 @@
+---@class MobileEditor_SpecialEffects_Item_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field On_ComboBox_Sorting_GenerateSelectWidget_0:fun(Item:FString):UWidget
+---@field On_ComboBox_Sorting_GenerateWidget_0:fun(Item:FString):UWidget
+---@field CanvasPanel_Bg UCanvasPanel
+---@field Image_Icon UImage
+---@field MaskBox_14 UMaskBox
+---@field NewButton_Close UNewButton
+---@field PreviewSceneShow PreviewSceneShow_C
+---@field TextBlock_Name UTextBlock
+---@field ComboBoxItemClass UClass

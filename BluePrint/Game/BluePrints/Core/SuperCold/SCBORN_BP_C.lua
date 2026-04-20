@@ -1,0 +1,1 @@
+---@class SCBORN_BP_C:URespawnItemConfig

@@ -1,0 +1,2 @@
+---@class BP_BattleRoyaleHUD_TDM_C:ABP_BattleRoyaleHUD_C
+---@field UserConstructionScript:fun()

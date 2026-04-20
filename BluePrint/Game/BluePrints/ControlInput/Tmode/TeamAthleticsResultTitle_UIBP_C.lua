@@ -1,0 +1,8 @@
+---@class TeamAthleticsResultTitle_UIBP_C:UUAEUserWidget
+---@field UpdateTeamData_OneLine:fun(PlayerData:FDeathMatchPlayerStateData)
+---@field Common_Avatar_BP Common_Avatar_BP_C
+---@field TextBlock_ResultTitle_Assist UTextBlock
+---@field TextBlock_ResultTitle_Death UTextBlock
+---@field TextBlock_ResultTitle_Defeat UTextBlock
+---@field TextName UTextBlock
+---@field WidgetSwitcher_ResultItem_Gender UWidgetSwitcher

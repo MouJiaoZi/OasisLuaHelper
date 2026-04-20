@@ -1,0 +1,18 @@
+---@class KillInfo_MaxKiller_lua_UIBP_C:UKillInfoBase
+---@field GetLuaModule:fun():FString
+---@field DX_KillRunning UWidgetAnimation
+---@field BGSelector UWidgetSwitcher
+---@field Border_ColorSet UBorder
+---@field Border_SetColor UBorder
+---@field FXAddCanvas UCanvasPanel
+---@field GridPanel_main UGridPanel
+---@field HorizontalBox_0 UHorizontalBox
+---@field Image_eliminateBG UImage
+---@field Image_KillBG UImage
+---@field KillNum_TextBlock UTextBlock
+---@field MaxKillerIcon UImage
+---@field PlayerName_TextBlock UTextBlock
+---@field Title_TextBlock UTextBlock
+---@field CurMaxKillerStatus EFatalDamageMaxKillStatus
+---@field Text1 FText
+---@field Text2 FText

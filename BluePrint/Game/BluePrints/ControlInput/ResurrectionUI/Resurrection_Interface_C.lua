@@ -1,0 +1,5 @@
+---@class Resurrection_Interface_C:UInterface
+---@field PlayBoxTipsUIBP_GetArrowImage:fun():UImage
+---@field PlayBoxTipsUIBP_SetTimePercent:fun(TotalTime:float,CurrentTime:float)
+---@field PlayBoxTipsUIBP_SetColor:fun(InColor:FLinearColor)
+---@field PlayBoxTipsUIBP_ShowMode:fun(IsShow:bool)

@@ -1,0 +1,4 @@
+---@class bp_activity_appointment_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field ActivityAppointmentFirstTimeShareToday bool

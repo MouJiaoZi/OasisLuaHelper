@@ -1,0 +1,2 @@
+---@class BP_ItemSpotComponent_C:UBP_ItemSpotSceneComponent_C
+---@field ReceiveBeginPlay:fun()

@@ -1,0 +1,4 @@
+---@class Building016_House_C:BP_UGCMobileHouseBase_C
+---@field UserConstructionScript:fun()
+---@field ChildActor UChildActorComponent
+---@field StaticMesh UStaticMeshComponent

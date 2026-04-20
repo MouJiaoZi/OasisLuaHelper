@@ -1,0 +1,10 @@
+---@class BP_WaterTank_C:AActivityBaseActor
+---@field UserConstructionScript:fun()
+---@field ReceiveAnyDamage:fun(Damage:float,DamageType:UDamageType,InstigatedBy:AController,DamageCauser:AActor)
+---@field ParticleSystem UParticleSystemComponent
+---@field Broken_Sequence UActorSequenceComponent
+---@field StaticMesh UStaticMeshComponent
+---@field Scene USceneComponent
+---@field E_DamageType ULuaSetHelper
+---@field MaxHealth float
+---@field CurrentHealth float

@@ -1,0 +1,5 @@
+---@class TaskType
+---@field NormalTask int32
+---@field UrgentTask int32
+---@field TodonotTask int32
+---@field TaskType_MAX int32

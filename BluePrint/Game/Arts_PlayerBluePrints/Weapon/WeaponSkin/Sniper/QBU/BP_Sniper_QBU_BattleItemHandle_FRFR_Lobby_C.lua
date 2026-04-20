@@ -1,0 +1,1 @@
+---@class BP_Sniper_QBU_BattleItemHandle_FRFR_Lobby_C:UBackpackWeaponHandle

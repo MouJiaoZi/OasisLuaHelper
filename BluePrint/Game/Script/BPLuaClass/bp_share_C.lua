@@ -1,0 +1,10 @@
+---@class bp_share_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_Share_ShareType int32
+---@field BP_Share_PerfectHighLightShareID int32
+---@field BP_Share_Image_Path FString
+---@field BP_Share_CanShowPersonalSpace bool
+---@field BP_Share_LbsTitleOpenStatus bool
+---@field BP_Share_PersonnalSpaceGuideProgressing bool
+---@field BP_Share_PerfectHighLightShare bool

@@ -1,0 +1,1 @@
+---@class HS_Guitar_C:AHiderSceneActorBase_C

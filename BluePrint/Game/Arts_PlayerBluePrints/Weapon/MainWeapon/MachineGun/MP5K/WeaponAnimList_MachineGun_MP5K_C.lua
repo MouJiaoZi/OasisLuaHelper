@@ -1,0 +1,1 @@
+---@class WeaponAnimList_MachineGun_MP5K_C:UUAECharacterAnimListComponent

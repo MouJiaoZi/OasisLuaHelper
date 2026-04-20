@@ -1,0 +1,8 @@
+---@class Ingame_Thermometer_UIBP_C:UUAEUserWidget
+---@field UpdateTemp:fun(RatioTP:float)
+---@field ProgressBar_Thermometer UProgressBar
+---@field TextBlock_Number UTextBlock
+---@field Color1 FLinearColor
+---@field Color2 FLinearColor
+---@field Color3 FLinearColor
+---@field Color4 FLinearColor

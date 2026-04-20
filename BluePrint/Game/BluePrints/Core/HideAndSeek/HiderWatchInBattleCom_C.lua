@@ -1,0 +1,8 @@
+---@class HiderWatchInBattleCom_C:UWatchingInBattleComponent
+---@field UpdateCamera:fun()
+---@field ReceiveBeginPlay:fun()
+---@field UIStyle_Hide_PlayerInfo UUserWidgetStyle
+---@field UIStyle_Hide_SelectOther UUserWidgetStyle
+---@field UIStyle_Hide_WatchingInBattle UUserWidgetStyle
+---@field UIStyle_Hide_FreeView UUserWidgetStyle
+---@field WatchingUIClass UClass

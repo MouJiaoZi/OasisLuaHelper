@@ -1,0 +1,66 @@
+---@class ShareRankingitem_BP_C:UUserWidget
+---@field SetDetailTitleVisibility:fun(IsVisible:bool)
+---@field HideNodesWhenShowSingle:fun(flag:bool)
+---@field RefreshHeroIcon:fun(obj:UObject,id:int32)
+---@field SetLikeInfo:fun(LikeNum:int32,LikeEachother:bool,isLikeSysOpen:bool)
+---@field SetTitleBg:fun(titleBg:UObject)
+---@field SetTitle:fun(titleID:ULuaArrayHelper,notMyInfo:bool,showTitleID:int32)
+---@field SetMVPInfo:fun(isMvp:bool)
+---@field bg_titleNum UImage
+---@field CanvasPanel_juesha UCanvasPanel
+---@field CanvasPanel_ProfessionInfo UCanvasPanel
+---@field CharismaValue_Style3_UIBP CharismaValue_Style3_UIBP_C
+---@field GridPanel_46 UGridPanel
+---@field GridPanel_nice UGridPanel
+---@field Image_BG UImage
+---@field Image_chenghu UImage
+---@field Image_Gender UImage
+---@field Image_mvp UImage
+---@field Image_ProfessionIcon UImage
+---@field node_assist_classsic UGridPanel
+---@field node_assist_profession UGridPanel
+---@field node_assist_relive UGridPanel
+---@field node_assit_zombie UGridPanel
+---@field NodeTitle UCanvasPanel
+---@field text_alreadyLiked UTextBlock
+---@field Text_Assist_Relive UTextBlock
+---@field Text_Assist_zombie UTextBlock
+---@field Text_AssistNum UTextBlock
+---@field Text_CuringNum UTextBlock
+---@field Text_DamageNum UTextBlock
+---@field Text_KillNum UTextBlock
+---@field Text_PlayerName UTextBlock
+---@field Text_RescueNum UTextBlock
+---@field Text_Score UTextBlock
+---@field Text_SurviveTime UTextBlock
+---@field TextBlock_Assists UTextBlock
+---@field TextBlock_BlameDamage_ZombieMode UTextBlock
+---@field TextBlock_CuringNum_RelvieMode UTextBlock
+---@field TextBlock_InjuredNum_ReliveMode UTextBlock
+---@field TextBlock_InjuredNum_ZombieMode UTextBlock
+---@field TextBlock_KillBossNum_ZombieMode UTextBlock
+---@field TextBlock_KillNum_RelvieMode UTextBlock
+---@field TextBlock_KillNum_ZombieMode UTextBlock
+---@field TextBlock_PModeEliminate UTextBlock
+---@field TextBlock_PModehurt UTextBlock
+---@field TextBlock_PModeRescue UTextBlock
+---@field TextBlock_PModeTime UTextBlock
+---@field TextBlock_PModeTreatment UTextBlock
+---@field TextBlock_ProfessionLevel UTextBlock
+---@field TextBlock_Recall UTextBlock
+---@field TextBlock_RecallNum_ReliveMode UTextBlock
+---@field TextBlock_RescueNum_RelvieMode UTextBlock
+---@field TextBlock_SurviveTime_ReliveMode UTextBlock
+---@field TextBlock_SurviveTime_ZombieMode UTextBlock
+---@field Textchenghu UTextBlock
+---@field TextTitleNum UTextBlock
+---@field WidgetSwitcher_Mode UWidgetSwitcher
+---@field myname FString
+---@field playername FString
+---@field ShouldShowAddFriendBtn int32
+---@field PlayerArrayIndexRecord int32
+---@field ImageMale FSlateBrush
+---@field ImageFemale FSlateBrush
+---@field imageNumWhitebg FSlateBrush
+---@field selectedShowTitle int32
+---@field playerid FString

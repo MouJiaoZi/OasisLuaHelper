@@ -1,0 +1,1 @@
+---@class 4X4DestinyCircleAllweapon_4_C:ABP_BattleRoyaleGameModeTeamPUBG_C

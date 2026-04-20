@@ -1,0 +1,1 @@
+---@class UGC_Gun_M416ItemHandle_C:URifle_M416_ItemHandle_C

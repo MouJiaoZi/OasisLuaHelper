@@ -1,0 +1,1 @@
+---@class VehiclePendant_Purosangue_Light_Lobby_C:UBackpackLobbyItemHandle

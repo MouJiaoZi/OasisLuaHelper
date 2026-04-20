@@ -1,0 +1,16 @@
+---@class BP_FireWorksActorBase_C:AFireworksActor
+---@field SetupEffect:fun()
+---@field OnFinish:fun()
+---@field UserConstructionScript:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field PlayFireworks:fun()
+---@field SetEffectScale:fun(SizeScale:float,OffsetScale:float)
+---@field ExplosionParticleSystem UCustomParticleSystemComponent
+---@field TrailingParticleSystem UCustomParticleSystemComponent
+---@field DefaultSceneRoot USceneComponent
+---@field CurLife float
+---@field NeedFly bool
+---@field OffsetScale float
+---@field CurShowTime float
+---@field SizeScale float
+---@field BPlayFlyAudio bool

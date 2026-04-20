@@ -1,0 +1,35 @@
+---@class BP_UGC_RPG7_C:BP_UGC_RPG7_Base_C
+---@field GetLuaModule:fun():FString
+---@field LuaOnPlayerHandFoldedChanged:fun(Fold:bool)
+---@field LuaOnWeaponInitOwner:fun(OwnerActor:AActor)
+---@field ToggleAccEnergySound:fun(On:bool)
+---@field GetReplicatedProperties:fun()
+---@field OnRep_LaserBulletHitRepInfo:fun()
+---@field HandleWeaponPartLoad:fun(WeaponSlotID:EWeaponAttachmentSocketType,IsEquipped:bool)
+---@field UpdateCrosshairPercent:fun(Percent:float)
+---@field ToggoleCrosshairUI:fun(Show:bool)
+---@field LuaOnChangeWeaponState:fun(OldState:EFreshWeaponStateType,NewState:EFreshWeaponStateType)
+---@field HandleWeaponAccStageChange:fun(AccStatge:int32)
+---@field GetMaxAccParticleEffect:fun():UParticleSystem
+---@field GetAccParticleEffect:fun():UParticleSystem
+---@field GetAccumulateEnergyParticleComp:fun():UParticleSystemComponent
+---@field GetAccumulateEnergyStateComp:fun():UWeaponStateBase
+---@field UserConstructionScript:fun()
+---@field OnPushTrigger:fun()
+---@field OnReleaseTrigger:fun()
+---@field P_RPG_xuli_01 UParticleSystemComponent
+---@field WeaponAnimList_Sniper_FMR WeaponAnimList_Sniper_FMR_C
+---@field BP_UGC_RPG7_AccEnergyState BP_UGC_RPG7_AccEnergyState_C
+---@field BP_UGC_RPG7_ShootComp BP_UGC_RPG7_ShootComp_C
+---@field BP_UGC_RPG7_EventHandle BP_UGC_RPG7_EventHandle_C
+---@field CacheTraceHitInfo FHitResult
+---@field CacheTraceHitPos FVector
+---@field UploadData FBulletHitInfoUploadData
+---@field CacheCrosshairUI UUAEUserWidget
+---@field LaserBulletHitRepInfo FHitResult
+---@field StartAccEnergySound UAkAudioEvent
+---@field StopAccEnergySound UAkAudioEvent
+---@field StartAccEnergySoundID int32
+---@field Scope_Soft UClass
+---@field ZHUNXIN_1 UClass
+---@field ZHUNXIN_2 UClass

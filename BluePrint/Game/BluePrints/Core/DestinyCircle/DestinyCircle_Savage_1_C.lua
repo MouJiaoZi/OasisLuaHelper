@@ -1,0 +1,1 @@
+---@class DestinyCircle_Savage_1_C:ABP_BattleRoyaleGameMode_C

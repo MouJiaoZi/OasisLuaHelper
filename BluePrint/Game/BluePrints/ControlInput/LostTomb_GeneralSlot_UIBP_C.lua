@@ -1,0 +1,14 @@
+---@class LostTomb_GeneralSlot_UIBP_C:UUAEUserWidget
+---@field Construct:fun()
+---@field Border_Skill1 UBorder
+---@field Border_Skill2 UBorder
+---@field Border_Skill3 UBorder
+---@field CommonSkill1 CustomizeCanvasPanel_BP_C
+---@field CommonSkill2 CustomizeCanvasPanel_BP_C
+---@field CommonSkill3 CustomizeCanvasPanel_BP_C
+---@field HeroSkillSlot0 UCanvasPanel
+---@field HeroSkillSlot1 UCanvasPanel
+---@field HeroSkillSlot2 UCanvasPanel
+---@field LostTomb_GeneralSlot UCanvasPanel
+---@field WeaponSkillSlot UCanvasPanel
+---@field WeaponSkillSlotCanvas CustomizeCanvasPanel_BP_C

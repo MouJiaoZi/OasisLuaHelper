@@ -1,0 +1,1 @@
+---@class BP_Pistol_FireworkGun_CG3Concert_C:BP_Pistol_FireworkGun_NewYear_C

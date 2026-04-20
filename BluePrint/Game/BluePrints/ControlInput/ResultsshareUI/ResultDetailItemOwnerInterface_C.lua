@@ -1,0 +1,5 @@
+---@class ResultDetailItemOwnerInterface_C:UInterface
+---@field ClickPlayerTitle:fun(Name:FString,Index:int32,AbsPos:FVector2D):bool
+---@field OnLikeTeammateBtnClicked:fun(playerID:FString):bool
+---@field ShowTips:fun(Text:FText):bool
+---@field AddFriendClicked:fun(itemIndexInList:int32):bool

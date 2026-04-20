@@ -1,0 +1,20 @@
+---@class HAS_Skill_Hide_Lock_UIBP_C:UUTSkillIconWidgetTemplate
+---@field GetCurrentCDPercentage:fun(InCurEnergy:float,InMaxEnergy:float,DeltaEnergy:float):bool,float
+---@field Construct:fun()
+---@field RemoveSkillUI:fun()
+---@field ReceivedInitWidget:fun()
+---@field DX_UpgradeSkills UWidgetAnimation
+---@field DX_UpgradeSkills_old UWidgetAnimation
+---@field DX_RefreshSkill UWidgetAnimation
+---@field Border_SkillSlot UBorder
+---@field Button_0 UButton
+---@field CanvasPanel_tips UCanvasPanel
+---@field Custom_Canvas_60 CustomizeCanvasPanel_BP_C
+---@field Image_CDTime UImage
+---@field Image_Icon UImage
+---@field Text_Time UTextBlock
+---@field WidgetSwitcher_LockState UWidgetSwitcher
+---@field FunctionBPParam ULuaMapHelper
+---@field ReplaceWidgetName FString
+---@field ReplaceWidgetOuter FString
+---@field BeReplaceWidgetVisible ESlateVisibility

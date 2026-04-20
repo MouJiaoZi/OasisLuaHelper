@@ -1,0 +1,1 @@
+---@class BP_MoveAndTestDoorNode_C:UATTaskNode_MoveAndTestDoor

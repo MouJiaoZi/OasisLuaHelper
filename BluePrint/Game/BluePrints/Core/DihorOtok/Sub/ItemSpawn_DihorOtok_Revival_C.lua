@@ -1,0 +1,1 @@
+---@class ItemSpawn_DihorOtok_Revival_C:UBP_ItemGeneratorComponent_C

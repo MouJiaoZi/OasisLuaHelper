@@ -1,0 +1,3 @@
+---@class NewResultInterface_C:UInterface
+---@field SetMyTitleInf:fun():bool
+---@field OpenMyTitleInf:fun():bool

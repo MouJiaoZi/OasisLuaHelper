@@ -1,0 +1,4 @@
+---@class BP_ShowBookUINewInterface_C:UInterface
+---@field ShowBookUI_ShowUIList:fun(NewParam:ULuaArrayHelper,NewParam1:AActor)
+---@field ShowBookUI_CloseUI:fun()
+---@field ShowBookUI_OnCloseUI:fun()

@@ -1,0 +1,1 @@
+---@class BP_TDM_HeavyWeaponBoxNew_C:ABP_HeavyWeaponBox_C

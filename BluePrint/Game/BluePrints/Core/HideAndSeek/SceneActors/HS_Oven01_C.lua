@@ -1,0 +1,1 @@
+---@class HS_Oven01_C:AHiderSceneActorBase_C

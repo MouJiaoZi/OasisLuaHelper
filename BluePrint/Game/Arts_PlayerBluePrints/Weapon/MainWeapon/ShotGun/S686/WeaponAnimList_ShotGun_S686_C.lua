@@ -1,0 +1,1 @@
+---@class WeaponAnimList_ShotGun_S686_C:UUAECharacterAnimListComponent

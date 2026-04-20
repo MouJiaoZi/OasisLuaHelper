@@ -1,0 +1,7 @@
+---@class SkillTemplate_TopDown_AimShot_C:PESkillTemplate_Base_C
+---@field GetLuaModule:fun():FString
+---@field AimAngle float
+---@field AimRadius float
+---@field ProjectileClass UClass
+---@field LocationOffset FVector
+---@field DamageType FRestrictedDamageTypeData

@@ -1,0 +1,14 @@
+---@class NewResult_Ceremony_C:UUAEUserWidget
+---@field GetMyName:fun():FString
+---@field InitCeremonyData:fun(ADDirector:AvatarDisplayDirector_BP_C)
+---@field getAvatarLevelName:fun():FString
+---@field CallResultFunction:fun(Func:FString)
+---@field ShowCeremony:fun()
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field Button_enterPoseLevel UButton
+---@field RT_EnterPose UUTRichTextBlock
+---@field WaitingNode UCanvasPanel
+---@field CeremonyData FAwardCeremonyData
+---@field WinnerNumThreshold int32
+---@field ShouldTickCeremony bool
+---@field CeremonyTimeCountDown float

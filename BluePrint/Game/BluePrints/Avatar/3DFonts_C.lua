@@ -1,0 +1,1 @@
+---@class 3DFonts_C:UUserWidget

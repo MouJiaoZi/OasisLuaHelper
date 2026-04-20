@@ -1,0 +1,1 @@
+---@class BP_M416_BattleItemHandle_SHMAN_A_Lobby_C:UBackpackWeaponHandle

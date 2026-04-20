@@ -1,0 +1,6 @@
+---@class BackPack_ClearMasterPop_UIBP_C:UUAEUserWidget
+---@field Button_Cancel2 UNewButton
+---@field Button_Recall UNewButton
+---@field TextBlock_content UTextBlock
+---@field TextBlock_content2 UTextBlock
+---@field TextBlock_recall UTextBlock

@@ -1,0 +1,3 @@
+---@class BP_STExtraPlayerController_Common_C:ABP_STExtraPlayerController_C
+---@field GetLuaModule:fun():FString
+---@field UserConstructionScript:fun()

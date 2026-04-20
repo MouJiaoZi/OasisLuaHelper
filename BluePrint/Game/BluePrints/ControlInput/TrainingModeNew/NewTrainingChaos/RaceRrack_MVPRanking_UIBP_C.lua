@@ -1,0 +1,6 @@
+---@class RaceRrack_MVPRanking_UIBP_C:UUAEUserWidget
+---@field MVPPlayer_01 RaceRrack_PlayerMVP_UIBP_C
+---@field MVPPlayer_02 RaceRrack_PlayerMVP_UIBP_C
+---@field MVPPlayer_03 RaceRrack_PlayerMVP_UIBP_C
+---@field MVPPlayer_04 RaceRrack_PlayerMVP_UIBP_C
+---@field Text_TeamScore UTextBlock

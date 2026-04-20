@@ -1,0 +1,19 @@
+---@class ProfessionModeTitleItem_UIBP_C:UUAEUserWidget
+---@field RefreshAssistStatus:fun(isSingleMode:bool):bool
+---@field SetTitleSayHelloInfo:fun(flag:bool):bool
+---@field TestDjw:fun(NewParam:bool,NewParam1:bool):bool
+---@field NoReturnNoParam:fun()
+---@field Button_AddFriend UButton
+---@field GridPanel_AssistNum UGridPanel
+---@field GridPanel_CuringNum UGridPanel
+---@field GridPanel_DamageNum UGridPanel
+---@field GridPanel_Distance UGridPanel
+---@field GridPanel_HeadShot UGridPanel
+---@field GridPanel_KillAnimal UGridPanel
+---@field GridPanel_KillNum UGridPanel
+---@field GridPanel_PlayerIcon UGridPanel
+---@field GridPanel_PlayerName UGridPanel
+---@field GridPanel_RecallNum UGridPanel
+---@field GridPanel_RescueNum UGridPanel
+---@field GridPanel_Score UGridPanel
+---@field GridPanel_SurviveTime UGridPanel

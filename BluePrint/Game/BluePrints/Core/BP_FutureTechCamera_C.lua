@@ -1,0 +1,18 @@
+---@class BP_FutureTechCamera_C:AFutureTechCameraActor
+---@field FindPreCreatedUI:fun():UUAEUserWidget
+---@field FindUIAttachParent:fun():UPanelWidget
+---@field IsSpectating:fun():bool
+---@field SetSelfVisible:fun(bNewHidden:bool)
+---@field SetWeaponAndAttachmentsHiddenInGame:fun(Target:ASTExtraBaseCharacter,bNewHidden:bool)
+---@field SetVehicleHiddenInGame:fun(Character:ASTExtraBaseCharacter,bNewHidden:bool)
+---@field SetPlayerHiddenInGame:fun(Pawn:ASTExtraBaseCharacter,bNewHidden:bool)
+---@field UpdatePawnVisible:fun(bInWantsHidden:bool)
+---@field DestroyPhotoUI:fun()
+---@field UserConstructionScript:fun()
+---@field ReceiveEndPlay:fun(EndPlayReason:EEndPlayReason)
+---@field UMGClassPath FString
+---@field bHideTeammate bool
+---@field bHideEnemy bool
+---@field bHideSelf bool
+---@field PawnStatesInterruptThis ULuaArrayHelper
+---@field bEndedPlay bool

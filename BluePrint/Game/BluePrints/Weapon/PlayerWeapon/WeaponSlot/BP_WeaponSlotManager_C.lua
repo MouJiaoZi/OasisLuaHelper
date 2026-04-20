@@ -1,0 +1,1 @@
+---@class BP_WeaponSlotManager_C:UWeaponSlotManager

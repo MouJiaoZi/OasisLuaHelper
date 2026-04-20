@@ -1,0 +1,1 @@
+---@class Ingame_MiniMap_UIBP_C:UUserWidget

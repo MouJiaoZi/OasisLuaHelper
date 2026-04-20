@@ -1,0 +1,8 @@
+---@class RefreshPoints_PropItem_UIBP_C:UUGCMobilePropertyWidget
+---@field GetLuaModule:fun():FString
+---@field Get_Image_WeaponIcon_Visibility_0:fun():ESlateVisibility
+---@field CanvasPanel_BulletInfo UCanvasPanel
+---@field CanvasPanel_Select UCanvasPanel
+---@field Image_WeaponIcon UImage
+---@field NewButton_Weapon UNewButton
+---@field TextBlock_SlotName UTextBlock

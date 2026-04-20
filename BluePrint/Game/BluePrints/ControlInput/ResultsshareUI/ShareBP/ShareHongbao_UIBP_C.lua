@@ -1,0 +1,6 @@
+---@class ShareHongbao_UIBP_C:UUAEUserWidget
+---@field ShowUI:fun()
+---@field Construct:fun()
+---@field Button_Close UButton
+---@field Button_Hongbao UButton
+---@field ShareOKPanel UGridPanel

@@ -1,0 +1,1 @@
+---@class WeaponSkinBuffList_C:USTBaseBuffList

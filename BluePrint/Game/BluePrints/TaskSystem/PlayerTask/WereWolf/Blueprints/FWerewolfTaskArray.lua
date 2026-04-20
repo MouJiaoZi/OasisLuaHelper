@@ -1,0 +1,3 @@
+---@class FWerewolfTaskArray
+---@field TransformList ULuaArrayHelper
+---@field IDList ULuaArrayHelper

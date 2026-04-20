@@ -1,0 +1,2 @@
+---@class BP_ServerSwitcher_C:UServerSwitchComponent
+---@field ReceiveBeginPlay:fun()

@@ -1,0 +1,9 @@
+---@class Ingame_SignalBarStyle2_UIBP_C:UUserWidget
+---@field Construct:fun()
+---@field DX_StatusPrompt UWidgetAnimation
+---@field ProgressSignalBar UProgressBar
+---@field BarColor1 FLinearColor
+---@field BarColor2 FLinearColor
+---@field BarColor3 FLinearColor
+---@field BarColor4 FLinearColor
+---@field BarColorArray ULuaArrayHelper

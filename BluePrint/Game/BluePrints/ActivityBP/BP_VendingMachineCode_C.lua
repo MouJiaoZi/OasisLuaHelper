@@ -1,0 +1,46 @@
+---@class BP_VendingMachineCode_C:ABP_WarteringAreaBase_C
+---@field RPCSellToClient:fun(NewParam:int32,PC:ASTExtraPlayerController)
+---@field OnSellOne:fun(PlayerController:ASTExtraPlayerController)
+---@field SellOne:fun(PlayerController:ASTExtraPlayerController)
+---@field OnProduceOne:fun(InSellIndex:int32,PlayerController:ASTExtraPlayerController,SpawnPos:FVector)
+---@field ProduceOne:fun(InSellIndex:int32,PlayerController:ASTExtraPlayerController,SpawnPos:FVector)
+---@field RandomSellIndex:fun()
+---@field RefreshState:fun()
+---@field SellOneCDEnd:fun()
+---@field TrySellOne:fun(PlayerController:ASTExtraPlayerController)
+---@field MachineResave:fun()
+---@field MachineTakeDamage:fun(InDamage:float)
+---@field UserConstructionScript:fun()
+---@field ServerDoWaterLogic:fun(PlayerController:APlayerController,ExMsg:FString)
+---@field ReceiveDestroyed:fun()
+---@field ReceiveEndPlay:fun(EndPlayReason:EEndPlayReason)
+---@field Box UBoxComponent
+---@field IsSellOut bool
+---@field IsBroken bool
+---@field ValidCount int32
+---@field ValidCountRange FIntVector
+---@field BrokenTipsID int32
+---@field SellOutTipsID int32
+---@field SellCDTipsID int32
+---@field SellCD float
+---@field CurrentSellCD float
+---@field Max_HP float
+---@field CurrentHP float
+---@field BrokenCD float
+---@field CurrentBorkenCD float
+---@field IsSellCD bool
+---@field SellRangeInfo ULuaArrayHelper
+---@field SellInfoIndex int32
+---@field CurrentState int32
+---@field ParticleComponent UParticleSystemComponent
+---@field DropDistance float
+---@field IsInit bool
+---@field CanBreak bool
+---@field NeedShowIcon bool
+---@field MarkIconInstanceID int32
+---@field DisplayIconID int32
+---@field SellParticleComponent UParticleSystemComponent
+---@field LifeTimerHandle FTimerHandle
+---@field IsClearStateParticleNotValid bool
+---@field CurrentParticleState int32
+---@field NeedHideStateParticle bool

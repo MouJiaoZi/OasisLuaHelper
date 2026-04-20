@@ -1,0 +1,9 @@
+---@class PickUpBtnItem_BP_C:UUAEUserWidget
+---@field UpdateImage:fun()
+---@field OnTouchEnded:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field OnTouchStarted:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field ClickBoxTab__DelegateSignature:fun(index:int32)
+---@field TextBlock_ItemNum UTextBlock
+---@field bTouchStart bool
+---@field ClickBoxTab ULuaMulticastDelegate
+---@field tabIndex int32

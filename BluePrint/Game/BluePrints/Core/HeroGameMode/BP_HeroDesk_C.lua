@@ -1,0 +1,30 @@
+---@class BP_HeroDesk_C:AActor
+---@field UserConstructionScript:fun()
+---@field ChildActor16 UChildActorComponent
+---@field ChildActor23 UChildActorComponent
+---@field ChildActor22 UChildActorComponent
+---@field ChildActor21 UChildActorComponent
+---@field ChildActor20 UChildActorComponent
+---@field ChildActor19 UChildActorComponent
+---@field ChildActor18 UChildActorComponent
+---@field ChildActor17 UChildActorComponent
+---@field ChildActor15 UChildActorComponent
+---@field ChildActor14 UChildActorComponent
+---@field ChildActor13 UChildActorComponent
+---@field ChildActor12 UChildActorComponent
+---@field ChildActor11 UChildActorComponent
+---@field ChildActor10 UChildActorComponent
+---@field ChildActor9 UChildActorComponent
+---@field ChildActor8 UChildActorComponent
+---@field StaticMesh1 UStaticMeshComponent
+---@field StaticMesh UStaticMeshComponent
+---@field ChildActor UChildActorComponent
+---@field ChildActor7 UChildActorComponent
+---@field ChildActor6 UChildActorComponent
+---@field ChildActor5 UChildActorComponent
+---@field ChildActor4 UChildActorComponent
+---@field ChildActor3 UChildActorComponent
+---@field ChildActor2 UChildActorComponent
+---@field ChildActor1 UChildActorComponent
+---@field Outside_Target_11 UStaticMeshComponent
+---@field DefaultSceneRoot USceneComponent

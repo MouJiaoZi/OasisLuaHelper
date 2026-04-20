@@ -1,0 +1,1 @@
+---@class BP_Rifle_Groza_BattleItemHandle_MRWN_Lobby_C:UBackpackWeaponHandle

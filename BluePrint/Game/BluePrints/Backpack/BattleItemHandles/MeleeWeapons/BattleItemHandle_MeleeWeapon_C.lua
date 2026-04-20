@@ -1,0 +1,5 @@
+---@class BattleItemHandle_MeleeWeapon_C:UBattleItemHandle_MeleeWeaponBase_C
+---@field GetSkillTemplates:fun():ULuaArrayHelper
+---@field HanldeCleared:fun():bool
+---@field HandlePickup:fun(ItemContainer:TScriptInterface,PickupInfo:FBattleItemPickupInfo,Reason:EBattleItemPickupReason):bool
+---@field SkillConfig FItemSkillsConfig

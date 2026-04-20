@@ -1,0 +1,4 @@
+---@class BP_Borderland_AI_Guarder_AIC_C:AMobAIController
+---@field UserConstructionScript:fun()
+---@field AIHoleUp UAIHoleUpComponent
+---@field AIChooseEnemy UAIChooseEnemyComponent

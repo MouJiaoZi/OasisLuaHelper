@@ -1,0 +1,15 @@
+---@class ZD_FacePat_Pop_UIBP_C:UNewbieGuideWidget
+---@field GetLuaModule:fun():FString
+---@field OnClicked_NewButton_right:fun()
+---@field OnClicked_NewButton_left:fun()
+---@field OnClicked_NewButton_close:fun()
+---@field Button_close UButton
+---@field Button_left UButton
+---@field Button_right UButton
+---@field CanvasPanel_IPX UCanvasPanel
+---@field CheckBox_select UCheckBox
+---@field Common_UIPopupBG Common_UIPopupBG_C
+---@field Image_Pop UImage
+---@field ReuseList2_Paging ReuseList2_C
+---@field Text_Title UTextBlock
+---@field GuideTable UUAEDataTable

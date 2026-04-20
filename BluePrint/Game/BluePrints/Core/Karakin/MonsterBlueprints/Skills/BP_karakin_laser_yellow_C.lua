@@ -1,0 +1,1 @@
+---@class BP_karakin_laser_yellow_C:ALaserAimingActor

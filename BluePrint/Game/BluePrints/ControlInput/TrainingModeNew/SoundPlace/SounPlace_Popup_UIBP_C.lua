@@ -1,0 +1,5 @@
+---@class SounPlace_Popup_UIBP_C:UUAEUserWidget
+---@field Button_Close UButton
+---@field Image_Bg UImage
+---@field NewButton_Left UNewButton
+---@field NewButton_Right UNewButton

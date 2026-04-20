@@ -1,0 +1,13 @@
+---@class Variety_Slider_UIBP_C:UUAEUserWidget
+---@field setVar:fun(var:int32)
+---@field PreConstruct:fun(IsDesignTime:bool)
+---@field Construct:fun()
+---@field OnValueChanged__DelegateSignature:fun(NewValue:int32)
+---@field NewButton_Add UNewButton
+---@field NewButton_Minus UNewButton
+---@field ProgressBar_Num UProgressBar
+---@field Slider_Num USlider
+---@field TextBlock_Num UTextBlock
+---@field Value int32
+---@field OnValueChanged ULuaMulticastDelegate
+---@field SliderRange FVector2D

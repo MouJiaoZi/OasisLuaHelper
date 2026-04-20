@@ -1,0 +1,20 @@
+---@class ZD_Hit_FeedBack_UIBP_C:UUAEUserWidget
+---@field UIMsg_HitFeedBack_KillAll:fun()
+---@field UIMsg_PlayDestroySound:fun()
+---@field UIMsg_PlayKillSound:fun()
+---@field UIMsg_PlayHitFallSound:fun()
+---@field UIMsg_HitFeedBack_EnemyDown:fun()
+---@field UIMsg_HitFeedBack_WheelBurst:fun()
+---@field UIMsg_HitFeedBack_EnemyDead:fun()
+---@field UIMsg_HitFeedBack_HitVehicle:fun(location:FVector)
+---@field UIMsg_HitFeedBack_HitWheel:fun(pos:FVector)
+---@field ShowCurrentHitInfo:fun(icon:FSlateBrush)
+---@field DX_In UWidgetAnimation
+---@field CanvasPanel_FeedBack UCanvasPanel
+---@field Image_HitIcon UImage
+---@field slateBrush_hitWheel FSlateBrush
+---@field slateBrush_hitVehicle FSlateBrush
+---@field slateBrush_wheelBurst FSlateBrush
+---@field slateBrush_enemyDown FSlateBrush
+---@field slateBrush_enemyDead FSlateBrush
+---@field bUsing2d bool

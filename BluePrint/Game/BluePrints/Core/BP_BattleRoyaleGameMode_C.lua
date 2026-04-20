@@ -1,0 +1,9 @@
+---@class BP_BattleRoyaleGameMode_C:ABattleRoyaleGameModeTeam
+---@field IsEnableTeamAssembleDisplay:fun():bool
+---@field UserConstructionScript:fun()
+---@field AIGridLocationManager UAIGridLocationManagerComponent
+---@field BP_WeatherGeneratorComponent BP_WeatherGeneratorComponent_C
+---@field AirAttack UAirAttackComponent
+---@field AirDrop UAirDropComponent
+---@field CircleMgr UCircleMgrComponent
+---@field DefaultSceneRoot USceneComponent

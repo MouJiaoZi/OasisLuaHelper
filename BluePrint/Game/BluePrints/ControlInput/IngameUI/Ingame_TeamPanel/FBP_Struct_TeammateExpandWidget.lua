@@ -1,0 +1,4 @@
+---@class FBP_Struct_TeammateExpandWidget
+---@field WidgetPath FString
+---@field SocketName FString
+---@field SizeTocContent bool

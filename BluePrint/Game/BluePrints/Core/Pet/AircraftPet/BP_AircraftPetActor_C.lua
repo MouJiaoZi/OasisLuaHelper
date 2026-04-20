@@ -1,0 +1,7 @@
+---@class BP_AircraftPetActor_C:AAircraftPetActor
+---@field GetPet:fun():BP_OBTransformCharacter_C
+---@field UserConstructionScript:fun()
+---@field RefreshAircraftPet:fun()
+---@field UpdateLandingAnim:fun(bActivate:bool)
+---@field UpdateLandingEffect:fun(bActivate:bool)
+---@field UpdateOpenParachuteEffect:fun(bActivate:bool)

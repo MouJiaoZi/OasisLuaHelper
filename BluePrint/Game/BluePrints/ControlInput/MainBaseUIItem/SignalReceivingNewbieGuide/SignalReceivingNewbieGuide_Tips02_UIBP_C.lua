@@ -1,0 +1,1 @@
+---@class SignalReceivingNewbieGuide_Tips02_UIBP_C:UUserWidget

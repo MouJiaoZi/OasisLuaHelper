@@ -1,0 +1,8 @@
+---@class ColdMode_JumpTips_UIBP_C:UNewbieGuideWidget
+---@field SwitchTipVisibility:fun()
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field OnCreateAndShow:fun(GuideId:int32,UIConfigIndex:int32)
+---@field UTRichTextBlock_LeftTips UUTRichTextBlock
+---@field UTRichTextBlock_OperatingTips1 UUTRichTextBlock
+---@field UTRichTextBlock_Right UUTRichTextBlock
+---@field WidgetSwitcher_TipsDirection UWidgetSwitcher

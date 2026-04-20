@@ -1,0 +1,1 @@
+---@class WeaponAnimList_Other_HuntingBow_FullBow_C:UUAECharacterAnimListComponent

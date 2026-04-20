@@ -1,0 +1,4 @@
+---@class WeaponCompanionRule_2_C:UBP_WeaponCompanionRuleBase_C
+---@field OnInit:fun()
+---@field OnRemove:fun()
+---@field PlayerState ASTExtraPlayerState

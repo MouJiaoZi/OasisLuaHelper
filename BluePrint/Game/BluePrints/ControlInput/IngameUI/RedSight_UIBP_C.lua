@@ -1,0 +1,19 @@
+---@class RedSight_UIBP_C:UUAEUserWidget
+---@field UIMsg_HighLightWeaponSight:fun()
+---@field UIMsg_NormalWeaponSight:fun()
+---@field UseP90:fun()
+---@field UIMsg_P90SideSight:fun()
+---@field On_ShootRed_MouseButtonDown_0:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field UIMsg_ShowSideSight:fun()
+---@field SetSideSightMode:fun()
+---@field UIMsg_HideSideSight:fun()
+---@field UIMsg_HighLightSideSight:fun()
+---@field UIMsg_NormalSideSight:fun()
+---@field ReceivedInitWidget:fun()
+---@field AimTriggerBG UImage
+---@field Redsight_Panel UCanvasPanel
+---@field WidgetSwitcher_P90_Redsight UWidgetSwitcher
+---@field WidgetSwitcher_Redsight UWidgetSwitcher
+---@field WidgetSwitcher_Redsight02 UWidgetSwitcher
+---@field RotateViewWithSniperSwitch bool
+---@field ISP90 bool

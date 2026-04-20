@@ -1,0 +1,5 @@
+---@class BTReuseList_BP_C:UBTReuseList
+---@field SetTemplate:fun(parent_:UUAEUserWidget,cache_num:int32)
+---@field FBox UGridPanel
+---@field List UCustomScrollBox
+---@field ItemParent UUAEUserWidget

@@ -1,0 +1,5 @@
+---@class SoundTest_Text_C:UUserWidget
+---@field CkeckSoundVisiable__DelegateSignature:fun()
+---@field SoundVisiable UCheckBox
+---@field TextLog UTextBlock
+---@field CkeckSoundVisiable ULuaMulticastDelegate

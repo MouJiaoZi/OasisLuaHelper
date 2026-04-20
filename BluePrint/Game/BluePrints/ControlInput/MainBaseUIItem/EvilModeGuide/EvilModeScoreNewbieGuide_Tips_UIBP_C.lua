@@ -1,0 +1,1 @@
+---@class EvilModeScoreNewbieGuide_Tips_UIBP_C:UNewbieGuideWidget

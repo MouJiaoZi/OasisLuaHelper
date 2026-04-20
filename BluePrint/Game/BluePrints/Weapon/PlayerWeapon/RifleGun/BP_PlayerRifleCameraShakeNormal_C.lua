@@ -1,0 +1,1 @@
+---@class BP_PlayerRifleCameraShakeNormal_C:UCameraShake

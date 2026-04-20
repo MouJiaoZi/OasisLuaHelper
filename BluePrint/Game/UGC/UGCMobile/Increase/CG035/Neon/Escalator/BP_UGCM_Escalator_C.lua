@@ -1,0 +1,6 @@
+---@class BP_UGCM_Escalator_C:BP_UGCMobileBaseActor_C
+---@field GetLuaModule:fun():FString
+---@field SetSpeed:fun():float
+---@field UserConstructionScript:fun()
+---@field ChildActor UChildActorComponent
+---@field AddSpeed float

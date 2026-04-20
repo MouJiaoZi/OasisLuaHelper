@@ -1,0 +1,7 @@
+---@class NewTrainingRange_brandList_UIBP_C:UUAEUserWidget
+---@field Common_Avatar_BP Common_Avatar_BP_C
+---@field Image_BG UImage
+---@field TextBlock_fraction UTextBlock
+---@field TextBlock_PlayerName UTextBlock
+---@field TextBlock_Ranking UTextBlock
+---@field WidgetSwitcher_PlayerGender UWidgetSwitcher

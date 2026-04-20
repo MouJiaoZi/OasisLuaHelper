@@ -1,0 +1,1 @@
+---@class BP_GunMasterGameMode_Karakin_MoveCircle_2_C:ABP_GunMasterGameMode_Karakin_MoveCircle_4_C

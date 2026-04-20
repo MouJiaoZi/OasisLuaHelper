@@ -1,0 +1,14 @@
+---@class MobileEditor_ScriptEditor_AdvComboBoxItem_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field GetImageBrush:fun():FSlateBrush
+---@field Get_CanvasPanel_Select_Visibility_0:fun():ESlateVisibility
+---@field Get_Text_ComboBoxName_ColorAndOpacity_0:fun():FSlateColor
+---@field CanvasPanel_Icon UCanvasPanel
+---@field CanvasPanel_Select UCanvasPanel
+---@field Image_Icon UImage
+---@field Image_Selected UImage
+---@field Image_Wire UImage
+---@field Text_ComboBoxName UTextBlock
+---@field SelectedSlateColor FSlateColor
+---@field UnSelectedSlateColor FSlateColor
+---@field ImageBrush FSlateBrush

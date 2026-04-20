@@ -1,0 +1,27 @@
+---@class Leisure_EditorBGM_Details_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field ActorDetailViewWidget UGCMobileDetailViewWidget_C
+---@field Button_Mask UButton
+---@field CanvasPanel_Base UCanvasPanel
+---@field CanvasPanel_Event UCanvasPanel
+---@field CanvasPanel_Music UCanvasPanel
+---@field CustomScrollBox_1 UCustomScrollBox
+---@field HorizontalBox_2 UHorizontalBox
+---@field NewButton_Base UNewButton
+---@field NewButton_Close UNewButton
+---@field NewButton_Event UNewButton
+---@field NewButton_Play UNewButton
+---@field NewButton_Replace UNewButton
+---@field NewButton_Return UNewButton
+---@field SendReceiveEvent_TabBut_Special_UIBP Leisure_EditorBGM_TabBut_UIBP_C
+---@field SetAdvanced_HelpTips_UIBP SetAdvanced_HelpTips_UIBP_C
+---@field Text_Title UTextBlock
+---@field TextBlock_MusicName UTextBlock
+---@field TextBlock_NameOK UTextBlock
+---@field TextBlock_Num UTextBlock
+---@field UGCM_But03_UIBP UGCM_But03_UIBP_C
+---@field VerticalBox_List UVerticalBox
+---@field WidgetSwitcher_Base UWidgetSwitcher
+---@field WidgetSwitcher_Event UWidgetSwitcher
+---@field WidgetSwitcher_state UWidgetSwitcher
+---@field WidgetSwitcher_Tab UWidgetSwitcher

@@ -1,0 +1,6 @@
+---@class bp_lobby_summergift_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_SummerGift_ItemID int32
+---@field BP_SummerGift_ItemCount int32
+---@field BP_SummerGift_Desc FString

@@ -1,0 +1,3 @@
+---@class HAS_Guide2_UIBP_C:UUAEUserWidget
+---@field Construct:fun()
+---@field TextBlock_TipsContent UTextBlock

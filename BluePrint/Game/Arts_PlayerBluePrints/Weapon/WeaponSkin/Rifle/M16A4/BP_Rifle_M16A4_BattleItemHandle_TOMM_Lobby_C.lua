@@ -1,0 +1,1 @@
+---@class BP_Rifle_M16A4_BattleItemHandle_TOMM_Lobby_C:UBackpackWeaponHandle

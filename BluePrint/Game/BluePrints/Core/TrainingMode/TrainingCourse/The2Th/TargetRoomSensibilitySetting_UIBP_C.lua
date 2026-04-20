@@ -1,0 +1,38 @@
+---@class TargetRoomSensibilitySetting_UIBP_C:UUAEUserWidget
+---@field ChangeSightCamera:fun()
+---@field ChangeFireNoSightCamera:fun()
+---@field SetFireSight8X:fun()
+---@field SetFireSight6X:fun()
+---@field SetFireSight4X:fun()
+---@field SetFireSight3X:fun()
+---@field SetFireSight2X:fun()
+---@field SetFireSight1X:fun()
+---@field SetFireSightCamera:fun()
+---@field ChangeFireSightCamera:fun()
+---@field SetSettingSight8X:fun(CamLensSen8XSniper:float)
+---@field SetSettingSight6X:fun(CamLensSen6XSniper:float)
+---@field SetSettingSight4X:fun(CamLensSen4XSniper:float)
+---@field SetSettingSight3X:fun(CamLensSen3XSniper:float)
+---@field SetSettingSight2X:fun(CamLensSen2XSniper:float)
+---@field SetSettingSight1X:fun(CamLensSenRedDotSniper:float)
+---@field SetNormalSightCamera:fun(Value:float)
+---@field ChangeNormalSightCamera:fun()
+---@field ChangeNormalNoSightCamera:fun(NewCameraMode:EPlayerCameraMode)
+---@field InitData:fun()
+---@field GetCurWeaponOpticalSight:fun():FItemDefineID,ESightType
+---@field UpdateUIByOpticalSight:fun()
+---@field InitUI:fun()
+---@field Construct:fun()
+---@field Destruct:fun()
+---@field FireNoSightCamera_slider USlider
+---@field FireSightCamera_slider USlider
+---@field NoSightCamera_slider USlider
+---@field SightCamera_slider USlider
+---@field MyHud UGameFrontendHUD
+---@field SettingConfigObj SettingConfig_C
+---@field WeaponManage UWeaponManagerComponent
+---@field NewVar_0 ESurviveWeaponPropSlot
+---@field CurCameraMode EPlayerCameraMode
+---@field CurPlayerController ASTExtraPlayerController
+---@field Multi float
+---@field LogString FString

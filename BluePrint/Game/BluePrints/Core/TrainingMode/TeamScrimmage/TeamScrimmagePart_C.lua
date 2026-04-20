@@ -1,0 +1,8 @@
+---@class TeamScrimmagePart_C:AActor
+---@field UserConstructionScript:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field TriggerBox UCapsuleComponent
+---@field Sphere UStaticMeshComponent
+---@field DefaultSceneRoot USceneComponent
+---@field Score int32
+---@field RotatingSpeed float

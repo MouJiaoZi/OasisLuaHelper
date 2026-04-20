@@ -1,0 +1,238 @@
+---@class MainBackPackPanel_BP_C:UUAEUserWidget
+---@field SetBackpackChildWidgetInf:fun(widget:UUAEUserWidget):bool
+---@field DropAllUselessItemInf:fun():bool
+---@field CloseDropDlgInf:fun():bool
+---@field SetUAVCDInf:fun(cd:int32):bool
+---@field UpdateDropPlanByItems:fun()
+---@field HaveAnyUselessItem:fun():bool
+---@field On_Border_DropPlanDlg_MouseButtonDown_0:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field UIMsg_ChangeDropPlan:fun()
+---@field UIMsg_CollapseAllItemMenu:fun(tagName:FString)
+---@field DropAllNotUseful:fun()
+---@field OnDragOver:fun(MyGeometry:FGeometry,PointerEvent:FPointerEvent,Operation:UDragDropOperation):bool
+---@field IsItemUseful:fun(BattleItemData:FBattleItemData):bool
+---@field ChangeToMultiDrop:fun(multiDrop:bool)
+---@field ClearArmorSlotOccupiedID:fun(InBattleItemDataArray:ULuaArrayHelper)
+---@field SetAddiArmorSlotByData:fun(InBattleItemData:FBattleItemData)
+---@field GetAddiArmorSlotData:fun(InBattleItemData:ULuaArrayHelper):ULuaArrayHelper
+---@field IsItemVisibleInBackpack:fun(ItemData:FBattleItemData):bool
+---@field SyncVisibleItemList:fun()
+---@field ShowVehicleBPCountSliderByStuff:fun(Stuff:FBattleItemData)
+---@field PickFromGroup:fun()
+---@field AddVehicleItem:fun()
+---@field UIMsg_ExitGroupBackpackCompMsg:fun()
+---@field VehicleBackCreated:fun()
+---@field UIMsg_GroupBackpackCompUpdate:fun()
+---@field IsWeaponAvatarItem:fun(data:FBattleItemData):bool
+---@field IsAvatarItem:fun(ItemToFind:int32):bool
+---@field EquipDragChip:fun()
+---@field ArmorSlotRearrange:fun()
+---@field UIMsg_UAVLastUsedItem:fun(UAVLastUsedItem:FItemDefineID)
+---@field GetUAVBackpackItem:fun():BackPackItem_BP_C
+---@field SuitSkinIntoCD:fun(CDTime:float)
+---@field UpdateSuitSkin:fun()
+---@field UpdateSuitSlotSort:fun()
+---@field GetSuit:fun():UPanelWidget
+---@field isReady:fun():bool
+---@field UpdateSuitSkinInBackpack:fun()
+---@field CollectArmorSlot:fun()
+---@field AddLighterSlot:fun(lighter:UWidget)
+---@field InitBackpackItemMap:fun()
+---@field BackpackUIItemMask:fun(BattleItemData:FBattleItemData):int32
+---@field GetBackpackItemByBattleItem:fun(data:FBattleItemData):BackPackItem_BP_C,bool
+---@field DarkNight:fun()
+---@field UpdateCapacity:fun()
+---@field UpdateClothItemList:fun()
+---@field SwapWeapon:fun(slot1:ESurviveWeaponPropSlot,slot2:ESurviveWeaponPropSlot)
+---@field UnBindBackPackCompEvents:fun()
+---@field BindBackPackCompEvents:fun()
+---@field ShouldDropItemFunc:fun(DefineID:FItemDefineID):bool
+---@field OnTouchEnded:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field OnTouchStarted:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field OnItemDragCancelled:fun()
+---@field OnItemDragDrop:fun(ItemData:FBattleItemData,DragItemOrigin:EBackPackDragOrigin,Location:FVector2D)
+---@field OnDrop:fun(MyGeometry:FGeometry,PointerEvent:FPointerEvent,Operation:UDragDropOperation):bool
+---@field ResetSelectItem:fun()
+---@field OnEventTakeDamageForUI:fun()
+---@field HideSelf:fun()
+---@field ShowSelf:fun()
+---@field ClickCloseBackpack:fun()
+---@field SetArmorSlot:fun(ArmorSlot:BackPackArmorSlot_BP_C,NewParam:ULuaMapHelper)
+---@field ResetAttachSlots:fun()
+---@field UnEquipDraggedItem:fun()
+---@field UpdateArmor:fun(BattleItemData:ULuaArrayHelper)
+---@field GetArmorClothDataDict:fun(InputPin:ULuaArrayHelper):ULuaMapHelper
+---@field ClothArmerType2Enum:fun(SubType:int32):EBackpackClothArmorType
+---@field SetClothSlot:fun(ClothingSlot:BackPackClothSlot_BP_C,NewParam:ULuaMapHelper)
+---@field UpdateCloth:fun(BattleItemData:ULuaArrayHelper)
+---@field UpdateWeaponBySlot:fun(slot_:ESurviveWeaponPropSlot)
+---@field Get_ProgressBar_DeleteItemNum_Percent_0:fun():float
+---@field ChangeDropCountSliderValue:fun(NewParam:int32,vehicle:bool)
+---@field Get_TextBlock_MaxDeleteItemNum_Text_0:fun():FText
+---@field Get_TextBlock_CurrentDeleteItemNum_Text_0:fun():FText
+---@field DropDraggedIem:fun()
+---@field UseDraggedIem:fun()
+---@field EquipDraggedItem:fun(TargetWeapon:ESurviveWeaponPropSlot)
+---@field IsLocalpositionInBorder:fun(LocalCoordinate:FVector2D,Border:UWidget):bool
+---@field OnItemDragBegin:fun(ItemBeDragged:FBattleItemData,DragOrigin:EBackPackDragOrigin)
+---@field GetWeaponAttach:fun()
+---@field RecordClickItem:fun(ItemBeClicked:BackPackItem_BP_C,IsClicked:bool)
+---@field GetWeaponSlotEnumByName:fun(Name:FName):ESurviveWeaponPropSlot,bool
+---@field IsDifferentToCache:fun(Association:FItemAssociation):bool,ESurviveWeaponPropSlot
+---@field HightLightAttachSlots:fun(ItemData:FBattleItemData)
+---@field UpdateShootingPanelWeaponIcon:fun()
+---@field HideToolTips:fun()
+---@field ShowToolTips:fun()
+---@field HideDropCountSlider:fun()
+---@field ShowDropCountSliderByStuff:fun(Stuff:FBattleItemData,ForceDrop:bool)
+---@field HighLightChosenTab:fun()
+---@field UpdateWeaponItems:fun(WeaponItemDataArray:ULuaArrayHelper)
+---@field UpdateScrollItemListItems:fun(BackpackItemDataArray:ULuaArrayHelper)
+---@field UpdateScrollItemList:fun()
+---@field ReceivedInitWidget:fun()
+---@field RespawnInitWidget:fun()
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field CloseBackPack__DelegateSignature:fun()
+---@field ArmorSlotItem_ActivityItem BackPackArmorSlot_BP_C
+---@field ArmorSlotItem_ArmoredVest BackPackArmorSlot_BP_C
+---@field ArmorSlotItem_Helmet BackPackArmorSlot_BP_C
+---@field ArmorSlotItem_Package BackPackArmorSlot_BP_C
+---@field ArmorSlotItem_SnowBoard BackPackArmorSlot_BP_C
+---@field ArmorSlotItem_SurfBoard BackPackArmorSlot_BP_C
+---@field ArmorSlotItem_yeshiyi BackPackArmorSlot_BP_C
+---@field Border_DropPlanDlg UBorder
+---@field Bounty_Achievements_Socket UCustomSocketPanel
+---@field Bounty_AchievementsList_Socket UCustomSocketPanel
+---@field BountyListSocket UCustomSocketPanel
+---@field BountyShowSocket UCustomSocketPanel
+---@field Button_AddItem UButton
+---@field Button_AllItem UButton
+---@field Button_Cancel UButton
+---@field Button_CloseBackPackUI UButton
+---@field Button_Clothing UButton
+---@field Button_Consumption UButton
+---@field Button_DeleteAll UButton
+---@field Button_OK UButton
+---@field Button_ReduceItem UButton
+---@field Button_WeaponFit UButton
+---@field CanvasPanel_All UCanvasPanel
+---@field CanvasPanel_BackPack UCanvasPanel
+---@field CanvasPanel_DisCard UCanvasPanel
+---@field CanvasPanel_DropAllCountDown UCanvasPanel
+---@field CanvasPanel_FireTips UCanvasPanel
+---@field CanvasPanel_ItemUse UCanvasPanel
+---@field CanvasPanel_One UCanvasPanel
+---@field CanvasPanel_RabbitTips UCanvasPanel
+---@field CanvasPanel_xian UCanvasPanel
+---@field CareerInfoSocket UCustomSocketPanel
+---@field ClothingSlotItem_Cap BackPackClothSlot_BP_C
+---@field ClothingSlotItem_Glasses BackPackClothSlot_BP_C
+---@field ClothingSlotItem_Jacket BackPackClothSlot_BP_C
+---@field ClothingSlotItem_Mask BackPackClothSlot_BP_C
+---@field ClothingSlotItem_Shoe BackPackClothSlot_BP_C
+---@field ClothingSlotItem_Trouser BackPackClothSlot_BP_C
+---@field CustomScrollBox_BackPack_ChangeSuit UCustomScrollBox
+---@field CustomSocketPanel_DropPlan2 UCustomSocketPanel
+---@field GridPanel_BackPackList UGridPanel
+---@field GridPanel_BountyMode UGridPanel
+---@field GridPanel_ClothingGroup UGridPanel
+---@field GridPanel_DeleteItemIfno UGridPanel
+---@field GridPanel_DropPlan1 UGridPanel
+---@field GridPanel_DropPlan2 UGridPanel
+---@field GridPanel_List UGridPanel
+---@field GridPanel_SkillMode UGridPanel
+---@field GridPanel_WeaponInfo UGridPanel
+---@field Image_All UImage
+---@field Image_AllSelected UImage
+---@field Image_Cloth UImage
+---@field Image_DropAllMat UImage
+---@field Image_Highlight UImage
+---@field Image_OneSelected UImage
+---@field Image_SelectedAllItem UImage
+---@field Image_SelectedClothing UImage
+---@field Image_SelectedConsumption UImage
+---@field Image_SelectedWeaponFit UImage
+---@field Image_TopLeft UImage
+---@field MainBackPack_ChangeSuit_Item_UIBP MainBackPack_ChangeSuit_Item_UIBP_C
+---@field MainBackPack_ChangeSuit_Item_UIBP_0 MainBackPack_ChangeSuit_Item_UIBP_C
+---@field MainBackPack_ChangeSuit_Item_UIBP_1 MainBackPack_ChangeSuit_Item_UIBP_C
+---@field MainBackPack_ChangeSuit_Item_UIBP_2 MainBackPack_ChangeSuit_Item_UIBP_C
+---@field MeleeInfoItem_BP MeleeInfoItem_BP_C
+---@field NewButton_All UNewButton
+---@field NewButton_discard UNewButton
+---@field NewButton_One UNewButton
+---@field PickUpItemTips_BP PickUpItemTips_BP_C
+---@field PistolInfoItem_BP PistolInfoItem_BP_C
+---@field ScrollBox_ItemList UCustomScrollBox
+---@field SkillListSocket UCustomSocketPanel
+---@field SkillModeSocket UCustomSocketPanel
+---@field Slider_DeleteItemNum USlider
+---@field TextBlock_1 UTextBlock
+---@field TextBlock_All UTextBlock
+---@field TextBlock_All2 UTextBlock
+---@field TextBlock_Attach UTextBlock
+---@field TextBlock_BtnDropName UTextBlock
+---@field TextBlock_Cloth UTextBlock
+---@field TextBlock_Consumption UTextBlock
+---@field TextBlock_Content UTextBlock
+---@field TextBlock_Content3 UTextBlock
+---@field TextBlock_Content4 UTextBlock
+---@field TextBlock_CurrentItemNum UTextBlock
+---@field TextBlock_DropName UTextBlock
+---@field TextBlock_MaxItemNum UTextBlock
+---@field TextBlock_OtherCap UTextBlock
+---@field TextBlockShowAvatar UTextBlock
+---@field UniformGridPanel_Armor UUniformGridPanel
+---@field UTRichTextBlock_BackPack_CountDown UUTRichTextBlock
+---@field VBSuit UVerticalBox
+---@field VehicleSocket UCustomSocketPanel
+---@field VerticalBox_Old UVerticalBox
+---@field WeaponInfoItem_Weapon1 MainWeaponInfoItem_BP_C
+---@field WeaponInfoItem_Weapon2 MainWeaponInfoItem_BP_C
+---@field WidgetSwitcher_0 UWidgetSwitcher
+---@field WidgetSwitcher_State UWidgetSwitcher
+---@field WidgetSwitcher_State2 UWidgetSwitcher
+---@field WidgetSwitcher_StateDropAll UWidgetSwitcher
+---@field CurChosenTab EBackpackTab
+---@field bIsDroppingStuff bool
+---@field ChosenToDropStuff FBattleItemData
+---@field MaxThrowCount int32
+---@field CacheAssociation ULuaArrayHelper
+---@field CrtClickItem BackPackItem_BP_C
+---@field ItemBeDragged FBattleItemData
+---@field WeaponAmmoUtilizableList ULuaSetHelper
+---@field CrtThrowCount int32
+---@field SelectDeletePanel UObject
+---@field isBindWeaponMsg bool
+---@field BindDelHandle FTimerHandle
+---@field WeaponInfoItemArray ULuaArrayHelper
+---@field ClothPlotItemArray ULuaArrayHelper
+---@field ArmorPlotItemArray ULuaArrayHelper
+---@field DragItemOrigin EBackPackDragOrigin
+---@field CloseBackPack ULuaMulticastDelegate
+---@field IsItemBeClicked bool
+---@field WeaponDataMap ULuaMapHelper
+---@field ItemMap ULuaMapHelper
+---@field ArmorSlotItem_Lighter BackPackArmorSlot_BP_C
+---@field SuitSkinItemArray ULuaArrayHelper
+---@field SkillTimer FTimerHandle
+---@field SuitQuickArray ULuaArrayHelper
+---@field SuitCDTime float
+---@field NeedUpdateSuitSort bool
+---@field BackpackButtonItemPool UUIDuplicatedItemPool
+---@field UAVLastUsedItem FItemDefineID
+---@field LastVehicleFinishCD int32
+---@field DropVehicle bool
+---@field WingCoolDownSecond float
+---@field FuelNum int32
+---@field WingPlaneMode int32
+---@field AddiArmorSlotArray ULuaArrayHelper
+---@field NewWeaponDataList ULuaArrayHelper
+---@field ShowWingman bool
+---@field beginCountDropAll bool
+---@field endCountDropAll bool
+---@field DropAllTime float
+---@field DeltaDrop float
+---@field ItemDataArray ULuaArrayHelper
+---@field DropPlan int32
+---@field AttachChildWidgetList ULuaArrayHelper

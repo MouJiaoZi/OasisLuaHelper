@@ -1,0 +1,9 @@
+---@class BP_Other_DP28_C:BP_ShootWeaponBase_C
+---@field StartFireEvent:fun()
+---@field UserConstructionScript:fun()
+---@field OnWeaponMagOut:fun()
+---@field OnWeaponMagOutNewFPP:fun()
+---@field MagOutDelayEvent__DelegateSignature:fun()
+---@field WeaponAnimList_Other_DP28 WeaponAnimList_Other_DP28_C
+---@field bUseIdleAnim_0_0 bool
+---@field MagOutDelayEvent ULuaMulticastDelegate

@@ -1,0 +1,7 @@
+---@class bp_share_normal_cjhb_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_CJHB_REDPACKMONEY int32
+---@field BP_CJHB_REDPACKTYPE int32
+---@field BP_CJHB_LEFT_MONEY int32
+---@field BP_CJHB_TOTAL_MONEY int32

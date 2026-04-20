@@ -1,0 +1,1 @@
+---@class BP_AttrModifyProbeComp_SC_C:UAttrModifyProbeComponent

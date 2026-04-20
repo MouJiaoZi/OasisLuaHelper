@@ -1,0 +1,10 @@
+---@class BP_FireLauncher_Skill_PVE_Nian_C:AUAESkill
+---@field ConsumeBulletOnServer:fun()
+---@field StartSkillCheck:fun():bool
+---@field UserConstructionScript:fun()
+---@field STExtraBuffAction_AttrModifySimple USTExtraBuffAction_AttrModifySimple
+---@field STExtraBuffAction_PeriodAction1 USTExtraBuffAction_PeriodAction
+---@field UTSkillEventEffectMapForEditor UUTSkillEventEffectMapForEditor
+---@field STExtraBuffAction_PeriodAction USTExtraBuffAction_PeriodAction
+---@field UAESkillPhase UUAESkillPhase
+---@field DefaultSceneRoot USceneComponent

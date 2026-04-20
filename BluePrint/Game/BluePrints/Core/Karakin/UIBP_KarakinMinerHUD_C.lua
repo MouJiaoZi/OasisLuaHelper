@@ -1,0 +1,7 @@
+---@class UIBP_KarakinMinerHUD_C:UUAEUserWidget
+---@field OnCustomMessage:fun(InMessage:FString)
+---@field OnSetActor:fun(InActor:AActor)
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field ProgressBar_31 UProgressBar
+---@field TextBlock_Time UTextBlock
+---@field KarakinMiner BP_KarakinMiner_C

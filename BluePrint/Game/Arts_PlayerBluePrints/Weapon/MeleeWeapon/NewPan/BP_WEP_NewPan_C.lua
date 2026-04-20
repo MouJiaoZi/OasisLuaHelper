@@ -1,0 +1,31 @@
+---@class BP_WEP_NewPan_C:ASTExtraWeapon_Throw
+---@field GetSkillIndexForMeleeWeapon:fun():int32
+---@field GetSkillEntryForMeleeWeapon:fun(IsPressed:bool):EUTSkillEntry
+---@field OnReportedEventDataCollecting:fun(UAEGameState:AUAEGameState,UAEPlayerController:AUAEPlayerController,EventId:uint8):FCollectedEventData
+---@field OnBPWepPanActorHit:fun(SelfActor:AActor,OtherActor:AActor,NormalImpulse:FVector,Hit:FHitResult)
+---@field UserConstructionScript:fun()
+---@field WeaponTriggerEventHandleSkill UWeaponTriggerEventHandleSkill
+---@field BP_MeleeWeaponCrossHairComp BP_MeleeWeaponCrossHairComp_C
+---@field BP_ThrowComponent_Melee BP_ThrowComponent_Melee_C
+---@field Box UBoxComponent
+---@field WeaponSpecificHandler UWeaponSpecificHandler
+---@field WeaponStateDefault UWeaponStateDefault
+---@field WeaponStateManager UWeaponStateManager
+---@field WeaponAnimList_Melee WeaponAnimList_Melee_C
+---@field WeaponEntity UWeaponEntity
+---@field OtherSTExtraShootWeapon ASTExtraShootWeapon
+---@field OtherSTExtraBaseCharacter ASTExtraBaseCharacter
+---@field OtherSTExtraPlayerController ASTExtraPlayerController
+---@field OtherPlayerOpenID FString
+---@field OtherPlayerName FString
+---@field OtherUniqueIdentifier FString
+---@field OtherHealth float
+---@field OtherRotation FRotator
+---@field OtherLocation FVector
+---@field HurtEquipId FString
+---@field BeHitEffect UParticleSystemComponent
+---@field BeHitFeedbackSound UAkAudioEvent
+---@field BeHitFeedbackEffect UParticleSystem
+---@field UniqueFeedbackInstance bool
+---@field RequireBeHitFeedbackSound bool
+---@field SkillHardRef UClass

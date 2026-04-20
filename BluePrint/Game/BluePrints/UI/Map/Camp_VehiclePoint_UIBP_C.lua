@@ -1,0 +1,44 @@
+---@class Camp_VehiclePoint_UIBP_C:UUAEUserWidget
+---@field SendUsedLog:fun()
+---@field CoolDownCompletedFixed:fun()
+---@field CoolDownCompleted:fun()
+---@field UIMsg_HideCampVehiclePoints:fun()
+---@field ShowHidePoints:fun(bShow:bool)
+---@field ClearNearVehiclePoints:fun()
+---@field FindNearVehiclePoints:fun()
+---@field OnInit:fun(Image:FSlateBrush,Text:FText,ActiveIndex:int32,DispatchID:int32,DistchType:int32,PosArray:ULuaArrayHelper,RadiusArray:ULuaArrayHelper,TlogParam:int32,bSendTLog:bool)
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field HideOtherPoints__DelegateSignature:fun(Obj:UUAEUserWidget)
+---@field Image_ResourceType UImage
+---@field NewButton_FindVehicle UNewButton
+---@field NewButton_ShowPoint1 UNewButton
+---@field NewButton_ShowPoint2 UNewButton
+---@field TextBlock_ResourceType UTextBlock
+---@field WidgetSwitcher_ShowPoint UWidgetSwitcher
+---@field AllRandomPoints ULuaArrayHelper
+---@field CacheRandomPoints ULuaArrayHelper
+---@field DispatchIconID int32
+---@field CurrentArray int32
+---@field DispatchIndex int32
+---@field MarkStatus EMarkStatus
+---@field CacheMarkInstanceIDArray ULuaArrayHelper
+---@field CachePosArray ULuaArrayHelper
+---@field Radius ULuaArrayHelper
+---@field bInCD bool
+---@field CoolDownTime float
+---@field RefreshTimeStamp float
+---@field bFindNearPoints bool
+---@field FindRadius float
+---@field NewVar_0 int32
+---@field CacheInstancePosAndID ULuaMapHelper
+---@field LastState int32
+---@field HideOtherPoints ULuaMulticastDelegate
+---@field CoolDownTimerHandle FTimerHandle
+---@field CoolDownTime_Fixed float
+---@field SortDistanceArray ULuaMapHelper
+---@field MAX_Count int32
+---@field CurCount int32
+---@field ShowStatus bool
+---@field TLogParam int32
+---@field bSendTLog bool
+---@field ButtonType int32

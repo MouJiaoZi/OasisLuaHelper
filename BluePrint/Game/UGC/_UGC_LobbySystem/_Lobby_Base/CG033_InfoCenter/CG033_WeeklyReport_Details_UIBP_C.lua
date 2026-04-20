@@ -1,0 +1,29 @@
+---@class CG033_WeeklyReport_Details_UIBP_C:UUAEUserWidget
+---@field Construct:fun()
+---@field Canvas_SketchEmptyTips UCanvasPanel
+---@field Common_UIPopupBG Common_UIPopupBG_C
+---@field Image_7 UImage
+---@field Image_9 UImage
+---@field Image_11 UImage
+---@field Image_13 UImage
+---@field Image_15 UImage
+---@field Image_money UImage
+---@field Image_money02 UImage
+---@field NewButton_Close UNewButton
+---@field ReuseList2_C_2 ReuseList2_C
+---@field ReuseList2_Leisure ReuseList2_C
+---@field ScaleBox_IPX UScaleBox
+---@field TextBlock_10 UTextBlock
+---@field TextBlock_11 UTextBlock
+---@field TextBlock_12 UTextBlock
+---@field TextBlock_13 UTextBlock
+---@field TextBlock_14 UTextBlock
+---@field TextBlock_15 UTextBlock
+---@field TextBlock_PaySponsor UTextBlock
+---@field TextBlock_PaySponsorValue UTextBlock
+---@field TextBlock_Sponsor UTextBlock
+---@field TextBlock_SponsorMap UTextBlock
+---@field TextBlock_SponsorPerson UTextBlock
+---@field TextBlock_SponsorValue UTextBlock
+---@field TextBlock_Time UTextBlock
+---@field WidgetSwitcher_Style UWidgetSwitcher

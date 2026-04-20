@@ -1,0 +1,31 @@
+---@class Ingame_SkiBoard_Btn_UIBP_C:UUAEUserWidget
+---@field SnowboardBtnPosition:fun():bool
+---@field SnowboardSprint:fun(IsSprint:bool):bool
+---@field OnPaint:fun(Context:FPaintContext)
+---@field UIMsg_ResetBtnScreenPosition:fun()
+---@field Reconnect_ResetUIByPlayerControllerState:fun()
+---@field RefreshButtonState:fun()
+---@field UIMsg_SetScreenPosition:fun()
+---@field UIMsg_SnowboardSprintOff:fun()
+---@field UIMsg_SnowboardSprintOn:fun()
+---@field UIMsg_SnowboardSwitch:fun(EnableVehicle:FString)
+---@field UIMsg_SnowboardDrop:fun()
+---@field UIMsg_SnowboardPick:fun()
+---@field Construct:fun()
+---@field Border_Snowboard UBorder
+---@field CanvasPanel_BtnLight UCanvasPanel
+---@field CanvasPanel_Snowboard UCanvasPanel
+---@field CustomizeCanavsPanel_SnowBoard_C_0 CustomizeCanavsPanel_SnowBoard_C
+---@field Image_UseSnowboardBoardBtn UImage
+---@field WidgetSwitcher_SnowboardBoardState UWidgetSwitcher
+---@field IsVehicleEnabled bool
+---@field MainControlBaseUI MainControlBaseUI_C
+---@field IsSnowboardPicked bool
+---@field IsNewbieGuide bool
+---@field UIAdaptationStructure FUIAdaptationStructure
+---@field CurDriveGUIType int32
+---@field NewbieGuideWidget UNewbieGuideWidget
+---@field ValidClickDistanceOffset float
+---@field TMPValidClickCenter FVector2D
+---@field TMPValidClickDistance float
+---@field DrawDebugTouchArea bool

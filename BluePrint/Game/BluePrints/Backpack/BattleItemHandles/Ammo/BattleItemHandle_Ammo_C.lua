@@ -1,0 +1,6 @@
+---@class BattleItemHandle_Ammo_C:UBattleItemHandleBase_BP_C
+---@field HandlePickup:fun(ItemContainer:TScriptInterface,PickupInfo:FBattleItemPickupInfo,Reason:EBattleItemPickupReason):bool
+---@field HandleDrop:fun(InCount:int32,Reason:EBattleItemDropReason):bool
+---@field HandleUse:fun(Target:FBattleItemUseTarget,Reason:EBattleItemUseReason):bool
+---@field HandleDisuse:fun(Reason:EBattleItemDisuseReason):bool
+---@field WrapperClass UClass

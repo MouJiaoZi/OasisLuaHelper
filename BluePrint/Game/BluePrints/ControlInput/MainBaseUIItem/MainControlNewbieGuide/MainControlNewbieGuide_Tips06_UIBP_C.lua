@@ -1,0 +1,1 @@
+---@class MainControlNewbieGuide_Tips06_UIBP_C:UUAEUserWidget

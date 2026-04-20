@@ -1,0 +1,14 @@
+---@class Ingame_fuhuobiaoji_UIBP_C:UMapUIMarkBaseWidget
+---@field GetLocalRevivalCDTimeCurPercent:fun(id:int32):float
+---@field ChangeCD:fun(Id:int32,InCurCDPercent:float)
+---@field ChangeUnavailable:fun()
+---@field ChangeAvailable:fun()
+---@field SwitchMark:fun(State:int32)
+---@field RefreshPickupFlagStatus:fun()
+---@field UpdateUIBPState:fun(InState:FCustomMarkEventData)
+---@field OnUIBPShow:fun(InState:FCustomMarkEventData)
+---@field Image_cd UImage
+---@field Switcher_fuhuocd UWidgetSwitcher
+---@field Switcher_fuhuoponit UWidgetSwitcher
+---@field Switcher_fuhuoxinhao UWidgetSwitcher
+---@field ShowIcon bool

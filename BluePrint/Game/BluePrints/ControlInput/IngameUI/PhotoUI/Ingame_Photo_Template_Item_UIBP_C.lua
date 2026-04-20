@@ -1,0 +1,10 @@
+---@class Ingame_Photo_Template_Item_UIBP_C:UUAEUserWidget
+---@field Destruct:fun()
+---@field Construct:fun()
+---@field OnCamMasterChosed__DelegateSignature:fun(TemplateID:int32)
+---@field Image_Content UImage
+---@field NewButton_Select UNewButton
+---@field TextBlock_0 UTextBlock
+---@field TextForDebug UTextBlock
+---@field TemplateID int32
+---@field OnCamMasterChosed ULuaMulticastDelegate

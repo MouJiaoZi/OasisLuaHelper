@@ -1,0 +1,3 @@
+---@class FRankPlayerScore
+---@field UID FString
+---@field BestScore int32

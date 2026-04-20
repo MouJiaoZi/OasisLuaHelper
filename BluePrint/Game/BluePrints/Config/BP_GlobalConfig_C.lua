@@ -1,0 +1,6 @@
+---@class BP_GlobalConfig_C:AGlobalConfigActor
+---@field UserConstructionScript:fun()
+---@field BP_WeatherConfig BP_WeatherConfig_C
+---@field DefaultSceneRoot USceneComponent
+---@field FlyTree FName
+---@field TeamDisplayLevelName FName

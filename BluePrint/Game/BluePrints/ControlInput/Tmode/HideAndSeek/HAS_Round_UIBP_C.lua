@@ -1,0 +1,23 @@
+---@class HAS_Round_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field PlayHiderWinAnimation:fun()
+---@field PlaySeekerWinAnimation:fun()
+---@field PlayHiderSuccessSound:fun()
+---@field PlaySeekerSuccessSound:fun()
+---@field RoundCountDown:fun(deltaTime:float)
+---@field InitUI:fun()
+---@field DX_In1 UWidgetAnimation
+---@field DX_In UWidgetAnimation
+---@field Common_Avatar_Style_1 Common_Avatar_Style1_UIBP_C
+---@field Common_Avatar_Style1_UIBP_C_0 Common_Avatar_Style1_UIBP_C
+---@field TextBlock_NextRound UTextBlock
+---@field TextBlock_PlayerName1 UTextBlock
+---@field TextBlock_PlayerName2 UTextBlock
+---@field TextBlock_Score1 UTextBlock
+---@field TextBlock_Score2 UTextBlock
+---@field TextBlock_TimeSuffix UTextBlock
+---@field TopNodeHider UCanvasPanel
+---@field TopNodeSeeker UCanvasPanel
+---@field WidgetSwitcher_Gender1 UWidgetSwitcher
+---@field WidgetSwitcher_Gender2 UWidgetSwitcher
+---@field WidgetSwitcher_Win UWidgetSwitcher

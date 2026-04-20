@@ -1,0 +1,1 @@
+---@class HS_Washerstatic_C:AHiderSceneActorBase_C

@@ -1,0 +1,8 @@
+---@class BattleItemHandle_UAV_C:UBackpackUAVHandle
+---@field SpawnWrapperOnGround:fun(Class:UClass,Condition:bool)
+---@field HandleDrop:fun(InCount:int32,Reason:EBattleItemDropReason):bool
+---@field HandlePickup:fun(ItemContainer:TScriptInterface,PickupInfo:FBattleItemPickupInfo,Reason:EBattleItemPickupReason):bool
+---@field HandleUse:fun(Target:FBattleItemUseTarget,Reason:EBattleItemUseReason):bool
+---@field ExtractItemData:fun():FBattleItemData
+---@field SoftWrapperClass UClass
+---@field OwningCharacter ASTExtraBaseCharacter

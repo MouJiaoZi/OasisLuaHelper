@@ -1,0 +1,5 @@
+---@class CG030_Kite_Enable_UIBP_C:UUAEUserWidget
+---@field Image_GlideWing UImage
+---@field NewButton_Open UNewButton
+---@field NewButton_Shut UNewButton
+---@field WidgetSwitcher_Switch UWidgetSwitcher

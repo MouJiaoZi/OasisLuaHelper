@@ -1,0 +1,10 @@
+---@class Ingame_BigMiniMap_UIBP_C:UCommMiniMapBase
+---@field OnInitBlueprint:fun()
+---@field OnInitBlueprintItem:fun(ItemRef:UCommMiniMapItemBase)
+---@field OnMiniMapResizeBlueprint:fun(AdjustSize:FVector2D,AdjustAlignment:FVector2D,UpdatePivot:bool)
+---@field OnProcessKeyActorLockBlueprint:fun(KeyActorInfo:FActorTypeItemInfo)
+---@field BigMapCanvas UCanvasPanel
+---@field BigMapImage UImage
+---@field CanvasPanel_AllMarks UCanvasPanel
+---@field CanvasPanel_MapImageSize UCanvasPanel
+---@field Ingame_MiniMapTouchPad_UIBP Ingame_MiniMapTouchPad_UIBP_C

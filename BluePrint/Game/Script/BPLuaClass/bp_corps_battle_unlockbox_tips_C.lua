@@ -1,0 +1,11 @@
+---@class bp_corps_battle_unlockbox_tips_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_CorpsBattleUnlockTips_Progress int32
+---@field BP_CorpsBattleUnlockTips_Open_Type int32
+---@field BP_CorpsBattleUnlockTips_CanGetSeasonHonor int32
+---@field BP_CorpsBattleUnlockTips_Treasury_ID int32
+---@field BP_CorpsBattleUnlockTips_CurProgressSegment int32
+---@field BP_CorpsBattleUnlockTips_CurSeasonHonor int32
+---@field BP_ARRAY_CorpsBattleUnlockTips_DropList ULuaArrayHelper
+---@field BP_CorpsBattleUnlockTips_AvatarFrameID int32

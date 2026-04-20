@@ -1,0 +1,1 @@
+---@class UGC_E_Armor1ItemHandle_C:UArmor_Lv1_ItemHandle_C

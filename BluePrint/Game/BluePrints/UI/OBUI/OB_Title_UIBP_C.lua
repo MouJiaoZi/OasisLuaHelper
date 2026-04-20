@@ -1,0 +1,15 @@
+---@class OB_Title_UIBP_C:UUAEUserWidget
+---@field CheckCondition:fun(Selection:EExcellentOperationResultType):bool
+---@field CheckName:fun():bool
+---@field ShowOBTips_Internation:fun(PlayerName:FString,KillType:EExcellentOperationResultType,KillNum:int32)
+---@field ShowOBTips_Normal:fun(PlayerName:FString,KillType:EExcellentOperationResultType,KillNum:int32)
+---@field StopPlayAnim:fun()
+---@field SetStopPlaying:fun()
+---@field SetStartPlaying:fun()
+---@field ShowOBTips:fun(PlayerName:FString,KillType:EExcellentOperationResultType,KillNum:int32)
+---@field DX_Start UWidgetAnimation
+---@field CanvasPanel_0 UCanvasPanel
+---@field Image_Title UImage
+---@field TextBlock_TitleNum UTextBlock
+---@field IsPlaying bool
+---@field CurPlayerName FString

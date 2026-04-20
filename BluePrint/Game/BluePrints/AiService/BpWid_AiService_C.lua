@@ -1,0 +1,2 @@
+---@class BpWid_AiService_C:UAiServiceWidget
+---@field OnMouseButtonDown_0:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply

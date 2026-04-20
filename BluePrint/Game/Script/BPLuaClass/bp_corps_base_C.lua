@@ -1,0 +1,6 @@
+---@class bp_corps_base_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_CorpsBase_SelectedIndex int32
+---@field BP_Array_CorpsBaseUI_RedPoint ULuaArrayHelper
+---@field BP_Array_CorpsBaseUI_ShowTab ULuaArrayHelper

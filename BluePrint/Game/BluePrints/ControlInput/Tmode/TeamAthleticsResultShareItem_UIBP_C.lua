@@ -1,0 +1,21 @@
+---@class TeamAthleticsResultShareItem_UIBP_C:UUAEUserWidget
+---@field DeathNumToWarLossRate:fun(KillNum:int32,DeathNum:int32):float
+---@field CanvasPanel_ResultItem_MultiKill UCanvasPanel
+---@field Common_Avatar_BP Common_Avatar_BP_C
+---@field Common_RankIntegralLevel_Style_Small_UIBP Common_RankIntegralLevel_Style_Small_UIBP_C
+---@field TextBlock_Rankname UTextBlock
+---@field TextBlock_ResultItem_Assist UTextBlock
+---@field TextBlock_ResultItem_Death UTextBlock
+---@field TextBlock_ResultItem_Defeat UTextBlock
+---@field TextBlock_ResultItem_MultiKill UTextBlock
+---@field TextBlock_ResultItem_PointScore UTextBlock
+---@field TextName UTextBlock
+---@field WidgetSwitcher_ResultItem_Gender UWidgetSwitcher
+---@field WidgetSwitcher_ResultItem_MVP UWidgetSwitcher
+---@field ColorYellow FSlateColor
+---@field ColorWhite FSlateColor
+---@field iIndexInParentArray int32
+---@field iAddFriendBtnState int32
+---@field ParentWidgetPtr TeamAthleticsResult_UIBP_C
+---@field iClickTeamID int32
+---@field ThisItemPlayerName FString

@@ -1,0 +1,12 @@
+---@class Ingame_TeamAssembly_TopNew_UIBP_C:UUAEUserWidget
+---@field RefreshConsumptionRankingIcon:fun(RankResID:int32,ProvinceID:int32,RankID:int32)
+---@field PlayConsumptionAnimation:fun()
+---@field RefreshSuperHeroTopRankInfo:fun(TopRank:int32)
+---@field RefreshTeamPlayerCharmInfo:fun(IsShow:bool,CharmLevel:int32,CharmValue:int32)
+---@field DX_In UWidgetAnimation
+---@field CanvasPanel_Charm UCanvasPanel
+---@field CanvasPanel_Main UCanvasPanel
+---@field Image_Icon UImage
+---@field TextBlock_Name UTextBlock
+---@field TextBlock_Num UTextBlock
+---@field TextBlock_Value UTextBlock

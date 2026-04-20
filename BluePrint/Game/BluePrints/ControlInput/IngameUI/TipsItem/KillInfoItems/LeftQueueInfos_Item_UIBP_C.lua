@@ -1,0 +1,15 @@
+---@class LeftQueueInfos_Item_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field HandleFinishedSwitchingAnim:fun()
+---@field HandleFinishedInitAnim:fun()
+---@field HandleFinishedInitMinTimeAnim:fun()
+---@field Construct:fun()
+---@field GlobalObserverSwitchingAnimation UWidgetAnimation
+---@field GlobalObserverInitAnimation UWidgetAnimation
+---@field SwitchingAnimation UWidgetAnimation
+---@field NormalAnimation UWidgetAnimation
+---@field Border_ColorSet UBorder
+---@field ItemContainer UGridPanel
+---@field KillInfo_BGSlot_UIBP KillInfo_BGSlot_UIBP_C
+---@field KillInfo_Prompt_UIBP KillInfo_Prompt_UIBP_C
+---@field WidgetSwitcher_Type UWidgetSwitcher

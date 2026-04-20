@@ -1,0 +1,4 @@
+---@class BountyMode_Achievements_InGameNotify_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field Achievements_Tips_0 BountyMode_Achievements_IngameTips_UIBP_C
+---@field Achievements_Tips_1 BountyMode_Achievements_IngameTips_UIBP_C

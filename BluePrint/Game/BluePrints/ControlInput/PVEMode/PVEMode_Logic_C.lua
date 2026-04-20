@@ -1,0 +1,5 @@
+---@class PVEMode_Logic_C:UUAEUserWidget
+---@field ShowBattleReusltMsg:fun()
+---@field HideSelf:fun()
+---@field ShowPVEUI:fun()
+---@field isShow bool

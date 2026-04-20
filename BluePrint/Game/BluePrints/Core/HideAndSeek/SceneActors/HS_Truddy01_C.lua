@@ -1,0 +1,1 @@
+---@class HS_Truddy01_C:AHiderSceneActorBase_C

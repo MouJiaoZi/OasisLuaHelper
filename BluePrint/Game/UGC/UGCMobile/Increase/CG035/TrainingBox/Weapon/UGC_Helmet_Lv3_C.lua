@@ -1,0 +1,4 @@
+---@class UGC_Helmet_Lv3_C:AActor
+---@field UserConstructionScript:fun()
+---@field AT_Helmet_Lv3 UStaticMeshComponent
+---@field DefaultSceneRoot USceneComponent

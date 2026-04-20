@@ -1,0 +1,11 @@
+---@class BP_Other_M134NewYear_BulletNew_C:ASpecialLocalBulletBase
+---@field GetLuaModule:fun():FString
+---@field UserConstructionScript:fun()
+---@field ExplosionEffectComp UParticleSystemComponent
+---@field BulletEffectComp UParticleSystemComponent
+---@field Sphere USphereComponent
+---@field ExplosionEffectListConfig ULuaArrayHelper
+---@field AutoExplodeTime float
+---@field ExplodeInterval float
+---@field FlySound UAkAudioEvent
+---@field ExpSound UAkAudioEvent

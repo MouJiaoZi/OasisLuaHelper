@@ -1,0 +1,22 @@
+---@class CharacterAvatarComp_BP_C:UCharacterAvatarComponent
+---@field GetLuaModule:fun():FString
+---@field GetSkinIDByIndexAndBaseID:fun(IndexID:int32,BaseID:int32):int32
+---@field GenerateTwinsMap:fun():ULuaMapHelper
+---@field GetBattleItemFromResID:fun(ResID:int32):UBackpackAvatarHandle
+---@field CreateMeshData:fun(meshPackage:FMeshPackage,defineID:FItemDefineID,SlotID:int32):FMeshData
+---@field PutOnDefaultEquipment:fun(itemHandle:UBackpackAvatarHandle):bool
+---@field GetBPID:fun(RowName:int32):int32
+---@field PutOffEquimentByResID:fun(resID:int32):bool
+---@field PutOnEquipmentByResID:fun(resID:int32):bool
+---@field ReceiveBeginPlay:fun()
+---@field UpdateIBL:fun(renderlevel:int32)
+---@field HandleClothingUpgrade:fun(InLoadedHandleList:ULuaArrayHelper)
+---@field PostOnAsyncLoadMeshList:fun(InAsyncID:int32)
+---@field PreAvatarMeshCompDestroy:fun(InTargetSlot:int32)
+---@field CachedHairMesh ULuaArrayHelper
+---@field IsUGCDisuseIBL bool
+---@field ForceBoneRetargetAdaptEmote int32
+---@field ForceBoneRetargetAdaptAvatar int32
+---@field OverrideEmoteID int32
+---@field OverrideEmoteCloth int32
+---@field TempChildrenLIst ULuaArrayHelper

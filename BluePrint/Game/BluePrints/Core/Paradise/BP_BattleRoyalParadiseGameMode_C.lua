@@ -1,0 +1,1 @@
+---@class BP_BattleRoyalParadiseGameMode_C:ABP_BattleRoyalTrainingGameMode_C

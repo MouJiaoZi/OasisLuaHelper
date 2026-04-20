@@ -1,0 +1,3 @@
+---@class GMPointCollector_C:AGMPointCollector
+---@field UserConstructionScript:fun()
+---@field DefaultSceneRoot USceneComponent

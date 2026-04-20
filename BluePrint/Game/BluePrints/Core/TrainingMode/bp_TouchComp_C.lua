@@ -1,0 +1,3 @@
+---@class bp_TouchComp_C:USTExtraTouchComponent
+---@field ReceiveBeginPlay:fun()
+---@field ViewportLocalSize FVector2D

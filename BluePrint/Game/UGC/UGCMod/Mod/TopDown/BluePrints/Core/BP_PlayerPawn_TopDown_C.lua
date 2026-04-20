@@ -1,0 +1,4 @@
+---@class BP_PlayerPawn_TopDown_C:BP_UGCPlayerPawn_C
+---@field OverrideBaseAimRotationBP:fun():FRotator,bool
+---@field UserConstructionScript:fun()
+---@field BP_UGCTopDownShootTargetCalComponent BP_UGCTopDownShootTargetCalComponent_C

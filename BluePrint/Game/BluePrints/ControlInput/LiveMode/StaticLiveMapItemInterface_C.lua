@@ -1,0 +1,4 @@
+---@class StaticLiveMapItemInterface_C:UInterface
+---@field UpdatePosition:fun():bool
+---@field SetMapInstance:fun(mapWidget:UUserWidget):bool
+---@field SetLocationAndScale:fun(loc:FVector,scale:float):bool

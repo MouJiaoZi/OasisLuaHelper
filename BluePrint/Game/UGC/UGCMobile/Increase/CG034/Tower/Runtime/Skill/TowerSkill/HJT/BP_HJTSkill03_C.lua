@@ -1,0 +1,6 @@
+---@class BP_HJTSkill03_C:BP_UGCM_Tower_SkillBase_C
+---@field GetLuaModule:fun():FString
+---@field LaunchProjectileByClass:fun()
+---@field ProjectileClass UClass
+---@field LSocketName FString
+---@field RSocketName FString

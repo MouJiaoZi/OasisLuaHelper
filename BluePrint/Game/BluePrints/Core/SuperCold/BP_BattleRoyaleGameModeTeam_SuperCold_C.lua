@@ -1,0 +1,3 @@
+---@class BP_BattleRoyaleGameModeTeam_SuperCold_C:ABP_BattleRoyaleGameModeTeamPUBG_C
+---@field UserConstructionScript:fun()
+---@field AIWorldSoundManager UAIWorldSoundManagerComponent

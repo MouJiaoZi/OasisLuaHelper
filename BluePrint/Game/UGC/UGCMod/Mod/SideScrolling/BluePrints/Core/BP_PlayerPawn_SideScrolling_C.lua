@@ -1,0 +1,4 @@
+---@class BP_PlayerPawn_SideScrolling_C:BP_UGCPlayerPawn_C
+---@field OverrideBaseAimRotationBP:fun():FRotator,bool
+---@field UserConstructionScript:fun()
+---@field BP_UGCSideScrollingShootTargetCalComponent BP_UGCSideScrollingShootTargetCalComponent_C

@@ -1,0 +1,2 @@
+---@class RoomCamp_ReuseList_C:UBTReuseListNew
+---@field List UCustomScrollBox

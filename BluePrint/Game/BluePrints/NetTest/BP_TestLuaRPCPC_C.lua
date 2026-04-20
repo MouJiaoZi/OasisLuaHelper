@@ -1,0 +1,7 @@
+---@class BP_TestLuaRPCPC_C:ABP_STExtraPlayerController_C
+---@field GetLuaModule:fun():FString
+---@field LuaTick:fun()
+---@field UserConstructionScript:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field LuaTickInterval float
+---@field CurLuaTickInterval float

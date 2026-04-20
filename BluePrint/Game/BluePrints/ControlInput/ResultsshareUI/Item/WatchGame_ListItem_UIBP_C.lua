@@ -1,0 +1,17 @@
+---@class WatchGame_ListItem_UIBP_C:UUAEUserWidget
+---@field RefreshCurPlayerReservation:fun()
+---@field SetSelect:fun(Sel:bool)
+---@field SetInfo:fun(playerId:int32,playerName:FString,Parent:WatchGame_UIBP_C,Index:int32,IsAlive:bool,uid:FString,ShowReverving:int32)
+---@field Button_Reservation UButton
+---@field Button_ReservationAccept UButton
+---@field Button_Selected UButton
+---@field Image_SelectedBG UImage
+---@field TextBlock_TeamName UTextBlock
+---@field TeamMatePlayerId int32
+---@field MyParent WatchGame_UIBP_C
+---@field MyIndex int32
+---@field Dead bool
+---@field PlayerName FString
+---@field color1 FSlateColor
+---@field color2 FSlateColor
+---@field UID FString

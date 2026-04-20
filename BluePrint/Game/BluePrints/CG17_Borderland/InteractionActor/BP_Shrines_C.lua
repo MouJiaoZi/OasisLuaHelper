@@ -1,0 +1,19 @@
+---@class BP_Shrines_C:AActivityBaseActor
+---@field SequenceEvent__ENTRYPOINTBP_Shrines_1:fun()
+---@field SpawnSupplies:fun()
+---@field CanTrigger:fun(NewParam:FGISCCF_Param):bool
+---@field OnClick:fun(NewParam:FGISCCF_Param)
+---@field UserConstructionScript:fun()
+---@field P_Fire_Arrow_01 UParticleSystemComponent
+---@field SSphereCollision USphereComponent
+---@field Mark_Sequence UActorSequenceComponent
+---@field Cube UStaticMeshComponent
+---@field ActivityUI UActivityUIComponent
+---@field ActivityFakePossess UActivityFakePossessComponent
+---@field DropItemCurveAnim UDropItemCurveAnimComponent
+---@field BP_ProduceDropItemComponent BP_ProduceDropItemComponent_C
+---@field GISActorComponentBase UGISActorComponentBase
+---@field MarkCharacter ULuaArrayHelper
+---@field bIsOpen bool
+---@field FinalMaterial UMaterialInterface
+---@field AKID int32

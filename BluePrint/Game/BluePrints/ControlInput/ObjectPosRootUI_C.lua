@@ -1,0 +1,2 @@
+---@class ObjectPosRootUI_C:UUserWidget
+---@field RootPanel UCanvasPanel

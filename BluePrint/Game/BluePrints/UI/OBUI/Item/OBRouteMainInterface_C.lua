@@ -1,0 +1,8 @@
+---@class OBRouteMainInterface_C:UInterface
+---@field RouteMain_RefreshLeaderChoose:fun():bool
+---@field RouteMain_RefreshClubList:fun():bool
+---@field RouteMain_RefreshCurrentTeamIdx:fun():bool
+---@field RouteMain_RefreshAll:fun():bool
+---@field RouteMain_RefreshTeamSegmentsInfo:fun():bool
+---@field RouteMain_RefreshSegmentsList:fun():bool
+---@field RouteMain_RefreshChooseTime:fun():bool

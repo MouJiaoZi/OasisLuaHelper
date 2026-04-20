@@ -1,0 +1,1 @@
+---@class BP_RabbitB_AIC_C:AAnimalAIController

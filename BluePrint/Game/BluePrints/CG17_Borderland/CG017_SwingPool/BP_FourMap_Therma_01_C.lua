@@ -1,0 +1,8 @@
+---@class BP_FourMap_Therma_01_C:AActor
+---@field UserConstructionScript:fun()
+---@field Box UBoxComponent
+---@field WaterSwimObject_2 UChildActorComponent
+---@field FourMap_Therma_01_Water UStaticMeshComponent
+---@field FourMap_Therma_01_a UStaticMeshComponent
+---@field FourMap_Therma_01 UStaticMeshComponent
+---@field DefaultSceneRoot USceneComponent

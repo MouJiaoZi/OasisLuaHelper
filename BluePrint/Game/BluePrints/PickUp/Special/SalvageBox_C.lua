@@ -1,0 +1,1 @@
+---@class SalvageBox_C:APlayerDeadInventoryBox_C

@@ -1,0 +1,10 @@
+---@class MobileEditor_Event_SelectListNew_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field CanvasPanel_Revocation UCanvasPanel
+---@field CanvasPanel_Select UCanvasPanel
+---@field CanvasPanel_SelectBut UCanvasPanel
+---@field NewButton_Select UNewButton
+---@field TextBlock_0 UTextBlock
+---@field TextBlock_1 UTextBlock
+---@field TextBlock_EventName UTextBlock
+---@field WidgetSwitcher_But UWidgetSwitcher

@@ -1,0 +1,15 @@
+---@class WatchGame_BackPack_FitingSlotInfo_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field RefreshIcon:fun(InputObj:UObject)
+---@field UpdateIcon:fun(IconID:int32)
+---@field Button_SlotClick UButton
+---@field CanvasPanel_EscapeModeInfo UCanvasPanel
+---@field CanvasPanel_FitingSlot UCanvasPanel
+---@field CanvasPanel_NightVision UCanvasPanel
+---@field CanvasPanel_Superhuman_Clip UCanvasPanel
+---@field Image_FittingIcon UImage
+---@field Image_PCHover UImage
+---@field Image_SlotHoverStatus UImage
+---@field TextBlock_FittingName UTextBlock
+---@field FittingName FName
+---@field ItemID int32

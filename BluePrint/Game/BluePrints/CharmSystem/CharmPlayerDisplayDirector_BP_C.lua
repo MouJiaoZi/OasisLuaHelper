@@ -1,0 +1,50 @@
+---@class CharmPlayerDisplayDirector_BP_C:ASceneDisplayDirectorBase
+---@field CheckAddHead:fun(PoseComp:CharmAvatarPoseComponent_BP_C,ItemList:ULuaArrayHelper,PlayerGender:int32)
+---@field SpawnSpecialAvatarParticles:fun(AttachParent:UMeshComponent,AvatarComp:UAvatarDisplayPoseComponent,ItemID:int32):bool
+---@field GetAvatarParticleAttachComp:fun(SocketName:FName,Parent:UAvatarDisplayPoseComponent):USceneComponent
+---@field GetAvatarParticleOffset:fun(SocketName:FName,Location:FVector,Scale:FVector):FVector
+---@field SpawnAvatarParticles:fun(ParticleSets:ULuaArrayHelper,AttachParent:UMeshComponent,AvatarComp:UAvatarDisplayPoseComponent)
+---@field IsAvatarItemFiltered:fun(ItemId:int32):bool
+---@field GetPlayerInfoWidgetLocation:fun(ActorIndex:int32):FVector
+---@field InitializeWidgetVisibility:fun()
+---@field AddNewEffectInstance:fun(NewEffectIns:UParticleSystemComponent,Index:int32)
+---@field DelaySetVisibility:fun()
+---@field NeedEnableDisplayActor:fun():bool
+---@field UserConstructionScript:fun()
+---@field OnPreRefreshAvatarInfoBlueprint:fun(ActorIndex:int32,IsSelf:bool,IsTeammate:bool,DetailInfo:FPlayerDetailInfo,DisplayComp:UAvatarDisplayPoseComponent,WidgetComp:UWidgetComponent,IsAlreadyDisplaying:bool)
+---@field OnCountDownChanged:fun(CountDown:int32,TotalCountDown:int32)
+---@field OnPostRefreshAvatarInfoBlueprint:fun(DisplayComp:UAvatarDisplayPoseComponent,WidgetComp:UWidgetComponent,DetailInfo:FPlayerDetailInfo)
+---@field OnRefreshAvatarInfoBlueprint:fun(DisplayComp:UAvatarDisplayPoseComponent,WidgetComp:UWidgetComponent,DetailInfo:FPlayerDetailInfo,OnlyWearList:ULuaArrayHelper)
+---@field OnDestroyDisplayActorBlueprint:fun()
+---@field SocketRight4 USceneComponent
+---@field SocketLeft4 USceneComponent
+---@field SocketRight3 USceneComponent
+---@field SocketLeft3 USceneComponent
+---@field SocketRight2 USceneComponent
+---@field SocketLeft2 USceneComponent
+---@field SocketRight USceneComponent
+---@field SocketLeft USceneComponent
+---@field CountDownEffect UParticleSystemComponent
+---@field AkSoundPlayerScene UAkSoundPlayerSceneComponent
+---@field Widget_2 UWidgetComponent
+---@field Widget_1 UWidgetComponent
+---@field Widget_3 UWidgetComponent
+---@field Widget_4 UWidgetComponent
+---@field CharmAvatarPoseComponent_BP2 CharmAvatarPoseComponent_BP_C
+---@field CharmAvatarPoseComponent_BP1 CharmAvatarPoseComponent_BP_C
+---@field CharmAvatarPoseComponent_BP3 CharmAvatarPoseComponent_BP_C
+---@field CharmAvatarPoseComponent_Lucky CharmAvatarPoseComponent_BP_C
+---@field AkComp UAkComponent
+---@field ArtPlatform UChildActorComponent
+---@field Scene USceneComponent
+---@field IsTopPlayer bool
+---@field TimerHandleList ULuaArrayHelper
+---@field SwitchEffectDelay float
+---@field EffectList ULuaArrayHelper
+---@field PlayerInfoTipOffset FVector
+---@field EmoteList ULuaArrayHelper
+---@field FireMeshList ULuaArrayHelper
+---@field LeftParticleOffset FVector
+---@field RightParticleOffset FVector
+---@field SpecialEffectMap ULuaMapHelper
+---@field SpecialEffectMapRight ULuaMapHelper

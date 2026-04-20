@@ -1,0 +1,24 @@
+---@class DarkCrisis_Text_UIBP_C:USceneInteractionUI
+---@field OnLoadTextureComponent:fun(InObject:UObject,LoadIndex:int32)
+---@field SetShowText:fun(TitleID:int32,TextID:int32,ActiveIndex:int32,TexturePath:FSoftObjectPath)
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field ShowTips:fun(TextID:int32)
+---@field OnClickCloseButtonDispatcher__DelegateSignature:fun()
+---@field ShowTips_anima UWidgetAnimation
+---@field Border_SetTopTipsColor UBorder
+---@field CanvasPanel_0 UCanvasPanel
+---@field Image_0 UImage
+---@field Image_CanvasPanel UCanvasPanel
+---@field NewButton_Close UNewButton
+---@field NewButton_NextPage UNewButton
+---@field NewButton_PreviousPage UNewButton
+---@field TopTipsCommon UUTRichTextBlock
+---@field UTRichTextBlock_CopyWiting1 UUTRichTextBlock
+---@field UTRichTextBlock_CopyWiting2 UUTRichTextBlock
+---@field UTRichTextBlock_CopyWiting3 UUTRichTextBlock
+---@field WidgetSwitcher_Prompt UWidgetSwitcher
+---@field OnClickCloseButtonDispatcher ULuaMulticastDelegate
+---@field CurrentPage int32
+---@field Owner AActor
+---@field CurrentLoadIndex int32
+---@field BackGroundImage UImage

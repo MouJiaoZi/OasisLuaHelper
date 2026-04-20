@@ -1,0 +1,1 @@
+---@class WeaponAnimList_PistolWithShield_R45_BF_C:UUAECharacterAnimListComponent

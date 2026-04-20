@@ -1,0 +1,1 @@
+---@class Resurrection_TeamitemUIBP_C:UUserWidget

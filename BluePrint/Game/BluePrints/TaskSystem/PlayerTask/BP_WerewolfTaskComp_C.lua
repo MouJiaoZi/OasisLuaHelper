@@ -1,0 +1,50 @@
+---@class BP_WerewolfTaskComp_C:UTaskControllerComponent
+---@field GetLuaModule:fun():FString
+---@field ServerRefreshTaskStateByUrgentState:fun(State:bool)
+---@field RandomTask:fun(tempList:ULuaArrayHelper):ULuaArrayHelper
+---@field ActiveNextActor:fun()
+---@field RandomByPath:fun(Path:ULuaArrayHelper)
+---@field ReportTaskTypeInfoForResultData:fun(TypeList:ULuaArrayHelper)
+---@field GetTaskSubType:fun(iD:int32):int32
+---@field CallBackTempIDList:fun()
+---@field RandomTaskBySubType:fun(Type:int32):int32
+---@field WolfRegisterTask:fun()
+---@field RandomNextGuided:fun()
+---@field SetActorState:fun()
+---@field CallBackBeginPlay:fun()
+---@field ClearAllInfo:fun()
+---@field ClearGuidedID:fun(ID:int32)
+---@field CallBackPersonalProcess:fun()
+---@field CallBackGuidedID:fun()
+---@field OnRepGuidedIDUtils:fun(InTemplateID:int32)
+---@field IsInClient:fun():bool
+---@field CallBackTaskState:fun()
+---@field CheckFinishedState:fun(ID:int32):bool
+---@field ClientRefreshTaskPanel:fun(value:int32)
+---@field ClientShowTipsByType:fun(Type:int32)
+---@field RandomTaskState:fun(Number:int32):ULuaArrayHelper
+---@field ClearTaskState:fun()
+---@field SetProcess:fun(TargetProcess:int32):bool
+---@field SetGuidedID:fun(value:int32)
+---@field RefreshTaskState:fun(TaskID:int32,TaskState:int32)
+---@field RegisterTask:fun(TaskIDArray:ULuaArrayHelper,TypeLength:int32)
+---@field ReceiveBeginPlay:fun()
+---@field TaskState ULuaArrayHelper
+---@field IndexMap ULuaMapHelper
+---@field GuidedID int32
+---@field PersonalProcess int32
+---@field GuidedInstanceID int32
+---@field isWolf int32
+---@field RefreshTimer FTimerHandle
+---@field TempIDList ULuaArrayHelper
+---@field TypeMap ULuaMapHelper
+---@field TaskIDList ULuaArrayHelper
+---@field RandomTimer FTimerHandle
+---@field MaxPlanCount int32
+---@field CurPlanCount int32
+---@field HasFinshedAllTask bool
+---@field StaticPerProcess int32
+---@field TaskListArray ULuaArrayHelper
+---@field ListIndex ULuaMapHelper
+---@field GuidedID_Copy int32
+---@field IsUrgent bool

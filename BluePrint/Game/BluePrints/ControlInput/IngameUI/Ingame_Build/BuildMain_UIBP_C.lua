@@ -1,0 +1,66 @@
+---@class BuildMain_UIBP_C:UUAEUserWidget
+---@field OnUpdateBuildPercent:fun(Percent:float)
+---@field OnShowHideBuildPercent:fun(isShow:bool,Pos:FVector2D)
+---@field PrebuildingBtnHandler:fun()
+---@field On_Border_Default_MouseButtonDown:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field GetCrtItemCDInfo:fun():bool,float
+---@field SetCrtItemCD:fun()
+---@field ShowTips:fun()
+---@field SetAutoBuildOnOff:fun(IsAutoBuildOn:bool)
+---@field On_Button_Keep_MouseButtonDown:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field On_Button_Cancel_MouseButtonDown:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field On_Image_CrtItem_MouseButtonDown:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field On_Border_CloseTip_MouseButtonDown:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field On_Border_OpenTip_MouseButtonDown:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field OnPreBuildCancelled:fun()
+---@field OnPreBuildConfirmed:fun()
+---@field OnPreBuildStart:fun(FingerIndex:ETouchIndex)
+---@field IsScreenPosInWidgetArea:fun(ScreenSpacePosition:FVector2D,TheWidget:UWidget):bool
+---@field SetCustomizeUIInfo:fun(SaveGame:BP_SAVEGAME_UIElemLayout_C,LayoutIndex:int32)
+---@field StopBuildOper:fun()
+---@field HideContent:fun()
+---@field ShowContent:fun()
+---@field Init:fun()
+---@field Construct:fun()
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field DX_AnOpen UWidgetAnimation
+---@field DX_ReplaceDefault UWidgetAnimation
+---@field Border_Build UBorder
+---@field Border_CancelBuild UBorder
+---@field Border_CloseTip UBorder
+---@field Border_KeepBuild UBorder
+---@field Border_OpenTip UBorder
+---@field BuildIocn_CD UImage
+---@field BuildTips_UIBP BuildTips_UIBP_C
+---@field BuildTips_UIBP_New BuildTips_UIBP_New_C
+---@field BuildTouch_UIBP BuildTouch_UIBP_C
+---@field CanvasPanel_BeSelected UCanvasPanel
+---@field CanvasPanel_Build UCanvasPanel
+---@field CanvasPanel_CancelBuild UCanvasPanel
+---@field CanvasPanel_KeepBuild UCanvasPanel
+---@field CanvasPanel_SetDefault UCanvasPanel
+---@field HorizontalBox_22 UHorizontalBox
+---@field Image_BeSelected_Warning UImage
+---@field Image_BuildIocn UImage
+---@field JumpNum_BuildNum01 JumpNum_UIBP_C
+---@field JumpNum_BuildNum02 JumpNum_UIBP_C
+---@field JumpNum_BuildNum03 JumpNum_UIBP_C
+---@field ReplaceItem UImage
+---@field TextBlock_CanBuildNum UTextBlock
+---@field Widget_continued UWidgetSwitcher
+---@field MyBuildComp UBuildSystemComponent
+---@field MyBackpackComp UBackpackComponent
+---@field MateNumMap ULuaMapHelper
+---@field IsEventBinded bool
+---@field IsListInited bool
+---@field IsPreBuilding bool
+---@field IsAutoBuildOn bool
+---@field IsShowSetDefaultBtn bool
+---@field EventBindTryTimes int32
+---@field ListInitedTryTimes int32
+---@field BindEventTimer FTimerHandle
+---@field MateJumpNumMap ULuaMapHelper
+---@field ListInitTimer FTimerHandle
+---@field BuildItemCDMap ULuaMapHelper
+---@field BuildIDCDMap ULuaMapHelper
+---@field MateDataTable UUAEDataTable

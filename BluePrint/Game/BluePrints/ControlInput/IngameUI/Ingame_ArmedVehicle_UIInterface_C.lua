@@ -1,0 +1,4 @@
+---@class Ingame_ArmedVehicle_UIInterface_C:UInterface
+---@field SwitchDriverFireState:fun(bFire:bool):bool
+---@field ShowVehicleWeaponUI:fun(bIsDriver:bool):bool
+---@field UpdateUseVehicleWeaponUI:fun(bUse:bool,VehicleWeapon:ASTExtraShootWeapon):bool

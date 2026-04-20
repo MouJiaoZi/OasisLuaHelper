@@ -1,0 +1,2 @@
+---@class RaiseTrophyEventDataGetter_C:UUAESkillCollectedEventDataGetter
+---@field GetCollectedEventDataFromEventId:fun(STExtraCharacter:ASTExtraCharacter,EventId:ECollectedEventDataEventId):FCollectedEventData

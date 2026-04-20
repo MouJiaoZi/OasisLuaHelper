@@ -1,0 +1,1 @@
+---@class BP_Rifle_G36_BattleItemHandle_SHV_C:BP_Rifle_G36_BattleItemHandle_C

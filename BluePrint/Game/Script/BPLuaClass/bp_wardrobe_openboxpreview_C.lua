@@ -1,0 +1,8 @@
+---@class bp_wardrobe_openboxpreview_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_WardrobeOpenBox_UseCount int32
+---@field BP_ARRAY_WardrobeOpenBoxPreviewDropInfoList ULuaArrayHelper
+---@field BP_WardrobeOpenBox_CurrentSelectIndex int32
+---@field BP_ARRAY_WardrobeOpenBoxPreviewWearInfo ULuaArrayHelper
+---@field BP_WardrobeOpenBox_CurrentGender int32

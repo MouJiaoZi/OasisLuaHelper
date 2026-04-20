@@ -1,0 +1,62 @@
+---@class BP_SceneDisplayPeak_C:ASceneDisplayDirectorPeak
+---@field CheckSelfPlayerNameIsValid:fun():bool
+---@field PlayParticle:fun(PawnIndex:int32)
+---@field InitParticleComponentList:fun()
+---@field UpdateCoolDownNumber:fun()
+---@field UpdateCoolDownMaterial:fun()
+---@field UpdateCoolDown:fun()
+---@field UpdateTeamLogoInfoInternal:fun()
+---@field InitPlayerWidgetList:fun()
+---@field UpdateTeamPlayerInfoInternal:fun()
+---@field UpdateTeamGradeInfoInternal:fun()
+---@field UpdateAllTeamInfo:fun()
+---@field UpdatePlatformPlayerModel:fun()
+---@field UpdatePlatformCoolDown:fun()
+---@field UpdateCharacterModel:fun(PawnIndex:int32)
+---@field CreateRepDispalyPawn:fun()
+---@field UserConstructionScript:fun()
+---@field BP_OnRepPeakPawnInfo:fun()
+---@field BP_OnRepCoolDownTime:fun()
+---@field BP_DisplayCharacterLoadFinish:fun(PawnIndex:int32)
+---@field BP_CharacterOnRepFinish:fun(PawnIndex:int32)
+---@field BP_OnActorChannelOpen:fun()
+---@field BP_DestroyPeakPlatform:fun()
+---@field BP_OnRepPeakTeamInfo:fun()
+---@field ReceiveEndPlay:fun(EndPlayReason:EEndPlayReason)
+---@field Pose_Particle4 UParticleSystemComponent
+---@field Pose_Particle3 UParticleSystemComponent
+---@field Pose_Particle2 UParticleSystemComponent
+---@field Pose_Particle1 UParticleSystemComponent
+---@field ParticleSystem2 UParticleSystemComponent
+---@field ParticleSystem1 UParticleSystemComponent
+---@field ParticleSystem UParticleSystemComponent
+---@field P_CG03Summer_Light UParticleSystemComponent
+---@field Platform_Stage05 UStaticMeshComponent
+---@field Platform_Stage04 UStaticMeshComponent
+---@field Platform_Stage03 UStaticMeshComponent
+---@field Platform_Stage01 UStaticMeshComponent
+---@field PlayerNameWidget4 UWidgetComponent
+---@field PlayerNameWidget3 UWidgetComponent
+---@field PlayerNameWidget2 UWidgetComponent
+---@field PlayerNameWidget1 UWidgetComponent
+---@field TeamLogoWidget UWidgetComponent
+---@field TeamGradeWidget UWidgetComponent
+---@field PEL_Stage_CoolDown UStaticMeshComponent
+---@field Platform USceneComponent
+---@field Pose_BP4 USceneComponent
+---@field Pose_BP3 USceneComponent
+---@field Pose_BP2 USceneComponent
+---@field Pose_BP1 USceneComponent
+---@field DefaultSceneRoot USceneComponent
+---@field AnimSequenceList ULuaArrayHelper
+---@field CoolDownHasUpdateModel bool
+---@field CoolDownOverMaterial ULuaArrayHelper
+---@field LastPhaseIndex int32
+---@field CurrentPhaseIndex int32
+---@field PlayerWidgetList ULuaArrayHelper
+---@field ParticleComponentList ULuaArrayHelper
+---@field HasPlayParticleList ULuaArrayHelper
+---@field CurrentFindCount int32
+---@field MaxFindCount int32
+---@field InternalTime float
+---@field TimerHandler FTimerHandle

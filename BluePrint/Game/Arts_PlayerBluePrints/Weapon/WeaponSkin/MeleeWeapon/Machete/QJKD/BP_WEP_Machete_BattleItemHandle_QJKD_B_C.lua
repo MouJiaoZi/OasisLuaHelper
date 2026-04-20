@@ -1,0 +1,1 @@
+---@class BP_WEP_Machete_BattleItemHandle_QJKD_B_C:BP_WEP_Machete_BattleItemHandle_C

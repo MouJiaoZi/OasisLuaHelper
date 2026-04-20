@@ -1,0 +1,201 @@
+---@class GT_GameModeActor_EPBase_C:AGameModeActor
+---@field GetLuaModule:fun():FString
+---@field LuaCollectAllAIPosNode:fun()
+---@field IsValidProjectile:fun(NewParam:AEliteProjectile):bool
+---@field CreateEffectActor:fun(Position:FVector):GT_EffectActor_C
+---@field LuaProjectileDestroyed:fun(Projectile:AEliteProjectile)
+---@field LuaProjectileSpawned:fun(Projectile:AEliteProjectile)
+---@field LuaProjectileExploded:fun(Projectile:AEliteProjectile)
+---@field OnProjectileDestroyed:fun(Projectile:AEliteProjectile)
+---@field OnProjectileSpawned:fun(Projectile:AEliteProjectile)
+---@field OnProjectileExploded:fun(Projectile:AEliteProjectile)
+---@field OnBoxOverlap:fun(OverlappedComponent:UPrimitiveComponent,OtherActor:AActor,OtherComp:UPrimitiveComponent,OtherBodyIndex:int32)
+---@field BindOverlapEvent:fun(NewParam:bool)
+---@field LuaPlayerLeaveBoxArea:fun(NewParam:AActor)
+---@field LuaSpawnRegionalMapActor:fun(NewParam:AActor)
+---@field CollectAllAIPosNode:fun()
+---@field LuaEndPlay:fun()
+---@field LuaBeginPlay:fun()
+---@field LuaSpawnAI:fun(InController:AAIController,InPawn:APawn,InNode:GT_AIPathActor_C)
+---@field DestroyAllAI:fun()
+---@field SpawnAI:fun(PlayerName:FString,AINode:GT_AIPathActor_C):bool
+---@field UserConstructionScript:fun()
+---@field ReceiveEndPlay:fun(EndPlayReason:EEndPlayReason)
+---@field StaticMesh10 UStaticMeshComponent
+---@field StaticMesh9 UStaticMeshComponent
+---@field Outside UBoxComponent
+---@field StaticMesh1 UStaticMeshComponent
+---@field FlightPlane UFlightPlaneComponent
+---@field PlayerPos_Enter USceneComponent
+---@field PlayerPos USceneComponent
+---@field BP_LeaveGT UChildActorComponent
+---@field ChildActor UChildActorComponent
+---@field Weapons USceneComponent
+---@field StaticMesh289 UStaticMeshComponent
+---@field StaticMesh288 UStaticMeshComponent
+---@field StaticMesh287 UStaticMeshComponent
+---@field StaticMesh286 UStaticMeshComponent
+---@field StaticMesh285 UStaticMeshComponent
+---@field StaticMesh284 UStaticMeshComponent
+---@field StaticMesh283 UStaticMeshComponent
+---@field StaticMesh282 UStaticMeshComponent
+---@field StaticMesh281 UStaticMeshComponent
+---@field StaticMesh280 UStaticMeshComponent
+---@field StaticMesh278 UStaticMeshComponent
+---@field StaticMesh277 UStaticMeshComponent
+---@field StaticMesh276 UStaticMeshComponent
+---@field StaticMesh275 UStaticMeshComponent
+---@field StaticMesh274 UStaticMeshComponent
+---@field StaticMesh273 UStaticMeshComponent
+---@field StaticMesh272 UStaticMeshComponent
+---@field StaticMesh263 UStaticMeshComponent
+---@field StaticMesh262 UStaticMeshComponent
+---@field StaticMesh257 UStaticMeshComponent
+---@field StaticMesh256 UStaticMeshComponent
+---@field StaticMesh255 UStaticMeshComponent
+---@field StaticMesh254 UStaticMeshComponent
+---@field StaticMesh253 UStaticMeshComponent
+---@field StaticMesh252 UStaticMeshComponent
+---@field StaticMesh251 UStaticMeshComponent
+---@field StaticMesh250 UStaticMeshComponent
+---@field StaticMesh249 UStaticMeshComponent
+---@field StaticMesh248 UStaticMeshComponent
+---@field StaticMesh222 UStaticMeshComponent
+---@field StaticMesh221 UStaticMeshComponent
+---@field StaticMesh220 UStaticMeshComponent
+---@field StaticMesh219 UStaticMeshComponent
+---@field StaticMesh218 UStaticMeshComponent
+---@field StaticMesh217 UStaticMeshComponent
+---@field StaticMesh216 UStaticMeshComponent
+---@field StaticMesh215 UStaticMeshComponent
+---@field StaticMesh214 UStaticMeshComponent
+---@field StaticMesh213 UStaticMeshComponent
+---@field StaticMesh212 UStaticMeshComponent
+---@field StaticMesh211 UStaticMeshComponent
+---@field StaticMesh210 UStaticMeshComponent
+---@field StaticMesh209 UStaticMeshComponent
+---@field StaticMesh208 UStaticMeshComponent
+---@field StaticMesh207 UStaticMeshComponent
+---@field StaticMesh206 UStaticMeshComponent
+---@field StaticMesh205 UStaticMeshComponent
+---@field StaticMesh204 UStaticMeshComponent
+---@field StaticMesh203 UStaticMeshComponent
+---@field StaticMesh202 UStaticMeshComponent
+---@field StaticMesh201 UStaticMeshComponent
+---@field StaticMesh200 UStaticMeshComponent
+---@field StaticMesh199 UStaticMeshComponent
+---@field StaticMesh198 UStaticMeshComponent
+---@field StaticMesh197 UStaticMeshComponent
+---@field StaticMesh196 UStaticMeshComponent
+---@field StaticMesh195 UStaticMeshComponent
+---@field StaticMesh194 UStaticMeshComponent
+---@field StaticMesh193 UStaticMeshComponent
+---@field StaticMesh192 UStaticMeshComponent
+---@field StaticMesh191 UStaticMeshComponent
+---@field StaticMesh190 UStaticMeshComponent
+---@field StaticMesh189 UStaticMeshComponent
+---@field StaticMesh188 UStaticMeshComponent
+---@field StaticMesh187 UStaticMeshComponent
+---@field StaticMesh186 UStaticMeshComponent
+---@field StaticMesh185 UStaticMeshComponent
+---@field StaticMesh184 UStaticMeshComponent
+---@field StaticMesh183 UStaticMeshComponent
+---@field StaticMesh182 UStaticMeshComponent
+---@field StaticMesh181 UStaticMeshComponent
+---@field StaticMesh180 UStaticMeshComponent
+---@field StaticMesh179 UStaticMeshComponent
+---@field StaticMesh178 UStaticMeshComponent
+---@field StaticMesh177 UStaticMeshComponent
+---@field StaticMesh164 UStaticMeshComponent
+---@field StaticMesh163 UStaticMeshComponent
+---@field StaticMesh162 UStaticMeshComponent
+---@field StaticMesh161 UStaticMeshComponent
+---@field StaticMesh160 UStaticMeshComponent
+---@field StaticMesh159 UStaticMeshComponent
+---@field StaticMesh158 UStaticMeshComponent
+---@field StaticMesh157 UStaticMeshComponent
+---@field StaticMesh156 UStaticMeshComponent
+---@field StaticMesh155 UStaticMeshComponent
+---@field StaticMesh154 UStaticMeshComponent
+---@field StaticMesh153 UStaticMeshComponent
+---@field StaticMesh151 UStaticMeshComponent
+---@field StaticMesh150 UStaticMeshComponent
+---@field StaticMesh149 UStaticMeshComponent
+---@field StaticMesh148 UStaticMeshComponent
+---@field StaticMesh147 UStaticMeshComponent
+---@field StaticMesh146 UStaticMeshComponent
+---@field StaticMesh145 UStaticMeshComponent
+---@field StaticMesh144 UStaticMeshComponent
+---@field StaticMesh143 UStaticMeshComponent
+---@field StaticMesh142 UStaticMeshComponent
+---@field StaticMesh123 UStaticMeshComponent
+---@field StaticMesh122 UStaticMeshComponent
+---@field StaticMesh115 UStaticMeshComponent
+---@field StaticMesh113 UStaticMeshComponent
+---@field StaticMesh112 UStaticMeshComponent
+---@field StaticMesh111 UStaticMeshComponent
+---@field StaticMesh110 UStaticMeshComponent
+---@field StaticMesh109 UStaticMeshComponent
+---@field StaticMesh108 UStaticMeshComponent
+---@field StaticMesh93 UStaticMeshComponent
+---@field StaticMesh92 UStaticMeshComponent
+---@field StaticMesh91 UStaticMeshComponent
+---@field StaticMesh90 UStaticMeshComponent
+---@field StaticMesh89 UStaticMeshComponent
+---@field StaticMesh88 UStaticMeshComponent
+---@field StaticMesh19 UStaticMeshComponent
+---@field Mesh USceneComponent
+---@field Top UBoxComponent
+---@field Back UBoxComponent
+---@field Forward UBoxComponent
+---@field Right UBoxComponent
+---@field Left UBoxComponent
+---@field BlockWall USceneComponent
+---@field RightDown USceneComponent
+---@field LeftTop USceneComponent
+---@field MiniMapPoint USceneComponent
+---@field DefaultSceneRoot USceneComponent
+---@field CacheAIList ULuaArrayHelper
+---@field CurGameActorState int32
+---@field AIController UClass
+---@field AIPawnClass UClass
+---@field CacheAIControllerList ULuaArrayHelper
+---@field KillAICount int32
+---@field KillAITotalCount int32
+---@field CurrentRound int32
+---@field TrainingTime ULuaArrayHelper
+---@field TrainModeAICount int32
+---@field ReboundAICount ULuaArrayHelper
+---@field CurrentTimeInfo GT_TimeInfo
+---@field CurScore int32
+---@field KillOneScore int32
+---@field MiniMapPath FString
+---@field MiniMapTexture UTexture2D
+---@field RegionalMapActorClass FString
+---@field StartFlightTipsTrain int32
+---@field StartFlightTips int32
+---@field TrainingModeType int32
+---@field ShowDistance bool
+---@field ShowRange bool
+---@field ShowCountDown bool
+---@field ShowDamage bool
+---@field IconProjectileMap ULuaArrayHelper
+---@field EffectActorClass UClass
+---@field FunctionDescribe ULuaArrayHelper
+---@field ExplosionAICount ULuaArrayHelper
+---@field ChallenageAICount ULuaArrayHelper
+---@field CurFightState int32
+---@field TrainingModeTypeFighting int32
+---@field TLogID int32
+---@field PathNodeList ULuaArrayHelper
+---@field StartPathNodeList ULuaArrayHelper
+---@field ReadySpawnAITime float
+---@field ResultTime float
+---@field LimiteItemList ULuaArrayHelper
+---@field CacheClass ULuaArrayHelper
+---@field DynamicStandardPointDelta FVector
+---@field MapActorCache AActor
+---@field ActorIsEndPlay bool
+---@field AIPathActorClass FSoftClassPath
+---@field AIPathActor AActor
+---@field NewVar_0 bool

@@ -1,0 +1,6 @@
+---@class bp_roleinfo_corps_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_RoleInfoCorps_IsShowCorpsWar bool
+---@field BP_RoleInfoCorpsMyCorpsID FString
+---@field BP_RoleInfoCorpsCanJoint bool

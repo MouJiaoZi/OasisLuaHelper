@@ -1,0 +1,5 @@
+---@class TerminatorTips_C:UTerminatorWidget
+---@field SetCakeBrush:fun()
+---@field Construct:fun()
+---@field CanvasPanel_TerminatorTips UCanvasPanel
+---@field Image_Icon UImage

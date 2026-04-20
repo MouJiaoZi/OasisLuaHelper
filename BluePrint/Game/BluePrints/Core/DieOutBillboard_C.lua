@@ -1,0 +1,5 @@
+---@class DieOutBillboard_C:AActor
+---@field UserConstructionScript:fun()
+---@field MaterialBillboard1_VFX UMaterialBillboardComponent
+---@field MaterialBillboard UMaterialBillboardComponent
+---@field DefaultSceneRoot USceneComponent

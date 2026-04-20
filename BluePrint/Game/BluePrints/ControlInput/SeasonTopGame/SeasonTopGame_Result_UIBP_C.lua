@@ -1,0 +1,167 @@
+---@class SeasonTopGame_Result_UIBP_C:UUAEUserWidget
+---@field ClickPlayerTitle:fun(Name:FString,Index:int32,AbsPos:FVector2D):bool
+---@field OnLikeTeammateBtnClicked:fun(playerID:FString):bool
+---@field ShowTips:fun(Text:FText):bool
+---@field AddFriendClicked:fun(itemIndexInList:int32):bool
+---@field SetScoreUpgradeTarget:fun(InScore:int32)
+---@field RefreshPeakCompetitionMatchType:fun()
+---@field RefreshShareDataButtonText:fun()
+---@field FlipSelectedDetailButton:fun()
+---@field OnUpdateGamingTeamItem:fun(TeamItem:UUserWidget,ItemIndex:int32)
+---@field RefreshGamingTeam:fun()
+---@field FillFinishedItemData:fun()
+---@field CollectFinishedTeamItem:fun()
+---@field RefreshFinishedTeamDetailData:fun()
+---@field RefreshDetailData:fun(OwnerLua:bp_battleresult_C,MaxTeammateNum:int32)
+---@field PreparePoseOrder:fun(ResultLua:bp_battleresult_C)
+---@field PrepareDetailItem:fun()
+---@field FillItemData:fun(OwnerLua:bp_battleresult_C,MaxTeammateNum:int32)
+---@field UpdateRadarChart:fun(MaxTeammateNum:int32,OwnerLua:bp_battleresult_C)
+---@field SetScoreLevelIcon:fun(ScoreLevel:FString)
+---@field RefreshRadarChartData:fun(ChartNameList:ULuaArrayHelper,ChartValueList:ULuaArrayHelper,ChartValueSchedule:ULuaArrayHelper)
+---@field InitRadarChartWidget:fun()
+---@field SetProgressPercent:fun(InPercent:float)
+---@field InitProgress:fun()
+---@field UpdateProgressScore:fun()
+---@field LoadTeamAvatarLevelFinish:fun()
+---@field ProgressAnimFinish:fun()
+---@field NextGradeAnim:fun()
+---@field StepAnimation:fun()
+---@field PrepareAnimation:fun()
+---@field CountAnimation:fun()
+---@field OnTimeOutExit:fun()
+---@field CheckReportButtonState:fun()
+---@field CallResultFunction:fun(Func:FString)
+---@field IsShowSingle:fun():bool
+---@field RefreshCompetitionBaseData:fun()
+---@field CountReturnToLobby:fun(DeltaTime:float)
+---@field ResetUIState:fun()
+---@field HideDetailPanel:fun()
+---@field ShowDetailPanel:fun()
+---@field InitUIWidgetStructure:fun()
+---@field GetMyName:fun():FString
+---@field InitAvatarUIItem:fun()
+---@field RealExitGame:fun()
+---@field ShowLoadingUI:fun()
+---@field BackToLobby:fun()
+---@field OnShowDetailCountDown:fun(Delta:float)
+---@field getAvatarLevelName:fun():FString
+---@field ShowTeamResult:fun()
+---@field BroadCastResultMsg:fun()
+---@field UIMsg_ShowTeamResultWithLoadLevel:fun()
+---@field Construct:fun()
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field Destruct:fun()
+---@field DX_GuaranteedPoints UWidgetAnimation
+---@field DX_UpGrade UWidgetAnimation
+---@field DX_In UWidgetAnimation
+---@field CanvasPanel_10 UCanvasPanel
+---@field CanvasPanel_ApplyTips UCanvasPanel
+---@field CanvasPanel_CurrentProgress UCanvasPanel
+---@field CanvasPanel_Data UCanvasPanel
+---@field CanvasPanel_Dialog UCanvasPanel
+---@field CanvasPanel_RemainTeam UCanvasPanel
+---@field CanvasPanel_TeamRank UCanvasPanel
+---@field CanvasPanel_Tips UCanvasPanel
+---@field CanvasPanel_WeekScoreProgress UCanvasPanel
+---@field Common_RankTitleInfo_UIBP Common_RankTitleInfo_UIBP_C
+---@field CustomScrollBox_TeamList UCustomScrollBox
+---@field HorizontalBox_Btn UHorizontalBox
+---@field HorizontalBox_NamePlate UHorizontalBox
+---@field Image_18 UImage
+---@field Image_20 UImage
+---@field Image_21 UImage
+---@field Image_22 UImage
+---@field Image_23 UImage
+---@field Image_24 UImage
+---@field Image_25 UImage
+---@field Image_DataBg UImage
+---@field Image_Tab1_Select UImage
+---@field Image_Tab2_Select UImage
+---@field LobbyTeam_Logo_UIBP LobbyTeam_Logo_UIBP_C
+---@field NewButton_Arrow UNewButton
+---@field NewButton_Continue UNewButton
+---@field NewButton_Explain UNewButton
+---@field NewButton_GameDetail UNewButton
+---@field NewButton_Record UNewButton
+---@field NewButton_Report UNewButton
+---@field NewButton_ReturnLobby UNewButton
+---@field NewButton_Share UNewButton
+---@field NewButton_ShareData UNewButton
+---@field NewButton_Tab1 UNewButton
+---@field NewButton_Tab2 UNewButton
+---@field ProgressBar_WeekScore UProgressBar
+---@field ReuseList2_TeamLogo ReuseList2_C
+---@field ScaleBox_IPX UScaleBox
+---@field SeasonTopGame_Result_Item_1 SeasonTopGame_Result_Item_UIBP_C
+---@field SeasonTopGame_Result_Item_2 SeasonTopGame_Result_Item_UIBP_C
+---@field SeasonTopGame_Result_Item_3 SeasonTopGame_Result_Item_UIBP_C
+---@field SeasonTopGame_Result_Item_4 SeasonTopGame_Result_Item_UIBP_C
+---@field SeasonTopGame_Result_Item2_1 SeasonTopGame_Result_Item2_UIBP_C
+---@field SeasonTopGame_Result_Item2_2 SeasonTopGame_Result_Item2_UIBP_C
+---@field SeasonTopGame_Result_Item2_3 SeasonTopGame_Result_Item2_UIBP_C
+---@field SeasonTopGame_Result_Item2_4 SeasonTopGame_Result_Item2_UIBP_C
+---@field SeasonTopGame_Result_Item3_UIBP SeasonTopGame_Result_Item3_UIBP_C
+---@field SeasonTopGame_Result_Item3_UIBP_0 SeasonTopGame_Result_Item3_UIBP_C
+---@field SRadarChartUserWidget_1 USRadarChartUserWidget
+---@field TextBlock_1 UTextBlock
+---@field TextBlock_20 UTextBlock
+---@field TextBlock_21 UTextBlock
+---@field TextBlock_22 UTextBlock
+---@field TextBlock_23 UTextBlock
+---@field TextBlock_24 UTextBlock
+---@field TextBlock_25 UTextBlock
+---@field TextBlock_26 UTextBlock
+---@field TextBlock_27 UTextBlock
+---@field TextBlock_28 UTextBlock
+---@field TextBlock_29 UTextBlock
+---@field TextBlock_ApplyTips UTextBlock
+---@field TextBlock_CountDown UTextBlock
+---@field TextBlock_CurrentScore UTextBlock
+---@field TextBlock_GameGrade UTextBlock
+---@field TextBlock_GameRank UTextBlock
+---@field TextBlock_KillScore UTextBlock
+---@field TextBlock_RankScore UTextBlock
+---@field TextBlock_RemainTeam UTextBlock
+---@field TextBlock_ShareData UTextBlock
+---@field TextBlock_TeamName UTextBlock
+---@field TextBlock_Upgrade UTextBlock
+---@field TextBlock_WeekScore UTextBlock
+---@field TextBlock_WeekTotalScore UTextBlock
+---@field TextBlock_Win1 UTextBlock
+---@field TextBlock_Win2 UTextBlock
+---@field UTRichTextBlock_Explain UUTRichTextBlock
+---@field WidgetSwitcher_Data UWidgetSwitcher
+---@field WidgetSwitcher_GameType UWidgetSwitcher
+---@field WidgetSwitcher_Label UWidgetSwitcher
+---@field CachedAvatarLevelName FString
+---@field isBattleDetailShowed bool
+---@field canCountDown bool
+---@field ShowDetailTimeCount float
+---@field AvatarDirector AvatarDisplayDirector_BP_C
+---@field maxTeamMember int32
+---@field ArrayBottomPlayerUI ULuaArrayHelper
+---@field ReturnLobbyCounter float
+---@field IsSharePanelOpenned bool
+---@field ProgressAnimScoreList ULuaArrayHelper
+---@field CurBattleScore int32
+---@field TotalScore int32
+---@field ProgressStep float
+---@field CurProgressScoreRange int32
+---@field AnimatingScore int32
+---@field StartProgress float
+---@field EndProgress float
+---@field CanCountAnimation bool
+---@field BaseScore int32
+---@field IgnoreProgressAnim bool
+---@field ProgressAnimTimerHandle FTimerHandle
+---@field SwitchGradeAnimDelay float
+---@field IsPlayingPointAkEvent bool
+---@field ScoreImageMap ULuaMapHelper
+---@field TeamPoseArray ULuaArrayHelper
+---@field DetailItemList ULuaArrayHelper
+---@field FinishedTeamItemList ULuaArrayHelper
+---@field IgnoreScore int32
+---@field AnimScoreLIst ULuaArrayHelper
+---@field AnimScoreTextList ULuaArrayHelper
+---@field InitProgressDone bool

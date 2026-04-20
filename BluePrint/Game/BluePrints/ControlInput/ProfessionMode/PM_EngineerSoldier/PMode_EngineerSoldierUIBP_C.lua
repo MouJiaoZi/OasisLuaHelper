@@ -1,0 +1,3 @@
+---@class PMode_EngineerSoldierUIBP_C:UUserWidget
+---@field Button_RabbitAndRiverLight UButton
+---@field TextBlock_RabbitAndRiverLight UTextBlock

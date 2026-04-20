@@ -1,0 +1,1 @@
+---@class BP_dacia_BattleItemHandle_EBBB3_C:BP_dacia_BattleItemHandle_EBBB1_C

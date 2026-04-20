@@ -1,0 +1,10 @@
+---@class Duel_WeaponSelectItem_UIBP_C:UUAEUserWidget
+---@field Button_Select UNewButton
+---@field CanvasPanel_Select UCanvasPanel
+---@field TextBlock_0 UTextBlock
+---@field TextBlock_1 UTextBlock
+---@field TextBlock_2 UTextBlock
+---@field TextBlock_weaponName UTextBlock
+---@field WidgetSwitcher_Icon UWidgetSwitcher
+---@field WidgetSwitcher_Name UWidgetSwitcher
+---@field WidgetSwitcher_weapon UWidgetSwitcher

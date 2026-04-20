@@ -1,0 +1,32 @@
+---@class Ingame_replay_BodyParts_UIBP_C:UShootingBodyUI
+---@field Get_TextBlock_inform_ShadowColorAndOpacity_0:fun():FLinearColor
+---@field Construct:fun()
+---@field UpdateShootingBodyUI:fun(NewRecord:FWeaponRecord,bIsTurnToShow:bool,bToUpdateFireCount:bool)
+---@field UpdateBodyHitCount:fun(AddedHitCountMap:ULuaMapHelper,bIsSameWeapon:bool)
+---@field UpdateFireCount:fun(TotalFireCount:int32)
+---@field DX_Hit_Feet UWidgetAnimation
+---@field DX_Hit_Hand UWidgetAnimation
+---@field DX_Hit_Limb UWidgetAnimation
+---@field DX_Hit_Body UWidgetAnimation
+---@field DX_Hit_Head UWidgetAnimation
+---@field CanvasPanel_Body UCanvasPanel
+---@field CanvasPanel_BodyNumber UCanvasPanel
+---@field CanvasPanel_Feet UCanvasPanel
+---@field CanvasPanel_FeetNumber UCanvasPanel
+---@field CanvasPanel_Hand UCanvasPanel
+---@field CanvasPanel_HandNumber UCanvasPanel
+---@field CanvasPanel_Head UCanvasPanel
+---@field CanvasPanel_HeadNumber UCanvasPanel
+---@field CanvasPanel_Limb UCanvasPanel
+---@field CanvasPanel_LimbNumber UCanvasPanel
+---@field Replay_BodyParts_Item_Body Replay_BodyParts_Item_C
+---@field Replay_BodyParts_Item_Feet Replay_BodyParts_Item_C
+---@field Replay_BodyParts_Item_Hand Replay_BodyParts_Item_C
+---@field Replay_BodyParts_Item_Head Replay_BodyParts_Item_C
+---@field Replay_BodyParts_Item_Limb Replay_BodyParts_Item_C
+---@field TextBlock_Information UTextBlock
+---@field TextBlock_NumberHit UTextBlock
+---@field TextBlock_NumberShots UTextBlock
+---@field TextBlock_WeaponName UTextBlock
+---@field ShootingBodyItems ULuaArrayHelper
+---@field BodyHitAnimations ULuaArrayHelper

@@ -1,0 +1,32 @@
+---@class PC_Ver_HotKeysList_UIBP_C:UPCHintUI
+---@field GetLuaModule:fun():FString
+---@field FormatCustomHintText:fun(InText:FText,FormatText:FText):FText
+---@field InitHintActionSubstitute:fun(InActionName:FName):FName
+---@field IsNotCurrentKeyMode:fun():bool
+---@field OnRelatedWidgetVisibilityChange:fun(OldVisibility:ESlateVisibility,NewVisibility:ESlateVisibility,RelatedWidget:UWidget)
+---@field ShowHintKey:fun(ActionName:FName,InCustomHintTextIndex:int32,InIsAxisMapping:bool,InAxisMappingScale:float,InShowKeyMode:int32,InRowID:FString,InShowHUDStyle:int32)
+---@field Construct:fun()
+---@field CanvasPanel_Conent UCanvasPanel
+---@field Image_BG1 UImage
+---@field Image_BG2 UImage
+---@field Image_Hint UImage
+---@field Spacer_LeftSize1 USpacer
+---@field Spacer_LeftSize2 USpacer
+---@field Spacer_RightSize1 USpacer
+---@field Spacer_RightSize2 USpacer
+---@field Spacer_SetSize1 USpacer
+---@field Spacer_SetSize2 USpacer
+---@field TextBlock_25 UTextBlock
+---@field TextBlock_AddNum UTextBlock
+---@field TextBlock_Mid UTextBlock
+---@field WidgetSwitcher_0 UWidgetSwitcher
+---@field CustomHintTextIndex int32
+---@field IsVisOppositeRelated bool
+---@field IsAxisMapping bool
+---@field AxisMappingScale float
+---@field ShowKeyMode int32
+---@field RowID FString
+---@field ActionName FName
+---@field ShowHUDStyle int32
+---@field DriverHintIDs ULuaSetHelper
+---@field PassengerHintIDs ULuaSetHelper

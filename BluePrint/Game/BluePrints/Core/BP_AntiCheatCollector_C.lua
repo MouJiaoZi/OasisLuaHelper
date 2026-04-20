@@ -1,0 +1,3 @@
+---@class BP_AntiCheatCollector_C:USecurityCollectorComponent
+---@field CalcClientCustomTime:fun(RealTime:int32,Monotonic:int32,MonotonicRaw:int32,BootTime:int32):int32,int32
+---@field TransformInputInt:fun(InA:int32,InB:int32,InC:int64,InD:int32):int32,int64,bool

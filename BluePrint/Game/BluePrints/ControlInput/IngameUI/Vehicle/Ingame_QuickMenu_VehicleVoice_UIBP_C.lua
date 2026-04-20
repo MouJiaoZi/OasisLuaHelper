@@ -1,0 +1,9 @@
+---@class Ingame_QuickMenu_VehicleVoice_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field ButtonShortcut UButton
+---@field Image_Selected_01 UImage
+---@field Image_Shortcut_Select UImage
+---@field Image_Shortcut_UnSelect UImage
+---@field WidgetSwitcher_ShortCut UWidgetSwitcher
+---@field VehicleLogo ULuaMapHelper
+---@field DefaultLog BP_VehicleChatTabSkinStruct

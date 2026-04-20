@@ -1,0 +1,23 @@
+---@class Training_Sensitivity_IntelligenceBoxUIBP_C:USettingPlusMinusSlider
+---@field SetLocalFlag:fun()
+---@field SaveChange:fun()
+---@field ReverseChange:fun()
+---@field GetCurrentModifyRate:fun():float
+---@field RefreshButton:fun()
+---@field InitValue:fun()
+---@field InitAll:fun(name:FString,settingkey:FString)
+---@field Image_progressCD UImage
+---@field NewButton_close UNewButton
+---@field NewButton_Quick UNewButton
+---@field NewButton_save UNewButton
+---@field NewButton_SlowDown UNewButton
+---@field Text_State_Name UTextBlock
+---@field TextBlock_progress UTextBlock
+---@field currentValue float
+---@field MutipleRate float
+---@field ModifyRate ULuaArrayHelper
+---@field MaxModifiedTime int32
+---@field ModifiedTimes int32
+---@field LastSaveValue float
+---@field MutipleRateGyro float
+---@field MutipleRateNormal float

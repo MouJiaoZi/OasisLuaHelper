@@ -1,0 +1,4 @@
+---@class FST_HDRMaterialSwitch
+---@field MeshActor AStaticMeshActor
+---@field MaterialHDR UMaterialInterface
+---@field MaterialLDR UMaterialInterface

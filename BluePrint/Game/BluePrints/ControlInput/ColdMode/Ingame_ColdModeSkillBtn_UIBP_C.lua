@@ -1,0 +1,13 @@
+---@class Ingame_ColdModeSkillBtn_UIBP_C:UUAEUserWidget
+---@field UpdateItemCount:fun()
+---@field Border_RoastMeat UBorder
+---@field Border_TakeOff UBorder
+---@field Button_AddFirewood UButton
+---@field Button_RoastMeat UButton
+---@field Button_TakeOff UButton
+---@field Image_AddFirewood UImage
+---@field Image_RoastMeat UImage
+---@field TextBlock_AddFirewood UTextBlock
+---@field TextBlock_AddFirewoodNum UTextBlock
+---@field TextBlock_RoastMeat UTextBlock
+---@field TextBlock_RoastMeatNum UTextBlock

@@ -1,0 +1,7 @@
+---@class Ingame_MainControlBaseLive_mapbox_UIBP_C:UUserWidget
+---@field MapScaleChange:fun():bool
+---@field SetLocationAndScale:fun(loc:FVector,scale:float):bool
+---@field SetMapInstance:fun(mapWidget:UUserWidget):bool
+---@field UpdatePosition:fun():bool
+---@field MapWidget UUserWidget
+---@field localtion FVector

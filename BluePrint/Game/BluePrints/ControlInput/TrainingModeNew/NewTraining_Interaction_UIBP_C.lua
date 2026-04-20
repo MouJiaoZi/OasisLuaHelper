@@ -1,0 +1,5 @@
+---@class NewTraining_Interaction_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field CloseArea UImage
+---@field ReuseList2_Interaction ReuseList2_C
+---@field VerticalBox_List UVerticalBox

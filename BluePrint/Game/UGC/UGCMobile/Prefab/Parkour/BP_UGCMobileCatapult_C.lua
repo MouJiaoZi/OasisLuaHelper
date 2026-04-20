@@ -1,0 +1,50 @@
+---@class BP_UGCMobileCatapult_C:BP_UGCMobileBaseActor_C
+---@field GetLuaModule:fun():FString
+---@field ResetMonsterCD:fun(InMonster:BP_UGCM_GenericMobPawn_C,InCurrentTime:float)
+---@field CheckMonsterCanLaunch:fun(InMonster:BP_UGCM_GenericMobPawn_C):bool
+---@field CheckIsPawnInStrop:fun(InActor:AActor):bool
+---@field ClientBPPreLaunchPlayer:fun()
+---@field LaunchPlayer:fun(CharacterOwner:ASTExtraBaseCharacter):bool,bool,bool,FVector
+---@field LuaPreLaunchPlayer:fun(PlayerCharacter:AActor)
+---@field ResetPlayerCD:fun(PlayerCharacter:ASTExtraPlayerCharacter,CurTime:float)
+---@field CheckPlayerCanLaunch:fun(PlayerCharacter:ASTExtraPlayerCharacter):bool
+---@field ResetVehicleCD:fun(VehicleUID:int32,CurTime:float)
+---@field PlaySoundEffect:fun()
+---@field PlayAnim:fun()
+---@field PaddingPool:fun(PaddingSize:int32)
+---@field InitParticlePool:fun()
+---@field OnActorSelectStageChanged:fun(IsSelected:bool)
+---@field ShowGuides:fun()
+---@field UserConstructionScript:fun()
+---@field ReceiveEndPlay:fun(EndPlayReason:EEndPlayReason)
+---@field OverlapCheckArea UOverlapCheckAreaComponent
+---@field GuidePoint UStaticMeshComponent
+---@field SkeletalMesh USkeletalMeshComponent
+---@field boom UParticleSystemComponent
+---@field Spline USplineComponent
+---@field OverlapBox UBoxComponent
+---@field Catapult UStaticMeshComponent
+---@field HorizontalForce float
+---@field VerticalForce float
+---@field LaunchVelocity FVector
+---@field GuidesPathPosList ULuaArrayHelper
+---@field ObjectTypes ULuaArrayHelper
+---@field ParticleArray ULuaArrayHelper
+---@field bGameShow bool
+---@field bSelected bool
+---@field EnableAction FUGCMobileObjectAction
+---@field DisableAction FUGCMobileObjectAction
+---@field EnableEvent FUGCMobileObjectEvent
+---@field DisableEvent FUGCMobileObjectEvent
+---@field PoolSize int32
+---@field ParticlePool ULuaArrayHelper
+---@field NewVar_2_0 FVector
+---@field bEnable bool
+---@field Distance int32
+---@field VehicleCDMap ULuaMapHelper
+---@field SameCarCD float
+---@field SamePlayerCD float
+---@field PlayerCDMap ULuaMapHelper
+---@field LaunchID int32
+---@field bRoundFightReset bool
+---@field MonsterCDMap ULuaMapHelper

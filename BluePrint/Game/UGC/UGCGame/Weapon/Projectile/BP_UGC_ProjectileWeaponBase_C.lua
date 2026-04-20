@@ -1,0 +1,10 @@
+---@class BP_UGC_ProjectileWeaponBase_C:AUGCProjectileWeapon
+---@field UserConstructionScript:fun()
+---@field BP_WeaponDynamicAnimListManager BP_WeaponDynamicAnimListManager_C
+---@field BP_ThrowComponent BP_UGC_ThrowComponent_C
+---@field WeaponStateManager UWeaponStateManager
+---@field ThrowableWeaponCrossHair UThrowableWeaponCrossHairComponent
+---@field WeaponAnimList_Grenade WeaponAnimList_Grenade_C
+---@field WeaponEntity UWeaponEntity
+---@field WeaponSpecificHandler UWeaponSpecificHandler
+---@field WeaponStateDefault UWeaponStateDefault

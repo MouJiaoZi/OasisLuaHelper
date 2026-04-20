@@ -1,0 +1,2 @@
+---@class KillTipsInterface_C:UInterface
+---@field SetKillTipsData:fun(InKillTipsData:FExtractDamageParamKillTipsData):bool

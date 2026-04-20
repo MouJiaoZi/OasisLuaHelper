@@ -1,0 +1,7 @@
+---@class ZombieModeTopBG_UIBP_C:UUAEUserWidget
+---@field SetResultTop:fun(single:bool):bool
+---@field SetResultVictory:fun(vic:bool):bool
+---@field ShowResultModeBGDetail:fun(show:bool):bool
+---@field Canvas_Panel_victory1 UCanvasPanel
+---@field Canvas_Panel_victory2 UCanvasPanel
+---@field WidgetSwitcher_ZombieModeTopBGType UWidgetSwitcher

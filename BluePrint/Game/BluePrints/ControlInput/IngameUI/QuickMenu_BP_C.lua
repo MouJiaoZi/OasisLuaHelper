@@ -1,0 +1,132 @@
+---@class QuickMenu_BP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field SetNameInLua:fun()
+---@field SetChatName:fun()
+---@field FillWithExpressionItemList:fun(InItemList:ULuaArrayHelper)
+---@field ShowTipsofExpression:fun()
+---@field UpdateExpression:fun(FirstIndex:int32,LastIndex:int32)
+---@field InitExpression:fun()
+---@field IsMyFriend:fun(UID:FString):bool
+---@field UIMsg_UpdateTeamPFList:fun()
+---@field UIMsg_EnterSpectatingStatus:fun()
+---@field InitQuickBoxByList:fun(Array:ULuaArrayHelper,MsgIndex:int32,ScrollBox:UCustomScrollBox,chatType:QuickChatType)
+---@field UIMsg_UpdateAvatarQuickList:fun()
+---@field UpdateHistoryReuseList:fun(widget:UUserWidget,logicID:int32,index:int32)
+---@field UIMsg_UpdateDiceCountDownTips:fun()
+---@field ClearTimer:fun()
+---@field UIMsg_UpdateQuickTextIDList:fun()
+---@field UIMsg_UpdateFollowTips:fun()
+---@field SetSpectatorRedDotNumColor:fun(IsSelected:bool)
+---@field SetSpectatorRedDotNum:fun(SpectatorNum:int32)
+---@field InitSpectatorTabPage:fun()
+---@field SetSpectatorNum:fun(SpectatorNum:int32)
+---@field GetFreeSpectatorItem:fun():Quick_Watchting_Number_BP_C
+---@field HideAllSpectatorItem:fun()
+---@field RefreshSpectatorTabPage:fun()
+---@field ClickWaitButton:fun(gid:FString)
+---@field ClickRefuseButton:fun(gid:FString)
+---@field SingleplayerSetting2:fun()
+---@field OnTouchMoved:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field MakeFriendLastText:fun(msgType:int32,content:FString):FString
+---@field MultiPlayerSetting:fun()
+---@field SingleplayerSetting:fun()
+---@field ReceiveFriendInvite:fun(gid:FString,name:FString):bool
+---@field SendFriendChat:fun(InText:FText)
+---@field SendTeamChat:fun(InText:FText)
+---@field RemindChatBtn:fun(ShowRedPoint:bool)
+---@field ShowAllUnRead:fun()
+---@field ClearUnreadByGid:fun(gid:FString)
+---@field ClickAChatFriend:fun(gid:FString)
+---@field AddFriendSecondChat:fun(gid:FString,name:FString,content:FString,isSelf:bool,msgType:int32,bReply:bool)
+---@field MakeFriendChatText:fun(Name:FString,content:FString,isSelf:bool,msgType:int32,reply:bool):FString
+---@field UpdateFriendSecondChatByGid:fun(gid:FString)
+---@field AddFriendChat:fun(gid:FString,name:FString,content:FString,isSelf:bool,msgID:int32,bReply:bool)
+---@field AddChatToHistory:fun(message:FString,isMe:bool,Msg:FQuickSignMsg,MsgID:int32)
+---@field InitQuickMsg:fun(forceInit:bool)
+---@field SelectOpt:fun(type:int32)
+---@field Construct:fun()
+---@field ReceivedInitWidget:fun()
+---@field AvatarScrollBox_Quick UCustomScrollBox
+---@field BtnReturnFirstChat UButton
+---@field Button_3Dexpression UButton
+---@field Button_accept UButton
+---@field Button_Refuse UButton
+---@field Button_sendfriend UButton
+---@field Button_Teamsend UButton
+---@field Button_Watching UButton
+---@field ButtonFriends UButton
+---@field ButtonRecord UButton
+---@field ButtonShortcut UButton
+---@field Canva_FriendSend UCanvasPanel
+---@field Canvas_Teamsend UCanvasPanel
+---@field CanvasPanel_38 UCanvasPanel
+---@field CanvasPanel_3Dexpression3 UCanvasPanel
+---@field CanvasPanel_CDTips UCanvasPanel
+---@field CanvasPanel_Friend UCanvasPanel
+---@field CanvasPanel_History UCanvasPanel
+---@field CanvasPanel_OtherName UCanvasPanel
+---@field CanvasPanel_Quick UCanvasPanel
+---@field CanvasPanel_Slot UCanvasPanel
+---@field CanvasPanel_Time UCanvasPanel
+---@field CanvasPanel_Top UCanvasPanel
+---@field CanvasPanel_WatchMe UCanvasPanel
+---@field CheckBox_disturb UCheckBox
+---@field CustomScrollBox_Tab UCustomScrollBox
+---@field CustomScrollBox_watchting UCustomScrollBox
+---@field ExpressionTab ReuseList2_C
+---@field friendBox UCustomScrollBox
+---@field friendChatBox UCustomScrollBox
+---@field friendChatMsg UEditableText
+---@field friendPanelSwitch UWidgetSwitcher
+---@field friendRedPoint UCanvasPanel
+---@field FriendTipsNum UTextBlock
+---@field Image_3Dexpression UImage
+---@field Image_CD UImage
+---@field Image_Friends UImage
+---@field Image_Record UImage
+---@field Image_Selected_01 UImage
+---@field Image_Selected_02 UImage
+---@field Image_Selected_03 UImage
+---@field Image_Selected_04 UImage
+---@field Image_Selected_05 UImage
+---@field Image_Shortcut UImage
+---@field Image_Watching UImage
+---@field inputText UEditableText
+---@field InviteClose UButton
+---@field InviteNextBattleText UTextBlock
+---@field NewButton_QuickSelect UNewButton
+---@field NewButton_ReolSelect UNewButton
+---@field QuickChatHistory_UIBP QuickChatHistory_UIBP_C
+---@field QuickMenuTIPS UCanvasPanel
+---@field ScrollBox_Quick UCustomScrollBox
+---@field ScrollBoxHistory UCustomScrollBox
+---@field Switcher_BAR2 UWidgetSwitcher
+---@field Text_WatchingPoint UTextBlock
+---@field TextBlock_Num UTextBlock
+---@field TextBlock_OtherName UTextBlock
+---@field TextBlock_team UTextBlock
+---@field TextBlock_Tips UTextBlock
+---@field TextWatching_num UTextBlock
+---@field WatchingPoint UCanvasPanel
+---@field WidgetQuick UWidgetSwitcher
+---@field WidgetReolSelect UWidgetSwitcher
+---@field WidgetSwitcher_Friends UWidgetSwitcher
+---@field WidgetSwitcher_Scroll UWidgetSwitcher
+---@field bInit bool
+---@field currFriendGid FString
+---@field currChatType int32
+---@field InviteNextBattleGid FString
+---@field isSingle bool
+---@field InviteNextBattleName FString
+---@field EmoteItemStructArray ULuaArrayHelper
+---@field EmoteBackpackItem ULuaArrayHelper
+---@field BackpackComp UBackpackComponent
+---@field currMsgType int32
+---@field SpectatorItemList ULuaArrayHelper
+---@field CurrentFreeSpectatorItemIndex int32
+---@field TabPageSelectColor FSlateColor
+---@field TabPageDeselectColor FSlateColor
+---@field DiceWidget QuickThrow_UIBP_C
+---@field HistoryDataList ULuaArrayHelper
+---@field SelectImageList ULuaArrayHelper
+---@field IconImageList ULuaArrayHelper

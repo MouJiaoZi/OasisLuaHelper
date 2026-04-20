@@ -1,0 +1,4 @@
+---@class BattleItemHandle_NightVisonBP_C:UBattleItemHandle_AvatarBP_C
+---@field HandleEnable:fun(bEnable:bool):bool
+---@field HandleDisuse:fun(Reason:EBattleItemDisuseReason):bool
+---@field HandleUse:fun(Target:FBattleItemUseTarget,Reason:EBattleItemUseReason):bool

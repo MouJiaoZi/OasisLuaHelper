@@ -1,0 +1,37 @@
+---@class BP_CottageRoomBase_C:AActivityBaseActor
+---@field ChangeHouseMesh:fun()
+---@field CloseCollisionOverlapHint:fun()
+---@field AverageDamageDetection:fun(Damage:float)
+---@field UserConstructionScript:fun()
+---@field ReceiveAnyDamage:fun(Damage:float,DamageType:UDamageType,InstigatedBy:AController,DamageCauser:AActor)
+---@field SM_FinalMesh UStaticMeshComponent
+---@field SM_HouseMesh UStaticMeshComponent
+---@field Scene USceneComponent
+---@field STBaseBuffSystem USTBaseBuffSystemComponent
+---@field Sphere USphereComponent
+---@field bDrawDebugLine bool
+---@field TH_HouseFireDamageDetection FTimerHandle
+---@field MaxState int32
+---@field CurState int32
+---@field MaxHealth float
+---@field CurHealth float
+---@field BP_PlayerPawn ULuaArrayHelper
+---@field PhaseDamage float
+---@field TlogID int32
+---@field TextID int32
+---@field FireDamageDetactionTimer float
+---@field PhaseDamageState ULuaMapHelper
+---@field E_DamageType ULuaSetHelper
+---@field BoxComp_FireHint ULuaArrayHelper
+---@field FireHintTimer float
+---@field TH_HouseFireHint FTimerHandle
+---@field SphereComp_FireHint ULuaArrayHelper
+---@field BP_CurrentDetectionPlayer ULuaArrayHelper
+---@field SM_HouseMeshState ULuaMapHelper
+---@field BeginFireState FName
+---@field CauserControler ASTExtraPlayerController
+---@field DestroyDoor ULuaArrayHelper
+---@field CurrentDoor ULuaArrayHelper
+---@field BurnBuffName ULuaArrayHelper
+---@field bCanPlayAudioFire bool
+---@field FireCauserControler ASTExtraPlayerController

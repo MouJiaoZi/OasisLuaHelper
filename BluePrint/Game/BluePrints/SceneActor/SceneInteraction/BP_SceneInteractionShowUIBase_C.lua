@@ -1,0 +1,4 @@
+---@class BP_SceneInteractionShowUIBase_C:ASceneInteractionActor
+---@field UserConstructionScript:fun()
+---@field InteractionAction_ShowUI UInteractionAction_ShowUI
+---@field InteractionCondition_Distance UInteractionCondition_Distance

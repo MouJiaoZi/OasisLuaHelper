@@ -1,0 +1,14 @@
+---@class BasicSkillPanelInterface_C:UInterface
+---@field UpdateJumpWithButton_Inf:fun(InVisable:bool):bool
+---@field GetColdMode_Inf:fun():UCanvasPanel
+---@field ShowOrHideSurboard_Inf:fun(visible:bool):bool
+---@field ShowOrHideBtnMonsterBox_Inf:fun(flag:bool):bool
+---@field BleGetOnCar_Inf:fun():bool
+---@field BleEnterDrive_Inf:fun():bool
+---@field ShowDoorBtnPanel_Inf:fun():bool
+---@field HideDoorBtnPanel_Inf:fun():bool
+---@field ShowEnterVehicleButtons_Inf:fun(HasDriverSeet:bool,HasPsgersSeat:bool,HasSameTeam:bool):bool
+---@field HideEnterVehicleButtons_Inf:fun():bool
+---@field BindBPCommonBtn_Inf:fun(comBtn:BP_CommonBtn_C,bind:bool):bool
+---@field UpdateDoorBtn_Inf:fun(type:ECommonBtn,autoMode:int32):bool
+---@field ED_CommonBtn_Inf:fun():bool

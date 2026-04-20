@@ -1,0 +1,4 @@
+---@class BP_BGMActor_C:AActor
+---@field UserConstructionScript:fun()
+---@field DefaultSceneRoot USceneComponent
+---@field BGM UAkAudioEvent

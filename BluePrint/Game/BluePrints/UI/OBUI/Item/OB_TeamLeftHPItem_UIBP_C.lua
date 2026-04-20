@@ -1,0 +1,28 @@
+---@class OB_TeamLeftHPItem_UIBP_C:UUAEUserWidget
+---@field StopShoot:fun()
+---@field UpdateShoot:fun(BisShow:bool)
+---@field UpdateKillNum:fun(NewParam:int32)
+---@field UpdateSignalHP:fun(SignalHP:float,Selection:ExtraPlayerLiveState)
+---@field OnMouseButtonUp:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field ShowHP:fun(HPPersent:float,LiveState:ExtraPlayerLiveState)
+---@field ShowData:fun(PlayerInfo:FPlayerInfoInOB)
+---@field CanvasPanel_Fuhuo UCanvasPanel
+---@field CanvasPanel_Player UCanvasPanel
+---@field CanvasPanel_PlayerImprint UCanvasPanel
+---@field CanvasPanel_TeammateSingalBar UCanvasPanel
+---@field DynaSlot UDynaCanvasPanel
+---@field Image_Parachute UImage
+---@field Image_PlayerDead UImage
+---@field Image_PlayerDriving UImage
+---@field Image_PlayerDying UImage
+---@field Image_PlayerImprint UImage
+---@field Image_PlayerOffOnline UImage
+---@field Ingame_TeamMateSignalBar_UIBP Ingame_TeamMateSignalBar_UIBP_C
+---@field ProgressBar_PlayerHP UProgressBar
+---@field TextBlock_KilledNum UTextBlock
+---@field TextBlock_PlayerName UTextBlock
+---@field TextBlock_TeamIdx UTextBlock
+---@field WidgetSwitcher_StateBG UWidgetSwitcher
+---@field PlayerName FString
+---@field CachedPlayerInfo FPlayerInfoInOB
+---@field ShootTimerHandle FTimerHandle

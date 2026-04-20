@@ -1,0 +1,5 @@
+---@class Lua_Actor_C:AActor
+---@field GetLuaModule:fun():FString
+---@field UserConstructionScript:fun()
+---@field DefaultSceneRoot USceneComponent
+---@field LuaPath FString

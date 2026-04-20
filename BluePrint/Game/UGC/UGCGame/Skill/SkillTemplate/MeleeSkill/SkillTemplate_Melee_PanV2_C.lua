@@ -1,0 +1,2 @@
+---@class SkillTemplate_Melee_PanV2_C:PESkillTemplate_Base_C
+---@field GetLuaModule:fun():FString

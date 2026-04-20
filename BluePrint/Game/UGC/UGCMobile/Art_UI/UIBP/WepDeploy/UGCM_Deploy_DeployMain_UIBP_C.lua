@@ -1,0 +1,25 @@
+---@class UGCM_Deploy_DeployMain_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field OnTouchStarted:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field NewButton_CloseClicked:fun()
+---@field CanvasPanel_SwitchTab UCanvasPanel
+---@field CanvasPanel_Tab UCanvasPanel
+---@field CanvasPanel_TabBut UCanvasPanel
+---@field Image_Bg UImage
+---@field NewButton_Close UNewButton
+---@field NewButton_Mask UNewButton
+---@field Text_BearWeight UTextBlock
+---@field Text_BearWeightCurrent UTextBlock
+---@field TMode_Deploy_SortEquip1 UGCM_Deploy_SortEquip1_UIBP_C
+---@field TMode_Deploy_SortEquip2 UGCM_Deploy_SortEquip2_UIBP_C
+---@field TMode_DeployChange_Melee UGCM_DeployChange_Wep3_Melee_UIBP_C
+---@field TMode_DeployChange_Wep_1 UGCM_DeployChange_Wep_UIBP_C
+---@field TMode_DeployChange_Wep_2 UGCM_DeployChange_Wep_UIBP_C
+---@field TMode_DeployChange_Wep_03 UGCM_DeployChange_Wep2_UIBP_C
+---@field UGC_ReuseList2_AddItem UGC_ReuseList2_C
+---@field UGC_ReuseList2_Tab UGC_ReuseList2_C
+---@field UGC_ReuseList2_TabBut UGC_ReuseList2_C
+---@field UGC_ReuseListSp_AccessoryList1 UGC_ReuseListSp_C
+---@field UGCMobile_ComonPopupBG UGCM_ComonPopupBG_UIBP_C
+---@field WidgetSwitcher_List UWidgetSwitcher
+---@field RedColor FSlateColor

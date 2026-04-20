@@ -1,0 +1,3 @@
+---@class Ingame_HangarDoorInMap_UIBP_C:UActorPositionWidget
+---@field SetSeconds:fun(InSeconds:float)
+---@field TextBlock_Time UTextBlock

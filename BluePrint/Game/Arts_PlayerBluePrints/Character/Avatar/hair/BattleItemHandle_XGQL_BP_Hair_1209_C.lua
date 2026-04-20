@@ -1,0 +1,1 @@
+---@class BattleItemHandle_XGQL_BP_Hair_1209_C:BattleItemHandle_AvatarBP_C

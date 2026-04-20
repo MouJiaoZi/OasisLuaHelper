@@ -1,0 +1,1 @@
+---@class BP_TynosaurusRex_Skill_2_C:PESkillTemplate_Base_C

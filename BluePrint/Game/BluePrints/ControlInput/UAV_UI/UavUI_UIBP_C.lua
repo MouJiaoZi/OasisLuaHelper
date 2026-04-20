@@ -1,0 +1,120 @@
+---@class UavUI_UIBP_C:UUAEUserWidget
+---@field OnUnManedVehicleFuelChanged_Inf:fun():bool
+---@field OnUnmanedVehicleHPChanged_Inf:fun():bool
+---@field ExitUAV:fun():bool
+---@field EnterUAV:fun():bool
+---@field HideSingleOperateMode:fun():bool
+---@field ShowSingleOperateMode:fun():bool
+---@field ShowOperateUI:fun():bool
+---@field HideOperateUI:fun():bool
+---@field ProcessSingleOperateMode:fun():bool
+---@field SetVehicleControlPanel:fun(vehicleControlPanel:UUAEUserWidget):bool
+---@field UAVStateChange:fun():bool
+---@field UpdateSpeedHeight:fun(speed:float,height:float):bool
+---@field SetCustomizeLayout:fun()
+---@field UIMsg_UAVSingleOperate:fun()
+---@field HideSingleOperate:fun()
+---@field ShowSingleOperate:fun()
+---@field OnTouchEnded:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field CalcClickZone:fun(clickPos:FVector2D):ESTExtraUAVVehicleOperateState
+---@field OnTouchMoved:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field OnTouchStarted:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field ClickFPPMode:fun(flag:bool)
+---@field UIMsg_UAVStateChanged:fun()
+---@field UIMsg_ShutDownUAV:fun()
+---@field CheckFPPMode:fun(flag:bool)
+---@field UIMsg_ExitUAV:fun()
+---@field InitUAVUI:fun()
+---@field OnLocalSignalChange:fun(curSignal:float,preSignal:float,ratio:float)
+---@field GetVehicleUAV:fun():ASTExtraUAVVehicle
+---@field onScopeSliderChanged:fun(factor:float)
+---@field UAVPersonPerspectiveChanged:fun()
+---@field On_UnmanedVehicleFuelChanged:fun()
+---@field On_UnmanedVehicleHPChanged:fun()
+---@field UpdateSpeedAndHeight:fun(speed:float,height:float)
+---@field UpdateUAVHP:fun(curHp:float,maxHp:float)
+---@field UpdateElectricity:fun(curElectricity:float,maxElectricity:float)
+---@field NowVehicleIsUAV:fun():bool
+---@field GetVehicleUser:fun():BP_VehicleUser_C
+---@field ShowUAVUI:fun()
+---@field HideUAVUI:fun()
+---@field Construct:fun()
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field ReceivedInitWidget:fun()
+---@field DX_ReadyLoop UWidgetAnimation
+---@field DX_IN UWidgetAnimation
+---@field DX_Alarm_Electricity UWidgetAnimation
+---@field DX_Alarm_BloodVolume UWidgetAnimation
+---@field Border_FPP_TPP UBorder
+---@field Button_SwitchPMode UButton
+---@field Canvas_FPPModeControl UCanvasPanel
+---@field CanvasPanel_0 UCanvasPanel
+---@field CanvasPanel_20 UCanvasPanel
+---@field CanvasPanel_Operation UCanvasPanel
+---@field CanvasPanel_PMode UCanvasPanel
+---@field CanvasPanel_Ready UCanvasPanel
+---@field CanvasPanel_RemoteSensing_Around UCanvasPanel
+---@field CanvasPanel_RemoteSensing_Down UCanvasPanel
+---@field CanvasPanel_RemoteSensing_Up UCanvasPanel
+---@field CanvasPanel_Uav_Focus UCanvasPanel
+---@field CanvasPanel_Uav_Level2 UCanvasPanel
+---@field CDMask UCanvasPanel
+---@field Custom_Canvas_114 CustomizeCanvasPanel_BP_C
+---@field Custom_Canvas_115 CustomizeCanvasPanel_BP_C
+---@field Custom_Canvas_116 CustomizeCanvasPanel_BP_C
+---@field distance_warn UImage
+---@field electri_warn_2 UImage
+---@field GridPanel_ReloadBtn UCanvasPanel
+---@field hp_warn_1 UImage
+---@field Image_High UImage
+---@field Image_List01 UImage
+---@field Image_List02 UImage
+---@field MultiLayer_PMode UCanvasPanel
+---@field NewButton_Around UNewButton
+---@field NewButton_Callback UNewButton
+---@field NewButton_Down UNewButton
+---@field NewButton_Return UNewButton
+---@field NewButton_Standby UNewButton
+---@field NewButton_Uav_Leave UNewButton
+---@field NewButton_UP UNewButton
+---@field ProgressBar_Uav_Electricity UProgressBar
+---@field ProgressBar_Uav_HP UProgressBar
+---@field ReloadBtnBGImage UImage
+---@field ReloadCDBar UImage
+---@field ReloadCountDownTextBlock UTextBlock
+---@field SIzeImage UImage
+---@field Text_Distance UTextBlock
+---@field Text_Distance_Num UTextBlock
+---@field Text_Electricity UTextBlock
+---@field Text_High UTextBlock
+---@field Text_High_Num UTextBlock
+---@field Text_HP UTextBlock
+---@field Text_Speed_Num UTextBlock
+---@field TextBlock_Electricity UTextBlock
+---@field TextBlock_HP UTextBlock
+---@field TextBlock_PmodeName UTextBlock
+---@field Zoom_Uav_Focus USlider
+---@field StrVehicleHP FString
+---@field VehicleHealthPercent float
+---@field uavSpeed FString
+---@field uavHeight FString
+---@field bFPP bool
+---@field UAVStartCallBackSound UAkAudioEvent
+---@field UAVStandBySound UAkAudioEvent
+---@field bAlreadyShowLowPowerSound bool
+---@field lastShowSignalTips float
+---@field lastShowDistanceWarning float
+---@field redTextColor FSlateColor
+---@field whiteTextColor FSlateColor
+---@field bInit bool
+---@field lastThirdViewFov float
+---@field touchStartPos FVector2D
+---@field touchIndex int32
+---@field upNormalButtonStyle FButtonStyle
+---@field upPressButtonStyle FButtonStyle
+---@field aroundNormalButtonStyle FButtonStyle
+---@field aroundPressButtonStyle FButtonStyle
+---@field downNormalButtonStyle FButtonStyle
+---@field downPressButtonStyle FButtonStyle
+---@field vehicleControlePanel VehileControlPanel_C
+---@field BaseCustomizePanelList ULuaArrayHelper

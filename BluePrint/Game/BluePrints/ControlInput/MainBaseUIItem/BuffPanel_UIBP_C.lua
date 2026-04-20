@@ -1,0 +1,13 @@
+---@class BuffPanel_UIBP_C:UUAEUserWidget
+---@field IsHasBuff:fun(BuffID:int32):bool
+---@field GetBuffByBuffID:fun(BuffID:int32):USTBaseBuff
+---@field UnbindBuffDelegate:fun()
+---@field RefreshBuffWidget:fun()
+---@field ClearBuffWidget:fun()
+---@field OnBuffAttached:fun(BuffName:FName)
+---@field OnBuffDetached:fun(BuffName:FName)
+---@field ReceivedInitWidget:fun()
+---@field ReceivePreDestroy:fun()
+---@field BaseLayer UCanvasPanel
+---@field BuffWidget ULuaMapHelper
+---@field CurPawn ASTExtraBaseCharacter

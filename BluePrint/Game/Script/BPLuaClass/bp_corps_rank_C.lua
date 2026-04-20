@@ -1,0 +1,17 @@
+---@class bp_corps_rank_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_ARRAY_Corps_RankInfoList ULuaArrayHelper
+---@field BP_Corps_Rank_Is_Lock_Uin bool
+---@field BP_Corps_Rank_Trans_End_Index int32
+---@field BP_Crops_Rank_Select_LeaderName FString
+---@field BP_Corps_Rank_Current_ID int32
+---@field BP_CorpsRankSelectItemUid FString
+---@field BP_Corps_Rank_Trans_Begin_Index int32
+---@field BP_ARRAY_Corps_RankUinList ULuaArrayHelper
+---@field BP_STRUCT_MyCorpsRankNumPro int32
+---@field BP_Corps_Rank_Is_Lock_SelfInfo bool
+---@field BP_Crops_Rank_Select_LeaderSex int32
+---@field BP_Crops_Rank_Now_Type int32
+---@field BP_STRUCT_MyCorpsRankNum int32
+---@field BP_Crops_Rank_Now_Super_Type int32

@@ -1,0 +1,15 @@
+---@class BegintrainingPlace_C:AUAERegionActor
+---@field GetNetRelevancyGroup:fun():FNetRelevancyGroup
+---@field TestRpc:fun(NewParam:ULuaArrayHelper,NewParam1:APlayerController)
+---@field ResetButton:fun()
+---@field COND:fun(NewParam:FGISCCF_Param):bool
+---@field UserConstructionScript:fun()
+---@field SetNetRelevancyGroup:fun(Group:FNetRelevancyGroup)
+---@field OnUICreated:fun(Widget:UUserWidget)
+---@field Sphere USphereComponent
+---@field StaticMesh UStaticMeshComponent
+---@field GISActorComponentBase UGISActorComponentBase
+---@field BisOpenButton bool
+---@field NewVar_0 FGISCCF_Param
+---@field NewVar_1 ULuaArrayHelper
+---@field NetRelevancyGroup FNetRelevancyGroup

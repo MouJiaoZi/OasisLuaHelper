@@ -1,0 +1,3 @@
+---@class ZD_FacePat_PopPagItem_UIBP_C:UUAEUserWidget
+---@field Image_Paging UImage
+---@field WidgetSwitcher_HighLight UWidgetSwitcher

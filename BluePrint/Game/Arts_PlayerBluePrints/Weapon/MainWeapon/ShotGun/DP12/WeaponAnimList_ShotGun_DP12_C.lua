@@ -1,0 +1,1 @@
+---@class WeaponAnimList_ShotGun_DP12_C:UUAECharacterAnimListComponent

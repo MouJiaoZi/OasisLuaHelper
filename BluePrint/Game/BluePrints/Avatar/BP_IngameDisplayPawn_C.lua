@@ -1,0 +1,9 @@
+---@class BP_IngameDisplayPawn_C:ASTExtraDisplayPawn
+---@field EquipDisplayWeapon:fun(ResId:int32,ForceClientMode:bool,PutToBack:bool)
+---@field GetItemBPID:fun(ID:int32):int32,EDisplayWeaponType
+---@field GenerateWeaponByResID:fun(ResId:int32):UBattleItemHandleBase,ASTExtraWeapon,EDisplayWeaponType
+---@field UserConstructionScript:fun()
+---@field AELobbyCharAnimListComp UAELobbyCharAnimListComp
+---@field CharacterAvatarComp_BP CharacterAvatarComp_BP_C
+---@field curEquipingWeapon ASTExtraWeapon
+---@field curWeaponResId int32

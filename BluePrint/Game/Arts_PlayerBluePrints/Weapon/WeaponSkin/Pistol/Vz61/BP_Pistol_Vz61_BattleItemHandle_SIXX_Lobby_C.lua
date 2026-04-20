@@ -1,0 +1,1 @@
+---@class BP_Pistol_Vz61_BattleItemHandle_SIXX_Lobby_C:UBackpackWeaponHandle

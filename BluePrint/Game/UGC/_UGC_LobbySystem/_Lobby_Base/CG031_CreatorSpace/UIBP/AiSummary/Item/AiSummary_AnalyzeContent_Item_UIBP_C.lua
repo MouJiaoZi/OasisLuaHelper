@@ -1,0 +1,7 @@
+---@class AiSummary_AnalyzeContent_Item_UIBP_C:UUAEUserWidget
+---@field Selected:fun(NewParam:bool)
+---@field NewButton_Confirm UNewButton
+---@field TextBlock_Name UTextBlock
+---@field WidgetSwitcher_BG UWidgetSwitcher
+---@field TextColor_NotSelect FSlateColor
+---@field TextColor_Select FSlateColor

@@ -1,0 +1,17 @@
+---@class FGiveLikeTaskRowDef
+---@field Content FString
+---@field TaskID int32
+---@field TaskTypeID int32
+---@field isSupportOB bool
+---@field InteractiveType InteractiveType
+---@field PriorityOfOBLike int32
+---@field PriorityOfTeammateLike int32
+---@field Text1 int32
+---@field Text2 int32
+---@field Text3 int32
+---@field Text4 int32
+---@field Text5 int32
+---@field Text6 int32
+---@field isLinkTable bool
+---@field TableName FString
+---@field TextList ULuaArrayHelper

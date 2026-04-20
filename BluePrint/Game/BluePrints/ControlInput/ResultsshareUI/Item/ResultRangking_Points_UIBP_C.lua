@@ -1,0 +1,5 @@
+---@class ResultRangking_Points_UIBP_C:UUAEUserWidget
+---@field SetPointRate:fun(id:int32):bool
+---@field Image_bg UImage
+---@field UTRichTextBlock_Tips UUTRichTextBlock
+---@field WidgetSwitcher_Color UWidgetSwitcher

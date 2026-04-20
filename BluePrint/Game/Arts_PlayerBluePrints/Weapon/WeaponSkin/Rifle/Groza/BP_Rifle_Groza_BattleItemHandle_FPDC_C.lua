@@ -1,0 +1,1 @@
+---@class BP_Rifle_Groza_BattleItemHandle_FPDC_C:BP_Rifle_Groza_BattleItemHandle_C

@@ -1,0 +1,34 @@
+---@class AwardCeremonyDirector_BP_C:AAwardCeremonyDirector
+---@field UserConstructionScript:fun()
+---@field TryStartCameraMotionWithRank:fun(InTeamRank:int32,InTopXWin:int32)
+---@field ParticleSystem3 UParticleSystemComponent
+---@field ParticleSystem2 UParticleSystemComponent
+---@field ParticleSystem1 UParticleSystemComponent
+---@field ParticleSystem UParticleSystemComponent
+---@field P_AwardCeremonyArt_FX_02 UParticleSystemComponent
+---@field Camera4 UCameraComponent
+---@field Camera3 UCameraComponent
+---@field Camera1 UCameraComponent
+---@field Camera2 UCameraComponent
+---@field Camera0 UCameraComponent
+---@field AwardCeremonyArt UChildActorComponent
+---@field AvatarPoseComponent_BP5_4 AvatarPoseComponent_BP_C
+---@field AvatarPoseComponent_BP5_3 AvatarPoseComponent_BP_C
+---@field AvatarPoseComponent_BP5_2 AvatarPoseComponent_BP_C
+---@field AvatarPoseComponent_BP5_1 AvatarPoseComponent_BP_C
+---@field AvatarPoseComponent_BP4_4 AvatarPoseComponent_BP_C
+---@field AvatarPoseComponent_BP4_3 AvatarPoseComponent_BP_C
+---@field AvatarPoseComponent_BP4_2 AvatarPoseComponent_BP_C
+---@field AvatarPoseComponent_BP4_1 AvatarPoseComponent_BP_C
+---@field AvatarPoseComponent_BP3_4 AvatarPoseComponent_BP_C
+---@field AvatarPoseComponent_BP3_3 AvatarPoseComponent_BP_C
+---@field AvatarPoseComponent_BP3_2 AvatarPoseComponent_BP_C
+---@field AvatarPoseComponent_BP3_1 AvatarPoseComponent_BP_C
+---@field AvatarPoseComponent_BP2_4 AvatarPoseComponent_BP_C
+---@field AvatarPoseComponent_BP2_3 AvatarPoseComponent_BP_C
+---@field AvatarPoseComponent_BP2_2 AvatarPoseComponent_BP_C
+---@field AvatarPoseComponent_BP2_1 AvatarPoseComponent_BP_C
+---@field AvatarPoseComponent_BP1_4 AvatarPoseComponent_BP_C
+---@field AvatarPoseComponent_BP1_3 AvatarPoseComponent_BP_C
+---@field AvatarPoseComponent_BP1_2 AvatarPoseComponent_BP_C
+---@field AvatarPoseComponent_BP1_1 AvatarPoseComponent_BP_C

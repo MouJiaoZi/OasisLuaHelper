@@ -1,0 +1,1 @@
+---@class WeaponAnimList_UGC_MGL_C:UUAECharacterAnimListComponent

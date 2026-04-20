@@ -1,0 +1,22 @@
+---@class RingMatch_Main_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field TickLua:fun()
+---@field PlayTimeTips:fun()
+---@field PlayLikeTips:fun()
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field DX_Border_TimeTips UWidgetAnimation
+---@field DX_ZanTips UWidgetAnimation
+---@field Border_ready UBorder
+---@field Border_TimeTips UBorder
+---@field Border_ZanTips UBorder
+---@field CanvasPanel_Scoring UCanvasPanel
+---@field CanvasPanel_TimeTips UCanvasPanel
+---@field Common_Avatar_Challenge Common_Avatar_BP_C
+---@field Common_Avatar_Defender Common_Avatar_BP_C
+---@field RingMatch_ChallengeResult RingMatch_ChallengeResult_UIBP_C
+---@field RingMatch_StarTips_UIBP RingMatch_StarTips_UIBP_C
+---@field TextBlock_FromName UTextBlock
+---@field TextBlock_integralBlue UTextBlock
+---@field TextBlock_integralRed UTextBlock
+---@field TextBlock_Time UTextBlock
+---@field TextBlock_TimeNum UTextBlock

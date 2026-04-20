@@ -1,0 +1,11 @@
+---@class BP_PlotNPCPreviewActor_C:AActor
+---@field GetLuaModule:fun():FString
+---@field ChangeIdleAnim:fun(Anim:UAnimSequence)
+---@field Stop:fun()
+---@field PlayAnimEndWithIdle:fun(Anim:UAnimSequence,Loop:bool)
+---@field GetParticleSystemLocation:fun():FVector,FRotator,FVector
+---@field UserConstructionScript:fun()
+---@field Scene USceneComponent
+---@field SK_Mecha USkeletalMeshComponent
+---@field DefaultSceneRoot USceneComponent
+---@field NPCIdleAct UAnimSequence

@@ -1,0 +1,1 @@
+---@class WeaponAnimList_ItemBox_C:UUAECharacterAnimListComponent

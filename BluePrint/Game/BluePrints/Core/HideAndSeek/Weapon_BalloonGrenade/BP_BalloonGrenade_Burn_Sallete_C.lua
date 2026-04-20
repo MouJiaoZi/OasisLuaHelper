@@ -1,0 +1,6 @@
+---@class BP_BalloonGrenade_Burn_Sallete_C:ATslDamageField
+---@field GetHitSurfaceNormal:fun()
+---@field UserConstructionScript:fun()
+---@field SphereCollision UCustomSphereCollisionComponent
+---@field BurningParticleSystem UParticleSystemComponent
+---@field STExtraBuffApplier USTExtraBuffApplierComponent

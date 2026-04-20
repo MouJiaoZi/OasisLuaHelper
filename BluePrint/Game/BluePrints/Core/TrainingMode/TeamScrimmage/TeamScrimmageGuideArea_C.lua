@@ -1,0 +1,4 @@
+---@class TeamScrimmageGuideArea_C:AActor
+---@field UserConstructionScript:fun()
+---@field Box UBoxComponent
+---@field DefaultSceneRoot USceneComponent

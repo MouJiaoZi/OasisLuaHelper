@@ -1,0 +1,1 @@
+---@class BP_ParachuteFireArea2020_C:ABP_ParachuteFireArea_C

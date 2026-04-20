@@ -1,0 +1,9 @@
+---@class BP_RevivalPoint_C:ARevivalPointActor
+---@field UserConstructionScript:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field DistanceChangedEvent:fun(scale:float)
+---@field RadarTower_02 UStaticMeshComponent
+---@field Ak UAkComponent
+---@field DestoryParticleSystem UParticleSystemComponent
+---@field P_zombiebox_show_01 UParticleSystemComponent
+---@field StaticMesh UStaticMeshComponent

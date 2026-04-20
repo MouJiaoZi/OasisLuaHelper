@@ -1,0 +1,6 @@
+---@class BP_ExtraCottageRoomBase_C:ASTExtraHouseActor
+---@field UserConstructionScript:fun()
+---@field ChildActor_CottageRoom UChildActorComponent
+---@field DefaultSceneRoot USceneComponent
+---@field DestroyDoor ULuaArrayHelper
+---@field NewVar_0 ULuaArrayHelper

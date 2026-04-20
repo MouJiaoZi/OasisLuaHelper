@@ -1,0 +1,1 @@
+---@class BP_Other_HuntingBow_BattleItemHandle_CJS_Lobby_C:UBackpackWeaponHandle

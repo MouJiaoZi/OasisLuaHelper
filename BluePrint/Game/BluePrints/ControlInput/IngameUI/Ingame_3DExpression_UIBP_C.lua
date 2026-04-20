@@ -1,0 +1,18 @@
+---@class Ingame_3DExpression_UIBP_C:UUTSkillIconWidgetTemplate
+---@field On_Shoot3DExpressionBtn2_MouseButtonDown_0:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field UIMsg_HideCancel_HoloEmotion_SkillUI:fun()
+---@field UIMsg_ShowCancel_HoloEmotion_SkillUI:fun()
+---@field Construct:fun()
+---@field 3DExpression_GunControl UCanvasPanel
+---@field 3DExpression_SwimControl UCanvasPanel
+---@field 3DExpressionBG UImage
+---@field Border_0 UBorder
+---@field Border_3DExpressionBtn UBorder
+---@field Button_Cancel UButton
+---@field Custom3DExpression CustomizeCanvasPanel_BP_C
+---@field Image_0 UImage
+---@field Image_3DExpression UImage
+---@field Image_Stop UImage
+---@field MultiLayer_3DExpression UCanvasPanel
+---@field Shoot3DExpressionBtn2 UButton
+---@field FunctionBPParam ULuaMapHelper

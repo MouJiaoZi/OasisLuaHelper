@@ -1,0 +1,1 @@
+---@class BP_GunSmith_BattleItemHandle_BOX_1_C:UBattleItemHandle_Ammo_C

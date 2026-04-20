@@ -1,0 +1,16 @@
+---@class SignalReceivingNewbieGuide_Tips01_UIBP_C:UNewbieGuideWidget
+---@field IsCustomUIDataValid:fun(Widget:UWidget,SaveDataSize:FVector2D):bool
+---@field SetCustomizeUIInfo:fun(SaveGame:BP_SAVEGAME_UIElemLayout_C,FireMode:int32)
+---@field SetSettingControlUI:fun()
+---@field OnCreateAndShow:fun(GuideId:int32,UIConfigIndex:int32)
+---@field UTRichTextBlock_NewhandTips2 UUTRichTextBlock
+---@field SignalMax float
+---@field BattleTextTableName FString
+---@field CurrentSignalHP float
+---@field PreSignalHP float
+---@field CurrTime float
+---@field TargetTime float
+---@field CurrRadio float
+---@field TargetRadio float
+---@field DeltaRadio float
+---@field isInGuide bool

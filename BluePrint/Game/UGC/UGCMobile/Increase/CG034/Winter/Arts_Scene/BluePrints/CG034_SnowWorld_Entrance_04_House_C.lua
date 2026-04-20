@@ -1,0 +1,4 @@
+---@class CG034_SnowWorld_Entrance_04_House_C:BP_UGCMobileHouseBase_C
+---@field UserConstructionScript:fun()
+---@field CG034_SnowWorld_Entrance_04_a UStaticMeshComponent
+---@field StaticMesh UStaticMeshComponent

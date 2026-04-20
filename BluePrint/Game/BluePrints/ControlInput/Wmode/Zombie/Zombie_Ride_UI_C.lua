@@ -1,0 +1,10 @@
+---@class Zombie_Ride_UI_C:UActorPositionWidget
+---@field UpdateVisibility:fun(Flying:bool)
+---@field Construct:fun()
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field SetCurrentWidgetVisible:fun(Visible:bool)
+---@field WidgetSwitcher_0 UWidgetSwitcher
+---@field Zombie_Ride02_UIBP Zombie_Ride02_UIBP_C
+---@field Zombie_Ride_UIBP Zombie_Ride_UIBP_C
+---@field CountDown int32
+---@field PlayerNum int32

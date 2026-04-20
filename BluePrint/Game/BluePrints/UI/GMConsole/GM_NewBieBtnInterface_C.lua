@@ -1,0 +1,2 @@
+---@class GM_NewBieBtnInterface_C:UInterface
+---@field showMessage:fun(Index:int32,NewBieGuideItem:FNewbieGuideItem):bool

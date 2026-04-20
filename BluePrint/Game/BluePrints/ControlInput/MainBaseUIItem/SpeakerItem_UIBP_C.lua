@@ -1,0 +1,29 @@
+---@class SpeakerItem_UIBP_C:UUserWidget
+---@field SetMicstates:fun(state:int32)
+---@field InitVolume:fun()
+---@field RefreshForbidInfo:fun(forbiden:bool,robotForbiden:bool)
+---@field SetIndex:fun(index:int32,playerId:int32,parent:SpeakerPanel_UIBP_C,robotId:int32,openid:FString,voiceMemberId:int32)
+---@field btn_forbidRobot UButton
+---@field btn_forbidteamvoice1 UButton
+---@field CanvasPanel_RobotSpeakerInfo UCanvasPanel
+---@field CanvasPanel_Volume UCanvasPanel
+---@field Image_IDBG1 UImage
+---@field NewButton_Increase UNewButton
+---@field NewButton_Tmic UNewButton
+---@field NewButtont_Reduce UNewButton
+---@field ProgressBar_volume UProgressBar
+---@field robotForbidICon UImage
+---@field roboticon UImage
+---@field Slider_volume USlider
+---@field teammate1Forbid UImage
+---@field TextBlock_Precent UTextBlock
+---@field TextBlock_TeamIdx1 UTextBlock
+---@field WidgetSwitcher_Speaker UWidgetSwitcher
+---@field WidgetSwitcher_TMic UWidgetSwitcher
+---@field bindedPlayerId int32
+---@field ParentPanel SpeakerPanel_UIBP_C
+---@field MutedFlag bool
+---@field currentVolume int32
+---@field openid FString
+---@field MaxFlag bool
+---@field bindedMemberVoiceId int32

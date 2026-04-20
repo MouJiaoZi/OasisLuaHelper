@@ -1,0 +1,6 @@
+---@class EMode_Map_Scan_UIBP_C:UActivityUIWidget
+---@field Init_BP:fun(Actor:AActor,InUIIndex:int32)
+---@field Construct:fun()
+---@field PreConstruct:fun(IsDesignTime:bool)
+---@field DX_Glow UWidgetAnimation
+---@field CanvasPanel_Map UCanvasPanel

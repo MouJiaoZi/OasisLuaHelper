@@ -1,0 +1,1 @@
+---@class WeaponAnimList_Rifle_MG3_C:UUAECharacterAnimListComponent

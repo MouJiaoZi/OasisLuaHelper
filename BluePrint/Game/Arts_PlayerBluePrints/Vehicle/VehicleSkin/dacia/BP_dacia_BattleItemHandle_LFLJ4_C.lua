@@ -1,0 +1,1 @@
+---@class BP_dacia_BattleItemHandle_LFLJ4_C:BP_dacia_BattleItemHandle_LFLJ1_C

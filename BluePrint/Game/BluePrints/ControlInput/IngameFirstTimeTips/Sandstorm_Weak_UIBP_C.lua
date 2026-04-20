@@ -1,0 +1,3 @@
+---@class Sandstorm_Weak_UIBP_C:UUAEUserWidget
+---@field Button_close UButton
+---@field Common_UIPopupBG Common_UIPopupBG_C

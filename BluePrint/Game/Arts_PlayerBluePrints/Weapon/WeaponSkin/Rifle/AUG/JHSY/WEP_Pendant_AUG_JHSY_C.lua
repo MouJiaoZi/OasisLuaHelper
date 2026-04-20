@@ -1,0 +1,1 @@
+---@class WEP_Pendant_AUG_JHSY_C:BattleItemHandle_WeapAttachment_C

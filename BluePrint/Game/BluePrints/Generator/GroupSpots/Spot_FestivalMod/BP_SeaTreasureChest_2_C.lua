@@ -1,0 +1,1 @@
+---@class BP_SeaTreasureChest_2_C:ABP_SeaTreasureChest_C

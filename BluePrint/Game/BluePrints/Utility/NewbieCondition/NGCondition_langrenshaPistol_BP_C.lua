@@ -1,0 +1,2 @@
+---@class NGCondition_langrenshaPistol_BP_C:USTNewbieGuideConditionBase
+---@field GetLuaModule:fun():FString

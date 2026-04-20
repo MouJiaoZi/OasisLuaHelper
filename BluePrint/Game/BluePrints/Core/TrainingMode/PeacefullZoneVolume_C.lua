@@ -1,0 +1,1 @@
+---@class PeacefullZoneVolume_C:APeacefullZoneVolume

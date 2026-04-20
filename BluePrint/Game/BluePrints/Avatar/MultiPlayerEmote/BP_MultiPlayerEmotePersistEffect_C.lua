@@ -1,0 +1,13 @@
+---@class BP_MultiPlayerEmotePersistEffect_C:UPersistEffectBase
+---@field OnEnterState:fun(SelfRef:ASTExtraBaseCharacter,state:EPawnState)
+---@field SpeedDown FAttrModifyItem
+---@field OwnerCharacter ASTExtraBaseCharacter
+---@field InterruptTipUIState ULuaArrayHelper
+---@field NeedSetupTipUI bool
+---@field InterruptEmoteState ULuaArrayHelper
+---@field CurrentPlayPosition float
+---@field InterruptBuffNameList ULuaArrayHelper
+---@field InterruptSkillIDList ULuaArrayHelper
+---@field NewbieGuide UClass
+---@field MontageStopHandle FTimerHandle
+---@field bIsAlreadyRegisterNewbieGuide bool

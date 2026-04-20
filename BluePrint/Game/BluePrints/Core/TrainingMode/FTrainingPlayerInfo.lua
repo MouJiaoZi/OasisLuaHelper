@@ -1,0 +1,12 @@
+---@class FTrainingPlayerInfo
+---@field PlayerKey int64
+---@field PlayerName FString
+---@field UID FString
+---@field Gender int32
+---@field PlatformGender int32
+---@field IconURL FString
+---@field AvatarBoxId int32
+---@field SegmentLevel int32
+---@field PlayerLevel int32
+---@field TitleID int32
+---@field TopSegmentTimes int32

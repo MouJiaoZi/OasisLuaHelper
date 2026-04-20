@@ -1,0 +1,4 @@
+---@class BP_VehicleSpotTypeW_C:ABP_SpotActor_C
+---@field UserConstructionScript:fun()
+---@field BP_VehicleSpotSceneComponent1 BP_VehicleSpotSceneComponent_C
+---@field BP_VehicleGroupSpotSceneComponent1 BP_VehicleGroupSpotSceneComponent_C

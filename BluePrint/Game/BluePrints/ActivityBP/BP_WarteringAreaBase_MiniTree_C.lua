@@ -1,0 +1,1 @@
+---@class BP_WarteringAreaBase_MiniTree_C:ABP_WarteringAreaBase_C

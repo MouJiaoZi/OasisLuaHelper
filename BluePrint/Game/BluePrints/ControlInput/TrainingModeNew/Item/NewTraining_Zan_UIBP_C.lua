@@ -1,0 +1,5 @@
+---@class NewTraining_Zan_UIBP_C:UUAEUserWidget
+---@field PlayLikeAnimtion:fun(PlayerName:FString)
+---@field DX_ZanAni UWidgetAnimation
+---@field Border_ZanTips UBorder
+---@field TextBlock_FromName UTextBlock

@@ -1,0 +1,20 @@
+---@class MeleeInfoItem_BP_C:UUAEUserWidget
+---@field OnDragDetected:fun(MyGeometry:FGeometry,PointerEvent:FPointerEvent):UDragDropOperation
+---@field HighLightBG:fun(IsHighLight:bool)
+---@field OnTouchEnded:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field OnTouchStarted:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field OnMouseLeave:fun(MouseEvent:FPointerEvent)
+---@field OnDragCancelled:fun(PointerEvent:FPointerEvent,Operation:UDragDropOperation)
+---@field ItemBeDragCancelled__DelegateSignature:fun()
+---@field ItemBeDragBegin__DelegateSignature:fun(ItemData:FBattleItemData,DragOrgin:EBackPackDragOrigin)
+---@field Image_BlankMeleeSlot UImage
+---@field Image_MeleeIcon UImage
+---@field Image_SelectedStatus UImage
+---@field TextBlock_MeleeName UTextBlock
+---@field ParentUserWidget UUserWidget
+---@field bHasTipsShow bool
+---@field SmallIconBrush FSlateBrush
+---@field bHasStartedTouchIn bool
+---@field BattleData FBattleItemData
+---@field ItemBeDragBegin ULuaMulticastDelegate
+---@field ItemBeDragCancelled ULuaMulticastDelegate

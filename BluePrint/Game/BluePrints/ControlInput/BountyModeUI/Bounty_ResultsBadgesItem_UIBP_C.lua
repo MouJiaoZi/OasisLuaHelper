@@ -1,0 +1,10 @@
+---@class Bounty_ResultsBadgesItem_UIBP_C:UUserWidget
+---@field On_Image_AchievementsIcon_MouseButtonDown_0:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field OnIconCallback:fun(InObject:UObject)
+---@field InitItem:fun(InAchievementID:int32)
+---@field OnTouchItem__DelegateSignature:fun(Pos:FVector2D,AchievementID:int32)
+---@field Image_AchievementsIcon UImage
+---@field TextBlock_Name UTextBlock
+---@field Achievementstable UUAEDataTable
+---@field OnTouchItem ULuaMulticastDelegate
+---@field AchievementID int32

@@ -1,0 +1,8 @@
+---@class UIDetectBlack_BP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field Button_UIStyle UButton
+---@field Button_Update UButton
+---@field ReuseList_UIList ReuseList2_C
+---@field ReuseList_UIStyle ReuseList2_C
+---@field TextBlock_StyleCount UTextBlock
+---@field UIDetectBlackItem_BP UIDetectBlackItem_BP_C

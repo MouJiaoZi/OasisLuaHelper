@@ -1,0 +1,5 @@
+---@class PMode_SupplyWorkbench_ItemBigUIBP_C:UUserWidget
+---@field CanvasPanel_Tips UCanvasPanel
+---@field Image_BG UImage
+---@field Image_CDTime UImage
+---@field Image_Icon UImage

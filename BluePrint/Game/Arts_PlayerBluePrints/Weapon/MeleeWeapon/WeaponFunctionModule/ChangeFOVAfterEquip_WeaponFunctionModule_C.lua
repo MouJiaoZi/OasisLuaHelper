@@ -1,0 +1,5 @@
+---@class ChangeFOVAfterEquip_WeaponFunctionModule_C:UWeaponFunctionModuleBase
+---@field InitWeaponOwner:fun(InOwnerWeapon:ASTExtraWeapon,InOwnerActor:AActor)
+---@field EndPlay:fun()
+---@field PersistEffectInstanceWhenEquip UPersistEffectBase
+---@field PersistEffectClassWhenEquip UClass

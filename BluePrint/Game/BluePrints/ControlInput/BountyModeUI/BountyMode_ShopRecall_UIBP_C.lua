@@ -1,0 +1,9 @@
+---@class BountyMode_ShopRecall_UIBP_C:UUserWidget
+---@field NewButton_Clicked UNewButton
+---@field TextBlock_0 UTextBlock
+---@field TextBlock_2 UTextBlock
+---@field TextBlock_4 UTextBlock
+---@field TextBlock_7 UTextBlock
+---@field TextBlock_Name UTextBlock
+---@field TextBlock_Num UTextBlock
+---@field WidgetSwitcher_state UWidgetSwitcher

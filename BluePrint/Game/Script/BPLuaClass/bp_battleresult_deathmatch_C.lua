@@ -1,0 +1,33 @@
+---@class bp_battleresult_deathmatch_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_EnemyMvpName FString
+---@field BP_IsOpenComplaintPanel bool
+---@field BP_ARRAY_HeadUrlInfo ULuaArrayHelper
+---@field BP_DeathMatch_LikeTargetPlayerId FString
+---@field BP_RecordAddFriendIndex int32
+---@field BP_TMD_ReportPlayerID int32
+---@field BP_DeathMatch_ServerRspLikedTeammate FString
+---@field BP_DeathMatch_CurrentLikeTeammate FString
+---@field BP_Complaint_IsRobot bool
+---@field BP_TDMResult_LoginChannel int32
+---@field isHaveShownShare bool
+---@field BP_TDM_IsVisitorLogin bool
+---@field BP_DeathMatch_MyName FString
+---@field BP_TDMResult_IsShareAwardGold bool
+---@field BP_TDM_SubModeGroup int32
+---@field BP_EnableAvatarEmote bool
+---@field BP_TMD_ReportTeamID int32
+---@field BP_DeathMatch_LikeOprPlayerId FString
+---@field BP_Complaint_TheNameStr FString
+---@field BP_DelayTime int32
+---@field BP_TDMResult_MyHeadInfoIndex int32
+---@field BP_TDMResult_IsTodayShareDone bool
+---@field BP_IsReceiveResult bool
+---@field BP_TDM_isGlobalOB bool
+---@field BP_TDMResult_IsIOSCheck bool
+---@field BP_iRecordClickTeamID int32
+---@field BP_ARRAY_DeathMatch_TeammateLikeInfoArray ULuaArrayHelper
+---@field BP_PreReceiveTime int32
+---@field BP_Complaint_IsMyTeam bool
+---@field BP_DeathMatch_isLikeSysOpen bool

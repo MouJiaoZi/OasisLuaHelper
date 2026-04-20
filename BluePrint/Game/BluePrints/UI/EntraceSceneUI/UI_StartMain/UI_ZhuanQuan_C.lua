@@ -1,0 +1,3 @@
+---@class UI_ZhuanQuan_C:UUserWidget
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field ZhuanQuan UWidgetAnimation

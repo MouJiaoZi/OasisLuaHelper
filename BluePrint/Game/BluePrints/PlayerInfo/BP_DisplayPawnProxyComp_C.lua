@@ -1,0 +1,1 @@
+---@class BP_DisplayPawnProxyComp_C:UBattleDisplayPawnProxyComponent

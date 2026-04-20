@@ -1,0 +1,7 @@
+---@class bp_corps_week_record_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_ARRAY_CORPS_WeekRecordDayList ULuaArrayHelper
+---@field BP_CORPS_WeekRecordSelectPage int32
+---@field BP_CORPS_WeekRecordSelectDayIdx int32
+---@field BP_ARRAY_CORPS_WeekRecordList ULuaArrayHelper

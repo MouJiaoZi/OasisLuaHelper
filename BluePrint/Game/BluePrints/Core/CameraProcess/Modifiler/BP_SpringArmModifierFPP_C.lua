@@ -1,0 +1,1 @@
+---@class BP_SpringArmModifierFPP_C:USpringArmModifierFPP

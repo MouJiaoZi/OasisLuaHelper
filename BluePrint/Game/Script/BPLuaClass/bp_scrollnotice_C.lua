@@ -1,0 +1,11 @@
+---@class bp_scrollnotice_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_ScrollMsg_CurrentRealMsg FString
+---@field BP_ScrollMsg_CurrentRound int32
+---@field BP_ScrollMsgUrl FString
+---@field BP_ScrollMsg_CurrentMsgId int32
+---@field BP_ScrollMsg_IsRolling bool
+---@field BP_ScrollMsg_ShowEnd bool
+---@field BP_ScrollMsg_Cannotshow bool
+---@field BP_ARRAY_ScrollNoticeMsgData ULuaArrayHelper

@@ -1,0 +1,19 @@
+---@class GiveLikeTeamTaskData_C:UTeamNetAlienationData
+---@field GetLuaModule:fun():FString
+---@field WatchPlayerGiveLikeCount:fun(TeamID:int32,BeLikedUID:FString,GiveLikeUID:FString)
+---@field GetPCByPlayerKey:fun(PlayerKey:FString):APlayerController
+---@field HasAuthority:fun():bool
+---@field GetClientPlayerController:fun():APlayerController
+---@field SelfGetPlayerController:fun():APlayerController
+---@field SetIsShowingOBLikeUI:fun(IsShowingOBLikeUI:bool)
+---@field GiveLikeDataFlow:fun(IsClicked:bool,GiveLikeType:int32,IsAnswered:bool,AnswerNum:int32)
+---@field QueueInsertOnDS:fun(OBLikeData:FGiveLikeData,TaskID:int32)
+---@field CheckLikeQueue:fun(IsShowingUI:bool,Delay:int32,ExistTime:int32)
+---@field CheckDataForEvent:fun(OBLikeData:FGiveLikeData,TaskID:int32)
+---@field SetOBLikeData:fun(OBLikeData:FGiveLikeData,TaskID:int32)
+---@field StartQueueTimer:fun()
+---@field ReciveInit:fun(InOwner:UNetAlienationDataComponent)
+---@field OBLikeData FGiveLikeData
+---@field TaskID int32
+---@field ExistTime int32
+---@field IsShowingOBLikeUI bool

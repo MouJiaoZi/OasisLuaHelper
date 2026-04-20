@@ -1,0 +1,3 @@
+---@class Bounty_MapSupply_UIBP_C:UMapUIMarkBaseWidget
+---@field UpdateMarkSize:fun(inScale:float,inMapScale:float,MapScaleInUI:float)
+---@field Image_Icon UImage

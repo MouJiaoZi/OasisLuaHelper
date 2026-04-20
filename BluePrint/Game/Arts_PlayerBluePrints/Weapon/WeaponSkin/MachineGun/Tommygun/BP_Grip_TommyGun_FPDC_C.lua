@@ -1,0 +1,1 @@
+---@class BP_Grip_TommyGun_FPDC_C:BP_Grip_TommyGun_C

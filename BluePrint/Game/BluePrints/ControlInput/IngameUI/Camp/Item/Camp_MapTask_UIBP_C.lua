@@ -1,0 +1,2 @@
+---@class Camp_MapTask_UIBP_C:UUAEUserWidget
+---@field WrapGroupBox_ListCamp UWrapGroupBox

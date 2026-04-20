@@ -1,0 +1,1 @@
+---@class BP_DamageType_IM_Hook_C:USTExtraDamageType

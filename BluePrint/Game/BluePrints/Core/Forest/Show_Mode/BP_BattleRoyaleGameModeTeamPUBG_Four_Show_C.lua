@@ -1,0 +1,7 @@
+---@class BP_BattleRoyaleGameModeTeamPUBG_Four_Show_C:ABP_BattleRoyaleGameModeTeamPUBG_Four_C
+---@field UserConstructionScript:fun()
+---@field AIGridLocationManager1 UAIGridLocationManagerComponent
+---@field AIGroupManager_0 UAIGroupManagerComponent
+---@field AIWorldSoundManager_0 UAIWorldSoundManagerComponent
+---@field AnimalTeleport_0 UAnimalTeleportComponent
+---@field SpawnMonsterHelperComp1 USpawnMonsterHelperComp

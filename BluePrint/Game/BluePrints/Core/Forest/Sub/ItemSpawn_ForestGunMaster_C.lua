@@ -1,0 +1,1 @@
+---@class ItemSpawn_ForestGunMaster_C:UItemSpawn_Forest_C

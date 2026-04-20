@@ -1,0 +1,1 @@
+---@class BP_RearrangeDropStrategyEdgeClosest_C:URearrangeDropStrategyEdgeClosest

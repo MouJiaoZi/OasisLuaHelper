@@ -1,0 +1,1 @@
+---@class AIPathNavLink_Bigjump_C:AAIPathNavLink

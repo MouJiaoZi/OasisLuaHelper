@@ -1,0 +1,11 @@
+---@class Variety_PlayerController_C:ABP_STExtraPlayerController_C
+---@field GetLuaModule:fun():FString
+---@field BlueprintGetSpectatorPawnClass:fun():UClass
+---@field IsEnertFighting:fun():bool
+---@field BindEventsInBP:fun()
+---@field CommandResult:fun(command:int32,retCode:int32)
+---@field UserConstructionScript:fun()
+---@field BPClientCheatCommandResult:fun(InCheatCommandResultInfo:FCheatCommandResultInfo)
+---@field OnPlayerEnterFightDisPatch__DelegateSignature:fun()
+---@field OnPlayerEnterFightDisPatch ULuaMulticastDelegate
+---@field bEnableMotionControlForFreeCamera bool

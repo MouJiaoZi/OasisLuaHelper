@@ -1,0 +1,1 @@
+---@class BP_FacingComponent_C:UFacingTargetComponent

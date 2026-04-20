@@ -1,0 +1,16 @@
+---@class BattleItemHandle_AvatarBP_C:UBackpackAvatarHandle
+---@field ExtractItemData:fun():FBattleItemData
+---@field LocalHandleDisuse:fun()
+---@field SpawnWrapperOnGround:fun(WrapperClass:UClass,bUseRandomLoc:bool)
+---@field HandleDisuse:fun(Reason:EBattleItemDisuseReason):bool
+---@field HandleDrop:fun(InCount:int32,Reason:EBattleItemDropReason):bool
+---@field HandlePickup:fun(ItemContainer:TScriptInterface,PickupInfo:FBattleItemPickupInfo,Reason:EBattleItemPickupReason):bool
+---@field HandleUse:fun(Target:FBattleItemUseTarget,Reason:EBattleItemUseReason):bool
+---@field OwningPlayerController ASTExtraPlayerController
+---@field OwningCharacter ASTExtraBaseCharacter
+---@field OwningBackpackComponent UBackpackComponent
+---@field SourceWrapperTrans FTransform
+---@field WrapperPutdownTrans FTransform
+---@field WrapperClass UClass
+---@field CharacterItemHandle UBattleItemHandleBase
+---@field SoftWrapperClass UClass

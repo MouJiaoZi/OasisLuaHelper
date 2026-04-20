@@ -1,0 +1,5 @@
+---@class WeaponCompanionRule_10_C:UBP_WeaponCompanionRuleBase_C
+---@field OnInit:fun()
+---@field OnRemove:fun()
+---@field RescuerCount ULuaMapHelper
+---@field RescuerThreshold int32

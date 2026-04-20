@@ -1,0 +1,3 @@
+---@class BackPackDragDropOpt_BP_C:UDragDropOperation
+---@field ItemData FBattleItemData
+---@field ItemFrom EBackPackDragOrigin

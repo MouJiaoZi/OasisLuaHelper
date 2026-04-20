@@ -1,0 +1,1 @@
+---@class BP_WeaponsCompanionGMComponent_C:UWeaponsCompanionGameModeComponent

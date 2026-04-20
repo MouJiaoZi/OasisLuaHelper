@@ -1,0 +1,4 @@
+---@class BP_ActivityFunctionLibrary_C:UBlueprintFunctionLibrary
+---@field AttrModifier fun(Target:AActor,SkillName:FString,TargetType:FString,TargetIndex:int32,AddValue:float,Op:EAttrOperator,__WorldContext:UObject)
+---@field GetChildWithInterface fun(NewParam:AActor,__WorldContext:UObject):ULuaArrayHelper
+---@field ClearDuplicatedSingletonActivityAttachedActors fun(SelfActor:AActor,__WorldContext:UObject)

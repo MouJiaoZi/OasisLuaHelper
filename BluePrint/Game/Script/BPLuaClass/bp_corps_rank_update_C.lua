@@ -1,0 +1,10 @@
+---@class bp_corps_rank_update_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_CorpsRankUpdate_PrevLevel int32
+---@field BP_CorpsRankUpdate_NextLevel int32
+---@field BP_CorpsRankUpdate_ShareDone bool
+---@field BP_CorpsRankUpdate_ShareGotGold bool
+---@field BP_CorpsRankUpdate_CorpsIcon int32
+---@field BP_CorpsRankUpdate_BigUpdate int32
+---@field BP_CorpsRankUpdate_CorpsName FString

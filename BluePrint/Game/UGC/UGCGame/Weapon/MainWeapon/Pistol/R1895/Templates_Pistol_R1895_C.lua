@@ -1,0 +1,2 @@
+---@class Templates_Pistol_R1895_C:UGCBackpackShootWeaponHandle_BP_C
+---@field UGC_TemplateSaveItemID:fun():int32

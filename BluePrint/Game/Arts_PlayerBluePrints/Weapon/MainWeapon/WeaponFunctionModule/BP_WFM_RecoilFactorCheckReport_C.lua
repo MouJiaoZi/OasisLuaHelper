@@ -1,0 +1,6 @@
+---@class BP_WFM_RecoilFactorCheckReport_C:UWeaponFunctionModuleBase
+---@field GetPoseRecoilFactorMinValue:fun():float
+---@field HandleStartFire:fun()
+---@field InitWeaponOwner:fun(InOwnerWeapon:ASTExtraWeapon,InOwnerActor:AActor)
+---@field LastReportTime float
+---@field ReportInterval float

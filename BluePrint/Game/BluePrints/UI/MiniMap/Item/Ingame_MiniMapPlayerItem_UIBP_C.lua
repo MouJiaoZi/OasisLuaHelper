@@ -1,0 +1,28 @@
+---@class Ingame_MiniMapPlayerItem_UIBP_C:UCommMiniMapItemBase
+---@field OnLoadDone:fun(NewParam:UObject,NewParam1:int32)
+---@field SwitchVisibility:fun(IsShow:bool):bool
+---@field GetRotationDisplayWidget:fun():UWidget
+---@field SetTeammateInfo:fun(TeammateIndex:int32,TeammateColor:FLinearColor):bool
+---@field UseSingleStyle:fun(Team:bool)
+---@field SwitchRangeInOut:fun(OutRange:bool)
+---@field SetSelfStyle:fun(IsSelf:bool)
+---@field LoadTeamIndexIcon:fun(NewParam:int32)
+---@field InitializeWidgetItem:fun(InitInfo:FWidgetItemInitInfo)
+---@field UpdateWidgetItemActor:fun(RefreshType:ECommMiniMapRefreshType,RealTimeInfo:FActorTypeItemInfo)
+---@field InitializeCanvasSetting:fun(ParentSlot:UCanvasPanelSlot,InitMapSize:FVector2D)
+---@field CanvasPanel_SelfArrow UCanvasPanel
+---@field CanvasPanel_SelfPosition UCanvasPanel
+---@field CanvasPanel_Single UCanvasPanel
+---@field CanvasPanel_Team UCanvasPanel
+---@field Image_SelfArrow UImage
+---@field Image_SelfBG UImage
+---@field Image_SelfDead UImage
+---@field Image_SelfNumIcon UImage
+---@field Image_SelfState UImage
+---@field Image_SingleBG UImage
+---@field SelfPosiionIcon UImage
+---@field CurIndexIconPath FString
+---@field CirclePlayerIcon FSlateBrush
+---@field SquarePlayerIcon FSlateBrush
+---@field IsOutRange bool
+---@field LoadIndex int32

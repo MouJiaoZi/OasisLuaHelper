@@ -1,0 +1,1 @@
+---@class BP_WB_ThumbGrip_SHMAN_C:BP_WB_ThumbGrip_C

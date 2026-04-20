@@ -1,0 +1,8 @@
+---@class Leisure_ScreenText_PreviewStatusPop_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field Construct:fun()
+---@field CanvasPanel_IPX UCanvasPanel
+---@field Common_UIPopupBG Common_UIPopupBG_C
+---@field Image_BG UImage
+---@field NewButton_Close UButton
+---@field RichTextBlock UUTRichTextBlock

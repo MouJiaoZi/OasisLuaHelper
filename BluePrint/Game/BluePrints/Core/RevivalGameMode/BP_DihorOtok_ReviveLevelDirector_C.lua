@@ -1,0 +1,3 @@
+---@class BP_DihorOtok_ReviveLevelDirector_C:AUAELevelDirector
+---@field UserConstructionScript:fun()
+---@field DefaultSceneRoot USceneComponent

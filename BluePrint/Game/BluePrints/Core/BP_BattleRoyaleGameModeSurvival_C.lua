@@ -1,0 +1,4 @@
+---@class BP_BattleRoyaleGameModeSurvival_C:ABattleRoyaleGameModeSurvival
+---@field UserConstructionScript:fun()
+---@field BP_WeatherGeneratorComponent BP_WeatherGeneratorComponent_C
+---@field DefaultSceneRoot USceneComponent

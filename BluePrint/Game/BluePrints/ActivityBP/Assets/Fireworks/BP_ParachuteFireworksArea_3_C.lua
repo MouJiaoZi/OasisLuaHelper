@@ -1,0 +1,4 @@
+---@class BP_ParachuteFireworksArea_3_C:ABP_ParachuteFireworksArea_C
+---@field UserConstructionScript:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field FireWorks UBoxComponent

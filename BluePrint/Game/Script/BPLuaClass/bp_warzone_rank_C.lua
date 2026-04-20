@@ -1,0 +1,30 @@
+---@class bp_warzone_rank_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_WarZoneRankSelectType int32
+---@field BP_WarZoneRankCorpsRankPreparing bool
+---@field BP_WarZoneRankSelectDistrictIndex int32
+---@field BP_WarZoneRankSystemType int32
+---@field BP_WarZoneRankCurrentCorpsID int32
+---@field BP_WarZoneRankSelectItemUid FString
+---@field BP_WarZoneRankSelectCityIndex int32
+---@field BP_WarZoneRankSelfHasCorps bool
+---@field BP_WarZoneRankScrollPos int32
+---@field BP_WarZoneRankUpdateIdx int32
+---@field BP_WarZoneRankShowRoleUid FString
+---@field BP_ARRAY_CurProvinceList ULuaArrayHelper
+---@field BP_WarZoneStreetCdTime FString
+---@field BP_WarZoneRankSelectID int32
+---@field BP_WarZoneStreetPkIndex int32
+---@field BP_WarZoneRankSelectItemCorpsName FString
+---@field BP_ShowRegionStrongerBtn bool
+---@field BP_WarZoneStreetLastLocationTime int32
+---@field BP_WarZoneRankSelectID_Me int32
+---@field BP_WarZoneRank_PlayerNumShowStatus bool
+---@field BP_WarZoneRank_Tab int32
+---@field BP_ARRAY_CurDistrictList ULuaArrayHelper
+---@field BP_ARRAY_WarZoneRankList ULuaArrayHelper
+---@field BP_ARRAY_WarZoneStreetNameList ULuaArrayHelper
+---@field BP_WarZoneRankSelectProvinceIndex int32
+---@field BP_WarZoneRankListCount int32
+---@field BP_ARRAY_CurCityList ULuaArrayHelper

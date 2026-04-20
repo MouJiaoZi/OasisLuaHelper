@@ -1,0 +1,3 @@
+---@class UGC_Panzerfaust_C:AActor
+---@field UserConstructionScript:fun()
+---@field StaticMesh UStaticMeshComponent

@@ -1,0 +1,20 @@
+---@class bp_reportbug_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field Bug_Report_Info_PosZ int32
+---@field Bug_Report_Info_Angle int32
+---@field REPROTBUG_REASON_MINIMAP_ERROR int32
+---@field REPROTBUG_REASON_ABNORMAL_ANIMATION int32
+---@field REPROTBUG_REASON_VEHICLE_NOTSMOOTH int32
+---@field REPROTBUG_REASON_BAD_NET int32
+---@field REPROTBUG_REASON_MAP_ERROR int32
+---@field REPROTBUG_REASON_RECONNECTION_ERROR int32
+---@field REPROTBUG_REASON_OTHER int32
+---@field REPROTBUG_REASON_GAMENOTSMOOTH int32
+---@field Bug_Report_Info_DeviceName FString
+---@field Bug_Report_Info_Reason int32
+---@field REPROTBUG_REASON_LOWFPS int32
+---@field Bug_Report_Info_PosX int32
+---@field Bug_Report_Info_text FString
+---@field Bug_Report_Info_PosY int32
+---@field REPROTBUG_REASON_CHARACTER_NOTSMOOTH int32

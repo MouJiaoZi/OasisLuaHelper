@@ -1,0 +1,15 @@
+---@class SeasonTopGame_Result_Item_UIBP_C:UUAEUserWidget
+---@field OnLikeFinished:fun()
+---@field SetLikeInfo:fun(Num:int32,LikeEachOther:bool,LikeSystemOpen:bool)
+---@field CanvasPanel_Label_MVP UCanvasPanel
+---@field Common_Avatar_BP Common_Avatar_BP_C
+---@field NewButton_Praise UNewButton
+---@field TextBlock_Kill UTextBlock
+---@field TextBlock_Label_MVP UTextBlock
+---@field TextBlock_PlayerName UTextBlock
+---@field TextBlock_PraiseAmount1 UTextBlock
+---@field TextBlock_PraiseAmount2 UTextBlock
+---@field WidgetSwitcher_Gender UWidgetSwitcher
+---@field WidgetSwitcher_Praise UWidgetSwitcher
+---@field PlayerID FString
+---@field OwnerResultInterface TScriptInterface

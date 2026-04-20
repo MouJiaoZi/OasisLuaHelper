@@ -1,0 +1,8 @@
+---@class BP_BlockyLuaManager_C:AUGCMobileBlockyItem
+---@field GetLuaModule:fun():FString
+---@field OnPlayMap:fun()
+---@field UserConstructionScript:fun()
+---@field ReceivePostRebuildMap:fun(RebuildContext:FUGCMobileRebuildMapContext)
+---@field DefaultSceneRoot USceneComponent
+---@field InnerObjectAction FUGCMobileObjectAction
+---@field CachedPlayerKey ULuaArrayHelper

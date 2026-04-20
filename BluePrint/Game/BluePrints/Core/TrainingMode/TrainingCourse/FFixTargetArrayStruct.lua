@@ -1,0 +1,2 @@
+---@class FFixTargetArrayStruct
+---@field FixTargetArray ULuaArrayHelper

@@ -1,0 +1,28 @@
+---@class TrainingMode_ShowOffStage_C:AActivityBaseActor
+---@field UpdateTLog:fun(Player:ASTExtraPlayerController)
+---@field RefreshWidget:fun()
+---@field ClearVars:fun()
+---@field IsCountdown:fun():bool
+---@field CanSetNewAvatar:fun(Param:FGISCCF_Param):bool
+---@field ShowAvatar:fun(NewParam:FGISCCF_Param)
+---@field UserConstructionScript:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field Box UBoxComponent
+---@field CustomWidget UCustomWidgetComponent
+---@field ChildActor UChildActorComponent
+---@field CustomSphereCollision UCustomSphereCollisionComponent
+---@field StaticMesh UStaticMeshComponent
+---@field Scene USceneComponent
+---@field GISActorComponentBase UGISActorComponentBase
+---@field CountdownSeconds float
+---@field CurCountdown float
+---@field CurCharacter ASTExtraBaseCharacter
+---@field CurCharmValue int32
+---@field CurBuyValue int32
+---@field CurClientBakeState EFaceHiddenState
+---@field SeverClearFlag bool
+---@field CurName FString
+---@field CurGender int32
+---@field CurPlayer ASTExtraPlayerController
+---@field ClientGender int32
+---@field CurUID FString

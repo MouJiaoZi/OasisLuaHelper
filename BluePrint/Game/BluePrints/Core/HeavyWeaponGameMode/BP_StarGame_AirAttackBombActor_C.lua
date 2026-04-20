@@ -1,0 +1,11 @@
+---@class BP_StarGame_AirAttackBombActor_C:AAirAttackBombActor
+---@field TriggerEntryEvent:fun(EntryEvent:EUTSkillEntry):bool
+---@field UserConstructionScript:fun()
+---@field HandleSkillEnd:fun(SkillID:int32,Reason:UTSkillStopReason)
+---@field HandleSkillStart:fun(SkillID:int32)
+---@field TriggerEvent:fun(SkillID:int32,EventType:UTSkillEventType)
+---@field InitFromSkill:fun(SkillOwner:AUAEBaseSkill)
+---@field TriggerCustomEvent:fun(EventType:EUAESkillEvent)
+---@field TriggerCustomEventWithOwnerPawn:fun(EventType:EUAESkillEvent,OwnerPawn:AActor)
+---@field UAESkillManager UUAESkillManagerComponent
+---@field DefaultSceneRoot USceneComponent

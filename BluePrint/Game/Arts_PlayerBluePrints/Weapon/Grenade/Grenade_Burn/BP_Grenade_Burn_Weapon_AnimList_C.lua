@@ -1,0 +1,1 @@
+---@class BP_Grenade_Burn_Weapon_AnimList_C:UUAECharacterAnimListComponent

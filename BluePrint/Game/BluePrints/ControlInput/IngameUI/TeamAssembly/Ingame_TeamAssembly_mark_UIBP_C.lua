@@ -1,0 +1,6 @@
+---@class Ingame_TeamAssembly_mark_UIBP_C:UUAEUserWidget
+---@field PlayTrumpMarkAnim_Inf:fun(play:bool):bool
+---@field RefreshTrumpImageData_Inf:fun(TopSegmentTimes:int32):bool
+---@field InitTeamAssemblyTrump:fun(TopTimes:int32,bPlayAnim:bool)
+---@field Ingame_TrumpMarkItem_UIBP Ingame_TrumpMarkItem_UIBP_C
+---@field autoPlay bool

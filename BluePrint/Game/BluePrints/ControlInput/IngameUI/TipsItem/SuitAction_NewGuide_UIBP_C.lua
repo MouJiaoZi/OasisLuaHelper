@@ -1,0 +1,1 @@
+---@class SuitAction_NewGuide_UIBP_C:UUAEUserWidget

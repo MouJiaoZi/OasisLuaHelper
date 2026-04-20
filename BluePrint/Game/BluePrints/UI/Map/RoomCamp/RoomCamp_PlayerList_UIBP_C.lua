@@ -1,0 +1,9 @@
+---@class RoomCamp_PlayerList_UIBP_C:UUAEUserWidget
+---@field Border_RoomCampList UBorder
+---@field Canvas_DeathWatch UCanvasPanel
+---@field CanvasPanel_Close UCanvasPanel
+---@field CanvasPanel_Survive UCanvasPanel
+---@field Text_disuseNum UTextBlock
+---@field Text_Name UTextBlock
+---@field TextBlock_Num UTextBlock
+---@field WidgetSwitcher_Style UWidgetSwitcher

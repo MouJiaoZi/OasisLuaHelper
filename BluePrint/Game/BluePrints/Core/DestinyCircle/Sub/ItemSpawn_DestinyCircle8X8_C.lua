@@ -1,0 +1,1 @@
+---@class ItemSpawn_DestinyCircle8X8_C:UItemSpawn_Forest_C

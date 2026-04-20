@@ -1,0 +1,1 @@
+---@class WeaponAnimList_UGC_SkillRifle_ElectricGun_C:UUAECharacterAnimListComponent

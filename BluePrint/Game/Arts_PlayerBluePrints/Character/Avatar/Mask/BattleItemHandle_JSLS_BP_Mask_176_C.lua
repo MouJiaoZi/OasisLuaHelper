@@ -1,0 +1,1 @@
+---@class BattleItemHandle_JSLS_BP_Mask_176_C:BattleItemHandle_AvatarBP_C

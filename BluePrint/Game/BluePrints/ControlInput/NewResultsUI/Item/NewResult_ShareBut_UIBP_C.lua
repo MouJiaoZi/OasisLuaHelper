@@ -1,0 +1,22 @@
+---@class NewResult_ShareBut_UIBP_C:UUAEUserWidget
+---@field btn_OpenStrategy UButton
+---@field Btnshare UHorizontalBox
+---@field Canvas_TopGameSocket UCanvasPanel
+---@field CanvasPanel_InvitingTips UCanvasPanel
+---@field CanvasPanel_qipao UCanvasPanel
+---@field CanvasPanel_ShareTips UCanvasPanel
+---@field HorizontalBox_player UHorizontalBox
+---@field NewButton_BattleReplay UNewButton
+---@field NewButton_Inviting UNewButton
+---@field NewButton_Report UNewButton
+---@field NewButton_ShareCorps UNewButton
+---@field NewButton_ShareGameData UNewButton
+---@field NewButton_SharePersonalRank UNewButton
+---@field NewButton_ShowPose UNewButton
+---@field NewButton_WatchingOtherPeople UNewButton
+---@field NodeOpenStrategy UCanvasPanel
+---@field ProcessBut NewResult_ProcessBut_UIBP_C
+---@field randomTips UTextBlock
+---@field Switcher_InvitingStyle UWidgetSwitcher
+---@field Text_BattleReplay UTextBlock
+---@field TextBlock_ShareTips UTextBlock

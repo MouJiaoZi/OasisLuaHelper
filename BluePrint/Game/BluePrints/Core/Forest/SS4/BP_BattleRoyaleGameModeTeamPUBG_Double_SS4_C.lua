@@ -1,0 +1,3 @@
+---@class BP_BattleRoyaleGameModeTeamPUBG_Double_SS4_C:ABP_BattleRoyaleGameModeTeamPUBG_Double_C
+---@field UserConstructionScript:fun()
+---@field SpawnMonsterHelperComp1 USpawnMonsterHelperComp

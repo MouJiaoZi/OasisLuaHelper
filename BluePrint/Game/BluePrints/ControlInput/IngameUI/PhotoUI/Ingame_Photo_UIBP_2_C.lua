@@ -1,0 +1,47 @@
+---@class Ingame_Photo_UIBP_2_C:UPhotoUI
+---@field UIMSG_SP_PlayerTouchBegin:fun()
+---@field UIMsg_QuitPhoto:fun()
+---@field UIMSG_SetPhotoUICreatedBy:fun(CreatedBy:FString)
+---@field InitExpressionUI:fun(ExpressionUI:QuickExpressionUIBP_C)
+---@field FindExpressionUI:fun():UCanvasPanel,QuickExpressionUIBP_C
+---@field SetPawnVisible:fun(SelfHidden:bool,TeammateHidden:bool,EnemyHidden:bool)
+---@field SetCameraModeUI:fun(NewMode:ESmartPhotographerMode)
+---@field ReceivedInitWidget:fun()
+---@field AutoHide UWidgetAnimation
+---@field Tips2_anima UWidgetAnimation
+---@field Tips1_anima UWidgetAnimation
+---@field Border_Ingame_PhotoTips1 UBorder
+---@field Border_Ingame_PhotoTips2 UBorder
+---@field CanvasPanel_1 UCanvasPanel
+---@field CanvasPanel_FreeCamera UCanvasPanel
+---@field CanvasPanel_Ingame_Emote UCanvasPanel
+---@field CanvasPanel_Ingame_Photo1 UCanvasPanel
+---@field CanvasPanel_Ingame_PhotoClose UCanvasPanel
+---@field CanvasPanel_Mode_Set_Content UCanvasPanel
+---@field CanvasPanel_Photo2 UCanvasPanel
+---@field CanvasPanel_ShareLayer UCanvasPanel
+---@field HideSelf UNewCheckBox
+---@field HideTeammates UNewCheckBox
+---@field Image_3 UImage
+---@field Image_BtnIcon UImage
+---@field Image_IngameLogo UImage
+---@field Ingame_Photo_FreeCamera_UIBP Ingame_Photo_FreeCamera_UIBP_C
+---@field InvalidationBox_3 UInvalidationBox
+---@field InvalidationBox_6 UCanvasPanel
+---@field InvalidationBox_8 UCanvasPanel
+---@field NewButton_CloseUI UNewButton
+---@field NewButton_Ingame_ModeClose UNewButton
+---@field NewButton_Ingame_ModeSet UNewButton
+---@field NewButton_Ingame_Photo1 UNewButton
+---@field NewButton_Ingame_PhotoOut UNewButton
+---@field NewButton_Photo2 UNewButton
+---@field Slider_focalLength USlider
+---@field WidgetSwitcher_IconType UWidgetSwitcher
+---@field Run6 UWidget
+---@field Run8 UWidget
+---@field Run7 UWidget
+---@field ShareUI Ingame_Photo_Share_UIBP_C
+---@field CreateBy Ingame_Photo_CreateMode
+---@field bVideoOperatorUI bool
+---@field bWantsHideOperatorUI bool
+---@field JoyStickWansHide bool

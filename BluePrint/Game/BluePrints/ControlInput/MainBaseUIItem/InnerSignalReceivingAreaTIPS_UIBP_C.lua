@@ -1,0 +1,48 @@
+---@class InnerSignalReceivingAreaTIPS_UIBP_C:UUAEUserWidget
+---@field IsCustomUIDataValid:fun(Widget:UWidget,SaveDataSize:FVector2D):bool
+---@field SetCDBarPercent:fun(Radio:float)
+---@field IsInCircle:fun():bool
+---@field OnFreeViewChangedHandle:fun(bInFreeView:bool)
+---@field GetSignalMax:fun()
+---@field SignalHpChange:fun(_CurrentSignalHP:float,_PreSignalHP:float,_RadioSignalHP:float)
+---@field SignalHPRemainingTimeChange:fun(inRemainTime:float)
+---@field SetCountDownVisible:fun(visible:bool)
+---@field UIMsg_SignalAreaIdxChange:fun()
+---@field Construct:fun()
+---@field SetSettingControlUI:fun()
+---@field SetCustomizeUIInfo:fun(SaveGame:BP_SAVEGAME_UIElemLayout_C,FireMode:int32)
+---@field ReceivedInitWidget:fun()
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field DX_Tips_in UWidgetAnimation
+---@field Border_Receiving UBorder
+---@field CanvasPanel_Root UCanvasPanel
+---@field CanvasPanel_SignalReceiving_NewbieGuide UCanvasPanel
+---@field CanvasPanel_Time UCanvasPanel
+---@field FX_Light UImage
+---@field Image_ItemCDBar UImage
+---@field Image_NewhandTips1 UImage
+---@field ProgressSignalBar UProgressBar
+---@field SignaDegreeTips UCanvasPanel
+---@field TextBlock_CountDown UTextBlock
+---@field TextBlock_SignalTips UTextBlock
+---@field WidgetSwitcher_Degree UWidgetSwitcher
+---@field SignalMax float
+---@field BattleTextTableName FString
+---@field CurrentSignalHP float
+---@field PreSignalHP float
+---@field CurrTime float
+---@field TargetTime float
+---@field CurrRadio float
+---@field TargetRadio float
+---@field DeltaRadio float
+---@field isInGuide bool
+---@field bShowSignalAreaChangeAnimation bool
+---@field RemainingTime float
+---@field CountDownVisible bool
+---@field InnerCircle BP_FakeRadiation_C
+---@field InnerCircleGameModeID ULuaArrayHelper
+---@field CurrRadioChange bool
+---@field ShowTime float
+---@field TimeToShowDigist float
+---@field TimeToShowDangrous float
+---@field DangrousVisible bool

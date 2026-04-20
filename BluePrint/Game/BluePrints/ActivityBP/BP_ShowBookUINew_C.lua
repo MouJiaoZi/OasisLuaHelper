@@ -1,0 +1,36 @@
+---@class BP_ShowBookUINew_C:AUAERegionActor
+---@field CloseUI:fun(NeedRemove:bool)
+---@field OnCharacterNearDeathOrRescueingOtherNotify:fun(IsNearDeath:bool,RescueOther:bool)
+---@field OnTrigger:fun(NewParam:FGISCCF_Param)
+---@field RandomAll:fun()
+---@field RandomOne:fun(NewParam:ULuaArrayHelper)
+---@field OnInRangeEvent:fun(NewParam:FGISCCF_Param)
+---@field OnOutRangeEvent:fun(NewParam:FGISCCF_Param)
+---@field SetContentInfo:fun()
+---@field OnLoadDone:fun(NewParam:UClass)
+---@field LoadAndShowBook:fun()
+---@field OnTriggerEvent:fun(NewParam:FGISCCF_Param)
+---@field OnCanTrigger:fun(NewParam:FGISCCF_Param):bool
+---@field UserConstructionScript:fun()
+---@field ShowBookUI_CloseUI:fun()
+---@field ShowBookUI_ShowUIList:fun(NewParam:ULuaArrayHelper,NewParam1:AActor)
+---@field ShowBookUI_OnCloseUI:fun()
+---@field ReceiveEndPlay:fun(EndPlayReason:EEndPlayReason)
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field BookMesh UStaticMeshComponent
+---@field Sphere USphereComponent
+---@field Scene USceneComponent
+---@field GISActorComponentBase UGISActorComponentBase
+---@field CanShowUI bool
+---@field WidgetClass UClass
+---@field WidgetObject UUAEUserWidget
+---@field WidgetName FString
+---@field WidgetBPName FString
+---@field ContentDataList ULuaArrayHelper
+---@field ShowContentIndex int32
+---@field IsInRange bool
+---@field IsLoading bool
+---@field IsRandomStart bool
+---@field RandomList ULuaArrayHelper
+---@field RandomCount int32
+---@field ReportEventID int32

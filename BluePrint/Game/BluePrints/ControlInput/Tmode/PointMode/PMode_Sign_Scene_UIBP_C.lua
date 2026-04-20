@@ -1,0 +1,14 @@
+---@class PMode_Sign_Scene_UIBP_C:UHardPointWidget
+---@field Construct:fun()
+---@field BP_UpdateTime:fun(Time:float)
+---@field BP_UpdateState:fun(State:EHardPointOccupyState,IsEnemy:bool)
+---@field ReceivedInitWidget:fun()
+---@field BP_UpdateHardpointName:fun(PointName:FString)
+---@field CanvasPanel_OP_NewbieGuide01 UCanvasPanel
+---@field CanvasPanel_Sign_Direction UCanvasPanel
+---@field Image_Sign_ArrowLeft UImage
+---@field Image_Sign_ArrowRight UImage
+---@field TextBlock_Sign_Number UTextBlock
+---@field TextBlock_Sign_Status UTextBlock
+---@field TextBlock_Sign_SurplusTime UTextBlock
+---@field WidgetSwitcher_OP_Sign UWidgetSwitcher

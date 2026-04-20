@@ -1,0 +1,1 @@
+---@class BP_NewFakePlayerAIC_Squall_C:ANewFakePlayerAIController

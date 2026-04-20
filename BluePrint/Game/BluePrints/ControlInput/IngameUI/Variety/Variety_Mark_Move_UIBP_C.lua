@@ -1,0 +1,2 @@
+---@class Variety_Mark_Move_UIBP_C:UMapUIMarkBaseWidget
+---@field TextBlock_Location UTextBlock

@@ -1,0 +1,5 @@
+---@class UI_WeaponDamage_C:UUserWidget
+---@field UpdateName:fun(Name:FString)
+---@field UpdateCount:fun(Count:float)
+---@field TextBlock_Count UTextBlock
+---@field TextBlock_Name UTextBlock

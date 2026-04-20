@@ -1,0 +1,31 @@
+---@class BattleArenaActor_C:AActor
+---@field GetLuaModule:fun():FString
+---@field UserConstructionScript:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field StaticMesh18 UStaticMeshComponent
+---@field StaticMesh17 UStaticMeshComponent
+---@field StaticMesh16 UStaticMeshComponent
+---@field StaticMesh15 UStaticMeshComponent
+---@field StaticMesh14 UStaticMeshComponent
+---@field StaticMesh13 UStaticMeshComponent
+---@field StaticMesh12 UStaticMeshComponent
+---@field StaticMesh11 UStaticMeshComponent
+---@field StaticMesh10 UStaticMeshComponent
+---@field StaticMesh8 UStaticMeshComponent
+---@field StaticMesh7 UStaticMeshComponent
+---@field StaticMesh6 UStaticMeshComponent
+---@field Scene USceneComponent
+---@field StaticMesh5 UStaticMeshComponent
+---@field ChallengerOutPos USceneComponent
+---@field DefenderOutPos USceneComponent
+---@field ChallengerStartPos USceneComponent
+---@field DefenderStartPos USceneComponent
+---@field DefaultSceneRoot USceneComponent
+---@field PreBattleTime float
+---@field WeaponRandomTime float
+---@field BattleCountDown float
+---@field InBattleTime float
+---@field BattleEndAnimTime float
+---@field BattleResultTime float
+---@field ColdDownTime float
+---@field DefaultItem ULuaArrayHelper

@@ -1,0 +1,3 @@
+---@class BP_HalfbodyMachinery_Skill_Atk_C:PESkillTemplate_Base_C
+---@field GetLuaModule:fun():FString
+---@field DamageValue float

@@ -1,0 +1,13 @@
+---@class AvatarCapture_BP_C:AAvatarCapture
+---@field UserConstructionScript:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field BP_DisplayPawnProxyComp BP_DisplayPawnProxyComp_C
+---@field CharacterAvatarComp_BP CharacterAvatarComp_BP_C
+---@field BackGround UStaticMeshComponent
+---@field EditorMesh USkeletalMeshComponent
+---@field DirectionalLight UDirectionalLightComponent
+---@field Camera UCameraComponent
+---@field PointLight UPointLightComponent
+---@field SceneCaptureComponent2D USceneCaptureComponent2D
+---@field BGMatRef UMaterial
+---@field IsInitMat bool

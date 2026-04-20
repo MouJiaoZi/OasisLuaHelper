@@ -1,0 +1,1 @@
+---@class PMode_Venom_Result_Interface_C:UInterface

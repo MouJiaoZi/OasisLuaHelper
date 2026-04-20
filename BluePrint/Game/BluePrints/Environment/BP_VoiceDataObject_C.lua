@@ -1,0 +1,21 @@
+---@class BP_VoiceDataObject_C:UObject
+---@field SetSubObjectData:fun(nowScale:float,nowPos:FVector,subObject:BP_VoiceDataSubObject_C,maxCheckLength:float)
+---@field SetCheckData:fun(index:int32,postion:FVector,CheckLength:float,nowPlayer:ASTExtraBaseCharacter,nowWeapon:ASTExtraShootWeapon,nowVehicle:ASTExtraVehicleBase)
+---@field InitSubList:fun()
+---@field UpdateWaeponCheck:fun()
+---@field UpdateChekcVehicleMove:fun()
+---@field UpdateCheckPlayeCheck:fun()
+---@field UpdateCheck:fun(DeltaTime:float)
+---@field nowdis float
+---@field nowCheckCd float
+---@field nowType BP_VoiceCheckType
+---@field VoiceCheck BP_VoiceCheck_C
+---@field maxCheckDis float
+---@field showTime float
+---@field showScale float
+---@field subcheckList ULuaArrayHelper
+---@field MaxCheckNum int32
+---@field MaxCheckCD float
+---@field IsRefresh bool
+---@field TriggerSubObject BP_VoiceDataSubObject_C
+---@field playerController BP_STExtraPlayerController_C

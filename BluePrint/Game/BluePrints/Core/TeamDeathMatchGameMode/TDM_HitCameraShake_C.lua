@@ -1,0 +1,1 @@
+---@class TDM_HitCameraShake_C:UCameraShake

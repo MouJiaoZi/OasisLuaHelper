@@ -1,0 +1,1 @@
+---@class BP_UGCM_CustomMovementManager_Generic_C:UCustomMovementManager

@@ -1,0 +1,16 @@
+---@class AsianOB_StageItem_UIBP_C:UUAEUserWidget
+---@field SetPos:fun(Position:FVector2D,Widget:UWidget)
+---@field AsianGames_Flag AsianGames_FlagItem_UIBP_C
+---@field AsianOB_Slider01 AsianOB_StageItem2_UIBP_C
+---@field AsianOB_Slider02 AsianOB_StageItem2_UIBP_C
+---@field AsianOB_Slider03 AsianOB_StageItem2_UIBP_C
+---@field AsianOB_Slider04 AsianOB_StageItem2_UIBP_C
+---@field Image_SplitLine1 UImage
+---@field Image_SplitLine2 UImage
+---@field Image_SplitLine3 UImage
+---@field ProgressBar_Index UProgressBar
+---@field ProgressBar_IndexBg UProgressBar
+---@field Slider_StageAsianOB USlider
+---@field TextBlock_Country UTextBlock
+---@field TextBlock_Ranking UTextBlock
+---@field TextBlock_Ratio UTextBlock

@@ -1,0 +1,1 @@
+---@class BP_Mag_DesertEagle_FPDC_C:BP_Mag_DesertEagle_C

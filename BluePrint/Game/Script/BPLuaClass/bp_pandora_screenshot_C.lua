@@ -1,0 +1,8 @@
+---@class bp_pandora_screenshot_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_PandoraScreenShot_PicX_f float
+---@field BP_PandoraScreenShot_PicW_f float
+---@field BP_PandoraScreenShot_PicH_f float
+---@field BP_PandoraScreenShot_PicPath FString
+---@field BP_PandoraScreenShot_PicY_f float

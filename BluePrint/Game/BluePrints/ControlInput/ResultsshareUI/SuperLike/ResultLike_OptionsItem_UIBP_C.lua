@@ -1,0 +1,3 @@
+---@class ResultLike_OptionsItem_UIBP_C:UUAEUserWidget
+---@field TextBlock_Name UTextBlock
+---@field WidgetSwitcher_Icon UWidgetSwitcher

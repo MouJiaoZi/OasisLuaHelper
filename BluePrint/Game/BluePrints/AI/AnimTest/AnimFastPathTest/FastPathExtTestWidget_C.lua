@@ -1,0 +1,3 @@
+---@class FastPathExtTestWidget_C:UTestModelWidgetBase_C
+---@field InitData:fun(GameStateInstance:TestModelGameState_C)
+---@field CheckBox_EnterFastPath UCheckBox

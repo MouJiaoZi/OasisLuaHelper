@@ -1,0 +1,1 @@
+---@class BP_RecordCamera_C:URecordDataInstance_Camera

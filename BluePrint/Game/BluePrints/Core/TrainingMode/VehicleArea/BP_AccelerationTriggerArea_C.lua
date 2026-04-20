@@ -1,0 +1,10 @@
+---@class BP_AccelerationTriggerArea_C:ABP_VehicleTriggerArea_C
+---@field GetLuaModule:fun():FString
+---@field UserConstructionScript:fun()
+---@field AccelerationFactorOfCurrentVelocity float
+---@field MinimumSpeed float
+---@field MaximumSpeed float
+---@field CameraModifierName FName
+---@field VehicleEffectName FName
+---@field CameraModifyContinuedSeconds float
+---@field VehicleEffectContinuedSeconds float

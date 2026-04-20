@@ -1,0 +1,24 @@
+---@class MainBackPack_ChangeWingman_Item_UIBP_C:UUAEUserWidget
+---@field ShowWingmanEffectChoice:fun(list:ULuaArrayHelper,ownNum:int32,freeNum:int32):bool
+---@field SelectOne:fun(id:int32)
+---@field LoadedIcon:fun(obj:UObject,id:int32)
+---@field Construct:fun()
+---@field Border_Free UBorder
+---@field Button_Cancel2 UNewButton
+---@field Button_Recall UNewButton
+---@field HorizontalBox_bunkers UHorizontalBox
+---@field Icon1 MainBackPack_ChangeWingman_Icon_Item_UIBP_C
+---@field Icon2 MainBackPack_ChangeWingman_Icon_Item_UIBP_C
+---@field Icon3 MainBackPack_ChangeWingman_Icon_Item_UIBP_C
+---@field Image_Icon UImage
+---@field Image_Icon2 UImage
+---@field TextBlock_content UTextBlock
+---@field TextBlock_Num UTextBlock
+---@field TextBlock_Num2 UTextBlock
+---@field TextBlock_Num3 UTextBlock
+---@field TextBlock_recall UTextBlock
+---@field TextBlock_recall2 UTextBlock
+---@field WidgetSwitcher_State UWidgetSwitcher
+---@field IconList ULuaArrayHelper
+---@field SelectedID int32
+---@field TotalNum int32

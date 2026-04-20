@@ -1,0 +1,13 @@
+---@class bp_corps_team_menu_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field CorpsTeam_My_User_ID FString
+---@field CorpsTeam_Is_Matching bool
+---@field CorpsTeam_Click_Player_ID FString
+---@field CorpsTeam_CrtTeam_Count int32
+---@field CorpsTeam_Quick_Msg_Content FString
+---@field CorpsTeam_IsSelfHost bool
+---@field CorpsTeam_Host_ID FString
+---@field CorpsTeam_Quick_Msg_GID FString
+---@field CorpsTeam_Click_Player_IS_FRIEND bool
+---@field BP_ARRAY_CorpsMenuInfoList ULuaArrayHelper

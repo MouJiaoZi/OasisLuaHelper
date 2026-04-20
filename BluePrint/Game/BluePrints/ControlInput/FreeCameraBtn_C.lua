@@ -1,0 +1,23 @@
+---@class FreeCameraBtn_C:UCustomUserWidget
+---@field InvalidateCameraUI:fun()
+---@field UIMsg_ScopeChanged:fun()
+---@field UIMsg_FreeCamBtn_UpdateIconPosition:fun()
+---@field TouchStartLogic:fun(TouchIndex:ETouchIndex)
+---@field UIMsg_BigPanelWidgetOpen:fun(UI:FString)
+---@field UIMsg_StopFreeCamera:fun()
+---@field SwitchCameraModeScope_Aim:fun()
+---@field OnTouchEnded:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field OnTouchStarted:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field ReceivedInitWidget:fun()
+---@field TouchEndDelegate__DelegateSignature:fun()
+---@field AimControlGrid UGridPanel
+---@field BtnImg UImage
+---@field Image_1 UImage
+---@field InvalidationBox_0 UInvalidationBox
+---@field PressImg FSlateBrush
+---@field NormalImg FSlateBrush
+---@field CanUseFreeCam bool
+---@field ActiveFreeCamera bool
+---@field MyGeometry FGeometry
+---@field TouchEndDelegate ULuaMulticastDelegate

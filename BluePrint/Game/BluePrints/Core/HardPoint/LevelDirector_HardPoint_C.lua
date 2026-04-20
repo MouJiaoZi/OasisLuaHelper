@@ -1,0 +1,3 @@
+---@class LevelDirector_HardPoint_C:AUAELevelDirector
+---@field UserConstructionScript:fun()
+---@field DefaultSceneRoot USceneComponent

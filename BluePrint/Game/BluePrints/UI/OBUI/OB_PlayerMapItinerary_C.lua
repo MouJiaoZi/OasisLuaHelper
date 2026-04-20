@@ -1,0 +1,11 @@
+---@class OB_PlayerMapItinerary_C:UUserWidget
+---@field RefreshSize:fun(LevelLandScapeCenter:FVector,LeveltoMapScale:float,MapSize:FVector2D)
+---@field OnPaint:fun(Context:FPaintContext)
+---@field RefreshData:fun(IsShow:bool,PlayerPosList:ULuaArrayHelper,PlayerPawn:APawn)
+---@field Image_Spot UImage
+---@field PlayerPosList ULuaArrayHelper
+---@field MapSize FVector2D
+---@field LevelLandScapeCenter FVector
+---@field LeveltoMapScale float
+---@field IsShow bool
+---@field PlayerPawn APawn

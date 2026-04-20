@@ -1,0 +1,1 @@
+---@class BP_Borderland_AI_QueryFilter_FindRandomLoc_C:UNavigationQueryFilterEx

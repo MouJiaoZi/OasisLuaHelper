@@ -1,0 +1,1 @@
+---@class WeaponAnimList_Sniper_Mk14_C:UUAECharacterAnimListComponent

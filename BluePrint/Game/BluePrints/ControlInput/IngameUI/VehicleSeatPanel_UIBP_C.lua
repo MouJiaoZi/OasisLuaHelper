@@ -1,0 +1,68 @@
+---@class VehicleSeatPanel_UIBP_C:UUAEUserWidget
+---@field ShowSeatPanel:fun(vehicleControlPanel:UUAEUserWidget):bool
+---@field SetCustomizeLayout:fun()
+---@field ShowOperateUI:fun():bool
+---@field HideOperateUI:fun():bool
+---@field UpdateSpeedHeight:fun(speed:float,height:float):bool
+---@field UAVStateChange:fun():bool
+---@field ProcessSingleOperateMode:fun():bool
+---@field SetVehicleControlPanel:fun(vehicleControlPanel:UUAEUserWidget):bool
+---@field ShowSingleOperateMode:fun():bool
+---@field HideSingleOperateMode:fun():bool
+---@field Close:fun()
+---@field OnTouchEnded:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field ClickSeatBtn:fun()
+---@field UpdateGUISeats:fun(seat:ULuaArrayHelper,seatBG:ULuaArrayHelper,SeatGUIType:ULuaArrayHelper,idx:int32,seatConfig:ULuaArrayHelper)
+---@field InitSeat:fun()
+---@field GetVehicleUser:fun():BP_VehicleUser_C
+---@field ShowPanel:fun(vehicleControlPanel:VehileControlPanel_C)
+---@field Construct:fun()
+---@field Border_62_2 UBorder
+---@field Button_BigSeatList_Close UNewButton
+---@field CanvasPanel_Big_FireSlot2 UCanvasPanel
+---@field CanvasPanel_Big_FireSlot3 UCanvasPanel
+---@field CanvasPanel_Big_FireSlot4 UCanvasPanel
+---@field CanvasPanel_Big_FireSlot5 UCanvasPanel
+---@field CanvasPanel_Big_FireSlot6 UCanvasPanel
+---@field CanvasPanel_Big_FireSlot7 UCanvasPanel
+---@field CanvasPanel_Big_FireSlot8 UCanvasPanel
+---@field CanvasPanel_BigSeatList UCanvasPanel
+---@field CanvasPanel_DrummingIcon_big UCanvasPanel
+---@field CanvasPanel_FireSeatTips_Big UCanvasPanel
+---@field CustomizeCanvasPanel_BP_V_62_2 CustomizeCanvasPanel_BP_C
+---@field Image_FireSlot2 UImage
+---@field Image_FireSlot3 UImage
+---@field Image_FireSlot4 UImage
+---@field Image_FireSlot5 UImage
+---@field Image_FireSlot6 UImage
+---@field Image_FireSlot7 UImage
+---@field Image_FireSlot8 UImage
+---@field Image_FourToEightSeats_Seat01_big UImage
+---@field Image_FourToEightSeats_Seat02_big UImage
+---@field Image_FourToEightSeats_Seat03_big UImage
+---@field Image_FourToEightSeats_Seat04_big UImage
+---@field Image_FourToEightSeats_Seat05big UImage
+---@field Image_FourToEightSeats_Seat06_big UImage
+---@field Image_FourToEightSeats_Seat07_big UImage
+---@field Image_FourToEightSeats_Seat08_big UImage
+---@field Image_Seat01_Driver_big UImage
+---@field NewButton_Seat01_big UNewButton
+---@field NewButton_Seat02_big UNewButton
+---@field NewButton_Seat03_big UNewButton
+---@field NewButton_Seat04_big UNewButton
+---@field NewButton_Seat05_big UNewButton
+---@field NewButton_Seat06_big UNewButton
+---@field NewButton_Seat07_big UNewButton
+---@field NewButton_Seat08_big UNewButton
+---@field WidgetSwitcher_SeatType_big UWidgetSwitcher
+---@field threeWheelVehicleBtn ULuaArrayHelper
+---@field tukthreeWheelVehicleBtn ULuaArrayHelper
+---@field wheelsVehicleBtn ULuaArrayHelper
+---@field threeWheelVehicleBG ULuaArrayHelper
+---@field tukWheelVehicleBG ULuaArrayHelper
+---@field wheelsWheelVehicleBG ULuaArrayHelper
+---@field bInit bool
+---@field clickIndex int32
+---@field vehicleControlPanel VehileControlPanel_C
+---@field wheelVehicleTags ULuaArrayHelper
+---@field VehicleUser BP_VehicleUser_C

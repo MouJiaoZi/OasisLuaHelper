@@ -1,0 +1,23 @@
+---@class VRSpectatorPawn_C:ASTSpectatorPawn
+---@field UpdateFreeViewTarget:fun(Index:int32)
+---@field ObserveTeammate:fun(Idx:int32)
+---@field CheckPos:fun(InPos:FVector):FVector
+---@field LoadSlot:fun()
+---@field SaveSlot:fun()
+---@field LoadCameraPosition:fun(Idx:int32,BisInstance:bool)
+---@field SaveCameraPosition:fun(Idx:int32)
+---@field UserConstructionScript:fun()
+---@field Camera_ UCameraComponent
+---@field SpringArm USpringArmComponent
+---@field CameraAngle ULuaArrayHelper
+---@field CameraPosition ULuaArrayHelper
+---@field BLoadSlot bool
+---@field MapID int32
+---@field SlotPrefix FString
+---@field BP_SaveGame BP_SAVEGAME_OBCameraPos_C
+---@field LevelBoundExtent float
+---@field PlayerName ULuaArrayHelper
+---@field PositionData ULuaArrayHelper
+---@field LerpTime float
+---@field MoveTimer FTimerHandle
+---@field CurLerpTime float

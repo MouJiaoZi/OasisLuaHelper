@@ -1,0 +1,15 @@
+---@class BP_ZombieModeControlledDoorInterface_C:UInterface
+---@field GetDoorOpenAkComponent:fun():UAkComponent
+---@field GetDoorCloseAkComponent:fun():UAkComponent
+---@field GetDoorMovingAkComponent:fun():UAkComponent
+---@field GetDoorCollisionDissolvedUnitDirectionVector:fun(Index:int32):FVector
+---@field GetDoorCollisionComponent:fun(Index:int32):UPrimitiveComponent
+---@field GetDoorMeshComponent:fun(Index:int32):UMeshComponent
+---@field GetDoorMaterialScaleParameterName:fun(Index:int32):FName
+---@field GetDoorHeadCollisionComponent:fun(Index:int32):UPrimitiveComponent
+---@field GetDoorCount:fun():int32
+---@field GetDoorBarrierCollisionComponent:fun():UPrimitiveComponent
+---@field GetDoorInterpToMovementComponent:fun(Index:int32):UInterpToMovementComponent2
+---@field GetDoorMoving:fun():bool
+---@field SetDoorOpen:fun(Value:bool,Time:float)
+---@field GetDoorOpen:fun():bool

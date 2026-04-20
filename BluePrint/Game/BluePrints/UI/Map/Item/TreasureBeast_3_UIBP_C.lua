@@ -1,0 +1,1 @@
+---@class TreasureBeast_3_UIBP_C:UMapUIMarkBaseWidget

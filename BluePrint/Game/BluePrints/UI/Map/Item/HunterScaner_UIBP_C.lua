@@ -1,0 +1,10 @@
+---@class HunterScaner_UIBP_C:UMapUIMarkBaseWidget
+---@field UpdateData:fun(Data:FCustomMarkEventData)
+---@field GetTimeText:fun():FText
+---@field UpdateMarkSize:fun(inScale:float,inMapScale:float,MapScaleInUI:float)
+---@field OnUIBPShow:fun(InState:FCustomMarkEventData)
+---@field UpdateUIBPState:fun(InState:FCustomMarkEventData)
+---@field OnUIBPCreate:fun(InState:FCustomMarkEventData,ParentState:EMarkParentWidget,inRealLevelToMapScale:float,inMapScale:float)
+---@field Bounty_MapRadar_UIBP Bounty_MapRadar_UIBP_C
+---@field AreaRadius float
+---@field TimeLeft int32

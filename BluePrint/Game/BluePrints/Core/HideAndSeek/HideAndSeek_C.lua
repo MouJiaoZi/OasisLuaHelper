@@ -1,0 +1,3 @@
+---@class HideAndSeek_C:ASTExtraLevelDirector
+---@field UserConstructionScript:fun()
+---@field DefaultSceneRoot USceneComponent

@@ -1,0 +1,2 @@
+---@class Tmode_Record_BulletScreen_Item_UIBP_C:UUAEUserWidget
+---@field TextBlock_PlayerName UTextBlock

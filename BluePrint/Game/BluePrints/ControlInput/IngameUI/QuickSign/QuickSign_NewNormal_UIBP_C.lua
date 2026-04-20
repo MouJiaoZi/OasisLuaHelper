@@ -1,0 +1,35 @@
+---@class QuickSign_NewNormal_UIBP_C:UQuickSignMarkWidget
+---@field DealWithEdge:fun(InPosition:FVector2D,WorldLocation:FVector):FVector2D
+---@field ShowSelf:fun(Loc:FVector,IconPath:FString,BGPath:FString,IsSelfMark:bool,TeamIndex:int32,NewStyleConfig:FString,AttachedActor:AActor,AttachVector:FVector)
+---@field OnWidgetAlphaChange:fun(NewAlpha:float)
+---@field SetMarkLineHeight:fun(TargetDistance:int32)
+---@field HandleNonAim:fun()
+---@field HandleOnlyAim:fun()
+---@field HandleAimFire:fun()
+---@field Construct:fun()
+---@field NewAnimation_OpenHide UWidgetAnimation
+---@field Border_Content UBorder
+---@field Border_DistInfo UBorder
+---@field Border_Line UBorder
+---@field CanvasPanel_0 UCanvasPanel
+---@field CanvasPanel_DistInfo UCanvasPanel
+---@field CanvasPanel_Left UCanvasPanel
+---@field CanvasPanel_Right UCanvasPanel
+---@field CanvasPanel_Rotate UCanvasPanel
+---@field CanvasPanel_Up UCanvasPanel
+---@field Image_BG UImage
+---@field Image_Dian UImage
+---@field Image_Dian03 UImage
+---@field Image_Dian04 UImage
+---@field Image_Dian05 UImage
+---@field Image_Icon UImage
+---@field Image_Line30 UImage
+---@field TextBlock_Left_DistInfo UTextBlock
+---@field TextBlock_Right_DistInfo UTextBlock
+---@field TextBlock_Up_DistInfo UTextBlock
+---@field DivisionFactor float
+---@field DivisionDistance float
+---@field IsDivision bool
+---@field LastFireTime float
+---@field PCUI_LongMarkLineHeight float
+---@field PCUI_ShortMarkLineHeight float

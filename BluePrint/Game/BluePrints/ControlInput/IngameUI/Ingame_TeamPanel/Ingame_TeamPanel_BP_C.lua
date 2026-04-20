@@ -1,0 +1,88 @@
+---@class Ingame_TeamPanel_BP_C:UUAEUserWidget
+---@field TeamPanel_GetTeammateItem:fun(NewParam:int32):UUAEUserWidget
+---@field TeamPanel_IsMatchingPlayerKey:fun(PlayerKey:FString,InWidget:UUserWidget):bool
+---@field TeamPanel_SetTeamItemZorder:fun(NewParam:UUserWidget):bool
+---@field IsCustomUIDataValid:fun(Widget:UWidget,SaveDataSize:FVector2D):bool
+---@field SetTeamItemZorder:fun(UpdateItem:UUserWidget)
+---@field RemindTeammateShootNew:fun(playerKey:int64,bShow:bool,Dist:float)
+---@field OnReplayInit:fun(NewParam:EPlaybackType)
+---@field CheckTeamPanelDisplay:fun()
+---@field ApplyCustomSet:fun()
+---@field UIMsg_imprint_info:fun()
+---@field UIMsg_UpdatePlayerStateBuff:fun()
+---@field UIMsg_WeixinLiveStatus:fun()
+---@field UIMsg_UpdateTeammateEscape:fun()
+---@field UpdateOneTeamMateHPByIndex:fun(TeamIndex:int32)
+---@field UpdateOneTeamMateHP:fun(InPlayerState:ASTExtraPlayerState)
+---@field UpdateOneTeamMateState:fun(TeamIndex:int32)
+---@field Process_UIMsg_OnEnableSignalSystemChanged:fun()
+---@field UIMsg_UpdateBountySelfRevivalUI:fun(InPlayerKey:FString,bShow:bool,RemainTimecount:int32)
+---@field UIMsg_UpdateBountyGold:fun(InPlayerKey:FString,InBountyGold:FString)
+---@field UIMsg_TeamPanelUpdateMaxKiller:fun()
+---@field IsShowHeadinfoInReplay:fun():bool
+---@field NewYearActivity_HideNoneConcertUI_Sub:fun()
+---@field RefreshRobotIcon:fun(robotID:int32)
+---@field RemindTeammateShoot:fun(playerKey:FString,bShow:bool,Dist:float)
+---@field ReleaseFollowItem:fun()
+---@field ShouldCreateFollowItem:fun():bool
+---@field GetFollowItemByIndex:fun(ForceCreate:bool,ItemIndex:int32,InTargetPlayerName:FString):UTeamPanelFollowItem
+---@field GetNoneFollowStatePlayerNum:fun():int32
+---@field UIMsg_ReInitTeamPanel:fun()
+---@field RefreshTeammateRevivalState:fun(InPlayerState:ASTExtraPlayerState)
+---@field ClearQuickTipsList:fun()
+---@field UpdateTeammateTemperature:fun()
+---@field ShowTeamInfo:fun(show:bool)
+---@field IsNeedUpdatePFList:fun():bool
+---@field GetValidTeammateStateNum:fun():int32
+---@field HideAllTeammateMicFX:fun()
+---@field UIMsg_ShowGroundFlag:fun()
+---@field UIMSG_HideFollowPanelAndBtn:fun()
+---@field UIMsg_UpdateTeamPFList:fun()
+---@field SetWomenPrompt:fun(GenderType:uint8,NewParam1:Ingame_TeamItem_BP_C)
+---@field Reconnect_ResetUIByPlayerControllerState:fun()
+---@field OnMemberVoice:fun(playerId:int32,status:int32,isRobot:bool)
+---@field ClearAllMark:fun()
+---@field ClearAllPlayerItems:fun()
+---@field OnPlayerExitGame:fun(PlayerState:APlayerState)
+---@field UpdateTeamMateMapMark:fun(Index:int32)
+---@field UpdateTeamMateBreath:fun(Status:int32,Ratio:float,Character:ACharacter)
+---@field OnReconnected:fun(PlayerState:APlayerState)
+---@field OnLostDelegate:fun(PlayerState:APlayerState)
+---@field UpdateTeamMateState:fun(TargetCharacter:ACharacter,State:ExtraPlayerLiveState)
+---@field UpdateTeamMateHP:fun()
+---@field CollectWidgets:fun()
+---@field Init:fun()
+---@field SetSettingControlUI:fun()
+---@field ReceivedInitWidget:fun()
+---@field SetCustomizeUIInfo:fun(SaveGame:BP_SAVEGAME_UIElemLayout_C,FireMode:int32)
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field RespawnInitWidget:fun()
+---@field Border_Team UBorder
+---@field Button_HideFollowList UButton
+---@field Button_OneClickInvitation UButton
+---@field Button_ParachuteFollow UButton
+---@field Canvas_Border_Team UCanvasPanel
+---@field CanvasPanel_FollowPanel UCanvasPanel
+---@field CanvasPanel_FollowSlot1 UCanvasPanel
+---@field CanvasPanel_FollowSlot2 UCanvasPanel
+---@field CanvasPanel_FollowSlot3 UCanvasPanel
+---@field CanvasPanel_FollowSlot4 UCanvasPanel
+---@field CanvasPanel_PosInLevel UCanvasPanel
+---@field FollowBtn_WarControl UGridPanel
+---@field FollowPanel_WarControl UCanvasPanel
+---@field Image_Line1 UImage
+---@field Image_Line2 UImage
+---@field Image_Line3 UImage
+---@field TeammatesQuickTipsItem_BP TeammatesQuickTipsItem_BP_C
+---@field TeammatesQuickTipsItem_BP_0 TeammatesQuickTipsItem_BP_C
+---@field TeammatesQuickTipsItem_BP_1 TeammatesQuickTipsItem_BP_C
+---@field TeammatesQuickTipsItem_BP_2 TeammatesQuickTipsItem_BP_C
+---@field VerticalBox_TeamItemList UVerticalBox
+---@field IngameTeamItemList ULuaArrayHelper
+---@field ShowMateCount int32
+---@field FollowItemList ULuaArrayHelper
+---@field FollowItemLineList ULuaArrayHelper
+---@field QuickTipsList ULuaArrayHelper
+---@field SignalbarLoaded bool
+---@field ShotRemindDist float
+---@field RobotIconParent LivePeoplePosition_BP_C

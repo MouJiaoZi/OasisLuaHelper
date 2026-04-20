@@ -1,0 +1,1 @@
+---@class UGC_M_BandageItemHandle_C:UBandageItemHandle_C

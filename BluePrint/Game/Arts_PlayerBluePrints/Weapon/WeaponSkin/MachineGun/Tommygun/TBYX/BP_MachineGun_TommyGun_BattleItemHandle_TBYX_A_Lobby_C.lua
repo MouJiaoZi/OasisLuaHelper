@@ -1,0 +1,1 @@
+---@class BP_MachineGun_TommyGun_BattleItemHandle_TBYX_A_Lobby_C:UBackpackWeaponHandle

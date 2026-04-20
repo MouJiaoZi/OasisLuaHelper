@@ -1,0 +1,3 @@
+---@class HideAndSeekSpawnItemMgr_C:UHideAndSeekSpawnItem
+---@field GetLuaModule:fun():FString
+---@field GetLuaTableCount:fun():int32

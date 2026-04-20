@@ -1,0 +1,38 @@
+---@class GiveLikePersonalTaskData_C:UPlayerNetAlienationData
+---@field GetLuaModule:fun():FString
+---@field GetPCByUID:fun(PlayerUID:FString):APlayerController
+---@field TeammateAnswerListReport:fun(Type:int32,AnswerPlayerUID:FString)
+---@field TeammateGiveLikeCount:fun(TeamID:int32,BeLikedUID:FString,GiveLikeUID:FString)
+---@field TeammateAnswerDataFlow:fun(TeamID:int32,Type:int32,TeammateLikeArray:ULuaArrayHelper,AnswerPlayerUID:FString)
+---@field OnRestoreAnswerUI:fun(GiveLikeType:int32,TeammateArray:ULuaArrayHelper,OBArray:ULuaArrayHelper,AnswerIsClicked:bool)
+---@field GetPCByPlayerKey:fun(PlayerKey:FString):APlayerController
+---@field OnReceiveLike:fun(OperationID:int32,PlayerUID:FString,IsOBLike:bool)
+---@field SetIsShowingAnswerUI:fun(IsShowing:bool)
+---@field HasAuthority:fun():bool
+---@field SelfGetPlayerController:fun():APlayerController
+---@field SetIsShowingTeammateLikeUI:fun(IsShowingTeammateLikeUI:bool)
+---@field GiveLikeDataFlow:fun(IsOBLike:bool,IsClicked:bool,GiveLikeType:int32,IsAnswered:bool,AnswerNum:int32)
+---@field SetTeammateLikeData:fun(TaskID:int32,TeammateLikeData:FGiveLikeData)
+---@field CheckLikeQueue:fun(IsShowingUI:bool,Delay:float,ExistTime:int32)
+---@field ResetGiveLikeData:fun(IsObLike:bool)
+---@field StartQueueTimer:fun()
+---@field CheckDataForEvent:fun(TeammateLikeData:FGiveLikeData,TaskID:int32)
+---@field GetCurQuickChatUIInfo:fun():int32,int32,int32
+---@field GetQuickChatID:fun(TaskID:int32):int32
+---@field OnInitPlayerController:fun(PC:UObject)
+---@field OnFinishedTask:fun(TaskID:int32)
+---@field OnBeginPlay:fun(Owner:UObject)
+---@field ReciveInit:fun(InOwner:UNetAlienationDataComponent)
+---@field QuickChatInfo FGiveLikeData
+---@field ResetChatInfo FGiveLikeData
+---@field OBLikeData FGiveLikeData
+---@field TeammateLikeData FGiveLikeData
+---@field Delay float
+---@field ExistTime int32
+---@field DuringTime int32
+---@field IsShowingTeammateLikeUI bool
+---@field IsShowingAnswerUI bool
+---@field AnswerDuringTime float
+---@field AnswerDelay float
+---@field AnswerCD float
+---@field TypeMap ULuaMapHelper

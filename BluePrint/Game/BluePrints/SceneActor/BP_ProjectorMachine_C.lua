@@ -1,0 +1,5 @@
+---@class BP_ProjectorMachine_C:AActor
+---@field UserConstructionScript:fun()
+---@field Plane UStaticMeshComponent
+---@field ParticleSystem UParticleSystemComponent
+---@field Machine UStaticMeshComponent

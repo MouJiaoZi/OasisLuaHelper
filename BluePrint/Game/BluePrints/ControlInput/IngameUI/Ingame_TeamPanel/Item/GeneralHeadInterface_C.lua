@@ -1,0 +1,3 @@
+---@class GeneralHeadInterface_C:UInterface
+---@field AddFlagPS_Inf:fun(PS:AUAEPlayerState,HeadFlag:FString):bool
+---@field AddFlag_Inf:fun(BC:ASTExtraBaseCharacter,HeadFlag:FString):bool

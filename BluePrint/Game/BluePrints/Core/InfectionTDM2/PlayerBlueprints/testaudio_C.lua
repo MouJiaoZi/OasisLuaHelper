@@ -1,0 +1,6 @@
+---@class testaudio_C:AActor
+---@field UserConstructionScript:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field Cube UStaticMeshComponent
+---@field Ak UAkComponent
+---@field DefaultSceneRoot USceneComponent

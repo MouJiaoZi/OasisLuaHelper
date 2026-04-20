@@ -1,0 +1,26 @@
+---@class CG033_BBCar_UIBP_C:UUAEUserWidget
+---@field SwitchJumpSkill:fun(IsJumpSkill:bool)
+---@field TryShowTips:fun(TipsID:int32,TestStr:FString)
+---@field TriggerAirJump:fun()
+---@field TriggerBoosting:fun(IsTrigger:bool)
+---@field GetVehicleUser:fun():BP_VehicleUser_C
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field Construct:fun()
+---@field Destruct:fun()
+---@field DX_tantiao UWidgetAnimation
+---@field Button_BreakOut UButton
+---@field CanvasPanel_CDtime UCanvasPanel
+---@field CustomizeCanvasPanel_Jump CustomizeCanvasPanel_BP_C
+---@field Image_BG UImage
+---@field Image_CDTime UImage
+---@field Image_IconBreakOut UImage
+---@field Image_Select UImage
+---@field NewButton_XiaoTiao UNewButton
+---@field ProgressBar_Bar UProgressBar
+---@field TextBlock_0 UTextBlock
+---@field TextBlock_BreakOut UTextBlock
+---@field TextBlock_Time UTextBlock
+---@field WidgetSwitcher_Btn UWidgetSwitcher
+---@field IsAirJumpSkill bool
+---@field HasPressBoosting bool
+---@field LastShowTipsTime float

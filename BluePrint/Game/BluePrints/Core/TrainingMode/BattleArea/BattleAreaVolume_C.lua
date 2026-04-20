@@ -1,0 +1,4 @@
+---@class BattleAreaVolume_C:AUAERegionActor
+---@field UserConstructionScript:fun()
+---@field Box UBoxComponent
+---@field DefaultSceneRoot USceneComponent

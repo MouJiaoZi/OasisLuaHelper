@@ -1,0 +1,2 @@
+---@class Camp_SignItem_UIBP_C:UUAEUserWidget
+---@field TextBlock_Camp UTextBlock

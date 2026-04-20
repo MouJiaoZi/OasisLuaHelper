@@ -1,0 +1,5 @@
+---@class MoveBlendAnimBP_InfectedMan_04_C:USubAnimInstance_Event
+---@field BlueprintInitializeAnimation:fun()
+---@field ParentExtraAnimInstanceBase USTExtraAnimInstanceBase
+---@field ParentOwnerBaseCharacter ASTExtraBaseCharacter
+---@field MoveStateInitFM FSTExtraAnimFM_MoveState

@@ -1,0 +1,13 @@
+---@class ZD_WarDog_NewPanel_GO_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field PC_OnBtnCancelClicked:fun()
+---@field PC_OnBtnConfirmClicked:fun()
+---@field Border_60 UBorder
+---@field Border_Skill2 UBorder
+---@field CustomizeCanvasPanel_BP_35 CustomizeCanvasPanel_BP_C
+---@field CustomizeCanvasPanel_BP_60 CustomizeCanvasPanel_BP_C
+---@field CustomizeCanvasPanel_V_Skill2 CustomizeCanvasPanel_BP_C
+---@field Image_Icon02 UImage
+---@field NewButton_Cancel UNewButton
+---@field NewButton_Go UNewButton
+---@field NewButton_Shoot02 UNewButton

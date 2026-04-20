@@ -1,0 +1,11 @@
+---@class BP_TimerDoorComponent_C:UActorComponent
+---@field IsStopped:fun():bool
+---@field StopCurrentTimer:fun()
+---@field OnSecondTimer:fun()
+---@field StopCurrentAndStartNewTimer:fun(Value:float)
+---@field SetTimerDoorControlledInterface:fun(TimerDoorControlledInterface:TScriptInterface)
+---@field TimerDoorControlledInterface TScriptInterface
+---@field SecondTimerHandler FTimerHandle
+---@field TickPerSeconds float
+---@field SecondsToStop float
+---@field LastTimeSeconds float

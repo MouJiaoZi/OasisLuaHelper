@@ -1,0 +1,3 @@
+---@class Ingame_FollowSystemTips_UIBP_C:UUAEUserWidget
+---@field SetTips:fun(Tips:FString):bool
+---@field FollowSystemTips UUTRichTextBlock

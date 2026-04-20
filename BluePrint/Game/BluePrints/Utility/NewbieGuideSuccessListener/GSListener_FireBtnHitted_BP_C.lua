@@ -1,0 +1,1 @@
+---@class GSListener_FireBtnHitted_BP_C:UGSListener_FireBtnHitted

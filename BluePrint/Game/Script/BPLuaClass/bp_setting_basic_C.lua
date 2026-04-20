@@ -1,0 +1,4 @@
+---@class bp_setting_basic_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_BasicSettingBLEConnectionState int32

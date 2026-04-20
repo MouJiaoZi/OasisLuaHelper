@@ -1,0 +1,6 @@
+---@class Ingame_jump_Invitation_UIBP_C:ULuaUserWidget
+---@field Construct:fun()
+---@field GridPanel_InviteTipsUI_OUT UWidgetAnimation
+---@field GridPanel_InviteTipsUI_IN UWidgetAnimation
+---@field Image_TB_tuoli_icon FSlateBrush
+---@field Image_TB_open_icon FSlateBrush

@@ -1,0 +1,10 @@
+---@class MobileEditor_EffectsUnit_AdvExterior_UIBP_C:UUGCMobilePropertyWidget
+---@field GetLuaModule:fun():FString
+---@field GetImageIconPath:fun():FString
+---@field Get_Image_Icon_Brush_0:fun():FSlateBrush
+---@field Image_Icon UImage
+---@field Image_Switch UImage
+---@field MobileEditor_AdvHelp MobileEditor_AdvHelp_UIBP_C
+---@field NewButton_Exterior UNewButton
+---@field TextBlock_Title UTextBlock
+---@field ImageIconBrush FSlateBrush

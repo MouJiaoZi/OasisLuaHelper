@@ -1,0 +1,13 @@
+---@class NewTrainingRange_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field Button_Close UNewButton
+---@field Button_Friends UNewButton
+---@field Button_local UNewButton
+---@field CanvasPanel_Tips UCanvasPanel
+---@field Image_2 UImage
+---@field Range_ListSelf NewTrainingRange_ListItem_UIBP_C
+---@field ReuseList2 ReuseList2_C
+---@field TextBlock_1 UTextBlock
+---@field TextBlock_10 UTextBlock
+---@field WidgetSwitcher_Entertainment UWidgetSwitcher
+---@field WidgetSwitcher_range UWidgetSwitcher

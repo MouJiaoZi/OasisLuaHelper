@@ -1,0 +1,10 @@
+---@class BP_SubClusterBomb_C:AActor
+---@field UserConstructionScript:fun()
+---@field ReceiveEndPlay:fun(EndPlayReason:EEndPlayReason)
+---@field StaticMesh UStaticMeshComponent
+---@field DefaultSceneRoot USceneComponent
+---@field DelayTime float
+---@field DamageConfig FApplyRadialDamageParams
+---@field DamageOriginOffset FVector
+---@field ExplosionFinder FExplosionFinderWrapper
+---@field VoiceCheck FProjectileVoiceCheckEvent

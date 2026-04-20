@@ -1,0 +1,16 @@
+---@class RingMatch_participateTips_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field CloseTick:fun()
+---@field OnClickRefuse:fun()
+---@field OnClickAccept:fun()
+---@field PlayHide:fun()
+---@field PlayShow:fun()
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field DX_InviteTips_OUT UWidgetAnimation
+---@field DX_InviteTips_IN UWidgetAnimation
+---@field Button_participate UButton
+---@field Button_Refuse UButton
+---@field CanvasPanel_InvitationTips UCanvasPanel
+---@field Text_Tips UTextBlock
+---@field TextBlock_Time UTextBlock
+---@field AkAudio UAkAudioEvent

@@ -1,0 +1,4 @@
+---@class BP_Other_Mortar_BattleItemHandle_MJWS_C:BP_Other_Mortar_BattleItemHandle_C
+---@field GetSkillTemplates:fun():ULuaArrayHelper
+---@field GetSpecificSkillTemplateByData:fun(SpecificData:FString):FItemSkillsConfig
+---@field IsSpecificSkill:fun(InSkillConfig:FItemSkillsConfig):bool

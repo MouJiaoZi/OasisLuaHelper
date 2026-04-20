@@ -1,0 +1,4 @@
+---@class FWinnerAirdropStructure
+---@field TemplateBox FText
+---@field SummonSkillPath FText
+---@field SpawnedWinnerTrophy FText

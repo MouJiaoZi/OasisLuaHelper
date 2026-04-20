@@ -1,0 +1,13 @@
+---@class BP_HideAndSeekRefreshCircle_C:UPeriodicallySpawnActorComponent
+---@field GetLuaModule:fun():FString
+---@field Tick:fun(DeltaTime:float)
+---@field RandomPositionSpawnCircle:fun()
+---@field StateAndTimeCheck:fun(State:int32,Time:float)
+---@field BP_GetCharacterBounds:fun(PrimitiveComp:UPrimitiveComponent)
+---@field ReceiveBeginPlay:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field BP_Origin FVector
+---@field BP_BoxExtent FVector
+---@field BP_SphereRadius float
+---@field BP_CapsuleClass UClass
+---@field BP_SphereClass UClass

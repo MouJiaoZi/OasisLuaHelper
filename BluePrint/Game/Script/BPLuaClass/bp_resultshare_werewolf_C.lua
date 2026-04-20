@@ -1,0 +1,4 @@
+---@class bp_resultshare_werewolf_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_IsShareHistoryWerewolf bool

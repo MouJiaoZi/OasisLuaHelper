@@ -1,0 +1,4 @@
+---@class FactionCampActor_C:ACampActor
+---@field GetLuaModule:fun():FString
+---@field UserConstructionScript:fun()
+---@field DefaultSceneRoot USceneComponent

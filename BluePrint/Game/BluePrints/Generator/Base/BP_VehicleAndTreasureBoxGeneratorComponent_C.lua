@@ -1,0 +1,4 @@
+---@class BP_VehicleAndTreasureBoxGeneratorComponent_C:UVehicleAndTreasureBoxGeneratorComponent
+---@field ReceiveBeginPlay:fun()
+---@field LoadVehicleGenerateTable:fun()
+---@field VehicleDataTable_0 UUAEDataTable

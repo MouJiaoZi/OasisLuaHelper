@@ -1,0 +1,1 @@
+---@class BP_Rifle_AUG_BattleItemHandle_BLMS_A_Lobby_C:UBackpackWeaponHandle

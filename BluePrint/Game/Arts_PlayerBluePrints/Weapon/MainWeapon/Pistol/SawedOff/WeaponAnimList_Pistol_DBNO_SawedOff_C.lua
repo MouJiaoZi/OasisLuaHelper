@@ -1,0 +1,1 @@
+---@class WeaponAnimList_Pistol_DBNO_SawedOff_C:UUAECharacterAnimListComponent

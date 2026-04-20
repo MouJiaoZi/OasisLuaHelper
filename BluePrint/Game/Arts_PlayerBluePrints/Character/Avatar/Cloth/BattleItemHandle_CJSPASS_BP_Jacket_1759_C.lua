@@ -1,0 +1,1 @@
+---@class BattleItemHandle_CJSPASS_BP_Jacket_1759_C:BattleItemHandle_AvatarBP_C

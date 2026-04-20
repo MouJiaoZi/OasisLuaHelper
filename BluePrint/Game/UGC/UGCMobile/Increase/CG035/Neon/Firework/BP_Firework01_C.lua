@@ -1,0 +1,63 @@
+---@class BP_Firework01_C:AActivityBaseActor
+---@field GetCD:fun():float
+---@field ResetCDDisplay:fun()
+---@field CanShowFireworkCD2:fun(NewParam:FClick_Param):bool
+---@field CanShowFireworkCD1:fun(NewParam:FClick_Param):bool
+---@field CanUseFirework:fun(NewParam:FClick_Param):bool
+---@field ChooseLanuchFireworkChildren:fun()
+---@field ShootFirework:fun(ShootFireworkChild:USceneComponent)
+---@field CanShootOffFirework:fun(NewParam:FClick_Param):bool
+---@field ShootOffFireworkStart:fun(NewParam:FClick_Param)
+---@field UserConstructionScript:fun()
+---@field ReceiveAnyDamage:fun(Damage:float,DamageType:UDamageType,InstigatedBy:AController,DamageCauser:AActor)
+---@field Box UBoxComponent
+---@field ParticleSystem3 UParticleSystemComponent
+---@field ParticleSystem2 UParticleSystemComponent
+---@field ParticleSystem1 UParticleSystemComponent
+---@field ParticleSystem UParticleSystemComponent
+---@field P_CG030_SignalFlare_001 UParticleSystemComponent
+---@field StaticMesh4 UStaticMeshComponent
+---@field StaticMesh7 UStaticMeshComponent
+---@field StaticMesh2 UStaticMeshComponent
+---@field StaticMesh UStaticMeshComponent
+---@field StaticMesh6 UStaticMeshComponent
+---@field StaticMesh8 UStaticMeshComponent
+---@field StaticMesh5 UStaticMeshComponent
+---@field StaticMesh3 UStaticMeshComponent
+---@field StaticMesh1 UStaticMeshComponent
+---@field ActivityFakePossess UActivityFakePossessComponent
+---@field ClickActorComponentBase UClickActorComponentBase
+---@field OverlapCheckArea UOverlapCheckAreaComponent
+---@field Sphere USphereComponent
+---@field SM_Firework01 UStaticMeshComponent
+---@field DefaultSceneRoot USceneComponent
+---@field ShootTimeInterval float
+---@field NewVar_0 UAnimMontage
+---@field NewVar_1 UAnimMontage
+---@field NewVar_2 UAnimMontage
+---@field IsBroken bool
+---@field ShootNumMax int32
+---@field ShootNum int32
+---@field AllFireworkChildren ULuaArrayHelper
+---@field ShootCD float
+---@field ShootDelay float
+---@field LoopTimeHandle FTimerHandle
+---@field ShootEnd bool
+---@field UpdateUI bool
+---@field CDTotal float
+---@field CDTimeHandle FTimerHandle
+---@field ShootNumMin int32
+---@field FireworkRandomShootRange float
+---@field CurrentChooseFirework USceneComponent
+---@field ShootNumArr ULuaArrayHelper
+---@field ShootFireworkCount ULuaArrayHelper
+---@field AllFireworkRemember ULuaArrayHelper
+---@field NewVar_3 FUISlotSelector
+---@field FlamePostEventIndex int32
+---@field ExplosionSoundTimeHandle FTimerHandle
+---@field Sound_TimeMap ULuaMapHelper
+---@field SoundIDRemember ULuaArrayHelper
+---@field InteractiveController ASTExtraPlayerController
+---@field ObjList ULuaArrayHelper
+---@field StrList ULuaArrayHelper
+---@field StopFireSoundDelayTime float

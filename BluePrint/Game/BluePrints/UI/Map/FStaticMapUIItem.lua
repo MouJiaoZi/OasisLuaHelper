@@ -1,0 +1,3 @@
+---@class FStaticMapUIItem
+---@field ItemType int32
+---@field AssetName FString

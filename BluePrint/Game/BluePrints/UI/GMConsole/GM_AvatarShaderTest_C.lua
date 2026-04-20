@@ -1,0 +1,19 @@
+---@class GM_AvatarShaderTest_C:UUserWidget
+---@field SwitchFull:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field CheckAuto:fun(Del:float)
+---@field Auto:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field Next:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field Init:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field AutoRate USpinBox
+---@field AutoText UTextBlock
+---@field CurrentId UTextBlock
+---@field IsFull UTextBlock
+---@field SpinBox_10 USpinBox
+---@field WidgetSwitcher_0 UWidgetSwitcher
+---@field DataActor GM_AvatarShader_C
+---@field bAuto bool
+---@field Delta float
+---@field bFullTest bool
+---@field FullName ULuaArrayHelper
+---@field PartName ULuaArrayHelper

@@ -1,0 +1,6 @@
+---@class Variety_Shop_Tab3_UIBP_C:UUAEUserWidget
+---@field Image_Icon UImage
+---@field Image_Icon2 UImage
+---@field Image_Select UImage
+---@field NewButton_Select UNewButton
+---@field TextBlock_Name UTextBlock

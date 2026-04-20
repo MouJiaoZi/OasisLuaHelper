@@ -1,0 +1,9 @@
+---@class AtlasText_UIBP_C:UUAEUserWidget
+---@field OnTouchEnded:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field OnClickAtlas__DelegateSignature:fun(Name:FString)
+---@field OnClickItem__DelegateSignature:fun(Image:UImage)
+---@field TextBlock_Name UTextBlock
+---@field OnClickItem ULuaMulticastDelegate
+---@field IsAtlas bool
+---@field OnClickAtlas ULuaMulticastDelegate
+---@field CurImage UImage

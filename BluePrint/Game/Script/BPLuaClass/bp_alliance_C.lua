@@ -1,0 +1,23 @@
+---@class bp_alliance_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_Alliance_Notice FString
+---@field BP_Alliance_Selected_Team_ID FString
+---@field BP_Alliance_Current_Selected_Tab int32
+---@field BP_Alliance_Input_Switch int32
+---@field BP_ARRAY_Alliance_Member_Profile_List ULuaArrayHelper
+---@field BP_Alliance_IsOpenMainPanel bool
+---@field BP_Alliance_SelfJoinGroup bool
+---@field BP_ARRAY_Alliance_Applyed_List ULuaArrayHelper
+---@field BP_ARRAY_Alliance_Info_List ULuaArrayHelper
+---@field BP_Alliance_SelfUID FString
+---@field BP_Alliance_SelectIconId int32
+---@field BP_Alliance_Rules FString
+---@field BP_Alliance_SelectIconFrom int32
+---@field BP_Alliance_RecruitRedPointStatus bool
+---@field BP_ARRAY_Alliance_SelectTeam_Friend_Profile_List ULuaArrayHelper
+---@field BP_Alliance_FROMMAINPANEL int32
+---@field BP_Alliance_TeamName FString
+---@field BP_Alliance_Applyed_Team_ID FString
+---@field BP_Alliance_FROMCREATEPANEL int32
+---@field BP_Alliance_Selected_Member_Id FString

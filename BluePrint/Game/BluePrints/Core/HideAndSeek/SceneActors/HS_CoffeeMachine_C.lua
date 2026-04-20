@@ -1,0 +1,1 @@
+---@class HS_CoffeeMachine_C:AHiderSceneActorBase_C

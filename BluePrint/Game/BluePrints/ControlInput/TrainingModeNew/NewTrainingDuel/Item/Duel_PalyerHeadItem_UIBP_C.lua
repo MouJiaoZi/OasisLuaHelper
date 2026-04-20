@@ -1,0 +1,5 @@
+---@class Duel_PalyerHeadItem_UIBP_C:UObjectPositionWidget
+---@field CanvasPanel_TimeTips UCanvasPanel
+---@field Image_12 UImage
+---@field TextBlock_Player1 UTextBlock
+---@field TextBlock_Player2 UTextBlock

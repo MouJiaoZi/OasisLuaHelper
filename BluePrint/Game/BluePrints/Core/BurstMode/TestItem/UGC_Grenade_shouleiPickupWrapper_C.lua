@@ -1,0 +1,1 @@
+---@class UGC_Grenade_shouleiPickupWrapper_C:AGrenade_Shoulei_Wrapper_C

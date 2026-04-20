@@ -1,0 +1,14 @@
+---@class HAS_Result_Share3_UIBP_C:UUAEUserWidget
+---@field UpdateAdditionBtnStatus:fun(bAddFriend:bool):bool
+---@field InitAdditionMainInfo:fun(LuaClass:ALuaClassObj,ItemCount:int32,IsObserver:bool):bool
+---@field UpdateAdditionPlayerHeadInfos:fun(HeadInfos:ULuaArrayHelper):bool
+---@field OpenOrCloseAllClickBtn:fun(bOpen:bool):bool
+---@field OnShowShareInfo:fun(LuaClass:ALuaClassObj):bool
+---@field SetTeamTextDatas:fun()
+---@field SetSelfTextDatas:fun(PlayerScore:int32,Rank:int32,Search:int32,Survive:int32)
+---@field TextBlock_Rank1 UTextBlock
+---@field TextBlock_Rank2 UTextBlock
+---@field TextBlock_Score UTextBlock
+---@field TextBlock_Seek UTextBlock
+---@field TextBlock_Survive UTextBlock
+---@field CurrentItemCount int32

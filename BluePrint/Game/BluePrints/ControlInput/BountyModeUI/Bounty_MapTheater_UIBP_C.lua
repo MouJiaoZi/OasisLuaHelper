@@ -1,0 +1,8 @@
+---@class Bounty_MapTheater_UIBP_C:UMapUIMarkBaseWidget
+---@field UpdateMarkSize:fun(inScale:float,inMapScale:float,MapScaleInUI:float)
+---@field OnUIBPCreate:fun(InState:FCustomMarkEventData,ParentState:EMarkParentWidget,inRealLevelToMapScale:float,inMapScale:float)
+---@field Image_Icon UImage
+---@field AreaRadius float
+---@field MapSizeRate float
+---@field MapSizeRateDefault float
+---@field InitalMapSize FVector2D

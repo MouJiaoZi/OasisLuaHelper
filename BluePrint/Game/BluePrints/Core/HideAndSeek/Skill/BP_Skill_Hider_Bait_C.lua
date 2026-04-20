@@ -1,0 +1,8 @@
+---@class BP_Skill_Hider_Bait_C:AUAESkill
+---@field ConditionFunc:fun():bool
+---@field UserConstructionScript:fun()
+---@field UAESkillAction_AddItem UUAESkillAction_AddItem
+---@field UTSkillAppearance_SimpleParticleSystem UUTSkillAppearance_SimpleParticleSystem
+---@field UAESkillAction_SpawnActor UUAESkillAction_SpawnActor
+---@field UAESkillPhase UUAESkillPhase
+---@field DefaultSceneRoot USceneComponent

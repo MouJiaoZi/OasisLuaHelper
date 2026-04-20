@@ -1,0 +1,19 @@
+---@class bp_corps_rank_prestige_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field bp_corps_rank_prestige_Trans_End_Index int32
+---@field BP_Corps_Rank_Prestige_Current_ID int32
+---@field BP_Crops_Prestige_Rank_Select_LeaderName FString
+---@field BP_Corps_Rank_Prestige_Click_Player_ID FString
+---@field BP_STRUCT_MyCorpsPrestigeRankNumPro int32
+---@field BP_Corps_Rank_Prestige_Click_Leader_ID FString
+---@field BP_ARRAY_Corps_RankPrestigeUinList ULuaArrayHelper
+---@field BP_Corps_Rank_Prestige_Is_Lock_SelfInfo bool
+---@field BP_CorpsPrestigeRankSelectItemUid FString
+---@field BP_Corps_Rank_Prestige_Is_Lock_Uin bool
+---@field BP_Crops_Prestige_Rank_Now_Type int32
+---@field BP_Crops_Prestige_Rank_Select_LeaderSex int32
+---@field BP_STRUCT_MyCorpsPrestigeRankNum int32
+---@field bp_corps_rank_prestige_Trans_Begin_Index int32
+---@field BP_ARRAY_Corps_RankPrestigeInfoList ULuaArrayHelper
+---@field BP_Crops_Prestige_Rank_Now_Super_Type int32

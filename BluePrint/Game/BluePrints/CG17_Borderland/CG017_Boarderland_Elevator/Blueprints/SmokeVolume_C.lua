@@ -1,0 +1,5 @@
+---@class SmokeVolume_C:AActor
+---@field UserConstructionScript:fun()
+---@field ReceiveEndPlay:fun(EndPlayReason:EEndPlayReason)
+---@field Box UBoxComponent
+---@field NewVar_0 UParticleSystem

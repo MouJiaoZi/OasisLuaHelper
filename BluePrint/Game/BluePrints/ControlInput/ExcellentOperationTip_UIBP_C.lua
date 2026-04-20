@@ -1,0 +1,19 @@
+---@class ExcellentOperationTip_UIBP_C:UUAEUserWidget
+---@field OnHandleResultImage:fun(NewParam:UObject)
+---@field SetOpertionMainImage:fun(ResultType:EExcellentOperationResultType)
+---@field ShowOperationItem:fun(NewParam:FExcellentOperationRecordData)
+---@field PlayOperationItem:fun(OperationItem:FExcellentOperationRecordData)
+---@field CheckPlayOperationItems:fun()
+---@field ShowOperationInfosData:fun(OperationInfos:ULuaArrayHelper)
+---@field DX_Main UWidgetAnimation
+---@field CanvasPanel_MultiplyText UCanvasPanel
+---@field CanvasPanel_RevengeTitle1 UCanvasPanel
+---@field Image_0 UImage
+---@field Image_KillTitle_LimitIcon UImage
+---@field Text_Limit UTextBlock
+---@field CurOperationList ULuaArrayHelper
+---@field Image_KillTitle_LimitIcon_0 UImage
+---@field Image_KillTitle_LimitIcon_1 UImage
+---@field Image_KillTitle_LimitIcon_2 UImage
+---@field Image_KillTitle_LimitIcon_3 UImage
+---@field ExcellentResultImageMap ULuaMapHelper

@@ -1,0 +1,4 @@
+---@class BattleItemHandle_ParkCoin_C:UBattleItemHandleBase_BP_C
+---@field HandlePickup:fun(ItemContainer:TScriptInterface,PickupInfo:FBattleItemPickupInfo,Reason:EBattleItemPickupReason):bool
+---@field HandleDrop:fun(InCount:int32,Reason:EBattleItemDropReason):bool
+---@field SoftWrapperClass UClass

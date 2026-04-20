@@ -1,0 +1,2 @@
+---@class PESkill_UGCMobile_KQS_Shoot_C:PESkillTemplate_Base_C
+---@field GetLuaModule:fun():FString

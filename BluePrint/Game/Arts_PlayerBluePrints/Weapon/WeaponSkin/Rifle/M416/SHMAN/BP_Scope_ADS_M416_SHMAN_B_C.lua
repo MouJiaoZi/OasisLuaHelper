@@ -1,0 +1,1 @@
+---@class BP_Scope_ADS_M416_SHMAN_B_C:BP_Scope_ADS_M416_C

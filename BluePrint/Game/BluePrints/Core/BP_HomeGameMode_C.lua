@@ -1,0 +1,3 @@
+---@class BP_HomeGameMode_C:AMyHomeGameMode
+---@field UserConstructionScript:fun()
+---@field DefaultSceneRoot USceneComponent

@@ -1,0 +1,27 @@
+---@class BP_TrainPlayerPawn_C:ABP_PlayerPawn_C
+---@field GetLuaModule:fun():FString
+---@field GetNetRelevancyGroup:fun():FNetRelevancyGroup
+---@field IsSkipSpawnDeadTombBox:fun(EventInstigater:AController):bool
+---@field IsSmooth:fun():bool
+---@field OnFlagLoseMontageLoaded:fun(Montage:UObject,ID:int32)
+---@field OnFlagWinMontageLoaded:fun(Montage:UObject,ID:int32)
+---@field PlayFlagBattleMontage:fun(bWin:bool)
+---@field UserConstructionScript:fun()
+---@field SetNetRelevancyGroup:fun(Group:FNetRelevancyGroup)
+---@field NetRelevancyGroup FNetRelevancyGroup
+---@field FlagBattleWinMontage FSoftObjectPath
+---@field FlagBattleLoseMontage FSoftObjectPath
+---@field bInBattleArea bool
+---@field RespawnEffect UParticleSystem
+---@field bInFlagBattle bool
+---@field CurrentEquipTitleID int32
+---@field CurrentTitleList ULuaArrayHelper
+---@field AreaParam int32
+---@field PanParam int32
+---@field RacingParam int32
+---@field ShootRingsParam int32
+---@field DiamondParam bool
+---@field KingParam bool
+---@field ArenaAnimState int32
+---@field Particle1 UParticleSystem
+---@field Particle2 UParticleSystem

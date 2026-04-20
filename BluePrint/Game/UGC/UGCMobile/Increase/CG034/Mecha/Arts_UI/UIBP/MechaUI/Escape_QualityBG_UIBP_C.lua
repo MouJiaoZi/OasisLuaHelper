@@ -1,0 +1,4 @@
+---@class Escape_QualityBG_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field Image_QualityBar UImage
+---@field Image_QualityBG UImage

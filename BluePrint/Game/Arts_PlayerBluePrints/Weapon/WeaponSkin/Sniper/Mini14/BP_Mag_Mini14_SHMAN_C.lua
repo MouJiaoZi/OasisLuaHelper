@@ -1,0 +1,1 @@
+---@class BP_Mag_Mini14_SHMAN_C:BP_Mag_Mini14_C

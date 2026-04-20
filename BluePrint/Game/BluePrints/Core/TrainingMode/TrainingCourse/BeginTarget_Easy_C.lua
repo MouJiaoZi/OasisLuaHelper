@@ -1,0 +1,2 @@
+---@class BeginTarget_Easy_C:ABeginTargetBase_C
+---@field UserConstructionScript:fun()

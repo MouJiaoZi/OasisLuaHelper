@@ -1,0 +1,14 @@
+---@class Variety_MainUI_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field UIMsg_BigPanelWidgetOpen:fun(NewParam:FString)
+---@field TestFunction:fun()
+---@field Construct:fun()
+---@field CanvasPanel_MoveInfo UCanvasPanel
+---@field CanvasPanel_Other UCanvasPanel
+---@field CanvasPanel_Photo UCanvasPanel
+---@field NewButton_Close UNewButton
+---@field ScaleBox_IPX UScaleBox
+---@field Variety_RoleSet_UIBP Variety_RoleSet_UIBP_C
+---@field Variety_Shop_UIBP Variety_Shop_UIBP_C
+---@field VarietyTab MapPositionReuseList_BP_C
+---@field WidgetSwitcher_TabContent UWidgetSwitcher

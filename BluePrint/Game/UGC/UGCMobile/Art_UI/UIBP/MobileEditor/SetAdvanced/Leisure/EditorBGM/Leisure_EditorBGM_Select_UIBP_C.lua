@@ -1,0 +1,11 @@
+---@class Leisure_EditorBGM_Select_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field Button_Mask UButton
+---@field CanvasPanel_AddMusic UCanvasPanel
+---@field CanvasPanel_Music UCanvasPanel
+---@field NewButton_Add UNewButton
+---@field NewButton_Close UNewButton
+---@field TextBlock_Quantity UTextBlock
+---@field UGCMobileDetailViewWidget UGCMobileDetailViewWidget_C
+---@field VerticalBox_Music UVerticalBox
+---@field WrapGroupBox_Music UWrapGroupBox

@@ -1,0 +1,1 @@
+---@class SkillTemplate_TopDown_SwordLoop_C:PESkillTemplate_Base_C

@@ -1,0 +1,3 @@
+---@class HAS_Mark_Buff_UIBP_C:UMapUIMarkBaseWidget
+---@field OnUIBPShow:fun(InState:FCustomMarkEventData)
+---@field WidgetSwitcher_Buff UWidgetSwitcher

@@ -1,0 +1,7 @@
+---@class AsianOB_PanelStage_UIBP_C:UUAEUserWidget
+---@field AsianOB_Stage01 AsianOB_StageItem_UIBP_C
+---@field AsianOB_Stage02 AsianOB_StageItem_UIBP_C
+---@field AsianOB_Stage03 AsianOB_StageItem_UIBP_C
+---@field AsianOB_Stage04 AsianOB_StageItem_UIBP_C
+---@field TextBlock_Desc UTextBlock
+---@field VerticalBox_Panel UVerticalBox

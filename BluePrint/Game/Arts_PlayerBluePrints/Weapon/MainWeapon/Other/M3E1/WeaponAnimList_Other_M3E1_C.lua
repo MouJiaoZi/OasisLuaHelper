@@ -1,0 +1,1 @@
+---@class WeaponAnimList_Other_M3E1_C:UUAECharacterAnimListComponent

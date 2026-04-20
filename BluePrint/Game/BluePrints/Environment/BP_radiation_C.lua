@@ -1,0 +1,6 @@
+---@class BP_radiation_C:ARadiationCircle
+---@field UserConstructionScript:fun()
+---@field PostInitRadiationCircle:fun()
+---@field Cylinder_Base UStaticMeshComponent
+---@field Cylinder UStaticMeshComponent
+---@field Scene USceneComponent

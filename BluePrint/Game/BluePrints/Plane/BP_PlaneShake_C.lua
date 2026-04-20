@@ -1,0 +1,4 @@
+---@class BP_PlaneShake_C:UCameraModifier_CameraShake
+---@field BlueprintModifyCamera:fun(DeltaTime:float,ViewLocation:FVector,ViewRotation:FRotator,FOV:float):FVector,FRotator,float
+---@field NewVar_0 UCurveVector
+---@field Elapse float

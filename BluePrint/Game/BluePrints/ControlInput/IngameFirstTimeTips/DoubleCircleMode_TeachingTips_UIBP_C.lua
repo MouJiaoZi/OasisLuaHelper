@@ -1,0 +1,6 @@
+---@class DoubleCircleMode_TeachingTips_UIBP_C:UUAEUserWidget
+---@field Construct:fun()
+---@field ReceivedInitWidget:fun()
+---@field Button_close UButton
+---@field CanvasPanel_IPX UCanvasPanel
+---@field WidgetSwitcher_page UWidgetSwitcher

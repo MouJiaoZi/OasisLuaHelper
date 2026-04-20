@@ -1,0 +1,5 @@
+---@class IsInsideTimeAfterLanded_C:UTaskCondition_Base
+---@field IsConditionSatisfy:fun():bool
+---@field TimeThresholdInTable EUniversalTaskTableParamType
+---@field TimeThreshold int32
+---@field KillerPlayerKey FTriggerEventParamKeySelector

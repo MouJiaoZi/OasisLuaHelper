@@ -1,0 +1,52 @@
+---@class QuickLanguage_UIBP_C:UUAEUserWidget
+---@field UpdateGiveLikeCount:fun()
+---@field UpdateDataFlow:fun()
+---@field GetAnswerText:fun():FString
+---@field IsShowingGiveLikeUI:fun():bool
+---@field ShowAnswerUI:fun(SwitchIndex:int32,AnswerInfo:FAnswerInfo,AnswerDuringTime:float)
+---@field OnRestoreQuickSignUI:fun()
+---@field UpdateShowingState:fun(IsAnswer:bool)
+---@field SendMsgToServer:fun()
+---@field GetDataFromBattleText:fun(TextID:int32):FString
+---@field SetCauserIDInTeam:fun(CauserPlayerKey:FString):FString
+---@field SetData:fun(GiveLikeInstanceID:UNetAlienationData,GiveLikeType:int32)
+---@field RestoreQuickSignUI:fun()
+---@field HideQuickSignUI:fun()
+---@field ShowSelf:fun(SwitchIndex:int32,AudioText:int32,DuringTIme:int32,CauserPlayerKey:FString,CauserPlayerUID:FString,OperationID:int32)
+---@field Construct:fun()
+---@field Border_Like UBorder
+---@field Border_SOS UBorder
+---@field Border_Thanks UBorder
+---@field Border_ZanReply UBorder
+---@field Button_Like UButton
+---@field CanvasPanel_Like UCanvasPanel
+---@field CanvasPanel_SOS UCanvasPanel
+---@field CanvasPanel_Thanks UCanvasPanel
+---@field Image_PlayerBg UImage
+---@field SelfPanel UCanvasPanel
+---@field TextBlock_PlayerNum UTextBlock
+---@field TextBlock_SOS UTextBlock
+---@field WidgetSwitcher_Chat UWidgetSwitcher
+---@field InstanceID UNetAlienationData
+---@field QuickChatTypeID int32
+---@field DuringTime int32
+---@field CauserIDInTeam int32
+---@field SwitchIndex int32
+---@field GiveLikeDuringTime int32
+---@field GiveLikeTextID int32
+---@field GiveLikeType int32
+---@field CauserPlayerName FString
+---@field Message FString
+---@field GiveLikeText FString
+---@field QuickChatTimer FTimerHandle
+---@field IsClicked bool
+---@field AnswerDuringTime float
+---@field AnswerInfo FAnswerInfo
+---@field isClickedAnswerUI bool
+---@field AnswerTextID ULuaArrayHelper
+---@field CauserPlayerUID FString
+---@field OperationID int32
+---@field CauserPlayerKey FString
+---@field GiveLikePlayerUID FString
+---@field AnswerMsg FString
+---@field TeamID int32

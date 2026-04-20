@@ -1,0 +1,15 @@
+---@class BP_HardPointActor_C:AHardPointActor
+---@field IsShouldBindClientDelegate:fun():bool
+---@field IsLowDevice:fun():bool
+---@field HiddeArrowsEffectsCheck:fun()
+---@field UpdateParticles:fun(NewParam:UParticleSystem)
+---@field UpdateActive:fun()
+---@field OnActiveChanged:fun(NewParam:AHardPointActor,NewParam1:bool)
+---@field OnOwnedTeamIdChanged:fun(HardPointActor:AHardPointActor,TeamID:int32)
+---@field OnStateChanged:fun(HardPointActor:AHardPointActor,OccupyState:EHardPointOccupyState)
+---@field BindDelegates:fun()
+---@field UpdateState:fun()
+---@field UserConstructionScript:fun()
+---@field SceneCenter USceneComponent
+---@field ParticleSystem UParticleSystemComponent
+---@field Display UStaticMeshComponent

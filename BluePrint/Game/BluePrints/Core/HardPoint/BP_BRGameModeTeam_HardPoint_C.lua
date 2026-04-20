@@ -1,0 +1,4 @@
+---@class BP_BRGameModeTeam_HardPoint_C:ABRGameModeTeam_HardPoint
+---@field UserConstructionScript:fun()
+---@field BP_AttrModifyProbeComp_TeamDeathMatch BP_AttrModifyProbeComp_TeamDeathMatch_C
+---@field DefaultSceneRoot USceneComponent

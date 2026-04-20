@@ -1,0 +1,8 @@
+---@class ResultRangking_nicetips_C:UUAEUserWidget
+---@field RemoveSelf:fun()
+---@field SetContent:fun(NewParam:FString)
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field DX_Tips UWidgetAnimation
+---@field UTRichTextBlock_0 UUTRichTextBlock
+---@field Lifetime float
+---@field PassedTime float

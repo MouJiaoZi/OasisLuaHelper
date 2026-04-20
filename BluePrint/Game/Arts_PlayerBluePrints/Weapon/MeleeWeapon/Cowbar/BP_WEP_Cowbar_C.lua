@@ -1,0 +1,11 @@
+---@class BP_WEP_Cowbar_C:ASTExtraWeapon_Throw
+---@field UserConstructionScript:fun()
+---@field BP_WEP_Cowbar_AnimList BP_WEP_Cowbar_AnimList_C
+---@field WeaponTriggerEventHandleSkill UWeaponTriggerEventHandleSkill
+---@field BP_ThrowComponent_Melee BP_ThrowComponent_Melee_C
+---@field CrossHair UCrossHairComponent
+---@field WeaponSpecificHandler UWeaponSpecificHandler
+---@field WeaponStateDefault UWeaponStateDefault
+---@field WeaponStateManager UWeaponStateManager
+---@field WeaponAnimList_Melee WeaponAnimList_Melee_C
+---@field WeaponEntity UWeaponEntity

@@ -1,0 +1,8 @@
+---@class PickUpItemTips_BP_C:UUAEUserWidget
+---@field Image_ItemIcon UImage
+---@field ItemName1 UMultiLineEditableText
+---@field PickProcess UHorizontalBox
+---@field TextBlock_describe UTextBlock
+---@field TextBlock_ItemDescrip UUTRichTextBlock
+---@field TextBlock_Volume UTextBlock
+---@field VolumeBox UHorizontalBox

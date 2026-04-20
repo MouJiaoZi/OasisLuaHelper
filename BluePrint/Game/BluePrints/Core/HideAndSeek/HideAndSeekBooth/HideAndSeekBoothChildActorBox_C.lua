@@ -1,0 +1,15 @@
+---@class HideAndSeekBoothChildActorBox_C:AActor
+---@field PlayRandomAnimation:fun()
+---@field OnAnimationUpdate:fun()
+---@field SetKilledHiderName:fun(Name:FName)
+---@field UserConstructionScript:fun()
+---@field ReceiveEndPlay:fun(EndPlayReason:EEndPlayReason)
+---@field Chicken USkeletalMeshComponent
+---@field Box UStaticMeshComponent
+---@field DefaultSceneRoot USceneComponent
+---@field AnimList ULuaArrayHelper
+---@field AnimTimerInterval float
+---@field AnimationTimer FTimerHandle
+---@field AnimationIndex int32
+---@field LastAnimPlayTime float
+---@field HiderName FName

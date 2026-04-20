@@ -1,0 +1,9 @@
+---@class ResultRangkingteamadditem_UIBP_C:UUAEUserWidget
+---@field Construct:fun()
+---@field Common_Avatar_BP_1 Common_Avatar_BP_C
+---@field Image_Gender3 UImage
+---@field ImageAdd3 UImage
+---@field PlayerName3 UTextBlock
+---@field selfName FString
+---@field infoIndex int32
+---@field ShowAddFriendBtn int32

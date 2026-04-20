@@ -1,0 +1,1 @@
+---@class BP_MachineGun_JS9_BattleItemHandle_DFCK_Lobby_C:UBackpackWeaponHandle

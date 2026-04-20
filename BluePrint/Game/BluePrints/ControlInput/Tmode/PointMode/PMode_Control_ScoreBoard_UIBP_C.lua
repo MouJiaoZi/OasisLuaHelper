@@ -1,0 +1,154 @@
+---@class PMode_Control_ScoreBoard_UIBP_C:UUAEUserWidget
+---@field DeathMatch_ResetonReplayGotoTime:fun():bool
+---@field DeathMatch_ReInitReplay:fun():bool
+---@field DeathMatch_GlobalNotify:fun(InReson:EDeathMatchGlobalNotifyReason,KillerData:FDeathMatchPlayerStateData):bool
+---@field DeathMatch_UpdateReadyTime:fun(InTime:int32):bool
+---@field DeathMatch_OnCreate:fun(IsFirstGame:bool):bool
+---@field DeathMatch_InitWidget:fun():bool
+---@field DeathMatch_FirstReadyTime:fun():bool
+---@field DeathMatch_GetButton:fun():UButton
+---@field DeathMatch_UpdateBattleTime:fun():bool
+---@field DeathMatch_InitScoreBoard:fun(OwnerTeamID:int32,TextureRed:FSlateBrush,TextureBlue:FSlateBrush,ColorRed:FSlateColor,ColorBlue:FSlateColor):bool
+---@field DeathMatch_UpdateScoreBoard:fun(OwnerTeamID:int32):bool
+---@field CurRepInReplay:fun():bool
+---@field PlayNextWidgetAnim:fun()
+---@field PlayWidgetEnd:fun()
+---@field AddWidgetAnim:fun(NewParam:UWidgetAnimation)
+---@field PlayHardPointStateSound:fun(CurrentState:EHardPointOccupyState,CurrentHardPoint:AHardPointActor)
+---@field GetHardPointGameState:fun():ABRGameStateTeam_HardPoint
+---@field ActiveHardPoint:fun(HardPoint:AHardPointActor)
+---@field UpdateNearWinTimeTips:fun()
+---@field PlayOrStopAnim:fun(IsPlayer:bool,AnimObjRef:UWidgetAnimation,InWidget:UWidget)
+---@field RefreshWidgetSwitcherPointNumber:fun(Index:int32)
+---@field AddRickTips:fun(TextStr:FText)
+---@field RefreshCurrentPointState:fun(TeamID:int32)
+---@field ResetPointState:fun()
+---@field CollectPointList:fun()
+---@field CleanTips:fun()
+---@field ShowNextRichTips:fun(IsForceShow:bool)
+---@field PostAkSoundEnd:fun()
+---@field AddAkSound:fun(InAK:UAkAudioEvent)
+---@field PostNextAkSound:fun()
+---@field RefreshHardPointUIState:fun(PointActorInfo:AHardPointActor,IsInit:bool)
+---@field RefeashAllHardPointUIState:fun(InPoint:AHardPointActor,IsInit:bool)
+---@field UpdateScoreBoard:fun(OwnerTeamID:int32)
+---@field OnHardPointTeamScoreDatasChange:fun(InPoint:AHardPointActor)
+---@field OnHardPointRemainActivateTimeChange:fun(HardPoint:AHardPointActor,InTime:int32)
+---@field UpdateBattleTime:fun()
+---@field UpdatePointTime:fun(InTime:int32)
+---@field UpdateReadyTime:fun(InTime:int32)
+---@field UpdateTimes:fun()
+---@field OnGuide:fun(Index:int32):bool
+---@field UIMsg_ShowWeaponRefreshTips:fun()
+---@field DelayHideTips:fun()
+---@field UpdateWaitTime:fun()
+---@field OnHardPointActivateStateChange:fun(HardPoint:AHardPointActor,IsActivate:bool)
+---@field OnOccupyStateChange:fun(HardPointActor:AHardPointActor,OccupyState:EHardPointOccupyState)
+---@field OnCurrentOwnedTeamIDChange:fun(HardPointActor:AHardPointActor,CurrentTeamID:int32)
+---@field WaitActivateHardPointStateChange:fun(NewParam:bool)
+---@field RemainHardPointNumChange:fun(NewParam:int32)
+---@field CurrentActivatedHardPointChange:fun(HardPoint:AHardPointActor)
+---@field DeathMatch_OnReplayGameStateReady:fun()
+---@field DeathMatch_PlayerDeath:fun()
+---@field DeathMatch_PlayerResume:fun()
+---@field DX_LowRefresh UWidgetAnimation
+---@field DX_Draw UWidgetAnimation
+---@field DX_Victory_R UWidgetAnimation
+---@field DX_Victory_L UWidgetAnimation
+---@field DX_FinalTime UWidgetAnimation
+---@field DX_Win_R_01 UWidgetAnimation
+---@field DX_Win_R_02 UWidgetAnimation
+---@field DX_Win_L_02 UWidgetAnimation
+---@field DX_Win_L_01 UWidgetAnimation
+---@field DX_Refresh UWidgetAnimation
+---@field DX_BaseRefresh UWidgetAnimation
+---@field Border_0 UBorder
+---@field Border_1 UBorder
+---@field Border_OccupationTips UBorder
+---@field CanvasPanel_DefaultEff UCanvasPanel
+---@field CanvasPanel_FxFrame UCanvasPanel
+---@field CanvasPanel_HardPointState UCanvasPanel
+---@field CanvasPanel_OP_NewbieGuide01 UCanvasPanel
+---@field CanvasPanel_OP_NewbieGuide02 UCanvasPanel
+---@field CanvasPanel_OP_NewbieGuide04 UCanvasPanel
+---@field CanvasPanel_Refresh UCanvasPanel
+---@field CanvasPanel_Root UCanvasPanel
+---@field CanvasPanel_ScorePoint UCanvasPanel
+---@field CanvasPanel_Victory UCanvasPanel
+---@field CanvasPanel_Victory_Blue UCanvasPanel
+---@field CanvasPanel_Victory_Red UCanvasPanel
+---@field CanvasPanel_VictoryLight UCanvasPanel
+---@field FX_Frame_L UImage
+---@field FX_Frame_R UImage
+---@field FX_Light_L UImage
+---@field FX_Light_R UImage
+---@field Image_FirstGame_Left UImage
+---@field Image_FirstGame_Right UImage
+---@field Image_OccupationTips_Bg UImage
+---@field Image_ScorePoint_Blue UImage
+---@field Image_ScorePoint_Red UImage
+---@field Image_SecondGame_Left UImage
+---@field Image_SecondGame_Right UImage
+---@field NewButton_OP_ScoreBoard UNewButton
+---@field PMode_Sign_Scene_UIBP PMode_Sign_Scene_UIBP_C
+---@field TextBlock_LeftSide UTextBlock
+---@field TextBlock_LeftTeamScore UTextBlock
+---@field TextBlock_OccupationTips_Result UTextBlock
+---@field TextBlock_OP_SurplusTime UTextBlock
+---@field TextBlock_PointNumber UTextBlock
+---@field TextBlock_RightSide UTextBlock
+---@field TextBlock_RightTeamScore UTextBlock
+---@field UTRichTextBlock_OP_Note UUTRichTextBlock
+---@field WidgetSwitcher_PointNumber_Bg UWidgetSwitcher
+---@field CurrentHardPoint AHardPointActor
+---@field OwnerTeamID int32
+---@field BlueColor FLinearColor
+---@field DogColor FLinearColor
+---@field RedColor FLinearColor
+---@field RefreshWeaponStr FText
+---@field RefreshPointTimeFirst FText
+---@field RefreshPoint FText
+---@field RefreshPointTime FText
+---@field IsFirstInitWidget bool
+---@field CurrentState int32
+---@field IsPostAkSountPointWillActive bool
+---@field PostAkSoundPointWillActiveTime float
+---@field IsAttachPoint bool
+---@field AkSoundList ULuaArrayHelper
+---@field IsPlaySound bool
+---@field IsPlayerNearAttachPoint bool
+---@field IsShowTips bool
+---@field AkSounHandleTime FTimerHandle
+---@field RedAttachPoint FText
+---@field BlueAttachPoint FText
+---@field DogfallStr FText
+---@field DelayShowAttachPointText FText
+---@field IsShowEndTips bool
+---@field CintinueAttachNext FText
+---@field RichTextList ULuaArrayHelper
+---@field MyTeamPointList ULuaArrayHelper
+---@field OtherTeamPointList ULuaArrayHelper
+---@field MyTeamPointIndex int32
+---@field OtherTeamPointIndex int32
+---@field MyTeamPoint UImage
+---@field OtherTeamPoint UImage
+---@field MyTeamWinAnimList ULuaArrayHelper
+---@field OtherTeamWinAnimList ULuaArrayHelper
+---@field MyTeamNearWinImage UImage
+---@field OtherTeamNearWinImage UImage
+---@field MyTeamAttachPointAnim UWidgetAnimation
+---@field OtherTeamAttachPointAnim UWidgetAnimation
+---@field FxMyTeamScoreAdd UImage
+---@field FxOtherTeamScoreAdd UImage
+---@field NearWinStrTime FText
+---@field NearWinStrScore FText
+---@field CurrentPointTime int32
+---@field CurrentTotalScore int32
+---@field IsHardPointFirstAttach bool
+---@field CacheHPGameState ABRGameStateTeam_HardPoint
+---@field FirstEnterPoint FText
+---@field HalfTimeText FText
+---@field WidgetAnimList ULuaArrayHelper
+---@field IsPlayAnim bool
+---@field CurSoundID int32
+---@field HardPointInstance int32

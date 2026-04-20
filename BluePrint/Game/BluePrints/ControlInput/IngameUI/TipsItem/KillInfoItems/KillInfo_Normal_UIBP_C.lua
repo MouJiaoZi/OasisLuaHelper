@@ -1,0 +1,87 @@
+---@class KillInfo_Normal_UIBP_C:UKillInfo_Base_UIBP_C
+---@field GetCDO:fun(Class:UClass):USTExtraDamageType
+---@field SetPlayerText2Name:fun(VictimName:FString,RelationShip:EFatalDamageRelationShip)
+---@field SetMedalStatus:fun(imageDownloader:UObject,CauserMedalUrl:FString,VictimMedalUrl:FString)
+---@field SetupItemPool:fun(ItemPool:UUIDuplicatedItemPool)
+---@field ShowTeamLogoForOB:fun(PlayerName:FString,BCauser:bool):bool
+---@field RefreshBG:fun(Obj:UObject)
+---@field RefreshFX:fun(Obj:UClass)
+---@field ResetFXAndBG:fun()
+---@field ChangeFXandBG:fun(ItemID:int32)
+---@field DumpAllChild:fun(input:FClientFatalDamageRecordData)
+---@field FirstlyCollapseIcons:fun()
+---@field SetKilledName:fun(InText:FString,DamageType:int32,RelationShip:EFatalDamageRelationShip):bool
+---@field SetKillerName:fun(InText:FText,damageType:int32):bool
+---@field RefreshTipBGIcon:fun(LoadedBGIconObj:UObject)
+---@field ClearAnchorIconAndPrefixByResIDCauser:fun(InInt:int32)
+---@field GetCauserBelongGroupImage:fun(imageURL:FString,downloader:UObject)
+---@field RefreshAnchorIconVictim:fun(NewParam:UObject)
+---@field GetAnchorIconAndPrefixByResIDVictime:fun(InInt:int32,NewParam:MainControlBaseUI_C):FString
+---@field RefreshAnchorIconCauser:fun(NewParam:UObject)
+---@field GetAnchorIconAndPrefixByResIDCauser:fun(InInt:int32,NewParam:MainControlBaseUI_C):FString
+---@field GetAnchorPlatformColor:fun(NewParam:int32):FColor
+---@field RefreshWeaponIcon:fun(NewParam:UObject)
+---@field GetIsDeadIcon:fun(IsHeadShot:bool,HealthStatus:int32,damageType:int32)
+---@field GetIconByItemID:fun(InInt:int32,DamageWeaponSkin:int32):bool
+---@field GetWeapIcon:fun(damageType:int32,AdditionalParam:int32,DamageWeaponSkin:int32,PreviousHealthStatus:int32,NewParam:USTExtraDamageType):UTexture2D
+---@field FileItem:fun(NewParam:FClientFatalDamageRecordData,imageDownloader:UObject,BaseUI:MainControlBaseUI_C)
+---@field ShowKillInfoStatus:fun(NewParam:FClientFatalDamageRecordData,ImageDownloader:UObject,BaseUI:MainControlBaseUI_C)
+---@field BGSelector UWidgetSwitcher
+---@field Border_ColorSet UBorder
+---@field Border_SetColor UBorder
+---@field Border_SetColor1 UBorder
+---@field Border_SetColor2 UBorder
+---@field CanvasPanel_ClubMedal_1 UCanvasPanel
+---@field CanvasPanel_ClubMedal_2 UCanvasPanel
+---@field CanvasPanel_NationalityIcon_01 UCanvasPanel
+---@field CanvasPanel_NationalityIcon_02 UCanvasPanel
+---@field CanvasPanel_PlatformGroup1 UCanvasPanel
+---@field CanvasPanel_PlatformGroup2 UCanvasPanel
+---@field CanvasPanel_TeamLogo UCanvasPanel
+---@field CanvasPanel_TeamLogo02 UCanvasPanel
+---@field CustomBG UImage
+---@field FXAddCanvas UCanvasPanel
+---@field GridPanel_main UGridPanel
+---@field HorizontalBox_0 UHorizontalBox
+---@field Image_ClubMedal_1 UImage
+---@field Image_ClubMedal_2 UImage
+---@field Image_eliminateBG UImage
+---@field Image_KillBG UImage
+---@field Image_KillType UImage
+---@field Image_NationalityIcon_01 UImage
+---@field Image_NationalityIcon_02 UImage
+---@field Image_platformIcon1 UImage
+---@field Image_platformIcon2 UImage
+---@field Image_TeamLogo UImage
+---@field Image_TeamLogo02 UImage
+---@field Image_WeaponIcon UImage
+---@field KillInfoBG UImage
+---@field MaxKillerIcon UImage
+---@field SizeBox_killtype USizeBox
+---@field TextBlock_EndTips UTextBlock
+---@field TextBlock_PlayerName01 UTextBlock
+---@field TextBlock_PlayerName02 UTextBlock
+---@field WidgetSwitcher_Size UWidgetSwitcher
+---@field IsMode2 bool
+---@field DamageTypeMapIcon ULuaMapHelper
+---@field DebugIsUniqueIndex int32
+---@field DefaultKillBG FSlateBrush
+---@field WeaponSkinEquiped bool
+---@field WeaponSkinFadeInAnimMap ULuaMapHelper
+---@field TipItemFadeInAnim UWidgetAnimation
+---@field WeaponSkinAnimMapInitDone bool
+---@field ZombieDamageIconMap ULuaMapHelper
+---@field IsWeaponSkinAnimConfig bool
+---@field KillfeedHSDBNO FSoftObjectPath
+---@field KillfeedDBNO FSoftObjectPath
+---@field KillfeedHS FSoftObjectPath
+---@field KillfeedDeath FSoftObjectPath
+---@field KillfeedPunch FSoftObjectPath
+---@field CurWidgetPosition int32
+---@field CachedItemIcons ULuaMapHelper
+---@field KillItemPool UUIDuplicatedItemPool
+---@field TX_HSDBNO UTexture2D
+---@field DBNO UTexture2D
+---@field HS UTexture2D
+---@field CurMaxKillerStatus EFatalDamageMaxKillStatus
+---@field KillfeedDeath_en FSoftObjectPath

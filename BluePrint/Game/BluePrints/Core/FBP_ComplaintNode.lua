@@ -1,0 +1,3 @@
+---@class FBP_ComplaintNode
+---@field ParentID int32
+---@field ChildrenID ULuaSetHelper

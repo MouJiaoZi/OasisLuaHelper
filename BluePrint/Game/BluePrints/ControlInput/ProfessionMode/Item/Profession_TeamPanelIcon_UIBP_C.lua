@@ -1,0 +1,14 @@
+---@class Profession_TeamPanelIcon_UIBP_C:ULuaUserWidgetExtIngame
+---@field ReceivedInitWidget:fun()
+---@field Animation_UpLevel UWidgetAnimation
+---@field Animation_UpLevel_old UWidgetAnimation
+---@field Animation_FullLevel UWidgetAnimation
+---@field Animation_FXTips UWidgetAnimation
+---@field CanvasPanel_HeroTips UCanvasPanel
+---@field Full_levelTips UCanvasPanel
+---@field Image_0 UImage
+---@field Image_FXTips UImage
+---@field Image_Level UImage
+---@field Image_PlayerColorBG UImage
+---@field Image_PlayerProfession UImage
+---@field WidgetSwitcher_Level UWidgetSwitcher

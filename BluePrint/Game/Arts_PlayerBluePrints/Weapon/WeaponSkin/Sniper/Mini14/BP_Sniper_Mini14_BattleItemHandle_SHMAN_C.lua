@@ -1,0 +1,1 @@
+---@class BP_Sniper_Mini14_BattleItemHandle_SHMAN_C:BP_Sniper_Mini14_BattleItemHandle_C

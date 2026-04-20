@@ -1,0 +1,21 @@
+---@class BP_UGC_WEP_BoxingGloves_C:AUGCSTExtraWeapon_Throw
+---@field GetSkillIndexForMeleeWeapon:fun():int32
+---@field GetSkillEntryForMeleeWeapon:fun(IsPressed:bool):EUTSkillEntry
+---@field PutOffGlove:fun(Char:ASTExtraBaseCharacter)
+---@field PutOnGlove:fun()
+---@field CameraMoveBack:fun()
+---@field CameraMoveAway:fun()
+---@field UserConstructionScript:fun()
+---@field ReceiveEndPlay:fun(EndPlayReason:EEndPlayReason)
+---@field WeaponTriggerEventHandleSkill UWeaponTriggerEventHandleSkill
+---@field CrossHair UCrossHairComponent
+---@field WeaponEffectComp UWeaponEffectComponent
+---@field WeaponSpecificHandler UWeaponSpecificHandler
+---@field WeaponStateDefault UWeaponStateDefault
+---@field WeaponStateManager UWeaponStateManager
+---@field WeaponAnimList_Melee WeaponAnimList_Melee_C
+---@field WeaponEntity UWeaponEntity
+---@field MoveCameraDataName FName
+---@field MoveCameraLength float
+---@field GloveAvatarID int32
+---@field bHasRemovedGlove bool

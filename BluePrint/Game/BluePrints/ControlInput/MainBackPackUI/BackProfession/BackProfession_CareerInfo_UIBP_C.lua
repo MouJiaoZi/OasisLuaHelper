@@ -1,0 +1,28 @@
+---@class BackProfession_CareerInfo_UIBP_C:ULuaUserWidgetExtIngame
+---@field ResetOpenStatusInf:fun():bool
+---@field RefreshOccupationSkillUI:fun(SkillHandleList:ULuaArrayHelper)
+---@field Initialize:fun()
+---@field SelectCareer:fun(index:int32)
+---@field BackProfession_HeroName_UIBP BackProfession_HeroName_UIBP_C
+---@field BackProfession_HeroName_UIBP_0 BackProfession_HeroName_UIBP_C
+---@field BackProfession_HeroName_UIBP_1 BackProfession_HeroName_UIBP_C
+---@field BackProfession_HeroName_UIBP_2 BackProfession_HeroName_UIBP_C
+---@field BackProfession_HeroName_UIBP_3 BackProfession_HeroName_UIBP_C
+---@field BackProfession_ListItem_UIBP BackProfession_ListItem_UIBP_C
+---@field BackProfession_ListItem_UIBP_0 BackProfession_ListItem_UIBP_C
+---@field BackProfession_ListItem_UIBP_1 BackProfession_ListItem_UIBP_C
+---@field BackProfession_ListItem_UIBP_2 BackProfession_ListItem_UIBP_C
+---@field CanvasPanel_1 UCanvasPanel
+---@field Image_BG UImage
+---@field Image_ColorBG_Career UImage
+---@field NewButton_packup UNewButton
+---@field NewButton_return UNewButton
+---@field Text_PrtofessionName UTextBlock
+---@field VerticalBox_Careerlist UVerticalBox
+---@field ItemList ULuaArrayHelper
+---@field CareerNameList ULuaArrayHelper
+---@field SkillIDList ULuaArrayHelper
+---@field CareerIconList ULuaArrayHelper
+---@field CareerBGList ULuaArrayHelper
+---@field CareerSubBGList ULuaArrayHelper
+---@field LastIndex int32

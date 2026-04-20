@@ -1,0 +1,3 @@
+---@class CorpsInterface_C:UInterface
+---@field GetCorpsIndex:fun():int32
+---@field UpdateCorps:fun(battleResult:bp_battleresult_C):bool

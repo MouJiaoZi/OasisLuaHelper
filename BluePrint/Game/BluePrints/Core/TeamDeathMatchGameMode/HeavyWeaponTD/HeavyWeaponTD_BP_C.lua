@@ -1,0 +1,1 @@
+---@class HeavyWeaponTD_BP_C:URespawnItemConfig

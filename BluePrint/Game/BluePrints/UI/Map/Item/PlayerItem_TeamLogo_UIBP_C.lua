@@ -1,0 +1,9 @@
+---@class PlayerItem_TeamLogo_UIBP_C:UPlayerItemInMap
+---@field SwitchNationalFlag:fun(bIsShow:bool)
+---@field OnDownloaderSuccess:fun(Texture:UTexture2D,Downloader:UImageDownloader)
+---@field InitByTeamInfo:fun(inTeamID:int32,inTeamInfo:FTeamLogoInfoInOB)
+---@field CanvasPanel_NationalFlag UCanvasPanel
+---@field Image_NationalFlag UImage
+---@field Image_TeamLogo UImage
+---@field PicUrl FString
+---@field bIsAddToPlayerItem bool

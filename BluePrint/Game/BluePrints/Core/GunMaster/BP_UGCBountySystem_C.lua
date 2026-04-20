@@ -1,0 +1,3 @@
+---@class BP_UGCBountySystem_C:UUGCBountySystemComponent
+---@field FetchItemBuyLimit:fun(InItemID:int32)
+---@field ItemIsValid bool

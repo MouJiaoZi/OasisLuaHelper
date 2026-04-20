@@ -1,0 +1,13 @@
+---@class BP_PlayerHurtBoltBullet_Big_C:ASTExtraShootWeaponBulletBase
+---@field GetLaunchGravityScale:fun(ShootWeapon:ASTExtraShootWeapon,ShootID:int32):float
+---@field GetMaxNoGravityRange:fun(ShootWeapon:ASTExtraShootWeapon,ShootID:int32):float
+---@field LaunchBP:fun(speed:float,InTrans:FTransform,InOwningWeapon:AActor,InInstigator:AActor):FTransform
+---@field UserConstructionScript:fun()
+---@field Sphere1 USphereComponent
+---@field P_CrossBrow_Trail_01 UParticleSystemComponent
+---@field Sphere USphereComponent
+---@field ST_Crossbow_Arrow UStaticMeshComponent
+---@field GravityCurve UCurveFloat
+---@field LaunchAccTime float
+---@field MaxNoGravityDisCurve UCurveFloat
+---@field MoveBaseShoot bool

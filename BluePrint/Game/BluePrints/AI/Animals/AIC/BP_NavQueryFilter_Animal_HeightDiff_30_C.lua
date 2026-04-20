@@ -1,0 +1,1 @@
+---@class BP_NavQueryFilter_Animal_HeightDiff_30_C:UNavigationQueryFilterEx

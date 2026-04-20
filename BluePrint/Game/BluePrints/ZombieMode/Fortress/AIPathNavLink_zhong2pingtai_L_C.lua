@@ -1,0 +1,1 @@
+---@class AIPathNavLink_zhong2pingtai_L_C:AAIPathNavLink

@@ -1,0 +1,3 @@
+---@class BTDecorator_Borderland_IsTargetPlayer_C:UBTDecorator_BlueprintBase
+---@field Target FBlackboardKeySelector
+---@field Tag FName

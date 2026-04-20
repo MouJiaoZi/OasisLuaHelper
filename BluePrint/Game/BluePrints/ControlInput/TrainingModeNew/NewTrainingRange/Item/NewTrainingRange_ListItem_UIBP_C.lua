@@ -1,0 +1,11 @@
+---@class NewTrainingRange_ListItem_UIBP_C:UUAEUserWidget
+---@field Common_Avatar_BP Common_Avatar_BP_C
+---@field Common_RankTitleInfo Common_RankTitleInfo_UIBP_C
+---@field Image_BG UImage
+---@field TextBlock_fraction UTextBlock
+---@field TextBlock_PlayerName UTextBlock
+---@field TextBlock_Ranking UTextBlock
+---@field WidgetSwitcher_PlayerGender UWidgetSwitcher
+---@field WidgetSwitcher_TopThree UWidgetSwitcher
+---@field OriginColor FLinearColor
+---@field HighLightColor FLinearColor

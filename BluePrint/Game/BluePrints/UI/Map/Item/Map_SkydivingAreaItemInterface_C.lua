@@ -1,0 +1,5 @@
+---@class Map_SkydivingAreaItemInterface_C:UInterface
+---@field GetTextBlock:fun():UTextBlock
+---@field GetRotateWidget:fun():UCanvasPanel
+---@field GetSkydivingAreaWidget:fun():UCanvasPanel
+---@field GetSelfWidget:fun():UWidget

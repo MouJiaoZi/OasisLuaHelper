@@ -1,0 +1,3 @@
+---@class NewTraining_LogText_UIBP_C:UUAEUserWidget
+---@field TextBlock_Num UTextBlock
+---@field TextBlock_Title UTextBlock

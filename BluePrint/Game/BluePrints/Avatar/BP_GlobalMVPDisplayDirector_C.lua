@@ -1,0 +1,6 @@
+---@class BP_GlobalMVPDisplayDirector_C:ABattleSceneAvatarDisplayDirector
+---@field UserConstructionScript:fun()
+---@field AvatarDisplay_sky1 UStaticMeshComponent
+---@field AvatarGlobalMVP BP_BattleSceneAvatarPoseComponent_C
+---@field Camera UCameraComponent
+---@field Scene USceneComponent

@@ -1,0 +1,1 @@
+---@class BP_Drowning_DamageType_C:USTExtraDamageType

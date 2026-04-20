@@ -1,0 +1,1 @@
+---@class BP_GameState_Faction_C:ASurviveGameState_C

@@ -1,0 +1,29 @@
+---@class BP_UGCMobileAccelerationCircle_C:BP_UGCMobileBaseActor_C
+---@field CheckDisableUploadAbsolutePointOnBulletImpact:fun(ShootWeapon:ASTExtraShootWeapon,HitComp:USceneComponent):bool
+---@field CheckIgnoreBulletOnImpact:fun(ShootWeapon:ASTExtraShootWeapon,Bullet:ASTExtraShootWeaponBulletBase,bStartPenetrating:bool):bool
+---@field CheckUploadRelativePointOnBulletImpact:fun(ShootWeapon:ASTExtraShootWeapon,HitComp:USceneComponent):bool
+---@field GetOverrideBulletHitComp:fun():UPrimitiveComponent
+---@field GetLuaModule:fun():FString
+---@field OnActorSelectStageChanged:fun(IsSelected:bool)
+---@field GetParticlePoolSize:fun():int32
+---@field InitParticlePool:fun()
+---@field ShowGuide:fun()
+---@field UserConstructionScript:fun()
+---@field Arrow UArrowComponent
+---@field Spline USplineComponent
+---@field BP_UGCOutlineAndClickBoxComponent BP_UGCOutlineAndClickBoxComponent_C
+---@field P_ParticleSystem UParticleSystemComponent
+---@field ChildActorComponent UChildActorComponent
+---@field AccelerationForce float
+---@field AccelerationTime float
+---@field EffectColor FLinearColor
+---@field EnableEvent FUGCMobileObjectEvent
+---@field DisableEvent FUGCMobileObjectEvent
+---@field LaunchEvent FUGCMobileObjectEvent
+---@field EnableAction FUGCMobileObjectAction
+---@field DisableAction FUGCMobileObjectAction
+---@field bEnable bool
+---@field GuidesPathPosList ULuaArrayHelper
+---@field PoolSize int32
+---@field ParticlePool ULuaArrayHelper
+---@field Distance int32

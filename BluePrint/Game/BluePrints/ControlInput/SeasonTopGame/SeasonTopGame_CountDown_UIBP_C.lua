@@ -1,0 +1,11 @@
+---@class SeasonTopGame_CountDown_UIBP_C:UUAEUserWidget
+---@field RefreshPeakCompetitionMatchType:fun()
+---@field ShowCounting:fun(IsShow:bool)
+---@field CountingStart:fun(RemainTime:float)
+---@field CheckCountingShow:fun()
+---@field ReceivedInitWidget:fun()
+---@field Destruct:fun()
+---@field CanvasPanel_1 UCanvasPanel
+---@field UTRichTextBlock_CountDown UUTRichTextBlock
+---@field WidgetSwitcher_GameType UWidgetSwitcher
+---@field CountFormatText FString

@@ -1,0 +1,26 @@
+---@class BP_CG30_BirdCage_C:AActivityBaseActor
+---@field HiddenSphereInGame:fun(bHidden:bool)
+---@field Report:fun(InController:AController)
+---@field FleeFinish:fun()
+---@field StateCheckAndJump:fun(CurrentStateNam:FName)
+---@field SmallCheck:fun(InActors:ULuaArrayHelper,OutActors:ULuaArrayHelper)
+---@field BigCheck:fun(InSideActors:ULuaArrayHelper)
+---@field UserConstructionScript:fun()
+---@field ReceiveAnyDamage:fun(Damage:float,DamageType:UDamageType,InstigatedBy:AController,DamageCauser:AActor)
+---@field SK_Birdcage USkeletalMeshComponent
+---@field SK_Junco USkeletalMeshComponent
+---@field OverlapCheckAreaSmall UOverlapCheckAreaComponent
+---@field Alert2Sphere USphereComponent
+---@field Alert1Sphere USphereComponent
+---@field OverlapCheckAreaBig UOverlapCheckAreaComponent
+---@field CG030_Birdcage01 UStaticMeshComponent
+---@field Capsule UCapsuleComponent
+---@field DefaultSceneRoot USceneComponent
+---@field WatchBack bool
+---@field SmallCount int32
+---@field TimerHandle FTimerHandle
+---@field BigFrontCount int32
+---@field BigBackCount int32
+---@field CurAkEventId int32
+---@field Character ASTExtraBaseCharacter
+---@field StopCheckDamage bool

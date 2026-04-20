@@ -1,0 +1,1 @@
+---@class DestinyCircleSniperRifle_Livik_1_C:ADestinyCircleSniperRifle_1_C

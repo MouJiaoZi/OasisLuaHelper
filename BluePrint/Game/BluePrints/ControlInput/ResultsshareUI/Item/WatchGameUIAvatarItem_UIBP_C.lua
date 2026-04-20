@@ -1,0 +1,10 @@
+---@class WatchGameUIAvatarItem_UIBP_C:UUAEUserWidget
+---@field HDRSwitch:fun(IsHDR:bool)
+---@field GetAvatarCapture:fun():AAvatarCapture
+---@field OnTouchEnded:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field OnTouchMoved:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field OnTouchStarted:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field Image_AvatarIcon UImage
+---@field IsPressed bool
+---@field LocationX float
+---@field ImgBrush FSlateBrush

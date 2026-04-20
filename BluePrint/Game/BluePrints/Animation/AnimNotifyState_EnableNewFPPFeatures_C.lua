@@ -1,0 +1,8 @@
+---@class AnimNotifyState_EnableNewFPPFeatures_C:UAnimNotifyState
+---@field ActiveNewFPPFeatures:fun(MeshComponent:UActorComponent)
+---@field Received_NotifyTick:fun(MeshComp:USkeletalMeshComponent,Animation:UAnimSequenceBase,FrameDeltaTime:float,InvokeAnimInstance:UAnimInstance):bool
+---@field Received_NotifyEnd:fun(MeshComp:USkeletalMeshComponent,Animation:UAnimSequenceBase,InvokeAnimInstance:UAnimInstance):bool
+---@field Received_NotifyBegin:fun(MeshComp:USkeletalMeshComponent,Animation:UAnimSequenceBase,TotalDuration:float,InvokeAnimInstance:UAnimInstance):bool
+---@field Begin_EnableFPPMeshAnimShowMode bool
+---@field Begin_EnableFPPMeshAnimShowMode_LimitTime float
+---@field FPPMeshAnimShowModeDefaultValue ULuaMapHelper

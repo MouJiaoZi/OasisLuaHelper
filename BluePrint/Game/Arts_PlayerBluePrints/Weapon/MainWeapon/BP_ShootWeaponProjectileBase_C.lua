@@ -1,0 +1,17 @@
+---@class BP_ShootWeaponProjectileBase_C:BP_ShootWeaponLogicBase_C
+---@field UserConstructionScript:fun()
+---@field BPPreHandleLocalNotifyServerShootProjectile:fun(ShootID:int32,LaunchPos:FVector,LaunchRot:FRotator)
+---@field NormalProjectile UNormalProjectileComponent
+---@field BulletHitInfoUpload UBulletHitInfoUploadComponent
+---@field CrossHair UCrossHairComponent
+---@field ShootWeaponEntity UShootWeaponEntity
+---@field WeaponStateDefault UWeaponStateDefault
+---@field NoBulletWeaponState UNoBulletWeaponState
+---@field FireWeaponState UFireWeaponState
+---@field ReloadWeaponState UReloadWeaponState
+---@field IdleWeaponState UIdleWeaponState
+---@field InactiveWeaponState UInactiveWeaponState
+---@field ShootWeaponStateManager UShootWeaponStateManager
+---@field ShootWeaponEffect UShootWeaponEffectComponent
+---@field BulletTrack UBulletTrackComponent
+---@field ProjectBulletDamageModifier float

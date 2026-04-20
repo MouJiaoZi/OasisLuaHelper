@@ -1,0 +1,4 @@
+---@class BP_GunSmith_Pickup_BOX_1_C:APickUpWrapperActor
+---@field UserConstructionScript:fun()
+---@field P_Drop_Light_Green UParticleSystemComponent
+---@field CG011_KLJ_RandomBox UStaticMeshComponent

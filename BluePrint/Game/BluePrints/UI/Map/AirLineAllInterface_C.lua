@@ -1,0 +1,2 @@
+---@class AirLineAllInterface_C:UInterface
+---@field AirLineAll_GetWigetAll:fun():UCanvasPanel

@@ -1,0 +1,1 @@
+---@class DestinyCirclePistol_Livik_2_C:ADestinyCirclePistol_2_C

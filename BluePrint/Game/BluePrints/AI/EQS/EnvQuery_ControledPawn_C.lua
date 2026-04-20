@@ -1,0 +1,2 @@
+---@class EnvQuery_ControledPawn_C:UEnvQueryContext_BlueprintBase
+---@field ProvideSingleActor:fun(QuerierObject:UObject,QuerierActor:AActor):AActor

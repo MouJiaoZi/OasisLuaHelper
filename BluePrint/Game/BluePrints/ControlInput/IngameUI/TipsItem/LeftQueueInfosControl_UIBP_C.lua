@@ -1,0 +1,11 @@
+---@class LeftQueueInfosControl_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field UIMsg_NotifyClientLeftQueueInfo:fun(NewParam:FClientFatalDamageRecordData)
+---@field GlobalObserverTipContainer UGridPanel
+---@field KillTipContainer UGridPanel
+---@field KillResArray ULuaMapHelper
+---@field PlatformPrefixMap ULuaMapHelper
+---@field AnchorIconTable UDataTable
+---@field MeleeRef FSoftObjectPath
+---@field KilledRef FSoftObjectPath
+---@field DeadBoxTable UDataTable

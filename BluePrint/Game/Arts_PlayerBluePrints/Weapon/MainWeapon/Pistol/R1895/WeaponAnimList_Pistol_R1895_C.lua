@@ -1,0 +1,1 @@
+---@class WeaponAnimList_Pistol_R1895_C:UUAECharacterAnimListComponent

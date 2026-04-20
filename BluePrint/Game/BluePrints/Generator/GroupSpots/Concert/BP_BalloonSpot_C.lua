@@ -1,0 +1,21 @@
+---@class BP_BalloonSpot_C:AUAEHouseActor
+---@field UserConstructionScript:fun()
+---@field BP_WerewolfBoxSpotComponent15 BP_WerewolfBoxSpotComponent_C
+---@field BP_WerewolfBoxSpotComponent14 BP_WerewolfBoxSpotComponent_C
+---@field BP_WerewolfBoxSpotComponent13 BP_WerewolfBoxSpotComponent_C
+---@field BP_WerewolfBoxSpotComponent12 BP_WerewolfBoxSpotComponent_C
+---@field BP_WerewolfBoxSpotComponent11 BP_WerewolfBoxSpotComponent_C
+---@field BP_WerewolfBoxSpotComponent10 BP_WerewolfBoxSpotComponent_C
+---@field BP_WerewolfBoxSpotComponent9 BP_WerewolfBoxSpotComponent_C
+---@field BP_WerewolfBoxSpotComponent1 BP_WerewolfBoxSpotComponent_C
+---@field BP_WerewolfBoxSpotComponent7 BP_WerewolfBoxSpotComponent_C
+---@field BP_WerewolfBoxSpotComponent6 BP_WerewolfBoxSpotComponent_C
+---@field BP_WerewolfBoxSpotComponent5 BP_WerewolfBoxSpotComponent_C
+---@field BP_WerewolfBoxSpotComponent4 BP_WerewolfBoxSpotComponent_C
+---@field BP_WerewolfBoxSpotComponent3 BP_WerewolfBoxSpotComponent_C
+---@field BP_WerewolfBoxSpotComponent2 BP_WerewolfBoxSpotComponent_C
+---@field BP_WerewolfBoxSpotComponent8 BP_WerewolfBoxSpotComponent_C
+---@field BP_WerewolfBoxSpotComponent BP_WerewolfBoxSpotComponent_C
+---@field BP_WerewolfBoxGroupSceneComponent BP_WerewolfBoxGroupSceneComponent_C
+---@field Arrow UArrowComponent
+---@field DefaultSceneRoot USceneComponent

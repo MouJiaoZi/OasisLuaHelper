@@ -1,0 +1,10 @@
+---@class bp_season_rank_v2_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_SeasonRankType int32
+---@field BP_SeasonRank_Select_Head_UID FString
+---@field BP_SeasonRankSelfRankNum int32
+---@field BP_SeasonRankID int32
+---@field BP_SeasonRankAllZoneMax int32
+---@field BP_SeasonRank_Select_Item_UID FString
+---@field BP_SeasonRank_CurWeek FString

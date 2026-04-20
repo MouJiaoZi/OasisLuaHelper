@@ -1,0 +1,4 @@
+---@class BP_BackpackCostComponent_C:UActorComponent
+---@field IsSatisfied:fun(Controller:AController):bool
+---@field Cost:fun(Controller:AController)
+---@field ItemCost ULuaArrayHelper

@@ -1,0 +1,15 @@
+---@class GM_Widget_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field CustomSocketPanel_Atlas UCustomSocketPanel
+---@field CustomSocketPanel_DetectUI UCustomSocketPanel
+---@field CustomSocketPanel_UIList UCustomSocketPanel
+---@field CustomSocketPanel_UIVisibility UCustomSocketPanel
+---@field NewButton_Atlas UNewButton
+---@field NewButton_DetectUI UNewButton
+---@field NewButton_Layout UNewButton
+---@field NewButton_UIList UNewButton
+---@field TextBlock_Atlas UTextBlock
+---@field TextBlock_CreateUI UTextBlock
+---@field TextBlock_DetectUI UTextBlock
+---@field TextBlock_Layout UTextBlock
+---@field WidgetSwitcher_UI UWidgetSwitcher

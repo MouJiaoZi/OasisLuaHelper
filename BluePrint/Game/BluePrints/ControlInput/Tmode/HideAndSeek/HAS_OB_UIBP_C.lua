@@ -1,0 +1,47 @@
+---@class HAS_OB_UIBP_C:UOBBaseLogic_C
+---@field GetLuaModule:fun():FString
+---@field ToggleFreeView:fun(IsFreeShow:bool)
+---@field RefreshItemCD:fun(OBItem:HAS_OB_Item_UIBP_C,WatchCom:UWatchingInBattleComponent,SkillClass:UClass,ItemID:int32,PlayerState:AHideAndSeek_PlayerState)
+---@field RefreshTickData:fun()
+---@field InitUI:fun()
+---@field SetCampUI:fun(CampType:int32)
+---@field RefreshShowData:fun()
+---@field OnWeaponChanged:fun()
+---@field OnViewTargetChanged:fun()
+---@field Construct:fun()
+---@field ReceivedInitWidget:fun()
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field Button_Down UButton
+---@field Button_Up UButton
+---@field CanvasPanel_Down UCanvasPanel
+---@field CanvasPanel_HideSkill UCanvasPanel
+---@field CanvasPanel_Up UCanvasPanel
+---@field CanvasPanel_UpDown UCanvasPanel
+---@field HAS_OB_Item_1 HAS_OB_Item_UIBP_C
+---@field HAS_OB_Item_2 HAS_OB_Item_UIBP_C
+---@field HAS_OB_Item_3 HAS_OB_Item_UIBP_C
+---@field HAS_OB_Item_4 HAS_OB_Item_UIBP_C
+---@field HAS_OB_Item_Seek HAS_OB_Item_UIBP_C
+---@field Horizontal_Box UHorizontalBox
+---@field HorizontalBox_13 UHorizontalBox
+---@field NewButton_ExitFree UNewButton
+---@field NewButton_ExitOB UNewButton
+---@field NewButton_Free UNewButton
+---@field NewButton_LastPlayer UNewButton
+---@field NewButton_NextPlayer UNewButton
+---@field TextBlock_OB_Friend UTextBlock
+---@field TextBlock_PlayerName_OB UTextBlock
+---@field TextBlock_Rank UTextBlock
+---@field TextBlock_Watching UTextBlock
+---@field WidgetSwitcher_FreeBtn UWidgetSwitcher
+---@field WidgetSwitcher_Gender_OB UWidgetSwitcher
+---@field OBText ULuaArrayHelper
+---@field LastCampType EHideAndSeekCampType
+---@field RfreshTickIntervalTime float
+---@field RfreshTickIntervalTime_Counter float
+---@field LastPlayer ASTExtraBaseCharacter
+---@field LastWeaponManager UWeaponManagerComponent
+---@field LastPlayerState ASTExtraPlayerState
+---@field IsInited bool
+---@field IsShowDataDone bool
+---@field FreeOBUIStyle UUserWidgetStyle

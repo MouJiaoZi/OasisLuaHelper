@@ -1,0 +1,10 @@
+---@class bp_corps_training_rank_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_CorpsTrainRank_TrainID int32
+---@field BP_ARRAY_CorpsTrainRankItemList ULuaArrayHelper
+---@field BP_CorpsTrainRank_IsReLoadList bool
+---@field BP_CorpsTrainRank_SelectUid FString
+---@field BP_ARRAY_CorpsTrainRankTabList ULuaArrayHelper
+---@field BP_CorpsTrainRank_TabIndex int32
+---@field BP_CorpsTrainRank_SelectIsFriend bool

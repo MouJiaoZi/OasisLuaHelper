@@ -1,0 +1,3 @@
+---@class BP_BattleRoyalTrainingGameMode_C:ABattleRoyalTrainingGameMode
+---@field UserConstructionScript:fun()
+---@field DefaultSceneRoot USceneComponent

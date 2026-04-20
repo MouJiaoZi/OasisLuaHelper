@@ -1,0 +1,12 @@
+---@class UI_LoadingScreen_C:UUAEUserWidget
+---@field StartProgressBar:fun()
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field ProgressBarAnim UWidgetAnimation
+---@field LoadingBullet1 UImage
+---@field LoadingBullet2 UImage
+---@field LoadingBullet3 UImage
+---@field ProgressBar_0 UProgressBar
+---@field LoadingTime float
+---@field BulletBounceInterval float
+---@field TickCycle float
+---@field LoadingElapsedTime float

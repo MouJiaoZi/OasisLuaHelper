@@ -1,0 +1,1 @@
+---@class BP_MachineGun_TommyGun_BattleItemHandle_FPDC_C:BP_MachineGun_TommyGun_BattleItemHandle_C

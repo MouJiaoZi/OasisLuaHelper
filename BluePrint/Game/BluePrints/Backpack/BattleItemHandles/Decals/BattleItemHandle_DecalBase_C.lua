@@ -1,0 +1,1 @@
+---@class BattleItemHandle_DecalBase_C:UBackpackDecalHandle

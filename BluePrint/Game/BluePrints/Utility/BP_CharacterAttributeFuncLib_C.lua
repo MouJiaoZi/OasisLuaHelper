@@ -1,0 +1,7 @@
+---@class BP_CharacterAttributeFuncLib_C:UBlueprintFunctionLibrary
+---@field 增加最大生命值 fun(Owner:ASTExtraBaseCharacter,AddVal:float,Reason:int32,__WorldContext:UObject):FString
+---@field 添加物品到背包里 fun(Character:ASTExtraBaseCharacter,ItemID:int32,Count:int32,ItemStore:EItemStoreArea,__WorldContext:UObject):bool
+---@field 解除TPP视角锁定 fun(Owner:ASTExtraBaseCharacter,LockReason:ELockTPPReason,__WorldContext:UObject)
+---@field 切换到TPP视角并锁定 fun(Owner:ASTExtraBaseCharacter,LockReason:ELockTPPReason,__WorldContext:UObject):bool
+---@field 增加救援时间 fun(Owner:ASTExtraBaseCharacter,增加的时间:float,__WorldContext:UObject):FString
+---@field 恢复生命值 fun(Owner:ASTExtraBaseCharacter,AddVal:float,Reason:int32,__WorldContext:UObject)

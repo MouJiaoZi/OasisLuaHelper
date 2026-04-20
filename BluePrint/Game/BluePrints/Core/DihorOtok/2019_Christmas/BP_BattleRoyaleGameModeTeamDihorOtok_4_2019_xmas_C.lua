@@ -1,0 +1,1 @@
+---@class BP_BattleRoyaleGameModeTeamDihorOtok_4_2019_xmas_C:ABP_BattleRoyaleGameModeTeamDihorOtok_4_C

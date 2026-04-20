@@ -1,0 +1,3 @@
+---@class Stronghold_MapsPoint_UIBP_C:UUserWidget
+---@field Image_CD UImage
+---@field WidgetSwitcher_Mode UWidgetSwitcher

@@ -1,0 +1,4 @@
+---@class BP_PlaySpecialAnims_C:APlaySpecialAnims
+---@field UserConstructionScript:fun()
+---@field StaticMesh1 UStaticMeshComponent
+---@field RootSceneComponent USceneComponent

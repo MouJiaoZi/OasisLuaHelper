@@ -1,0 +1,17 @@
+---@class MainBase_ShowTrack_UIBP_C:UUAEUserWidget
+---@field GetText:fun():FText
+---@field StartCoolDown:fun()
+---@field UpdateText:fun()
+---@field CoolDownCount:fun()
+---@field UpdateGlideConfigState:fun()
+---@field UIMSG_GlideConfigStateChanged:fun()
+---@field ReceivedInitWidget:fun()
+---@field NewButton_ShowTrack UNewButton
+---@field NewCheckBox_ShowTrack UNewCheckBox
+---@field ModeNames ULuaMapHelper
+---@field bIsCoolingDown bool
+---@field AccCoolDownTime int32
+---@field State2String ULuaMapHelper
+---@field TotalCoolDownTime int32
+---@field Clicked bool
+---@field State2Text ULuaMapHelper

@@ -1,0 +1,3 @@
+---@class BP_Solo_PlayerPawn_Zhuilie_C:BP_Solo_PlayerPawn_C
+---@field GetLuaModule:fun():FString
+---@field UserConstructionScript:fun()

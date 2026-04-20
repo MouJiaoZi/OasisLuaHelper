@@ -1,0 +1,4 @@
+---@class bp_reflux_new_back_list_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_ARRAY_Reflux_New_Back_Friend_List ULuaArrayHelper

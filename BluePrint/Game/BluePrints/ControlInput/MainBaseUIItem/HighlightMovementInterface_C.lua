@@ -1,0 +1,2 @@
+---@class HighlightMovementInterface_C:UInterface
+---@field ShowSpecatingGiveLike:fun(CuaserName:FString,ReultType:EExcellentOperationResultType)

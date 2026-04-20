@@ -1,0 +1,5 @@
+---@class OB_ReplayUI_ProgressBar_C:UUserWidget
+---@field CanvasPanel_2 UCanvasPanel
+---@field Image_Color UImage
+---@field Image_VideoList_VerticalBar_Select UImage
+---@field NewButton_VideoList_VerticalBar UNewButton

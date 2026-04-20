@@ -1,0 +1,6 @@
+---@class RoomCamp_PlayerGroup_UIBP_C:UUAEUserWidget
+---@field RoomCamp_Player01 RoomCamp_PlayerList_UIBP_C
+---@field RoomCamp_Player02 RoomCamp_PlayerList_UIBP_C
+---@field RoomCamp_Player03 RoomCamp_PlayerList_UIBP_C
+---@field RoomCamp_Player04 RoomCamp_PlayerList_UIBP_C
+---@field TextBlock_Num UTextBlock

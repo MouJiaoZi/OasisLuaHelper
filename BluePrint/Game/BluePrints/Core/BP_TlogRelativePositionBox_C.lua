@@ -1,0 +1,3 @@
+---@class BP_TlogRelativePositionBox_C:ATlogTriggerBox
+---@field UserConstructionScript:fun()
+---@field bUseRelativeLocation bool

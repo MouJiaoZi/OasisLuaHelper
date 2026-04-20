@@ -1,0 +1,2 @@
+---@class BP_BountySystem_GunMaster_Baltic_C:UBountySystemComponent
+---@field FetchItemBuyLimit:fun(InItemID:int32)

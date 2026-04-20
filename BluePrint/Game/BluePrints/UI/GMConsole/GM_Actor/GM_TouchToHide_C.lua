@@ -1,0 +1,37 @@
+---@class GM_TouchToHide_C:AActor
+---@field SetFocusActorMarterial:fun(bOri:bool)
+---@field ShowFog:fun()
+---@field HideFog:fun()
+---@field SetReceiveInput:fun(bReceive:bool)
+---@field SetPickUpHidden:fun(bHidden:bool)
+---@field RevertFocusActor:fun()
+---@field ShowDistantActor:fun()
+---@field HideDistantActor:fun(Distance:float)
+---@field SetCollision:fun(Component:UPrimitiveComponent,bEnable:bool)
+---@field SetMyLandscapeHidden:fun(bHidden:bool)
+---@field SetFoliageHidden:fun(bHidden:bool)
+---@field SetWaterHidden:fun(bHidden:bool)
+---@field SetSkySphereHidden:fun(bHidden:bool)
+---@field ClearFocusActor:fun()
+---@field SetFocusActorHidden:fun(bHidden:bool)
+---@field SetFocusActorAtIndex:fun(Index:int32)
+---@field RevertHideActor:fun(Index:int32)
+---@field RevertAllHideActor:fun()
+---@field TryHideActor:fun(Target:AActor,PrimitiveComponent:UPrimitiveComponent)
+---@field UserConstructionScript:fun()
+---@field ReceiveDestroyed:fun()
+---@field DefaultSceneRoot USceneComponent
+---@field bUseVisChannel bool
+---@field bDebugDraw bool
+---@field OriCollisionMap ULuaMapHelper
+---@field HideActorList ULuaArrayHelper
+---@field FocusIndex int32
+---@field FocusActor AActor
+---@field SkySphereClass ULuaArrayHelper
+---@field DistantActorList ULuaArrayHelper
+---@field FogOriVisMap ULuaMapHelper
+---@field FocusActorOriMatMap ULuaMapHelper
+---@field FocusMat UMaterialInterface
+---@field FocusActorOriMatMap_1 ULuaMapHelper
+---@field IngameUMG UUAEUserWidget
+---@field IngameUMGClass UClass

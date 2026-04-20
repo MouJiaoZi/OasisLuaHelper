@@ -1,0 +1,12 @@
+---@class BP_Pawn_Borderland_AI_GuarderSpot_C:ASTExtraHouseActor
+---@field UserConstructionScript:fun()
+---@field BP_ItemSpotComponent10 BP_ItemSpotComponent_C
+---@field BP_ItemSpotComponent11 BP_ItemSpotComponent_C
+---@field BP_ItemSpotComponent8 BP_ItemSpotComponent_C
+---@field BP_ItemSpotComponent4 BP_ItemSpotComponent_C
+---@field BP_ItemSpotComponent7 BP_ItemSpotComponent_C
+---@field BP_ItemSpotComponent3 BP_ItemSpotComponent_C
+---@field BP_ItemSpotComponent1 BP_ItemSpotComponent_C
+---@field BP_ItemSpotComponent BP_ItemSpotComponent_C
+---@field BP_ItemSpotGroupComponent BP_ItemSpotGroupComponent_C
+---@field DefaultSceneRoot USceneComponent

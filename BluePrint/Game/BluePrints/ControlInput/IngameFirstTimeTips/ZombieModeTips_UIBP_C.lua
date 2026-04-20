@@ -1,0 +1,2 @@
+---@class ZombieModeTips_UIBP_C:UNewbieGuideWidget
+---@field NewButton_closeUI UNewButton

@@ -1,0 +1,1 @@
+---@class Ingame_Jump_UIBP_C:UUserWidget

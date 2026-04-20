@@ -1,0 +1,25 @@
+---@class bp_master_disciple_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_ARRAY_RecommendMasterList ULuaArrayHelper
+---@field BP_MasterDisciple_ClickPlayerId FString
+---@field BP_MasterDisciple_ClickPlayerGender int32
+---@field BP_MasterDisciple_ApplyToDiscipleDefaultMsg FString
+---@field BP_MasterDisciple_ApplyToTeacherDefaultMsg FString
+---@field BP_MasterDisciple_Recommend_Disciple FString
+---@field BP_MasterDisciple_RecommendType int32
+---@field BP_MasterDisciple_SegmentPostFix FString
+---@field BP_MasterDisciple_FriendPlatform int32
+---@field BP_MasterDisciple_TitleText_RecommendMaster FString
+---@field BP_MasterDisciple_ShowSearch bool
+---@field BP_ARRAY_RecommendDiscipleList ULuaArrayHelper
+---@field BP_MasterDisciple_Recommend_Master FString
+---@field BP_ARRAY_MasterDiscipleSearchList ULuaArrayHelper
+---@field BP_MasterDisciple_Recommend_Search FString
+---@field BP_MasterDisciple_TitleText_RecommendDisciple FString
+---@field BP_MasterDisciple_SelfUID FString
+---@field BP_MasterDisciple_Empty_Search FString
+---@field BP_MasterDisciple_Empty_Master FString
+---@field BP_ARRAY_ServerRecommendList ULuaArrayHelper
+---@field BP_MasterDisciple_Empty_Disciple FString
+---@field BP_MasterDisciple_InputString FString

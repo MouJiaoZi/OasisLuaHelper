@@ -1,0 +1,3 @@
+---@class Zombie_Ride02_UIBP_C:UUserWidget
+---@field Construct:fun()
+---@field TextBlock_PlaneNumber01 UTextBlock

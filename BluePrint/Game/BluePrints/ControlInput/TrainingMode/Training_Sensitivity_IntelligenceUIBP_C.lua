@@ -1,0 +1,11 @@
+---@class Training_Sensitivity_IntelligenceUIBP_C:USettingPlusMinusSlider
+---@field ShowModifyState:fun()
+---@field InitAll:fun(name:FString,settingKey:FString,index:int32)
+---@field Image_Arrow UImage
+---@field NewButton_setting UNewButton
+---@field TextBlock_progress UTextBlock
+---@field TextBlock_statusTips UTextBlock
+---@field TextBlock_Title UTextBlock
+---@field isModified bool
+---@field Parent Training_SensitivityList_UIBP_C
+---@field ListIndex int32

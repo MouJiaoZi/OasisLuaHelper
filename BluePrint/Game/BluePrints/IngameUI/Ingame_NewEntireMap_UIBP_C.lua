@@ -1,0 +1,1 @@
+---@class Ingame_NewEntireMap_UIBP_C:UUserWidget

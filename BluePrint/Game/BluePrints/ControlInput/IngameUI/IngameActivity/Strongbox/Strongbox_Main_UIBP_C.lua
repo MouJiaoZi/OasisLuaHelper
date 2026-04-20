@@ -1,0 +1,31 @@
+---@class Strongbox_Main_UIBP_C:UUserWidget
+---@field OnPasswordWrong__DelegateSignature:fun()
+---@field OnPasswordRight__DelegateSignature:fun()
+---@field OnClickCloseButton__DelegateSignature:fun()
+---@field OnClickNumButton__DelegateSignature:fun()
+---@field CanvasPanel_list UCanvasPanel
+---@field CanvasPanel_look UCanvasPanel
+---@field NewButton_Close UNewButton
+---@field NewButton_look UNewButton
+---@field Password UHorizontalBox
+---@field ReuseList2 ReuseList2_C
+---@field Text_Tips UTextBlock
+---@field ItemCount int32
+---@field CloseItemNumber int32
+---@field PasswordLength int32
+---@field NowPWLength int32
+---@field InputTextArray ULuaArrayHelper
+---@field LastInputNumber int32
+---@field InputPW FString
+---@field RightPW FString
+---@field OwnerActor AActor
+---@field LengthTmpCache int32
+---@field InitOver bool
+---@field WrongColor FSlateColor
+---@field DefaultsColor FSlateColor
+---@field WrongTipsTime float
+---@field PasswordDefaultsColor FLinearColor
+---@field OnClickNumButton ULuaMulticastDelegate
+---@field OnClickCloseButton ULuaMulticastDelegate
+---@field OnPasswordRight ULuaMulticastDelegate
+---@field OnPasswordWrong ULuaMulticastDelegate

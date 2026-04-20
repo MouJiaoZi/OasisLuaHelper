@@ -1,0 +1,7 @@
+---@class MoveTargetChoose_UIBP_C:UUAEUserWidget
+---@field OnCustomMessage:fun(InMessage:FString)
+---@field OnSetActor:fun(InActor:AActor)
+---@field ButtonEasy UButton
+---@field ButtonHard UButton
+---@field ButtonMid UButton
+---@field BeginTrainingPlace BegintrainingPlace_C

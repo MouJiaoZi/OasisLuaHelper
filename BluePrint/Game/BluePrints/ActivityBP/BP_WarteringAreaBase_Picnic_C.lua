@@ -1,0 +1,3 @@
+---@class BP_WarteringAreaBase_Picnic_C:ABP_WarteringAreaBase_C
+---@field UserConstructionScript:fun()
+---@field Ak UAkComponent

@@ -1,0 +1,1 @@
+---@class Skill_VehicleSummon_C:PESkillTemplate_Base_C

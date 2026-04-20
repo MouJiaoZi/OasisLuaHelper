@@ -1,0 +1,9 @@
+---@class BountyMode_PlayList_UIBP_C:UUserWidget
+---@field Border_but UBorder
+---@field BountyMode_Clod_01 BountyMode_ClodItem_UIBP_C
+---@field BountyMode_Clod_02 BountyMode_ClodItem_UIBP_C
+---@field BountyMode_ShopPlayer_Num BountyMode_ShopPlayer_UIBP_C
+---@field Image_0 UImage
+---@field Image_9 UImage
+---@field Image_BuyBtn UImage
+---@field TextBlock_state UTextBlock

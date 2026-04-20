@@ -1,0 +1,27 @@
+---@class CG030_Kite_Main_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field IsKeepUIWhenRemove:fun():bool
+---@field ShowExtraUI:fun(bDriver:bool):bool
+---@field SetVehicleControlParent:fun(VehicleControl:UUAEUserWidget):bool
+---@field IsAsyncUIValid:fun():bool
+---@field UIMsg_PC_Kite_SwitchControlMode:fun()
+---@field UIMSG_VEHICLE_Kite_Return:fun()
+---@field UIMSG_VEHICLE_Kite_Glide:fun()
+---@field Border_173 UBorder
+---@field Border_174 UBorder
+---@field Border_Tips UBorder
+---@field CanvasPanel_FireStarter UCanvasPanel
+---@field CanvasPanel_Release UCanvasPanel
+---@field CanvasPanel_Tips UCanvasPanel
+---@field CustomizeCanvasPanel_V_173 CustomizeCanvasPanel_BP_C
+---@field CustomizeCanvasPanel_V_174 CustomizeCanvasPanel_BP_C
+---@field HorizontalBox_Tips UHorizontalBox
+---@field Image_QieHuan UImage
+---@field Image_Release UImage
+---@field Image_TipsIcon UImage
+---@field NewButton_FireStarter UNewButton
+---@field NewButton_Glide UNewButton
+---@field NewButton_Return UNewButton
+---@field TextBlock_Times UTextBlock
+---@field WidgetSwitcher_QieHuan UWidgetSwitcher
+---@field KiteUIStyle UUserWidgetStyle

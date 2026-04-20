@@ -1,0 +1,40 @@
+---@class NavigatorPanel_C:UNavigatorPannelUAEUserWidget
+---@field AddOnePlayer:fun(Index:int32)
+---@field ToggleZombieWave:fun(IsOn:bool)
+---@field HideAllMarks:fun()
+---@field TestPlayerController:fun(NewParam:bool):bool
+---@field Reconnect_ResetUIByPlayerControllerState:fun()
+---@field RemoveSameActorShow:fun(uiObject:BP_VoiceUIObject_C)
+---@field GetFinalX:fun(middlsX:float,playerX:float,scale:float):float
+---@field UpdateDirection:fun()
+---@field InitCompassWidget:fun()
+---@field SetOneData:fun(UIObject:BP_VoiceUIObject_C,SubObject:BP_VoiceDataSubObject_C)
+---@field InitPlayerMarkerArray:fun()
+---@field RepositionMapMark:fun(Index:int32)
+---@field BindTeamMapMarkDelegate:fun()
+---@field InitPlayerState:fun()
+---@field ReceivedInitWidget:fun()
+---@field Construct:fun()
+---@field CanvasPanel_2 UCanvasPanel
+---@field CompassImage UImage
+---@field TextBlock_1 UTextBlock
+---@field ZombieWaveMarker UCanvasPanel
+---@field PlayerMarkerShow ESlateVisibility
+---@field TeamMatePlayerStateList ULuaArrayHelper
+---@field LocalPlayerIndex int32
+---@field TeamPlayerWithoutLocalPlayer ULuaArrayHelper
+---@field bNeedUpdateTeamMateInfo bool
+---@field TeamPlayerMarkerArray ULuaArrayHelper
+---@field VoiceImageObjectList ULuaArrayHelper
+---@field VoiceCheck BP_VoiceCheck_C
+---@field angleToPiexl float
+---@field nowAngle0PosX float
+---@field playercontroller BP_STExtraPlayerController_C
+---@field HalfShowSize float
+---@field HalfFullSize float
+---@field imagesize float
+---@field VoiceShowList ULuaArrayHelper
+---@field TeamPlayerMarkDistArray ULuaArrayHelper
+---@field MarkItemPool UUIDuplicatedItemPool
+---@field PlayerIconBPArray ULuaArrayHelper
+---@field LocalX float

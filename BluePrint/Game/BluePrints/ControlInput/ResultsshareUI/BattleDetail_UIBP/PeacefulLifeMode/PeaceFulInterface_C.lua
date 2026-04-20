@@ -1,0 +1,3 @@
+---@class PeaceFulInterface_C:UInterface
+---@field InitPeaceFulTeam:fun(bp_battleresult:bp_battleresult_C):bool
+---@field InitPeaceFulSingle:fun(bp_battleresult:bp_battleresult_C):bool

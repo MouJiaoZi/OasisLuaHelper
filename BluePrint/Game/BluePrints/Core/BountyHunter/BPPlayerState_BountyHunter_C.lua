@@ -1,0 +1,9 @@
+---@class BPPlayerState_BountyHunter_C:ASTBountyHunterPlayerState
+---@field GetLuaModule:fun():FString
+---@field GetBountyGold:fun():int32
+---@field GetBountyGoldCount:fun():int32
+---@field UserConstructionScript:fun()
+---@field DefaultSceneRoot USceneComponent
+---@field BountyValue int32
+---@field BountyGold int32
+---@field BountyGoldTotal int32

@@ -1,0 +1,11 @@
+---@class ReplayComplete_Tab_C:UUAEUserWidget
+---@field GetTableItemByIndex:fun(PanelWidgetObj:UPanelWidget,ItemIndex:int32,ToShow:bool):ReplayComplete_TabGroupItem_C
+---@field UpdateTable_All:fun()
+---@field UpdateTable_NearBy:fun()
+---@field Button_ALL UButton
+---@field Button_Nearby UButton
+---@field CustomScrollBox_All UCustomScrollBox
+---@field CustomScrollBox_Nearby UCustomScrollBox
+---@field WidgetSwitcher_BtnState UWidgetSwitcher
+---@field CrtOBPlayer FObservedData
+---@field CompleteWidgetRef UReplayWidgetComplete

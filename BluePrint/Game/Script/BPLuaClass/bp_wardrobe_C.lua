@@ -1,0 +1,7 @@
+---@class bp_wardrobe_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_CurTabType int32
+---@field BP_Wardrobe_ResetAvatar_ShowRedPoint bool
+---@field BP_CurPageTabType int32
+---@field BP_Wardrobe_CurrentGunType int32

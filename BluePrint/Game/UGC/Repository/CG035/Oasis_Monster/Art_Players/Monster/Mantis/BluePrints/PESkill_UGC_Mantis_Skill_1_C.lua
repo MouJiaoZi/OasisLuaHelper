@@ -1,0 +1,1 @@
+---@class PESkill_UGC_Mantis_Skill_1_C:PESkillTemplate_Base_C

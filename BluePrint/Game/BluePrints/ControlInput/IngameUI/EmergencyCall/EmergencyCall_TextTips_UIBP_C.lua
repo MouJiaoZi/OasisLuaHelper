@@ -1,0 +1,4 @@
+---@class EmergencyCall_TextTips_UIBP_C:UUAEUserWidget
+---@field Construct:fun()
+---@field DX_TopTips UWidgetAnimation
+---@field CanvasEmergencyCall_Tips UCanvasPanel

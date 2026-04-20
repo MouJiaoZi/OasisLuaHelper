@@ -1,0 +1,8 @@
+---@class AsianOB_Tips2_UIBP_C:UUAEUserWidget
+---@field TextBlock_Content UTextBlock
+---@field TextBlock_Countdown UTextBlock
+---@field TextBlock_Desc UTextBlock
+---@field TextBlock_Name01 UTextBlock
+---@field TextBlock_Name02 UTextBlock
+---@field TextBlock_Nume UTextBlock
+---@field WidgetSwitcher_Tips UWidgetSwitcher

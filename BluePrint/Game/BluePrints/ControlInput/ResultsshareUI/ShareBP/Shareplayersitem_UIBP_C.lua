@@ -1,0 +1,4 @@
+---@class Shareplayersitem_UIBP_C:UUserWidget
+---@field Show:fun(playerName:FString,playerIcon:FString)
+---@field TextBlock_FriendName UTextBlock
+---@field iconUrl FString

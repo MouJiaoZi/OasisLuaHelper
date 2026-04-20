@@ -1,0 +1,1 @@
+---@class HS_Book01_C:AHiderSceneActorBase_C

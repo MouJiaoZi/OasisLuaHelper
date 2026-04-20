@@ -1,0 +1,11 @@
+---@class ResultsRankingnameplatetips_UIBP_C:UUAEUserWidget
+---@field SelectDefaultToShare:fun(ToShareTitleID:int32)
+---@field SeleteTitleToShare:fun(titleID:int32)
+---@field SetMyTitleList:fun(titleList:ULuaArrayHelper)
+---@field On_ImageClose_MouseButtonDown_0:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field Construct:fun()
+---@field Button_ShareTitle UButton
+---@field HorizontalBoxTitle UHorizontalBox
+---@field TextBlockTitleNum UTextBlock
+---@field MyTitleList ULuaArrayHelper
+---@field ToShareTitleID int32

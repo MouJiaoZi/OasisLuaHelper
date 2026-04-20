@@ -1,0 +1,4 @@
+---@class AttachActor_008_CraneB_BP_C:AActor
+---@field UserConstructionScript:fun()
+---@field SkeletalMesh USkeletalMeshComponent
+---@field DefaultSceneRoot USceneComponent

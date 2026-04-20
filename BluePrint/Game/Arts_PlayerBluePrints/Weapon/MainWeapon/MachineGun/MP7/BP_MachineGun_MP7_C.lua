@@ -1,0 +1,5 @@
+---@class BP_MachineGun_MP7_C:BP_ShootWeaponBase_C
+---@field UserConstructionScript:fun()
+---@field BP_WeaponState_PreIdle BP_WeaponState_PreIdle_C
+---@field WeaponAnimList_MachineGun_MP7 WeaponAnimList_MachineGun_MP7_C
+---@field bUseIdleAnim_0_0 bool

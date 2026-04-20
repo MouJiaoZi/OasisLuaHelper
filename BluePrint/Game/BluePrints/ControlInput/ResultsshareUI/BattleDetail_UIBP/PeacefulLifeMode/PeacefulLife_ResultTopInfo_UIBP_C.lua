@@ -1,0 +1,21 @@
+---@class PeacefulLife_ResultTopInfo_UIBP_C:UUAEUserWidget
+---@field InitPeaceFulSingle:fun(bp_battleresult:bp_battleresult_C):bool
+---@field InitPeaceFulTeam:fun(bp_battleresult:bp_battleresult_C):bool
+---@field SetPromotedRank:fun(rank:int32,T:UTextBlock)
+---@field UpdateDownloadIcon:fun(texture:UTexture2D,downloader:UImageDownloader)
+---@field Button_Item UButton
+---@field HorizontalBox_AllScore UHorizontalBox
+---@field HorizontalBox_DefeatedPlayers UHorizontalBox
+---@field HorizontalBox_DefeatedScore UHorizontalBox
+---@field HorizontalBox_RankScore UHorizontalBox
+---@field Image_Item UImage
+---@field TextBlock_AllScore UTextBlock
+---@field TextBlock_BID UTextBlock
+---@field TextBlock_MAP UTextBlock
+---@field TextBlock_OutPlayer UTextBlock
+---@field TextBlock_OutScore UTextBlock
+---@field TextBlock_Phase UTextBlock
+---@field TextBlock_RankScore UTextBlock
+---@field TextBlock_Title UTextBlock
+---@field WidgetSwitcher_Options UWidgetSwitcher
+---@field WidgetSwitcher_SingleOrTeam UWidgetSwitcher

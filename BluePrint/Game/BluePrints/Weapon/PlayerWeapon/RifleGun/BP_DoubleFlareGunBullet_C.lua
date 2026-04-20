@@ -1,0 +1,3 @@
+---@class BP_DoubleFlareGunBullet_C:ASTExtraFlareGunBullet
+---@field UserConstructionScript:fun()
+---@field Ak UAkComponent

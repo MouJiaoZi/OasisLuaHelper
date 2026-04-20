@@ -1,0 +1,5 @@
+---@class BP_NanoCrystalPickupWrapper_C:APickUpWrapperActor
+---@field GetLuaModule:fun():FString
+---@field UserConstructionScript:fun()
+---@field StaticMeshComponent UStaticMeshComponent
+---@field CountToStaticMeshs ULuaMapHelper

@@ -1,0 +1,19 @@
+---@class BP_VH_Painting_Motorglider_ItemHandle_C:UBackpackUsableVehicleHandle
+---@field HandleDisuse:fun(Reason:EBattleItemDisuseReason):bool
+---@field SetEnableToAdditionData:fun(Enabled:bool)
+---@field CanSpawnVehicle:fun():bool
+---@field HandleDrop:fun(InCount:int32,Reason:EBattleItemDropReason):bool
+---@field SpawnWrapperOnGround:fun()
+---@field ShowTimeOutTips:fun()
+---@field CreateTimeOutWariningTimer:fun()
+---@field CheckCharacterState:fun():bool
+---@field HandlePickup:fun(ItemContainer:TScriptInterface,PickupInfo:FBattleItemPickupInfo,Reason:EBattleItemPickupReason):bool
+---@field HandleUse:fun(Target:FBattleItemUseTarget,Reason:EBattleItemUseReason):bool
+---@field CheckTimeState:fun():bool
+---@field HandleEnable:fun(bEnable:bool):bool
+---@field OnExitVehicle:fun(Player:ASTExtraPlayerCharacter,SeatType:ESTExtraVehicleSeatType,IsSucc:bool)
+---@field TimeOutTipsID int32
+---@field TimeOutWarningMsgID int32
+---@field TimerHandle FTimerHandle
+---@field SoftWrapperClass UClass
+---@field OwningPC ASTExtraPlayerController

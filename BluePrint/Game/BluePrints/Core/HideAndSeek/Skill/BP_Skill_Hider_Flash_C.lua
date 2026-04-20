@@ -1,0 +1,23 @@
+---@class BP_Skill_Hider_Flash_C:AUAESkill
+---@field FindTargets:fun(ExplosionFinder:UExplosionFinder,IgnoreActors:ULuaArrayHelper):ULuaArrayHelper,ULuaArrayHelper
+---@field TryMakeNoiseForLocalPlayer:fun(ExplosionFinder:UExplosionFinder,Multiplier:float):bool
+---@field Exploded:fun()
+---@field UserConstructionScript:fun()
+---@field UTSkillAppearance_SimpleParticleSystem1 UUTSkillAppearance_SimpleParticleSystem
+---@field UTSkillAppearance_SoundCue1 UUTSkillAppearance_SoundCue
+---@field UTSkillSpecificAction2 UUTSkillSpecificAction
+---@field UAESkillAction_ActionWithConditions UUAESkillAction_ActionWithConditions
+---@field UTSkillEventEffectMapForEditor2 UUTSkillEventEffectMapForEditor
+---@field UTSkillSpecificAction1 UUTSkillSpecificAction
+---@field UTSkillEventEffectMapForEditor1 UUTSkillEventEffectMapForEditor
+---@field UTSkillEventEffectMapForEditor UUTSkillEventEffectMapForEditor
+---@field UAESkillPhase2 UUAESkillPhase
+---@field UAESkillEventEffectMapForEditor UUAESkillEventEffectMapForEditor
+---@field UAESkillAction_SwitchWeaponToGrenade UUAESkillAction_SwitchWeaponToGrenade
+---@field DefaultSceneRoot USceneComponent
+---@field OwnerCharacter ASTExtraBaseCharacter
+---@field InSightTargetsFinder FExplosionFinderWrapper
+---@field InnerRangeTargetsFinder FExplosionFinderWrapper
+---@field ExplosionNoise FProjectileExplosionNoise
+---@field CameraShake FExplosionCameraShakeFunction
+---@field VoiceCheck FProjectileVoiceCheckEvent

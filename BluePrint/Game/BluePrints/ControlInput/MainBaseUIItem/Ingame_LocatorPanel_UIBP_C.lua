@@ -1,0 +1,21 @@
+---@class Ingame_LocatorPanel_UIBP_C:UAirAttackLocatorWidget
+---@field UIMsg_CancelAAL:fun()
+---@field UIMsg_HideAALUI:fun()
+---@field UIMsg_ShowAALUI:fun()
+---@field ReceivedInitWidget:fun()
+---@field NewAnimation_1 UWidgetAnimation
+---@field Border_AttackBtnPanel_Lside UBorder
+---@field Border_OnFireBtnPanel_Rside UBorder
+---@field CancelReleaseFire_LSide UCanvasPanel
+---@field CancelReleaseFireBtn UButton
+---@field CanvasPanel_1 UCanvasPanel
+---@field CanvasPanel_5 UCanvasPanel
+---@field CanvasPanel_6 UCanvasPanel
+---@field Image_DisableTips UImage
+---@field OnFireBtn_LReleaseBtn UButton
+---@field OnFireBtn_ReleaseBtn UButton
+---@field ScaleBox_2 UScaleBox
+---@field TextBlock_Distance UTextBlock
+---@field bAALUsed bool
+---@field bAALCanceled bool
+---@field LocatorSkillClassList ULuaArrayHelper

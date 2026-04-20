@@ -1,0 +1,7 @@
+---@class KillInfo_KLJ_Escape_Lua_UIBP_C:UKillInfoBase
+---@field GetLuaModule:fun():FString
+---@field BGSelector UWidgetSwitcher
+---@field HorizontalBox_0 UHorizontalBox
+---@field Image_KillBG UImage
+---@field KillInfoBG UImage
+---@field PlayerName_TextBlock UTextBlock

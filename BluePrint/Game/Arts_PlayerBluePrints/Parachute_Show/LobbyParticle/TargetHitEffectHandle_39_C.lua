@@ -1,0 +1,1 @@
+---@class TargetHitEffectHandle_39_C:ULobbyParticleHandle

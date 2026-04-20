@@ -1,0 +1,3 @@
+---@class BTDecorator_TimeCloserEnough_C:UBTDecorator_BlueprintBase
+---@field NextStormTimeLeft FBlackboardKeySelector
+---@field TimeCheck float

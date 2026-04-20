@@ -1,0 +1,7 @@
+---@class Bounty_MapEventBut_UIBP_C:UUAEUserWidget
+---@field InitMapEventButInfo:fun(CustomSocket:UCustomSocketPanel)
+---@field Button_Event UButton
+---@field Button_help UButton
+---@field CurDetailInfoSocket UCustomSocketPanel
+---@field CurDetailUserWidget Bounty_MapEventDetail_UIBP_C
+---@field CurFightingTimer int32

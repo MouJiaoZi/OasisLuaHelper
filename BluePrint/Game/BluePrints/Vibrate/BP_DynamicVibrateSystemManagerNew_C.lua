@@ -1,0 +1,1 @@
+---@class BP_DynamicVibrateSystemManagerNew_C:UDynamicVibrateSystemManager

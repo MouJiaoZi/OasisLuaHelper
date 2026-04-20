@@ -1,0 +1,4 @@
+---@class BP_ActivityBox_C:ATreasureBox
+---@field GeneratePickUpData:fun()
+---@field UserConstructionScript:fun()
+---@field CG017_Version_ChineseCity_Airdrop_01 UStaticMeshComponent

@@ -1,0 +1,2 @@
+---@class IngameRootContainer_C:ULuaUserWidget
+---@field Construct:fun()

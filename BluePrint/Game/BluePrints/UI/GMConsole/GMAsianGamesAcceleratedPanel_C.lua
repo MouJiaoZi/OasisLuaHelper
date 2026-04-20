@@ -1,0 +1,8 @@
+---@class GMAsianGamesAcceleratedPanel_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field ReqVehicleAccelerate:fun()
+---@field NewButton_Accelerate UNewButton
+---@field TextBlock_AccRate UTextBlock
+---@field TextBlock_AccValue UTextBlock
+---@field TextBlock_CurSpeed UTextBlock
+---@field EffectArray ULuaArrayHelper

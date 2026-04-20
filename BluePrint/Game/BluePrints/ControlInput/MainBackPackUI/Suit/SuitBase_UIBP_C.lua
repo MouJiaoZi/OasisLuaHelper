@@ -1,0 +1,29 @@
+---@class SuitBase_UIBP_C:UUAEUserWidget
+---@field UIMsg_ongamemodestatechanged:fun()
+---@field On_Border_UseWingman_MouseButtonDown_0:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field UIMsg_UpdateWingBySubmode:fun()
+---@field NextWingCoolDown:fun()
+---@field SuitSkinIntoCD:fun(CDTime:float)
+---@field UpdateSuitSkinQuick:fun()
+---@field UIMsg_UpdatePlayerWingInfos:fun()
+---@field isReady:fun():bool
+---@field ShowSuitQuick:fun()
+---@field Construct:fun()
+---@field ReceivedInitWidget:fun()
+---@field Border_UseWingman UBorder
+---@field CanvasPanel_BackPack_ChangeSuit UCanvasPanel
+---@field MainBackPack_InGame_SuitScheme_Item_UIBP MainBackPack_InGame_SuitScheme_Item_UIBP_C
+---@field MainBackPack_InGame_SuitScheme_Item_UIBP_0 MainBackPack_InGame_SuitScheme_Item_UIBP_C
+---@field MainBackPack_InGame_SuitScheme_Item_UIBP_1 MainBackPack_InGame_SuitScheme_Item_UIBP_C
+---@field MainBackPack_InGame_SuitScheme_Item_UIBP_2 MainBackPack_InGame_SuitScheme_Item_UIBP_C
+---@field MainBackPack_InGame_SuitScheme_Item_UIBP_3 MainBackPack_InGame_SuitScheme_Item_UIBP_C
+---@field NewButton_ShowSuit UNewButton
+---@field NewButton_ShowWing UNewButton
+---@field NewCheckBox_Check UNewCheckBox
+---@field WidgetSwitcher_1 UWidgetSwitcher
+---@field WidgetSwitcher_Select UWidgetSwitcher
+---@field WidgetSwitcher_Switcher UWidgetSwitcher
+---@field SuitQuickArray ULuaArrayHelper
+---@field WingCoolDownSecond float
+---@field FuelNum int32
+---@field NextWingCoolDownTimer FTimerHandle

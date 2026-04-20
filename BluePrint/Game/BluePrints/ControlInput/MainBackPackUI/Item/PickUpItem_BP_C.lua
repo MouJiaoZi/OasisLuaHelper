@@ -1,0 +1,62 @@
+---@class PickUpItem_BP_C:UPickUpTombGridItemC
+---@field CheckHasMarked:fun():bool
+---@field OnDragDetected:fun(MyGeometry:FGeometry,PointerEvent:FPointerEvent):UDragDropOperation
+---@field OnDragEnd:fun()
+---@field OnDraging:fun(MousePos:FVector2D)
+---@field OnDragBegin:fun()
+---@field OnDoubleClick:fun()
+---@field OnClick:fun()
+---@field UpdateItemInner:fun(ItemDataStructure:FSearchedPickUpItemResult,InputPin:bool,pickCount:int32)
+---@field FindDualbility:fun(Array:ULuaArrayHelper):float
+---@field RefreshElectricty:fun(AdditionalData:ULuaArrayHelper)
+---@field StartSwitchCD:fun(OwnerPawn:ASTExtraPlayerCharacter,Wrapper:APickUpWrapperActor)
+---@field RefreshIconByID:fun(icon:UObject,resID:int32)
+---@field UpdateItemData:fun(ItemData:FBattleSearchItemSortingInfo,Marked:bool)
+---@field RefreshIcon:fun(Icon:UObject)
+---@field ShowDurable:fun()
+---@field UpdateUseless:fun(useful:bool)
+---@field GetUseless:fun():bool
+---@field UpdateItemDataByWrap:fun(info:FBattleSearchBoxSortingInfo,Marked:bool)
+---@field OnTouchGesture:fun(MyGeometry:FGeometry,GestureEvent:FPointerEvent):FEventReply
+---@field HandlePickup:fun()
+---@field OnTouchStarted:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field OnTouchEnded:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field OnMouseLeave:fun(MouseEvent:FPointerEvent)
+---@field SetItemData:fun(Info:FBattleSearchBoxSortingInfo,ParentWidgetObj:UUAEUserWidget)
+---@field CanvasPanel_ColdModeInfo UCanvasPanel
+---@field EnergySocket UCustomSocketPanel
+---@field Image_CanEquippedIconBG UImage
+---@field Image_CanEquippedItemBG UImage
+---@field Image_GiftBoxBG UImage
+---@field Image_ItemBG UImage
+---@field Image_ItemGiftBoxBG UImage
+---@field Image_ItemIcon UImage
+---@field Image_ItemIconBG UImage
+---@field ItemContent11 UTextBlock
+---@field ItemContent2 UUTRichTextBlock
+---@field ProgressBar_Damage UProgressBar
+---@field ProgressBar_Marking UProgressBar
+---@field TextBlock_ItemNum UTextBlock
+---@field WidgetSwitcher_Mark UWidgetSwitcher
+---@field WidgetSwitcher_MarkBg UWidgetSwitcher
+---@field bHasStartedTouchIn bool
+---@field bHasTipsShow bool
+---@field ParentUserWidget UUserWidget
+---@field Useful bool
+---@field SortInfo FBattleSearchBoxSortingInfo
+---@field ItemDataStructure FSearchedPickUpItemResult
+---@field isBoxItem bool
+---@field pickCount int32
+---@field PressTimeHandle FTimerHandle
+---@field PressTimeHandle_Ani FTimerHandle
+---@field ClickTimeThreshold float
+---@field DragThanClickOffsetTime float
+---@field ClickTimeHandle FTimerHandle
+---@field HasMarked bool
+---@field OperationDone bool
+---@field IsTouchEnd bool
+---@field PressDownIndex int32
+---@field PressDownTime float
+---@field PressDownPos FVector2D
+---@field BeginDragThreshold float
+---@field NetOffectValue int32

@@ -1,0 +1,1 @@
+---@class BP_Sniper_SVD_BattleItemHandle_AYMG_B_C:BP_Sniper_SVD_BattleItemHandle_C

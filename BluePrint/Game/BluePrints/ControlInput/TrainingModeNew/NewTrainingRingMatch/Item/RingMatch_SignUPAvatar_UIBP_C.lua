@@ -1,0 +1,8 @@
+---@class RingMatch_SignUPAvatar_UIBP_C:UUAEUserWidget
+---@field Common_Avatar_Challenger Common_Avatar_BP_C
+---@field TextBlock_1 UTextBlock
+---@field TextBlock_Challenger UTextBlock
+---@field TextBlock_Name UTextBlock
+---@field TextBlock_Numbering UTextBlock
+---@field WidgetSwitcher_State UWidgetSwitcher
+---@field WidgetSwitcher_Title UWidgetSwitcher

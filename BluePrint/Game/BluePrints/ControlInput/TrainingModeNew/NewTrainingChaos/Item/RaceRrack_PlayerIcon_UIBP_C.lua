@@ -1,0 +1,2 @@
+---@class RaceRrack_PlayerIcon_UIBP_C:UUAEUserWidget
+---@field TextBlock_RankingTitle UTextBlock

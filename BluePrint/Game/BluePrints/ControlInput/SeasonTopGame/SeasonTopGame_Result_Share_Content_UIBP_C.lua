@@ -1,0 +1,7 @@
+---@class SeasonTopGame_Result_Share_Content_UIBP_C:UUAEUserWidget
+---@field InitUI:fun()
+---@field Image_Bg UImage
+---@field LobbyTeam_Logo_UIBP LobbyTeam_Logo_UIBP_C
+---@field UTRichTextBlock_Hornor UUTRichTextBlock
+---@field UTRichTextBlock_TeamName UUTRichTextBlock
+---@field BGList ULuaArrayHelper

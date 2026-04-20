@@ -1,0 +1,27 @@
+---@class BP_JileeSister_C:AActivityBaseActor
+---@field UnPossess:fun(目标:ASTExtraPlayerController)
+---@field CheakIndoorShootingRange:fun(NewParam:FGISCCF_Param):bool
+---@field SetNameRotation:fun()
+---@field CheckAngle:fun():bool,float
+---@field CheakCharacterLeave:fun(NewParam:FGISCCF_Param):bool
+---@field CharacterLeave:fun(NewParam:FGISCCF_Param)
+---@field Triger:fun(NewParam:FGISCCF_Param)
+---@field CanTriger:fun(NewParam:FGISCCF_Param):bool
+---@field UserConstructionScript:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field ActivityFakePossessMultiply UActivityFakePossessMultiplyComponent
+---@field PlayName UStaticMeshComponent
+---@field Camera UCameraComponent
+---@field STExtraSpringArm USTExtraSpringArmComponent
+---@field PerformCharacterMesh USkeletalMeshComponent
+---@field Pillal UChildActorComponent
+---@field TrigetCollision USphereComponent
+---@field GISActorComponentBase UGISActorComponentBase
+---@field DefaultSceneRoot USceneComponent
+---@field ChildActorArray ULuaArrayHelper
+---@field HidenUIStyle UUserWidgetStyle
+---@field bIsInOverlapeRange bool
+---@field InteractAngle float
+---@field CameraBlendTime float
+---@field CurrentPlayerArray ULuaArrayHelper
+---@field CurrentIntercationPlayerArray ULuaArrayHelper

@@ -1,0 +1,1 @@
+---@class BP_MachineGun_Vector_BattleItemHandle_CJSPASS_Lobby_C:UBackpackWeaponHandle

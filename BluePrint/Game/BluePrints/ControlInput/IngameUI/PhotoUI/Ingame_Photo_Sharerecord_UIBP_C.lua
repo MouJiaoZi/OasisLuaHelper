@@ -1,0 +1,3 @@
+---@class Ingame_Photo_Sharerecord_UIBP_C:UUserWidget
+---@field ShowScreenCapture:fun()
+---@field ShareBg UImage

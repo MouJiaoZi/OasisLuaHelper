@@ -1,0 +1,18 @@
+---@class NewTraining_WinLog_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field Button_carrier UNewButton
+---@field Button_CloseClose UButton
+---@field Button_Dul UNewButton
+---@field Button_Entertainment UNewButton
+---@field Button_range UNewButton
+---@field HorizontalBox_LogDetail UHorizontalBox
+---@field LogDetail_01 NewTraining_LogDetail_UIBP_C
+---@field LogDetail_02 NewTraining_LogDetail_UIBP_C
+---@field LogDetail_03 NewTraining_LogDetail_UIBP_C
+---@field LogDetail_04 NewTraining_LogDetail_UIBP_C
+---@field TextBlock_3 UTextBlock
+---@field TextBlock_7 UTextBlock
+---@field WidgetSwitcher_carrier UWidgetSwitcher
+---@field WidgetSwitcher_Dul UWidgetSwitcher
+---@field WidgetSwitcher_Entertainment UWidgetSwitcher
+---@field WidgetSwitcher_range UWidgetSwitcher

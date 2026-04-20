@@ -1,0 +1,6 @@
+---@class Ingame_HalloweenTimeTips_UIBP_C:UUAEUserWidget
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field ReceivedInitWidget:fun()
+---@field HalloweenIcon UImage
+---@field textHalloweenTime UTextBlock
+---@field endTime float

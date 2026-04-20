@@ -1,0 +1,7 @@
+---@class Camp_ListCamp_UIBP_C:UUAEUserWidget
+---@field Image_Color UImage
+---@field NewButton_Click UNewButton
+---@field TextBlock_Camp UTextBlock
+---@field TextBlock_Remain UTextBlock
+---@field WidgetSwitcher_Arrow UWidgetSwitcher
+---@field WrapGroupBox_ListName UWrapGroupBox

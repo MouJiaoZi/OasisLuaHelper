@@ -1,0 +1,13 @@
+---@class HAS_Mark_Map_UIBP_C:UMapUIMarkDynamicWidget
+---@field ReceivePreDestroyBP:fun()
+---@field LuaUpdataState:fun(CustomString:FString)
+---@field PlayerStatusChanged:fun(NewParam:ECharacterHealthStatus,NewParam1:ECharacterHealthStatus)
+---@field RegistPlayerStatusChanged:fun()
+---@field LuaOnUIShow:fun(NewParam:FCustomMarkEventData)
+---@field SetState:fun(NewParam:int32)
+---@field OnUIBPShow:fun(InState:FCustomMarkEventData)
+---@field Destruct:fun()
+---@field Event_FindCharacter:fun()
+---@field WidgetSwitcher_Sign_Map UWidgetSwitcher
+---@field TargetCharacterCite ASTExtraPlayerCharacter
+---@field TeamID int32

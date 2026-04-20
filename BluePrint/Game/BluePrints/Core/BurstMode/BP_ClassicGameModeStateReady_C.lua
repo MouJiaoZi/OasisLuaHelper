@@ -1,0 +1,1 @@
+---@class BP_ClassicGameModeStateReady_C:UGameModeStateReady

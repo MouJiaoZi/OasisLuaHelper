@@ -1,0 +1,1 @@
+---@class BP_GunMasterGameMode_Karakin_Faster_2_C:ABP_GunMasterGameMode_Karakin_Faster_4_C

@@ -1,0 +1,7 @@
+---@class WeaponCompanionRule_7_C:UBP_WeaponCompanionRuleBase_C
+---@field OnInit:fun()
+---@field OnRemove:fun()
+---@field BeatTime ULuaArrayHelper
+---@field KillCount int32
+---@field KillTime float
+---@field DamageTypeConstraint int32

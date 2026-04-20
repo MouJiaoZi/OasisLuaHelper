@@ -1,0 +1,5 @@
+---@class BackPackBigItem_Row_BP_C:UUAEUserWidget
+---@field InitChildData:fun(DataArray:ULuaArrayHelper,CountArray:ULuaArrayHelper,Index:int32,NewParam:BackPackBigItem_BP_C)
+---@field InitData:fun(DataList:ULuaArrayHelper,CountList:ULuaArrayHelper)
+---@field BackPackBigItem_BP_1 BackPackBigItem_BP_C
+---@field BackPackBigItem_BP_2 BackPackBigItem_BP_C

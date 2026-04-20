@@ -1,0 +1,1 @@
+---@class Ingame_Setup_speech_UIBP_C:UUserWidget

@@ -1,0 +1,5 @@
+---@class bp_share_exciting_party_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_ShareExcitingPartyPath FString
+---@field BP_ShareExcitingParty_ShareIndex int32

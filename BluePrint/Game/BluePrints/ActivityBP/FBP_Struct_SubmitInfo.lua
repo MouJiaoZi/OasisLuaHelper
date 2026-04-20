@@ -1,0 +1,4 @@
+---@class FBP_Struct_SubmitInfo
+---@field TargetItemID int32
+---@field DropProduceID int32
+---@field ActivityEventFlowType int32

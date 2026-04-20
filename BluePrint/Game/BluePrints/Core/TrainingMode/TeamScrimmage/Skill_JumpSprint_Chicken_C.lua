@@ -1,0 +1,36 @@
+---@class Skill_JumpSprint_Chicken_C:AUAESkill
+---@field ShouldShowParticle:fun():bool
+---@field ServerTriggerEventspec:fun()
+---@field CanStop:fun():bool
+---@field UserConstructionScript:fun()
+---@field UTSkillAppearance_SoundCue UUTSkillAppearance_SoundCue
+---@field UAESkillAction_ClearBlackboard3 UUAESkillAction_ClearBlackboard
+---@field UAESkillAction_ClearBlackboard2 UUAESkillAction_ClearBlackboard
+---@field UAESkillAction_ClearBlackboard1 UUAESkillAction_ClearBlackboard
+---@field UAESkillPhase2 UUAESkillPhase
+---@field UAESkillAction_ClientLandCheck UUAESkillAction_ClientLandCheck
+---@field UAESkillPhase UUAESkillPhase
+---@field UTSkillEventEffectMapForEditor8 UUTSkillEventEffectMapForEditor
+---@field UAEGSLisenterEffectMapForEditor2 UUAEGSLisenterEffectMapForEditor
+---@field UAESkillAction_SetMoveable1 UUAESkillAction_SetMoveable
+---@field UAESkillAction_PlayMontage3 UUAESkillAction_PlayMontage
+---@field UAESkillEventEffectMapForEditor UUAESkillEventEffectMapForEditor
+---@field UAESkillAction_ActionsBunch UUAESkillAction_ActionsBunch
+---@field UTSkillEventEffectMapForEditor7 UUTSkillEventEffectMapForEditor
+---@field UTSkillEventEffectMapForEditor6 UUTSkillEventEffectMapForEditor
+---@field UTSkillEventEffectMapForEditor5 UUTSkillEventEffectMapForEditor
+---@field UAESkillStringEventEffectMapForEditor UUAESkillStringEventEffectMapForEditor
+---@field UAESkillAction_ClearBlackboard UUAESkillAction_ClearBlackboard
+---@field UAESkillAction_SetBlackboardV1 UUAESkillAction_SetBlackboardV
+---@field UAESkillAction_PlayMontage1 UUAESkillAction_PlayMontage
+---@field UAESkillAction_MovementMode UUAESkillAction_MovementMode
+---@field UTSkillEventEffectMapForEditor2 UUTSkillEventEffectMapForEditor
+---@field UTSkillEventEffectMapForEditor1 UUTSkillEventEffectMapForEditor
+---@field UTSkillEventEffectMapForEditor UUTSkillEventEffectMapForEditor
+---@field UAEGSLisenterEffectMapForEditor UUAEGSLisenterEffectMapForEditor
+---@field UAESkillAction_LaunchMove UUAESkillAction_LaunchMove
+---@field UAESkillPhase1 UUAESkillPhase
+---@field UAESkillAction_JumpPhase1 UUAESkillAction_JumpPhase
+---@field UAESkillAction_JumpPhase UUAESkillAction_JumpPhase
+---@field UAESkillAction_PickLocation UUAESkillAction_PickLocation
+---@field DefaultSceneRoot USceneComponent

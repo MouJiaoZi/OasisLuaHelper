@@ -1,0 +1,1 @@
+---@class BP_ShotGun_S12K_BattleItemHandle_XNN_Lobby_C:UBackpackWeaponHandle

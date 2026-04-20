@@ -1,0 +1,3 @@
+---@class Common_Map_Gudie_UIBP_C:UNewbieGuideWidget
+---@field OnCreateAndShow:fun(GuideId:int32,UIConfigIndex:int32)
+---@field TextBlock_Guide UUTRichTextBlock

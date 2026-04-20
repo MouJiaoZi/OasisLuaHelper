@@ -1,0 +1,7 @@
+---@class HAS_Mark_Scene_UIBP_C:UPlayerCharacterPositionWidget
+---@field isTeam:fun(NewParam:bool)
+---@field CampType:fun(NewParam:int32)
+---@field SetState:fun(NewParam:int32)
+---@field Image_Hide UImage
+---@field Image_Seek UImage
+---@field WidgetSwitcher_Sign_Scene UWidgetSwitcher

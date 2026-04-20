@@ -1,0 +1,1 @@
+---@class BP_WarGameSniperMode_2_C:ABP_WarGameSniperMode_C

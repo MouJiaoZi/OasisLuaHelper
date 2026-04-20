@@ -1,0 +1,13 @@
+---@class BP_BattleRoyaleGameModeTeamHunter_C:ABP_BattleRoyaleGameModeTeamPUBG_C
+---@field GetLuaModule:fun():FString
+---@field ModifyDamage_BP:fun(Damage:float,DamageEvent:FDamageEvent,EventInstigator:AController,VictimController:AController,DamageCauser:AActor):float
+---@field UserConstructionScript:fun()
+---@field AIGroupManager UAIGroupManagerComponent
+---@field AIWorldSoundManager UAIWorldSoundManagerComponent
+---@field AnimalTeleport UAnimalTeleportComponent
+---@field SpawnMonsterHelperComp USpawnMonsterHelperComp
+---@field PercentOfReservedGoldCoin float
+---@field GoldCoinCountOfKilling int32
+---@field KillerPickupGoldCoinTipsId int32
+---@field HasMechaIncreasedDamage float
+---@field MechaLegItemID int32

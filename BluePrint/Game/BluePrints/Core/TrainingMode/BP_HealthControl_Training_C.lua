@@ -1,0 +1,2 @@
+---@class BP_HealthControl_Training_C:UBP_HealthControl_C
+---@field ReceiveBeginPlay:fun()

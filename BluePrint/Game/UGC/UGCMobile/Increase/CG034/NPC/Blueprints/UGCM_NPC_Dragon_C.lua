@@ -1,0 +1,2 @@
+---@class UGCM_NPC_Dragon_C:BP_UGCM_GenericNPCPawn_C
+---@field UserConstructionScript:fun()

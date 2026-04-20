@@ -1,0 +1,1 @@
+---@class AIActingComp_C:UAIActingComponent

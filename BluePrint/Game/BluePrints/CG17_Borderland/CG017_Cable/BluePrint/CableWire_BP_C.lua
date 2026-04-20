@@ -1,0 +1,57 @@
+---@class CableWire_BP_C:AActivityBaseActor
+---@field CheckGameState:fun():bool
+---@field CheckSpawnCableCollision:fun():bool
+---@field GetMeshByLength:fun(CableLength:float):UStaticMesh,float
+---@field CableDamaged:fun(Damage:float,HitComponent:UObject,Object:UObject)
+---@field InitiateSpline:fun(start:FVector,end:FVector)
+---@field BenoteLocation:fun():FVector,FVector
+---@field GetValleyPlaceByLabel:fun(Label:E_Placelable):BP_ValleyPlcae_C
+---@field InitialCollision:fun(self2:UCapsuleComponent,NewRotation:FRotator,length:float,location:FVector)
+---@field Setlable:fun(Target:UChildActorComponent,lable:E_Placelable):E_Placelable
+---@field CanStop:fun(NewParam:FGISCCF_Param):bool
+---@field Stop:fun(NewParam:FGISCCF_Param)
+---@field Inite:fun(NewParam:FCableLocation)
+---@field CheakCanPossess:fun(Character:ASTExtraBaseCharacter):bool
+---@field UserConstructionScript:fun()
+---@field ReceiveRadialDamage:fun(DamageReceived:float,DamageType:UDamageType,Origin:FVector,HitInfo:FHitResult,InstigatedBy:AController,DamageCauser:AActor)
+---@field ReceivePointDamage:fun(Damage:float,DamageType:UDamageType,HitLocation:FVector,HitNormal:FVector,HitComponent:UPrimitiveComponent,BoneName:FName,ShotFromDirection:FVector,InstigatedBy:AController,DamageCauser:AActor,HitInfo:FHitResult)
+---@field StaticCable UStaticMeshComponent
+---@field SK_Prop_BorderlandPillar_Borderland_Pillar021 USkeletalMeshComponent
+---@field SK_Prop_BorderlandPillar_Borderland_Pillar02 USkeletalMeshComponent
+---@field ShootCableStart USceneComponent
+---@field Scene USceneComponent
+---@field ReverseCreateCable UActorSequenceComponent
+---@field Spline USplineComponent
+---@field Cable UCableComponent
+---@field ChildActor2 UChildActorComponent
+---@field ChildActor3 UChildActorComponent
+---@field ChildActor UChildActorComponent
+---@field ChildActor1 UChildActorComponent
+---@field GISButton_Left UChildActorComponent
+---@field GISButton_Right UChildActorComponent
+---@field Leave UCapsuleComponent
+---@field ShootBreak UCapsuleComponent
+---@field BreakSequence UActorSequenceComponent
+---@field CableCreateSequence UActorSequenceComponent
+---@field GISActorComponentBase UGISActorComponentBase
+---@field CDTime float
+---@field Time float
+---@field ActorArray ULuaArrayHelper
+---@field WireActorReference BP_Wire_C
+---@field PossessArray ULuaArrayHelper
+---@field CurrentHealth float
+---@field VehicleCanDamageSpeed int32
+---@field VehicleDamageCofficient int32
+---@field MaxHealth float
+---@field StartLocation FVector
+---@field EndLocation FVector
+---@field Placea AActor
+---@field Placeb AActor
+---@field TMapPlace ULuaMapHelper
+---@field ShootCableClass UClass
+---@field CacheShootCable AActor
+---@field CablePosition FCableLocation
+---@field CableStaticMeshList ULuaMapHelper
+---@field MeshLength int32
+---@field MeshLengthScale float
+---@field CableLength float

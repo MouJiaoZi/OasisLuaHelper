@@ -1,0 +1,1 @@
+---@class BP_MachineGun_MP7_BattleItemHandle_JHSY_B_Lobby_C:UBackpackWeaponHandle

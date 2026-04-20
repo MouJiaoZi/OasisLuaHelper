@@ -1,0 +1,6 @@
+---@class BP_UGCVehicleRefresherTool_C:AActor
+---@field GetLuaModule:fun():FString
+---@field UserConstructionScript:fun()
+---@field DefaultSceneRoot USceneComponent
+---@field VehicleList ULuaArrayHelper
+---@field bActiveBegin bool

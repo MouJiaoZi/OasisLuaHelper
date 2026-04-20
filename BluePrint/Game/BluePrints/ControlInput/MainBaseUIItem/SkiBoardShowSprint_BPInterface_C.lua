@@ -1,0 +1,3 @@
+---@class SkiBoardShowSprint_BPInterface_C:UInterface
+---@field SnowboardBtnPosition:fun():bool
+---@field SnowboardSprint:fun(IsSprint:bool):bool

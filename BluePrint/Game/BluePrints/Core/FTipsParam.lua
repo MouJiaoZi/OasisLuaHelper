@@ -1,0 +1,3 @@
+---@class FTipsParam
+---@field TipsID int32
+---@field AnimRate float

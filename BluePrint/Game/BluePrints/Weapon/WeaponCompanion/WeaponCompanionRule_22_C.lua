@@ -1,0 +1,8 @@
+---@class WeaponCompanionRule_22_C:UBP_WeaponCompanionRuleBase_C
+---@field RemoveBounceDelegate:fun(BounceDelegate:WeaponCompanion_ProjectileBounceDelegate_C)
+---@field CreateBounceDelegate:fun():WeaponCompanion_ProjectileBounceDelegate_C
+---@field OnInit:fun()
+---@field OnRemove:fun()
+---@field BounceDelegateMap ULuaMapHelper
+---@field ProjectileBounceSet ULuaSetHelper
+---@field BounceDelegatePool ULuaArrayHelper

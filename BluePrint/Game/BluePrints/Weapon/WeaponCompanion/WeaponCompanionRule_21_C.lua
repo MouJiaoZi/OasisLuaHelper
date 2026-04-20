@@ -1,0 +1,4 @@
+---@class WeaponCompanionRule_21_C:UBP_WeaponCompanionRuleBase_C
+---@field OnInit:fun()
+---@field OnRemove:fun()
+---@field GameModeComponent UWeaponsCompanionGameModeComponent

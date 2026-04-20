@@ -1,0 +1,1 @@
+---@class BP_TipsManager_C:UTipsManager

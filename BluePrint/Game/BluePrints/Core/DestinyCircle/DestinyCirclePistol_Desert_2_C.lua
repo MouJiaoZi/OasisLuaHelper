@@ -1,0 +1,1 @@
+---@class DestinyCirclePistol_Desert_2_C:ADestinyCirclePistol_2_C

@@ -1,0 +1,1 @@
+---@class ItemSpawn_SanHok_Revival_C:UBP_ItemGeneratorComponent_C

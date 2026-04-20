@@ -1,0 +1,5 @@
+---@class ZombieDeadInventoryBox_Child_C:APlayerDeadInventoryBox_C
+---@field UserConstructionScript:fun()
+---@field BPOnRespawned:fun()
+---@field GFX UParticleSystem
+---@field Location FVector

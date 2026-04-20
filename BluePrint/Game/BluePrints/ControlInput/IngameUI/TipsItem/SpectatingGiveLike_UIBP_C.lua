@@ -1,0 +1,19 @@
+---@class SpectatingGiveLike_UIBP_C:UUAEUserWidget
+---@field GetCauserPlayerUID:fun(CauserName:FString)
+---@field UpdateGiveLikeCount:fun()
+---@field ShowMainStatus:fun(CauserName:FString)
+---@field ReceivedInitWidget:fun()
+---@field ShowSpecatingGiveLike:fun(CuaserName:FString,ReultType:EExcellentOperationResultType)
+---@field DX_Out UWidgetAnimation
+---@field DX_Click UWidgetAnimation
+---@field DX_In UWidgetAnimation
+---@field CanvasPanel_Main UCanvasPanel
+---@field NewButton_zan UNewButton
+---@field TextBlock_Tips UTextBlock
+---@field UIParticleEmitter_8 UUIParticleEmitter
+---@field WidgetSwitcher_ResultType UWidgetSwitcher
+---@field ClickLikeBtnCDTime float
+---@field LastClickLikeBtnTimer float
+---@field CurResultType EExcellentOperationResultType
+---@field CurCauserName FString
+---@field CauserPlayerUID FString

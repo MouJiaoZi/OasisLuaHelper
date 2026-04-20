@@ -1,0 +1,4 @@
+---@class bp_share_pandora_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_SharePandora_ShareImg FString

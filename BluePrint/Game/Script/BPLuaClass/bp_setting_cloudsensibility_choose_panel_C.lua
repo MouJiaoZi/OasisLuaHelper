@@ -1,0 +1,3 @@
+---@class bp_setting_cloudsensibility_choose_panel_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent

@@ -1,0 +1,3 @@
+---@class FHideAndSeekRoundItemsConfig
+---@field Item1 FHideAndSeekItemConfig
+---@field Item2 FHideAndSeekItemConfig

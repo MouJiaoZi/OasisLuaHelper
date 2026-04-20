@@ -1,0 +1,1 @@
+---@class CWHD_BP_Pet_Bean_C:UBackpackLobbyPetHandle

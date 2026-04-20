@@ -1,0 +1,18 @@
+---@class BP_HUD_Anim_C:UUAEUserWidget
+---@field InitModleData:fun()
+---@field On_ModelComboBox_GenerateWidget_0:fun(Item:FString):UWidget
+---@field CreateModelWidget:fun(Index:int32)
+---@field ShowModel:fun(model:int32)
+---@field TestBack:fun()
+---@field Construct:fun()
+---@field EnterIntoFastPathTest__DelegateSignature:fun(Enable:bool)
+---@field Button_Back UButton
+---@field ButtonSet UButton
+---@field ModelComboBox UComboBoxString
+---@field ModelWidgetParent UCanvasPanel
+---@field SpinBox_AICnt USpinBox
+---@field AINum int32
+---@field EnterIntoFastPathTest ULuaMulticastDelegate
+---@field ShowFastPathSwitchBtn bool
+---@field GameStateInstance TestModelGameState_C
+---@field ModelWidgetList ULuaArrayHelper

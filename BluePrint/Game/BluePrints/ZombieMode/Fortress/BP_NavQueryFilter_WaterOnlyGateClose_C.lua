@@ -1,0 +1,1 @@
+---@class BP_NavQueryFilter_WaterOnlyGateClose_C:UNavigationQueryFilterFortress

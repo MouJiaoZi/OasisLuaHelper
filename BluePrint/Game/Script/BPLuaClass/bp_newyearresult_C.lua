@@ -1,0 +1,4 @@
+---@class bp_newyearresult_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_LoginChannel_NYA int32

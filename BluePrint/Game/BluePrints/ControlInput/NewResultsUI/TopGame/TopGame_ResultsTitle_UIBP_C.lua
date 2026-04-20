@@ -1,0 +1,27 @@
+---@class TopGame_ResultsTitle_UIBP_C:UUAEUserWidget
+---@field CanvasPanel_29 UCanvasPanel
+---@field CanvasPanel_Banner UCanvasPanel
+---@field CanvasPanel_CurrentProgress UCanvasPanel
+---@field CanvasPanel_Dialog UCanvasPanel
+---@field CanvasPanel_Tips1 UCanvasPanel
+---@field CanvasPanel_TopGame UCanvasPanel
+---@field CanvasPanel_WeekScoreProgress UCanvasPanel
+---@field Image_40 UImage
+---@field LobbyTeam_Logo_UIBP LobbyTeam_Logo_UIBP_C
+---@field NewButton_Explain UNewButton
+---@field ProgressBar_WeekScore UProgressBar
+---@field TextBlock_CurrentScore UTextBlock
+---@field TextBlock_GameGrade UTextBlock
+---@field TextBlock_GameRank UTextBlock
+---@field TextBlock_KillScore UTextBlock
+---@field TextBlock_RankScore UTextBlock
+---@field TextBlock_Slogan UTextBlock
+---@field TextBlock_TeamName UTextBlock
+---@field TextBlock_TeamName1 UTextBlock
+---@field TextBlock_Upgrade UTextBlock
+---@field TextBlock_WeekScore UTextBlock
+---@field TextBlock_WeekTotalScore UTextBlock
+---@field TextBlock_Win1 UTextBlock
+---@field TextBlock_Win2 UTextBlock
+---@field UTRichTextBlock_Explain UUTRichTextBlock
+---@field WidgetSwitcher_Label UWidgetSwitcher

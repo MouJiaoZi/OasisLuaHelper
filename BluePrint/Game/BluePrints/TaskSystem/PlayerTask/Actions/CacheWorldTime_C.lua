@@ -1,0 +1,3 @@
+---@class CacheWorldTime_C:UTaskAction_Base
+---@field OnExecute:fun():bool
+---@field CacheTimeKey FTaskBlackboardKeySelector

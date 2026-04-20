@@ -1,0 +1,7 @@
+---@class FSTR_AirborneSpeed
+---@field MinSpeed FVector
+---@field MaxSpeed FVector
+---@field NormalSpeed FVector
+---@field VerticalSpeed FVector
+---@field TurnSpeed float
+---@field TurnSpeedV FVector

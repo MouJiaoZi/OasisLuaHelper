@@ -1,0 +1,13 @@
+---@class BackPackBigItem_BP_C:UUAEUserWidget
+---@field Get_CheckBox_BatchSelection_CheckedState_0:fun():ECheckBoxState
+---@field ChangeState:fun(IsSelect:bool)
+---@field InitData:fun(ItemData:FBattleItemData,Count:int32)
+---@field ItemBeClicked__DelegateSignature:fun(MyData:FBattleItemData,IsSelected:bool)
+---@field Image_ItemIcon UImage
+---@field ItemContent1 UMultiLineEditableText
+---@field ItemContent2 UTextBlock
+---@field TextBlock_ItemNum UTextBlock
+---@field ItemDataStructure FBattleItemData
+---@field bHasTipsShow bool
+---@field ItemBeClicked ULuaMulticastDelegate
+---@field IsSelected bool

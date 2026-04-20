@@ -1,0 +1,3 @@
+---@class FSTR_SuperAirDropDataConfigNew
+---@field GenerateRate float
+---@field DataTable UDataTable

@@ -1,0 +1,2 @@
+---@class FGM_AvatarData
+---@field Data ULuaArrayHelper

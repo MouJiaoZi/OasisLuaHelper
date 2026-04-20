@@ -1,0 +1,1 @@
+---@class BP_SignalGunGameComponent_C:USignalGunGameComponent

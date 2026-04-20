@@ -1,0 +1,1 @@
+---@class AIPathNavLink_jiqiang_C:AAIPathNavLink

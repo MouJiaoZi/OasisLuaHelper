@@ -1,0 +1,1 @@
+---@class BP_Hider_Bait_ItemHandle_C:UBattleItemHandleBase_BP_C

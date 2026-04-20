@@ -1,0 +1,1 @@
+---@class BP_Pistol_P92_BattleItemHandle_NSSN_Lobby_C:UBackpackWeaponHandle

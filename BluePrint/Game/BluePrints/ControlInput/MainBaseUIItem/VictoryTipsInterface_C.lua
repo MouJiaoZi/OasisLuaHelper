@@ -1,0 +1,2 @@
+---@class VictoryTipsInterface_C:UInterface
+---@field ShowVictoryFlag:fun():bool

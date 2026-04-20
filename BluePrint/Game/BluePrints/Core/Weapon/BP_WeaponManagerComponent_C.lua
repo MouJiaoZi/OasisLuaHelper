@@ -1,0 +1,2 @@
+---@class BP_WeaponManagerComponent_C:UCharacterWeaponManagerComponent
+---@field ForceStopWeaponCreateSeqAndRecoverByWeaponReconnectOnServer:fun():bool

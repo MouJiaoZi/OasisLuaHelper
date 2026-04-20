@@ -1,0 +1,5 @@
+---@class BP_SimpleDeadBox_C:ASimpleDeadBox
+---@field UserConstructionScript:fun()
+---@field CollisionBox UBoxComponent
+---@field BP_ProduceDropItemComponent BP_ProduceDropItemComponent_Deprecated_C
+---@field BoxMesh UStaticMeshComponent

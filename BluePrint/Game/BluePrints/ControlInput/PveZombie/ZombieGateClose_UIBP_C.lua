@@ -1,0 +1,1 @@
+---@class ZombieGateClose_UIBP_C:UUAEUserWidget

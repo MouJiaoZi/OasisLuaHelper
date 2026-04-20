@@ -1,0 +1,3 @@
+---@class BP_ChickenPet2_C:APet
+---@field UserConstructionScript:fun()
+---@field CrowdAgent UCrowdAgentComponent

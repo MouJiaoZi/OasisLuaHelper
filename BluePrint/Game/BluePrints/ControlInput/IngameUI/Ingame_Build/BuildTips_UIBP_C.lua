@@ -1,0 +1,40 @@
+---@class BuildTips_UIBP_C:UUserWidget
+---@field OnTouchEnded:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field On_Border_Replace_MouseButtonDown_0:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field RefreshCDTime:fun(CrtCDTime:ULuaMapHelper,TotalCDTime:ULuaMapHelper)
+---@field ChangeOperType:fun(IsBuildType:bool,IsShowTip:bool)
+---@field OnTouchStarted:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field OnHide:fun()
+---@field OnShow:fun()
+---@field RefreshMateNum:fun(MateNumMap:ULuaMapHelper)
+---@field Init:fun(BuildComp:UBuildSystemComponent)
+---@field Construct:fun()
+---@field OnMouseLeave:fun(MouseEvent:FPointerEvent)
+---@field OnItemTouchStartEvent__DelegateSignature:fun(FingerIndex:ETouchIndex,IsBuildType:bool)
+---@field CanvasPanel_tips UCanvasPanel
+---@field Image_SegLine1 UImage
+---@field Image_SegLine2 UImage
+---@field Replace_OFF UCanvasPanel
+---@field Replace_ON UCanvasPanel
+---@field TextBlock_BuildNumber01 UTextBlock
+---@field TextBlock_BuildNumber02 UTextBlock
+---@field TextBlock_BuildNumber03 UTextBlock
+---@field TextBlock_Tip UTextBlock
+---@field VerticalBox_BrickItems UVerticalBox
+---@field VerticalBox_BrickRoot UVerticalBox
+---@field VerticalBox_ElectonicItems UVerticalBox
+---@field VerticalBox_ElectonicRoot UVerticalBox
+---@field VerticalBox_MetalItems UVerticalBox
+---@field VerticalBox_MetalRoot UVerticalBox
+---@field WidgetSwitcher_Replace UWidgetSwitcher
+---@field MateTextMap ULuaMapHelper
+---@field MateDataTable UUAEDataTable
+---@field ItemList ULuaMapHelper
+---@field MetaNumMap ULuaMapHelper
+---@field MyBuildComp UBuildSystemComponent
+---@field OnItemTouchStartEvent ULuaMulticastDelegate
+---@field ShowTipsWaitTime float
+---@field CancelBuildWaitTime float
+---@field DragDetectLength float
+---@field OnItemBeSelectEvent ULuaMulticastDelegate
+---@field IsBuildType bool

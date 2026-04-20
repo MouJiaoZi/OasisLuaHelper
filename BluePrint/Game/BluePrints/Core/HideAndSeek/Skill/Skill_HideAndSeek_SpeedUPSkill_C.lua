@@ -1,0 +1,8 @@
+---@class Skill_HideAndSeek_SpeedUPSkill_C:AUAESkill
+---@field UserConstructionScript:fun()
+---@field UAESkillAction_AddRemoveBuff1 UUAESkillAction_AddRemoveBuff
+---@field UAESkillAction_Log UUAESkillAction_Log
+---@field UAESkillAction_AddRemoveBuff UUAESkillAction_AddRemoveBuff
+---@field UAESkillEventEffectMapForEditor UUAESkillEventEffectMapForEditor
+---@field UAESkillPhase UUAESkillPhase
+---@field DefaultSceneRoot USceneComponent

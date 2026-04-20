@@ -1,0 +1,13 @@
+---@class NewTraining_ModeEntrance_UIBP_C:UUAEUserWidget
+---@field Button_Start UButton
+---@field CanvasPanel_Guide UCanvasPanel
+---@field Image_ItemBG UImage
+---@field Image_mapIcon UImage
+---@field NewButton_Mode UNewButton
+---@field TextBlock_Count UTextBlock
+---@field TextBlock_MapName UTextBlock
+---@field TextBlock_Mode UTextBlock
+---@field TextBlock_Number UTextBlock
+---@field TextBlock_Person UTextBlock
+---@field WidgetSwitcher_Start UWidgetSwitcher
+---@field WidgetSwitcher_State UWidgetSwitcher

@@ -1,0 +1,2 @@
+---@class TeamerKillTipInterface_C:UInterface
+---@field ShowKillOrPutDownInfo:fun(MsgData:FKillOrPutDownMessage):bool

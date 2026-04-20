@@ -1,0 +1,1 @@
+---@class BP_KLJ_Gold_BattleItemHandle_C:UBattleItemHandle_Ammo_C

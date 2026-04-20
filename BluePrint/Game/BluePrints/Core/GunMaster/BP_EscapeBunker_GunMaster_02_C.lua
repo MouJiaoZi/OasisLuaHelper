@@ -1,0 +1,1 @@
+---@class BP_EscapeBunker_GunMaster_02_C:ABP_EscapeBunker_GunMaster_C

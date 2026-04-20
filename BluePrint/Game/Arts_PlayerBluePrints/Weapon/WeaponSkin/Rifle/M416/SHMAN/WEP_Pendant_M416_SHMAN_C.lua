@@ -1,0 +1,1 @@
+---@class WEP_Pendant_M416_SHMAN_C:BattleItemHandle_WeapAttachment_C

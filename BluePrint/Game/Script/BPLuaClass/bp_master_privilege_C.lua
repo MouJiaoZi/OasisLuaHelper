@@ -1,0 +1,7 @@
+---@class bp_master_privilege_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_MasterPrivilegeIsShow bool
+---@field BP_ARRAY_Master_Privilege_Gift ULuaArrayHelper
+---@field BP_ARRAY_Master_Privilege_Desc ULuaArrayHelper
+---@field BP_CurrentLevel int32

@@ -1,0 +1,11 @@
+---@class HAS_OB_Enter_UIBP_C:UUTSkillIconWidgetTemplate
+---@field Get_TextBlock_SkillNum:fun():FText
+---@field GetCurrentCDPercentage:fun(InCurEnergy:float,InMaxEnergy:float,DeltaEnergy:float):bool,float
+---@field Construct:fun()
+---@field Border_SkillSlot UBorder
+---@field Button_0 UButton
+---@field CanvasPanel_tips UCanvasPanel
+---@field Image_CDTime UImage
+---@field Image_Icon UImage
+---@field Text_Time UTextBlock
+---@field FunctionBPParam ULuaMapHelper

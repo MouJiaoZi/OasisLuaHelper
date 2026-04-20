@@ -1,0 +1,4 @@
+---@class bp_chat_main_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_ChannelType int32

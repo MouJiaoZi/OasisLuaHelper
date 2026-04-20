@@ -1,0 +1,10 @@
+---@class BP_MonsterBA_C:AUAEHouseActor
+---@field UserConstructionScript:fun()
+---@field BP_MonsterSpotComponent1 BP_MonsterSpotComponent_C
+---@field BP_MonsterSpotComponent5 BP_MonsterSpotComponent_C
+---@field BP_MonsterSpotComponent4 BP_MonsterSpotComponent_C
+---@field BP_MonsterSpotComponent3 BP_MonsterSpotComponent_C
+---@field BP_MonsterSpotComponent2 BP_MonsterSpotComponent_C
+---@field BP_MonsterSpotComponent BP_MonsterSpotComponent_C
+---@field BP_MonsterGroupSceneComponent BP_MonsterGroupSceneComponent_C
+---@field DefaultSceneRoot USceneComponent

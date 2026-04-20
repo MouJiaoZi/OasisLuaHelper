@@ -1,0 +1,3 @@
+---@class AvatarBehaviourFeature_ApplyPersistEffect_C:UAvatarBehaviorFeature
+---@field EffectClass UClass
+---@field Instance UPersistEffectBase

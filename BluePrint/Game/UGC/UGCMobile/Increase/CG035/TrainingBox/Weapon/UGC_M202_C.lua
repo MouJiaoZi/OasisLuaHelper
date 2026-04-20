@@ -1,0 +1,3 @@
+---@class UGC_M202_C:AActor
+---@field UserConstructionScript:fun()
+---@field SkeletalMesh USkeletalMeshComponent

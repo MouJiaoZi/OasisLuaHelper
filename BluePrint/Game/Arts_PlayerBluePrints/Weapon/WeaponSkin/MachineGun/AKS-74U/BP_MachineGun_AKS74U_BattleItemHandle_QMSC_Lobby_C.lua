@@ -1,0 +1,1 @@
+---@class BP_MachineGun_AKS74U_BattleItemHandle_QMSC_Lobby_C:UBackpackWeaponHandle

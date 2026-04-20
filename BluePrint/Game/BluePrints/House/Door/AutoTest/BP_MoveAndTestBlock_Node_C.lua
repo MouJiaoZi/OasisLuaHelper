@@ -1,0 +1,1 @@
+---@class BP_MoveAndTestBlock_Node_C:UATTaskNode_MoveAndTestBlock

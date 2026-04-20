@@ -1,0 +1,30 @@
+---@class ProfessionResult_C:UUAEUserWidget
+---@field RefreshGunsmithCoin:fun(Count:int32):bool
+---@field RefreshIcon:fun(obj:UObject,id:int32)
+---@field GetDisplayName:fun(skillID:int32,dataName:FString):FString,FString
+---@field CanvaPanelNum1 UCanvasPanel
+---@field CanvaPanelNum2 UCanvasPanel
+---@field CanvaPanelNum3 UCanvasPanel
+---@field CanvaPanelNum4 UCanvasPanel
+---@field CanvaPanelNum5 UCanvasPanel
+---@field HorizontalBox_KLJ UHorizontalBox
+---@field Image_BG UImage
+---@field Image_HeroIcon UImage
+---@field Image_Icon_Money UImage
+---@field Image_Line UImage
+---@field Text_heroLevel UTextBlock
+---@field Text_HeroName UTextBlock
+---@field Text_HeroTime UTextBlock
+---@field TextBlock_5 UTextBlock
+---@field TextBlock_7 UTextBlock
+---@field TextBlock_9 UTextBlock
+---@field TextBlock_11 UTextBlock
+---@field TextBlock_Distance UTextBlock
+---@field TextBlock_kill UTextBlock
+---@field TextBlock_KLJ_Money UTextBlock
+---@field TextBlock_Notobtained UTextBlock
+---@field TextBlock_out UTextBlock
+---@field TextBlock_Reply UTextBlock
+---@field Title UTextBlock
+---@field Value_speed UTextBlock
+---@field WidgetSwitcher_Title UWidgetSwitcher

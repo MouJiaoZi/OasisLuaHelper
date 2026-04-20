@@ -1,0 +1,1 @@
+---@class BP_ArmsRaceWeaponManagerComponent_C:UArmsRaceWeaponManagerComponent

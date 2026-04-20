@@ -1,0 +1,1 @@
+---@class MonsterHuman_Base_AnimBP_C:USTExtraMonsterAnimInstance

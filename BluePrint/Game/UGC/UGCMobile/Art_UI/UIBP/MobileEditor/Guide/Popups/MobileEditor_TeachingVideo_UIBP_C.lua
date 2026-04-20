@@ -1,0 +1,37 @@
+---@class MobileEditor_TeachingVideo_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field Seek:fun(Second:float):int32
+---@field GetVideoTime:fun():int32
+---@field LuaConstruct:fun()
+---@field IfUseNewVideo:fun():bool
+---@field ConstructVideoUI:fun()
+---@field IsPause:fun():bool
+---@field Reset:fun()
+---@field Stop:fun()
+---@field UpdateBtnStatus:fun()
+---@field StartTickProgressBar:fun(IfTick:bool)
+---@field TickProgressBar:fun()
+---@field IsPlaying:fun():bool
+---@field Resume:fun()
+---@field Pause:fun()
+---@field PlayURL:fun(Url:FString,IfLoop:bool)
+---@field Construct:fun()
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field CanvasPanel_IPX UCanvasPanel
+---@field CanvasPanel_Main UCanvasPanel
+---@field NewButton_Close UNewButton
+---@field NewButton_Mask UNewButton
+---@field NewButton_Pause UNewButton
+---@field NewButton_Play UNewButton
+---@field ProgressBar_Video UProgressBar
+---@field Slider_Video USlider
+---@field TextBlock_Time UTextBlock
+---@field TextBlock_Tips UTextBlock
+---@field WidgetSwitcher_State UWidgetSwitcher
+---@field IfTickProgressBar bool
+---@field VideoPlayer VideoPlayer_UIBP_C
+---@field Ifloop bool
+---@field URL FString
+---@field IfSlider bool
+---@field TeachingVideoTable UUAEDataTable
+---@field TeachingGroupTable UUAEDataTable

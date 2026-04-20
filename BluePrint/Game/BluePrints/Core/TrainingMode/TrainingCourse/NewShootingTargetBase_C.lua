@@ -1,0 +1,11 @@
+---@class NewShootingTargetBase_C:ANewTrainShootingPracticeTarget
+---@field GetLuaModule:fun():FString
+---@field GetNetRelevancyGroup:fun():FNetRelevancyGroup
+---@field AddMoveData:fun()
+---@field UserConstructionScript:fun()
+---@field SetNetRelevancyGroup:fun(Group:FNetRelevancyGroup)
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field NewMoveData ULuaArrayHelper
+---@field NetRelevancyGroup FNetRelevancyGroup
+---@field Type int32
+---@field MyTargetRoom MovingTargetRoom_C

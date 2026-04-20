@@ -1,0 +1,1 @@
+---@class BP_QK_Large_FlashHider_SHMAN_C:BP_QK_Large_FlashHider_C

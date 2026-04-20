@@ -1,0 +1,6 @@
+---@class EntireMapPlayerMarkInterface_C:UInterface
+---@field UpdateMultiMark:fun(bIsShow:bool,MultiMarkRenderTranslation:ULuaArrayHelper,Opacity:float,SlotSize:FVector2D):bool
+---@field GetIconDisplayWidget:fun()
+---@field UpdateMark:fun(IsShow:bool,MarkRenderTranslation:FVector2D,Opacity:float):bool
+---@field SetMarkDist:fun(Dist:int32,IsShow:bool):int32
+---@field SetMarkColor:fun(Color:FLinearColor):FLinearColor

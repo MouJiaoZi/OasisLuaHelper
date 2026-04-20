@@ -1,0 +1,1 @@
+---@class AIPathNavLink_fengshan_C:AAIPathNavLink

@@ -1,0 +1,82 @@
+---@class BP_Other_HuntingBow_C:BP_ShootWeaponBowBase_C
+---@field OverShoulder:fun(bState:bool):bool
+---@field PoseStateChange:fun(State:ESTEPoseState):bool
+---@field CheckIsOverShoulder:fun():bool
+---@field DelayShowMagFinish:fun()
+---@field GetEnableProneShoot:fun():bool
+---@field GetDelayEnterFullBowAnimTime:fun():float
+---@field ShouldApplyFullBowAnim:fun():bool
+---@field ResetHitEffect:fun()
+---@field ResetMagMeshMat:fun()
+---@field SetMagMat:fun(LoadObject:UObject)
+---@field SetMagStMesh:fun(LoadObject:UObject)
+---@field SetHitEffectDataAsset:fun(LoadObject:UObject)
+---@field CustomWeaponPartsEquipped:fun(WeaponSlotID:int32,IsEquipped:bool)
+---@field GetLocalBulletLaunchGravityScale:fun():float
+---@field GetLocalBulletLaunchtMaxNoGravityRange:fun():float
+---@field GetMaxNoGravityRangeOverride:fun(ShootID:int32):float,bool
+---@field GetLaunchGravityScaleOverride:fun(ShootID:int32):float,bool
+---@field GetMaxBulletFireSpeed:fun():float
+---@field ResetVehicleAccumulatgeList:fun()
+---@field RefreshAnimList:fun(Character:ASTExtraBaseCharacter)
+---@field DelayRefreshVehicleAccumulateList:fun()
+---@field GetCurrentVehicleWeaponAnimList:fun(Character:ASTExtraBaseCharacter,Vehicle:ASTExtraVehicleBase):UUAECharAnimListCompBase
+---@field ClearVehicleAnimCache:fun()
+---@field InitVehicleWeaponAnimList:fun():bool
+---@field RefreshVehicleAnimListState:fun(Character:ASTExtraBaseCharacter)
+---@field GetBulletFireSpeedFromEntity:fun(ShootID:int32):float
+---@field GetOwnerSTPlayer:fun():ASTExtraBaseCharacter
+---@field ShowMag:fun(Visible:bool,Force:bool)
+---@field BlueprintShouldFoldHand:fun():bool,bool
+---@field DelayRefreshAccumulateList:fun()
+---@field OnEquipBow:fun()
+---@field RefreshAnimListState:fun(Character:ASTExtraBaseCharacter)
+---@field StartFireFilter:fun():bool
+---@field CheckGunCollision:fun(StartCheckLoc:FVector,OutHit:FHitResult):FVector,bool
+---@field OnUnEquipBow:fun()
+---@field OnArrowShooted:fun()
+---@field UserConstructionScript:fun()
+---@field OnPushTrigger:fun()
+---@field OnReleaseTrigger:fun()
+---@field OnWeaponMagOut:fun()
+---@field OnWeaponMagIn:fun()
+---@field InitProxyBP:fun(OwnerTarget:AActor)
+---@field StartFire:fun()
+---@field ReceiveEndPlay:fun(EndPlayReason:EEndPlayReason)
+---@field BP_WeaponShovelCameraModify BP_WeaponShovelCameraModify_C
+---@field BP_HuntingBowPostFireState BP_HuntingBowPostFireState_C
+---@field WeaponAnimList_Other_HuntingBow_FullBow WeaponAnimList_Other_HuntingBow_FullBow_C
+---@field WeaponTriggerEventHandleEnergyBow UWeaponTriggerEventHandleEnergyBow
+---@field BowAccumulateEnergyState UBowAccumulateEnergyState
+---@field BowEnergyAccumulate UBowEnergyAccumulateComponent
+---@field WeaponAnimList_Other_HuntingBow_ADS WeaponAnimList_Other_HuntingBow_ADS_C
+---@field WeaponAnimList_Other_HuntingBow WeaponAnimList_Other_HuntingBow_C
+---@field ST_Mag UStaticMeshComponent
+---@field bUseIdleAnim_0_0 bool
+---@field IsOverShoulder_0 bool
+---@field IsProne bool
+---@field IsProhibitIcon bool
+---@field OverShoulderStand FCameraOffsetData
+---@field OverShoulderCrouch FCameraOffsetData
+---@field EnableAccEnergyPawnStateList ULuaArrayHelper
+---@field BulletSpeedCurve_0 UCurveFloat
+---@field LastFireAccTime float
+---@field FullBowAnimListActive bool
+---@field DeleyEnterFullBowAnimList FTimerHandle
+---@field DelayLeaveFulBowAnimList FTimerHandle
+---@field ADSBowAnimListActive bool
+---@field ExplosionEffectTemplate UClass
+---@field CacheVehicleAnimList_HuntingBow_FullBow UUAECharAnimListCompBase
+---@field IsInitVehicleWeaponAnimList bool
+---@field DelayEnterVehicleFullBowAnimList FTimerHandle
+---@field DelayLeaveVehicleFullBowAnimList FTimerHandle
+---@field FullBowVehicleAnimListActive bool
+---@field CharacterSeatIndex int32
+---@field BulletGravityCurve UCurveFloat
+---@field MaxNoGravityDisCurve UCurveFloat
+---@field ImpactEffectLoc FVector
+---@field LastFireAccPercent float
+---@field NotInFPPState EFreshWeaponStateType
+---@field bDealPushAndReleaseTrigger bool
+---@field OriginMagMesh UStaticMesh
+---@field IsHideCustomSwitchFPP bool

@@ -1,0 +1,14 @@
+---@class BackProfession_SkillModuleItem_UIBP_C:UUAEUserWidget
+---@field OnTouchEnded:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field ResetItem:fun()
+---@field OnTouchStarted:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field OnDragDetected:fun(MyGeometry:FGeometry,PointerEvent:FPointerEvent):UDragDropOperation
+---@field FinishLoad:fun(obj:UObject)
+---@field LoadItem:fun(PathString:FString,DefineID:FItemDefineID)
+---@field OnDragCancelled:fun(PointerEvent:FPointerEvent,Operation:UDragDropOperation)
+---@field Image_ItemIcon UImage
+---@field DefineID FItemDefineID
+---@field DefaultBrush FSlateBrush
+---@field ChatText int32
+---@field DefaultVisible bool
+---@field CanDrag bool

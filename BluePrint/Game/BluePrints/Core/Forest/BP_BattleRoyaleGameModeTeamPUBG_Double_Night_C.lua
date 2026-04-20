@@ -1,0 +1,1 @@
+---@class BP_BattleRoyaleGameModeTeamPUBG_Double_Night_C:ABP_BattleRoyaleGameModeTeamPUBG_Double_C

@@ -1,0 +1,1 @@
+---@class BP_AIWorldSoundManager_C:UAIWorldSoundManagerComponent

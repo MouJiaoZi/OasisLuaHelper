@@ -1,0 +1,6 @@
+---@class FBP_STRUCT_UIElemLayoutDetail
+---@field Scale FVector2D
+---@field Opacity float
+---@field AnchorType FAnchors
+---@field RelativePos FVector2D
+---@field OriginSize FVector2D

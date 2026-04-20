@@ -1,0 +1,8 @@
+---@class CG006_SandStormItem_UIBP_C:UMapUIMarkBaseWidget
+---@field UpdateSize:fun(InScale:float)
+---@field UpdateMarkSize:fun(inScale:float,inMapScale:float,MapScaleInUI:float)
+---@field OnUIBPCreate:fun(InState:FCustomMarkEventData,ParentState:EMarkParentWidget,inRealLevelToMapScale:float,inMapScale:float)
+---@field OnUIBPShow:fun(InState:FCustomMarkEventData)
+---@field SandStormArea UImage
+---@field AreaRadius float
+---@field ParentStateWidget EMarkParentWidget

@@ -1,0 +1,1 @@
+---@class BP_Other_PKM_BattleItemHandle_MNXD_B_C:BP_Other_PKM_BattleItemHandle_C

@@ -1,0 +1,6 @@
+---@class Replay_BaseProgressEventUIItem_C:UUAEUserWidget
+---@field InitUI:fun()
+---@field OB_ReplayUI_VideoList_Item_UIBP OB_ReplayUI_VideoList_Item_UIBP_C
+---@field EventInfo FReplayKillOrHitdownInfoUIModel
+---@field curplayBack UGameReplay
+---@field AdvanceTime float

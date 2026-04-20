@@ -1,0 +1,3 @@
+---@class RaceRrack_PlayerTopIcon_UIBP_C:UPlayerCharacterPositionWidget
+---@field Image_MVP UImage
+---@field Text_Score UTextBlock

@@ -1,0 +1,37 @@
+---@class BP_EscapeHelicopter_GunMaster_C:AEscapeHelicopter_GunMaster
+---@field GetLuaModule:fun():FString
+---@field AjustTriggerAreaLoc:fun(DeltaTime:float)
+---@field RefreshBoardUI:fun(TriggerActor:AActor,IsShow:bool)
+---@field DoFallingHeight:fun()
+---@field DoFlyTo:fun(TargetLocation:FVector)
+---@field UserConstructionScript:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field BP_BoardPlayer:fun(Player:ASTExtraBaseCharacter)
+---@field BP_SpawnAnimHelicopter:fun()
+---@field LuaBeginPlay:fun()
+---@field LuaTick:fun(DeltaTime:float)
+---@field Box3 UBoxComponent
+---@field Box2 UBoxComponent
+---@field Box1 UBoxComponent
+---@field Box UBoxComponent
+---@field TriggerArea UParticleSystemComponent
+---@field StaticMesh UStaticMeshComponent
+---@field SkeletalMesh USkeletalMeshComponent
+---@field BoardTriggerBox UBoxComponent
+---@field VehicleSpringArm UVehicleSpringArmComponent
+---@field Camera UCameraComponent
+---@field P_Plan_Propeller_04 UParticleSystemComponent
+---@field P_Plan_Propeller_03 UParticleSystemComponent
+---@field FlyDirection FVector
+---@field MaxFlySpeed float
+---@field HoverTimeCounter float
+---@field FallingHeightTimeCounter float
+---@field LocalPlayerBoardDone bool
+---@field FlyAnimTime float
+---@field CameraWorldLocation FVector
+---@field CameraWorldRotation FRotator
+---@field AnimHelicopterSpawnTrans FTransform
+---@field TriggerAreaLocInitDone bool
+---@field HideHoverIconDone bool
+---@field HoverIconInstanceID int32
+---@field AjustTriggerAreaCounter float

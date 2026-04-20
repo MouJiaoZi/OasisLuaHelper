@@ -1,0 +1,8 @@
+---@class FragmentGrenadePosition_UIBP_C:UUAEAttachActorUI
+---@field GetGrenadeSmokeRemainingTime:fun(GrenadeSmoke:AActor):float
+---@field UpdateGrenadeCoundDown:fun()
+---@field Construct:fun()
+---@field Image_5 UImage
+---@field Image_SmokeBar UImage
+---@field WidgetSwitcher_Type UWidgetSwitcher
+---@field MaxReaminingTime float

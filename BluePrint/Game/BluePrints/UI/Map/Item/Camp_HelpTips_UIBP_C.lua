@@ -1,0 +1,4 @@
+---@class Camp_HelpTips_UIBP_C:UUserWidget
+---@field SetContent:fun(InputText:FText)
+---@field Button_0 UButton
+---@field SettingTipsContent UMultiLineEditableText

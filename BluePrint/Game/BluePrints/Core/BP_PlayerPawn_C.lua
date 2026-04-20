@@ -1,0 +1,210 @@
+---@class BP_PlayerPawn_C:ASTExtraPlayerCharacter
+---@field Event_OnMoveBlock:fun(NewParam:ASTExtraCharacter,NewParam1:FHitResult)
+---@field BindMoveBlockEvent:fun()
+---@field RefreshWeaponSight:fun()
+---@field TickCheckSwimPose:fun()
+---@field TestReportSwimPoseException:fun()
+---@field ReportSwimPoseException:fun(WorldObject:UObject):FString
+---@field ReportKillerHidden:fun(EventInstigator:UObject,DamageCauser:AActor)
+---@field IsAngleSightRotateNotZero:fun():bool
+---@field DoControllerArrived:fun()
+---@field CustomEventChangeFPPFOV:fun(NewParam:int32)
+---@field CustomEventChangeTPPFOV:fun(NewParam:int32)
+---@field IsHoldAimButton:fun():bool
+---@field GetEmoteHandlePath:fun(ItemID:int32):FString,bool
+---@field GetAngledSightRotator:fun(NewParam:ASTExtraShootWeapon):FRotator
+---@field GetIsEffectMotionEmote:fun(EmoteID:int32):bool
+---@field ReplayCreateEnemyFrameUI:fun():bool
+---@field GetDisallowedStates:fun(ActivityID:int32):ULuaArrayHelper
+---@field RegisterModifiedAttributesInternal:fun()
+---@field TriggerActivityByID:fun(GetNameOnly:bool):FString,int32
+---@field GetAHUD:fun():bool,UFrontendHUD
+---@field IsAngledSightAvailable:fun():bool
+---@field RefreshAngledSightUI:fun(HaveAngledSight:bool,IsAngledSIght:bool)
+---@field ShowAngledSightState:fun(IsAngledSight:bool)
+---@field AngledSightAnimLogic:fun(Selection:EAngledSightType):bool
+---@field AngledSightAnimUpdate:fun(InputPin:float,bIsOnlyTurn:bool)
+---@field GetGrenadeCameraShakeByDir:fun(impulseDir:FVector):UClass
+---@field GetEmoteHandle:fun(ItemID:int32):UBackpackEmoteHandle
+---@field GetThirdPersonCamera:fun():UCameraComponent
+---@field GetThirdPersonSpringArm:fun():USpringArmComponent
+---@field GetFirstPersonCamera:fun():UCameraComponent
+---@field GetFirstPersonSpringArm:fun():USpringArmComponent
+---@field GetScopeCamera:fun():UCameraComponent
+---@field GetNonSimulatedComponents_OnFighting:fun():ULuaArrayHelper
+---@field ShouldAutoScopeWhenPeek:fun():bool
+---@field GetNonSimulatedComponents_NonTeammates:fun():ULuaArrayHelper
+---@field GetControllerViewCamera:fun():UCameraComponent
+---@field CheckAutoMove:fun()
+---@field GetNonSimulatedComponents:fun():ULuaArrayHelper
+---@field GetNonDedicatedComponents:fun():ULuaArrayHelper
+---@field HandleOnDetachedVehicle:fun(NewParam:ASTExtraVehicleBase)
+---@field HandleOnAttachedVehicle:fun(InVehicle:ASTExtraVehicleBase)
+---@field AimInterupted:fun()
+---@field TestShowMesh:fun()
+---@field GetWeapon:fun():FVector,FRotator,bool
+---@field ClientHandlePreOnPlane:fun()
+---@field ResetBPCameraSetting:fun()
+---@field ShowDebugArrow:fun(self2:USceneComponent,InRot:FRotator,color:FLinearColor)
+---@field isAutonomous:fun():bool
+---@field Pickup:fun(NewParam:APickUpWrapperActor)
+---@field DoPickUpTarget:fun()
+---@field RotateMesh:fun(NewParam:FRotator)
+---@field SetAllCollisionEnabled:fun(bEnable:bool)
+---@field MoveOutScope:fun()
+---@field Reload:fun()
+---@field UserConstructionScript:fun()
+---@field SwitchCameraFromParachuteOpeningToTPPBeginPlay:fun()
+---@field SwitchCameraFromParachuteOpeningToTPPStop:fun()
+---@field ReceiveEndPlay:fun(EndPlayReason:EEndPlayReason)
+---@field BPNotifyStartDying:fun(Killer:AController,DamageCauser:AActor,KillingHitInfo:FHitResult,KillingHitImpulseDir:FVector,KillingHitDamageType:UClass)
+---@field OnEquipWeapon:fun(slot:ESurviveWeaponPropSlot)
+---@field OnNotifyHurt:fun()
+---@field OnLanded:fun(Hit:FHitResult)
+---@field OnPoseStateChange:fun(LastState:ESTEPoseState,CurState:ESTEPoseState)
+---@field K2_UpdateCustomMovement:fun(DeltaTime:float)
+---@field BPReceiveDamage:fun(Damage:float,DamageType:UDamageType,InstigatedBy:AController,DamageCauser:AActor)
+---@field OnUnEquipWeapon:fun()
+---@field BPResetCharacter:fun()
+---@field VaultFailPawnBluePrint:fun(content:FString)
+---@field PawnVaultServerBluePrint:fun(dis:float,height:float,length:float,VaultKey:FString,startPos:FVector,checkActor:AActor,crossblockMaxFall:float,crossblockMaxDis:float,hitpoint:FVector,WindowActor:AActor,movedir:FRotator)
+---@field PawnVaultAllBluePrint:fun(dis:float,height:float,length:float,VaultKey:FString,startPos:FVector,checkActor:AActor,crossblockMaxFall:float,crossblockMaxDis:float,hitpoint:FVector,movedir:FRotator)
+---@field BPReceiveRadialDamage:fun(DamageReceived:float,DamageType:UDamageType,Origin:FVector,Radius:float,HitInfo:FHitResult,InstigatedBy:AController,DamageCauser:AActor,ImpulseDir:FVector)
+---@field ReceivePossessed:fun(NewController:AController)
+---@field ParachutePlaySound:fun(LocalAkEvent:UAkAudioEvent,RemoteAkEvent:UAkAudioEvent)
+---@field OnDetectPaintDecalTarget:fun(bStart:bool)
+---@field PawnVaultServerStopCheckBluePrint:fun()
+---@field PawnVaultStopBluePrint:fun()
+---@field OnBPIsInvincibleChange:fun()
+---@field OnWeaponEquipmentUpdate:fun()
+---@field OnBPStateCheckIn:fun()
+---@field OnMiniTreeTriggerServerLogicCPP:fun(ExMsg:FString)
+---@field BP_RegisterModifiedAttributes:fun()
+---@field SwitchSightAngledLocal:fun(type:EAngledSightType,IsOnlyTurn:bool)
+---@field DoFootEffectTarget:fun(bStart:bool)
+---@field BPOnRespawned:fun()
+---@field ServerForceStopVaultBluePrint:fun()
+---@field BPDie:fun(KillingDamage:float,EventInstigator:AController,DamageCauser:AActor,KillingHitInfo:FHitResult,KillingHitImpulseDir:FVector,DamageEvent:FDamageEvent,IsClient:bool,IsPointDamage:bool,IsHeadShotDamage:bool,damageTypeID:int32)
+---@field SetWeaponSightStateLocal:fun(IsOpenWeaponSight:bool)
+---@field OnRearSightChange__DelegateSignature:fun(RearIndex:int32)
+---@field OnWeaponAttachmentChange__DelegateSignature:fun()
+---@field ScopeInComplete__DelegateSignature:fun()
+---@field UnequipWeaponComplete__DelegateSignature:fun()
+---@field EquipWeaponComplete__DelegateSignature:fun()
+---@field ScopingCamera USimpleOBCameraComponent
+---@field STExtraScopeSpring USTExtraScopeSpringComponent
+---@field Vault_Controller Vault_Controller_C
+---@field Camera UCustomCameraComponent
+---@field BP_SearchVehicleRadarComp BP_SearchVehicleRadarComp_C
+---@field PlayerGunCollision BP_PlayerGunCollision_C
+---@field ShoulderCameraSpringArm USpringArmComponent
+---@field ShoulderCameraOffset USceneComponent
+---@field BP_CharacterFieldOfViewNotificationComponent BP_CharacterFieldOfViewNotificationComponent_C
+---@field GiftGiverComp_BP GiftGiverComp_BP_C
+---@field AngledSightHoldComp HoldComponent_C
+---@field CharacterAnimList_Skill CharacterAnimList_Skill_C
+---@field UAESkillManager PlayerSkillComp_BP_C
+---@field LevelActive ULevelActiveComponent
+---@field AimAndFireComponent AimAndFireComponent_C
+---@field CrowdAgent UCrowdAgentComponent
+---@field CharacterAnimList_Parachute CharacterAnimList_Parachute_C
+---@field BuildSystemComp_BP BuildSystemComp_BP_C
+---@field PeekHoldComp HoldComponent_C
+---@field AimHoldComp HoldComponent_C
+---@field ObserverCameraFPPMode UObserverCameraComponent
+---@field FPPSpringArm UFPPSpringArmComponent
+---@field FPPComponent FPPComponent_C
+---@field HitBox_Prone UCapsuleComponent
+---@field HitBox_Stand UCapsuleComponent
+---@field CharacterAvatarComp_BP CharacterAvatarComp_BP_C
+---@field BP_SwimController BP_SwimController_C
+---@field CharacterWeaponManager UCharacterWeaponManagerComponent
+---@field CharacterAnimList_Base CharacterAnimList_Base_C
+---@field PickupManager UPickupManagerComponent
+---@field CustomSpringArm UCustomSpringArmComponent
+---@field CameraSettingComponent CameraSettingComponent_C
+---@field ScopeTimeline UTimelineComponent
+---@field Timeline_0 UTimelineComponent
+---@field AngledSigntTimeline UTimelineComponent
+---@field ParachuteCamBlend UTimelineComponent
+---@field LerpAlpha UTimelineComponent
+---@field TurnLerpAlpha UTimelineComponent
+---@field DamageSphereDMI UMaterialInstanceDynamic
+---@field bCrouch bool
+---@field ReloadingCDMax float
+---@field LastInAirVelocityVector FVector
+---@field VelocityVector FVector
+---@field Speed float
+---@field Moving bool
+---@field LastVelocityRotation FRotator
+---@field TurnInPlaceRotation FRotator
+---@field TurnInPlaceStart FRotator
+---@field TurnInPlaceTarget FRotator
+---@field TurningInPlace bool
+---@field LocomotionState uint8
+---@field Jumped bool
+---@field ProneCameraHeight float
+---@field CameraMoveSpeed float
+---@field UseFirstPersonPerspective bool
+---@field MeleeAttackRange float
+---@field MeleeAttackDamage float
+---@field CurCameraMode EPlayerCameraMode
+---@field StandCameraSetting FSTR_CameraSetting
+---@field TerreneNormal FRotator
+---@field Normal FVector
+---@field PickUpTarget APickUpWrapperActor
+---@field bIsPicking bool
+---@field EquipWeaponComplete ULuaMulticastDelegate
+---@field UnequipWeaponComplete ULuaMulticastDelegate
+---@field CrouchCameraHeight float
+---@field PickupDelayTime float
+---@field ParachuteComponent_0 USkeletalMeshComponent
+---@field SwimCameraHeight float
+---@field SwimTargetRoll float
+---@field SwimUpRateFix float
+---@field SwimRotateSpeed float
+---@field VaultEnter bool
+---@field putoffItem FItemDefineID
+---@field additionalData ULuaArrayHelper
+---@field autoEquip bool
+---@field SpringArms ULuaArrayHelper
+---@field Cameras ULuaArrayHelper
+---@field CurActiveSpringArm USpringArmComponent
+---@field UseTurniinPlace bool
+---@field ElapseTime float
+---@field SwimRotateX float
+---@field CurPoseState ESTEPoseState
+---@field PaintDecalDetectComp UChildActorComponent
+---@field PaintDecalDetector BP_PaintDecalDetectLine_C
+---@field ScopeInComplete ULuaMulticastDelegate
+---@field MaterialBoard UMaterialBillboardComponent
+---@field HPMaterial UMaterialInstanceDynamic
+---@field DieoutFlag UBillboardComponent
+---@field bIsAngledSightOnlyTurn_0 bool
+---@field TargetAttachComponent UMeshComponent
+---@field OriginAttachComponent UMeshComponent
+---@field OriginRotOffset FRotator
+---@field TargetDollyZoomParam FDollyZoomParam
+---@field OriginDollyZoomParam FDollyZoomParam
+---@field FrameUIBillboard UMaterialBillboardComponent
+---@field OnWeaponAttachmentChange ULuaMulticastDelegate
+---@field LocalPlayerPos FVector
+---@field FinalPaticalScale FVector
+---@field DisallowStateCache ULuaArrayHelper
+---@field FootEffectDetector UObject
+---@field FootEffectDetectComp UChildActorComponent
+---@field AngledSIghtSetMaterial bool
+---@field HurtSound_Male UAkAudioEvent
+---@field HurtSound_Female UAkAudioEvent
+---@field OnRearSightChange ULuaMulticastDelegate
+---@field RearSightRotationOffset ULuaArrayHelper
+---@field NewVar_1 ULuaArrayHelper
+---@field NewVar_2 FVector
+---@field RealDeathSound_Male FString
+---@field RealDeathSound_Female FString
+---@field TPPFOV float
+---@field DebugCheckSwimPoseExceptionTimer float
+---@field bDebugCheckSwimPoseException bool
+---@field DebugExceptionCounter int32
+---@field TickCheckSwimPoseTimeHandle FTimerHandle
+---@field CheckSwimObjectType ULuaArrayHelper

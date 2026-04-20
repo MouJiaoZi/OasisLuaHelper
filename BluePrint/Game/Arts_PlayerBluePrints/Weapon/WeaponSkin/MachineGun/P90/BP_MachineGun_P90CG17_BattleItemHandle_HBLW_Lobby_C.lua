@@ -1,0 +1,1 @@
+---@class BP_MachineGun_P90CG17_BattleItemHandle_HBLW_Lobby_C:UBackpackWeaponHandle

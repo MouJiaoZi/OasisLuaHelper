@@ -1,0 +1,16 @@
+---@class BP_BattleRoyaleGameMode_Borderland_1_C:ABattleRoyaleGameModeBorderland
+---@field IsPlayerAlive:fun(PlayerState:ASTExtraPlayerState):bool
+---@field IsEnableTeamAssembleDisplay:fun():bool
+---@field UserConstructionScript:fun()
+---@field CircleMgr UCircleMgrComponent
+---@field AIGridLocationManager UAIGridLocationManagerComponent
+---@field BP_WeatherGeneratorComponent BP_WeatherGeneratorComponent_C
+---@field AirAttack UAirAttackComponent
+---@field AirDrop UAirDropComponent
+---@field DefaultSceneRoot USceneComponent
+---@field BP_AIWorldSoundManager BP_AIWorldSoundManager_C
+---@field AIGroupManager UAIGroupManagerComponent
+---@field AnimalTeleport UAnimalTeleportComponent
+---@field SpawnMonsterHelperComp USpawnMonsterHelperComp
+---@field AirCraftLocation ULuaArrayHelper
+---@field AirCraftRotation ULuaArrayHelper

@@ -1,0 +1,2 @@
+---@class NGCondition_HappyMJ_FirstGetRequireTile_C:USTNewbieGuideConditionBase
+---@field GetLuaModule:fun():FString

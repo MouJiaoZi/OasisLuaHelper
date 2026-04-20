@@ -1,0 +1,1 @@
+---@class WeaponAnimList_Other_SawedOffM79_C:UUAECharacterAnimListComponent

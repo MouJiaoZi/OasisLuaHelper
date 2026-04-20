@@ -1,0 +1,6 @@
+---@class Zombie_InGame_Tips_UIBP_C:UUAEUserWidget
+---@field ShowBattleTipsByID:fun(TipsID:FString)
+---@field ShowWDZombieRankingUI:fun()
+---@field ReceivedInitWidget:fun()
+---@field DX_Tips UWidgetAnimation
+---@field UTRichTextBlock_Zombie_Tips UUTRichTextBlock

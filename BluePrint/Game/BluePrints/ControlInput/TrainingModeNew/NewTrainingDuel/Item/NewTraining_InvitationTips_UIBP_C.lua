@@ -1,0 +1,14 @@
+---@class NewTraining_InvitationTips_UIBP_C:UUAEUserWidget
+---@field SetBattleType:fun(BattleType:int32)
+---@field DX_InviteTips_OUT UWidgetAnimation
+---@field DX_InviteTips_IN UWidgetAnimation
+---@field Button_Agree UButton
+---@field Button_Refuse UButton
+---@field CanvasPanel_InvitationTips UCanvasPanel
+---@field Common_Avatar_BP_C_1 Common_Avatar_BP_C
+---@field Common_RankTitleInfo Common_RankTitleInfo_UIBP_C
+---@field Image_MapIcon1 UImage
+---@field Text_Name UTextBlock
+---@field TextBlock_Time UTextBlock
+---@field TextBlock_Type UTextBlock
+---@field BattleTypeText FText

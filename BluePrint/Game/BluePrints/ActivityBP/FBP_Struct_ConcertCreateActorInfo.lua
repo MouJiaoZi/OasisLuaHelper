@@ -1,0 +1,4 @@
+---@class FBP_Struct_ConcertCreateActorInfo
+---@field SoftClass UClass
+---@field SpawnTrans FTransform
+---@field CreateOnDS bool

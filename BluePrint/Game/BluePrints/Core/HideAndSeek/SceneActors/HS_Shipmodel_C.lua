@@ -1,0 +1,1 @@
+---@class HS_Shipmodel_C:AHiderSceneActorBase_C

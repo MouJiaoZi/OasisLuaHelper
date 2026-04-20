@@ -1,0 +1,4 @@
+---@class BP_TaskAreaDefineTool_C:ATaskAreaDefineActor
+---@field UserConstructionScript:fun()
+---@field DefaultSceneRoot USceneComponent
+---@field TaskAreaDataArray FTaskAreaData

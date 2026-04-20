@@ -1,0 +1,36 @@
+---@class BP_Pistol_Flaregun_C:ASTExtraFlareGunShootWeapon
+---@field CheckShootEnviroment:fun():bool
+---@field OnRepHandleCreated:fun(InItemDefineID:FItemDefineID,InHandle:UBattleItemHandleBase)
+---@field OnWeaponMagIn:fun()
+---@field OnWeaponMagOut:fun()
+---@field BeginRegReloadEvent:fun()
+---@field BP_PawnAttachMesh:fun():UMeshComponent
+---@field BP_OnWeaponReloadStart:fun()
+---@field BP_OnWeaponReloadEnd:fun()
+---@field ResetCamera:fun()
+---@field UserConstructionScript:fun()
+---@field PlayLocalShellDropFX:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field BP_WeaponDynamicAnimListManager BP_WeaponDynamicAnimListManager_C
+---@field WeaponAnimList_Pistol_FlareGun WeaponAnimList_Pistol_FlareGun_C
+---@field FlareGunCrossHair UFlareGunCrossHairComponent
+---@field STEFlareGuntProject USTEFlareGuntProjectComponent
+---@field BulletHitInfoUpload UBulletHitInfoUploadComponent
+---@field ShootWeaponEntity UShootWeaponEntity
+---@field WeaponStateDefault UWeaponStateDefault
+---@field NoBulletWeaponState UNoBulletWeaponState
+---@field FireWeaponState UFireWeaponState
+---@field ReloadWeaponState UReloadWeaponState
+---@field IdleWeaponState UIdleWeaponState
+---@field InactiveWeaponState UInactiveWeaponState
+---@field ShootWeaponStateManager UShootWeaponStateManager
+---@field ShootWeaponEffect UShootWeaponEffectComponent
+---@field BulletTrack UBulletTrackComponent
+---@field bUseIdleAnim bool
+---@field Fov float
+---@field normalShotVoiceDis float
+---@field SlienceShotVoiceDis float
+---@field MagComp UMeshComponent
+---@field MagCompAttachSocket FName
+---@field bClientNeedSyncBullet bool
+---@field bOverrideFlareBulletAssetLoadFinished bool

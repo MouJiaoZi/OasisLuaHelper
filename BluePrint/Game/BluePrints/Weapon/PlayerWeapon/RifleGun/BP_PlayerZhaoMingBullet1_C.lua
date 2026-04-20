@@ -1,0 +1,4 @@
+---@class BP_PlayerZhaoMingBullet1_C:ASTExtraFlareGunBullet
+---@field UserConstructionScript:fun()
+---@field PointLight UPointLightComponent
+---@field Ak UAkComponent

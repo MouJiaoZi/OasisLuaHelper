@@ -1,0 +1,92 @@
+---@class BP_MonsterSpawner_C:BP_UGCMobileBaseActor_C
+---@field GetSkeletalMesh:fun():USkeletalMeshComponent
+---@field GetLuaModule:fun():FString
+---@field GetMonsterColorIcon:fun(ClassId:int32,ColorIconIdx:int32):Struct_UGCM_ColorIcon
+---@field GetWaypointData:fun():ULuaArrayHelper
+---@field IsEnemyRelation:fun(Character:ASTExtraPlayerCharacter):bool
+---@field DetectAroundEnemyChange:fun(OverlapCheckActorArray:FOverlapCheckActorArray)
+---@field ProcessSpawnEventEnable:fun()
+---@field ProcessMoveEventEnable:fun()
+---@field LuaOnLandModified:fun()
+---@field LuaOnBehaviorModified:fun()
+---@field LuaOnSkeletalMeshUpdate:fun()
+---@field MonsterLocomotion:fun(MonsterInstance:BP_UGCM_GenericMobPawn_C)
+---@field GetCDOByPath:fun(AssetReference:FString):UObject
+---@field GetValidPosAround:fun(Pawn:AActor,Pos:FVector,Rot:FRotator,Radius:float,halfSize:float):FVector
+---@field CheckMonsterListValid:fun():bool
+---@field GetMonsterBlackBoard:fun(Monster:BP_UGCM_GenericMobPawn_C):UBlackboardComponent
+---@field NotifyMonsterEvent:fun(MonsterInstance:BP_UGCM_GenericMobPawn_C,MonsterInfo:Struct_UGCM_MonsterInfo)
+---@field DetectAroundEnemy:fun(OverlapActorArray:FOverlapActorArray)
+---@field UnitConversion:fun(m:float):float
+---@field UpdateLandLocation:fun()
+---@field LuaSetMonsterProperty:fun(MonsterInstance:BP_UGC_GenericMobPawn_Base_C,MonsterInfo:Struct_UGCM_MonsterInfo)
+---@field StopMonsterSpawnTimer:fun()
+---@field GetMonsterInfoByID:fun(MonsterID:int32):Struct_UGCM_MonsterInfo
+---@field UpdateSkeletalMesh:fun(bForce:bool)
+---@field MonsterAliveChange:fun(InMonster:BP_UGC_GenericMobPawn_Base_C,bAlive:bool)
+---@field SpawnOneMonster:fun()
+---@field SetMonsterProperty:fun(MonsterInstance:BP_UGCM_GenericMobPawn_C,MonsterInfo:Struct_UGCM_MonsterInfo)
+---@field CanSpawnMonster:fun():bool
+---@field AdjustSpawnerEnable:fun(IsEnable:bool)
+---@field SpawnWaveMonster:fun()
+---@field StartSpawnMonster:fun()
+---@field PrintDebugString:fun(Info:FString)
+---@field GetMonsterClassPathByID:fun(ClassID:int32):FString
+---@field GenerateMonsterBaseIndex:fun():Struct_UGCM_MonsterInfo
+---@field GenerateMonsterBaseWeight:fun():Struct_UGCM_MonsterInfo
+---@field GetNextMonster:fun():Struct_UGCM_MonsterInfo
+---@field UserConstructionScript:fun()
+---@field DetectArea USphereComponent
+---@field SkeletalMesh USkeletalMeshComponent
+---@field OverlapCheckArea UOverlapCheckAreaComponent
+---@field MonsterCampRelation Enum_MonsterCampRelation
+---@field MonsterCampID int32
+---@field GenerationStrategy Enum_MonsterGenerationStrategy
+---@field WeightMonsterList Struct_UGCM_WeightMonsterInfosList
+---@field OrderMonsterList Struct_UGCM_WeightMonsterInfosList
+---@field GenerationTiming Enum_MonsterGenerationTiming
+---@field MonsterNum int32
+---@field DetectionArea float
+---@field GenerateInterval int32
+---@field GenerationPosition Enum_MonsterGenerationPosition
+---@field PositionRadius float
+---@field PlayerMinDistance float
+---@field Behavior Enum_MonsterBehavior
+---@field PatrolRadius float
+---@field NumLimit int32
+---@field AliveLimit int32
+---@field AutoEnable bool
+---@field Event_SendAllMonsterDead FUGCMobileObjectEvent
+---@field Event_SendMonsterDead FUGCMobileObjectEvent
+---@field Action_ReceiveSpawnerEnable FUGCMobileObjectAction
+---@field Action_ReceiveSpawnerDisable FUGCMobileObjectAction
+---@field Action_ReceiveSpawnMonster FUGCMobileObjectAction
+---@field Action_ReceiveClearMonster FUGCMobileObjectAction
+---@field OrderIdx int32
+---@field SpawnMonsterHandle FTimerHandle
+---@field AliveMonsterNum int32
+---@field SpawnMonsterNum int32
+---@field SpawnerEnable bool
+---@field IsStarting bool
+---@field WayPointStruct Struct_UGCM_WayPoints
+---@field MonsterClassRefenerce ULuaArrayHelper
+---@field DefaultMonster Struct_DefaultMonsterShow
+---@field PatrolTiming Enum_PatrolTiming
+---@field PatrolDelay float
+---@field PatrolDuration float
+---@field PatrolEndStrategy Enum_PatrolEndStrategy
+---@field Action_ReceiveStartMove FUGCMobileObjectAction
+---@field Action_ReceiveStopMove FUGCMobileObjectAction
+---@field Action_ReceiveMoveNextWayPoint FUGCMobileObjectAction
+---@field Action_ReceiveMoveToEnd FUGCMobileObjectAction
+---@field Action_ReceiveMoveBackSpawnLocation FUGCMobileObjectAction
+---@field bEvent_MoveNext bool
+---@field bEvent_StartMove bool
+---@field bEvent_MoveToEnd bool
+---@field bEvent_MoveBackSpawnLocation bool
+---@field MeshBoxExtent FVector
+---@field PreviewID int32
+---@field MeshRTEOffset ULuaMapHelper
+---@field EnemyNum int32
+---@field bEvent_PauseMove bool
+---@field LastPreviewID int32

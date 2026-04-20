@@ -1,0 +1,1 @@
+---@class VRSpectatorPawn_Hider_C:AVRSpectatorPawn_C

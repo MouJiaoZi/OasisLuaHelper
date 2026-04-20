@@ -1,0 +1,30 @@
+---@class ConsumableCenterItem_C:UUAEUserWidget
+---@field Construct:fun()
+---@field OnItemRelease__DelegateSignature:fun()
+---@field OnItemClick__DelegateSignature:fun(index:int32)
+---@field UpdateItemPressorRelease__DelegateSignature:fun(index:int32,isPress:bool)
+---@field Border_0 UBorder
+---@field Btn UNewButton
+---@field CanvasPanel_Four UCanvasPanel
+---@field CanvasPanel_New UCanvasPanel
+---@field Image_6 UImage
+---@field Image_Changan UImage
+---@field Image_Owning01 UImage
+---@field Image_Owning02 UImage
+---@field Image_Owning03 UImage
+---@field Image_Owning04 UImage
+---@field Image_Owning05 UImage
+---@field Image_Owning06 UImage
+---@field Image_Owning07 UImage
+---@field Image_Owning08 UImage
+---@field Image_Owning1 UImage
+---@field Image_Owning2 UImage
+---@field Image_Owning3 UImage
+---@field Image_Owning4 UImage
+---@field Image_Select UImage
+---@field ThrowItem_01 UImage
+---@field ThrowText_01_num UTextBlock
+---@field UpdateItemPressorRelease ULuaMulticastDelegate
+---@field OnItemClick ULuaMulticastDelegate
+---@field OnItemRelease ULuaMulticastDelegate
+---@field Index int32

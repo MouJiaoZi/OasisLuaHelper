@@ -1,0 +1,9 @@
+---@class bp_corps_create_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_CorpsCreate_Name FString
+---@field BP_CorpsCreate_Currency_Price int32
+---@field BP_CorpsCreate_Currency_Icon_ID int32
+---@field BP_CorpsCreate_City FString
+---@field BP_CorpsCreate_Announcement FString
+---@field BP_CorpsCreate_Currency_Own FString

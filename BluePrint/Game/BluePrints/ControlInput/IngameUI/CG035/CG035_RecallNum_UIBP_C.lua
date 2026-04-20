@@ -1,0 +1,10 @@
+---@class CG035_RecallNum_UIBP_C:UUAEUserWidget
+---@field IsShowPlayerNum:fun()
+---@field UpdateText:fun(PlayerNum:int32)
+---@field UIMsg_OnPlayerControllerStateChanged:fun()
+---@field UIMsg_Ongamemodestatechanged:fun()
+---@field Construct:fun()
+---@field CanvasPanel_7 UCanvasPanel
+---@field Image_IngameLogo UImage
+---@field TextBlock_Num UTextBlock
+---@field NotShowModeList ULuaSetHelper

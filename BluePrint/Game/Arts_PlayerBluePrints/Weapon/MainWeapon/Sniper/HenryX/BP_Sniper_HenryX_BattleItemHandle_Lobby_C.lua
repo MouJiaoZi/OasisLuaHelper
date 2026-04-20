@@ -1,0 +1,1 @@
+---@class BP_Sniper_HenryX_BattleItemHandle_Lobby_C:UBackpackWeaponHandle

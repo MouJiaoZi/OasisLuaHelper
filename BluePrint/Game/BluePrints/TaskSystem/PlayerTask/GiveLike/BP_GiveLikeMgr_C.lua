@@ -1,0 +1,21 @@
+---@class BP_GiveLikeMgr_C:ATaskPoolObj
+---@field GetOperationID:fun():int32
+---@field GetTaskIDAndTaskTypeID:fun():ULuaArrayHelper,ULuaArrayHelper
+---@field ChooseRandomText:fun(Text1:int32,Text2:int32,Text3:int32,Text4:int32,Text5:int32,Text6:int32):int32
+---@field GetDataFromExcellentEventTable:fun(ExcellentType:int32):int32,int32,int32
+---@field GetDataFromGiveLikeTaskTable:fun(TaskID:int32,ExcellentType:int32):int32,int32,int32,bool
+---@field UserConstructionScript:fun()
+---@field DefaultSceneRoot USceneComponent
+---@field TeamIDMap ULuaMapHelper
+---@field TextArray ULuaArrayHelper
+---@field TaskTypeIDArray ULuaArrayHelper
+---@field TaskIDArray ULuaArrayHelper
+---@field GiveLikeNetDataInstanceID UObject
+---@field GiveLikeType int32
+---@field GiveLikeIsOB bool
+---@field IsClicked bool
+---@field OperationID int32
+---@field GiveLikePlayerUID FString
+---@field CauserPlayerKey FString
+---@field CauserPlayerUID FString
+---@field TeamID int32

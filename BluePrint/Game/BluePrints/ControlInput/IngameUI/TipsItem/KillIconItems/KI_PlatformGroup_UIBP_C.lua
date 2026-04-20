@@ -1,0 +1,9 @@
+---@class KI_PlatformGroup_UIBP_C:UKillIconBase_UIBP_C
+---@field GetConfigLeft:fun():bool
+---@field GetTextureByPlatformID:fun(ResID:int32):UTexture2D
+---@field SetPlatformGroupIcon:fun(PlatformID:int32)
+---@field CanvasPanel_PlatformGroup UCanvasPanel
+---@field Image_platformIcon UImage
+---@field KillTable TScriptInterface
+---@field CurPlatformIconMap ULuaMapHelper
+---@field config int32

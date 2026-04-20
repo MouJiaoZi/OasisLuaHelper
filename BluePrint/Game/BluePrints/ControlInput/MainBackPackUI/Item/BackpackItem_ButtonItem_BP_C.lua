@@ -1,0 +1,15 @@
+---@class BackpackItem_ButtonItem_BP_C:UUAEUserWidget
+---@field UpdateButtonState:fun(IsUseLess:bool,ItemData:FBattleItemData)
+---@field Button_3 UButton
+---@field Button_Drop UButton
+---@field Button_DropAll UButton
+---@field Button_DropPartly UButton
+---@field Button_Equip UButton
+---@field GridPanel_DropPartlyDisableState UGridPanel
+---@field HorizontalBox_Throw UHorizontalBox
+---@field HorizontalBox_WeaponFit UHorizontalBox
+---@field UnableToEquip UGridPanel
+---@field VerticalBox_0 UVerticalBox
+---@field MyItemData FBattleItemData
+---@field ParentBP BackPackItem_BP_C
+---@field IsUseless bool

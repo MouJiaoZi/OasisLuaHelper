@@ -1,0 +1,1 @@
+---@class PESkill_UGC_Stegosaurus_Attack_C:PESkillTemplate_Base_C

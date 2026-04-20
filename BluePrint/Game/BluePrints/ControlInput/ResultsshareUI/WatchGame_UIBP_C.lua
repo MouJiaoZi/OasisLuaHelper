@@ -1,0 +1,154 @@
+---@class WatchGame_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field OnSelectCampModePlayer:fun(UID:FString)
+---@field IsCampMode:fun():bool
+---@field UIMsg_RemoveEnemyDistanceUI:fun(Pawn:ACharacter)
+---@field UIMsg_CreateEnemyDistanceUI:fun(Pawn:ACharacter)
+---@field TickForPlayerItem:fun()
+---@field UIMsg_HidePlayerItemInMap:fun(Pawn:ACharacter)
+---@field UIMsg_ShowPlayerItemInMap:fun(Pawn:ACharacter)
+---@field TargetChangeEvent:fun(NewParam:AActor,NewParam1:AActor)
+---@field LuaInit:fun()
+---@field LuaWatchEnd:fun()
+---@field AddNameBtnToLua:fun(PlayerName:FString,PlayerNameBtn:UUAEUserWidget)
+---@field OnClickReservationInLua:fun(PlayerName:FString)
+---@field OnClickReservation:fun(PlayerName:FString)
+---@field RefreshCurPlayerReservation:fun()
+---@field RefreshReservationBtns:fun(btn_Reservation:UButton,btn_ReservationAccept:UButton,showType:int32)
+---@field GetReservationStateInLua:fun(InPlayerName:FString):int32
+---@field ReportExitObserveForReplay:fun()
+---@field ShowSingleResultWhenExit:fun()
+---@field InitTeammateItems:fun()
+---@field UIMsg_HideQuitWatch:fun()
+---@field ShowFriendObserverTips:fun()
+---@field UIMsg_SyncImprisonSelector:fun(status:int32)
+---@field TryShowImprisonBox:fun()
+---@field IsCanImprisonTeammate:fun():bool
+---@field InitStateListener:fun()
+---@field ProcessRemoteControlState:fun()
+---@field TryMarkReviveModeSpectateTag:fun()
+---@field RevivalReconnect_HideSpectateUI:fun()
+---@field HandleSpectateGiveUpRevive:fun()
+---@field ShowReviveStateRemindTips:fun():bool
+---@field OnTargetDead:fun()
+---@field GetAvatarCaptureInfo:fun():AAvatarCapture
+---@field HideInGamePlayerInfoUIButton:fun()
+---@field ShowInGamePlayerInfoUIButton:fun()
+---@field SetDisplayName:fun(InputText:FText)
+---@field TickCheckName:fun(DeltaTime:float)
+---@field RefreshWatchPlayerItemsList:fun()
+---@field CheckVisible:fun()
+---@field SwitchHDRMode:fun(IsHDR:bool)
+---@field OnGetOBPlayerBattleInfo:fun()
+---@field MarkShowDay:fun()
+---@field DailyFirstShow:fun():bool
+---@field GetCurrentDay:fun():int32
+---@field InitInGamePlayerInfoUIButton:fun()
+---@field OnPlayerInfoButtonClicked:fun()
+---@field RegistEventToPlayerInfoPanel:fun()
+---@field RefreshWatchType:fun()
+---@field HandleTipCountDown:fun()
+---@field StopTipCountDown:fun()
+---@field BeginTipCountDown:fun()
+---@field HandleCountDown:fun()
+---@field StopCountDown:fun()
+---@field BeginCountDown:fun()
+---@field ExitWatchGame:fun()
+---@field HideReservationReplyState:fun()
+---@field ShowReservationReplyState:fun()
+---@field UpdateReservationState:fun()
+---@field ShutDownNet:fun()
+---@field CancelTimeOut:fun()
+---@field TickTimeOutExit:fun(DeltaTime:float)
+---@field OnWatchFriendBattleEnd:fun()
+---@field OnOBPlayerPoseChanged:fun()
+---@field OnOBPlayerBulletChanged:fun()
+---@field OnOBPlayerWeaponChanged:fun()
+---@field SetSelectedTeamate:fun(PlayerId:int32)
+---@field UIMsg_HideSpectatingUI:fun()
+---@field ShowLoadingUI:fun()
+---@field GetTeamMateList:fun():ULuaArrayHelper
+---@field OnRepTeammateStateChanged:fun(LiveState:ExtraPlayerLiveState,TarChar:ACharacter)
+---@field AutoSelectTeamMate:fun()
+---@field RefreshArrow:fun()
+---@field InitTeammate:fun()
+---@field SetSelectBtn:fun(Index:int32)
+---@field OnSelectTeammate:fun(PlayerId:int32,BtnIndex:int32,PlayerName:FString,uid:FString)
+---@field InitUI:fun()
+---@field ShowSpectatingUI:fun()
+---@field Construct:fun()
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field ReceivedInitWidget:fun()
+---@field DX_OB_Distancetips UWidgetAnimation
+---@field DX_Settlement UWidgetAnimation
+---@field BackToLobby_btn_Text UTextBlock
+---@field Border_OB_Distancetips UBorder
+---@field Button_3 UButton
+---@field Button_BackToLobby UButton
+---@field Button_Reservation UButton
+---@field Button_ReservationAccept UButton
+---@field Button_SwitchTeamMate UButton
+---@field Canvas_ReservationRefuse UCanvasPanel
+---@field CanvasPanel_DistanceUI UCanvasPanel
+---@field CanvasPanel_Guide UCanvasPanel
+---@field CanvasPanel_qipao UCanvasPanel
+---@field CanvasPanel_ReplayOBMask UCanvasPanel
+---@field CanvasPanel_ReserveBtn UCanvasPanel
+---@field CanvasPanel_SpectatingGiveLike UCanvasPanel
+---@field CanvasPanel_tips UCanvasPanel
+---@field CanvasPanelIPX UCanvasPanel
+---@field CheckBox_ActionLimitTips UCheckBox
+---@field GridPanel_1 UGridPanel
+---@field GridPanel_TeamList UGridPanel
+---@field Image_Hide UImage
+---@field Image_ok UImage
+---@field Image_Show UImage
+---@field IngamePlayerInfo_UIBP IngamePlayerInfo_UIBP_C
+---@field NewButton_HideActionLimitPanel UNewButton
+---@field NewButton_ShowActionLimitPanel UNewButton
+---@field PlayerUID UTextBlock
+---@field Report UButton
+---@field ScrollBox_TeamList_Over13 UScrollBox
+---@field Text_TimeLeft UTextBlock
+---@field TextBlock_1 UTextBlock
+---@field TextBlock_OB_Distancetips1 UTextBlock
+---@field TextBlock_OB_Distancetips2 UTextBlock
+---@field TextBlock_Player UTextBlock
+---@field TextBlock_ReservationRefuse UUTRichTextBlock
+---@field UTRichTextBlock_0 UUTRichTextBlock
+---@field UTRichTextBlock_OB_Distancetips1 UUTRichTextBlock
+---@field UTRichTextBlock_OB_Distancetips2 UUTRichTextBlock
+---@field VerticalBox_LeftTips UVerticalBox
+---@field VerticalBox_ModeBtnGroup UVerticalBox
+---@field VerticalBox_ModeBtnGroup2 UVerticalBox
+---@field WatchGame_Camp_UIBP WatchGame_Camp_UIBP_C
+---@field WatchGame_ListItem_UIBP WatchGame_ListItem_UIBP_C
+---@field WatchGame_ListItem_UIBP_C_0 WatchGame_ListItem_UIBP_C
+---@field WatchGame_ListItem_UIBP_C_1 WatchGame_ListItem_UIBP_C
+---@field WatchGame_ListItem_UIBP_C_2 WatchGame_ListItem_UIBP_C
+---@field WatchGame_PlayerInfo_UIBP WatchGame_PlayerInfo_UIBP_C
+---@field WidgetSwitcher_1 UWidgetSwitcher
+---@field WidgetSwitcher_ActionLimit UWidgetSwitcher
+---@field TeamMateItems ULuaArrayHelper
+---@field CurIndex int32
+---@field CurPlayerId int32
+---@field TimeOutElapse float
+---@field IsTickTimeOut bool
+---@field ReservationOKIcon FSlateBrush
+---@field ReservationCancelIcon FSlateBrush
+---@field WatchPlayerInfoButtonDailyFirstShow bool
+---@field currWatchName FString
+---@field displayNameSetted bool
+---@field displayNameCheckTime float
+---@field ShowPlayerUID FString
+---@field watchGameUAVUI UUserWidget
+---@field bInitStateListener bool
+---@field IsCanChangeImprisonSelector bool
+---@field watchGameRemoteControlUI UUserWidget
+---@field TeamBtnPanel UWidget
+---@field TeammateCount int32
+---@field ShowReserve bool
+---@field BP_WatchGame_TargetName FString
+---@field SpectatingUIStyle UUserWidgetStyle
+---@field EagleUIStyle UUserWidgetStyle
+---@field PlayerItemList ULuaMapHelper

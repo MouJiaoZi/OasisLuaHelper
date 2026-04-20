@@ -1,0 +1,2 @@
+---@class EvilModeScoreNewbieGuide_TextTips_UIBP_C:UNewbieGuideWidget
+---@field TextBlock_TipsContent UTextBlock

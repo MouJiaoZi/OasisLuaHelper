@@ -1,0 +1,32 @@
+---@class CDBarUI_BP_C:UUAEUserWidget
+---@field IsCustomUIDataValid:fun(Widget:UWidget,SaveDataSize:FVector2D):bool
+---@field FirstPlayerStartRescueSelf:fun()
+---@field FirstPlayerCancelRescue:fun()
+---@field FirstPlayerStopRescue:fun()
+---@field FirstPlayerStartBeingRescue:fun()
+---@field FirstPlayerStartRescueOther:fun()
+---@field IsShowingRescueingUI:fun():bool
+---@field EndShowRescueTips:fun()
+---@field OnIsRescueing:fun(HelpWho:ACharacter,Owner:ACharacter,IsBecomeCan:bool)
+---@field ItemCDBar:fun(ItemCDtime:float)
+---@field ThrowCDbar:fun(CDTIME:float)
+---@field SetSettingControlUI:fun()
+---@field Construct:fun()
+---@field Destruct:fun()
+---@field SetCustomizeUIInfo:fun(SaveGame:BP_SAVEGAME_UIElemLayout_C,FireMode:int32)
+---@field UserCancelUse__DelegateSignature:fun(ShouldShow:bool,Duration:float,Tips:FString)
+---@field Border_ItemCDBar UBorder
+---@field Button_CancelUse UButton
+---@field CanvasPanel_CancelUse UCanvasPanel
+---@field CanvasPanel_ItemCDBar UCanvasPanel
+---@field Image_ItemCDBar UImage
+---@field TextBlock_ItemCDTime UTextBlock
+---@field TextBlock_ItemName UTextBlock
+---@field TextBlock_RescueInterupted UTextBlock
+---@field TextBlock_Using UTextBlock
+---@field CountDownTimeHandle FTimerHandle
+---@field CountDownTotalTime float
+---@field CountDownElapsedTime float
+---@field UserCancelUse ULuaMulticastDelegate
+---@field IsRescueingOtherFlag bool
+---@field StartCDRealTime float

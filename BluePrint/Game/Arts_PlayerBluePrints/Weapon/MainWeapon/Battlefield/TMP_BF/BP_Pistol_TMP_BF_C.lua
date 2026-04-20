@@ -1,0 +1,4 @@
+---@class BP_Pistol_TMP_BF_C:BP_ShootPistol_Base_C
+---@field UserConstructionScript:fun()
+---@field WeaponAnimList_Pistol_TMP WeaponAnimList_Pistol_TMP_C
+---@field bUseIdleAnim_0_0_0 bool

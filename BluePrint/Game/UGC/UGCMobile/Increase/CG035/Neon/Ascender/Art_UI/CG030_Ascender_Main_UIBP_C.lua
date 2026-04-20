@@ -1,0 +1,28 @@
+---@class CG030_Ascender_Main_UIBP_C:UActivityUIWidget
+---@field StopSprint:fun()
+---@field BeginSprint:fun()
+---@field ResetSpeed:fun()
+---@field ClickDown:fun()
+---@field ClickUp:fun()
+---@field EndInteract:fun()
+---@field Destruct:fun()
+---@field Init_BP:fun(Actor:UObject,InUIIndex:int32)
+---@field Construct:fun()
+---@field Border_Opacity UBorder
+---@field BtnLeaveBackground UImage
+---@field BtnLeaveImage UImage
+---@field BtnLeaveVehicle CustomizeCanvasPanel_BP_C
+---@field CanvasPanel_0 UCanvasPanel
+---@field CanvasPanel_3 UCanvasPanel
+---@field CanvasPanel_4 UCanvasPanel
+---@field CanvasPanel_6 UCanvasPanel
+---@field CanvasPanel_8 UCanvasPanel
+---@field NewButton_tuoli UNewButton
+---@field Slider_kuai USlider
+---@field WidgetSwitcher_Down UWidgetSwitcher
+---@field WidgetSwitcher_jiansu UWidgetSwitcher
+---@field WidgetSwitcher_Up UWidgetSwitcher
+---@field AscenderCustomMove BP_CG30_AscenderCustomMove_C
+---@field UIStyle UUserWidgetStyle
+---@field LeftShift bool
+---@field Downing bool

@@ -1,0 +1,9 @@
+---@class AsianOB_ScoreListPanel_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field AsianOB_Player_00 AsianOB_ScoreListItem_UIBP_C
+---@field AsianOB_Player_01 AsianOB_ScoreListItem_UIBP_C
+---@field AsianOB_Player_02 AsianOB_ScoreListItem_UIBP_C
+---@field AsianOB_Player_03 AsianOB_ScoreListItem_UIBP_C
+---@field TextBlock_Rank UTextBlock
+---@field TextBlock_Score UTextBlock
+---@field VerticalBox_Panel UVerticalBox

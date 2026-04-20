@@ -1,0 +1,1 @@
+---@class InputRecoderTest_C:UInputRecordComponent

@@ -1,0 +1,21 @@
+---@class Bounty_MapShop_UI_C:UMapUIMarkBaseWidget
+---@field UpdateRadarCD:fun(RemainCD:float)
+---@field ShowShopClose:fun()
+---@field ShowRadarUsed:fun()
+---@field ShowRadarActived:fun()
+---@field ShowRadarCD:fun()
+---@field ShowShopOpen:fun()
+---@field SetMapStatus:fun(InStatus:int32,InActiveTimeStamp:float,InTotalCD:float)
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field OnUIBPShow:fun(InState:FCustomMarkEventData)
+---@field UpdateUIBPState:fun(InState:FCustomMarkEventData)
+---@field Image_MapCD UImage
+---@field RadarPanel UCanvasPanel
+---@field ShopIcon UImage
+---@field ShopIconYellow UImage
+---@field Text_Actived UTextBlock
+---@field Text_CD UTextBlock
+---@field WidgetSwitcher_ShopIcon UWidgetSwitcher
+---@field ActiveTimeStamp float
+---@field TotalCD float
+---@field NewVar_0 int32

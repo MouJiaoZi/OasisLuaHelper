@@ -1,0 +1,16 @@
+---@class PMode_TimingSkill_UIBP_NoIcon_C:UUTSkillIconWidgetTemplate
+---@field Construct:fun()
+---@field RemoveSkillUI:fun()
+---@field DX_UpgradeSkills UWidgetAnimation
+---@field DX_UpgradeSkills_old UWidgetAnimation
+---@field DX_RefreshSkill UWidgetAnimation
+---@field Border_SkillSlot UBorder
+---@field Button_0 UButton
+---@field CanvasPanel_tips UCanvasPanel
+---@field Image_BG UImage
+---@field Image_CDTime UImage
+---@field Image_Icon UImage
+---@field Image_Select UImage
+---@field Text_Time UTextBlock
+---@field UAECustomizePanel_0 UUAECustomizePanel
+---@field FunctionBPParam ULuaMapHelper

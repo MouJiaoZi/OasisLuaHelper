@@ -1,0 +1,10 @@
+---@class VehicleScoreManager_C:AActor
+---@field GetLuaModule:fun():FString
+---@field OnRepPlayerVehicle:fun()
+---@field OnRepBillboardVehicle:fun()
+---@field GMAddUIScores:fun(value:int32)
+---@field UserConstructionScript:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field DefaultSceneRoot USceneComponent
+---@field PlayerStatus_Vehicle ULuaArrayHelper
+---@field BillboardScores ULuaArrayHelper

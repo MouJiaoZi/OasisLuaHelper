@@ -1,0 +1,1 @@
+---@class ZombieNewtem_BP_C:UMapUIMarkBaseWidget

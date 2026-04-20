@@ -1,0 +1,30 @@
+---@class MainBackPack_ChangeSuit_Icon_Item_UIBP_C:UUAEUserWidget
+---@field UpdateFrame:fun(currUse:int32)
+---@field setDefaultIcon:fun(obj:UObject)
+---@field grayIcon:fun(gray:bool)
+---@field setIcon:fun(obj:UObject)
+---@field SetData:fun(id:FItemDefineID,currUseIndex:int32,suit:bool)
+---@field getIcon:fun(setVisible:bool):UImage
+---@field OnTouchEnded:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field OnTouchStarted:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field OnDragDetected:fun(MyGeometry:FGeometry,PointerEvent:FPointerEvent):UDragDropOperation
+---@field Construct:fun()
+---@field OnDragCancelled:fun(PointerEvent:FPointerEvent,Operation:UDragDropOperation)
+---@field ItemBeDragCancelled__DelegateSignature:fun()
+---@field ItemBeDragBegin__DelegateSignature:fun(ItemData:FBattleItemData,DragOrigin:EBackPackDragOrigin)
+---@field Image_ChangeSuit_RectangleIcon UImage
+---@field Image_ChangeSuit_SpuareIcon UImage
+---@field TextBlock_ChangeSuit_Scheme UTextBlock
+---@field WidgetSwitcher_ChangeSuit_Bg UWidgetSwitcher
+---@field WidgetSwitcher_ChangeSuit_Level UWidgetSwitcher
+---@field ItemBeDragBegin ULuaMulticastDelegate
+---@field ItemBeDragCancelled ULuaMulticastDelegate
+---@field DefineID FItemDefineID
+---@field isTouchStart bool
+---@field DragOrigin EBackPackDragOrigin
+---@field SuitItemType bool
+---@field resID int32
+---@field UIIndex int32
+---@field currUseSuitIndex int32
+---@field UILevel int32
+---@field itemIndex int32

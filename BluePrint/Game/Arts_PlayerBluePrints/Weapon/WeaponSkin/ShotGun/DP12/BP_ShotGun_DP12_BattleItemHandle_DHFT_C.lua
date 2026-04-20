@@ -1,0 +1,1 @@
+---@class BP_ShotGun_DP12_BattleItemHandle_DHFT_C:BP_ShotGun_DP12_BattleItemHandle_C

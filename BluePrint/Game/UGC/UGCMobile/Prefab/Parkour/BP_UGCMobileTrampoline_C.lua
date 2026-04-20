@@ -1,0 +1,34 @@
+---@class BP_UGCMobileTrampoline_C:BP_UGCMobileBaseActor_C
+---@field GetLuaModule:fun():FString
+---@field CheckIsPawnInStrop:fun(InActor:AActor):bool
+---@field ClientBPPreLaunchPlayer:fun()
+---@field LuaPreLaunchPlayer:fun(PawnActor:AActor)
+---@field LaunchPlayer:fun(CharacterOwner:ASTExtraBaseCharacter):bool,bool,bool,FVector
+---@field OnActorSelectStageChanged:fun(IsSelected:bool)
+---@field ShowGuides:fun()
+---@field PaddingPool:fun(PaddingSize:int32)
+---@field InitParticlePool:fun()
+---@field PlaySoundEffect:fun()
+---@field UserConstructionScript:fun()
+---@field GuidePoint UStaticMeshComponent
+---@field Spline USplineComponent
+---@field OverlapCheckArea UOverlapCheckAreaComponent
+---@field OverlapBox UBoxComponent
+---@field Trampoline UStaticMeshComponent
+---@field JumpForce float
+---@field EnableAction FUGCMobileObjectAction
+---@field DisableAction FUGCMobileObjectAction
+---@field EnableEvent FUGCMobileObjectEvent
+---@field DisableEvent FUGCMobileObjectEvent
+---@field bEnable bool
+---@field OffsetMax float
+---@field GuidesPathPosList ULuaArrayHelper
+---@field ObjectTypes ULuaArrayHelper
+---@field ParticleArray ULuaArrayHelper
+---@field PoolSize int32
+---@field ParticlePool ULuaArrayHelper
+---@field Distance int32
+---@field LaunchVelocity FVector
+---@field bSelected bool
+---@field bRoundFightReset bool
+---@field LaunchID int32

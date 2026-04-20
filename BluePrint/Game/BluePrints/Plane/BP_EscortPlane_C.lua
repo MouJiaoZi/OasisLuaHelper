@@ -1,0 +1,14 @@
+---@class BP_EscortPlane_C:AEscortPlane
+---@field UpdatePosition:fun(Timeline:float)
+---@field UserConstructionScript:fun()
+---@field ReceivePostTickPosition:fun(DeltaTime:float)
+---@field Ak UAkComponent
+---@field SkeletalMesh USkeletalMeshComponent
+---@field DefaultSceneRoot USceneComponent
+---@field CachedPlane APlaneCharacter
+---@field ShouldShake bool
+---@field RandDelayMin float
+---@field RandDelayMax float
+---@field Speed float
+---@field PlaneIndex int32
+---@field PassBySound ULuaArrayHelper

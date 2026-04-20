@@ -1,0 +1,4 @@
+---@class BTResult_BP_C:UUAEUserWidget
+---@field ShowResultBase:fun()
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field GridPanel_IPX UGridPanel

@@ -1,0 +1,24 @@
+---@class bp_armory_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_ARRAY_CurrentShortHandEquip ULuaArrayHelper
+---@field BP_ARRAY_WeaponSkinData ULuaArrayHelper
+---@field BP_Armory_Market_Diamond FString
+---@field BP_ARRAY_WeaponPendantData ULuaArrayHelper
+---@field BP_Current_WeaponType int32
+---@field BP_Current_ShortHandType int32
+---@field BP_Current_SelectPendantID int32
+---@field BP_Armory_Market_Ticket FString
+---@field BP_ARRAY_ShortHandData ULuaArrayHelper
+---@field BP_Current_WeaponID int32
+---@field BP_ARRAY_Weapon_SecMenuData ULuaArrayHelper
+---@field BP_Armory_Isopen int32
+---@field BP_ARRAY_Weapon_FirstMenuData ULuaArrayHelper
+---@field BP_Last_SelectSkinID int32
+---@field BP_Last_SelectPendantInsID FString
+---@field BP_Current_ShortHandID int32
+---@field BP_ARRAY_ShortHand_MenuData ULuaArrayHelper
+---@field BP_ARRAY_WeaponAttrData ULuaArrayHelper
+---@field BP_Current_SelectPendantInsID FString
+---@field BP_Current_SelectSkinID int32
+---@field BP_SkinPageSelectIndex int32

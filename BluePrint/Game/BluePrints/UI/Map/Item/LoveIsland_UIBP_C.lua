@@ -1,0 +1,1 @@
+---@class LoveIsland_UIBP_C:UMapUIMarkBaseWidget

@@ -1,0 +1,6 @@
+---@class bp_exciting_party_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_ExcitingPart_Op_Item_Idx int32
+---@field BP_Exciting_Party_ACT_TIME FString
+---@field BP_ARRAY_Exciting_Party_Infos ULuaArrayHelper

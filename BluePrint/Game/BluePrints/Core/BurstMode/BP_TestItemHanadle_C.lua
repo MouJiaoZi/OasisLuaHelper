@@ -1,0 +1,2 @@
+---@class BP_TestItemHanadle_C:UBattleItemHandle_Drink_C
+---@field GetLuaModule:fun():FString

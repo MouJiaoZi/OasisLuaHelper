@@ -1,0 +1,1 @@
+---@class BP_RecordSwitchWeapon_C:URecordDataInstance_SwitchWeapon

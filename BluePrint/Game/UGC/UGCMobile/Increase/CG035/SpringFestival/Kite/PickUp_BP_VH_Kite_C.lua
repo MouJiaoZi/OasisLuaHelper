@@ -1,0 +1,3 @@
+---@class PickUp_BP_VH_Kite_C:APickUpWrapperActor
+---@field UserConstructionScript:fun()
+---@field ST_Prop_BlackCat UStaticMeshComponent

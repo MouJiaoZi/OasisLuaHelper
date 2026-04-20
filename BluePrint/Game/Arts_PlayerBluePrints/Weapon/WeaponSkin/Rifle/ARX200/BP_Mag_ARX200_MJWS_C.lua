@@ -1,0 +1,1 @@
+---@class BP_Mag_ARX200_MJWS_C:BP_Mag_ARX200_C

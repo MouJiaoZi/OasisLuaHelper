@@ -1,0 +1,5 @@
+---@class BP_UGCMobilePlayerPlotControl_C:UPlayerPlotControlComponent
+---@field GetPlotManager:fun():TScriptInterface
+---@field SetCharacterMovementEnable:fun(bEnable:bool)
+---@field PlotManagerRef BP_UGCMobilePlotManager_C
+---@field CurMovmentEnable bool

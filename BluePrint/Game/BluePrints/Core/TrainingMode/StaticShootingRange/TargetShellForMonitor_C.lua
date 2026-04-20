@@ -1,0 +1,10 @@
+---@class TargetShellForMonitor_C:AUAERegionActor
+---@field Init:fun()
+---@field UserConstructionScript:fun()
+---@field ReceiveAnyDamage:fun(Damage:float,DamageType:UDamageType,InstigatedBy:AController,DamageCauser:AActor)
+---@field Scene USceneComponent
+---@field Box UBoxComponent
+---@field DefaultSceneRoot USceneComponent
+---@field NewVar_0 FVector
+---@field CurShootingMonitor ShootingMonitor_C
+---@field TargetFlag int32

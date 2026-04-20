@@ -1,0 +1,1 @@
+---@class BP_WarteringAreaBase_Daka_2_C:ABP_WarteringAreaBase_C

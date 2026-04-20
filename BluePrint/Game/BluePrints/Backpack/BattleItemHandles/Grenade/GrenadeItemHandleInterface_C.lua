@@ -1,0 +1,2 @@
+---@class GrenadeItemHandleInterface_C:UInterface
+---@field GetSkillsConfigs:fun():ULuaArrayHelper

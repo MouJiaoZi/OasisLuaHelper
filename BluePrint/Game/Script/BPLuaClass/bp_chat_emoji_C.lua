@@ -1,0 +1,4 @@
+---@class bp_chat_emoji_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_ChatEmoji_ClickIndex int32

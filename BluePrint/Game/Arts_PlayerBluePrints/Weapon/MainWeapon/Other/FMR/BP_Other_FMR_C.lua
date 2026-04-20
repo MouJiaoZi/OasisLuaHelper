@@ -1,0 +1,38 @@
+---@class BP_Other_FMR_C:BP_Other_FMR_Base_C
+---@field HandlePreShootBullet:fun(Bullet:ASTExtraShootWeaponBulletBase)
+---@field GetBaseImpactDamageEntity:fun():float
+---@field ChangeSequenceState:fun(StateType:EFreshWeaponStateType):bool
+---@field InitMaterial:fun()
+---@field ShowFireEffect:fun()
+---@field GetGatherScale:fun():FVector
+---@field ShouldVerifyProjectileShootInf:fun():bool
+---@field ShouldVerifyWeaponFireInfoTime:fun():bool
+---@field OnArrowShooted:fun()
+---@field UserConstructionScript:fun()
+---@field OnWeaponMagOut:fun()
+---@field OnWeaponMagIn:fun()
+---@field BP_OnWeaponReloadEnd:fun()
+---@field OnPushTrigger:fun()
+---@field OnReleaseTrigger:fun()
+---@field BP_OnWeaponReloadStart:fun()
+---@field OnShootTracePosRepChangeDelegateBP__DelegateSignature:fun(Pos:FVector)
+---@field BP_WeaponTriggerEventHandleEnergyAccumulate_FMR BP_WeaponTriggerEventHandleEnergyAccumulate_FMR_C
+---@field GatherParticle UParticleSystemComponent
+---@field ReloadParticle UParticleSystemComponent
+---@field WeaponAnimList_Sniper_FMR WeaponAnimList_Sniper_FMR_C
+---@field ST_Mag UStaticMeshComponent
+---@field ST_PlayerMag UStaticMeshComponent
+---@field Timeline_0 UTimelineComponent
+---@field bUseIdleAnim_0 bool
+---@field GatherADSScale FVector
+---@field GatherNormalScale FVector
+---@field ShootSoundID int32
+---@field MuzzleEffectCfg UParticleSystem
+---@field MuzzleEffectParticle UParticleSystemComponent
+---@field MuzzleSlot EWeaponAttachmentSocketType
+---@field CDTime_Total float
+---@field MaterialInstance UMaterialInstanceDynamic
+---@field bDisableMaxEnergyBulletEffect bool
+---@field SuperShootBaseDamage float
+---@field ShootTracePosRep FVector
+---@field OnShootTracePosRepChangeDelegateBP ULuaMulticastDelegate

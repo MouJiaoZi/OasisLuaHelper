@@ -1,0 +1,12 @@
+---@class BP_TriggerArea_C:AUAERegionActor
+---@field GetLuaModule:fun():FString
+---@field GetTriggerOverlapComponent:fun():UPrimitiveComponent
+---@field Overlap:fun():ULuaArrayHelper
+---@field UserConstructionScript:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field BoxCollisionComponent UBoxComponent
+---@field OverlapObjectTypeQueries ULuaArrayHelper
+---@field OverlapActorClassFilterClassPath FString
+---@field RoleToTickIntervals ULuaMapHelper
+---@field OverlapActorClassFilterClass UClass
+---@field PostOverlapActorClassFilterClasses ULuaArrayHelper

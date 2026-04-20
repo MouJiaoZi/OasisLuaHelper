@@ -1,0 +1,1 @@
+---@class BP_QK_Large_FlashHider_JHSY_C:BP_QK_Large_FlashHider_C

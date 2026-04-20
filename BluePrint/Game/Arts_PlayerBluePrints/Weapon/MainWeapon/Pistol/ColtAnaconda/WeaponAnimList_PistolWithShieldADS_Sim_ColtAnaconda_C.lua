@@ -1,0 +1,1 @@
+---@class WeaponAnimList_PistolWithShieldADS_Sim_ColtAnaconda_C:UUAECharacterAnimListComponent

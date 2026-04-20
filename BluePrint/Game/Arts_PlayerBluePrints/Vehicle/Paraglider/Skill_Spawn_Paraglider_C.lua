@@ -1,0 +1,25 @@
+---@class Skill_Spawn_Paraglider_C:AUAESkill
+---@field DisableCameraModifyData:fun()
+---@field EnableCameraModifyData:fun()
+---@field GetOwnerCharacter:fun():ASTExtraBaseCharacter
+---@field CanSpawnVehicle:fun():bool
+---@field SpawnVehicle:fun()
+---@field UserConstructionScript:fun()
+---@field STExtraBuffAction_DisablePawnState USTExtraBuffAction_DisablePawnState
+---@field UTSkillSpecificAction1 UUTSkillSpecificAction
+---@field UAESkillAction_SetEyeRotationMode UUAESkillAction_SetEyeRotationMode
+---@field UAESkillEventEffectMapForEditor3 UUAESkillEventEffectMapForEditor
+---@field UAESkillEventEffectMapForEditor2 UUAESkillEventEffectMapForEditor
+---@field UAESkillEventEffectMapForEditor5 UUAESkillEventEffectMapForEditor
+---@field UTSkillSpecificAction UUTSkillSpecificAction
+---@field UAESkillAction_PlayMontage_Pose UUAESkillAction_PlayMontage_Pose
+---@field UAESkillAction_SwitchWeapon UUAESkillAction_SwitchWeapon
+---@field UAESkillAction_ShowSkillPrompt UUAESkillAction_ShowSkillPrompt
+---@field UAESkillEventEffectMapForEditor4 UUAESkillEventEffectMapForEditor
+---@field UAESkillEventEffectMapForEditor1 UUAESkillEventEffectMapForEditor
+---@field UAESkillEventEffectMapForEditor UUAESkillEventEffectMapForEditor
+---@field STExtraBuffAction_SpawnActor USTExtraBuffAction_SpawnActor
+---@field UAESkillPhase1 UUAESkillPhase
+---@field UAESkillPhase UUAESkillPhase
+---@field DefaultSceneRoot USceneComponent
+---@field CameraModifyData FCameraOffsetData

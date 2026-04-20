@@ -1,0 +1,8 @@
+---@class MobileEditor_ScriptEditor_PlayerTalks_Item_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field CanvasPanel_Task UCanvasPanel
+---@field NewButton_Title UNewButton
+---@field TextBlock_TaskName UTextBlock
+---@field TextBlock_Title UTextBlock
+---@field TextBlock_Title2 UTextBlock
+---@field WidgetSwitcher_Title UWidgetSwitcher

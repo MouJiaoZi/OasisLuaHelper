@@ -1,0 +1,1 @@
+---@class BP_Muzzle_TommyGun_FPDC_C:BP_Muzzle_TommyGun_C

@@ -1,0 +1,1 @@
+---@class BP_DoorMilitaryBase_Desert_C:ABP_DoorNormal_C

@@ -1,0 +1,8 @@
+---@class AsianOB_WeaponSlotItem_UIBP_C:UUAEUserWidget
+---@field HorizontalBox_BulletInfo UHorizontalBox
+---@field Image_NULL_Left UImage
+---@field TextBlock_Bullet_Num UTextBlock
+---@field TextBlock_Bullet_Total UTextBlock
+---@field TextBlock_isGun UTextBlock
+---@field VehicleIcon UImage
+---@field WeaponIcon UImage

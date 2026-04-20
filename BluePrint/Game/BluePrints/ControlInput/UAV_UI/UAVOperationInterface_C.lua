@@ -1,0 +1,13 @@
+---@class UAVOperationInterface_C:UInterface
+---@field OnUnmanedVehicleHPChanged_Inf:fun():bool
+---@field OnUnManedVehicleFuelChanged_Inf:fun():bool
+---@field EnterUAV:fun():bool
+---@field ExitUAV:fun():bool
+---@field HideSingleOperateMode:fun():bool
+---@field ShowSingleOperateMode:fun():bool
+---@field SetVehicleControlPanel:fun(vehicleControlPanel:UUAEUserWidget):bool
+---@field ProcessSingleOperateMode:fun():bool
+---@field UAVStateChange:fun():bool
+---@field UpdateSpeedHeight:fun(speed:float,height:float):bool
+---@field HideOperateUI:fun():bool
+---@field ShowOperateUI:fun():bool

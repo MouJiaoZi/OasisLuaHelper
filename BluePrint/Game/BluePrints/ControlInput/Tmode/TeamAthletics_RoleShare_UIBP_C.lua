@@ -1,0 +1,13 @@
+---@class TeamAthletics_RoleShare_UIBP_C:UUserWidget
+---@field Common_Avatar_BP Common_Avatar_BP_C
+---@field TextBlock_0 UTextBlock
+---@field TextBlock_1 UTextBlock
+---@field TextBlock_2 UTextBlock
+---@field TextBlock_RoleShare_PlayerName UTextBlock
+---@field TextBlock_Team_RoleShare_Assist UTextBlock
+---@field TextBlock_Team_RoleShare_Death UTextBlock
+---@field TextBlock_Team_RoleShare_Defeat UTextBlock
+---@field WidgetSwitcher_RoleShare_Gender UWidgetSwitcher
+---@field WidgetSwitcher_RoleShare_MVP UWidgetSwitcher
+---@field MyNameColor FSlateColor
+---@field TeammateNameColor FSlateColor

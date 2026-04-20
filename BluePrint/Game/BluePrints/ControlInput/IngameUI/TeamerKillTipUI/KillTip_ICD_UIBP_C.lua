@@ -1,0 +1,24 @@
+---@class KillTip_ICD_UIBP_C:UUAEUserWidget
+---@field SetKillTipsData:fun(InKillTipsData:FExtractDamageParamKillTipsData):bool
+---@field ShowHandgunIcon:fun()
+---@field OnloadedObjectReplaceUIStyleClassKillIcon:fun(LoadClass:UClass)
+---@field HideAllItem:fun()
+---@field CreateOrRefreshItem:fun(Idx:int32,Texture:UObject,ItemID:int32)
+---@field PlaySkinAnimation:fun()
+---@field CreateExtraIcon:fun(ItemID:ULuaArrayHelper,ClothesID:int32,RealClothID:int32,HandgunVisible:bool)
+---@field HorizontalBox_Handgun UHorizontalBox
+---@field HorizontalBox_Item UHorizontalBox
+---@field ImageItemBox UHorizontalBox
+---@field ImageItemBox_New UImage
+---@field TextBlock_New01 UTextBlock
+---@field TextBlock_New02 UTextBlock
+---@field ItemIDMapIcon ULuaMapHelper
+---@field CurIndex int32
+---@field PathArr ULuaArrayHelper
+---@field ItemList ULuaArrayHelper
+---@field SourceList bool
+---@field ItemIDCanvasPadding ULuaMapHelper
+---@field ItemIDSize ULuaMapHelper
+---@field TempIdx int32
+---@field TempItemID int32
+---@field HandgunTexturePath FString

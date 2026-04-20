@@ -1,0 +1,4 @@
+---@class bp_corps_war_rank_panel_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_ARRAY_CORPS_RANK_ITEM_LIST ULuaArrayHelper

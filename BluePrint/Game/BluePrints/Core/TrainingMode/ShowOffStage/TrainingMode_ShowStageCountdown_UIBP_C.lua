@@ -1,0 +1,19 @@
+---@class TrainingMode_ShowStageCountdown_UIBP_C:UUAEUserWidget
+---@field SetGender:fun(Gender:int32)
+---@field SetBuyLevel:fun(BuyLevel:int32)
+---@field SetPlayerName:fun(Name:FString)
+---@field SetCharmValue:fun(PlayerKey:int32)
+---@field SetTimeText:fun(Sec:float)
+---@field Construct:fun()
+---@field SetUIBuyLevel:fun(BuyLevel:int32)
+---@field SetUICharmValue:fun(Charm:int32)
+---@field SetUIGender:fun(Gender:int32)
+---@field SetUIPlayerName:fun(Name:FString)
+---@field SetUITimeText:fun(Sec:float)
+---@field CharmValue UTextBlock
+---@field CountDown UTextBlock
+---@field Image_0 UImage
+---@field Image_1 UImage
+---@field PassCardBuyLevel UTextBlock
+---@field PlayerName UTextBlock
+---@field WidgetSwitcher_0 UWidgetSwitcher

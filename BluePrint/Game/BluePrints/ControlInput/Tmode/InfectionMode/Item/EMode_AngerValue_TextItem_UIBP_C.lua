@@ -1,0 +1,11 @@
+---@class EMode_AngerValue_TextItem_UIBP_C:UUAEUserWidget
+---@field Content01 UHorizontalBox
+---@field Content02 UHorizontalBox
+---@field Content03 UHorizontalBox
+---@field LevelText UTextBlock
+---@field TextBlock_Content01 UTextBlock
+---@field TextBlock_Content02 UTextBlock
+---@field TextBlock_Content03 UTextBlock
+---@field TextBlock_Num01 UTextBlock
+---@field TextBlock_Num02 UTextBlock
+---@field TextBlock_Num03 UTextBlock

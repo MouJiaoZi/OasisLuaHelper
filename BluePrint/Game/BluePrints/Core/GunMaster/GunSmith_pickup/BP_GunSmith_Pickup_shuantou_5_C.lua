@@ -1,0 +1,3 @@
+---@class BP_GunSmith_Pickup_shuantou_5_C:APickUpWrapperActor
+---@field UserConstructionScript:fun()
+---@field CG011_KLJ_pickupbox UStaticMeshComponent

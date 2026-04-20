@@ -1,0 +1,6 @@
+---@class NewResult_BottomPlayer_UIBP_C:UUAEUserWidget
+---@field BottomPlayerItems UCanvasPanel
+---@field ResultRankingAvataitem_UIBP1 ResultRankingAvataitem_UIBP_C
+---@field ResultRankingAvataitem_UIBP2 ResultRankingAvataitem_UIBP_C
+---@field ResultRankingAvataitem_UIBP3 ResultRankingAvataitem_UIBP_C
+---@field ResultRankingAvataitem_UIBP4 ResultRankingAvataitem_UIBP_C

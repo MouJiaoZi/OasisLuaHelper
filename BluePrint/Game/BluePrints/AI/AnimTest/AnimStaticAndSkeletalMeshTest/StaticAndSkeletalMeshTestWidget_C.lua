@@ -1,0 +1,2 @@
+---@class StaticAndSkeletalMeshTestWidget_C:UTestModelWidgetBase_C
+---@field ComboBoxMeshType UComboBoxString

@@ -1,0 +1,4 @@
+---@class BP_HideAndSeek_OBState_C:ASTExtraOBState
+---@field GetLuaModule:fun():FString
+---@field UserConstructionScript:fun()
+---@field DefaultSceneRoot USceneComponent

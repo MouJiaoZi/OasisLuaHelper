@@ -1,0 +1,1 @@
+---@class BP_Grip_TommyGun_YXS_C:BP_Grip_TommyGun_C

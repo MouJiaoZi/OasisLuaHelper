@@ -1,0 +1,1 @@
+---@class PESkill_UGC_Triceratops_Skill_1_C:PESkillTemplate_Base_C

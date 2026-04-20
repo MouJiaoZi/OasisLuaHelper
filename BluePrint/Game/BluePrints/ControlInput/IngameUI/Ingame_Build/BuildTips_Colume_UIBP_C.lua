@@ -1,0 +1,4 @@
+---@class BuildTips_Colume_UIBP_C:UUserWidget
+---@field Image_CastIcon UImage
+---@field TextBlock_BuildNumber UTextBlock
+---@field VerticalBox_BrickItems UVerticalBox

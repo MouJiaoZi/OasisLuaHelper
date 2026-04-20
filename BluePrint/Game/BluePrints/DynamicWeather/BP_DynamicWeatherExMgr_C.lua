@@ -1,0 +1,6 @@
+---@class BP_DynamicWeatherExMgr_C:ABP_DynamicWeatherMgr_C
+---@field UserConstructionScript:fun()
+---@field DynamicSpawnController_Aurora UDynamicSpawnController
+---@field MoonScalarName FName
+---@field SkySwitchParam FName
+---@field StormAkEvent_0 int32

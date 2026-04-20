@@ -1,0 +1,1 @@
+---@class BP_NewClassicVaultObject_C:UNewClassicVaultObject

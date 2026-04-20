@@ -1,0 +1,37 @@
+---@class BP_STExtraWheeledVehicle_C:ASTExtraWheeledVehicle
+---@field GetLuaModule:fun():FString
+---@field OnVehicleAvatarHandleEquiped_event:fun(ItemHandle:UBattleItemHandleBase)
+---@field CreateDMI:fun()
+---@field OnVehicleAvatarDataCopiedFunc:fun()
+---@field GetVehicleEnjoyVoice:fun():UVehicleEnjoyVoiceComponent
+---@field RefreshPlate:fun(SlotID:EVehicleAvatarSlot)
+---@field DeferredCreateDMI:fun()
+---@field SetDMIParam:fun(Name:FName,Value:float)
+---@field UpdateExhaustFx:fun(ExhaustName:FName)
+---@field UserConstructionScript:fun()
+---@field AfterBeginPlay:fun()
+---@field SetVehicleCustomLicensePlateNameAndNum:fun(InCustomVehicleLicensePlateName:FString,InCustomVehicleLicensePlateNum:FString,InPendantHandleFront:UBattleItemHandleBase,InEVehicleAvatarSlot:int32)
+---@field OnDrawDebugInfo:fun()
+---@field OnRep_DSSpawnTime:fun()
+---@field BPOnRep_LaunchControlState:fun(PreLaunchControlState:ELaunchControlState)
+---@field BP_WheeledVehicleEnjoyVoiceComp BP_WheeledVehicleEnjoyVoiceComp_C
+---@field BP_VehicleAccelerate BP_VehicleAccelerate_C
+---@field BP_VehicleShowFrameComp BP_VehicleShowFrameComp_C
+---@field ConditionalChildActor1 UConditionalChildActorComponent
+---@field ConditionalChildActor UConditionalChildActorComponent
+---@field BP_VehicleFieldOfViewNotificationComponent1 BP_VehicleFieldOfViewNotificationComponent_C
+---@field Camera UCameraComponent
+---@field VehicleSpringArm UVehicleSpringArmComponent
+---@field IsPlayingEngineAk bool
+---@field DMI UMaterialInstanceDynamic
+---@field VehicleMaterial UMaterialInstance
+---@field TailLightParamName FName
+---@field FrontLightParamName FName
+---@field FPPBoostLightParamName FName
+---@field PlayTireExplosionList ULuaArrayHelper
+---@field CacheRT UTextureRenderTarget2D
+---@field CustomMat UMaterialInterface
+---@field SpawnEffectActorClassPath FString
+---@field LuaModulePath FString
+---@field AntiCheatTest FVector
+---@field Sfx_Launch UAkAudioEvent

@@ -1,0 +1,19 @@
+---@class WatchGame_Camp_UIBP_C:UUAEUserWidget
+---@field Button_Left UButton
+---@field Button_Right UButton
+---@field CanvasPanel_Team01 UCanvasPanel
+---@field CanvasPanel_Team02 UCanvasPanel
+---@field Image_Left UImage
+---@field Image_Right UImage
+---@field TextBlock_TeamID_01 UTextBlock
+---@field TextBlock_TeamID_02 UTextBlock
+---@field WatchGame_CampListItem_C_0 WatchGame_ListItem_UIBP_C
+---@field WatchGame_CampListItem_C_1 WatchGame_ListItem_UIBP_C
+---@field WatchGame_CampListItem_C_2 WatchGame_ListItem_UIBP_C
+---@field WatchGame_CampListItem_C_3 WatchGame_ListItem_UIBP_C
+---@field WatchGame_CampListItem_C_4 WatchGame_ListItem_UIBP_C
+---@field WatchGame_CampListItem_C_5 WatchGame_ListItem_UIBP_C
+---@field WatchGame_CampListItem_C_6 WatchGame_ListItem_UIBP_C
+---@field WatchGame_CampListItem_C_7 WatchGame_ListItem_UIBP_C
+---@field EnableColor FSlateColor
+---@field DisableColor FSlateColor

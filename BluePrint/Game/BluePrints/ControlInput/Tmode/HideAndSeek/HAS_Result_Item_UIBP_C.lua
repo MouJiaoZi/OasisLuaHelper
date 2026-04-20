@@ -1,0 +1,82 @@
+---@class HAS_Result_Item_UIBP_C:UUAEUserWidget
+---@field SetCurLikeCount:fun()
+---@field SetLikeNum:fun(LikeNum:int32)
+---@field SetLikeBtnVisibility:fun(LikeSysOpen:bool)
+---@field OnLikeFinished:fun(PlayerID:FString)
+---@field SetLikeInfo:fun(LikeNum:int32,LikeEachOther:bool,IsLikeSysOpen:bool,UID:FString)
+---@field OnClickLike:fun()
+---@field OnClickReport:fun(ClickedTeamID:int32,ClickedNameStr:FString,IsRobot:bool,ClickedPlayerIndex:int32)
+---@field OnClickAddFriend:fun()
+---@field InitScoreSourceList:fun()
+---@field Init:fun()
+---@field UpdateScoreSourceData:fun(Rank:int32,TypeArray:ULuaArrayHelper,ValueArray:ULuaArrayHelper)
+---@field UpdateItemBtnStatus:fun(AddFriend:bool)
+---@field SetSelfAppearance:fun(PlayerName:FString)
+---@field SetMaxContinueKills:fun(MaxContinueKills:int32)
+---@field SetFriendButtonStatus:fun(AddFriendBtnState:int32)
+---@field SetGender:fun(Gender:int32)
+---@field SetTextInfos:fun(PlayerName:FString,Score:int32,Kill:int32,Assists:int32)
+---@field SetRank:fun(Rank:int32)
+---@field SetMVP:fun(Rank:int32)
+---@field RefreshUITpye:fun()
+---@field OpenOrCloseBtn:fun(Open:bool)
+---@field Construct:fun()
+---@field CanvasPanel_AddFriend UCanvasPanel
+---@field CanvasPanel_Combo UCanvasPanel
+---@field CanvasPanel_ScoreDetail UCanvasPanel
+---@field Common_Avatar_BP Common_Avatar_BP_C
+---@field HorizontalBox_ScoreSource1 UHorizontalBox
+---@field HorizontalBox_ScoreSource10 UHorizontalBox
+---@field HorizontalBox_ScoreSource2 UHorizontalBox
+---@field HorizontalBox_ScoreSource3 UHorizontalBox
+---@field HorizontalBox_ScoreSource4 UHorizontalBox
+---@field HorizontalBox_ScoreSource5 UHorizontalBox
+---@field HorizontalBox_ScoreSource6 UHorizontalBox
+---@field HorizontalBox_ScoreSource7 UHorizontalBox
+---@field HorizontalBox_ScoreSource8 UHorizontalBox
+---@field HorizontalBox_ScoreSource9 UHorizontalBox
+---@field Image_Arrow UImage
+---@field Image_like UImage
+---@field Image_Man UImage
+---@field Image_Woman UImage
+---@field NewButton_AddFriend UNewButton
+---@field NewButton_Like UNewButton
+---@field NewButton_Report UNewButton
+---@field NewButton_ScoreDetail UNewButton
+---@field TextBlock_Combo UTextBlock
+---@field TextBlock_LikeNum UTextBlock
+---@field TextBlock_MVP UTextBlock
+---@field TextBlock_PlayerName UTextBlock
+---@field TextBlock_RankNum UTextBlock
+---@field TextBlock_Score UTextBlock
+---@field TextBlock_ScoreSource1 UTextBlock
+---@field TextBlock_ScoreSource10 UTextBlock
+---@field TextBlock_ScoreSource2 UTextBlock
+---@field TextBlock_ScoreSource3 UTextBlock
+---@field TextBlock_ScoreSource4 UTextBlock
+---@field TextBlock_ScoreSource5 UTextBlock
+---@field TextBlock_ScoreSource6 UTextBlock
+---@field TextBlock_ScoreSource7 UTextBlock
+---@field TextBlock_ScoreSource8 UTextBlock
+---@field TextBlock_ScoreSource9 UTextBlock
+---@field TextBlock_Seek UTextBlock
+---@field TextBlock_Survive UTextBlock
+---@field TextBlock_Total UTextBlock
+---@field WidgetSwitcher_BtnState UWidgetSwitcher
+---@field WidgetSwitcher_Gender UWidgetSwitcher
+---@field ParentUIBP HAS_Result_UIBP_C
+---@field LuaClassObject ALuaClassObj
+---@field UIModeType ETDMUIType
+---@field IsRobot bool
+---@field PlayerIndexInLua int32
+---@field TeamIndexInLua int32
+---@field AddFriendState int32
+---@field ScoreSourceTextList ULuaArrayHelper
+---@field PlayerUID FString
+---@field ShareUIBP HAS_Result_Share1_UIBP_C
+---@field IsSelfPlayer bool
+---@field IsGlobalOB bool
+---@field IsShare bool
+---@field CurLikeCount int32
+---@field DataTable_ScoreSource UUAEDataTable
+---@field ScoreSourceIDList ULuaArrayHelper

@@ -1,0 +1,1 @@
+---@class BP_EquipBoxGeneratorGroupComponent_C:UEquipBoxGeneratorGroup

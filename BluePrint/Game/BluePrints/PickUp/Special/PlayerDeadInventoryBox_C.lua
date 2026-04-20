@@ -1,0 +1,20 @@
+---@class PlayerDeadInventoryBox_C:APlayerTombBox
+---@field GetGroundLocation:fun():FVector
+---@field GetVector4:fun(Dest:FVector,Ratio:float)
+---@field UserConstructionScript:fun()
+---@field ShowShine:fun()
+---@field ShowNormal:fun()
+---@field SwitchToDeadTombBox:fun()
+---@field HideDeadTombApparence:fun()
+---@field PlayTombBoxParticle:fun()
+---@field AttrModify UAttrModifyComponent
+---@field STScreenAppearance USTScreenAppearanceComponent
+---@field SM_plane_01 UStaticMeshComponent
+---@field Spline USplineComponent
+---@field Camera UCameraComponent
+---@field Survive_FMC_Chest1 UStaticMeshComponent
+---@field PitchTimeline UTimelineComponent
+---@field MatParamTimeline UTimelineComponent
+---@field CameraMove UTimelineComponent
+---@field DynamicMat UMaterialInstanceDynamic
+---@field bHadApplyTombSkinOne bool

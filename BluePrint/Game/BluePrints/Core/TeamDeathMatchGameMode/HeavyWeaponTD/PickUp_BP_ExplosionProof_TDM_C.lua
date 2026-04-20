@@ -1,0 +1,3 @@
+---@class PickUp_BP_ExplosionProof_TDM_C:APickUp_BP_ExplosionProof_C
+---@field UserConstructionScript:fun()
+---@field ParticleSystem UParticleSystemComponent

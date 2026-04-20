@@ -1,0 +1,24 @@
+---@class BP_AnimAI_C:ASTExtraBaseCharacter
+---@field SetAnimClass:fun(AnimClass:UClass)
+---@field SwitchAnimBlendFastPath:fun(Enable:bool)
+---@field EnableFastPathTestAnim:fun(Enable:bool)
+---@field SetRender:fun(ShouldRend:bool)
+---@field SetAnimUpdate:fun(ShouldAnim:bool)
+---@field UserConstructionScript:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field Wear USkeletalMeshComponent
+---@field BackPack USkeletalMeshComponent
+---@field CharacterAnimList_Base CharacterAnimList_Base_C
+---@field CharacterAnimList_Skill CharacterAnimList_Skill_C
+---@field CharacterAnimList_Parachute CharacterAnimList_Parachute_C
+---@field CharacterAvatarComp_My CharacterAvatarComp_BP_C
+---@field CoustomAvatarList ULuaArrayHelper
+---@field PickupInf FBattleItemPickupInfo
+---@field Anim CH_Base_AnimBP_C
+---@field PosesToPlay ULuaArrayHelper
+---@field Index int32
+---@field PoseNum int32
+---@field DefaultAnimBP UClass
+---@field FastPathAnimBP UClass
+---@field bUseIdle bool
+---@field GameStateInstance TestModelGameState_C

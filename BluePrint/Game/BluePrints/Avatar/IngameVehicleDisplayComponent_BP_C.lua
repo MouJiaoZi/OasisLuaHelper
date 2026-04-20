@@ -1,0 +1,6 @@
+---@class IngameVehicleDisplayComponent_BP_C:UVehicleAvatarDisplayPoseComponent
+---@field NeedRespawnVehicle:fun(VehicleID:int32,Owner:FString):bool
+---@field CacheVechileAndOwner:fun(Vehicle:int32,Owner:FString)
+---@field SpawnAvatar:fun(IsUseLod:bool)
+---@field CurrentVehicleID int32
+---@field CurrentOwner FString

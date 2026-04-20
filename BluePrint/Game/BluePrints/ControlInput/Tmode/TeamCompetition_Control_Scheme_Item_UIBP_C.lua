@@ -1,0 +1,11 @@
+---@class TeamCompetition_Control_Scheme_Item_UIBP_C:UUAEUserWidget
+---@field SetSelect:fun(IsSelect:bool)
+---@field InitData:fun(WeaponConfigData:FPlayerWeaponsConfig,Index:int32)
+---@field OnClickSelectItem__DelegateSignature:fun(Index:int32)
+---@field Image_TC_Scheme_Item_Gun1 UImage
+---@field Image_TC_Scheme_Item_Gun2 UImage
+---@field Image_TC_Scheme_Item_Select UImage
+---@field NewButton_TC_Scheme_Item UNewButton
+---@field TextBlock_TC_Scheme_Item_Number UTextBlock
+---@field CurrentIndex int32
+---@field OnClickSelectItem ULuaMulticastDelegate

@@ -1,0 +1,49 @@
+---@class QuickSign_UIBP_C:UUAEUserWidget
+---@field ClearItem:fun()
+---@field InitUIPool:fun()
+---@field SetDelMarkStatus:fun()
+---@field SetClickInitTouchStatus:fun()
+---@field UnInit:fun()
+---@field OrganizeMarkInfo:fun(ConfigID:FString)
+---@field OnTouchMoved:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field OnDelSignMarkHandle:fun(MsgID:FString)
+---@field CheckMarkCenterActive:fun()
+---@field OnMarkAtCenterActive:fun(IsActive:bool,MsgID:FString)
+---@field GetSignMark:fun():QuickSign_TipNormal_UIBP_C
+---@field OnAddSignMarkHandle:fun(SignMsg:FQuickSignMark)
+---@field Init:fun():bool
+---@field OnTouchEnded:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field OnTouchStarted:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field OnDragEnd:fun()
+---@field OnDraging:fun(MousePos:FVector2D)
+---@field OnDragBegin:fun()
+---@field OnDoubleClick:fun()
+---@field OnClick:fun()
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field ReceivedInitWidget:fun()
+---@field ShowHideQuickSign__DelegateSignature:fun(bShow:bool)
+---@field CanvasPanel_Mark UCanvasPanel
+---@field CanvasPanel_SignBtn CustomizeCanvasPanel_BP_C
+---@field QuickSignCircle_UIBP QuickSignCircle_UIBP_C
+---@field WidgetSwitcher_Base UWidgetSwitcher
+---@field WidgetSwitcher_UnPressed UWidgetSwitcher
+---@field PressDownTime float
+---@field PressDownPos FVector2D
+---@field PressDownIndex int32
+---@field SignMarkWidgetMap ULuaMapHelper
+---@field IsAtCenterActive bool
+---@field CrtActiveMsgID FString
+---@field ClickTimeHandle FTimerHandle
+---@field OperationDone bool
+---@field ClickTimeThreshold float
+---@field IsTouchEnd bool
+---@field PressTimeHandle FTimerHandle
+---@field DataTable UUAEDataTable
+---@field BeginDragThreshold float
+---@field DragThanClickOffsetTime float
+---@field ShowHideQuickSign ULuaMulticastDelegate
+---@field MainPool UUIDuplicatedItemPool
+---@field TipItemClass FSoftObjectPath
+---@field TipNormalClass FSoftObjectPath
+---@field TipItemStr FString
+---@field TipNormalStr FString

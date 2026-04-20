@@ -1,0 +1,5 @@
+---@class BP_AiServiceSpect_C:AAiServiceSpectator
+---@field UserConstructionScript:fun()
+---@field OnTargetCharaChange:fun(TarGet:ACharacter)
+---@field Camera UCameraComponent
+---@field SpringArm USpringArmComponent

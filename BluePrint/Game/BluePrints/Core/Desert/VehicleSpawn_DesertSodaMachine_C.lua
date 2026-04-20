@@ -1,0 +1,1 @@
+---@class VehicleSpawn_DesertSodaMachine_C:UVehicleSpawn_Desert_C

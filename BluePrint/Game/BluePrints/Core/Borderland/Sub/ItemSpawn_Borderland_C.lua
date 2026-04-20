@@ -1,0 +1,1 @@
+---@class ItemSpawn_Borderland_C:UBP_ItemGeneratorComponent_C

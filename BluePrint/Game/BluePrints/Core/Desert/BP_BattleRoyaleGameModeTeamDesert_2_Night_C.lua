@@ -1,0 +1,1 @@
+---@class BP_BattleRoyaleGameModeTeamDesert_2_Night_C:ABP_BattleRoyaleGameModeTeamDesert_2_C

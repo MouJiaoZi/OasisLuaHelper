@@ -1,0 +1,32 @@
+---@class Wingman_CharmRank1_UIBP_C:UUAEUserWidget
+---@field OnWingManUICreateEvent:fun(Obj:UObject):bool
+---@field Init:fun()
+---@field ReceivedInitWidget:fun()
+---@field Construct:fun()
+---@field DX_OpenFirst UWidgetAnimation
+---@field DX_Close UWidgetAnimation
+---@field DX_Open UWidgetAnimation
+---@field CanvasPanel_0 UCanvasPanel
+---@field CanvasPanel_3 UCanvasPanel
+---@field CanvasPanel_27 UCanvasPanel
+---@field CanvasPanel_IPX UCanvasPanel
+---@field NewButton_Close UNewButton
+---@field NewButton_WingmanRank UNewButton
+---@field ReuseList2_WingRankList ReuseList2_C
+---@field Spacer_WingRingList USpacer
+---@field WidgetSwitcher_0 UWidgetSwitcher
+---@field Wingman_MyRank Wingman_RankItem1_UIBP_C
+---@field Wingman_RankItem1_UIBP_0 Wingman_RankItem1_UIBP_C
+---@field Wingman_RankItem1_UIBP_1 Wingman_RankItem1_UIBP_C
+---@field Wingman_RankItem1_UIBP_2 Wingman_RankItem1_UIBP_C
+---@field Wingman_RankItem1_UIBP_3 Wingman_RankItem1_UIBP_C
+---@field Wingman_RankItem1_UIBP_4 Wingman_RankItem1_UIBP_C
+---@field GetSelf bool
+---@field NewVar_0 AActor
+---@field WingManInfoList ULuaArrayHelper
+---@field ListSize ULuaArrayHelper
+---@field ItemArray ULuaArrayHelper
+---@field MinCount int32
+---@field GetSelfShow bool
+---@field WingManBoardInfoList ULuaArrayHelper
+---@field AkAudioEvent UAkAudioEvent

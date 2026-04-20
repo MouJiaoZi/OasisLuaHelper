@@ -1,0 +1,1 @@
+---@class BP_SuperColdComp_DihorOtok_C:USuperColdModeComponent

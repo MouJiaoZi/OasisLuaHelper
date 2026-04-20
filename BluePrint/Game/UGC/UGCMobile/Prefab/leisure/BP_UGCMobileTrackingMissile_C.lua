@@ -1,0 +1,44 @@
+---@class BP_UGCMobileTrackingMissile_C:BP_UGCMobileBaseActor_C
+---@field GetLuaModule:fun():FString
+---@field OnReceiveMissileExploded:fun()
+---@field LaunchMissile:fun(ProjectileActor:APESkillProjectileBase)
+---@field SpawnAndGetMissile:fun(TargetActor:AActor):APESkillProjectileBase
+---@field UserConstructionScript:fun()
+---@field TriggerArea USphereComponent
+---@field P_TriggerArea UParticleSystemComponent
+---@field TriggerAreaPoint USceneComponent
+---@field OverlapCheckArea UOverlapCheckAreaComponent
+---@field MissileMesh UStaticMeshComponent
+---@field Pedestal UStaticMeshComponent
+---@field WaitToActivateTime int32
+---@field SelfDestroyTime int32
+---@field Acceleration float
+---@field MaxSpeed_0 float
+---@field ExplosionDamage int32
+---@field FriendCamp EUGCSwitchTargetTrigger3
+---@field TeamList S_TeamChoice
+---@field TriggerCategoryRadius float
+---@field ExplosionCategoryRadius float
+---@field AdjustTrackingCycle float
+---@field bMissileCanBeAttack bool
+---@field MissileHP int32
+---@field bCanRespawn bool
+---@field RespawnInterval int32
+---@field bShowInGame bool
+---@field bShowTriggerCategoryInGame bool
+---@field TrackingMissileClass UClass
+---@field LaunchSpeed float
+---@field LaunchGravityScale float
+---@field bShowBaseInGame bool
+---@field ProjectileParams FProjectileParams
+---@field CurMissileState int32
+---@field bNewRoundReset bool
+---@field EnableAction FUGCMobileObjectAction
+---@field DisableAction FUGCMobileObjectAction
+---@field DeactivatedAction FUGCMobileObjectAction
+---@field ExplodeAction FUGCMobileObjectAction
+---@field EnableEvent FUGCMobileObjectEvent
+---@field DisableEvent FUGCMobileObjectEvent
+---@field HitPlayerEvent FUGCMobileObjectEvent
+---@field OwningMissile APESkillProjectileBase
+---@field AreaColor FLinearColor

@@ -1,0 +1,48 @@
+---@class MobileEditor_SetColorGradient_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field GetColorRGBs_0:fun():ULuaArrayHelper
+---@field OnTouchStarted:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field GetCurrentSelectedColorStr:fun():FText
+---@field GetCurrentSelectedColorRGB:fun():FLinearColor
+---@field OnCurrentSelectedIndex__DelegateSignature:fun(Index:int32)
+---@field OnRemoveKeyFrame__DelegateSignature:fun(Index:int32)
+---@field OnAddKeyFrame__DelegateSignature:fun()
+---@field OnResetColor__DelegateSignature:fun()
+---@field OnClickButtonSure__DelegateSignature:fun(InRGBColor:FLinearColor)
+---@field NewColorBeSelectedByDrag__DelegateSignature:fun()
+---@field OnGradientCellInfoChanged__DelegateSignature:fun(Index:int32,InPercent:float,InColorRGB:FLinearColor)
+---@field CanvasPanel_Empty UCanvasPanel
+---@field CanvasPanel_Recent UCanvasPanel
+---@field CanvasPanel_SaveColor UCanvasPanel
+---@field CanvasPanel_Swatches UCanvasPanel
+---@field CanvasPanel_Type UCanvasPanel
+---@field ColorGradientSlider_0 UColorGradientSlider
+---@field ColorPalette UCanvasPanel
+---@field ColorPicker_Palette UColorPicker
+---@field ColorPicker_Slider UColorSlider
+---@field ColorSlider_SliderSaturation UColorSlider
+---@field EditableText_NumColor UEditableText
+---@field Image_Color UImage
+---@field NewButton_AddKeyFrame UNewButton
+---@field NewButton_Close UNewButton
+---@field NewButton_Color UNewButton
+---@field NewButton_Mask UNewButton
+---@field NewButton_RemoveKeyFrame UNewButton
+---@field NewButton_Reset UNewButton
+---@field TextBlock_EmptyTips UTextBlock
+---@field TextBlock_NoColor UTextBlock
+---@field UGCM_But04_UIBP UGCM_But04_UIBP_C
+---@field UGCM_But04_UIBP_C_3 UGCM_But04_UIBP_C
+---@field UIContent_Color UCanvasPanel
+---@field WidgetSwitcher_Add UWidgetSwitcher
+---@field WidgetSwitcher_Remove UWidgetSwitcher
+---@field WrapGroupBox_Recent UWrapGroupBox
+---@field CurrentSelectedColor FLinearColor
+---@field OnGradientCellInfoChanged ULuaMulticastDelegate
+---@field NewColorBeSelectedByDrag ULuaMulticastDelegate
+---@field OnClickButtonSure ULuaMulticastDelegate
+---@field RecommendColorList ULuaArrayHelper
+---@field OnResetColor ULuaMulticastDelegate
+---@field OnAddKeyFrame ULuaMulticastDelegate
+---@field OnRemoveKeyFrame ULuaMulticastDelegate
+---@field OnCurrentSelectedIndex ULuaMulticastDelegate

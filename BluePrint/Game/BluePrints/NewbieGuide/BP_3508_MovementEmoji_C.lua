@@ -1,0 +1,1 @@
+---@class BP_3508_MovementEmoji_C:UNewbieGuideItemObject

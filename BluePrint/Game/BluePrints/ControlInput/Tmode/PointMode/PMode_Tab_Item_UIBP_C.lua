@@ -1,0 +1,16 @@
+---@class PMode_Tab_Item_UIBP_C:UUAEUserWidget
+---@field Highlight:fun()
+---@field UpdatePlayerBattleInfo:fun(PlayerData:FDeathMatchPlayerStateData)
+---@field InitPlayerInfo:fun(PlayerInfo:FDeathMatchPlayerInfo)
+---@field Common_Avatar_BP Common_Avatar_BP_C
+---@field Image_OP_Select UImage
+---@field TextBlock_OP_AssistNumber UTextBlock
+---@field TextBlock_OP_DieNumber UTextBlock
+---@field TextBlock_OP_KIllNumber UTextBlock
+---@field TextBlock_OP_OccupationNumber UTextBlock
+---@field TextBlock_OP_PlayerName UTextBlock
+---@field WidgetSwitcher_OP_Gender UWidgetSwitcher
+---@field Color_Yellow FSlateColor
+---@field Color_White FSlateColor
+---@field PlayerUIDString FString
+---@field IsUsed bool

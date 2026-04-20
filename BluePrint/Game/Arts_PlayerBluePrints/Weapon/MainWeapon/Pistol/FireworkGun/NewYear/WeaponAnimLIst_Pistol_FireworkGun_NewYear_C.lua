@@ -1,0 +1,1 @@
+---@class WeaponAnimLIst_Pistol_FireworkGun_NewYear_C:UUAECharacterAnimListComponent

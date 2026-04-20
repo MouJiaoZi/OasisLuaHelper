@@ -1,0 +1,33 @@
+---@class ColdMode_Logic_C:UUAEUserWidget
+---@field ShowSelf:fun()
+---@field StartShowModeUI:fun()
+---@field HideSelf:fun()
+---@field TestFunction:fun()
+---@field OwnerBonfireDieColdMode:fun()
+---@field StartNewRoastCountDownColdMode:fun()
+---@field FireLifeChangedColdMode:fun()
+---@field CloseWeatherPredictionUI:fun()
+---@field UINewBonfireAdded:fun()
+---@field UINotifyAnimEnd:fun()
+---@field RefreshWeatherPredictionUI:fun(Time:float,InWeatherMgr:ADynamicWeatherMgr)
+---@field UpdateTemp:fun(currentTP:float,ratioTP:float)
+---@field UIMsg_BonfireStateChanged:fun()
+---@field ShowModeUI:fun()
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field coldtips_OUT UWidgetAnimation
+---@field coldtips_ON UWidgetAnimation
+---@field CanvasPanel_root UCanvasPanel
+---@field TextBlock_Time UTextBlock
+---@field coldmodePlayerState Ingame_ColdModePlayerState_UIBP_C
+---@field coldmodeSkillBtn Ingame_ColdModeSkillBtn_UIBP_C
+---@field coldmodeLighterSlot BackPackArmorSlot_BP_C
+---@field coldmodeTemp Ingame_Thermometer_UIBP_C
+---@field isShowed bool
+---@field NextWeatherStartTime float
+---@field WeatherMgr ADynamicWeatherMgr
+---@field GuideHasExecOpen bool
+---@field GuideHasExecClose bool
+---@field IsWeatherPredictionUIShow bool
+---@field coldmodeSnowboardState Ingame_SkiBoard_Btn_UIBP_C
+---@field coldmodeTemperature ColdMode_Thermometer_UIBP_C
+---@field BonfirePanel UCanvasPanel

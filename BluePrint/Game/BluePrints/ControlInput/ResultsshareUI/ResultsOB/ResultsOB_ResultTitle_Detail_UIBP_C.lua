@@ -1,0 +1,11 @@
+---@class ResultsOB_ResultTitle_Detail_UIBP_C:UUAEUserWidget
+---@field ShowMoreDetailPanel:fun()
+---@field UpdateAllItem:fun(FormatedData:ULuaArrayHelper)
+---@field SetDetailItem:fun(Index:int32,UserWidget:UUserWidget)
+---@field ReceivedInitWidget:fun()
+---@field Construct:fun()
+---@field Button_close UButton
+---@field ReuseGrid ReuseGrid_C
+---@field ScrollBox_0 UScrollBox
+---@field TextBlock_0 UTextBlock
+---@field FormatedData ULuaArrayHelper

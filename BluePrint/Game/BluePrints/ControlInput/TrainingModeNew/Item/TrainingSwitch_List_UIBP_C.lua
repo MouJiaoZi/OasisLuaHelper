@@ -1,0 +1,22 @@
+---@class TrainingSwitch_List_UIBP_C:UUAEUserWidget
+---@field Button_ExitTraining UButton
+---@field Button_Friend UNewButton
+---@field Button_Log UNewButton
+---@field Button_Online UNewButton
+---@field Button_Recruit UNewButton
+---@field Button_Sensitivity UButton
+---@field Button_TeamUp UButton
+---@field CanvasPanel_9 UCanvasPanel
+---@field NewButton_GunRefit UNewButton
+---@field NewButton_Title UNewButton
+---@field NewButton_Werewolf UNewButton
+---@field SwitcherLog UWidgetSwitcher
+---@field SwitcherOnline UWidgetSwitcher
+---@field SwitcherRetrofit UWidgetSwitcher
+---@field SwitcherTeamUp UWidgetSwitcher
+---@field SwitcherTitle UWidgetSwitcher
+---@field TextNumber UTextBlock
+---@field TrainingSwitch_List UCanvasPanel
+---@field WidgetSwitcher_Friend UWidgetSwitcher
+---@field WidgetSwitcher_Icon UWidgetSwitcher
+---@field bEnableWeaponModuleSystem bool

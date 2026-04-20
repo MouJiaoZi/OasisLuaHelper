@@ -1,0 +1,8 @@
+---@class BP_Sniper_AS50_C:BP_ShootWeaponBase_C
+---@field UserConstructionScript:fun()
+---@field ReplaceMesh_Mag UStaticMeshComponent
+---@field ReplaceMesh_Main UStaticMeshComponent
+---@field WeaponAnimList_Sniper_AS50 WeaponAnimList_Sniper_AS50_C
+---@field WeaponPostFireState UWeaponPostFireState
+---@field WeaponPreFireState UWeaponPreFireState
+---@field bUseIdleAnim_0_0 bool

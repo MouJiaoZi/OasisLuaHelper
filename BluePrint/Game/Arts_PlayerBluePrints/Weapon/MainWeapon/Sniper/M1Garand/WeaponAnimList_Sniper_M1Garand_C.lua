@@ -1,0 +1,1 @@
+---@class WeaponAnimList_Sniper_M1Garand_C:UUAECharacterAnimListComponent

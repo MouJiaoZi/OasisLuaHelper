@@ -1,0 +1,1 @@
+---@class BP_WindowComp_H_C:UBP_WindowCompBase_C

@@ -1,0 +1,5 @@
+---@class CG030_Kite_Item_UIBP_C:UUAEUserWidget
+---@field Image_GlideWing UImage
+---@field ProgressBar_Bar UProgressBar
+---@field TextBlock_IconName UTextBlock
+---@field TextBlock_Time UTextBlock

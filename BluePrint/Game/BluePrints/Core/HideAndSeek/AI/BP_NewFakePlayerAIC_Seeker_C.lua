@@ -1,0 +1,3 @@
+---@class BP_NewFakePlayerAIC_Seeker_C:ANewFakePlayerAIController
+---@field UserConstructionScript:fun()
+---@field AIBreakWindow UAIBreakWindowComponent

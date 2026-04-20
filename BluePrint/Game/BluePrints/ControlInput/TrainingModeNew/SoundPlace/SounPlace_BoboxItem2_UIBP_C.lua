@@ -1,0 +1,10 @@
+---@class SounPlace_BoboxItem2_UIBP_C:UUAEUserWidget
+---@field SetSelect:fun(IsSelect:bool)
+---@field Button_SelectTeam UNewButton
+---@field CanvasPanel_Icon UCanvasPanel
+---@field Image_Bg UImage
+---@field Image_ModeIcon UImage
+---@field TextBlock_Name2 UTextBlock
+---@field UnSelectTeam UCanvasPanel
+---@field ItemIndex int32
+---@field ItemName FString

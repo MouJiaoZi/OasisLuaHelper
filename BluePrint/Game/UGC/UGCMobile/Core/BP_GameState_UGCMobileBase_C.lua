@@ -1,0 +1,20 @@
+---@class BP_GameState_UGCMobileBase_C:BP_UGCGameState_C
+---@field TryAddExplosionDustEffect:fun(CauserActor:AActor,TriggerDistance:float,SoundFactor:float):bool
+---@field TryAddBulletFlyThroughEffect:fun():bool
+---@field GetLuaModule:fun():FString
+---@field UserConstructionScript:fun()
+---@field UGCMGeneralConfigComponent UUGCMGeneralConfigComponent
+---@field BP_UGCMobileMonitorComponent BP_UGCMobileMonitorComponent_C
+---@field BP_UGCMobileGlobalFuncManagerComponent BP_UGCMobileGlobalFuncManagerComponent_C
+---@field BP_UGCMSenWordChecker BP_UGCMSenWordChecker_C
+---@field BP_UGCMobileLogConsoleComponent BP_UGCMobileLogConsoleComponent_C
+---@field UGCMConstraintChecker BP_UGCMConstraintCheckerComponent_C
+---@field GameDriver BP_UGCMobileGameDriver_C
+---@field EdDriver BP_UGCMobileEdDriver_C
+---@field UGCMobileMotionDataCenter UUGCMobileMotionDataCenterComponent
+---@field HasTeammateHurt bool
+---@field IsInfiniteMedicine bool
+---@field ExplosionDustTemplate UScreenAppearanceProvider_Plane
+---@field ExplosionDustSound UAkAudioEvent
+---@field ExplosionDustDist_Min float
+---@field ExplosionDustDist_Max float

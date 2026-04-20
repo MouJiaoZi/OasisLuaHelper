@@ -1,0 +1,26 @@
+---@class BP_TDM_HeavyWeaponBox_C:AHeavyWeaponBox
+---@field PlayCountdownEndSound:fun()
+---@field RemoveBattleBGM:fun()
+---@field SpawnBattleBGM:fun()
+---@field UserConstructionScript:fun()
+---@field BPOnStartMonsterTreasureBox:fun()
+---@field BPOnCountdownEnd:fun()
+---@field BPOnBreakMonsterTreasureBox:fun()
+---@field BPOnStopMonsterTreasureBox:fun()
+---@field ShowMonsterTreasureBoxSkelemesh:fun(IsShow:bool)
+---@field BPOnHideLightColumn:fun()
+---@field BPOnAnimationStop:fun()
+---@field BPOnAnimationAkAudioStart:fun()
+---@field BPOnAnimationAkAudioStop:fun()
+---@field Box4 UBoxComponent
+---@field Box3 UBoxComponent
+---@field Box2 UBoxComponent
+---@field Box1 UBoxComponent
+---@field Box UBoxComponent
+---@field Capsule UCapsuleComponent
+---@field SkeletalMesh_box USkeletalMeshComponent
+---@field ParticleSystem UParticleSystemComponent
+---@field Widget UWidgetComponent
+---@field ChildActor UChildActorComponent
+---@field BP_ProduceDropItemComponent BP_ProduceDropItemComponent_C
+---@field SkeletalMesh USkeletalMeshComponent

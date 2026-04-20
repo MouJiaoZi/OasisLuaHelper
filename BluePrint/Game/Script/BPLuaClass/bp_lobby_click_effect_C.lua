@@ -1,0 +1,5 @@
+---@class bp_lobby_click_effect_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_LobbyClickPosY int32
+---@field BP_LobbyClickPosX int32

@@ -1,0 +1,63 @@
+---@class ReplayProgressBase_UIBP_C:UReplayProgressbarWidget
+---@field GotoTimeByTwoString:fun(Minute:FString,Second:FString)
+---@field SplitTimeNumFormat:fun(InString:FString,LeftString:FString,RightString:FString):bool
+---@field GotoTimeByString:fun(TimeString:FString)
+---@field ReleasedReplayRewindBtn:fun()
+---@field ReleasedReplayFastForwardBtn:fun()
+---@field PressedReplayFastForwardBtn:fun()
+---@field PressedReplayRewindBtn:fun()
+---@field ResetByPressedFForREWBtn:fun()
+---@field ResetByReleasedFForREWBtn:fun()
+---@field CheckLiveEvnetShow:fun()
+---@field UpdateEventUIItem:fun()
+---@field UpdateProgressEventItem:fun()
+---@field GetReplayTotalTimeInSeconds:fun():float
+---@field RefreshPauseBtnState:fun(Paused:bool)
+---@field ProgressEventUIPosUpdate:fun()
+---@field ProgressEventUIRefresh:fun()
+---@field CreateProgressEventItem:fun()
+---@field UpdateSliderAndProgress:fun(DeltaSeconds:float)
+---@field InitSomeDataOrUI:fun()
+---@field BindUIEvent:fun()
+---@field EventUIRefresh:fun()
+---@field CreateEventUIItem:fun()
+---@field Construct:fun()
+---@field RefreshKillorHitDownUIData:fun(hasData:bool,IsHadData:bool)
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field OnReplayFinishPlay:fun()
+---@field ShowReplayProgressUI:fun()
+---@field ShowReplayEventListUI:fun()
+---@field OnResetViewTarget_BP:fun()
+---@field OnWidgetInitialize:fun()
+---@field RefreshUIInfoOnAttachCameraViewFinished:fun()
+---@field OnLeaveFreeView:fun()
+---@field OnEnterFreeView:fun()
+---@field UpdateKillorHitDownUIData:fun()
+---@field OnChangeInDilation:fun(InDilation:float)
+---@field ShowReConnetionLoadingUI:fun()
+---@field HideReConnetionLoadingUI:fun()
+---@field OnReleasedReplayFastForwardButton:fun()
+---@field OnReleasedReplayRewindButton:fun()
+---@field OnPressedReplayFastForwardButton:fun()
+---@field OnPressedReplayRewindButton:fun()
+---@field OnReleasedReplayPauseButton:fun()
+---@field OnPressedEnterButtonEvent:fun()
+---@field CanvasPanel_Root UCanvasPanel
+---@field OB_ReplayUI_PlayVideoInfo_UIBP OB_ReplayUI_PlayVideoInfo_UIBP_C
+---@field OB_SkipTimeline_Popups_UIBP OB_SkipTimeline_Popups_UIBP_C
+---@field Reconnect_UIBP Reconnect_UIBP_C
+---@field CurPlayback UGameReplay
+---@field EventItems ULuaArrayHelper
+---@field CurSpeed float
+---@field ProgressEventItems ULuaArrayHelper
+---@field LastViewPort FVector2D
+---@field CaptureProgressBar bool
+---@field ProgressBarItemClass FSoftObjectPath
+---@field NeedInitProgressEventUI bool
+---@field NextChunkProgressEventItems ULuaArrayHelper
+---@field NextChunkEventItems ULuaArrayHelper
+---@field ButtonFastForwardSpeed float
+---@field ButtonFastForwardTime float
+---@field NextFastForwardTime bool
+---@field SkipTimeWindowTotalTime float
+---@field IsOpenSkipTimeWindows bool

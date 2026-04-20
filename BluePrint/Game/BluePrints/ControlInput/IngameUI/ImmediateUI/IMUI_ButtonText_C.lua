@@ -1,0 +1,5 @@
+---@class IMUI_ButtonText_C:UUserWidget
+---@field Button UNewButton
+---@field ButtonImg UImage
+---@field ButtonText UTextBlock
+---@field Spacer_Size USpacer

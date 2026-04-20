@@ -1,0 +1,4 @@
+---@class BP_HideAndSeek_Balloon_C:AUAERegionActor
+---@field UserConstructionScript:fun()
+---@field ReceiveDestroyed:fun()
+---@field StaticMesh UStaticMeshComponent

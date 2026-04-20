@@ -1,0 +1,19 @@
+---@class SkillIconTemplate_Func_BP_Base_C:UUTSkillIconWidgetTemplate_Func
+---@field SetSkillIcon:fun(NewParam:ESkillIconStatus)
+---@field OnSkillActiveFunc:fun()
+---@field OnSkillTickCDFunc:fun()
+---@field OnSkillTickCDFinishFunc:fun()
+---@field OnInitEvent:fun()
+---@field SkillIcon_Ptr UImage
+---@field SkillBtn_Ptr UButton
+---@field SkillBtnSelect_Ptr UImage
+---@field FXWidgetSwitcher_Ptr UWidgetSwitcher
+---@field IconStateSwitcher_Ptr UWidgetSwitcher
+---@field ProgressImage_Ptr UImage
+---@field NameText_Ptr UTextBlock
+---@field PointImagesPanel_Ptr UCanvasPanel
+---@field TimeText_Ptr UTextBlock
+---@field SkillStatue ESkillIconStatus
+---@field Anim_RefreshSkill UWidgetAnimation
+---@field Anim_UpgrateSkill UWidgetAnimation
+---@field HighLightBtn_Ptr UImage

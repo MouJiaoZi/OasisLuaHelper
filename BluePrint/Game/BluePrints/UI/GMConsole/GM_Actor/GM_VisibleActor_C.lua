@@ -1,0 +1,6 @@
+---@class GM_VisibleActor_C:AActor
+---@field RecordActor:fun(Obj:AActor,Pri:UPrimitiveComponent)
+---@field UserConstructionScript:fun()
+---@field DefaultSceneRoot USceneComponent
+---@field HideActorList ULuaArrayHelper
+---@field umg UUserWidget

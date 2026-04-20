@@ -1,0 +1,1 @@
+---@class HS_WineBottle01_C:AHiderSceneActorBase_C

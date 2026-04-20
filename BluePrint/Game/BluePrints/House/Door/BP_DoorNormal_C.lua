@@ -1,0 +1,18 @@
+---@class BP_DoorNormal_C:APUBGDoor_Single
+---@field RefreshUIOnClientInf:fun():bool
+---@field ShouldPlaySound:fun():bool
+---@field UserConstructionScript:fun()
+---@field ReceiveAnyDamage:fun(Damage:float,DamageType:UDamageType,InstigatedBy:AController,DamageCauser:AActor)
+---@field ActionDoorOnClient:fun(doorStateDst:int32,bExtraDoor:bool)
+---@field BP_DoorBroken:fun(isBeginPlay:bool,bExtraDoor:bool)
+---@field ActionDoorImmediatly:fun(doorStateDst:int32,bExtraDoor:bool)
+---@field NormalMesh UStaticMesh
+---@field BrokenMesh UStaticMesh
+---@field HP float
+---@field HPTimer float
+---@field HPDummy float
+---@field DummyTimerHandler FTimerHandle
+---@field GrenadeDamageRatio float
+---@field CloseDoorAudio UAkAudioEvent
+---@field OpenDoorAudio UAkAudioEvent
+---@field DamageCauser AActor

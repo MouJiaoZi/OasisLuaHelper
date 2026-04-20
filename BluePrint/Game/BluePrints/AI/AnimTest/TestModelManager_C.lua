@@ -1,0 +1,10 @@
+---@class TestModelManager_C:AActor
+---@field InitModelData:fun()
+---@field SetTestModel:fun(CurTestModel:int32)
+---@field UserConstructionScript:fun()
+---@field ReceiveEndPlay:fun(EndPlayReason:EEndPlayReason)
+---@field DefaultSceneRoot USceneComponent
+---@field CurTestModel int32
+---@field CurTestModelRef TestModuleBase_C
+---@field GameStateInstance TestModelGameState_C
+---@field ModelList ULuaArrayHelper

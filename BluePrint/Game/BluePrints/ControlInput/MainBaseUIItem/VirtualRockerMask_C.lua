@@ -1,0 +1,10 @@
+---@class VirtualRockerMask_C:UUAEUserWidget
+---@field On_Image_btn_R_MouseButtonDown_0:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field On_Image_btn_L_MouseButtonDown_0:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field EnableRightMask:fun()
+---@field EnableLeftMask:fun()
+---@field DisableMask:fun()
+---@field CanvasPanel_Root UCanvasPanel
+---@field Image_btn_L UImage
+---@field Image_btn_R UImage
+---@field TextBlock_Left UTextBlock

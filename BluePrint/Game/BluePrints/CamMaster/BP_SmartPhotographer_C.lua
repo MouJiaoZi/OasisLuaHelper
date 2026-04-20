@@ -1,0 +1,25 @@
+---@class BP_SmartPhotographer_C:UCameraModifier_SmartPhotographer
+---@field EnableConsoleVariables:fun(bHighQuality:bool)
+---@field HideVehicleAttachments:fun(Vehicle:AActor,NewHidden:bool)
+---@field SetPalyerWeaponShootMode:fun(ShootMode:EShootWeaponShootMode)
+---@field InitNewCreatedUI:fun(NewUI:UUAEUserWidget)
+---@field BlueprintModifyCamera:fun(DeltaTime:float,ViewLocation:FVector,ViewRotation:FRotator,FOV:float):FVector,FRotator,float
+---@field IsSpectating:fun():bool
+---@field SetSelfVisible:fun(bNewHidden:bool)
+---@field SetWeaponAndAttachmentsHiddenInGame:fun(Target:ASTExtraBaseCharacter,bNewHidden:bool)
+---@field SetVehicleHiddenInGame:fun(Character:ASTExtraBaseCharacter,bNewHidden:bool)
+---@field SetPlayerHiddenInGame:fun(Pawn:ASTExtraBaseCharacter,bNewHidden:bool)
+---@field ShouldHidePawn:fun(bIsTeammate:bool):bool
+---@field UpdatePawnVisible:fun(bInWantsHidden:bool)
+---@field DestroyPhotoUI:fun()
+---@field FindUIAttachParent:fun():UPanelWidget
+---@field FindPreCreatedUI:fun():UUAEUserWidget
+---@field CreatePhotoUI:fun()
+---@field UMGClassPath FString
+---@field bHideEnemy_0 bool
+---@field bHideTeammate_0 bool
+---@field PawnStatesInterruptThis ULuaArrayHelper
+---@field bHideSelf_0 bool
+---@field SequenceSettings FMovieSceneSequencePlaybackSettings
+---@field CamMasterSeuqenceActor ALevelSequenceActor
+---@field Table_CamMaster UObject

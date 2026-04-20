@@ -1,0 +1,3 @@
+---@class BP_DihorOtok_RevivalMode_Four_C:ABP_BattleRoyaleGameModeTeamDihorOtok_2_C
+---@field UserConstructionScript:fun()
+---@field SpawnMonsterHelperComp1 USpawnMonsterHelperComp

@@ -1,0 +1,3 @@
+---@class BP_PlayerState_C:ASTExtraPlayerState
+---@field UserConstructionScript:fun()
+---@field DefaultSceneRoot USceneComponent

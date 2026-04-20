@@ -1,0 +1,2 @@
+---@class BP_WeaponTriggerEventHandleEnergyAccumulate_FMR_C:UWeaponTriggerEventHandleEnergyAccumulate
+---@field ProcessTriggerEvent:fun(Event:EWeaponTriggerEvent,EventData:FString)

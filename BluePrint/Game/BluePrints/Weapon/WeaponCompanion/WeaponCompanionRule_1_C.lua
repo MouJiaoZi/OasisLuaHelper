@@ -1,0 +1,2 @@
+---@class WeaponCompanionRule_1_C:UBP_WeaponCompanionRuleBase_C
+---@field OnInit:fun()

@@ -1,0 +1,11 @@
+---@class bp_corps_task_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_ARRAY_CorpsTaskActiveAwardInfos ULuaArrayHelper
+---@field BP_CorpsTaskHasRedPoint bool
+---@field BP_CorpsTaskCurrentOperateAwardId int32
+---@field BP_CorpsTaskActiveNum int32
+---@field BP_CorpsTaskStarNum int32
+---@field BP_ARRAY_CorpsTaskCurrDropList ULuaArrayHelper
+---@field BP_ARRAY_TaskCorpsInfos ULuaArrayHelper
+---@field BP_CorpsTaskCurrentOperateTaskId int32

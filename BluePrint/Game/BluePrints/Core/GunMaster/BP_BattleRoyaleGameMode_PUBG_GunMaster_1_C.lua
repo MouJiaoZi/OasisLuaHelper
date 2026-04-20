@@ -1,0 +1,1 @@
+---@class BP_BattleRoyaleGameMode_PUBG_GunMaster_1_C:ABP_BattleRoyaleGameMode_PUBG_GunMaster_C

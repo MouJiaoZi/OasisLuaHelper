@@ -1,0 +1,22 @@
+---@class ResultOBlistitem_UIBP_C:UUAEUserWidget
+---@field RefreshIcon:fun(obj:UObject,id:int32)
+---@field GetGenderImage:fun(NewParam1:int32):FSlateBrush
+---@field Canvas_Profession_Level_01 UCanvasPanel
+---@field Canvas_Profession_Level_02 UCanvasPanel
+---@field Data1 UTextBlock
+---@field Image_0 UImage
+---@field Image_BG UImage
+---@field Image_BG2 UImage
+---@field Image_Gender UImage
+---@field Image_HeroIcon2 UImage
+---@field Image_ProfessionIcon UImage
+---@field Normal_PlayerName UTextBlock
+---@field NormalKill UTextBlock
+---@field PersonalItemSwitcher UWidgetSwitcher
+---@field Text_Level_02 UTextBlock
+---@field TextBlock_ProfessionLevel UTextBlock
+---@field Top_PlayerName UTextBlock
+---@field TopData1 UTextBlock
+---@field TopKill UTextBlock
+---@field ManImage FSlateBrush
+---@field WomenImage FSlateBrush

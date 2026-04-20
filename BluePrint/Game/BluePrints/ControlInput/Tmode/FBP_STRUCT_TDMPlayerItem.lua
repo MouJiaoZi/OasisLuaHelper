@@ -1,0 +1,9 @@
+---@class FBP_STRUCT_TDMPlayerItem
+---@field ResultReason FString
+---@field MyPlayerNameStr FString
+---@field isMyTeam bool
+---@field isMvp bool
+---@field ParentWidgetPtr TMode_Result_Both_UIBP_C
+---@field iItemIndexInArray int32
+---@field isClickTeamID int32
+---@field isGlobalObserve bool

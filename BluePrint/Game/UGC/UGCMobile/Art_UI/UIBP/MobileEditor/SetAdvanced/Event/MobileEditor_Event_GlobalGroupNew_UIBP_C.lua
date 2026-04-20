@@ -1,0 +1,10 @@
+---@class MobileEditor_Event_GlobalGroupNew_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field CanvasPanel_Select UCanvasPanel
+---@field Image_Icon UImage
+---@field NewButton_Fold UNewButton
+---@field Text_EventTitle UTextBlock
+---@field Text_GlobalExecutionTips UTextBlock
+---@field VerticalBox_Slot UVerticalBox
+---@field WidgetSwitcher_Fold UWidgetSwitcher
+---@field WidgetSwitcher_State UWidgetSwitcher

@@ -1,0 +1,1 @@
+---@class ItemSpawn_DihorOtokSquall_C:UItemSpawn_DihorOtok_C

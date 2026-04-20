@@ -1,0 +1,13 @@
+---@class MonsterRefresher_CustomDropPlan_Popups_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field NewButton_CancelCreate UNewButton
+---@field NewButton_ChangesDisabled UNewButton
+---@field NewButton_Close UNewButton
+---@field NewButton_ConfirmChanges UNewButton
+---@field NewButton_FinishCreate UNewButton
+---@field ReuseList2_TypeList ReuseListSp_C
+---@field ReuseList2_TypeTab UGC_ReuseList2_C
+---@field TextBox_PlanName UEditableTextBox
+---@field UGCM_But04_UIBP UGCM_But04_UIBP_C
+---@field UGCM_But04Disable_UIBP UGCM_But04Disable_UIBP_C
+---@field WidgetSwitcher_But UWidgetSwitcher

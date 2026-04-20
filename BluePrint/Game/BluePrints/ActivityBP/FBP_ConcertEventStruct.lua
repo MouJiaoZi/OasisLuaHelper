@@ -1,0 +1,4 @@
+---@class FBP_ConcertEventStruct
+---@field EventName FName
+---@field ParamInt int32
+---@field ParamStr FString

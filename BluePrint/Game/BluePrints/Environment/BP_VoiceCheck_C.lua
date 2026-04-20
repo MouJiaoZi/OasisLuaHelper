@@ -1,0 +1,22 @@
+---@class BP_VoiceCheck_C:UActorComponent
+---@field GetWeatherID:fun():int32
+---@field IsVoiceCheckEnable:fun():bool
+---@field UpdateRainDay:fun()
+---@field TrigerVoiceCheck:fun(nowActor:AActor,CheckDis:float)
+---@field InitCheckObjectByType:fun(NewParam:BP_VoiceCheckType):BP_VoiceDataObject_C
+---@field InitCheckMap:fun()
+---@field ReceiveBeginPlay:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field ShowTrigerVoiceIcon__DelegateSignature:fun(nowSubObject:BP_VoiceDataSubObject_C)
+---@field checkDataList ULuaArrayHelper
+---@field ShowTrigerVoiceIcon ULuaMulticastDelegate
+---@field playerMoveCheck BP_VoiceDataObject_C
+---@field VehicleMoveChek BP_VoiceDataObject_C
+---@field weaponCheck BP_VoiceDataObject_C
+---@field isRainDay bool
+---@field playerController BP_STExtraPlayerController_C
+---@field weatherConfigList ULuaArrayHelper
+---@field nowWeatherType EWeatherType
+---@field normalScaleDis float
+---@field gameState ASTExtraGameStateBase
+---@field WeatherID int32

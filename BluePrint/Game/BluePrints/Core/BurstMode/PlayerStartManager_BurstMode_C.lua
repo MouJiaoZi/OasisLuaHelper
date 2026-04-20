@@ -1,0 +1,2 @@
+---@class PlayerStartManager_BurstMode_C:UPlayerStartManagerComponent
+---@field GetLuaModule:fun():FString

@@ -1,0 +1,12 @@
+---@class ResultDetailItemInterface_C:UInterface
+---@field ShowBeLikedTipsF:fun(playerid:FString,msg:FString):bool
+---@field HideSuperLikeEntranceF:fun():bool
+---@field SetSayHelloInfoInf:fun(flag:bool):bool
+---@field SetDetailTitleVisibility:fun(IsVisible:bool):bool
+---@field SetTitleArrayInF:fun(TitleS:ULuaArrayHelper):bool
+---@field OnLikeFinishedInF:fun():bool
+---@field MakeSureLikeBtnStatusInF:fun(LikesysOpen:bool):bool
+---@field SetLikeInfoInF:fun(likeNum:int32,LikeEachohter:bool,isLikeSysOpen:bool):bool
+---@field GetPlayerIDInF:fun():FString
+---@field SetSelfTitleInF:fun(Title:int32,Name:FString,isSingleMode:bool):bool
+---@field SetRenderAngleInF:fun(Angle:float):bool

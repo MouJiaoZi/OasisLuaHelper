@@ -1,0 +1,18 @@
+---@class Bounty_Achievements_Main_C:UUAEUserWidget
+---@field GetIconCallback:fun(InObject:UObject)
+---@field SetIcon:fun(InIconPath:FString)
+---@field OnAchievementsUpdate:fun()
+---@field BindAchievementsUpdate:fun()
+---@field BindBackpackOpenEvent:fun()
+---@field UIMsg_HideBountyAchievementsShow:fun()
+---@field UIMsg_SwitchShowBountyAchievementsShow:fun()
+---@field UpdateLastAchievements:fun()
+---@field Construct:fun()
+---@field Button_select UButton
+---@field Image_Achievements UImage
+---@field Image_BG_01 UImage
+---@field Image_NotObtained UImage
+---@field Text_PrtofessionName UTextBlock
+---@field TextBlock_Achievements UTextBlock
+---@field WidgetSwitcher_Select UWidgetSwitcher
+---@field AchievementsTable UUAEDataTable

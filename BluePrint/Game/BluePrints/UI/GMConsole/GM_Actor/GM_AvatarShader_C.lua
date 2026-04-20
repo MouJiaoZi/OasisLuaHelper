@@ -1,0 +1,15 @@
+---@class GM_AvatarShader_C:AActor
+---@field PushItem:fun(Index:int32)
+---@field Init:fun()
+---@field UserConstructionScript:fun()
+---@field ChildActor2 UChildActorComponent
+---@field ChildActor1 UChildActorComponent
+---@field ChildActor UChildActorComponent
+---@field DefaultSceneRoot USceneComponent
+---@field AvatarDataList ULuaArrayHelper
+---@field Pawn BP_IngameDisplayPawn_C
+---@field Vehicle ASTExtraVehicleBase
+---@field Weapon BP_ShootWeaponBase_C
+---@field LastID int32
+---@field GM UGMCheatManager
+---@field LastShaderNum int32

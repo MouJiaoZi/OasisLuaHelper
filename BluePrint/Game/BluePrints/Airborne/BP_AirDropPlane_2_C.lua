@@ -1,0 +1,6 @@
+---@class BP_AirDropPlane_2_C:AAirDropPlane
+---@field StartSymulateFly:fun()
+---@field UserConstructionScript:fun()
+---@field Ak UAkComponent
+---@field Aircraft UStaticMeshComponent
+---@field DefaultSceneRoot USceneComponent

@@ -1,0 +1,24 @@
+---@class Setting_Operation_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field InitDisplayText:fun()
+---@field SetUploadParam:fun()
+---@field CopyTempSGToPlayerSG:fun(LayoutIdx:int32,FireMode:int32):bool
+---@field GetCurrentLayoutIdx_CopyFunc:fun():int32
+---@field GetCurrentFireMode_CopyFunc:fun():int32
+---@field ApplyTrialConfig:fun()
+---@field Button_Adjust UButton
+---@field Button_Apply UButton
+---@field Button_Exit UButton
+---@field CanvasPanel_Status UCanvasPanel
+---@field Image_0 UImage
+---@field Image_1 UImage
+---@field Image_76 UImage
+---@field Image_Operation UImage
+---@field TextBlock_ConfigName UTextBlock
+---@field TextBlock_Status UTextBlock
+---@field PlayerSaveGame BP_SAVEGAME_UIElemLayout_C
+---@field SelectedLayoutName FString
+---@field SelectedLayoutFileName FString
+---@field CurrentLayoutIdx int32
+---@field SyncTimeTag int32
+---@field ButtonExitMessageBox UUserWidget

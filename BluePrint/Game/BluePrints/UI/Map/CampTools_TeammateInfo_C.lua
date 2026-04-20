@@ -1,0 +1,12 @@
+---@class CampTools_TeammateInfo_C:UUserWidget
+---@field GetPlayerColorByIndex:fun(Index:int32):FLinearColor
+---@field RefreshAssist:fun(Assists:int32)
+---@field RefreshKill:fun(Kills:int32)
+---@field SetKDA:fun(Name:FString,Kills:int32,Assists:int32,PlayerIndex:int32)
+---@field Image_IDBG UImage
+---@field TeamMateAssists0 UTextBlock
+---@field TeamMateInfo0 UCanvasPanel
+---@field TeamMateKill0 UTextBlock
+---@field TeamMateName0 UTextBlock
+---@field TextBlock_1 UTextBlock
+---@field PlayerID int32

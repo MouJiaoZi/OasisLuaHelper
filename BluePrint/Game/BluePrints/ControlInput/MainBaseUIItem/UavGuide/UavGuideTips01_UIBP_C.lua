@@ -1,0 +1,5 @@
+---@class UavGuideTips01_UIBP_C:UNewbieGuideWidget
+---@field OnCreateAndShow:fun(GuideId:int32,UIConfigIndex:int32)
+---@field CanvasPanel_GuideTips01 UCanvasPanel
+---@field CanvasPanel_GuideTips1 UCanvasPanel
+---@field UTRichTextBlock_GuideTips1 UUTRichTextBlock

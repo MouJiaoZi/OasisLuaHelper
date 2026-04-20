@@ -1,0 +1,1 @@
+---@class BattleItemHandle_FRUT_BP_Jacket_1646_C:BattleItemHandle_AvatarBP_C

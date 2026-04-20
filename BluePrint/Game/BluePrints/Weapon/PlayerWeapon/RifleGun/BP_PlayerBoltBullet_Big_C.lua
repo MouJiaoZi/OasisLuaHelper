@@ -1,0 +1,7 @@
+---@class BP_PlayerBoltBullet_Big_C:ASTExtraShootWeaponBulletBase
+---@field UserConstructionScript:fun()
+---@field Sphere2 USphereComponent
+---@field P_CrossBrow_Trail_01 UParticleSystemComponent
+---@field Sphere USphereComponent
+---@field ST_Crossbow_Arrow UStaticMeshComponent
+---@field MoveBaseShoot bool

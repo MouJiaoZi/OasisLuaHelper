@@ -1,0 +1,2 @@
+---@class BT_RandomDecorator_C:UBTDecorator_BlueprintBase
+---@field prob float

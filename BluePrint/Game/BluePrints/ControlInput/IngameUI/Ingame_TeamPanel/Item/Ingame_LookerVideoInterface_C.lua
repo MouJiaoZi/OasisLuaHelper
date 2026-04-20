@@ -1,0 +1,2 @@
+---@class Ingame_LookerVideoInterface_C:UInterface
+---@field ShowLookerVideo:fun(PS:ASTExtraPlayerState):bool

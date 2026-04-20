@@ -1,0 +1,22 @@
+---@class Ingame_ActivityShowBookUINew_C:UUAEUserWidget
+---@field OnLoadTexture:fun(NewParam:UObject,NewParam1:int32)
+---@field SetTips:fun(InText:FString,ContentIndex:int32)
+---@field SetText:fun(InText:FString,ContentIndex:int32)
+---@field SetTitle:fun(InText:FString,ContentIndex:int32)
+---@field OnCloseUI:fun()
+---@field OnShowUI:fun()
+---@field SetDataForIndx:fun(NewParam:int32)
+---@field FreshButtonVisable:fun()
+---@field OnLoadTextureDone:fun(NewParam:UObject,NewParam1:int32)
+---@field GetText:fun(NewParam:int32):FString,bool
+---@field ShowBookUI_OnCloseUI:fun()
+---@field ShowBookUI_CloseUI:fun()
+---@field ShowBookUI_ShowUIList:fun(NewParam:ULuaArrayHelper,NewParam1:AActor)
+---@field OnRightButtonVisable__DelegateSignature:fun(IsShow:bool)
+---@field OnLeftButtonVisable__DelegateSignature:fun(IsShow:bool)
+---@field ShowBookController AActor
+---@field ItemList ULuaArrayHelper
+---@field CurrentLoadIndex int32
+---@field CurrentShowIndex int32
+---@field OnLeftButtonVisable ULuaMulticastDelegate
+---@field OnRightButtonVisable ULuaMulticastDelegate

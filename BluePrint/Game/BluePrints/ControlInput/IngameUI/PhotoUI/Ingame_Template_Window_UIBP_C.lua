@@ -1,0 +1,11 @@
+---@class Ingame_Template_Window_UIBP_C:UUAEUserWidget
+---@field Common_UIPopupBG_C_2 Common_UIPopupBG_C
+---@field Image_Template UImage
+---@field NewButton_Close UNewButton
+---@field NewButton_Play UNewButton
+---@field ReuseList2_Action ReuseList2_C
+---@field TextBlock_Content01 UTextBlock
+---@field TextBlock_Content02 UTextBlock
+---@field TextBlock_Title UTextBlock
+---@field TextBlock_Title01 UTextBlock
+---@field TextBlock_Title02 UTextBlock

@@ -1,0 +1,17 @@
+---@class FPPComponent_C:UBaseFPPComponent
+---@field ChangeScopeTPPGlassMat:fun(ScopeMeshComp:UMeshComponent,ScopeID:int32,WeaponSlot:ESurviveWeaponPropSlot,NeedCheckAngled:bool)
+---@field GetScopeMatTableKey:fun(PlayerController:ASTExtraPlayerController,Weapon:ASTExtraShootWeapon,ScopeType:EWeaponAttachmentSocketType):FString
+---@field IsScopeSpecialMatExist:fun(weapon:ASTExtraWeapon,ScopeType:EWeaponAttachmentSocketType):bool,int32
+---@field GetPawnBP:fun():BP_PlayerPawn_C
+---@field SwitchAngledSightConfigMaterial:fun(forceSwitch:bool):float
+---@field ShowAngledSightTPPMaterial:fun(forceADSState:bool):float
+---@field SwitchSightConfigMaterial:fun():float
+---@field ShowReflectorSightTPPMaterial:fun(forceADSState:bool):float
+---@field GetScopeFov:fun(shootWeapon:ASTExtraShootWeapon,bIsAngled:bool):float
+---@field SetTagCullingBP:fun(IsUse:bool)
+---@field RequestResourceGuarantee:fun(InOrOut:int32,loadMode:ELoadMode,applyStatus:EApplyStatus)
+---@field deltaTime float
+---@field NewSightMaterial UMaterialInstance
+---@field PawnBP BP_PlayerPawn_C
+---@field SourceScopeAimCameraSocketName_0 FName
+---@field DefaultFOV float

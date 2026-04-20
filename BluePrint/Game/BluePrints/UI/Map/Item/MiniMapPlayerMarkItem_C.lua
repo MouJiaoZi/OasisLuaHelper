@@ -1,0 +1,11 @@
+---@class MiniMapPlayerMarkItem_C:UUAEUserWidget
+---@field UpdateMultiMark:fun(bIsShow:bool,MultiMarkRenderTranslation:ULuaArrayHelper,Opacity:float):bool
+---@field SetMarkColor:fun(Color:FLinearColor):FLinearColor
+---@field UpdateMark:fun(IsShow:bool,MarkRenderTranslation:FVector2D,Opacity:float):bool
+---@field GetIconDisplayWidget:fun():UWidget
+---@field Construct:fun()
+---@field Image_PlayerMarkInMap UImage
+---@field PlayerMark UCanvasPanel
+---@field PlayerMarkInMap UCanvasPanel
+---@field PlayerMultiMarkInMap UCanvasPanel
+---@field MapMultiMarkItemArray ULuaArrayHelper

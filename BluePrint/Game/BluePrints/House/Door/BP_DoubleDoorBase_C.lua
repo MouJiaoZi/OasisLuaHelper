@@ -1,0 +1,23 @@
+---@class BP_DoubleDoorBase_C:APUBGDoor
+---@field ShouldPlaySound:fun():bool
+---@field UserConstructionScript:fun()
+---@field ReceiveAnyDamage:fun(Damage:float,DamageType:UDamageType,InstigatedBy:AController,DamageCauser:AActor)
+---@field ActionDoorOnClient:fun(doorStateDst:int32,bExtraDoor:bool)
+---@field BP_DoorBroken:fun(isBeginPlay:bool,bExtraDoor:bool)
+---@field ActionDoorImmediatly:fun(doorStateDst:int32,bExtraDoor:bool)
+---@field ReceivePointDamage:fun(Damage:float,DamageType:UDamageType,HitLocation:FVector,HitNormal:FVector,HitComponent:UPrimitiveComponent,BoneName:FName,ShotFromDirection:FVector,InstigatedBy:AController,DamageCauser:AActor,HitInfo:FHitResult)
+---@field NormalMesh UStaticMesh
+---@field BrokenMesh UStaticMesh
+---@field HP float
+---@field HPTimer float
+---@field HPDummy float
+---@field DummyTimerHandler FTimerHandle
+---@field GrenadeDamageRatio float
+---@field HPDummyEx float
+---@field DummyTimerHandlerEx FTimerHandle
+---@field HPEx float
+---@field bCanBreak bool
+---@field bCanBreakEx bool
+---@field OpenDoorAudio UAkAudioEvent
+---@field CloseDoorAudio UAkAudioEvent
+---@field DamageCauser AActor

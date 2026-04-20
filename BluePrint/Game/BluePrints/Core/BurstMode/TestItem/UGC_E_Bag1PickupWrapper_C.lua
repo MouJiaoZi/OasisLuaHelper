@@ -1,0 +1,1 @@
+---@class UGC_E_Bag1PickupWrapper_C:ABag_Lv1_Wrapper_C

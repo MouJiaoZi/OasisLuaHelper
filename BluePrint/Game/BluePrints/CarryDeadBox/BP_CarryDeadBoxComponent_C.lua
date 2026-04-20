@@ -1,0 +1,1 @@
+---@class BP_CarryDeadBoxComponent_C:USTCharacterCarryDeadBoxComp

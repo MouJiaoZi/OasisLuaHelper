@@ -1,0 +1,8 @@
+---@class BP_UGC_Other_FireLauncher__C:BP_UGC_ShootWeaponBase_C
+---@field LocalHandleChangeState:fun()
+---@field UserConstructionScript:fun()
+---@field WeaponTriggerEventHandleSkill UWeaponTriggerEventHandleSkill
+---@field WeaponAnimList_Rifle_FireLauncher WeaponAnimList_Rifle_FireLauncher_C
+---@field CustomCnd UCustomCndComponent
+---@field bUseIdleAnim_0_0 bool
+---@field SkillRef UClass

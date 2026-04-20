@@ -1,0 +1,4 @@
+---@class NewTraining_ModeSelct_But_C:UUserWidget
+---@field Button_Mode UNewButton
+---@field TextBlock_ButName UTextBlock
+---@field WidgetSwitcher_current UWidgetSwitcher

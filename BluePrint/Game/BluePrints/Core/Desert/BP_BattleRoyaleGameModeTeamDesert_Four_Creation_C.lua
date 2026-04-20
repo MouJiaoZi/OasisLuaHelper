@@ -1,0 +1,1 @@
+---@class BP_BattleRoyaleGameModeTeamDesert_Four_Creation_C:ABP_BattleRoyaleGameModeTeamDesert_4_C

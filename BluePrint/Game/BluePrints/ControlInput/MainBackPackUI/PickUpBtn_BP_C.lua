@@ -1,0 +1,8 @@
+---@class PickUpBtn_BP_C:UUAEUserWidget
+---@field ShowBtnByNearbyStuff:fun(bHasDeadBox:bool)
+---@field ExpandStuffList__DelegateSignature:fun(StuffType:EGroudStuffType)
+---@field Button_DeadBox UButton
+---@field Button_NormalStuff UButton
+---@field DeadBoxGridPanel UGridPanel
+---@field SizeBox_List USizeBox
+---@field ExpandStuffList ULuaMulticastDelegate

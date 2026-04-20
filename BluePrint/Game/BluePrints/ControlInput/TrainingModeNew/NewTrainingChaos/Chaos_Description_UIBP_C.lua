@@ -1,0 +1,2 @@
+---@class Chaos_Description_UIBP_C:UUAEUserWidget
+---@field Button_Close UButton

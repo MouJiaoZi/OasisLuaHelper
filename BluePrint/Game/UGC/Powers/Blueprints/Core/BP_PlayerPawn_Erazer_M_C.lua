@@ -1,0 +1,3 @@
+---@class BP_PlayerPawn_Erazer_M_C:BP_UGCPlayerPawn_C
+---@field GetLuaModule:fun():FString
+---@field UserConstructionScript:fun()

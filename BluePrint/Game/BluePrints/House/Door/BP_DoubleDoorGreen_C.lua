@@ -1,0 +1,1 @@
+---@class BP_DoubleDoorGreen_C:ABP_DoubleDoorNormal_C

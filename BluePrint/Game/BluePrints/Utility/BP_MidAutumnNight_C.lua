@@ -1,0 +1,6 @@
+---@class BP_MidAutumnNight_C:ADayToNightActorPVE
+---@field SwitchBattleMusic:fun()
+---@field UserConstructionScript:fun()
+---@field DefaultSceneRoot USceneComponent
+---@field CockEvent UAkAudioEvent
+---@field StarShowerLocations ULuaArrayHelper

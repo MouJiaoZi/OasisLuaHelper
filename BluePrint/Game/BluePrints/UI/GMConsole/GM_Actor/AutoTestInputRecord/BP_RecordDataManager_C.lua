@@ -1,0 +1,6 @@
+---@class BP_RecordDataManager_C:ARecordDataManager
+---@field UserConstructionScript:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field DefaultSceneRoot USceneComponent
+---@field TimeUI UClass
+---@field CurUI RecordDataUIBP_C

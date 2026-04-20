@@ -1,0 +1,12 @@
+---@class BP_WFM_DynamicUI_C:UWeaponFunctionModuleBase
+---@field SetEnableUI:fun(NewEnable:bool)
+---@field OwnerPlayerHasAnyState:fun(StateList:ULuaArrayHelper):bool
+---@field HandleViewChange:fun(PC:APlayerController)
+---@field RefreshUIVisible:fun()
+---@field ToggoleUIVisible:fun(bVisible:bool)
+---@field HandleWeaponChangeState:fun(LastState:EFreshWeaponStateType,NewState:EFreshWeaponStateType)
+---@field InitWeaponOwner:fun(InOwnerWeapon:ASTExtraWeapon,InOwnerActor:AActor)
+---@field bCacheUIVisible bool
+---@field UIBPName FName
+---@field FatalPawnStateList ULuaArrayHelper
+---@field bCurrentEnable bool

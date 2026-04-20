@@ -1,0 +1,3 @@
+---@class BP_STExtraPlayerController_TDM_C:ABP_STExtraPlayerController_C
+---@field UserConstructionScript:fun()
+---@field BP_HealthControl BP_HealthControl_C

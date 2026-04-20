@@ -1,0 +1,17 @@
+---@class CG031_InSpiration_EventDate_Item_UIBP_C:UUAEUserWidget
+---@field CanvasPanel_Content UCanvasPanel
+---@field CanvasPanel_Item UCanvasPanel
+---@field CanvasPanel_Mask UCanvasPanel
+---@field CanvasPanel_Time UCanvasPanel
+---@field HorizontalBox_Time UHorizontalBox
+---@field Image_Fengexian UImage
+---@field Image_GoTo UImage
+---@field Image_Icon UImage
+---@field NewButton_Confirm UNewButton
+---@field TextBlock_Copywriting UTextBlock
+---@field TextBlock_End UTextBlock
+---@field TextBlock_GoTo UTextBlock
+---@field TextBlock_Time UTextBlock
+---@field TextBlock_WorkInformation UTextBlock
+---@field WidgetSwitcher_BG UWidgetSwitcher
+---@field WidgetSwitcher_Label UWidgetSwitcher

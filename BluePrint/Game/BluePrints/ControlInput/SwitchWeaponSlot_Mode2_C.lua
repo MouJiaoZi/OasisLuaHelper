@@ -1,0 +1,80 @@
+---@class SwitchWeaponSlot_Mode2_C:UUAEUserWidget
+---@field ShouldHideMaxAmmo:fun():bool
+---@field ChangeSlotWeapon:fun(Weapon:ASTExtraShootWeapon)
+---@field UpdateRightBulletNumText:fun(Num:int32)
+---@field ShowMidText:fun()
+---@field UpdateLeftBulletNumText:fun(Num:int32)
+---@field ShowQuickTips:fun()
+---@field UpdateShield:fun()
+---@field GetWeaponMgr:fun():UWeaponManagerComponent
+---@field UpdateFireModeShape:fun(show:bool)
+---@field AddAttachmentAnimationToQuereAsync:fun(Icon:UObject)
+---@field RefreshWeaponImage:fun(Image:UObject)
+---@field GetAttachmentImage:fun(DefineID:FItemDefineID):FString
+---@field AddAttachmentAnimationToQuere:fun(ID:FItemDefineID)
+---@field PlayAnimationInQueue:fun()
+---@field ChangeImageAndTextColor:fun(IsGunRunOutOfAmmo:bool)
+---@field UpdateBulletCounts:fun(BulletInWeapon:int32,BulletInBackpack:int32,BulletType:FItemDefineID)
+---@field ClearWeaponSlotData:fun()
+---@field SetBorderOpacity:fun(Opacity:float)
+---@field SetFireModeText:fun()
+---@field CanShowFireModeSwitchBtn:fun(Weapon:ASTExtraShootWeapon):bool
+---@field GetNextFireMode:fun(InputPin:ASTExtraShootWeapon):ESTEWeaponShootType
+---@field ChangeWeaponImage:fun(IconPath:FString)
+---@field OnTouchEnded:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field OnMouseButtonDown:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field UpdateImage:fun(Brush:FSlateBrush,Visible:ESlateVisibility)
+---@field ReceivedInitWidget:fun()
+---@field Interface_SetBorderOpacity:fun(Opacity:float)
+---@field Interface_UpdateFireModeShape:fun(Show:bool)
+---@field ClickOnChangeWeaponFireMode__DelegateSignature:fun()
+---@field ClickOnSwitchWeapon__DelegateSignature:fun()
+---@field DX_GetItem UWidgetAnimation
+---@field BulletChangeAnim UWidgetAnimation
+---@field Border_WeaponIcon UBorder
+---@field Border_WeaponSlot UBorder
+---@field Button_0 UButton
+---@field Button_1 UButton
+---@field Button_2 UButton
+---@field Button_Pistol_Fire UButton
+---@field Canvas_Pistol_Fire UCanvasPanel
+---@field CanvasPanel_DP12_Info UCanvasPanel
+---@field CanvasPanel_QuickSign UCanvasPanel
+---@field GridPanel_FireMode UGridPanel
+---@field Image_ShootingMode UImage
+---@field Item UImage
+---@field Pistol_Fire_icon UImage
+---@field ProfileImg UImage
+---@field Text_Pistol_Fire UTextBlock
+---@field TextBlock_1 UTextBlock
+---@field TextBlock_CurrentNumberOfBullets UTextBlock
+---@field TextBlock_MaxNumberOfBullets UTextBlock
+---@field TextBlock_ShootingMode UTextBlock
+---@field TextBlock_WeaponName UTextBlock
+---@field WidgetSwitcher_Slot_01 UWidgetSwitcher
+---@field WidgetSwitcher_Slot_02 UWidgetSwitcher
+---@field WidgetSwitcher_SlotBtnSelected UWidgetSwitcher
+---@field ActionType ESwitchWeaponActionType
+---@field ClickOnSwitchWeapon ULuaMulticastDelegate
+---@field CurWeapon ASTExtraShootWeapon
+---@field ClickOnChangeWeaponFireMode ULuaMulticastDelegate
+---@field FireMode_Single FSlateBrush
+---@field FireMode_Burst FSlateBrush
+---@field FireMode_Auto FSlateBrush
+---@field BlankBrush FSlateBrush
+---@field OutOfAmmoRed FLinearColor
+---@field NormalAmmoWhite FLinearColor
+---@field NormalAmmoGrey FLinearColor
+---@field CurBulletType FItemDefineID
+---@field AnimationQueue ULuaArrayHelper
+---@field AttachmentImagePath ULuaMapHelper
+---@field WeaponSlotType ESurviveWeaponPropSlot
+---@field ImagePath FString
+---@field ASyncFinish bool
+---@field weaponBulletCount int32
+---@field ShowQuickTipsTimer FTimerHandle
+---@field CurSlotWeapon ASTExtraShootWeapon
+---@field ShowBarrelBulletNumUI bool
+---@field FireModeShootRate FSlateBrush
+---@field FireModeShootExtraRate FSlateBrush
+---@field CacheGunRunOutOfAmmo bool

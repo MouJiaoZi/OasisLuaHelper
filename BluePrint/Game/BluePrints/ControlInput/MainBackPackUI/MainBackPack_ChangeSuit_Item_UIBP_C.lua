@@ -1,0 +1,45 @@
+---@class MainBackPack_ChangeSuit_Item_UIBP_C:UUAEUserWidget
+---@field CanReplaceByDelay:fun():bool
+---@field CanReplaceByOtherLogic:fun():bool
+---@field LoadSuitTypeIcon:fun(obj:UObject)
+---@field SetSuitTypeIcon:fun(type:int32,id:int32)
+---@field isReady:fun():bool
+---@field setDefaultIcon:fun(obj:UObject,id:int32)
+---@field getIndexByTypeLevel:fun(subType:int32,level:int32):int32
+---@field getIndexByResID:fun(resID:int32):int32
+---@field ResetSuitSkin:fun(validList:ULuaArrayHelper)
+---@field UpdateSuitSkin:fun(unit:FSuitSkinUnit,currUse:int32)
+---@field ReceivedInitWidget:fun()
+---@field ItemBeDragCancelled__DelegateSignature:fun()
+---@field ItemBeDragBegin__DelegateSignature:fun(ItemData:FBattleItemData,DragOrigin:EBackPackDragOrigin)
+---@field CanvasPanel_SuitList UCanvasPanel
+---@field FlightSuit USizeBox
+---@field Image_Clothes_Motion UImage
+---@field ImageSuit UImage
+---@field Item0 MainBackPack_ChangeSuit_Icon_Item_UIBP_C
+---@field Item1 MainBackPack_ChangeSuit_Icon_Item_UIBP_C
+---@field Item10 MainBackPack_ChangeSuit_Icon_Item_UIBP_C
+---@field Item11 MainBackPack_ChangeSuit_Icon_Item_UIBP_C
+---@field Item12 MainBackPack_ChangeSuit_Icon_Item_UIBP_C
+---@field Item13 MainBackPack_ChangeSuit_Icon_Item_UIBP_C
+---@field Item14 MainBackPack_ChangeSuit_Icon_Item_UIBP_C
+---@field Item2 MainBackPack_ChangeSuit_Icon_Item_UIBP_C
+---@field Item3 MainBackPack_ChangeSuit_Icon_Item_UIBP_C
+---@field Item4 MainBackPack_ChangeSuit_Icon_Item_UIBP_C
+---@field Item5 MainBackPack_ChangeSuit_Icon_Item_UIBP_C
+---@field Item6 MainBackPack_ChangeSuit_Icon_Item_UIBP_C
+---@field Item7 MainBackPack_ChangeSuit_Icon_Item_UIBP_C
+---@field Item8 MainBackPack_ChangeSuit_Icon_Item_UIBP_C
+---@field Item9 MainBackPack_ChangeSuit_Icon_Item_UIBP_C
+---@field Item_FlightSuit MainBackPack_ChangeSuit_Icon_Item_UIBP_C
+---@field NewButton_ChangeSuit_Use UNewButton
+---@field TextBlock_SuitScheme_Num UTextBlock
+---@field WidgetSwitche_BackPack_SuitScheme UWidgetSwitcher
+---@field WidgetSwitcher_BackPack_ChangeSuit_State UWidgetSwitcher
+---@field ItemBeDragBegin ULuaMulticastDelegate
+---@field ItemBeDragCancelled ULuaMulticastDelegate
+---@field UIIndex int32
+---@field currUseIndex int32
+---@field iconPath ULuaArrayHelper
+---@field ItemArray ULuaArrayHelper
+---@field idMap ULuaMapHelper

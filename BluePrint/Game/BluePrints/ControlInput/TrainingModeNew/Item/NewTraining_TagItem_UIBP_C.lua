@@ -1,0 +1,2 @@
+---@class NewTraining_TagItem_UIBP_C:UUAEUserWidget
+---@field TextBlock_Tag UTextBlock

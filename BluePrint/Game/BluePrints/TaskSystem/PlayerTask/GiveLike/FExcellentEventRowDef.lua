@@ -1,0 +1,10 @@
+---@class FExcellentEventRowDef
+---@field ExcellentType EExcellentOperationResultType
+---@field PriorityOfOBLike int32
+---@field PriorityOfTeammateLike int32
+---@field Text1 int32
+---@field Text2 int32
+---@field Text3 int32
+---@field Text4 int32
+---@field Text5 int32
+---@field Text6 int32

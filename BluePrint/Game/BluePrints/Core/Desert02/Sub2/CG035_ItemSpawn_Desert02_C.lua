@@ -1,0 +1,1 @@
+---@class CG035_ItemSpawn_Desert02_C:ItemSpawn_Desert02_C

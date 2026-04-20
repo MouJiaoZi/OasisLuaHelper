@@ -1,0 +1,43 @@
+---@class BP_SteelDoor_C:ABP_DamageableActor_C
+---@field CheckHitAndExplodeDirectly:fun():bool
+---@field InvalidateStaticMesh:fun(Index:int32)
+---@field InvalidateStaticMeshComponentScalarParameter:fun(Index:int32)
+---@field BP_PreTakeDamage:fun(DamageAmount:float,DamageEvent:FDamageEvent,EventInstigator:AController,DamageCauser:AActor):float
+---@field SpawnDeathParticleSystemEmitter:fun()
+---@field PostDeathAkAudioEvent:fun()
+---@field GenerationNext:fun()
+---@field InvalidateAkAudioEvents:fun(Index:int32)
+---@field InvalidateScaleFactors:fun(Index:int32)
+---@field InvalidateParticleSystems:fun(Index:int32)
+---@field InvalidateWithValidIndex:fun(ValidIndex:int32)
+---@field Invalidate:fun()
+---@field OnBPDamageableActorCurrentHpReachedZeroByAnyDamage:fun(Sender:BP_DamageableActor_C,Damage:float,DamageType:UDamageType,InstigatedBy:AController,DamageCauser:AActor)
+---@field HideHitParticleSystem:fun()
+---@field BP_GetDamageableGameObjectType:fun():ULuaArrayHelper
+---@field BP_GetCanBePicked:fun():bool
+---@field UserConstructionScript:fun()
+---@field OnGenerationNextSpawned__DelegateSignature:fun(Sender:AActor,GenerationNext:AActor)
+---@field HpParticleSystemComponent UParticleSystemComponent
+---@field StaticMeshComponent UStaticMeshComponent
+---@field SoftParticleSystems ULuaArrayHelper
+---@field ParticleSystems ULuaArrayHelper
+---@field ScaleFactors ULuaArrayHelper
+---@field HpPercentRange ULuaArrayHelper
+---@field SoftDeathParticleSystem UParticleSystem
+---@field DeathParticleSystem UParticleSystem
+---@field SoftAkAudioEvents ULuaArrayHelper
+---@field AkAudioEvents ULuaArrayHelper
+---@field GenerationNextClass UClass
+---@field SoftGenerationNextClass UClass
+---@field OnGenerationNextSpawned ULuaMulticastDelegate
+---@field SoftDeathAkAudioEvent UAkAudioEvent
+---@field DeathAkAudioEvent UAkAudioEvent
+---@field DeathParticleLocation FVector
+---@field DeathParticleScale float
+---@field ScalarParameterName FName
+---@field MaxGenerationNextCount int32
+---@field CurrentGenerationNextCount int32
+---@field SteelDoorDamageTypeToDamageRates ULuaArrayHelper
+---@field SoftStaticMeshs ULuaArrayHelper
+---@field StaticMeshs ULuaArrayHelper
+---@field LastInvalidatedIndices ULuaMapHelper

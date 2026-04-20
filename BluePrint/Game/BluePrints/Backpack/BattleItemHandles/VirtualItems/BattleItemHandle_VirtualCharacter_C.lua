@@ -1,0 +1,2 @@
+---@class BattleItemHandle_VirtualCharacter_C:UBattleItemHandle_VirtualItem_C
+---@field ExtractItemData:fun():FBattleItemData

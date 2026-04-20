@@ -1,0 +1,12 @@
+---@class BorderlandGameState_C:AGameModeStateBorderland
+---@field UserConstructionScript:fun()
+---@field AudioRegionMgr UAudioRegionMgrComponent
+---@field BP_ObjectPosMgr BP_ObjectPosMgr_C
+---@field TriggerLevels UTriggerLevelsComponent
+---@field AirAttackCS UAirAttackCS
+---@field DefaultSceneRoot USceneComponent
+---@field PlaneCanJumpPos FVector
+---@field PlaneForceJumpPos FVector
+---@field WidgetAngle float
+---@field RouteLength float
+---@field CanJumpLocInMap FVector2D

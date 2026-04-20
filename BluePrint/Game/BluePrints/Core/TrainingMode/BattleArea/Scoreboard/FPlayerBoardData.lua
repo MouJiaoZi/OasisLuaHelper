@@ -1,0 +1,6 @@
+---@class FPlayerBoardData
+---@field PlayerName FString
+---@field Identity FString
+---@field Gender int32
+---@field Segment_Level int32
+---@field CAvatarData FCAvatarData

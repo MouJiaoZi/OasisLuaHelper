@@ -1,0 +1,30 @@
+---@class NewTraining_Duel_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field PlayStartAnim:fun()
+---@field DX_In UWidgetAnimation
+---@field DX_SafetyZoneTime UWidgetAnimation
+---@field DX_ResidualTimeTips UWidgetAnimation
+---@field DX_Border_TimeTips UWidgetAnimation
+---@field Border_ResidualTimeTips UBorder
+---@field Border_SafetyZoneTime UBorder
+---@field Border_TimeTips UBorder
+---@field Canvas_ResidualTimeTips UCanvasPanel
+---@field CanvasPanel_DuelBoard UCanvasPanel
+---@field CanvasPanel_OutTips UCanvasPanel
+---@field CanvasPanel_TimeTips UCanvasPanel
+---@field CanvasPanel_VSTips UCanvasPanel
+---@field Common_Avatar_Player01 Common_Avatar_BP_C
+---@field Common_Avatar_Player02 Common_Avatar_BP_C
+---@field Duel_PlayerInfo_Left Duel_PlayerInfo_UIBP_C
+---@field Duel_PlayerInfo_Right Duel_PlayerInfo_UIBP_C
+---@field Duel_StarTips Duel_StarTips_UIBP_C
+---@field NewTraining_InvitationTips NewTraining_InvitationTips_UIBP_C
+---@field NewTraining_Settlement NewTraining_Settlement_UIBP_C
+---@field TextBlock_0 UTextBlock
+---@field TextBlock_integralBlue UTextBlock
+---@field TextBlock_integralRed UTextBlock
+---@field TextBlock_ResidualTime UTextBlock
+---@field TextBlock_SafetyZoneTime UTextBlock
+---@field TextBlock_Time UTextBlock
+---@field TextBlock_TimeBoard UTextBlock
+---@field Textprompt UTextBlock

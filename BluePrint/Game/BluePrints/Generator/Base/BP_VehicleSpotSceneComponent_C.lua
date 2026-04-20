@@ -1,0 +1,1 @@
+---@class BP_VehicleSpotSceneComponent_C:UVehicleSpotSceneComponent

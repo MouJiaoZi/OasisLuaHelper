@@ -1,0 +1,8 @@
+---@class MobileEditor_SendReceiveEvent_Level3_Item_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field CanvasPanel_FXGlow UCanvasPanel
+---@field Image_ShapIcon UImage
+---@field NewButton_Position UNewButton
+---@field NewButton_Remove UNewButton
+---@field TextBlock_EventName UTextBlock
+---@field TextBlock_ShapeName UTextBlock

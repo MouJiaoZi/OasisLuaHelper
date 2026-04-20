@@ -1,0 +1,1 @@
+---@class CharmDisplayPawn_AnimBP_C:UAnimInstance

@@ -1,0 +1,1 @@
+---@class BP_ItemsBoxDataConfig_C:UItemsBoxConfigDataAsset

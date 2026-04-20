@@ -1,0 +1,1 @@
+---@class GSListener_PlayerEnterSafeZone_BP_C:UGSListener_PlayerEnterSafeZone

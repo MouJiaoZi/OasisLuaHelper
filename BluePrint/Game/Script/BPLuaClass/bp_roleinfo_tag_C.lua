@@ -1,0 +1,5 @@
+---@class bp_roleinfo_tag_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_ARRAY_RoleInfoTagList ULuaArrayHelper
+---@field BP_RoleInfoSelected_Count int32

@@ -1,0 +1,4 @@
+---@class ActiveSkill_ChainInfernoLock_AO_C:PESkillTemplate_Base_C
+---@field GetLuaModule:fun():FString
+---@field ChainActorClass UClass
+---@field AnimLists ULuaArrayHelper

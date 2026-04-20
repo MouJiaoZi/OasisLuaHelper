@@ -1,0 +1,9 @@
+---@class HalloweenBox_C:ASimpleTreasureChest
+---@field UserConstructionScript:fun()
+---@field BPOpenSimpleTreasureChest:fun(IsIdle:bool)
+---@field BoxCover UBoxComponent
+---@field BoxCoverCentral UInstancedBoxComponent
+---@field Box UBoxComponent
+---@field HalloweenBox USkeletalMeshComponent
+---@field DefaultSceneRoot USceneComponent
+---@field OpenAudio UAkAudioEvent

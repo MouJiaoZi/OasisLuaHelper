@@ -1,0 +1,13 @@
+---@class bp_setting_uielem_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_Setting_MaxTrialKeyTagShowTimes int32
+---@field BP_Setting_SelectLayoutName FString
+---@field BP_Setting_SelectLayoutIndex int32
+---@field BP_UIElem_ShouldExitKeyTrialWithoutTips bool
+---@field BP_SettingSerachResult_PreviewOwnerName FString
+---@field BP_Setting_SyncTimeTag int32
+---@field BP_Setting_MaxGuideTipShowTimes int32
+---@field BP_Setting_LayoutGameModeIndex int32
+---@field BP_Setting_SelectFireMode int32
+---@field BP_Setting_SelectLayoutFileName FString

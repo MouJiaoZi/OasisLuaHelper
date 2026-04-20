@@ -1,0 +1,1 @@
+---@class BP_Rifle_M762_BattleItemHandle_QMSC_Lobby_C:UBackpackWeaponHandle

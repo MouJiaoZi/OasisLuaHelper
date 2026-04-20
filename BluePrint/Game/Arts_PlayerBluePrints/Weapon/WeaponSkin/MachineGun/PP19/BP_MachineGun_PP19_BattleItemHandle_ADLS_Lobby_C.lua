@@ -1,0 +1,1 @@
+---@class BP_MachineGun_PP19_BattleItemHandle_ADLS_Lobby_C:UBackpackWeaponHandle

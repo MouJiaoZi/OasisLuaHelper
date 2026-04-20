@@ -1,0 +1,9 @@
+---@class HiderTransCom_C:UHiderTransComponent
+---@field OnTransToTargetShape_ValidateCondition_Server_BP:fun(SelectedActor:AActor):bool
+---@field OnLockTransShape_Client_BP:fun()
+---@field OnUnLockTransShape_Client_BP:fun()
+---@field OnTransToTargetShape_Server_BP:fun(SelectedActor:AActor)
+---@field OnTransToDefaultShape_Server_BP:fun()
+---@field OnLockTransShape_Server_BP:fun()
+---@field OnUnLockTransShape_Server_BP:fun()
+---@field OnTransToTargetShape_Client_BP:fun()

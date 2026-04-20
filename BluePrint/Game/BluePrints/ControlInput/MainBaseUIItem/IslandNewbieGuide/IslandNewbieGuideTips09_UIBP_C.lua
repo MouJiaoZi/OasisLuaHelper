@@ -1,0 +1,5 @@
+---@class IslandNewbieGuideTips09_UIBP_C:UNewbieGuideWidget
+---@field OnCreateAndShow:fun(GuideId:int32,UIConfigIndex:int32)
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field Ring_anima UWidgetAnimation
+---@field MapRefrence NewEntireMap_C

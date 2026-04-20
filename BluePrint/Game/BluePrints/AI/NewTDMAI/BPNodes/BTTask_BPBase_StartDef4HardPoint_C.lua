@@ -1,0 +1,1 @@
+---@class BTTask_BPBase_StartDef4HardPoint_C:UBTTask_BlueprintBase

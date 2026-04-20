@@ -1,0 +1,11 @@
+---@class Boarderlan_Elevator_UIBP_C:UActivityUIWidget
+---@field Update:fun()
+---@field GetVisibility_0:fun():ESlateVisibility
+---@field Init_BP:fun(Actor:AActor,InUIIndex:int32)
+---@field CanvasPanel_0 UCanvasPanel
+---@field NewButton_Closed UNewButton
+---@field VerticalBox_0 UVerticalBox
+---@field Item_Array ULuaArrayHelper
+---@field Position BP_Position_C
+---@field Elevator BP_ElevatoBaser_C
+---@field bIs_Include bool

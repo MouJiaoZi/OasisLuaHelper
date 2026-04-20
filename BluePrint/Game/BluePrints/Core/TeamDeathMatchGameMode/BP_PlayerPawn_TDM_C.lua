@@ -1,0 +1,8 @@
+---@class BP_PlayerPawn_TDM_C:ABP_PlayerPawn_C
+---@field GetNonSimulatedComponents:fun():ULuaArrayHelper
+---@field UserConstructionScript:fun()
+---@field ReceiveInitPlayerOrAI:fun(bInIsAI:bool)
+---@field OnPoseStateChange:fun(LastState:ESTEPoseState,CurState:ESTEPoseState)
+---@field KillCharacterDieEffectComponent KillCharacterDieEffectComponent_C
+---@field AttrModifyComponent_RepOwner UAttrModifyComponent_RepOwner
+---@field PersistentAssetRefs ULuaArrayHelper

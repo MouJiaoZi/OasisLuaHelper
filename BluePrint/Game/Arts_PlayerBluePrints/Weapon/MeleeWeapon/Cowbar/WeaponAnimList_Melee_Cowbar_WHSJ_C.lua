@@ -1,0 +1,1 @@
+---@class WeaponAnimList_Melee_Cowbar_WHSJ_C:UUAECharacterAnimListComponent

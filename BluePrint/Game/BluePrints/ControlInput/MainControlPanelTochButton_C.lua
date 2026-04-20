@@ -1,0 +1,330 @@
+---@class MainControlPanelTochButton_C:UUAEUserWidget
+---@field GetPickupListPanel:fun():UUserWidget
+---@field GetMainBackPackPanel:fun():UUserWidget
+---@field AddPhotoUIInf:fun(widget:UUserWidget):bool
+---@field SendQuickNeedTextInf:fun(ChatText:int32):bool
+---@field AttachPveZombieBossHealth:fun(BossHealth:UUAEUserWidget):bool
+---@field AttachColdModeUI:fun(playerState:UWidget,fireArmo:UWidget,coldTime:UWidget,skillBtn:UWidget,temp:UWidget,snowboard:UWidget):bool
+---@field AddChildToParentUIBP:fun(Child:UWidget,ParentWidgetName:FString):UPanelSlot,UUserWidget,UUserWidget
+---@field AttachLiveModeUI:fun(Counter:UWidget):bool
+---@field GetMapUI:fun():UUserWidget,UUserWidget
+---@field AttachWatchingUIToAppropriateWidget:fun(WatchingUIInstance:UUserWidget):int32
+---@field IsCustomUIDataValid:fun(Widget:UWidget,SaveDataSize:FVector2D):bool
+---@field OnWingManUICreateEvent:fun(Obj:UObject):bool
+---@field UIMsg_HideAllVehicleBtn:fun()
+---@field UIMsg_NormalWeaponSight:fun()
+---@field UIMsg_HighLightWeaponSight:fun()
+---@field UIMsg_ShootWeaponSight:fun()
+---@field UIMsg_ReloadParachutingUI:fun()
+---@field CanReleaseParachutingUI:fun():bool
+---@field ShowFollowEmoteUI:fun(InVisable:bool)
+---@field UIMsg_UGCApplyCustomUI:fun()
+---@field UIMsg_WingmanRankShow:fun()
+---@field UIMsg_WingmanRank:fun()
+---@field UIMsg_HideWingManRankUI:fun()
+---@field UIMsg_ShowEntireMap:fun()
+---@field OnCreateWingmanRank:fun(NewParam:UClass)
+---@field HideWingmanRank:fun()
+---@field UIMsg_WingmanRankCallBack:fun()
+---@field UIMsg_TryAddNewArmorSlot:fun(ItemID:FString,ItemPriority:FString)
+---@field UIMsg_ShowShooterUI:fun()
+---@field InitParachuteControlPanel:fun(InParachuteUI:UUserWidget):UParachutingControlWidget
+---@field OnParachutingControlPanelLoaded:fun(LoadedObject:UUserWidget)
+---@field UIMsg_HideMask:fun()
+---@field UIMsg_ShowMask:fun(IgnoreLookInputString:FString)
+---@field ResetSignalBar:fun(SignalBar:UObject)
+---@field UIMsg_DelayResultNotShowShooting:fun()
+---@field UIMsg_OnEnableSignalSystemChanged:fun()
+---@field UIMsg_ObLeaveNoUIMode:fun()
+---@field UIMsg_ObEnterNoUIMode:fun()
+---@field UIMsg_SwitchDriverFireState:fun(bFire:bool)
+---@field UIMsg_UpdateUseVehicleWeaponUI:fun(bUse:bool,VehicleWeapon:ASTExtraShootWeapon)
+---@field UIMsg_VehicleChargingStateChanged:fun()
+---@field BlackScreenFadOut:fun(FadTime:float)
+---@field UpdateVehicleLayout:fun()
+---@field UIMsg_DisplaySomeUI:fun(flag:FString)
+---@field UIMsg_HideSomeUI:fun(flag:FString)
+---@field UIMsg_TotalPhysicalGBAboveThree:fun()
+---@field UIMsg_UnmanedVehicleHPChanged:fun()
+---@field UIMsg_UnmanedVehicleFuelChanged:fun()
+---@field GetVehicleControlPanel:fun(needCreate:bool):UUAEUserWidget
+---@field UIMsg_MainControlPanelTochButtonShow:fun()
+---@field UIMsg_HideYourImprisonmentTip:fun()
+---@field UIMsg_ShowShootingPanel:fun()
+---@field UIMsg_HideShootingPanel:fun()
+---@field UIMsg_AutoResponseParachuteRequest:fun(ResponseAction:bool)
+---@field UIMsg_ParachuteStateEnd:fun()
+---@field UpdateTouchInterface:fun()
+---@field HidePhotoUI:fun()
+---@field ReceiveParachuteTransferLeaderRequst:fun()
+---@field UIMsg_DisplayAllUI:fun(UniqueID:FString)
+---@field UIMsg_HidelAllUI:fun(UniqueID:FString)
+---@field TestGameResult:fun(ModeID:int32,TeamMemNum:int32)
+---@field SetMainUIVisibility:fun(IsVisible:bool)
+---@field ongamemodestatechanged:fun()
+---@field ShouldCreateParachueControlWidget:fun():bool
+---@field DebugSetParachuteColorAndOpacity:fun(InColor:FLinearColor)
+---@field ReleaseParachutingControlWidget:fun()
+---@field GetParachutingControlWidget:fun(ForceCreate:bool,InAsyncParam:FParachutingCWMsg):UParachutingControlWidget
+---@field UIMsg_SetupTrainingMainUIBP:fun()
+---@field UIMsg_EnableDamageMagnify:fun()
+---@field UIMsg_DelayResultToShootUIWhenStateChange:fun()
+---@field UIMsg_ShowWinFlagNew:fun()
+---@field UIMsg_SwitchSurfBoard:fun()
+---@field UIMsg_UpdateSurfBoardBtnPanel:fun(visible:bool)
+---@field UIMsg_ExitSurfBoard:fun()
+---@field UIMsg_EnterSurfBoard:fun()
+---@field SendQuickNeedText:fun(ChatText:int32)
+---@field HideSignalPush:fun()
+---@field Dev_PrintPanelVisiblePosDetail:fun(ParentPanel:UPanelWidget,ParentName:FString)
+---@field Dev_PrintWidgetVisiblePos:fun()
+---@field UIMsg_DebugSetAllUIVisibilityFalse:fun()
+---@field UIMsg_DebugSetAllUIVisibilityTrue:fun()
+---@field AddSignalBar:fun(Parent:UCanvasPanel,InVisibility:ESlateVisibility)
+---@field UIMsg_HighLightSideSight:fun()
+---@field UIMsg_NormalSideSight:fun()
+---@field UIMsg_HideSideSight:fun()
+---@field UIMsg_ShowSideSight:fun()
+---@field ShowAllUIForDelayResult:fun()
+---@field AddModeUIChild:fun(parent:UPanelWidget,child:UWidget,ParentWidget:UUAEUserWidget)
+---@field ShowCompletePlaybackUI:fun(bIsEnableUIRec:bool)
+---@field UIMsg_HiddenImprisonUI:fun(TipsType:int32)
+---@field UIMsg_ShowWinFlag:fun()
+---@field UIMsg_RefreshGameType:fun()
+---@field UIMsg_guangtouqiang:fun()
+---@field UIMsg_RefreshGameTypeUI:fun()
+---@field UIMsg_ShowTeammateHurtUI:fun()
+---@field UIMsg_NormalGrenadeFireBtn:fun()
+---@field UIMsg_OnRespawnController:fun()
+---@field UIMsg_PlaneAppearShowInPlanePlayerNum:fun()
+---@field UIMsg_SupervisorShutdownIngameEmoteSystem:fun()
+---@field UIMsg_SupervisorActiveIngameEmoteSystem:fun()
+---@field OnLeaveMonsterBox:fun()
+---@field OnTriggerMonsterBox:fun()
+---@field UIMsg_NormalRightFire_NoThrowGrenade:fun()
+---@field SetApatationDataToController:fun()
+---@field UIMsg_RefreshSightVision:fun()
+---@field UIMsg_DarkNight:fun()
+---@field UIMsg_ClearPickupChecksum:fun()
+---@field UIMsg_BleFireBegin:fun()
+---@field UIMsg_RefreshEmote:fun()
+---@field UIMsg_ShowAvatarZone:fun()
+---@field UIMsg_HideAvatarZone:fun()
+---@field UIMsg_MatchLabelChange:fun()
+---@field UIMsg_BlePickFirst:fun()
+---@field UIMsg_BleLeanRightPress:fun()
+---@field UIMsg_BleLeanLeftPress:fun()
+---@field UIMsg_BleGetOnCar:fun()
+---@field UIMsg_BleOpenNormalPickup:fun()
+---@field UIMsg_BleOpenTombBox:fun()
+---@field UIMsg_BleEnterDrive:fun()
+---@field UIMsg_BleLittleEyeRelease:fun()
+---@field UIMsg_BleLittleEyePress:fun()
+---@field UIMsg_BleShowHideBackpack:fun()
+---@field UIMsg_BleLeanRightRelease:fun()
+---@field UIMsg_BleLeanLeftRelease:fun()
+---@field UIMsg_BleTakeOrCollapsePistol:fun()
+---@field UIMsg_BleOpenParachute:fun()
+---@field UIMsg_BleParachute:fun()
+---@field UIMsg_UpdateBackpackCloth:fun()
+---@field UIMsg_ShowFightStyle:fun()
+---@field UIMsg_BleUseCurrentDragRelease:fun()
+---@field UIMsg_BleUseCurrentDragPress:fun()
+---@field UIMsg_BleBrakeOrBackForwardRelease:fun()
+---@field UIMsg_BleBrakeOrBackForwardPress:fun()
+---@field UIMsg_BleDriveForwardRelease:fun()
+---@field UIMsg_BleDriveForwardPress:fun()
+---@field UIMsg_BleSwimDownRelease:fun()
+---@field UIMsg_BleSwimDownPress:fun()
+---@field UIMsg_BleSwimUpRelease:fun()
+---@field UIMsg_BleSwimUpPress:fun()
+---@field UIMsg_BleSwithThrowingObjectsRelease:fun()
+---@field UIMsg_BleSwithThrowingObjectsPress:fun()
+---@field UIMsg_BleOpenAndCloseDoor:fun()
+---@field UIMsg_BleSwithGrenadeThrowType:fun()
+---@field UIMsg_BleTakeOrCollapseWeapon2:fun()
+---@field UIMsg_BleTakeOrCollapseWeapon1:fun()
+---@field UIMsg_BleOpenSettingPanel:fun()
+---@field UIMsg_BleTriggerEntireMap:fun()
+---@field GetNextFireMode:fun(InputPin:ASTExtraShootWeapon):ESTEWeaponShootType
+---@field UIMsg_BleSwitchFireType:fun()
+---@field UIMsg_BleReload:fun()
+---@field UIMsg_BleOpenScope:fun()
+---@field UIMsg_BleSprint:fun()
+---@field UIMsg_BleProne:fun()
+---@field UIMsg_BleCrouch:fun()
+---@field UIMsg_BleJumpRelease:fun()
+---@field UIMsg_BleJumpPress:fun()
+---@field UIMsg_VehicleLeanOutOrIn:fun()
+---@field UIMsg_VehicleSpeakerRelease:fun()
+---@field UIMsg_VehicleSpeakerPress:fun()
+---@field UIMsg_VehicleSpeedUpRelease:fun()
+---@field UIMsg_VehicleSpeedUpPress:fun()
+---@field UIMsg_VehicleChangeSeat:fun()
+---@field UIMsg_DriveRightRelease:fun()
+---@field UIMsg_DriveRightPress:fun()
+---@field UIMsg_DriveLeftRelease:fun()
+---@field UIMsg_DriveLeftPress:fun()
+---@field UIMsg_LeaveVehicle:fun()
+---@field UIMsg_VehiclePushDownRelease:fun()
+---@field UIMsg_VehiclePushDownPress:fun()
+---@field UIMsg_VehicleLiftUpRelease:fun()
+---@field IsPlayerOutOfVehicle:fun():bool
+---@field UIMsg_VehicleLiftUpPress:fun()
+---@field UIMsg_JoystickCustom:fun()
+---@field UIMsg_FightingReadyGoToFlying:fun()
+---@field UIMsg_RespawnSetUI:fun()
+---@field HideUIAfterDead:fun():bool
+---@field UIMsg_WarModeRespawnShowUI:fun()
+---@field InitSpecialUI:fun()
+---@field UIMsg_PlayerInfo_UpdateEnergy:fun()
+---@field LeaveSpectatingStatus:fun()
+---@field UIMsg_ReceiveBackpackComponent:fun()
+---@field UIMsg_InitEmotePanel:fun()
+---@field UIMsg_WeaponUnequipAttachment:fun()
+---@field UIMsg_SwitchCameraModeScope_Aim:fun()
+---@field UIMsg_TakeDamageUpdateEquipmentDurability:fun()
+---@field UIMSG_NormalAimBtn:fun()
+---@field UIMSG_HightLightAimBtn:fun()
+---@field UIMsg_NormalRightFire:fun()
+---@field UIMsg_NormalLeftFire:fun()
+---@field FingWidget:fun(widget:UWidget,data:int32):UWidget,bool
+---@field UIMsg_GuideByStep:fun()
+---@field UIMsg_HideOBAirDropBox:fun()
+---@field UIMsg_ShowOBAirDropBox:fun()
+---@field UIMsg_EnterTrainingMode:fun()
+---@field UIMsg_FPPModeChange:fun()
+---@field UIMsg_InitUIGuide:fun()
+---@field ShowBattleUI:fun()
+---@field UIMsg_SetGuideFromGuideComponent:fun()
+---@field UIMsg_VehicleShowDoorBtnPanel:fun()
+---@field UIMsg_VehicleHideDoorBtnPanel:fun()
+---@field UIMsg_VehicleStopPlayerAutoSprint:fun()
+---@field UIMsg_VehiclePanelHide:fun()
+---@field UIMsg_VehicleSeatChanged:fun()
+---@field UIMsg_VehicleInputAxisMoveRight:fun()
+---@field UIMsg_VehicleUpdateSpeed:fun(rawspeed:float,newspeed:float,height:float)
+---@field UIMsg_VehicleUpdateSeatUI:fun()
+---@field UIMsg_VehicleMotorcycleContactChanged:fun()
+---@field UIMsg_VehicleWheelsHPChanged:fun()
+---@field UIMsg_VehicleFuelChanged:fun()
+---@field UIMsg_VehicleHPChanged:fun()
+---@field UIMsg_AddOneMsgtoUIInner:fun()
+---@field UIMsg_NotifyFriendReply:fun()
+---@field UIMsg_NotifyFriendInvite:fun()
+---@field UIMsg_AddFriendChat:fun()
+---@field UIMsg_CloseChatHistoryList:fun()
+---@field UIMsg_UpdateVehicleBtn:fun()
+---@field UIMsg_UpdateDoorBtnAndShowDoorBtn:fun()
+---@field UIMsg_UpdateStandCrouchAndSprint:fun()
+---@field UIMsg_MakeFireModeEffect:fun()
+---@field UIMsg_SetAutoNavigateTranslation:fun()
+---@field UIMsg_NotifyPickup:fun()
+---@field UIMsg_UpdatePickUpList:fun()
+---@field UIMsg_SwitchAimMode:fun()
+---@field UIMsg_DisableAimIfUnEquipWeapon:fun()
+---@field UIMsg_BindOrUnBindJoyStickSprint:fun()
+---@field UIMsg_ShowBackpackTombBox:fun()
+---@field UIMsg_ShowAutoSprintIcon:fun()
+---@field UIMsg_WeaponEquipAttachment:fun()
+---@field UIMsg_PlayerControllerPressGrenade:fun()
+---@field UIMsg_PlayerControllerPressFire:fun()
+---@field UIMsg_SwitchCameraSatrtHandle:fun()
+---@field UIMsg_DoUITouchMove:fun(Loc:FVector)
+---@field UIMsg_OnPlaneUpdatePickUpList:fun()
+---@field UIMsg_JoyStickTriggerSprint:fun()
+---@field UIMsg_HideJoinGameUI:fun()
+---@field UIMsg_ReleaseFireBtn:fun()
+---@field UIMsg_ScopeChanged:fun()
+---@field EnterObserverStatus:fun()
+---@field UIMSG_PlayerControllerStateChange:fun()
+---@field ReceiveParachuteFollowRequst:fun()
+---@field ReadyToSendFinishedGuideToServer:fun()
+---@field NewBieGuide_FinishedCurGuide:fun()
+---@field HandlNewbieGuideUpdate:fun(GuideID:int32,bIsShow:bool)
+---@field NewbieGuide_HideCurNewbieGuide:fun()
+---@field NewbieGuide_ShowCurNewbieGuide:fun()
+---@field ReadyToRetriveBeginnerFinishedGuide:fun()
+---@field GameAssistantShowUI:fun()
+---@field ApplyUserSettingInfo:fun()
+---@field ResetCustomUIForAssistant:fun(IsTransparent:bool)
+---@field GetUIElementSetting:fun():int32,BP_SAVEGAME_UIElemLayout_C
+---@field GameAssistantHideUI:fun()
+---@field ReadAdaptationTable:fun()
+---@field UIElemLayoutApplyCustomSetting:fun()
+---@field UIMsg_SwitchOperationByPlayerControllerState:fun()
+---@field ShowSpectatingUI:fun()
+---@field UIMsg_EnterSpectatingStatus:fun()
+---@field UIMsg_HideAllUIAfterDeadTipsShow:fun()
+---@field UIMsg_Reconnect_ResetUIByPlayerControllerState:fun()
+---@field ApplyCustomUI:fun()
+---@field MainControlPanel_HideAllUI:fun()
+---@field IngameUIAdaptation:fun()
+---@field DebugSetAllUIVisibility:fun(IsVisible:bool)
+---@field ShowDriveUI:fun()
+---@field OperatingRules2:fun()
+---@field GetCustomUIPosition:fun()
+---@field SwitchOperationUI:fun()
+---@field ShowShooterUI:fun()
+---@field ShowFreeFallUI:fun()
+---@field ShowAirborneUI:fun()
+---@field ReceivedInitWidget:fun()
+---@field Construct:fun()
+---@field SetCustomizeUIInfo:fun(SaveGame:BP_SAVEGAME_UIElemLayout_C,FireMode:int32)
+---@field InitPlayerState:fun()
+---@field ResetUIStateAfterRespawn:fun()
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field SetSettingControlUI:fun()
+---@field UpdatePlayerState:fun(State:ExtraPlayerLiveState,OwnerCharacter:ACharacter)
+---@field SetCustomUIPosition__DelegateSignature:fun()
+---@field DX_Out UWidgetAnimation
+---@field BaseLayer UCanvasPanel
+---@field Border_NoUIOpacity UBorder
+---@field Border_Opacity UBorder
+---@field Button_Mask UButton
+---@field CanvasPanel_IPX UCanvasPanel
+---@field CanvasPanel_PostCard UCanvasPanel
+---@field CanvasPanel_WingmanRank UCanvasPanel
+---@field Image_Mask UImage
+---@field MainControlBaseUI MainControlBaseUI_C
+---@field ParachutingLayer UCanvasPanel
+---@field PermanentLayer UCanvasPanel
+---@field PopupWindowLayer UCanvasPanel
+---@field rootwidget UCanvasPanel
+---@field ScreenFadingPanel ScreenFadingPanel_C
+---@field ShootingLayer UCanvasPanel
+---@field ShootingUIPanel ShootingUIPanel_C
+---@field SkillLayer UCanvasPanel
+---@field VehicleControlLayer UCanvasPanel
+---@field MarkerPosition FVector
+---@field IsSettingAssistant bool
+---@field PoseStateOffset int32
+---@field InterActionCar ESlateVisibility
+---@field InterActionShoot ESlateVisibility
+---@field MarkerShow ESlateVisibility
+---@field InterActionAirborne ESlateVisibility
+---@field Controller ASTExtraPlayerController
+---@field OperationState EOperation
+---@field SetCustomUIPosition ULuaMulticastDelegate
+---@field AdaptationDict ULuaMapHelper
+---@field CurDeviceAdaptationData FUIAdaptationStructure
+---@field IsAssistantTransparent bool
+---@field SignalUI_Ref Ingame_signalBar_UIBP_C
+---@field UseBottomSignalbar bool
+---@field IgnoredNewbieGuideID ULuaArrayHelper
+---@field SignalbarLoaded bool
+---@field DelayResult bool
+---@field ParachutingControlInstance UParachutingControlWidget
+---@field PhotoWidget UUserWidget
+---@field bIsImprisoned bool
+---@field bDidFreed bool
+---@field HideAllUIKeys ULuaArrayHelper
+---@field vehicleControlPanelUI UUAEUserWidget
+---@field UIHideList ULuaMapHelper
+---@field DelayNotShowShooting bool
+---@field IsEnableParachutingControlPanelAsync bool
+---@field IsCreateParachutingWidgetAsync bool
+---@field ParachutingControlPanelMsgQueue ULuaArrayHelper
+---@field hasLoadWingRankUI bool
+---@field OBStyle UUserWidgetStyle
+---@field CanShowWingmanRank bool

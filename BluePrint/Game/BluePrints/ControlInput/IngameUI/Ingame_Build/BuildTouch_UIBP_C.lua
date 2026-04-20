@@ -1,0 +1,6 @@
+---@class BuildTouch_UIBP_C:UUAEUserWidget
+---@field HideUI:fun()
+---@field ShowUI:fun()
+---@field SetPercent:fun(Percent:float)
+---@field DX_Hammer UWidgetAnimation
+---@field ProgressBar_BuildTouch UProgressBar

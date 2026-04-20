@@ -1,0 +1,19 @@
+---@class BurstModePanel_C:UUserWidget
+---@field GetLuaModule:fun():FString
+---@field BombExplodeTipsBar UTextBlock
+---@field BombInstallBtn UButton
+---@field BombRemoveBtn UButton
+---@field ExplodeReamainTimeBar UHorizontalBox
+---@field ReadyStateReamainTimeBar UHorizontalBox
+---@field RemoveBombTipsBar UHorizontalBox
+---@field Text_BlueTeamScore UTextBlock
+---@field Text_CurrentRound UTextBlock
+---@field Text_ExplodeRemainTime UTextBlock
+---@field Text_FightingStateRemainTime UTextBlock
+---@field Text_GameFail UTextBlock
+---@field Text_GameWin UTextBlock
+---@field Text_ReadyStateRemainTime UTextBlock
+---@field Text_RedTeamScore UTextBlock
+---@field Text_RemoverName UTextBlock
+---@field Text_RoundFail UTextBlock
+---@field Text_RoundWin UTextBlock

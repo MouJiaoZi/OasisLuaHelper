@@ -1,0 +1,7 @@
+---@class RingMatch_Result_Share2_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field HideUserInterface:fun()
+---@field ResetScreenShot:fun()
+---@field Construct:fun()
+---@field RingMatch_Result_Share1_UIBP RingMatch_Result_Share1_UIBP_C
+---@field Shareinterface_UIBP Shareinterface_UIBP_C

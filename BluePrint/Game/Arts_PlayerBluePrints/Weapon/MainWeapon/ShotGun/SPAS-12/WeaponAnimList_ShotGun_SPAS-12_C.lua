@@ -1,0 +1,1 @@
+---@class WeaponAnimList_ShotGun_SPAS-12_C:UUAECharacterAnimListComponent

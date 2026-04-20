@@ -1,0 +1,10 @@
+---@class NewResult_PerfectTime_Item_UIBP_C:UUAEUserWidget
+---@field OnTouchStarted:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field ChooseThis__DelegateSignature:fun(Index:int32)
+---@field Image_PerfectName UImage
+---@field Image_Share1 UImage
+---@field Image_Share2 UImage
+---@field NewButton_Select UNewButton
+---@field WidgetSwitcher_Status UWidgetSwitcher
+---@field Index int32
+---@field ChooseThis ULuaMulticastDelegate

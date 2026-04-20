@@ -1,0 +1,1 @@
+---@class TlogAbsolutePositionBox_C:ATlogTriggerBox

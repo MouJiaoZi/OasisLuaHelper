@@ -1,0 +1,8 @@
+---@class AvatarOBInfo_AnimBP_C:UAvatarCaptureAnimInstance
+---@field SetWeaponAnim:fun(WeaponResID:int32,AvatarCapture:AvatarCapture_BP_C)
+---@field BlueprintInitializeAnimation:fun()
+---@field WeaponAnimPose UAnimSequenceBase
+---@field WeaponAnimAdd UAnimSequenceBase
+---@field IsEquipWeapon bool
+---@field WeaponAnimAdapt_BS UBlendSpaceBase
+---@field WeaponAnimAdapt_ADD UAnimSequenceBase

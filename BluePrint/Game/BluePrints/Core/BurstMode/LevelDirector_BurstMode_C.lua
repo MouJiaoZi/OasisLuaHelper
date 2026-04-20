@@ -1,0 +1,3 @@
+---@class LevelDirector_BurstMode_C:ASTExtraLevelDirector
+---@field UserConstructionScript:fun()
+---@field DefaultSceneRoot USceneComponent

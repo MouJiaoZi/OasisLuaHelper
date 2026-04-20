@@ -1,0 +1,1 @@
+---@class BattleItemHandle_BP_Parachute2_SHV_C:BattleItemHandle_AvatarBP_C

@@ -1,0 +1,9 @@
+---@class Ingame_SignbarCellInterface_C:UInterface
+---@field InitByPlayerController:fun(InPlayerController:ASTExtraPlayerController)
+---@field InitByPlayerState:fun(PlayerState:APlayerState)
+---@field ResetBar:fun(FullRecovery:bool)
+---@field SetHP:fun(CurHP:float)
+---@field ResetColor:fun(CellType:Ingame_SignalCellType)
+---@field SetBarVisibility:fun(NewVisible:bool,CellType:Ingame_SignalCellType)
+---@field SetCellPercentage:fun(CellType:Ingame_SignalCellType,Precentage:float,Visible:bool)
+---@field SetCellColor:fun(CellType:Ingame_SignalCellType,Color:FLinearColor)

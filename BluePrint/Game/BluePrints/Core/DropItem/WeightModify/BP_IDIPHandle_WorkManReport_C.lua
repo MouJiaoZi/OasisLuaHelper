@@ -1,0 +1,8 @@
+---@class BP_IDIPHandle_WorkManReport_C:UIDIPHandle
+---@field GetLuaModule:fun():FString
+---@field SetReportStr:fun(PlayerState:AUAEPlayerState,Array:ULuaArrayHelper,ErrorString:FString):FString,bool
+---@field CheckNeedReport:fun(PlayState:AUAEPlayerState)
+---@field WhiteArray ULuaArrayHelper
+---@field GreenArray ULuaArrayHelper
+---@field BlueArray ULuaArrayHelper
+---@field PurpleArray ULuaArrayHelper

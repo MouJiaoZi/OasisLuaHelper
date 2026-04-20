@@ -1,0 +1,286 @@
+---@class NewResult_Single_C:UUAEUserWidget
+---@field OpenMyTitleInf:fun():bool
+---@field SetMyTitleInf:fun():bool
+---@field UIMsg_ShowFactionResult:fun()
+---@field CampNoResultLoaded:fun(widget:UWidget)
+---@field ShowCampNoResult:fun()
+---@field ShowCampCallBack:fun()
+---@field IsWematchMode:fun():bool
+---@field HideWatchGameUI:fun()
+---@field OnCreateRatePoints:fun(class:UClass,id:int32)
+---@field CreateRatePoints:fun()
+---@field SetCanvasShowAndText:fun(Canvas:UCanvasPanel,IsShow:bool,Text:UTextBlock,TextId:int32)
+---@field GetPostableBattleMoment:fun()
+---@field TitleTagUILoaded:fun()
+---@field IsVenomMode:fun():bool
+---@field OnVenomStatisticsSocketCreate:fun()
+---@field TimerShowNextUIFlow:fun()
+---@field OnWatchEnemyInReplay:fun()
+---@field ReportContinueForReplay:fun()
+---@field ProcessForWeChatLive:fun()
+---@field ShowNextUIFlow:fun()
+---@field OnPeaceAward:fun()
+---@field ShowGunsmithReward_CallBack:fun()
+---@field ShowKLJTips:fun()
+---@field SetPlayerTitleFinish:fun()
+---@field LoadMetalIconPathListFinish:fun(objList:ULuaArrayHelper,ID:int32)
+---@field LoadTopUIClassFinish:fun(TopUIClass:UClass,id:int32)
+---@field OnTeamDisplayWeaponClassLoadFinish:fun(LoadedClass:UObject)
+---@field OnTeamDislayWeaponHandleLoadFinish:fun(ItemDefineID:FItemDefineID,WeapnHandle:UBattleItemHandleBase)
+---@field PreCacheTeamDisplayWeapon:fun()
+---@field PreCacheObj:fun()
+---@field PeaceFulCallback:fun()
+---@field ShowPeakCompetitionGameOverTip:fun()
+---@field MsgPeakCompetitionGameOverTipFinish:fun()
+---@field MsgNotifyTeamHasAlive:fun()
+---@field CheckPeakCompetitionResult:fun()
+---@field OnHunterDetailSocketCreate:fun()
+---@field OnHunterResultSocketCreate:fun()
+---@field IsHunterMode:fun():bool
+---@field ShowTeamResult:fun()
+---@field IsHeroMode:fun():bool
+---@field ExitSpectatingChain:fun()
+---@field IsShowSingle:fun():bool
+---@field OnCanViewEnemy:fun()
+---@field ResetData:fun()
+---@field ClickReplayCache:fun()
+---@field ReplayButtonCountDown:fun()
+---@field SetIsShowMVP:fun(TopWinNum:int32,IsShowCeremony:bool)
+---@field HideRankingUI:fun()
+---@field ShowReplayWidgets:fun()
+---@field ShowKillTeammateTip:fun()
+---@field ActivityTimes:fun(A:int32):FString
+---@field RefreshActivity:fun()
+---@field On_Image_BlackName2_MouseButtonDown_0:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field IsPLayerAlive:fun():bool
+---@field UIMsg_DeadCameraMoveEnd:fun()
+---@field TimerShowBattleRankingUI:fun()
+---@field EnterSpectatingChain:fun()
+---@field UIMsg_OnGameOver:fun()
+---@field ShowShareCorpsPanel:fun()
+---@field ShowCorps:fun()
+---@field ShowLoadingUI:fun()
+---@field ShowProtect:fun()
+---@field ShowShareTitlePanel:fun()
+---@field BroadCastResultMsg:fun()
+---@field DelayShowBattleRankingUI:fun()
+---@field ShowBattleResultBySkip:fun()
+---@field GetAvatarLevelName:fun():FString
+---@field IsZombieMode:fun():bool
+---@field ShutDownNet:fun()
+---@field CanShutDownNetNow:fun():bool
+---@field OnNetShutDown:fun()
+---@field SetIsShowCeremonyData:fun(TopWinNum:int32,IsShowCeremony:bool)
+---@field GetCorrectStrategyURL:fun():FString
+---@field On_ImageHideTips_MouseButtonDown_0:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field ShowGoldAndExpInfo:fun()
+---@field ActiveUI:fun()
+---@field SetShareBtnState:fun()
+---@field InitShareInfo:fun()
+---@field GetFinalRank:fun(playerRank:int32,teamRank:int32,isSingle:bool):int32
+---@field SetPromotedRank:fun(rank:int32,t:UTextBlock)
+---@field CheckVersionMatch:fun()
+---@field SetSingleDetail:fun()
+---@field GetWinType:fun():int32
+---@field SerResultText:fun()
+---@field RefreshSingleTitle:fun()
+---@field RefreshTopData:fun()
+---@field RefreshRankInfoForSingle:fun()
+---@field SwitchStyleByMode:fun()
+---@field InitStrategyBtnNode:fun()
+---@field CallResultFunction:fun(Func:FString)
+---@field HideAll:fun()
+---@field HideWidget:fun()
+---@field PlayResultSound:fun()
+---@field UIMsg_ShowGameOverResult:fun()
+---@field HideIngameUI:fun()
+---@field GetModeUI:fun():FString
+---@field IsCorpsResult:fun():bool
+---@field GetMyName:fun():FString
+---@field GetEnemyMurderName:fun():FString
+---@field ShouldShowReportBtn:fun():bool
+---@field ShowReportBtn:fun()
+---@field CheckHelicopterAnim:fun()
+---@field ShowSingleResult:fun()
+---@field ShowBattleRankingUI:fun()
+---@field Construct:fun()
+---@field DX_Reduction UWidgetAnimation
+---@field DX_Increase UWidgetAnimation
+---@field DX_Growth UWidgetAnimation
+---@field DX_Settlement UWidgetAnimation
+---@field BountyHunterDetailSock UCustomSocketPanel
+---@field BountyHunterSock UCustomSocketPanel
+---@field Btn UVerticalBox
+---@field btn_OpenStrategy UButton
+---@field Btnshare UHorizontalBox
+---@field Button_baohu UButton
+---@field Button_BattleReplay UButton
+---@field Button_CorpBack UButton
+---@field Button_enterPoseLevel UButton
+---@field Button_jiacheng2 UButton
+---@field Button_ModeTips UButton
+---@field Button_ShareCorps UButton
+---@field Button_ShareGameData UButton
+---@field Button_SharePersonalRank UButton
+---@field Button_ShowPose UButton
+---@field Button_WatchingOtherCamp UButton
+---@field Button_WatchingOtherPeople UButton
+---@field CanvasPanel_29 UCanvasPanel
+---@field CanvasPanel_Banner UCanvasPanel
+---@field CanvasPanel_BtnTips UCanvasPanel
+---@field CanvasPanel_CurrentProgress UCanvasPanel
+---@field CanvasPanel_Dialog UCanvasPanel
+---@field CanvasPanel_IP UCanvasPanel
+---@field CanvasPanel_KLJ_Parts UCanvasPanel
+---@field CanvasPanel_LimitedTips2 UCanvasPanel
+---@field CanvasPanel_lt UCanvasPanel
+---@field CanvasPanel_MASK UCanvasPanel
+---@field CanvasPanel_ModeTips UCanvasPanel
+---@field CanvasPanel_ModeTipsPanel UCanvasPanel
+---@field CanvasPanel_moshi UCanvasPanel
+---@field CanvasPanel_Protect UCanvasPanel
+---@field CanvasPanel_qipao UCanvasPanel
+---@field CanvasPanel_Refit UCanvasPanel
+---@field CanvasPanel_Reward UCanvasPanel
+---@field CanvasPanel_risk2 UCanvasPanel
+---@field CanvasPanel_rt UCanvasPanel
+---@field CanvasPanel_Socket UCanvasPanel
+---@field CanvasPanel_TextTips01 UCanvasPanel
+---@field CanvasPanel_TextTips02 UCanvasPanel
+---@field CanvasPanel_tips UCanvasPanel
+---@field CanvasPanel_Tips1 UCanvasPanel
+---@field CanvasPanel_TopGame UCanvasPanel
+---@field CanvasPanel_victory1 UCanvasPanel
+---@field CanvasPanel_WeekScoreProgress UCanvasPanel
+---@field Common_UIPopupBG_Hunter Common_UIPopupBG_C
+---@field CustomSocketPanel_Peace UCustomSocketPanel
+---@field DT_MicroMatch_ItemResult_UIBP DT_MicroMatch_ItemResult_UIBP_C
+---@field GridPanel_IPX UGridPanel
+---@field Gunsmith_Reward_Btn UButton
+---@field HorizontalBox_AllScore UHorizontalBox
+---@field HorizontalBox_Animal UHorizontalBox
+---@field HorizontalBox_DefeatedPlayers UHorizontalBox
+---@field HorizontalBox_DefeatedScore UHorizontalBox
+---@field HorizontalBox_player UHorizontalBox
+---@field HorizontalBox_RankScore UHorizontalBox
+---@field HorizontalBox_TopRanking UHorizontalBox
+---@field Image_40 UImage
+---@field Image_47 UImage
+---@field Image_Icon UImage
+---@field ImageHideTips UImage
+---@field IP_VenomMode_StatisticsSock UCustomSocketPanel
+---@field LobbyTeam_Logo_UIBP LobbyTeam_Logo_UIBP_C
+---@field NewButton_Cilck UNewButton
+---@field NewButton_Explain UNewButton
+---@field NewButton_KLJ_Help UNewButton
+---@field NewButton_KLJ_Help01 UNewButton
+---@field NewButton_TopGame_Continue UNewButton
+---@field NewButton_TopGame_Share UNewButton
+---@field NewResult_KLJ_Accessories_UIBP_0 NewResult_KLJ_Accessories_UIBP_C
+---@field NewResult_KLJ_Accessories_UIBP_1 NewResult_KLJ_Accessories_UIBP_C
+---@field NewResult_KLJ_Accessories_UIBP_2 NewResult_KLJ_Accessories_UIBP_C
+---@field NewResult_KLJ_PickUpItemTips_UIBP NewResult_KLJ_PickUpItemTips_UIBP_C
+---@field NodeOpenStrategy UCanvasPanel
+---@field Panel_Share_Tips UGridPanel
+---@field Personal_Ranking UCanvasPanel
+---@field ProfessionalSock UCustomSocketPanel
+---@field ProgressBar_StarAmount UProgressBar
+---@field ProgressBar_WeekScore UProgressBar
+---@field randomTips UTextBlock
+---@field Rangking UGridPanel
+---@field Rank UCanvasPanel
+---@field RankTopMode UWidgetSwitcher
+---@field Report UButton
+---@field ResultsRankingMyTitle ResultsRankingnameplatetips_UIBP_C
+---@field ReuseList2_List ReuseList2_C
+---@field RewardTipsSocket UCustomSocketPanel
+---@field Socket_PeacefulLife UCustomSocketPanel
+---@field SocketPanel_Camp UCustomSocketPanel
+---@field TagSockPanel UCustomSocketPanel
+---@field TBMonsterNum UTextBlock
+---@field TextBlock_1 UTextBlock
+---@field TextBlock_3 UTextBlock
+---@field TextBlock_44 UTextBlock
+---@field TextBlock_70 UTextBlock
+---@field TextBlock_82 UTextBlock
+---@field TextBlock_85 UTextBlock
+---@field TextBlock_87 UTextBlock
+---@field TextBlock_90 UTextBlock
+---@field TextBlock_94 UTextBlock
+---@field TextBlock_BadgeAmount UTextBlock
+---@field TextBlock_BtnTips UTextBlock
+---@field TextBlock_CurrentScore UTextBlock
+---@field TextBlock_GameGrade UTextBlock
+---@field TextBlock_GameRank UTextBlock
+---@field TextBlock_KillScore UTextBlock
+---@field TextBlock_KLJ_Money UTextBlock
+---@field TextBlock_KLJ_Num UTextBlock
+---@field TextBlock_LimitedTips2 UTextBlock
+---@field TextBlock_ModeTipsContent UTextBlock
+---@field TextBlock_New UTextBlock
+---@field TextBlock_PersonalRanking UTextBlock
+---@field TextBlock_Rank UTextBlock
+---@field TextBlock_RankScore UTextBlock
+---@field TextBlock_RingofDestinyTips2 UTextBlock
+---@field TextBlock_SelfKill2 UTextBlock
+---@field TextBlock_ShareTips UTextBlock
+---@field TextBlock_Slogan UTextBlock
+---@field TextBlock_StarAmount UTextBlock
+---@field TextBlock_TeamName UTextBlock
+---@field TextBlock_TeamName1 UTextBlock
+---@field TextBlock_Upgrade UTextBlock
+---@field TextBlock_WatchingOtherCamp UTextBlock
+---@field TextBlock_WeekScore UTextBlock
+---@field TextBlock_WeekTotalScore UTextBlock
+---@field TextBlock_win UTextBlock
+---@field TextBlock_Win1 UTextBlock
+---@field TextBlock_Win2 UTextBlock
+---@field UTRichTextBlock_0 UUTRichTextBlock
+---@field UTRichTextBlock_CorpBtn UUTRichTextBlock
+---@field UTRichTextBlock_Explain UUTRichTextBlock
+---@field UTRichTextBlock_KLJ_Text UUTRichTextBlock
+---@field UTRichTextBlock_Tips01 UUTRichTextBlock
+---@field VerticalBox_4 UVerticalBox
+---@field VerticalBox_PointsTips UVerticalBox
+---@field WidgetSwitcher_0 UWidgetSwitcher
+---@field WidgetSwitcher_Btn UWidgetSwitcher
+---@field WidgetSwitcher_Icon UWidgetSwitcher
+---@field WidgetSwitcher_Label UWidgetSwitcher
+---@field WidgetSwitcher_ProtectScore UWidgetSwitcher
+---@field QuitSpectateAndShowSingle bool
+---@field IsGameJoyEndingCD bool
+---@field IfRecordEndOK bool
+---@field GameJoyLeftEndCD float
+---@field IfRecordEndFail bool
+---@field IsEnterSpectatingChain bool
+---@field ShowResults bool
+---@field ShowAwardCeremony bool
+---@field IsSharePanelOpenned bool
+---@field myShowTitleID int32
+---@field titleCanvasPanel ULuaArrayHelper
+---@field ShowSelfTitle int32
+---@field TitleImage ULuaArrayHelper
+---@field imageTitleBaseList ULuaArrayHelper
+---@field DelayDisplayTimer FTimerHandle
+---@field corpsWidget UUAEUserWidget
+---@field CorpShowed bool
+---@field NewVar_0 int32
+---@field ShowMVPScene bool
+---@field replayConutDownTime int32
+---@field CachedAvatarLevelName FString
+---@field isTickTimeOut bool
+---@field originalReplayBtnStyle FButtonStyle
+---@field IsInSpectatingChain bool
+---@field IsEnterPose bool
+---@field DXIncrease bool
+---@field DXReduction bool
+---@field DXGrowth bool
+---@field WaitingPeakCompetitionGameOverTip bool
+---@field TeamDisplayWeaponHandleList ULuaArrayHelper
+---@field TeamDisplayWeaponClassList ULuaArrayHelper
+---@field PreCacheDone bool
+---@field MyMetalList ULuaArrayHelper
+---@field GunsmithPartsFlag bool
+---@field GunsmithData ULuaArrayHelper
+---@field bHasShowNextUI bool
+---@field CampNoResult UWidget

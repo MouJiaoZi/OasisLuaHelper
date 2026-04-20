@@ -1,0 +1,7 @@
+---@class NewTraining_Control_UIBP_C:UUAEUserWidget
+---@field LoadInitModule:fun()
+---@field ResetOtherUI:fun(MainContrlBaseUI:MainControlBaseUI_C)
+---@field DelayShowModeUI:fun()
+---@field ShowTrainingNewMode:fun()
+---@field TimerHandle FTimerHandle
+---@field DelayShowLoopCount int32

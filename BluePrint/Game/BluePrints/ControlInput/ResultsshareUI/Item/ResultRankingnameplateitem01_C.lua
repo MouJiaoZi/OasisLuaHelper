@@ -1,0 +1,14 @@
+---@class ResultRankingnameplateitem01_C:UUAEUserWidget
+---@field OnLoadPedalDone:fun(NewParam:UObject,NewParam1:int32)
+---@field OnLoadIconDone:fun(NewParam:UObject,NewParam1:int32)
+---@field OnTouchEnded:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field SetSelect:fun(selTitleID:int32)
+---@field SetTitleAndBase:fun(titleID:int32)
+---@field SelectToShare__DelegateSignature:fun(titleID:int32)
+---@field DX_Scale UWidgetAnimation
+---@field CanvasPanel_6 UCanvasPanel
+---@field FX_Arrow UImage
+---@field Image_30 UImage
+---@field Image_31 UImage
+---@field titleID int32
+---@field SelectToShare ULuaMulticastDelegate

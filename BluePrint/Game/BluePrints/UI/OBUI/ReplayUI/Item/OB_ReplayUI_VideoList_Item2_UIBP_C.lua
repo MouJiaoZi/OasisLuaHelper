@@ -1,0 +1,7 @@
+---@class OB_ReplayUI_VideoList_Item2_UIBP_C:UUserWidget
+---@field CanvasPanel_1 UCanvasPanel
+---@field CanvasPanel_Replay_VideoDetail UCanvasPanel
+---@field Image_28 UImage
+---@field Image_VideoList_Arrow UImage
+---@field TextBlock_0 UTextBlock
+---@field UTRichTextBlock_PlayerTips UUTRichTextBlock

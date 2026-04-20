@@ -1,0 +1,2 @@
+---@class WingmanEffectInterface_C:UInterface
+---@field ShowWingmanEffectChoice:fun(list:ULuaArrayHelper,ownNum:int32,freeNum:int32):bool

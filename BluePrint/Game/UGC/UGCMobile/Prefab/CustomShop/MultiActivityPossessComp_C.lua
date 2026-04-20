@@ -1,0 +1,1 @@
+---@class MultiActivityPossessComp_C:UActivityFakePossessComponent

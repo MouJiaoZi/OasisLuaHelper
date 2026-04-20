@@ -1,0 +1,1 @@
+---@class PESkill_UGC_Brain_Atk_C:PESkillTemplate_Base_C

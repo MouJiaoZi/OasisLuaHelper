@@ -1,0 +1,84 @@
+---@class SeasonTopGame_Result_Item4_UIBP_C:UUAEUserWidget
+---@field SetSayHelloInfoInf:fun(flag:bool):bool
+---@field SetDetailTitleVisibility:fun(IsVisible:bool):bool
+---@field SetSelfTitleInF:fun(Title:int32,Name:FString,isSingleMode:bool):bool
+---@field SetRenderAngleInF:fun(Angle:float):bool
+---@field GetPlayerIDInF:fun():FString
+---@field SetLikeInfoInF:fun(likeNum:int32,LikeEachohter:bool,isLikeSysOpen:bool):bool
+---@field MakeSureLikeBtnStatusInF:fun(LikesysOpen:bool):bool
+---@field OnLikeFinishedInF:fun():bool
+---@field SetTitleArrayInF:fun(TitleS:ULuaArrayHelper):bool
+---@field HandleClickPlayerTitle:fun(Name:FString,Index:int32,AbsPos:FVector2D)
+---@field HandleLikeTeammateBtnClicked:fun(PlayerID:FString)
+---@field HandleShowTips:fun(Text:FText)
+---@field HandleAddFriendClicked:fun(ItemIndex:int32)
+---@field SetAssistDataStatus:fun(IsSingleMode:bool,AssistNum:int32)
+---@field UpdateAddFriendBtn:fun()
+---@field MakeSureLikeBtnStatus:fun(likesysOpen:bool)
+---@field OnLikeFinished:fun()
+---@field SetLikeInfo:fun(LikeNum:int32,LikeEachother:bool,isLikeSysOpen:bool)
+---@field SetIndex:fun(index:int32)
+---@field SetSelfTitle:fun(title:int32,name:FString)
+---@field CreateTitleBase:fun(baseImage:UObject)
+---@field SetTitleArray:fun(titles:ULuaArrayHelper)
+---@field SetTitle:fun(TitleName:FString,visible:bool)
+---@field SetMVP:fun(isMVP:bool)
+---@field ShowInfo:fun(ModeUI:FString)
+---@field Construct:fun()
+---@field ClickTitleList__DelegateSignature:fun(name:FString,index:int32,absPos:FVector2D)
+---@field Button_AddFriend UButton
+---@field Button_like UNewButton
+---@field Button_SayHello UButton
+---@field ButtonTitle UButton
+---@field CanvasPanel_juesha UCanvasPanel
+---@field CanvasPanel_SayHello UCanvasPanel
+---@field CharismaValue_Style3_UIBP CharismaValue_Style3_UIBP_C
+---@field Common_RankTitleInfo_UIBP Common_RankTitleInfo_UIBP_C
+---@field GridPanel_AddFriend UGridPanel
+---@field GridPanel_AssistNum UGridPanel
+---@field GridPanel_CuringNum UGridPanel
+---@field GridPanel_DamageNum UGridPanel
+---@field GridPanel_KillAnimal UGridPanel
+---@field GridPanel_KillNum UGridPanel
+---@field GridPanel_PlayerName UGridPanel
+---@field GridPanel_RescueNum UGridPanel
+---@field GridPanel_Scrore UGridPanel
+---@field GridPanel_SurviveTime UGridPanel
+---@field HorizontalBox_1 UHorizontalBox
+---@field Image_5 UImage
+---@field Image_6 UImage
+---@field Image_Gender UImage
+---@field ImageBase UImage
+---@field KillNum UTextBlock
+---@field LikeEachotherNum UTextBlock
+---@field LikeNum UTextBlock
+---@field text_alreadyLiked UTextBlock
+---@field TextBlock_1 UTextBlock
+---@field TextBlock_AssistNum UTextBlock
+---@field TextBlock_CuringNum UTextBlock
+---@field TextBlock_DamageNum UTextBlock
+---@field TextBlock_Distance UTextBlock
+---@field TextBlock_HeadShotNum UTextBlock
+---@field TextBlock_KillAnimalNum UTextBlock
+---@field TextBlock_PlayerName UTextBlock
+---@field TextBlock_RescueNum UTextBlock
+---@field TextBlock_Score UTextBlock
+---@field TextBlock_SurviveTime UTextBlock
+---@field Title UCanvasPanel
+---@field titleNum UTextBlock
+---@field titleNumBox UHorizontalBox
+---@field WidgetSwitcher_nice UWidgetSwitcher
+---@field WidgetSwitcherArrow UWidgetSwitcher
+---@field myname FString
+---@field playername FString
+---@field ShouldShowAddFriendBtn int32
+---@field PlayerArrayIndexRecord int32
+---@field ParentWidgetPointer NewResult_Team_C
+---@field boyBrush FSlateBrush
+---@field girlBrush FSlateBrush
+---@field TitleList ULuaArrayHelper
+---@field ClickTitleList ULuaMulticastDelegate
+---@field ItemIndex int32
+---@field DuanWeiImage UTexture2D
+---@field playerId FString
+---@field OwnerResultInterfacePtr TScriptInterface

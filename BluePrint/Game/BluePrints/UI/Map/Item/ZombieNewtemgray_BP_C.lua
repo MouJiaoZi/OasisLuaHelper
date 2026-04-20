@@ -1,0 +1,1 @@
+---@class ZombieNewtemgray_BP_C:UMapUIMarkBaseWidget

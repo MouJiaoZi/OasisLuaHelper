@@ -1,0 +1,1 @@
+---@class BP_WEP_Pickaxe_BattleItemHandle_ForMonster_C:UBattleItemHandle_MeleeWeapon_C

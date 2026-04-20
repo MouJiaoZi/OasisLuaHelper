@@ -1,0 +1,71 @@
+---@class ParachutingControlPanel_C:UParachutingControlWidget
+---@field IsInRevivalExplane:fun(Controller:ASTExtraPlayerController)
+---@field GetFollowerDisplayName:fun(PlayerName:FString,GID:FString):FString
+---@field UIMsg_ChangeFollowTipStatus:fun(Param:FString)
+---@field ExclusiveWithEntrieMapExtendMgr:fun(bShowFollowTip:bool)
+---@field ReplayShowUIWithCheck:fun()
+---@field ReceiveTransferLeaderRequest:fun()
+---@field ReplayShowUI:fun()
+---@field UIMsg_UpdateFollowUIOnReplay:fun()
+---@field UIMSG_FollowStateChange:fun()
+---@field UIMSG_ParachutingLeaderChange:fun()
+---@field HideFollowPanelAndBtn:fun()
+---@field ShowBtnByPlayerControllerState:fun()
+---@field CheckParachuteFollowState:fun():bool
+---@field ResponsFollowInvite:fun(ResponsID:EInviteResponceType)
+---@field ReceiveFollowRequst:fun()
+---@field RefreshParachuteFollowState:fun()
+---@field ShowBtnByState:fun(State:int32)
+---@field Reconnect_ResetUIByPlayerControllerState:fun()
+---@field Parachuting_MiniMapClosed:fun()
+---@field Parachuting_MiniMapCoverBtn:fun()
+---@field OpenParachute:fun()
+---@field Parachuting_HideBtn:fun()
+---@field Parachuting_HideCutBtn:fun()
+---@field Parachuting_ShowCutBtn:fun()
+---@field Parachuting_HideOpenParachuteBtn:fun()
+---@field Parachuting_ShowOpenParachuteBtn:fun()
+---@field Parachuting_HideJumpBtn:fun()
+---@field Parachuting_ShowJumpBtn:fun()
+---@field StartJump:fun()
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field ReceivedInitWidget:fun()
+---@field CountDownFinishResponInvite:fun()
+---@field BP_ReceiveFollowRequst:fun()
+---@field BP_Reconnect_ResetUIByPlayerControllerState:fun()
+---@field BP_ShowBtnByPlayerControllerState:fun()
+---@field BP_BleParachute:fun()
+---@field BP_BleOpenParachute:fun()
+---@field BP_ShowBtnByState:fun(State:int32)
+---@field BP_Show_HideCanJumpTips:fun(IsShow:bool,TipsParam:FC2BPGuideTextParam)
+---@field BP_Show_HideCanOpenTips:fun(IsShow:bool,TipsParam:FC2BPGuideTextParam)
+---@field BP_InitWidget:fun(MyParentWidget:UUAEUserWidget)
+---@field BP_ReceiveTransferLeaderRequest:fun()
+---@field BP_AutoResponseRequestAndHideRequestPanel:fun(RequestAction:bool)
+---@field Out UWidgetAnimation
+---@field IN UWidgetAnimation
+---@field Button_Agree UButton
+---@field Button_Cut UButton
+---@field Button_LeavePlane UButton
+---@field Button_OutOfFollow UButton
+---@field Button_Parachute UButton
+---@field Button_Refuse UButton
+---@field CheckBox_Tips UCheckBox
+---@field GridPanel_InviteTipsUI UGridPanel
+---@field GridPanel_ParachuteFollow UGridPanel
+---@field HorizontalBox_FollowInfo UHorizontalBox
+---@field Image_TeamBG UImage
+---@field MinimapExclusive UGridPanel
+---@field ParachutingBtnPanel UGridPanel
+---@field TextBlock_FollowPlayerName UTextBlock
+---@field TextBlock_PlayerName UTextBlock
+---@field TextBlock_TeamIDx UTextBlock
+---@field TextBlock_Tips UTextBlock
+---@field Tips17 UGridPanel
+---@field UTRichTextBlock_Tips17_Text1 UUTRichTextBlock
+---@field CountDownTime float
+---@field IsCountDown bool
+---@field CacheLeaderPlayerState ASTExtraPlayerState
+---@field ReplayUIUpdateHandle FTimerHandle
+---@field InvitationType EParachuteInvitationType
+---@field ExclusiveStatus bool

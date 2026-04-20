@@ -1,0 +1,12 @@
+---@class Ingame_MaxKillerMiddle_Tip_UIBP_C:UUAEUserWidget
+---@field AddMaxKillerMiddleTipInfo:fun()
+---@field RefreshTipData:fun(NewParam:FClientTeamerMaxKillerRecord)
+---@field NotifyExcellentOperationTipShow:fun()
+---@field SetShowTip:fun()
+---@field DX_In UWidgetAnimation
+---@field BeKilledTextBlock UTextBlock
+---@field Border_TopTips UBorder
+---@field CanvasPanel_TopTips UCanvasPanel
+---@field IsMaxKillerTextBlock UTextBlock
+---@field MainWidgetSwitcher UWidgetSwitcher
+---@field bPlaying bool

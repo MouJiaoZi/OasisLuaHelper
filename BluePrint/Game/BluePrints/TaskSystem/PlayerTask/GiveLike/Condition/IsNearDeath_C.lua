@@ -1,0 +1,3 @@
+---@class IsNearDeath_C:UTaskCondition_Base
+---@field IsConditionSatisfy:fun():bool
+---@field PlayerKey FTriggerEventParamKeySelector

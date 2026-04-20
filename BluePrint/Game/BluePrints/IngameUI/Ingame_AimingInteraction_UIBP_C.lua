@@ -1,0 +1,1 @@
+---@class Ingame_AimingInteraction_UIBP_C:UUserWidget

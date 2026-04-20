@@ -1,0 +1,5 @@
+---@class Skill_HideAndSeek_AddSkillTimes_C:AUAESkill
+---@field UserConstructionScript:fun()
+---@field UAESkillAction_HideAndSeekAddSkillTimes UUAESkillAction_HideAndSeekAddSkillTimes
+---@field UAESkillPhase UUAESkillPhase
+---@field DefaultSceneRoot USceneComponent

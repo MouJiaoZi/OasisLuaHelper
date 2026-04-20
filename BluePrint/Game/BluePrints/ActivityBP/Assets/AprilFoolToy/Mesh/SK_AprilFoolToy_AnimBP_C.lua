@@ -1,0 +1,1 @@
+---@class SK_AprilFoolToy_AnimBP_C:UAnimInstance

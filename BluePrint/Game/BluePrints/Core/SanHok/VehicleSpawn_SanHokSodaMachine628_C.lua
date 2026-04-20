@@ -1,0 +1,1 @@
+---@class VehicleSpawn_SanHokSodaMachine628_C:UVehicleSpawn_SanHok628_C

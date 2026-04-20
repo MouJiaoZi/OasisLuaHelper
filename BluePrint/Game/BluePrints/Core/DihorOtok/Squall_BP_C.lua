@@ -1,0 +1,1 @@
+---@class Squall_BP_C:URespawnItemConfig

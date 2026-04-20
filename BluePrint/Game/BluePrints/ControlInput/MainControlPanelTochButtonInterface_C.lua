@@ -1,0 +1,5 @@
+---@class MainControlPanelTochButtonInterface_C:UInterface
+---@field GetPickUpListPanel:fun():UUserWidget
+---@field GetMainBackPackPanel:fun():UUserWidget
+---@field AddPhotoUIInf:fun(widget:UUserWidget):bool
+---@field SendQuickNeedTextInf:fun(ChatText:int32):bool

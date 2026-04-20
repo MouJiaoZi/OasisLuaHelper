@@ -1,0 +1,38 @@
+---@class ReplayDeath_UIBP_C:UReplayWidgetDeath
+---@field OnReInitMapWithTrigger:fun()
+---@field CheckSignalBar:fun()
+---@field InitMainBaseUI:fun()
+---@field SetPlayerbackPlayerName:fun()
+---@field Update_TotalFunc:fun()
+---@field OnPlayerNameChange:fun(PlayerName:FString)
+---@field OnPlayerInfoUpdateHP:fun()
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field UpdateWeaponUI:fun()
+---@field UpdateBulletUI:fun()
+---@field OnWidgetInitialize:fun()
+---@field OnWidgetReInit:fun()
+---@field Construct:fun()
+---@field OnWidgetRelease:fun()
+---@field SetupUIRoot_BP:fun()
+---@field ForceRefreshUI:fun()
+---@field Button_BackToLobby UButton
+---@field CanvasPanel_DeathPlayback UCanvasPanel
+---@field CanvasPanel_Name UCanvasPanel
+---@field CanvasPanel_SeqMask UCanvasPanel
+---@field CanvasPanel_VitimRoot UCanvasPanel
+---@field GridPanel_IPX UGridPanel
+---@field TextBlock_DeathPlaybackTips1 UTextBlock
+---@field TextBlock_DeathPlaybackTips2 UTextBlock
+---@field TextBlock_Player UTextBlock
+---@field WatchGame_PlayerInfo_UIBP WatchGame_PlayerInfo_UIBP_C
+---@field VoiceCheckObject UIVoiceCheckObject_C
+---@field Playback_Index int32
+---@field NeedBindEvents bool
+---@field PlayerNameStr FString
+---@field MainControlBaseUI_Ref MainControlBaseUI_C
+---@field MainTouchPanelTouchBtn_Ref MainControlPanelTochButton_C
+---@field EnemyPawnCount int32
+---@field Replay_EntireMap Ingame_ReplayBigMap_UIBP_C
+---@field Replay_MiniMap Ingame_SmallMiniMap_UIBP_C
+---@field EntireMapBtn UButton
+---@field NewVar_0 Ingame_ReplayBigMap_UIBP_C

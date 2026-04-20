@@ -1,0 +1,14 @@
+---@class BP_CtrPrintLogComponent_C:UActorComponent
+---@field PrintGravityLog:fun(DeltaSeconds:float)
+---@field ReceiveBeginPlay:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field GravityScaleSendThreshold float
+---@field GravityLogCDConfig float
+---@field AlterGravityNum int32
+---@field CheckGravity float
+---@field LastPrintTime float
+---@field PrintGravityMenuID int32
+---@field LastGravityScale float
+---@field LastGravityScaleAuthorized float
+---@field LastMovementMode EMovementMode
+---@field CurController ASTExtraPlayerController

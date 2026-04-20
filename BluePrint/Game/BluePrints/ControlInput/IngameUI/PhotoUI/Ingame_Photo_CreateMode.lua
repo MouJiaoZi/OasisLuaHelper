@@ -1,0 +1,4 @@
+---@class Ingame_Photo_CreateMode
+---@field NewEnumerator0 int32
+---@field NewEnumerator1 int32
+---@field Ingame_Photo_MAX int32

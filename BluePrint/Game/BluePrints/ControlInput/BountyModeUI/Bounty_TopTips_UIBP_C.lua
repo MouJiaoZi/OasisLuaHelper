@@ -1,0 +1,7 @@
+---@class Bounty_TopTips_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field Border_SetTopTipsColor UBorder
+---@field TopTipsCommon UUTRichTextBlock
+---@field SelfRevivalTips FString
+---@field ShopRevivalTips FString
+---@field OnTeammateBuyTips FString

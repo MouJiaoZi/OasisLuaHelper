@@ -1,0 +1,13 @@
+---@class NewResult_KLJ_Accessories_UIBP_C:UUAEUserWidget
+---@field Button_0 UButton
+---@field CanvasPanel_1 UCanvasPanel
+---@field Image_GoodsIcon UImage
+---@field Image_QualityBg UImage
+---@field Image_QualityLine UImage
+---@field NewButton_Click UNewButton
+---@field NewResult_KLJ_PickUpItemTips_UIBP NewResult_KLJ_PickUpItemTips_UIBP_C
+---@field TextBlock_GoodsNumber UTextBlock
+---@field Brush FSlateBrush
+---@field Name FString
+---@field Desc FString
+---@field QuaityPath FString

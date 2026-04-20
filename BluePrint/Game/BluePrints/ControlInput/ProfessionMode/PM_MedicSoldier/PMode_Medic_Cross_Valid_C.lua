@@ -1,0 +1,2 @@
+---@class PMode_Medic_Cross_Valid_C:UUTSkillWidget
+---@field Image_0 UImage

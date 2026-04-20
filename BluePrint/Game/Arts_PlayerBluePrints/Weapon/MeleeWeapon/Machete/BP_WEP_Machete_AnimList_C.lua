@@ -1,0 +1,1 @@
+---@class BP_WEP_Machete_AnimList_C:UUAECharacterAnimListComponent

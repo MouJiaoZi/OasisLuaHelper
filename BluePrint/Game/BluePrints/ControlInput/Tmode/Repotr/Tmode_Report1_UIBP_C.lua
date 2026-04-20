@@ -1,0 +1,122 @@
+---@class Tmode_Report1_UIBP_C:UUAEUserWidget
+---@field EventOnPrivacyDataReady:fun()
+---@field DownLoadPlayerHeadIcon:fun(PlayerState:FDeathMatchPlayerStateData)
+---@field InitCommonAvatar:fun()
+---@field UIMsg_WeixinLiveStatus:fun()
+---@field ShowTableCallbackUseLua:fun(NewParam:UWidget)
+---@field ShowScoreBoardCallbackUseLua:fun(NewParam:UWidget)
+---@field ShowSubUIUseLua:fun()
+---@field OnResetViewTargetReplay:fun()
+---@field BindScoreboardUpdate:fun()
+---@field GetReplayPlayerTeamID:fun():int32
+---@field InitForReplay:fun()
+---@field GetPlayerCharacter:fun():ASTExtraBaseCharacter
+---@field GetGameState:fun()
+---@field UpdateOneTeamPlayerHP:fun(TeammateIndex:int32)
+---@field ShowOrCloseWeaponConfigState:fun(Index:int32,IsShow:bool)
+---@field OnSetWeaponConfigSelectItem:fun(Index:int32)
+---@field GetTableUIBP:fun()
+---@field CheckScoreTipsNew:fun()
+---@field OnClickTableBun:fun()
+---@field GetScoreBoard:fun()
+---@field UIMsg_ReInitTeamPanel:fun()
+---@field UIMsg_PlayerInfo_SpectatorChangeUpdateEnergy:fun()
+---@field GetTipsSwitchIndex:fun(InType:EDeathMatchGlobalNotifyReason)
+---@field UpdateTipsSwitchMap:fun()
+---@field SetWeaponConfigSelectItem:fun(Index:int32)
+---@field UpdateWeaponConfig:fun()
+---@field DelayShowTips:fun()
+---@field FillKillList:fun(InVerticalBox:UVerticalBox,InIndex:int32,InInfo:FDeathMatchDamageRecordData)
+---@field OpenKillInfoList:fun(IsOpen:bool)
+---@field DelayShowInvincible:fun()
+---@field DelayShowModeUI:fun()
+---@field InValideTmodePanel:fun()
+---@field SetCustomizeUIInfo:fun(PlaceHold:int32)
+---@field GameEndNew:fun(WinTeamID:int32,GameEndType:uint8)
+---@field GetTipsUIBP:fun()
+---@field SwitchUIBattleToEndDisplay:fun()
+---@field SwitchUIStartDisplayToBattle:fun()
+---@field SwitchUIBattleToStartDisplay:fun()
+---@field ReceiveMedalIDList:fun(MedalIDList:ULuaArrayHelper)
+---@field GetRemarkName:fun(UID:FString,PlayerName:FString):FString
+---@field CloseUIAfterRespawn:fun()
+---@field HideTModeResult:fun()
+---@field GameNearlyToEnd:fun(Reason:EDeathMatchGlobalNotifyReason,KillerData:FDeathMatchPlayerStateData)
+---@field ShowModeUI:fun()
+---@field UIMsg_UpdateBattleInfo:fun()
+---@field OnMemberVoice:fun(PlayerID:int32,Status:int32)
+---@field HideAllTeammateMic:fun()
+---@field UpdateBattleInfo:fun()
+---@field ShowDeathStat:fun(PlayerDieData:FDeathMatchPlayerDieData)
+---@field HideSelfNotify:fun()
+---@field ReceiveSelfNotify:fun(KillerData:FDeathMatchPlayerStateData,VictimerData:FDeathMatchPlayerStateData,Reason:EDeathMatchPersonalNotifyReason)
+---@field HideGlobalNotify:fun()
+---@field ShowGlobalNotify:fun(KillerData:FDeathMatchPlayerStateData,VictimerData:FDeathMatchPlayerStateData,Reason:EDeathMatchGlobalNotifyReason)
+---@field ShowInvincible:fun()
+---@field UpdateInvincible:fun(DeltaTime:float)
+---@field UpdateBattleTime:fun()
+---@field HideCountDown:fun()
+---@field UpdateCountDown:fun(CountDownTime:float)
+---@field ClearAllItems:fun()
+---@field UpdateTeammateState:fun()
+---@field UpdateTeammateHP:fun()
+---@field InitTeammateInfo:fun()
+---@field CollectWidgets:fun()
+---@field TmodeControl_InitSubScoreBoard:fun(NewParam:UUserWidget)
+---@field DX_Play UWidgetAnimation
+---@field CanvasPanel_0 UCanvasPanel
+---@field CanvasPanel_BlueBG_group UCanvasPanel
+---@field CanvasPanel_RedBG_group UCanvasPanel
+---@field Common_Avatar_BP Common_Avatar_BP_C
+---@field Image_BlueBox UImage
+---@field Image_RedBox UImage
+---@field Image_Tips_Icon UImage
+---@field TextBlock_ARMode_PlayerName UTextBlock
+---@field TeammateItemList ULuaArrayHelper
+---@field TeamOpenList ULuaArrayHelper
+---@field RedColor FSlateColor
+---@field BlueColor FSlateColor
+---@field OwnPlayerState ASTExtraPlayerState
+---@field LeftInvincibleTime float
+---@field InvincibleTimer FTimerHandle
+---@field AssistAvataList ULuaArrayHelper
+---@field PersonalNotifyList ULuaArrayHelper
+---@field ContinueKillList ULuaArrayHelper
+---@field CurShowNotifyNum int32
+---@field NotifyTipsUIBP_0 Tmode_Tips_UIBP_C
+---@field NotifyTipsUIBP_1 Tmode_Tips_UIBP_C
+---@field CheckNotifyInternal float
+---@field TempNotifyTipsUIBP Tmode_Tips_UIBP_C
+---@field TempCuntinueKillCount int32
+---@field DeathMatchPersonalMedalTypeList ULuaArrayHelper
+---@field TempCount int32
+---@field bIsSendGameStart bool
+---@field TexTureRed FSlateBrush
+---@field TextureBlue FSlateBrush
+---@field LastTipsUIBP Tmode_Tips_UIBP_C
+---@field CurrentTipsUIBP Tmode_Tips_UIBP_C
+---@field TimerHandle FTimerHandle
+---@field DelayShowLoopCount int32
+---@field DelayInvincibleTimr float
+---@field IsFirstEnterGame bool
+---@field KillInfoMaxCount int32
+---@field KillInfoCollectiveCount int32
+---@field KillInfoCurrentActiveIndex int32
+---@field IsFirstInitWidget bool
+---@field WeaponConfigActiveCount int32
+---@field TipsSwitchMap ULuaMapHelper
+---@field TempTipsType int32
+---@field IsReadyTime bool
+---@field IsFillWeaponConfig bool
+---@field TipsSitchIconMap ULuaMapHelper
+---@field TempTipsIcomPath FString
+---@field InitTeam bool
+---@field ScoreBoardUIBP UUserWidget
+---@field TableUIBP UUserWidget
+---@field TempDeathMatchSubModeType EDeathMatchSubModeType
+---@field GameStateCache ABRGameStateTeam_DeathMatch
+---@field PlayerPawnCache ASTExtraBaseCharacter
+---@field IsAttachToMainUI bool
+---@field bUISuitableForReplay bool
+---@field CurPlayingReplayType EPlaybackType
+---@field InfectModulePrefab FString

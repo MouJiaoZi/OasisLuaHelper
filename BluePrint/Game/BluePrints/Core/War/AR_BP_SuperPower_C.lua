@@ -1,0 +1,1 @@
+---@class AR_BP_SuperPower_C:URespawnItemConfig

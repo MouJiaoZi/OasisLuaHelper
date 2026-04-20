@@ -1,0 +1,4 @@
+---@class BP_AirDropPoint_C:AActor
+---@field UserConstructionScript:fun()
+---@field DefaultSceneRoot USceneComponent
+---@field MiniMapTypeID int32

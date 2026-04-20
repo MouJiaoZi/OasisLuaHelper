@@ -1,0 +1,99 @@
+---@class BP_KarakinMiner_C:AActivityBaseActor
+---@field GetBulletHitEffectDataAsset:fun(HitComp:UPrimitiveComponent):UHitEffectDataAsset
+---@field GetBulletHitEffectDataAssetTag:fun(Comp:UPrimitiveComponent):FString
+---@field StopHumming:fun()
+---@field StartHumming:fun()
+---@field IsAllTeamOut:fun():bool
+---@field CheckShouldHideGold:fun()
+---@field SpawnMonsters:fun(IsStop:bool)
+---@field GetGate:fun():BP_MinerGate_C
+---@field GetTotalDuration:fun(IncludesEnding:bool):float
+---@field SetStartTime:fun()
+---@field ClearStartTime:fun()
+---@field HideParticle:fun()
+---@field ShowParticle:fun()
+---@field StartCameraShake:fun():APlayerCameraManager
+---@field StopCameraShake:fun()
+---@field GetDamageControlActor:fun():BP_KarakinMiner_DamageControl_C
+---@field IsInDamagableClassList:fun(Instigator:AController):bool
+---@field ShouldShowMinerHUD:fun(Param:FGISCCF_Param):bool
+---@field OpenGate:fun()
+---@field CloseGate:fun()
+---@field CanTrigger:fun(Param:FGISCCF_Param):bool
+---@field UserConstructionScript:fun()
+---@field OnUICreated:fun(Widget:UUserWidget)
+---@field ReceivePointDamage:fun(Damage:float,DamageType:UDamageType,HitLocation:FVector,HitNormal:FVector,HitComponent:UPrimitiveComponent,BoneName:FName,ShotFromDirection:FVector,InstigatedBy:AController,DamageCauser:AActor,HitInfo:FHitResult)
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field OnSpawnAI__DelegateSignature:fun(IsStop:bool)
+---@field StaticMesh5 UStaticMeshComponent
+---@field StaticMesh6 UStaticMeshComponent
+---@field StaticMesh7 UStaticMeshComponent
+---@field StaticMesh8 UStaticMeshComponent
+---@field MapMarkLocation USceneComponent
+---@field ItemDropLocation_2 USceneComponent
+---@field P_Drop_Light_Gold UParticleSystemComponent
+---@field CG011_KLJ_Light UStaticMeshComponent
+---@field StaticMesh2 UStaticMeshComponent
+---@field CG011_KLJ_Wall UStaticMeshComponent
+---@field BP_ItemSpotComponent6 BP_ItemSpotComponent_C
+---@field Box5 UBoxComponent
+---@field Box3 UBoxComponent
+---@field Box4 UBoxComponent
+---@field Box2 UBoxComponent
+---@field Box1 UBoxComponent
+---@field Box UBoxComponent
+---@field SK_Summerland_GoldPile_C_1_ USkeletalMeshComponent
+---@field SK_KLJ_Fpga_CG011_KLJ_Fpga USkeletalMeshComponent
+---@field BP_ItemSpotComponent7 BP_ItemSpotComponent_C
+---@field Box6 UBoxComponent
+---@field ParticleSystem UParticleSystemComponent
+---@field BP_ItemSpotComponent5 BP_ItemSpotComponent_C
+---@field BP_ItemSpotComponent4 BP_ItemSpotComponent_C
+---@field BP_ItemSpotComponent3 BP_ItemSpotComponent_C
+---@field BP_ItemSpotComponent2 BP_ItemSpotComponent_C
+---@field BP_ItemSpotComponent1 BP_ItemSpotComponent_C
+---@field BP_ItemSpotComponent BP_ItemSpotComponent_C
+---@field BP_ItemSpotGroupComponent BP_ItemSpotGroupComponent_C
+---@field TriggerSpawnZombie USceneComponent
+---@field BP_KLJ_DestructibleWall UChildActorComponent
+---@field ChildActor UChildActorComponent
+---@field StaticMesh4 UStaticMeshComponent
+---@field CG011_KLJ_Tunnel_Col UStaticMeshComponent
+---@field StaticMesh3 UStaticMeshComponent
+---@field StaticMesh1 UStaticMeshComponent
+---@field Capsule UCapsuleComponent
+---@field StaticMesh UStaticMeshComponent
+---@field ItemSpawnLocation USceneComponent
+---@field BP_MinerGate UChildActorComponent
+---@field BP_KarakinMiner_DamageControl UChildActorComponent
+---@field MiningArea UBoxComponent
+---@field Box7 UBoxComponent
+---@field BP_ItemSpotGroupComponent1 BP_ItemSpotGroupComponent_C
+---@field Scene USceneComponent
+---@field Idle_Success_Sequence UActorSequenceComponent
+---@field Idle_Sequence UActorSequenceComponent
+---@field Destroyed_Sequence UActorSequenceComponent
+---@field Success_Sequence UActorSequenceComponent
+---@field WIP_Sequence UActorSequenceComponent
+---@field Startup_Sequence UActorSequenceComponent
+---@field BP_ProduceDropItemComponent BP_ProduceDropItemComponent_Deprecated_C
+---@field GISActorComponentBase UGISActorComponentBase
+---@field OnSpawnAI ULuaMulticastDelegate
+---@field TriggerPlpayer ACharacter
+---@field DropConfig ULuaArrayHelper
+---@field HasExpired bool
+---@field StartTime float
+---@field CameraShake UClass
+---@field CameraShakeInstance UCameraShake
+---@field CameraShakeScale float
+---@field PlaySpace ECameraAnimPlaySpace
+---@field SpaceRot FRotator
+---@field DamagableClass ULuaArrayHelper
+---@field IsWIP bool
+---@field ShouldHideParticle bool
+---@field data FMarkDispatchAction
+---@field MapTypeID int32
+---@field ShouldHideGold bool
+---@field RetryTime int32
+---@field DisplayID int32
+---@field AKHummingID int32

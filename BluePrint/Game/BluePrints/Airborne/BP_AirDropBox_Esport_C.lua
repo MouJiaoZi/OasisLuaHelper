@@ -1,0 +1,35 @@
+---@class BP_AirDropBox_Esport_C:AAirDropBoxActor
+---@field GetSuperAirDropGroupIndex:fun():int32
+---@field BoxLandedAndGenItem:fun()
+---@field SetBuoyancyForceToCPP:fun()
+---@field IsWater:fun(NewParam:AActor):bool
+---@field GetRandomGenerateWrappersData:fun():ULuaArrayHelper
+---@field CheckBoxIsLand:fun()
+---@field UserConstructionScript:fun()
+---@field DistanceScalerChangedEvent:fun(scale:float)
+---@field ChangeAirdropAppearance:fun()
+---@field ReceiveRadialDamage:fun(DamageReceived:float,DamageType:UDamageType,Origin:FVector,HitInfo:FHitResult,InstigatedBy:AController,DamageCauser:AActor)
+---@field BP_OnRep_IsBoxHitTheGroundCpp:fun()
+---@field BP_DropIntoWarter:fun()
+---@field BP_AirDropingFieldOfViewNotificationComponent BP_AirDropingFieldOfViewNotificationComponent_C
+---@field Box1 UBoxComponent
+---@field LevelActive ULevelActiveComponent
+---@field Box UStaticMeshComponent
+---@field BuoyancyForce UBuoyancyForceComponent
+---@field ProjectileMovement UProjectileMovementComponent
+---@field Smoke UParticleSystemComponent
+---@field Flash UParticleSystemComponent
+---@field Parachute UStaticMeshComponent
+---@field SmokeAppearTime float
+---@field SmokeDisappearTime float
+---@field IsSpawnedPickedup bool
+---@field CheckBoxIsLandTimer FTimerHandle
+---@field bIsParachuteShouldOpen bool
+---@field bIsBoxSomking bool
+---@field bIsBoxInWater bool
+---@field bHasBuoyancy bool
+---@field DefaultDataTable UDataTable
+---@field DefaultAirDropBoxResource FAirDropResource
+---@field SuperAirDropDataConfig ULuaArrayHelper
+---@field HasShowSmoke bool
+---@field HitTheGroundVoice bool

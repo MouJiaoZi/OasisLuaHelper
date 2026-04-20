@@ -1,0 +1,3 @@
+---@class FListSearchPickItemResult
+---@field listPick ULuaArrayHelper
+---@field name FName

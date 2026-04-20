@@ -1,0 +1,5 @@
+---@class IsVictimTeammatesAllDied_C:UTaskCondition_Base
+---@field IsConditionSatisfy:fun():bool
+---@field VictimKey FTriggerEventParamKeySelector
+---@field CountTeammate int32
+---@field CountDeadTeammate int32

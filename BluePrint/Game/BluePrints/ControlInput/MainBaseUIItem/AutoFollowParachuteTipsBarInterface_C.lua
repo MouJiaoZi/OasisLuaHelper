@@ -1,0 +1,2 @@
+---@class AutoFollowParachuteTipsBarInterface_C:UInterface
+---@field SetTips:fun(Tips:FString):bool

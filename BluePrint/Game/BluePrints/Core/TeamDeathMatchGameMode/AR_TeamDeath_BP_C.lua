@@ -1,0 +1,1 @@
+---@class AR_TeamDeath_BP_C:URespawnItemConfig

@@ -1,0 +1,25 @@
+---@class ReplayLive_UIBP_C:UReplayWidgetLive
+---@field OnStateChanged:fun()
+---@field CheckSignalBar:fun()
+---@field Update_Vehicle_Total:fun()
+---@field Update_Vehicle_Speed:fun(SpeedValue:float)
+---@field Update_TotalFunc:fun()
+---@field On_PlayerInfoUpdateHP:fun()
+---@field UpdateFollowUIOnReplay:fun()
+---@field InitMainBaseUI:fun()
+---@field OnWidgetInitialize:fun()
+---@field UpdateWeaponUI:fun()
+---@field UpdateBulletUI:fun()
+---@field ForceRefreshUI:fun()
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field OnInitChildWidget:fun()
+---@field OnWidgetReInit:fun()
+---@field OnResetViewTarget_BP:fun(inSettingInfo:FOnReplaySetViewTarget)
+---@field RefreshUIInfoOnAttachCameraViewFinished:fun()
+---@field RefreshUIRecDisplay:fun()
+---@field OnSpectatorChanged:fun(isEnemy:bool)
+---@field CanvasPanel_Vehicle UCanvasPanel
+---@field SpeedValues UTextBlock
+---@field WatchGame_PlayerInfo_UIBP WatchGame_PlayerInfo_UIBP_C
+---@field MainTouchPanelTouchBtn_Ref MainControlPanelTochButton_C
+---@field MainControlBaseUI_Ref MainControlBaseUI_C

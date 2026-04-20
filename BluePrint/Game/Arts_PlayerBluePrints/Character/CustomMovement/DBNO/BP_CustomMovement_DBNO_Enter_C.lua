@@ -1,0 +1,1 @@
+---@class BP_CustomMovement_DBNO_Enter_C:UCustomMovementNearDeathEnter

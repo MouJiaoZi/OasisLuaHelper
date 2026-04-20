@@ -1,0 +1,13 @@
+---@class BP_AsyncLoadUIComp_C:UActorComponent
+---@field SetUIVisible:fun(bWantsUIVisible:bool)
+---@field FindUIAttachNode:fun():UUAEUserWidget,UCanvasPanel
+---@field LoadUIClassSyncronous:fun():UClass
+---@field FindFireBalloonUI:fun():UUAEUserWidget
+---@field UILoaded__DelegateSignature:fun(UI:UUAEUserWidget)
+---@field bWantsUIVisible bool
+---@field UI UUAEUserWidget
+---@field UIPath FString
+---@field UIClass UClass
+---@field UIAttachWidgetName FString
+---@field UIAttachNodeName FString
+---@field UILoaded ULuaMulticastDelegate

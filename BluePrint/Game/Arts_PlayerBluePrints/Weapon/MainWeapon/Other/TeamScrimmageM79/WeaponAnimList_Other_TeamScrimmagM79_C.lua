@@ -1,0 +1,1 @@
+---@class WeaponAnimList_Other_TeamScrimmagM79_C:UUAECharacterAnimListComponent

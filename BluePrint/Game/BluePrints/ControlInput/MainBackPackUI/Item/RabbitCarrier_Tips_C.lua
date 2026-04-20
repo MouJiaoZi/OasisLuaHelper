@@ -1,0 +1,3 @@
+---@class RabbitCarrier_Tips_C:UNewbieGuideWidget
+---@field OnCreateAndShow:fun(GuideId:int32,UIConfigIndex:int32)
+---@field UTRichTextBlock_LeftTips UUTRichTextBlock

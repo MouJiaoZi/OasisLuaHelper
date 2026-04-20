@@ -1,0 +1,7 @@
+---@class Ingame_Photo_Share_UIBP_C:UUAEUserWidget
+---@field SetShareButtonsHidden:fun(bNewHidden:bool)
+---@field UIHide:fun()
+---@field UIShow:fun()
+---@field Construct:fun()
+---@field Ingame_Photo_Sharerecord_UIBP Ingame_Photo_Sharerecord_UIBP_C
+---@field Shareinterface_UIBP Shareinterface_UIBP_C

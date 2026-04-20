@@ -1,0 +1,9 @@
+---@class bp_share_dayfinaly_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_ShareDayFinalySologan FString
+---@field BP_ShareDayFinalyPath FString
+---@field BP_ShareDayFinalyBg int32
+---@field BP_ShareDayFinalyUrl FString
+---@field BP_ShareDayFinaly_ShareImg FString
+---@field BP_ShareDayFinalyNick FString

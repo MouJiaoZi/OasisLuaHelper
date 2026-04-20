@@ -1,0 +1,3 @@
+---@class HAS_TLogComponent_C:UActorComponent
+---@field GetLuaModule:fun():FString
+---@field TLogButtonClick:fun(UploadID:int32,UploadNum:int32)

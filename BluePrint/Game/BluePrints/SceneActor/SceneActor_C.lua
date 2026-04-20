@@ -1,0 +1,9 @@
+---@class SceneActor_C:AActor
+---@field PlayerSound:fun()
+---@field UserConstructionScript:fun()
+---@field ReceiveEndPlay:fun(EndPlayReason:EEndPlayReason)
+---@field StaticMesh UStaticMeshComponent
+---@field Intervaltime float
+---@field IsLoop bool
+---@field Sound UAkAudioEvent
+---@field TimerHandle FTimerHandle

@@ -1,0 +1,63 @@
+---@class BP_WarteringAreaBase_C:AWarteringAreaCPP
+---@field CheckIsFightingState:fun():bool
+---@field InitCD:fun()
+---@field CacheAssociatedSkillIndex:fun():int32
+---@field TriggerEntryEvent:fun(EntryEvent:EUTSkillEntry):bool
+---@field CanTriggertEvent:fun(CurPawn:APawn):bool
+---@field CanEnabledInCurrentPhase:fun():bool
+---@field MaxTimesExeeded:fun():bool
+---@field GetUIType:fun():int32
+---@field UserConstructionScript:fun()
+---@field OnSpawnTreeParticleCPP:fun(PlayerController:APlayerController)
+---@field OnRep_CurrentScaleBP:fun()
+---@field ServerDoWaterLogic:fun(PlayerController:APlayerController,ExMsg:FString)
+---@field OnPCCDCleared:fun(PlayerController:APlayerController)
+---@field OnClientCurrentInteractingPlayerCountChanged:fun()
+---@field TriggerCustomEvent:fun(EventType:EUAESkillEvent)
+---@field CustomBeginOverlapEvent__DelegateSignature:fun()
+---@field CustomEndOverlapEvent__DelegateSignature:fun()
+---@field VoiceChannelGrouping UVoiceChannelGroupingComponent
+---@field InstancedStaticMesh UInstancedStaticMeshComponent
+---@field Capsule UCapsuleComponent
+---@field Sphere USphereComponent
+---@field BP_ProduceDropItemComponent BP_ProduceDropItemComponent_Deprecated_C
+---@field ParticleSpawnPoint USceneComponent
+---@field PID int32
+---@field MinScale float
+---@field MaxScale float
+---@field ParticleTemplate UParticleSystem
+---@field ParticleSystemRef UParticleSystemComponent
+---@field ScaleStep float
+---@field UpgradedTree UStaticMesh
+---@field WaterDoneList ULuaArrayHelper
+---@field ItemID int32
+---@field CanSpawnParticle bool
+---@field ParticleInterval float
+---@field CanPlayInfinitely bool
+---@field UIType int32
+---@field ShouldPickupItem bool
+---@field AudioEvent UAkAudioEvent
+---@field MaxActTime int32
+---@field DelayTimeForSpawnItems float
+---@field DelayTimeForGFX float
+---@field SingletonMode bool
+---@field CDTime float
+---@field IsInCD bool
+---@field AddToItemFlow bool
+---@field CheckFightingState bool
+---@field CDTable ULuaArrayHelper
+---@field AddCountEvent EUAESkillEvent
+---@field RemoveCountEvent EUAESkillEvent
+---@field BGM UAkAudioEvent
+---@field IsOverwritted bool
+---@field ForceUpdateMesh bool
+---@field DropDoneList ULuaArrayHelper
+---@field LimitDropTimes bool
+---@field EventID EActivityEventType
+---@field KeepCheckingRangeInsideArea bool
+---@field MaxDIstance int32
+---@field CustomEndOverlapEvent ULuaMulticastDelegate
+---@field CustomBeginOverlapEvent ULuaMulticastDelegate
+---@field DropItemLifeSpanSafeArea float
+---@field EnableVoiceChannelGrouping bool
+---@field TlogID int32

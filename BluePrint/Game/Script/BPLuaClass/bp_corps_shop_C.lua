@@ -1,0 +1,14 @@
+---@class bp_corps_shop_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_ARRAY_CorpsShopNewClothingInfoList ULuaArrayHelper
+---@field BP_ARRAY_CorpsShopClothingInfoList ULuaArrayHelper
+---@field BP_ARRAY_CorpsShopHeadpotraitInfoList ULuaArrayHelper
+---@field BP_CorpsShopCurrentClickShopItemId int32
+---@field BP_CorpsShop_Level int32
+---@field BP_CorpsShop_Money int32
+---@field BP_ARRAY_CorpsShopNewHeadpotraitInfoList ULuaArrayHelper
+---@field BP_CorpsShopCurrentSelectPageIdx int32
+---@field BP_CorpsShopCurrentBuyShopItemId int32
+---@field BP_CorpsShopCurrentBuyShopItemNum int32
+---@field BP_CorpsShopCurrentBuyShopItemKeyId int32

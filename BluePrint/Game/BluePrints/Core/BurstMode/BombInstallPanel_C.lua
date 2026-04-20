@@ -1,0 +1,3 @@
+---@class BombInstallPanel_C:UUserWidget
+---@field GetLuaModule:fun():FString
+---@field BombInstallButton UButton

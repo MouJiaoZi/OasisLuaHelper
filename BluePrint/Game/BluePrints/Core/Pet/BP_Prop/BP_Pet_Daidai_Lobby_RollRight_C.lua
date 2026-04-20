@@ -1,0 +1,4 @@
+---@class BP_Pet_Daidai_Lobby_RollRight_C:AActor
+---@field UserConstructionScript:fun()
+---@field SK_Pet_Daidai_Pan USkeletalMeshComponent
+---@field DefaultSceneRoot USceneComponent

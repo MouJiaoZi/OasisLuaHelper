@@ -1,0 +1,3 @@
+---@class FAddiArmorSlotDataStructure
+---@field SlotPriority int32
+---@field IsStickOnScreen bool

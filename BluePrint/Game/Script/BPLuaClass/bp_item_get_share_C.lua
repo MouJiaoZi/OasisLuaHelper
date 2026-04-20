@@ -1,0 +1,4 @@
+---@class bp_item_get_share_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_ITEM_SHARE_WEAPON_CAMERA_ID int32

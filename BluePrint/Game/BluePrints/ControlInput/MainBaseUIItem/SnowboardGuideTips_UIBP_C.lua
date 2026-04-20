@@ -1,0 +1,2 @@
+---@class SnowboardGuideTips_UIBP_C:UUAEUserWidget
+---@field SnowboardGuideTips UUTRichTextBlock

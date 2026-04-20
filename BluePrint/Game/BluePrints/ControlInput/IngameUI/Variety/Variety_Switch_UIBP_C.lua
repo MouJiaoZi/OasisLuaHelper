@@ -1,0 +1,6 @@
+---@class Variety_Switch_UIBP_C:UUAEUserWidget
+---@field OnSwitchChanged__DelegateSignature:fun(bOn:bool)
+---@field NewButton_Off UNewButton
+---@field NewButton_On UNewButton
+---@field WidgetSwitcher_On UWidgetSwitcher
+---@field OnSwitchChanged ULuaMulticastDelegate

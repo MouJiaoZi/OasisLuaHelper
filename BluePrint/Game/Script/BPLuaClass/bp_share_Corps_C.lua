@@ -1,0 +1,4 @@
+---@class bp_share_Corps_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_ShareCorps_TabIndex int32

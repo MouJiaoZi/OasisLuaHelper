@@ -1,0 +1,6 @@
+---@class BP_KarakinMiner_DamageControl_C:ABP_DamageableActor_C
+---@field BP_GetCanBePicked:fun():bool
+---@field UserConstructionScript:fun()
+---@field ReceiveEndPlay:fun(EndPlayReason:EEndPlayReason)
+---@field Sphere USphereComponent
+---@field CanBePickDamaged bool

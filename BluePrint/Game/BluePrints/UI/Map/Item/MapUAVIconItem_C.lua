@@ -1,0 +1,24 @@
+---@class MapUAVIconItem_C:UMapUIMarkBaseWidget
+---@field CheckImage:fun():bool
+---@field UpdateImageType:fun(Type:ESTExtraVehicleType)
+---@field UseUIStyle:fun()
+---@field SetTeammateInfo:fun()
+---@field UpdateUIBPState:fun(InState:FCustomMarkEventData)
+---@field OnUIBPCreate:fun(InState:FCustomMarkEventData,ParentState:EMarkParentWidget,inRealLevelToMapScale:float,inMapScale:float)
+---@field CanvasPanel_SelfArrow UCanvasPanel
+---@field CanvasPanel_Single UCanvasPanel
+---@field CanvasPanel_Team UCanvasPanel
+---@field Image_NumIndex UImage
+---@field Image_SelfArrow UImage
+---@field Image_SelfBG UImage
+---@field Image_SelfDead UImage
+---@field Image_SelfNumIcon UImage
+---@field Image_TeamArrow UImage
+---@field Image_UAV UImage
+---@field OutRangeIndicator UCanvasPanel
+---@field SelfPosiionIcon UImage
+---@field ImageType FString
+---@field TeamColor FLinearColor
+---@field TeamIndex int32
+---@field TeammateIndex int32
+---@field NewVar_0 FString

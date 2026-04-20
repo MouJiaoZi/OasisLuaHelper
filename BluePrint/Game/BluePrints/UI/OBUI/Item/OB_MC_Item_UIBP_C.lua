@@ -1,0 +1,10 @@
+---@class OB_MC_Item_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field Image_State1 UImage
+---@field Image_State2 UImage
+---@field Image_State3 UImage
+---@field Image_State4 UImage
+---@field Image_TeamColor UImage
+---@field TextBlock_Kill UTextBlock
+---@field TextBlock_TeamID UTextBlock
+---@field TextBlock_TeamName UTextBlock

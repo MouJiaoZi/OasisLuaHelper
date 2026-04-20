@@ -1,0 +1,13 @@
+---@class NewTraining_MemberItem_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field Border_ItemStatus UBorder
+---@field Button_Footprint UNewButton
+---@field Button_Info UNewButton
+---@field Button_Invite UNewButton
+---@field Common_Avatar_BP Common_Avatar_BP_C
+---@field Common_RankTitleInfo Common_RankTitleInfo_UIBP_C
+---@field HorizontalBox_DanInfo UHorizontalBox
+---@field PlayerTitle_UIBP NewTraining_TitleItem_UIBP_C
+---@field TextBlock_FriendName UTextBlock
+---@field WidgetSwitcher_Gender UWidgetSwitcher
+---@field WidgetSwitcher_Invite UWidgetSwitcher

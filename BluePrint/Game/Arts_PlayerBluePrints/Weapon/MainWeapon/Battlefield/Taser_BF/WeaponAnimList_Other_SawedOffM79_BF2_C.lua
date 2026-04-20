@@ -1,0 +1,1 @@
+---@class WeaponAnimList_Other_SawedOffM79_BF2_C:UUAECharacterAnimListComponent

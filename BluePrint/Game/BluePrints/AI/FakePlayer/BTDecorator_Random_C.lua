@@ -1,0 +1,2 @@
+---@class BTDecorator_Random_C:UBTDecorator_BlueprintBase
+---@field prop int32

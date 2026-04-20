@@ -1,0 +1,1 @@
+---@class BP_DoorBoxDiffusion_Savage_C:ABP_DoorNormal_C

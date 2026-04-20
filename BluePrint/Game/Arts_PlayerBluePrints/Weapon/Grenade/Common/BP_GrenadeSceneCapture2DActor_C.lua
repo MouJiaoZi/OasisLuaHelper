@@ -1,0 +1,5 @@
+---@class BP_GrenadeSceneCapture2DActor_C:AEliteProjectileOBCaptureActor
+---@field UserConstructionScript:fun()
+---@field SceneCaptureComponent2D USceneCaptureComponent2D
+---@field SpringArm USpringArmComponent
+---@field DefaultSceneRoot USceneComponent

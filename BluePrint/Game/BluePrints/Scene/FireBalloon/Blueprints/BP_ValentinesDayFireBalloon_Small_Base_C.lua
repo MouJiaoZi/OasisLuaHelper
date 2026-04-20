@@ -1,0 +1,8 @@
+---@class BP_ValentinesDayFireBalloon_Small_Base_C:AActor
+---@field UserConstructionScript:fun()
+---@field ReceiveEndPlay:fun(EndPlayReason:EEndPlayReason)
+---@field CG05_ValentinesDay_02 UStaticMeshComponent
+---@field Timeline_0 UTimelineComponent
+---@field MoveRange float
+---@field InitialLocation FVector
+---@field Material UMaterialInterface

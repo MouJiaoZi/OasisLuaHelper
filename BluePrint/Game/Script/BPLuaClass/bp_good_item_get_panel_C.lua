@@ -1,0 +1,6 @@
+---@class bp_good_item_get_panel_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_HasShareNum int32
+---@field BP_Array_GoodItemGet_ToShow ULuaArrayHelper
+---@field BP_IsShareAwardGold bool

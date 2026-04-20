@@ -1,0 +1,30 @@
+---@class BP_WeaponWithShield_C:UWeaponWithShieldComponent
+---@field UpdateSpectatorFirstViewScopeDisableState:fun()
+---@field SetForceFirstViewScopeDisable:fun(bSetUp:bool)
+---@field CacheReloadAnimPlayPosition:fun()
+---@field HandleDropContinueReloadAnim:fun()
+---@field TryRegisterShieldAnimListComponent:fun(Force:bool)
+---@field UpdateShootWeaponEffectCameraShake:fun(IsReset:bool)
+---@field UpdateSwitchTimeFromIdleToBackpack:fun(IsReset:bool)
+---@field PlayScopeInMontage:fun(bIsStop:bool)
+---@field HandlePostLocalEquipWeapon:fun(IsEquip:bool,SelfRef:AActor,Weapon:ASTExtraWeapon)
+---@field BP_HandleWeaponScopeIn:fun()
+---@field BP_HandleWeaponScopeOut:fun()
+---@field PostRefreshWithShieldAnimListWhenWeaponEquipUpdate:fun(bEquip:bool,Weapon:ASTExtraWeapon)
+---@field ReceiveBeginPlay:fun()
+---@field HandleSimulatedAdditionalWeaponChanged:fun()
+---@field HandleSimulatedWeaponChanged:fun()
+---@field ReceiveEndPlay:fun(EndPlayReason:EEndPlayReason)
+---@field ShiledBaseTScopeInStandAnimMontage UAnimMontage
+---@field ShiledBaseTScopeInCrouchAnimMontage UAnimMontage
+---@field OwnerWeaponAnimInstance UClass
+---@field WithShieldWeaponAnimInstance UClass
+---@field OverrideSwitchTimeFromIdleToBackpack float
+---@field CachedSwitchTimeFromIdleToBackpack float
+---@field EnableOverrideCameraShakeWhenEquipShield bool
+---@field WithShieldCameraShakeOverride FShootWeaponEffectCameraShakeConfig
+---@field WeaponDynamicAnimListGroupName FName
+---@field IsOverrideWeaponAnimInstanceWithShield bool
+---@field CacheReloadAnimPosition float
+---@field CachedWeaponStateSwitchWeaponBlendTime float
+---@field bDisableFirstViewScopeWhenWithShield bool

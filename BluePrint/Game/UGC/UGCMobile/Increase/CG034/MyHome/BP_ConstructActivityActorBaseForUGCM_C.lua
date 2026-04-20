@@ -1,0 +1,67 @@
+---@class BP_ConstructActivityActorBaseForUGCM_C:AActivityBaseActor
+---@field CanTrigger:fun(NewParam1:FClick_Param):bool
+---@field ResetState:fun()
+---@field ClearUnPossessActorUsePoint:fun()
+---@field EmittParticleSystem:fun(Emit:bool)
+---@field GetPlayerIndex:fun(Pawn:ASTExtraBaseCharacter):int32
+---@field CheckInteractPermission:fun(PC:ASTExtraPlayerController):bool
+---@field RefreshExtraMirrorMesh:fun(IsMirror:bool)
+---@field RefreshExtraPinnedMat:fun(IsPinned:bool)
+---@field SetBoxCollision:fun()
+---@field InitAlbedoSetting:fun()
+---@field ConditionCheck:fun(PlayerController:ASTExtraPlayerController):bool
+---@field IsInBuildingState:fun():bool
+---@field GetPosIndex:fun(Pos:FVector):int32
+---@field OnAnimStateChange:fun(Pawn:ASTExtraBaseCharacter,State:HomelandInteractAnimStateForUGCM)
+---@field GetAnimState:fun(Pawn:ASTExtraBaseCharacter):HomelandInteractAnimStateForUGCM
+---@field IsPlayerFaceTo:fun(PlayerPawn:ASTExtraBaseCharacter):bool
+---@field GetAnimIndex:fun():int32
+---@field CheckReachable:fun(PlayerCharacter:ASTExtraBaseCharacter):bool
+---@field CheckBlock:fun(PC:APlayerController):bool
+---@field IsFaceToPlayer:fun(ForwardVec:FVector,PlayerForward:FVector):bool
+---@field GetClosestPos:fun(TargetPos:FVector,IsEnterOrLeave:bool):USceneComponent
+---@field IsInteractivePointBlock:fun(Location:FVector,Orientation:FRotator,Raduis:float,HalfHeight:float,BoxExtent:FVector,IngoreActor:ULuaArrayHelper,BoxOrCapsule:bool):bool
+---@field IsVerticalEqual:fun(Location:FVector):bool
+---@field UserConstructionScript:fun()
+---@field OnActorStateChange__DelegateSignature:fun(NewParam:EHomelandActivityState)
+---@field SetActorConstructDataSuccess__DelegateSignature:fun()
+---@field ClickActorComponentBase UClickActorComponentBase
+---@field HomelandFakePossess UHomelandFakePossessComponent
+---@field PawnDisableArea UBoxComponent
+---@field ManualOutline_0 UStaticMeshComponent
+---@field TriggerArea USphereComponent
+---@field TriggerBox UBoxComponent
+---@field StaticMesh_0 UStaticMeshComponent
+---@field Scene USceneComponent
+---@field VerticalOffset float
+---@field PinnedMaterial_0 UMaterialInstance
+---@field OriginalMaterialSetup ULuaMapHelper
+---@field PositionMap ULuaMapHelper
+---@field PositionHolder ULuaArrayHelper
+---@field TriggerSetting ULuaMapHelper
+---@field ForwardVec FVector
+---@field AnimIndex int32
+---@field IsTriggerCheck bool
+---@field SetActorConstructDataSuccess ULuaMulticastDelegate
+---@field IsCloseHideOperation bool
+---@field AreaCharacters ULuaArrayHelper
+---@field DisableAreaCount int32
+---@field HomeType EHomeInstanceType
+---@field OriginAIbedoTexture_0 UTexture
+---@field OriginAIbedoColor_0 FLinearColor
+---@field MaterialHighLight_Opacity_0 UMaterialInterface
+---@field MaterialHighLight_Masked_0 UMaterialInterface
+---@field DisableBoxTag FName
+---@field OnActorStateChange ULuaMulticastDelegate
+---@field ExtraMatTag_0 FName
+---@field ExtraMeshTag_0 FName
+---@field ExtraMirrorMeshTag_0 FName
+---@field InteractPermission bool
+---@field FriendNoPermissionTip int32
+---@field StrangerNoPermissionTip int32
+---@field OutlineCounter int32
+---@field ActiveControlTag FName
+---@field ByOrder bool
+---@field OrderArray ULuaArrayHelper
+---@field MaxProcesses int32
+---@field UsePoint ULuaMapHelper

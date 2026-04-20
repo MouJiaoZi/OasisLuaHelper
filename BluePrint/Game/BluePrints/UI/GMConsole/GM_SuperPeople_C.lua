@@ -1,0 +1,26 @@
+---@class GM_SuperPeople_C:UUserWidget
+---@field InitOption_Normal:fun()
+---@field InitOption_Hero:fun()
+---@field ReConstructCommand:fun(CommandIn:FString,MethordID:int32):FString
+---@field InitOptionWithHeroID:fun()
+---@field ExecCommand:fun(Command:FString)
+---@field SplitCommands:fun(Commands:FString,MethordID:int32)
+---@field Construct:fun()
+---@field Btn_Exec UButton
+---@field Btn_Exec1 UButton
+---@field Button_Close UButton
+---@field Button_Hide UButton
+---@field Button_Show UButton
+---@field EditableTextBox_Normal UEditableTextBox
+---@field SelectComboBox_Career UComboBoxString
+---@field SelectComboBox_Methord UComboBoxString
+---@field SelectComboBox_Normal UComboBoxString
+---@field TextBlock_2 UTextBlock
+---@field VerticalBox_Main UVerticalBox
+---@field VerticalBox_Visibility UVerticalBox
+---@field CurHeroID int32
+---@field AllHerosMap ULuaMapHelper
+---@field LoadedStruct_Hero ULuaArrayHelper
+---@field SelectedData_Hero MethodStruct_GM_SP
+---@field LoadedStruct_Normal ULuaArrayHelper
+---@field SelectedData_Normal MethodStruct_GM_SP

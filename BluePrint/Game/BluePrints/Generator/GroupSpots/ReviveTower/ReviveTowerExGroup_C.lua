@@ -1,0 +1,5 @@
+---@class ReviveTowerExGroup_C:AUAEHouseActor
+---@field UserConstructionScript:fun()
+---@field ReviveTower_1 BP_WerewolfBoxSpotComponent_C
+---@field BP_ReviveTowerGroup BP_WerewolfBoxGroupSceneComponent_C
+---@field DefaultSceneRoot USceneComponent

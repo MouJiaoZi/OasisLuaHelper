@@ -1,0 +1,8 @@
+---@class BP_Controller_AnimAI_C:ATestModelAIController
+---@field ConfigAvatar:fun()
+---@field HackPlayerAvatar:fun()
+---@field UserConstructionScript:fun()
+---@field OnPossess:fun(PossessedPawn:APawn)
+---@field BackPack UBackpackComponent
+---@field PickupInf FBattleItemPickupInfo
+---@field CoustomAvatarList ULuaArrayHelper

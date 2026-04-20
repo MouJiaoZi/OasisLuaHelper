@@ -1,0 +1,10 @@
+---@class BP_ChangeTeamAssembleScene_C:AActor
+---@field GetDownloadListDelegateFunction:fun():ULuaArrayHelper
+---@field UserConstructionScript:fun()
+---@field DefaultSceneRoot USceneComponent
+---@field GameState AGameStateBase
+---@field ID2TeamAssembleSceneClassSoftRef ULuaMapHelper
+---@field AircraftID int32
+---@field TeamAssembleSceneClassSoftRef UClass
+---@field bChangeByTime bool
+---@field CallerPlayerUID FString

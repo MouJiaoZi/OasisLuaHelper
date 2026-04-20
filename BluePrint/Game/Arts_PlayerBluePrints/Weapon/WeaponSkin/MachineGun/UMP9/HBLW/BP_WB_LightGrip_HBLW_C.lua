@@ -1,0 +1,1 @@
+---@class BP_WB_LightGrip_HBLW_C:BattleItemHandle_WeapAttachment_C

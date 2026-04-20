@@ -1,0 +1,5 @@
+---@class IsOnlyLiveOneInTeam_C:UTaskCondition_Base
+---@field IsConditionSatisfy:fun():bool
+---@field DownPlayerKey FTriggerEventParamKeySelector
+---@field CountDownTeammate int32
+---@field CountTeammate int32

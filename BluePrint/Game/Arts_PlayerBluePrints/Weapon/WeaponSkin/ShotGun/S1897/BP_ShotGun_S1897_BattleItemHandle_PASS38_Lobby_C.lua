@@ -1,0 +1,1 @@
+---@class BP_ShotGun_S1897_BattleItemHandle_PASS38_Lobby_C:UBackpackWeaponHandle

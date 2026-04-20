@@ -1,0 +1,2 @@
+---@class FSHasPassedTriggerAreaIDData
+---@field ID int32

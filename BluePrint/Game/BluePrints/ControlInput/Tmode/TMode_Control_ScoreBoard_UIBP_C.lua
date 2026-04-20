@@ -1,0 +1,26 @@
+---@class TMode_Control_ScoreBoard_UIBP_C:UUAEUserWidget
+---@field DeathMatch_ResetonReplayGotoTime:fun():bool
+---@field DeathMatch_ReInitReplay:fun():bool
+---@field DeathMatch_OnCreate:fun(IsFirstGame:bool):bool
+---@field DeathMatch_UpdateReadyTime:fun(InTime:int32):bool
+---@field DeathMatch_GlobalNotify:fun(InReson:EDeathMatchGlobalNotifyReason,KillerData:FDeathMatchPlayerStateData):bool
+---@field DeathMatch_InitWidget:fun():bool
+---@field DeathMatch_FirstReadyTime:fun():bool
+---@field DeathMatch_GetButton:fun():UButton
+---@field DeathMatch_UpdateBattleTime:fun():bool
+---@field DeathMatch_UpdateScoreBoard:fun(OwnerTeamID:int32):bool
+---@field DeathMatch_InitScoreBoard:fun(OwnerTeamID:int32,TextureRed:FSlateBrush,TextureBlue:FSlateBrush,ColorRed:FSlateColor,ColorBlue:FSlateColor):bool
+---@field setUIInReplay:fun()
+---@field DeathMatch_OnReplayGameStateReady:fun()
+---@field DeathMatch_PlayerDeath:fun()
+---@field DeathMatch_PlayerResume:fun()
+---@field CanvasePanel_TC_NewbieGuide UCanvasPanel
+---@field Image_LeftTeamBg UImage
+---@field Image_RightTeamBg UImage
+---@field NewButton_TC_ScoreBoard UNewButton
+---@field TextBlock_LeftTeamName UTextBlock
+---@field TextBlock_LeftTeamScore UTextBlock
+---@field TextBlock_RightTeamName UTextBlock
+---@field TextBlock_RightTeamScore UTextBlock
+---@field TextBlock_TC_SurplusTime UTextBlock
+---@field TextBlock_TC_TargetNumber UTextBlock

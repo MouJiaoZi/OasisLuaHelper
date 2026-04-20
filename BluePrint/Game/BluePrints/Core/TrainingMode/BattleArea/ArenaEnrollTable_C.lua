@@ -1,0 +1,10 @@
+---@class ArenaEnrollTable_C:AActor
+---@field GetLuaModule:fun():FString
+---@field RuleInstruction:fun(InParam:FGISCCF_Param)
+---@field EnrollArena:fun(InParam:FGISCCF_Param)
+---@field UserConstructionScript:fun()
+---@field P_Shooting_park_Light_01 UParticleSystemComponent
+---@field Sphere USphereComponent
+---@field GISActorComponentBase UGISActorComponentBase
+---@field StaticMesh UStaticMeshComponent
+---@field DefaultSceneRoot USceneComponent

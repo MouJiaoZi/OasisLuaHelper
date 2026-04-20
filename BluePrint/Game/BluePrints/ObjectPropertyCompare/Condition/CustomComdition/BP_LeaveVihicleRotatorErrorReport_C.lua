@@ -1,0 +1,29 @@
+---@class BP_LeaveVihicleRotatorErrorReport_C:UCompareCustomCondition
+---@field UpdateTimerTick:fun(DeltaTime:float,Duration:float)
+---@field DelayReportHand:fun()
+---@field Event_GetConditionInfo:fun():FString
+---@field ReportMsg:fun()
+---@field CancelEvent:fun(InRemoveEvent:bool)
+---@field OnFingerMoveEvent:fun(FingerIndex:ETouchIndex,Location:FVector)
+---@field OnExitVehicle:fun(InVehicle:ASTExtraVehicleBase,InSeatType:ESTExtraVehicleSeatType)
+---@field OnEnterVehicle:fun(InVehicle:ASTExtraVehicleBase,InSeatType:ESTExtraVehicleSeatType)
+---@field BP_InitCompareNode:fun()
+---@field CachePlayerController ASTExtraPlayerController
+---@field ExitVehicleCount int32
+---@field RotationList ULuaArrayHelper
+---@field ScreenPointList ULuaArrayHelper
+---@field CurVehicle ASTExtraVehicleBase
+---@field RateList ULuaArrayHelper
+---@field IsTrigger bool
+---@field DelayRecordTime float
+---@field InVehicleCount int32
+---@field FrameCountList ULuaArrayHelper
+---@field VehicleName FString
+---@field ReportPitchValue float
+---@field LeaveControl FRotator
+---@field LeaveFrame int64
+---@field LeaveVehicleLocation FVector
+---@field CurControl FRotator
+---@field DelayHandle FTimerHandle
+---@field IsReport bool
+---@field LastControl FRotator

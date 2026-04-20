@@ -1,0 +1,29 @@
+---@class BP_PortalDoor_C:AActivityBaseActor
+---@field OnTeleport:fun(NewParam:FGISCCF_Param)
+---@field TeleportCanTrigger:fun(NewParam:FGISCCF_Param):bool
+---@field GetSafetyTeleportPosition:fun(tUseSafetyUpVector:bool,tDrawDebugSphere:bool,tSphereRadius:float,tRandomPosition:FVector,tHeightDifference:float):FVector
+---@field GetRandomTeleportPosition:fun():FVector
+---@field SetLinkPortalDoor:fun(LinkPortalDoor:BP_PortalDoor_C)
+---@field UserConstructionScript:fun()
+---@field P_TDM2_Countdown_01 UParticleSystemComponent
+---@field GISActorComponentBase UGISActorComponentBase
+---@field P_PortalTeleportPlayer UParticleSystemComponent
+---@field Teleport_Sequence UActorSequenceComponent
+---@field RandomTelepotRange USphereComponent
+---@field Text_DoorName UTextRenderComponent
+---@field P_PortalTeleportDoor UParticleSystemComponent
+---@field SM_PortalMesh UStaticMeshComponent
+---@field Scene USceneComponent
+---@field DefaultSceneRoot USceneComponent
+---@field LinkPortalDoor BP_PortalDoor_C
+---@field DoorName FName
+---@field RandomTelepotRangeValue float
+---@field DetectedExistingTarget ULuaArrayHelper
+---@field DetectionIntervalTime float
+---@field RandomPosition FVector
+---@field BP_PortalManager BP_PortalManager_C
+---@field TeleportCoolDown float
+---@field TH_TeleportCoolDown FTimerHandle
+---@field RandomSequenceNum int32
+---@field E_PortalDoorSelect E_PortalDoorTeleportSelect
+---@field EmitterLocation FVector

@@ -1,0 +1,80 @@
+---@class OB_StarGame_UIBP_C:UUAEUserWidget
+---@field CloseMapUI:fun()
+---@field UIMsg_HideAllStarGameList:fun()
+---@field OnLoadDynamicSelectIcon:fun(Object:UObject,WaveIndex:int32)
+---@field OnLoadDynamicIcon:fun(Object:UObject,WaveIndex:int32)
+---@field ReloadDynamicIcon:fun()
+---@field ClickDynamicTab:fun(Index:int32)
+---@field GetCurDynamicEventName:fun():FString
+---@field UpdateDynamicContent:fun()
+---@field UpdateDynamicTab:fun()
+---@field OnUpdateGlobalEventItemList:fun(Widget:UUserWidget,Idx:int32)
+---@field OnUpdateSingleEventItemList:fun(Widget:UUserWidget,Idx:int32)
+---@field OnUpdateGiftItemList:fun(Widget:UUserWidget,Idx:int32)
+---@field HideNormalList:fun()
+---@field Delegate_UpdateDynamicEventInfo:fun()
+---@field UpdateDynamicListHeight:fun()
+---@field OnSelectDynamicItem:fun(Widget:UUserWidget)
+---@field ShowDynamicList:fun()
+---@field OnUpdateDynamicItemList:fun(Widget:UUserWidget,Idx:int32)
+---@field UpdateDynamicEventContentList:fun(EventType:int32)
+---@field HideDynamicList:fun(TotalHide:bool)
+---@field ClickTab:fun(Tab:OB_StarGameTab_Enum)
+---@field InitUI:fun()
+---@field HideList_anima UWidgetAnimation
+---@field ShowList_anima UWidgetAnimation
+---@field CanvasPanel_EventList UCanvasPanel
+---@field CanvasPanel_Gift UCanvasPanel
+---@field CanvasPanel_List UCanvasPanel
+---@field CanvasPanel_ListGroup UCanvasPanel
+---@field DynamicPanel UCanvasPanel
+---@field HorizontalBox_NextTipsInfo UHorizontalBox
+---@field Image_BtnPage01 UImage
+---@field Image_BtnPage01_Selected UImage
+---@field Image_BtnPage02 UImage
+---@field Image_BtnPage02_Selected UImage
+---@field Image_BtnPage03 UImage
+---@field Image_BtnPage03_Selected UImage
+---@field Image_PageIcon_01 UImage
+---@field Image_PageIcon_02 UImage
+---@field Image_PageIcon_03 UImage
+---@field NewButton_Event UNewButton
+---@field NewButton_Gift UNewButton
+---@field NewButton_Global UNewButton
+---@field NewButton_HidePanel UNewButton
+---@field NewButton_Page01 UNewButton
+---@field NewButton_Page02 UNewButton
+---@field NewButton_Page03 UNewButton
+---@field ReuseList2_AirDrop ReuseList2_C
+---@field ReuseList2_Event ReuseList2_C
+---@field ReuseList2_Gift ReuseList2_C
+---@field ReuseList2_Global ReuseList2_C
+---@field TextBlock_NextTips UTextBlock
+---@field TextBlock_NextTipsTime UTextBlock
+---@field TextBlock_Page01_Num UTextBlock
+---@field TextBlock_Page02_Num UTextBlock
+---@field TextBlock_Page03_Num UTextBlock
+---@field TextBlock_TipsContent UTextBlock
+---@field VerticalBox_BtnList_Y_55_280 UVerticalBox
+---@field WidgetSwitcher_Event UWidgetSwitcher
+---@field WidgetSwitcher_GiftBtn UWidgetSwitcher
+---@field WidgetSwitcher_Global UWidgetSwitcher
+---@field WidgetSwitcher_ListType UWidgetSwitcher
+---@field GlobalEventDataList ULuaArrayHelper
+---@field SingleEventDataList ULuaArrayHelper
+---@field GiftEventDataList ULuaArrayHelper
+---@field DynamicEventDataList ULuaArrayHelper
+---@field CurTab OB_StarGameTab_Enum
+---@field BInitGiftTab bool
+---@field BInitSingleTab bool
+---@field BInitGlobalTab bool
+---@field bDynamicListShowing bool
+---@field CurDynamicType int32
+---@field CurDynamicEventDataList ULuaArrayHelper
+---@field DynamicItemBPList ULuaArrayHelper
+---@field CurDynamiccItemBP OB_StarGameAirdropItem_UIBP_C
+---@field MaxDynamicListHeight int32
+---@field bInit bool
+---@field DynamicEventInfos ULuaArrayHelper
+---@field CurShowDynamicWave int32
+---@field DynamicTabIndex int32

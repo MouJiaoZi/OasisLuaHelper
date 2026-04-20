@@ -1,0 +1,3 @@
+---@class BP_ZombieFakePlayerAIC_C:ANewFakePlayerAIController
+---@field UserConstructionScript:fun()
+---@field AIBreakWindow UAIBreakWindowComponent

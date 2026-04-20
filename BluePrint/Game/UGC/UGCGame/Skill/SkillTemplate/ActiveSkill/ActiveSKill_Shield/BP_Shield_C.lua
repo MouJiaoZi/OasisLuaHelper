@@ -1,0 +1,9 @@
+---@class BP_Shield_C:AActor
+---@field GetLuaModule:fun():FString
+---@field UserConstructionScript:fun()
+---@field ParticleSystem UParticleSystemComponent
+---@field Sphere USphereComponent
+---@field DefaultSceneRoot USceneComponent
+---@field BlockParticle UParticleSystem
+---@field BlockDurability int32
+---@field UniversalProjectileBaseClass UClass

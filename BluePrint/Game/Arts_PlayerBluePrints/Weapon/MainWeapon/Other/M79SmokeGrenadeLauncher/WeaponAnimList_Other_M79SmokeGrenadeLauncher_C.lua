@@ -1,0 +1,1 @@
+---@class WeaponAnimList_Other_M79SmokeGrenadeLauncher_C:UUAECharacterAnimListComponent

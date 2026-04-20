@@ -1,0 +1,28 @@
+---@class BP_BattleItemHandle_Paraglider_C:UBackpackUsableVehicleHandle
+---@field GetPartnerAICharacter:fun():ASTExtraBaseCharacter
+---@field UpdateSkillActive:fun(Active:bool)
+---@field TriggerSkill:fun()
+---@field HandleDrop:fun(InCount:int32,Reason:EBattleItemDropReason):bool
+---@field HandlePickup:fun(ItemContainer:TScriptInterface,PickupInfo:FBattleItemPickupInfo,Reason:EBattleItemPickupReason):bool
+---@field HandleUse:fun(Target:FBattleItemUseTarget,Reason:EBattleItemUseReason):bool
+---@field SpawnWrapperOnGround:fun()
+---@field DelayHandleUse:fun()
+---@field InterruptDelayHandleUse:fun()
+---@field OnExitVehicle:fun(Player:ASTExtraPlayerCharacter,SeatType:ESTExtraVehicleSeatType,IsSucc:bool)
+---@field OnEnterVehicle:fun(Player:ASTExtraPlayerCharacter,SeatType:ESTExtraVehicleSeatType,IsSucc:bool)
+---@field bEnable bool
+---@field RemainEnergy float
+---@field SoftWrapperClass UClass
+---@field bEnergyExit bool
+---@field AvailablePawnStates ULuaArrayHelper
+---@field TimeOutMsgID int32
+---@field TimeOutWarningMsgID int32
+---@field TimeHandle FTimerHandle
+---@field VehUsePlayTarget AActor
+---@field PreSpawnCharacterAnim UAnimMontage
+---@field SpawnVehicleSkill UClass
+---@field OwningPC ASTExtraPlayerController
+---@field RepAvatarID FItemDefineID
+---@field ShowSpawningActor UClass
+---@field OwnerAIC AFakePlayerAIController
+---@field AlreadyExit bool

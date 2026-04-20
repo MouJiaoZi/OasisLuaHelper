@@ -1,0 +1,1 @@
+---@class BP_WB_HalfGrip_C:BattleItemHandle_WeapAttachment_C

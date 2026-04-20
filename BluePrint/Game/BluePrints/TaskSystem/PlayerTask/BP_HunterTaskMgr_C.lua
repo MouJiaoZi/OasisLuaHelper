@@ -1,0 +1,3 @@
+---@class BP_HunterTaskMgr_C:AHunterTaskMgr
+---@field UserConstructionScript:fun()
+---@field DefaultSceneRoot USceneComponent

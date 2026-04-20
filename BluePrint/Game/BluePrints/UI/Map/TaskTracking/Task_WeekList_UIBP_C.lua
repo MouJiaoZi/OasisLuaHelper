@@ -1,0 +1,16 @@
+---@class Task_WeekList_UIBP_C:UUAEUserWidget
+---@field OnItemEditMarkTracing:fun(isTracing:bool)
+---@field OnCloseList:fun()
+---@field OnOpenList:fun()
+---@field UpdateByWeekData:fun(MainTaskBP:TaskTracking_UIBP_C,WeekData:FSeasonTaskUIWeekItems)
+---@field Image_IsTracing UImage
+---@field NewButton_list UNewButton
+---@field Text_Content UTextBlock
+---@field Text_ItemsCount UTextBlock
+---@field VerticalBox_Tasklist UVerticalBox
+---@field WidgetSwitcher_list UWidgetSwitcher
+---@field bHasCreateItems bool
+---@field bIsShowingTasks bool
+---@field MainTaskBP TaskTracking_UIBP_C
+---@field WeekIndex int32
+---@field TracingItemsCount int32

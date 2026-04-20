@@ -1,0 +1,5 @@
+---@class SkillTemplate_TopDown_SwordArea_C:PESkillTemplate_Base_C
+---@field GetLuaModule:fun():FString
+---@field CacheSelectTarget AActor
+---@field CacheInitPosition FVector
+---@field AttachOffset FVector

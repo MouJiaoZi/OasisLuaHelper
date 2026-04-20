@@ -1,0 +1,3 @@
+---@class BP_ObserverHostComponent_C:UObserverHostComponent
+---@field SetBeginAdditionalData:fun()
+---@field ReceiveBeginPlay:fun()

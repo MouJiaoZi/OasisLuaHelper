@@ -1,0 +1,20 @@
+---@class BackPackPickUpPanel_BP_C:UUAEUserWidget
+---@field UIMsg_CmpText:fun()
+---@field UIMsg_BigPanelWidgetOpen:fun(UI:FString)
+---@field ToggleBackpackPanel:fun()
+---@field AddToWeaponAttachPos:fun(attachID:int32,socket:EWeaponAttachmentSocketType)
+---@field IsGunSupportAttachByRes:fun(gunResID:int32,attachResID:int32):bool
+---@field IsGunSupportAttachByDefine:fun(gunDefine:FItemDefineID,attachDefine:FItemDefineID):bool
+---@field GetWeaponSupportSocket:fun(weaponID:int32):ULuaArrayHelper
+---@field GetWeaponSupportAttachResID:fun(weaponID:int32):ULuaArrayHelper
+---@field GetWeaponAttachPosByResID:fun(resID:int32):EWeaponAttachmentSocketType
+---@field AdjustPos:fun(show:bool)
+---@field ReceivedInitWidget:fun()
+---@field ShowHideBackPack__DelegateSignature:fun()
+---@field MainBackPackPanel_BP MainBackPackPanel_BP_C
+---@field PickUpListPanel_BP PickUpListPanel_BP_C
+---@field NewVar_0 bool
+---@field WeaponAttachPos ULuaMapHelper
+---@field ShowHideBackPack ULuaMulticastDelegate
+---@field text1 FText
+---@field text2 FText

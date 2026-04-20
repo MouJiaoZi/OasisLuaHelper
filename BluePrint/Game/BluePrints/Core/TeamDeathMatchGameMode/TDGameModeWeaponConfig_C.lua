@@ -1,0 +1,1 @@
+---@class TDGameModeWeaponConfig_C:UGameModeWeaponConfigBase

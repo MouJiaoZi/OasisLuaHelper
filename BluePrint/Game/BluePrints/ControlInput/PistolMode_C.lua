@@ -1,0 +1,58 @@
+---@class PistolMode_C:UUAEUserWidget
+---@field UpdateRightBulletNumText:fun(Num:int32)
+---@field ShowMidText:fun()
+---@field UpdateLeftBulletNumText:fun(Num:int32)
+---@field ChangeSlotWeapon:fun(Weapon:ASTExtraShootWeapon)
+---@field UpdateAirDropType:fun(IsInWhiteCircle:bool)
+---@field GetAttachmentImage:fun(DefineID:FItemDefineID):FString
+---@field AddAttachmentAnimationToQuere:fun(ID:FItemDefineID)
+---@field AddAttachmentAnimationToQuereAsync:fun(Icon:UObject)
+---@field PlayAnimationInQueue:fun()
+---@field OnMouseButtonDown:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field OnTouchEnded:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field GetWeaponMgr:fun():UWeaponManagerComponent
+---@field GetCurrWeapon:fun():ASTExtraShootWeapon
+---@field CanShowFireModeSwitchBtn:fun(weapon:ASTExtraShootWeapon):bool
+---@field SetFireModeText:fun(weapon:ASTExtraShootWeapon)
+---@field GetNextFireMode:fun(InputPin:ASTExtraShootWeapon):ESTEWeaponShootType
+---@field UpdatePistol:fun()
+---@field SetBorderOpacity:fun(Opacity:float)
+---@field GetBackPackBulletNum:fun(bulletType:FItemDefineID):int32
+---@field UpdateBulletCounts:fun(BulletInWeapon:int32,BulletInBackpack:int32,BulletType:FItemDefineID)
+---@field RefreshWeaponImage:fun(image:UObject)
+---@field ChangeImageAndTextColor:fun(IsGunRunOutOfAmmo:bool)
+---@field ClearWeaponSlotData:fun()
+---@field ChangeWeaponImage:fun(IconPath:FString)
+---@field Interface_UpdateFireModeShape:fun(Show:bool)
+---@field ReceivedInitWidget:fun()
+---@field Interface_SetBorderOpacity:fun(Opacity:float)
+---@field ShowLongGunFireMode__DelegateSignature:fun(show:bool)
+---@field ClickOnSwitchWeapon__DelegateSignature:fun()
+---@field DX_GetItem UWidgetAnimation
+---@field BulletChangeAnim UWidgetAnimation
+---@field Border_WeaponIcon1 UBorder
+---@field Button_ChangeShootingType UButton
+---@field Button_Pisto_Select UButton
+---@field Button_UnSelect UButton
+---@field CanvasPanel_AirDrop UCanvasPanel
+---@field CanvasPanel_Vonom_Guide UCanvasPanel
+---@field fireModePanel UCanvasPanel
+---@field Item UImage
+---@field pistol_CurrBullets2 UTextBlock
+---@field pistol_MaxTBullets2 UTextBlock
+---@field profile1 UImage
+---@field TextBlock_1 UTextBlock
+---@field TextBlock_42 UTextBlock
+---@field WidgetSwitcher_0 UWidgetSwitcher
+---@field WidgetSwitcher_AirDropType UWidgetSwitcher
+---@field ClickOnSwitchWeapon ULuaMulticastDelegate
+---@field needCollpase bool
+---@field AttachmentImagePath ULuaMapHelper
+---@field OutOfAmmoRed FLinearColor
+---@field NormalAmmoWhite FLinearColor
+---@field NormalAmmoGrey FLinearColor
+---@field ShowLongGunFireMode ULuaMulticastDelegate
+---@field AnimationQueue ULuaArrayHelper
+---@field CurSlotWeapon ASTExtraShootWeapon
+---@field CurrBulletNum int32
+---@field CacheGunRunOutOfAmmo bool

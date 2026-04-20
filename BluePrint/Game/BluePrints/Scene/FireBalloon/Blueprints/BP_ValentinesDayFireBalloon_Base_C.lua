@@ -1,0 +1,100 @@
+---@class BP_ValentinesDayFireBalloon_Base_C:ASTExtraFireBalloon
+---@field AddMovablePlatformTags:fun()
+---@field SetPlayerSpringArmInterpSpeed:fun(Player:ASTExtraBaseCharacter,bQuickOrSlow:bool)
+---@field FireWeatherEvent:fun(Player:ASTExtraBaseCharacter,EnterOrLeave:bool)
+---@field OnHeartSetMaterial:fun()
+---@field DriverBecomeViewTarget:fun(PC:APlayerController)
+---@field PreloadParachuteAssets:fun(Pawn:ASTExtraCharacter)
+---@field HandleSkillCasted:fun(SkillIndex:int32)
+---@field TriggerTaskEvent:fun(Pawn:ASTExtraBaseCharacter,bEnterOrLeave:bool)
+---@field CanBeDriver:fun(InPawn:APawn):bool
+---@field CheckPlayerTask:fun()
+---@field SetPlayCameraOffsetData:fun(Alpha:float,UpdateCameraLocation:bool)
+---@field HandleDriverGetHurt:fun(DamagedActor:AActor,Damage:float,DamageType:UDamageType,InstigatedBy:AController,DamageCauser:AActor)
+---@field UpdateFire:fun()
+---@field QueryClothSpecID:fun(HandleBaseCharacter:ASTExtraBaseCharacter):int32
+---@field TickMaterialChange:fun(DeltaTime:float)
+---@field TickCanMaterialChange:fun(DeltaTIme:float)
+---@field StartMaterialChange:fun(AvatarID:int32)
+---@field HandleDriverEnterState:fun(NewState:EPawnState)
+---@field SpawnParachute:fun(PlayerController:AUAEPlayerController)
+---@field SetPassengersStatesEnabeld:fun(Player:ASTExtraBaseCharacter,bEnable:bool)
+---@field TryOpenParachute:fun(Player:ASTExtraBaseCharacter)
+---@field PlayerLeaveFireBalloon:fun(PawnActor:AActor)
+---@field PlayerEnterFireBalloon:fun(PawnActor:AActor)
+---@field CheckShouldFallOff:fun()
+---@field UpdateMovementInput:fun(DeltaSeconds:float)
+---@field HandleGameStateBlueCircleChanged:fun()
+---@field PlayerLeaveObservationArea:fun(Player:ASTExtraBaseCharacter)
+---@field PlayerEnterObservationArea:fun(Player:ASTExtraBaseCharacter)
+---@field UpdateObservationArea:fun()
+---@field UpdateUIVisible:fun()
+---@field FindUIAttachNode:fun():UUAEUserWidget,UCanvasPanel
+---@field LoadUIClassSyncronous:fun():UClass
+---@field FindFireBalloonUI:fun():UUAEUserWidget
+---@field SetUIVisible:fun(bNewVisible:bool)
+---@field OnDriverAttachToFireBalloon:fun(Pawn:APawn)
+---@field OnDriverDetachFromFireBalloon:fun(Pawn:APawn)
+---@field OnDriverChanged:fun(Prev:APawn,Current:APawn)
+---@field UserConstructionScript:fun()
+---@field SetDriver:fun(InPawn:APawn)
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field DriverArea UCapsuleComponent
+---@field P_Lover_FireBall0on_Big_2 UParticleSystemComponent
+---@field Ak_fire UAkComponent
+---@field BallMesh UStaticMeshComponent
+---@field P_Lover_FireBall0on_Big_1 UParticleSystemComponent
+---@field FireBalloonArea UBoxComponent
+---@field DriverDisableStates ULuaArrayHelper
+---@field PrevDriver APawn
+---@field DriverMontage UAnimMontage
+---@field UI UUAEUserWidget
+---@field bWantsUIVisible bool
+---@field FireBalloonUIPath FString
+---@field FireBalloonUIAttachWidgetName FString
+---@field FireBalloonUIAttachNodeName FString
+---@field UIClass UClass
+---@field ObservationArea FVector2D
+---@field bInObservationArea bool
+---@field ObservationAreaCameraOffset FCameraOffsetData
+---@field ObservationBGM UAkAudioEvent
+---@field ObservationBGM_Normal UAkAudioEvent
+---@field FallOffCircleIndex int32
+---@field FallOffSpeed float
+---@field Passengers ULuaArrayHelper
+---@field MoveUpScale_0 float
+---@field NeedParachuteHeight float
+---@field SkipOpenParachuteHeight float
+---@field PassengersStatesDisallowed ULuaArrayHelper
+---@field CurAvatarCharacter ASTExtraBaseCharacter
+---@field CurAvatarID int32
+---@field CheckInRecordDouble ULuaArrayHelper
+---@field AvatarToTexture ULuaMapHelper
+---@field TextureChangeCountTime float
+---@field TextureChangeDuringTime float
+---@field CheckInRecordSingle ULuaArrayHelper
+---@field TextureChanging bool
+---@field ChangingMaterialInstance UMaterialInstanceDynamic
+---@field CheckPlayerAvatar_Internal float
+---@field CheckPlayerAvatar_Radius float
+---@field CheckCountTime float
+---@field FX_Idle UParticleSystem
+---@field FX_Up UParticleSystem
+---@field FX_Down UParticleSystem
+---@field ChangeTexNext UTexture
+---@field ObservationAreaCameraLengthCurve UCurveFloat
+---@field ObservationAreaSocketOffsetCurve UCurveFloat
+---@field AvatarEffect UParticleSystem
+---@field AvatarEffectOffset FVector
+---@field TaskUniqueID int32
+---@field StatesCantBeDriver ULuaArrayHelper
+---@field PreloadedParachuteAssets ULuaArrayHelper
+---@field PreloadedParachuteClassAssets ULuaArrayHelper
+---@field bFireBurning bool
+---@field MoveDirection int32
+---@field CacheAvatarID int32
+---@field bCircleForceFallOff bool
+---@field bFireBalloonActivate bool
+---@field TargetLengthInterpSpeed float
+---@field SocketOffsetInterpSpeed float
+---@field DriverOuterCapsule UCapsuleComponent

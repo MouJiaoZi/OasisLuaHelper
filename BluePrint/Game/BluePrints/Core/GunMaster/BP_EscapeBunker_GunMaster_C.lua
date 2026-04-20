@@ -1,0 +1,16 @@
+---@class BP_EscapeBunker_GunMaster_C:AGunMasterBunker
+---@field PlayCompletePlaybackEscapeAnim:fun(Player:ASTExtraBaseCharacter)
+---@field OnSkillFinished:fun(SkillID:int32,StopReason:UTSkillStopReason)
+---@field UserConstructionScript:fun()
+---@field PlayDoorAudio:fun(NewDoorState:EDoorState)
+---@field Camera UCameraComponent
+---@field Box1 UBoxComponent
+---@field Box UBoxComponent
+---@field StaticMesh UStaticMeshComponent
+---@field InteractionBox UBoxComponent
+---@field GISActorComponentBase UGISActorComponentBase
+---@field EscapePlayer FString
+---@field LevelSequence ULevelSequence
+---@field OpeningPlayerID int32
+---@field OffSet FVector
+---@field CharRotator FRotator

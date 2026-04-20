@@ -1,0 +1,4 @@
+---@class BP_Pet_RocketBunny_Lobby_RollRight_C:AActor
+---@field UserConstructionScript:fun()
+---@field SK_Prop_RockeBunny_CarrotSlope USkeletalMeshComponent
+---@field DefaultSceneRoot USceneComponent

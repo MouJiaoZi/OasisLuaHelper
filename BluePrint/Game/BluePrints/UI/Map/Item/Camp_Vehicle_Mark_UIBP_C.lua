@@ -1,0 +1,8 @@
+---@class Camp_Vehicle_Mark_UIBP_C:UMapUIMarkBaseWidget
+---@field OnUIBPShow:fun(InState:FCustomMarkEventData)
+---@field Border_VehicleColor UBorder
+---@field Image_VehicleColor UImage
+---@field NewButton_VehicleMark UNewButton
+---@field ColorMap ULuaMapHelper
+---@field FixedColor FLinearColor
+---@field RandomColor FLinearColor

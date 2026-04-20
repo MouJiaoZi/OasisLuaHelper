@@ -1,0 +1,5 @@
+---@class OB_ReplayUI_VideoList_Item_UIBP_C:UUserWidget
+---@field NewButton_VideoList_Play UNewButton
+---@field TextBlock_VideoList_Time UTextBlock
+---@field UTRichTextBlock_ReplayUI_List UUTRichTextBlock
+---@field WidgetSwitcher_VideoList_Bg UWidgetSwitcher

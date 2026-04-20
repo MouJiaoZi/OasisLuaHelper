@@ -1,0 +1,5 @@
+---@class MolePromptPop_UIBP_C:UUAEUserWidget
+---@field Button_cancel UNewButton
+---@field Button_Close UButton
+---@field Button_determine UNewButton
+---@field TextBlock_Condition UTextBlock

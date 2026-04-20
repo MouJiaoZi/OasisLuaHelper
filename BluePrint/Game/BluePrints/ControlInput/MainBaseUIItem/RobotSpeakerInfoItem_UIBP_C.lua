@@ -1,0 +1,4 @@
+---@class RobotSpeakerInfoItem_UIBP_C:UUAEUserWidget
+---@field Image_RobotDisableIcon UImage
+---@field Image_RobotSpeakerIcon UImage
+---@field NewButton_RobotDisable UNewButton

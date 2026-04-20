@@ -1,0 +1,20 @@
+---@class ARMode_WeaponSlot_Item_UIBP_C:UUAEUserWidget
+---@field Hidehead:fun()
+---@field ShowDroiyanTips:fun(BShow:bool)
+---@field SetScore:fun(CurScore:int32,TotalScore:int32)
+---@field OnUpdateWeapon:fun(Image:UObject)
+---@field UpdateWeapon:fun(WeaponID:int32)
+---@field ClearWeapon:fun()
+---@field HorizontalBox_0 UHorizontalBox
+---@field Image_1 UImage
+---@field Image_LevelBar UImage
+---@field Image_NextWeaponIcon UImage
+---@field NewButton_Click UNewButton
+---@field TextBlock_CurrentLevel UTextBlock
+---@field TextBlock_FinalLevel UTextBlock
+---@field TextBlock_FinalTips UTextBlock
+---@field TextBlock_NextLevel UTextBlock
+---@field TextBlock_NextTips UTextBlock
+---@field ImageIcon FString
+---@field ClickTime float
+---@field NextWeaponName FString

@@ -1,0 +1,3 @@
+---@class AsianOB_PlayerNum_UIBP_C:UUAEUserWidget
+---@field Image_ColorBG UImage
+---@field TextBlock_Num UTextBlock

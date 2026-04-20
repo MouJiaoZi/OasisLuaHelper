@@ -1,0 +1,1 @@
+---@class ActiveSkill_Bomber_2_C:PESkillTemplate_Base_C

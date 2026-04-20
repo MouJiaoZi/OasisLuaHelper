@@ -1,0 +1,4 @@
+---@class KillInfo_Base_UIBP_C:UUAEUserWidget
+---@field ShowLeftQueueBaseInfo:fun(NewParam:FClientFatalDamageRecordData,ImageDownloader:UImageDownloader)
+---@field ShowKillInfoStatus:fun(NewParam:FClientFatalDamageRecordData,ImageDownloader:UObject,BaseUI:MainControlBaseUI_C)
+---@field FullPathName FString

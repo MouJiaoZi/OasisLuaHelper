@@ -1,0 +1,1 @@
+---@class BP_BattleRoyaleGameModeTeamDihorOtok_4_Chrismas_C:ABP_BattleRoyaleGameModeTeamDihorOtok_2_C

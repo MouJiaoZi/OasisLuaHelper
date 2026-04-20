@@ -1,0 +1,2 @@
+---@class Robot_PositionItem_UIBP_C:UUAEUserWidget
+---@field Image_Robot_Icon UImage

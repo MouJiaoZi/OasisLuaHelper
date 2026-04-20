@@ -1,0 +1,5 @@
+---@class GenericDamagableActor_C:AUGCGenericCharacter
+---@field UserConstructionScript:fun()
+---@field UGCPresetCommonDropItemComponent UGCPresetCommonDropItemComponent_C
+---@field ActorMark UActorMarkComponent
+---@field DynamicBoxObstacles UDynamicBoxObstaclesComponent

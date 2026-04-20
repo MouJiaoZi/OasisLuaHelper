@@ -1,0 +1,1 @@
+---@class WeaponAnimList_ShockHammer_C:UUAECharacterAnimListComponent

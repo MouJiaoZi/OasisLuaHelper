@@ -1,0 +1,1 @@
+---@class BP_Grenade_Smoke_Weapon_BattleItemHandle_QJKD_C:BP_Grenade_Smoke_Weapon_BattleItemHandle_C

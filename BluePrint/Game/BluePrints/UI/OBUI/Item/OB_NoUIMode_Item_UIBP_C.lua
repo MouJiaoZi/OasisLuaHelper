@@ -1,0 +1,6 @@
+---@class OB_NoUIMode_Item_UIBP_C:UUserWidget
+---@field PreConstruct:fun(IsDesignTime:bool)
+---@field Construct:fun()
+---@field CheckBox_NOUI UCheckBox
+---@field TextBlock_Title UTextBlock
+---@field Text FText

@@ -1,0 +1,59 @@
+---@class VehicleJoytstick_UIBP_C:UUAEUserWidget
+---@field ExitUAV:fun():bool
+---@field EnterUAV:fun():bool
+---@field OnUnManedVehicleFuelChanged_Inf:fun():bool
+---@field OnUnmanedVehicleHPChanged_Inf:fun():bool
+---@field ShowOperateUI:fun():bool
+---@field HideOperateUI:fun():bool
+---@field UpdateSpeedHeight:fun(speed:float,height:float):bool
+---@field UAVStateChange:fun():bool
+---@field ProcessSingleOperateMode:fun():bool
+---@field SetVehicleControlPanel:fun(vehicleControlPanel:UUAEUserWidget):bool
+---@field ShowSingleOperateMode:fun():bool
+---@field HideSingleOperateMode:fun():bool
+---@field UIMsg_UAVSingleOperate:fun()
+---@field HideSingleOperate:fun()
+---@field ShowSingleOperate:fun()
+---@field OnTouchEnded:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field CalcClickZone:fun(clickPos:FVector2D):ESTExtraUAVVehicleOperateState
+---@field OnTouchMoved:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field OnTouchStarted:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field GetVehicle:fun():ASTExtraVehicleBase
+---@field GetVehicleUser:fun():BP_VehicleUser_C
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field ReceivedInitWidget:fun()
+---@field CanvasPanel_0 UCanvasPanel
+---@field CanvasPanel_Operation UCanvasPanel
+---@field CanvasPanel_RemoteSensing_Around UCanvasPanel
+---@field CanvasPanel_RemoteSensing_Down UCanvasPanel
+---@field CanvasPanel_RemoteSensing_Up UCanvasPanel
+---@field Image_List01 UImage
+---@field Image_List02 UImage
+---@field NewButton_Around UNewButton
+---@field NewButton_Down UNewButton
+---@field NewButton_UP UNewButton
+---@field SIzeImage UImage
+---@field StrVehicleHP FString
+---@field VehicleHealthPercent float
+---@field uavSpeed FString
+---@field uavHeight FString
+---@field bFPP bool
+---@field UAVStartCallBackSound UAkAudioEvent
+---@field UAVStandBySound UAkAudioEvent
+---@field bAlreadyShowLowPowerSound bool
+---@field lastShowSignalTips float
+---@field lastShowDistanceWarning float
+---@field redTextColor FSlateColor
+---@field whiteTextColor FSlateColor
+---@field bInit bool
+---@field lastThirdViewFov float
+---@field touchStartPos FVector2D
+---@field touchIndex int32
+---@field upNormalButtonStyle FButtonStyle
+---@field upPressButtonStyle FButtonStyle
+---@field aroundNormalButtonStyle FButtonStyle
+---@field aroundPressButtonStyle FButtonStyle
+---@field downNormalButtonStyle FButtonStyle
+---@field downPressButtonStyle FButtonStyle
+---@field LastJoystickOpactity float
+---@field VehicleUser BP_VehicleUser_C

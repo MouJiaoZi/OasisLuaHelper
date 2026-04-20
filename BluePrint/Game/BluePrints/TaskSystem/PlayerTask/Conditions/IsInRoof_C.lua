@@ -1,0 +1,4 @@
+---@class IsInRoof_C:UTaskCondition_Base
+---@field GetLandedIDFromTable:fun(BuidingName:FString):int32
+---@field IsConditionSatisfy:fun():bool
+---@field KillerPlayerKey FTriggerEventParamKeySelector

@@ -1,0 +1,9 @@
+---@class BP_ConcertPlayerActorBase_C:AConcertPlayerActor
+---@field ReceiveConcertEventEnd:fun(NewParam:bool,NewParam1:FConcertSequenceEventData)
+---@field ReceiveConcertEventBegin:fun(NewParam:bool,NewParam1:FConcertSequenceEventData)
+---@field TryCreateActor:fun(NewParam:int32)
+---@field TryDelActor:fun(NewParam:int32)
+---@field UserConstructionScript:fun()
+---@field DefaultSceneRoot USceneComponent
+---@field CreateActorMap ULuaArrayHelper
+---@field CreatedActorMapCah ULuaArrayHelper

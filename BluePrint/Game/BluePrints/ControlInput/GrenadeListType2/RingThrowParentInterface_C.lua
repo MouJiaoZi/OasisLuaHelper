@@ -1,0 +1,6 @@
+---@class RingThrowParentInterface_C:UInterface
+---@field OnUseAndSwitchGrenadeByRing:fun(GrenadeID:int32):bool
+---@field OnUseFistByRing:fun():bool
+---@field OnUseMeleeByRing:fun(itemID:FItemDefineID):bool
+---@field OnGrenadeEmptyByRing:fun():bool
+---@field OnUseGrenadeByRing:fun(GrenadeType:EGrenadeType,GrenadeID:int32):bool

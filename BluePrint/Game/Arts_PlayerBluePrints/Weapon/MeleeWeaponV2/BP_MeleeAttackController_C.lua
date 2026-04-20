@@ -1,0 +1,9 @@
+---@class BP_MeleeAttackController_C:UMeleeAttackController
+---@field UnregisterCustomMove_Absorb:fun()
+---@field RegisterCustomMove_Absorb:fun()
+---@field CheckComboTimeoutTimer FTimerHandle
+---@field AutoCancelBreakComboTime float
+---@field CheckStopMovementDis float
+---@field bShouldInitDebugActor bool
+---@field CustomMovementTag_Absorb FGameplayTag
+---@field CustomMovementBP_Absorb UClass

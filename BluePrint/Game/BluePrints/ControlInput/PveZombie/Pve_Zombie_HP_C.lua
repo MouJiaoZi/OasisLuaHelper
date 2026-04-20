@@ -1,0 +1,10 @@
+---@class Pve_Zombie_HP_C:UPlayerSimpleCharacterPositionWidget
+---@field Event_CalculationVisable:fun(Loc:FVector):bool
+---@field GetFortress:fun():AFortress
+---@field Event_PlayerCharacterHPChange:fun(InHPCurrent:float,InHPMax:float)
+---@field Event_InitParamEnd:fun()
+---@field CanvasPanel_BossHP UCanvasPanel
+---@field Image_BossHP UImage
+---@field TextBlock_BossName UTextBlock
+---@field FortressActor AFortress
+---@field BossTag FName

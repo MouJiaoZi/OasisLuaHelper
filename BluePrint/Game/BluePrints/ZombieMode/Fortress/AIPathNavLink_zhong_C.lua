@@ -1,0 +1,1 @@
+---@class AIPathNavLink_zhong_C:AAIPathNavLink

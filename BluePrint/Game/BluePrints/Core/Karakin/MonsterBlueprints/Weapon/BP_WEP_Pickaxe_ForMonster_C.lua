@@ -1,0 +1,11 @@
+---@class BP_WEP_Pickaxe_ForMonster_C:ASTExtraWeapon_Throw
+---@field GetSkillIndexForMeleeWeapon:fun():int32
+---@field GetSkillEntryForMeleeWeapon:fun(IsPressed:bool):EUTSkillEntry
+---@field UserConstructionScript:fun()
+---@field BP_ThrowComponent_Melee BP_ThrowComponent_Melee_C
+---@field CrossHair UCrossHairComponent
+---@field WeaponStateDefault UWeaponStateDefault
+---@field WeaponStateManager UWeaponStateManager
+---@field WeaponSpecificHandler UWeaponSpecificHandler
+---@field WeaponAnimList_Melee WeaponAnimList_Melee_C
+---@field WeaponEntity UWeaponEntity

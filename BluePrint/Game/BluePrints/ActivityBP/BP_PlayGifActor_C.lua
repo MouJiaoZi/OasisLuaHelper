@@ -1,0 +1,18 @@
+---@class BP_PlayGifActor_C:AUAERegionActor
+---@field CollectMeshList:fun()
+---@field ResetAllMaterial:fun()
+---@field PlayEnd:fun()
+---@field PlayNextAudioEvent:fun()
+---@field AddSetMatrialEvent:fun(MeshIndex:int32)
+---@field OnLoadMaterialComponent:fun(MT:UObject,SMIndex:int32)
+---@field SetOneMaterial:fun()
+---@field UserConstructionScript:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field DefaultSceneRoot USceneComponent
+---@field PlayGifComList ULuaArrayHelper
+---@field GifPathList ULuaArrayHelper
+---@field SetMeshList ULuaArrayHelper
+---@field AudioEventList ULuaArrayHelper
+---@field CurrentAudioIndex int32
+---@field PlayAudioHandle FTimerHandle
+---@field RandomTime float

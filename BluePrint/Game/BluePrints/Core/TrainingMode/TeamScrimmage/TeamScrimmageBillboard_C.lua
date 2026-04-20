@@ -1,0 +1,4 @@
+---@class TeamScrimmageBillboard_C:AActor
+---@field UserConstructionScript:fun()
+---@field TeamScrimmageMVPTeamWidgetComponent_New TeamScrimmageMVPTeamWidgetComponent_New_C
+---@field DefaultSceneRoot USceneComponent

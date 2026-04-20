@@ -1,0 +1,14 @@
+---@class bp_item_decompose_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_ARRAY_ItemDecomposeTab ULuaArrayHelper
+---@field BP_ItemDecompose_Reward FString
+---@field BP_ItemDecompose_TabIndex int32
+---@field BP_ItemDecompose_IsAllIn bool
+---@field BP_ItemDecompose_IsCanDecompose bool
+---@field BP_ItemDecompose_AwardIcon FString
+---@field BP_ItemDecompose_SetIndex int32
+---@field BP_ItemDecompose_DropItemID int32
+---@field BP_ItemDecompose_IsReLoadList bool
+---@field BP_ARRAY_DecomposeAwardList ULuaArrayHelper
+---@field BP_ARRAY_DecomposeItemList ULuaArrayHelper

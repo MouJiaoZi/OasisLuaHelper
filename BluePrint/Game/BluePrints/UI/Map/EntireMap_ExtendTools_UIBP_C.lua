@@ -1,0 +1,37 @@
+---@class EntireMap_ExtendTools_UIBP_C:UUAEUserWidget
+---@field NormalShowCallBack:fun()
+---@field GetCurrentCampStatus:fun()
+---@field SendMsgToParachutingPanel:fun(bShowFollowInfo:bool)
+---@field Reconnect:fun(HasForceJump:bool)
+---@field SetAirPlaneStatus:fun(isDisappear:bool)
+---@field SetSelectImageStatus:fun(TaskSelect:bool,CampSelect:bool,RouteSelect:bool)
+---@field GetCurrentStatus:fun():bool,int32
+---@field CloseCampToolUI:fun()
+---@field RefreshCampUI:fun(status:int32)
+---@field UIMsg_RefreshCampUIStatus:fun()
+---@field RefreshCampKillNum:fun()
+---@field RefreshCampAssistNum:fun()
+---@field OnFinishSwtichToNewState:fun(LastState:EMapExOpenState,NewState:EMapExOpenState,bSwtichToNewState:bool)
+---@field ReadOpenStateFromFile:fun():EMapExOpenState
+---@field SaveOpenStateToFile:fun()
+---@field ShowHideExUI:fun(LastState:EMapExOpenState,NewState:EMapExOpenState)
+---@field Event_OnCreateAllExUIFinished:fun()
+---@field OnInitializeExUI:fun(ExtendManager:UEntiremapExMgr)
+---@field Destruct:fun()
+---@field CanvasPanel_CampGuideTips UCanvasPanel
+---@field CanvasPanel_CampList UCanvasPanel
+---@field CanvasPanel_TaskList UCanvasPanel
+---@field CanvasPanel_TracingGuideTips UCanvasPanel
+---@field Image_CampSelect UImage
+---@field Image_TaskSelect UImage
+---@field NewButton_CampPage UNewButton
+---@field NewButton_ShowHide UNewButton
+---@field NewButton_TaskPage UNewButton
+---@field WidgetSwitcher_ExUI UWidgetSwitcher
+---@field WidgetSwitcher_ShowHide UWidgetSwitcher
+---@field MapExMgr UEntiremapExMgr
+---@field ListActiveIndex int32
+---@field DefaultClosedState EMapExOpenState
+---@field DefaultTaskState EMapExOpenState
+---@field IcampStatus int32
+---@field bAirPlaneDisAppear bool

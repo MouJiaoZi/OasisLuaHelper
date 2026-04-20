@@ -1,0 +1,1 @@
+---@class BP_WerewolfBoxSpotComponent_C:UItemSpotSceneComponent

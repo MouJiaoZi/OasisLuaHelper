@@ -1,0 +1,16 @@
+---@class BP_Skill_ParachuteTraining_LaunchToSky_C:AUAESkill
+---@field GoParachuting:fun(BaseCharacter:ASTExtraBaseCharacter)
+---@field UserConstructionScript:fun()
+---@field UTSkillSpecificAction1 UUTSkillSpecificAction
+---@field UTSkillEventEffectMapForEditor1 UUTSkillEventEffectMapForEditor
+---@field UAESkillPhase2 UUAESkillPhase
+---@field UAESkillAction_SwitchCameraViewTarget UUAESkillAction_SwitchCameraViewTarget
+---@field UTSkillEventEffectMapForEditor UUTSkillEventEffectMapForEditor
+---@field UAESkillAction_PlayMontage1 UUAESkillAction_PlayMontage
+---@field UAESkillPhase1 UUAESkillPhase
+---@field UAESkillAction_PlayMontage UUAESkillAction_PlayMontage
+---@field UTSkillSpecificAction UUTSkillSpecificAction
+---@field UAESkillAction_LaunchMove UUAESkillAction_LaunchMove
+---@field UAESkillAction_SetMoveable UUAESkillAction_SetMoveable
+---@field UAESkillPhase UUAESkillPhase
+---@field DefaultSceneRoot USceneComponent

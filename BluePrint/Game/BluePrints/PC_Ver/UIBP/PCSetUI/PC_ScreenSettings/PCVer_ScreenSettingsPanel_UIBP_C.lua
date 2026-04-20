@@ -1,0 +1,30 @@
+---@class PCVer_ScreenSettingsPanel_UIBP_C:UUAEUserWidget
+---@field InitDisplayModeValue:fun()
+---@field DoDisplayModeLogic:fun(mode:int32)
+---@field PreConstruct:fun(IsDesignTime:bool)
+---@field Construct:fun()
+---@field CanvasPanel_Bottom PCVer_ScreenSetting_BottomBtn_UIBP_C
+---@field CanvasPanel_IPX UCanvasPanel
+---@field CanvasPanel_Right PCVer_Right_Item_UIBP_C
+---@field CanvasPanel_TopPageTab PCVer_PageItem_UIBP_C
+---@field CustomScrollBox_0 UCustomScrollBox
+---@field PCVer_AdaptiveCurveSwitch PCVer_ScreenSettings_Item3_UIBP_C
+---@field PCVer_AntiAliasingSet PCVer_ScreenSettings_Item3_UIBP_C
+---@field PCVer_CorrectBrightnessSet PCVer_ScreenSettings_Item4_UIBP_C
+---@field PCVer_DisplayModeSet PCVer_ScreenSettings_Item5_UIBP_C
+---@field PCVer_DisplayPerformanceParametersSet PCVer_ScreenSettings_Item3_UIBP_C
+---@field PCVer_FrameRateCustom PCVer_ScreenSettings_Item7_UIBP_C
+---@field PCVer_FrameRateSet PCVer_ScreenSettings_Item5_UIBP_C
+---@field PCVer_GI PCVer_ScreenSettings_Item3_UIBP_C
+---@field PCVer_GPUSet PCVer_ScreenSettings_Item5_UIBP_C
+---@field PCVer_GraphicsSet PCVer_ScreenSettings_Item5_UIBP_C
+---@field PCVer_GraphicsStyleSet PCVer_ScreenSettings_Item2_UIBP_C
+---@field PCVer_MonitorSet PCVer_ScreenSettings_Item5_UIBP_C
+---@field PCVer_ResolutionSet PCVer_ScreenSettings_Item5_UIBP_C
+---@field PCVer_SceneDepth PCVer_ScreenSettings_Item3_UIBP_C
+---@field PCVer_SceneViewDistanceSet PCVer_ScreenSettings_Item5_UIBP_C
+---@field PCVer_ShadowSet PCVer_ScreenSettings_Item3_UIBP_C
+---@field ScaleBox_IPX UScaleBox
+---@field VerticalBox_List1 UVerticalBox
+---@field VerticalBox_List2 UVerticalBox
+---@field table UUAEDataTable

@@ -1,0 +1,11 @@
+---@class Lock_NumMain_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field NewButton_ClearOne UNewButton
+---@field NewButton_Close UNewButton
+---@field NewButton_Mask UNewButton
+---@field NewButton_Sure UNewButton
+---@field NewButton_Sure_Gray UNewButton
+---@field Text_ScreenDisplay UTextBlock
+---@field WidgetSwitcher_Btn UWidgetSwitcher
+---@field WidgetSwitcher_State UWidgetSwitcher
+---@field WrapGroupBox_Num UWrapGroupBox

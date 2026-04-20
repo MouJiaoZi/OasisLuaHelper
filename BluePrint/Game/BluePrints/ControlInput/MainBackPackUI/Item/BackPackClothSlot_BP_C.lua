@@ -1,0 +1,23 @@
+---@class BackPackClothSlot_BP_C:UUAEUserWidget
+---@field LoadClothIconFinish:fun(icon:UObject)
+---@field GetSmallIcon:fun(ItemID:int32):bool,FString
+---@field OnTouchEnded:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field OnTouchStarted:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field OnDragDetected:fun(MyGeometry:FGeometry,PointerEvent:FPointerEvent):UDragDropOperation
+---@field GetNameByClothArmorType:fun():FText
+---@field ShowNull:fun()
+---@field ShowClothIcon:fun(ItemData:FBattleItemData)
+---@field Construct:fun()
+---@field OnDragCancelled:fun(PointerEvent:FPointerEvent,Operation:UDragDropOperation)
+---@field ItemBeDragCancelled__DelegateSignature:fun()
+---@field ItemBeDragBegin__DelegateSignature:fun(ItemData:FBattleItemData,DragOrigin:EBackPackDragOrigin)
+---@field Canvas_Clothingmask UCanvasPanel
+---@field Image_ClothingItemIcon UImage
+---@field Image_Clothingmask UImage
+---@field TextBlock_ItemName UTextBlock
+---@field ClothArmorType EBackpackClothArmorType
+---@field ItemData FBattleItemData
+---@field IsDataNull bool
+---@field ItemBeDragBegin ULuaMulticastDelegate
+---@field ItemBeDragCancelled ULuaMulticastDelegate
+---@field IsDetectDrag bool

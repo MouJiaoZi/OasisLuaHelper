@@ -1,0 +1,6 @@
+---@class BP_DayToNight_C:ADayToNightActor
+---@field UserConstructionScript:fun()
+---@field BP_ClientOnFireEvent:fun(eventID:int32,EventParam:int32)
+---@field DefaultSceneRoot USceneComponent
+---@field CockEvent UAkAudioEvent
+---@field StarShowerLocations ULuaArrayHelper

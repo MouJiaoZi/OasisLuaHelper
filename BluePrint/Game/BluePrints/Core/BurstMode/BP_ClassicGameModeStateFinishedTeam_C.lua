@@ -1,0 +1,1 @@
+---@class BP_ClassicGameModeStateFinishedTeam_C:UGameModeStateFinishedTeam

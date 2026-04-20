@@ -1,0 +1,3 @@
+---@class BP_Gift_Weapon_BattleItemHandle_C:UBP_Gift_BattleItem_C
+---@field HandleUse:fun(Target:FBattleItemUseTarget,Reason:EBattleItemUseReason):bool
+---@field HandleDrop:fun(InCount:int32,Reason:EBattleItemDropReason):bool

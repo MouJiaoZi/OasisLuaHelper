@@ -1,0 +1,15 @@
+---@class NewTraining_TitleMain_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field Button_Close UButton
+---@field Button_Remove UNewButton
+---@field Button_Use UNewButton
+---@field CanvasPanel_3 UCanvasPanel
+---@field Image_4 UImage
+---@field NewTraining_Title NewTraining_TitleItem_UIBP_C
+---@field ProgressBar_target UProgressBar
+---@field ReuseList2_Title ReuseList2_C
+---@field TextBlock_0 UTextBlock
+---@field TextBlock_Condition UTextBlock
+---@field TextBlock_deadline UTextBlock
+---@field TextBlock_Num UTextBlock
+---@field WidgetSwitcher_Options UWidgetSwitcher

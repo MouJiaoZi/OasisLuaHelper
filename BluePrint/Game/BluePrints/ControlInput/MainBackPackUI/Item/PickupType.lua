@@ -1,0 +1,4 @@
+---@class PickupType
+---@field NewEnumerator0 int32
+---@field NewEnumerator1 int32
+---@field PickupType_MAX int32

@@ -1,0 +1,4 @@
+---@class BP_OBEffectBullet_C:AOBEffectBullet
+---@field UserConstructionScript:fun()
+---@field P_signal_bullet_01 UParticleSystemComponent
+---@field DefaultSceneRoot USceneComponent

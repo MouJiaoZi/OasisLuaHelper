@@ -1,0 +1,8 @@
+---@class MobileEditor_EffectsUnit_EffectSet_UIBP_C:UUAEUserWidget
+---@field CanvasPanel_Trans UCanvasPanel
+---@field MotionDetailViewWidget UGCMobileDetailViewWidget_C
+---@field NewButton_Quit UNewButton
+---@field NewButton_StartTest UNewButton
+---@field NewButton_StopTest UNewButton
+---@field SetAdvanced_HelpTips_UIBP SetAdvanced_HelpTips_UIBP_C
+---@field WidgetSwitcher_Test UWidgetSwitcher

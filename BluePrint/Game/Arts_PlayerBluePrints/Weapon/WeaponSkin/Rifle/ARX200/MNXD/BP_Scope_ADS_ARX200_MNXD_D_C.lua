@@ -1,0 +1,1 @@
+---@class BP_Scope_ADS_ARX200_MNXD_D_C:BP_Scope_ADS_ARX200_C

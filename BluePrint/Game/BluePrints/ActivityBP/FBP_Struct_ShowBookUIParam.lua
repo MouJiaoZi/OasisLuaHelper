@@ -1,0 +1,5 @@
+---@class FBP_Struct_ShowBookUIParam
+---@field EventID int32
+---@field Weight int32
+---@field TipsTextID int32
+---@field ContentList ULuaArrayHelper

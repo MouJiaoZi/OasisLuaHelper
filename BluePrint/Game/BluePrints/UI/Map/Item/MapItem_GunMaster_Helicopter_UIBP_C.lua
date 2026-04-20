@@ -1,0 +1,7 @@
+---@class MapItem_GunMaster_Helicopter_UIBP_C:UMapUIMarkBaseWidget
+---@field OnUIBPCreate:fun(InState:FCustomMarkEventData,ParentState:EMarkParentWidget,inRealLevelToMapScale:float,inMapScale:float)
+---@field UpdateMarkSize:fun(inScale:float,inMapScale:float,MapScaleInUI:float)
+---@field UpdateUIBPState:fun(InState:FCustomMarkEventData)
+---@field Image_Destroy UImage
+---@field VisiableSize float
+---@field bUpdateSize bool

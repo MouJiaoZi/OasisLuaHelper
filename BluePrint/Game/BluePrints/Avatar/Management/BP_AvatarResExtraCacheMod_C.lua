@@ -1,0 +1,1 @@
+---@class BP_AvatarResExtraCacheMod_C:UAvatarResExtraCacheMod

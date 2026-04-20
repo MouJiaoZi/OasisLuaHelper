@@ -1,0 +1,36 @@
+---@class MicphonePanel_UIBP_C:UUAEUserWidget
+---@field CanOpenAllMic:fun():bool
+---@field HidePanel:fun()
+---@field ShowPanel:fun(parent:MainControlBaseUI_C)
+---@field allWalkieTalkie_selected UImage
+---@field btn_allInterphone UButton
+---@field btn_groupInterphone UButton
+---@field btn_teamInterphone UButton
+---@field button_micphoneallchannel UButton
+---@field button_micphoneCamponly UButton
+---@field button_micphoneclose UButton
+---@field button_micphoneteamonly UButton
+---@field CampWalkieTalkie_selectd UImage
+---@field Image_line UImage
+---@field Image_line2 UImage
+---@field Image_Microphone_yy_Btn01 UImage
+---@field Image_Microphone_yy_Btn02 UImage
+---@field Image_Microphone_yy_Btn03 UImage
+---@field Image_Microphone_yy_Btn04 UImage
+---@field Image_WalkieTalkie01 UImage
+---@field Image_WalkieTalkie02 UImage
+---@field Image_WalkieTalkie03 UImage
+---@field InterphoneNode UVerticalBox
+---@field micphone_btnAll UCanvasPanel
+---@field micphone_BtnCamp UCanvasPanel
+---@field micphone_BtnTeam UCanvasPanel
+---@field micphoneAllChannel_selected UImage
+---@field micphoneCamp_selected UImage
+---@field micphoneClose_selected UImage
+---@field micphoneteam_selected UImage
+---@field teamWalkieTalkie_selectd UImage
+---@field TextBlock_pressDownTalk UTextBlock
+---@field WalkieTalkie_btnAll UCanvasPanel
+---@field WalkieTalkie_BtnCamp UCanvasPanel
+---@field WalkieTalkie_BtnTeam UCanvasPanel
+---@field ParentPanel MainControlBaseUI_C

@@ -1,0 +1,2 @@
+---@class BP_ShootingPracticeTarget_C:AShootingPracticeTarget
+---@field UserConstructionScript:fun()

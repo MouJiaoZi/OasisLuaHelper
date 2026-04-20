@@ -1,0 +1,3 @@
+---@class PickUp_LZPS39_BP_Jacket_1823_C:APickUpWrapperActor
+---@field UserConstructionScript:fun()
+---@field Bag_03_icon UStaticMeshComponent

@@ -1,0 +1,22 @@
+---@class RingMatch_SignUPMain_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field UIMsg_BigPanelWidgetOpen:fun(NewParam:FString)
+---@field DX_QueueTimeTips UWidgetAnimation
+---@field Border_QueueTimeTips UBorder
+---@field Button_CloseBackPackUI UButton
+---@field Canvas_QueueTimeTips UCanvasPanel
+---@field CanvasPanel_EmptyTips UCanvasPanel
+---@field CanvasPanel_EnrollBtn UCanvasPanel
+---@field CanvasPanel_Main UCanvasPanel
+---@field NewButton_CancelQueue UNewButton
+---@field NewButton_Queue UNewButton
+---@field NewButton_SignUP UNewButton
+---@field ReuseList2_SignUP ReuseList2_C
+---@field RingMatch_SignUPInfo RingMatch_SignUPInfo_UIBP_C
+---@field TextBlock_queue UTextBlock
+---@field TextBlock_RowNum UTextBlock
+---@field TextBlock_Ticket UTextBlock
+---@field TextBlock_TicketNum UTextBlock
+---@field WaitCountPanel UHorizontalBox
+---@field WidgetSwitcher_EmptyText UWidgetSwitcher
+---@field WidgetSwitcher_OP UWidgetSwitcher

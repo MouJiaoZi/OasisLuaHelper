@@ -1,0 +1,2 @@
+---@class BPTask_Base_C:UUAETriggerObject_Task
+---@field GetClassPath:fun(RowName:FString):FString

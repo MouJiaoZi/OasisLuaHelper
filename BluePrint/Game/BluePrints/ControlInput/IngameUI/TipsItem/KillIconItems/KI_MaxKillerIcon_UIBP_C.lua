@@ -1,0 +1,3 @@
+---@class KI_MaxKillerIcon_UIBP_C:UKillIconBase_UIBP_C
+---@field RefreshDetailInfo:fun(RecordData:FClientFatalDamageRecordData):bool
+---@field MaxKillerIcon UImage

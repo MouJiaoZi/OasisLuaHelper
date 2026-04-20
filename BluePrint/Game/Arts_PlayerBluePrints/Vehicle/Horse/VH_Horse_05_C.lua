@@ -1,0 +1,62 @@
+---@class VH_Horse_05_C:ASTExtraHorseVehicle
+---@field ForceShowHitEffectWhenIsInvincible:fun(Causer:AActor):bool
+---@field GetBulletHitEffectDataAssetWithCaster:fun(HitComp:UPrimitiveComponent,Caster:UObject,CasterOwner:AActor):UHitEffectDataAsset
+---@field GetBulletHitEffectLifeTime:fun(HitComp:UPrimitiveComponent):float
+---@field GetBulletHitEffectDataAsset:fun(HitComp:UPrimitiveComponent):UHitEffectDataAsset
+---@field GetBulletHitEffectDataAssetTag:fun(Comp:UPrimitiveComponent):FString
+---@field ShouldHideBulletHitEffect:fun(BulletOwner:UObject):bool
+---@field OnHorseFrightened:fun()
+---@field GetHorseAnimBP:fun():AnimBP_Horse_C
+---@field ShouldHandleAnimUpdateRate:fun(BaseCharacter:ASTExtraBaseCharacter):bool
+---@field EnableVehicleHandFolder:fun(bIsEnable:bool,BaseCharacter:ASTExtraBaseCharacter)
+---@field CheckEnableHoldCurrentWeaponEX:fun(Weapon:ASTExtraWeapon):bool
+---@field ResetD:fun()
+---@field OnTakeDamageByShoot:fun()
+---@field PlayBackMontage:fun()
+---@field OnDie:fun()
+---@field OnHitByVehicle:fun(dir:EHitDir)
+---@field PlayRightMontage:fun()
+---@field PlayFrontMontage:fun()
+---@field PlayLeftMontage:fun()
+---@field OnHit:fun(Dir:int32)
+---@field CallingByPlayer:fun(player:ASTExtraCharacter):ECallingVehicleResult
+---@field HitOthers:fun(OtherActor:AActor,MaxHitVelocity:float,VelocityNeedToJump:float)
+---@field UserConstructionScript:fun()
+---@field HandleHitByBullet:fun(Causer:AActor,bIsHeadshot:bool)
+---@field OnEnteringVehicleOnServer:fun(IsSucc:bool)
+---@field OnExitingVehicleOnServer:fun()
+---@field OnChangedState:fun(type:EHorseBehaviorType)
+---@field ReceivePointDamage:fun(Damage:float,DamageType:UDamageType,HitLocation:FVector,HitNormal:FVector,HitComponent:UPrimitiveComponent,BoneName:FName,ShotFromDirection:FVector,InstigatedBy:AController,DamageCauser:AActor,HitInfo:FHitResult)
+---@field PostOnPlayerActiveRegionsChangedBP:fun(bEnter:bool)
+---@field OnRep_DSSpawnTime:fun()
+---@field STBaseBuffSystem USTBaseBuffSystemComponent
+---@field BP_HorseAnimListCompExtra_Passenger BP_HorseAnimListCompExtra_C
+---@field BP_HorseAnimListCompExtra_Driver BP_HorseAnimListCompExtra_C
+---@field MyriapodEnvReponse UMyriapodEnvReponseComponent
+---@field BP_AnimSeqRootCurveComp_UpDownHorse BP_AnimSeqRootCurveComp_UpDownHorse_C
+---@field STHorseByRidingState USTHorseByRidingStateComponent
+---@field STHorseGrassState USTHorseGrassStateComponent
+---@field STHorseIdleState USTHorseIdleStateComponent
+---@field HardreferenceUObject UHardreferenceUObject
+---@field Camera UCameraComponent
+---@field VehicleSpringArm UVehicleSpringArmComponent
+---@field RunCameraShaking bool
+---@field RunCameraShakeObj UCameraShake
+---@field LastAngleSign float
+---@field AngleDampRate float
+---@field IsAutoJumping bool
+---@field IsAdjustObstacle bool
+---@field IsDamaged bool
+---@field HitAngle float
+---@field ImpulseCount int32
+---@field ImpulseMaxCount int32
+---@field AIController_0 AAIController
+---@field CurrentCallingPlayer AActor
+---@field Driver ASTExtraPlayerCharacter
+---@field EIdlePose HorseIdle
+---@field StayPoseWeight float
+---@field HorseAnimBp AnimBP_Horse_C
+---@field bHasOccupier bool
+---@field SpawnEffectActorClassPath FString
+---@field bActiveAvatarParticle bool
+---@field AcatarParticleNum int32

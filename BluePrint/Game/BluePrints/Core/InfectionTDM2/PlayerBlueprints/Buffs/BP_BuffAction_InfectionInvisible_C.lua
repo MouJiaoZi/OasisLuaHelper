@@ -1,0 +1,3 @@
+---@class BP_BuffAction_InfectionInvisible_C:USTExtraBuffAction
+---@field OnRealDoAction:fun():bool
+---@field OnUndoAction:fun()

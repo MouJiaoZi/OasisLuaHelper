@@ -1,0 +1,3 @@
+---@class BP_VehicleTriggerArea_C:ABP_ActorTriggerArea_C
+---@field GetLuaModule:fun():FString
+---@field UserConstructionScript:fun()

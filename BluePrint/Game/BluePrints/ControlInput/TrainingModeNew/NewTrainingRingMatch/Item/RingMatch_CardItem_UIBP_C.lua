@@ -1,0 +1,9 @@
+---@class RingMatch_CardItem_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field UpdateCardItemData:fun(NewParam:FPlayerBoardData)
+---@field Construct:fun()
+---@field Common_Avatar_BP Common_Avatar_BP_C
+---@field Image_Segment UImage
+---@field TextBlock_Identity UTextBlock
+---@field TextBlock_Player UTextBlock
+---@field WidgetSwitcher_Gender UWidgetSwitcher

@@ -1,0 +1,3 @@
+---@class VehicleBackPackTips_UIBP_C:UNewbieGuideWidget
+---@field OnCreateAndShow:fun(GuideId:int32,UIConfigIndex:int32)
+---@field UTRichTextBlock_VehicleBackPackTips UUTRichTextBlock

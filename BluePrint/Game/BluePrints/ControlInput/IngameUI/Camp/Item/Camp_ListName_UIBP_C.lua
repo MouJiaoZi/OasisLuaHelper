@@ -1,0 +1,5 @@
+---@class Camp_ListName_UIBP_C:UUAEUserWidget
+---@field CampPlayer01 Camp_ListNameItem_UIBP_C
+---@field CampPlayer02 Camp_ListNameItem_UIBP_C
+---@field CampPlayer03 Camp_ListNameItem_UIBP_C
+---@field CampPlayer04 Camp_ListNameItem_UIBP_C

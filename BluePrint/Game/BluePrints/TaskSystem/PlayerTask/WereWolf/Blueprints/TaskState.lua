@@ -1,0 +1,6 @@
+---@class TaskState
+---@field Hide int32
+---@field New int32
+---@field Complete int32
+---@field Completing int32
+---@field TaskState_MAX int32

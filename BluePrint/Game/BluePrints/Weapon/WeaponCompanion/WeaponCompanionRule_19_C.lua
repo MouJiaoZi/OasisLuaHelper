@@ -1,0 +1,11 @@
+---@class WeaponCompanionRule_19_C:UBP_WeaponCompanionRuleBase_C
+---@field OnInit:fun()
+---@field OnRemove:fun()
+---@field OnTringgerEvent:fun(eventType:EWeaponsCompanionVoiceEvent,eventParam:UObject)
+---@field Vehicle ASTExtraVehicleBase
+---@field RegisterVehicleCharacter ASTExtraBaseCharacter
+---@field CumulativeTime float
+---@field VacuumTime float
+---@field ConditionTag bool
+---@field NeedCumulativeTime float
+---@field AllowVacuumTime float

@@ -1,0 +1,15 @@
+---@class BP_ParachuteFireworksArea_C:ABP_ParachuteFireArea_C
+---@field UserConstructionScript:fun()
+---@field BPEndFireworks:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field Ak UAkComponent
+---@field beam UBoxComponent
+---@field B_t UBoxComponent
+---@field B_b UBoxComponent
+---@field B_l UBoxComponent
+---@field B_r UBoxComponent
+---@field Top UBoxComponent
+---@field Bottom_0 UBoxComponent
+---@field BPlayAudio bool
+---@field AudioTime float
+---@field AudioID int32

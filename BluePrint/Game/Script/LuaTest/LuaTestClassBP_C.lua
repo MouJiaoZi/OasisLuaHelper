@@ -1,0 +1,38 @@
+---@class LuaTestClassBP_C:UPerformanceTestClass
+---@field TestGetFStructImpl:fun():FLuaTestStruct
+---@field TestGetTArrayImpl:fun():ULuaArrayHelper
+---@field TestGetTMapImpl:fun():ULuaMapHelper
+---@field TestGetTSetImpl:fun():ULuaSetHelper
+---@field TestGetFTextImpl:fun():FText
+---@field TestGetFNameImpl:fun():FName
+---@field TestGetObjectImpl:fun():UObject
+---@field TestGetFloatImpl:fun():float
+---@field TestGetBoolImpl:fun():bool
+---@field TestGetUInt8Impl:fun():uint8
+---@field TestGetFStringImpl:fun():FString
+---@field TestGetInt32Impl:fun():int32
+---@field TestEmptyImpl:fun()
+---@field TestSetInt32Impl:fun(Value:int32)
+---@field TestSetFStringImpl:fun(Value:FString)
+---@field TestSetUInt8Impl:fun(Value:uint8)
+---@field TestSetBoolImpl:fun(Value:bool)
+---@field TestSetFloatImpl:fun(Value:float)
+---@field TestSetObjectImpl:fun(Value:UObject)
+---@field TestSetFNameImpl:fun(Value:FName)
+---@field TestSetFTextImpl:fun(Value:FText)
+---@field TestSetTSetImpl:fun(Value:ULuaSetHelper)
+---@field TestSetTMapImpl:fun(Value:ULuaMapHelper)
+---@field TestSetTArrayImpl:fun(Value:ULuaArrayHelper)
+---@field TestSetFStructImpl:fun(Value:FLuaTestStruct)
+---@field BPInt32Var int32
+---@field BPFStringVar FString
+---@field BPUInt8Var uint8
+---@field BPBoolVar bool
+---@field BPFloatVar float
+---@field BPObjectVar UObject
+---@field BPFNameVar FName
+---@field BPFTextVar FText
+---@field BPTSetVar ULuaSetHelper
+---@field BPFStructVar FLuaTestStruct
+---@field BPTArrayVar ULuaArrayHelper
+---@field BPTMapVar ULuaMapHelper

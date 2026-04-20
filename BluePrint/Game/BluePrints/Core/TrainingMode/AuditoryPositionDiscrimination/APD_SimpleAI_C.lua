@@ -1,0 +1,6 @@
+---@class APD_SimpleAI_C:AActor
+---@field UserConstructionScript:fun()
+---@field Mesh USkeletalMeshComponent
+---@field Cylinder UStaticMeshComponent
+---@field Capsule UCapsuleComponent
+---@field GameModeActor AActor

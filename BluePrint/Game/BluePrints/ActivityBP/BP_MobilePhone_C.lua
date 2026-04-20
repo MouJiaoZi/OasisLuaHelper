@@ -1,0 +1,4 @@
+---@class BP_MobilePhone_C:AActor
+---@field UserConstructionScript:fun()
+---@field CG03_Phone UStaticMeshComponent
+---@field DefaultSceneRoot USceneComponent

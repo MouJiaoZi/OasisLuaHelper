@@ -1,0 +1,1 @@
+---@class BattleItemHandle_FTF_BP_Hair_1271_C:BattleItemHandle_AvatarBP_C

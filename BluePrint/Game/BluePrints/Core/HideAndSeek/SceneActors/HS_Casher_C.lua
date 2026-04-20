@@ -1,0 +1,1 @@
+---@class HS_Casher_C:AHiderSceneActorBase_C

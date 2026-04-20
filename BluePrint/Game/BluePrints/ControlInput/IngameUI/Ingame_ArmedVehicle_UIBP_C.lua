@@ -1,0 +1,73 @@
+---@class Ingame_ArmedVehicle_UIBP_C:UIngameArmedVehicleUI
+---@field SwitchDriverFireState:fun(bFire:bool):bool
+---@field UpdateUseVehicleWeaponUI:fun(bUse:bool,VehicleWeapon:ASTExtraShootWeapon):bool
+---@field ShowVehicleWeaponUI:fun(bIsDriver:bool):bool
+---@field SetCustomizeLayout:fun()
+---@field ItemUpdated:fun(DefineID:FItemDefineID)
+---@field TimerToBindChangeInventoryDataDelegate:fun(WeaponPropSlot:ESurviveWeaponPropSlot)
+---@field InitBindEvents:fun()
+---@field SwitchDriverFireButton:fun(bFire:bool)
+---@field InitDriverFireButton:fun(bIsDriver:bool)
+---@field GetVehicleControlMode:fun():EVehicleControlType
+---@field ShowInterferenceLine:fun()
+---@field InitCompass:fun()
+---@field OnDriverVehicleWeapon:fun(bUse:bool)
+---@field ShowVehicleWeaponUIImp:fun(bIsDriver:bool)
+---@field UpdateUseVehicleWeaponUIImp:fun(bUse:bool,VehicleWeapon:ASTExtraShootWeapon)
+---@field IsNowUAV:fun():bool
+---@field RefreshWeaponImage:fun(Image:UObject)
+---@field UpdateWeaponImage:fun()
+---@field UpdateWeaponBulletOnShoot:fun()
+---@field HandleChangeCurrentUsingWeapon:fun(WeaponPropSlot:ESurviveWeaponPropSlot)
+---@field UpdateWeaponBulletCount:fun()
+---@field OnUseVehicleWeapon:fun()
+---@field GetVehicleUser:fun():BP_VehicleUser_C
+---@field Construct:fun()
+---@field ArmedVehicleWeaponIcon UImage
+---@field Border_ArmedVehicleWeaponIcon UBorder
+---@field CanvasPanel_ButtonsOnlyMode UCanvasPanel
+---@field CanvasPanel_HelicopterCompass UCanvasPanel
+---@field CanvasPanel_JoystickMode UCanvasPanel
+---@field CanvasPanel_SteeringWheelMode UCanvasPanel
+---@field CanvasPanel_TankBullet_ButtonsOnlyMode UCanvasPanel
+---@field CanvasPanel_TankBullet_JoystickMode UCanvasPanel
+---@field CanvasPanel_TankBullet_SteeringWheelMode UCanvasPanel
+---@field CompassImage UImage
+---@field Custom_Canvas_117 CustomizeCanvasPanel_BP_C
+---@field CustomizeCanvasPanel_BP_V89 CustomizeCanvasPanel_BP_C
+---@field CustomizeCanvasPanel_BP_V90 CustomizeCanvasPanel_BP_C
+---@field CustomizeCanvasPanel_BP_V91 CustomizeCanvasPanel_BP_C
+---@field CustomizeCanvasPanel_Switch CustomizeCanvasPanel_BP_C
+---@field Image_zaijuwuqiBG UImage
+---@field Image_zaijuwuqiBG_Select UImage
+---@field InterferenceLine UImage
+---@field NewButton_ButtonsOnlyMode UNewButton
+---@field NewButton_JoystickMode UNewButton
+---@field NewButton_Selected UNewButton
+---@field NewButton_SteeringWheelMode UNewButton
+---@field NewButton_TankBullet_ButtonsOnly UNewButton
+---@field NewButton_TankBullet_Joystick UNewButton
+---@field NewButton_TankBullet_SteeringWheel UNewButton
+---@field NewButton_Unselected UNewButton
+---@field NewButton_Zaijuwuqi UNewButton
+---@field TankBullet_ButtonsOnlyMode CustomizeCanvasPanel_BP_C
+---@field TankBullet_JoystickMode CustomizeCanvasPanel_BP_C
+---@field TankBullet_SteeringWheelMode CustomizeCanvasPanel_BP_C
+---@field TextBlock_0 UTextBlock
+---@field TextBlock_CurrentNumberOfBullets UTextBlock
+---@field TextBlock_MaxNumberOfBullets UTextBlock
+---@field TextBlock_Value UTextBlock
+---@field VehicleWeaponBorder UBorder
+---@field VehicleWeaponSlot UCanvasPanel
+---@field WidgetSwitcher_BG UWidgetSwitcher
+---@field WidgetSwitcher_BtnSelected UWidgetSwitcher
+---@field WidgetSwitcher_ButtonsOnlyMode UWidgetSwitcher
+---@field WidgetSwitcher_JoystickMode UWidgetSwitcher
+---@field WidgetSwitcher_SteeringWheelMode UWidgetSwitcher
+---@field IsDriver bool
+---@field WeaponManager UWeaponManagerComponent
+---@field WidgetSwitcher_ActivedControlMode UWidgetSwitcher
+---@field CanvasPanel_ActivedControlMode UCanvasPanel
+---@field bDriverFired bool
+---@field bInitBindEvents bool
+---@field VehicleCustomizePanelList ULuaArrayHelper

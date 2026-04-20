@@ -1,0 +1,1 @@
+---@class BP_MinerCameraShake_C:UCameraShake

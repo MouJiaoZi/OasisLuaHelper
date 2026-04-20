@@ -1,0 +1,5 @@
+---@class BP_BRGameState_TeamHardPoint_C:ABRGameStateTeam_HardPoint
+---@field UserConstructionScript:fun()
+---@field BP_ObjectPosMgr BP_ObjectPosMgr_C
+---@field BackgroundMusic UBackgroundMusicComponent
+---@field DefaultSceneRoot USceneComponent

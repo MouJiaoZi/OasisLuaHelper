@@ -1,0 +1,2 @@
+---@class DoorInterface_C:UInterface
+---@field RefreshUIOnClientInf:fun():bool

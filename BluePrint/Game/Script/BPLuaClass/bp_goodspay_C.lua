@@ -1,0 +1,4 @@
+---@class bp_goodspay_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_ENUM_MODULE_ALAN_WALKER_GOODS_PAY int32

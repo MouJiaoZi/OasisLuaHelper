@@ -1,0 +1,1 @@
+---@class BP_Scope_ADS_MP7_MJWS_C:BP_Scope_ADS_MP7_C

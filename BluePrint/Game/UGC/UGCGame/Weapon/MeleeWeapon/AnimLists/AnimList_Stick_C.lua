@@ -1,0 +1,1 @@
+---@class AnimList_Stick_C:WeaponAnimList_Melee_C

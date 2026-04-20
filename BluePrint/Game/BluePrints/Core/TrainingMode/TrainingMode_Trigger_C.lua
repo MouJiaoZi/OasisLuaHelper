@@ -1,0 +1,3 @@
+---@class TrainingMode_Trigger_C:ASTExtraLevelDirector
+---@field UserConstructionScript:fun()
+---@field DefaultSceneRoot USceneComponent

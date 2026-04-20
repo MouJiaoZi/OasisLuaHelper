@@ -1,0 +1,1 @@
+---@class HS_Poolsidetable02_C:AHiderSceneActorBase_C

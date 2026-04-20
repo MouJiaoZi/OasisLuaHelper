@@ -1,0 +1,6 @@
+---@class TrainingMode_ShowStageCountdown_UIBP_Interface_C:UInterface
+---@field SetUIPlayerName:fun(Name:FString)
+---@field SetUIBuyLevel:fun(BuyLevel:int32)
+---@field SetUIGender:fun(Gender:int32)
+---@field SetUICharmValue:fun(Charm:int32)
+---@field SetUITimeText:fun(Sec:float)

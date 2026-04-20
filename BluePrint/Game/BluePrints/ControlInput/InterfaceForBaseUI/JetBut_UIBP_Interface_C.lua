@@ -1,0 +1,2 @@
+---@class JetBut_UIBP_Interface_C:UInterface
+---@field InitAccelerateShowMode:fun(Mode:int32):bool

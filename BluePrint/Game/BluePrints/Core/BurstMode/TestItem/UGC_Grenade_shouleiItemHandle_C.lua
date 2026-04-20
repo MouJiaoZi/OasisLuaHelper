@@ -1,0 +1,1 @@
+---@class UGC_Grenade_shouleiItemHandle_C:UGrenade_Shoulei_ItemHandle_C

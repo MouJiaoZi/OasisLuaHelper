@@ -1,0 +1,1 @@
+---@class BP_BattleRoyaleGameModeTeamDesertAllStorm_4_C:ABP_BattleRoyaleGameModeTeamPUBG_C

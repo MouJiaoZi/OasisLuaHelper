@@ -1,0 +1,5 @@
+---@class BP_Sniper_QBU_C:BP_ShootWeaponBase_C
+---@field UserConstructionScript:fun()
+---@field WeaponAnimList_Sniper_QBU WeaponAnimList_Sniper_QBU_C
+---@field Arrow1 UArrowComponent
+---@field bUseIdleAnim_0_0 bool

@@ -1,0 +1,1 @@
+---@class WeaponAnimList_UGC_ElectricGun_test_C:UUAECharacterAnimListComponent

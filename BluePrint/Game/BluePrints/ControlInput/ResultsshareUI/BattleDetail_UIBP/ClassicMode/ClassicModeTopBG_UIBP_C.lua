@@ -1,0 +1,7 @@
+---@class ClassicModeTopBG_UIBP_C:UUAEUserWidget
+---@field SetResultTop:fun(single:bool):bool
+---@field SetResultVictory:fun(vic:bool):bool
+---@field ShowResultModeBGDetail:fun(show:bool):bool
+---@field CanvasPanel_ClassicModevictory1 UCanvasPanel
+---@field CanvasPanel_ClassicModevictory2 UCanvasPanel
+---@field WidgetSwitcher_ClassicModeTopBGType UWidgetSwitcher

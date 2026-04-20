@@ -1,0 +1,15 @@
+---@class Tmode_TabItem_UIBP_C:UUAEUserWidget
+---@field Highlight:fun()
+---@field UpdatePlayerBattleInfo:fun(PlayerData:FDeathMatchPlayerStateData)
+---@field InitPlayerInfo:fun(PlayerInfo:FDeathMatchPlayerInfo)
+---@field Common_Avatar_BP Common_Avatar_BP_C
+---@field Image_Check UImage
+---@field Text_Playername UTextBlock
+---@field TextBlock_AssistNumber UTextBlock
+---@field TextBlock_DieNumber UTextBlock
+---@field TextBlock_KIllNumber UTextBlock
+---@field WidgetSwitcher_BOY UWidgetSwitcher
+---@field Color_Yellow FSlateColor
+---@field Color_White FSlateColor
+---@field PlayerUIDString FString
+---@field IsUsed bool

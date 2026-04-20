@@ -1,0 +1,1 @@
+---@class BP_Rifle_Famas_BattleItemHandle_IPRZ_A_Lobby_C:UBackpackWeaponHandle

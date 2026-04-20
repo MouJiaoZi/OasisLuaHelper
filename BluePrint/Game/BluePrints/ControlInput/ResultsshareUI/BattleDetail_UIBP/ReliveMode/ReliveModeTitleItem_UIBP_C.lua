@@ -1,0 +1,6 @@
+---@class ReliveModeTitleItem_UIBP_C:UUAEUserWidget
+---@field RefreshAssistStatus:fun(isSingleMode:bool):bool
+---@field SetTitleSayHelloInfo:fun(flag:bool):bool
+---@field TestDjw:fun(NewParam:bool,NewParam1:bool):bool
+---@field NoReturnNoParam:fun()
+---@field GridPanel_AssistNum UGridPanel

@@ -1,0 +1,20 @@
+---@class BP_Ball_C:AProjBallBase
+---@field GetVehicleDamagedSpeed:fun():int32
+---@field GetVehicleDamagedCoefficient:fun():int32
+---@field GetSpeed:fun(NewParam:FVector):float
+---@field BP_PreTakeDamage:fun(DamageAmount:float,DamageEvent:FDamageEvent,EventInstigator:AController,DamageCauser:AActor):float
+---@field BP_GetCanBePicked:fun():bool
+---@field UserConstructionScript:fun()
+---@field ReceiveAnyDamage:fun(Damage:float,DamageType:UDamageType,InstigatedBy:AController,DamageCauser:AActor)
+---@field STBaseBuffSystem USTBaseBuffSystemComponent
+---@field Broken_Particle UParticleSystemComponent
+---@field CustomRotatingMovement UCustomRotatingMovementComponent
+---@field Sphere UStaticMeshComponent
+---@field AddVelocityAkEvent UAkAudioEvent
+---@field CurrentHealth float
+---@field FullHealth float
+---@field VehicleCanDamageSpeedMin int32
+---@field VehicleDamage int32
+---@field LastHitPlayerID int64
+---@field SurfaceType EPhysicalSurface
+---@field DamageTypeClass UClass

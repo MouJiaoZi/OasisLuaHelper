@@ -1,0 +1,3 @@
+---@class BP_HeavyWeaponGameMode_V2_C:ABP_BattleRoyaleGameModeTeamPUBG_C
+---@field UserConstructionScript:fun()
+---@field SpawnMonsterHelperComp USpawnMonsterHelperComp

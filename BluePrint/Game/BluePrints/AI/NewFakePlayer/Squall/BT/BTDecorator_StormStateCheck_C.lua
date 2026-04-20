@@ -1,0 +1,4 @@
+---@class BTDecorator_StormStateCheck_C:UBTDecorator_BlueprintBase
+---@field NextStormTimeLeft FBlackboardKeySelector
+---@field IsStorm FBlackboardKeySelector
+---@field CheckTimeLeft float

@@ -1,0 +1,7 @@
+---@class bp_watching_invite_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_InviteWnd_StayTime int32
+---@field BP_WatchingInviteUI_IsReserved bool
+---@field BP_WatchingInviteUI_IgnoreTips FString
+---@field BP_WatchingInviteUI_Tips FString

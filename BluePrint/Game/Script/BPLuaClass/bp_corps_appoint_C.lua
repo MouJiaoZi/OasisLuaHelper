@@ -1,0 +1,6 @@
+---@class bp_corps_appoint_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_ARRAY_CorpsAppoint_PositionCountMax ULuaArrayHelper
+---@field BP_CorpsAppoint_ChangeType int32
+---@field BP_ARRAY_CorpsAppoint_PositionCount ULuaArrayHelper

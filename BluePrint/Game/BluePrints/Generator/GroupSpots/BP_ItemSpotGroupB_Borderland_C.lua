@@ -1,0 +1,4 @@
+---@class BP_ItemSpotGroupB_Borderland_C:ASTExtraHouseActor
+---@field UserConstructionScript:fun()
+---@field BP_ItemSpotGroupComponent BP_ItemSpotGroupComponent_C
+---@field BP_ItemSpotComponent1 BP_ItemSpotComponent_C

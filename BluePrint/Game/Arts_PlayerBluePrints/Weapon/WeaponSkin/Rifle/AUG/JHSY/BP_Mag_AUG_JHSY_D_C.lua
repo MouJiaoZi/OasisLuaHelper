@@ -1,0 +1,1 @@
+---@class BP_Mag_AUG_JHSY_D_C:BP_Mag_AKM_C

@@ -1,0 +1,1 @@
+---@class BP_BattleRoyaleGameModeTeamPUBG_Four_Midautumn09_C:ABP_BattleRoyaleGameModeTeamPUBG_Four_C

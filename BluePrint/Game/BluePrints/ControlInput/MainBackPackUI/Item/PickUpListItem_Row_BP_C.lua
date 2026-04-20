@@ -1,0 +1,27 @@
+---@class PickUpListItem_Row_BP_C:UPickUpTombItemC
+---@field UpdateTombBoxDataWithoutItem:fun(box:APlayerTombBox,boxList:ULuaArrayHelper)
+---@field IsRevivalCard:fun(BattleSearchBoxSortingInfo:FBattleSearchBoxSortingInfo):bool
+---@field UpdateGroundItemData:fun(sortInfoList:ULuaArrayHelper)
+---@field UpdateTombBoxData:fun(box:APlayerTombBox,boxList:ULuaArrayHelper)
+---@field MakesureListEnough:fun(count:int32)
+---@field Construct:fun()
+---@field UpdateTombBoxItem:fun(Box:APlayerTombBox,Count:int32)
+---@field SetBoxColumn:fun(BoxColumn:int32)
+---@field CanvasPanel_Thank UCustomSocketPanel
+---@field HorizontalBox_EmptyBoxTips UHorizontalBox
+---@field HorizontalBox_stop UHorizontalBox
+---@field playerName UTextBlock
+---@field SizeBox_ItemList USizeBox
+---@field Spacer_Thank USpacer
+---@field TextBox UTextBlock
+---@field WrapBox_List UWrapBox
+---@field ParentUserWidget UUserWidget
+---@field CheckSum int32
+---@field tombName FString
+---@field isTeammate bool
+---@field pool UUIDuplicatedItemPool
+---@field TombBoxList ULuaArrayHelper
+---@field GroundItems bool
+---@field GroundBoxList ULuaArrayHelper
+---@field EliminateThank_BP UUAEUserWidget
+---@field MarkedArray ULuaArrayHelper

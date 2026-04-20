@@ -1,0 +1,1 @@
+---@class BP_Sniper_M200_BattleItemHandle_ZSHB_Lobby_C:UBackpackWeaponHandle

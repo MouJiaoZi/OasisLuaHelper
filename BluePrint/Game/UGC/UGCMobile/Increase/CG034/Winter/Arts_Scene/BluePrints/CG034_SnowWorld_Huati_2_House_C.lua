@@ -1,0 +1,6 @@
+---@class CG034_SnowWorld_Huati_2_House_C:BP_UGCMobileHouseBase_C
+---@field UserConstructionScript:fun()
+---@field CG034_SnowWorld_Huati_03 UStaticMeshComponent
+---@field CG034_SnowWorld_Huati_02 UStaticMeshComponent
+---@field CG034_SnowWorld_Huati_04 UStaticMeshComponent
+---@field StaticMesh UStaticMeshComponent

@@ -1,0 +1,14 @@
+---@class BattleSceneAvatarDisplay_UIBP_C:UUAEUserWidget
+---@field InitPlayerName:fun()
+---@field OnTouchEnded:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field OnTouchMoved:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field OnTouchStarted:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field Spacer_Fourth USpacer
+---@field Spacer_MVP USpacer
+---@field Spacer_Self USpacer
+---@field Spacer_Third USpacer
+---@field IsPressed bool
+---@field LocationX float
+---@field ImgBrush FSlateBrush
+---@field DisplayAvatarName FString
+---@field CurSlidePoseComp UBattleSceneAvatarDisplayPoseComponent

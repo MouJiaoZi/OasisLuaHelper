@@ -1,0 +1,2 @@
+---@class BP_WarteringAreaBase_Daka_C:ABP_WarteringAreaBase_C
+---@field UserConstructionScript:fun()

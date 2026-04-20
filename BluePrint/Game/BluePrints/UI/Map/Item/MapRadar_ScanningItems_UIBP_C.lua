@@ -1,0 +1,7 @@
+---@class MapRadar_ScanningItems_UIBP_C:UMapUIMarkBaseWidget
+---@field GetMarkScaleByMapScale:fun(MapScale:float):FVector2D
+---@field UpdateMarkSize:fun(inScale:float,inMapScale:float,MapScaleInUI:float)
+---@field Key_0 float
+---@field Key_1 float
+---@field Val_0 float
+---@field Val_1 float

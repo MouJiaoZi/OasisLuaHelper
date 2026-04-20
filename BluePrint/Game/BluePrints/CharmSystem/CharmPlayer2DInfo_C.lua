@@ -1,0 +1,5 @@
+---@class CharmPlayer2DInfo_C:UCustomActorIndicatorWidget
+---@field OnRefreshCharmPlayerInfo:fun(PlayerInfo:FPlayerDetailInfo,ItemIndex:int32)
+---@field OnWidgetCreated:fun()
+---@field PlayerInfoPanel Ingame_IslandHeadTips_UIBP_C
+---@field RootCanvasPanel UCanvasPanel

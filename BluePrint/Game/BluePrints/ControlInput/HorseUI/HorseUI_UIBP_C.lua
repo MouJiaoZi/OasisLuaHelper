@@ -1,0 +1,14 @@
+---@class HorseUI_UIBP_C:UUAEUserWidget
+---@field GetVehicleUser:fun():UVehicleUserComponent
+---@field Btn_HitBack UButton
+---@field Btn_HitFront UButton
+---@field Btn_HitLeft UButton
+---@field Btn_HitRight UButton
+---@field Button_BtnMode_Horse_Speedup UNewButton
+---@field Button_BtnMode_Jump UNewButton
+---@field CanvasPanel_Horse_Speedup UCanvasPanel
+---@field CanvasPanel_Jump UCanvasPanel
+---@field CustomizeCanvasPanel_V_Horse CustomizeCanvasPanel_BP_C
+---@field CustomizeCanvasPanel_V_Jump CustomizeCanvasPanel_BP_C
+---@field VehicleUserComp UVehicleUserComponent
+---@field bRunPress bool

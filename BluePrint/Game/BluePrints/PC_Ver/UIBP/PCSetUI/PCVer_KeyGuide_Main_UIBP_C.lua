@@ -1,0 +1,28 @@
+---@class PCVer_KeyGuide_Main_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field AddSelectedKey:fun(actionName:FName,tag:int32,color:int32)
+---@field ConstructLua:fun()
+---@field UIHide:fun()
+---@field UIInit:fun()
+---@field GetAllSelectedActionInfo:fun(typeTab:int32):ULuaArrayHelper
+---@field RefreshKeyBoardUI:fun(tabType:int32)
+---@field GetAllSelectedKey:fun(KeyMappingTb:ULuaArrayHelper):ULuaMapHelper
+---@field OnApplyDestroyStrategy:fun()
+---@field OnRefreshUI__DelegateSignature:fun()
+---@field OnSelfDestroy__DelegateSignature:fun()
+---@field CanvasPanel_01 UCanvasPanel
+---@field CanvasPanel_02 UCanvasPanel
+---@field CanvasPanel_TopPageTab PCVer_PageItem_UIBP_C
+---@field CanvasPicIPX UCanvasPanel
+---@field Image_Line01 UImage
+---@field Image_Line02 UImage
+---@field PCVer_KeyGuide_KeyBoard PCVer_KeyGuide_item04_UIBP_C
+---@field ReuseListSp_NoTitle ReuseListSp_C
+---@field ReuseListSp_Title ReuseListSp_C
+---@field ScaleBox_IPX UScaleBox
+---@field WidgetSwitcher_Cut UWidgetSwitcher
+---@field SelectedKeyList ULuaMapHelper
+---@field CacheKeyGuideListTb UUAEDataTable
+---@field CacheKeyGuideTypeTb UUAEDataTable
+---@field OnSelfDestroy ULuaMulticastDelegate
+---@field OnRefreshUI ULuaMulticastDelegate

@@ -1,0 +1,1 @@
+---@class BP_Muzzle_ARX200_MNXD_B_C:BP_Muzzle_ARX200_C

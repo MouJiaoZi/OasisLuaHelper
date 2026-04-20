@@ -1,0 +1,1 @@
+---@class HS_TrashCan01_C:AHiderSceneActorBase_C

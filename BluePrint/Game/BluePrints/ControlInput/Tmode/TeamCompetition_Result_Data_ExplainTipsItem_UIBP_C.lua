@@ -1,0 +1,4 @@
+---@class TeamCompetition_Result_Data_ExplainTipsItem_UIBP_C:UUAEUserWidget
+---@field InitViewByData:fun(DisplayTitle:FText,DisplayText:FText,inValue:int32,isZeroToHide:bool,isConsiderResult:bool,ExtendText:FText)
+---@field TextBlock_TC_Note UTextBlock
+---@field TextBlock_TC_Number UTextBlock

@@ -1,0 +1,13 @@
+---@class ZombieWaveItem_BP_C:UUAEUserWidget
+---@field SelectWaveItem:fun()
+---@field ShowWaveItem:fun(ItemID:int32,WaveLocation:FVector)
+---@field CacheMapBlackboard:fun(MapBlackboard:MapCircleAndLineBlackboard_C)
+---@field ToggleButtonItem:fun(IsOn:bool)
+---@field ReceivedInitWidget:fun()
+---@field Button_10 UButton
+---@field WidgetSwitcher_0 UWidgetSwitcher
+---@field Selected bool
+---@field ItemID int32
+---@field FreeItem bool
+---@field MapBlackBoard MapCircleAndLineBlackboard_C
+---@field WaveLocation FVector

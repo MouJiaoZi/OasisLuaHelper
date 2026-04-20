@@ -1,0 +1,7 @@
+---@class PeakGameDisplayPawn_C:ASTExtraDisplayPawn
+---@field SetHasUpdateVisible:fun(InHasUpdateVisible:bool)
+---@field SetVisibleByCoolDown:fun()
+---@field UserConstructionScript:fun()
+---@field CharacterAvatarComp_BP CharacterAvatarComp_BP_C
+---@field ParentActor BP_SceneDisplayPeak_C
+---@field HasUpdateVisible bool

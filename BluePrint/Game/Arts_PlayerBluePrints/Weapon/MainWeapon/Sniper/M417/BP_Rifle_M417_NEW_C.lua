@@ -1,0 +1,6 @@
+---@class BP_Rifle_M417_NEW_C:BP_ShootWeaponNewBase_C
+---@field UserConstructionScript:fun()
+---@field WeaponAnimList_Rifle_M417 WeaponAnimList_Rifle_M417_C
+---@field bUseIdleAnim_0_0 bool
+---@field OffsetRotation FRotator
+---@field OffsetLocation FVector

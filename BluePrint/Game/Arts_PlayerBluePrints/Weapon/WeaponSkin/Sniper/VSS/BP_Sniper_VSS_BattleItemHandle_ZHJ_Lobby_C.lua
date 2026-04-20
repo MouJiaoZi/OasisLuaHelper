@@ -1,0 +1,1 @@
+---@class BP_Sniper_VSS_BattleItemHandle_ZHJ_Lobby_C:UBackpackWeaponHandle

@@ -1,0 +1,5 @@
+---@class bp_corps_icon_select_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_ARRAY_CorpsIconList ULuaArrayHelper
+---@field BP_CorpsIconCurUseId int32

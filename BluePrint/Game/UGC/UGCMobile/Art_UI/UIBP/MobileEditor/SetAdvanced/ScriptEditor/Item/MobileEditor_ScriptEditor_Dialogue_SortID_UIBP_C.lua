@@ -1,0 +1,15 @@
+---@class MobileEditor_ScriptEditor_Dialogue_SortID_UIBP_C:UUGCMobilePropertyWidget
+---@field GetLuaModule:fun():FString
+---@field GetIconVisibility:fun():ESlateVisibility
+---@field GetImageIcon:fun():FSlateBrush
+---@field OnGenerateWidget:fun(Item:FString):UWidget
+---@field OnGenerateSelectWidget:fun(Item:FString):UWidget
+---@field BindTextBlockToProperty_Enum:fun(InTextBlock:UTextBlock,ValueToDisplay:ULuaMapHelper)
+---@field ComboBox UComboBoxString
+---@field EnumTextBlock UTextBlock
+---@field MobileEditor_AdvHelp MobileEditor_AdvHelp_UIBP_C
+---@field MobileEditor_AdvNamde MobileEditor_AdvNamde_UIBP_C
+---@field TextBlock_Title UTextBlock
+---@field UGCMobilePropertyBindableWidget_0 UUGCMobilePropertyBindableWidget
+---@field ComboBoxItemClass UClass
+---@field ImageBrush FSlateBrush

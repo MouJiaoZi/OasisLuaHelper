@@ -1,0 +1,1 @@
+---@class BP_WEP_Cowbar_BattleItemHandle_QJKD_C:BP_WEP_Cowbar_BattleItemHandle_C

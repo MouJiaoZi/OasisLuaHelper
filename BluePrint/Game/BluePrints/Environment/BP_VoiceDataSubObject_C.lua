@@ -1,0 +1,11 @@
+---@class BP_VoiceDataSubObject_C:UObject
+---@field isShow bool
+---@field ShowCD float
+---@field checkType BP_VoiceCheckType
+---@field worldPos FVector
+---@field minShowScale float
+---@field maxShowScale float
+---@field MaxCheckLength float
+---@field nowplayer ASTExtraBaseCharacter
+---@field noweapon ASTExtraShootWeapon
+---@field vehicle ASTExtraVehicleBase

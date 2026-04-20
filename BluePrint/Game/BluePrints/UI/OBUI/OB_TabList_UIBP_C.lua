@@ -1,0 +1,7 @@
+---@class OB_TabList_UIBP_C:UUserWidget
+---@field RefreshListData:fun(DataList:ULuaArrayHelper,TeamInfoMap:ULuaMapHelper)
+---@field Button_CloseUI UButton
+---@field HorizontalBox_TeamNum UHorizontalBox
+---@field TextBlock_PlayerNum UTextBlock
+---@field TextBlock_TeamNum UTextBlock
+---@field WrapBox_TabList UWrapBox

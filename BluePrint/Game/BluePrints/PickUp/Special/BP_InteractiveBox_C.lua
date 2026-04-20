@@ -1,0 +1,14 @@
+---@class BP_InteractiveBox_C:AInteractiveTreasureBox
+---@field CanOpenBox:fun(InParam:FGISCCF_Param):bool
+---@field TriggerOpenBox:fun(InParam:FGISCCF_Param)
+---@field UserConstructionScript:fun()
+---@field HandleOpenTreasureBox:fun()
+---@field ST_WEP_UMP_Lod UStaticMeshComponent
+---@field Box UBoxComponent
+---@field ProduceDropItem UProduceDropItemComponent
+---@field OpenBoxSequence UActorSequenceComponent
+---@field Sphere USphereComponent
+---@field GISActorComponentBase UGISActorComponentBase
+---@field SM_MetallCaseSmall_cover UStaticMeshComponent
+---@field SM_MetallCaseSmall_hull UStaticMeshComponent
+---@field bHasPlayOpenAnim bool

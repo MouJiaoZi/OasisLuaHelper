@@ -1,0 +1,3 @@
+---@class BP_DecelerationTriggerArea_C:ABP_AccelerationTriggerArea_C
+---@field GetLuaModule:fun():FString
+---@field UserConstructionScript:fun()

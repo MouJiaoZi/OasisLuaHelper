@@ -1,0 +1,5 @@
+---@class RaceRrack_RankingMedal_UIBP_C:UUAEUserWidget
+---@field CanvasPanel_Crit UCanvasPanel
+---@field CanvasPanel_Streak UCanvasPanel
+---@field TextBlock_0 UTextBlock
+---@field TextBlock_RankingTitle UTextBlock

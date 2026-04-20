@@ -1,0 +1,22 @@
+---@class WatchGame_PickUpItemTips_BP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field GetVolumeText:fun(Count:int32,Weight:float):FText
+---@field CalProd:fun(A:int32,B:float):float
+---@field GetDesc:fun(Desc:FString,DescOverride:FString):FString
+---@field UpdateDataBySpecificID:fun(Image:FSlateBrush,ItemName:FString,ItemDesc:FString,ItemCount:int32,ItemVolume:float,ItemDescOverride:FString,SpecificID:int32)
+---@field EscpaeUpdataItemCapacity:fun(Count:int32)
+---@field UpdateData:fun(Image:FSlateBrush,ItemName:FString,ItemDesc:FString,ItemCount:int32,ItemVolume:float,ItemDescOverride:FString,NewDataRecord:BP_STRUCT_BattleItem_type)
+---@field CanvasPanel_Sort UCanvasPanel
+---@field CustomSocket_Wormhole UCustomSocketPanel
+---@field Image_16 UImage
+---@field Image_ItemIcon UImage
+---@field ItemName1 UMultiLineEditableText
+---@field PickProcess UHorizontalBox
+---@field SizeBox_Weapon USizeBox
+---@field TextBlock_Capacity UTextBlock
+---@field TextBlock_describe UTextBlock
+---@field TextBlock_ItemDescrip UUTRichTextBlock
+---@field TextBlock_Sort UTextBlock
+---@field TextBlock_Volume UTextBlock
+---@field VolumeBox UHorizontalBox
+---@field NewRecord BP_STRUCT_BattleItem_type

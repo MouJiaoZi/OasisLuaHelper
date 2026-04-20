@@ -1,0 +1,5 @@
+---@class BP_IngameItemDataTableReader_C:AActor
+---@field UserConstructionScript:fun()
+---@field DefaultSceneRoot USceneComponent
+---@field TableToRead UClass
+---@field NewVar_0 ULuaMapHelper

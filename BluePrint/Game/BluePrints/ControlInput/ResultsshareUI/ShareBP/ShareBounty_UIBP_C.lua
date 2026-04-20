@@ -1,0 +1,4 @@
+---@class ShareBounty_UIBP_C:UUAEUserWidget
+---@field BountyTitleIcon UImage
+---@field Text_BountyMode UTextBlock
+---@field Text_BountyTitle UTextBlock

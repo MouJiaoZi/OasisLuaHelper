@@ -1,0 +1,176 @@
+---@class EntireMap_OBmode_C:UMapWidgetBase
+---@field GetCircleInfo_Inf:fun(GameModeID:FString):bool,FVector2D,float
+---@field BindCharacterToItems:fun()
+---@field ChangeTarget:fun()
+---@field OnViewTargetChanged:fun()
+---@field SwitchTeamLogoNationalFlag:fun(bIsShow:bool)
+---@field OBWhilteCircle:fun(Preinfo:FMapRealTimeInfo)
+---@field ResetMapTexture:fun()
+---@field ForceUpdateOnReopen:fun()
+---@field UpdateTeamLogos:fun(isForceUpdate:bool)
+---@field CreateNewShootLine:fun(ShootLineInfo:FMapShootLineInfo)
+---@field GetLogoItemByTeamID:fun(inTeamID:int32):UPlayerItemInMap,bool
+---@field RefreshAllTeamLogos:fun(isForceUpdate:bool)
+---@field ReadMapTable:fun()
+---@field UpdateStarGameSafeArea:fun()
+---@field UIMsg_EditStarGameNextCircle:fun()
+---@field UpdateStarGameNextCircleCD:fun()
+---@field OnClickStarGameCircleEdit:fun(BEdit:bool,BFinish:bool)
+---@field UpdateStarGameNextCircle:fun()
+---@field HideStarGameNextCircle:fun()
+---@field ShowStarGameNextCircle:fun()
+---@field UIMsg_ShowStarGameNextCircle:fun()
+---@field FreeVeiwAndGotoPos:fun(GPos2D:FVector2D)
+---@field RefreshInnerCircle:fun()
+---@field OnKeyDown:fun(MyGeometry:FGeometry,InKeyEvent:FKeyEvent):FEventReply
+---@field GetGameStateBase:fun():ASTExtraGameStateBase
+---@field HandleReconnectInfo:fun(ReconnectInfo:FReConnectGameStateInfo)
+---@field RefreshPlanePos:fun()
+---@field RecalMapInfo:fun():FMapRealTimeInfo
+---@field OnMouseWheel:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field ResetCrtOBPlayer:fun(CrtOBPlayerInfo:FObservedData)
+---@field ChangeItemFontSize:fun(Delta:int32)
+---@field DrawPlayerItinerary:fun()
+---@field OnBoxBeClicked:fun(BoxInfo:FAirDropBoxInOb)
+---@field UnselectItem:fun()
+---@field ChangeViewToDropBox:fun()
+---@field GetDropBoxBPByID:fun(ID:int32):DropBoxInMapShow_BP_C
+---@field RefreshDropBox:fun()
+---@field ChangeViewToClickedItem:fun()
+---@field OnItemBeClicked:fun(PlayerInfo:FPlayerInfoInOB,IsDoubleClick:bool)
+---@field CheckMapShowName:fun()
+---@field LockView:fun()
+---@field RefreshSpectatorPosRot:fun(bForceUpdate:bool)
+---@field GetSpectatorItemBP:fun():SpectatorItem_BP_C
+---@field ResetSpectatorData:fun(IsShow:bool,SpectorPawn:APawn)
+---@field RefreshWidgetPosByPawn:fun(ItemPawn:APawn,ItemBP:PlayerItem_BP_C)
+---@field RefreshWidgetPosByVector:fun(Widget:UWidget,PointLocationInLevel:FVector)
+---@field RefreshNearPosRot:fun(isForceUpdate:bool)
+---@field ResetNearCharacter:fun(MapPlayerList:ULuaArrayHelper)
+---@field ChangeMapAlignment:fun(InAlignment:FVector2D)
+---@field GetObjectAligInCurMapSize:fun(Pos:FVector2D):float,float
+---@field OnPlaneDisappeared:fun()
+---@field OnPlaneShow:fun()
+---@field DrawAirAttackArea:fun()
+---@field DrawPlaneRoute:fun()
+---@field OnAirAttackEventHandle:fun(AttackMsg:EAirAttackInfo,Wave:int32,AirAttackMode:EAirAttackMode)
+---@field RefreshCircle:fun()
+---@field ApplyDataToItemBP:fun(ItemBP:PlayerItem_BP_C,PlayerInfo:FPlayerInfoInOB)
+---@field GetPlayerItemBPByName:fun(UID:FString,AddIfNotFound:bool,TeamID:int32):PlayerItem_BP_C
+---@field RefreshTotalPosRot:fun(IsApplyData:bool,IsApplyPos:bool,isForceUpdate:bool)
+---@field RefreshData:fun(MapPlayerList:ULuaArrayHelper,CrtOBPPlayer:FObservedData)
+---@field OnTouchEnded:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field Init:fun()
+---@field ChangeScaleSlideValue:fun(Delta:float)
+---@field MoveMap:fun(MoveOffset:FVector2D)
+---@field OnTouchMoved:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field GetTouchDelta:fun():float
+---@field OnTouchStarted:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field ZoomMapSize:fun(SlideValue:float)
+---@field GetMapMaxAligByMapSize:fun(MapSize:FVector2D):float,float
+---@field ChangeMapSize:fun(Size:FVector2D)
+---@field NewFunction_0:fun()
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field ReceivedInitWidget:fun()
+---@field SetupUIMarkRoot:fun()
+---@field MapAligDispatchers__DelegateSignature:fun()
+---@field MapSizeDispatchers__DelegateSignature:fun()
+---@field OnEntireMapCloseEvent__DelegateSignature:fun()
+---@field AirAttackArea UImage
+---@field AirLineSelf Map_SkydivingAreaItem_UIBP_C
+---@field Border_Color UBorder
+---@field Border_FullRing UBorder
+---@field Border_RingFX UBorder
+---@field Button_FontSizeAdd UButton
+---@field Button_FontSizeSub UButton
+---@field Button_HideMap UButton
+---@field Button_path UButton
+---@field Button_SelfLock UButton
+---@field Button_SwitchTeamMate UButton
+---@field Button_ZoomIn UButton
+---@field Button_ZoomOut UButton
+---@field CanvasPanel_Airline UCanvasPanel
+---@field CanvasPanel_AirLineGroup UCanvasPanel
+---@field CanvasPanel_AirLineSegment UCanvasPanel
+---@field CanvasPanel_Content UCanvasPanel
+---@field CanvasPanel_GunLine UCanvasPanel
+---@field CanvasPanel_Inner UCanvasPanel
+---@field CanvasPanel_Map UCanvasPanel
+---@field CanvasPanel_Marks UCanvasPanel
+---@field CanvasPanel_OtherElem UCanvasPanel
+---@field CanvasPanel_Player UCanvasPanel
+---@field CanvasPanel_StarGameInfo UCanvasPanel
+---@field CanvasPanel_StarGameRing UCanvasPanel
+---@field CanvasPanel_TeamLogo UCanvasPanel
+---@field CanvasPanel_WatchBtnGroup UCanvasPanel
+---@field CustomSocket_Asian UCanvasPanel
+---@field CustomSocketAirLineAll UCustomSocketPanel
+---@field EntireMapImage UImage
+---@field HorizontalBox_AirDropInfo UHorizontalBox
+---@field Image_AirIcon UImage
+---@field Image_Inner UImage
+---@field Image_PassedRoute UImage
+---@field Image_SelectedPath UImage
+---@field MapCircleAndLineBlackboard MapCircleAndLineBlackboard_C
+---@field NewButton_OK UNewButton
+---@field OB_CrtPlayerNameItem OB_PlayerListItem_BP_C
+---@field OB_PlayerItinerary OB_PlayerMapItinerary_C
+---@field Slider_MapZoom USlider
+---@field StarGameBtnName UTextBlock
+---@field StarGameEditTips UTextBlock
+---@field TextBlock_FontSize UTextBlock
+---@field TextBlock_Time UTextBlock
+---@field MaxScaleValue float
+---@field MapInitSize FVector2D
+---@field MapCurSize FVector2D
+---@field TouchPos ULuaMapHelper
+---@field TouchDelta float
+---@field IsMultipleTouch bool
+---@field ScaleFactor float
+---@field PlayerItemBPDict ULuaMapHelper
+---@field MapPlayerList ULuaArrayHelper
+---@field CrtOBPlayerInfo FObservedData
+---@field OnEntireMapCloseEvent ULuaMulticastDelegate
+---@field LevelLandScapeExtent float
+---@field MapRealTimeInfo FMapRealTimeInfo
+---@field STEPlayerController ASTExtraPlayerController
+---@field STEGameStateBase ASTExtraGameStateBase
+---@field LastestAirAttackWave int32
+---@field PlayerItemCharacterDict ULuaMapHelper
+---@field IsPlaneShowing bool
+---@field SpectatorItemBP SpectatorItem_BP_C
+---@field CrtSpectatorCharacter APawn
+---@field IsMapBigScale bool
+---@field MapScale_Separator float
+---@field CrtSelectPlayerInfo FPlayerInfoInOB
+---@field DropBoxDict ULuaMapHelper
+---@field CrtSelectDropBoxInfo FAirDropBoxInOb
+---@field CrtSelectType int32
+---@field IsItineraryShowing bool
+---@field ItemNameFont int32
+---@field TeamZOrderDict ULuaMapHelper
+---@field LastOBItemZOrder int32
+---@field LastSelectItemZOrder int32
+---@field SelectItemZOrder int32
+---@field OBItemZOrder int32
+---@field SpectatorItemZOrder int32
+---@field DropBoxZOrder int32
+---@field IsPlaneRotineShowing bool
+---@field InnerCircleGameModeID ULuaArrayHelper
+---@field InnerCircle BP_FakeRadiation_C
+---@field StarGameNextCircleBP OB_StarGameRingItem_UIBP_C
+---@field BEditStarGameNextCircle bool
+---@field IsSpectatorView bool
+---@field TeamLogoMap ULuaMapHelper
+---@field DeletedTeamIDs ULuaArrayHelper
+---@field bInitShootlineItemPool bool
+---@field ShootlineItemPool UUIDuplicatedItemPool
+---@field bInitAirAttackIcon bool
+---@field BlackAirAttackArea FSlateBrush
+---@field TempMapPath FString
+---@field PreCircleIndex int32
+---@field MapSizeDispatchers ULuaMulticastDelegate
+---@field MapAligDispatchers ULuaMulticastDelegate
+---@field PlumPointWidget UUserWidget
+---@field IsFinalPointShowed bool
+---@field IsPlumPointOpen bool

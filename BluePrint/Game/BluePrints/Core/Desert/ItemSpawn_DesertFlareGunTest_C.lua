@@ -1,0 +1,1 @@
+---@class ItemSpawn_DesertFlareGunTest_C:UItemSpawn_Desert_C

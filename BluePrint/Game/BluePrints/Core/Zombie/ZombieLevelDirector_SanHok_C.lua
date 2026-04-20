@@ -1,0 +1,3 @@
+---@class ZombieLevelDirector_SanHok_C:AUAELevelDirector
+---@field UserConstructionScript:fun()
+---@field DefaultSceneRoot USceneComponent

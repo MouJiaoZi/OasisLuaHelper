@@ -1,0 +1,5 @@
+---@class BP_UGC_SpecialBox_C:BP_UGC_DamagableActor_C
+---@field GetLuaModule:fun():FString
+---@field UserConstructionScript:fun()
+---@field Hitbox UBoxComponent
+---@field ST_Prop_SupplyBox UStaticMeshComponent

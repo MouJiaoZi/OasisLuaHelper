@@ -1,0 +1,3 @@
+---@class PostProcessMgr_C:APostProcessManager
+---@field UserConstructionScript:fun()
+---@field DefaultSceneRoot USceneComponent

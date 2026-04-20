@@ -1,0 +1,1 @@
+---@class BP_WEP_Pan_AnimList_C:UUAECharacterAnimListComponent

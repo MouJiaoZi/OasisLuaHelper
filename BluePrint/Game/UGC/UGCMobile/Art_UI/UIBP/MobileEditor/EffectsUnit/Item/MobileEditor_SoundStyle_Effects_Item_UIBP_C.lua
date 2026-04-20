@@ -1,0 +1,25 @@
+---@class MobileEditor_SoundStyle_Effects_Item_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field LuaDragFailed:fun()
+---@field OnMouseButtonDown:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field LuaDragBackRegin:fun()
+---@field LuaCheckIsMe:fun(NewParam:int32):bool
+---@field LuaOnDragOutRegion:fun(NewParam:FVector2D)
+---@field OnMouseButtonUp:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field ClearIsTouchStart:fun()
+---@field OnTouchEnded:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field LuaOnClicked:fun()
+---@field LuaOnDragCancelled:fun()
+---@field LuaOnDragDetected:fun(InPos:FVector2D,FingerIndex:int32)
+---@field OnDragDetected:fun(MyGeometry:FGeometry,PointerEvent:FPointerEvent):UDragDropOperation
+---@field OnTouchStarted:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field CanvasPanel_Select UCanvasPanel
+---@field Image_Icon UImage
+---@field Image_No UImage
+---@field NewButton_Click UNewButton
+---@field TextBlock_Name UTextBlock
+---@field WidgetSwitcher_Icon UWidgetSwitcher
+---@field IsTouchStart bool
+---@field ClearIsTouchStartHandle FTimerHandle
+---@field isExpand bool
+---@field IsLeftDrag bool

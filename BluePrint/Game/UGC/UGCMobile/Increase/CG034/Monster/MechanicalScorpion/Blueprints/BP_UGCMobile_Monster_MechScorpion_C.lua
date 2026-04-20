@@ -1,0 +1,3 @@
+---@class BP_UGCMobile_Monster_MechScorpion_C:BP_UGCM_GenericMobPawn_C
+---@field UserConstructionScript:fun()
+---@field HitBox UBoxComponent

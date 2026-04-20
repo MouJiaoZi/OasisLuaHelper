@@ -1,0 +1,16 @@
+---@class BuildingTips_Item_UIBP_C:UUserWidget
+---@field SetCDPercentage:fun(CDPercentage:float)
+---@field BeSelected:fun(IsSelected:bool)
+---@field RefreshMateNum:fun(MateNumMap:ULuaMapHelper)
+---@field CanvasPanel_Select UCanvasPanel
+---@field Image_ItemIcon UImage
+---@field Image_ItemIcon_CD UImage
+---@field Image_MateIcon UImage
+---@field Image_Select_BuildMode UImage
+---@field Image_Select_SelectMode UImage
+---@field TextBlock_MateNum UTextBlock
+---@field TextBlock_ThingName UTextBlock
+---@field NeedDownloadMetaIcon bool
+---@field NeedDownloadItemIcon bool
+---@field OnTouchEvent ULuaMulticastDelegate
+---@field CDPercentage float

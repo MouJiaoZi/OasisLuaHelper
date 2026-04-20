@@ -1,0 +1,1 @@
+---@class ItemSpawn_ForestTournamentSub_C:UItemSpawn_Forest_C

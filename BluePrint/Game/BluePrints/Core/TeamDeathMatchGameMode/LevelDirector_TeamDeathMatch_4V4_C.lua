@@ -1,0 +1,3 @@
+---@class LevelDirector_TeamDeathMatch_4V4_C:AUAELevelDirector
+---@field UserConstructionScript:fun()
+---@field DefaultSceneRoot USceneComponent

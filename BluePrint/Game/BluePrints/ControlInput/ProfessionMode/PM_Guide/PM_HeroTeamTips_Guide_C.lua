@@ -1,0 +1,5 @@
+---@class PM_HeroTeamTips_Guide_C:UNewbieGuideWidget
+---@field OnCreateAndShow:fun(GuideId:int32,UIConfigIndex:int32)
+---@field CanvasPanel_HeroTips UCanvasPanel
+---@field UTRichTextBlock_OperatingTips1 UUTRichTextBlock
+---@field TeamMateIndex int32

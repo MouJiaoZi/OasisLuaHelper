@@ -1,0 +1,5 @@
+---@class Ingame_IslandHeadTips_UIBP_C:UUserWidget
+---@field GenderWidgetSwitcher UWidgetSwitcher
+---@field PlayerName UTextBlock
+---@field TextBlock_SeasonManualLevel UTextBlock
+---@field TextBlock_SeasonManualValue UTextBlock

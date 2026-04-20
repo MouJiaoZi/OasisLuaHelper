@@ -1,0 +1,9 @@
+---@class BornToSurviveInfoPanel_UIBP_C:UUserWidget
+---@field text_bearMonsterDamage UTextBlock
+---@field text_damageNumToMonster UTextBlock
+---@field text_damageNumToPlayers UTextBlock
+---@field text_killBossNum UTextBlock
+---@field text_killmonsternum UTextBlock
+---@field text_killNewBossNum UTextBlock
+---@field text_killPlayerNum UTextBlock
+---@field text_survivetime UTextBlock

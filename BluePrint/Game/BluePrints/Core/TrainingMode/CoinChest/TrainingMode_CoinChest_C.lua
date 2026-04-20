@@ -1,0 +1,14 @@
+---@class TrainingMode_CoinChest_C:AActivityBaseActor
+---@field CanShowPossessButton:fun(Param:FGISCCF_Param):bool
+---@field CanOpen:fun():bool
+---@field OnClickPossessButton:fun(Param:FGISCCF_Param)
+---@field UserConstructionScript:fun()
+---@field CustomBoxCollision UCustomBoxCollisionComponent
+---@field CustomSphereCollision UCustomSphereCollisionComponent
+---@field ChestMesh USkeletalMeshComponent
+---@field Scene USceneComponent
+---@field BP_ProduceDropItemComponent BP_ProduceDropItemComponent_C
+---@field GISActorComponentBase UGISActorComponentBase
+---@field ProduceID int32
+---@field bCanOpen bool
+---@field ResetTime float

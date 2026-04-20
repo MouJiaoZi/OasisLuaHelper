@@ -1,0 +1,239 @@
+---@class BP_InputActionActor_C:AInputActionActor
+---@field GetLuaModule:fun():FString
+---@field FollowTipsUIScroll:fun(IsDown:bool)
+---@field LuaPCPetShowList:fun(bIsPress:bool)
+---@field LuaButtonSpace:fun()
+---@field TriggerInteractBtn:fun(Index:int32)
+---@field LuaPCSpeakToAI:fun(bIsPress:bool,Key:FKey)
+---@field AirplaneListScroll:fun(bIsDown:bool)
+---@field LuaRoutteClose:fun()
+---@field OnPCCommerceIntegrationChanged:fun()
+---@field OpenQuickMessageWheel:fun(Key:FKey,bIsPressed:bool,Type:int32)
+---@field LuaOpenPaintList:fun()
+---@field LuaPCChatQuickMessageUseItem:fun()
+---@field ButtonStartRoll:fun()
+---@field LuaTurnplateCommit:fun()
+---@field PeekAnotherSideWhenRelease:fun(IsLeftRelease:bool)
+---@field InterphonePressSpeak:fun(IsPress:bool)
+---@field LuaQuickMessageCommit:fun()
+---@field LuaTryUseEscapeConsumable:fun(TypeSpecificID:int32)
+---@field LuaPCChatQuickMessage:fun(bIsPress:bool,Key:FKey,Type:int32)
+---@field LuaPCChatQuickMessagePageUP:fun()
+---@field LuaPCChatQuickMessagePageDown:fun()
+---@field RecallDetial:fun()
+---@field HandleFollowPanelInput:fun(row:int32,col:int32)
+---@field LuaToggleBlockFutureInvites:fun()
+---@field LuaToggleMapLegend:fun()
+---@field LuaCenterEntireMapPlayerSelf:fun()
+---@field Backpack_OnKeyReleased_RightAlt:fun()
+---@field Backpack_OnKeyReleased_LeftAlt:fun()
+---@field Backpack_OnKeyReleased_RightShift:fun()
+---@field Backpack_OnKeyReleased_LeftShift:fun()
+---@field Backpack_OnKeyReleased_RightControl:fun()
+---@field Backpack_OnKeyReleased_LeftControl:fun()
+---@field HasSameKeyAsAction:fun(ActionName1:FName,ActionName2:FName):bool
+---@field CancelSkillByCDBar:fun()
+---@field VehicleRepair:fun()
+---@field BA_VaultReport:fun()
+---@field ActivityPhoto:fun(bIsVerticle:bool,BtnName:FString)
+---@field HideNearbyItem:fun()
+---@field MAOpenNearbyItems:fun()
+---@field MAOpenTombBox:fun()
+---@field ToggleDoor:fun()
+---@field EnterVehicle:fun(bIsPressed:bool)
+---@field OpenParachute:fun()
+---@field LeavePlane:fun()
+---@field LeaveCarriedState:fun()
+---@field RescueTeammate:fun()
+---@field MuteSpeaker:fun()
+---@field SwitchInterphoneChannel:fun(IsPress:bool)
+---@field LuaPCEscapeReloadList:fun(press:bool)
+---@field ToggleHintUI:fun()
+---@field LuaQuickChat:fun(number:int32)
+---@field SwitchMicphoneChannel:fun()
+---@field SwitchSpeakerChannel:fun()
+---@field PickUpListScroll:fun(bIsDown:bool)
+---@field HideTombBox:fun(bIsPressed:bool)
+---@field OpenTombBox:fun(bIsPressed:bool)
+---@field ToggleShowMouseCursor:fun(bIsPressed:bool)
+---@field LuaSwimDown:fun(IsPress:bool)
+---@field LuaSwimUp:fun(IsPress:bool)
+---@field LuaCancelGrenadeThrow:fun()
+---@field LuaCancelBow:fun()
+---@field IsLeftPeeking:fun():bool
+---@field IsRightPeeking:fun():bool
+---@field LuaSwitchToLastWeapon:fun()
+---@field LuaWheelSwitchWeapon:fun(bIsUp:bool)
+---@field LuaExitSpectator:fun()
+---@field LuaShapeShift:fun()
+---@field LuaSwitchPrePlayerView:fun()
+---@field LuaSwitchNextPlayerView:fun()
+---@field LuaCameraFreeView:fun(IsCameraFreeViewPressed:bool)
+---@field LuaEntireMap:fun(IsEntireMapPressed:bool)
+---@field LuaCrouch:fun(IsCrouchPressed:bool)
+---@field LuaUseGrenade:fun(GrenadeItemID:int32)
+---@field LuaOpenKeyGuidePanel:fun()
+---@field LuaUnmuteAll:fun()
+---@field LuaCircleModeType:fun():bool
+---@field IndependentJumpRelease:fun()
+---@field IndependentClimb:fun()
+---@field DealSwimForce:fun(Player:AActor,IsPress:bool):bool
+---@field IndependentJumpPress:fun()
+---@field ShowVehicleSkins:fun()
+---@field SummonAnimals:fun(bIsPress:bool)
+---@field CoopVault:fun()
+---@field LuaPCConsumeListPageDown:fun()
+---@field LuaPCConsumeListPageUP:fun()
+---@field LuaGameOverAirdrop:fun(bIsPress:bool)
+---@field LuaPCConsumeList:fun(bIsPress:bool,Key:FKey)
+---@field LuaPCGrenadeListPageDown:fun()
+---@field LuaPCGrenadeListPageUP:fun()
+---@field LuaPCGrenadeList:fun(bIsPress:bool,Key:FKey)
+---@field LuaSprint:fun(isMovingForward:bool,isPressSprint:bool)
+---@field BalloonDown:fun(IsPressed:bool)
+---@field BalloonUp:fun(IsPressed:bool)
+---@field ToggleLeftMenu:fun()
+---@field OpenHideNearbyItem:fun()
+---@field CloseUIByEscapeKey:fun()
+---@field TriggerExtraSkillReleased:fun()
+---@field TriggerExtraSkillPressed:fun()
+---@field TriggerUltimateSkillReleased:fun()
+---@field TriggerUltimateSkillPressed:fun()
+---@field TriggerActiveSkillReleased:fun()
+---@field TriggerActiveSkillPressed:fun()
+---@field QuickChangeSight:fun()
+---@field ParachuteCancelFollow:fun()
+---@field MapScaleDown:fun()
+---@field MapScaleUp:fun()
+---@field QuickPick:fun(Index:int32)
+---@field OpenHideTombBox:fun(bIsPressed:bool)
+---@field LuaQuickSign:fun(bIsPress:bool,Key:FKey)
+---@field LuaMicphoneControl:fun(IsPress:bool)
+---@field LuaMuteMicphone:fun()
+---@field LuaStartFire:fun(Press:bool)
+---@field ToggleScope:fun(bIsPress:bool)
+---@field ScopeScaleDown:fun()
+---@field ScopeScaleUp:fun()
+---@field ToggleThrowGrenadeMode:fun()
+---@field LuaShowHideSpeakerPanel:fun()
+---@field LuaOpenCloseDecalList:fun()
+---@field LuaSwitchSideSight:fun()
+---@field LuaToggleAutoSprint:fun()
+---@field LuaEntireMapTrigger:fun()
+---@field LuaSwitchPMode:fun()
+---@field LuaSwitchShootMode:fun()
+---@field LuaCarryOrPutDownPlayer:fun()
+---@field LuaGunReload:fun(IsPress:bool)
+---@field LuaProneSwitch:fun()
+---@field LuaShowHideBackpack:fun()
+---@field LuaMuteAll:fun()
+---@field LuaShowHideExpressionRing:fun()
+---@field LuaUseConsumable:fun(ConsumeType:EConsumeItemType)
+---@field LuaSwitchMedicalMenuReleased:fun()
+---@field LuaSwitchMedicalMenuPressed:fun()
+---@field LuaPressNum:fun(KeyValue:int32)
+---@field LuaSwitchPistol:fun()
+---@field LuaSwitchMainWeapon2:fun()
+---@field LuaSwitchMainWeapon1:fun()
+---@field LuaSwitchGrenadeMenuReleased:fun()
+---@field LuaSwitchGrenadeMenuPressed:fun()
+---@field LuaRevertMultiMark:fun()
+---@field LuaChangeMapMarkMode:fun()
+---@field LuaChatMessage:fun()
+---@field LuaShowHideChatMenu:fun()
+---@field LuaInspectWeapon:fun()
+---@field LuaDeleteMarks:fun()
+---@field LuaSelfMark:fun()
+---@field LuaSwitchMelee:fun()
+---@field LuaSwitchGrenade:fun()
+---@field LuaOpenCloseSettings:fun()
+---@field LuaRightPeekReleased:fun()
+---@field LuaRightPeekPressed:fun()
+---@field LuaLeftPeekReleased:fun()
+---@field LuaLeftPeekPressed:fun()
+---@field LuaSprintReleased:fun()
+---@field LuaInteractReleased:fun()
+---@field LuaInteractPressed:fun()
+---@field LuaRetrieveWeapon:fun()
+---@field LuaCrouchReleased:fun()
+---@field LuaCrouchPressed:fun()
+---@field LuaJumpReleased:fun()
+---@field LuaJumpPressed:fun()
+---@field LuaSprintPressed:fun()
+---@field UserConstructionScript:fun()
+---@field VehicleChangeSeat1:fun()
+---@field VehicleChangeSeat2:fun()
+---@field VehicleChangeSeat3:fun()
+---@field VehicleChangeSeat4:fun()
+---@field VehicleChangeSeat5:fun()
+---@field VehicleChangeSeat6:fun()
+---@field VehicleChangeSeat7:fun()
+---@field VehicleChangeSeat8:fun()
+---@field BindVehicleRelatedAction:fun()
+---@field UnbindVehicleRelatedAction:fun()
+---@field BP_WidgetInputControlComponent BP_WidgetInputControlComponent_C
+---@field BP_PreciseInteractionUIMgr BP_PreciseInteractionUIMgr_C
+---@field BP_PreciseInteractionComp BP_PreciseInteractionComp_C
+---@field WidgetCollapseManagerComp UWidgetCollapseManagerComp
+---@field BP_PCAutoHideComponent BP_PCAutoHideComponent_C
+---@field PC_TipsComponent PC_TipsComponent_C
+---@field MouseEventCustomHandleComponent BP_MouseEventCustomHandleComponent_C
+---@field DynamicInputBinding UDynamicInputBindingComponent
+---@field InputGuideComponent InputGuideComponent_C
+---@field DefaultSceneRoot USceneComponent
+---@field bIsRescuingTeammate bool
+---@field bIsMovingForward bool
+---@field IsPressSprint bool
+---@field PeekMode int32
+---@field bIsLeftPeeking bool
+---@field bIsRightPeeking bool
+---@field bIsLongPressGrenade bool
+---@field bIsLongPressConsume bool
+---@field LongPressTimeThres float
+---@field bIsLongPressReload bool
+---@field GrenadeListAutoCollapseTime float
+---@field ConsumableListAutoCollapseTime float
+---@field bIsGrenadePressExecuted bool
+---@field bIsMedicalPressExecuted bool
+---@field bIsJumpPressExecuted bool
+---@field bIsCrouchPressExecuted bool
+---@field bIsLeftPeekExecuted bool
+---@field bIsRightPeekPressExecuted bool
+---@field bIsPCShootingPressExecuted bool
+---@field bIsGunReloadPressExecuted bool
+---@field bIsInteractPressExecuted bool
+---@field bIsQuickSignPressExecuted bool
+---@field bIsOHTPressExecuted bool
+---@field bIsMicphoneMenuPressExecuted bool
+---@field bIsToggleScopePressExecuted bool
+---@field bIsActiveSkillPressExecuted bool
+---@field bIsExtraSkillPressExecuted bool
+---@field bIsUltimateSkillPressExecuted bool
+---@field bIsPCGrenadeListPressExecuted bool
+---@field bIsPCConsumeListPressExecuted bool
+---@field CursorCountInitCheckList ULuaArrayHelper
+---@field bIsGameOverAirdropPressExecuted bool
+---@field bIsAnimalSummonPressExecuted bool
+---@field GrenadeItemIdMap ULuaMapHelper
+---@field GrenadeItemIdMap_Escape ULuaMapHelper
+---@field HintUITable UDataTable
+---@field HintUIs ULuaArrayHelper
+---@field ActionPriorityTable UDataTable
+---@field KeyMappingDetailTable UDataTable
+---@field KeyMappingDisplayTable UDataTable
+---@field PCKeySaveGameClassRef UClass
+---@field bIsMoveForwardPressExecuted bool
+---@field BlockBackpackGameModeIDList ULuaSetHelper
+---@field bIsPCGrenadePanelPressExecuted bool
+---@field HideMouseCursorInterval float
+---@field bIsPCChatQuickMessagePressExecuted bool
+---@field bIsPCTurnplatePressExecuted bool
+---@field HintUIClass UClass
+---@field KeymappingLeftMenuV2Table UDataTable
+---@field ScopeSliderDelta float
+---@field ReportExcludeClassSet ULuaSetHelper
+---@field AttachOptSoundTable ULuaMapHelper
+---@field BackpackOpenSound UAkAudioEvent
+---@field BackpackCloseSound UAkAudioEvent
+---@field IsAutoSprint bool
+---@field KeyMappingLeftMenuThematic UDataTable

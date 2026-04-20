@@ -1,0 +1,1 @@
+---@class CustomizeNewbieGuide_Tips01_UIBP_C:UUserWidget

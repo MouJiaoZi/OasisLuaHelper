@@ -1,0 +1,1 @@
+---@class BP_DeferredExitGameComp_C:UDeferredExitGameComponent

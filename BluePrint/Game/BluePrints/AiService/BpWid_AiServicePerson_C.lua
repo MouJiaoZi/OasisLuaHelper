@@ -1,0 +1,1 @@
+---@class BpWid_AiServicePerson_C:UAiServiceSinglePerson

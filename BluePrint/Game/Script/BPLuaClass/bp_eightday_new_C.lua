@@ -1,0 +1,6 @@
+---@class bp_eightday_new_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_ARRAY_EightDayNewUI_ItemList ULuaArrayHelper
+---@field BP_STRUCT_EightDayNewUI_SignUpDay int32
+---@field BP_String_EightDayNewUI_ActiveTime FString

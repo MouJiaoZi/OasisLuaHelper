@@ -1,0 +1,3 @@
+---@class PickUp_WCF_BP_Shoes_419_C:APickUpWrapperActor
+---@field UserConstructionScript:fun()
+---@field ST_ShortShoes_Pickup UStaticMeshComponent

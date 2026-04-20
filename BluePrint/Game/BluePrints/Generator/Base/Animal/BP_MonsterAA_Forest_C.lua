@@ -1,0 +1,5 @@
+---@class BP_MonsterAA_Forest_C:AUAEHouseActor
+---@field UserConstructionScript:fun()
+---@field BP_MonsterSpotComponent BP_MonsterSpotComponent_C
+---@field BP_MonsterGroupSceneComponent BP_MonsterGroupSceneComponent_C
+---@field DefaultSceneRoot USceneComponent

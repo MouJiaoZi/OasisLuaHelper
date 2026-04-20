@@ -1,0 +1,5 @@
+---@class SurviveGameState_CorpsWar_C:ABattleRoyalCorpsWarGameState
+---@field UserConstructionScript:fun()
+---@field BP_ObjectPosMgr BP_ObjectPosMgr_C
+---@field AirAttackCS UAirAttackCS
+---@field DefaultSceneRoot USceneComponent

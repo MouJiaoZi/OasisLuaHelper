@@ -1,0 +1,6 @@
+---@class Strongbox_TextShow_UIBP_C:UUserWidget
+---@field DX_Reset UWidgetAnimation
+---@field DX_Error UWidgetAnimation
+---@field Border_0 UBorder
+---@field TextBlock_Number UTextBlock
+---@field WidgetSwitcher_0 UWidgetSwitcher

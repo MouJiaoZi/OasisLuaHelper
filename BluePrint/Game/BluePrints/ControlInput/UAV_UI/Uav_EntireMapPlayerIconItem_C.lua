@@ -1,0 +1,8 @@
+---@class Uav_EntireMapPlayerIconItem_C:UUserWidget
+---@field Image_Uav_Arrow UImage
+---@field Image_Uav_PlayerMaker UImage
+---@field Image_Uav_SelfBG UImage
+---@field Image_Uav_SelfDead UImage
+---@field Image_Uav_SelfState UImage
+---@field Text_Name UTextBlock
+---@field TextBlock_Distance UTextBlock

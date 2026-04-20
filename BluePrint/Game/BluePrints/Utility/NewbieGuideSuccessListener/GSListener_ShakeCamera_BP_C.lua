@@ -1,0 +1,1 @@
+---@class GSListener_ShakeCamera_BP_C:UGSListener_ShakeCamera

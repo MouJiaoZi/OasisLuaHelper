@@ -1,0 +1,3 @@
+---@class BP_ZombieGameMode_Infection_C:ABP_BattleRoyaleGameModeTeamPUBG_C
+---@field UserConstructionScript:fun()
+---@field BP_AttrModifyProbeComp_Zombie BP_AttrModifyProbeComp_Zombie_C

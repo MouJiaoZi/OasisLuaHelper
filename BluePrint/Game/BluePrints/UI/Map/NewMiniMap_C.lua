@@ -1,0 +1,173 @@
+---@class NewMiniMap_C:UMinimapWidget
+---@field AddOuterItemToMapCanvas:fun(Widget:UWidget):UPanelSlot
+---@field LevelLocToMapLoc:fun(LevelLoc:FVector):FVector2D
+---@field CanRefreshMapImage:fun():bool
+---@field UpdateVehicleRouteList:fun()
+---@field ShowAutoPilot:fun(vehicle:ASTExtraVehicleBase)
+---@field InitMapImageLoaded:fun(Obj:UObject,id:int32)
+---@field MapImageLoaded:fun(obj:UObject,id:int32)
+---@field GetEntireMapVisibility:fun():bool
+---@field BindTeammateIconDelegate:fun(PS:ASTExtraPlayerState,index:int32)
+---@field UpdateAirDropLine:fun()
+---@field IsInCircle:fun(self2:AActor):bool
+---@field RepositionSelfMultiMark:fun()
+---@field TickInner:fun(Delta:float)
+---@field AddOneUAV:fun(playerIndex:int32)
+---@field GetOneVisualItem:fun():UVisualFieldItem
+---@field HideAllVisualItems:fun()
+---@field RefreshVisualFieldItem:fun()
+---@field Replay_HideDeadIcon:fun()
+---@field RepositionAllMapMark:fun(NewParam:int32)
+---@field UIMsg_RemoveMapItem:fun(ItemType:int32,ItemID:int32)
+---@field UIMsg_AddMapItem:fun(ItemType:int32,ItemID:int32,location:FVector)
+---@field SetIconColor:fun(Color:FLinearColor):FLinearColor
+---@field GetIconDisplayWidget:fun():UWidget
+---@field AddOnePlayer:fun(Index:int32)
+---@field OnZombieWaveListChange:fun(CurZombieWaveInfoList:ULuaArrayHelper)
+---@field UpdateZombieWaveItem:fun()
+---@field RefreshWaveItemState:fun(NewSelectedItem:int32)
+---@field OnHideMonsterBox:fun(MonsterBoxIndex:int32)
+---@field OnShowMonsterBox:fun(MonsterBoxIndex:int32,MonsterBoxLocation:FVector)
+---@field ShowZombieWaveItem:fun(TargetWaveItem:ZombieWaveItem_BP_C,ItemID:int32,WaveLocation:FVector)
+---@field HideAllZombieWaveItem:fun()
+---@field GetFreeZombieWaveItem:fun():ZombieWaveItem_BP_C
+---@field HideAllMapMark:fun()
+---@field ResetLocalPlayerIndex:fun()
+---@field RedrawAirAttackArea:fun()
+---@field RedrawAllMapMark:fun()
+---@field RepositionItemOnMap:fun()
+---@field ReadDynamicScaleTable:fun()
+---@field Get4*4Scale:fun():float
+---@field OnCharacterStateChange:fun(self2:APawn,InputPin:ExtraPlayerLiveState)
+---@field UpdateAirplaneRoute:fun(StartLoc:FVector,EndLoc:FVector,IsDraw:bool)
+---@field SetSpectatorInfoAndColor:fun(PS:ASTExtraPlayerState)
+---@field RefreshLocalPlayer:fun()
+---@field OnSpectatorChanged:fun()
+---@field RefreshTeammateIcon:fun()
+---@field MiniMapAdjustLimtChange:fun()
+---@field Reconnect_ResetUIByPlayerControllerState:fun()
+---@field SetMateColor:fun(PlayerIdx:int32,TargetImage:UImage)
+---@field SetMateNum:fun(NumImg:UImage,PlayerIdx:int32)
+---@field ShowMateNum:fun()
+---@field HandleReconnectInfo:fun(Info:FReConnectGameStateInfo)
+---@field ShowEnterMap:fun()
+---@field HideEnterMap:fun()
+---@field GetPlayerColorByIndex:fun(Index:int32):FLinearColor
+---@field GetTeamMateListFromPlayerState:fun(ExcludeSelf:bool):ULuaArrayHelper
+---@field RepositionMapMark:fun(Index:int32)
+---@field BindTeamMapMarkDelegate:fun()
+---@field HandleAirAttackBroadcast:fun(AttackMsg:EAirAttackInfo,Wave:int32,AirAttackMode:EAirAttackMode)
+---@field OnPaint:fun(Context:FPaintContext)
+---@field UpdatePlayerState:fun(State:ExtraPlayerLiveState,OwnerCharacter:ACharacter)
+---@field PreConstruct:fun(IsDesignTime:bool)
+---@field InitPlayerState:fun()
+---@field ReceivedInitWidget:fun()
+---@field Construct:fun()
+---@field ResetUIStateAfterRespawn:fun()
+---@field SetupUIMarkRoot:fun()
+---@field RespawnInitWidget:fun()
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field OnMapItemNoise:fun(isApply:bool)
+---@field SetAirlineVisible:fun(bShow:bool)
+---@field SetAirAttckVisible:fun(bShow:bool)
+---@field MapAligDispatchers__DelegateSignature:fun()
+---@field MapSizeDispatchers__DelegateSignature:fun()
+---@field ShowHideEntireMap__DelegateSignature:fun(bShow:bool)
+---@field AirAttackArea UImage
+---@field CanvasPanel_Airline UCanvasPanel
+---@field CanvasPanel_AllMarks UCanvasPanel
+---@field CanvasPanel_Bounty UCanvasPanel
+---@field CanvasPanel_MiniMap UCanvasPanel
+---@field CanvasPanel_Player UCanvasPanel
+---@field CustomSocket_AsianMini UCanvasPanel
+---@field DynamicAddPanel UCanvasPanel
+---@field Image_Inner UImage
+---@field MapStaticUILogic MapStaticUILogic_C
+---@field MiniMap UImage
+---@field OB_SkydivingAreaAriLine_UIBP OB_SkydivingAreaAriLine_UIBP_C
+---@field EntireMap NewEntireMap_C
+---@field LevelLandScapeExtent float
+---@field LevelLandScapeCenter FVector
+---@field MapCenterToPinMarker FVector
+---@field TestMap EGameMap
+---@field MapType EMapType
+---@field BlueColor FLinearColor
+---@field WhiteColor FLinearColor
+---@field STExtraPlayerController ASTExtraPlayerController
+---@field STExtraGameStateBase ASTExtraGameStateBase
+---@field PlayerOperation EPlayerOperation
+---@field LastestAirAttackWave int32
+---@field RotateAngle float
+---@field STEPlayerState ASTExtraPlayerState
+---@field TeamMatePlayerStateList ULuaArrayHelper
+---@field LocalPlayerIndex int32
+---@field TeamPlayerWithoutLocalPlayer ULuaArrayHelper
+---@field bNeedUpdateTeamMateInfo bool
+---@field PlayerMarkBrush ULuaArrayHelper
+---@field PlayerMarkInMapGridArray ULuaArrayHelper
+---@field PlayerInfoInMapGridArray ULuaArrayHelper
+---@field PlayerInfoInMapImageArray ULuaArrayHelper
+---@field bNeedDrawSelfGuideLine bool
+---@field SelfMarkerAligment FVector2D
+---@field Player01Color FLinearColor
+---@field Player02Color FLinearColor
+---@field Player03Color FLinearColor
+---@field Player04Color FLinearColor
+---@field GuideLineMaxLength float
+---@field MapWindowHalfExtent float
+---@field DebugNotDrawGuideLine bool
+---@field MateCount int32
+---@field BrushList ULuaArrayHelper
+---@field PlayerInfoNumImageArray ULuaArrayHelper
+---@field NameList ULuaArrayHelper
+---@field PlayerStateGroup ULuaArrayHelper
+---@field DefaultLineThickness float
+---@field MiniMapShow4*4Scale float
+---@field bAntiAlias bool
+---@field bDrawPlaneRoute bool
+---@field RouteStartLoc FVector2D
+---@field RouteVelocity FVector2D
+---@field RouteEndLoc FVector2D
+---@field MapAdjustOffset FVector2D
+---@field RouteTime float
+---@field arrowImageArray ULuaArrayHelper
+---@field TeamColor ULuaArrayHelper
+---@field CirclePlayerIcon FSlateBrush
+---@field SquarePlayerIcon FSlateBrush
+---@field SpectatorNum int32
+---@field CurPlayerID int32
+---@field DeadIconArray ULuaArrayHelper
+---@field arrowImageArray_DeadControl ULuaArrayHelper
+---@field SpeedLowerLimtList ULuaArrayHelper
+---@field DynamicScaleFactorList ULuaArrayHelper
+---@field StandardScale float
+---@field MapTexture UTexture2D
+---@field FreeZombieWaveItemList ULuaArrayHelper
+---@field PlayerIconPool UUIDuplicatedItemPool
+---@field PlayerMarkPool UUIDuplicatedItemPool
+---@field PlayerInfoBPArray ULuaArrayHelper
+---@field PlayerMarkBPArray ULuaArrayHelper
+---@field PlayerInfoRotWidgetArray ULuaArrayHelper
+---@field OuterMapItem ULuaArrayHelper
+---@field PlayerColorMap ULuaMapHelper
+---@field VisualItemList ULuaArrayHelper
+---@field UsableVisualItemIndex int32
+---@field UAVIconPool UUIDuplicatedItemPool
+---@field InnerCircle BP_FakeRadiation_C
+---@field InnerCircleGameModeID ULuaArrayHelper
+---@field InCircle bool
+---@field AirDropIndex2 int32
+---@field ShowHideEntireMap ULuaMulticastDelegate
+---@field bInitAirAttackIcon bool
+---@field BlackAirAttackArea FSlateBrush
+---@field TeammateList ULuaArrayHelper
+---@field SpectatingEnemy bool
+---@field TempMapPath FString
+---@field AutoPilotVehicle ASTExtraVehicleBase
+---@field RouteList ULuaArrayHelper
+---@field RouteStart int32
+---@field CanRefreshMapImageByModeID bool
+---@field AutoPilotColor FLinearColor
+---@field MiniMapShow44Scale float
+---@field MapSizeDispatchers ULuaMulticastDelegate
+---@field MapAligDispatchers ULuaMulticastDelegate

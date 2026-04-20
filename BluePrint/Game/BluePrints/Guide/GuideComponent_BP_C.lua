@@ -1,0 +1,6 @@
+---@class GuideComponent_BP_C:UGuideComponent
+---@field ShowGuideByStep:fun()
+---@field AddUIGuide:fun(widget1:UWidget,guildUI1:int32,offset1:FVector2D,size1:FVector2D,childData1:int32)
+---@field InitUIGuide:fun()
+---@field CreateGuideUI:fun()
+---@field guideStep int32

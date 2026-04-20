@@ -1,0 +1,3 @@
+---@class UGC_P1911_C:AActor
+---@field UserConstructionScript:fun()
+---@field StaticMesh UStaticMeshComponent

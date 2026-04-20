@@ -1,0 +1,127 @@
+---@class ConsumableItemList_C:UUAEUserWidget
+---@field IsCustomUIDataValid:fun(Widget:UWidget,SaveDataSize:FVector2D):bool
+---@field RefreshIcon:fun(obj:UObject,id:int32)
+---@field UpdateIconsTexture:fun()
+---@field IsAggregationUsedIcon:fun(DefineID:FItemDefineID):bool
+---@field CallServerUseItem:fun(TargetDefineID:FItemDefineID,PlayerController:ASTExtraPlayerController)
+---@field AddCountAggregationItem:fun(BattleItemData:FBattleItemData):bool
+---@field IsAggregationItem:fun(DefineID:FItemDefineID):bool
+---@field CheckLastItemBattery:fun()
+---@field HandleSignalChange:fun(signal:float)
+---@field GetPriorityInCurSortModeByType:fun(SortMode:EConsumableListSortMode,ConsumableType:EConsumeItemType):int32
+---@field IsInSortCD:fun():bool
+---@field RefreshItemImage:fun(NewParam:UObject)
+---@field Reconnect_ResetUIByPlayerControllerState:fun()
+---@field ResetItemPriorityInArray:fun(In:ULuaArrayHelper):ULuaArrayHelper
+---@field OnItemClick:fun(Index:int32)
+---@field SetSortModeBySetting:fun()
+---@field SetItemPriorityBySortMode:fun(InData:FCompatableComsumableItemType):FCompatableComsumableItemType
+---@field HandleHPChange:fun(CurHP:float)
+---@field UpdateInterativeTriangle:fun()
+---@field UpdateItemPressOrRelease:fun(Index:int32,IsPress:bool)
+---@field CollapseFolder:fun()
+---@field ResetCurUsingItemType:fun()
+---@field GetConsumableItemUIWidgetGroupByIndex:fun(Index:int32):UImage,UImage,UButton,UTextBlock,UGridPanel,UBorder
+---@field UpdateFloderListImage:fun()
+---@field UpdateFirstItemImage:fun()
+---@field IsFirstItemRunOut:fun():bool
+---@field GetConsumItemTypeBySpecificID:fun(DefineID:FItemDefineID):EConsumeItemType
+---@field UpdateConsumableItemArray:fun(newItemDefineID:FItemDefineID)
+---@field IsAConsumableItem:fun(DefineID:FItemDefineID):bool
+---@field GetConsumableItemDataTableMap:fun()
+---@field GetPlayerCharacter:fun():ASTExtraPlayerCharacter
+---@field ReceivedInitWidget:fun()
+---@field SetSettingControlUI:fun()
+---@field SetCustomizeUIInfo:fun(SaveGame:BP_SAVEGAME_UIElemLayout_C,FireMode:int32)
+---@field Border_ConsumeItem1 UBorder
+---@field Border_ConsumeItem2 UBorder
+---@field Border_ConsumeItem3 UBorder
+---@field Border_ConsumeItem4 UBorder
+---@field Border_ConsumeItem5 UBorder
+---@field Border_ConsumeItem6 UBorder
+---@field Border_ConsumeItem7 UBorder
+---@field Border_CurFirstItem UBorder
+---@field Border_InteractivePanel UBorder
+---@field ConsumeItem1_BG UImage
+---@field ConsumeItem1_CountText UTextBlock
+---@field ConsumeItem1_Image UImage
+---@field ConsumeItem1Btn UButton
+---@field ConsumeItem2_BG UImage
+---@field ConsumeItem2_CountText UTextBlock
+---@field ConsumeItem2_Image UImage
+---@field ConsumeItem2Btn UButton
+---@field ConsumeItem3_BG UImage
+---@field ConsumeItem3_CountText UTextBlock
+---@field ConsumeItem3_Image UImage
+---@field ConsumeItem3Btn UButton
+---@field ConsumeItem4_BG UImage
+---@field ConsumeItem4_CountText UTextBlock
+---@field ConsumeItem4_Image UImage
+---@field ConsumeItem4Btn UButton
+---@field ConsumeItem5_BG UImage
+---@field ConsumeItem5_CountText UTextBlock
+---@field ConsumeItem5_Image UImage
+---@field ConsumeItem5Btn UButton
+---@field ConsumeItem6_BG UImage
+---@field ConsumeItem6_CountText UTextBlock
+---@field ConsumeItem6_Image UImage
+---@field ConsumeItem6Btn UButton
+---@field ConsumeItem7_BG UImage
+---@field ConsumeItem7_CountText UTextBlock
+---@field ConsumeItem7_Image UImage
+---@field ConsumeItem7Btn UButton
+---@field CurFirstItem UGridPanel
+---@field CurImage_AggregationBG UImage
+---@field CurUseBG UImage
+---@field CurUseFirstItemBtn UButton
+---@field CurUseFirstItemCountText UTextBlock
+---@field CurUseFirstItemImage UImage
+---@field GridPanel_ConsumeItem1 UGridPanel
+---@field GridPanel_ConsumeItem2 UGridPanel
+---@field GridPanel_ConsumeItem3 UGridPanel
+---@field GridPanel_ConsumeItem4 UGridPanel
+---@field GridPanel_ConsumeItem5 UGridPanel
+---@field GridPanel_ConsumeItem6 UGridPanel
+---@field GridPanel_ConsumeItem7 UGridPanel
+---@field GridPanel_ConsumeItemFolder UGridPanel
+---@field InterativeBtn UButton
+---@field WidgetSwitcher_0 UWidgetSwitcher
+---@field BtnNormalBG FSlateBrush
+---@field BtnHightLightBG FSlateBrush
+---@field IsListExpand bool
+---@field InteractiveNormalBG FSlateBrush
+---@field InteractiveHighLightBG FSlateBrush
+---@field IsAutoCollapseInterupted bool
+---@field AutoCollapsedTime float
+---@field STExtraPlayerCharacter ASTExtraPlayerCharacter
+---@field ConsumableItemDataTableMap ULuaMapHelper
+---@field CompableItemArray ULuaArrayHelper
+---@field ConsumableMinID int32
+---@field ConsumableMaxID int32
+---@field CurFirstItemTypeData FCompatableComsumableItemType
+---@field bIntelligentDrugs bool
+---@field CacheHP float
+---@field SortingMode EConsumableListSortMode
+---@field bIsDoneFullHealthSort bool
+---@field bIsDoneLittleBitWoundSort bool
+---@field bIsDonePlentyWoundSort bool
+---@field bIsDoneSeriousWoundSort bool
+---@field bIsDoneAlmostDieSort bool
+---@field bForceUpdate bool
+---@field LastMannualSortTime float
+---@field MannualSortTimeThreshold float
+---@field FirstItemImagePath FString
+---@field ConsumableIDToType ULuaMapHelper
+---@field ConsumableIDToNotIntelligencePriority ULuaMapHelper
+---@field ConsumableIDToIntelligenceFullHealthPriority ULuaMapHelper
+---@field ConsumableIDToIntelligenceLittleBitWoundPriority ULuaMapHelper
+---@field ConsumableIDToIntelligencePlentyWoundPriority ULuaMapHelper
+---@field ConsumableIDToIntelligenceSeriousWoundPriority ULuaMapHelper
+---@field ConsumableIDToIntelligenceAlmostDiePriority ULuaMapHelper
+---@field ConsumableIDToIconPath ULuaMapHelper
+---@field LocalSignal float
+---@field AggregationItemIndex int32
+---@field AggregationItemsArray ULuaArrayHelper
+---@field AggregationIconTexture UTexture2D
+---@field IconTextureTem UTexture2D
+---@field AggregationIconPathCounter int32

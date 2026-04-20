@@ -1,0 +1,8 @@
+---@class BP_RevivalAirplane_C:AAirplaneCharacter
+---@field UserConstructionScript:fun()
+---@field ReceiveEndPlay:fun(EndPlayReason:EEndPlayReason)
+---@field OnSetOwnFlyingData:fun()
+---@field AirLineMarkComp AirLineMarkComp_C
+---@field Ak UAkComponent
+---@field Camera UCameraComponent
+---@field STCustomMesh USTCustomMeshComponent

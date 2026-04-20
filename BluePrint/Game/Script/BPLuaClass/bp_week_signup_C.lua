@@ -1,0 +1,11 @@
+---@class bp_week_signup_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_CurrentSignUpDayInWeek int32
+---@field BP_Week_SignUp_Startup int32
+---@field BP_ARRAY_Week_SignUp_Info ULuaArrayHelper
+---@field BP_Week_SignUp_SkinImg FString
+---@field BP_Request_SignUp_day int32
+---@field BP_Week_SignUp_QQVip int32
+---@field BP_Week_SignUp_Platform int32
+---@field BP_Week_SignUp_TimeString FString

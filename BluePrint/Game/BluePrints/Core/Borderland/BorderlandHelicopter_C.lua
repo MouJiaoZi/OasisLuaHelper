@@ -1,0 +1,25 @@
+---@class BorderlandHelicopter_C:AFutureCarrier
+---@field GetHelicTarget:fun()
+---@field SetHelicTarget:fun(TargetLocation:FVector,IsEnter:bool)
+---@field UserConstructionScript:fun()
+---@field K2_OnBecomeViewTarget:fun(PC:APlayerController)
+---@field SetGMReviveParam:fun(DQSTime:float,DLHTime:float)
+---@field Ak UAkComponent
+---@field P_Plan_Propeller_02 UParticleSystemComponent
+---@field P_Plan_Propeller_01 UParticleSystemComponent
+---@field Camera UCameraComponent
+---@field SM_PlanG_Helicopter_01 UStaticMeshComponent
+---@field STExtraSpringArm USTExtraSpringArmComponent
+---@field AcrobaticsMovementComponentPlus UAcrobaticsMovementComponentPlus
+---@field ReviveHelicMoveTarget ULuaArrayHelper
+---@field MoveTimeLimit float
+---@field TmpTarget FVector
+---@field TmpLeavePos FVector
+---@field LeaveTimeLimit float
+---@field TmpLeaveTarget FVector
+---@field SetVTDelay float
+---@field CameraRot FRotator
+---@field TmpPC ASTExtraPlayerController
+---@field NewVar_0 FDamageScale
+---@field HideSpectatingPC ASTExtraPlayerController
+---@field QuitSpectatingDelay float

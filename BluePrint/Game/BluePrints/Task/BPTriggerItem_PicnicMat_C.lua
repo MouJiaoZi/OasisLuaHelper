@@ -1,0 +1,1 @@
+---@class BPTriggerItem_PicnicMat_C:ATriggerItem_PicnicMat

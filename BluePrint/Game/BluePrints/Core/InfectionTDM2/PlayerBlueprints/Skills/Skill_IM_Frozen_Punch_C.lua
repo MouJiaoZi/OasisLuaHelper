@@ -1,0 +1,30 @@
+---@class Skill_IM_Frozen_Punch_C:AUAESkill
+---@field UserConstructionScript:fun()
+---@field UTSkillEventEffectMapForEditor5 UUTSkillEventEffectMapForEditor
+---@field UTSkillEventEffectMapForEditor4 UUTSkillEventEffectMapForEditor
+---@field UAESkillAction_ActionWithConditions1 UUAESkillAction_ActionWithConditions
+---@field UAESkillAction_ActionWithConditions UUAESkillAction_ActionWithConditions
+---@field UAESkillAction_PlayMontage_Pose7 UUAESkillAction_PlayMontage_Pose
+---@field UAESkillAction_PlayMontage_Pose6 UUAESkillAction_PlayMontage_Pose
+---@field UTSkillEventEffectMapForEditor3 UUTSkillEventEffectMapForEditor
+---@field UAESkillAction_PlayMontage_Pose5 UUAESkillAction_PlayMontage_Pose
+---@field UAESkillAction_PlayMontage_Pose4 UUAESkillAction_PlayMontage_Pose
+---@field UAESkillAction_TakeDamage1 UUAESkillAction_TakeDamage
+---@field UTSkillEventEffectMapForEditor2 UUTSkillEventEffectMapForEditor
+---@field UAESkillAction_JumpPhase UUAESkillAction_JumpPhase
+---@field UAESkillPhase7 UUAESkillPhase
+---@field UAESkillPhase6 UUAESkillPhase
+---@field UAESkillPhase5 UUAESkillPhase
+---@field UAESkillPhase4 UUAESkillPhase
+---@field UAESkillAction_PlayMontage_Pose2 UUAESkillAction_PlayMontage_Pose
+---@field UAESkillAction_TakeDamage2 UUAESkillAction_TakeDamage
+---@field UAESkillAction_PlayMontage_Pose1 UUAESkillAction_PlayMontage_Pose
+---@field UAESkillAction_PlayMontage_Pose UUAESkillAction_PlayMontage_Pose
+---@field UAESkillAction_TakeDamage UUAESkillAction_TakeDamage
+---@field UTSkillEventEffectMapForEditor1 UUTSkillEventEffectMapForEditor
+---@field UTSkillEventEffectMapForEditor UUTSkillEventEffectMapForEditor
+---@field UAESkillPhase3 UUAESkillPhase
+---@field UAESkillPhase2 UUAESkillPhase
+---@field UAESkillPhase1 UUAESkillPhase
+---@field UAESkillPhase UUAESkillPhase
+---@field DefaultSceneRoot USceneComponent

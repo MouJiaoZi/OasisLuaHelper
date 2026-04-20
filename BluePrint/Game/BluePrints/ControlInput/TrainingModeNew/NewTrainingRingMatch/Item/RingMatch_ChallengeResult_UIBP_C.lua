@@ -1,0 +1,24 @@
+---@class RingMatch_ChallengeResult_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field PlayAnim:fun()
+---@field DX_In UWidgetAnimation
+---@field Button_Determine UNewButton
+---@field Button_Share UNewButton
+---@field CanvasPanel_Challenge UCanvasPanel
+---@field CanvasPanel_interactive_01 UCanvasPanel
+---@field CanvasPanel_interactive_02 UCanvasPanel
+---@field CanvasPanel_Leizhu UCanvasPanel
+---@field CanvasPanel_SettlementTips UCanvasPanel
+---@field interactiveBut_01 RingMatch_interactiveBut_UIBP_C
+---@field interactiveBut_02 RingMatch_interactiveBut_UIBP_C
+---@field RingMatch_DuelPlayer_01 RingMatch_DuelPalyInfo_UIBP_C
+---@field RingMatch_DuelPlayer_02 RingMatch_DuelPalyInfo_UIBP_C
+---@field RingMatch_ResultGun_01 RingMatch_ResultGun_UIBP_C
+---@field RingMatch_ResultGun_02 RingMatch_ResultGun_UIBP_C
+---@field RingMatch_TitleItem_01 RingMatch_TitleItem_UIBP_C
+---@field RingMatch_TitleItem_02 RingMatch_TitleItem_UIBP_C
+---@field WidgetSwitcher_ChallengeBG UWidgetSwitcher
+---@field WidgetSwitcher_ChallengeResult UWidgetSwitcher
+---@field WidgetSwitcher_DorC UWidgetSwitcher
+---@field WidgetSwitcher_LeitaiBG UWidgetSwitcher
+---@field AKAudio UAkAudioEvent

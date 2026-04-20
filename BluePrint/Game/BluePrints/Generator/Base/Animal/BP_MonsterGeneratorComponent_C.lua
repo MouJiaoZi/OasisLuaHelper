@@ -1,0 +1,4 @@
+---@class BP_MonsterGeneratorComponent_C:UItemGeneratorComponent
+---@field LoadDataTable:fun()
+---@field LoadItemGenerateTable:fun()
+---@field ReceiveBeginPlay:fun()

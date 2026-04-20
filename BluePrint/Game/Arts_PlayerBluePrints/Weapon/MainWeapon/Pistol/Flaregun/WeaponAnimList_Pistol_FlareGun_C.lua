@@ -1,0 +1,1 @@
+---@class WeaponAnimList_Pistol_FlareGun_C:UUAECharacterAnimListComponent

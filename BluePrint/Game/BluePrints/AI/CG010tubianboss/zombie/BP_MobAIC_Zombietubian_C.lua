@@ -1,0 +1,5 @@
+---@class BP_MobAIC_Zombietubian_C:AMobAIController
+---@field UserConstructionScript:fun()
+---@field AIBreakWindow UAIBreakWindowComponent
+---@field AICrowdMove UAICrowdMoveComponent
+---@field AIChooseEnemy UAIChooseEnemyComponent

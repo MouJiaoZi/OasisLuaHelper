@@ -1,0 +1,7 @@
+---@class BP_TexiSpot_C:AUAEHouseActor
+---@field UserConstructionScript:fun()
+---@field BP_MysteriosEscapePoint_ChikenTaxi UChildActorComponent
+---@field BP_WerewolfBoxSpotComponent BP_WerewolfBoxSpotComponent_C
+---@field BP_WerewolfBoxGroupSceneComponent BP_WerewolfBoxGroupSceneComponent_C
+---@field Arrow UArrowComponent
+---@field DefaultSceneRoot USceneComponent

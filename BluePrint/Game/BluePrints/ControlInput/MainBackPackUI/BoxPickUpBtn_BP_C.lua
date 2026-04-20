@@ -1,0 +1,1 @@
+---@class BoxPickUpBtn_BP_C:UUserWidget

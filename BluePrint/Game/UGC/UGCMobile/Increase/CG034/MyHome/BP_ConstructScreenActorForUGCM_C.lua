@@ -1,0 +1,21 @@
+---@class BP_ConstructScreenActorForUGCM_C:BP_ConstructActivityActorBaseForUGCM_C
+---@field CanSwitchChannel:fun(NewParam:FClick_Param):bool
+---@field CanShutdown:fun(NewParam:FClick_Param):bool
+---@field OnClickShut:fun(NewParam:FClick_Param)
+---@field CanOpen:fun(NewParam:FClick_Param):bool
+---@field OnClickOpen:fun(NewParam:FClick_Param)
+---@field CheckSelfValid:fun():bool
+---@field GetTextureNumParam:fun():int32
+---@field GetChannelAudio:fun():UAkAudioEvent
+---@field OnClickSwitch:fun(NewParam:FClick_Param)
+---@field GetChannelTexture:fun():UTexture
+---@field UserConstructionScript:fun()
+---@field ResetState:fun()
+---@field ChannelTexList ULuaArrayHelper
+---@field ChannelTexNumList ULuaArrayHelper
+---@field ChannelAudioList ULuaArrayHelper
+---@field ChennelIndex int32
+---@field DMI UMaterialInstanceDynamic
+---@field ScreenMaterialIndex int32
+---@field ChannelRollNum float
+---@field ActivitySwitch EHomelandActivityState

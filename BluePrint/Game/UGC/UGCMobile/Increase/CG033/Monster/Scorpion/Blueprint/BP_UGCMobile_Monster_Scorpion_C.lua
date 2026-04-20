@@ -1,0 +1,7 @@
+---@class BP_UGCMobile_Monster_Scorpion_C:BP_UGCM_GenericMobPawn_C
+---@field UserConstructionScript:fun()
+---@field Capsule3 UCapsuleComponent
+---@field Capsule2 UCapsuleComponent
+---@field Capsule1 UCapsuleComponent
+---@field Capsule UCapsuleComponent
+---@field HitBox UBoxComponent

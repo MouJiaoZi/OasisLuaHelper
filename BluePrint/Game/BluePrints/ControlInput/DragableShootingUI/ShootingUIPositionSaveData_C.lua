@@ -1,0 +1,3 @@
+---@class ShootingUIPositionSaveData_C:USaveGame
+---@field SavingSlot FString
+---@field SavingSerialNum int32

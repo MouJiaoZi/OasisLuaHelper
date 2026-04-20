@@ -1,0 +1,7 @@
+---@class ShootingMonitor_C:AActor
+---@field GetLuaModule:fun():FString
+---@field TransportHitData:fun(X:float,Z:float,TargetFlag:int32,DistanceFlag:int32)
+---@field UserConstructionScript:fun()
+---@field Widget UWidgetComponent
+---@field StaticMesh UStaticMeshComponent
+---@field DefaultSceneRoot USceneComponent

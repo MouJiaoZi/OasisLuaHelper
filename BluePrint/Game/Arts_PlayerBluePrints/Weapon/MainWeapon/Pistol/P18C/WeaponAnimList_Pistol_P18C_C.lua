@@ -1,0 +1,1 @@
+---@class WeaponAnimList_Pistol_P18C_C:UUAECharacterAnimListComponent

@@ -1,0 +1,1 @@
+---@class BP_AnimalSpawn_DihorOtok1_C:UItemGeneratorComponent

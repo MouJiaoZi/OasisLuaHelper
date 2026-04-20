@@ -1,0 +1,40 @@
+---@class PE_TurnMecha_C:UPersistEffectWithState
+---@field GetLuaModule:fun():FString
+---@field RemoveForbitPickupDebuff:fun()
+---@field AddForbitPickupDebuff:fun()
+---@field UpdateMechaSprintCD:fun()
+---@field UpdateMechaRepairCD:fun()
+---@field RemoveMechaSkill:fun()
+---@field AddMechaSkill:fun()
+---@field ActiveOtherSkill:fun(bActive:bool)
+---@field ShowOriginWeapon:fun()
+---@field HideOriginWeapon:fun()
+---@field AddMechaItem:fun()
+---@field AddAttribute:fun()
+---@field DeleteMechaItem:fun()
+---@field RemoveAttribute:fun()
+---@field CacheWeaponSlot:fun()
+---@field SetMechaData:fun()
+---@field DelaySwitchToOriginWeapon:fun()
+---@field OnTurnToHuman:fun()
+---@field OnTurnToMecha:fun()
+---@field SkillManagerComponent UUAESkillManagerComponent
+---@field ItemList ULuaArrayHelper
+---@field TurnMechaDynamicState FGameplayTag
+---@field MechaWeaponSlot ESurviveWeaponPropSlot
+---@field TimeDelayToSwitchWeapon float
+---@field TurnMechaSkillData TurnMechaSkillDataAssetType_C
+---@field OriginWeaponSlot ESurviveWeaponPropSlot
+---@field MechaTurnParticle UParticleSystem
+---@field ParticleLocationOffset FVector
+---@field TurnMechaAk UAkAudioEvent
+---@field TurnHumanAk UAkAudioEvent
+---@field SkillClassNeedToDeactive UClass
+---@field PickupInfo FBattleItemPickupInfo
+---@field MaxHealthAttributeName FString
+---@field MechaPESkill ULuaArrayHelper
+---@field MechaRepairSkillClass UClass
+---@field MechaSprintSkillClass UClass
+---@field TurnMechaPrefabData S_MechaPrefabStruct
+---@field WeaponBPIDConfigList ULuaArrayHelper
+---@field ShoulderCannonBPIDConfigList ULuaArrayHelper

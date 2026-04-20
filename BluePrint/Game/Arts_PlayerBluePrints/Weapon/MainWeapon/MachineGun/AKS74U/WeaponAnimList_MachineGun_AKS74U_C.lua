@@ -1,0 +1,1 @@
+---@class WeaponAnimList_MachineGun_AKS74U_C:UUAECharacterAnimListComponent

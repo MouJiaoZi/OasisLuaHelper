@@ -1,0 +1,6 @@
+---@class VehicleSkin_CarSkin_UIBP_C:UUAEUserWidget
+---@field OnIconLoadFinish:fun(LoadedObj:UObject)
+---@field RefreshSkinItem:fun(InTargetSkinID:int32)
+---@field Image_VehicleSkin UImage
+---@field NewButton_Click UNewButton
+---@field DisplayVehicleSkinID int32

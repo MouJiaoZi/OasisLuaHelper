@@ -1,0 +1,11 @@
+---@class Leisure_EditorBGM_TabBut_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field CanvasPanel_ReceiveEvent UCanvasPanel
+---@field CanvasPanel_SendEvent UCanvasPanel
+---@field NewButton_AdvancedTab_Issue UNewButton
+---@field NewButton_AdvancedTab_Receive UNewButton
+---@field ScrollBox_ReceiveEvent UCustomScrollBox
+---@field ScrollBox_SendEvent UCustomScrollBox
+---@field Switcher_Issue UWidgetSwitcher
+---@field WidgetSwitcher_EventDetail UWidgetSwitcher
+---@field WidgetSwitcher_Receive UWidgetSwitcher

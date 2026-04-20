@@ -1,0 +1,14 @@
+---@class ShortcutMenu_BP_C:UUAEUserWidget
+---@field On_HandClose_MouseButtonDown_0:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field On_but_boxClose_MouseButtonDown_0:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field ClickCloseBox__DelegateSignature:fun()
+---@field ClickClosePickup__DelegateSignature:fun()
+---@field ClickNormal__DelegateSignature:fun()
+---@field Button_NormalStuff UButton
+---@field Image_OpenBlank UImage
+---@field PickUpBtnItem_BP PickUpBtnItem_BP_C
+---@field WidgetSwitcher_0 UWidgetSwitcher
+---@field WidgetSwitcher_1 UWidgetSwitcher
+---@field ClickNormal ULuaMulticastDelegate
+---@field ClickClosePickup ULuaMulticastDelegate
+---@field ClickCloseBox ULuaMulticastDelegate

@@ -1,0 +1,2 @@
+---@class ZD_Common_BackPack_NewGuide_UIBP_C:UUAEUserWidget
+---@field TextBlock_Content UTextBlock

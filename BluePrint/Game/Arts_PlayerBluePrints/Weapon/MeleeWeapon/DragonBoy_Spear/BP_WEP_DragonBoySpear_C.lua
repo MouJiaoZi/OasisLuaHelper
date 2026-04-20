@@ -1,0 +1,13 @@
+---@class BP_WEP_DragonBoySpear_C:ASTExtraWeapon
+---@field GetSkillIndexForMeleeWeapon:fun():int32
+---@field GetSkillEntryForMeleeWeapon:fun(IsPressed:bool):EUTSkillEntry
+---@field CheckEnableOnSwitch:fun(bCallFromDSOnly:bool):bool
+---@field UserConstructionScript:fun()
+---@field WeaponEffectComp UWeaponEffectComponent
+---@field CrossHair UCrossHairComponent
+---@field WeaponTriggerEventHandleSkill UWeaponTriggerEventHandleSkill
+---@field WeaponSpecificHandler UWeaponSpecificHandler
+---@field WeaponStateDefault UWeaponStateDefault
+---@field WeaponStateManager UWeaponStateManager
+---@field WeaponAnimList_Melee WeaponAnimList_Melee_C
+---@field WeaponEntity UWeaponEntity

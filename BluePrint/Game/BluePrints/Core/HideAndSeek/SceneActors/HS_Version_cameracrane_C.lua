@@ -1,0 +1,1 @@
+---@class HS_Version_cameracrane_C:AHiderSceneActorBase_C

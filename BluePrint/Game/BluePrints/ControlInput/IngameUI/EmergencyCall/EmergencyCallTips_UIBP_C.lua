@@ -1,0 +1,14 @@
+---@class EmergencyCallTips_UIBP_C:UUAEUserWidget
+---@field OnInitStart:fun(StartTime:float,InCountTime:int32):bool
+---@field HideSelf:fun()
+---@field InitStart:fun(StartTime:float,InCountTime:int32)
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field DX_EmergencyTips UWidgetAnimation
+---@field CanvasPanelCall UCanvasPanel
+---@field TextBlock_Time UTextBlock
+---@field StartServerTime float
+---@field IsStart bool
+---@field CurTime int32
+---@field CountTime int32
+---@field MoudleName FString
+---@field UIName FString

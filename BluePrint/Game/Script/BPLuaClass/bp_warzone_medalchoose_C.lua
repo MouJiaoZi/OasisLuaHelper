@@ -1,0 +1,9 @@
+---@class bp_warzone_medalchoose_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_WarZoneMedalChooseType int32
+---@field BP_ARRAY_WarZoneMedalChooseInfoList ULuaArrayHelper
+---@field BP_WarZoneMedalRank_Tab int32
+---@field BP_WarZoneStreetGetMedalCount int32
+---@field BP_ARRAY_WarZoneStreetMedalRank ULuaArrayHelper
+---@field BP_WarZoneStreetName FString

@@ -1,0 +1,6 @@
+---@class Camp_ListItem_UIBP_C:UUAEUserWidget
+---@field Common_Avatar_BP Common_Avatar_BP_C
+---@field TextBlock_Num UTextBlock
+---@field TextBlock_PlayerName UTextBlock
+---@field WidgetSwitcher_Bg UWidgetSwitcher
+---@field WidgetSwitcher_Gender UWidgetSwitcher

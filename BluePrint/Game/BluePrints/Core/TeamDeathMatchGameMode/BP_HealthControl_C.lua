@@ -1,0 +1,2 @@
+---@class BP_HealthControl_C:UHealthControlComponent
+---@field NewVar_0 UMaterialInterface

@@ -1,0 +1,6 @@
+---@class MapRadar_ScanningItems_Moto_UIBP_C:UMapRadar_ScanningItems_UIBP_C
+---@field Construct:fun()
+---@field OnEnterEntireMap:fun()
+---@field DX_Scanning UWidgetAnimation
+---@field Border_Icon UBorder
+---@field WidgetSwitcher_ScanType UWidgetSwitcher

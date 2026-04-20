@@ -1,0 +1,6 @@
+---@class Ingame_GrenadeList_UIBP_C:UUAEUserWidget
+---@field Border_InteractivePanel UBorder
+---@field GridPanel_GrenadeList UGridPanel
+---@field InteractiveTriangleToDown UImage
+---@field InteractiveTriangleToUp UImage
+---@field InterativeBtn UButton

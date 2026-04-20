@@ -1,0 +1,1 @@
+---@class BattleItemHandle_HelmetBP_C:UBattleItemHandle_AvatarBP_C

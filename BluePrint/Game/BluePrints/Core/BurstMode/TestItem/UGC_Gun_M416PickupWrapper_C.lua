@@ -1,0 +1,1 @@
+---@class UGC_Gun_M416PickupWrapper_C:ARifle_M416_Wrapper_C

@@ -1,0 +1,5 @@
+---@class BountyMode_ShopPlayer_UIBP_C:UUserWidget
+---@field Image_IdBG UImage
+---@field TextBlock_Name UTextBlock
+---@field TextBlock_PlayNum UTextBlock
+---@field WidgetSwitcher_Gender UWidgetSwitcher

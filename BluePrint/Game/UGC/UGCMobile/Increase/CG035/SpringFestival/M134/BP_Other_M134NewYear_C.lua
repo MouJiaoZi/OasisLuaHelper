@@ -1,0 +1,11 @@
+---@class BP_Other_M134NewYear_C:BP_ShootWeaponProjectileNewBase_C
+---@field GetCurShootMode:fun():EShootWeaponShootMode
+---@field UserConstructionScript:fun()
+---@field BP_Other_M134NewYear_ShootComp BP_Other_M134NewYear_ShootComp_C
+---@field WeaponAnimList_Other_M134NewYear WeaponAnimList_Other_M134NewYear_C
+---@field WeaponPostReloadState UWeaponPostReloadState
+---@field EmptyMagReloadShowTime float
+---@field LastLocalPlayExplodeSound float
+---@field LastRemotePlayExplodeSound float
+---@field LocalPlayExplodeSoundInterval float
+---@field RemotePlayExplodeSoundInterval float

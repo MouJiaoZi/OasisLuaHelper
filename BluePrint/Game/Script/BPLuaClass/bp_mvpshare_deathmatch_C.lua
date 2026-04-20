@@ -1,0 +1,3 @@
+---@class bp_mvpshare_deathmatch_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent

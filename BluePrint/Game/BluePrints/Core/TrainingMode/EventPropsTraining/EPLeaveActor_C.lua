@@ -1,0 +1,8 @@
+---@class EPLeaveActor_C:AUAERegionActor
+---@field CheckLeave:fun(GISCCF_Param:FGISCCF_Param):bool
+---@field LeaveSPScene:fun(GISCCF_Param:FGISCCF_Param)
+---@field UserConstructionScript:fun()
+---@field P_Shooting_park_Portal_01 UParticleSystemComponent
+---@field Sphere USphereComponent
+---@field GISActorComponentBase UGISActorComponentBase
+---@field DefaultSceneRoot USceneComponent

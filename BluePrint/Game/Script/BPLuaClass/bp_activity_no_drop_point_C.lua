@@ -1,0 +1,4 @@
+---@class bp_activity_no_drop_point_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field ActivityNoDropPointFirstTimeShareToday bool

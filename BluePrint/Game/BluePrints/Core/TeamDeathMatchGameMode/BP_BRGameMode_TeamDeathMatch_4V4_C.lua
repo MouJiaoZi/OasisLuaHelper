@@ -1,0 +1,3 @@
+---@class BP_BRGameMode_TeamDeathMatch_4V4_C:ABP_BRGameMode_TeamDeathMatch_C
+---@field UserConstructionScript:fun()
+---@field AiTdmSession UAiTdmSessionComponent

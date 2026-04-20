@@ -1,0 +1,5 @@
+---@class ZD_NewChatItemList_Item_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field DX_In UWidgetAnimation
+---@field ChatChannelText UUTRichTextBlock
+---@field Image_Chat UImage

@@ -1,0 +1,1 @@
+---@class ItemSpawn_WarCircle_C:UBP_ItemGeneratorComponent_C

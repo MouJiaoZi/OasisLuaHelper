@@ -1,0 +1,50 @@
+---@class BP_VehicleUser_C:UVehicleUserComponent
+---@field OnLionDanceEnergyChanged:fun(Energy:float)
+---@field OnVehicleChargingStateChanged:fun(ChargingState:bool)
+---@field BindUnmandedEvent:fun(Bind:bool)
+---@field BindEvent:fun(Bind:bool)
+---@field SetHelicopterSingleOperate:fun(IsSingleOperate:bool)
+---@field SetUAVSpeedPercent:fun(SpeedPercent:float)
+---@field SetUAVCameraMode:fun(FreeCamera:bool)
+---@field OnUnmanedVehicleFuelChanged:fun(fuel:float,macFuel:float)
+---@field OnUnmanedVehicleHPChanged:fun(hp:float,maxHP:float)
+---@field SetClampControllerRelativeYaw:fun(Clamp:bool)
+---@field SetHelicopterCameraMode:fun(isfreeCamera:bool)
+---@field SendUIMsgWhenChangeSeatCompleted:fun()
+---@field SendUIMsgWhenEnterVehicleCompleted:fun()
+---@field SendUIMsgWhenExitVehicleCompleted:fun()
+---@field SetPlayMusic:fun(Enabled:bool)
+---@field ResetInputs:fun()
+---@field OnMotorcycleContactChanged:fun()
+---@field FixGoStraight:fun(InMoveRightRate:float,GoStraightThreshold:float):float
+---@field OnUpdateSeatGUI:fun()
+---@field OnVehicleWheelsHPChanged:fun()
+---@field StopPlayerAutoSprint:fun()
+---@field OnVehicleFuelChanged:fun(Fuel:float,FuelMax:float)
+---@field OnVehicleHPChanged:fun(HP:float,HPMax:float)
+---@field ExitVehicle:fun()
+---@field EnterVehicle:fun(IsDriver:bool)
+---@field ReceiveBeginPlay:fun()
+---@field OnInputAxisMoveForward:fun(rate:float)
+---@field OnInputAxisMoveRight:fun(rate:float)
+---@field OnLaunchUnmannedVehicleCompleted:fun()
+---@field OnPauseUnmannedVehicleCompleted:fun()
+---@field OnShutDownUnmannedVehicleCompleted:fun(cdTime:float)
+---@field AxisMoveForwardFreezed bool
+---@field AxisMoveRightFreezed bool
+---@field Fuel float
+---@field FuelMax float
+---@field HP float
+---@field HPMax float
+---@field OutMoveRightRate float
+---@field RawSpeed float
+---@field UnmanedFuel float
+---@field UnmanedFuelMax float
+---@field UnmanedHP float
+---@field UnmanedHPMax float
+---@field UnmanedCallBackTime float
+---@field bShowUnmanedLowPowerTips bool
+---@field bChargingState bool
+---@field PopKartRaceWarnTime float
+---@field CacheActivityItemId FString
+---@field Energy float

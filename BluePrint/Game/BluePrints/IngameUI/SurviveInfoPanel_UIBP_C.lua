@@ -1,0 +1,1 @@
+---@class SurviveInfoPanel_UIBP_C:UUserWidget

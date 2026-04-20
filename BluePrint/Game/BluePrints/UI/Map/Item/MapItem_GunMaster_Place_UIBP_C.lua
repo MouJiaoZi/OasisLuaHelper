@@ -1,0 +1,5 @@
+---@class MapItem_GunMaster_Place_UIBP_C:UMapUIMarkBaseWidget
+---@field OnUIBPCreate:fun(InState:FCustomMarkEventData,ParentState:EMarkParentWidget,inRealLevelToMapScale:float,inMapScale:float)
+---@field UpdateMarkSize:fun(inScale:float,inMapScale:float,MapScaleInUI:float)
+---@field VisiableSize float
+---@field bUpdateSize bool

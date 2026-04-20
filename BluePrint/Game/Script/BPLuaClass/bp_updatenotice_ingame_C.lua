@@ -1,0 +1,7 @@
+---@class bp_updatenotice_ingame_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_UpdateNoticeInGame_Scene FString
+---@field BP_UpdateNoticeInGame_IsSlapShow bool
+---@field BP_UpdateNoticeInGame_JumpMode FString
+---@field BP_ARRAY_UNInGame_AwardList ULuaArrayHelper

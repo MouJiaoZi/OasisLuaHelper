@@ -1,0 +1,18 @@
+---@class AttachActor_GiveReceiveBase_C:AActor
+---@field TriggerEntryEvent:fun(EntryEvent:EUTSkillEntry):bool
+---@field CanDrop:fun(CheckOnly:bool):bool
+---@field UserConstructionScript:fun()
+---@field HandleSkillEnd:fun(SkillID:int32,Reason:UTSkillStopReason)
+---@field HandleSkillStart:fun(SkillID:int32)
+---@field TriggerEvent:fun(SkillID:int32,EventType:UTSkillEventType)
+---@field TriggerCustomEvent:fun(EventType:EUAESkillEvent)
+---@field TriggerCustomEventWithOwnerPawn:fun(EventType:EUAESkillEvent,OwnerPawn:AActor)
+---@field InitFromSkill:fun(SkillOwner:AUAEBaseSkill)
+---@field BP_ProduceDropItemComponent BP_ProduceDropItemComponent_Deprecated_C
+---@field StaticMesh UStaticMeshComponent
+---@field DefaultSceneRoot USceneComponent
+---@field pid int32
+---@field DelaySpawnItemTime float
+---@field TotalDropLimit int32
+---@field IsDebugMode bool
+---@field NoSkillEvent bool

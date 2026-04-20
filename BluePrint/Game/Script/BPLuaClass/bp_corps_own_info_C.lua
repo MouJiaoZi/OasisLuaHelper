@@ -1,0 +1,16 @@
+---@class bp_corps_own_info_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_CorpsInfoMemberNum int32
+---@field BP_InviteRedDot bool
+---@field BP_CorpsInfo_CorpsWarSystemSwitch bool
+---@field BP_CorpsOwn_SkipRecruit bool
+---@field BP_CorpsInfo_SeasonTimeStr FString
+---@field BP_CorpsInfo_ShowInfoState int32
+---@field BP_CorpsInfoMemberInfo_PageStart int32
+---@field BP_ARRAY_PartMemberList ULuaArrayHelper
+---@field BP_CorpsInfoMemberInfo_PageEnd int32
+---@field BP_OperateMemberId FString
+---@field BP_SelfRoleId FString
+---@field BP_ARRAY_LogInfos ULuaArrayHelper
+---@field BP_IsCommander bool

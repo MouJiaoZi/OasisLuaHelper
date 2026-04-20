@@ -1,0 +1,19 @@
+---@class Ingame_Photo_FreeCamera_UIBP_C:UCustomUserWidget
+---@field GetEyeIconPosition:fun(Geometry:FGeometry,TouchPosition:FVector2D):FVector2D
+---@field SetFreeCameraUI:fun(bFreeCamera:bool)
+---@field OnTouchMoved:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field OnTouchEnded:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field OnTouchStarted:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field ReceivedInitWidget:fun()
+---@field TouchBeginDelegate__DelegateSignature:fun()
+---@field TouchEndDelegate__DelegateSignature:fun()
+---@field BackgroundImage UImage
+---@field EyeImage UImage
+---@field EyeOriginalPosition UOverlay
+---@field PressImg FSlateBrush
+---@field NormalImg FSlateBrush
+---@field MyGeometry FGeometry
+---@field TouchEndDelegate ULuaMulticastDelegate
+---@field FreeCameraFinger ETouchIndex
+---@field FreeCameraStartTime float
+---@field TouchBeginDelegate ULuaMulticastDelegate

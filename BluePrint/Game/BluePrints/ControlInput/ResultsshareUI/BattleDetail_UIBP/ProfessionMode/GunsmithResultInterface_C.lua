@@ -1,0 +1,2 @@
+---@class GunsmithResultInterface_C:UInterface
+---@field RefreshGunsmithCoin:fun(Count:int32):bool

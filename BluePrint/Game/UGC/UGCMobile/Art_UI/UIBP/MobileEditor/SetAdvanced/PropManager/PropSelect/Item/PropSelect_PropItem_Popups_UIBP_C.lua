@@ -1,0 +1,8 @@
+---@class PropSelect_PropItem_Popups_UIBP_C:UUserWidget
+---@field GetLuaModule:fun():FString
+---@field CanvasPanel_PropSelect UCanvasPanel
+---@field Image_PropIcon UImage
+---@field NewButton_Prop UNewButton
+---@field NewCheckBox_MultipleSelect UNewCheckBox
+---@field Text_PropName UTextBlock
+---@field WidgetSwitcher_State UWidgetSwitcher

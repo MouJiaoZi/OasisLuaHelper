@@ -1,0 +1,1 @@
+---@class UGC_Wep_PanPickupWrapper_C:AWEP_Pan_Wrapper_C

@@ -1,0 +1,1 @@
+---@class Ingame_EMPLockDot_UIBP_C:UEMPSeekAndLockWeapon3DWidget

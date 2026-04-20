@@ -1,0 +1,10 @@
+---@class KillInfo_Judge_Lua_UIBP_C:UKillInfoBase
+---@field GetLuaModule:fun():FString
+---@field Image_2 UImage
+---@field Image_TeamLogoJudge UImage
+---@field SizeBox_TeamLogo USizeBox
+---@field TextBlock_PlayerName UTextBlock
+---@field KillfeedDeath_en UTexture2D
+---@field KillfeedDeath UTexture2D
+---@field ImageDownloader UImageDownloader
+---@field VictimUrl FString

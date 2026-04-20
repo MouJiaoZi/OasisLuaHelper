@@ -1,0 +1,5 @@
+---@class BP_GasolineCanExplosionComponent_C:UPickUpWrapperDestructibleComponent
+---@field ExplodeDelegate__DelegateSignature:fun()
+---@field ExplosionDelay float
+---@field ExplodeDelegate ULuaMulticastDelegate
+---@field ExplosionApplier FExplosionFinderWrapper

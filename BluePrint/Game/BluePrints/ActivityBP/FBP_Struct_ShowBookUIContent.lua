@@ -1,0 +1,4 @@
+---@class FBP_Struct_ShowBookUIContent
+---@field TitleID int32
+---@field TextID int32
+---@field BackgroundTexture FSoftObjectPath

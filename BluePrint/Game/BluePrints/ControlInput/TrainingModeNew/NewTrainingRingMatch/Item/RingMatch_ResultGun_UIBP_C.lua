@@ -1,0 +1,4 @@
+---@class RingMatch_ResultGun_UIBP_C:UUAEUserWidget
+---@field ShowRandomWeapon:fun(RowName:FName)
+---@field Image_GunIcon UImage
+---@field TextBlock_GunName UTextBlock

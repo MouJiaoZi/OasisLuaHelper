@@ -1,0 +1,37 @@
+---@class BackpackItem_ButtonBP_C:UUAEUserWidget
+---@field ResetState:fun()
+---@field UpdateButtonState:fun(IsUseless:bool,MyItemData:FBattleItemData)
+---@field Construct:fun()
+---@field Button_0 UButton
+---@field Button_1 UButton
+---@field Button_6 UButton
+---@field Button_7 UButton
+---@field Button_8 UButton
+---@field Button_CallBack UButton
+---@field Button_Callback7 UButton
+---@field Button_Controll UButton
+---@field Button_Custom UButton
+---@field Button_Drop UButton
+---@field Button_Drop2 UButton
+---@field Button_Drop7 UButton
+---@field Button_DropAll UButton
+---@field Button_DropPartly UButton
+---@field Button_Equip UButton
+---@field Button_Use UButton
+---@field CanvasPanel_GuideSlot UCanvasPanel
+---@field CustomText UTextBlock
+---@field GridPanel_DropPartlyDisableState UGridPanel
+---@field HorizontalBox_CallbackAndUse UHorizontalBox
+---@field HorizontalBox_DisdropAndDisuse UHorizontalBox
+---@field HorizontalBox_DropAndCallback UHorizontalBox
+---@field HorizontalBox_DropAndDisuse UHorizontalBox
+---@field HorizontalBox_DropAndUse UHorizontalBox
+---@field HorizontalBox_Throw UHorizontalBox
+---@field HorizontalBox_WeaponFit UHorizontalBox
+---@field UnableToEquip UGridPanel
+---@field VerticalBox_0 UVerticalBox
+---@field IsUseless bool
+---@field MyItemData FBattleItemData
+---@field ParentBP BackPackItem_BP_C
+---@field WidgetList ULuaArrayHelper
+---@field CustomTips FString

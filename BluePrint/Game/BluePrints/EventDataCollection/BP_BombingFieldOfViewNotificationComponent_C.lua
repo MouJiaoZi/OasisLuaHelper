@@ -1,0 +1,2 @@
+---@class BP_BombingFieldOfViewNotificationComponent_C:UBP_FieldOfViewNotificationComponent_C
+---@field GetFieldOfViewTargetCategory:fun(Context:UObject):FString

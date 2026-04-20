@@ -1,0 +1,8 @@
+---@class BP_Skill_HIder_LockTrans_C:AUAESkill
+---@field SwitchLockTrans:fun()
+---@field UserConstructionScript:fun()
+---@field UTSkillEventEffectMapForEditor1 UUTSkillEventEffectMapForEditor
+---@field UTSkillEventEffectMapForEditor UUTSkillEventEffectMapForEditor
+---@field UTSkillSpecificAction UUTSkillSpecificAction
+---@field UAESkillPhase UUAESkillPhase
+---@field DefaultSceneRoot USceneComponent

@@ -1,0 +1,1 @@
+---@class DestinyCircleSuppositoryRifle_Savage_1_C:ADestinyCircleSniperRifle_Savage_1_C

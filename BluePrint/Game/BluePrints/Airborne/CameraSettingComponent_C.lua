@@ -1,0 +1,5 @@
+---@class CameraSettingComponent_C:UActorComponent
+---@field SaveCurCameraSetting:fun(SprintArm:USpringArmComponent)
+---@field LerpCameraSettings:fun(LerpAlpha:float,CameraSettings:FSTR_CameraSetting,SpringArm:USpringArmComponent)
+---@field CurrentCameraLagSpeed float
+---@field CurrentSocketOffset FVector

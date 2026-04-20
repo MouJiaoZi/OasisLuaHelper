@@ -1,0 +1,6 @@
+---@class KI_KillTypeIcon_UIBP_C:UKillIconBase_UIBP_C
+---@field RefreshDetailInfo:fun(RecordData:FClientFatalDamageRecordData):bool
+---@field Image_KillType UImage
+---@field TX_HSDBNO UTexture2D
+---@field DBNO UTexture2D
+---@field HS UTexture2D

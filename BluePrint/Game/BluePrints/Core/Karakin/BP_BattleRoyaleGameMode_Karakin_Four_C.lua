@@ -1,0 +1,1 @@
+---@class BP_BattleRoyaleGameMode_Karakin_Four_C:ABP_BattleRoyaleGameModeTeamPUBG_Four_C

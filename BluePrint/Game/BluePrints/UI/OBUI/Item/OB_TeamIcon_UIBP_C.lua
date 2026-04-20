@@ -1,0 +1,2 @@
+---@class OB_TeamIcon_UIBP_C:UUAEUserWidget
+---@field Image_PlayerIcon UImage

@@ -1,0 +1,4 @@
+---@class PESkill_UGCMobile_KQS_Shoot_Projectile_C:APESkillProjectileBase
+---@field UserConstructionScript:fun()
+---@field ParticleSystem UParticleSystemComponent
+---@field Sphere USphereComponent

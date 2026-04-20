@@ -1,0 +1,1 @@
+---@class ItemSpawn_SniperMode4X4_C:UItemSpawn_SanHok628_C

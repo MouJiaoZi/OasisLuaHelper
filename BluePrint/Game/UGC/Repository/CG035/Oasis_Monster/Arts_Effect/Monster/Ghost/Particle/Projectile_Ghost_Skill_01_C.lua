@@ -1,0 +1,5 @@
+---@class Projectile_Ghost_Skill_01_C:APESkillProjectileBase
+---@field UserConstructionScript:fun()
+---@field P_CG032Punishment_Missile_01 UParticleSystemComponent
+---@field Capsule UCapsuleComponent
+---@field StaticMesh UStaticMeshComponent

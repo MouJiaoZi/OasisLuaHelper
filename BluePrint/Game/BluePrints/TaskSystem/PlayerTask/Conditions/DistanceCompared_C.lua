@@ -1,0 +1,5 @@
+---@class DistanceCompared_C:UTaskCondition_Base
+---@field IsConditionSatisfy:fun():bool
+---@field DistanceThreshold float
+---@field OtherPlayerKey FTriggerEventParamKeySelector
+---@field IsLessThan bool

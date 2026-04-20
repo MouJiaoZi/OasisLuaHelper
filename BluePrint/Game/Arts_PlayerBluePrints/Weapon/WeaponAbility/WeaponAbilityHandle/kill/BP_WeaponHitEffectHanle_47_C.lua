@@ -1,0 +1,1 @@
+---@class BP_WeaponHitEffectHanle_47_C:BP_WeaponHitEffectHanle_C

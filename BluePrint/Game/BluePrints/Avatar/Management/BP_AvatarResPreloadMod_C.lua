@@ -1,0 +1,1 @@
+---@class BP_AvatarResPreloadMod_C:UAvatarResPreloadMod

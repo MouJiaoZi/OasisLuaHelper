@@ -1,0 +1,4 @@
+---@class BP_LeafAmbientMusicSource_C:AActor
+---@field UserConstructionScript:fun()
+---@field AkSoundPlayerScene UAkSoundPlayerSceneComponent
+---@field DefaultSceneRoot USceneComponent

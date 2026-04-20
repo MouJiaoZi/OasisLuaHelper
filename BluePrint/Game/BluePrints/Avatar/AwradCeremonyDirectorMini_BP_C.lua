@@ -1,0 +1,19 @@
+---@class AwradCeremonyDirectorMini_BP_C:AAwardCeremonyDirector
+---@field UserConstructionScript:fun()
+---@field TryStartCameraMotionWithRank:fun(InTeamRank:int32,InTopXWin:int32)
+---@field Camera4 UCameraComponent
+---@field Camera3 UCameraComponent
+---@field Camera2 UCameraComponent
+---@field Camera1 UCameraComponent
+---@field Camera0 UCameraComponent
+---@field AvatarPoseComponent_BP5_2 AvatarPoseComponent_BP_C
+---@field AvatarPoseComponent_BP5_1 AvatarPoseComponent_BP_C
+---@field AvatarPoseComponent_BP4_2 AvatarPoseComponent_BP_C
+---@field AvatarPoseComponent_BP4_1 AvatarPoseComponent_BP_C
+---@field AvatarPoseComponent_BP3_2 AvatarPoseComponent_BP_C
+---@field AvatarPoseComponent_BP3_1 AvatarPoseComponent_BP_C
+---@field AvatarPoseComponent_BP2_2 AvatarPoseComponent_BP_C
+---@field AvatarPoseComponent_BP2_1 AvatarPoseComponent_BP_C
+---@field AvatarPoseComponent_BP1_2 AvatarPoseComponent_BP_C
+---@field AvatarPoseComponent_BP1_1 AvatarPoseComponent_BP_C
+---@field AwardCeremonyArt1 UChildActorComponent

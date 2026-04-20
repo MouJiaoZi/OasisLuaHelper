@@ -1,0 +1,12 @@
+---@class Ingame_MiniMapWhiteCircleItem_UIBP_C:UCommMiniMapItemBase
+---@field OnPaint:fun(Context:FPaintContext)
+---@field InitializeCanvasSetting:fun(ParentSlot:UCanvasPanelSlot,InitMapSize:FVector2D)
+---@field UpdateWidgetItemCircle:fun(RefreshType:ECommMiniMapRefreshType,RealTimeInfo:FCircleTypeItemInfo)
+---@field CanvasPanelCircle UCanvasPanel
+---@field CurIndexIconPath FString
+---@field CirclePlayerIcon FSlateBrush
+---@field SquarePlayerIcon FSlateBrush
+---@field IsOutRange bool
+---@field CircleLinesTemplate ULuaArrayHelper
+---@field CurrentCircleLines ULuaArrayHelper
+---@field IsCircleDataReady bool

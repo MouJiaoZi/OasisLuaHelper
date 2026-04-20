@@ -1,0 +1,12 @@
+---@class BP_PlaneCharacter_01_C:APlaneCharacter
+---@field UserConstructionScript:fun()
+---@field ReceiveActorBeginOverlap:fun(OtherActor:AActor)
+---@field ParticleSystem2 UParticleSystemComponent
+---@field ParticleSystem1 UParticleSystemComponent
+---@field ParticleSystem UParticleSystemComponent
+---@field Camera UCameraComponent
+---@field SpringArm USpringArmComponent
+---@field StaticMesh UStaticMeshComponent
+---@field P_Plan_light_red_02 UParticleSystemComponent
+---@field P_Plan_Propeller_01 UParticleSystemComponent
+---@field Ak UAkComponent

@@ -1,0 +1,1 @@
+---@class BP_Muzzle_Groza_FPDC_C:BattleItemHandle_WeapAttachment_C

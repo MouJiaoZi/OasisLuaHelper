@@ -1,0 +1,12 @@
+---@class ShootingMonitor_UIBP_C:UUAEUserWidget
+---@field ManageMark:fun(NewImage:UImage)
+---@field ClearAllMark:fun()
+---@field CreateMark:fun(X:float,Y:float,DisFLag:int32)
+---@field Construct:fun()
+---@field CanvasPanel_0 UCanvasPanel
+---@field CanvasPanel_1 UCanvasPanel
+---@field Image_23 UImage
+---@field CanvasSlot UCanvasPanelSlot
+---@field AllMarkInMonitor ULuaMapHelper
+---@field MarkFlag int32
+---@field MaxMarkNum int32

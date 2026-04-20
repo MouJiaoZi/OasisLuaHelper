@@ -1,0 +1,1 @@
+---@class VehicleSpawn_DihorOtokTest_C:UVehicleSpawn_DihorOtok_C

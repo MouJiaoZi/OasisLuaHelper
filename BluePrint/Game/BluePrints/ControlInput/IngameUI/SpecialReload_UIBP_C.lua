@@ -1,0 +1,35 @@
+---@class SpecialReload_UIBP_C:UUAEUserWidget
+---@field IsCustomUIDataValid:fun(Widget:UWidget,SaveDataSize:FVector2D):bool
+---@field GetLuaModule:fun():FString
+---@field SetAvaliableAmmoList:fun()
+---@field GetAvaliableAmmo:fun():ULuaArrayHelper
+---@field OnWeaponStateChange:fun(NewParam:EFreshWeaponStateType,NewParam1:EFreshWeaponStateType)
+---@field OnChangeAmmo:fun(temp:FItemDefineID)
+---@field OnTouchEnded:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field OnTouchStarted:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field SetSelectedAmmo:fun()
+---@field OnNewAmmoClicked:fun(ammoId:int32)
+---@field SetCurrentUsingAmmonInfo:fun()
+---@field ShowOrHideReloadPanel:fun()
+---@field GetCurrentShootWeapon:fun():ASTExtraShootWeapon
+---@field SetSettingControlUI:fun()
+---@field SetCustomizeUIInfo:fun(SaveGame:BP_SAVEGAME_UIElemLayout_C,FireMode:int32)
+---@field Border_Reload UBorder
+---@field Button_ChangeSight UButton
+---@field CanvasPanel_List UCanvasPanel
+---@field CurrentammonIcon UCustomImage
+---@field CustomizeReload CustomizeCanvasPanel_BP_C
+---@field Image_listbg UImage
+---@field Image_Yes UImage
+---@field SizeBox_Sight USizeBox
+---@field SpecialReloadItemUIBP1 SpecialReload_Item_UIBP_C
+---@field SpecialReloadItemUIBP2 SpecialReload_Item_UIBP_C
+---@field SpecialReloadItemUIBP3 SpecialReload_Item_UIBP_C
+---@field SpecialReloadItemUIBP4 SpecialReload_Item_UIBP_C
+---@field SpecialReloadItemUIBP5 SpecialReload_Item_UIBP_C
+---@field SpecialReloadItemUIBP6 SpecialReload_Item_UIBP_C
+---@field WidgetSwitcher_ChangeReload UWidgetSwitcher
+---@field CachedItemList ULuaArrayHelper
+---@field LocalSaveGame BP_SAVEGAME_UIElemLayout_C
+---@field LocalLayoutIndex int32
+---@field reloadicon FSlateBrush

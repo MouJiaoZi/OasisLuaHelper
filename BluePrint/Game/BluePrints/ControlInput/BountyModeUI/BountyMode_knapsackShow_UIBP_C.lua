@@ -1,0 +1,35 @@
+---@class BountyMode_knapsackShow_UIBP_C:UUAEUserWidget
+---@field CheckReplaceEVAHair:fun(CharAvatarComp:UAvatarComponent,bHide:bool)
+---@field CheckShouldHideHead:fun(CharAvatarComp:UAvatarComponent,bHide:bool)
+---@field UIMsg_RespawnSetUI:fun()
+---@field RefreshProjLauncherVisibility:fun(bVisible:bool)
+---@field UIMsg_HideBountyShow:fun()
+---@field UIMsg_ShowBounty:fun()
+---@field UIMsg_SwitchShowBountyShow:fun()
+---@field DeleteItem:fun(id:FItemDefineID)
+---@field UpdateItem:fun(id:FItemDefineID)
+---@field Construct:fun()
+---@field RespawnInitWidget:fun()
+---@field Bounty_Achievements_ReachTips_UIBP Bounty_Achievements_ReachTips_UIBP_C
+---@field Button_select UButton
+---@field CheckBox_Hide UCheckBox
+---@field Image_arm UImage
+---@field Image_BG_01 UImage
+---@field Image_Headset UImage
+---@field Image_Mechanical_Leg UImage
+---@field Item1 BackProfession_SkillModuleItem_UIBP_C
+---@field Item2 BackProfession_SkillModuleItem_UIBP_C
+---@field item3 BackProfession_SkillModuleItem_UIBP_C
+---@field NewButton_help UNewButton
+---@field Text_PrtofessionName UTextBlock
+---@field WidgetSwitcher_Select UWidgetSwitcher
+---@field ItemIDList ULuaArrayHelper
+---@field IconList UImage
+---@field ItemList ULuaArrayHelper
+---@field ShowList ULuaArrayHelper
+---@field CantSwitchSkillName FString
+---@field CacheSkilINdex int32
+---@field CanSwitch bool
+---@field BountyMeshRefs ULuaArrayHelper
+---@field BountyMeshSoftRefs ULuaArrayHelper
+---@field EVAClothes ULuaArrayHelper

@@ -1,0 +1,1 @@
+---@class PESkill_UGC_IceApeMan_Atk_C:PESkillTemplate_Base_C

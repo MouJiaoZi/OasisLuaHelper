@@ -1,0 +1,156 @@
+---@class GrenadeList_C:UUAEUserWidget
+---@field HandleSlotChosen_Inf:fun(index:int32):bool
+---@field UpdateGrenadeBtnBGAndImage_Inf:fun(Index:int32,isHighLight:bool):bool
+---@field Reconnect_ResetUIByPlayerControllerState_Inf:fun():bool
+---@field GetItemAttrValue:fun(AddiInfo:ULuaArrayHelper,Name:FName,DefaultVal:float):float
+---@field UIMsg_HandleBackPackItemUpdate:fun()
+---@field HandleSwitchVehicleWeapon:fun()
+---@field UIMsg_UpdateGrenadeList:fun()
+---@field RefreshElectricty:fun(ElectrictyImage:UImage,ElectrictyPanel:UCanvasPanel,BattleItemData:FBattleItemData,FirstBattleItemData:FBattleItemData,EnergyItem:EnergyItem_BP_C)
+---@field GetGrenadeTypeByItemID:fun(ItemID:int32):EGrenadeType
+---@field TurnLoadedTextureToSlateBrush:fun(Obejct:UObject,Id:int32)
+---@field GetGrenadePriorityByID:fun(Type:int32):int32
+---@field GetGrenadeIDByWeapon:fun():int32
+---@field Reconnect_ResetUIByPlayerControllerState:fun()
+---@field SetGrenadeOrder:fun(Array:ULuaArrayHelper)
+---@field SwitchToFistIfCurGrenadeCountIsZero:fun()
+---@field MarkDownUsingStatus:fun(Slot:ESurviveWeaponPropSlot)
+---@field GetIsArrayHasGrenade:fun():bool
+---@field GetIsAGrenadeByItemID:fun(ItemID:int32):bool
+---@field GetSlateBrushByItemID:fun(ItemID:int32):FSoftObjectPath
+---@field UpdateDataToSlot:fun()
+---@field HandleBackPackItemUpdate:fun()
+---@field RefreshGrenadeAndMeleeWeaponDataArray:fun()
+---@field GetPlayerCharacter:fun():ASTExtraPlayerCharacter
+---@field GetPlayerEquipWeaponBySlot:fun(Slot:ESurviveWeaponPropSlot):ASTExtraWeapon
+---@field HandleSlotChosen:fun(Index:int32)
+---@field AutoCollapseGrenadeSlot:fun()
+---@field SetAutoCollapse:fun()
+---@field GetBtnIncludeWidgetByIndex:fun(Index:int32):UImage,UImage,UButton,UTextBlock,UGridPanel,UBorder,UImage,UCanvasPanel,EnergyItem_BP_C
+---@field UpdateGrenadeBtnBGAndImage:fun(Index:int32,IsHighLight:bool)
+---@field SetGrenadeVisibilityByCurStatus:fun()
+---@field SetInteractiveTriangleByCurStatus:fun()
+---@field PreConstruct:fun(IsDesignTime:bool)
+---@field ReceivedInitWidget:fun()
+---@field ResetUIStateAfterRespawn:fun()
+---@field RespawnInitWidget:fun()
+---@field OnUseFist__DelegateSignature:fun()
+---@field OnUseMelee__DelegateSignature:fun(ItemID:FItemDefineID)
+---@field OnGrenadeEmpty__DelegateSignature:fun()
+---@field OnUseGrenade__DelegateSignature:fun(GrenadeType:EGrenadeType,GrenadeID:int32)
+---@field Extend UWidgetAnimation
+---@field Border_CurrentUseGrenade UBorder
+---@field Border_GrenadeSlot1 UBorder
+---@field Border_GrenadeSlot2 UBorder
+---@field Border_GrenadeSlot3 UBorder
+---@field Border_GrenadeSlot4 UBorder
+---@field Border_GrenadeSlot5 UBorder
+---@field Border_GrenadeSlot6 UBorder
+---@field Border_GrenadeSlot7 UBorder
+---@field Border_InteractivePanel UBorder
+---@field CanvasPanel_ColdModeInfo1 UCanvasPanel
+---@field CanvasPanel_ColdModeInfo2 UCanvasPanel
+---@field CanvasPanel_ColdModeInfo3 UCanvasPanel
+---@field CanvasPanel_ColdModeInfo4 UCanvasPanel
+---@field CanvasPanel_ColdModeInfo5 UCanvasPanel
+---@field CanvasPanel_ColdModeInfo6 UCanvasPanel
+---@field CanvasPanel_ColdModeInfo7 UCanvasPanel
+---@field CanvasPanel_ColdModeInfo_Current UCanvasPanel
+---@field CurrentUseGrenade UGridPanel
+---@field CurUseBG UImage
+---@field CurUseBtn UButton
+---@field CurUseGrenadeCountText UTextBlock
+---@field CurUseGrenadeImage UImage
+---@field EnergyItem_BP_1 EnergyItem_BP_C
+---@field EnergyItem_BP_2 EnergyItem_BP_C
+---@field EnergyItem_BP_3 EnergyItem_BP_C
+---@field EnergyItem_BP_4 EnergyItem_BP_C
+---@field EnergyItem_BP_5 EnergyItem_BP_C
+---@field EnergyItem_BP_6 EnergyItem_BP_C
+---@field EnergyItem_BP_7 EnergyItem_BP_C
+---@field EnergyItem_BP_Cur EnergyItem_BP_C
+---@field GrenadeSlot1 UGridPanel
+---@field GrenadeSlot1BG UImage
+---@field GrenadeSlot1Btn UButton
+---@field GrenadeSlot1CountText UTextBlock
+---@field GrenadeSlot1Image UImage
+---@field GrenadeSlot2 UGridPanel
+---@field GrenadeSlot2BG UImage
+---@field GrenadeSlot2Btn UButton
+---@field GrenadeSlot2CountText UTextBlock
+---@field GrenadeSlot2Image UImage
+---@field GrenadeSlot3 UGridPanel
+---@field GrenadeSlot3BG UImage
+---@field GrenadeSlot3Btn UButton
+---@field GrenadeSlot3CountText UTextBlock
+---@field GrenadeSlot3Image UImage
+---@field GrenadeSlot4 UGridPanel
+---@field GrenadeSlot4BG UImage
+---@field GrenadeSlot4Btn UButton
+---@field GrenadeSlot4CountText UTextBlock
+---@field GrenadeSlot4Image UImage
+---@field GrenadeSlot5 UGridPanel
+---@field GrenadeSlot5BG UImage
+---@field GrenadeSlot5Btn UButton
+---@field GrenadeSlot5CountText UTextBlock
+---@field GrenadeSlot5Image UImage
+---@field GrenadeSlot6 UGridPanel
+---@field GrenadeSlot6BG UImage
+---@field GrenadeSlot6Btn UButton
+---@field GrenadeSlot6CountText UTextBlock
+---@field GrenadeSlot6Image UImage
+---@field GrenadeSlot7 UGridPanel
+---@field GrenadeSlot7BG UImage
+---@field GrenadeSlot7Btn UButton
+---@field GrenadeSlot7CountText UTextBlock
+---@field GrenadeSlot7Image UImage
+---@field GrenadeSlotPanel UGridPanel
+---@field Image_Drone_Electricity1 UImage
+---@field Image_Drone_Electricity2 UImage
+---@field Image_Drone_Electricity3 UImage
+---@field Image_Drone_Electricity4 UImage
+---@field Image_Drone_Electricity5 UImage
+---@field Image_Drone_Electricity6 UImage
+---@field Image_Drone_Electricity7 UImage
+---@field Image_Drone_Electricity_Current UImage
+---@field InteractiveTriangleToDown UImage
+---@field InteractiveTriangleToUp UImage
+---@field InterativeBtn UButton
+---@field MeleeExtraSlot UGridPanel
+---@field TextBlock_CDTime UTextBlock
+---@field WidgetSwitcher_CurBG UWidgetSwitcher
+---@field BtnNormalBG FSlateBrush
+---@field BtnHightLightBG FSlateBrush
+---@field CurUseGrenadeData FGrenadeSlotData
+---@field Slot1Data FGrenadeSlotData
+---@field Slot2Data FGrenadeSlotData
+---@field Slot3Data FGrenadeSlotData
+---@field IsListExpand bool
+---@field InteractiveNormalBG FSlateBrush
+---@field InteractiveHighLightBG FSlateBrush
+---@field IsAutoCollapseInterupted bool
+---@field AutoCollapsedTime float
+---@field OnUseGrenade ULuaMulticastDelegate
+---@field OnGrenadeEmpty ULuaMulticastDelegate
+---@field STExtraPlayerCharacter ASTExtraPlayerCharacter
+---@field AutoCollapsedTime_0 ULuaArrayHelper
+---@field GrenadeSubType int32
+---@field MeleeSubType int32
+---@field GrenadeAndMeleeDataArray ULuaArrayHelper
+---@field MeleeItemIDMin int32
+---@field MeleeItemIDMax int32
+---@field GrenadeItemIDMin int32
+---@field GrenadeItemIDMax int32
+---@field Slot4Data FGrenadeSlotData
+---@field OnUseMelee ULuaMulticastDelegate
+---@field bIsUsingGrenade bool
+---@field LastTimeUsingGrenadeType EGrenadeType
+---@field OnUseFist ULuaMulticastDelegate
+---@field Slot5Data FGrenadeSlotData
+---@field Slot6Data FGrenadeSlotData
+---@field Slot7Data FGrenadeSlotData
+---@field GrenadeSortPriority ULuaMapHelper
+---@field LastTimeUsingGrenadeID int32
+---@field WeaponIDToSlateBrush ULuaMapHelper
+---@field DefaultGrenadeIcon FSlateBrush
+---@field GrenadeIDToType ULuaMapHelper

@@ -1,0 +1,10 @@
+---@class BP_HideAndSeek_GameMode_C:AHideAndSeek_GameMode
+---@field GetLuaModule:fun():FString
+---@field RemoveMapUI:fun(uiId:int32,args:int32)
+---@field AddMapUI:fun(uiId:int32,args:int32,Round:int32,Location:FVector)
+---@field ShouldSwitchToMainWeapon:fun(InPlayerController:ASTExtraPlayerController):bool
+---@field UserConstructionScript:fun()
+---@field HiderWatchInBattleCom HiderWatchInBattleCom_C
+---@field DefaultSceneRoot USceneComponent
+---@field SeekerPawnClass UClass
+---@field HiderPawnClass UClass

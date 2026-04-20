@@ -1,0 +1,17 @@
+---@class Ingame_SuperBoxItem_UIBP_C:UMapUIMarkBaseWidget
+---@field SetCDBG:fun(RemainTime:float)
+---@field FloatTimeToNum0000:fun(RemainingTime:float):FText
+---@field UIMsg_PlayHeavyWeaponBoxUIAnimation:fun()
+---@field Construct:fun()
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field OnUIBPShow:fun(InState:FCustomMarkEventData)
+---@field DX_FlashMark UWidgetAnimation
+---@field CanvasPanel_FX UCanvasPanel
+---@field CanvasPanel_Image UCanvasPanel
+---@field CanvasPanel_Time UCanvasPanel
+---@field Image_bgColor UImage
+---@field Image_CDBar UImage
+---@field TextBlock_Time UTextBlock
+---@field MarkerCustomString FString
+---@field UILastTime float
+---@field UIBeginTime float

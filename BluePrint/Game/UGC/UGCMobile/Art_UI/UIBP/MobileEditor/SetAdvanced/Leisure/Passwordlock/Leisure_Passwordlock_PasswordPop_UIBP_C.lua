@@ -1,0 +1,20 @@
+---@class Leisure_Passwordlock_PasswordPop_UIBP_C:UActivityUIWidget
+---@field GetLuaModule:fun():FString
+---@field OnInitBP:fun()
+---@field Init_BP:fun(Actor:UObject,InUIIndex:int32)
+---@field Image_PWDBG UImage
+---@field NewButton_Clear UNewButton
+---@field NewButton_ClearOne UNewButton
+---@field NewButton_Close UNewButton
+---@field NewButton_Mask UNewButton
+---@field NewButton_Sure UNewButton
+---@field Text_ScreenDisplay1 UTextBlock
+---@field Text_ScreenDisplay2 UTextBlock
+---@field Text_ScreenDisplay3 UTextBlock
+---@field Text_ScreenDisplay4 UTextBlock
+---@field TextBlock_EnterText UTextBlock
+---@field TextBlock_Text UTextBlock
+---@field UGCM_Common_PopupBG_UIBP UGCM_Common_PopupBG_UIBP_C
+---@field WidgetSwitcher_Enter UWidgetSwitcher
+---@field WrapGroupBox_Num UWrapGroupBox
+---@field AKAudio UAkAudioEvent

@@ -1,0 +1,7 @@
+---@class SignalGunSmoke_BP_C:ASignalGunSmoke
+---@field UserConstructionScript:fun()
+---@field DistanceScalerChangedEvent:fun(scale:float)
+---@field ProjectileMovement UProjectileMovementComponent
+---@field ST_HandFlare UStaticMeshComponent
+---@field Capsule UCapsuleComponent
+---@field Smoke UParticleSystemComponent

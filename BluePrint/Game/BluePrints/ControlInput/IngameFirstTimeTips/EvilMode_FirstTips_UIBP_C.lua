@@ -1,0 +1,17 @@
+---@class EvilMode_FirstTips_UIBP_C:UUAEUserWidget
+---@field OnClickSelectedImage:fun(CurIndex:int32)
+---@field Construct:fun()
+---@field ReceivedInitWidget:fun()
+---@field Button_close UButton
+---@field Button_left UButton
+---@field Button_right UButton
+---@field CanvasPanel_IPX UCanvasPanel
+---@field CheckBox_select UCheckBox
+---@field Image_Paging_00 UImage
+---@field Image_Paging_01 UImage
+---@field Image_Paging_02 UImage
+---@field Image_Paging_03 UImage
+---@field WidgetSwitcher_page UWidgetSwitcher
+---@field LastImageIndex int32
+---@field ImageArray ULuaArrayHelper
+---@field MaxPageIndex int32

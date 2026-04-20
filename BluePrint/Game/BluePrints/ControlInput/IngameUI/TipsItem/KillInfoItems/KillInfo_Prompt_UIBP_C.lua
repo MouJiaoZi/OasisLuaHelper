@@ -1,0 +1,13 @@
+---@class KillInfo_Prompt_UIBP_C:UKillInfo_Base_UIBP_C
+---@field ShowPlayerPrompt:fun(Player0Text:FString,Player1Text:FString)
+---@field ShowKillInfoStatus:fun(NewParam:FClientFatalDamageRecordData,ImageDownloader:UObject,BaseUI:MainControlBaseUI_C)
+---@field ShowLeftQueueBaseInfo:fun(NewParam:FClientFatalDamageRecordData,ImageDownloader:UImageDownloader)
+---@field BGSelector UWidgetSwitcher
+---@field Border_ColorSet UBorder
+---@field Border_SetColor UBorder
+---@field GridPanel_main UGridPanel
+---@field HorizontalBox_0 UHorizontalBox
+---@field Image_KillBG UImage
+---@field KillInfoBG UImage
+---@field PlayerName_TextBlock UTextBlock
+---@field Time_TextBlock UTextBlock

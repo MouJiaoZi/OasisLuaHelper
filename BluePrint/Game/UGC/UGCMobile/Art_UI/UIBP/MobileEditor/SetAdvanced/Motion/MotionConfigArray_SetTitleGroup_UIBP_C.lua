@@ -1,0 +1,23 @@
+---@class MotionConfigArray_SetTitleGroup_UIBP_C:UUGCMobilePropertyWidget
+---@field GetLuaModule:fun():FString
+---@field Get_NewCheckBox_AllSelect_CheckedState_0:fun():ECheckBoxState
+---@field GetMotionCount:fun():FText
+---@field CanvasPanel_Title UCanvasPanel
+---@field CanvasPanel_Transform UCanvasPanel
+---@field CustomScrollBox_0 UCustomScrollBox
+---@field CustomSocketPanel UVerticalBox
+---@field Image_GroupTitle_Icon UImage
+---@field MobileEditor_AdvHelp MobileEditor_AdvHelp_UIBP_C
+---@field NewButton_Add UNewButton
+---@field NewButton_Fold UNewButton
+---@field NewCheckBox_AllSelect UNewCheckBox
+---@field SetAdvanced_CopyAll_Item_UIBP SetAdvanced_CopyAll_Item_UIBP_C
+---@field SetAdvanced_PasteAll_Item_UIBP SetAdvanced_PasteAll_Item_UIBP_C
+---@field SizeBox_Copy USizeBox
+---@field Spacer_TitleSize USpacer
+---@field Text_GroupTitle UTextBlock
+---@field TextBlock_0 UTextBlock
+---@field TextBlock_Num UTextBlock
+---@field WidgetSwitcher_Fold UWidgetSwitcher
+---@field WidgetSwitcher_Status UWidgetSwitcher
+---@field WidgetClass UClass

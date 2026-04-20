@@ -1,0 +1,13 @@
+---@class MobileEditor_SetAddEvent_UIBP_C:UUGCMobilePropertyWidget
+---@field GetLuaModule:fun():FString
+---@field Get_NewCheckBox_Select_CheckedState_0:fun():ECheckBoxState
+---@field Button_Close UButton
+---@field Image_Icon UImage
+---@field NewButton_Copy UNewButton
+---@field NewButton_DelMotion UNewButton
+---@field NewButton_More UNewButton
+---@field NewButton_StopEventEnter UNewButton
+---@field NewCheckBox_Select UNewCheckBox
+---@field Text_StopEventTitle UTextBlock
+---@field VerticalBox_Expand UCanvasPanel
+---@field WidgetSwitcher_Status UWidgetSwitcher

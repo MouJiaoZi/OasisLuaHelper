@@ -1,0 +1,1 @@
+---@class VehicleGuideTips05_UIBP_C:UNewbieGuideWidget

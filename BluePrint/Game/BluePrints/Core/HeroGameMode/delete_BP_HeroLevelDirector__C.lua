@@ -1,0 +1,3 @@
+---@class delete_BP_HeroLevelDirector__C:AUAELevelDirector
+---@field UserConstructionScript:fun()
+---@field DefaultSceneRoot USceneComponent

@@ -1,0 +1,3 @@
+---@class BP_PlayerRifleBullet_C:ASTExtraShootWeaponBulletBase
+---@field UserConstructionScript:fun()
+---@field Sphere USphereComponent

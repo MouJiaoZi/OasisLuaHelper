@@ -1,0 +1,11 @@
+---@class AsianOB_FuelMeter_UIBP_C:UUAEUserWidget
+---@field AsianGames_Flag AsianGames_FlagItem_UIBP_C
+---@field CanvasPanel_Pointer UCanvasPanel
+---@field FuelPointerImage UImage
+---@field ProgressBar_Accelerate UProgressBar
+---@field ProgressBar_FuelBar UProgressBar
+---@field TextBlock_Accelerate UTextBlock
+---@field TextBlock_Country UTextBlock
+---@field TextBlock_Num UTextBlock
+---@field TextBlock_Oil UTextBlock
+---@field TextBlock_Ranking UTextBlock

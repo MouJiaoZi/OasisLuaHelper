@@ -1,0 +1,4 @@
+---@class PESkillProjectile_Throwable_Smoke_C:APESkillProjectileBase
+---@field UserConstructionScript:fun()
+---@field Sphere USphereComponent
+---@field StaticMesh UStaticMeshComponent

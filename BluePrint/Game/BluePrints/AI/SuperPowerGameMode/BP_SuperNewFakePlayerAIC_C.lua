@@ -1,0 +1,1 @@
+---@class BP_SuperNewFakePlayerAIC_C:ANewFakePlayerAIController

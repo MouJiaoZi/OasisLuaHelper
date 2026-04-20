@@ -1,0 +1,1 @@
+---@class BP_MachineGun_Vector_BattleItemHandle_JHSY_A_C:BP_MachineGun_Vector_BattleItemHandle_C

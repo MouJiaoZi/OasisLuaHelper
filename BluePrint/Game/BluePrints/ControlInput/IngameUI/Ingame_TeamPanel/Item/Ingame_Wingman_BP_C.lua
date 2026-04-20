@@ -1,0 +1,3 @@
+---@class Ingame_Wingman_BP_C:UUAEUserWidget
+---@field Image_IDBG UImage
+---@field TextBlock_TeamIdx UTextBlock

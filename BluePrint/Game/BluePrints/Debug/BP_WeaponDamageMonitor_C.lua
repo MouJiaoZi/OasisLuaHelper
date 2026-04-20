@@ -1,0 +1,16 @@
+---@class BP_WeaponDamageMonitor_C:AUAERegionActor
+---@field UserConstructionScript:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field ReceiveAnyDamage:fun(Damage:float,DamageType:UDamageType,InstigatedBy:AController,DamageCauser:AActor)
+---@field Widget UWidgetComponent
+---@field BoxCollision UBoxComponent
+---@field StaticMesh UStaticMeshComponent
+---@field TotalDamage float
+---@field ResetInterval float
+---@field ContinuousNoDamageTime float
+---@field WeaponName FString
+---@field UI_WeaponDamege UI_WeaponDamage_C
+---@field SurviveHUD ASurviveHUD
+---@field SingleDamage float
+---@field SingleDamageInterval float
+---@field ContinuousNoSingleDamageTime float

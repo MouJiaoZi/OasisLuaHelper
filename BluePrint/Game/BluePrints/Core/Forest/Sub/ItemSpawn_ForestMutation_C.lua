@@ -1,0 +1,1 @@
+---@class ItemSpawn_ForestMutation_C:UItemSpawn_Forest_C

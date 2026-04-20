@@ -1,0 +1,1 @@
+---@class BP_Mag_MP5K_SHMAN_C:BP_Mag_MP5K_C

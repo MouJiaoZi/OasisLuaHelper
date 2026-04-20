@@ -1,0 +1,7 @@
+---@class Skill_ActorPlacement_C:AUAESkill
+---@field UserConstructionScript:fun()
+---@field UAESkillPhase3 UUAESkillPhase
+---@field UAESkillPhase2 UUAESkillPhase
+---@field UAESkillPhase1 UUAESkillPhase
+---@field UAESkillPhase UUAESkillPhase
+---@field DefaultSceneRoot USceneComponent

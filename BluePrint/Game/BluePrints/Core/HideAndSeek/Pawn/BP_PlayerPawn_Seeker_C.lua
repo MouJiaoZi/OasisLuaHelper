@@ -1,0 +1,10 @@
+---@class BP_PlayerPawn_Seeker_C:ABP_PlayerPawn_TDM_TPP_C
+---@field GetLuaModule:fun():FString
+---@field LuaBeginPlay:fun()
+---@field DynamicTryAddSkill:fun()
+---@field SetInCrazy:fun()
+---@field PlayerScreenAppearance:fun()
+---@field UserConstructionScript:fun()
+---@field ReceivePossessed:fun(NewController:AController)
+---@field bInCrazy bool
+---@field DetectSkillTemplate UClass

@@ -1,0 +1,23 @@
+---@class EntireMapPlayerIconItem_C:UUAEUserWidget
+---@field SetDist:fun(Dist:FText):FText
+---@field SetSingleStyle:fun(IsSingle:bool):bool
+---@field SetPlayerName:fun(Name:FText):FText
+---@field SwitchVisibility:fun(IsShow:bool):bool
+---@field SetSelfStyle:fun(IsSelf:bool):bool
+---@field SetTeammateInfo:fun(TeammateIndex:int32,TeammateColor:FLinearColor):bool
+---@field GetRotationDisplayWidget:fun():UWidget
+---@field OnLoadDone:fun(NewParam:UObject,NewParam1:int32)
+---@field LoadTeamIndexIcon:fun(Index:int32)
+---@field CanvasPanel_Dist UCanvasPanel
+---@field CanvasPanel_Single UCanvasPanel
+---@field CanvasPanel_Team UCanvasPanel
+---@field Image_SelfBG UImage
+---@field Image_SelfDead UImage
+---@field Image_SelfNumIcon UImage
+---@field Player02InfoDist UTextBlock
+---@field PlayerInfo UCanvasPanel
+---@field PlayerMaker UImage
+---@field RotArrow UCanvasPanel
+---@field TextBlock_Player02NameInMap UTextBlock
+---@field CurIndexIconPath FString
+---@field LoadIndex int32

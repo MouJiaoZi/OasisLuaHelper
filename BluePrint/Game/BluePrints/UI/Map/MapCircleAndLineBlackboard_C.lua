@@ -1,0 +1,96 @@
+---@class MapCircleAndLineBlackboard_C:UUAEUserWidget
+---@field DrawRouteSegments:fun(MapSkydivingAreaItem:Map_SkydivingAreaItem_UIBP_C,SegmentName:FString,CanJumpLocInMap:float,ForceJumpLocInMap:float,RouteLenghtInMap:float,RouteRotationAngle:float)
+---@field DrawPlaneVertLine:fun(IsDraw:bool,Location:FVector2D)
+---@field UpdateStarGameCircle:fun(NNextCirclePos:FVector2D,NNextCircleRadius:float,NSafeAreaPos:FVector2D,NSafeAreaRadius:float)
+---@field DrawSafeArea:fun(Draw:bool)
+---@field DrawNextCircle:fun(Draw:bool)
+---@field GetOneVisualItem:fun():UVisualFieldItem
+---@field HideAllVisualItems:fun()
+---@field RefreshVisualFieldItem:fun()
+---@field OnSelectedWaveItemChanged:fun(NewSelectedItem:int32)
+---@field OnZombieWaveListChange:fun(CurZombieWaveInfoList:ULuaArrayHelper)
+---@field DeSelectZombieWaveItem:fun()
+---@field UpdateZombieWave:fun()
+---@field OnHideMonsterBox:fun(MonsterBoxIndex:int32)
+---@field IsZombieWaveShowing:fun(ZombieWaveID:int32):bool
+---@field OnShowMonsterBox:fun(MonsterBoxIndex:int32,MonsterBoxLocation:FVector)
+---@field HasSelectedWaveItem:fun():bool
+---@field GetMapLocation:fun(WorldPosition:FVector):FVector2D
+---@field ShowZombieWaveItem:fun(TargetWaveItem:ZombieWaveItem_BP_C,ItemID:int32,WaveLocation:FVector)
+---@field HideAllZombieWaveItem:fun():ZombieWaveItem_BP_C
+---@field GetFreeZombieWaveItem:fun():ZombieWaveItem_BP_C
+---@field OnZombieWaveItemSelected:fun(ItemID:int32,WaveLocation:FVector)
+---@field DrawPlaneRoute:fun(IsDraw:bool,Start:FVector2D,End:FVector2D,MiniMapImageExtent:float,MiniMapWindowExtent:float)
+---@field DrawSelfMarkGuideLine:fun(bIsDraw:bool,LineColor:FLinearColor,LevelLandscapeCenter:FVector,CorrectLevelToMapScale:float,Aligment:FVector2D,LevelLanscapeExtent:float)
+---@field GetAnotherFingerIndex:fun(CurIndex:int32):int32
+---@field RemoveArrayItemByIndex:fun(Index:int32)
+---@field GetPlayercontroller:fun():ASTExtraPlayerController
+---@field OnTouchEnded:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field OnTouchMoved:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field OnTouchGesture:fun(MyGeometry:FGeometry,GestureEvent:FPointerEvent):FEventReply
+---@field OnTouchStarted:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field OnPaint:fun(Context:FPaintContext)
+---@field OnMouseLeave:fun(MouseEvent:FPointerEvent)
+---@field ReceivedInitWidget:fun()
+---@field OperateBegin__DelegateSignature:fun()
+---@field OperateEnd__DelegateSignature:fun()
+---@field ScaleMap__DelegateSignature:fun(ScaleValue:float)
+---@field SetMarker__DelegateSignature:fun(Position:FVector2D)
+---@field MoveMap__DelegateSignature:fun(Offset:FVector2D)
+---@field CanvasPanel_2 UCanvasPanel
+---@field MapRealTimeInfo FMapRealTimeInfo
+---@field MapSize float
+---@field MoveMap ULuaMulticastDelegate
+---@field LastTickFingerPosition ULuaArrayHelper
+---@field PutMarkerThreshold float
+---@field TouchStartFingerPosition ULuaArrayHelper
+---@field STExtraPC ASTExtraPlayerController
+---@field SetMarker ULuaMulticastDelegate
+---@field FingerMoveDis ULuaArrayHelper
+---@field bMultiTouch bool
+---@field ScaleMap ULuaMulticastDelegate
+---@field MultiTouchScaleRatio float
+---@field IsDrawSelfGuide bool
+---@field SelfGuideColor FLinearColor
+---@field LevelLandscapeCenter FVector
+---@field CorrectLevelToMapScale float
+---@field SelfGuideAligment FVector2D
+---@field LevelLandscapeExtent float
+---@field MultiTouchToScaleInitDis float
+---@field GuideLineMaxLength float
+---@field DebugNotDrawGuideLine bool
+---@field ScaleVector FVector2D
+---@field TouchInMouseIndex ULuaArrayHelper
+---@field OperateEnd ULuaMulticastDelegate
+---@field OperateBegin ULuaMulticastDelegate
+---@field DefaultLineThickness float
+---@field bAntiAlias bool
+---@field bIsDrawPlaneRoute bool
+---@field RouteStartLoc FVector2D
+---@field RouteStopLoc FVector2D
+---@field MiniMapImageExtent float
+---@field MiniMapWindowExtent float
+---@field IsDrawSelfToSafetyGuide bool
+---@field FreeZombieWaveItemList ULuaArrayHelper
+---@field CurrentSelectedWaveID int32
+---@field SelectedWaveLocation FVector
+---@field HasSelecteWaveItem bool
+---@field MiniMap NewMiniMap_C
+---@field EntireMap NewEntireMap_C
+---@field VisualItemList ULuaArrayHelper
+---@field UsableVisualItemIndex int32
+---@field IsDrawStarGameNextCircle bool
+---@field IsDrawStarGameSafeArea bool
+---@field StarGameNextCirclePos FVector2D
+---@field StarGameNextCircleRadius float
+---@field StarGameSafeAreaPos FVector2D
+---@field StarGameSafeAreaRadius float
+---@field IsDrawVertLine bool
+---@field VertLineStart FVector2D
+---@field VertLineEnd FVector2D
+---@field VertLineImageExtent float
+---@field VertLineWindowsExtent float
+---@field VertPosCoord FVector2D
+---@field PreMapRealTimeInfo FMapRealTimeInfo
+---@field PreCircleData FVector
+---@field Drawindex int32

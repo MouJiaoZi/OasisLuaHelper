@@ -1,0 +1,1 @@
+---@class BP_BattleRoyaleGameModeSurvivalPUBG_Four_C:ABP_BattleRoyaleGameModeSurvivalPUBG_C

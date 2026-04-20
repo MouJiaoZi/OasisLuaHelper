@@ -1,0 +1,8 @@
+---@class DeathPlayback_UIBP_C:UUAEUserWidget
+---@field HideDeathPlaybackUI:fun()
+---@field ShowDeathPlaybackUI:fun()
+---@field Construct:fun()
+---@field Button_BackToLobby UButton
+---@field CanvasPanelIPX UCanvasPanel
+---@field TextBlock_1 UTextBlock
+---@field TextBlock_2 UTextBlock

@@ -1,0 +1,1 @@
+---@class MonsterAnimList_Human_GunMinder_C:UUAEMonsterAnimListComponentBase

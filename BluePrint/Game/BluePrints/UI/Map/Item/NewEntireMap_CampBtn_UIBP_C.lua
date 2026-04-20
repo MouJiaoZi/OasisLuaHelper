@@ -1,0 +1,5 @@
+---@class NewEntireMap_CampBtn_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field NewButton_SyncCamp UNewButton
+---@field NewButton_SyncTeam UNewButton
+---@field WidgetSwitcher_TypeBtn UWidgetSwitcher

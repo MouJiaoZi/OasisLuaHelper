@@ -1,0 +1,17 @@
+---@class GISSkill_EmptyTemplate_C:AUAESkill
+---@field UserConstructionScript:fun()
+---@field UAESkillAction_SwitchWeapon1 UUAESkillAction_SwitchWeapon
+---@field UAESkillAction_SwitchWeapon UUAESkillAction_SwitchWeapon
+---@field UTSkillAppearance_SoundCue UUTSkillAppearance_SoundCue
+---@field BP_ReportActivityEventID BP_ReportActivityEventID_C
+---@field UAESkillAction_DisablePickup UUAESkillAction_DisablePickup
+---@field BP_DropItemAction BP_DropItemAction_C
+---@field BP_ReadyGiftExtentedAction BP_ReadyGiftExtentedAction_C
+---@field UAESkillEventEffectMapForEditor1 UUAESkillEventEffectMapForEditor
+---@field UAESkillEventEffectMapForEditor UUAESkillEventEffectMapForEditor
+---@field UAESkillAction_ConsumeHandleItem1 UUAESkillAction_ConsumeHandleItem
+---@field UAESkillAction_ConsumeHandleItem UUAESkillAction_ConsumeHandleItem
+---@field UAESkillPhase2 UUAESkillPhase
+---@field UAESkillPhase1 UUAESkillPhase
+---@field UAESkillPhase UUAESkillPhase
+---@field DefaultSceneRoot USceneComponent

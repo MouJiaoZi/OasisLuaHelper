@@ -1,0 +1,1 @@
+---@class UGC_M_CommonItemPickupWrapper_C:ACommonItemWrapper_C

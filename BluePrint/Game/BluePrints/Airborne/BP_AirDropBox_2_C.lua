@@ -1,0 +1,40 @@
+---@class BP_AirDropBox_2_C:AAirDropBoxActor
+---@field BoxLandedAndGenItem:fun()
+---@field SetBuoyancyForceToCPP:fun()
+---@field IsWater:fun(NewParam:AActor):bool
+---@field GetRandomGenerateWrappersData:fun():ULuaArrayHelper
+---@field CheckBoxIsLand:fun()
+---@field UserConstructionScript:fun()
+---@field DistanceScalerChangedEvent:fun(scale:float)
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field ChangeAirdropAppearance:fun()
+---@field ReceiveRadialDamage:fun(DamageReceived:float,DamageType:UDamageType,Origin:FVector,HitInfo:FHitResult,InstigatedBy:AController,DamageCauser:AActor)
+---@field BP_AirDropingFieldOfViewNotificationComponent BP_AirDropingFieldOfViewNotificationComponent_C
+---@field LevelActive ULevelActiveComponent
+---@field Box1 UBoxComponent
+---@field Box UStaticMeshComponent
+---@field BuoyancyForce UBuoyancyForceComponent
+---@field ProjectileMovement UProjectileMovementComponent
+---@field Smoke UParticleSystemComponent
+---@field Flash UParticleSystemComponent
+---@field Parachute UStaticMeshComponent
+---@field SmokeAppearTime float
+---@field SmokeDisappearTime float
+---@field IsSpawnedPickedup bool
+---@field CheckBoxIsLandTimer FTimerHandle
+---@field bIsParachuteShouldOpen bool
+---@field bIsBoxHitTheGround bool
+---@field bIsBoxSomking bool
+---@field bIsBoxInWater bool
+---@field ServerDroppingSpeed float
+---@field ForceUpdatePeriod float
+---@field bHasBuoyancy bool
+---@field DefaultDataTable UDataTable
+---@field DefaultAirDropBoxResource FAirDropResource
+---@field SuperAirDropDataConfig ULuaArrayHelper
+---@field RecoverSpeed bool
+---@field CheckWaterOverlapElapsed float
+---@field NewVar_0 float
+---@field HasShowSmoke bool
+---@field AvoidStuckForce_0 float
+---@field HitTheGroundVoice bool

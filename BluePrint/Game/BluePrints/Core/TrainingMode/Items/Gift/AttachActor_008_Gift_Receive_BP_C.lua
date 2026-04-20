@@ -1,0 +1,4 @@
+---@class AttachActor_008_Gift_Receive_BP_C:AActor
+---@field UserConstructionScript:fun()
+---@field CG008_QixiFestival_box UStaticMeshComponent
+---@field DefaultSceneRoot USceneComponent

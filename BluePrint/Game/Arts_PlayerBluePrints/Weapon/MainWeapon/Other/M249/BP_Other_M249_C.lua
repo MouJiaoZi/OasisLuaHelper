@@ -1,0 +1,4 @@
+---@class BP_Other_M249_C:BP_ShootWeaponBase_C
+---@field UserConstructionScript:fun()
+---@field WeaponAnimList_Rifle_M249 WeaponAnimList_Rifle_M249_C
+---@field bUseIdleAnim_0_0 bool

@@ -1,0 +1,5 @@
+---@class bp_setting_search_result_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_ARRAY_SettingShareInfoArray ULuaArrayHelper
+---@field BP_SettingSerachResult_PreviewIndex int32

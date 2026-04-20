@@ -1,0 +1,1 @@
+---@class DestinyCircleSuppositoryRifle_Livik_2_C:ADestinyCircleSuppositoryRifle_2_C

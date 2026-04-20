@@ -1,0 +1,5 @@
+---@class BP_TriggerReportActor_C:AUAERegionActor
+---@field UserConstructionScript:fun()
+---@field Box UBoxComponent
+---@field EventID int32
+---@field EventParam int32

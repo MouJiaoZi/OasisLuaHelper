@@ -1,0 +1,45 @@
+---@class UGCM_MusicMain_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field OnTouchStarted:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field GetMusicTime:fun():int32
+---@field Seek:fun(Second:float)
+---@field UpdateMusicTime:fun()
+---@field Close:fun()
+---@field UpdateBtnStatus:fun()
+---@field IsPause:fun():bool
+---@field StartTickProgressBar:fun(IfTick:bool)
+---@field Stop:fun()
+---@field PlayMusic:fun(Url:FString,Loop:bool)
+---@field IsPlaying:fun():bool
+---@field UpdateProgress:fun(Value:float)
+---@field Resume:fun()
+---@field PlayLast:fun()
+---@field PlayNext:fun()
+---@field Pause:fun()
+---@field PlayURL:fun(Url:FString,Loop:bool)
+---@field InitVideoPlayer:fun()
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field Image_Cover UImage
+---@field Image_head UImage
+---@field NewButton_Close UNewButton
+---@field NewButton_Next UNewButton
+---@field NewButton_play UNewButton
+---@field NewButton_Previous UNewButton
+---@field NewButton_SongSelect UNewButton
+---@field ProgressBar_Song UProgressBar
+---@field ReuseList2_MusicList ReuseList2_C
+---@field ReuseList2_MusicTab ReuseList2_C
+---@field Slider_Song USlider
+---@field Switcher_SongSelect UWidgetSwitcher
+---@field TextBlock_PlayTime UTextBlock
+---@field TextBlock_Singer UTextBlock
+---@field TextBlock_SongName UTextBlock
+---@field TextBlock_SongTime UTextBlock
+---@field UGCM_ComonPopupBG_UIBP UGCM_ComonPopupBG_UIBP_C
+---@field WidgetSwitcher_Play UWidgetSwitcher
+---@field MusicTable UUAEDataTable
+---@field AlbumTable UUAEDataTable
+---@field PVideoPlayerInstance UPVideoPlayer
+---@field BePlayURL FString
+---@field IfTickProgressBar bool
+---@field IfSlider bool

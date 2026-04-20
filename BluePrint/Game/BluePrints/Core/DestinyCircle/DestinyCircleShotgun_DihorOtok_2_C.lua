@@ -1,0 +1,1 @@
+---@class DestinyCircleShotgun_DihorOtok_2_C:ADestinyCircleShotgun_2_C

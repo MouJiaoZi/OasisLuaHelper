@@ -1,0 +1,17 @@
+---@class bp_loading_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_Loading_ImagePath FString
+---@field BP_GameAccelerator_Status int32
+---@field BP_SurviveMode_ImagePath FString
+---@field BP_Loading_DefaultImagePath FString
+---@field BP_Percent_f float
+---@field BP_InitPercent int32
+---@field BP_LoadingTo int32
+---@field BP_Loading_TipsIndex int32
+---@field BP_Loading_DefaultTipsIndex int32
+---@field BP_Loading_MatchID int32
+---@field BP_IsLoading_SpecialMode bool
+---@field BP_Loading_Version FString
+---@field BP_SurviveMode_CountLimit int32
+---@field BP_Loading_SpecialIndex int32

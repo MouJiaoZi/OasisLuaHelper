@@ -1,0 +1,10 @@
+---@class SkillIconTemplate_BP_Base_C:UUTSkillIconWidgetTemplate
+---@field EnergyPoint_Group UCanvasPanel
+---@field IconBtn UButton
+---@field Image_SkillIcon UImage
+---@field Image_SkillIconBar UImage
+---@field NameText UTextBlock
+---@field TimeText UTextBlock
+---@field WidgetSwitcher_BGType UWidgetSwitcher
+---@field SkillStatue ESkillIconStatus
+---@field FunctionBPParam ULuaMapHelper

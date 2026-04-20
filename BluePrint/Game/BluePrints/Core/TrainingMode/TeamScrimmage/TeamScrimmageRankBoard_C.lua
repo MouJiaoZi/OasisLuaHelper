@@ -1,0 +1,12 @@
+---@class TeamScrimmageRankBoard_C:AActor
+---@field GetLuaModule:fun():FString
+---@field CanShowButton:fun(Param:FGISCCF_Param):bool
+---@field UserConstructionScript:fun()
+---@field OnUICreated:fun(Widget:UUserWidget)
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field Widget1 UWidgetComponent
+---@field Box UBoxComponent
+---@field GISActorComponentBase UGISActorComponentBase
+---@field DefaultSceneRoot USceneComponent
+---@field DetailText FText
+---@field Widget UUserWidget

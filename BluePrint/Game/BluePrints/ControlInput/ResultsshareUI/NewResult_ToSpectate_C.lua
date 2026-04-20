@@ -1,0 +1,44 @@
+---@class NewResult_ToSpectate_C:UUAEUserWidget
+---@field ReportExitWithoutEnter:fun()
+---@field ShowSingleResultWhenExitWithoutEnter:fun()
+---@field ShowReviveModeSpectateOnlySelf:fun()
+---@field HideIngameUI:fun()
+---@field RevivalReconnect_HideSpectateUI:fun()
+---@field SetResultSpectateCounting:fun(CountNum:int32)
+---@field ResultSpectateTeammate:fun()
+---@field ClearResultToSpectateTimer:fun()
+---@field ResultToSpectateCountingTimer:fun()
+---@field ShowResultToSpectate:fun()
+---@field UIMsg_DeadCameraMoveEnd:fun()
+---@field TimerShowToSpectate:fun()
+---@field UIMsg_HideToSpectate:fun()
+---@field ShowBattleReusltMsg:fun()
+---@field CheckReviveModeSpectateTeammate:fun()
+---@field ReviveModeSpectateTeammate:fun()
+---@field ClearReviveSpectateCounting:fun()
+---@field SetReviveModeSpectateCounting:fun(InCurCountNum:int32)
+---@field ReviveSpectateCountingTimer:fun()
+---@field ShowReviveModeSpectate:fun()
+---@field CallResultFunction:fun(func:FString)
+---@field ShowMyHead:fun()
+---@field InitToSpectate:fun()
+---@field ShowToSpectate:fun()
+---@field AliveNumTextBlock UTextBlock
+---@field Btn_continue UGridPanel
+---@field Button_DoSpectate UButton
+---@field Button_QuikSpectate UButton
+---@field Common_Avatar_BP Common_Avatar_BP_C
+---@field GridPanel_1 UGridPanel
+---@field GridPanel_WatchViewGroup UGridPanel
+---@field HorizontalBox_player UHorizontalBox
+---@field RankingList UGridPanel
+---@field TextBlock_31 UTextBlock
+---@field TextBlock_99 UTextBlock
+---@field TextBlock_KLJ_Text UTextBlock
+---@field Watchview UTextBlock
+---@field WidgetSwitcher_Tips UWidgetSwitcher
+---@field ReviveModeSpectateTimerHandle FTimerHandle
+---@field ReviveModeSpectateCounter int32
+---@field DelayDisplayTimer FTimerHandle
+---@field ResultToSpectateCouter int32
+---@field ResultToSpectateTimerHandle FTimerHandle

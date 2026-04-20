@@ -1,0 +1,17 @@
+---@class bp_authorization_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_DeviceLimit int32
+---@field BP_DeviceLevel int32
+---@field BP_DeviceNameBeforeAuthLogin FString
+---@field BP_TokenIsValid int32
+---@field BP_LoginCount int32
+---@field BP_QQID FString
+---@field BP_LoginTime int32
+---@field BP_LoginCheck int32
+---@field BP_QQPasswd FString
+---@field BP_ServiceAccepted bool
+---@field BP_ShowAgeTips bool
+---@field BP_AutoAuthLogin int32
+---@field BP_GameVersion FString
+---@field BP_WECHAT_INSTALL int32

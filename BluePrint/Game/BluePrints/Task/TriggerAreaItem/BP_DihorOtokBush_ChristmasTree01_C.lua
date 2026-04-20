@@ -1,0 +1,11 @@
+---@class BP_DihorOtokBush_ChristmasTree01_C:ATriggerItem_CommonArea
+---@field UserConstructionScript:fun()
+---@field AkSoundPlayerScene UAkSoundPlayerSceneComponent
+---@field ChildActor2 UChildActorComponent
+---@field ChildActor1 UChildActorComponent
+---@field BP_Grenade_CGSingerDoll_Weapon_Wrapper UChildActorComponent
+---@field ChildActor3 UChildActorComponent
+---@field ChildActor UChildActorComponent
+---@field BP_Grenade_CGToyApple_Weapon_Wrapper UChildActorComponent
+---@field P_shengdanshu UParticleSystemComponent
+---@field DihorOtokBush_ChristmasTree UStaticMeshComponent

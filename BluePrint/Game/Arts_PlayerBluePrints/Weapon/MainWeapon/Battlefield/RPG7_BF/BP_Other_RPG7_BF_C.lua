@@ -1,0 +1,10 @@
+---@class BP_Other_RPG7_BF_C:BP_ShootWeaponProjectileBase_C
+---@field OnArrowShooted:fun()
+---@field UserConstructionScript:fun()
+---@field OnWeaponMagOut:fun()
+---@field OnWeaponMagIn:fun()
+---@field BP_OnWeaponReloadEnd:fun()
+---@field WeaponAnimList_RPG WeaponAnimList_RPG_C
+---@field ST_Mag UStaticMeshComponent
+---@field ST_PlayerMag UStaticMeshComponent
+---@field bUseIdleAnim_0 bool

@@ -1,0 +1,4 @@
+---@class CG017_Borderland_Video_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field Video FString

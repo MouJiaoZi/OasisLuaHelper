@@ -1,0 +1,1 @@
+---@class DestinyCircleAllweapon_DihorOtok_4_C:ADestinyCircleAllweapon_4_C

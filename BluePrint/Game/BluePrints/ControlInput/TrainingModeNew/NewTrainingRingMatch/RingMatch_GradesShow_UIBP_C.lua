@@ -1,0 +1,15 @@
+---@class RingMatch_GradesShow_UIBP_C:UUAEUserWidget
+---@field Common_Avatar_BP Common_Avatar_BP_C
+---@field Common_AvatarChallenge Common_Avatar_BP_C
+---@field Image_Challenge UImage
+---@field Image_Segment UImage
+---@field RingMatch_Card_leizhu RingMatch_CardItem_UIBP_C
+---@field RingMatch_Card_tiaozhanzhe RingMatch_CardItem_UIBP_C
+---@field Switcher_ChallengeGender UWidgetSwitcher
+---@field TextBlock_Grades UTextBlock
+---@field TextBlock_Player UTextBlock
+---@field TextBlock_Ranking UTextBlock
+---@field TextBlock_result UTextBlock
+---@field TextChallengeName UTextBlock
+---@field WidgetSwitcher_Gender UWidgetSwitcher
+---@field WidgetSwitcher_ID UWidgetSwitcher

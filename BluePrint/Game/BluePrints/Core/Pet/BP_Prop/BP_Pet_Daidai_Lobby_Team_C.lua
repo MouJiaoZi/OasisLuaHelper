@@ -1,0 +1,6 @@
+---@class BP_Pet_Daidai_Lobby_Team_C:AActor
+---@field UserConstructionScript:fun()
+---@field SK_Pet_Jige USkeletalMeshComponent
+---@field SK_Pet_Kuizai USkeletalMeshComponent
+---@field SK_Pet_Jiojio USkeletalMeshComponent
+---@field DefaultSceneRoot USceneComponent

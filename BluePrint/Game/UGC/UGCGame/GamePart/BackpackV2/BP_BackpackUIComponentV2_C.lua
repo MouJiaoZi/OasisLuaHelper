@@ -1,0 +1,32 @@
+---@class BP_BackpackUIComponentV2_C:UActorComponent
+---@field GetGlobalActor:fun():AActor
+---@field GetPlayerController:fun():ASTExtraPlayerController
+---@field GetPlayerPawn:fun():ASTExtraPlayerCharacter
+---@field GetLuaModule:fun():FString
+---@field ReceiveInitializeOnClient:fun()
+---@field ReceivePlayerEnter:fun()
+---@field ReceivePlayerExit:fun()
+---@field ReceiveBeginPlay:fun()
+---@field SuppliesBut FSoftClassPath
+---@field MainUI ULuaArrayHelper
+---@field DepotMainUI FSoftClassPath
+---@field PopUpBuyGridMainUI FSoftClassPath
+---@field PopUpCoinMainUI FSoftClassPath
+---@field DeleteItemMainUI FSoftClassPath
+---@field SortInfoList ULuaArrayHelper
+---@field TabInfo ULuaArrayHelper
+---@field EquipmentFullScreenUI FSoftClassPath
+---@field CustomDetailsWights ULuaArrayHelper
+---@field WeaponDetailWidget FSoftClassPath
+---@field BattleEntry FSoftClassPath
+---@field CostCoinValue int32
+---@field CostCoinID int32
+---@field CustomItemUIWidgets ULuaArrayHelper
+---@field CustomBackpackUI FSoftClassPath
+---@field CustomEquipUI FSoftClassPath
+---@field BackpackStyle Enum_BackpackStyle
+---@field OverrideDefaultMode int32
+---@field InnerBtnFuncList ULuaArrayHelper
+---@field BtnColorSettings ULuaMapHelper
+---@field BackpackItemWidget UClass
+---@field CustomBtnFuncList ULuaArrayHelper

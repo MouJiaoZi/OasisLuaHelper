@@ -1,0 +1,13 @@
+---@class Bounty_MapEventDetailItem_UIBP_C:UUserWidget
+---@field ConvertSecondToStr:fun(Time:int32):FString
+---@field RefreshDetailInfoStatus:fun(CurTimer:int32)
+---@field InitDetailItemInfo:fun(Index:int32,TitleInfo:FText,DetailInfo:FText,StartTime:int32,EndTime:int32)
+---@field Border_color UBorder
+---@field TextBlock_detail UTextBlock
+---@field TextBlock_Time01 UTextBlock
+---@field TextBlock_TimePeriod UTextBlock
+---@field TextBlock_Title UTextBlock
+---@field WidgetSwitcher_BG UWidgetSwitcher
+---@field WidgetSwitcher_icon UWidgetSwitcher
+---@field StartTime int32
+---@field EndTime int32

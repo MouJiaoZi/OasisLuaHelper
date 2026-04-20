@@ -1,0 +1,1 @@
+---@class Ingame_GameInfo_UIBP_C:ULuaUserWidget

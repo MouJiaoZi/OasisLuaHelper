@@ -1,0 +1,1 @@
+---@class Ship_UIBP_C:UMapUIMarkBaseWidget

@@ -1,0 +1,21 @@
+---@class BP_VoiceUIObject_C:UObject
+---@field HideAll:fun()
+---@field GetNowOwnPlayer:fun():ASTExtraBaseCharacter
+---@field GetPosIndex:fun():int32
+---@field UpdateState:fun(detaTime:float):bool
+---@field showType BP_VoiceCheckType
+---@field ShowTimeLeave float
+---@field worldPos FVector
+---@field NowIndex int32
+---@field minScale float
+---@field MaxScale float
+---@field MaxCheckLength float
+---@field nowPlayer ASTExtraBaseCharacter
+---@field Weapon ASTExtraShootWeapon
+---@field Vehicle ASTExtraVehicleBase
+---@field nowshowScale float
+---@field middleImage UImage
+---@field nowZorder int32
+---@field playerController BP_STExtraPlayerController_C
+---@field normalScaleDis float
+---@field MinScaleIDs float

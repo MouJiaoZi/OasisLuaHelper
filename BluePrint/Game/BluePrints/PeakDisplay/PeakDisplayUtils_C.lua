@@ -1,0 +1,7 @@
+---@class PeakDisplayUtils_C:UBlueprintFunctionLibrary
+---@field SetImagePosition fun(InImage:UImage,InPosition:FString,__WorldContext:UObject)
+---@field UpdateIcon fun(ImageIcon:UImage,ImageIcon2:UImage,IconID:FString,IconColorID:FString,ForceAllImageVisible:bool,__WorldContext:UObject)
+---@field UpdateBackground fun(ImageBackground:UImage,BackgroundID:FString,BackgroundColorID:FString,ForceAllImageVisible:bool,__WorldContext:UObject)
+---@field SetImageTexture fun(Image:UImage,Path:FString,ForceAllImageVisible:bool,__WorldContext:UObject)
+---@field UpdateTeamLogo fun(TeamLogoID:FString,ImageBackground:UImage,ImageIcon:UImage,ImageIcon2:UImage,ForceAllImageVisible:bool,__WorldContext:UObject)
+---@field ParseTeamLogoID fun(TeamLogoID:FString,__WorldContext:UObject):FString,FString,FString,FString

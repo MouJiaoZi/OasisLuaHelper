@@ -1,0 +1,2 @@
+---@class FGiftSetupStruct
+---@field GiftTypeSkillMap ULuaMapHelper

@@ -1,0 +1,1 @@
+---@class BP_Pistol_DesertEagle_BattleItemHandle_FPDC_C:BP_Pistol_DesertEagle_BattleItemHandle_C

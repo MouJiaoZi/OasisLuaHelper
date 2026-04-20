@@ -1,0 +1,1 @@
+---@class BP_MysteriosEscapeComp_2_C:UBP_MysteriosEscapeComp_C

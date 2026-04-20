@@ -1,0 +1,4 @@
+---@class TMode_BadgeStatistics_UIBP_C:UUAEUserWidget
+---@field NewButton_Close UNewButton
+---@field ReuseList2_BadgeStatistics ReuseList2_C
+---@field TextBlock_BadgeAmount UTextBlock

@@ -1,0 +1,1 @@
+---@class BP_AirDropBox_M416Box_C:ABP_AirDropBox_AWMBox_C

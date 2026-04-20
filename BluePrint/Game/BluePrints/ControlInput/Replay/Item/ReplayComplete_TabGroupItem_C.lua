@@ -1,0 +1,10 @@
+---@class ReplayComplete_TabGroupItem_C:UUAEUserWidget
+---@field UpdateByOneTeamInfo:fun(inTeamInfo:FOneTeamPlayerState)
+---@field Construct:fun()
+---@field Image_TeamLogo UImage
+---@field ReplayComplete_TabSingleItem_0 ReplayComplete_TabSingleItem_C
+---@field ReplayComplete_TabSingleItem_1 ReplayComplete_TabSingleItem_C
+---@field ReplayComplete_TabSingleItem_2 ReplayComplete_TabSingleItem_C
+---@field ReplayComplete_TabSingleItem_3 ReplayComplete_TabSingleItem_C
+---@field PlayerItemList ULuaArrayHelper
+---@field PicUrl FString

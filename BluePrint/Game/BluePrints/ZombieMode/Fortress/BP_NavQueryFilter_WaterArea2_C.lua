@@ -1,0 +1,1 @@
+---@class BP_NavQueryFilter_WaterArea2_C:UNavigationQueryFilter

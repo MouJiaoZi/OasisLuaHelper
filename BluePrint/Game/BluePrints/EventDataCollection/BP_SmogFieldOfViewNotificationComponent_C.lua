@@ -1,0 +1,3 @@
+---@class BP_SmogFieldOfViewNotificationComponent_C:UBP_FieldOfViewNotificationComponent_C
+---@field GetActorBoundingBox:fun(Actor:AActor):FBox
+---@field GetFieldOfViewTargetCategory:fun(Context:UObject):FString

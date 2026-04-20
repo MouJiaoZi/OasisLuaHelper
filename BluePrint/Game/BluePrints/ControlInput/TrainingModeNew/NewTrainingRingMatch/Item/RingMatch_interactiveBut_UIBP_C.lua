@@ -1,0 +1,5 @@
+---@class RingMatch_interactiveBut_UIBP_C:UUAEUserWidget
+---@field Button_Friend UNewButton
+---@field Button_TeamUp UNewButton
+---@field Button_Zan UNewButton
+---@field WidgetSwitcher_Icon UWidgetSwitcher

@@ -1,0 +1,9 @@
+---@class Skill_IM_Invisible_C:AUAESkill
+---@field RecoverInvisibleMat:fun()
+---@field SetInvisibleMat:fun()
+---@field UserConstructionScript:fun()
+---@field UAESkillAction_AddRemoveBuff UUAESkillAction_AddRemoveBuff
+---@field UAESkillAction_PlayMontage_Pose UUAESkillAction_PlayMontage_Pose
+---@field UAESkillPhase1 UUAESkillPhase
+---@field UAESkillPhase UUAESkillPhase
+---@field DefaultSceneRoot USceneComponent

@@ -1,0 +1,4 @@
+---@class UIVisibility_UIBP_C:UUAEUserWidget
+---@field Construct:fun()
+---@field EditableTextBox_WidgetName UEditableTextBox
+---@field IngameUIOutliner UIngameUIOutliner

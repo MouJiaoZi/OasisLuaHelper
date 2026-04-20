@@ -1,0 +1,3 @@
+---@class UAELobbyGamePawnMode_C:AUAELobbyGameMode
+---@field UserConstructionScript:fun()
+---@field DefaultSceneRoot USceneComponent

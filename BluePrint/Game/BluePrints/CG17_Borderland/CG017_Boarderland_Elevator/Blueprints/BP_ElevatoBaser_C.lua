@@ -1,0 +1,55 @@
+---@class BP_ElevatoBaser_C:AActivityBaseActor
+---@field UpdatePhysic:fun()
+---@field RemoveFloorClickByState:fun()
+---@field RemoveFloorClickBase:fun(State:FName)
+---@field UpdateElavatorState:fun()
+---@field UpdateCurrentFloorNum:fun()
+---@field UpdateElevatorState:fun()
+---@field SetFloorMaterialState:fun()
+---@field SetElevatorMaterialState:fun(Mesh:UStaticMeshComponent)
+---@field CheckCanUpdateOrder:fun()
+---@field RequestOpenDoor:fun(NewParam:FGISCCF_Param)
+---@field CheckOpenDoor:fun(NewParam:FGISCCF_Param):bool
+---@field SetFloorMaterialNum:fun()
+---@field SetElevatorMaterialNum:fun(Mesh:UStaticMeshComponent)
+---@field UpdateClickFloorNum:fun(State:EElevatorStatus)
+---@field UpdateState:fun()
+---@field SeleteTheDoor:fun():BP_DoorBaseInter_C,BP_DoorBaseOuter_C
+---@field CheckCanMove:fun():bool
+---@field RequestSeat:fun(NewParam:FGISCCF_Param)
+---@field ChcekCanSeat:fun(NewParam:FGISCCF_Param):bool
+---@field CheckIsClick:fun(NewParam:FGISCCF_Param):bool
+---@field GetElevatorF_State:fun():FName
+---@field UserConstructionScript:fun()
+---@field UpdateItem__DelegateSignature:fun()
+---@field CheckProneBox UBoxComponent
+---@field SmokeVolume UChildActorComponent
+---@field Mesh2 UStaticMeshComponent
+---@field Mesh1 UStaticMeshComponent
+---@field Arrive_Sequence UActorSequenceComponent
+---@field Down_Sequence UActorSequenceComponent
+---@field UP_Sequence UActorSequenceComponent
+---@field ActivityFakePossessMultiply UActivityFakePossessMultiplyComponent
+---@field GISActorComponentBase UGISActorComponentBase
+---@field CustomActorMove UCustomActorMoveComponent
+---@field CheckFloorNum UBoxComponent
+---@field ElevatorDispatch ElevatorDispatch_C
+---@field Door_L UChildActorComponent
+---@field Box UBoxComponent
+---@field Elevator UStaticMeshComponent
+---@field bIs_Arrive bool
+---@field CurrentFloorNum int32
+---@field TargetFloorNum int32
+---@field PlayerID_Array ULuaArrayHelper
+---@field bIs_Click bool
+---@field MinDistance float
+---@field FloorHeight_Array ULuaArrayHelper
+---@field bIs_Show bool
+---@field ClickFloorNum_Array ULuaArrayHelper
+---@field UpdateItem ULuaMulticastDelegate
+---@field TempArray ULuaArrayHelper
+---@field ElavatorState int32
+---@field bIsOpenDoor bool
+---@field HasReportPlayer ULuaArrayHelper
+---@field ElevatorCameraDate FCameraOffsetData
+---@field bIsReportTlogIn5Seconds bool

@@ -1,0 +1,41 @@
+---@class BP_Pistol_ColtAnaconda_C:BP_ShootPistol_Base_C
+---@field HandleActiveOverheatEffect:fun(bActive:bool)
+---@field UpdateOtherHandMeshAttachment:fun()
+---@field HandlePawnStateChanged:fun(IsEnter:bool,State:EPawnState)
+---@field HandlePlayerWeaponStateChanged:fun(CurState:EFreshWeaponStateType)
+---@field GetOverrideCachedLastFireType:fun():EDualWeaponFireType
+---@field OverrideActionSound:fun(Action:EWeaponAction):UAkAudioEvent
+---@field HandleScopeChange:fun(IsScope:bool)
+---@field CheckSwapGunBack:fun()
+---@field LoopFunc:fun()
+---@field CheckEnterSwapGunState:fun()
+---@field SwapGun:fun()
+---@field CheckNeedSwapGun:fun():bool
+---@field HandleChangeState:fun(LastState:EFreshWeaponStateType,NewState:EFreshWeaponStateType)
+---@field StartFireFilter:fun():bool
+---@field CheckCanShoot:fun():bool
+---@field CheckShootEnviroment:fun():bool
+---@field GetFinalBulletLaunchPos:fun(InitMuzle:FVector,InitMuzleDir:FVector,bNeedPullBackMuzzle:bool):FVector
+---@field GetMuzzleFXAttachAttach:fun():UMeshComponent
+---@field OnLocalShoot:fun(ShootNum:int32)
+---@field GetOverrideFireType:fun():EDualWeaponFireType
+---@field UpdateVaultAnim:fun(IsOverride:bool)
+---@field UpdateAnimList:fun(bSetupADS:bool,Force:bool)
+---@field UserConstructionScript:fun()
+---@field P_MF_Rifle_Trail UParticleSystemComponent
+---@field WeaponAnimList_Pistol_ADS_ColtAnaconda WeaponAnimList_Pistol_ADS_ColtAnaconda_C
+---@field WeaponAnimList_Pistol_ColtAnaconda WeaponAnimList_Pistol_ColtAnaconda_C
+---@field BP_ColtAnaconda_DoubleGunComp BP_ColtAnaconda_DoubleGunComp_C
+---@field WeaponPostReloadState UWeaponPostReloadState
+---@field bUseIdleAnim_0_0_1 bool
+---@field OverrideVaultDataAsset UVaultAnimDataAsset
+---@field CachedFireType EDualWeaponFireType
+---@field bClientIsScope bool
+---@field ShootSound_Left UAkAudioEvent
+---@field ShootSound_Right UAkAudioEvent
+---@field ShootSound_Aim UAkAudioEvent
+---@field ADSBlendMontage_Stand UAnimMontage
+---@field ADSBlendMontage_Crouch UAnimMontage
+---@field ADSBlendMontage_Prone UAnimMontage
+---@field bOtherHandAttachmentDirty bool
+---@field HideOtherHandMeshStates ULuaArrayHelper

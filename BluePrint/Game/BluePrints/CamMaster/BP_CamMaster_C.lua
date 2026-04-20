@@ -1,0 +1,1 @@
+---@class BP_CamMaster_C:ACamMaster

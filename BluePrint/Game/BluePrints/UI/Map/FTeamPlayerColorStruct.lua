@@ -1,0 +1,3 @@
+---@class FTeamPlayerColorStruct
+---@field PlayerIndex int32
+---@field PlayerColor FLinearColor

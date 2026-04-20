@@ -1,0 +1,4 @@
+---@class EScoreBallSpecialWeaponType
+---@field NewEnumerator1 int32
+---@field NewEnumerator0 int32
+---@field EScoreBallSpecialWeaponType_MAX int32

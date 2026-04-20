@@ -1,0 +1,25 @@
+---@class PESkill_UIBP_C:UPESkillWidget
+---@field GetLuaModule:fun():FString
+---@field DX_UpgradeSkills UWidgetAnimation
+---@field DX_UpgradeSkills_old UWidgetAnimation
+---@field DX_RefreshSkill UWidgetAnimation
+---@field Border_SkillSlot UBorder
+---@field Border_VirtualJoystick UBorder
+---@field Button_Skill UButton
+---@field CanvasPanel_CDtime UCanvasPanel
+---@field CanvasPanel_Charging UCanvasPanel
+---@field CanvasPanel_Disable UCanvasPanel
+---@field CanvasPanel_Lock UCanvasPanel
+---@field CanvasPanel_Number UCanvasPanel
+---@field CanvasPanel_OneAvailable UCanvasPanel
+---@field CanvasPanel_tips UCanvasPanel
+---@field Image_BG UImage
+---@field Image_CDTime UImage
+---@field Image_ChargingCD UImage
+---@field Image_Icon UImage
+---@field PESkillVirtualJoystick_0 UPESkillVirtualJoystick
+---@field Text_LockGrade UTextBlock
+---@field Text_Name UTextBlock
+---@field Text_Num UTextBlock
+---@field Text_Time UTextBlock
+---@field NewVar_011 UImage

@@ -1,0 +1,7 @@
+---@class Variety_Popups_UIBP_C:UUAEUserWidget
+---@field SetPopupsTest:fun(str:FString)
+---@field Construct:fun()
+---@field CanvasPanel_0 UCanvasPanel
+---@field NewButton_Close UNewButton
+---@field NewButton_Confirm UNewButton
+---@field TextBlock_Content UTextBlock

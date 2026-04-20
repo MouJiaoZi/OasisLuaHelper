@@ -1,0 +1,11 @@
+---@class EscapeMode_BackPackWeaponPanel_UIBP_C:UUAEUserWidget
+---@field CustomSocket_ItemTips UCustomSocketPanel
+---@field Escape_EquipmentWeightInfo EscapeMode_Currency_UIBP_C
+---@field Escape_MovementSpeedInfo EscapeMode_Currency_UIBP_C
+---@field EscapeMode_BackPack_MainWeapon1 EscapeMode_BackPack_MainWeapon_UIBP_C
+---@field EscapeMode_BackPack_MainWeapon2 EscapeMode_BackPack_MainWeapon_UIBP_C
+---@field EscapeMode_BackPack_MeleeInfo EscapeMode_BackPack_MeleeInfo_UIBP_C
+---@field EscapeMode_BackPack_Pistolinfo EscapeMode_BackPack_Pistolinfo_UIBP_C
+---@field GridPanel_2 UGridPanel
+---@field HorizontalBox_List2 UHorizontalBox
+---@field VerticalBox_List UVerticalBox

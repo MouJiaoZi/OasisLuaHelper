@@ -1,0 +1,7 @@
+---@class Duel_StarTips_UIBP_C:UUAEUserWidget
+---@field DX_Border_NumTips1 UWidgetAnimation
+---@field DX_Border_StartTips UWidgetAnimation
+---@field DX_Border_NumTips UWidgetAnimation
+---@field Border_NumTips UBorder
+---@field Border_StartTips UBorder
+---@field WidgetSwitcher_Time UWidgetSwitcher

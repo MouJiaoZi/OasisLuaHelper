@@ -1,0 +1,1 @@
+---@class AnniversaryCake_UIBP_C:UMapUIMarkBaseWidget

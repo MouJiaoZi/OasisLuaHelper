@@ -1,0 +1,18 @@
+---@class WatchGame_BackPackItemList_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field BackPack_Fenge_UIBP BackPack_Fenge_UIBP_C
+---@field BackPackTabActivity BackPack_ActivityMaterialsList_UIBP_C
+---@field BackPackTabThemes BackPack_ActivityMaterialsList_UIBP_C
+---@field CanvasPanel_BackPackList UCanvasPanel
+---@field CanvasPanel_Classic UCanvasPanel
+---@field CanvasPanel_EscapeMode UCanvasPanel
+---@field CanvasPanel_EscapeModeNull UCanvasPanel
+---@field CanvasPanel_Item UCanvasPanel
+---@field CanvasPanel_ItemList UCanvasPanel
+---@field Image_TopLeft UImage
+---@field ReuseList_ItemList ReuseListSp_ConsumeWheel_C
+---@field TextBlock_CurrentItemNum UTextBlock
+---@field TextBlock_MaxItemNum UTextBlock
+---@field TextBlock_OtherCap UTextBlock
+---@field TextBlock_PlayerName UTextBlock
+---@field CacheBattleItemData FBattleItemData

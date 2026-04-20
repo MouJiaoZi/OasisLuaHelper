@@ -1,0 +1,21 @@
+---@class SeasonTopGame_Stage_TeamLogo_UIBP_C:UUAEUserWidget
+---@field UpdateTeamInfo:fun(TeamName:FString,TeamLogoID:FString):FString
+---@field UpdateGradeInfo:fun(Rank:int32,KillNumber:int32):int32
+---@field UpdatePlayerInfo:fun(PlayerName:FString,Gender:int32,Visible:bool,PlayerUID:FString):bool
+---@field SetImagePosition:fun(Image:UImage,Position:FString)
+---@field SetImageTexture:fun(Image:UImage,Path:FString)
+---@field ParseColor:fun(ColorString:FString):ULuaArrayHelper
+---@field UpdateIcon:fun()
+---@field UpdateBackground:fun()
+---@field ParseTeamIconInfo:fun(TeamLogoID:FString)
+---@field UpdateTeamLogo:fun(TeamLogoID:FString)
+---@field UpdateTeamName:fun(TeamName:FString)
+---@field Image_Bg UImage
+---@field Image_Icon UImage
+---@field Image_Icon2 UImage
+---@field TextBlock_TeamName UTextBlock
+---@field BackgroundID FString
+---@field BackgroundColorID FString
+---@field IconID FString
+---@field IconColorID FString
+---@field CurrentColor FString

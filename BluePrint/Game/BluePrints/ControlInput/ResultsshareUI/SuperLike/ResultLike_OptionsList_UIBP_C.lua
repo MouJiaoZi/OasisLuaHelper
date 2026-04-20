@@ -1,0 +1,11 @@
+---@class ResultLike_OptionsList_UIBP_C:UUAEUserWidget
+---@field InitUI:fun()
+---@field Construct:fun()
+---@field CanvasPanel_SuperLike UCanvasPanel
+---@field SuperLike_1 ResultLike_OptionsItem_UIBP_C
+---@field SuperLike_2 ResultLike_OptionsItem_UIBP_C
+---@field SuperLike_3 ResultLike_OptionsItem_UIBP_C
+---@field SuperLike_4 ResultLike_OptionsItem_UIBP_C
+---@field SuperLike_5 ResultLike_OptionsItem_UIBP_C
+---@field SuperlikeText ULuaArrayHelper
+---@field ItemList ULuaArrayHelper

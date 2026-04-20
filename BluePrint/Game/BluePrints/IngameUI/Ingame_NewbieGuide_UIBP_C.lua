@@ -1,0 +1,3 @@
+---@class Ingame_NewbieGuide_UIBP_C:ULuaUserWidget
+---@field RunTips_Anima UWidgetAnimation
+---@field RightSideControlTips_Anima UWidgetAnimation

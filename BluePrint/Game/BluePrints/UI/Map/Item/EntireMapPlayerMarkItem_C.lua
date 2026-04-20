@@ -1,0 +1,13 @@
+---@class EntireMapPlayerMarkItem_C:UUAEUserWidget
+---@field UpdateMultiMark:fun(bIsShow:bool,MultiMarkRenderTranslation:ULuaArrayHelper,Opacity:float,SlotSize:FVector2D):bool
+---@field SetMarkColor:fun(Color:FLinearColor):FLinearColor
+---@field SetMarkDist:fun(Dist:int32,IsShow:bool):int32
+---@field UpdateMark:fun(IsShow:bool,MarkRenderTranslation:FVector2D,Opacity:float):bool
+---@field GetIconDisplayWidget:fun()
+---@field Construct:fun()
+---@field Image_PlayerMarkInMap UImage
+---@field PlayerMark UCanvasPanel
+---@field PlayerMarkInMap UCanvasPanel
+---@field PlayerMultiMarkInMap UCanvasPanel
+---@field TextBlock_PlayerMarkDistance UTextBlock
+---@field MapMultiMarkItemArray ULuaArrayHelper

@@ -1,0 +1,1 @@
+---@class BP_TestAroundDoorsNode_C:UATTaskNode_TestAroundDoors

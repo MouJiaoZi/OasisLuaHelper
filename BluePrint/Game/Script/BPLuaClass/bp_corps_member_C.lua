@@ -1,0 +1,14 @@
+---@class bp_corps_member_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_CorpsMember_Scroll_End int32
+---@field BP_MyPlyerCountCorpsMember int32
+---@field BP_CorpsMember_InviteFriendID FString
+---@field BP_CorpsTeamMemberIsShow bool
+---@field BP_CORPSMEMBER_FRIEND_IS_WATCHING_OPEN bool
+---@field BP_CorpsMember_FriendNum int32
+---@field BP_CORPSMEMBER_FRIEND_WATCH_ID FString
+---@field BP_CorpsMember_InviteFriendName FString
+---@field BP_ARRAY_CorpsMember_Friend ULuaArrayHelper
+---@field BP_CorpsMember_Scroll_Start int32
+---@field BP_CorpsMember_TargetHeadIsFriend bool

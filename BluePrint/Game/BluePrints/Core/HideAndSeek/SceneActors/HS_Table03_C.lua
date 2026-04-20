@@ -1,0 +1,5 @@
+---@class HS_Table03_C:AHiderSceneActorBase_C
+---@field UserConstructionScript:fun()
+---@field HideAndSeekSpot2 HideAndSeekSpot_C
+---@field HideAndSeekSpot1 HideAndSeekSpot_C
+---@field HideAndSeekSpot HideAndSeekSpot_C

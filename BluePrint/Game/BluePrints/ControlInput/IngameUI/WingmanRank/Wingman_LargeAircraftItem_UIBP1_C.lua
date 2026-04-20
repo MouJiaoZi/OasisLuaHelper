@@ -1,0 +1,16 @@
+---@class Wingman_LargeAircraftItem_UIBP1_C:UUAEUserWidget
+---@field RefreshIcon:fun(NewParam:UObject)
+---@field GetColorByIndex:fun(Index:int32):bool
+---@field SetMyLabel:fun(PlayerName:FString,TeamID:int32)
+---@field DX_In01 UWidgetAnimation
+---@field DX_In UWidgetAnimation
+---@field Button_CharmItem UNewButton
+---@field Image_LeftIcon UImage
+---@field Image_Line_UP UImage
+---@field Image_SelectBg UImage
+---@field Image_Wingman UImage
+---@field MaskBox_0 UMaskBox
+---@field TextBlock_PlayerName UTextBlock
+---@field ImageBrushArray ULuaArrayHelper
+---@field isFirst bool
+---@field Image_TeammateBg UImage

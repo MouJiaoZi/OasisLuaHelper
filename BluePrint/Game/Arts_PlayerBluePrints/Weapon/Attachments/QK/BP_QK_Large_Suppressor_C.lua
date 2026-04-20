@@ -1,0 +1,1 @@
+---@class BP_QK_Large_Suppressor_C:BattleItemHandle_WeapAttachment_C

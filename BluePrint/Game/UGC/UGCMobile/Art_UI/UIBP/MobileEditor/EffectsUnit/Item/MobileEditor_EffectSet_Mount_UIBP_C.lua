@@ -1,0 +1,10 @@
+---@class MobileEditor_EffectSet_Mount_UIBP_C:UUGCMobilePropertyWidget
+---@field GetLuaModule:fun():FString
+---@field Get_CanvasPanel_Children_Visibility_0:fun():ESlateVisibility
+---@field Construct:fun()
+---@field CanvasPanel_Children UCanvasPanel
+---@field MobileEditor_SetSwitchBut_UIBP MobileEditor_SetSwitchBut_UIBP_C
+---@field UGCMobilePropertyBindableWidget_0 UUGCMobilePropertyBindableWidget
+---@field VerticalBox_Children UVerticalBox
+---@field ItemGroupWidgetName FString
+---@field ChildButParamName FString

@@ -1,0 +1,1 @@
+---@class HS_Ball_C:AHiderSceneActorBase_C

@@ -1,0 +1,4 @@
+---@class Ingame_SuperBoxInMap_UIBP_C:UActorPositionWidget
+---@field ShowOrHideHeavyWeaponBoxCountdownUI:fun(Box:AActor,bHide:bool,LeftSeconds:int32)
+---@field Construct:fun()
+---@field TextBlock_Time UTextBlock

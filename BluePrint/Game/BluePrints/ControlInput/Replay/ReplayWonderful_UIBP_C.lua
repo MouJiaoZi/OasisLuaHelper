@@ -1,0 +1,23 @@
+---@class ReplayWonderful_UIBP_C:UReplayWidgetWonderful
+---@field OnPlayerInfoUpdateHP:fun()
+---@field SetMVPBadge:fun(image:UImage,id:int32)
+---@field InitMainBaseUI:fun()
+---@field RefreshCurPlayerUI:fun(picurl:FString,uid:FString,curAvatarBoxid:int32,VsTeamLevel:int32,BadgeID:ULuaArrayHelper,sex:int32,Name:FString,playerLevel:int32)
+---@field UpdateWeaponUI:fun()
+---@field UpdateBulletUI:fun()
+---@field ForceRefreshUI:fun()
+---@field PlayLoadingAnimation:fun()
+---@field OnWidgetInitialize:fun()
+---@field Construct:fun()
+---@field StartRecordVideoReplay:fun(TotalTime:float)
+---@field StopRecordVideoReplay:fun(isFinished:bool,RecordVideoTimeList:ULuaArrayHelper)
+---@field SetBackgroundColorPerLoading:fun()
+---@field OnInitChildWidget:fun()
+---@field RefreshUIInfoOnAttachCameraViewFinished:fun()
+---@field wonderfulreplayInit__DelegateSignature:fun()
+---@field CanvasPanel_Root UCanvasPanel
+---@field TMode_Record_UIBP TMode_Record_UIBP_C
+---@field WatchGame_PlayerInfo_UIBP WatchGame_PlayerInfo_UIBP_C
+---@field MainControlBaseUI_Ref MainControlBaseUI_C
+---@field MainTouchPanelTouchBtn_Ref MainControlPanelTochButton_C
+---@field wonderfulreplayInit ULuaMulticastDelegate

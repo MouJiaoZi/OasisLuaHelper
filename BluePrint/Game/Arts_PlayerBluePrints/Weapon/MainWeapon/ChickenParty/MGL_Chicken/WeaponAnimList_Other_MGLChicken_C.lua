@@ -1,0 +1,1 @@
+---@class WeaponAnimList_Other_MGLChicken_C:UUAECharacterAnimListComponent

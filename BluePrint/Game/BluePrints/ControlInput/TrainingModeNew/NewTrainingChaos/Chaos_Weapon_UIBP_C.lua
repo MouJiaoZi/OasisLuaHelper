@@ -1,0 +1,21 @@
+---@class Chaos_Weapon_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field ClickGuidePanel:fun()
+---@field On_Image_Select_MouseButtonDown_0:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field CanvasPanel_BulletReserve UCanvasPanel
+---@field CanvasPanel_BulletTime UCanvasPanel
+---@field CanvasPanel_Explosion UCanvasPanel
+---@field CanvasPanel_player UCanvasPanel
+---@field CanvasPanel_Select UCanvasPanel
+---@field Chaos_Description_UIBP Chaos_Description_UIBP_C
+---@field Image_Select UImage
+---@field NewButton_Explosion UNewButton
+---@field NewButton_Reserve UNewButton
+---@field NewButton_Time UNewButton
+---@field TextBlock_BulletNum UTextBlock
+---@field TextBlock_BulletReserve UTextBlock
+---@field TextBlock_BulletTime UTextBlock
+---@field TextBlock_Explosion UTextBlock
+---@field TextBlock_Level UTextBlock
+---@field TextBlock_RankingTitle UTextBlock
+---@field WidgetSwitcher_WepIcon UWidgetSwitcher

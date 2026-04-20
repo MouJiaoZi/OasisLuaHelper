@@ -1,0 +1,4 @@
+---@class HideAndSeekGroup_C:AEditorOnlyActor
+---@field UserConstructionScript:fun()
+---@field EditorOnlySceneSpot UEditorOnlySceneSpot
+---@field DefaultSceneRoot USceneComponent

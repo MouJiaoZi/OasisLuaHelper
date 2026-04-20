@@ -1,0 +1,1 @@
+---@class BP_Mag_UMP9_MNXD_A_C:BP_Mag_UMP9_C

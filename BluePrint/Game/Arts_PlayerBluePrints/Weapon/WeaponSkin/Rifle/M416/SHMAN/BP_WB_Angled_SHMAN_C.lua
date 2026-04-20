@@ -1,0 +1,1 @@
+---@class BP_WB_Angled_SHMAN_C:BP_WB_Angled_C

@@ -1,0 +1,1 @@
+---@class BP_MainWeaponSlot2_C:UWeaponSlot_MainShootWeapon2

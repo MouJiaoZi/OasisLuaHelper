@@ -1,0 +1,27 @@
+---@class SoundTestDetailList_C:UUserWidget
+---@field SortClassArray:fun(MergeArray:ULuaMapHelper):ULuaMapHelper
+---@field SortEventNameArray:fun(MergeArray:ULuaMapHelper):ULuaMapHelper
+---@field MergeEventArray:fun(Array:ULuaArrayHelper):ULuaMapHelper
+---@field RemoveSameClassActor:fun()
+---@field SetOutEventList:fun(AllOutEventName:ULuaArrayHelper)
+---@field SetLoopEventList:fun(AllLoopName:ULuaArrayHelper)
+---@field SetAllEventList:fun(AllEventName:ULuaArrayHelper)
+---@field SetAKComponentList:fun(ComponentName:ULuaArrayHelper)
+---@field Button_Filter UButton
+---@field ScaleBox_LoopEventList UScrollBox
+---@field ScrollBox_AllEventList UScrollBox
+---@field ScrollBox_ClassList UScrollBox
+---@field ScrollBox_ComponentList UScrollBox
+---@field ScrollBox_OutEvent UScrollBox
+---@field SoundTest_FilterBase SoundTest_FilterBase_C
+---@field TextBlock_AKCompNum UTextBlock
+---@field TextBlock_AllEventNum UTextBlock
+---@field TextBlock_ClassNum UTextBlock
+---@field TextBlock_LoopEventNum UTextBlock
+---@field TextBlock_OutEventNum UTextBlock
+---@field WidgetSwitcher_0 UWidgetSwitcher
+---@field TempActor ULuaMapHelper
+---@field Temp int32
+---@field UnSameClassActor ULuaMapHelper
+---@field CurrentActorArray ULuaArrayHelper
+---@field AllOutEvent ULuaArrayHelper

@@ -1,0 +1,9 @@
+---@class NewEntireMap_ActiveArea_UIBP_C:UUAEUserWidget
+---@field ToggleState:fun()
+---@field ShowUI:fun()
+---@field HideUI:fun()
+---@field Button_ActiveArea UButton
+---@field CanvasPanel_Tips UCanvasPanel
+---@field ShowText UTextBlock
+---@field WidgetSwitcher_State UWidgetSwitcher
+---@field CurState bool

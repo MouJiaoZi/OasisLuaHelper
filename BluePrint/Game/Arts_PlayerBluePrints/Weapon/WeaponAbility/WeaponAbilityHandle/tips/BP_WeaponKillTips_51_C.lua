@@ -1,0 +1,1 @@
+---@class BP_WeaponKillTips_51_C:BP_WeaponKillTipsHandle_C

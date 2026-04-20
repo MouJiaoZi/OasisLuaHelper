@@ -1,0 +1,1 @@
+---@class DmgType_SoundWave_C:USTExtraDamageType

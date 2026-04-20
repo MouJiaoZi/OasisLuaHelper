@@ -1,0 +1,2 @@
+---@class TeamScrimmageMVPTeamWidgetComponent_New_C:UWidget3DInstancedComponent
+---@field GetLuaModule:fun():FString

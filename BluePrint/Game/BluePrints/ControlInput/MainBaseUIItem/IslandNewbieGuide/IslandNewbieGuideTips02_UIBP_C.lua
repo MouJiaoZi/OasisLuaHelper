@@ -1,0 +1,4 @@
+---@class IslandNewbieGuideTips02_UIBP_C:UNewbieGuideWidget
+---@field OnCreateAndShow:fun(GuideId:int32,UIConfigIndex:int32)
+---@field FingerSliding_anima UWidgetAnimation
+---@field UTRichTextBlock_OperatingTips2 UUTRichTextBlock

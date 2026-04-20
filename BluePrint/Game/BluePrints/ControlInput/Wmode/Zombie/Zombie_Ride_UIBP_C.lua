@@ -1,0 +1,7 @@
+---@class Zombie_Ride_UIBP_C:UUserWidget
+---@field UpdateSeatInfo:fun(Current:int32,Max:int32)
+---@field UpdateLeftTime:fun(LeftSec:int32)
+---@field Construct:fun()
+---@field TextBlock_PlaneNumber01 UTextBlock
+---@field TextBlock_PlaneNumber02 UTextBlock
+---@field TextBlock_Time UTextBlock

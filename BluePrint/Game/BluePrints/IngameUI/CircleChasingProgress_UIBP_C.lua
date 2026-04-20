@@ -1,0 +1,1 @@
+---@class CircleChasingProgress_UIBP_C:UUserWidget

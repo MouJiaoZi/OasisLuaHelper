@@ -1,0 +1,1 @@
+---@class Traing_Mode_Guide_UIBP_C:UUAEUserWidget

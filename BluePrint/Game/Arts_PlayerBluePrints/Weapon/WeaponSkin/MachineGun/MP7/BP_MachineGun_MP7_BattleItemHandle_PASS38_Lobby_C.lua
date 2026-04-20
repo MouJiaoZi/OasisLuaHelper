@@ -1,0 +1,1 @@
+---@class BP_MachineGun_MP7_BattleItemHandle_PASS38_Lobby_C:UBackpackWeaponHandle

@@ -1,0 +1,3 @@
+---@class BP_NewFakePlayerAIC_SuperTeam_C:ANewFakePlayerAIController
+---@field UserConstructionScript:fun()
+---@field AIBreakWindow UAIBreakWindowComponent

@@ -1,0 +1,1 @@
+---@class Ingame_swim_UIBP_C:UUserWidget

@@ -1,0 +1,5 @@
+---@class AnimNotify_CameraShakeEvent_C:UAnimNotify
+---@field Received_Notify:fun(MeshComp:USkeletalMeshComponent,Animation:UAnimSequenceBase):bool
+---@field CameraShakeTemplate UClass
+---@field ShakeScale float
+---@field ShakeOriginSocket FName

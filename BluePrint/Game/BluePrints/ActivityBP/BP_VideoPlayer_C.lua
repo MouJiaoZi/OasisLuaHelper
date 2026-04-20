@@ -1,0 +1,13 @@
+---@class BP_VideoPlayer_C:UDynamicVideoPlayerComponent
+---@field OnObjLoaded:fun(obj:UObject)
+---@field OnEventMediaLoaded:fun(OpenedUrl:FString)
+---@field OnEventMediaLoadedEnd:fun(OpenedUrl:FString)
+---@field OnEventEndReached:fun()
+---@field RequestPath:fun()
+---@field MediaEndReached__DelegateSignature:fun()
+---@field MediaLoadedEventEnd__DelegateSignature:fun(Url:FString)
+---@field MediaLoadedEvent__DelegateSignature:fun(Url:FString)
+---@field LuaLoader UClass
+---@field MediaLoadedEvent ULuaMulticastDelegate
+---@field MediaLoadedEventEnd ULuaMulticastDelegate
+---@field MediaEndReached ULuaMulticastDelegate

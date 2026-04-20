@@ -1,0 +1,14 @@
+---@class BP_HideAndSeek_Bait_C:ABP_DamageableActor_C
+---@field BP_GetCanBePicked:fun():bool
+---@field BP_GetPickingBoundingBox:fun():FVector,FVector,FRotator,float,bool
+---@field HpReachedZeroFunc:fun()
+---@field TriggerEntryEvent:fun(EntryEvent:EUTSkillEntry):bool
+---@field UserConstructionScript:fun()
+---@field ReceiveDestroyed:fun()
+---@field TagShapeTransInfo UTagShapeTransInfoComponent
+---@field Ak UAkComponent
+---@field StaticMesh UStaticMeshComponent
+---@field ReplicatedMesh UStaticMesh
+---@field ReplicatedScale FVector
+---@field ParticleSpawnOffset FVector
+---@field ReplicatedRotation FRotator

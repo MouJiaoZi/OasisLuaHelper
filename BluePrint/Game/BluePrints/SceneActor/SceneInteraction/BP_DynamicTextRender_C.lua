@@ -1,0 +1,1 @@
+---@class BP_DynamicTextRender_C:ADynamicTextRenderActor

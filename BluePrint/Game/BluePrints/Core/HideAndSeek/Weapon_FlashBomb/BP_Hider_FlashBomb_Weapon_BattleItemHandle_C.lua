@@ -1,0 +1,1 @@
+---@class BP_Hider_FlashBomb_Weapon_BattleItemHandle_C:UBattleItemHandleBase_BP_C

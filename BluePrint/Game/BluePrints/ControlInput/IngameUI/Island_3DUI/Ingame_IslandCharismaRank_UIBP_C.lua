@@ -1,0 +1,6 @@
+---@class Ingame_IslandCharismaRank_UIBP_C:UUserWidget
+---@field TextBlock_Countdown_1 UTextBlock
+---@field TextBlock_Countdown_2 UTextBlock
+---@field TextBlock_RankTitle UTextBlock
+---@field TextBlock_SeasonId UTextBlock
+---@field WidgetSwitcher_TipsType UWidgetSwitcher

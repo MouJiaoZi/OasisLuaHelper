@@ -1,0 +1,1 @@
+---@class WeaponAnimList_Melee_C:UUAECharacterAnimListComponent

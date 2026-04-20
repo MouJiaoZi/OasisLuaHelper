@@ -1,0 +1,24 @@
+---@class CG030_TangDao_BlockSkill_UIBP_C:UUTSkillIconWidgetTemplate
+---@field Get_WidgetSwitcher_But_Visibility_0:fun():ESlateVisibility
+---@field Get_ProgressBar_ShieldBar_Visibility_0:fun():ESlateVisibility
+---@field Get_CanvasPanel_20Percent_Visibility_0:fun():ESlateVisibility
+---@field Get_CanvasPanel_ShieldBar_Visibility_0:fun():ESlateVisibility
+---@field Get_ProgressBar_ShieldBar_Percent_0:fun():float
+---@field Construct:fun()
+---@field DX_UpgradeSkills UWidgetAnimation
+---@field DX_UpgradeSkills_old UWidgetAnimation
+---@field DX_RefreshSkill UWidgetAnimation
+---@field Border_SkillSlot UBorder
+---@field Button_0 UButton
+---@field CanvasPanel_20Percent UCanvasPanel
+---@field CanvasPanel_ShieldBar UCanvasPanel
+---@field CanvasPanel_tips UCanvasPanel
+---@field CustomizeCanvasPanel_BlockSkill CustomizeCanvasPanel_BP_C
+---@field Image_CD UImage
+---@field Image_CDTime UImage
+---@field ProgressBar_ShieldBar UProgressBar
+---@field Text_Name UTextBlock
+---@field Text_Name2 UTextBlock
+---@field Text_Time UTextBlock
+---@field WidgetSwitcher_But UWidgetSwitcher
+---@field FunctionBPParam ULuaMapHelper

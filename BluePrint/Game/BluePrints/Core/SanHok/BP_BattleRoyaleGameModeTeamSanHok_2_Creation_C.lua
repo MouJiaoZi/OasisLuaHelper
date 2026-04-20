@@ -1,0 +1,3 @@
+---@class BP_BattleRoyaleGameModeTeamSanHok_2_Creation_C:ABP_BattleRoyaleGameModeTeamSanHok_2_C
+---@field UserConstructionScript:fun()
+---@field CheatCommand UCheatCommandComponent

@@ -1,0 +1,44 @@
+---@class BP_WEP_TitanSword_C:ASTExtraWeapon
+---@field OnTitanSwordShieldChanged:fun(AttrName:FName,CurValue:float)
+---@field GetBlockEnergyMax:fun():float
+---@field UnregisterCustomMovements:fun()
+---@field RegisterCustomMovements:fun()
+---@field ResetSprintData:fun()
+---@field GetLeftIdleTime:fun():float
+---@field UpdateTriggerIdleTime:fun(bClear:bool,bUseLastTriggerIdleTime:bool)
+---@field SetLastSprintTimes:fun(NewSprintTimes:int32)
+---@field ResetFOV:fun(OwnerCharacter:ASTExtraBaseCharacter)
+---@field ApplyFOV:fun(OwnerCharacter:ASTExtraBaseCharacter)
+---@field UserConstructionScript:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field TriggerWeaponEvent:fun(Event:EWeaponTriggerEvent,EventData:FString)
+---@field BPAttachMeshToSocket:fun(AttachMesh:UMeshComponent)
+---@field OverloadSkillTriggerDelegate__DelegateSignature:fun(bCast:bool,ServerWorldTime:float,Duration:float)
+---@field BP_WEP_TitanSword_AnimList BP_WEP_TitanSword_AnimList_C
+---@field WeaponTriggerEventHandleSkill UWeaponTriggerEventHandleSkill
+---@field CrossHair UCrossHairComponent
+---@field WeaponEffect UWeaponEffectComponent
+---@field WeaponSpecificHandler UWeaponSpecificHandler
+---@field WeaponStateDefault UWeaponStateDefault
+---@field WeaponStateManager UWeaponStateManager
+---@field WeaponEntity UWeaponEntity
+---@field bPreviousFPP bool
+---@field EnergyRecoverSpeed float
+---@field CachedPlayerCameraManager ASTPlayerCameraManager
+---@field AdditiveFOV float
+---@field FOVBlendWeightCurve UCurveFloat
+---@field FOVBlendDeltaTime float
+---@field DecreasePerFrame float
+---@field SprintTimesLeft int32
+---@field SprintInterval float
+---@field MaxSprintInterval float
+---@field TriggerIdleTime float
+---@field MaxIdleTime float
+---@field IdleTimeLeft float
+---@field LastTriggerIdleTime float
+---@field OverloadSkillTriggerDelegate ULuaMulticastDelegate
+---@field OverloadSkillData Struct_TitanSword_Overload
+---@field BlockEnergyMax float
+---@field BlockEnergyMaxScale float
+---@field CustomCameraData FCameraOffsetData
+---@field ExtraDamageToBoss FAttrModifyItem

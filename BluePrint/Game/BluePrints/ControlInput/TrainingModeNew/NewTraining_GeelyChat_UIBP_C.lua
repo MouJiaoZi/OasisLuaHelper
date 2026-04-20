@@ -1,0 +1,2 @@
+---@class NewTraining_GeelyChat_UIBP_C:UUAEUserWidget
+---@field UTRichTextBlock_Chat UUTRichTextBlock

@@ -1,0 +1,10 @@
+---@class FOBKillTipsInfo
+---@field KillType int32
+---@field PlayerName FString
+---@field TeamNamme FString
+---@field KillNum int32
+---@field IconPath FString
+---@field VictimTeamID int32
+---@field KillTeamID int32
+---@field IsAll bool
+---@field CurAliveTeamNum int32

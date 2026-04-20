@@ -1,0 +1,48 @@
+---@class QuickDecal_BP_C:UUAEUserWidget
+---@field IsCustomUIDataValid:fun(Widget:UWidget,SaveDataSize:FVector2D):bool
+---@field AsyncGetDecalHandleCallback:fun(BattleItemHandles:ULuaArrayHelper,AsyncLoadReqID:int32)
+---@field AsyncGetDecalHandle:fun()
+---@field GetDecalHandleByID:fun(ID:int32):UBattleItemHandleBase
+---@field GetDecalNameByID:fun(DecalID:int32):FString
+---@field PaintDecalTip:fun(DecalID:int32,FancyDecalDyeNum:int32)
+---@field RefreshCDBar:fun(CurTime:float,MaxTime:float)
+---@field GetCharacterSafety:fun():ASTExtraBaseCharacter
+---@field HandleNullState:fun()
+---@field HandleStateInterrupt:fun(State:EPawnState,InterruptedBy:EPawnState)
+---@field RefreshCountDown:fun(InPawn:ASTExtraBaseCharacter)
+---@field ReConstructItem:fun(Num:int32)
+---@field ReConstructWidget:fun(WidgetNum:int32)
+---@field RefreshGridPanel:fun()
+---@field StopCountDown:fun()
+---@field StartCountDown:fun()
+---@field Init:fun()
+---@field RequirPaint:fun(Index:int32)
+---@field CloseContent:fun()
+---@field OpenContent:fun()
+---@field SetSettingControlUI:fun()
+---@field ReceivedInitWidget:fun()
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field SetCustomizeUIInfo:fun(SaveGame:BP_SAVEGAME_UIElemLayout_C,FireMode:int32)
+---@field RespawnInitWidget:fun()
+---@field Destruct:fun()
+---@field Border_Sight UBorder
+---@field Button_ChangeSight UButton
+---@field CanvasPanel_cdtime UCanvasPanel
+---@field CanvasPanel_List UCanvasPanel
+---@field CanvasPanel_Sight UCanvasPanel
+---@field CanvasPanel_Tips UCanvasPanel
+---@field Image_Paint UImage
+---@field ReloadCDBar UImage
+---@field ReloadCountDownTextBlock UTextBlock
+---@field TextBlock_Tips UTextBlock
+---@field WidgetSwitcher_ChangeSight UWidgetSwitcher
+---@field WrapBox_List UWrapBox
+---@field bIsCountingDown bool
+---@field WidgetRefrence ULuaArrayHelper
+---@field ColumNum int32
+---@field CountingDownMaxTime float
+---@field CountingDownCurTime float
+---@field bIsOpen bool
+---@field bIsCachedHandle bool
+---@field BattleItemDecalHandles ULuaArrayHelper
+---@field CurrentPawn ASTExtraBaseCharacter

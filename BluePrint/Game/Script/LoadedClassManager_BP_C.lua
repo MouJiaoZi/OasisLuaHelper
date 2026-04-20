@@ -1,0 +1,18 @@
+---@class LoadedClassManager_BP_C:UUAELoadedClassManager
+---@field LoadSideExpressionBPTable:fun()
+---@field LoadLobbyPetBPTable:fun()
+---@field GetEditorNotLoadLevels:fun():ULuaArrayHelper
+---@field GetEditorBlackLevels:fun():ULuaArrayHelper
+---@field LoadCombineModelBPTable:fun()
+---@field LoadFailEffectPackageBPTable:fun()
+---@field PreCollectItemID2BPPath:fun()
+---@field LoadLobbyParticleBPTable:fun()
+---@field LoadVehicleBPTable:fun()
+---@field LoadWeaponUpgradeBPTable:fun()
+---@field LoadBuildingBTTable:fun()
+---@field LoadDecalBPTable:fun()
+---@field LoadMissionBPTable:fun()
+---@field LoadConsumableBPTable:fun()
+---@field InitBPTableMap:fun()
+---@field TempBPID2PathMap ULuaMapHelper
+---@field BPTableReferences ULuaArrayHelper

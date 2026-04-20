@@ -1,0 +1,7 @@
+---@class BP_HideAndSeek_PlayerController_C:ABP_STExtraPlayerController_TDM_C
+---@field GetLuaModule:fun():FString
+---@field GetAbilityHandle:fun(DefineID:FItemDefineID):UBackpackWeaponAbilityHandle
+---@field UserConstructionScript:fun()
+---@field OnGameModeStateChanged:fun()
+---@field HAS_TLogComponent HAS_TLogComponent_C
+---@field HiderWatchInBattleCom HiderWatchInBattleCom_C

@@ -1,0 +1,5 @@
+---@class NGCondition_IsTeamModeSingle_DanPai_C:USTNewbieGuideConditionBase
+---@field IsOK:fun():bool
+---@field Mutiple bool
+---@field SingleMulti bool
+---@field SingleMultiOK bool

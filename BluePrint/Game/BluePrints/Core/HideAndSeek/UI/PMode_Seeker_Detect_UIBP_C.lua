@@ -1,0 +1,15 @@
+---@class PMode_Seeker_Detect_UIBP_C:UUTSkillIconWidgetTemplate
+---@field Construct:fun()
+---@field DX_UpgradeSkills UWidgetAnimation
+---@field DX_UpgradeSkills_old UWidgetAnimation
+---@field DX_RefreshSkill UWidgetAnimation
+---@field Border_SkillSlot UBorder
+---@field Button_0 UButton
+---@field CanvasPanel_tips UCanvasPanel
+---@field CustomizeCanvasPanel_BP_C_1 CustomizeCanvasPanel_BP_C
+---@field Image_BG UImage
+---@field Image_CDTime UImage
+---@field Image_Icon UImage
+---@field Image_Select UImage
+---@field Text_Time UTextBlock
+---@field FunctionBPParam ULuaMapHelper

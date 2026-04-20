@@ -1,0 +1,5 @@
+---@class BP_Other_MG3_C:BP_ShootWeaponBase_C
+---@field UserConstructionScript:fun()
+---@field WeaponAnimList_Rifle_MG3 WeaponAnimList_Rifle_MG3_C
+---@field bUseIdleAnim_0_0 bool
+---@field StartFireBulletNum int32

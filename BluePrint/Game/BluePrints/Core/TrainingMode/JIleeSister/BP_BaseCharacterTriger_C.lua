@@ -1,0 +1,7 @@
+---@class BP_BaseCharacterTriger_C:AActivityBaseActor
+---@field UnAttached:fun()
+---@field Attach:fun(PlayerController:ASTExtraPlayerController)
+---@field UserConstructionScript:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field ActivityFakePossess UActivityFakePossessComponent
+---@field DefaultSceneRoot USceneComponent

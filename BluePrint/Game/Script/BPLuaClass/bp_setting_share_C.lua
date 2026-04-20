@@ -1,0 +1,10 @@
+---@class bp_setting_share_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_Setting_ShareLayoutFileName FString
+---@field BP_Setting_ShareGameModeIndex int32
+---@field BP_Setting_ShareLayoutName FString
+---@field BP_Setting_ShareFireMode int32
+---@field BP_Setting_ShareCode FString
+---@field BP_Setting_ShareLayoutIndex int32
+---@field BP_Setting_ShareCampsitePlayerHint FString

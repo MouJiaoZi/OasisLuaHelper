@@ -1,0 +1,10 @@
+---@class GIS_InteractBtnWidget_C:UGISButton
+---@field OnInitCompleted:fun()
+---@field OnPullTrigger:fun(PlayerController:APlayerController,GISActorInstanceID:int32,GISActorTypeID:int32)
+---@field Border_Watering UBorder
+---@field Button_Watering UButton
+---@field GridPanel_Watering UGridPanel
+---@field Image_watering UImage
+---@field TextBlock_watering UTextBlock
+---@field GISInstanceKey FName
+---@field GISTypeIDKey FName

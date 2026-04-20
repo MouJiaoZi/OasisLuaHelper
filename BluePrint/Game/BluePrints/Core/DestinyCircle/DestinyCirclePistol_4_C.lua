@@ -1,0 +1,1 @@
+---@class DestinyCirclePistol_4_C:ABP_BattleRoyaleGameModeTeamPUBG_C

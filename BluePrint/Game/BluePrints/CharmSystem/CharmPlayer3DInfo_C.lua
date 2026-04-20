@@ -1,0 +1,4 @@
+---@class CharmPlayer3DInfo_C:URenderWidgetBase
+---@field FormatPlayerName:fun(NameStr:FString):FText
+---@field OnRefreshCharmPlayerInfo:fun(PlayerInfo:FPlayerDetailInfo)
+---@field PlayerInfoPanel Ingame_IslandHeadTips_UIBP_C

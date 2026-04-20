@@ -1,0 +1,1 @@
+---@class BP_Rifle_AUG_BattleItemHandle_JHSY_B_Lobby_C:UBackpackWeaponHandle

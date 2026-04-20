@@ -1,0 +1,13 @@
+---@class VH_HoverCraftTest_C:ASTExtraHoverVehicleBase
+---@field UserConstructionScript:fun()
+---@field HandleLocalPlayerLeaveVehicle:fun(Player:ASTExtraPlayerCharacter)
+---@field Camera UCameraComponent
+---@field VehicleSpringArm UVehicleSpringArmComponent
+---@field STExtraFloatingVehicleMovement USTExtraFloatingVehicleMovementComponent
+---@field STExtraMultiMovementManager USTExtraMultiMovementManagerComponent
+---@field UAEChaVehAnimList_PassengersFR UUAEChaVehAnimListComponent
+---@field UAEChaVehAnimList_PassengersR UUAEChaVehAnimListComponent
+---@field UAEChaVehAnimList_PassengersL UUAEChaVehAnimListComponent
+---@field UAEChaVehAnimList_Driver UUAEChaVehAnimListComponent
+---@field SprayEffectSpeed float
+---@field DustEffectSpeed float

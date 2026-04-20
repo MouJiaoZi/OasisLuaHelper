@@ -1,0 +1,7 @@
+---@class FBattleInteractiveDataStruct
+---@field SkillIndex int32
+---@field IconName FText
+---@field Image FSlateBrush
+---@field CDTime float
+---@field DisallowedPawnState ULuaArrayHelper
+---@field TriggerActivityFromSkillAction bool

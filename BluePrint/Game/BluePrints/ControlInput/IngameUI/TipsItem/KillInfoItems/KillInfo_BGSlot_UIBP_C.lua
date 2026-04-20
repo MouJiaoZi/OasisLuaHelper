@@ -1,0 +1,31 @@
+---@class KillInfo_BGSlot_UIBP_C:UKillInfo_Base_UIBP_C
+---@field GetConfigLeft:fun():bool
+---@field RefreshFX:fun(NewParam:UClass)
+---@field RefreshBG:fun(NewParam:UObject)
+---@field ChangeFXandBG:fun(NewParam:FClientFatalDamageRecordData)
+---@field ResetFXAndBG:fun()
+---@field RefreshBgStatus:fun(NewParam:FClientFatalDamageRecordData)
+---@field ShowLeftQueueBaseInfo:fun(NewParam:FClientFatalDamageRecordData,ImageDownloader:UImageDownloader)
+---@field ShowKillInfoStatus:fun(NewParam:FClientFatalDamageRecordData,ImageDownloader:UObject,BaseUI:MainControlBaseUI_C)
+---@field BGSelector UWidgetSwitcher
+---@field Border_SetColor1 UBorder
+---@field Border_SetColor2 UBorder
+---@field CanvasPanel_BG UCanvasPanel
+---@field CustomBG UImage
+---@field FXAddCanvas UCanvasPanel
+---@field Image_eliminateBG UImage
+---@field KI_Causer_ClubMedal_UIBP KI_ClubMedal_UIBP_C
+---@field KI_Causer_PlatformGroup_UIBP KI_PlatformGroup_UIBP_C
+---@field KI_Causer_PlayerName_UIBP KI_Causer_PlayerName_UIBP_C
+---@field KI_Causer_TeamLogo_UIBP KI_TeamLogo_UIBP_C
+---@field KI_KillTypeIcon_UIBP KI_KillTypeIcon_UIBP_C
+---@field KI_MaxKillerIcon_UIBP KI_MaxKillerIcon_UIBP_C
+---@field KI_Victim_ClubMedal_UIBP KI_ClubMedal_UIBP_C
+---@field KI_Victim_PlatformGroup_UIBP KI_PlatformGroup_UIBP_C
+---@field KI_Victim_PlayerName_UIBP KI_Victim_PlayerName_UIBP_C
+---@field KI_Victim_TeamLogo_UIBP KI_TeamLogo_UIBP_C
+---@field KI_WeaponIcon_UIBP KI_WeaponIcon_UIBP_C
+---@field KillInfoBG UImage
+---@field WidgetSwitcher_Size UWidgetSwitcher
+---@field KillTable TScriptInterface
+---@field config int32

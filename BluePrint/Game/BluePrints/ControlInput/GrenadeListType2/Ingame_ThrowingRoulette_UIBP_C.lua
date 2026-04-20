@@ -1,0 +1,16 @@
+---@class Ingame_ThrowingRoulette_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field SetQuickThrowUI:fun(NewParam:UUAEUserWidget)
+---@field MakeItemArray:fun()
+---@field RouletteTouchMove:fun(NewParam1:FGeometry,NewParam2:FPointerEvent):int32
+---@field CanvasPanel_Cancel UCanvasPanel
+---@field CanvasPanel_huakuai UCanvasPanel
+---@field Icon01 Ingame_ThrowingRoulette_Item_UIBP_C
+---@field Icon02 Ingame_ThrowingRoulette_Item_UIBP_C
+---@field Icon03 Ingame_ThrowingRoulette_Item_UIBP_C
+---@field Icon04 Ingame_ThrowingRoulette_Item_UIBP_C
+---@field Icon05 Ingame_ThrowingRoulette_Item_UIBP_C
+---@field Icon06 Ingame_ThrowingRoulette_Item_UIBP_C
+---@field Icon07 Ingame_ThrowingRoulette_Item_UIBP_C
+---@field Icon08 Ingame_ThrowingRoulette_Item_UIBP_C
+---@field Image_huakuai UImage

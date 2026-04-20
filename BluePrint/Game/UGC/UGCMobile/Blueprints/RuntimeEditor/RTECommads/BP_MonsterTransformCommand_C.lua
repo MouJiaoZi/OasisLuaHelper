@@ -1,0 +1,2 @@
+---@class BP_MonsterTransformCommand_C:UUGCMobile_RTEBlueprintCommand
+---@field GetLuaModule:fun():FString

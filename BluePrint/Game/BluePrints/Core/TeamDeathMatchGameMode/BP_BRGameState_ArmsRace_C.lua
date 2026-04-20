@@ -1,0 +1,4 @@
+---@class BP_BRGameState_ArmsRace_C:ABP_BRGameState_TeamDeathMatch_C
+---@field GetLuaModule:fun():FString
+---@field UserConstructionScript:fun()
+---@field IsSpecialGroup bool

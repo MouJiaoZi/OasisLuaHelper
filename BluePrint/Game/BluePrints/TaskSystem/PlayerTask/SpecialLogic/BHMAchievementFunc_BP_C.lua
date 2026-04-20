@@ -1,0 +1,16 @@
+---@class BHMAchievementFunc_BP_C:UUniversalTaskFuncBPBase
+---@field AddGold:fun()
+---@field IsRecentlyPickupAirDrop:fun():bool
+---@field IsPossessItem:fun():bool
+---@field IsEquippedFullMecha:fun():bool
+---@field IsInClusterBombRange:fun():bool
+---@field CheckVisitedHunterStores:fun():bool
+---@field IsAllTeammateRevival:fun():bool
+---@field IsHuntTarget:fun():bool
+---@field IsAllTeammatePossessItem:fun():bool
+---@field PlayerState FTaskBlackboardKeySelector
+---@field ItemID FTaskBlackboardKeySelector
+---@field VictimState FTaskBlackboardKeySelector
+---@field ClusterBombLocation FTaskBlackboardKeySelector
+---@field Time FTaskBlackboardKeySelector
+---@field GlodNum EUniversalTaskTableParamType

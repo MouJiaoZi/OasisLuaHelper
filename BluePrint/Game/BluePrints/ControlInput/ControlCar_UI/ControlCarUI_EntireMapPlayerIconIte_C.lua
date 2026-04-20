@@ -1,0 +1,8 @@
+---@class ControlCarUI_EntireMapPlayerIconIte_C:UUserWidget
+---@field Image_Car_Arrow UImage
+---@field Image_Car_PlayerMaker UImage
+---@field Image_Car_SelfBG UImage
+---@field Image_Car_SelfDead UImage
+---@field Image_Car_SelfState UImage
+---@field Text_Name UTextBlock
+---@field TextBlock_Distance UTextBlock

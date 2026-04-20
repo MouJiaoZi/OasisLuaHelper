@@ -1,0 +1,12 @@
+---@class PeacefulLife_RewardPop_UIBP_C:UUAEUserWidget
+---@field InitPeaceFulSingle:fun(bp_battleresult:bp_battleresult_C):bool
+---@field InitPeaceFulTeam:fun(bp_battleresult:bp_battleresult_C):bool
+---@field Button_Close UButton
+---@field Button_confirm UButton
+---@field HorizontalBoxTitle UHorizontalBox
+---@field Image_Icon UImage
+---@field PeacefulLife_Reward_01 PeacefulLife_RewardItem_UIBP_C
+---@field TextBlock_Details UTextBlock
+---@field TextBlock_RewardName UTextBlock
+---@field TextBlock_Title UTextBlock
+---@field TextBlockTitle UTextBlock

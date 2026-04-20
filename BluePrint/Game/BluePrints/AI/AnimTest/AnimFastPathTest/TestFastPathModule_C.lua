@@ -1,0 +1,2 @@
+---@class TestFastPathModule_C:ATestModuleBase_C
+---@field UserConstructionScript:fun()

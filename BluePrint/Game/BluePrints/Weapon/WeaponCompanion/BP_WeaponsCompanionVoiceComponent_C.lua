@@ -1,0 +1,3 @@
+---@class BP_WeaponsCompanionVoiceComponent_C:UWeaponsCompanionVoiceComponent
+---@field ReceiveBeginPlay:fun()
+---@field bRule9_OnlyTag bool

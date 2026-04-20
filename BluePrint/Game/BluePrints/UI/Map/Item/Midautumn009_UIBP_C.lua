@@ -1,0 +1,1 @@
+---@class Midautumn009_UIBP_C:UMapUIMarkBaseWidget

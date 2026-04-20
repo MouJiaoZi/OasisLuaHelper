@@ -1,0 +1,1 @@
+---@class HideAndSeek_Buff_C:USTBaseBuffList

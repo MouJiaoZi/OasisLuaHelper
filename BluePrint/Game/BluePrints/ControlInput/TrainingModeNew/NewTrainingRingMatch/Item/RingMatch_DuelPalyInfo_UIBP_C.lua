@@ -1,0 +1,5 @@
+---@class RingMatch_DuelPalyInfo_UIBP_C:UUAEUserWidget
+---@field Common_Avatar_BP Common_Avatar_BP_C
+---@field Common_RankTitleInfo Common_RankTitleInfo_UIBP_C
+---@field TextBlock_PlayerName UTextBlock
+---@field WidgetSwitcher_PlayerGender UWidgetSwitcher

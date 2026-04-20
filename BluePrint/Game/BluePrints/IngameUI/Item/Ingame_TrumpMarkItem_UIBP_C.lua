@@ -1,0 +1,10 @@
+---@class Ingame_TrumpMarkItem_UIBP_C:UUAEUserWidget
+---@field LoadObjSuc:fun(ResObj:UClass)
+---@field PlayAnim:fun()
+---@field InitIngameTrumpMarkData:fun(TopSegmentTimes:int32,bPlayAnim:bool)
+---@field RootCanvas UCanvasPanel
+---@field TrumpMarkDataTable UUAEDataTable
+---@field CurTimes int32
+---@field CurRes UUserWidget
+---@field NeedPlayAnim bool
+---@field CurLoadPath FString

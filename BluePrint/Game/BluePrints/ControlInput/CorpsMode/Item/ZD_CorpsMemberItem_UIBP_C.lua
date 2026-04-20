@@ -1,0 +1,15 @@
+---@class ZD_CorpsMemberItem_UIBP_C:UUAEUserWidget
+---@field SetItemStyle:fun()
+---@field UpdateItem:fun()
+---@field IsCorpsDetailDifferent:fun(A:FCorpsDetailInfo,B:FCorpsDetailInfo):bool
+---@field TryUpdateItem:fun(NewCorpsInfo:FCorpsDetailInfo,Rank:int32)
+---@field TextBlock_3 UTextBlock
+---@field TextBlock_CorpsName UTextBlock
+---@field TextBlock_Killed UTextBlock
+---@field TextBlock_Num1 UTextBlock
+---@field TextBlock_Num2 UTextBlock
+---@field TextBlock_Rank UTextBlock
+---@field CorpsDetail FCorpsDetailInfo
+---@field Rank int32
+---@field MaxTryUpdateTime int32
+---@field CurTryUpdateTime int32

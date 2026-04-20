@@ -1,0 +1,1 @@
+---@class ZombieNewbieGuideMapTips_UIBP_BossComing_C:UUAEUserWidget

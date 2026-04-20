@@ -1,0 +1,1 @@
+---@class HAS_Guide3_UIBP_C:UUAEUserWidget

@@ -1,0 +1,7 @@
+---@class TeamAssembleSceneActor_BP_C:AActor
+---@field UserConstructionScript:fun()
+---@field P_smoke_Lobby_LIAOJI UParticleSystemComponent
+---@field CG10_WingplaneBG_Mesh UStaticMeshComponent
+---@field CG10_Wingplane02_Mesh UStaticMeshComponent
+---@field CG10_Wingplane01_Mesh UStaticMeshComponent
+---@field DefaultSceneRoot USceneComponent

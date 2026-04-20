@@ -1,0 +1,12 @@
+---@class RingMatch_RandomWeapons_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field PlayAnim:fun()
+---@field DX_In UWidgetAnimation
+---@field Button_Determine UNewButton
+---@field Image_WeaponIcon UImage
+---@field RingMatch_DuelPlayer_01 RingMatch_DuelPalyInfo_UIBP_C
+---@field RingMatch_DuelPlayer_02 RingMatch_DuelPalyInfo_UIBP_C
+---@field RingMatch_SlotMachine_UIBP RingMatch_SlotMachine_UIBP_C
+---@field TextBlock_WeaponName UTextBlock
+---@field WidgetSwitcher_DorC UWidgetSwitcher
+---@field AKAudio UAkAudioEvent

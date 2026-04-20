@@ -1,0 +1,1 @@
+---@class PlayerProne_TrailMarkActor_C:ATrailMarkActor

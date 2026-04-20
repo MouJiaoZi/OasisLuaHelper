@@ -1,0 +1,4 @@
+---@class PESkill_Monster_Mobile_Drill_C:PESkillTemplate_Base_C
+---@field CanRightAttack:fun():bool
+---@field CanLeftAttack:fun():bool
+---@field Index int32

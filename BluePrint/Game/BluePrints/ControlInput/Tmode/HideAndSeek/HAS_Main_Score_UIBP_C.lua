@@ -1,0 +1,4 @@
+---@class HAS_Main_Score_UIBP_C:UUAEUserWidget
+---@field DX_Tips UWidgetAnimation
+---@field TextBlock_AddScore UTextBlock
+---@field TextBlock_Describe UTextBlock

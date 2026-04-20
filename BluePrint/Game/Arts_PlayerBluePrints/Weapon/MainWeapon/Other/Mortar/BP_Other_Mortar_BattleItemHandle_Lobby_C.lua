@@ -1,0 +1,1 @@
+---@class BP_Other_Mortar_BattleItemHandle_Lobby_C:UBackpackWeaponHandle

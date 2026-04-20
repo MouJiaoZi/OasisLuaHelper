@@ -1,0 +1,3 @@
+---@class BP_Desert_RevivalMode_Four_C:ABP_BattleRoyaleGameModeTeamPUBG_C
+---@field UserConstructionScript:fun()
+---@field SpawnMonsterHelperComp USpawnMonsterHelperComp

@@ -1,0 +1,1 @@
+---@class BP_CoupeRB_BattleItemHandle_LFLP2_C:BP_CoupeRB_BattleItemHandle_LFLP1_C

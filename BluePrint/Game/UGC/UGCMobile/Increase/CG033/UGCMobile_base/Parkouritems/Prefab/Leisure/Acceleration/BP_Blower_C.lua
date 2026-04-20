@@ -1,0 +1,26 @@
+---@class BP_Blower_C:AActivityBaseActor
+---@field GetLuaModule:fun():FString
+---@field OnBuffEnd:fun(Buff:UPersistEffectBuff)
+---@field OnCharacterOutTop:fun(OutCharacter:ACharacter)
+---@field RefreshLength:fun()
+---@field SetLength:fun(InLength:float)
+---@field SetAddVelocity:fun(InAddVelocity:float)
+---@field OnCharacterOut:fun(OutCharacter:ACharacter)
+---@field OnCharacterIn:fun(InCharacter:ACharacter)
+---@field SetBlowEnable:fun(bEnable:bool)
+---@field UserConstructionScript:fun()
+---@field OverlapCheckAreaOut UOverlapCheckAreaComponent
+---@field BoxOut UBoxComponent
+---@field BoxTop UBoxComponent
+---@field OverlapCheckAreaOutTop UOverlapCheckAreaComponent
+---@field BoxIn UBoxComponent
+---@field P_Wind UParticleSystemComponent
+---@field OverlapCheckAreaIn UOverlapCheckAreaComponent
+---@field Arrow UArrowComponent
+---@field Plane UStaticMeshComponent
+---@field DefaultSceneRoot USceneComponent
+---@field AddSpeed float
+---@field CachedSpeed FVector
+---@field CharacterPEMap ULuaMapHelper
+---@field ExtentLength float
+---@field FloatingTime float

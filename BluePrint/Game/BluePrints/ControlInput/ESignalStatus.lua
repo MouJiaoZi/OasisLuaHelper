@@ -1,0 +1,6 @@
+---@class ESignalStatus
+---@field NewEnumerator0 int32
+---@field NewEnumerator1 int32
+---@field NewEnumerator2 int32
+---@field NewEnumerator3 int32
+---@field ESignalStatus_MAX int32

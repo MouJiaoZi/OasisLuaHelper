@@ -1,0 +1,9 @@
+---@class QuickSign_TipNormal_UIBP_C:UQuickSignMarkWidget
+---@field ShowSelf:fun(Loc:FVector,IconPath:FString,BGPath:FString,IsSelfMark:bool,TeamIndex:int32)
+---@field Construct:fun()
+---@field OnWidgetAlphaChange:fun(NewAlpha:float)
+---@field Image_BG UImage
+---@field Image_Icon UImage
+---@field DivisionFactor float
+---@field DivisionDistance float
+---@field IsDivision bool

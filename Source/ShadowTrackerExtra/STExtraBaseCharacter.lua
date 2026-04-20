@@ -2919,6 +2919,8 @@ local USTBaseBuffEventType_LeavePawnState = {}
 ---@field IsPeekLeft boolean
 ---@field bSprintStopPeek boolean
 ---@field PeekCheckAdditionalLen number
+---@field PeekCheckAdditionalLen_NewFPP number
+---@field PeekCheckAdditionalHeight_NewFPP number
 ---@field IsEnablePeek boolean
 ---@field PeekCheckCollisionTimer number
 ---@field PeekCheckCollisionTimerFPP number
@@ -5236,6 +5238,9 @@ function ASTExtraBaseCharacter:RPC_Client_VerifyPeekState(PeekFrame, Enable, IsL
 function ASTExtraBaseCharacter:LocalPeek(Enable, IsLeft) end
 
 function ASTExtraBaseCharacter:StopPeek() end
+
+---@return boolean
+function ASTExtraBaseCharacter:DoPeekCollisionTrace_NewFPP() end
 
 ---@param HasCollision boolean
 function ASTExtraBaseCharacter:ServerSetPeekCollision(HasCollision) end

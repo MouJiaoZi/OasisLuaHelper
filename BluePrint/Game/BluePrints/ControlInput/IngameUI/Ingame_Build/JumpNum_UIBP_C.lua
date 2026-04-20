@@ -1,0 +1,20 @@
+---@class JumpNum_UIBP_C:UUserWidget
+---@field SetNum:fun(NewNum:int32)
+---@field PreConstruct:fun(IsDesignTime:bool)
+---@field NumText UTextBlock
+---@field IsAniming bool
+---@field CrtNum int32
+---@field AnimPeriodSeconds float
+---@field AnimScale float
+---@field AnimColor_Original FLinearColor
+---@field AnimColor_Addition FLinearColor
+---@field AnimColor_Reduction FLinearColor
+---@field CrtAlpha float
+---@field TargetNum int32
+---@field TargetColor FLinearColor
+---@field AnimCurve_Scale UCurveFloat
+---@field FontInfo FSlateFontInfo
+---@field AnimCurve_Color UCurveFloat
+---@field DeltaTime float
+---@field OutRangeNumText FText
+---@field OutRangeNum int32

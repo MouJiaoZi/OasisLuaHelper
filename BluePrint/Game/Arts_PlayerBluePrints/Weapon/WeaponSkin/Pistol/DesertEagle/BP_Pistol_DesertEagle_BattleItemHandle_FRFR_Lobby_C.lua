@@ -1,0 +1,1 @@
+---@class BP_Pistol_DesertEagle_BattleItemHandle_FRFR_Lobby_C:UBackpackWeaponHandle

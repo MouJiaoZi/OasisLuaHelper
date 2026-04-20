@@ -1,0 +1,17 @@
+---@class bp_roleinfo_historydetail_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_ARRAY_RoleInfoHistoryHitdownInfoList ULuaArrayHelper
+---@field BP_HistoryDetail_SelfFrameLevel int32
+---@field BP_HistoryDetail_TodayShareNum int32
+---@field BP_HistoryDetail_BattleIDString FString
+---@field BP_HistoryDetail_ShouldReport bool
+---@field BP_HistoryDetail_SelfIconURL FString
+---@field BP_HistoryDetail_SegmentProtectTips FString
+---@field BP_ARRAY_RoleInfoHistoryTeammateInfoList ULuaArrayHelper
+---@field BP_HistoryDetail_AddFriendGender int32
+---@field BP_HistoryDetail_SelfID FString
+---@field BP_HistoryDetail_AddFriendUID FString
+---@field BP_HistoryDetail_SelfName FString
+---@field BP_HistoryDetail_SelfGender int32
+---@field BP_HistoryDetail_ShareGold bool

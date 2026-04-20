@@ -1,0 +1,1 @@
+---@class DestinyCircleShotgun_Livik_1_C:ADestinyCircleShotgun_1_C

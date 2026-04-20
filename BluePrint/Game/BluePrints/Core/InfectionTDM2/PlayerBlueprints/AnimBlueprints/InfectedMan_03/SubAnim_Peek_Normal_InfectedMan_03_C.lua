@@ -1,0 +1,5 @@
+---@class SubAnim_Peek_Normal_InfectedMan_03_C:USubAnimInstance_Event
+---@field BlueprintInitializeAnimation:fun()
+---@field ParentExtraAnimInstanceBase USTExtraAnimInstanceBase
+---@field PeekParam FSTExtraAnimFM_WeaponPeek
+---@field WeaponDropParam FSTExtraAnimFM_WeaponDrop

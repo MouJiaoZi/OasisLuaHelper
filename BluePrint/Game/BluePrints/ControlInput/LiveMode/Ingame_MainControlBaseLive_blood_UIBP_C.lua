@@ -1,0 +1,1 @@
+---@class Ingame_MainControlBaseLive_blood_UIBP_C:UUserWidget

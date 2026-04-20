@@ -1,0 +1,9 @@
+---@class TeamerKillTipType
+---@field NewEnumerator0 int32
+---@field NewEnumerator1 int32
+---@field NewEnumerator2 int32
+---@field NewEnumerator3 int32
+---@field NewEnumerator4 int32
+---@field NewEnumerator5 int32
+---@field NewEnumerator6 int32
+---@field TeamerKillTipType_MAX int32

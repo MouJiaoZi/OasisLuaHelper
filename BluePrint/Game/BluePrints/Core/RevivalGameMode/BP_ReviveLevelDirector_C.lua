@@ -1,0 +1,3 @@
+---@class BP_ReviveLevelDirector_C:AUAELevelDirector
+---@field UserConstructionScript:fun()
+---@field DefaultSceneRoot USceneComponent

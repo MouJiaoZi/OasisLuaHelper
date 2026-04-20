@@ -1,0 +1,2 @@
+---@class Ingame_ArrowVfx_UIBP_C:ULuaUserWidget
+---@field DX_Arrow_Anima UWidgetAnimation

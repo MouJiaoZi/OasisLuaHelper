@@ -1,0 +1,3 @@
+---@class RingMatch_TitleItem_UIBP_C:UUAEUserWidget
+---@field Image_TitleIcon UImage
+---@field TextBlock_Title UTextBlock

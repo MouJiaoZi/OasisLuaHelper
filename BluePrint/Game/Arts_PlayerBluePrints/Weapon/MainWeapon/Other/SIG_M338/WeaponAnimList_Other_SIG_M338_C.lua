@@ -1,0 +1,1 @@
+---@class WeaponAnimList_Other_SIG_M338_C:UUAECharacterAnimListComponent

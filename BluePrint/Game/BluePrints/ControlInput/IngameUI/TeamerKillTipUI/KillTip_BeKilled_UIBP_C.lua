@@ -1,0 +1,3 @@
+---@class KillTip_BeKilled_UIBP_C:UUAEUserWidget
+---@field ShowKillOrPutDownInfo:fun(MsgData:FKillOrPutDownMessage):bool
+---@field KilledByOtherTipContent UUTRichTextBlock

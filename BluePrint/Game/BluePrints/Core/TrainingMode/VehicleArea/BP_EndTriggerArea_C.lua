@@ -1,0 +1,5 @@
+---@class BP_EndTriggerArea_C:ABP_VehicleTriggerArea_C
+---@field GetLuaModule:fun():FString
+---@field UserConstructionScript:fun()
+---@field ParticleSystemComponent UParticleSystemComponent
+---@field StaticMeshComponent2 UStaticMeshComponent

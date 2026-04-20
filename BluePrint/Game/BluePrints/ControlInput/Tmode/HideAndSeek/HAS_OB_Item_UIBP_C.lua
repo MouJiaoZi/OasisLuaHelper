@@ -1,0 +1,7 @@
+---@class HAS_OB_Item_UIBP_C:UUAEUserWidget
+---@field Border_Color UBorder
+---@field CanvasPanel_CD UCanvasPanel
+---@field Image_CD UImage
+---@field Image_Icon UImage
+---@field TextBlock_CD UTextBlock
+---@field TextBlock_SkillNum UTextBlock

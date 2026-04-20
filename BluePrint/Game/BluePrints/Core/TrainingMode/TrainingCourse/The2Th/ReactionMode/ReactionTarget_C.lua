@@ -1,0 +1,3 @@
+---@class ReactionTarget_C:ANewTrainShootingPracticeTarget
+---@field UserConstructionScript:fun()
+---@field CurMovingTargetRoom MovingTargetRoom_C

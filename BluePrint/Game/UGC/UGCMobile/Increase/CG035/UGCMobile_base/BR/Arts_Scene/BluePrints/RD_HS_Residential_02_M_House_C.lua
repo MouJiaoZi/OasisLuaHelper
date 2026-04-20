@@ -1,0 +1,3 @@
+---@class RD_HS_Residential_02_M_House_C:BP_UGCMobileHouseBase_C
+---@field UserConstructionScript:fun()
+---@field StaticMesh UStaticMeshComponent

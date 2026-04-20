@@ -1,0 +1,1 @@
+---@class BP_WFM_OverrideWeaponEffectAsset_XHQ_C:BP_WFM_OverrideWeaponEffectAsset_C

@@ -1,0 +1,1 @@
+---@class BP_Chick_AIC_C:AAnimalAIController

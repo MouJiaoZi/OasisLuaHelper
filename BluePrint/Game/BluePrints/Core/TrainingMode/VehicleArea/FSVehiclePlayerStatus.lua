@@ -1,0 +1,7 @@
+---@class FSVehiclePlayerStatus
+---@field OwnerActor AActor
+---@field HasPassedTriggerAreaIDDatas ULuaArrayHelper
+---@field PlayerStatus ULuaArrayHelper
+---@field ElapsedSecondsSinceFirstPass float
+---@field NoneInVehicleUtcNowUnixTimestampMillseconds int64
+---@field bInVehicleArea bool

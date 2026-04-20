@@ -1,0 +1,1 @@
+---@class BP_AvatarResPakDownloadMgr_C:UAvatarCheckResDownloadMgr

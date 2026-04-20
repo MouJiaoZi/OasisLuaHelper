@@ -1,0 +1,14 @@
+---@class ShareCorps_UIBP_C:UUAEUserWidget
+---@field UpdateCorpsRank:fun()
+---@field UpdateBeatCorps:fun()
+---@field RefreshMyCorpsIcon:fun(icon:UObject)
+---@field RefreshUI:fun()
+---@field InitUI:fun()
+---@field UIHide:fun()
+---@field UIShow:fun()
+---@field ShareCorpsRanking_UIBP ShareCorpsRanking_UIBP_C
+---@field Shareinterface_UIBP Shareinterface_UIBP_C
+---@field MySelfObj bp_share_Corps_C
+---@field BattleResultObj bp_battleresult_C
+---@field myCorpsName FString
+---@field sortDefeatedCorps ULuaArrayHelper

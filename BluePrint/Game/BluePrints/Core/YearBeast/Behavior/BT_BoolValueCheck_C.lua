@@ -1,0 +1,3 @@
+---@class BT_BoolValueCheck_C:UBTDecorator_BlueprintBase
+---@field BoolKey FBlackboardKeySelector
+---@field TargetValue bool

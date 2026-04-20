@@ -1,0 +1,7 @@
+---@class HeavyWeaponBoxGroup_C:AUAEHouseActor
+---@field UserConstructionScript:fun()
+---@field HeavyWeaponBox_3 BP_WerewolfBoxSpotComponent_C
+---@field HeavyWeaponBox_2 BP_WerewolfBoxSpotComponent_C
+---@field HeavyWeaponBox_1 BP_WerewolfBoxSpotComponent_C
+---@field BP_HeavyWeaponBoxGroupSceneComponent BP_WerewolfBoxGroupSceneComponent_C
+---@field DefaultSceneRoot USceneComponent

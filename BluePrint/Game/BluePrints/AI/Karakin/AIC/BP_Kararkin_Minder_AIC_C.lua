@@ -1,0 +1,3 @@
+---@class BP_Kararkin_Minder_AIC_C:AMobAIController
+---@field UserConstructionScript:fun()
+---@field AIChooseEnemy UAIChooseEnemyComponent

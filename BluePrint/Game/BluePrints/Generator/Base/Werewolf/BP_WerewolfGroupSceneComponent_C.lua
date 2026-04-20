@@ -1,0 +1,1 @@
+---@class BP_WerewolfGroupSceneComponent_C:UItemGroupSpotSceneComponent

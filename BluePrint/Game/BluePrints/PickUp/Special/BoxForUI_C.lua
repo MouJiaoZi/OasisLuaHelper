@@ -1,0 +1,6 @@
+---@class BoxForUI_C:AStaticMeshActor
+---@field SetVisible:fun(isShow:bool)
+---@field SetBoxStyle:fun(mesh:FString,smoke:FString,twinkle:FString)
+---@field UserConstructionScript:fun()
+---@field TwinkleParticleSystem UParticleSystemComponent
+---@field SmokeParticleSystem UParticleSystemComponent

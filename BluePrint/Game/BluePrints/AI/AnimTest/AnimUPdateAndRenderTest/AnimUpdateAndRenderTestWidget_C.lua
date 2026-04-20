@@ -1,0 +1,5 @@
+---@class AnimUpdateAndRenderTestWidget_C:UTestModelWidgetBase_C
+---@field InitData:fun(GameStateInstance:TestModelGameState_C)
+---@field AnimUpdateToggle UCheckBox
+---@field M1 UVerticalBox
+---@field MeshRenderToogle UCheckBox

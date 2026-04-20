@@ -1,0 +1,1 @@
+---@class BP_BattleRoyaleGameMode_PUBG_Night_C:ABP_BattleRoyaleGameMode_PUBG_C

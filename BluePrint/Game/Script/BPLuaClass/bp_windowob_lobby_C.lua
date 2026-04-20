@@ -1,0 +1,5 @@
+---@class bp_windowob_lobby_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_Windowob_Lobby_Watching_UID FString
+---@field BP_Windowob_Lobby_Watching_Flag int32

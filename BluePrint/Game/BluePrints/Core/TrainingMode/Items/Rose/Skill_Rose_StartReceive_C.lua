@@ -1,0 +1,29 @@
+---@class Skill_Rose_StartReceive_C:AUAESkill
+---@field UserConstructionScript:fun()
+---@field UTSkillAppearance_AddParticle UUTSkillAppearance_AddParticle
+---@field UAESkillAction_SwitchWeapon1 UUAESkillAction_SwitchWeapon
+---@field UAESkillAction_SwitchWeapon UUAESkillAction_SwitchWeapon
+---@field UAESkillAction_DisablePickup3 UUAESkillAction_DisablePickup
+---@field UAESkillAction_DisablePickup2 UUAESkillAction_DisablePickup
+---@field UAESkillAction_DisablePickup1 UUAESkillAction_DisablePickup
+---@field UAESkillAction_DisablePickup UUAESkillAction_DisablePickup
+---@field UAESkillAction_Log6 UUAESkillAction_Log
+---@field UAESkillAction_Log5 UUAESkillAction_Log
+---@field UAESkillAction_Log4 UUAESkillAction_Log
+---@field UAESkillAction_Log3 UUAESkillAction_Log
+---@field UAESkillAction_Log2 UUAESkillAction_Log
+---@field UAESkillAction_Log1 UUAESkillAction_Log
+---@field UAESkillAction_Log UUAESkillAction_Log
+---@field UTSkillEventEffectMapForEditor3 UUTSkillEventEffectMapForEditor
+---@field UTSkillEventEffectMapForEditor2 UUTSkillEventEffectMapForEditor
+---@field UTSkillEventEffectMapForEditor1 UUTSkillEventEffectMapForEditor
+---@field UAESkillPhase7 UUAESkillPhase
+---@field UAESkillPhase6 UUAESkillPhase
+---@field UAESkillPhase5 UUAESkillPhase
+---@field UAESkillPhase4 UUAESkillPhase
+---@field UAESkillPhase3 UUAESkillPhase
+---@field UTSkillEventEffectMapForEditor UUTSkillEventEffectMapForEditor
+---@field UAESkillPhase2 UUAESkillPhase
+---@field UAESkillPhase1 UUAESkillPhase
+---@field UAESkillPhase UUAESkillPhase
+---@field DefaultSceneRoot USceneComponent

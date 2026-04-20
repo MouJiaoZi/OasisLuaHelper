@@ -1,0 +1,83 @@
+---@class BackPackItem_BP_C:UUAEUserWidget
+---@field BindOrUnBindTimeLimitItemUpdate:fun()
+---@field UpdateTimeLimit:fun()
+---@field UpdateBtnState:fun()
+---@field DisuseItem:fun()
+---@field UpdateBlackCat:fun()
+---@field SpecialItemUseNoReturn:fun()
+---@field SpecialItemUse:fun():bool
+---@field RemoteControlIsVaild:fun():bool
+---@field GetItemAttrValue:fun(Array:ULuaArrayHelper,Name:FName,default:float):float
+---@field UnBindUpdateSingleItem:fun()
+---@field BindUpdateSingleItem:fun()
+---@field ShowDropAndUse:fun()
+---@field SetCurrUsedUAVCDTime:fun(cd:int32)
+---@field UAVCanNotDrop:fun():bool
+---@field ShowUAVMenu:fun()
+---@field CollapseMenu:fun()
+---@field Controll:fun()
+---@field CallBack:fun()
+---@field UpdateUAV:fun()
+---@field SetUseless:fun(isUseless:bool,isAttach:bool)
+---@field UpdateSingleItem:fun(DefineID:FItemDefineID)
+---@field RefreshElectrictyHP:fun(AdditionData:ULuaArrayHelper)
+---@field CheckInVehicle2:fun():bool
+---@field RefreshIcon:fun(Icon:UObject)
+---@field ShowHandleBtns:fun(click:bool)
+---@field OnDragDetected:fun(MyGeometry:FGeometry,PointerEvent:FPointerEvent):UDragDropOperation
+---@field Get_Image_ItemSelectFG_Visibility_0:fun():ESlateVisibility
+---@field DropAllItem:fun()
+---@field getBPIDbyDefineID:fun(itemDefineID_:FItemDefineID):int32
+---@field CanGunAddAttachment:fun(gunID_:FItemDefineID,attachID_:FItemDefineID,opyEmpty:bool):bool
+---@field IsGun:fun(defineID_:FItemDefineID):bool
+---@field FindWeapon:fun():FItemDefineID
+---@field OnTouchEnded:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field OnTouchStarted:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field EquipItem:fun()
+---@field ResetHandleBtns:fun()
+---@field HandleItemClick:fun()
+---@field UseItem:fun()
+---@field UpdateItemData:fun(ItemData:FBattleItemData,IsUseless:bool)
+---@field OnMouseLeave:fun(MouseEvent:FPointerEvent)
+---@field OnDragCancelled:fun(PointerEvent:FPointerEvent,Operation:UDragDropOperation)
+---@field ItemBeClicked__DelegateSignature:fun()
+---@field ItemBeDragCancelled__DelegateSignature:fun()
+---@field ItemBeDragBegin__DelegateSignature:fun(ItemData:FBattleItemData,DragOrigin:EBackPackDragOrigin)
+---@field ItemBeDropped__DelegateSignature:fun(ItemData:FBattleItemData,IsForceDrop:bool)
+---@field HandleBtnsStateChange__DelegateSignature:fun(ItemBP:BackPackItem_BP_C,IsClicked:bool)
+---@field Border_Panel UBorder
+---@field CanvasPanel_ColdModeInfo UCanvasPanel
+---@field CanvasPanel_UAVTips UCanvasPanel
+---@field EnergySocket UCustomSocketPanel
+---@field handle UImage
+---@field HorizontalBox_Countdown UHorizontalBox
+---@field Image_CanEquippedIconBG UImage
+---@field Image_CanEquippedItemBG UImage
+---@field Image_ItemIcon UImage
+---@field Image_ItemIconBG UImage
+---@field Image_Useless UImage
+---@field ItemContent1 UMultiLineEditableText
+---@field ItemContent2 UTextBlock
+---@field ProgressBar_Damage UProgressBar
+---@field Text_Countdown UTextBlock
+---@field Text_TextContent UTextBlock
+---@field TextBlock_ItemNum UTextBlock
+---@field VerticalBox_0 UVerticalBox
+---@field ItemData FBattleItemData
+---@field bIsHandleBtnsShow bool
+---@field HandleBtnsStateChange ULuaMulticastDelegate
+---@field ItemBeDropped ULuaMulticastDelegate
+---@field bIsUseless bool
+---@field ItemBeDragBegin ULuaMulticastDelegate
+---@field bHasStartTouchIn bool
+---@field ItemBeDragCancelled ULuaMulticastDelegate
+---@field bBindSingleItemUpdate bool
+---@field ButtonItemPool UUIDuplicatedItemPool
+---@field ButtonMenu BackpackItem_ButtonBP_C
+---@field IsItemUAV bool
+---@field ItemBeClicked ULuaMulticastDelegate
+---@field SpecialItemUseHandle FTimerHandle
+---@field bBindTimeLimitItemUpdate bool
+---@field TimeColorForCanUse FSlateColor
+---@field TimeColorForExpired FSlateColor
+---@field ColorCannotUse FLinearColor

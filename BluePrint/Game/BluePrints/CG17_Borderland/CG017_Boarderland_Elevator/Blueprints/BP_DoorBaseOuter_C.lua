@@ -1,0 +1,25 @@
+---@class BP_DoorBaseOuter_C:AActivityBaseActor
+---@field SetClickDown:fun(IsClick:bool)
+---@field SetClickUp:fun(IsClick:bool)
+---@field SetFloorState:fun()
+---@field SetFloorNumMater:fun()
+---@field UpdateCurrentFloorNum:fun(CurrentFloorNum:int32)
+---@field UserConstructionScript:fun()
+---@field Close_Sequence UActorSequenceComponent
+---@field ActorSequence UActorSequenceComponent
+---@field Box UBoxComponent
+---@field Down UStaticMeshComponent
+---@field Up UStaticMeshComponent
+---@field Mesh1 UStaticMeshComponent
+---@field Doorframe UStaticMeshComponent
+---@field Door_R UStaticMeshComponent
+---@field Door_L UStaticMeshComponent
+---@field Scene USceneComponent
+---@field Open_Sequence UActorSequenceComponent
+---@field Close_process_Sequence UActorSequenceComponent
+---@field Open_process_Sequence UActorSequenceComponent
+---@field CurrentFloorNum int32
+---@field bIs_Overing bool
+---@field CurrentFloorState int32
+---@field ClickUp bool
+---@field ClickDown bool

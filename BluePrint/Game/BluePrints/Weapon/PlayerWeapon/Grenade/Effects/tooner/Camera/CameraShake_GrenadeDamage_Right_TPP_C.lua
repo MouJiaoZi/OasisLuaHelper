@@ -1,0 +1,1 @@
+---@class CameraShake_GrenadeDamage_Right_TPP_C:UCameraShake

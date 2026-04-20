@@ -1,0 +1,9 @@
+---@class BP_Cable_C:AActivityBaseActor
+---@field UserConstructionScript:fun()
+---@field HitBox UCapsuleComponent
+---@field Spline USplineComponent
+---@field CableEndPoint USceneComponent
+---@field Connect_Sequence UActorSequenceComponent
+---@field Cable UCableComponent
+---@field bStartBreak bool
+---@field CableLengthPercent int32

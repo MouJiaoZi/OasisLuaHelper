@@ -1,0 +1,45 @@
+---@class PistolInfoItem_BP_C:UUAEUserWidget
+---@field GetPistolWeapon:fun():ASTExtraWeapon
+---@field UpdateAirDropType:fun(bIsInWhiteCircle:bool)
+---@field BindWeaponChangeEvent:fun()
+---@field UpdateUsingSlot:fun(slot:ESurviveWeaponPropSlot)
+---@field ResertHighLightAttachSlot:fun()
+---@field HighLightAttachSlot:fun(DefineID:FItemDefineID)
+---@field OnDragDetected:fun(MyGeometry:FGeometry,PointerEvent:FPointerEvent):UDragDropOperation
+---@field UpdateWeaponAttachment:fun()
+---@field UpdateSlotVisibility:fun()
+---@field UpdateBullet:fun()
+---@field HighLightBG:fun(IsHighLight:bool)
+---@field OnTouchEnded:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field OnTouchStarted:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field ReceivedInitWidget:fun()
+---@field OnDragCancelled:fun(PointerEvent:FPointerEvent,Operation:UDragDropOperation)
+---@field ItemBeDragCancelled__DelegateSignature:fun()
+---@field ItemBeDragBegin__DelegateSignature:fun(ItemData:FBattleItemData,DragOrgin:EBackPackDragOrigin)
+---@field BulletBox UHorizontalBox
+---@field CanvasPanel_AirdropInfo UCanvasPanel
+---@field FitingSlotItem_BP FitingSlotItem_BP_C
+---@field FitingSlotItem_BP_C_0 FitingSlotItem_BP_C
+---@field FitingSlotItem_BP_C_1 FitingSlotItem_BP_C
+---@field FitingSlotItem_BP_C_2 FitingSlotItem_BP_C
+---@field FitingSlotItem_BP_C_3 FitingSlotItem_BP_C
+---@field Image_BlankPistolSlot UImage
+---@field Image_PistolIcon UImage
+---@field Image_SelectedStatus UImage
+---@field Pisol_UsingTips UTextBlock
+---@field TextBlock_BulletName UTextBlock
+---@field TextBlock_CurrentNumberOfBullets UTextBlock
+---@field TextBlock_MaxNumberOfBullets UTextBlock
+---@field TextBlock_WeaponName UTextBlock
+---@field WidgetSwitcher_BoxState UWidgetSwitcher
+---@field WidgetSwitcher_VehicleState UWidgetSwitcher
+---@field bHasTipsShow bool
+---@field ParentUserWidget UUserWidget
+---@field SmallIconBrush FSlateBrush
+---@field bHasStartedTouchIn bool
+---@field ItemBeDragBegin ULuaMulticastDelegate
+---@field ItemBeDragCancelled ULuaMulticastDelegate
+---@field BattleData FBattleItemData
+---@field SlotItemArray ULuaArrayHelper
+---@field AttachNameArray ULuaArrayHelper
+---@field Slot2Index ULuaMapHelper

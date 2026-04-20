@@ -1,0 +1,12 @@
+---@class BP_PortalManager_C:AActivityBaseActor
+---@field InitPortalDoor:fun():ULuaArrayHelper
+---@field UserConstructionScript:fun()
+---@field B UChildActorComponent
+---@field A UChildActorComponent
+---@field Scene USceneComponent
+---@field DefaultSceneRoot USceneComponent
+---@field BP_PortalDoor ULuaArrayHelper
+---@field TeleportCoolDown float
+---@field TH_TeleportCoolDown FTimerHandle
+---@field AlreadyTeleportTarget ULuaArrayHelper
+---@field E_PortalDoorSelect E_PortalDoorTeleportSelect

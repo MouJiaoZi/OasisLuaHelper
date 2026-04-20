@@ -1,0 +1,1 @@
+---@class VehicleSpawn_SanHok628_SummerBand_C:UVehicleSpawn_SanHok628_C

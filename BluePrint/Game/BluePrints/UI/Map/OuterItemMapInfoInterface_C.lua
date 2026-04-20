@@ -1,0 +1,3 @@
+---@class OuterItemMapInfoInterface_C:UInterface
+---@field AddOuterItemToMapCanvas:fun(Widget:UWidget):UPanelSlot
+---@field LevelLocToMapLoc:fun(LevelLoc:FVector):FVector2D

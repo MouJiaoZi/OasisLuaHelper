@@ -1,0 +1,6 @@
+---@class OB_Route_TimeTips_UIBP_C:UUAEUserWidget
+---@field DX_Number UWidgetAnimation
+---@field CanvasPanel_Route UCanvasPanel
+---@field TextBlock_Title UTextBlock
+---@field TextCountDown UTextBlock
+---@field TextScale UTextBlock

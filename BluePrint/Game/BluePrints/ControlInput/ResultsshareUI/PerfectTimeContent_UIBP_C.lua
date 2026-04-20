@@ -1,0 +1,6 @@
+---@class PerfectTimeContent_UIBP_C:UUAEUserWidget
+---@field Common_Avatar_BP Common_Avatar_BP_C
+---@field Image_PerfectTimeBG UImage
+---@field TextBlock_PerfectTime UTextBlock
+---@field TextBlock_PlayerName UTextBlock
+---@field TextBlock_RichTips UUTRichTextBlock

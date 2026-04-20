@@ -1,0 +1,1 @@
+---@class HS_Shake_C:AHiderSceneActorBase_C

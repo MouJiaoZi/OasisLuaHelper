@@ -1,0 +1,1 @@
+---@class BP_Rifle_Mk47_BattleItemHandle_MHZZ_Lobby_C:UBackpackWeaponHandle

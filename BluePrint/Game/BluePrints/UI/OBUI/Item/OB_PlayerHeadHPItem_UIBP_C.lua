@@ -1,0 +1,67 @@
+---@class OB_PlayerHeadHPItem_UIBP_C:UOBModePositionWidget
+---@field GetDeathBoxWidget:fun():UUserWidget
+---@field ShowDeathBox:fun(RealtionShipWithRecordTarget:ERelationshipWithTarget)
+---@field HideForWeseeStyle:fun()
+---@field CenterPlayerNameBlock:fun()
+---@field SetHeadItemUseWeseeStyle:fun()
+---@field SwitchNationalFlag:fun(bIsShow:bool)
+---@field UpdateShowStyle:fun(OverDistance:bool,ForceStyleNormal:bool)
+---@field OnHttpResponse:fun(Texture:UTexture2D,Downloader:UImageDownloader)
+---@field SetIconColor:fun(teamID:int32)
+---@field ShowData:fun(PlayerInfo:FPlayerInfoInOB,NationalFlag:bool)
+---@field SetPlayerMarkIcon:fun(RelationShipWithTarget:ERelationshipWithTarget,MoveState:EPlayerMoveState)
+---@field InitDeathBoxWidget:fun(RelationshipWithTarget:ERelationshipWithTarget)
+---@field Construct:fun()
+---@field RefreshPlayerHealth:fun(hpRatio:float,breathRatio:float,isNearDeath:bool)
+---@field RefreshDistance:fun(distance:int32,fovDistance:float)
+---@field RefreshWeaponIconStatusDetail:fun(DefineItem:FItemDefineID)
+---@field RefreshOpenWeaponIconStatus:fun(IsOpen:bool)
+---@field RefreshWeaponBulletStatus:fun(bHasBullet:bool)
+---@field ReceiveUseWeseeStyle:fun(RelationshipWithTarget:ERelationshipWithTarget)
+---@field Border_WeaponColor UBorder
+---@field Button_Click UButton
+---@field Button_Click2 UButton
+---@field CanvasPanel_1 UCanvasPanel
+---@field CanvasPanel_4 UCanvasPanel
+---@field CanvasPanel_Close UCanvasPanel
+---@field CanvasPanel_Close2 UCanvasPanel
+---@field CanvasPanel_DeathBox UCanvasPanel
+---@field CanvasPanel_Distance UCanvasPanel
+---@field CanvasPanel_NationalFlag UCanvasPanel
+---@field CanvasPanel_Type1 UCanvasPanel
+---@field CanvasPanel_WXV_Down UCanvasPanel
+---@field HorizontalBox_4 UHorizontalBox
+---@field Image_Arrow UImage
+---@field Image_NationalFlag UImage
+---@field Image_TeamBG UImage
+---@field Image_TeamBG_2 UImage
+---@field Image_TeamLogo UImage
+---@field Image_TeamLogo2 UImage
+---@field Image_TeamLogoBG UImage
+---@field Image_TeamLogoBG2 UImage
+---@field Image_Throw UImage
+---@field ProgressBar_PlayerHP UProgressBar
+---@field ScaleBox_Close UScaleBox
+---@field ScaleBox_Weapon UScaleBox
+---@field Spacer_0 USpacer
+---@field Switcher_WeaponIcon UWidgetSwitcher
+---@field TextBlock_Distance UTextBlock
+---@field TextBlock_PlayerName UTextBlock
+---@field TextBlock_TeamIdx UTextBlock
+---@field TextBlock_TeamName UTextBlock
+---@field TextBlock_Type2_TeamID UTextBlock
+---@field WeaponIcon UImage
+---@field WidgetSwitcher_StateBG UWidgetSwitcher
+---@field WidgetSwitcher_TeamSwitch UWidgetSwitcher
+---@field WidgetSwitcher_Type UWidgetSwitcher
+---@field WidgetSwitcher_Type2 UWidgetSwitcher
+---@field WidgetSwitcher_Type2_IDBG UWidgetSwitcher
+---@field FullHealth FLinearColor
+---@field HealthState1 FLinearColor
+---@field HealthState2 FLinearColor
+---@field HealthState3 FLinearColor
+---@field CurPicURL FString
+---@field IsFarStyle bool
+---@field FarStyleDestince int32
+---@field CachedTeamID int32
+---@field MarkPath FString

@@ -1,0 +1,1 @@
+---@class BP_GunMasterComp_Baltic_C:UBP_GunMasterComp_C

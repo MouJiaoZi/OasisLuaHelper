@@ -1,0 +1,1 @@
+---@class BP_Rifle_SCAR_BattleItemHandle_SHV_D_Lobby_C:UBackpackWeaponHandle

@@ -1,0 +1,1 @@
+---@class BP_ShotGun_AA12-G_BattleItemHandle_PASS37_Lobby_C:UBackpackWeaponHandle

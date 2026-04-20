@@ -1,0 +1,3 @@
+---@class PickUp_BP_ParkCoin_C:APickUpWrapperActor
+---@field UserConstructionScript:fun()
+---@field CG009_BountyHunter_IDcard UStaticMeshComponent

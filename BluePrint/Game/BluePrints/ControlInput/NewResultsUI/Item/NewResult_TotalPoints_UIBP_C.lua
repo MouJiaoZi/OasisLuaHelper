@@ -1,0 +1,7 @@
+---@class NewResult_TotalPoints_UIBP_C:UUAEUserWidget
+---@field CanvasPanel_blue UCanvasPanel
+---@field CanvasPanel_Yellow UCanvasPanel
+---@field TextBlock_1 UTextBlock
+---@field TextBlock_2 UTextBlock
+---@field TextBlock_Activity UTextBlock
+---@field TextBlock_NotDropPoint UTextBlock

@@ -1,0 +1,17 @@
+---@class BP_PlaneCharacter_AsianGames_C:ABP_PlaneCharacterBase_C
+---@field UserConstructionScript:fun()
+---@field BannerAttachComp USceneComponent
+---@field ParticleSystem7 UParticleSystemComponent
+---@field ParticleSystem6 UParticleSystemComponent
+---@field ParticleSystem5 UParticleSystemComponent
+---@field ParticleSystem4 UParticleSystemComponent
+---@field ParticleSystem3 UParticleSystemComponent
+---@field P_Plan_tail_01 UParticleSystemComponent
+---@field P_Plan_Propeller_01 UParticleSystemComponent
+---@field P_Plan_light_red_02 UParticleSystemComponent
+---@field P_Plan_light_red_01 UParticleSystemComponent
+---@field P_Plan_light_blue_01 UParticleSystemComponent
+---@field ParticleSystem2 UParticleSystemComponent
+---@field ParticleSystem1 UParticleSystemComponent
+---@field ParticleSystem UParticleSystemComponent
+---@field P_Plan_light_green_01 UParticleSystemComponent

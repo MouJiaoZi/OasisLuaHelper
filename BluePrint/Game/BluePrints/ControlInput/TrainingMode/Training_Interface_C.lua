@@ -1,0 +1,4 @@
+---@class Training_Interface_C:UInterface
+---@field NewFriendTips_Inf:fun(show:bool):bool
+---@field EnterTrainingMode_Inf:fun():bool
+---@field UpdateTraining_Inf:fun():bool

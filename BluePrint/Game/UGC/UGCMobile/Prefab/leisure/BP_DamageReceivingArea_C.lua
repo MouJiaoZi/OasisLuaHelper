@@ -1,0 +1,39 @@
+---@class BP_DamageReceivingArea_C:BP_UGCMobileBaseActor_C
+---@field GetLuaModule:fun():FString
+---@field InitMechaWeaponData:fun()
+---@field InitSpecialWeaponData:fun()
+---@field InitVehicleWeaponData:fun()
+---@field InitHeavyWeaponData:fun()
+---@field InitMeleeWeaponData:fun()
+---@field InitProjectileData:fun()
+---@field InitBulletData:fun()
+---@field OnReceiveTakeDamageEvent:fun(DamageItemID:int32,EventInstigator:AController,DamageCauser:AActor,DamageAmount:float)
+---@field OnBeginPlayBP:fun()
+---@field UserConstructionScript:fun()
+---@field STBaseBuffSystem USTBaseBuffSystemComponent
+---@field OverlapBox UBoxComponent
+---@field BP_UGCDamageableActorComponent BP_UGCDamageableActorComponent_C
+---@field ActorMark UActorMarkComponent
+---@field StaticMesh UStaticMeshComponent
+---@field Health int32
+---@field VaildAttackTriggerTypes S_ScoreBallChoice
+---@field bShowHP bool
+---@field bShowInGame bool
+---@field bRoundFightReset bool
+---@field DamageNumberShowingTime int32
+---@field CurHP float
+---@field bEnable bool
+---@field EnableEvent FUGCMobileObjectEvent
+---@field DisableEvent FUGCMobileObjectEvent
+---@field HPOverEvent FUGCMobileObjectEvent
+---@field EnableAction FUGCMobileObjectAction
+---@field DisableAction FUGCMobileObjectAction
+---@field OverHPAction FUGCMobileObjectAction
+---@field HealthEventConditionArray ULuaArrayHelper
+---@field HealthEventArray ULuaArrayHelper
+---@field DamageReceivingAreaEventCluster BP_DamageReceivingAreaEventCluster_C
+---@field ItemIDList ULuaArrayHelper
+---@field ItemParamSetting_Bullet ULuaArrayHelper
+---@field ItemParamSetting_Projectile ULuaArrayHelper
+---@field ItemParamSetting_MeleeWeapon ULuaArrayHelper
+---@field TeamList S_TeamChoice

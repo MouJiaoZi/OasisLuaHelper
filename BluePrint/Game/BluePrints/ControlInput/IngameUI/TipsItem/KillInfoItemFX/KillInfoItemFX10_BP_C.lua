@@ -1,0 +1,5 @@
+---@class KillInfoItemFX10_BP_C:UKillInfoFXWidget
+---@field PlayFXAnimation:fun()
+---@field DX_Transitions_Enter UWidgetAnimation
+---@field DX_FlowLight_DH13 UImage
+---@field Image_Gun_KillReport_Bg UImage

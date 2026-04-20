@@ -1,0 +1,4 @@
+---@class FQuickHistoryData
+---@field Msg FQuickSignMsg
+---@field Message FString
+---@field MsgID int32

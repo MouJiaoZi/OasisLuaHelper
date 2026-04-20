@@ -1,0 +1,4 @@
+---@class UIVoiceCheckObject_C:UVoiceCheckObject
+---@field Bindfunction:fun()
+---@field CreateImage:fun(panel:UCanvasPanel,image:UImage,Index:int32):UImage
+---@field InitImageList:fun(panel:UCanvasPanel,moveImage:UImage,WeaponImage:UImage,SlienceImage:UImage,vehicleImage:UImage,glassImage:UImage,explosionImage:UImage,InParachuteClose:UImage)

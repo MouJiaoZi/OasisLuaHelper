@@ -1,0 +1,1 @@
+---@class BP_FootprintInstanceActor_Sand_C:AFootprintInstanceActor

@@ -1,0 +1,6 @@
+---@class BP_HayBale_04_C:ABP_HayBaleBase_C
+---@field UserConstructionScript:fun()
+---@field P_BlackSmoke_HayBale_02 UParticleSystemComponent
+---@field P_Haystack_Fire_01 UParticleSystemComponent
+---@field Box UBoxComponent
+---@field Fire_Sequence UActorSequenceComponent

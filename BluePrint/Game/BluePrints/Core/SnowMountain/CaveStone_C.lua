@@ -1,0 +1,5 @@
+---@class CaveStone_C:ACaveStoneActor
+---@field UserConstructionScript:fun()
+---@field AKCom UAkComponent
+---@field Rock_Broken_Particle UParticleSystemComponent
+---@field StaticMesh UStaticMeshComponent

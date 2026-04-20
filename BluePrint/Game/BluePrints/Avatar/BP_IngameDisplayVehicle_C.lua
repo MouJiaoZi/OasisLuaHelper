@@ -1,0 +1,4 @@
+---@class BP_IngameDisplayVehicle_C:ASTExtraDisplayVehicle
+---@field UserConstructionScript:fun()
+---@field LastVehicleName FString
+---@field CachedNameRT UTextureRenderTarget2D

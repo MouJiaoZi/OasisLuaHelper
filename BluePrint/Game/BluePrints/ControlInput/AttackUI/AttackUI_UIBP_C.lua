@@ -1,0 +1,73 @@
+---@class AttackUI_UIBP_C:UUAEUserWidget
+---@field ExitUAV:fun():bool
+---@field EnterUAV:fun():bool
+---@field OnUnManedVehicleFuelChanged_Inf:fun():bool
+---@field OnUnmanedVehicleHPChanged_Inf:fun():bool
+---@field ShowOperateUI:fun():bool
+---@field HideOperateUI:fun():bool
+---@field UpdateSpeedHeight:fun(speed:float,height:float):bool
+---@field UAVStateChange:fun():bool
+---@field ProcessSingleOperateMode:fun():bool
+---@field SetVehicleControlPanel:fun(vehicleControlPanel:UUAEUserWidget):bool
+---@field ShowSingleOperateMode:fun():bool
+---@field HideSingleOperateMode:fun():bool
+---@field SetCustomizeLayout:fun()
+---@field OnUCAVStateChange:fun(state:ESTExtraUAVVehicleState)
+---@field On_NewButton_Fire2_MouseButtonDown:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field ButtonFire:fun()
+---@field On_NewButton_Fire_MouseButtonDown:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field NowVehicleIsUCAV:fun():bool
+---@field On_UnmanedVehicleHPChanged:fun()
+---@field UpdateHP:fun(curHp:float,maxHp:float)
+---@field UpdateBulletNum:fun()
+---@field UpdateSpeedAndHeight:fun(speed:float,height:float)
+---@field ShowUCAVUI:fun()
+---@field HideUCAVUI:fun()
+---@field UIMsg_ExitUCAV:fun()
+---@field GetVehicleUCAV:fun():ASTExtraUCAV
+---@field GetVehicleUser:fun():BP_VehicleUser_C
+---@field Construct:fun()
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field DX_In UWidgetAnimation
+---@field CanvasPanel_0 UCanvasPanel
+---@field CanvasPanel_20 UCanvasPanel
+---@field CanvasPanel_BulletNum UCanvasPanel
+---@field CanvasPanel_FX UCanvasPanel
+---@field Custom_Canvas_111 CustomizeCanvasPanel_BP_C
+---@field Custom_Canvas_112 CustomizeCanvasPanel_BP_C
+---@field Custom_Canvas_113 CustomizeCanvasPanel_BP_C
+---@field distance_warn UImage
+---@field electri_warn_2 UImage
+---@field FX_01 UCanvasPanel
+---@field hp_warn_1 UImage
+---@field Image_Bullet UImage
+---@field Image_High UImage
+---@field NewButton_Fire UNewButton
+---@field NewButton_Fire2 UNewButton
+---@field NewButton_Ucav_Leave UNewButton
+---@field ProgressBar_Uav_Electricity UProgressBar
+---@field ProgressBar_Uav_HP UProgressBar
+---@field Text_Distance UTextBlock
+---@field Text_Distance_Num UTextBlock
+---@field Text_Electricity UTextBlock
+---@field Text_High UTextBlock
+---@field Text_High_Num UTextBlock
+---@field Text_HP UTextBlock
+---@field Text_Speed_Num UTextBlock
+---@field TextBlock_BulletNum UTextBlock
+---@field TextBlock_Electricity UTextBlock
+---@field TextBlock_HP UTextBlock
+---@field TextBlock_TimeLeave UTextBlock
+---@field vehicleControlePanel VehileControlPanel_C
+---@field strSpeed FString
+---@field strHeight FString
+---@field strDistance FString
+---@field strLeaveTime FString
+---@field strBulletNum FString
+---@field fLeaveTime float
+---@field RedColor FSlateColor
+---@field WhiteCoor FSlateColor
+---@field LastBulletNum int32
+---@field fStartTime2 float
+---@field BaseCustomizePanelList ULuaArrayHelper
+---@field VehicleUser BP_VehicleUser_C

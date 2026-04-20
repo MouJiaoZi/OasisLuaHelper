@@ -1,0 +1,52 @@
+---@class VT_Paraglider_C:ASTExtraParagliderVehicle
+---@field ForceShowHitEffectWhenIsInvincible:fun(Causer:AActor):bool
+---@field GetBulletHitEffectDataAsset:fun(HitComp:UPrimitiveComponent):UHitEffectDataAsset
+---@field GetBulletHitEffectDataAssetTag:fun(Comp:UPrimitiveComponent):FString
+---@field GetBulletHitEffectDataAssetWithCaster:fun(HitComp:UPrimitiveComponent,Caster:UObject,CasterOwner:AActor):UHitEffectDataAsset
+---@field GetBulletHitEffectLifeTime:fun(HitComp:UPrimitiveComponent):float
+---@field ShouldHideBulletHitEffect:fun(BulletOwner:UObject):bool
+---@field CheckDisableUploadAbsolutePointOnBulletImpact:fun(ShootWeapon:ASTExtraShootWeapon,HitComp:USceneComponent):bool
+---@field CheckIgnoreBulletOnImpact:fun(ShootWeapon:ASTExtraShootWeapon,Bullet:ASTExtraShootWeaponBulletBase,bStartPenetrating:bool):bool
+---@field CheckUploadRelativePointOnBulletImpact:fun(ShootWeapon:ASTExtraShootWeapon,HitComp:USceneComponent):bool
+---@field GetOverrideBulletHitComp:fun():UPrimitiveComponent
+---@field CalcYawSpeed:fun(DeltaTime:float)
+---@field SetDMIParam:fun(ParamName:FName,Value:float)
+---@field CancelDontDamage:fun()
+---@field SetDontDamageAndTime:fun(DontDamage:bool,Time:float)
+---@field CanLeaveVehilce:fun():bool
+---@field UserConstructionScript:fun()
+---@field OnUpdateEffects:fun()
+---@field UpdateViewRot:fun(DeltaTime:float)
+---@field OnSetTailLightValue:fun(LightValue:float)
+---@field OnEngineStop:fun()
+---@field OnEngineStart:fun()
+---@field OnPlayJumpEvent:fun()
+---@field HandleHitByBullet:fun(Causer:AActor,bIsHeadshot:bool)
+---@field SetAvatarMID:fun(MatDMI:UMaterialInterface)
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field K2_OnBecomeViewTarget:fun(PC:APlayerController)
+---@field K2_OnEndViewTarget:fun(PC:APlayerController)
+---@field Paraglider_HoverMovement Paraglider_HoverMovement_C
+---@field AirVehicle UAirVehicleComponent
+---@field HardreferenceUObject UHardreferenceUObject
+---@field MotorgliderFly UMotorgliderFlyComponent
+---@field Camera UCameraComponent
+---@field VehicleSpringArm UVehicleSpringArmComponent
+---@field UAEChaVehAnimList_driver UUAEChaVehAnimListComponent
+---@field FlyState bool
+---@field FlyStateHeight_Low float
+---@field ExplosionDamage_Air float
+---@field ExplosionDamage_Land float
+---@field FlyStateHeight_High float
+---@field DMI UMaterialInstanceDynamic
+---@field DontDamageState bool
+---@field Client_DontDamageEffectTime float
+---@field DS_DontDamageTimer FTimerHandle
+---@field DontDamageCurve UCurveFloat
+---@field JumpTime float
+---@field JumpTimer FTimerHandle
+---@field CurJumpType EParagliderCharacterType
+---@field LastFollowState bool
+---@field ThrottleOnLiftUp UCurveFloat
+---@field MaxSpeedCanOnLiftUp float
+---@field ThrottleLiftUpFactorByDistoland UCurveFloat

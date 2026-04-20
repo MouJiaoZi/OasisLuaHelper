@@ -1,0 +1,2 @@
+---@class Bounty_Airline_UIBP_C:UUserWidget
+---@field CanvasPanel_Bounty UCanvasPanel

@@ -1,0 +1,4 @@
+---@class BP_ConstructSitActorForUGCM_C:BP_ConstructPossessActorForUGCM_C
+---@field CanLeavePossess:fun(NewParam:FClick_Param):bool
+---@field CanEnterPossess:fun(NewParam:FClick_Param):bool
+---@field UserConstructionScript:fun()

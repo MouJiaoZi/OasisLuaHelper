@@ -1,0 +1,3 @@
+---@class WeaponCompanionRule_3_C:UBP_WeaponCompanionRuleBase_C
+---@field OnInit:fun()
+---@field OnRemove:fun()

@@ -1,0 +1,12 @@
+---@class WerewolfGroup_C:AUAEHouseActor
+---@field UserConstructionScript:fun()
+---@field BP_WerewolfSpotComponent7 BP_WerewolfSpotComponent_C
+---@field BP_WerewolfSpotComponent6 BP_WerewolfSpotComponent_C
+---@field BP_WerewolfSpotComponent1 BP_WerewolfSpotComponent_C
+---@field BP_WerewolfSpotComponent5 BP_WerewolfSpotComponent_C
+---@field BP_WerewolfSpotComponent4 BP_WerewolfSpotComponent_C
+---@field BP_WerewolfSpotComponent3 BP_WerewolfSpotComponent_C
+---@field BP_WerewolfSpotComponent2 BP_WerewolfSpotComponent_C
+---@field BP_WerewolfSpotComponent BP_WerewolfSpotComponent_C
+---@field BP_WerewolfGroupSceneComponent BP_WerewolfGroupSceneComponent_C
+---@field DefaultSceneRoot USceneComponent

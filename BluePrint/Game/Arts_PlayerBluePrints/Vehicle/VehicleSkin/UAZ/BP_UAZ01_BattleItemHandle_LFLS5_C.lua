@@ -1,0 +1,1 @@
+---@class BP_UAZ01_BattleItemHandle_LFLS5_C:BP_UAZ01_BattleItemHandle_LFLS1_C

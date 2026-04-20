@@ -1,0 +1,27 @@
+---@class AsianOB_PlayerMarkItem_UIBP_C:UOB_PlayerHeadHPItem_UIBP_C
+---@field UpdateShowStyles:fun(OverDistance:bool,ForceStyleNormal:bool)
+---@field GetTeamLowData:fun(TeamID:int32)
+---@field ImageIconCallback:fun(obj:UObject)
+---@field OnDownloaderSuccess:fun(Texture:UTexture2D,Downloader:UImageDownloader)
+---@field SetWeaponIcon:fun(WeaponItem:FItemDefineID)
+---@field ShowPlayerAndTeamInfo:fun(PlayerInfo:FPlayerInfoInOB,IsNation:bool)
+---@field RefreshWeaponIconStatusDetail:fun(DefineItem:FItemDefineID)
+---@field RefreshOpenWeaponIconStatus:fun(IsOpen:bool)
+---@field RefreshDistance:fun(distance:int32,fovDistance:float)
+---@field UpdateShowStyle:fun(OverDistance:bool,ForceStyleNormal:bool)
+---@field ShowData:fun(PlayerInfo:FPlayerInfoInOB,NationalFlag:bool)
+---@field Construct:fun()
+---@field AsianOB_PlayerInfor AsianOB_PlayerItem_UIBP_C
+---@field CanvasPanel_0 UCanvasPanel
+---@field Image_Gun UImage
+---@field Image_Line UImage
+---@field NewButton_Click UNewButton
+---@field NewButton_Click2 UNewButton
+---@field ScaleBox_0 UScaleBox
+---@field TextBlock_CountryName UTextBlock
+---@field WidgetSwitcher_0 UWidgetSwitcher
+---@field NullPic FSlateBrush
+---@field MyTeamLowData FAsianTeamInfoLowFrequency
+---@field IsOpen bool
+---@field IsInCar bool
+---@field PlayerUID FString

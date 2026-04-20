@@ -1,0 +1,19 @@
+---@class BP_UGCScreenTextBox_C:BP_UGCMobileBaseActor_C
+---@field GetLuaModule:fun():FString
+---@field UserConstructionScript:fun()
+---@field UGCPrefabBillBoard UUGCPrefabBillBoardComponent
+---@field TextSectionList ULuaArrayHelper
+---@field BGImage int32
+---@field TextHoriAlign EUGCTextHoriAlign
+---@field TextVertAlign EUGCTextVertAlign
+---@field ShowCategory EUGCSwitchTargetTrigger4
+---@field RelateTeams S_TeamChoice
+---@field RelateCamps S_CampChoice
+---@field ShowingTime float
+---@field bDefaultEnable bool
+---@field bDisplayAfterEnable bool
+---@field bReadyToReset bool
+---@field EnableAction FUGCMobileObjectAction
+---@field DisableAction FUGCMobileObjectAction
+---@field DisplayAction FUGCMobileObjectAction
+---@field HideAction FUGCMobileObjectAction

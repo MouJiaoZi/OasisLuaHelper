@@ -1,0 +1,6 @@
+---@class BP_BaseTaskComponent_C:UBaseTaskComponent
+---@field GetTaskAreaIDFromDataTable:fun(InPlayerLocation:FVector):int32
+---@field GetLandLocIDFromDataTable:fun(InTargetName:FString):int32
+---@field GetTaskParamsFromDataTable:fun(InTaskID:int32):FString,int32,bool
+---@field GetTaskSubTypeFromDataTable:fun(InTaskID:int32):int32
+---@field CacheTableParam bool

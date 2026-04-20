@@ -1,0 +1,2 @@
+---@class GMUIInterface_C:UInterface
+---@field TestGameResult_Inf:fun(ModeID:int32,TeamMemNum:int32):bool

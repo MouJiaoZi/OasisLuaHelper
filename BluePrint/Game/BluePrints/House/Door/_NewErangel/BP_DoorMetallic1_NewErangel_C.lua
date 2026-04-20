@@ -1,0 +1,1 @@
+---@class BP_DoorMetallic1_NewErangel_C:ABP_Doormetallic_C

@@ -1,0 +1,14 @@
+---@class BP_TrainingBeHitFakeCharacter_C:BP_PlayerPawn_C
+---@field ForceShowHitEffectWhenIsInvincible:fun(Causer:AActor):bool
+---@field GetBulletHitEffectDataAssetWithCaster:fun(HitComp:UPrimitiveComponent,Caster:UObject,CasterOwner:AActor):UHitEffectDataAsset
+---@field GetBulletHitEffectLifeTime:fun(HitComp:UPrimitiveComponent):float
+---@field GetBulletHitEffectDataAsset:fun(HitComp:UPrimitiveComponent):UHitEffectDataAsset
+---@field GetBulletHitEffectDataAssetTag:fun(Comp:UPrimitiveComponent):FString
+---@field ShouldHideBulletHitEffect:fun(BulletOwner:UObject):bool
+---@field GetLuaModule:fun():FString
+---@field LuaPointDamamge:fun(Damamge:int32,IsHead:bool,InstigatedBy:AController)
+---@field UserConstructionScript:fun()
+---@field HandleHitByBullet:fun(Causer:AActor,bIsHeadshot:bool)
+---@field ReceivePointDamage:fun(Damage:float,DamageType:UDamageType,HitLocation:FVector,HitNormal:FVector,HitComponent:UPrimitiveComponent,BoneName:FName,ShotFromDirection:FVector,InstigatedBy:AController,DamageCauser:AActor,HitInfo:FHitResult)
+---@field ReceiveRadialDamage:fun(DamageReceived:float,DamageType:UDamageType,Origin:FVector,HitInfo:FHitResult,InstigatedBy:AController,DamageCauser:AActor)
+---@field HitEffect UHitEffectDataAsset

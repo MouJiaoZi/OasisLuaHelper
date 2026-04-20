@@ -1,0 +1,4 @@
+---@class bp_teamup_qrcode_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_TeamUp_QRIamgePath FString

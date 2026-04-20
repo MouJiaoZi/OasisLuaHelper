@@ -1,0 +1,1 @@
+---@class HS_Christmas_Trophy_C:AHiderSceneActorBase_C

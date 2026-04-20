@@ -1,0 +1,8 @@
+---@class bp_common_rightnotify_tips_panel_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_CommonRightNotify_TotalCount int32
+---@field BP_CommonRightNotify_TickState int32
+---@field BP_CommonRightNotify_OKText FString
+---@field BP_CommonRightNotify_Msg FString
+---@field BP_CommonRightNotify_CancelText FString

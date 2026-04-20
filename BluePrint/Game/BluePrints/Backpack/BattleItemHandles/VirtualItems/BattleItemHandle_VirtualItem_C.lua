@@ -1,0 +1,1 @@
+---@class BattleItemHandle_VirtualItem_C:UBattleItemHandleBase

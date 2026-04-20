@@ -1,0 +1,1 @@
+---@class BP_Rifle_ARX200_BattleItemHandle_MJWS_C:BP_Rifle_ARX200_BattleItemHandle_C

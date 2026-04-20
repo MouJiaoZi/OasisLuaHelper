@@ -1,0 +1,7 @@
+---@class FAnswerInfo
+---@field GiveLikeTeammateArray ULuaArrayHelper
+---@field GiveLikeOBArray ULuaArrayHelper
+---@field OperationID int32
+---@field CurrentTime int32
+---@field PlayerKey FString
+---@field GiveLikeType int32

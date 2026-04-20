@@ -1,0 +1,1 @@
+---@class WeaponAnimList_Rifle_M2_C:UUAECharacterAnimListComponent

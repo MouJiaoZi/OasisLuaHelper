@@ -1,0 +1,11 @@
+---@class Buff_AccelerationZone_C:UPersistEffectBuff
+---@field CharacterResetAnim:fun(InCharacter:ASTExtraBaseCharacter)
+---@field RegisterCustomMove:fun()
+---@field GetInitialVelocity:fun(CharacterOwner:ACharacter,MovementInstance:UCustomMovementBase,MoveTime:float,DeltaTime:float):FVector
+---@field CachedBrakingDecelerationWalking float
+---@field CachedGroundFriction float
+---@field Speed FVector
+---@field CharacterToLaunchIDMap ULuaMapHelper
+---@field InAir bool
+---@field EnableBlend bool
+---@field MoveComp USTCharacterMovementComponentBase

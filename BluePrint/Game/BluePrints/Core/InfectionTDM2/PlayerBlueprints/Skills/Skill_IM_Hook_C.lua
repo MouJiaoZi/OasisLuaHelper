@@ -1,0 +1,40 @@
+---@class Skill_IM_Hook_C:AUAESkill
+---@field BeginLaunchAlcula:fun()
+---@field UserConstructionScript:fun()
+---@field UAESkillAction_ClearBlackboard1 UUAESkillAction_ClearBlackboard
+---@field UAESkillAction_CastUIMSG2 UUAESkillAction_CastUIMSG
+---@field UAESkillAction_JumpPhase1 UUAESkillAction_JumpPhase
+---@field UTSkillEventEffectMapForEditor UUTSkillEventEffectMapForEditor
+---@field UAESkillAction_PlayMontage_Pose4 UUAESkillAction_PlayMontage_Pose
+---@field UAESkillAction_CastUIMSG1 UUAESkillAction_CastUIMSG
+---@field UAESkillEventEffectMapForEditor1 UUAESkillEventEffectMapForEditor
+---@field UAESkillAction_SetPlayerState UUAESkillAction_SetPlayerState
+---@field UAEGSLisenterEffectMapForEditor UUAEGSLisenterEffectMapForEditor
+---@field UAESkillAction_ReplaceCharAnim UUAESkillAction_ReplaceCharAnim
+---@field UAESkillStringEventEffectMapForEditor4 UUAESkillStringEventEffectMapForEditor
+---@field UAESkillAction_PlayMontage_Pose3 UUAESkillAction_PlayMontage_Pose
+---@field UAESkillAction_JumpPhase UUAESkillAction_JumpPhase
+---@field UAESkillStringEventEffectMapForEditor2 UUAESkillStringEventEffectMapForEditor
+---@field UAESkillAction_PlayMontage_Pose2 UUAESkillAction_PlayMontage_Pose
+---@field UAESkillPhase6 UUAESkillPhase
+---@field UAESkillAction_PlayMontage_Pose1 UUAESkillAction_PlayMontage_Pose
+---@field UAESkillAction_PlayMontage_Pose UUAESkillAction_PlayMontage_Pose
+---@field STExtraBuffAction_RecoverCD USTExtraBuffAction_RecoverCD
+---@field UAESkillAction_AddRemoveBuff UUAESkillAction_AddRemoveBuff
+---@field UAESkillAction_SpawnActor UUAESkillAction_SpawnActor
+---@field UAESkillAction_ClearBlackboard UUAESkillAction_ClearBlackboard
+---@field UAESkillAction_Log UUAESkillAction_Log
+---@field UTSkillSpecificAction UUTSkillSpecificAction
+---@field UAESkillStringEventEffectMapForEditor3 UUAESkillStringEventEffectMapForEditor
+---@field UAESkillStringEventEffectMapForEditor1 UUAESkillStringEventEffectMapForEditor
+---@field UAESkillStringEventEffectMapForEditor UUAESkillStringEventEffectMapForEditor
+---@field UAESkillPhase5 UUAESkillPhase
+---@field UAESkillAction_PickLocation UUAESkillAction_PickLocation
+---@field UTSkillEventEffectMapForEditor1 UUTSkillEventEffectMapForEditor
+---@field UAESkillPhase4 UUAESkillPhase
+---@field UAESkillEventEffectMapForEditor UUAESkillEventEffectMapForEditor
+---@field UAESkillPhase3 UUAESkillPhase
+---@field UAESkillPhase2 UUAESkillPhase
+---@field UAESkillPhase1 UUAESkillPhase
+---@field UAESkillPhase UUAESkillPhase
+---@field DefaultSceneRoot USceneComponent

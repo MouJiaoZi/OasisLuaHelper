@@ -1,0 +1,7 @@
+---@class Ingame_Setup_speech_btn_UIBP_C:UUserWidget
+---@field Image_Voice FSlateBrush
+---@field Image_VoiceDisabled FSlateBrush
+---@field Image_HideVoicePanel FSlateBrush
+---@field Image_Microphone_yy_Btn FSlateBrush
+---@field Image_duijiang FSlateBrush
+---@field SettingConsole FSlateBrush

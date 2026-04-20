@@ -1,0 +1,5 @@
+---@class bp_resultshare_deathmatch_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_IsShareHistoryDeathMatch bool
+---@field BP_IsShareDeathMatchType int32

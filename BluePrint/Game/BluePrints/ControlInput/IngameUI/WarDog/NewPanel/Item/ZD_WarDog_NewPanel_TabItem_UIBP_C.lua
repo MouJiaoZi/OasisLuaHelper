@@ -1,0 +1,8 @@
+---@class ZD_WarDog_NewPanel_TabItem_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field CanvasPanel_0 UCanvasPanel
+---@field CanvasPanel_1 UCanvasPanel
+---@field Image_Icon UImage
+---@field Image_Mai UImage
+---@field NewButton_Tab UNewButton
+---@field WidgetSwitcher_Stat UWidgetSwitcher

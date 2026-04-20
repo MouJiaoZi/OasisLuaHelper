@@ -1,0 +1,9 @@
+---@class BP_Other_M79_BF_C:BP_ShootWeaponProjectileBase_C
+---@field OnArrowShooted:fun()
+---@field UserConstructionScript:fun()
+---@field OnWeaponMagOut:fun()
+---@field OnWeaponMagIn:fun()
+---@field WeaponAnimList_Other_M79 WeaponAnimList_Other_M79_C
+---@field ST_Mag UStaticMeshComponent
+---@field ST_PlayerMag UStaticMeshComponent
+---@field bUseIdleAnim_0 bool

@@ -1,0 +1,1 @@
+---@class BP_ItemsBoxNightMod_C:UBP_ItemsBoxConfig_C

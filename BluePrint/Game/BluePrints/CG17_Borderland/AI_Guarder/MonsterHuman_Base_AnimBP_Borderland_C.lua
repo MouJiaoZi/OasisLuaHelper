@@ -1,0 +1,4 @@
+---@class MonsterHuman_Base_AnimBP_Borderland_C:USTExtraMonsterAnimInstance
+---@field GetAimWithPose:fun():UBlendSpaceBase
+---@field BlueprintUpdateAnimation:fun(DeltaTimeX:float)
+---@field CurState EMonsterState

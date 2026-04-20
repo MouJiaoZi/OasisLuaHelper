@@ -1,0 +1,14 @@
+---@class GrenadeList_Type2_Item_UIBP_C:UUAEUserWidget
+---@field RefreshObj:fun(obj:UObject)
+---@field UpdateGrenadeItem:fun(data:FBattleItemData,isGrenade:bool,avatarID:int32,index:int32)
+---@field UseItemByIndex__DelegateSignature:fun(index:int32)
+---@field Border_GrenadeSlot UBorder
+---@field CanvasPanel_ColdModeInfo1 UCanvasPanel
+---@field EnergyItem_BP_Cur EnergyItem_BP_C
+---@field GrenadeSlot1CountText UTextBlock
+---@field GrenadeSlotBG UImage
+---@field GrenadeSlotImage UImage
+---@field Image_Drone_Electricity1 UImage
+---@field NewButton_GrenadeSlotBtn UNewButton
+---@field UseItemByIndex ULuaMulticastDelegate
+---@field Index int32

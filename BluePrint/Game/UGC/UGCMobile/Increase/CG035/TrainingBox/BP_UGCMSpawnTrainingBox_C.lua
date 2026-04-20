@@ -1,0 +1,33 @@
+---@class BP_UGCMSpawnTrainingBox_C:BP_UGCMobileBaseActor_C
+---@field GetLuaModule:fun():FString
+---@field OnActorHiddenInGame:fun(InHidden:bool,InHiddenMask:EActorHiddenMask)
+---@field LuaRefreshSelectStateAfterLoad:fun()
+---@field CheckCanBePick:fun(InCharacter:ASTExtraCharacter):bool
+---@field SetFirstOpenBox:fun(InCharacter:ASTExtraBaseCharacter)
+---@field LuaSetMeshPath:fun()
+---@field UserConstructionScript:fun()
+---@field ReceiveDestroyed:fun()
+---@field StaticMesh4 UStaticMeshComponent
+---@field StaticMesh3 UStaticMeshComponent
+---@field StaticMesh2 UStaticMeshComponent
+---@field StaticMesh1 UStaticMeshComponent
+---@field StaticMesh UStaticMeshComponent
+---@field ItemList S_UGCM_ItemList
+---@field ItemShow S_UGCM_ItemList
+---@field bAutoComplete bool
+---@field bSpawnAfterEnable bool
+---@field bFightingEnable bool
+---@field LifeTime float
+---@field ShowName FString
+---@field ChooseEnum EUGCSwitchTargetTrigger
+---@field TeamIDs S_TeamChoice
+---@field ShowMeshPath FString
+---@field EnableAction FUGCMobileObjectAction
+---@field DisableAction FUGCMobileObjectAction
+---@field SpawnEvent FUGCMobileObjectAction
+---@field DestroyEvent FUGCMobileObjectAction
+---@field MeshLocation FVector
+---@field MeshScale FVector
+---@field MeshRotator FRotator
+---@field UseBlueprint bool
+---@field ShowActor AActor

@@ -1,0 +1,1 @@
+---@class BP_ShiftWeaponSlot_C:UWeaponSlot_Custom

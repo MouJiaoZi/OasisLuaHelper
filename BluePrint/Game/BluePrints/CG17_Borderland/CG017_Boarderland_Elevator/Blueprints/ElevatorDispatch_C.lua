@@ -1,0 +1,18 @@
+---@class ElevatorDispatch_C:UElevatorDispatchBase
+---@field GetPendingDownOrderList:fun():ULuaArrayHelper
+---@field GetPendingUpOrderList:fun():ULuaArrayHelper
+---@field GetDownOrderList:fun():ULuaArrayHelper
+---@field GetUpOrderList:fun():ULuaArrayHelper
+---@field UpdateOrder:fun()
+---@field UpdateFloor:fun(ArrivedFloor:int32,bNeedUpdateOrder:bool)
+---@field GetElevatorStatus:fun():EElevatorStatus
+---@field AddOrder:fun(NewOrder:FElevatorOrder,bNeedUpdateOrder:bool)
+---@field OnElevatorStatusChange__DelegateSignature:fun(OldStatus:EElevatorStatus,NewStatus:EElevatorStatus,TargetFloor:int32)
+---@field UpOrderQueue ULuaArrayHelper
+---@field DownOrderQueue ULuaArrayHelper
+---@field CurrentOrder FElevatorOrder
+---@field OnElevatorStatusChange ULuaMulticastDelegate
+---@field CurrentFloor int32
+---@field PendingUpOrderQueue ULuaArrayHelper
+---@field PendingDownOrderQueue ULuaArrayHelper
+---@field CurrentStatus EElevatorStatus

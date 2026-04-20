@@ -1,0 +1,3 @@
+---@class BP_Trajector_ButteyFly_C:ABP_TrajectoryMove_C
+---@field UserConstructionScript:fun()
+---@field ParticleSystem UParticleSystemComponent

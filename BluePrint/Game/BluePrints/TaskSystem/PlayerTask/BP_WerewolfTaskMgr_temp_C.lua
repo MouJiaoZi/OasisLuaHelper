@@ -1,0 +1,98 @@
+---@class BP_WerewolfTaskMgr_temp_C:ATaskPoolObj
+---@field GetLuaModule:fun():FString
+---@field CallBackClientShowLightUI:fun()
+---@field CallBackLightTime:fun()
+---@field CallBackWeightedGamePoint:fun()
+---@field ResetTaskInfo:fun()
+---@field SetSenderIDForActor:fun(TaskID:int32,TargetActor:AActor)
+---@field CreateSingleTaskByType:fun(TaskID:int32,Type:int32,TaskArray:ULuaArrayHelper):int32
+---@field UpdateTodonotTaskState:fun(PC:ASTExtraPlayerController,ID:int32,State:bool)
+---@field UpdateTodoTaskState:fun(ID:int32)
+---@field ClearAllInfo:fun()
+---@field GetAllPlayerController:fun():ULuaArrayHelper
+---@field ClientShowTipsWithType:fun(tyep:int32)
+---@field RefreshUrgentCD:fun()
+---@field RefreshWolfCD:fun()
+---@field ClientWolfReportInfoUtils:fun(Params:ULuaArrayHelper)
+---@field GetGamePoint:fun(Type:int32):int32
+---@field CheckTaskState:fun(Type:int32,TaskID:int32):bool
+---@field RefreshTaskStateUtils:fun(TaskID:int32)
+---@field DisplayTipsForEveryone:fun(ID:int32)
+---@field ClientRefreshTaskPanel:fun(isWolf:int32)
+---@field ClientWolfReportInfo:fun(TaskList:ULuaArrayHelper)
+---@field ClientPlaceBomb:fun()
+---@field CallBackBeginPlay:fun()
+---@field CallBackClientShowUrgentWindow:fun()
+---@field RefreshTodoGuidedID:fun(Guided:int32):int32
+---@field CallBackWolfCD:fun()
+---@field CallBackUrgentTime:fun()
+---@field ClientRefreshProcess:fun(type:int32,value:int32)
+---@field CallBackGamePoints:fun()
+---@field ClientRefreshUrgentMark:fun(TaskID:int32):int32
+---@field ResetUrgentState:fun()
+---@field CreateUrgentTask:fun(TaskID:int32)
+---@field SwitchWolfIsVisibility:fun()
+---@field CallBackEndPlay:fun()
+---@field SwitchMapMark:fun(isVisibility:bool)
+---@field CheckUrgentCD:fun():bool
+---@field CheckUrgentTaskState:fun(TaskID:int32,isWolf:bool,PC:ASTExtraPlayerController):bool
+---@field CheckTodoTaskState:fun(TaskID:int32):bool
+---@field CreateTaskActorByType:fun()
+---@field CallBackUrgent:fun()
+---@field CallBackTodo:fun()
+---@field UpdateMarksState:fun(state:ULuaArrayHelper)
+---@field RefreshTaskState:fun(PC:ASTExtraPlayerController,TaskID:int32,State:int32)
+---@field GetPlayerName:fun(PC:ASTExtraPlayerController):FString
+---@field ServerProcessData:fun(Param:ULuaArrayHelper,PC:APlayerController)
+---@field NeedReplicatedTask:fun(TaskID:int32):bool
+---@field GetTaskParamsFromDataTableBlueprint:fun(InTaskID:int32):ULuaArrayHelper,ULuaArrayHelper,bool
+---@field CreatePlayerBornTaskFormDataTable:fun():bool
+---@field UserConstructionScript:fun()
+---@field ReceiveEndPlay:fun(EndPlayReason:EEndPlayReason)
+---@field OnGameStateReady:fun()
+---@field DefaultSceneRoot USceneComponent
+---@field TaskPtrMap ULuaMapHelper
+---@field TodonotTaskMarkInfo ULuaArrayHelper
+---@field Wolf ULuaMapHelper
+---@field TodoTaskMarkInfo ULuaArrayHelper
+---@field UrgentMarkInfo ULuaArrayHelper
+---@field TodoCount int32
+---@field TodonotCount int32
+---@field UrgentCount int32
+---@field NormalTaskPosition ULuaArrayHelper
+---@field UrgentTaskPosition ULuaArrayHelper
+---@field GamePoints int32
+---@field TodoTaskPosition ULuaArrayHelper
+---@field TargetPoint int32
+---@field TaskIndexMap ULuaMapHelper
+---@field WolfIsVisibility bool
+---@field WolfCD int32
+---@field TaskTransformMap ULuaMapHelper
+---@field StaticWolfCD int32
+---@field UrgentTime int32
+---@field GuidedID ULuaMapHelper
+---@field GamePointMap ULuaArrayHelper
+---@field WolfKilled int32
+---@field TargetKilled int32
+---@field UrgentTaskCompleteNo int32
+---@field TargetUrgentCount int32
+---@field TodoCompleteNo int32
+---@field ClientShowUrgentWindow bool
+---@field TaskTimerHandle FTimerHandle
+---@field WolfTimerHandle FTimerHandle
+---@field StaticUrgentTime int32
+---@field UrgentTipsID int32
+---@field WolfCDTipsID int32
+---@field UrgentFinishedTipsID int32
+---@field PreTodonotTaskNum int32
+---@field UrgentGuidedID int32
+---@field NormalGuidedID int32
+---@field WolfTodonotTaskNumber int32
+---@field TaskTypeLength int32
+---@field SingleTaskTransformList ULuaArrayHelper
+---@field PreTypeCount ULuaMapHelper
+---@field ClassList ULuaArrayHelper
+---@field WeightedGamePoint float
+---@field TurnOffLightTime int32
+---@field StaticOffLightTime int32
+---@field ClientShowLightUI bool

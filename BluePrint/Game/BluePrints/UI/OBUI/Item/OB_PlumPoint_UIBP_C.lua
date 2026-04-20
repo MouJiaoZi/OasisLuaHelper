@@ -1,0 +1,2 @@
+---@class OB_PlumPoint_UIBP_C:UMapUIMarkBaseWidget
+---@field Image_PlumPoint UImage

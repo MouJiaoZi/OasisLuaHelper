@@ -1,0 +1,5 @@
+---@class OilBarrel_orange_C:AActor
+---@field UserConstructionScript:fun()
+---@field BPStaticCrowdAgent100 UChildActorComponent
+---@field StaticMesh UStaticMeshComponent
+---@field DefaultSceneRoot USceneComponent

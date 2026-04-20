@@ -1,0 +1,3 @@
+---@class Resurrection_TeamTipsUIBP_C:UNewbieGuideWidget
+---@field OnCreateAndShow:fun(GuideId:int32,UIConfigIndex:int32)
+---@field UTRichTextBlock_Tips15_Text2 UUTRichTextBlock

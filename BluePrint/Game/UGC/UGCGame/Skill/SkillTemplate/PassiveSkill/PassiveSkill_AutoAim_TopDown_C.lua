@@ -1,0 +1,2 @@
+---@class PassiveSkill_AutoAim_TopDown_C:PESkillPassiveSkillTemplate_C
+---@field GetLuaModule:fun():FString

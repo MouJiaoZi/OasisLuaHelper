@@ -1,0 +1,7 @@
+---@class APD_FakeAIAnimation_C:UAnimInstance
+---@field BlueprintInitializeAnimation:fun()
+---@field BlueprintBeginPlay:fun()
+---@field PoseType int32
+---@field ForwardSpeed float
+---@field FallingVelocityZFactor float
+---@field OwnerCharacter ACharacter

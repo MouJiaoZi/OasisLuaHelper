@@ -1,0 +1,1 @@
+---@class WeaponAnimList_Sniper_SVD_C:UUAECharacterAnimListComponent

@@ -1,0 +1,1 @@
+---@class BP_Sniper_HenryX_BattleItemHandle_C:BattleItemHandle_MainWeapon_C

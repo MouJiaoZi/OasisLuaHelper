@@ -1,0 +1,1 @@
+---@class InputSettings_WindowsOB_C:UInputSettings

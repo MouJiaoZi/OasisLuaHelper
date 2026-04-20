@@ -1,0 +1,24 @@
+---@class BP_ClusterOfFish_C:AActivityBaseActor
+---@field HiddenSphereInGame:fun(bHidden:bool)
+---@field ReportEvent:fun()
+---@field StateCheckAndJump:fun()
+---@field CheckInnerRings:fun(NewParam:ULuaArrayHelper,NewParam1:ULuaArrayHelper)
+---@field CheckOuterRings:fun(NewParam:ULuaArrayHelper,NewParam1:ULuaArrayHelper)
+---@field UserConstructionScript:fun()
+---@field ReceiveAnyDamage:fun(Damage:float,DamageType:UDamageType,InstigatedBy:AController,DamageCauser:AActor)
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field Box UBoxComponent
+---@field OverlapCheckArea_Outer UOverlapCheckAreaComponent
+---@field Sphere_Outer USphereComponent
+---@field Sphere_Inner USphereComponent
+---@field OverlapCheckArea_Inner UOverlapCheckAreaComponent
+---@field SkeletalMesh USkeletalMeshComponent
+---@field DefaultSceneRoot USceneComponent
+---@field InnerRingsCount int32
+---@field OuterRingsCount int32
+---@field TimerHandle FTimerHandle
+---@field LastState FName
+---@field SphereOuter float
+---@field SphereInner float
+---@field BulletCheckDis float
+---@field InnerCharacter ASTExtraBaseCharacter

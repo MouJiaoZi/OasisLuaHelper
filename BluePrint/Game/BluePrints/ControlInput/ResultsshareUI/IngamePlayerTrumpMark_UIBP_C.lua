@@ -1,0 +1,7 @@
+---@class IngamePlayerTrumpMark_UIBP_C:UUserWidget
+---@field GetTextBlockDesc:fun(CurTimes:int32):FString
+---@field GetIsDiamondOrCrown:fun(Times:int32):bool
+---@field InitTrumpMarkStaus:fun(Times:int32)
+---@field Ingame_TrumpMarkItem_UIBP Ingame_TrumpMarkItem_UIBP_C
+---@field TextBlock_TrumpMark UTextBlock
+---@field TrumpMarkDataTable UUAEDataTable

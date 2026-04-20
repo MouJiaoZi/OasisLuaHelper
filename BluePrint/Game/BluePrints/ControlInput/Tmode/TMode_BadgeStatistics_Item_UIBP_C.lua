@@ -1,0 +1,4 @@
+---@class TMode_BadgeStatistics_Item_UIBP_C:UUAEUserWidget
+---@field Image_Medal_Icon UImage
+---@field TextBlock_Number UTextBlock
+---@field TextBlock_Title UTextBlock

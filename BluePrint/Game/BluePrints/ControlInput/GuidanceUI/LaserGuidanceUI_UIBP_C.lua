@@ -1,0 +1,21 @@
+---@class LaserGuidanceUI_UIBP_C:ULaserSeekAndLockWeapon3DWidget
+---@field Construct:fun()
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field DX_State02 UWidgetAnimation
+---@field DX_State01 UWidgetAnimation
+---@field Canvas_Panel_info_1 UCanvasPanel
+---@field Canvas_Panel_info_2 UCanvasPanel
+---@field NewButton_CancelLaserGuidance UNewButton
+---@field TextBlock_Distance UTextBlock
+---@field TextBlock_LaserGuidance UTextBlock
+---@field TextBlock_Lside_Data1 UTextBlock
+---@field TextBlock_Lside_Data2 UTextBlock
+---@field TextBlock_LSide_DataName UTextBlock
+---@field TextBlock_Rside_Data1 UTextBlock
+---@field TextBlock_Rside_Data2 UTextBlock
+---@field TextBlock_Rside_Data3 UTextBlock
+---@field TextBlock_Rside_Data4 UTextBlock
+---@field TextBlock_Rside_DataName UTextBlock
+---@field WidgetSwitcher_State UWidgetSwitcher
+---@field BigTipsText FText
+---@field BigTipTextColor FLinearColor

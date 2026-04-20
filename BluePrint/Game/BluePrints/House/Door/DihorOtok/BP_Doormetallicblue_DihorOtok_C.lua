@@ -1,0 +1,1 @@
+---@class BP_Doormetallicblue_DihorOtok_C:ABP_Doormetallic_C

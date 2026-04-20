@@ -1,0 +1,9 @@
+---@class CameraOffset_UIBP_C:UUAEUserWidget
+---@field SetZoomVisible:fun(Visible:bool)
+---@field SlideValueChange__DelegateSignature:fun(Value:float)
+---@field Button_HIde_ZoomPanel UButton
+---@field Button_ZoomBtn UButton
+---@field CanvasPanel_CameraOffsetData UCanvasPanel
+---@field CanvasPanel_ShowX8Panel UCanvasPanel
+---@field Slider_PlayerCameraOffsetData USlider
+---@field SlideValueChange ULuaMulticastDelegate

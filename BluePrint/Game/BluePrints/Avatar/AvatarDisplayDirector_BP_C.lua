@@ -1,0 +1,45 @@
+---@class AvatarDisplayDirector_BP_C:AUAEAvatarDisplayDirector
+---@field GetPoseCompInner:fun(ChildActorComp:UChildActorComponent,PoseIdx:int32):AvatarPoseComponent_BP_C
+---@field GetPoseComponent:fun(PoseIdx:int32):AvatarPoseComponent_BP_C
+---@field PlayPlaneAnim:fun()
+---@field ClearInGameObjectsAndState:fun()
+---@field PrepareAwardScene:fun()
+---@field ShowAwradCeremony:fun()
+---@field ShutDownNet:fun()
+---@field OnNetShutDown:fun()
+---@field InitAvatarPoseInner:fun(MyName:FString,teammateList:ULuaArrayHelper)
+---@field OnLevelTotallyComplete:fun()
+---@field Init:fun()
+---@field CalcAvatarPawnScreenPos:fun()
+---@field HideAllUI:fun()
+---@field DestroyAllPlayerPawn:fun()
+---@field ResetCameraPos:fun(PlayerNum:int32)
+---@field SpawnWeapon:fun(AvatarData:UAvatarDisplayPoseComponent,LobbyPawn:BP_PlayerLobbyPawn_C)
+---@field SpawnAvatarActor:fun()
+---@field ApplyViewTarget:fun(CameraView:ACameraActor)
+---@field InitScene:fun(ViewTarget:ACameraActor,PlayAnimActor:APlaySpecialAnims)
+---@field UserConstructionScript:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field BP_OnWeaponItemHandleListLoaded:fun()
+---@field AvatarDisplayPoseList_4 UChildActorComponent
+---@field AvatarDisplayPoseList_3 UChildActorComponent
+---@field AvatarDisplayPoseList_2 UChildActorComponent
+---@field AvatarDisplayPoseList_1 UChildActorComponent
+---@field Scene USceneComponent
+---@field PlayerPawnName FString
+---@field SceneDirector bool
+---@field PosToAnim ULuaArrayHelper
+---@field SecondCamPos FVector
+---@field IsEnterDisplayScene bool
+---@field PlayAnimActor APlaySpecialAnims
+---@field isNeedDelayInit bool
+---@field DelayInitTickTime float
+---@field CurrentTickTime float
+---@field TeamListData ULuaArrayHelper
+---@field MyNameEx FString
+---@field Show bool
+---@field IsShowAwardCeremony bool
+---@field TeammateCnt int32
+---@field TeamRank int32
+---@field TopXWin int32
+---@field AvatarFilterList ULuaArrayHelper

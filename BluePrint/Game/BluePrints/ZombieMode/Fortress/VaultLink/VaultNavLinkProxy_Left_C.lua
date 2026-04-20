@@ -1,0 +1,1 @@
+---@class VaultNavLinkProxy_Left_C:AVaultNavLinkProxy

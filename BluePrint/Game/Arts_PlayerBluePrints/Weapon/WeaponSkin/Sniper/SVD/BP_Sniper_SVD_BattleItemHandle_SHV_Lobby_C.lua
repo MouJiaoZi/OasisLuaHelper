@@ -1,0 +1,1 @@
+---@class BP_Sniper_SVD_BattleItemHandle_SHV_Lobby_C:UBackpackWeaponHandle

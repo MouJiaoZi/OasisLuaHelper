@@ -1,0 +1,27 @@
+---@class CG031_CreatorSpace_FeedBack_Desc_UIBP_C:UUAEUserWidget
+---@field AiSummary AiSummary_Main_UIBP_C
+---@field CanvasPanel_Tips UCanvasPanel
+---@field ComboBox_Bug ComboBox_BP_C
+---@field ComboBox_DisplayEditor ComboBox_BP_C
+---@field ComboBox_Group_BP ComboBox_Group_BP_C
+---@field ComboBox_Optimize ComboBox_BP_C
+---@field DX_Chicken DX_Chicken_C
+---@field Image_RedDot UImage
+---@field Image_RedDot_Bug UImage
+---@field Image_RedDot_Optimization UImage
+---@field NewButton_AiSummary UNewButton
+---@field NewButton_Bug UNewButton
+---@field NewButton_BugHelp UNewButton
+---@field NewButton_Optimization UNewButton
+---@field NewButton_OptimizeHelp UNewButton
+---@field ReuseList_WorkDisplay ReuseList2_C
+---@field ReuseListSp_List ReuseListSp_C
+---@field Switcher_Optimization UWidgetSwitcher
+---@field TextBlock_BugNum_Cur UTextBlock
+---@field TextBlock_BugNum_Total UTextBlock
+---@field TextBlock_OptimizeNum_Cur UTextBlock
+---@field TextBlock_OptimizeNum_Total UTextBlock
+---@field WidgetSwitcher_BUG UWidgetSwitcher
+---@field WidgetSwitcher_Content UWidgetSwitcher
+---@field WidgetSwitcher_List UWidgetSwitcher
+---@field WidgetSwitcher_Tilte UWidgetSwitcher

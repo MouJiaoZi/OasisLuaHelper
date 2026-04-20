@@ -1,0 +1,1 @@
+---@class BP_M416_BattleItemHandle_SHMAN_D_C:BP_Rifle_M416_BattleItemHandle_C

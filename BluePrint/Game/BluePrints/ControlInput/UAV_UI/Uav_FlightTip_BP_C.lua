@@ -1,0 +1,64 @@
+---@class Uav_FlightTip_BP_C:UUAEUserWidget
+---@field OnUnManedVehicleFuelChanged_Inf:fun():bool
+---@field OnUnmanedVehicleHPChanged_Inf:fun():bool
+---@field ExitUAV:fun():bool
+---@field EnterUAV:fun():bool
+---@field ShowOperateUI:fun():bool
+---@field HideOperateUI:fun():bool
+---@field UpdateSpeedHeight:fun(speed:float,height:float):bool
+---@field UAVStateChange:fun():bool
+---@field ProcessSingleOperateMode:fun():bool
+---@field SetVehicleControlPanel:fun(vehicleControlPanel:UUAEUserWidget):bool
+---@field ShowSingleOperateMode:fun():bool
+---@field HideSingleOperateMode:fun():bool
+---@field ShowUICondition:fun():bool
+---@field UIMsg_OnPlayerEnterFlying:fun()
+---@field UpdateDistanceToPlayer:fun(Object:UObject)
+---@field processShowImage:fun(vehicle:ASTExtraVehicleBase)
+---@field UIMsg_UAVStateChanged:fun()
+---@field UIMsg_UAVUse:fun()
+---@field UIMsg_UAVCallback:fun()
+---@field CanUseUAV:fun():bool
+---@field GetCharacter:fun():ASTExtraBaseCharacter
+---@field On_UnmanedVehicleFuelChanged:fun()
+---@field On_UnmanedVehicleHPChanged:fun()
+---@field UIMsg_EnterUAV:fun()
+---@field GetVehicleUAV:fun():ASTExtraUAVVehicleBase
+---@field UpdateHpFuelDistance:fun()
+---@field TickCallBackTime:fun(deltaTime:float)
+---@field SetCDTime:fun(leftTime:float)
+---@field GetVehicleUser:fun():BP_VehicleUser_C
+---@field UIMsg_ShutDownUAV:fun()
+---@field UIMsg_ExitUAV:fun()
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field ReceivedInitWidget:fun()
+---@field Construct:fun()
+---@field CountDown UWidgetAnimation
+---@field Border_FlightTip UBorder
+---@field CallBackCDBar UImage
+---@field callbackImage UImage
+---@field CanvasPanel_Countdown UCanvasPanel
+---@field CanvasPanel_Ready UCanvasPanel
+---@field CanvasPanel_UAV_Battery UCanvasPanel
+---@field CanvasPanel_Uav_Level2 UCanvasPanel
+---@field CanvasPanel_Uav_State UCanvasPanel
+---@field CDMask UCanvasPanel
+---@field GridPanel_ReloadBtn UCanvasPanel
+---@field NewButton_Callback UNewButton
+---@field NewButton_Return UNewButton
+---@field NewButton_Use UNewButton
+---@field ProgressBar_Electricity UProgressBar
+---@field ReloadBtnBGImage UImage
+---@field ReloadCDBar UImage
+---@field ReloadCountDownTextBlock UTextBlock
+---@field TextBlock_Distance_NUm UTextBlock
+---@field TextBlock_Time UTextBlock
+---@field uav_hp_progress UProgressBar
+---@field UAVStateBtn UNewButton
+---@field maxCDTime float
+---@field leftCDTime float
+---@field bStartCallingBack bool
+---@field shutDownDistance float
+---@field teleCarImage FSlateBrush
+---@field uavImage FSlateBrush
+---@field lastUAVType ESTExtraVehicleType

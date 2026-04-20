@@ -1,0 +1,4 @@
+---@class AirAttackBomb_C:ASTExtraExplosionEffect
+---@field UserConstructionScript:fun()
+---@field BP_BombingFieldOfViewNotificationComponent BP_BombingFieldOfViewNotificationComponent_C
+---@field DefaultSceneRoot USceneComponent

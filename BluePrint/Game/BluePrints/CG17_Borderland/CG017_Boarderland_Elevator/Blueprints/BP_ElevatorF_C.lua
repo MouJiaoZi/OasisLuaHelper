@@ -1,0 +1,15 @@
+---@class BP_ElevatorF_C:AActivityBaseActor
+---@field SetFloorArray:fun()
+---@field SetFloorHeight:fun()
+---@field UserConstructionScript:fun()
+---@field Floor1 UChildActorComponent
+---@field Floor7 UChildActorComponent
+---@field Floor6 UChildActorComponent
+---@field Floor5 UChildActorComponent
+---@field Floor4 UChildActorComponent
+---@field Floor3 UChildActorComponent
+---@field Floor2 UChildActorComponent
+---@field Scene USceneComponent
+---@field Elevator UChildActorComponent
+---@field Floor_Array ULuaArrayHelper
+---@field bIsSet bool

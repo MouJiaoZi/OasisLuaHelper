@@ -1,0 +1,4 @@
+---@class Sharetitleitem02_UIBP_C:UUserWidget
+---@field randomTips UTextBlock
+---@field titelBg UImage
+---@field titleName UTextBlock

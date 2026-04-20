@@ -1,0 +1,2 @@
+---@class BP_ActivityAttachSingletonInterface_C:UInterface
+---@field GetSigletonID:fun():int32

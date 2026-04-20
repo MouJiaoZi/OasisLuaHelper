@@ -1,0 +1,44 @@
+---@class PVENianGMUI_C:UUserWidget
+---@field GetLuaModule:fun():FString
+---@field OnReceiveProbabilityData:fun()
+---@field Blue UTextBlock
+---@field btn_AddPlugin UNewButton
+---@field Btn_ClearPlugin UNewButton
+---@field btn_DragonBallCurHP UNewButton
+---@field btn_DragonBallMaxHP UNewButton
+---@field Btn_HugeDamage UNewButton
+---@field Btn_NormalDamage UNewButton
+---@field btn_ShowProbability UNewButton
+---@field btnBallDamage UNewButton
+---@field btnBallInvincible UNewButton
+---@field BtnLuaGM UButton
+---@field btnSekectWeapon UNewButton
+---@field BtnSetLeftTime UNewButton
+---@field Button_JumpBonus UNewButton
+---@field Button_JumpBoss UNewButton
+---@field Button_JumpNextStage UNewButton
+---@field Button_JumpStage UNewButton
+---@field Button_KillAll UNewButton
+---@field ButtonSelect UNewButton
+---@field EditableTextBox_1 UEditableTextBox
+---@field EditableTextBox_3 UEditableTextBox
+---@field EditableTextBox_5 UEditableTextBox
+---@field EditableTextBox_AddScore UEditableTextBox
+---@field EditableTextBox_CurHP UEditableTextBox
+---@field EditableTextBox_MaxHP UEditableTextBox
+---@field FaliureData UTextBlock
+---@field Gold UTextBlock
+---@field HorizontalBox_Probability UHorizontalBox
+---@field NewButton_AddScore UNewButton
+---@field NormalWeaponWeight UTextBlock
+---@field PluginWeightList UUTRichTextBlock
+---@field Purple UTextBlock
+---@field Red UTextBlock
+---@field SkillBlue UTextBlock
+---@field SkillGold UTextBlock
+---@field SkillPurple UTextBlock
+---@field SkillRed UTextBlock
+---@field SuperWeaponWeight UTextBlock
+---@field SuperWeaponWeightList UUTRichTextBlock
+---@field txt_pluginID UEditableTextBox
+---@field txt_weaponID UEditableTextBox

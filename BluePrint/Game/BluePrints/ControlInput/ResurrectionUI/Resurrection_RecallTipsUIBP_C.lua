@@ -1,0 +1,6 @@
+---@class Resurrection_RecallTipsUIBP_C:UURevivalPointWidget
+---@field Construct:fun()
+---@field Border_SideDistance UBorder
+---@field CanvasPanel_Arrow UCanvasPanel
+---@field CanvasPanel_SideDistance UCanvasPanel
+---@field TextBlock_Sidedistance UTextBlock

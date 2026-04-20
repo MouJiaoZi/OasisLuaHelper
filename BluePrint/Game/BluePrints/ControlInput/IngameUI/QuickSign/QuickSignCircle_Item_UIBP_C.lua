@@ -1,0 +1,6 @@
+---@class QuickSignCircle_Item_UIBP_C:UUserWidget
+---@field PreConstruct:fun(IsDesignTime:bool)
+---@field Image_Sign UImage
+---@field TextBlock_Sign UTextBlock
+---@field ShowText FText
+---@field ShowImg FSlateBrush

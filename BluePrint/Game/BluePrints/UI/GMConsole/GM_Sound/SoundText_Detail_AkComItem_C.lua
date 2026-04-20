@@ -1,0 +1,6 @@
+---@class SoundText_Detail_AkComItem_C:UUserWidget
+---@field Construct:fun()
+---@field Text_ErrorName UTextBlock
+---@field AKComponName FString
+---@field Color FLinearColor
+---@field Num int32

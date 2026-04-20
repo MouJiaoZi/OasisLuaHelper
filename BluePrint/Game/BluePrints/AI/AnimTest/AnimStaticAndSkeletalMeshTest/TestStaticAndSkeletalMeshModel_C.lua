@@ -1,0 +1,2 @@
+---@class TestStaticAndSkeletalMeshModel_C:ATestModuleBase_C
+---@field UserConstructionScript:fun()

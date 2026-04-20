@@ -1,0 +1,16 @@
+---@class Resurrection_playBoxTipsUIBP_C:UUAEUserWidget
+---@field PlayBoxTipsUIBP_GetArrowImage:fun():UImage
+---@field PlayBoxTipsUIBP_SetTimePercent:fun(TotalTime:float,CurrentTime:float)
+---@field PlayBoxTipsUIBP_SetColor:fun(InColor:FLinearColor)
+---@field PlayBoxTipsUIBP_ShowMode:fun(IsShow:bool)
+---@field ShowMode:fun(IsShow:bool)
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field FX_Light01 UImage
+---@field Image_BG_card UImage
+---@field Image_BOXCDBar UImage
+---@field Image_side UImage
+---@field EffectShowTime float
+---@field EffectReShowTime float
+---@field CurrentShowTime float
+---@field CurrentReShowTime float
+---@field TimeState uint8

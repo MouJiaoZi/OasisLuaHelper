@@ -1,0 +1,14 @@
+---@class KilledTipsPanel_C:UUAEUserWidget
+---@field AssignToText:fun(position:int32,inputText:FText)
+---@field ResetPositionAndContent:fun()
+---@field RemoveFirst:fun()
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field NewAnimation_1 UWidgetAnimation
+---@field textAnimation UWidgetAnimation
+---@field Panel UCanvasPanel
+---@field tips0 UTextBlock
+---@field tips1 UTextBlock
+---@field tips2 UTextBlock
+---@field lastTips FText
+---@field TipsQueue ULuaArrayHelper
+---@field NeedPlayAgain bool

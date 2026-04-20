@@ -1,0 +1,3 @@
+---@class FTDMCharacterPropertyStruct
+---@field HealthMax float
+---@field FOV float

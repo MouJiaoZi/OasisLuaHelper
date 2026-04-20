@@ -1,0 +1,1 @@
+---@class BP_MapUIMarkManager_C:UMapUIMarkManager

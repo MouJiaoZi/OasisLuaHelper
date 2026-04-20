@@ -1,0 +1,1 @@
+---@class DestinyCirclemelee_Savage_2_C:ADestinyCircle_Savage_2_C

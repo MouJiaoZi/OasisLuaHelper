@@ -1,0 +1,38 @@
+---@class CH_Vehicle_AnimBP_Paraglider_C:USTParagliderCharAnimInstance
+---@field BlueprintInitializeAnimation:fun()
+---@field BlueprintUpdateAnimation:fun(DeltaTimeX:float)
+---@field isVH_Motorcycle_AnimBP bool
+---@field ParentAnim USTExtraAnimInstanceBase
+---@field vehicleRoot USceneComponent
+---@field OwnerMesh USkeletalMeshComponent
+---@field snowboardSkeletalMeshCom USkeletalMeshComponent
+---@field SkiEnterMontage UAnimMontage
+---@field ParagliderCharacterType EParagliderCharacterType
+---@field DistanceToLand float
+---@field StartFlyFinish bool
+---@field IdleState bool
+---@field FlyState bool
+---@field ForwardVel FVector
+---@field LinearVel FVector
+---@field ForwardSpeed float
+---@field InAir bool
+---@field bEnterJumpState bool
+---@field Jumptype EParagliderCharacterType
+---@field NewVar_0 EParagliderCharacterType
+---@field VJump bool
+---@field RJump bool
+---@field FJump bool
+---@field InTurningBody bool
+---@field FlyControlInput FVector
+---@field FlyControlInput_X float
+---@field FlyControlInput_Y float
+---@field StationaryJumpTimeDelta float
+---@field JumpTime float
+---@field IKTargetLeftHand FVector
+---@field IKTargetRightHand FVector
+---@field PelvisAttachLoc FVector
+---@field GrassPartical UParticleSystem
+---@field SnowPartical UParticleSystem
+---@field StonePartical UParticleSystem
+---@field DirtPartical UParticleSystem
+---@field CurrentPartical UParticleSystem

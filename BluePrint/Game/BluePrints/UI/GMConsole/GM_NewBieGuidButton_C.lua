@@ -1,0 +1,7 @@
+---@class GM_NewBieGuidButton_C:UUserWidget
+---@field Init:fun(Index:int32,NewBieItem:FNewbieGuideItem)
+---@field Button_Item UButton
+---@field TextBlock_Item UTextBlock
+---@field parent GM_NewBieGuid_C
+---@field NewBieItem FNewbieGuideItem
+---@field Index int32

@@ -1,0 +1,21 @@
+---@class BP_UGC_Other_AT4-A_C:BP_UGC_Other_AT4-A_Base_C
+---@field OnShootBullet:fun()
+---@field ScopeIn:fun():bool
+---@field UserConstructionScript:fun()
+---@field OnWeaponMagOut:fun()
+---@field OnWeaponMagIn:fun()
+---@field BP_OnWeaponReloadEnd:fun()
+---@field WeaponLaserEffect UWeaponLaserEffectComponent
+---@field DynamicCreateUI UDynamicCreateUIComponent
+---@field LaserSeekAndLockWeapon ULaserSeekAndLockWeaponComponent
+---@field FPP_Particle UParticleSystemComponent
+---@field TPP_Particle UParticleSystemComponent
+---@field ST_Mag UStaticMeshComponent
+---@field ScopeInIndex int32
+---@field ScopeOutIndex int32
+---@field Stand UAnimMontage
+---@field Crouch UAnimMontage
+---@field Prone UAnimMontage
+---@field Crouch_0 UAnimMontage
+---@field Prone_0 UAnimMontage
+---@field Stand_0 UAnimMontage

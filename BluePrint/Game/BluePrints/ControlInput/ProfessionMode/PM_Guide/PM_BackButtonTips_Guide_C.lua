@@ -1,0 +1,4 @@
+---@class PM_BackButtonTips_Guide_C:UNewbieGuideWidget
+---@field OnCreateAndShow:fun(GuideId:int32,UIConfigIndex:int32)
+---@field CanvasPanel_BackTips6 UCanvasPanel
+---@field UTRichTextBlock_OperatingTips6 UUTRichTextBlock

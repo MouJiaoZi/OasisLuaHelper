@@ -1,0 +1,130 @@
+---@class Shoot_GameModeActor_C:AGMAShootingRoom
+---@field GetLuaModule:fun():FString
+---@field UpdateMonitorHitRate:fun(NewParam:float)
+---@field SetToSpawnPos:fun(PC:ASTExtraPlayerController,RoomRangeType:ERoomRangeType)
+---@field LuaSpawnRegionActor:fun()
+---@field ClearMonitor:fun()
+---@field ChangeLiftByDisType:fun(Distype:PullGunDisType)
+---@field ChangeLiftToDis_100:fun()
+---@field ChangeLiftToDis_75:fun()
+---@field ChangeLiftToDis_50:fun()
+---@field ChangeLiftToDis_25:fun()
+---@field Init:fun()
+---@field ControlLift:fun(Index:int32,BisLift:bool)
+---@field ForceFinishTraining:fun()
+---@field GetSubRangeByType:fun(NewParam:ERoomRangeType):Shoot_GMA_SubRangeBase_C
+---@field TestFollowGun:fun()
+---@field LuaPlayerLeaveBoxArea:fun(NewParam:AActor)
+---@field OnBoxOverlap:fun(OverlappedComponent:UPrimitiveComponent,OtherActor:AActor,OtherComp:UPrimitiveComponent,OtherBodyIndex:int32)
+---@field BindOverlapEvent:fun(NewParam:bool)
+---@field GetConveyScene:fun(Type:ERoomRangeType):USceneComponent
+---@field JudgeConvey:fun():bool
+---@field ConveyToTrainigPlace:fun(TrainigType:ERoomRangeType)
+---@field LuaEndPlay:fun()
+---@field LuaBeginPlay:fun()
+---@field DetachPressGunTarget:fun()
+---@field UpdateMonitor:fun(X:float,Z:float,TargetFlag:int32,DistanceFlag:int32)
+---@field ControlPressGunTargetDis:fun(Distance:int32)
+---@field UserConstructionScript:fun()
+---@field ReceiveEndPlay:fun(EndPlayReason:EEndPlayReason)
+---@field BPFinishTraining:fun()
+---@field BPBeginTraining:fun()
+---@field OnRep_CurRoomStatus:fun()
+---@field CG022_ShootingRange_Building03_1 UStaticMeshComponent
+---@field CG022_ShootingRange_Building_1 UStaticMeshComponent
+---@field Box1 UBoxComponent
+---@field Box UBoxComponent
+---@field TrainTarget UChildActorComponent
+---@field ChildActor UChildActorComponent
+---@field HierarchicalInstancedStaticMesh UHierarchicalInstancedStaticMeshComponent
+---@field HierarchicalInstancedStaticMesh3 UHierarchicalInstancedStaticMeshComponent
+---@field HierarchicalInstancedStaticMesh4 UHierarchicalInstancedStaticMeshComponent
+---@field HierarchicalInstancedStaticMesh5 UHierarchicalInstancedStaticMeshComponent
+---@field HierarchicalInstancedStaticMesh6 UHierarchicalInstancedStaticMeshComponent
+---@field HierarchicalInstancedStaticMesh7 UHierarchicalInstancedStaticMeshComponent
+---@field HierarchicalInstancedStaticMesh8 UHierarchicalInstancedStaticMeshComponent
+---@field HierarchicalInstancedStaticMesh1 UHierarchicalInstancedStaticMeshComponent
+---@field LeftTop USceneComponent
+---@field RightDown USceneComponent
+---@field MiniMapPoint USceneComponent
+---@field StaticMesh13 UStaticMeshComponent
+---@field StaticMesh12 UStaticMeshComponent
+---@field StaticMesh11 UStaticMeshComponent
+---@field StaticMesh10 UStaticMeshComponent
+---@field StaticMesh9 UStaticMeshComponent
+---@field StaticMesh8 UStaticMeshComponent
+---@field StaticMesh7 UStaticMeshComponent
+---@field StaticMesh5 UStaticMeshComponent
+---@field StaticMesh6 UStaticMeshComponent
+---@field StaticMesh4 UStaticMeshComponent
+---@field StaticMesh3 UStaticMeshComponent
+---@field StaticMesh2 UStaticMeshComponent
+---@field StaticMesh1 UStaticMeshComponent
+---@field StaticMesh UStaticMeshComponent
+---@field ST_Stock_ButtStock UStaticMeshComponent
+---@field ST_QK_Large_Suppressor_Lod UStaticMeshComponent
+---@field ST_Grip_LightGrip UStaticMeshComponent
+---@field ST_DJ_Large_EQ UStaticMeshComponent
+---@field ST_MZJ_8X_Pickup UStaticMeshComponent
+---@field ST_WEP_Quickbow_Pickup UStaticMeshComponent
+---@field ST_WEP_S1897_Lod UStaticMeshComponent
+---@field ST_WEP_UMP_Mag_Lod UStaticMeshComponent
+---@field ST_WEP_UMP_Lod UStaticMeshComponent
+---@field ST_WEP_98k_Lod UStaticMeshComponent
+---@field ST_WEP_Mini14_Lod UStaticMeshComponent
+---@field ST_WEP_AK47_Lod UStaticMeshComponent
+---@field ST_WEP_M416_Low UStaticMeshComponent
+---@field ST_WEP_AK47_Mag_Lod UStaticMeshComponent
+---@field Scene1 USceneComponent
+---@field ChildActor012 UChildActorComponent
+---@field ChildActor011 UChildActorComponent
+---@field ChildActor010 UChildActorComponent
+---@field ChildActor09 UChildActorComponent
+---@field ChildActor08 UChildActorComponent
+---@field ChildActor07 UChildActorComponent
+---@field ChildActor06 UChildActorComponent
+---@field ChildActor05 UChildActorComponent
+---@field ChildActor04 UChildActorComponent
+---@field ChildActor03 UChildActorComponent
+---@field ChildActor02 UChildActorComponent
+---@field ChildActor01 UChildActorComponent
+---@field ChildActor8 UChildActorComponent
+---@field ChildActor9 UChildActorComponent
+---@field ChildActor4 UChildActorComponent
+---@field ChildActor5 UChildActorComponent
+---@field ChildActor1 UChildActorComponent
+---@field ChildActor6 UChildActorComponent
+---@field ChildActor12 UChildActorComponent
+---@field ChildActor11 UChildActorComponent
+---@field ChildActor10 UChildActorComponent
+---@field ChildActor3 UChildActorComponent
+---@field ChildActor7 UChildActorComponent
+---@field ChildActor2 UChildActorComponent
+---@field Scene USceneComponent
+---@field Weapons USceneComponent
+---@field ControlActor_2 UChildActorComponent
+---@field ControlActor UChildActorComponent
+---@field Shoot_GMA_PullGun UChildActorComponent
+---@field Shoot_GMA_SoundGun UChildActorComponent
+---@field tree02 UStaticMeshComponent
+---@field tree01 UStaticMeshComponent
+---@field CG022_ShootingRange_Building03 UStaticMeshComponent
+---@field CG022_ShootingRange_Object03 UStaticMeshComponent
+---@field CG022_ShootingRange_Building02 UStaticMeshComponent
+---@field Shoot_GMA_FollowGun UChildActorComponent
+---@field CG022_ShootingRange_Building_Grass UStaticMeshComponent
+---@field OutSideBox UBoxComponent
+---@field LeaveConvey UChildActorComponent
+---@field NormalConveyLoc USceneComponent
+---@field ConveySoundTrainingLoc USceneComponent
+---@field ConveyFollowGunLoc USceneComponent
+---@field ConveyScene USceneComponent
+---@field PressGunTarget UChildActorComponent
+---@field Monitor UChildActorComponent
+---@field CG022_ShootingRange_Building UStaticMeshComponent
+---@field DefaultSceneRoot USceneComponent
+---@field Shoot_GMA_LiftArray ULuaArrayHelper
+---@field MapActorCache AActor
+---@field RegionalMapActorClass FString
+---@field IsEndPlay bool
+---@field MiniMapPath FString

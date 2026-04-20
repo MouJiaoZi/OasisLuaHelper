@@ -1,0 +1,1 @@
+---@class BP_Sniper_AWM_BattleItemHandle_SS2_Lobby_C:UBackpackWeaponHandle

@@ -1,0 +1,5 @@
+---@class BP_SpringHourseToy_JumpPad_C:AJumpPad
+---@field UserConstructionScript:fun()
+---@field PawnList ULuaArrayHelper
+---@field JumpMontage UAnimMontage
+---@field DisableFallingDamageTime float

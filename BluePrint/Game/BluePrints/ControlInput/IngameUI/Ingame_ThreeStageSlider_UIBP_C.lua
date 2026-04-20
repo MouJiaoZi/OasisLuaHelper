@@ -1,0 +1,11 @@
+---@class Ingame_ThreeStageSlider_UIBP_C:UShootingUIWidget
+---@field SetIndex:fun(Index:int32)
+---@field Button_HIdeThreeStagePanel UButton
+---@field Button_ShowThreeStagePanel UButton
+---@field CanvasPanel_ThreeStagePanel UCanvasPanel
+---@field Image_line UImage
+---@field Slider_ThreeStageZoom USlider
+---@field TextBlock_Max UTextBlock
+---@field TextBlock_Min UTextBlock
+---@field Range float
+---@field OldIndex int32

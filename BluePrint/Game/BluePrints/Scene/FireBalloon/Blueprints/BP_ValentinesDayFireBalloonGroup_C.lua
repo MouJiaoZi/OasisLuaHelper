@@ -1,0 +1,8 @@
+---@class BP_ValentinesDayFireBalloonGroup_C:AActor
+---@field UserConstructionScript:fun()
+---@field ReceiveEndPlay:fun(EndPlayReason:EEndPlayReason)
+---@field DecoratedFireBalloonsRoot USceneComponent
+---@field MainFireBalloon UChildActorComponent
+---@field DefaultSceneRoot USceneComponent
+---@field SmallFireBalloonMaterial ULuaArrayHelper
+---@field bUseSameMaterial bool

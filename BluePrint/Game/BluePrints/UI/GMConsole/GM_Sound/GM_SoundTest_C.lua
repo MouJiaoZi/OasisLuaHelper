@@ -1,0 +1,130 @@
+---@class GM_SoundTest_C:UUserWidget
+---@field GetComponent:fun():ULuaMapHelper
+---@field SortAKComponentListMap:fun(TargetMap:ULuaMapHelper)
+---@field GetAllOutEventName:fun(PawnLocation:FVector):ULuaArrayHelper
+---@field GetAllEventName:fun():ULuaArrayHelper
+---@field GetAllLoopEventName:fun():ULuaArrayHelper
+---@field SetErrorCode:fun(ErrorCode:ULuaArrayHelper)
+---@field SetPerformanceProcessDetailBase:fun(Bar:UProgressBar,Value:float,TEXT:UTextBlock)
+---@field SetPerformanceProcessDetail:fun(DefaultPeakRatio:float,EnfinePeakRatio:float,TotUsedRatio:float,CommandQueueActualUsed:float,FAudioThread:float)
+---@field SetPerformanceDynamicDetail:fun(MediaMemorySize:float,TotMemorySize:float,NumRegisteredObject:int32,NumPlayingIDs:int32,CommandQueueActualSize:int32,FDSUsage:float,ErrorCount:int32)
+---@field SetPerformanceStaticDetail:fun(ProjectName:FString,UseID:FString,Profile:int32,DefaultMemorySize:float,EngineMemorySize:float)
+---@field SetPerformance:fun()
+---@field SetSwitchList:fun()
+---@field SetRTPCList:fun()
+---@field SetRTPCDetail:fun(RTPCName:FString,RTPCValue:float)
+---@field SetSwitchDetail:fun(SwitchName:FString,IsSwitch:bool)
+---@field DrawDebug:fun(AKComponent:UAkComponent,AudioEventName:FString,Radius:float)
+---@field SetSoundDetailTEXT:fun(IsBNK:bool,RTPCValue:float,SwitchValue:FString,IsLoop:bool)
+---@field ShowEventList:fun(IsShow:bool)
+---@field SetEventList:fun(AKComponent:UAkComponent)
+---@field ShowPerformance:fun(IsShow:bool)
+---@field CollapsedAllComponentList:fun(IsShow:bool)
+---@field ShowComponentList:fun(IsShow_All:bool)
+---@field CollapsedAllDetail:fun(IsShow:bool)
+---@field ShowDetail:fun(IsShow:bool)
+---@field Get_RTPC_Num_Text_0:fun():FText
+---@field SetSoundDetail:fun(SoundEventName:FString,AKComponent:UAkComponent)
+---@field ClearMessage:fun()
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field Construct:fun()
+---@field PreConstruct:fun(IsDesignTime:bool)
+---@field AKComponentList UScrollBox
+---@field Button_AKComp UButton
+---@field Button_AllEvent UButton
+---@field Button_Apply UButton
+---@field Button_BackList UButton
+---@field Button_Close UButton
+---@field Button_Detail_OepnClose UButton
+---@field Button_DetailList UButton
+---@field Button_Event_OpenClose UButton
+---@field Button_LoopEvent UButton
+---@field Button_OutEvent UButton
+---@field Button_Performance UButton
+---@field Button_PlaySound UButton
+---@field Button_ReStore UButton
+---@field Button_Retuen UButton
+---@field Button_StopPlaySound UButton
+---@field Canvas_ComponentList UCanvasPanel
+---@field Canvas_Detail UCanvasPanel
+---@field Canvas_EventDetail UCanvasPanel
+---@field Canvas_EventList UCanvasPanel
+---@field Canvas_PerformanceDetail UCanvasPanel
+---@field Canvas_RTPC UCanvasPanel
+---@field Canvas_RTPCDetail UCanvasPanel
+---@field Canvas_Switch UCanvasPanel
+---@field CanvasPanel_Event UCanvasPanel
+---@field CheckBox_SwitchDetail_Check UCheckBox
+---@field MemeoryOver_List UCanvasPanel
+---@field Message UScrollBox
+---@field ProgressBar_CommandQueueActualUsed UProgressBar
+---@field ProgressBar_DefaultPeakRatio UProgressBar
+---@field ProgressBar_EnfinePeakRatio UProgressBar
+---@field ProgressBar_FAudioThread UProgressBar
+---@field ProgressBar_TotUsedRatio UProgressBar
+---@field RTPC_Num UEditableTextBox
+---@field ScopeNum UEditableTextBox
+---@field ScopeNum_Button UButton
+---@field ScrollBox_EventList UScrollBox
+---@field ScrollBox_MemoryOverObjectList UScrollBox
+---@field ScrollBox_RTPC UScrollBox
+---@field ScrollBox_Switch UScrollBox
+---@field Slider_RTPC USlider
+---@field SliderBox UVerticalBox
+---@field SoundTestDetailList SoundTestDetailList_C
+---@field Text_CommandQueueActualSize UTextBlock
+---@field Text_DefaultMemorySize UTextBlock
+---@field Text_EngineMemorySize UTextBlock
+---@field Text_ErrorCount UTextBlock
+---@field Text_Event_OpenClose UTextBlock
+---@field Text_EventName UTextBlock
+---@field Text_EventRTPC UTextBlock
+---@field TEXT_EventSwitch UTextBlock
+---@field Text_FDSUsage UTextBlock
+---@field Text_IsLoop UTextBlock
+---@field Text_IsLoseBnk UTextBlock
+---@field Text_MediaMemorySize UTextBlock
+---@field Text_NumPlayingIDs UTextBlock
+---@field Text_NumRegisteredObject UTextBlock
+---@field Text_Performance UTextBlock
+---@field Text_Profile UTextBlock
+---@field Text_ProjectName UTextBlock
+---@field Text_TotMemorySize UTextBlock
+---@field Text_UserID UTextBlock
+---@field TextBlock_4 UTextBlock
+---@field TextBlock_5 UTextBlock
+---@field TextBlock_13 UTextBlock
+---@field TextBlock_14 UTextBlock
+---@field TextBlock_16 UTextBlock
+---@field TextBlock_CM UTextBlock
+---@field TextBlock_CommandQueueActualUsed UTextBlock
+---@field TextBlock_DefaultPeakRatio UTextBlock
+---@field TextBlock_DetailMessage UTextBlock
+---@field TextBlock_EnfinePeakRatio UTextBlock
+---@field TextBlock_FAudioThread UTextBlock
+---@field TextBlock_OepnClose UTextBlock
+---@field TextBlock_RTPCDetail_RTPC UTextBlock
+---@field TextBlock_RTPCDetail_RTPCName UTextBlock
+---@field TextBlock_SwitchDetail_IsSwitch UTextBlock
+---@field TextBlock_SwitchDetail_SwitchName UTextBlock
+---@field TextBlock_Title UTextBlock
+---@field TextBlock_TotUsedRatio UTextBlock
+---@field WidgetSwitcher_EventDetail UWidgetSwitcher
+---@field WidgetSwitcher_State UWidgetSwitcher
+---@field ComponentUIArray ULuaArrayHelper
+---@field AKCompArray ULuaMapHelper
+---@field CurrentEvent UAkComponent
+---@field CurrentTimer FTimerHandle
+---@field bIsShowDetail bool
+---@field CurrentRTPC float
+---@field EventUIArray ULuaArrayHelper
+---@field CurrentAudioEvent UAkAudioEvent
+---@field UpdateTime float
+---@field AllEvent ULuaMapHelper
+---@field CurrentRTPCName FString
+---@field CurrentSwitchName FString
+---@field CanUpdate bool
+---@field 2DAKComponent UAkComponent
+---@field ErrorArray ULuaArrayHelper
+---@field CurrentClassArray ULuaArrayHelper
+---@field SortAKCompArray ULuaMapHelper

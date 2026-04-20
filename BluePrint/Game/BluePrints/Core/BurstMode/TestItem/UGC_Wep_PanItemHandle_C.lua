@@ -1,0 +1,1 @@
+---@class UGC_Wep_PanItemHandle_C:UWEP_Pan_ItemHandle_C

@@ -1,0 +1,26 @@
+---@class ResultsOB_ResultTitle_Item_UIBP_C:UUAEUserWidget
+---@field SetPlayerIcon:fun(InPlayerName:FString,DefaultIcon:FString)
+---@field UpdateDownloadIcon:fun(Texture:UTexture2D,Downloader:UImageDownloader)
+---@field UpdatePlayerIcon:fun(PicObject:UObject)
+---@field TryLoadPlayerIcon:fun(PicPath:FString)
+---@field NormalSetData:fun(IsShowMoreBtn:bool,PlayerName:FString,TitleID:FString,TitleDetail:FString,TitlePicPath:FString,DefaultPlayerIconPath:FString)
+---@field SetPlayerName:fun(PlayerName:FString)
+---@field SetTitle:fun(TitleID:FString,TitleDetail:FString)
+---@field TryLoadTitlePic:fun(PicPath:FString)
+---@field UpdateTitlePic:fun(PicObject:UObject)
+---@field PreConstruct:fun(IsDesignTime:bool)
+---@field Image_FirstBlood UImage
+---@field Image_IconSwitcher UWidgetSwitcher
+---@field PlayerIcon UImage
+---@field Text_SubTitle UTextBlock
+---@field Text_zhongwen UTextBlock
+---@field TextBlock_0 UTextBlock
+---@field TextBlock_Num UTextBlock
+---@field TextBlock_yingwen UTextBlock
+---@field VerticalItem UVerticalBox
+---@field WidgetSwitcher_ItemBG UWidgetSwitcher
+---@field WidgetSwitcher_TitleBG UWidgetSwitcher
+---@field FormatedGeneralData ULuaArrayHelper
+---@field LuaClassManager ALuaClassObj
+---@field LocalIconURL FString
+---@field TitleType ResultsOB_ResultTitle_Type

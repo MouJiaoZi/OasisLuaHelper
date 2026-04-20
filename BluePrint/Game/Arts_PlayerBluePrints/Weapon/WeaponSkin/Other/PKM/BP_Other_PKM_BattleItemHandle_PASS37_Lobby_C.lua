@@ -1,0 +1,1 @@
+---@class BP_Other_PKM_BattleItemHandle_PASS37_Lobby_C:UBackpackWeaponHandle

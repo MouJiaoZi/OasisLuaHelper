@@ -1,0 +1,1 @@
+---@class ItemSpawn_SanHokQuest_C:UItemSpawn_SanHok_C

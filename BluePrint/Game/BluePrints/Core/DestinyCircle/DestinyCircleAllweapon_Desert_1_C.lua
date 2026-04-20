@@ -1,0 +1,1 @@
+---@class DestinyCircleAllweapon_Desert_1_C:ADestinyCircleAllweapon_1_C

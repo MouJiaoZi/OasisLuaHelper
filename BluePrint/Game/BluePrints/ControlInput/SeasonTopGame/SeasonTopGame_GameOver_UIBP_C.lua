@@ -1,0 +1,5 @@
+---@class SeasonTopGame_GameOver_UIBP_C:UUAEUserWidget
+---@field MsgNotifyTeammateAllDead:fun()
+---@field HidePeakCompetitionGameOverTip:fun()
+---@field ShowPeakCompetitionGameOverTip:fun()
+---@field DX_GameOver UWidgetAnimation

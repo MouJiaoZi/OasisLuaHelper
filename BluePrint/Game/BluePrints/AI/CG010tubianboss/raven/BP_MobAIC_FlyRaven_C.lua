@@ -1,0 +1,4 @@
+---@class BP_MobAIC_FlyRaven_C:AFlyMobAIController
+---@field UserConstructionScript:fun()
+---@field AIBreakWindow UAIBreakWindowComponent
+---@field AIChooseEnemy UAIChooseEnemyComponent

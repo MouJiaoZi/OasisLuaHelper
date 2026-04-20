@@ -1,0 +1,1 @@
+---@class BuildingItemDragDropOpt_BP_C:UDragDropOperation

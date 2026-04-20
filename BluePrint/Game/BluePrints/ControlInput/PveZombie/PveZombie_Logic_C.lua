@@ -1,0 +1,4 @@
+---@class PveZombie_Logic_C:UUAEUserWidget
+---@field ShowBossHealth:fun()
+---@field StartShowModeUI:fun()
+---@field WidgetInstance UUAEUserWidget

@@ -1,0 +1,6 @@
+---@class BP_Position_C:AActivityBaseActor
+---@field Test:fun()
+---@field UserConstructionScript:fun()
+---@field DefaultSceneRoot USceneComponent
+---@field ActivityUI UActivityUIComponent
+---@field ActivityFakePossess UActivityFakePossessComponent

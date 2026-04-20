@@ -1,0 +1,8 @@
+---@class OB_RouteTeamList_UIBP_C:UUAEUserWidget
+---@field SetteamList:fun(NewParam:ULuaArrayHelper,NeedShow:bool)
+---@field InitData:fun(TeamID:ULuaArrayHelper)
+---@field ReuseList2_segment ReuseList2_C
+---@field TextBlock_SegmentNum UTextBlock
+---@field TeamList ULuaArrayHelper
+---@field DxFlag bool
+---@field NeedShow bool

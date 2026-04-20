@@ -1,0 +1,4 @@
+---@class KillTip_PutDownStyleOne_UIBP_C:UKillTip_Base_UIBP_C
+---@field ShowKillOrPutDownInfo:fun(MsgData:FKillOrPutDownMessage):bool
+---@field ExcellentOperation_PutDownStyle1 ExcellentOperationTip_UIBP_C
+---@field PutDownOtherTipContent UUTRichTextBlock

@@ -1,0 +1,31 @@
+---@class UGC_FullBackpack_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field Button_Arrange UButton
+---@field Button_CloseClickStorage UButton
+---@field Button_Deposit UButton
+---@field Button_MaskClose UButton
+---@field Button_OpenClickStorage UButton
+---@field Button_Takeout UButton
+---@field Canvas_Full_BG UCanvasPanel
+---@field CanvasPanel_Bottom UOverlay
+---@field CanvasPanel_WepEquip UCanvasPanel
+---@field Equip_WepEquip_UIBP Equip_WepEquip_UIBP_C
+---@field HorizontalBox_Currency UHorizontalBox
+---@field Image_2 UImage
+---@field Image_Bg UImage
+---@field ReuseListSp_Backpack ReuseListSp_C
+---@field TextBlock_ComboBoxContent UTextBlock
+---@field TextBlock_Num UTextBlock
+---@field TextBlock_Sum UTextBlock
+---@field UGC_Backpack_Currency_01 UGC_Backpack_Currency_UIBP_C
+---@field UGC_Backpack_Currency_02 UGC_Backpack_Currency_UIBP_C
+---@field UGC_Backpack_Currency_03 UGC_Backpack_Currency_UIBP_C
+---@field UGC_Backpack_Currency_04 UGC_Backpack_Currency_UIBP_C
+---@field UGC_Backpack_Item_InfoTab_UIBP UGC_Backpack_Item_InfoTab_UIBP_C
+---@field UGC_ComboBox_BP UGC_ComboBox_BP_C
+---@field UGC_PropsDetails_GameTips_UIBP UGC_PropsDetails_GameTips_UIBP_C
+---@field UGCCommonDragDropItem UGCCommonDragDropItem_C
+---@field WidgetSwitcher_DepositState UWidgetSwitcher
+---@field WidgetSwitcher_Switch UWidgetSwitcher
+---@field WidgetSwitcher_TakeoutState UWidgetSwitcher
+---@field BackpackType FString

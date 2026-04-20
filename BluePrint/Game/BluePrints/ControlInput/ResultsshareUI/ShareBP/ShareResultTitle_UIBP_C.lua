@@ -1,0 +1,29 @@
+---@class ShareResultTitle_UIBP_C:UUAEUserWidget
+---@field SwitchHunterUI:fun(bIsHunter:bool)
+---@field ShowHideAllTips:fun(bVisible:bool)
+---@field IsBountyHunterMode:fun():bool
+---@field RefreshHunterShow:fun()
+---@field CanAddTipsIntoArray:fun(inputText:FText):bool
+---@field RefreshTitleShow:fun()
+---@field GetMyTitleList:fun()
+---@field InitUI:fun()
+---@field InitBaseTitle:fun()
+---@field GetRealRandomTips:fun()
+---@field UIHide:fun()
+---@field UIShow:fun()
+---@field Construct:fun()
+---@field Shareinterface_UIBP Shareinterface_UIBP_C
+---@field Sharetitle_UIBP Sharetitle_UIBP_C
+---@field ArrayRandomTips ULuaArrayHelper
+---@field ArrayTitleBg ULuaArrayHelper
+---@field ArrayTitleNames ULuaArrayHelper
+---@field randomIdArray ULuaArrayHelper
+---@field MySelfObj bp_share_title_C
+---@field BattleResultObj bp_battleresult_C
+---@field randomStringArray ULuaArrayHelper
+---@field myTitleIdList ULuaArrayHelper
+---@field TotlaTipsNum int32
+---@field uiArrayIndex int32
+---@field allTitleTips ULuaArrayHelper
+---@field HunterShareIDBegin int32
+---@field HunterShareIDEnd int32

@@ -1,0 +1,15 @@
+---@class BP_Other_RPG7_C:BP_ShootWeaponProjectileBase_C
+---@field UpdateBulletMagVisibility:fun()
+---@field OnArrowShooted:fun()
+---@field UserConstructionScript:fun()
+---@field OnWeaponMagOut:fun()
+---@field OnWeaponMagIn:fun()
+---@field OnWeaponMagEnd:fun()
+---@field OnWeaponMagOutNewFPP:fun()
+---@field OnWeaponMagInNewFPP:fun()
+---@field BPPostInitializeComponents:fun()
+---@field WeaponAnimList_RPG WeaponAnimList_RPG_C
+---@field ST_Mag UStaticMeshComponent
+---@field ST_PlayerMag UStaticMeshComponent
+---@field bUseIdleAnim_0 bool
+---@field MagMeshLOD UStaticMesh

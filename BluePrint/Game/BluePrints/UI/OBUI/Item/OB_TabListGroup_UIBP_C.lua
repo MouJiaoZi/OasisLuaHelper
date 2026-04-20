@@ -1,0 +1,30 @@
+---@class OB_TabListGroup_UIBP_C:UUserWidget
+---@field RefreshData:fun(PlayerDataList:ULuaArrayHelper,MaxListNum:int32,TeamInfo:FTeamInfoInOB)
+---@field Construct:fun()
+---@field CanvasPanel_Four UCanvasPanel
+---@field CanvasPanel_IDX_Four UCanvasPanel
+---@field CanvasPanel_IDX_Two UCanvasPanel
+---@field CanvasPanel_One UCanvasPanel
+---@field CanvasPanel_TeamLogo_Four UCanvasPanel
+---@field CanvasPanel_TeamLogo_Two UCanvasPanel
+---@field CanvasPanel_Two UCanvasPanel
+---@field Image_DieTips_Four UImage
+---@field Image_DieTipsTwo UImage
+---@field Image_GroupBG UImage
+---@field ImageTeamLogo_Four UImage
+---@field ImageTeamLogo_Two UImage
+---@field OB_TabListItem_1 OB_TabListItem_UIBP_C
+---@field OB_TabListItem_2_0 OB_TabListItem_UIBP_C
+---@field OB_TabListItem_2_1 OB_TabListItem_UIBP_C
+---@field OB_TabListItem_4_0 OB_TabListItem_UIBP_C
+---@field OB_TabListItem_4_1 OB_TabListItem_UIBP_C
+---@field OB_TabListItem_4_2 OB_TabListItem_UIBP_C
+---@field OB_TabListItem_4_3 OB_TabListItem_UIBP_C
+---@field TextBlock_TeamIdx_Four UTextBlock
+---@field TextBlock_TeamIdx_One UTextBlock
+---@field TextBlock_TeamIdx_Two UTextBlock
+---@field WidgetSwitcher_Group UWidgetSwitcher
+---@field PlayerItemList2 ULuaArrayHelper
+---@field PlayerItemList4 ULuaArrayHelper
+---@field PlayerItemList1 ULuaArrayHelper
+---@field PicUrl FString

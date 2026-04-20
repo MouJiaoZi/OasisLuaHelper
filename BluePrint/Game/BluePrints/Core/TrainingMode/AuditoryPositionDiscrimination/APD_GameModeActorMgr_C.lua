@@ -1,0 +1,2 @@
+---@class APD_GameModeActorMgr_C:UGameModeActorMgrCustomLogin
+---@field GetLuaModule:fun():FString

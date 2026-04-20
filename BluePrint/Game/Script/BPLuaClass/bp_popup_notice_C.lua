@@ -1,0 +1,3 @@
+---@class bp_popup_notice_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent

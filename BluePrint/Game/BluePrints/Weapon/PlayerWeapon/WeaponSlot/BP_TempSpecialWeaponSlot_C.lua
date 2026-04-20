@@ -1,0 +1,1 @@
+---@class BP_TempSpecialWeaponSlot_C:UWeaponSlot_Custom

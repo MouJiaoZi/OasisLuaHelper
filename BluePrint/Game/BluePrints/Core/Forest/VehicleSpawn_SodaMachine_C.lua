@@ -1,0 +1,2 @@
+---@class VehicleSpawn_SodaMachine_C:UVehicleSpawn_C
+---@field LoadVehicleGenerateTable:fun()

@@ -1,0 +1,23 @@
+---@class BP_BoardAvatarShow_C:ABoardAvatarShow
+---@field GetLuaModule:fun():FString
+---@field SetCharacterOnBP:fun(MPk:FString,APk:FString):bool
+---@field InitOriginPose:fun()
+---@field ChildActorRep_MasterAvatar:fun()
+---@field ChildActorRep_AttackerAvatar:fun()
+---@field DoMeterial_2:fun()
+---@field DoMeterial_1:fun()
+---@field UserConstructionScript:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field AttackerWidget UWidgetComponent
+---@field AttackerAvatar UChildActorComponent
+---@field MasterWidget UWidgetComponent
+---@field MasterAvatar UChildActorComponent
+---@field StaticMesh1 UStaticMeshComponent
+---@field StaticMesh UStaticMeshComponent
+---@field Scene USceneComponent
+---@field Begin_Sequence UActorSequenceComponent
+---@field Pose1 UAnimSequence
+---@field Pose2 UAnimSequence
+---@field NewVar_0 UMaterialInterface
+---@field MCharacter ASTExtraBaseCharacter
+---@field ACharacter ASTExtraBaseCharacter

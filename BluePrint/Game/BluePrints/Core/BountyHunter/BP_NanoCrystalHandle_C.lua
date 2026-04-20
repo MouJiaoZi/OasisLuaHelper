@@ -1,0 +1,1 @@
+---@class BP_NanoCrystalHandle_C:UCurrencyItemHandle

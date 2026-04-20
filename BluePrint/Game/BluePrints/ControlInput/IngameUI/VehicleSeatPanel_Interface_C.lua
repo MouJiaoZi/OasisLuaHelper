@@ -1,0 +1,2 @@
+---@class VehicleSeatPanel_Interface_C:UInterface
+---@field ShowSeatPanel:fun(vehicleControlPanel:UUAEUserWidget):bool

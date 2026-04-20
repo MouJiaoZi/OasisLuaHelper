@@ -1,0 +1,1 @@
+---@class HS_Chair04_C:AHiderSceneActorBase_C

@@ -1,0 +1,4 @@
+---@class bp_frametime_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_DeltaTime int32

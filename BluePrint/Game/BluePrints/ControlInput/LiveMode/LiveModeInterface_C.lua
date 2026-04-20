@@ -1,0 +1,3 @@
+---@class LiveModeInterface_C:UInterface
+---@field GetMapUI:fun():UUserWidget,UUserWidget
+---@field AttachLiveModeUI:fun(Counter:UWidget):bool

@@ -1,0 +1,1 @@
+---@class WeaponAnimList_MachineGun_P90CG17_C:UUAECharacterAnimListComponent

@@ -1,0 +1,15 @@
+---@class BP_CommonBtn_C:UCommonBtnComponent
+---@field GetLuaModule:fun():FString
+---@field LuaCleanCacheData:fun()
+---@field LuaBeginPlay:fun()
+---@field TestMenuOpen:fun()
+---@field Event_OnMoveBlock:fun(InCharacter:ASTExtraCharacter,InDoorActor:APUBGDoor)
+---@field OnChangeOpenDoorMode:fun(OpenMode:int32)
+---@field OnShowDoorButton:fun(type:ECommonBtn)
+---@field ReceiveBeginPlay:fun()
+---@field BP_ShowDoorBtn:fun(bShow:bool,bOpen:bool,doorOpenMode:int32)
+---@field BP_SimulateUIClick:fun(bExtraDoor:bool,IsAutoOpen:bool)
+---@field OpenMode int32
+---@field BtnType ECommonBtn
+---@field bShow bool
+---@field bOpen bool

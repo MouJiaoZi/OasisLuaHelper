@@ -1,0 +1,3 @@
+---@class BP_SpawnActorContainer_C:ASpawnActorContainer
+---@field UserConstructionScript:fun()
+---@field DefaultSceneRoot USceneComponent

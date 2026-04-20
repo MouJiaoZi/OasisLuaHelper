@@ -1,0 +1,5 @@
+---@class FPC_PlayFeedBack
+---@field ForceFeedbackEffect FSoftObjectPath
+---@field bLooping bool
+---@field bIgnoreTimeDilation bool
+---@field Tag FName

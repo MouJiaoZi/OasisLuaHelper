@@ -1,0 +1,1 @@
+---@class PickUpNewbieGuide_Tips01_UIBP_C:UUserWidget

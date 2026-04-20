@@ -1,0 +1,3 @@
+---@class BattleItemHandle_VolAvaBP_C:UBattleItemHandle_AvatarBP_C
+---@field HandleDisuse:fun(Reason:EBattleItemDisuseReason):bool
+---@field HandleUse:fun(Target:FBattleItemUseTarget,Reason:EBattleItemUseReason):bool

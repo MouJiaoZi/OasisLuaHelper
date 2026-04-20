@@ -1,0 +1,8 @@
+---@class GMUI_Frozen_C:UUAEUserWidget
+---@field Freezing UButton
+---@field FreezingLayer UEditableTextBox
+---@field Frozen UButton
+---@field Hide UButton
+---@field QuickFrozenBuffTime UEditableTextBox
+---@field FreezingBuff FString
+---@field FrozenBuff FString

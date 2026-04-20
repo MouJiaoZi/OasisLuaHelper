@@ -1,0 +1,80 @@
+---@class Zombie_Control_UIBP_C:UUAEUserWidget
+---@field UIMsg_FirstPlayerPickUpFlare:fun()
+---@field UIMsg_BroadcastSearchRangeConfirmed:fun()
+---@field UIMsg_PlayerUseEvacuationFlare:fun()
+---@field UIMsg_UpdateEvacuationFlareLoc:fun()
+---@field UIMsg_UpdateEvacuationHelicopter:fun()
+---@field CreateOrAddItemToMapPanel:fun(Array:ULuaArrayHelper,index:int32,Class:UClass,IsMiniMap:bool,Aligment:FVector2D):UUAEUserWidget
+---@field SetUnusedItemInvisible:fun(UsedItemNum:int32,ItemArray:ULuaArrayHelper)
+---@field SetAnchorAndAligmentInCanvas:fun(self2:UCanvasPanelSlot,Aligment:FVector2D)
+---@field GetMapDynamicAddPanel:fun(IsMiniMap:bool):UCanvasPanel
+---@field GetMapCalculationData:fun(IsMinimap:bool):FVector,float,float
+---@field SetItemToArray:fun()
+---@field UIMsg_HideBoardingOperation:fun()
+---@field UIMsg_ShowBoardingOperation:fun()
+---@field ShowArrivalTip:fun(Show:bool)
+---@field RefreshRideUIState:fun(Helicopter:ARescueHelicopterBase)
+---@field UIMsg_UpdateHelicopters:fun()
+---@field UIMsg_UpdateSurvivePlayerNum:fun()
+---@field UIMsg_UpdateEscapedPlayerNum:fun()
+---@field UIMsg_UpdateEscapedHelicopterNum:fun()
+---@field UIMsg_UpdateTotalHelicopterNum:fun()
+---@field UpdateAllZombieUIData:fun()
+---@field ShowWDEscapeUI:fun()
+---@field Construct:fun()
+---@field ReceivedInitWidget:fun()
+---@field DX_AttributesUp UWidgetAnimation
+---@field DX_LevelUp UWidgetAnimation
+---@field TopTips UWidgetAnimation
+---@field Button_Run UButton
+---@field CanvasPanel_AirCome_Tips UCanvasPanel
+---@field CanvasPanel_HelicopterPos UCanvasPanel
+---@field TextBlock_1 UTextBlock
+---@field TextBlock_FleeNumber UTextBlock
+---@field TextBlock_PalyerName UTextBlock
+---@field TextBlock_PlaneNumber01 UTextBlock
+---@field TextBlock_PlaneNumber02 UTextBlock
+---@field TextBlock_RemainNumber UTextBlock
+---@field WidgetSwitcher_Tips UWidgetSwitcher
+---@field BPZorder int32
+---@field MiniMapHelicopterArray ULuaArrayHelper
+---@field EntireMapHelicopterArray ULuaArrayHelper
+---@field EntireMapFlareArray ULuaArrayHelper
+---@field MiniMapFlareArray ULuaArrayHelper
+---@field ZombieGameState AZombieGameState
+---@field MiniMapFlareItem01 Zombie_Map_Flare_UIBP_C
+---@field MiniMapFlareItem02 Zombie_Map_Flare_UIBP_C
+---@field MiniMapFlareItem03 Zombie_Map_Flare_UIBP_C
+---@field MiniMapFlareItem04 Zombie_Map_Flare_UIBP_C
+---@field MiniMapFlareItem05 Zombie_Map_Flare_UIBP_C
+---@field MiniMapHelicopterItem01 Zombie_Map_Helicopter_UIBP_C
+---@field MiniMapHelicopterItem02 Zombie_Map_Helicopter_UIBP_C
+---@field MiniMapHelicopterItem03 Zombie_Map_Helicopter_UIBP_C
+---@field MiniMapHelicopterItem04 Zombie_Map_Helicopter_UIBP_C
+---@field MiniMapHelicopterItem05 Zombie_Map_Helicopter_UIBP_C
+---@field EntireMapFlareItem01 Zombie_Map_Flare_UIBP_C
+---@field EntireMapFlareItem02 Zombie_Map_Flare_UIBP_C
+---@field EntireMapFlareItem03 Zombie_Map_Flare_UIBP_C
+---@field EntireMapFlareItem04 Zombie_Map_Flare_UIBP_C
+---@field EntireMapFlareItem05 Zombie_Map_Flare_UIBP_C
+---@field EntireMapHelicopterItem01 Zombie_Map_Helicopter_UIBP_C
+---@field EntireMapHelicopterItem02 Zombie_Map_Helicopter_UIBP_C
+---@field EntireMapHelicopterItem03 Zombie_Map_Helicopter_UIBP_C
+---@field EntireMapHelicopterItem04 Zombie_Map_Helicopter_UIBP_C
+---@field EntireMapHelicopterItem05 Zombie_Map_Helicopter_UIBP_C
+---@field MiddleAnchor FAnchors
+---@field EntireMapHelicopterLineItem01 Zombie_PlaneLine_UIBP_C
+---@field EntireMapHelicopterLineItem02 Zombie_PlaneLine_UIBP_C
+---@field EntireMapHelicopterLineItem03 Zombie_PlaneLine_UIBP_C
+---@field EntireMapHelicopterLineItem04 Zombie_PlaneLine_UIBP_C
+---@field EntireMapHelicopterLineItem05 Zombie_PlaneLine_UIBP_C
+---@field MiniMapHelicopterLineItem01 Zombie_PlaneLine_UIBP_C
+---@field MiniMapHelicopterLineItem02 Zombie_PlaneLine_UIBP_C
+---@field MiniMapHelicopterLineItem03 Zombie_PlaneLine_UIBP_C
+---@field MiniMapHelicopterLineItem04 Zombie_PlaneLine_UIBP_C
+---@field MiniMapHelicopterLineItem05 Zombie_PlaneLine_UIBP_C
+---@field MiniMapHelicopterLineArray ULuaArrayHelper
+---@field EntireMapHelicopterLineArray ULuaArrayHelper
+---@field AvailablePosiontWidgets ULuaArrayHelper
+---@field PosiontWidgets ULuaArrayHelper
+---@field HelicopterArrivalTipsLastTime float

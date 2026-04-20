@@ -1,0 +1,7 @@
+---@class BP_TreasureBox_C:ATreasureBox
+---@field GeneratePickUpData:fun()
+---@field UserConstructionScript:fun()
+---@field OnPickUpDataEmptyOnServer:fun(SelfRef:AActor)
+---@field p_Environment_ice01 UParticleSystemComponent
+---@field Prop_CarePackage01_ST UStaticMeshComponent
+---@field bEnableEffect bool

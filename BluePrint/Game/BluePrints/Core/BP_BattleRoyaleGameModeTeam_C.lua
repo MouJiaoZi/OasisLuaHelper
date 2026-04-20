@@ -1,0 +1,5 @@
+---@class BP_BattleRoyaleGameModeTeam_C:ABattleRoyaleGameModeTeam
+---@field IsEnableTeamAssembleDisplay:fun():bool
+---@field UserConstructionScript:fun()
+---@field BP_WeatherGeneratorComponent BP_WeatherGeneratorComponent_C
+---@field DefaultSceneRoot USceneComponent

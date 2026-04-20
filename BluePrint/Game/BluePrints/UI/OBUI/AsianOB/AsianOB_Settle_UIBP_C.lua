@@ -1,0 +1,19 @@
+---@class AsianOB_Settle_UIBP_C:UUAEUserWidget
+---@field GetSettleRank:fun(Order:int32):AsianOB_SettleItem_UIBP_C
+---@field AsianOB_Bg AsianOB_Bg_C
+---@field AsianOB_Player_00 AsianOB_PlayerItem_UIBP_C
+---@field AsianOB_Player_01 AsianOB_PlayerItem_UIBP_C
+---@field AsianOB_Player_02 AsianOB_PlayerItem_UIBP_C
+---@field AsianOB_Player_03 AsianOB_PlayerItem_UIBP_C
+---@field AsianOB_SettleRank01 AsianOB_SettleItem_UIBP_C
+---@field AsianOB_SettleRank02 AsianOB_SettleItem_UIBP_C
+---@field AsianOB_SettleRank03 AsianOB_SettleItem_UIBP_C
+---@field Button_ShowReturnButton UButton
+---@field Image_Flag UImage
+---@field Newbutton_Close UNewButton
+---@field ScaleBox_IPX UScaleBox
+---@field TextBlock_CountryName UTextBlock
+---@field TextBlock_Desc UTextBlock
+---@field TextBlock_Out UTextBlock
+---@field TextBlock_Rank UTextBlock
+---@field TextBlock_Time UTextBlock

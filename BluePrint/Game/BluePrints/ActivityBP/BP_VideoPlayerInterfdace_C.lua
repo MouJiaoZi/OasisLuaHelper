@@ -1,0 +1,4 @@
+---@class BP_VideoPlayerInterfdace_C:UInterface
+---@field GetRaealPath:fun(InPath:FString):FString
+---@field SetGameInstance:fun(GameInstance:UGameInstance)
+---@field CanPlayVIdeo:fun():bool

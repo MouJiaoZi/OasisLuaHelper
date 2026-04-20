@@ -1,0 +1,11 @@
+---@class bp_loading_has_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_InitPercent int32
+---@field BP_TDMLoading_TipIndex int32
+---@field BP_ARRAY_BIO_DeathMatch_HeadUrlInfo ULuaArrayHelper
+---@field BP_Percent_f float
+---@field BP_myUID FString
+---@field BP_Loading_TipsEndIndex int32
+---@field BP_TDMLoading_DefaultIndex int32
+---@field BP_DeathMatch_GameAccelerator_Status int32

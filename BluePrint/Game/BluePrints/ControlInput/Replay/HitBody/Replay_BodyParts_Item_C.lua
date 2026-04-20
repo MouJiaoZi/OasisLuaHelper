@@ -1,0 +1,7 @@
+---@class Replay_BodyParts_Item_C:UUAEUserWidget
+---@field UpdateHitNumber:fun(AddedCount:int32,bSameWeapon:bool)
+---@field InitItemInfo:fun(Description:FString)
+---@field DX_Hit_Number UWidgetAnimation
+---@field TextBlock_Bodyparts_Name UTextBlock
+---@field TextBlock_NumberHit UTextBlock
+---@field CurHitCount int32

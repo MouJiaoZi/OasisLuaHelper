@@ -1,0 +1,5 @@
+---@class AsianOB_PlayerItem02_UIBP_C:UUAEUserWidget
+---@field AsianGames_Flag AsianGames_FlagItem_UIBP_C
+---@field NameBG UImage
+---@field TextBlock_CountryName UTextBlock
+---@field TextBlock_PlayerName UTextBlock

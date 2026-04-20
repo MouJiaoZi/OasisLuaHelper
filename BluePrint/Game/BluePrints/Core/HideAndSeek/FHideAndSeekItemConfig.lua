@@ -1,0 +1,4 @@
+---@class FHideAndSeekItemConfig
+---@field Class UClass
+---@field Num int32
+---@field LifeTime float

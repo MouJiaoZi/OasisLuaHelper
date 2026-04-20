@@ -1,0 +1,1 @@
+---@class BP_MeleeWeaponSlot_C:UWeaponSlot_MeleeWeapon

@@ -1,0 +1,3 @@
+---@class BP_TimerDoorControlledInterface_C:UInterface
+---@field SetSeconds:fun(Value:float)
+---@field GetSeconds:fun():float

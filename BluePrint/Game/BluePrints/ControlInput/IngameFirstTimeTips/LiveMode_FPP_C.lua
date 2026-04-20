@@ -1,0 +1,3 @@
+---@class LiveMode_FPP_C:UUAEUserWidget
+---@field ShowFirstTips:fun()
+---@field Button_CloseUI UButton

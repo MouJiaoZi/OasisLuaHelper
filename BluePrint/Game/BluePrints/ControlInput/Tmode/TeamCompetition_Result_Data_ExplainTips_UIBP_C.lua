@@ -1,0 +1,8 @@
+---@class TeamCompetition_Result_Data_ExplainTips_UIBP_C:UUAEUserWidget
+---@field Tips_DoubleExp TeamCompetition_Result_Data_ExplainTipsItem_UIBP_C
+---@field Tips_ExpCard TeamCompetition_Result_Data_ExplainTipsItem_UIBP_C
+---@field Tips_First TeamCompetition_Result_Data_ExplainTipsItem_UIBP_C
+---@field Tips_Kill TeamCompetition_Result_Data_ExplainTipsItem_UIBP_C
+---@field Tips_OccupyScore TeamCompetition_Result_Data_ExplainTipsItem_UIBP_C
+---@field Tips_Survive TeamCompetition_Result_Data_ExplainTipsItem_UIBP_C
+---@field VerticalBox_Tips UVerticalBox

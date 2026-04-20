@@ -1,0 +1,19 @@
+---@class Ingame_ColdModePlayerState_UIBP_C:UUAEUserWidget
+---@field ColdModeUpdateBuffLeftTime:fun(BForce:bool)
+---@field UpdateIcon:fun()
+---@field SetTime:fun()
+---@field buffEvent:fun(bufName:FName,status:bool)
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field CanvasPanel_Root UCanvasPanel
+---@field Image_WarmIcon UImage
+---@field TextBlock_WarmTime UTextBlock
+---@field isWarmActive bool
+---@field isBurnActive bool
+---@field uiActive bool
+---@field uiTime int32
+---@field WarmIcon UTexture2D
+---@field BInitSucc bool
+---@field BurnBuffLayer int32
+---@field LeftTime float
+---@field UpdateLeftTime float
+---@field isShelterActive bool

@@ -1,0 +1,1 @@
+---@class UGC_M_DrinkItemHandle_C:UDrinkItemHandle_C

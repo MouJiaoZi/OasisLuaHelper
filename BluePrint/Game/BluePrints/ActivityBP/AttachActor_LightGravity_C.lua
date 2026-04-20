@@ -1,0 +1,8 @@
+---@class AttachActor_LightGravity_C:AActor
+---@field GetSigletonID:fun():int32
+---@field KillOld:fun()
+---@field UserConstructionScript:fun()
+---@field ReceiveDestroyed:fun()
+---@field DefaultSceneRoot USceneComponent
+---@field TargetGravityScale float
+---@field OriginalGravityScale float

@@ -1,0 +1,4 @@
+---@class MarkDescShowCondition_C:UMapExConditionBase
+---@field GetLuaModule:fun():FString
+---@field IsOK:fun():bool
+---@field UIModulesPrefab UUAEDataTable

@@ -1,0 +1,51 @@
+---@class Ingame_TeamPanelNew_BP_C:UUAEUserWidget
+---@field TeamPanel_GetTeammateItem:fun(NewParam:int32):UUAEUserWidget
+---@field TeamPanel_IsMatchingPlayerKey:fun(PlayerKey:FString,InWidget:UUserWidget):bool
+---@field TeamPanel_SetTeamItemZorder:fun(NewParam:UUserWidget):bool
+---@field GetLuaModule:fun():FString
+---@field IsCustomUIDataValid:fun(Widget:UWidget,SaveDataSize:FVector2D):bool
+---@field LuaOnModeUIManagerArrayChange:fun()
+---@field DelayRegisterModeUIManagerArray:fun()
+---@field SetTeamItemZorder:fun(NewParam:UUserWidget)
+---@field LuaUnInitItem:fun(InIndex:int32)
+---@field LuaInitItem:fun(PlayerUID:int64,ItemIndex:int32)
+---@field LuaRespawnInitWidget:fun()
+---@field LuaInitWidget:fun()
+---@field LuaCreateTeammateWidget:fun(NewParam:UUserWidget)
+---@field ApplyCustomSet:fun()
+---@field UpdateTeammateItem:fun(InPlayerState:ULuaArrayHelper)
+---@field UIMsg_WeixinLiveStatus:fun()
+---@field IsNeedUpdatePFList:fun():bool
+---@field ClearAllPlayerItems:fun()
+---@field CollectWidgets:fun()
+---@field SetSettingControlUI:fun()
+---@field RespawnInitWidget:fun()
+---@field SetCustomizeUIInfo:fun(SaveGame:BP_SAVEGAME_UIElemLayout_C,FireMode:int32)
+---@field ReceivedInitWidget:fun()
+---@field Border_Team UBorder
+---@field Button_HideFollowList UButton
+---@field Button_OneClickInvitation UButton
+---@field Button_ParachuteFollow UButton
+---@field Canvas_Border_Team UCanvasPanel
+---@field CanvasPanel_FollowPanel UCanvasPanel
+---@field CanvasPanel_FollowSlot1 UCanvasPanel
+---@field CanvasPanel_FollowSlot2 UCanvasPanel
+---@field CanvasPanel_FollowSlot3 UCanvasPanel
+---@field CanvasPanel_FollowSlot4 UCanvasPanel
+---@field CanvasPanel_Line1 UCanvasPanel
+---@field CanvasPanel_Line2 UCanvasPanel
+---@field CanvasPanel_Line3 UCanvasPanel
+---@field CanvasPanel_PosInLevel UCanvasPanel
+---@field CanvasPanel_TeamItemList UCanvasPanel
+---@field FollowBtn_WarControl UGridPanel
+---@field FollowPanel_WarControl UCanvasPanel
+---@field IngameTeamItemList ULuaArrayHelper
+---@field FollowItemList ULuaArrayHelper
+---@field FollowItemLineList ULuaArrayHelper
+---@field QuickTipsList ULuaArrayHelper
+---@field SignalbarLoaded bool
+---@field ShotRemindDist float
+---@field RobotIconParent LivePeoplePosition_BP_C
+---@field SubTeamItemMap ULuaArrayHelper
+---@field FollowItemParentList ULuaArrayHelper
+---@field ItemExpandWidgetMap ULuaMapHelper

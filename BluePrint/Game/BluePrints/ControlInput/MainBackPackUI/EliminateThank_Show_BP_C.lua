@@ -1,0 +1,10 @@
+---@class EliminateThank_Show_BP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field CanvasPanel_Thank_Show UCanvasPanel
+---@field Common_Avatar_BP Common_Avatar_BP_C
+---@field GridPanel_Eliminate UGridPanel
+---@field Image_Money UImage
+---@field NewButton_Giving UNewButton
+---@field SizeBox_PlayerInfo USizeBox
+---@field TextBlock_Money UTextBlock
+---@field WidgetSwitcher_Gender UWidgetSwitcher

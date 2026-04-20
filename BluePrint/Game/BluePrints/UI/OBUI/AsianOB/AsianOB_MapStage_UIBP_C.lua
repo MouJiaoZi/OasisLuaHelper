@@ -1,0 +1,7 @@
+---@class AsianOB_MapStage_UIBP_C:UUAEUserWidget
+---@field ChangeMapMode:fun()
+---@field SetMapObject:fun(Map:UObject)
+---@field CanvasPanel_Map UCanvasPanel
+---@field CountDownText UTextBlock
+---@field TextBlock_Desc UTextBlock
+---@field Map UObject

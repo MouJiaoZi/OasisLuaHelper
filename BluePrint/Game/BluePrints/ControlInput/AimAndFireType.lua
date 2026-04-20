@@ -1,0 +1,6 @@
+---@class AimAndFireType
+---@field NewEnumerator0 int32
+---@field NewEnumerator1 int32
+---@field NewEnumerator3 int32
+---@field NewEnumerator2 int32
+---@field AimAndFireType_MAX int32

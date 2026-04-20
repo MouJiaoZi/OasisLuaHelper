@@ -1,0 +1,25 @@
+---@class RecordDataUIBP_C:UUserWidget
+---@field HideOther:fun()
+---@field SetTime:fun(CurTime:float)
+---@field FindOrAddRecordDataManager:fun():ARecordDataManager
+---@field Construct:fun()
+---@field Button_LoadData UButton
+---@field Button_StartPlay UButton
+---@field CanvasPanel_Buttons UCanvasPanel
+---@field CheckBox_Hide UCheckBox
+---@field ComboBoxString_DataName UComboBoxString
+---@field EditableTextBox_Path UEditableTextBox
+---@field EditableTextBox_Path2 UEditableTextBox
+---@field TextBlock_time UTextBlock
+---@field InputRecoder InputRecoderTest_C
+---@field RecordDataManagerClass UClass
+---@field RecordDataManagerRef ARecordDataManager
+---@field IsBind bool
+---@field RecordDataCamera1 ULuaArrayHelper
+---@field RecordDataCamera2 ULuaArrayHelper
+---@field ThresholdList ULuaArrayHelper
+---@field RcordDataSwitchWeapon1 ULuaArrayHelper
+---@field RcordDataSwitchWeapon2 ULuaArrayHelper
+---@field PropertyName1 FName
+---@field PropertyName2 FName
+---@field ItemList ULuaArrayHelper

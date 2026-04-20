@@ -1,0 +1,6 @@
+---@class Tmode_PlayerHeadHPItem_UIBP_C:UTeammatePositionWidget
+---@field SetPlayerNum:fun()
+---@field SetCurrentWidgetVisible:fun(Visible:bool)
+---@field Construct:fun()
+---@field CanvasPanel_0 UCanvasPanel
+---@field GridPanel_0 UGridPanel

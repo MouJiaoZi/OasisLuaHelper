@@ -1,0 +1,4 @@
+---@class AsianOB_Countdown_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field CountDownText UTextBlock
+---@field TextBlock_Guide UTextBlock

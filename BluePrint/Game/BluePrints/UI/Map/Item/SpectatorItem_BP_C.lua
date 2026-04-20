@@ -1,0 +1,5 @@
+---@class SpectatorItem_BP_C:UPlayerItemInMap
+---@field ShowAngle:fun(RotationZ:float)
+---@field OnInitWidgetBp:fun()
+---@field CanvasPanel_Player UCanvasPanel
+---@field CanvasPanel_SelfArrow UCanvasPanel

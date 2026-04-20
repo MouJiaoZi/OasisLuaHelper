@@ -1,0 +1,1 @@
+---@class WeaponAnimList_Other_CompoundBow_FullBow_C:UUAECharacterAnimListComponent

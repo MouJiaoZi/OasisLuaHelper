@@ -1,0 +1,4 @@
+---@class FBunkerStruct
+---@field Type int32
+---@field PTag int32
+---@field Lerp float

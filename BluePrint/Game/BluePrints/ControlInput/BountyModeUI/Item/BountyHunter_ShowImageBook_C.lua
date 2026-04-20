@@ -1,0 +1,7 @@
+---@class BountyHunter_ShowImageBook_C:UIngame_ActivityShowBookUINew_C
+---@field OnLoadTextureDone:fun(NewParam:UObject,NewParam1:int32)
+---@field OnShowUI:fun()
+---@field Button_Close UButton
+---@field CanvasPanel_0 UCanvasPanel
+---@field Common_UIPopupBG Common_UIPopupBG_C
+---@field Image_TipsUI UImage

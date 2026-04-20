@@ -1,0 +1,1 @@
+---@class VehicleSpawn_DestinyCircle_C:UBP_VehicleAndTreasureBoxGeneratorComponent_C

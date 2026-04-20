@@ -1,0 +1,13 @@
+---@class Ingame_HalloweenActivityGuide_UIBP_C:UUAEUserWidget
+---@field UIMSG_ShowBossTip:fun()
+---@field UIMSG_ShowEndTip:fun(NewParam:int32)
+---@field UIMSG_ShowWelcomeTip:fun()
+---@field ReceivedInitWidget:fun()
+---@field GeneralTips_anima UWidgetAnimation
+---@field TopTips_anima UWidgetAnimation
+---@field Image_goods UImage
+---@field TopTipsWaining UUTRichTextBlock
+---@field UTRichTextBlock_GeneralTips UUTRichTextBlock
+---@field welcomMsgId int32
+---@field endMsgId int32
+---@field bossMsgId int32

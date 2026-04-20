@@ -1,0 +1,4 @@
+---@class BP_WarGameState_C:AWarGameState
+---@field UserConstructionScript:fun()
+---@field BP_ObjectPosMgr BP_ObjectPosMgr_C
+---@field DefaultSceneRoot USceneComponent

@@ -1,0 +1,4 @@
+---@class PM_BackTips_Guide_C:UNewbieGuideWidget
+---@field OnCreateAndShow:fun(GuideId:int32,UIConfigIndex:int32)
+---@field CanvasPanel_SikllTips1 UCanvasPanel
+---@field UTRichTextBlock_OperatingTips1 UUTRichTextBlock

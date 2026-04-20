@@ -1,0 +1,9 @@
+---@class MapMarkParticleActor_C:AMapMarkParticleActor
+---@field GetTraceBlockZ:fun(WorldLocation:FVector):float
+---@field UserConstructionScript:fun()
+---@field DestroyMarkActor:fun()
+---@field Initialize:fun(bShow:bool,MapMarkIndex:int32,MapMarkWorldLocation:FVector4)
+---@field ModifyParticleSize:fun()
+---@field ParticleSystem UParticleSystemComponent
+---@field DefaultSceneRoot USceneComponent
+---@field IgnoreActorList ULuaArrayHelper

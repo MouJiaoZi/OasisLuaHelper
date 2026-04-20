@@ -1,0 +1,2 @@
+---@class AsianOB_StageItem2_UIBP_C:UUAEUserWidget
+---@field WidgetSwitcher_Slider UWidgetSwitcher

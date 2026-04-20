@@ -1,0 +1,7 @@
+---@class BP_Other_M134_C:BP_ShootWeaponBase_C
+---@field UserConstructionScript:fun()
+---@field StartFire:fun()
+---@field WeaponAnimList_Other_M134 WeaponAnimList_Other_M134_C
+---@field WeaponWarmUpState UWeaponWarmUpState
+---@field bUseIdleAnim_0_0 bool
+---@field AKCompRef UAkComponent

@@ -1,0 +1,1 @@
+---@class BattleItemHandle_GFXC_BP_Shoes_415_C:BattleItemHandle_AvatarBP_C

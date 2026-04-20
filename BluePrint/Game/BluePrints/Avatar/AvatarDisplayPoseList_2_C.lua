@@ -1,0 +1,1 @@
+---@class AvatarDisplayPoseList_2_C:AAvatarDisplayPoseList_C

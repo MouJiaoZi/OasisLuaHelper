@@ -1,0 +1,7 @@
+---@class bp_lobby_reportbug_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field REPROTBUG_REASON_CANNOTENTERBATTLE int32
+---@field BP_LobbyReportBug_Send bool
+---@field BP_LobbyReportBug_Des FString
+---@field BP_LobbyReportBug_Reason FString

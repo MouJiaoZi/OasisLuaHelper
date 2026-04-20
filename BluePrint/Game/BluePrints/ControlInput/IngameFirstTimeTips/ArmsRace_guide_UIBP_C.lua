@@ -1,0 +1,6 @@
+---@class ArmsRace_guide_UIBP_C:UUAEUserWidget
+---@field HideTmodeTipsUI:fun()
+---@field ShowTmodeTipsUI:fun()
+---@field ReceivedInitWidget:fun()
+---@field Button_close UButton
+---@field IsShow bool

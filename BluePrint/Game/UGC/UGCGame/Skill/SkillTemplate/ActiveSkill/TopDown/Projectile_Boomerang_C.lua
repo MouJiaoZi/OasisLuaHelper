@@ -1,0 +1,4 @@
+---@class Projectile_Boomerang_C:APESkillProjectileBase
+---@field UserConstructionScript:fun()
+---@field ParticleSystem UParticleSystemComponent
+---@field Box UBoxComponent

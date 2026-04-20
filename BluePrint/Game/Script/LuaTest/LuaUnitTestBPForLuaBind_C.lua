@@ -1,0 +1,4 @@
+---@class LuaUnitTestBPForLuaBind_C:ULuaTestBP_C
+---@field GetLuaModule:fun():FString
+---@field BPTestSetString:fun(InString:FString)
+---@field BPTestString FString

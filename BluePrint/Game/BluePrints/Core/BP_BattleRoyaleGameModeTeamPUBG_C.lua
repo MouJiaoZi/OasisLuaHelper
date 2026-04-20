@@ -1,0 +1,6 @@
+---@class BP_BattleRoyaleGameModeTeamPUBG_C:ABP_BattleRoyaleGameModeTeam_C
+---@field UserConstructionScript:fun()
+---@field AIGridLocationManager UAIGridLocationManagerComponent
+---@field AirAttack UAirAttackComponent
+---@field AirDrop UAirDropComponent
+---@field CircleMgr UCircleMgrComponent

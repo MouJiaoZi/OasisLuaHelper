@@ -1,0 +1,12 @@
+---@class QuickDecalItem_BP_C:UUAEUserWidget
+---@field RefreshBrush:fun(Index:int32)
+---@field RefreshData:fun(Index:int32,Number:int32,bIsFancy:bool,FancyDecalDyeID:int32)
+---@field OnclickSelf__DelegateSignature:fun(Index:int32)
+---@field CanvasPanel_none UCanvasPanel
+---@field CanvasPanel_show UCanvasPanel
+---@field Click UButton
+---@field Image_spray UImage
+---@field Image_Spraying UImage
+---@field TextBlock_0 UTextBlock
+---@field OnclickSelf ULuaMulticastDelegate
+---@field ID int32

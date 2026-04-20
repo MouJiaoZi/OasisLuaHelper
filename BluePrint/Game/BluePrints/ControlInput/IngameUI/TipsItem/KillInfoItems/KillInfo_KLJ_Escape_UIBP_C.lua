@@ -1,0 +1,8 @@
+---@class KillInfo_KLJ_Escape_UIBP_C:UKillInfo_Base_UIBP_C
+---@field ShowKillInfoStatus:fun(NewParam:FClientFatalDamageRecordData,ImageDownloader:UObject,BaseUI:MainControlBaseUI_C)
+---@field ShowLeftQueueBaseInfo:fun(NewParam:FClientFatalDamageRecordData,ImageDownloader:UImageDownloader)
+---@field BGSelector UWidgetSwitcher
+---@field HorizontalBox_0 UHorizontalBox
+---@field Image_KillBG UImage
+---@field KillInfoBG UImage
+---@field PlayerName_TextBlock UTextBlock

@@ -1,0 +1,1 @@
+---@class BP_MobAIC_C:AMobAIController

@@ -1,0 +1,28 @@
+---@class OB_StarGameRingItem_UIBP_C:UUAEUserWidget
+---@field OnTouchStarted:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field OnTouchMoved:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field OnTouchEnded:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field SetEdit:fun(Edit:bool,BFinish:bool)
+---@field CalNextCircleMapPos:fun(UIPos:FVector2D)
+---@field PressUp:fun()
+---@field GetUIPos:fun(MapPos:FVector):FVector2D
+---@field UpdatePos:fun()
+---@field Initial:fun(Pos:FVector,SafeAreaCircle:float,NextCircle:float,Angle:float,Landspace:FVector,WhiteCircleRadius:float)
+---@field ChangeMapScale:fun(MapScale:float)
+---@field ShowHideCircle:fun(BShow:bool)
+---@field OnMouseLeave:fun(MouseEvent:FPointerEvent)
+---@field CircleImage UImage
+---@field NewButton_Move UNewButton
+---@field MousePos FVector2D
+---@field LandspaceCenter FVector
+---@field CurMapScale float
+---@field SafeAreaRadius float
+---@field NextCircleRadius float
+---@field NextCircleMapPos FVector
+---@field RotateAngleCpp float
+---@field MoveDistance float
+---@field SafeAreaMapPos FVector
+---@field BaseUIPos FVector2D
+---@field BPress bool
+---@field BInit bool
+---@field BEdit bool

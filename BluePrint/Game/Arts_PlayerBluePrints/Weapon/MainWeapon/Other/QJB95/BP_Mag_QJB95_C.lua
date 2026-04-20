@@ -1,0 +1,1 @@
+---@class BP_Mag_QJB95_C:BattleItemHandle_WeapAttachment_C

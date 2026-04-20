@@ -1,0 +1,1 @@
+---@class HS_DeskLamp01_C:AHiderSceneActorBase_C

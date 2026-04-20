@@ -1,0 +1,16 @@
+---@class Ingame_NoUIVision_UIBP_C:UCustomUserWidget
+---@field StartNoUIFreeCamera:fun(TouchIndex:ETouchIndex,Loc:FVector)
+---@field StopNoUIFreeCamera:fun(FingerIndex:ETouchIndex,Loc:FVector)
+---@field OnTouchEnded:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field OnTouchStarted:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field ReceivedInitWidget:fun()
+---@field AimControlGrid UGridPanel
+---@field BtnImg UImage
+---@field Image_1 UImage
+---@field InvalidationBox_0 UInvalidationBox
+---@field PressImg FSlateBrush
+---@field NormalImg FSlateBrush
+---@field CanUseFreeCam bool
+---@field ActiveFreeCamera bool
+---@field MyGeometry FGeometry

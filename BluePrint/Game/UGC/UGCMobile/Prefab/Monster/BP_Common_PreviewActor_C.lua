@@ -1,0 +1,9 @@
+---@class BP_Common_PreviewActor_C:BP_UGCMobileBaseActor_C
+---@field GetLuaModule:fun():FString
+---@field SetPreviewIndex:fun(InIndex:int32)
+---@field GetPreviewIndex:fun():int32
+---@field BPUpdatePerformance:fun(WaypointUpdate:TScriptInterface)
+---@field UpdateLandLocation:fun()
+---@field UserConstructionScript:fun()
+---@field SkeletalMesh USkeletalMeshComponent
+---@field PreviewIndex int32

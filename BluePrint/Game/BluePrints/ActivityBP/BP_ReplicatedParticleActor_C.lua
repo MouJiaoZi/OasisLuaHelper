@@ -1,0 +1,7 @@
+---@class BP_ReplicatedParticleActor_C:AActor
+---@field UserConstructionScript:fun()
+---@field ParticleSystem UParticleSystemComponent
+---@field DefaultSceneRoot USceneComponent
+---@field ActorLifeSpan float
+---@field Particle UParticleSystem
+---@field AkEvent UAkAudioEvent

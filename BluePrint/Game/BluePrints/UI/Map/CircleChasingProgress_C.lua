@@ -1,0 +1,39 @@
+---@class CircleChasingProgress_C:UChasingBar
+---@field UIMSG_HideHalloween:fun()
+---@field UIMSG_ShowHalloween:fun()
+---@field UIMsg_OnShowCircle:fun()
+---@field UIMsg_OnBlueCircleRun:fun()
+---@field UIMsg_DynamicWeatherCreate:fun()
+---@field ReadCountdownTextColorTable:fun()
+---@field ChangeCoutdownTextColorByCircleIndex:fun(CircleInvertIndex:int32)
+---@field GetLocalTimeOfCircleStatusStart:fun(CircleStatusStartServerWorldSeconds:float):float
+---@field FlashCautionIcon:fun()
+---@field GetPlayerPawn:fun():APawn
+---@field OnCountDownTextInvisible:fun()
+---@field OnPlayerEnterExitBlueCircle:fun()
+---@field CleanTheProgressBar:fun()
+---@field UpdateCountDownText:fun()
+---@field ReceivedInitWidget:fun()
+---@field OnCircleNotCountDown:fun()
+---@field BlueCircleRunning UWidgetAnimation
+---@field CleaningProgressBar UWidgetAnimation
+---@field CanvasPanel_LIVE UCanvasPanel
+---@field CanvasPanel_SignalBar UCanvasPanel
+---@field CanvasPanel_Weather UCanvasPanel
+---@field CautionIcon UImage
+---@field CountDownText UTextBlock
+---@field HalloweenTime UCustomSocketPanel
+---@field ProgressBar_BlueBar UProgressBar
+---@field Tips_DayNightChange UCanvasPanel
+---@field STExtraGamestate ASTExtraGameStateBase
+---@field PlayerPawn APawn
+---@field EscapeMarkerCanvasPanelSlot UCanvasPanelSlot
+---@field ProgressBarCanvasPanelSlot UCanvasPanelSlot
+---@field CautionFlashing float
+---@field DeltaTime float
+---@field Taopao_zhongdu_R FSlateBrush
+---@field Taopao_zhongdu_W FSlateBrush
+---@field Taopao_zhongduTips_R FSlateBrush
+---@field Taopao_zhongduTips_W FSlateBrush
+---@field DebugTimeString FString
+---@field CircleIndexToClockColorMap ULuaMapHelper

@@ -1,0 +1,10 @@
+---@class BP_PlaneCharacter_Yun20_C:ABP_PlaneCharacterBase_C
+---@field UserConstructionScript:fun()
+---@field BannerAttachComp USceneComponent
+---@field ParticleSystem UParticleSystemComponent
+---@field ParticleSystem6 UParticleSystemComponent
+---@field ParticleSystem5 UParticleSystemComponent
+---@field ParticleSystem4 UParticleSystemComponent
+---@field ParticleSystem3 UParticleSystemComponent
+---@field ParticleSystem2 UParticleSystemComponent
+---@field ParticleSystem1 UParticleSystemComponent

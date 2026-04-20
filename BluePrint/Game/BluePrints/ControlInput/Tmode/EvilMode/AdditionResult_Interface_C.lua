@@ -1,0 +1,6 @@
+---@class AdditionResult_Interface_C:UInterface
+---@field OnShowShareInfo:fun(LuaClass:ALuaClassObj):bool
+---@field OpenOrCloseAllClickBtn:fun(bOpen:bool):bool
+---@field UpdateAdditionPlayerHeadInfos:fun(HeadInfos:ULuaArrayHelper):bool
+---@field InitAdditionMainInfo:fun(LuaClass:ALuaClassObj,ItemCount:int32,IsObserver:bool):bool
+---@field UpdateAdditionBtnStatus:fun(bAddFriend:bool):bool

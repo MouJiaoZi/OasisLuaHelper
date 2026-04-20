@@ -1,0 +1,1 @@
+---@class BP_MZJ_2X_HBLW_C:BP_MZJ_2X_C

@@ -1,0 +1,1 @@
+---@class WeaponAnimList_Sniper_MK3_C:UUAECharacterAnimListComponent

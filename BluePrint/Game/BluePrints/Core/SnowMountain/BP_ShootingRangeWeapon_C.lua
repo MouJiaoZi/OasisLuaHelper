@@ -1,0 +1,5 @@
+---@class BP_ShootingRangeWeapon_C:ASTExtraHouseActor
+---@field UserConstructionScript:fun()
+---@field BP_UEquipBoxGeneratorComponent BP_UEquipBoxGeneratorComponent_C
+---@field BP_EquipBoxGeneratorGroupComponent BP_EquipBoxGeneratorGroupComponent_C
+---@field DefaultSceneRoot USceneComponent

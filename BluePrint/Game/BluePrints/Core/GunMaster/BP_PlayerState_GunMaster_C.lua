@@ -1,0 +1,3 @@
+---@class BP_PlayerState_GunMaster_C:ASTGunMasterPlayerState
+---@field UserConstructionScript:fun()
+---@field DefaultSceneRoot USceneComponent

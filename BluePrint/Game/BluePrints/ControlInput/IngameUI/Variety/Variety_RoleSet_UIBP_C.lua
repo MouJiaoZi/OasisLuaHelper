@@ -1,0 +1,16 @@
+---@class Variety_RoleSet_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field Image_Max_Select UImage
+---@field Image_Now_Select UImage
+---@field NewButton_Apply UNewButton
+---@field NewButton_Max_Select UNewButton
+---@field NewButton_Now_Select UNewButton
+---@field Variety_Slider_Energy Variety_Slider_UIBP_C
+---@field Variety_Slider_HP Variety_Slider_UIBP_C
+---@field Variety_Slider_Kill Variety_Slider_UIBP_C
+---@field Variety_Slider_Live Variety_Slider_UIBP_C
+---@field Variety_Slider_MoveSpeed Variety_Slider_UIBP_C
+---@field Variety_Slider_Signal Variety_Slider_UIBP_C
+---@field Variety_Switch_God Variety_Switch_UIBP_C
+---@field WidgetSwitcher_Max_Color UWidgetSwitcher
+---@field WidgetSwitcher_Now_Color UWidgetSwitcher

@@ -1,0 +1,27 @@
+---@class MobileEditor_MenuBar_UIBP_C:UUAEUserWidget
+---@field Button_GameMusic UNewButton
+---@field Canvas_AIGC_GenerateMark UCanvasPanel
+---@field Canvas_Blocky_GenerateMark UCanvasPanel
+---@field NewButton_AIGC UNewButton
+---@field NewButton_Archive UNewButton
+---@field NewButton_Blocky UNewButton
+---@field NewButton_Camera UNewButton
+---@field NewButton_Collision UNewButton
+---@field NewButton_EditUI UNewButton
+---@field NewButton_EventManage UNewButton
+---@field NewButton_Filters UNewButton
+---@field NewButton_Helmet UNewButton
+---@field NewButton_LockGrid UNewButton
+---@field NewButton_Mask UNewButton
+---@field NewButton_ObjectManager UNewButton
+---@field NewButton_Script UNewButton
+---@field NewButton_Skybox UNewButton
+---@field NewButton_Task UNewButton
+---@field NewButton_Visibility UNewButton
+---@field Switcher_ObjectManager UWidgetSwitcher
+---@field TextBlock_GenerateMark UTextBlock
+---@field WidgetSwitcher_0 UWidgetSwitcher
+---@field WidgetSwitcher_Collision UWidgetSwitcher
+---@field WidgetSwitcher_Helmet UWidgetSwitcher
+---@field WidgetSwitcher_LockGrid UWidgetSwitcher
+---@field WidgetSwitcher_Visibility UWidgetSwitcher

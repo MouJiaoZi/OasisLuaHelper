@@ -1,0 +1,5 @@
+---@class BP_PEProjectile_MGLBullet_C:APESkillProjectileBase
+---@field GetLuaModule:fun():FString
+---@field UserConstructionScript:fun()
+---@field StaticMesh USTCustomMeshComponent
+---@field Sphere USphereComponent

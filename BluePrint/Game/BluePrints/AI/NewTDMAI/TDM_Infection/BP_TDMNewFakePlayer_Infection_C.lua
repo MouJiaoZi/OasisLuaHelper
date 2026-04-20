@@ -1,0 +1,4 @@
+---@class BP_TDMNewFakePlayer_Infection_C:AInfectionTDM_AIController
+---@field GetLuaModule:fun():FString
+---@field UserConstructionScript:fun()
+---@field AIChooseEnemy UAIChooseEnemyComponent

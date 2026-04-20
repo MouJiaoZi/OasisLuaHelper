@@ -1,0 +1,3 @@
+---@class PointSceneComp_C:USceneComponent
+---@field bIsBegin bool
+---@field TagFlag int32

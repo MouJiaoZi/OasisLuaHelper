@@ -1,0 +1,13 @@
+---@class BP_WaitBase_C:AActivityBaseActor
+---@field GetParent:fun():BP_FloorBase_C
+---@field GetIsHeightestFloor:fun():bool
+---@field GetIsLowestFloor:fun():bool
+---@field RequestDown:fun(NewParam:FGISCCF_Param)
+---@field RequestUP:fun(NewParam:FGISCCF_Param)
+---@field CheckCanShowDown:fun(NewParam:FGISCCF_Param):bool
+---@field CheckCanShowUP:fun(NewParam:FGISCCF_Param):bool
+---@field UserConstructionScript:fun()
+---@field GISActorComponentBase UGISActorComponentBase
+---@field Box UBoxComponent
+---@field bIsClick bool
+---@field PlayerID_Array ULuaArrayHelper

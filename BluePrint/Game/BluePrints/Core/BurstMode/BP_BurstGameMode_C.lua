@@ -1,0 +1,1 @@
+---@class BP_BurstGameMode_C:ABP_UGCGameBase_C

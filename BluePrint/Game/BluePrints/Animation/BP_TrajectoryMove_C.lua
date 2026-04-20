@@ -1,0 +1,4 @@
+---@class BP_TrajectoryMove_C:ATrajectoryWithParticleActor
+---@field GetNextTarPlayer:fun():ASTExtraPlayerCharacter
+---@field UserConstructionScript:fun()
+---@field DefaultSceneRoot USceneComponent

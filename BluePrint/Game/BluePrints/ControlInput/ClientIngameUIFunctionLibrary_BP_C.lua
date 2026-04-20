@@ -1,0 +1,3 @@
+---@class ClientIngameUIFunctionLibrary_BP_C:UBlueprintFunctionLibrary
+---@field AddSignalBar fun(Parent:UPanelWidget,Visibility:ESlateVisibility,Name:FString,__WorldContext:UObject):UUserWidget
+---@field GetInputControlPanel fun(UI:UUAEUserWidget,__WorldContext:UObject):UUAEUserWidget

@@ -1,0 +1,2 @@
+---@class NewResult_EatChickTime_UIBP_C:UUAEUserWidget
+---@field CanvasPanel_Animation UCanvasPanel

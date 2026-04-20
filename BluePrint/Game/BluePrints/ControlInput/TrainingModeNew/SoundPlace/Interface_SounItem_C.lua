@@ -1,0 +1,2 @@
+---@class Interface_SounItem_C:UInterface
+---@field Soun_OnClickItem:fun(NewParam:int32,NewParam1:FString)

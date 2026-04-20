@@ -1,0 +1,20 @@
+---@class OB_TeammateList_BP_C:UUAEUserWidget
+---@field UIMsg_OBRemindTeammateShoot:fun(playerKey:FString,bShow:bool,Dist:float)
+---@field UpdateShowSignalBar:fun(Show:bool)
+---@field RefreshData:fun(TeammateList:ULuaArrayHelper,TeamInfo:FTeamInfoInOB)
+---@field Construct:fun()
+---@field ReceivedInitWidget:fun()
+---@field CanvasPanel_0 UCanvasPanel
+---@field HorizontalBox_Normal UHorizontalBox
+---@field HorizontalBox_WithIcon UHorizontalBox
+---@field Image_TeamLOGO UImage
+---@field OB_TeamLeftHPItem_UIBP_0 OB_TeamLeftHPItem_UIBP_C
+---@field OB_TeamLeftHPItem_UIBP_C_1 OB_TeamLeftHPItem_UIBP_C
+---@field OB_TeamLeftHPItem_UIBP_C_2 OB_TeamLeftHPItem_UIBP_C
+---@field OB_TeamLeftHPItem_UIBP_C_3 OB_TeamLeftHPItem_UIBP_C
+---@field TextBlock_TotalKilled UTextBlock
+---@field TextBlock_TotalKilledTeam UTextBlock
+---@field WidgetSwitcher_TeamLOGO UWidgetSwitcher
+---@field TeammateInfolist ULuaArrayHelper
+---@field PicUrl FString
+---@field ShotRemindDist float

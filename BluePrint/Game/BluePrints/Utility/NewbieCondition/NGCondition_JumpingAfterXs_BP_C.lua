@@ -1,0 +1,1 @@
+---@class NGCondition_JumpingAfterXs_BP_C:UNGCondition_IsElapseXsAfterJump

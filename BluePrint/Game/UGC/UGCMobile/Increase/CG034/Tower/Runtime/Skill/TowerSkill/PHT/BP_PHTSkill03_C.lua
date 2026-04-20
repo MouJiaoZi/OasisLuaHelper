@@ -1,0 +1,11 @@
+---@class BP_PHTSkill03_C:BP_UGCM_Tower_SkillBase_C
+---@field GetLuaModule:fun():FString
+---@field SkillStart:fun()
+---@field SelectFan:fun()
+---@field BurnBuff UClass
+---@field AtkEnd UAkAudioEvent
+---@field AtkStart UAkAudioEvent
+---@field AtkLoop UAkAudioEvent
+---@field Fire UParticleSystem
+---@field LOffset FVector
+---@field ROffset FVector

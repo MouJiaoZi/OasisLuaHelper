@@ -1,0 +1,13 @@
+---@class OB_RouteMainTeam_UIBP_C:UUAEUserWidget
+---@field RouteMainTeam_RefreshAll:fun():bool
+---@field CanvasPanel_5 UCanvasPanel
+---@field OB_AirLineGroup UCanvasPanel
+---@field OB_RouteTeamList_1 OB_RouteTeamList_UIBP_C
+---@field OB_RouteTeamList_2 OB_RouteTeamList_UIBP_C
+---@field OB_RouteTeamList_3 OB_RouteTeamList_UIBP_C
+---@field TextBlock_SelectNum UTextBlock
+---@field TextBlock_total UTextBlock
+---@field TeamList1 ULuaArrayHelper
+---@field TeamList2 ULuaArrayHelper
+---@field TeamList3 ULuaArrayHelper
+---@field Flag int32

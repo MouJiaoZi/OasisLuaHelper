@@ -1,0 +1,26 @@
+---@class BP_RTEMotionPreview_C:UUGCMobile_RTEObject
+---@field GetLuaModule:fun():FString
+---@field ClearTempDatas:fun()
+---@field PreparePreviewActors:fun():ULuaArrayHelper
+---@field LuaPostActorCopied:fun(TemplateActor:AActor,InActor:AActor)
+---@field LuaPostDestroyActor:fun(InActor:AActor)
+---@field LuaPostShowActor:fun(InActor:AActor)
+---@field LuaPostHideActor:fun(InActor:AActor)
+---@field LuaPostStartMotionTest:fun(MotionID:int32,InTestMode:EUGCMobileTestMode)
+---@field LuaPostStopMotionTest:fun()
+---@field StartSingleSplineMotionTest:fun(MotionID:int32,StartSplinePointID:int32)
+---@field OnMotionActorCopied:fun(TemplateActor:AActor,InActor:AActor,bCollisionVisible:bool)
+---@field ShowActors:fun()
+---@field GetNSetRunningActor:fun()
+---@field HideActors:fun()
+---@field AddRunningActorToHiddenList:fun()
+---@field StopSingleMotionTest:fun(InMotionID:int32,InTestMode:EUGCMobileTestMode)
+---@field StartSingleMotionTest:fun(InMotionID:int32,InTestMode:EUGCMobileTestMode)
+---@field BP_InitRTEObject:fun()
+---@field BPTickRTEObject:fun(InDeltaTime:float)
+---@field RunningActor AActor
+---@field HiddenMotionActors ULuaArrayHelper
+---@field RunningMotionActors ULuaArrayHelper
+---@field TempMultiMotionIDs ULuaArrayHelper
+---@field TempMultiDecoratorIDs ULuaArrayHelper
+---@field TempTextMode EUGCMobileTestMode

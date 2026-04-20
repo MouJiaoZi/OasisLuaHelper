@@ -1,0 +1,17 @@
+---@class BP_CoupeRB_BattleItemHandle_LFLG11_C:UBackpackVehicleHandle
+---@field ParticleSoftWrapperMap ULuaMapHelper
+---@field Sfx_EngineLoop UAkAudioEvent
+---@field Sfx_EngineLoop_Team UAkAudioEvent
+---@field Sfx_Horn UAkAudioEvent
+---@field Sfx_EngineStop UAkAudioEvent
+---@field Sfx_enginestart UAkAudioEvent
+---@field Sfx_Fireloop UAkAudioEvent
+---@field Sfx_explosion UAkAudioEvent
+---@field Sfx_PopKartAccelerate UAkAudioEvent
+---@field PS_explosion UParticleSystem
+---@field sfx_boost UAkAudioEvent
+---@field PlumesmokeTemplate UParticleSystem
+---@field sfx_GearUp UAkAudioEvent
+---@field sfx_GearDown UAkAudioEvent
+---@field sfx_throttle UAkAudioEvent
+---@field Sfx_SiblingSwitch UAkAudioEvent

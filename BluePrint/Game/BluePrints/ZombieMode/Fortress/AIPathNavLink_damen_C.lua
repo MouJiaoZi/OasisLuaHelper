@@ -1,0 +1,1 @@
+---@class AIPathNavLink_damen_C:AAIPathNavLink

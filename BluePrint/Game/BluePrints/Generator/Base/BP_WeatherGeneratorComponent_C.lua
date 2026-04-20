@@ -1,0 +1,2 @@
+---@class BP_WeatherGeneratorComponent_C:UActorComponent
+---@field WeatherLevelType EWeatherType

@@ -1,0 +1,2 @@
+---@class PreStartUI_C:UUserWidget
+---@field MediaPlayer UMediaPlayer

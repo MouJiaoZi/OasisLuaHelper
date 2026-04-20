@@ -1,0 +1,3 @@
+---@class BP_BattleRoyaleGameModeTeamSanHok_4_Night_C:ABP_BattleRoyaleGameModeTeamDesert_4_C
+---@field UserConstructionScript:fun()
+---@field SpawnMonsterHelperComp1 USpawnMonsterHelperComp

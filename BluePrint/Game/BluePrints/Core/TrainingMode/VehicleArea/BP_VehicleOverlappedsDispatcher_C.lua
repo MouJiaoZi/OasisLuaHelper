@@ -1,0 +1,3 @@
+---@class BP_VehicleOverlappedsDispatcher_C:ABP_OverlappedsDispatcher_C
+---@field GetLuaModule:fun():FString
+---@field UserConstructionScript:fun()

@@ -1,0 +1,21 @@
+---@class VehicleBackpackItem_C:UUserWidget
+---@field OnTouchEnded:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field OnTouchStarted:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field OnDragDetected:fun(MyGeometry:FGeometry,PointerEvent:FPointerEvent):UDragDropOperation
+---@field RefreshIcon:fun(icon:UObject)
+---@field RefreshElectricty:fun(data:ULuaArrayHelper)
+---@field FindDualbility:fun(data:ULuaArrayHelper):float
+---@field ShowDurable:fun()
+---@field UpdateUseless:fun(use:bool)
+---@field SetItem:fun(pickupItem:FPickUpItemData,use:bool,Player:APlayerController)
+---@field CanvasPanel_ColdModeInfo UCanvasPanel
+---@field EnergySocket UCustomSocketPanel
+---@field Image_CanEquippedItemBG UImage
+---@field Image_GiftBoxBG UImage
+---@field Image_icon UImage
+---@field ProgressBar_Damage UProgressBar
+---@field TextBlock_Num UTextBlock
+---@field Item FPickUpItemData
+---@field Useful bool
+---@field StartTouch bool
+---@field Player APlayerController

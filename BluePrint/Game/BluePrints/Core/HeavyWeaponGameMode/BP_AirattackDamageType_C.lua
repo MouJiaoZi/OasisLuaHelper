@@ -1,0 +1,1 @@
+---@class BP_AirattackDamageType_C:USTExtraDamageType

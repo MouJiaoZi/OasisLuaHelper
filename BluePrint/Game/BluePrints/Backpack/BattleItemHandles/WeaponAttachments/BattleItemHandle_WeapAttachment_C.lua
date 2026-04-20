@@ -1,0 +1,20 @@
+---@class BattleItemHandle_WeapAttachment_C:UBackpackWeaponAttachHandle
+---@field WeightBiggerThen:fun(A:int32,B:int32):bool
+---@field CheckCanUseTarget:fun(TargetHandle:UItemHandleBase,UseReason:EBattleItemUseReason):bool
+---@field ReplaceAttach:fun(TWeaponItemHandle:BattleItemHandle_MainWeapon_C,ShootWeaponHandleList:ULuaArrayHelper)
+---@field CanSwap:fun(SpecificId:UBackpackWeaponAttachHandle):bool
+---@field FilterWeaponItemHandle:fun(InputItemHandle:UBattleItemHandleBase,IsPickupDirectlyEquip:bool,InUseReason:EBattleItemUseReason,WithUseReason:bool):FBattleItemUseTarget,bool,BattleItemHandle_MainWeapon_C,ASTExtraWeapon
+---@field ExtractItemData:fun():FBattleItemData
+---@field CreateWrapperOnGround:fun(Count:int32)
+---@field HandleDrop:fun(InCount:int32,Reason:EBattleItemDropReason):bool
+---@field HandlePickup:fun(ItemContainer:TScriptInterface,PickupInfo:FBattleItemPickupInfo,Reason:EBattleItemPickupReason):bool
+---@field HandleDisuse:fun(Reason:EBattleItemDisuseReason):bool
+---@field HandleUse:fun(Target:FBattleItemUseTarget,Reason:EBattleItemUseReason):bool
+---@field ReturnWeaponAdditionalBulletsToBackpack:fun(Weapon:ASTExtraShootWeapon,BulletNum:int32)
+---@field Weapon ASTExtraShootWeapon
+---@field WrapperClass UClass
+---@field OwningBackpackComponent UBackpackComponent
+---@field OwningCharacter ASTExtraBaseCharacter
+---@field CachedWeaponHandle BattleItemHandle_MainWeapon_C
+---@field SoftWrapperClass UClass
+---@field ShootWeaponSlotList ULuaArrayHelper

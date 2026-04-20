@@ -1,0 +1,5 @@
+---@class bp_result_countdown_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_WinType int32
+---@field BP_ResultCountDown_Time int32

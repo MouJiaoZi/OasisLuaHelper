@@ -1,0 +1,20 @@
+---@class EmergencyCallMapMark_Plane_UIBP_C:UMapUIMarkClientSimulateWidget
+---@field StartSimulate:fun():bool
+---@field StopSimulate:fun():bool
+---@field UpdateSimulate:fun(MarkedActor:AActor,MapUIMarkManagerComp:UMapUIMarkManager,AirLineScale:float,ClientPlaneLocation:FVector,IsEntireMap:bool):bool
+---@field InitSimulateSpeed:fun(InAngle:float,InSpeed:FString)
+---@field UpdateSimulateSpeed:fun()
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field UpdateMarkSize:fun(inScale:float,inMapScale:float,MapScaleInUI:float)
+---@field UpdateUIBPState:fun(InState:FCustomMarkEventData)
+---@field OnUIBPShow:fun(InState:FCustomMarkEventData)
+---@field OnUIBPCreate:fun(InState:FCustomMarkEventData,ParentState:EMarkParentWidget,inRealLevelToMapScale:float,inMapScale:float)
+---@field CanvasPanel_Plane UCanvasPanel
+---@field ClientSmoothMove bool
+---@field MapScale float
+---@field SimulateSpeed FVector2D
+---@field IsInitSpeed bool
+---@field SimulateDiffTranslation FVector2D
+---@field Angle float
+---@field IsClientSimulate bool
+---@field MapType EMarkParentWidget

@@ -1,0 +1,1 @@
+---@class BP_ClickButton_Skin_C:UUserWidgetSkin

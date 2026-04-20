@@ -1,0 +1,15 @@
+---@class MobileEditor_ScriptEditor_OptionSet_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field ActorDetailViewWidget UGCMobileDetailViewWidget_C
+---@field Button_Mask UButton
+---@field CanvasPanel_Edit UCanvasPanel
+---@field CustomScrollBox_0 UCustomScrollBox
+---@field HorizontalBox_But UHorizontalBox
+---@field NewButton_Base UNewButton
+---@field NewButton_Delete UNewButton
+---@field NewButton_Event UNewButton
+---@field NewButton_Return UNewButton
+---@field SendReceiveEvent_TabBut_UIBP SendReceiveEvent_TabBut_UIBP_C
+---@field WidgetSwitcher_Base UWidgetSwitcher
+---@field WidgetSwitcher_Event UWidgetSwitcher
+---@field WidgetSwitcher_Tab UWidgetSwitcher

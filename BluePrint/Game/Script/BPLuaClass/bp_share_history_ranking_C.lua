@@ -1,0 +1,8 @@
+---@class bp_share_history_ranking_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_ARRAY_ShareHistoryRanking_TeammateInfoList ULuaArrayHelper
+---@field BP_ARRAY_ShareHistoryRanking_MyTitleIDList ULuaArrayHelper
+---@field BP_ShareHistoryRanking_MyKillNum int32
+---@field BP_ShareHistoryRanking_MyKillAnimalNum int32
+---@field BP_ARRAY_ShareHistoryRanking_ProfessionDataList ULuaArrayHelper

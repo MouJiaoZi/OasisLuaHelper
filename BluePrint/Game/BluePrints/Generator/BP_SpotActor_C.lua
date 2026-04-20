@@ -1,0 +1,3 @@
+---@class BP_SpotActor_C:AUAEIndependentSpot
+---@field UserConstructionScript:fun()
+---@field DefaultSceneRoot USceneComponent

@@ -1,0 +1,8 @@
+---@class ResultLike_Tips_UIBP_C:UUAEUserWidget
+---@field RemoveSelf:fun()
+---@field SetContent:fun(content:FString,iconUrl:FString)
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field Image_Avatar UImage
+---@field UTRichTextBlock_Content UUTRichTextBlock
+---@field PassedTime float
+---@field Lifetime float

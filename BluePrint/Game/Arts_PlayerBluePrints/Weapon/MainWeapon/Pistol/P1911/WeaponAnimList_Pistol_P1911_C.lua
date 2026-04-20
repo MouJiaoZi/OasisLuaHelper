@@ -1,0 +1,1 @@
+---@class WeaponAnimList_Pistol_P1911_C:UUAECharacterAnimListComponent

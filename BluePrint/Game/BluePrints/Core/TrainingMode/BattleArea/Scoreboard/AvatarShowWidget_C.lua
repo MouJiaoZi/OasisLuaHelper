@@ -1,0 +1,12 @@
+---@class AvatarShowWidget_C:UUAEUserWidget
+---@field SetGender:fun(Gender:ECharacterGender,bIfClear:bool)
+---@field SetBuyLevel:fun(BuyLevel:int32)
+---@field SetPlayerName:fun(Name:FString)
+---@field SetCharmValue:fun(PlayerKey:int32)
+---@field SetTimeText:fun(Sec:float)
+---@field Construct:fun()
+---@field BisMaster UTextBlock
+---@field Image_0 UImage
+---@field Image_1 UImage
+---@field PlayerName UTextBlock
+---@field WidgetSwitcher_0 UWidgetSwitcher

@@ -1,0 +1,1 @@
+---@class BP_MachineGun_MP5K_BattleItemHandle_SHMAN_C:BP_MachineGun_MP5K_BattleItemHandle_C

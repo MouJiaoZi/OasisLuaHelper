@@ -1,0 +1,20 @@
+---@class Paraglider_AnimBP_C:USTExtraParagliderAnimInstance
+---@field BlueprintUpdateAnimation:fun(DeltaTimeX:float)
+---@field ParagliderCharacterType EParagliderCharacterType
+---@field DistanceToLand float
+---@field StartFlyFinish bool
+---@field MoveForwardState bool
+---@field MoveBackState bool
+---@field IdleState bool
+---@field FlyState bool
+---@field VJump bool
+---@field RJump bool
+---@field FJump bool
+---@field bEnterJumpState bool
+---@field Jumptype EParagliderCharacterType
+---@field ControlInput_0 FVector
+---@field JumpTime float
+---@field HasDriver bool
+---@field CharacterType EParagliderCharacterType
+---@field PullTabAttachLoc FVector
+---@field AttachPelvisOffset FVector

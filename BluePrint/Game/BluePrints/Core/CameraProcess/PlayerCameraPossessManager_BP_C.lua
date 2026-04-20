@@ -1,0 +1,1 @@
+---@class PlayerCameraPossessManager_BP_C:UPlayerCameraPossessManager

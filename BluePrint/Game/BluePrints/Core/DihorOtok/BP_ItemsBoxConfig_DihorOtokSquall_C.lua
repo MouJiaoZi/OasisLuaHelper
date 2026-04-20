@@ -1,0 +1,1 @@
+---@class BP_ItemsBoxConfig_DihorOtokSquall_C:UBP_ItemsBoxConfig_DihorOtok_C

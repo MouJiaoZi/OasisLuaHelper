@@ -1,0 +1,11 @@
+---@class Door_C:AActivityBaseActor
+---@field Open:fun(NewParam:FGISCCF_Param)
+---@field CanOpen:fun(NewParam:FGISCCF_Param):bool
+---@field UserConstructionScript:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field NormalSequence UActorSequenceComponent
+---@field Box UBoxComponent
+---@field Scene USceneComponent
+---@field Play_Sequence UActorSequenceComponent
+---@field GISActorComponentBase UGISActorComponentBase
+---@field bOpen bool

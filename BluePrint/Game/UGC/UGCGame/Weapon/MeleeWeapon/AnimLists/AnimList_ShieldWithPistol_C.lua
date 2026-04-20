@@ -1,0 +1,1 @@
+---@class AnimList_ShieldWithPistol_C:UUAECharacterAnimListComponent

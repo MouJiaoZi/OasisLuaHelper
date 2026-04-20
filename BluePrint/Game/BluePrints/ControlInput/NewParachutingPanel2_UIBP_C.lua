@@ -1,0 +1,27 @@
+---@class NewParachutingPanel2_UIBP_C:UParachutePanelUI
+---@field PlayerEnterFlying:fun()
+---@field ShrinkBack:fun()
+---@field ShrinkLeft:fun()
+---@field Reconnect_ResetUIByPlayerControllerState:fun()
+---@field OnFreeViewChanged:fun(IsChanged:bool)
+---@field PlayerEnterFinished:fun()
+---@field PlayerEnterFighting:fun()
+---@field PlayerOutofPlane:fun()
+---@field ReceivedInitWidget:fun()
+---@field BP_InitWidget:fun()
+---@field BP_ShrinkLeft:fun()
+---@field BP_ShrinkBack:fun()
+---@field BP_Reconnect_ResetUIByPlayerControllerState:fun()
+---@field CanvasPanel_AltitudeBar UCanvasPanel
+---@field CanvasPanel_AltitudeBarHeight UCanvasPanel
+---@field CanvasPanel_Speed UCanvasPanel
+---@field CanvasPanel_Tips UCanvasPanel
+---@field ForceOpenParachuteMark UImage
+---@field HeightAndSpeedHorizontalBox UHorizontalBox
+---@field Image_SkydivingHeight UImage
+---@field Spacer_ForcedSkydivingHeight USpacer
+---@field SpeedBar UImage
+---@field SpeedT UTextBlock
+---@field TextBlock_CurrentHeight UTextBlock
+---@field HaveToOpen float
+---@field JumpRand int32

@@ -1,0 +1,103 @@
+---@class AnchorFlagNew_BP_C:UPlayerCharacterPositionWidget
+---@field LoadSuccessSuperHeroIconInfo:fun(CreatedWidget:UUserWidget)
+---@field UpdateSuperHeroIconInfo:fun()
+---@field GetLogoShowPrivacyState:fun():bool
+---@field LoadTextFontMaterialSuccess:fun(LoadClass:UClass)
+---@field UpdatePlayerNameState:fun()
+---@field LoadPlayerPeakBadgeIconUI:fun(CreatedWidget:UUserWidget)
+---@field CheckPlayerIsSameTeam:fun():bool
+---@field UpdateCurPlayerPeakBadgeIcon:fun(ID:int32)
+---@field LoadCollectorsMedalIconSuccess:fun(CreatedWidget:UUserWidget)
+---@field UpdateCollectorsMedalIcon:fun()
+---@field EventReplayOnSpectatorChange:fun()
+---@field ReceiveGamemodeID:fun()
+---@field LoadSuccessCommonFlagIcon:fun(CreatedWidget:UUserWidget)
+---@field CreateCommonFlagIcon:fun(id:int32)
+---@field CreateCusumptionRankingIcon:fun(CreatedWidget:UUserWidget)
+---@field OnLoadJianBing:fun()
+---@field Event_CalculationVisable:fun(Loc:FVector):bool
+---@field RefreshNewBG:fun()
+---@field FindSegLevelAndNum:fun():int32,int32
+---@field RefreshPromotionMark:fun()
+---@field ShowPromotionSocket:fun()
+---@field OnLoadVehicleIconDown:fun(NewParam:UObject,NewParam1:int32)
+---@field OnLoadVehicleWidget:fun()
+---@field OnLoadMonthlyCard:fun()
+---@field OnLoadLikeImage:fun(NewParam:UObject,NewParam1:int32)
+---@field RefreshClub:fun()
+---@field RefreshTrumpImage:fun()
+---@field ActiveByPS:fun()
+---@field ActiveByPawn:fun()
+---@field CheckShowMedal:fun(MedalID:FString,MedalLevel:int32)
+---@field CreateCardBuyIcon:fun(icon:UObject,resID:int32)
+---@field SetPassCardBuyType:fun(name:FString,buyType:int32,buyLevel:int32,showEnjoyCord:bool)
+---@field CreateIcon:fun(icon:UObject,resID:int32)
+---@field SetPlatIconAndName:fun(platID:int32,colorID:int32,name:FString)
+---@field Event_InitParam:fun(InParam:FWidgetParamInfo,InDestinPos:FVector,InTargetActor:AActor)
+---@field Event_UnInitParam:fun()
+---@field Event_SetExParam:fun(InParam:int32)
+---@field CanvasPanel_5 UCanvasPanel
+---@field CanvasPanel_6 UCanvasPanel
+---@field CanvasPanel_CommonSlot UCanvasPanel
+---@field CanvasPanel_CorpsInfo UCanvasPanel
+---@field CanvasPanel_Double UCanvasPanel
+---@field CanvasPanel_JianBing UCanvasPanel
+---@field CanvasPanel_Match UCanvasPanel
+---@field CanvasPanel_MatchSize UCanvasPanel
+---@field CanvasPanel_ModeCommon UCanvasPanel
+---@field CanvasPanel_MonthlyCard UCanvasPanel
+---@field CanvasPanel_NameFrame UCanvasPanel
+---@field CanvasPanel_PassInfo UCanvasPanel
+---@field CanvasPanel_Promotion UCanvasPanel
+---@field CanvasPanel_RankTitle UCanvasPanel
+---@field CanvasPanel_RobotIcon_Slot UCanvasPanel
+---@field CanvasPanel_State UCanvasPanel
+---@field CanvasPanel_TopKingMarkSlot UCanvasPanel
+---@field CanvasPanel_Vehicle UCanvasPanel
+---@field CanvasPanel_Zhubo UCanvasPanel
+---@field CustomSocket_MonthlyCard UCustomSocketPanel
+---@field CustomSocket_Zhubo UCustomSocketPanel
+---@field CustomSocketPanel_ClubSlot UCustomSocketPanel
+---@field CustomSocketPanel_Double UCustomSocketPanel
+---@field CustomSocketPanel_JianBing UCustomSocketPanel
+---@field CustomSocketPanel_Promotion UCustomSocketPanel
+---@field CustomSocketPanel_Vehicle UCustomSocketPanel
+---@field GridPanel_Name UGridPanel
+---@field Image_BG UImage
+---@field Image_blank_HideOrCollapsed UImage
+---@field Image_PassIcon UImage
+---@field Image_PlatformIcon UImage
+---@field Image_SuperLike UImage
+---@field KingMarkSocket UCustomSocketPanel
+---@field TextBlock_CorpsName UTextBlock
+---@field TextBlock_PassLevel UTextBlock
+---@field TextBlock_Teammate_Name UUTRichTextBlock
+---@field AnchorName FString
+---@field nameYellow bool
+---@field PlayerState ASTExtraPlayerState
+---@field ShowAnimSelf bool
+---@field ShowAnimCD float
+---@field CorpShowDistLimit int32
+---@field AnchorShowDistLimit int32
+---@field ShowAnimDist int32
+---@field IsLoadLikeImage bool
+---@field nameMonthlyColor bool
+---@field TempPlayerName FString
+---@field NeedShowBG bool
+---@field IsLoadVehicle bool
+---@field IsSetTrumpMark bool
+---@field IsSetTrumpMarkPS bool
+---@field IsPlatformColor bool
+---@field NewBgPath FSoftObjectPath
+---@field NewIconPath FSoftObjectPath
+---@field IslandImageUrl FString
+---@field isBandReplayEvent bool
+---@field CurCollectorsMedalID int32
+---@field NewVar_0 FAnchors
+---@field NewVar_1 FMargin
+---@field IslandID int32
+---@field IslandColorConfig FString
+---@field CurPeakBadgeID int32
+---@field TextRichTag FString
+---@field SuperHeroTopRank int32
+---@field SuperHeroTopRankUI UUserWidget

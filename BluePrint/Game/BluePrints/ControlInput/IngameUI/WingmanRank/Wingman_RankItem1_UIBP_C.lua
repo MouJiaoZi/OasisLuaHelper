@@ -1,0 +1,25 @@
+---@class Wingman_RankItem1_UIBP_C:UUAEUserWidget
+---@field SetItemDataNew:fun(IsMe:bool,Rank:int32,WingManBoardInfo:FWingManBoardInfo)
+---@field RefreshIcon:fun(NewParam:UObject)
+---@field GetColorByIndex:fun(Index:int32):bool
+---@field SetMyLabel:fun(PlayerName:FString,TeamID:int32)
+---@field SetCharmRank:fun(Rank:int32)
+---@field SetItemData:fun(isMe:bool,Rank:int32,WingManInfo:FWingManInfoWrapper)
+---@field DX_In01 UWidgetAnimation
+---@field DX_In UWidgetAnimation
+---@field Button_CharmItem UNewButton
+---@field CanvasPanel_MyLable UCanvasPanel
+---@field CanvasPanel_Teammate UCanvasPanel
+---@field Image_Coer_Medal UImage
+---@field Image_Line_UP UImage
+---@field Image_SelectBg UImage
+---@field Image_TeammateBg UImage
+---@field Image_Wingman UImage
+---@field MaskBox_0 UMaskBox
+---@field TextBlock_Number UTextBlock
+---@field TextBlock_Pass_Rank_Number UTextBlock
+---@field TextBlock_PlayerName UTextBlock
+---@field WidgetSwitcher_CharmRank UWidgetSwitcher
+---@field WidgetSwitcher_Label UWidgetSwitcher
+---@field ImageBrushArray ULuaArrayHelper
+---@field isFirst bool

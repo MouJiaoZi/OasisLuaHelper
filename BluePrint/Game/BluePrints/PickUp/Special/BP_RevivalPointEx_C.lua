@@ -1,0 +1,3 @@
+---@class BP_RevivalPointEx_C:ABP_RevivalPoint_C
+---@field UserConstructionScript:fun()
+---@field P_zombiebox_show_02 UParticleSystemComponent

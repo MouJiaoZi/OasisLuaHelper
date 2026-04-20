@@ -1,0 +1,3 @@
+---@class Camp_MainList_UIBP_C:UUAEUserWidget
+---@field Camp_EnterList_UIBP Camp_EnterList_UIBP_C
+---@field Camp_PopupList_UIBP Camp_PopupList_UIBP_C

@@ -1,0 +1,5 @@
+---@class caopiwu01_a_House_C:BP_UGCMobileHouseBase_C
+---@field UserConstructionScript:fun()
+---@field ChildActor UChildActorComponent
+---@field caopiwu01_b UStaticMeshComponent
+---@field StaticMesh UStaticMeshComponent

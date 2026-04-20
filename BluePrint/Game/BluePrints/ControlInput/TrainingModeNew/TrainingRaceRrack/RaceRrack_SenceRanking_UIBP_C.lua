@@ -1,0 +1,5 @@
+---@class RaceRrack_SenceRanking_UIBP_C:UUAEUserWidget
+---@field Construct:fun()
+---@field TopListThere_01 RaceRrack_TopThere_UIBP_C
+---@field TopListThere_02 RaceRrack_TopThere_UIBP_C
+---@field TopListThere_03 RaceRrack_TopThere_UIBP_C

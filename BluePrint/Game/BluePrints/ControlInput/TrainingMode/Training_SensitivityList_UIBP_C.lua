@@ -1,0 +1,76 @@
+---@class Training_SensitivityList_UIBP_C:UUAEUserWidget
+---@field UIMsg_RefreshSensitivityBySetting:fun()
+---@field On_Border_FireGyro_MouseButtonDown_0:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field InitByUIMsg:fun()
+---@field On_Border_Gyroscope_MouseButtonDown_0:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field On_Border_fire_MouseButtonDown_0:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field On_Border_lens_MouseButtonDown_0:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field On_Border_current_MouseButtonDown_0:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field OnEachTabClicked:fun()
+---@field GetConfigSightTypeWithID:fun(id:int32):ESightType
+---@field GetCurrentWeaponSight:fun():ESightType
+---@field RemodifyTableRows0:fun():ULuaArrayHelper
+---@field GetActorLocation:fun(Actor:AActor):FVector
+---@field OnTouchEnded:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field OnTouchStarted:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field OnSingleModifyBtnBackClicked:fun()
+---@field ShowSingleIntelligenceItem:fun(name:FString,key:FString,index:int32)
+---@field ShowCorrectModifyLayer:fun()
+---@field On_Border_manual_MouseButtonDown_0:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field On_Border_intelligence_MouseButtonDown_0:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field RefreshTabImage:fun()
+---@field GetRowsByTab:fun()
+---@field GetDevidedTableRows:fun()
+---@field OnItemUpdate:fun(widget:UUserWidget,index:int32)
+---@field InitList:fun()
+---@field Construct:fun()
+---@field OnDragEnter:fun(MyGeometry:FGeometry,PointerEvent:FPointerEvent,Operation:UDragDropOperation)
+---@field OnDragLeave:fun(PointerEvent:FPointerEvent,Operation:UDragDropOperation)
+---@field Border_current UBorder
+---@field Border_fire UBorder
+---@field Border_FireGyro UBorder
+---@field Border_Gyroscope UBorder
+---@field Border_intelligence UBorder
+---@field Border_lens UBorder
+---@field Border_manual UBorder
+---@field Button_close UButton
+---@field Button_help UButton
+---@field CanCollapse_Node UCanvasPanel
+---@field CanvasList_slot UCanvasPanel
+---@field CustomScrollBox_List UCustomScrollBox
+---@field MoveableNode UVerticalBox
+---@field MultiLineEditableText_0 UMultiLineEditableText
+---@field NewButton_collapse UNewButton
+---@field NodeTips UGridPanel
+---@field RequestRedPoint UCanvasPanel
+---@field RequestTipsNum UTextBlock
+---@field ReuseList2_Gyroscope ReuseList2_C
+---@field ReuseListIntelligence ReuseList2_C
+---@field ReuseListManul ReuseList2_C
+---@field SingleIntelligenceNode Training_Sensitivity_IntelligenceBoxUIBP_C
+---@field Text_collapse UTextBlock
+---@field TextBlock_CurrentTitle UTextBlock
+---@field WidgetSwitcher_Arrow UWidgetSwitcher
+---@field WidgetSwitcher_current UWidgetSwitcher
+---@field WidgetSwitcher_Fire UWidgetSwitcher
+---@field WidgetSwitcher_FireGyro UWidgetSwitcher
+---@field WidgetSwitcher_Gyroscope UWidgetSwitcher
+---@field WidgetSwitcher_Lens UWidgetSwitcher
+---@field WidgetSwitcher_Mode UWidgetSwitcher
+---@field WidgetSwitchReuseList UWidgetSwitcher
+---@field currentTab int32
+---@field ArrayRowsTab0 ULuaArrayHelper
+---@field isTableInited bool
+---@field ArrayRowsTab1 ULuaArrayHelper
+---@field ArrayRowsTab2 ULuaArrayHelper
+---@field currentModifyMode int32
+---@field IsListCollapsed bool
+---@field CanBeDragged bool
+---@field CachedGeometry FGeometry
+---@field currentModifyIndex int32
+---@field CachedCurrentTabRows ULuaArrayHelper
+---@field bTipsVisable bool
+---@field isSingleModifyNow bool
+---@field isRefreshEventBinded bool
+---@field ArrayRowsTab3 ULuaArrayHelper
+---@field ArrayRowsTab4 ULuaArrayHelper

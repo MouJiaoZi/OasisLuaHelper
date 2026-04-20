@@ -1,0 +1,4 @@
+---@class bp_setting_sound_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_Map_VoiceChangerPlan ULuaMapHelper

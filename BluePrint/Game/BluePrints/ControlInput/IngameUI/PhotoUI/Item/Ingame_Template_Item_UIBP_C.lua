@@ -1,0 +1,11 @@
+---@class Ingame_Template_Item_UIBP_C:UUAEUserWidget
+---@field OnTouchEnded:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field SetEmoteImage:fun(ImageObj:UObject,ResID:int32)
+---@field OnExpressionChosed__DelegateSignature:fun(IsChosed:bool,ExpressionID:int32)
+---@field ExpressionImage UImage
+---@field ExpressionSeqIdx UTextBlock
+---@field ExpressionTitle UTextBlock
+---@field Image_Select UImage
+---@field OnExpressionChosed ULuaMulticastDelegate
+---@field ExpressionID int32
+---@field ExpressionSpecificID int32

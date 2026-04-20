@@ -1,0 +1,4 @@
+---@class Borderland_HS_Port_13_House_C:BP_UGCMobileHouseBase_C
+---@field UserConstructionScript:fun()
+---@field ChildActor UChildActorComponent
+---@field StaticMesh UStaticMeshComponent

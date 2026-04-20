@@ -1,0 +1,1 @@
+---@class WeaponAnimList_Other_AirAttackLocator_C:UUAECharacterAnimListComponent

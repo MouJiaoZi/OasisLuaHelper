@@ -1,0 +1,1 @@
+---@class WeaponAnimList_PistolWithShieldADS_Sim_DesertEagle_BF_C:UUAECharacterAnimListComponent

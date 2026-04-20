@@ -1,0 +1,4 @@
+---@class AttachActor_CheerCup_BP_C:AActor
+---@field UserConstructionScript:fun()
+---@field StaticMesh UStaticMeshComponent
+---@field DefaultSceneRoot USceneComponent

@@ -1,0 +1,1 @@
+---@class Ingame_FreeCameraBtn_UIBP_C:ULuaUserWidget

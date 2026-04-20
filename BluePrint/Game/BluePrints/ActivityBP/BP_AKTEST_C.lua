@@ -1,0 +1,4 @@
+---@class BP_AKTEST_C:AActor
+---@field UserConstructionScript:fun()
+---@field StaticMesh UStaticMeshComponent
+---@field DefaultSceneRoot USceneComponent

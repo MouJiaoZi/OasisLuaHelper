@@ -1,0 +1,1 @@
+---@class WeaponAnimList_SpikeTrap_C:WeaponAnimList_Grenade_C

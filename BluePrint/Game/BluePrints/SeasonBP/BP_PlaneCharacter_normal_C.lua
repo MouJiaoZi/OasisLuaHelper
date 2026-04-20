@@ -1,0 +1,15 @@
+---@class BP_PlaneCharacter_normal_C:APlaneCharacter
+---@field UserConstructionScript:fun()
+---@field PlayPlaneSound:fun()
+---@field ParticleSystem UParticleSystemComponent
+---@field ParticleSystem6 UParticleSystemComponent
+---@field ParticleSystem5 UParticleSystemComponent
+---@field ParticleSystem4 UParticleSystemComponent
+---@field ParticleSystem3 UParticleSystemComponent
+---@field ParticleSystem2 UParticleSystemComponent
+---@field ParticleSystem1 UParticleSystemComponent
+---@field BannerAttachComp USceneComponent
+---@field PlaneCamera UCameraComponent
+---@field PlaneSpringArm USpringArmComponent
+---@field StaticMesh UStaticMeshComponent
+---@field Ak UAkComponent

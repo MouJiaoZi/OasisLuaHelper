@@ -1,0 +1,17 @@
+---@class BP_HammerMove_C:AActor
+---@field PlayParticleFunc:fun()
+---@field HandleHitOtherObj:fun()
+---@field DestorySelfFunc:fun()
+---@field InitSportData:fun(InPlayerCharacter:ASTExtraPlayerCharacter)
+---@field UserConstructionScript:fun()
+---@field ReceiveHit:fun(MyComp:UPrimitiveComponent,Other:AActor,OtherComp:UPrimitiveComponent,bSelfMoved:bool,HitLocation:FVector,HitNormal:FVector,NormalImpulse:FVector,Hit:FHitResult)
+---@field ParticleSystem UParticleSystemComponent
+---@field Box UBoxComponent
+---@field ProjectileMovement UProjectileMovementComponent
+---@field SkeletalMesh USkeletalMeshComponent
+---@field VelocityZ float
+---@field VelocityDirRate float
+---@field LifeTimer float
+---@field CurOwnPlayerCharacter ASTExtraPlayerCharacter
+---@field PlayParticleTimer float
+---@field IsPlayedParticle bool

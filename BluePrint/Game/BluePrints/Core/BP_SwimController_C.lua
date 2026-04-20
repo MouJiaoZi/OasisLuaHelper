@@ -1,0 +1,3 @@
+---@class BP_SwimController_C:UPlayerSwimComponent
+---@field EnterWaterImp:fun()
+---@field EnterWater_BluePrint:fun()

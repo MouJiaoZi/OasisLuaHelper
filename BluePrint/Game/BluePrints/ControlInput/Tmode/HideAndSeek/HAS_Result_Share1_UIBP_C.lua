@@ -1,0 +1,48 @@
+---@class HAS_Result_Share1_UIBP_C:UUAEUserWidget
+---@field RefreshLikeInfo:fun(LuaObj:ALuaClassObj):bool
+---@field InitLikeInfo:fun(LuaObj:ALuaClassObj):bool
+---@field ResetLikeBtnState:fun(LuaObj:ALuaClassObj):bool
+---@field OnShowShareInfo:fun(LuaClass:ALuaClassObj):bool
+---@field UpdateAdditionBtnStatus:fun(bAddFriend:bool):bool
+---@field InitAdditionMainInfo:fun(LuaClass:ALuaClassObj,ItemCount:int32,IsObserver:bool):bool
+---@field UpdateAdditionPlayerHeadInfos:fun(HeadInfos:ULuaArrayHelper):bool
+---@field OpenOrCloseAllClickBtn:fun(bOpen:bool):bool
+---@field UpdateExp:fun(AddVsTeamExp:int32,AddPeekaboExp:int32)
+---@field OnRefreshLikeInfo:fun(LuaObj:ALuaClassObj)
+---@field OnInitLikeInfo:fun(LuaObj:ALuaClassObj)
+---@field ResetCurPlayerListVisibility:fun()
+---@field ResetAllData:fun()
+---@field InitMainInfo:fun(LuaClassObj:ALuaClassObj,ItemCount:int32,IsObserve:bool,TeamID:int32)
+---@field UpdatePlayerHead:fun(HeadUrlList:ULuaArrayHelper)
+---@field OpenOrCloseAllBtn:fun(Open:bool)
+---@field UpdateMainItemsData:fun(TeamIndexInLua:int32,PlayerDataList:ULuaArrayHelper,ResultInfo:FString)
+---@field Init:fun()
+---@field InitOriginalList:fun()
+---@field HAS_Result_Item_10 HAS_Result_Item_UIBP_C
+---@field HAS_Result_Item_11 HAS_Result_Item_UIBP_C
+---@field HAS_Result_Item_12 HAS_Result_Item_UIBP_C
+---@field HAS_Result_Item_13 HAS_Result_Item_UIBP_C
+---@field HAS_Result_Item_14 HAS_Result_Item_UIBP_C
+---@field HAS_Result_Item_15 HAS_Result_Item_UIBP_C
+---@field HAS_Result_Item_16 HAS_Result_Item_UIBP_C
+---@field HAS_Result_Item_01 HAS_Result_Item_UIBP_C
+---@field HAS_Result_Item_02 HAS_Result_Item_UIBP_C
+---@field HAS_Result_Item_03 HAS_Result_Item_UIBP_C
+---@field HAS_Result_Item_04 HAS_Result_Item_UIBP_C
+---@field HAS_Result_Item_05 HAS_Result_Item_UIBP_C
+---@field HAS_Result_Item_06 HAS_Result_Item_UIBP_C
+---@field HAS_Result_Item_07 HAS_Result_Item_UIBP_C
+---@field HAS_Result_Item_08 HAS_Result_Item_UIBP_C
+---@field HAS_Result_Item_09 HAS_Result_Item_UIBP_C
+---@field TextBlock_HASExp UTextBlock
+---@field TextBlock_TeamExp UTextBlock
+---@field VerticalBox_0 UVerticalBox
+---@field VerticalBox_1 UVerticalBox
+---@field ItemList ULuaArrayHelper
+---@field CurPlayerDataItemList ULuaArrayHelper
+---@field SelfPlayerName FString
+---@field LuaClassObj ALuaClassObj
+---@field IsGlobalObserve bool
+---@field SelfTeamID int32
+---@field CurCount int32
+---@field SelfUID FString

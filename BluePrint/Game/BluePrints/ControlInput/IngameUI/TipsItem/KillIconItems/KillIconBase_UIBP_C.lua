@@ -1,0 +1,3 @@
+---@class KillIconBase_UIBP_C:UUAEUserWidget
+---@field RefreshDetailInfo:fun(RecordData:FClientFatalDamageRecordData):bool
+---@field InitKillIconInfo:fun(RecordData:FClientFatalDamageRecordData)

@@ -1,0 +1,5 @@
+---@class FBP_Struct_ConcertParam
+---@field ActivityType EConcertActivityType
+---@field EventType EConcertEventType
+---@field Param_Int int32
+---@field Param_Str FString

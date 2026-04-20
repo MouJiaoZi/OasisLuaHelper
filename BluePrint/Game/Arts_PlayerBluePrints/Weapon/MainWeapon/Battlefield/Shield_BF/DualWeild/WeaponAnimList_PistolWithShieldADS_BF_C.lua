@@ -1,0 +1,1 @@
+---@class WeaponAnimList_PistolWithShieldADS_BF_C:UUAECharacterAnimListComponent

@@ -1,0 +1,15 @@
+---@class Oasis_Reward_Item_UIBP_C:UUAEUserWidget
+---@field CanvasPanel_Got UCanvasPanel
+---@field CanvasPanel_JinDuTiao UCanvasPanel
+---@field CanvasPanel_Square UCanvasPanel
+---@field DynaCanvasPanel_Card UDynaCanvasPanel
+---@field Image_Get UImage
+---@field Image_Got UImage
+---@field Image_Icon UImageEx
+---@field Image_NoGet UImage
+---@field Image_NotGet UImage
+---@field Image_RedPoint UImage
+---@field NewButton_Get UNewButton
+---@field TextBlock_RewardNum UTextBlock
+---@field TextBlock_TargetNum UTextBlock
+---@field WidgetSwitcher_Reward UWidgetSwitcher

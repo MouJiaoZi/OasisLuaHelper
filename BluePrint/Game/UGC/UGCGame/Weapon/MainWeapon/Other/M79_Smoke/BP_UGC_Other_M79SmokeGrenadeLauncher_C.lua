@@ -1,0 +1,14 @@
+---@class BP_UGC_Other_M79SmokeGrenadeLauncher_C:BP_UGC_ShootWeaponProjectileBase_C
+---@field GetBulletTemplateFromEntity:fun():UClass
+---@field OnArrowShooted:fun()
+---@field UserConstructionScript:fun()
+---@field OnWeaponMagOut:fun()
+---@field OnWeaponMagIn:fun()
+---@field BP_M79AmmoMgr BP_M79AmmoMgr_C
+---@field WeaponAnimList_Other_SawedOffM79_New WeaponAnimList_Other_SawedOffM79_New_C
+---@field BP_WeaponDynamicAnimListManager BP_WeaponDynamicAnimListManager_C
+---@field BP_WeaponInspectComponent BP_WeaponInspectComponent_C
+---@field ST_Mag UStaticMeshComponent
+---@field ST_PlayerMag UStaticMeshComponent
+---@field bUseIdleAnim_0 bool
+---@field AmmoIDToAmmoTypeConfigMap ULuaMapHelper

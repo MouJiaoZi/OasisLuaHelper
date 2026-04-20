@@ -1,0 +1,221 @@
+---@class Shareranking_UIBP_C:UUAEUserWidget
+---@field RefreshPeakGamingTeam:fun()
+---@field OnUpdateGamingTeamItem:fun(TeamItem:UUserWidget,ItemIndex:int32)
+---@field RefreshPeakFinishedTeamDetailData:fun()
+---@field RefreshPeakRadar:fun()
+---@field SetPeakScoreLevelIcon:fun(ScoreLevel:FString)
+---@field RefreshPeakRadarChartData:fun(ChartNameList:ULuaArrayHelper,ChartValueList:ULuaArrayHelper,ChartValueSchedule:ULuaArrayHelper)
+---@field InitPeakRadarChartWidget:fun()
+---@field PrepareDetailItem:fun()
+---@field RefreshPeakTeamRank:fun()
+---@field RefreshPeakMyTeamDetail:fun()
+---@field CheckPeakCompetitionShare:fun()
+---@field RefreshPeakCompetitionDetailPanel:fun()
+---@field CheckPeakShareTitle:fun()
+---@field CheckRadarChartColor:fun()
+---@field InitHeroInfoPanelNeeded:fun()
+---@field UpdateCorrectRadar:fun(Name:ULuaArrayHelper,Data:ULuaArrayHelper,DataStr:ULuaArrayHelper)
+---@field GetRadarDataByMode:fun():ULuaArrayHelper,ULuaArrayHelper
+---@field GetRadarText:fun():ULuaArrayHelper
+---@field InitZombieInfoPanelIfNeeded:fun()
+---@field GetWinType:fun():int32
+---@field ShowModeUI:fun()
+---@field GetModeUI:fun():FString
+---@field RefreshLikeInfo:fun()
+---@field ClearLikeInfoWhenInit:fun()
+---@field ShowRiskPlayer2:fun(show:bool)
+---@field InitRiskPlayer:fun()
+---@field InitPlayerItemInfo:fun()
+---@field GetTeamPoseMap:fun()
+---@field InitAsShareBattleDetail:fun()
+---@field InitAsShareAvatar:fun()
+---@field ShowCorrectRankText:fun()
+---@field UpdateTeammateHeadIcon:fun()
+---@field InitMetalInfo:fun()
+---@field InitRandomTips:fun(showText:UTextBlock)
+---@field UpdateTemmateDetailInfo:fun()
+---@field InitRadarChart:fun()
+---@field SetPromotedRank:fun(text:UTextBlock,rank:int32)
+---@field ShowCorrectTeamNumText:fun()
+---@field InitCorrectTitles:fun()
+---@field InitResultDetailData:fun()
+---@field ShowCorrectShareNode:fun()
+---@field ShowCorrectSlogan:fun()
+---@field ShowCorrectRankBg:fun()
+---@field InitUI:fun(inputObj:bp_share_result_C)
+---@field Construct:fun()
+---@field BottomPlayerItems UCanvasPanel
+---@field CanvasPanel_2 UCanvasPanel
+---@field CanvasPanel_17 UCanvasPanel
+---@field CanvasPanel_Banner UCanvasPanel
+---@field CanvasPanel_Data UCanvasPanel
+---@field CanvasPanel_Dialog UCanvasPanel
+---@field CanvasPanel_livetop UCanvasPanel
+---@field CanvasPanel_lt UCanvasPanel
+---@field CanvasPanel_Relive UCanvasPanel
+---@field CanvasPanel_RemainTeam UCanvasPanel
+---@field CanvasPanel_risk1 UCanvasPanel
+---@field CanvasPanel_risk3 UCanvasPanel
+---@field CanvasPanel_rt UCanvasPanel
+---@field CanvasPanel_TeamRank UCanvasPanel
+---@field CanvasPanel_TopGame UCanvasPanel
+---@field CanvasPanel_WeekScoreProgress UCanvasPanel
+---@field CanvasPanel_Zombies UCanvasPanel
+---@field Common_Avatar_BP Common_Avatar_BP_C
+---@field Common_RankTitleInfo_UIBP Common_RankTitleInfo_UIBP_C
+---@field Comon_PlaceTitle_UIBP Comon_PlaceTitle_UIBP_C
+---@field CustomScrollBox_TeamList UCustomScrollBox
+---@field GridPanel_Classical UGridPanel
+---@field HorizontalBox_DefeatedPlayers UHorizontalBox
+---@field HorizontalBox_DefeatedScore UHorizontalBox
+---@field HorizontalBox_RankScore UHorizontalBox
+---@field HorizontalBox_TotalScore UHorizontalBox
+---@field Image_79 UImage
+---@field Image_81 UImage
+---@field Image_82 UImage
+---@field Image_83 UImage
+---@field Image_84 UImage
+---@field Image_85 UImage
+---@field Image_86 UImage
+---@field Image_live_bg UImage
+---@field ImageRadar UImage
+---@field ImageRadar1 UImage
+---@field ImageRadar2 UImage
+---@field ImageRadar3 UImage
+---@field ImageRadar4 UImage
+---@field ImageRadar5 UImage
+---@field jiepingmask UGridPanel
+---@field line UImage
+---@field live_bg UImage
+---@field LobbyTeam_Logo_UIBP LobbyTeam_Logo_UIBP_C
+---@field MetalInfoNode UCanvasPanel
+---@field MicroMatch_Infor DT_MicroMatch_ItemResult_UIBP_C
+---@field MicroMatch_MyselfInfor DT_MicroMatch_ShareInforItem2_UIBP_C
+---@field node_assist_classsic UGridPanel
+---@field node_assist_profession UGridPanel
+---@field NodeBattleType UCanvasPanel
+---@field NodePanel_Victory_relive UCanvasPanel
+---@field NodePanelvictory UCanvasPanel
+---@field NodePlayerInfo UHorizontalBox
+---@field NodeTextMode UHorizontalBox
+---@field NodeVictory_ZombieMode UCanvasPanel
+---@field Personal_Ranking UCanvasPanel
+---@field ProgressBar_WeekScore UProgressBar
+---@field radar_text1 UTextBlock
+---@field radar_text2 UTextBlock
+---@field radar_text3 UTextBlock
+---@field radar_text4 UTextBlock
+---@field radar_text5 UTextBlock
+---@field radar_text_value1 UTextBlock
+---@field radar_text_value2 UTextBlock
+---@field radar_text_value3 UTextBlock
+---@field radar_text_value4 UTextBlock
+---@field radar_text_value5 UTextBlock
+---@field randomtips1 UTextBlock
+---@field rank_ad_bg UImage
+---@field ResultDetail UCanvasPanel
+---@field ResultRankingAvataitem_UIBP1 ResultRankingAvataitem_UIBP_C
+---@field ResultRankingAvataitem_UIBP2 ResultRankingAvataitem_UIBP_C
+---@field ResultRankingAvataitem_UIBP3 ResultRankingAvataitem_UIBP_C
+---@field ResultRankingAvataitem_UIBP4 ResultRankingAvataitem_UIBP_C
+---@field ReuseList2_TeamLogo ReuseList2_C
+---@field ScaleBox_4 UScaleBox
+---@field scoreImage UImage
+---@field SeasonTopGame_Result_Item3_UIBP SeasonTopGame_Result_Item3_UIBP_C
+---@field SeasonTopGame_Result_Item3_UIBP_0 SeasonTopGame_Result_Item3_UIBP_C
+---@field SeasonTopGameResultItem4_1 SeasonTopGame_Result_Item4_UIBP_C
+---@field SeasonTopGameResultItem4_2 SeasonTopGame_Result_Item4_UIBP_C
+---@field SeasonTopGameResultItem4_3 SeasonTopGame_Result_Item4_UIBP_C
+---@field SeasonTopGameResultItem4_4 SeasonTopGame_Result_Item4_UIBP_C
+---@field ShareRankingitem_BP ShareRankingitem_BP_C
+---@field ShareRankingitem_BP_C_0 ShareRankingitem_BP_C
+---@field ShareRankingitem_BP_C_1 ShareRankingitem_BP_C
+---@field ShareRankingitem_BP_C_2 ShareRankingitem_BP_C
+---@field Slot_ShareProfessionResult UCanvasPanel
+---@field SRadarChartUserWidget_0 USRadarChartUserWidget
+---@field SRadarChartUserWidget_1 USRadarChartUserWidget
+---@field Text_AllPlayer UTextBlock
+---@field Text_AllTitleNum UTextBlock
+---@field Text_MyRank UTextBlock
+---@field Text_name UTextBlock
+---@field TextBattleMode UTextBlock
+---@field TextBlock_8 UTextBlock
+---@field TextBlock_13 UTextBlock
+---@field TextBlock_18 UTextBlock
+---@field TextBlock_31 UTextBlock
+---@field TextBlock_40 UTextBlock
+---@field TextBlock_42 UTextBlock
+---@field TextBlock_51 UTextBlock
+---@field TextBlock_52 UTextBlock
+---@field TextBlock_54 UTextBlock
+---@field TextBlock_61 UTextBlock
+---@field TextBlock_63 UTextBlock
+---@field TextBlock_64 UTextBlock
+---@field TextBlock_65 UTextBlock
+---@field TextBlock_GameGrade UTextBlock
+---@field TextBlock_GameRank UTextBlock
+---@field TextBlock_KillScore UTextBlock
+---@field TextBlock_OwnRank1_ReliveMode UTextBlock
+---@field TextBlock_OwnTitle_ReliveMode UTextBlock
+---@field TextBlock_PersonalRanking UTextBlock
+---@field TextBlock_RankScore UTextBlock
+---@field TextBlock_Relivepersonal UTextBlock
+---@field TextBlock_RemainTeam UTextBlock
+---@field TextBlock_rewardDefeatScore UTextBlock
+---@field TextBlock_rewardExp UTextBlock
+---@field TextBlock_rewardGold UTextBlock
+---@field TextBlock_rewardSurviveScore UTextBlock
+---@field TextBlock_rewardTotalScore UTextBlock
+---@field TextBlock_RingofDestinyTips2 UTextBlock
+---@field TextBlock_SelfKill2 UTextBlock
+---@field TextBlock_Slogan UTextBlock
+---@field TextBlock_TeamName UTextBlock
+---@field TextBlock_Tips1_ReliveMode UTextBlock
+---@field TextBlock_TotalRank1_ReliveMode UTextBlock
+---@field TextBlock_Upgrade UTextBlock
+---@field TextBlock_WeekScore UTextBlock
+---@field TextBlock_WeekTotalScore UTextBlock
+---@field TextBlock_Win1 UTextBlock
+---@field TextBlock_Win2 UTextBlock
+---@field TextBlock_ZombieMode_OwnRanking UTextBlock
+---@field TextBlock_ZombieMode_OwnTitle UTextBlock
+---@field TextBlock_ZombieMode_TeamRank UTextBlock
+---@field TextBlock_ZombieMode_TotalTeamRanking UTextBlock
+---@field TextBlock_Zombies UTextBlock
+---@field TextEvaluation UTextBlock
+---@field TextTitleMode UTextBlock
+---@field TextTitleMode2 UTextBlock
+---@field Title_victory_text UTextBlock
+---@field titleBg1 UImage
+---@field titleBg2 UImage
+---@field TitleMetal1 UCanvasPanel
+---@field TitleMetal2 UCanvasPanel
+---@field titleName1 UImage
+---@field titleName2 UImage
+---@field WidgetSwitcher_Data UWidgetSwitcher
+---@field WidgetSwitcher_Label UWidgetSwitcher
+---@field WidgetSwitcher_Mode UWidgetSwitcher
+---@field WidgetSwitcher_ModeBG UWidgetSwitcher
+---@field WidgetSwitcher_TopModeTips UWidgetSwitcher
+---@field BPShareResult bp_share_result_C
+---@field ScoreImgMap ULuaMapHelper
+---@field BPBattleResult bp_battleresult_C
+---@field AvatarList ULuaArrayHelper
+---@field TeammateGenderList ULuaArrayHelper
+---@field TeammatenameList ULuaArrayHelper
+---@field TopMvpArray ULuaArrayHelper
+---@field iconMale FSlateBrush
+---@field iconFemale FSlateBrush
+---@field BottomPlayerArray ULuaArrayHelper
+---@field TopPlayerArray ULuaArrayHelper
+---@field BattleDetailOrderArray ULuaArrayHelper
+---@field RankingPlayerDetaiList ULuaArrayHelper
+---@field isZombieDataInited bool
+---@field PveZombiePanel UWidget
+---@field IsHeroDataInited bool
+---@field HeroInfoPanel UWidget
+---@field PeakCompetitionRadarColor ULuaArrayHelper
+---@field PeakDetailItemList ULuaArrayHelper
+---@field FinishedTeamItemList ULuaArrayHelper
+---@field IgnoreScore int32
+---@field TeamPoseOrderArray ULuaArrayHelper

@@ -1,0 +1,1 @@
+---@class BattleItemHandle_QMF_BP_Mask_186_C:BattleItemHandle_AvatarBP_C

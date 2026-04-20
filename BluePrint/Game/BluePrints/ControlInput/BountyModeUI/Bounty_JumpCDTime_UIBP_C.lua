@@ -1,0 +1,3 @@
+---@class Bounty_JumpCDTime_UIBP_C:UUserWidget
+---@field Jump_CDTime UImage
+---@field Text_Time UTextBlock

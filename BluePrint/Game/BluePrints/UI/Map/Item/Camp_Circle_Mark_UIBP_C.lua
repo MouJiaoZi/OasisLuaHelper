@@ -1,0 +1,12 @@
+---@class Camp_Circle_Mark_UIBP_C:UMapUIMarkBaseWidget
+---@field OnUIBPCreate:fun(InState:FCustomMarkEventData,ParentState:EMarkParentWidget,inRealLevelToMapScale:float,inMapScale:float)
+---@field UpdateMarkSize:fun(inScale:float,inMapScale:float,MapScaleInUI:float)
+---@field Border_Sixiang UBorder
+---@field Image_Ring UImage
+---@field Image_ZoneIcon UImage
+---@field AreaRadius float
+---@field ParentWidgetState EMarkParentWidget
+---@field CircleColorMap ULuaMapHelper
+---@field AddWhichMap EAddMarkFlag
+---@field RealSize float
+---@field RingColorMap ULuaMapHelper

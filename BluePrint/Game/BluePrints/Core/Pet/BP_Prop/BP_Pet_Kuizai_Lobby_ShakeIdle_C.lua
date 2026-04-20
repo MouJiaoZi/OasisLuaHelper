@@ -1,0 +1,4 @@
+---@class BP_Pet_Kuizai_Lobby_ShakeIdle_C:AActor
+---@field UserConstructionScript:fun()
+---@field SK_Pet_GZChicken_Projector USkeletalMeshComponent
+---@field DefaultSceneRoot USceneComponent

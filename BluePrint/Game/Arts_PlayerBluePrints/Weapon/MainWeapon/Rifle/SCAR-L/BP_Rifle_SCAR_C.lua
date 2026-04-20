@@ -1,0 +1,4 @@
+---@class BP_Rifle_SCAR_C:BP_ShootWeaponBase_C
+---@field UserConstructionScript:fun()
+---@field WeaponAnimList_Rifle_SCAR WeaponAnimList_Rifle_SCAR_C
+---@field bUseIdleAnim_0_0 bool

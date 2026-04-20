@@ -1,0 +1,28 @@
+---@class NewTraining_WinPlayerInfo_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field Button_AddFriend UNewButton
+---@field Button_ChangeTeamer UNewButton
+---@field Button_Chat UNewButton
+---@field Button_Close UButton
+---@field Button_Edit UButton
+---@field Button_FollowOther UNewButton
+---@field Button_InviteTeam UNewButton
+---@field Button_JoinTeam UNewButton
+---@field Button_KickTeam UNewButton
+---@field Common_Avatar_BP Common_Avatar_BP_C
+---@field Common_RankTitleInfo_UIBP Common_RankTitleInfo_UIBP_C
+---@field HorizontalBox_Tag UHorizontalBox
+---@field HorizontalBoxCorpsTips UHorizontalBox
+---@field NewButton_Invitation UNewButton
+---@field Text_NotJoin UTextBlock
+---@field TextBlock_5 UTextBlock
+---@field TextBlock_9 UTextBlock
+---@field TextBlock_ButName UTextBlock
+---@field TextBlock_InPark UTextBlock
+---@field TextBlock_PlayerName UTextBlock
+---@field WidgetSwitcher_FriendStatus UWidgetSwitcher
+---@field WidgetSwitcher_InviteTeam UWidgetSwitcher
+---@field WidgetSwitcher_JoinTeam UWidgetSwitcher
+---@field WidgetSwitcher_Paradise UWidgetSwitcher
+---@field WidgetSwitcher_PlayerGender UWidgetSwitcher
+---@field WidgetSwitcher_TeamStatus UWidgetSwitcher

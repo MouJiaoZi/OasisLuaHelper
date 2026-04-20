@@ -1,0 +1,4 @@
+---@class BP_VehicleGeneratorComponent_C:UVehicleGeneratorComponent
+---@field ReceiveBeginPlay:fun()
+---@field LoadVehicleGenerateTable:fun()
+---@field VehicleDataTable UDataTable

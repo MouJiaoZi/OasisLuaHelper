@@ -1,0 +1,14 @@
+---@class BP_MotorCycle_BattleItemHandle_LHJU_C:UBackpackVehicleHandle
+---@field Sfx_Throttle UAkAudioEvent
+---@field Sfx_EngineStart UAkAudioEvent
+---@field Sfx_EngineStop UAkAudioEvent
+---@field Sfx_Horn UAkAudioEvent
+---@field Sfx_EngineLoop_Team UAkAudioEvent
+---@field Sfx_EngineLoop UAkAudioEvent
+---@field ParticleSoftWrapperMap ULuaMapHelper
+---@field Sfx_PopKartAccelerate UAkAudioEvent
+---@field Sfx_GearDown UAkAudioEvent
+---@field Sfx_GearUp UAkAudioEvent
+---@field bUpdateIdleMoveParticle bool
+---@field VehicleShowHolographicEffectAudioMap ULuaMapHelper
+---@field VehicleShowHolographicEffectUIText FString

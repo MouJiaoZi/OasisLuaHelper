@@ -1,0 +1,19 @@
+---@class GiftSpawnHelper_C:AActor
+---@field TriggerEntryEvent:fun(EntryEvent:EUTSkillEntry):bool
+---@field NewFunction_0:fun()
+---@field UserConstructionScript:fun()
+---@field HandleSkillEnd:fun(SkillID:int32,Reason:UTSkillStopReason)
+---@field HandleSkillStart:fun(SkillID:int32)
+---@field TriggerEvent:fun(SkillID:int32,EventType:UTSkillEventType)
+---@field TriggerCustomEvent:fun(EventType:EUAESkillEvent)
+---@field TriggerCustomEventWithOwnerPawn:fun(EventType:EUAESkillEvent,OwnerPawn:AActor)
+---@field InitFromSkill:fun(SkillOwner:AUAEBaseSkill)
+---@field Sphere UStaticMeshComponent
+---@field DefaultSceneRoot USceneComponent
+---@field GiverCache ASTExtraBaseCharacter
+---@field OwnerPlayerStateCache ASTExtraPlayerState
+---@field GiftID int32
+---@field OwnerPawnCache ASTExtraPlayerCharacter
+---@field ToSelf bool
+---@field ShouldAddToBackpack bool
+---@field DoubleSide bool

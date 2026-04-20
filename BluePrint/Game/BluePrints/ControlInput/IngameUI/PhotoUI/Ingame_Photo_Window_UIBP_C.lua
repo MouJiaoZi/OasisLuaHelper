@@ -1,0 +1,44 @@
+---@class Ingame_Photo_Window_UIBP_C:UUAEUserWidget
+---@field ShouldShowTemplateIntro:fun(InTemplateType:int32):bool
+---@field IsInPlaySequence:fun(EmoteSpecificID:int32):int32
+---@field EmoteEnableEffect:fun():bool
+---@field HasEffectEmote:fun():bool
+---@field RefreshExpressionList:fun()
+---@field SwitchTemplateTips:fun(SwitchToInfo:bool,InDisplayInfoType:int32)
+---@field CloseSelf:fun()
+---@field UpdateCategoryUI:fun(Category:int32)
+---@field Construct:fun()
+---@field Destruct:fun()
+---@field OnCamMasterPendingStarted__DelegateSignature:fun(ActiveTemplateID:int32)
+---@field BtnClose UButton
+---@field CanvasPanel_tab UCanvasPanel
+---@field CheckBox_HideTemplateIntro UNewCheckBox
+---@field Common_UIPopupBG_C_2 Common_UIPopupBG_C
+---@field ExpressionChooseList ReuseList2_C
+---@field Image_Template UImage
+---@field NewButton_Camera UNewButton
+---@field NewButton_Photograph UNewButton
+---@field TempInfoButton_Close UNewButton
+---@field TempInfoButton_Play UNewButton
+---@field TemplatesList ReuseList2_C
+---@field TextBlock_Content01 UTextBlock
+---@field TextBlock_Content02 UTextBlock
+---@field TextBlock_Title01 UTextBlock
+---@field TextBlock_Title02 UTextBlock
+---@field TY_PopupsBg_Label TY_PopupsBg_Label_C
+---@field WidgetSwitcher_Camera UWidgetSwitcher
+---@field WidgetSwitcher_DisplayInfoType UWidgetSwitcher
+---@field WidgetSwitcher_Photograph UWidgetSwitcher
+---@field WidgetSwitcher_SwitchTemplate UWidgetSwitcher
+---@field ActiveCategory int32
+---@field CamMasterDataTable UDataTable
+---@field ActiveCamCollection ULuaArrayHelper
+---@field OnCamMasterPendingStarted ULuaMulticastDelegate
+---@field DelayStartCamMasterHandle FTimerHandle
+---@field ActiveTemplateID int32
+---@field EmotePlaySequence ULuaArrayHelper
+---@field EmoteInPlayers ULuaArrayHelper
+---@field AvatarEmoteID int32
+---@field AvatarTypeSpecificID int32
+---@field EmoteIDPairs ULuaArrayHelper
+---@field EmoteChooseItemsList ULuaArrayHelper

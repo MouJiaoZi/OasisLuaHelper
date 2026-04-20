@@ -1,0 +1,28 @@
+---@class CG033_InfoCenter_Notify_UIBP_C:UUAEUserWidget
+---@field Construct:fun()
+---@field CanvasPanel_Appendix UCanvasPanel
+---@field CanvasPanel_Tips UCanvasPanel
+---@field DX_Chicken DX_Chicken_C
+---@field NewButton_CreationGuidelines UNewButton
+---@field NewButton_Del UNewButton
+---@field NewButton_DeleteRead UNewButton
+---@field NewButton_DeleteReadDis UNewButton
+---@field NewButton_GetRewards UNewButton
+---@field NewButton_Help UNewButton
+---@field NewButton_NoCollection UNewButton
+---@field NewButton_Receive UNewButton
+---@field ReuseList2_Appendix ReuseList2_C
+---@field ReuseList_Notify ReuseList2_C
+---@field Text_Messages UTextBlock
+---@field Text_TotalMessages UTextBlock
+---@field TextBlock_NotifyContent UTextBlock
+---@field TextBlock_NotifyTitle UTextBlock
+---@field TextBlock_TimeTips UTextBlock
+---@field UGCM_But03_UIBP UGCM_But03_UIBP_C
+---@field UGCM_But03_UIBP_C_1 UGCM_But03_UIBP_C
+---@field UGCM_But04_UIBP_C_0 UGCM_But04_UIBP_C
+---@field UGCM_But04Disable_UIBP UGCM_But04Disable_UIBP_C
+---@field WidgetSwitcher_But UWidgetSwitcher
+---@field WidgetSwitcher_Del UWidgetSwitcher
+---@field WidgetSwitcher_Notify UWidgetSwitcher
+---@field WidgetSwitcher_Receive UWidgetSwitcher

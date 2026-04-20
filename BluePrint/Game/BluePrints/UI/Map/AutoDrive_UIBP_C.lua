@@ -1,0 +1,26 @@
+---@class AutoDrive_UIBP_C:ULuaUserWidgetExtIngame
+---@field Mark3DPositionInf:fun(Pos:FVector):bool
+---@field SetVehicleInf:fun(vehicle:ASTExtraVehicleBase):bool
+---@field Mark3DPosition:fun(pos:FVector)
+---@field SetVehicle:fun(vehicle:ASTExtraVehicleBase)
+---@field ShowTipsAnimation UWidgetAnimation
+---@field Border_Tips UBorder
+---@field Image_Arrow UImage
+---@field NewBtn_AutoDrive UNewButton
+---@field NewBtn_AutoDrive_Cant UNewButton
+---@field NewBtn_DeleteMark UNewButton
+---@field NewBtn_DeleteMark_Cant UNewButton
+---@field NewBtn_Pause UNewButton
+---@field NewButton_Cancel UNewButton
+---@field NewButton_Confirm UNewButton
+---@field NewButton_Mark1 UNewButton
+---@field NewButton_Mark2 UNewButton
+---@field NewButton_Mark3 UNewButton
+---@field NewButton_Mark4 UNewButton
+---@field Switcher_AutoDriveState UWidgetSwitcher
+---@field TextBlock_1 UTextBlock
+---@field TextBlock_Mark1 UTextBlock
+---@field TextBlock_Mark2 UTextBlock
+---@field TextBlock_Mark3 UTextBlock
+---@field TextBlock_Tips UTextBlock
+---@field WidgetSwitcher_ChageRoad UWidgetSwitcher

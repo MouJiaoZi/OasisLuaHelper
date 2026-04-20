@@ -1,0 +1,15 @@
+---@class OB_PlayerListGroup_BP_C:UUAEUserWidget
+---@field SetTeamIndexEnable:fun(NewParam:bool)
+---@field GetItemByIndex:fun(Index:int32):OB_PlayerListItem_BP_C
+---@field OBPlayerChange:fun(OBPlayerName:FString)
+---@field RefreshData:fun(PlayerDataList:ULuaArrayHelper,ObserverPlayerName:FString,CurMode:OBMapPlayerListModeDefinedEnum)
+---@field Construct:fun()
+---@field Image_TeamLogo UImage
+---@field PlayerNameItem_BP OB_PlayerListItem_BP_C
+---@field PlayerNameItem_BP_1 OB_PlayerListItem_BP_C
+---@field PlayerNameItem_BP_2 OB_PlayerListItem_BP_C
+---@field PlayerNameItem_BP_3 OB_PlayerListItem_BP_C
+---@field VerticalBox_ItenList UVerticalBox
+---@field PlayerItemList ULuaArrayHelper
+---@field PicUrl FString
+---@field CurTeamId int32

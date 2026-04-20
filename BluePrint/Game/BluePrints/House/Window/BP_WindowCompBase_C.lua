@@ -1,0 +1,5 @@
+---@class BP_WindowCompBase_C:UUAEWindowComponent
+---@field callvoicecheck:fun()
+---@field ReceiveBeginPlay:fun()
+---@field BrokenSound UAkAudioEvent
+---@field voiceShowTime float

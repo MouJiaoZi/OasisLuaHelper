@@ -1,0 +1,1 @@
+---@class BP_Mag_MG36_YYCB1_C:BP_Mag_MG36_C

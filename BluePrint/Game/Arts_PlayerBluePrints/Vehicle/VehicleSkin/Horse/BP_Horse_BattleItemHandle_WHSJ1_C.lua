@@ -1,0 +1,1 @@
+---@class BP_Horse_BattleItemHandle_WHSJ1_C:UBackpackVehicleHandle

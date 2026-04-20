@@ -1,0 +1,32 @@
+---@class QuickThrow_UIBP_C:UUAEUserWidget
+---@field GetDiceCD:fun():float
+---@field StartAnimation:fun(StartRate:float,EndTime:float)
+---@field InitCurrDiceState:fun()
+---@field UpdateDiceCountDownTips:fun()
+---@field ClearTimer:fun()
+---@field TouchEndOver:fun()
+---@field TouchEnd:fun():FEventReply
+---@field CheckDiceOpen:fun():bool
+---@field CheckMenuOpenForDebug:fun(ID:int32,defaultRet:bool):bool
+---@field UpdateFollowTips:fun()
+---@field UpdateDiceCD:fun()
+---@field OnTouchEnded:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field OnTouchStarted:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field ReceivedInitWidget:fun()
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field FollowTimeAnimation UWidgetAnimation
+---@field Border_2 UBorder
+---@field Border_Title UBorder
+---@field HorizontalBox_time UHorizontalBox
+---@field ProgressBar_CD UProgressBar
+---@field ProgressBar_follow UProgressBar
+---@field TextBlock_CD UTextBlock
+---@field TextBlock_TimeNum UTextBlock
+---@field WidgetSwitcher_Dice UWidgetSwitcher
+---@field WidgetSwitcher_Options UWidgetSwitcher
+---@field LastDiceTime float
+---@field Following bool
+---@field SoundID int32
+---@field TouchBegin bool
+---@field TouchEndHandle FTimerHandle
+---@field StartAnim bool

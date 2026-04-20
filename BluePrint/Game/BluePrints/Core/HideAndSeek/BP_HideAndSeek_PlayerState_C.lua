@@ -1,0 +1,10 @@
+---@class BP_HideAndSeek_PlayerState_C:AHideAndSeek_PlayerState
+---@field GetLuaModule:fun():FString
+---@field QuickFireEvent_Int:fun(InEventName:FString,PlayerState:BP_HideAndSeek_PlayerState_C,Int:int32)
+---@field QuickFireEvent:fun(InEventName:FString,PlayerState:BP_HideAndSeek_PlayerState_C)
+---@field UserConstructionScript:fun()
+---@field BPShowFoundedEffect:fun()
+---@field DefaultSceneRoot USceneComponent
+---@field DamageCalBase int32
+---@field ScoreCalBase int32
+---@field DamageInTimeCount int32

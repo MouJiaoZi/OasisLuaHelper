@@ -1,0 +1,2 @@
+---@class BP_PlayerPawn_KeyBoard_C:BP_PlayerPawn_C
+---@field UserConstructionScript:fun()

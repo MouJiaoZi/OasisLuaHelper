@@ -1,0 +1,4 @@
+---@class Camp_Detailslist_UIBP_C:UUAEUserWidget
+---@field Image_Icon UImage
+---@field TextBlock_Content UTextBlock
+---@field TextBlock_Title UTextBlock

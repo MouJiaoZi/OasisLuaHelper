@@ -1,0 +1,3 @@
+---@class bp_setting_pickup_choose_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent

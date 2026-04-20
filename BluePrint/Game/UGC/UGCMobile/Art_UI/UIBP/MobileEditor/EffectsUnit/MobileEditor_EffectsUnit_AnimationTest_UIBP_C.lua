@@ -1,0 +1,12 @@
+---@class MobileEditor_EffectsUnit_AnimationTest_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field Get_WidgetSwitcher_Test_ActiveWidgetIndex_0:fun():int32
+---@field CanvasPanel_Trans UCanvasPanel
+---@field DecoratorDetailViewWidget UGCMobileDetailViewWidget_C
+---@field MotionDetailViewWidget UGCMobileDetailViewWidget_C
+---@field NewButton_Checked UNewButton
+---@field NewButton_NotSelected UNewButton
+---@field NewButton_Quit UNewButton
+---@field NewButton_StopTest UNewButton
+---@field SetAdvanced_HelpTips_UIBP SetAdvanced_HelpTips_UIBP_C
+---@field WidgetSwitcher_Test UWidgetSwitcher

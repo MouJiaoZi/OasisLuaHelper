@@ -1,0 +1,6 @@
+---@class BP_OverlappedsDispatcher_C:ABP_TriggerArea_C
+---@field GetLuaModule:fun():FString
+---@field UserConstructionScript:fun()
+---@field DispatchOverlapObjectTypeQueries ULuaArrayHelper
+---@field DispatchOverlapActorClassFilterClass UClass
+---@field DispatchOverlapActorsToIgnore ULuaArrayHelper

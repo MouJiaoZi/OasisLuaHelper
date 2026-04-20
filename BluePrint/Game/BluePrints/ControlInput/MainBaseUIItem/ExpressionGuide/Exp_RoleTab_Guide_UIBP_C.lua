@@ -1,0 +1,3 @@
+---@class Exp_RoleTab_Guide_UIBP_C:UUAEUserWidget
+---@field CanvasPanel_GuideTips2 UCanvasPanel
+---@field UTRichTextBlock_GuideTips2 UUTRichTextBlock

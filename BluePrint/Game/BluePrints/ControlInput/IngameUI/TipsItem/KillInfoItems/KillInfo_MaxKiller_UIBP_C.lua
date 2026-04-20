@@ -1,0 +1,20 @@
+---@class KillInfo_MaxKiller_UIBP_C:UKillInfo_Base_UIBP_C
+---@field ShowNewMaxKiller:fun(CauserName:FString,KillCount:int32)
+---@field ShowFirstMaxKiller:fun(CauserName:FString,KillCount:int32)
+---@field ShowMaxKillerStatus:fun(NewParam:FClientFatalDamageRecordData)
+---@field ShowKillInfoStatus:fun(NewParam:FClientFatalDamageRecordData,ImageDownloader:UObject,BaseUI:MainControlBaseUI_C)
+---@field ShowLeftQueueBaseInfo:fun(NewParam:FClientFatalDamageRecordData,ImageDownloader:UImageDownloader)
+---@field DX_KillRunning UWidgetAnimation
+---@field BGSelector UWidgetSwitcher
+---@field Border_ColorSet UBorder
+---@field Border_SetColor UBorder
+---@field FXAddCanvas UCanvasPanel
+---@field GridPanel_main UGridPanel
+---@field HorizontalBox_0 UHorizontalBox
+---@field Image_eliminateBG UImage
+---@field Image_KillBG UImage
+---@field KillNum_TextBlock UTextBlock
+---@field MaxKillerIcon UImage
+---@field PlayerName_TextBlock UTextBlock
+---@field Title_TextBlock UTextBlock
+---@field CurMaxKillerStatus EFatalDamageMaxKillStatus

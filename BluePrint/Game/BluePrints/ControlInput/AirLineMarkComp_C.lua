@@ -1,0 +1,28 @@
+---@class AirLineMarkComp_C:UActorComponent
+---@field ShowAirLineClient:fun()
+---@field InitTick:fun()
+---@field HideAirLine:fun()
+---@field ShowAirLineServer:fun(InPlayerController:ULuaArrayHelper,InRangeType:EMarkDispatchRange,InStartLocation:FVector,InEndLocation:FVector,InPlaneSpeed:FVector)
+---@field ReceiveBeginPlay:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field ReceiveEndPlay:fun(EndPlayReason:EEndPlayReason)
+---@field PlaneLoc FVector
+---@field PlaneRot FRotator
+---@field PlaneSpeed FVector
+---@field MarkTypeIDAirLine int32
+---@field MarkTypeIDPlane int32
+---@field UpdateInterval float
+---@field NeedClientSimulate bool
+---@field AirLineUIRef_MiniMap UUserWidget
+---@field PlaneUIRef_MiniMap UUserWidget
+---@field MapUIManagerRef UMapUIMarkManager
+---@field AirLineUIRef_EntireMap UUserWidget
+---@field PlaneUIRef_EntireMap UUserWidget
+---@field ClientSimulateInterval float
+---@field ClientSimulateData FAirLineMarkClientSimulateData
+---@field IsClientOnly bool
+---@field IsClientShown bool
+---@field ForceShowAirLine bool
+---@field ClientPreInstanceID FAirLineMarkIDs
+---@field CachedAirLineParamMap ULuaMapHelper
+---@field PLayerKeyRangeAll FString

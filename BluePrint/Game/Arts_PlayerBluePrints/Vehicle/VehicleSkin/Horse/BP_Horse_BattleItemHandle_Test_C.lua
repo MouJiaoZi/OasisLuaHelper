@@ -1,0 +1,3 @@
+---@class BP_Horse_BattleItemHandle_Test_C:UBackpackVehicleHandle
+---@field bCanCallByPlayer bool
+---@field ParticleSoftWrapperMap ULuaMapHelper

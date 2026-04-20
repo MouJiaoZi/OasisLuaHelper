@@ -1,0 +1,5 @@
+---@class ResultsOB_ResultTitle_Item02_UIBP_C:UUserWidget
+---@field SetValue:fun(Name:FString,Value:int32,InBrush:FSlateBrush)
+---@field Image_StateIcon UImage
+---@field TextBlock_ActionNum UTextBlock
+---@field TextBlock_State UTextBlock

@@ -1,0 +1,1 @@
+---@class WeaponAnimList_Sniper_QBU_C:UUAECharacterAnimListComponent

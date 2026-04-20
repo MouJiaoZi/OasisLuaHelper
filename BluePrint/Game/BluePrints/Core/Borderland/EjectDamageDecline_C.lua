@@ -1,0 +1,4 @@
+---@class EjectDamageDecline_C:AUAESkill
+---@field UserConstructionScript:fun()
+---@field UAESkillPhase UUAESkillPhase
+---@field DefaultSceneRoot USceneComponent

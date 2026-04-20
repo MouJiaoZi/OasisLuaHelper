@@ -1,0 +1,1 @@
+---@class BP_GunSmith_BattleItemHandle_tanhuang_7_C:UBattleItemHandle_Ammo_C

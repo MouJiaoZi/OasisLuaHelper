@@ -1,0 +1,6 @@
+---@class bp_corps_Invitation_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_CorpsInvitation_ShowType int32
+---@field BP_CorpsInvitation_IsShowCorpsWar bool
+---@field BP_ARRAY_CorpsInvitation_AmbassadorList ULuaArrayHelper

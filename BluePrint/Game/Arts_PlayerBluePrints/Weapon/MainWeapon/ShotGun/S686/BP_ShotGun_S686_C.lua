@@ -1,0 +1,4 @@
+---@class BP_ShotGun_S686_C:BP_ShotGunBase_C
+---@field UserConstructionScript:fun()
+---@field WeaponAnimList_ShotGun_S6861 WeaponAnimList_ShotGun_S686_C
+---@field bUseIdleAnim_0_0_0 bool

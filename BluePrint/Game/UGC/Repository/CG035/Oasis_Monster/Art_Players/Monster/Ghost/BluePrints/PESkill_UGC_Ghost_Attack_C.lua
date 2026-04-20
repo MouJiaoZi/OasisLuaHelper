@@ -1,0 +1,1 @@
+---@class PESkill_UGC_Ghost_Attack_C:PESkillTemplate_Base_C

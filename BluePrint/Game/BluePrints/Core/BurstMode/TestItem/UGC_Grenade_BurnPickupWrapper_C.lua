@@ -1,0 +1,1 @@
+---@class UGC_Grenade_BurnPickupWrapper_C:AGrenade_Burn_Wrapper_C

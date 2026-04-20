@@ -1,0 +1,9 @@
+---@class Tmode_TeamOpen_UIBP_C:UUAEUserWidget
+---@field SetVoice:fun(Status:int32)
+---@field SetState:fun(State:ExtraPlayerLiveState)
+---@field SetPlayerIndex:fun(Index:int32)
+---@field Image_Dead UImage
+---@field Image_Normal UImage
+---@field Image_Voice UImage
+---@field TextBlock_TeamNum UTextBlock
+---@field WidgetSwitcher_People UWidgetSwitcher

@@ -1,0 +1,3 @@
+---@class CharacterDeadInventoryBox_C:APlayerDeadInventoryBox_C
+---@field UserConstructionScript:fun()
+---@field BP_CharacterDeadInventoryBoxFieldOfViewNotificationComponent BP_CharacterDeadInventoryBoxFieldOfViewNotificationComponent_C

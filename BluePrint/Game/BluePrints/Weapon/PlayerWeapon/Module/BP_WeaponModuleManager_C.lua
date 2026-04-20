@@ -1,0 +1,1 @@
+---@class BP_WeaponModuleManager_C:UWeaponModuleManager

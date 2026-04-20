@@ -1,0 +1,20 @@
+---@class BP_BlowerPEBuff_C:UPersistEffectBuff
+---@field EnableBlend:fun()
+---@field OnReceiveOut:fun()
+---@field StopCustomMove:fun()
+---@field StartCustomMove:fun()
+---@field GetMoveComp:fun(Actor:AActor)
+---@field GetInitialVelocity:fun(CharacterOwner:ACharacter,MovementInstance:UCustomMovementBase,MoveTime:float,DeltaTime:float):FVector
+---@field OnFloatStop:fun()
+---@field RegisterCustomMove:fun()
+---@field GetCustomZVelocity:fun(CharacterOwner:ACharacter,MovementInstance:UCustomMovementBase,MoveTime:float,DeltaTime:float):float
+---@field GetCustomXYVelocity:fun(CharacterOwner:ACharacter,MovementInstance:UCustomMovementBase,MoveTime:float,DeltaTime:float):FVector
+---@field Speed FVector
+---@field FloatingTime float
+---@field TimerHandle FTimerHandle
+---@field bReceiveStop bool
+---@field InitalVelocity FVector
+---@field BlowerHandler BP_Blower_C
+---@field bInAir bool
+---@field MovementComp USTCharacterMovementComponentBase
+---@field bEnableBlend bool

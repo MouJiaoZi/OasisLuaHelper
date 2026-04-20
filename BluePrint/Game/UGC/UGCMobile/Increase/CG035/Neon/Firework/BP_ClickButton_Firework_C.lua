@@ -1,0 +1,28 @@
+---@class BP_ClickButton_Firework_C:UClickButtonWidget
+---@field HintVisibilityControlWhenDestruct:fun()
+---@field HintVisibilityControlWhenConstruct:fun()
+---@field Get_ProgressBar_Bar_Percent_0:fun():float
+---@field ButtonPerformance:fun()
+---@field SetWidgetVisible:fun(IsVisible:bool)
+---@field Init_BP:fun(UIInfo:FClickUIInfo)
+---@field ResetEndTimeStamp:fun(GlobaBeginStamp:float,GlobalEndStamp:float)
+---@field Destruct:fun()
+---@field Construct:fun()
+---@field Button_Watering UNewButton
+---@field CanvasPanel_1 UCanvasPanel
+---@field CanvasPanel_2 UCanvasPanel
+---@field CanvasPanel_CDTime UCanvasPanel
+---@field Image_watering UImage
+---@field ProgressBar_Bar UProgressBar
+---@field TextBlock_Time UTextBlock
+---@field TextBlock_watering UTextBlock
+---@field CD float
+---@field LastClick float
+---@field GlobalCDTimer FTimerHandle
+---@field BeginCD bool
+---@field RemainCD float
+---@field GlobalCD int32
+---@field DeletTime float
+---@field ParentClickButtonCount int32
+---@field CachedParent UPanelWidget
+---@field Owner BP_Firework01_C

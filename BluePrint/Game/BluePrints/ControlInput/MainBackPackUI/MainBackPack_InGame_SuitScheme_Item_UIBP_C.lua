@@ -1,0 +1,24 @@
+---@class MainBackPack_InGame_SuitScheme_Item_UIBP_C:UUAEUserWidget
+---@field StartCD:fun(CDSkill:float)
+---@field LoadSuitIcon:fun(obj:UObject)
+---@field SetLock:fun(index:int32)
+---@field SetSuitSkinUnit:fun(unit:FSuitSkinUnit,curUseIndex:int32,CDTime:float)
+---@field OnTouchStarted:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field isReady:fun():bool
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field Image_Clothes_Motion UImage
+---@field Image_Material_CD UImage
+---@field Image_SuitLock UImage
+---@field Image_SuitScheme_SelectFrame UImage
+---@field Image_SuitScheme_SpuareIcon UImage
+---@field ImageSuit UImage
+---@field NewButton_InGame_SuitScheme UNewButton
+---@field TextBlock_SuitScheme_Number UTextBlock
+---@field WidgetSwitche_BackPack_SuitScheme UWidgetSwitcher
+---@field index int32
+---@field lock bool
+---@field unuse bool
+---@field curUseIdx int32
+---@field CDSkill float
+---@field currCD float
+---@field UIIndex int32

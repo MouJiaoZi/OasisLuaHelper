@@ -1,0 +1,4 @@
+---@class UGCFloatingVehicleComponent_BP_C:UUGCFloatingVehicleComponent
+---@field GetLuaModule:fun():FString
+---@field AfterOverrideVehiclePhyX:fun()
+---@field ReceiveBeginPlay:fun()

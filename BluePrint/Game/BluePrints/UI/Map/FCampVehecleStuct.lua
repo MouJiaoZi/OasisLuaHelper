@@ -1,0 +1,4 @@
+---@class FCampVehecleStuct
+---@field SpotType int32
+---@field SpotTag FString
+---@field SoptLoc FString

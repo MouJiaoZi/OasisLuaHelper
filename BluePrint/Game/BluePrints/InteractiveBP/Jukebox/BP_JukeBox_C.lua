@@ -1,0 +1,15 @@
+---@class BP_JukeBox_C:AJukebox
+---@field UserConstructionScript:fun()
+---@field BPPlayAkAudioEvent:fun(AkAudioEvent:UAkAudioEvent,bPlayAnimation:bool)
+---@field BPStopAkAudioEvent:fun(bPlayAnimation:bool)
+---@field BPSetBrokenCloseMesh:fun()
+---@field BPSetBrokenOpenMesh:fun()
+---@field BPCloseAnimation:fun()
+---@field BPOpenAnimation:fun()
+---@field BPPlayPlayerAnimation:fun(Character:ASTExtraBaseCharacter)
+---@field BoxCover UBoxComponent
+---@field BoxCoverCentral UInstancedBoxComponent
+---@field JukeboxSkeletalMesh USkeletalMeshComponent
+---@field Box UBoxComponent
+---@field StopIconRef UObject
+---@field OpenIconRef UObject

@@ -1,0 +1,2 @@
+---@class VehicleBackpackInterface_C:UInterface
+---@field SetItemList_Inf:fun(itemList:ULuaArrayHelper,capacity:float):bool

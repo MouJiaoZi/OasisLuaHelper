@@ -1,0 +1,4 @@
+---@class BP_MachineGun_Vector_C:BP_ShootWeaponBase_C
+---@field UserConstructionScript:fun()
+---@field WeaponAnimList_MachineGun_Vector WeaponAnimList_MachineGun_Vector_C
+---@field bUseIdleAnim_0_0 bool

@@ -1,0 +1,24 @@
+---@class OB_PlayerListItem_BP_C:UUAEUserWidget
+---@field GetFrontendHud:fun():UGameFrontendHUD
+---@field ShowIsOnOberving:fun(OBPlayerName:FString)
+---@field OnMouseButtonUp:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field ShowData:fun(isEagleEye:bool,PlayerName:FString,TeamID:int32,OBPlayerName:FString,KillNum:int32,IsAlive:bool,playerUID:FString,IsObGmkill:bool,ObPlayerMapMode:OBMapPlayerListModeDefinedEnum,PlayerKey:FString)
+---@field Border_Parent UBorder
+---@field Btn_Copyuid UNewButton
+---@field CanvasPanel_IDX UCanvasPanel
+---@field Image_CurrentSelected UImage
+---@field Image_DeadIcon UImage
+---@field Image_IsActvie UImage
+---@field NewButton_Judge UNewButton
+---@field TextBlock_KillNum UTextBlock
+---@field TextBlock_PlayerName UTextBlock
+---@field TextBlock_PlayerUID UTextBlock
+---@field TextBlock_TeamIdx UTextBlock
+---@field WidgetSwitcher_Judge UWidgetSwitcher
+---@field IsObserving bool
+---@field PlayerName FString
+---@field IsPlayerAlive bool
+---@field IsShowTeamIndex bool
+---@field PlayerUID FString
+---@field PlayerKey FString
+---@field curMode OBMapPlayerListModeDefinedEnum

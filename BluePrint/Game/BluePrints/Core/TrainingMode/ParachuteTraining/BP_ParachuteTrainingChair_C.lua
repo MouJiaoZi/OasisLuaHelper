@@ -1,0 +1,11 @@
+---@class BP_ParachuteTrainingChair_C:AParachuteTrainingChair
+---@field UserConstructionScript:fun()
+---@field HandleSkillEnd:fun(SkillID:int32,Reason:UTSkillStopReason)
+---@field HandleSkillStart:fun(SkillID:int32)
+---@field TriggerEvent:fun(SkillID:int32,EventType:UTSkillEventType)
+---@field Camera UCameraComponent
+---@field STExtraSpringArm USTExtraSpringArmComponent
+---@field ReadyToDownLift_Sequence UActorSequenceComponent
+---@field ReadyToUpLift_Sequence UActorSequenceComponent
+---@field BoxTrigger UBoxComponent
+---@field GISActorComponentBase UGISActorComponentBase

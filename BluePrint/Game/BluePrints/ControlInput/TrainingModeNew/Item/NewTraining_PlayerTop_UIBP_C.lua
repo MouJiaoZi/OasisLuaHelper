@@ -1,0 +1,21 @@
+---@class NewTraining_PlayerTop_UIBP_C:UPlayerCharacterPositionWidget
+---@field OnKingMarkLoaded:fun()
+---@field UpdateTopSegmentTimes:fun(Times:int32)
+---@field OnShowTrumpMarkAnim:fun()
+---@field UpdateTitleID:fun(NewParam:int32)
+---@field SetTeammateShowDistance:fun()
+---@field OnLoadTextureDone:fun(NewParam:UObject,NewParam1:int32)
+---@field Event_SetExParam:fun(InParam:int32)
+---@field Event_InitParam:fun(InParam:FWidgetParamInfo,InDestinPos:FVector,InTargetActor:AActor)
+---@field Event_TeamIDChange:fun()
+---@field CanvasPanel_Name UCanvasPanel
+---@field CanvasPanel_Title UCanvasPanel
+---@field Image_BG UImage
+---@field Image_TitleIcon UImage
+---@field KingMarkSocket UCustomSocketPanel
+---@field TextBlock_Name UTextBlock
+---@field TextBlock_TitleName UTextBlock
+---@field CurrentID int32
+---@field TimeHandle FTimerHandle
+---@field TopSegmentTimes int32
+---@field HideTop bool

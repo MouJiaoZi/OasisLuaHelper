@@ -1,0 +1,3 @@
+---@class HS_Callbox_C:AHiderSceneActorBase_C
+---@field UserConstructionScript:fun()
+---@field Box UBoxComponent

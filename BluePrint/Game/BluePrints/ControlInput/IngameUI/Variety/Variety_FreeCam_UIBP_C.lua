@@ -1,0 +1,30 @@
+---@class Variety_FreeCam_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field Construct:fun()
+---@field DX_HideList UWidgetAnimation
+---@field DX_ShowList UWidgetAnimation
+---@field TopTips_anima UWidgetAnimation
+---@field Border_TopTips UBorder
+---@field CanvasPanel_FreeCamList UCanvasPanel
+---@field CanvasPanel_lift UCanvasPanel
+---@field CanvasPanel_ShowList UCanvasPanel
+---@field CustomScrollBox_List UCustomScrollBox
+---@field Image_GameLogo UImage
+---@field NewButton_Close UNewButton
+---@field NewButton_Dow UNewButton
+---@field NewButton_ExitFreeCamMode UNewButton
+---@field NewButton_ShowFreeCamList UNewButton
+---@field NewButton_Up UNewButton
+---@field ScaleBox_IPX UScaleBox
+---@field TextBlock_FreeCamTips UTextBlock
+---@field Variety_Slider_Aperture Variety_Slider_UIBP_C
+---@field Variety_Slider_CameraSpeed Variety_Slider_UIBP_C
+---@field Variety_Slider_FocalLength Variety_Slider_UIBP_C
+---@field Variety_Slider_FOV Variety_Slider_UIBP_C
+---@field Variety_Switch_Follow Variety_Switch_UIBP_C
+---@field Variety_Switch_Gyroscope Variety_Switch_UIBP_C
+---@field Variety_Switch_HideRoulette Variety_Switch_UIBP_C
+---@field Variety_Switch_UIBP Variety_Switch_UIBP_C
+---@field FreeCamAllHideStyle UUserWidgetStyle
+---@field FreeCamOnlyKillInfoStyle UUserWidgetStyle
+---@field FreeCamHideJoystickStyle UUserWidgetStyle

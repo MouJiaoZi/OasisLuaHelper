@@ -1,0 +1,2 @@
+---@class MapPositionReuseList_BP_C:UBTReuseListNew
+---@field List UCustomScrollBox

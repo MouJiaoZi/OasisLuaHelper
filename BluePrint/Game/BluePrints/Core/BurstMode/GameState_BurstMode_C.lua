@@ -1,0 +1,6 @@
+---@class GameState_BurstMode_C:ASTExtraGameStateBase
+---@field GetLuaModule:fun():FString
+---@field UserConstructionScript:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field ReceiveEndPlay:fun(EndPlayReason:EEndPlayReason)
+---@field DefaultSceneRoot USceneComponent

@@ -1,0 +1,10 @@
+---@class NewTraining_TitleItem_UIBP_C:UUAEUserWidget
+---@field OnLoadTextureDone:fun(TextureObj:UObject,TitleID:int32)
+---@field SetTitleData:fun(CurrentID:int32)
+---@field Border_Click UBorder
+---@field CanvasPanel_Lock UCanvasPanel
+---@field Image_TitleIcon UImage
+---@field Image_TrumpMark UImage
+---@field TextBlock_TitleName UTextBlock
+---@field WidgetSwitcher_TitleType UWidgetSwitcher
+---@field CurrentTitleID int32

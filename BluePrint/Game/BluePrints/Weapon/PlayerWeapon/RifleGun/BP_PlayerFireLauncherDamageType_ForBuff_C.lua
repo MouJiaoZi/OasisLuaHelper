@@ -1,0 +1,1 @@
+---@class BP_PlayerFireLauncherDamageType_ForBuff_C:USTExtraDamageType

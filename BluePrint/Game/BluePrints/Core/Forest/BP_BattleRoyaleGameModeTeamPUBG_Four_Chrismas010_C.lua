@@ -1,0 +1,1 @@
+---@class BP_BattleRoyaleGameModeTeamPUBG_Four_Chrismas010_C:ABP_BattleRoyaleGameModeTeamPUBG_Four_C

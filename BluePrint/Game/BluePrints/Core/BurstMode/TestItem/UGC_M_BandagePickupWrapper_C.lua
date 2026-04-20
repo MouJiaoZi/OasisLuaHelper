@@ -1,0 +1,1 @@
+---@class UGC_M_BandagePickupWrapper_C:ABandageWrapper_C

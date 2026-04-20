@@ -1,0 +1,18 @@
+---@class SounPlace_Initiation_UIBP_C:UUAEUserWidget
+---@field Border_Accomplish UBorder
+---@field Border_Countdown UBorder
+---@field Border_Initiation UBorder
+---@field Border_Score UBorder
+---@field Canvas_RecordTips UCanvasPanel
+---@field CanvasPanel_Result UCanvasPanel
+---@field CanvasPanel_Score UCanvasPanel
+---@field CanvasPanel_Time UCanvasPanel
+---@field Text_New UTextBlock
+---@field TextBlock_Difficulty1 UTextBlock
+---@field TextBlock_Difficulty2 UTextBlock
+---@field TextBlock_End UTextBlock
+---@field TextBlock_Nandu UTextBlock
+---@field TextBlock_Number UTextBlock
+---@field TextBlock_RecordTips UTextBlock
+---@field TextBlock_Score UTextBlock
+---@field TextBlock_Time UTextBlock

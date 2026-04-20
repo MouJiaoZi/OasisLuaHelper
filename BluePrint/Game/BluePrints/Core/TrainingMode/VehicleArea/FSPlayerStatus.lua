@@ -1,0 +1,3 @@
+---@class FSPlayerStatus
+---@field UID FString
+---@field ExitVehicleUtcNowUnixTimestampMillseconds int64

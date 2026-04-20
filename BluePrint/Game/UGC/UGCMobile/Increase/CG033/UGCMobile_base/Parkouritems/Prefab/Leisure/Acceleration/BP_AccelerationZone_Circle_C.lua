@@ -1,0 +1,21 @@
+---@class BP_AccelerationZone_Circle_C:AActivityBaseActor
+---@field CheckDisableUploadAbsolutePointOnBulletImpact:fun(ShootWeapon:ASTExtraShootWeapon,HitComp:USceneComponent):bool
+---@field CheckIgnoreBulletOnImpact:fun(ShootWeapon:ASTExtraShootWeapon,Bullet:ASTExtraShootWeaponBulletBase,bStartPenetrating:bool):bool
+---@field CheckUploadRelativePointOnBulletImpact:fun(ShootWeapon:ASTExtraShootWeapon,HitComp:USceneComponent):bool
+---@field GetOverrideBulletHitComp:fun():UPrimitiveComponent
+---@field GetLuaModule:fun():FString
+---@field OnMonsterIn:fun(InMonster:BP_UGCM_GenericMobPawn_C)
+---@field LuaOnPawnIn:fun(InPawn:AActor)
+---@field RegisterCustomMovement:fun(InCharacter:ASTExtraBaseCharacter)
+---@field OnVehicleIn:fun(InVehicle:ASTExtraVehicleBase)
+---@field OnCharacterIn:fun(InCharacter:ASTExtraBaseCharacter)
+---@field GetPawnLaunchVelocity:fun(CharacterOwner:ASTExtraBaseCharacter):bool,bool,bool,FVector
+---@field SetAcclerationEnable:fun(bEnable:bool)
+---@field UserConstructionScript:fun()
+---@field OverlapCheckArea UOverlapCheckAreaComponent
+---@field StaticMesh UStaticMeshComponent
+---@field Root USceneComponent
+---@field Arrow UArrowComponent
+---@field VehicleSpeed float
+---@field PawnSpeed float
+---@field AccelerationTime float

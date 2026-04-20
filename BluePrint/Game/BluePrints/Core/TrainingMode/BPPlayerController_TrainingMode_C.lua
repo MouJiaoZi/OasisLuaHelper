@@ -1,0 +1,14 @@
+---@class BPPlayerController_TrainingMode_C:ABP_STExtraPlayerController_C
+---@field GetLuaModule:fun():FString
+---@field LeaveAPDScene:fun()
+---@field EnterToAPDScene:fun():bool
+---@field BindBackBackEvent:fun()
+---@field UserConstructionScript:fun()
+---@field ReceiveClientRestart:fun()
+---@field bp_TouchComp bp_TouchComp_C
+---@field TeamScrimmageHealthControl BP_HealthControl_Training_C
+---@field BattleFlagActorPath FString
+---@field BattleFlagMaxDistance float
+---@field RespawnEffect UParticleSystem
+---@field InitialItems ULuaMapHelper
+---@field CurGameModeActor AActor

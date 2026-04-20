@@ -1,0 +1,1 @@
+---@class DestinyCircleHeavyWeapon_Livik_2_C:ADestinyCircleHeavyWeapon_2_C

@@ -1,0 +1,4 @@
+---@class RoomCamp_TopNum_UIBP_C:UUAEUserWidget
+---@field CanvasPanel_RoomCampTips UCanvasPanel
+---@field SurviveCountText UTextBlock
+---@field Text_letter UTextBlock

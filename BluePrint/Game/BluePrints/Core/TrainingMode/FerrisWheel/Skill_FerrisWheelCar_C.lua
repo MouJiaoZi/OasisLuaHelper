@@ -1,0 +1,28 @@
+---@class Skill_FerrisWheelCar_C:AUAESkill
+---@field UserConstructionScript:fun()
+---@field UAESkillAction_LimitPlayerCamera UUAESkillAction_LimitPlayerCamera
+---@field UAESkillAction_DisablePawnState3 UUAESkillAction_DisablePawnState
+---@field UAESkillAction_LockCameraViewType3 UUAESkillAction_LockCameraViewType
+---@field UAESkillPhase1 UUAESkillPhase
+---@field UAESkillAction_LockCameraViewType2 UUAESkillAction_LockCameraViewType
+---@field UAESkillAction_LockCameraViewType1 UUAESkillAction_LockCameraViewType
+---@field UAESkillAction_LockCameraViewType UUAESkillAction_LockCameraViewType
+---@field UAESkillEventEffectMapForEditor4 UUAESkillEventEffectMapForEditor
+---@field UAESkillEventEffectMapForEditor3 UUAESkillEventEffectMapForEditor
+---@field UAESkillEventEffectMapForEditor2 UUAESkillEventEffectMapForEditor
+---@field UAESkillEventEffectMapForEditor1 UUAESkillEventEffectMapForEditor
+---@field UAESkillStringEventEffectMapForEditor UUAESkillStringEventEffectMapForEditor
+---@field UAESkillAction_DisablePickup UUAESkillAction_DisablePickup
+---@field UAESkillAction_Log2 UUAESkillAction_Log
+---@field UAESkillAction_Log1 UUAESkillAction_Log
+---@field UAESkillAction_Log UUAESkillAction_Log
+---@field UAESkillAction_TriggerGIS2 UUAESkillAction_TriggerGIS
+---@field UAESkillAction_TriggerGIS1 UUAESkillAction_TriggerGIS
+---@field UTSkillEventEffectMapForEditor2 UUTSkillEventEffectMapForEditor
+---@field UAESkillEventEffectMapForEditor UUAESkillEventEffectMapForEditor
+---@field UAESkillAction_SwitchWeapon UUAESkillAction_SwitchWeapon
+---@field UTSkillEventEffectMapForEditor UUTSkillEventEffectMapForEditor
+---@field UAESkillPhase3 UUAESkillPhase
+---@field UAESkillPhase2 UUAESkillPhase
+---@field UAESkillPhase UUAESkillPhase
+---@field DefaultSceneRoot USceneComponent

@@ -1,0 +1,1 @@
+---@class WeaponAttrBarItem_BP_C:UUAEUserWidget

@@ -1,0 +1,3 @@
+---@class HideAndSeekBoothInterface_C:UInterface
+---@field SetHiderName:fun(PlayerName:FName)
+---@field SetSeekerName:fun(PlayerName:FName)

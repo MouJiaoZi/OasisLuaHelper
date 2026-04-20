@@ -1,0 +1,5 @@
+---@class BP_DAKA_GFX_C:AActor
+---@field FindAndKillOld:fun()
+---@field UserConstructionScript:fun()
+---@field p_loveday_lizi02 UParticleSystemComponent
+---@field DefaultSceneRoot USceneComponent

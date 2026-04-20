@@ -1,0 +1,12 @@
+---@class KillInfoItem_Socket_UIBP_C:UUAEUserWidget
+---@field InitItems:fun()
+---@field FreeThisItem:fun()
+---@field ResetItems:fun()
+---@field FileItem:fun(NewParam:FClientFatalDamageRecordData,imageDownloader:UObject,BaseUI:MainControlBaseUI_C)
+---@field NewAnimation_1 UWidgetAnimation
+---@field Mode2_anima UWidgetAnimation
+---@field Mode1_anima UWidgetAnimation
+---@field Border_ColorSet UBorder
+---@field ItemContainer UGridPanel
+---@field WidgetSwitcher_Type UWidgetSwitcher
+---@field ItemRefArray ULuaArrayHelper

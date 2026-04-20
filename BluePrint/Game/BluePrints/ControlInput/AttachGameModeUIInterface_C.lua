@@ -1,0 +1,3 @@
+---@class AttachGameModeUIInterface_C:UInterface
+---@field AttachPveZombieBossHealth:fun(BossHealth:UUAEUserWidget):bool
+---@field AttachColdModeUI:fun(playerState:UWidget,fireArmo:UWidget,coldTime:UWidget,skillBtn:UWidget,temp:UWidget,snowboard:UWidget):bool

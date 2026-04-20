@@ -1,0 +1,8 @@
+---@class CorpsResultrankingitem_UIBP_C:UUAEUserWidget
+---@field RefreshCorpsIcon:fun(icon:UObject)
+---@field icon_CorpsIcon UImage
+---@field KillNum UTextBlock
+---@field TB_Corpsname UTextBlock
+---@field TB_DamageNum UTextBlock
+---@field TB_Rank UTextBlock
+---@field TB_SurviveTime UTextBlock

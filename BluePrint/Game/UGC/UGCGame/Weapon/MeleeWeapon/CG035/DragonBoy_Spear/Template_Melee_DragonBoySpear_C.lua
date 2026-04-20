@@ -1,0 +1,2 @@
+---@class Template_Melee_DragonBoySpear_C:BP_UGC_BattleItemHandle_MeleeWeapon_C
+---@field UGC_TemplateSaveItemID:fun():int32

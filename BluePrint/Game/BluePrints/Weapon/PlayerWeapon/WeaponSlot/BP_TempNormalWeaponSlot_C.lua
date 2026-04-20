@@ -1,0 +1,1 @@
+---@class BP_TempNormalWeaponSlot_C:UWeaponSlot_SubWeapon

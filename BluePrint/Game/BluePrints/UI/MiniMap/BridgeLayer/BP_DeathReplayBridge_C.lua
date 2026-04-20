@@ -1,0 +1,7 @@
+---@class BP_DeathReplayBridge_C:UDeathReplayMiniMapBridge
+---@field GetMiniMapMaxScaleBlueprint:fun(LevelName:FString):float
+---@field GetMiniMapAdaptionSizeBlueprint:fun(OwnerController:ASTExtraPlayerController):float
+---@field GetMiniMapStandardScaleBlueprint:fun(LevelName:FString):float
+---@field GetMiniMapTextureBlueprint:fun(LevelName:FString):UTexture2D
+---@field RealTimeInfoCache FMiniMapRealTimeInfo
+---@field CustomEventInfo FCustomEventInfo

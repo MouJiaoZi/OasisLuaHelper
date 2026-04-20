@@ -1,0 +1,7 @@
+---@class ScreenFadingPanel_C:UUAEUserWidget
+---@field BlackScreenFadeOut:fun(FadTime:float)
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field Construct:fun()
+---@field Image_Mask UImage
+---@field FadingOutTime0 float
+---@field CurFadingOutTime float

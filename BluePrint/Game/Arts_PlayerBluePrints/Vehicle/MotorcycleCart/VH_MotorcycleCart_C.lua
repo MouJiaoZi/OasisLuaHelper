@@ -1,0 +1,7 @@
+---@class VH_MotorcycleCart_C:BP_STExtraWheeledVehicle_C
+---@field UserConstructionScript:fun()
+---@field VehicleSkillManager VehicleSkillManager_C
+---@field UAEChaVehAnimList_PassengerR UUAEChaVehAnimListComponent
+---@field UAEChaVehAnimList_PassengerL UUAEChaVehAnimListComponent
+---@field UAEChaVehAnimList_Driver UUAEChaVehAnimListComponent
+---@field VehicleMotorbike UVehicleMotorbikeComponent

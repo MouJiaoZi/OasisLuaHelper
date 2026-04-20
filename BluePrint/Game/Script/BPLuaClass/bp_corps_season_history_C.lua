@@ -1,0 +1,5 @@
+---@class bp_corps_season_history_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_ARRAY_CorpsSeasonSummary ULuaArrayHelper
+---@field BP_CorpsSeasonSelected int32

@@ -1,0 +1,56 @@
+---@class ResultRankingAvataitem_UIBP_C:UUAEUserWidget
+---@field HideSuperLikeEntrance:fun()
+---@field ShowSuperLikeEntrance:fun()
+---@field OnItemSuperLikeBtnClicked:fun(index:int32)
+---@field InitSuperLikeType:fun()
+---@field ShowKLJEvacuatedTips:fun(Lua:bp_battleresult_C)
+---@field OnLikeFinished:fun()
+---@field SetAsShareLikeInfo:fun(num:int32,LikeEachother:bool,isLikeSysOpen:bool)
+---@field SetLikeInfo:fun(num:int32,LikeEachother:bool,isLikeSysOpen:bool)
+---@field CreateTitle:fun(titleBg:UObject)
+---@field DX_SuccessfullyEvacuated UWidgetAnimation
+---@field DX_MutualPraise UWidgetAnimation
+---@field DX_Like UWidgetAnimation
+---@field Button_CloseSuperLike UButton
+---@field Button_like UNewButton
+---@field ButtonTitle UButton
+---@field CanvasPanel_juesha UCanvasPanel
+---@field CanvasPanel_KLJ_Go UCanvasPanel
+---@field CanvasPanel_LikeTips UCanvasPanel
+---@field CanvasPanel_mvp UCanvasPanel
+---@field CanvasPanel_SuperLike UCanvasPanel
+---@field CharismaValue_Style3_UIBP CharismaValue_Style3_UIBP_C
+---@field Common_Avatar_BP Common_Avatar_BP_C
+---@field DuanWei Common_RankIntegralLevel_Style_Small_UIBP_C
+---@field Image_4 UImage
+---@field Image_33 UImage
+---@field Image_Gender UImage
+---@field Image_man UImage
+---@field Image_mvp UImage
+---@field ImageBase UImage
+---@field LikeEachotherNum UTextBlock
+---@field LikeNum UTextBlock
+---@field NewButton_End UNewButton
+---@field NewButton_Start UNewButton
+---@field text_alreadyLiked UTextBlock
+---@field text_killnum UTextBlock
+---@field TextBlock_0 UTextBlock
+---@field TextBlock_1 UTextBlock
+---@field TextBlock_AssistNum UTextBlock
+---@field TextBlock_LikeTips UTextBlock
+---@field TextBlock_PlayerName UTextBlock
+---@field Textk_SuperLikeNum1 UTextBlock
+---@field Textk_SuperLikeNum2 UTextBlock
+---@field Title UCanvasPanel
+---@field titleNum UTextBlock
+---@field WidgetSwitcher_base UWidgetSwitcher
+---@field WidgetSwitcher_nice UWidgetSwitcher
+---@field WidgetSwitcher_SuperLike UWidgetSwitcher
+---@field WrapBox_0 UWrapBox
+---@field WrapGroupBox_SuperLikeAvatar UWrapGroupBox
+---@field iconMale FSlateBrush
+---@field iconFemale FSlateBrush
+---@field DuanWeiImage UTexture2D
+---@field Parentwidget_0 NewResult_Team_C
+---@field playerid FString
+---@field HasInit bool

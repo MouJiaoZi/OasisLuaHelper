@@ -1,0 +1,60 @@
+---@class ObjectManager_Main_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field On_ComboBox_Sorting_GenerateSelectWidget_0:fun(Item:FString):UWidget
+---@field On_ComboBox_Sorting_GenerateWidget_0:fun(Item:FString):UWidget
+---@field OnMouseWheel:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field CanvasPanel_2 UCanvasPanel
+---@field CanvasPanel_Capacity UCanvasPanel
+---@field CanvasPanel_CategorySet UCanvasPanel
+---@field CanvasPanel_Empty UCanvasPanel
+---@field CanvasPanel_EmptySearch UCanvasPanel
+---@field CanvasPanel_FilterReset UCanvasPanel
+---@field CanvasPanel_IPX UCanvasPanel
+---@field CanvasPanel_PopWidget UCanvasPanel
+---@field CanvasPanel_Sort UCanvasPanel
+---@field CanvasPanel_TabSearch UCanvasPanel
+---@field CheckBox_AllSelect UCheckBox
+---@field ComboBox_Sorting UComboBoxString
+---@field EditableText_Search UEditableText
+---@field HorizontalBox_Tab UHorizontalBox
+---@field NewButton_Cancel UNewButton
+---@field NewButton_Capacity UNewButton
+---@field NewButton_CategorySet UNewButton
+---@field NewButton_CloseCategorySet UButton
+---@field NewButton_CloseSelect UNewButton
+---@field NewButton_CloseSetting UButton
+---@field NewButton_DeleteCategorySet UNewButton
+---@field NewButton_display UNewButton
+---@field NewButton_Filter UNewButton
+---@field NewButton_FilterReset UNewButton
+---@field NewButton_MultipleSelect UNewButton
+---@field NewButton_PopWidget UNewButton
+---@field NewButton_Quit UNewButton
+---@field NewButton_RenameCategorySet UNewButton
+---@field NewButton_Routine UNewButton
+---@field NewButton_TabSearch UNewButton
+---@field ObjectManager_ClassificationSet ObjectManager_ClassificationSet_UIBP_C
+---@field ObjectManager_NamePop_UIBP ObjectManager_NamePop_UIBP_C
+---@field ReuseListSp_Capacity ReuseListSp_C
+---@field ReuseListSp_Routine ReuseListSp_C
+---@field ScrollBoxList_Capacity UScrollBox
+---@field ScrollBoxList_Routine UScrollBox
+---@field Switcher_Capacity UWidgetSwitcher
+---@field Switcher_display UWidgetSwitcher
+---@field Switcher_Routine UWidgetSwitcher
+---@field Switcher_SortingState UWidgetSwitcher
+---@field Text_Default_Search UTextBlock
+---@field Text_FilterCount UTextBlock
+---@field Text_FilterReset_Num UTextBlock
+---@field Text_SelectNumber UTextBlock
+---@field TextBlock_AmountUsed UTextBlock
+---@field TextBlock_SearchEmptyTips UTextBlock
+---@field UGC_ReuseList2_FilterReset UGC_ReuseList2_C
+---@field VerticalBox_Setting UCanvasPanel
+---@field WidgetSwitcher_But UWidgetSwitcher
+---@field WidgetSwitcher_Capacity UWidgetSwitcher
+---@field WidgetSwitcher_CategorySet UWidgetSwitcher
+---@field WidgetSwitcher_Filter UWidgetSwitcher
+---@field WidgetSwitcher_List UWidgetSwitcher
+---@field WidgetSwitcher_Routine UWidgetSwitcher
+---@field ComboBoxItemClass UClass

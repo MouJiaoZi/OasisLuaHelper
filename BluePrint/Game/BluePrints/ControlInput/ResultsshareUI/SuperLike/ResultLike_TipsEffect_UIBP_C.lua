@@ -1,0 +1,2 @@
+---@class ResultLike_TipsEffect_UIBP_C:UUAEUserWidget
+---@field WidgetSwitcher_Icon UWidgetSwitcher

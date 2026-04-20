@@ -1,0 +1,1 @@
+---@class DestinyCirclemelee_Desert_2_C:ADestinyCirclemelee_2_C

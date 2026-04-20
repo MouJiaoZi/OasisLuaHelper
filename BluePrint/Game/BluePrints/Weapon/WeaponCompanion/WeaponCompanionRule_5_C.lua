@@ -1,0 +1,3 @@
+---@class WeaponCompanionRule_5_C:UBP_WeaponCompanionRuleBase_C
+---@field OnInit:fun()
+---@field OnTringgerEvent:fun(eventType:EWeaponsCompanionVoiceEvent,eventParam:UObject)

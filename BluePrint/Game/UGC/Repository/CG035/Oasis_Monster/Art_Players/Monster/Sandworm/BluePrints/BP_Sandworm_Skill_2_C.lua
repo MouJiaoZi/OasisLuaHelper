@@ -1,0 +1,1 @@
+---@class BP_Sandworm_Skill_2_C:PESkillTemplate_Base_C

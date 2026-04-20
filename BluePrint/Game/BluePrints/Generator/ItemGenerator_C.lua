@@ -1,0 +1,12 @@
+---@class ItemGenerator_C:AItemGeneratorBase
+---@field Spawn:fun()
+---@field UserConstructionScript:fun()
+---@field Billboard UBillboardComponent
+---@field DefaultSceneRoot USceneComponent
+---@field ItemClass ULuaMapHelper
+---@field GeneratedItems ULuaArrayHelper
+---@field Offset FVector
+---@field DataTable UDataTable
+---@field NativePrior bool
+---@field OffsetRot FRotator
+---@field Scale float

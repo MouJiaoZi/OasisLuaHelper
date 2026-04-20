@@ -1,0 +1,9 @@
+---@class bp_master_task_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_ARRAY_MasterTaskCondition ULuaArrayHelper
+---@field BP_ARRAY_MasterTaskInfo ULuaArrayHelper
+---@field BP_ARRAY_MasterTaskAwardInfo ULuaArrayHelper
+---@field BP_MasterTask_MasterAwardResId int32
+---@field BP_MasterTask_CurrentTaskId int32
+---@field BP_MasterTask_CurrentJump FString

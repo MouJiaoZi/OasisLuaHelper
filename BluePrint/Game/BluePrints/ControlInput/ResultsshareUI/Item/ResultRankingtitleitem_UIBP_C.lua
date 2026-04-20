@@ -1,0 +1,11 @@
+---@class ResultRankingtitleitem_UIBP_C:UUAEUserWidget
+---@field SelectTitle:fun(selectTitle:int32)
+---@field OnTouchEnded:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field CreateTitleBase:fun(baseImage:UObject)
+---@field SetTitleAndBase:fun(titleID:int32)
+---@field clickTitle__DelegateSignature:fun(id:int32)
+---@field ImageBase UImage
+---@field Select UImage
+---@field titleName UTextBlock
+---@field titleID int32
+---@field clickTitle ULuaMulticastDelegate

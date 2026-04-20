@@ -1,0 +1,1 @@
+---@class BP_Mag_MG3_DTCH10CH_C:BP_Mag_MG3_New_C

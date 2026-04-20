@@ -1,0 +1,1 @@
+---@class BP_MZJ_HD_SHMAN_C:BP_MZJ_HD_C

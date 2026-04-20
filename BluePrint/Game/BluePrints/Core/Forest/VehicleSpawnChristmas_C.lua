@@ -1,0 +1,1 @@
+---@class VehicleSpawnChristmas_C:UVehicleSpawn_C

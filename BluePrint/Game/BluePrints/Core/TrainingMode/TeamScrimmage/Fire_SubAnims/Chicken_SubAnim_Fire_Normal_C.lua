@@ -1,0 +1,3 @@
+---@class Chicken_SubAnim_Fire_Normal_C:USubAnimInstanceBase
+---@field BlueprintInitializeAnimation:fun()
+---@field ParentExtraAnimInstanceBase USTExtraAnimInstanceBase

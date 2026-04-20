@@ -1,0 +1,26 @@
+---@class TrainingHead_UIBP_C:UOBModePositionWidget
+---@field ShowInTrainingMode:fun(OBInfo:FPlayerInfoInOB)
+---@field OnHttpResponse:fun(Texture:UTexture2D,Downloader:UImageDownloader)
+---@field SetIconColor:fun(teamID:int32)
+---@field ShowData:fun(PlayerInfo:FPlayerInfoInOB)
+---@field RefreshTrainingWidget:fun(PlayerInfo:FPlayerInfoInOB)
+---@field Construct:fun()
+---@field RefreshDistance:fun(distance:int32,fovDistance:float)
+---@field Button_Click UButton
+---@field CanvasPanel_1 UCanvasPanel
+---@field CanvasPanel_Distance UCanvasPanel
+---@field CanvasPanel_gender UCanvasPanel
+---@field Image_TeamBG UImage
+---@field Image_TeamLogo UImage
+---@field Image_TeamLogoBG UImage
+---@field TextBlock_Distance UTextBlock
+---@field TextBlock_PlayerName UTextBlock
+---@field TextBlock_TeamIdx UTextBlock
+---@field WidgetSwitcher_gender UWidgetSwitcher
+---@field WidgetSwitcher_StateBG UWidgetSwitcher
+---@field WidgetSwitcher_TeamSwitch UWidgetSwitcher
+---@field FullHealth FLinearColor
+---@field HealthState1 FLinearColor
+---@field HealthState2 FLinearColor
+---@field HealthState3 FLinearColor
+---@field CurPicURL FString

@@ -1,0 +1,3 @@
+---@class BP_PlayerState_CorpsWar_C:ABattleRoyalCorpsWarPlayerState
+---@field UserConstructionScript:fun()
+---@field DefaultSceneRoot USceneComponent

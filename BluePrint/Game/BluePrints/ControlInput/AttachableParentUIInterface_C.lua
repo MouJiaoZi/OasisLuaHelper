@@ -1,0 +1,2 @@
+---@class AttachableParentUIInterface_C:UInterface
+---@field AddChildToParentUIBP:fun(Child:UWidget,ParentWidgetName:FString):UPanelSlot,UUserWidget,UUserWidget

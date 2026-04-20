@@ -1,0 +1,4 @@
+---@class ResultRankingreward_itemUIBP_C:UUserWidget
+---@field SetResultAwardInfo:fun(Title:FString,Value:int32,hideIfZero:bool,percent:bool,add:bool)
+---@field Title UTextBlock
+---@field Value UTextBlock

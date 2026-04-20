@@ -1,0 +1,9 @@
+---@class WereWolfTaskFunc_BP_C:UUniversalTaskFuncBPBase
+---@field GetLuaModule:fun():FString
+---@field AwardTask:fun()
+---@field TaskOwnerKey FTriggerEventParamKeySelector
+---@field UrgentTaskPoint int32
+---@field SeletedTaskPoint int32
+---@field TaskIDKey FTriggerEventParamKeySelector
+---@field IsWolfAddPoint bool
+---@field SenderIDKey FTriggerEventParamKeySelector

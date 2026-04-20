@@ -1,0 +1,21 @@
+---@class SimpleActivityBase_C:AActivityBaseActor
+---@field ShowUIByIndex:fun(UIIndex:int32)
+---@field CloseUIByIndex:fun(UIIndex:int32)
+---@field IsNobodyInteracting:fun(Param:FGISCCF_Param):bool
+---@field CanRecover:fun():bool
+---@field IsShouldAndCanPerformance:fun():bool
+---@field UserConstructionScript:fun()
+---@field OnCloseUI:fun(UIIndex:int32)
+---@field Sphere USphereComponent
+---@field Scene USceneComponent
+---@field ActivityUI UActivityUIComponent
+---@field ActivityFakePossess UActivityFakePossessComponent
+---@field Recover_Sequence UActorSequenceComponent
+---@field Performance_Sequence UActorSequenceComponent
+---@field GISActorComponentBase UGISActorComponentBase
+---@field bShouldPerformance bool
+---@field bHasWhoInteracting bool
+---@field bStartPerformance bool
+---@field bStartRecover bool
+---@field bSetIgnoreInput bool
+---@field InteractType int32

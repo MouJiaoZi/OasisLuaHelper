@@ -1,0 +1,8 @@
+---@class bp_training_main_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field Training_Viewer_UID FString
+---@field TrainingRequestInfo_ID FString
+---@field Training_AddFriendSwitch bool
+---@field Training_Viewer_Require_Msg FString
+---@field TrainingTip_ID int32

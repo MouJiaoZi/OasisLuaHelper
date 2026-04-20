@@ -1,0 +1,12 @@
+---@class TrainShowTargetBase_C:ANewShootTarget
+---@field GetFootRangeComponent:fun():UPrimitiveComponent
+---@field GetCritcalComponent:fun():UPrimitiveComponent
+---@field GetLimbsRangeComponent:fun():ULuaArrayHelper
+---@field UserConstructionScript:fun()
+---@field BoxLimbs_3 UBoxComponent
+---@field FootBox UBoxComponent
+---@field BoxHead UBoxComponent
+---@field BoxLimbs_2 UBoxComponent
+---@field BoxLimbs_1 UBoxComponent
+---@field StaticMesh UStaticMeshComponent
+---@field DefaultSceneRoot USceneComponent

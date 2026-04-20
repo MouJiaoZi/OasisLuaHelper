@@ -1,0 +1,4 @@
+---@class bp_setting_prewarsensibility_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_Map_OtherSensiLocalPlan ULuaMapHelper

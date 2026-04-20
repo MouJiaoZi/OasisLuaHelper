@@ -1,0 +1,7 @@
+---@class Playback_Mark_UIBP_C:UUserWidget
+---@field SetMarkIcon:fun(ReplationShipWithRecordTarget:ERelationshipWithTarget,MoveState:EPlayerMoveState)
+---@field InitDeathBoxWidget:fun(RelationshipWithTarget:ERelationshipWithTarget)
+---@field SetPlayerMarkIcon:fun(RelationShipWithTarget:ERelationshipWithTarget,MoveState:EPlayerMoveState)
+---@field WidgetSwitcher_MarkType UWidgetSwitcher
+---@field WidgetSwitcher_Role UWidgetSwitcher
+---@field WidgetSwitcher_Vehicle UWidgetSwitcher

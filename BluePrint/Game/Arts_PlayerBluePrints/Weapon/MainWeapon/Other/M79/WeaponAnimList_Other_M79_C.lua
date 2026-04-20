@@ -1,0 +1,1 @@
+---@class WeaponAnimList_Other_M79_C:UUAECharacterAnimListComponent

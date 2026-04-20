@@ -1,0 +1,2 @@
+---@class IngameSpecMotionInfoInterface_C:UInterface
+---@field RefreshSpecMotionInfo_Inf:fun():bool

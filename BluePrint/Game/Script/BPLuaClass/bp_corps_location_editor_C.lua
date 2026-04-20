@@ -1,0 +1,7 @@
+---@class bp_corps_location_editor_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_ARRAY_CorpsHomepageLocationCity ULuaArrayHelper
+---@field BP_ARRAY_CorpsHomepageLocationProvince ULuaArrayHelper
+---@field BP_CorpsHomepageLocationSelectCity int32
+---@field BP_CorpsHomepageLocationSelectProvince int32

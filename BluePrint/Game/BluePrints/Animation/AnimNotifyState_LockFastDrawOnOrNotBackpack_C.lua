@@ -1,0 +1,11 @@
+---@class AnimNotifyState_LockFastDrawOnOrNotBackpack_C:UAnimNotifyState
+---@field Received_NotifyEnd:fun(MeshComp:USkeletalMeshComponent,Animation:UAnimSequenceBase,InvokeAnimInstance:UAnimInstance):bool
+---@field Received_NotifyBegin:fun(MeshComp:USkeletalMeshComponent,Animation:UAnimSequenceBase,TotalDuration:float,InvokeAnimInstance:UAnimInstance):bool
+---@field FastWeaponLockOnBackpack bool
+---@field FastWeaponLockOnHand bool
+---@field RightWeaponLockOnBackpack bool
+---@field RightWeaponLockOnHand bool
+---@field Leave_FastWeaponLockOnBackpack bool
+---@field Leave_FastWeaponLockOnHand bool
+---@field Leave_RightWeaponLockOnBackpack bool
+---@field Leave_RightWeaponLockOnHand bool

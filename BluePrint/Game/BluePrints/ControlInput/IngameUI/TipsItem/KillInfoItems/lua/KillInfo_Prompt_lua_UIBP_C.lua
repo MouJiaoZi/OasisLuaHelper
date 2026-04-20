@@ -1,0 +1,13 @@
+---@class KillInfo_Prompt_lua_UIBP_C:UKillInfoBase
+---@field GetLuaModule:fun():FString
+---@field BGSelector UWidgetSwitcher
+---@field Border_ColorSet UBorder
+---@field Border_SetColor UBorder
+---@field GridPanel_main UGridPanel
+---@field HorizontalBox_0 UHorizontalBox
+---@field Image_KillBG UImage
+---@field KillInfoBG UImage
+---@field PlayerName_TextBlock UTextBlock
+---@field Time_TextBlock UTextBlock
+---@field Text1 FText
+---@field Text2 FText

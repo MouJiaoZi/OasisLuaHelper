@@ -1,0 +1,1 @@
+---@class ItemSpawn_DihorOtokTournamentSquallSub_C:UItemSpawn_DihorOtokTournamentSub_C

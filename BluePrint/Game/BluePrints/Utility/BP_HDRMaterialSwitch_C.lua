@@ -1,0 +1,6 @@
+---@class BP_HDRMaterialSwitch_C:AActor
+---@field SetMaterialByHDRSeting:fun()
+---@field UserConstructionScript:fun()
+---@field ReceiveEndPlay:fun(EndPlayReason:EEndPlayReason)
+---@field DefaultSceneRoot USceneComponent
+---@field MeshActors ULuaArrayHelper

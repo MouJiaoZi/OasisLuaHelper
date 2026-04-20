@@ -1,0 +1,2 @@
+---@class BP_UnderWaterCamEffect_C:UInstancedStaticMeshComponent
+---@field ReceiveBeginPlay:fun()

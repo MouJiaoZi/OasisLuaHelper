@@ -1,0 +1,21 @@
+---@class LeftQueueInfoControl_UIBP_C:ULeftQueueControlWidget
+---@field GetConfigLeft:fun():bool
+---@field CachePlatformIcon:fun()
+---@field AppendItem:fun(Item:LeftQueueInfo_Item_UIBP_C)
+---@field InitMakeDownload:fun()
+---@field CheckAddPathToArray:fun(ResPath:FString,ResArray:ULuaArrayHelper)
+---@field IsValidResPath:fun(Path:FString):bool
+---@field GetAssetsResPaths:fun(RecordData:FClientFatalDamageRecordData):ULuaArrayHelper
+---@field UIMsg_NotifyClientLeftQueueInfo:fun(RecordInfo:FClientFatalDamageRecordData)
+---@field GlobalObserverTipContainer UGridPanel
+---@field GridPanel_Pool UGridPanel
+---@field KillTipContainer UGridPanel
+---@field KillResArray ULuaMapHelper
+---@field PlatformPrefixMap ULuaMapHelper
+---@field CurImageDownloader UImageDownloader
+---@field CurParentContainer UPanelWidget
+---@field IsOB bool
+---@field curCount int32
+---@field anchorDataTable UDataTable
+---@field boxDataTable UDataTable
+---@field config int32

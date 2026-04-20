@@ -1,0 +1,1 @@
+---@class BP_Rifle_AN94_BattleItemHandle_Lobby_C:UBackpackWeaponHandle

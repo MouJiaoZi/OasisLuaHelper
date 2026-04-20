@@ -1,0 +1,1 @@
+---@class BP_DragonBreath_DamageType_C:USTExtraDamageType

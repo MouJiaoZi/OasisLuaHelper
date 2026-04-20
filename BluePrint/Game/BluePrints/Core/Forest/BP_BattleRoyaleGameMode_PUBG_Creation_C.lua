@@ -1,0 +1,3 @@
+---@class BP_BattleRoyaleGameMode_PUBG_Creation_C:ABP_BattleRoyaleGameMode_PUBG_C
+---@field UserConstructionScript:fun()
+---@field CheatCommand UCheatCommandComponent

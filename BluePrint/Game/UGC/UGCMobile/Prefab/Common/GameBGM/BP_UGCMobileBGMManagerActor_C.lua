@@ -1,0 +1,9 @@
+---@class BP_UGCMobileBGMManagerActor_C:BP_UGCMobileBaseActor_C
+---@field GetLuaModule:fun():FString
+---@field InitVideoPlayer:fun()
+---@field UserConstructionScript:fun()
+---@field DefaultPlayingMusicID int32
+---@field SelectMusicArray ULuaArrayHelper
+---@field PlayingMusicRepInfo UGCMobileBGMRepInfo
+---@field DefaultMusicInfo UGCMobileBGMInfo
+---@field PVideoPlayerInstance UPVideoPlayer

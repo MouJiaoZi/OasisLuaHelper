@@ -1,0 +1,1 @@
+---@class AvatarBehaviourFeature_SpeedUpRescue_C:AvatarBehaviourFeature_ApplyPersistEffect_C

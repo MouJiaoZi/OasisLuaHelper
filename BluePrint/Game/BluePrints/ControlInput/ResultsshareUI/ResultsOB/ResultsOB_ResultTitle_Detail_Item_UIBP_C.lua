@@ -1,0 +1,7 @@
+---@class ResultsOB_ResultTitle_Detail_Item_UIBP_C:UUAEUserWidget
+---@field UpdateTeamIcon:fun(Texture2D:UTexture2D,Downloader:UImageDownloader)
+---@field SetPlayerIcon:fun(icon:UObject)
+---@field TryLoadPlayerIcon:fun(path:FString)
+---@field PlayerIcon UImage
+---@field TextBlock_Name UTextBlock
+---@field TitleText UTextBlock

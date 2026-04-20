@@ -1,0 +1,21 @@
+---@class CH_Base_AnimBP_InfectedMan_03_C:USTExtraAnimInstance
+---@field InitAnimVarDefaultValue:fun()
+---@field BlueprintInitializeAnimation:fun()
+---@field HandlePlayerEnterCallingForRevivalState:fun(bBeginCalling:bool)
+---@field MoveRight float
+---@field MoveForward float
+---@field AnimRate float
+---@field HandFavoring float
+---@field HandIKWeight float
+---@field FirstAimSpine_StandAndCrouch FVector
+---@field FirstAimSpine_Prone FVector
+---@field PlaySaveMontageTime float
+---@field TimerHandle_DelayLeaveCallingState FTimerHandle
+---@field SpecialRescueMontageAsset UObject
+---@field Shovel_BS_Alpha float
+---@field ShovelMaxDifferent float
+---@field Shovel_Pevis FRotator
+---@field Direction float
+---@field LeaveShovel_Rate float
+---@field MaxSpeed float
+---@field TempSaveSightSlow float

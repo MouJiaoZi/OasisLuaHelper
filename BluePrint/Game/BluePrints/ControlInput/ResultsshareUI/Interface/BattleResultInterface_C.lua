@@ -1,0 +1,1 @@
+---@class BattleResultInterface_C:UInterface

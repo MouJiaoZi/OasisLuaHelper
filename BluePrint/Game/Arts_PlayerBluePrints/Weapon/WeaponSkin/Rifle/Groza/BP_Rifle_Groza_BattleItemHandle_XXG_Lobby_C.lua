@@ -1,0 +1,1 @@
+---@class BP_Rifle_Groza_BattleItemHandle_XXG_Lobby_C:UBackpackWeaponHandle

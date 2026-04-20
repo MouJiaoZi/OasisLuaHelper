@@ -1,0 +1,6 @@
+---@class BP_HideAndSeek_GameState_C:AHideAndSeek_GameState
+---@field GetLuaModule:fun():FString
+---@field UserConstructionScript:fun()
+---@field BackgroundMusic UBackgroundMusicComponent
+---@field BP_ObjectPosMgr BP_ObjectPosMgr_C
+---@field DefaultSceneRoot USceneComponent

@@ -1,0 +1,5 @@
+---@class MapStaticUILogic_C:UMapStaticUILogic
+---@field RemoveMapStaticItem:fun(ItemType:int32,ItemID:int32)
+---@field GetItemMapID:fun(ItemType:int32,ItemID:int32):int32
+---@field AddMapStaticItem:fun(ItemType:int32,ItemID:int32,location:FVector)
+---@field MapUI UUAEUserWidget

@@ -1,0 +1,15 @@
+---@class PerfectTimeShareResult_UIBP_C:UUAEUserWidget
+---@field SetPerfectTimeStart:fun():bool
+---@field SetPerfectTimeMoments:fun(Moments:ULuaArrayHelper):bool
+---@field ResultIconLoaded:fun(Obj:UObject,id:int32)
+---@field SetChoiceIndex:fun(index:int32)
+---@field ShareImageLoaded:fun(obj:UObject)
+---@field SetVariable:fun()
+---@field UIHide:fun()
+---@field UIShow:fun()
+---@field Construct:fun()
+---@field PerfectTimeContent_UIBP PerfectTimeContent_UIBP_C
+---@field Shareinterface_UIBP Shareinterface_UIBP_C
+---@field VerticalBox_Tag UVerticalBox
+---@field MySelfObj bp_share_result_C
+---@field MomentList ULuaArrayHelper

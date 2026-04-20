@@ -1,0 +1,14 @@
+---@class WeatherCountDown_UIBP_C:UWeatherCountDown
+---@field Construct:fun()
+---@field CanvasPanel_ColdModeTime UCanvasPanel
+---@field ColdeIcon UImage
+---@field DayNightImage2 UImage
+---@field PanelRoot2 UCanvasPanel
+---@field ProgBar2 UProgressBar
+---@field sunIcon UImage
+---@field textTimeLiveMode UTextBlock
+---@field textTimeSuperCold UTextBlock
+---@field Tips_DayNightChange UCanvasPanel
+---@field typeSwitch UWidgetSwitcher
+---@field UTRichTextBlock_Tips16_Text1 UUTRichTextBlock
+---@field weatherSwitch2 UWidgetSwitcher

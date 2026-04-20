@@ -1,0 +1,3 @@
+---@class BS_PCGRoad_Setting
+---@field 启用路灯组件 bool
+---@field 启用围栏组件 bool

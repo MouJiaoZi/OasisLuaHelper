@@ -1,0 +1,1 @@
+---@class BP_Mag_MP7_MJWS_C:BP_Mag_MP7_C

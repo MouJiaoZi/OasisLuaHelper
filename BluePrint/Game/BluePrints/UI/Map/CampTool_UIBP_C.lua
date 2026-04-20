@@ -1,0 +1,87 @@
+---@class CampTool_UIBP_C:UCampToolWidget
+---@field RefreshExWidget:fun(bForceJump:bool):bool
+---@field ShowExWidget:fun():bool
+---@field HideExWidget:fun():bool
+---@field ClearAllMark:fun()
+---@field HideOtherPoints:fun(Obj:UUAEUserWidget)
+---@field InitResData:fun()
+---@field KDAShareCD:fun()
+---@field ReduceRefreshTimeStamp:fun()
+---@field SetIconCD:fun(RemainTime:float)
+---@field FindVehicle:fun()
+---@field InitPointsWidget:fun()
+---@field ShowVehicleAndResPoint:fun()
+---@field OnRefresh:fun()
+---@field ShowDice:fun()
+---@field RefreshExWidgetInternal:fun(ForceJump:bool)
+---@field ShowExWidgetInternal:fun():bool
+---@field HideExWidgetInternal:fun()
+---@field NotifyExtendToolsOpenUI:fun():bool
+---@field CloseUI:fun()
+---@field NotifyMgrToShowVertLine:fun(isShow:bool)
+---@field ShowDefaultVertLine:fun()
+---@field NotifyMgrToShowAirLine:fun(isShow:bool)
+---@field ShowDefaultAirLine:fun()
+---@field IsEnterFighting:fun():bool
+---@field OnOpenUI:fun():bool
+---@field InitSomeWidget:fun()
+---@field HideFromGuide:fun()
+---@field CloseFromTask:fun()
+---@field ChangeVertLineState:fun(bShowText:bool)
+---@field CheckShowAirLine:fun()
+---@field CheckVertLine:fun()
+---@field OnInit:fun()
+---@field CampShowDistToolCheckBox:fun()
+---@field RefreshCampAssistNum:fun(UID:int32,Assists:int32)
+---@field RefreshCampKillNum:fun(UID:int32,KillNum:int32)
+---@field ShowTeammatesKDA:fun()
+---@field NotifyAirLineDisappear:fun()
+---@field NotifyChangeVertLineCheckBox:fun()
+---@field NotifyExtendToolsCloseUI:fun()
+---@field NotifyRefreshUI:fun()
+---@field NotifyRefreshTeamInfo:fun()
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field NotifyWidgetBeginPlay:fun()
+---@field CampTool_GuideTips CampTool_GuideTips_UIBP_C
+---@field CampToolsTeammateInfo1 CampTools_TeammateInfo_C
+---@field CampToolsTeammateInfo2 CampTools_TeammateInfo_C
+---@field CampToolsTeammateInfo3 CampTools_TeammateInfo_C
+---@field CampToolsTeammateInfo4 CampTools_TeammateInfo_C
+---@field CanvasPanel_AirLine UCanvasPanel
+---@field CanvasPanel_Dice UCanvasPanel
+---@field CanvasPanel_List UCanvasPanel
+---@field CanvasPanel_ResourcePoint UCanvasPanel
+---@field CanvasPanel_TeamInfo UCanvasPanel
+---@field CanvasPanel_VertLine UCanvasPanel
+---@field CheckBox_0 UCheckBox
+---@field CheckBox_ResourcePoint UCheckBox
+---@field CustomSocketPanel_Tips UCustomSocketPanel
+---@field Image_CD UImage
+---@field NewButton_Release UNewButton
+---@field P_AdvancedResource Camp_VehiclePoint_UIBP_C
+---@field P_FixedRefresh Camp_VehiclePoint_UIBP_C
+---@field P_MediumResource Camp_VehiclePoint_UIBP_C
+---@field P_RandomRefresh Camp_VehiclePoint_UIBP_C
+---@field TextBlock_8 UTextBlock
+---@field TextBlock_Explain UTextBlock
+---@field TextBlock_ResourceTitle UTextBlock
+---@field VertLineCheckBox_1 UCheckBox
+---@field WidgetSwitcher_Release UWidgetSwitcher
+---@field CampToolBPArray ULuaArrayHelper
+---@field STEPlayerController ASTExtraPlayerController
+---@field StatusTips int32
+---@field ShareKDAColdDownTime float
+---@field RefreshTimeStamp float
+---@field ButtonCD int32
+---@field ImageAdvanced FSlateBrush
+---@field ImageMedium FSlateBrush
+---@field ImageFixed FSlateBrush
+---@field ImageRandom FSlateBrush
+---@field TextAdvanced FText
+---@field TextMedium FText
+---@field TextFixed FText
+---@field TextRandom FText
+---@field bKDACD bool
+---@field CampVehicleFixedID ULuaArrayHelper
+---@field CampVehicleRandomID ULuaArrayHelper
+---@field bSendTlog bool

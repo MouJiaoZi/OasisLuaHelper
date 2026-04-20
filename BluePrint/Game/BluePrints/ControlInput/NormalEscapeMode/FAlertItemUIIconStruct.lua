@@ -1,0 +1,4 @@
+---@class FAlertItemUIIconStruct
+---@field IconID int32
+---@field IconFriendlyName FString
+---@field IconBPPath FString

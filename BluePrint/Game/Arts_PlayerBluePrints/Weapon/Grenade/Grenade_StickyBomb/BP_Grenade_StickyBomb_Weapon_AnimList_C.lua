@@ -1,0 +1,1 @@
+---@class BP_Grenade_StickyBomb_Weapon_AnimList_C:UUAECharacterAnimListComponent

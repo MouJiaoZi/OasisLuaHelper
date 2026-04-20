@@ -1,0 +1,6 @@
+---@class RingMatch_PromptItem_UIBP_C:UUAEUserWidget
+---@field DX_In UWidgetAnimation
+---@field Button_Close UButton
+---@field Button_determine UNewButton
+---@field NewButton_cancel UNewButton
+---@field WidgetSwitcher_OP UWidgetSwitcher

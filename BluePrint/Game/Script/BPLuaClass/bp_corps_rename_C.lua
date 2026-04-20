@@ -1,0 +1,5 @@
+---@class bp_corps_rename_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_CorpsRename_Desc FString
+---@field BP_CorpsRename_FinalName FString

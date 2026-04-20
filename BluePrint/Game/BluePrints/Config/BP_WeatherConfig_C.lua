@@ -1,0 +1,2 @@
+---@class BP_WeatherConfig_C:UWeatherConfigComponent
+---@field ReceiveBeginPlay:fun()

@@ -1,0 +1,52 @@
+---@class TeamAssembleDisplay_BP_C:ASceneDisplayDirectorBase
+---@field RefreshItemList:fun(PoseComponent:IngamePoseComponent_BP_C,AvatarItemList:ULuaArrayHelper,TargerName:FString,OnlyWearList:ULuaArrayHelper):ULuaArrayHelper,ULuaArrayHelper
+---@field CheckCopy:fun(PoseComponent:IngamePoseComponent_BP_C,AvatarItemList:ULuaArrayHelper,TargerName:FString):bool
+---@field GetTotalActorNum:fun():int32
+---@field PlayWingPlaneMontage:fun()
+---@field SyncLoadSoftObject:fun(SoftObjectRef:UObject):UObject
+---@field StopWingPlaneMusic:fun()
+---@field ShouldUpdateWingMan:fun(WingManID:int32,WingManName:FString):bool
+---@field CheckAddHead:fun(PoseComponent:IngamePoseComponent_BP_C,AvatarItemList:ULuaArrayHelper,PlayerGender:int32)
+---@field NeedShowWidget:fun(Index:int32):bool
+---@field IsAvatarItemFiltered:fun(ItemId:int32):bool
+---@field GetVehicleTransform:fun(ParamString:FString):bool,FTransform
+---@field GetPlayerInfoWidgetLocation:fun(ActorIndex:int32):FVector
+---@field UserConstructionScript:fun()
+---@field OnRefreshTeammateAssembleInfoBlueprint:fun(ActorIndex:int32,DetailInfo:FTeamAssembleAvatarDisplayInfo,OnlyWearList:ULuaArrayHelper)
+---@field OnSwitchToTeamAssembleView:fun()
+---@field OnDestroyDisplayActorBlueprint:fun()
+---@field OnUpdateDisplayActorNumber:fun(TotolNumber:int32)
+---@field SwitchToTeamAssembleViewBlueprint:fun(bIsEnable:bool)
+---@field OnPreRefreshTeammateAssembleInfoBlueprint:fun(ActorIndex:int32)
+---@field OnResetDisplayAvatarBlueprint:fun()
+---@field WingManSkeletalMesh USkeletalMeshComponent
+---@field ScenePlatform UChildActorComponent
+---@field IngameVehicleDisplayComponent_BP3 IngameVehicleDisplayComponent_BP_C
+---@field IngameVehicleDisplayComponent_BP2 IngameVehicleDisplayComponent_BP_C
+---@field IngameVehicleDisplayComponent_BP1 IngameVehicleDisplayComponent_BP_C
+---@field IngameVehicleDisplayComponent_BP4 IngameVehicleDisplayComponent_BP_C
+---@field IngamePoseComponent_BP3 IngamePoseComponent_BP_C
+---@field IngamePoseComponent_BP2 IngamePoseComponent_BP_C
+---@field IngamePoseComponent_BP1 IngamePoseComponent_BP_C
+---@field IngamePoseComponent_BP4 IngamePoseComponent_BP_C
+---@field Camera UCameraComponent
+---@field Scene USceneComponent
+---@field PlayerInfoUILocOffset FVector
+---@field DelayToShowUI float
+---@field TotalActorNum int32
+---@field SelectIndex int32
+---@field CacheWingManID int32
+---@field CacheWingManName FString
+---@field CacheTextureRenderTarget UTextureRenderTarget2D
+---@field ClearColor FLinearColor
+---@field WingManMaterial UMaterialInterface
+---@field bHasPlayWingMusic bool
+---@field WingPlaneMusicID int32
+---@field bAsyncLoadPlane bool
+---@field PlaneMesh USkeletalMesh
+---@field HasSwitchView bool
+---@field CopySlots ULuaArrayHelper
+---@field WingManTransformConfig ULuaMapHelper
+---@field DefaultTransform FTransform
+---@field WingManMontage UAnimMontage
+---@field HasCarName bool

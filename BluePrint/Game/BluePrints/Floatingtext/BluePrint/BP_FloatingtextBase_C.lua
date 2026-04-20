@@ -1,0 +1,8 @@
+---@class BP_FloatingtextBase_C:AActivityBaseActor
+---@field UserConstructionScript:fun()
+---@field Text UStaticMeshComponent
+---@field Scene USceneComponent
+---@field TextLocation FVector
+---@field TextContent UStaticMesh
+---@field Mat UMaterialInstance
+---@field MatShadow UMaterialInstance

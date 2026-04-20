@@ -1,0 +1,9 @@
+---@class ShineComponent_C:UActorComponent
+---@field InitStaticMesh:fun(Mesh:UStaticMeshComponent)
+---@field InitWeapon:fun(Mesh:USkeletalMeshComponent)
+---@field ShowNormal:fun()
+---@field ShowShine:fun()
+---@field ReceiveBeginPlay:fun()
+---@field WeaponMeshComp USkeletalMeshComponent
+---@field Shining UMaterialInstanceDynamic
+---@field StaticMeshComp UStaticMeshComponent

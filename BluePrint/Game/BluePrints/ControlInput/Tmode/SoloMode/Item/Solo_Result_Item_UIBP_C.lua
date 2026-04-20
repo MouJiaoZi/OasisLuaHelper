@@ -1,0 +1,57 @@
+---@class Solo_Result_Item_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field LuaUpdateItemData:fun(PlayerResultData:BP_STRUCT_PlayerResultData)
+---@field SetMVP:fun(MVP:int32)
+---@field SetGender:fun(Gender:int32,uid:FString)
+---@field UpdateHead:fun(HeadUrlInfo:BP_STRUCT_HeadUrlInfo):bool
+---@field UpdateItemBtnStatus:fun(AddFriend:bool)
+---@field OpenOrCloseBtn:fun(IsOpen:bool)
+---@field RefreshType:fun()
+---@field OnClickAddFriend:fun()
+---@field SetFriendButtonStatus:fun(AddFriendBtnState:int32)
+---@field SetMaxContinueKills:fun(MaxKills:int32)
+---@field UpdateItemData:fun(TeamIndex:int32,PlayerIndex:int32,PlayerResultData:BP_STRUCT_PlayerResultData,ParentUI:Solo_Result_Both_UIBP_C,TeamResult:FString,IsMyTeam:bool,IgnoreKeyCmp:bool)
+---@field CanvasPanel_1_5 UCanvasPanel
+---@field CanvasPanel_AddFriend UCanvasPanel
+---@field CanvasPanel_Combo UCanvasPanel
+---@field CanvasPanel_EscapeTips UCanvasPanel
+---@field Common_Avatar_BP Common_Avatar_BP_C
+---@field DynaCanvasPanel_Imprint UDynaCanvasPanel
+---@field Image_Badge UImage
+---@field Image_Check UImage
+---@field Image_Mvp UImage
+---@field Image_SVP UImage
+---@field Image_Trophies UImage
+---@field NewButton_AddFriend UNewButton
+---@field NewButton_Report UNewButton
+---@field RankUI UHorizontalBox
+---@field Text_Playername UTextBlock
+---@field TextBlock_3 UTextBlock
+---@field TextBlock_4 UTextBlock
+---@field TextBlock_AssistNumber UTextBlock
+---@field TextBlock_AssistNumber2 UTextBlock
+---@field TextBlock_Collapse UTextBlock
+---@field TextBlock_Combo UTextBlock
+---@field TextBlock_ContributeNumber UTextBlock
+---@field TextBlock_DieNumber UTextBlock
+---@field TextBlock_DieNumber2 UTextBlock
+---@field TextBlock_IncomeNumber UTextBlock
+---@field TextBlock_KIllNumber UTextBlock
+---@field TextBlock_KIllNumber2 UTextBlock
+---@field TextBlock_NumTrophies UTextBlock
+---@field WidgetSwitcher_BtnState UWidgetSwitcher
+---@field WidgetSwitcher_Gender UWidgetSwitcher
+---@field WidgetSwitcher_MVP UWidgetSwitcher
+---@field WidgetSwitcher_NumType UWidgetSwitcher
+---@field WidgetSwitcher_Type UWidgetSwitcher
+---@field ParentUI Solo_Result_Both_UIBP_C
+---@field LuaClassObj ALuaClassObj
+---@field AddFriendBtnState int32
+---@field UIModuleType ETDMUIType
+---@field PLayerIndexInLua int32
+---@field TeamIndexInLua int32
+---@field IsRobot bool
+---@field IClickTeamID int32
+---@field TeamID int32
+---@field ItemPlayerKey FString
+---@field CurrUID FString

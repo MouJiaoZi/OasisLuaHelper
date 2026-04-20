@@ -1,0 +1,1 @@
+---@class WeaponAnimList_Pistol_P92_C:UUAECharacterAnimListComponent

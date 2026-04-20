@@ -1,0 +1,1 @@
+---@class VehicleSpawn_DesertMotorglider_C:UVehicleSpawn_Desert_C

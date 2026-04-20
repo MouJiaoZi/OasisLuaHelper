@@ -1,0 +1,21 @@
+---@class bp_history_deathmatch_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_TDMHistory_IsTodayShareDone bool
+---@field BP_ARRAY_TDM_HeadUrlInfo ULuaArrayHelper
+---@field BP_TDM_iRecordClickTeamID int32
+---@field BP_TDM_RecordAddFriendIndex int32
+---@field BP_TDM_Complaint_IsMyTeam bool
+---@field BP_TDMHistory_ReportTeamID int32
+---@field BP_TDMHistory_ReportPlayerID int32
+---@field BP_TDMHistory_IsShareAwardGold bool
+---@field BP_TDM_Complaint_TheNameStr FString
+---@field BP_TDM_IsClickFriend bool
+---@field BP_TDM_Complaint_IsRobot bool
+---@field BP_TDMHistory_LoginChannel int32
+---@field BP_TDMHistory_IsIOSCheck bool
+---@field BP_TDMHistory_Visitor bool
+---@field BP_TDM_SubModeGroup int32
+---@field BP_VSBattleEscape int32
+---@field TDMHistory_UseHistoryData bool
+---@field BP_TDMHistory_MyHeadInfoIndex int32

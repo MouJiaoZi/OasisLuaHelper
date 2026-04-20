@@ -1,0 +1,9 @@
+---@class BP_Seeker_BalloonGrenade_C:AEliteProjectile
+---@field GetSpawnFireTransform:fun(SpawnLoc:FVector):FTransform
+---@field SpawnFireSpreading:fun()
+---@field AddBallon:fun(ExplosionFinder:UExplosionFinder)
+---@field UserConstructionScript:fun()
+---@field RadialTargetsFinder FExplosionFinderWrapper
+---@field BurningSpreadClass UClass
+---@field BurningSpreadSoftClass UClass
+---@field FireLifeSpan float

@@ -1,0 +1,6 @@
+---@class BP_Sniper_M200_C:BP_ShootWeaponBase_C
+---@field UserConstructionScript:fun()
+---@field WeaponAnimList_Rifle_M200 WeaponAnimList_Rifle_M200_C
+---@field WeaponPostFireState UWeaponPostFireState
+---@field WeaponPreFireState UWeaponPreFireState
+---@field bUseIdleAnim_0_0 bool

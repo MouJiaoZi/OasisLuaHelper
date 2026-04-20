@@ -1,0 +1,1 @@
+---@class CS_WeapGun_SKS_762_Scope_C:UCameraShake

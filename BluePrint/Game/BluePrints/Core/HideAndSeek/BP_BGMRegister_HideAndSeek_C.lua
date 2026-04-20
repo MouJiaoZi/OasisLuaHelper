@@ -1,0 +1,3 @@
+---@class BP_BGMRegister_HideAndSeek_C:UBackgroundMusicRegister
+---@field BGM UAkAudioEvent
+---@field StateName FString

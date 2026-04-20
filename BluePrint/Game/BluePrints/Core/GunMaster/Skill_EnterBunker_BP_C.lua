@@ -1,0 +1,5 @@
+---@class Skill_EnterBunker_BP_C:AUAESkill
+---@field UserConstructionScript:fun()
+---@field UAESkillPhase1 UUAESkillPhase
+---@field UAESkillPhase UUAESkillPhase
+---@field DefaultSceneRoot USceneComponent

@@ -1,0 +1,3 @@
+---@class BP_UGC_DragonGod_C:BP_UGC_GenericMobPawn_Base_C
+---@field UserConstructionScript:fun()
+---@field HitBox UCapsuleComponent

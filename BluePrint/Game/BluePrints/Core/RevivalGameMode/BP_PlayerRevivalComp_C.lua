@@ -1,0 +1,1 @@
+---@class BP_PlayerRevivalComp_C:UPlayerRevivalComponent

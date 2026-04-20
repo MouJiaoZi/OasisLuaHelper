@@ -1,0 +1,1 @@
+---@class WEP_Pendant_ACE32_MNXD_C:BattleItemHandle_WeapAttachment_C

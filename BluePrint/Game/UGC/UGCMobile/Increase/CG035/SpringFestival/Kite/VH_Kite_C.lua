@@ -1,0 +1,31 @@
+---@class VH_Kite_C:ASTExtraKite
+---@field UpdateCableVisibility:fun(NewVisibility:bool)
+---@field UpdateSpirngArmWhenEnter:fun(DeltaTime:float)
+---@field UpdateCable:fun()
+---@field UpdateCableEndLocation:fun()
+---@field UserConstructionScript:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field ReceiveEndPlay:fun(EndPlayReason:EEndPlayReason)
+---@field OnRep_bKiteConnectedToPivot:fun()
+---@field OnRep_bLosePower:fun()
+---@field Cable UCableComponent
+---@field BP_KiteMovementComponent BP_KiteMovementComponent_C
+---@field Camera UCameraComponent
+---@field VehicleSpringArm UVehicleSpringArmComponent
+---@field UAEChaVehAnimList_Driver UUAEChaVehAnimListComponent
+---@field UAEChaVehAnimList_Passenger UUAEChaVehAnimListComponent
+---@field PivotActor KitePivotActor_C
+---@field KiteReturn2VehicleCD float
+---@field KiteReturn2VehicleCDCounter float
+---@field bEnableUpdateSpringarmWhenEnter bool
+---@field SpringArmTargetLength float
+---@field SpringArmOriginLength float
+---@field CableCurveDis float
+---@field CableLength float
+---@field KiteCountDownTip float
+---@field KiteDisconnectSfx UAkAudioEvent
+---@field KiteUIStyle UUserWidgetStyle
+---@field KiteFirePowerTeamMateSfx UAkAudioEvent
+---@field KiteFirePowerEnermySfx UAkAudioEvent
+---@field KiteFirePowerTeamMateStopSfx UAkAudioEvent
+---@field KiteFirePowerEnermyStopSfx UAkAudioEvent

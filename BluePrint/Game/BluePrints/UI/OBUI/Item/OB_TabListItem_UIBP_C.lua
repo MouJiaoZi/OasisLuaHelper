@@ -1,0 +1,6 @@
+---@class OB_TabListItem_UIBP_C:UUserWidget
+---@field ShowData:fun(PlayerName:FString,KillNum:int32,IsAlive:bool)
+---@field Border_Parent UBorder
+---@field TextBlock_KillNum UTextBlock
+---@field TextBlock_PlayerName UTextBlock
+---@field IsShowTeamID bool

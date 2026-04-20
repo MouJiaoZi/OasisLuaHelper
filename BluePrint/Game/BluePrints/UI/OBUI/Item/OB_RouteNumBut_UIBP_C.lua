@@ -1,0 +1,10 @@
+---@class OB_RouteNumBut_UIBP_C:UUAEUserWidget
+---@field SetItemData:fun(TeamID:int32,SegmentInfo:FSegmentChoosableSituation,bIsLeader:bool,LeaderChoose:bool)
+---@field SetButtonEnabled:fun(bCanChoose:bool)
+---@field DX_In UWidgetAnimation
+---@field CanvasPanel_Select UCanvasPanel
+---@field NewButton_Select UNewButton
+---@field TextBlock_0 UTextBlock
+---@field TextBlock_Num UTextBlock
+---@field TextBlock_Num2 UTextBlock
+---@field WidgetSwitcher_But UWidgetSwitcher

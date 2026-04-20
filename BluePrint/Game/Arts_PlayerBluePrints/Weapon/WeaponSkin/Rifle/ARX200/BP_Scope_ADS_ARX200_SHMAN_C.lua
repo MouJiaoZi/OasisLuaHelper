@@ -1,0 +1,1 @@
+---@class BP_Scope_ADS_ARX200_SHMAN_C:BP_Scope_ADS_ARX200_C

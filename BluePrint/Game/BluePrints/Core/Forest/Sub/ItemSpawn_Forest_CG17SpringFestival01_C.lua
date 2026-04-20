@@ -1,0 +1,1 @@
+---@class ItemSpawn_Forest_CG17SpringFestival01_C:UItemSpawn_Forest_C

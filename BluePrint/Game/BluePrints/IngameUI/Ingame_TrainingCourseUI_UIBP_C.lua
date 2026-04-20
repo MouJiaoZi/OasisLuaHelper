@@ -1,0 +1,1 @@
+---@class Ingame_TrainingCourseUI_UIBP_C:ULuaUserWidget

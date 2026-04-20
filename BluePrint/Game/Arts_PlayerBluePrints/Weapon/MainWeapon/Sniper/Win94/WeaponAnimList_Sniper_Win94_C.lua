@@ -1,0 +1,1 @@
+---@class WeaponAnimList_Sniper_Win94_C:UUAECharacterAnimListComponent

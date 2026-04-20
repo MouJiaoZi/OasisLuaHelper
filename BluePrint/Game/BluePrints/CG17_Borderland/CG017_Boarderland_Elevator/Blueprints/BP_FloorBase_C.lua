@@ -1,0 +1,27 @@
+---@class BP_FloorBase_C:AActivityBaseActor
+---@field CheckSetClickUp:fun()
+---@field CheckSetClickDown:fun()
+---@field SetClickFloor:fun(IsClick:bool,State:FName)
+---@field AddDownFloorOrder:fun(FloorNum:int32)
+---@field AddUpFloorOrder:fun(FloorNum:int32)
+---@field AddFloorOrder:fun(NewOrderFloor:int32)
+---@field GetElevator:fun():BP_ElevatoBaser_C
+---@field RequestDown:fun(NewParam:FGISCCF_Param)
+---@field RequestUP:fun(NewParam:FGISCCF_Param)
+---@field CheckCanShowDOWN:fun(NewParam:FGISCCF_Param):bool
+---@field CheckCanShowUP:fun(NewParam:FGISCCF_Param):bool
+---@field UserConstructionScript:fun()
+---@field CheckFloorNUm UBoxComponent
+---@field Door UChildActorComponent
+---@field Box UBoxComponent
+---@field Scene USceneComponent
+---@field GISActorComponentBase UGISActorComponentBase
+---@field bIs_Lowest bool
+---@field bIs_Height bool
+---@field bClickUP bool
+---@field bClickDOWN bool
+---@field FloorNum int32
+---@field PlayerID_Array ULuaArrayHelper
+---@field bIs_Click bool
+---@field UpdateFloor int32
+---@field CurrentFloorNum int32

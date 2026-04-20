@@ -1,0 +1,1 @@
+---@class BP_Scope_ADS_SIG_M338_MJWS_C:BP_Scope_ADS_SIG_M338_C

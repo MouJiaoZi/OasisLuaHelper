@@ -1,0 +1,3 @@
+---@class bp_master_masteranddisciple_item_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent

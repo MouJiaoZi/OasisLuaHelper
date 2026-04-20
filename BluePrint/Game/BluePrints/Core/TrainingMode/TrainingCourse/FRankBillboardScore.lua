@@ -1,0 +1,11 @@
+---@class FRankBillboardScore
+---@field UID FString
+---@field PlayerName FString
+---@field PlatformGender int32
+---@field IconURL FString
+---@field SegmentLevel int32
+---@field PlayerLevel int32
+---@field AvatarBoxId int32
+---@field BestScore int32
+---@field PlayerKey FString
+---@field PlayTimes int32

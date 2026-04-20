@@ -1,0 +1,4 @@
+---@class BP_Other_AirAttackLocator_C:BP_ShootWeaponBase_C
+---@field UserConstructionScript:fun()
+---@field WeaponAnimList_Sniper_VSS WeaponAnimList_Sniper_VSS_C
+---@field bUseIdleAnim_0_0 bool

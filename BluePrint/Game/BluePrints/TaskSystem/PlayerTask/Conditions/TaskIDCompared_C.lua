@@ -1,0 +1,3 @@
+---@class TaskIDCompared_C:UTaskCondition_Base
+---@field IsConditionSatisfy:fun():bool
+---@field TaskIDEventKey FTriggerEventParamKeySelector

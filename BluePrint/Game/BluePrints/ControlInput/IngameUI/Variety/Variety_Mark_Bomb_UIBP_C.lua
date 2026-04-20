@@ -1,0 +1,1 @@
+---@class Variety_Mark_Bomb_UIBP_C:UMapUIMarkBaseWidget

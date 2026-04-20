@@ -1,0 +1,5 @@
+---@class FTargetOrderStruct
+---@field PTag int32
+---@field MinSpeed int32
+---@field MaxSpeed int32
+---@field Type int32

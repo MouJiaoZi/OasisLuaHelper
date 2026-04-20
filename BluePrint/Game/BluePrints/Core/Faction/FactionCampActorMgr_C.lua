@@ -1,0 +1,1 @@
+---@class FactionCampActorMgr_C:UCampModeComp

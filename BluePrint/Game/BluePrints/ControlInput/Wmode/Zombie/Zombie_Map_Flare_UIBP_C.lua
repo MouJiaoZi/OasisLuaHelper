@@ -1,0 +1,9 @@
+---@class Zombie_Map_Flare_UIBP_C:UUAEUserWidget
+---@field MapScaleChangeRedrawPos:fun(NewScale:float):bool
+---@field CustomTickFunc:fun(DeltaTime:float):bool
+---@field ReceivedInitWidget:fun()
+---@field FlareLoc FVector
+---@field LevelLandscapeCenter FVector
+---@field LevelToMapScale float
+---@field RotateAngle float
+---@field CacheFlareLoc FVector

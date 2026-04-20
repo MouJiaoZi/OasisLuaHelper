@@ -1,0 +1,16 @@
+---@class BP_UGC_Pistol_MedicalGun_C:BP_UGC_ShootPistol_Base_C
+---@field HandleWeaponShootCommon:fun()
+---@field HandleWeaponChangeStateCommon:fun(LastState:EFreshWeaponStateType,NewState:EFreshWeaponStateType)
+---@field FreshBulletVisibility:fun()
+---@field GetTargetActoAndLocation:fun():AActor,FVector
+---@field MakeAimingEffect:fun(bEffect:bool,bForce:bool)
+---@field UserConstructionScript:fun()
+---@field ReceiveEndPlay:fun(EndPlayReason:EEndPlayReason)
+---@field BF_ST_WEP_MedicalGun_Bullet_A UStaticMeshComponent
+---@field WeaponAnimList_Pistol_MedicalGun_BF WeaponAnimList_Pistol_MedicalGun_BF_C
+---@field BattleFieldPicker_CrossHairFan UBattleFieldPicker_CrossHairFan
+---@field bUseIdleAnim_0_0_0 bool
+---@field UIName FName
+---@field bShowCross bool
+---@field MeshTimer FTimerHandle
+---@field CurBulletNum int32

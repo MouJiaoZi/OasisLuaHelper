@@ -1,0 +1,1 @@
+---@class BP_SummerLand_IdustrialDoors_02_F1_Lo_C:ABP_Doormetallic_C

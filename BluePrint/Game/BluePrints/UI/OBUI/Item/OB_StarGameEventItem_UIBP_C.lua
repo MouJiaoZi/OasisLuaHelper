@@ -1,0 +1,19 @@
+---@class OB_StarGameEventItem_UIBP_C:UUAEUserWidget
+---@field UpdateCount:fun(Count:int32,MaxCount:int32)
+---@field UpdateCD:fun()
+---@field OnLoadIcon:fun(Icon:UObject)
+---@field HorizontalBox_Time UHorizontalBox
+---@field Image_0 UImage
+---@field Image_14 UImage
+---@field Image_ItemIcon UImage
+---@field NewButton_Lock UNewButton
+---@field NewButton_Use UNewButton
+---@field TextBlock_11 UTextBlock
+---@field TextBlock_CDtime UTextBlock
+---@field TextBlock_ItemName UTextBlock
+---@field TextBlock_ItemNum UTextBlock
+---@field WidgetSwitcher_BtnBG UWidgetSwitcher
+---@field bBindDelegate bool
+---@field bEnd bool
+---@field bLimitNum bool
+---@field LeftCount int32

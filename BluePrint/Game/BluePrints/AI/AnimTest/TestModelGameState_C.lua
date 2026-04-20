@@ -1,0 +1,32 @@
+---@class TestModelGameState_C:AGameStateBase
+---@field SwitchAnimBlendFastPath:fun(bEnable:bool)
+---@field SwitchAiMeshType:fun(UseStaticMesh:bool)
+---@field SetFastPathExtentionState:fun(EnableFastPathExt:bool)
+---@field SetRenderState:fun(ShouldRender:bool)
+---@field SetAnimUpdateState:fun(ShouldUpdate:bool)
+---@field SetTestModel:fun(Index:int32)
+---@field SetAINum:fun(num:int32)
+---@field UserConstructionScript:fun()
+---@field OnAnimBlendFastPathStateChanged__DelegateSignature:fun(bEnable:bool)
+---@field OnAiMeshTypeChanged__DelegateSignature:fun(UseStaticMesh:bool)
+---@field OnFastPathExtChanged__DelegateSignature:fun(EnableFastPathExt:bool)
+---@field OnRenderStateChanged__DelegateSignature:fun(ShouldRender:bool)
+---@field OnAnimUpdateStateChanged__DelegateSignature:fun(ShouldUpdate:bool)
+---@field OnTestModelChanged__DelegateSignature:fun(CurTestModel:int32)
+---@field OnAiNumChanged__DelegateSignature:fun(Num:int32)
+---@field DefaultSceneRoot USceneComponent
+---@field AINum int32
+---@field OnAiNumChanged ULuaMulticastDelegate
+---@field CurTestModel int32
+---@field OnTestModelChanged ULuaMulticastDelegate
+---@field bUpdateAnim bool
+---@field bShowRender bool
+---@field OnAnimUpdateStateChanged ULuaMulticastDelegate
+---@field OnRenderStateChanged ULuaMulticastDelegate
+---@field bUseFastPathExt bool
+---@field OnFastPathExtChanged ULuaMulticastDelegate
+---@field bUseStaticMeshAi bool
+---@field OnAiMeshTypeChanged ULuaMulticastDelegate
+---@field bUseIdle bool
+---@field bEnableAnimBlendFastPath bool
+---@field OnAnimBlendFastPathStateChanged ULuaMulticastDelegate

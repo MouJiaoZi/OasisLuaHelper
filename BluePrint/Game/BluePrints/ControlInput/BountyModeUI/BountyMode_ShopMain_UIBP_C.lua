@@ -1,0 +1,46 @@
+---@class BountyMode_ShopMain_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field PreConstruct:fun(IsDesignTime:bool)
+---@field Construct:fun()
+---@field Bounty_ShopRecall BountyMode_ShopRecall_UIBP_C
+---@field BountyMode_Clod_1 BountyMode_ClodItem_UIBP_C
+---@field BountyMode_Clod_2 BountyMode_ClodItem_UIBP_C
+---@field BountyMode_Clod_3 BountyMode_ClodItem_UIBP_C
+---@field BountyMode_Clod_4 BountyMode_ClodItem_UIBP_C
+---@field BountyMode_Clod_01 BountyMode_ClodItem_UIBP_C
+---@field BountyMode_Clod_02 BountyMode_ClodItem_UIBP_C
+---@field BountyMode_Play1 BountyMode_PlayList_UIBP_C
+---@field BountyMode_Play2 BountyMode_PlayList_UIBP_C
+---@field BountyMode_Play3 BountyMode_PlayList_UIBP_C
+---@field BountyMode_Play4 BountyMode_PlayList_UIBP_C
+---@field BountyMode_Price_01 BountyMode_ClodItem_UIBP_C
+---@field BountyMode_Price_02 BountyMode_ClodItem_UIBP_C
+---@field BountyMode_ShopPlayer BountyMode_ShopPlayer_UIBP_C
+---@field Button_CloseBackPackUI UButton
+---@field Button_OpenShopping UButton
+---@field CanvasPanel_Btn UCanvasPanel
+---@field CanvasPanel_BuyTips UCanvasPanel
+---@field CanvasPanel_CloseShop UCanvasPanel
+---@field CanvasPanel_Main UCanvasPanel
+---@field HorizontalBox_0 UHorizontalBox
+---@field HorizontalBox_CloseDoor UHorizontalBox
+---@field Image_BoneIcon UImage
+---@field Image_RecallSelcet UImage
+---@field Image_Selected UImage
+---@field NewButton_Clicked UNewButton
+---@field NewButton_recall UNewButton
+---@field PlayListTips_NoTeam BountyMode_PlayListTips_UIBP_C
+---@field ReuseList2_Bounty ReuseList2_C
+---@field TextBlock_2 UTextBlock
+---@field TextBlock_describe UTextBlock
+---@field TextBlock_Name UTextBlock
+---@field TextBlock_PartsIntroduction UTextBlock
+---@field TextBlock_PartsName UTextBlock
+---@field TextBlock_ShopTips UTextBlock
+---@field TextBlock_Tips_Count UTextBlock
+---@field TipsSwitcher UWidgetSwitcher
+---@field VerticalBox_TeamTips UVerticalBox
+---@field WidgetSwitcher_Details UWidgetSwitcher
+---@field WidgetSwitcher_page UWidgetSwitcher
+---@field ClickAkEvent UAkAudioEvent
+---@field BuyAkEvent UAkAudioEvent

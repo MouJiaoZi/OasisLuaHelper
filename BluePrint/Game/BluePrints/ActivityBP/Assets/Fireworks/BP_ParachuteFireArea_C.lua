@@ -1,0 +1,8 @@
+---@class BP_ParachuteFireArea_C:AFireworksAreaActor
+---@field ShowHideLightShafts:fun(BShow:bool)
+---@field UserConstructionScript:fun()
+---@field BPEndFireworks:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field Bottom UBoxComponent
+---@field DefaultSceneRoot USceneComponent
+---@field LightShaftsTime float

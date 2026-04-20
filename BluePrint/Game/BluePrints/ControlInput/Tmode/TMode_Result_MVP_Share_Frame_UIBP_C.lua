@@ -1,0 +1,4 @@
+---@class TMode_Result_MVP_Share_Frame_UIBP_C:UUAEUserWidget
+---@field RefreshScreenShot:fun()
+---@field Shareinterface_UIBP Shareinterface_UIBP_C
+---@field TMode_Result_MVP_Share_Content_UIBP TMode_Result_MVP_Share_Content_UIBP_C

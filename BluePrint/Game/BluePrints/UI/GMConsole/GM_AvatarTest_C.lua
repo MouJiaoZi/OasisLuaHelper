@@ -1,0 +1,12 @@
+---@class GM_AvatarTest_C:UUserWidget
+---@field CheckAuto:fun(Del:float)
+---@field Auto:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field Next:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field Init:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field AutoText UTextBlock
+---@field SpinBox_10 USpinBox
+---@field WidgetSwitcher_0 UWidgetSwitcher
+---@field DataActor GM_AvatarTestData_C
+---@field bAuto bool
+---@field Delta float

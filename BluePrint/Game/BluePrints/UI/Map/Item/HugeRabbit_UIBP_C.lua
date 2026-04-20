@@ -1,0 +1,1 @@
+---@class HugeRabbit_UIBP_C:UMapUIMarkBaseWidget

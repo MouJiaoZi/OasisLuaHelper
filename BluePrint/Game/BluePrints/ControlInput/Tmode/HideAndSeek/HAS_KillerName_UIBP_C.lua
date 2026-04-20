@@ -1,0 +1,4 @@
+---@class HAS_KillerName_UIBP_C:UUAEUserWidget
+---@field SetSeekerName:fun(PlayerName:FName)
+---@field SetHiderName:fun(PlayerName:FName)
+---@field TextBlock_Name UTextBlock

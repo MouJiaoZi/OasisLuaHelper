@@ -1,0 +1,16 @@
+---@class GM_PickUp_C:UUserWidget
+---@field DiffAdd:fun(Actor:ULuaArrayHelper):int32
+---@field GetAllPickUpNum:fun()
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field Button_35 UButton
+---@field CureentNum UTextBlock
+---@field MaxNumm UTextBlock
+---@field TextBlock_0 UTextBlock
+---@field TextBlock_4 UTextBlock
+---@field TextBlock_6 UTextBlock
+---@field MaxNum int32
+---@field bStart bool
+---@field Deltal float
+---@field LastNum int32
+---@field AddMax int32
+---@field CacheActor ULuaArrayHelper

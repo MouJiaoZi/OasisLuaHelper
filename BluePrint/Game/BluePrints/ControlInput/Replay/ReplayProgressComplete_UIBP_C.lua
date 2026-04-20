@@ -1,0 +1,10 @@
+---@class ReplayProgressComplete_UIBP_C:UReplayProgressBase_UIBP_C
+---@field Construct:fun()
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field CreateProgressEventItem:fun()
+---@field ProgressEventUIRefresh:fun()
+---@field RefreshUIInfoOnAttachCameraViewFinished:fun()
+---@field InitSomeDataOrUI:fun()
+---@field RefreshKillorHitDownUIData:fun(hasData:bool,IsHadData:bool)
+---@field OnLeaveFreeView:fun()
+---@field OnEnterFreeView:fun()

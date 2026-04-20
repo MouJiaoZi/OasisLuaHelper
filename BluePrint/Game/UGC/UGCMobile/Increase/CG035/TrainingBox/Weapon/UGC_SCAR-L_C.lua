@@ -1,0 +1,4 @@
+---@class UGC_SCAR-L_C:AActor
+---@field UserConstructionScript:fun()
+---@field StaticMesh UStaticMeshComponent
+---@field StaticMesh1 UStaticMeshComponent

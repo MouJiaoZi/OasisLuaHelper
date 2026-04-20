@@ -1,0 +1,31 @@
+---@class NewTraining_TeamInfoList_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field Button_AddFriend UNewButton
+---@field Button_Footprint UNewButton
+---@field Button_Go UNewButton
+---@field Button_Invite UNewButton
+---@field Button_Inviting UNewButton
+---@field Button_Kick UNewButton
+---@field Button_OpAddFriend UNewButton
+---@field Button_Options UNewButton
+---@field Button_Out UNewButton
+---@field Button_Promotion UNewButton
+---@field Button_Team UButton
+---@field CanvasPanel_OpList UCanvasPanel
+---@field Common_Avatar Common_Avatar_BP_C
+---@field Common_RankTitleInfo Common_RankTitleInfo_UIBP_C
+---@field HorizontalBox_DanInfo UHorizontalBox
+---@field PlayerTitle_UIBP NewTraining_TitleItem_UIBP_C
+---@field Switcher_Gender UWidgetSwitcher
+---@field Switcher_Promotion UWidgetSwitcher
+---@field TextBlock_7 UTextBlock
+---@field TextBlock_8 UTextBlock
+---@field TextBlock_9 UTextBlock
+---@field TextBlock_FriendName UTextBlock
+---@field TextBlock_TeamIdx UTextBlock
+---@field WidgetSwitcher_AddSelect UWidgetSwitcher
+---@field WidgetSwitcher_BG UWidgetSwitcher
+---@field WidgetSwitcher_Invite UWidgetSwitcher
+---@field WidgetSwitcher_Kick UWidgetSwitcher
+---@field WidgetSwitcher_MainOp UWidgetSwitcher
+---@field WidgetSwitcher_OP UWidgetSwitcher

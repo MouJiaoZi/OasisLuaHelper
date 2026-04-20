@@ -1,0 +1,30 @@
+---@class bp_corps_war_entry_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_CorpsWarEntry_LevelID int32
+---@field BP_CorpsWarEntry_SeasonID int32
+---@field BP_CorpsWarEntry_JoinStatus int32
+---@field BP_CorpsWarEntry_PlayChestStatus int32
+---@field BP_CorpsWarEntry_JoinedMemberCount int32
+---@field BP_CorpsWarEntry_DefeatNum int32
+---@field BP_CorpsWarEntry_ShowPlatformInviteBtn bool
+---@field BP_CorpsWarEntry_Icon int32
+---@field BP_CorpsWarEntry_ClickChestID int32
+---@field BP_CorpsWarEntry_BeginString FString
+---@field BP_ARRAY_CorpsWarEntry_ChestList ULuaArrayHelper
+---@field BP_CorpsWarEntry_PlayCount int32
+---@field BP_CorpsWarEntry_KillNum int32
+---@field BP_CorpsWarEntry_SeasonHonor int32
+---@field BP_CorpsWarEntry_Name FString
+---@field BP_CorpsWarEntry_PlayChestID int32
+---@field BP_CorpsWarEntry_Hornor int32
+---@field BP_ARRAY_CorpsWarEntry_JoinedMembers ULuaArrayHelper
+---@field BP_CorpsWarEntry_WinNum int32
+---@field BP_CorpsWarEntry_GameNum int32
+---@field BP_CorpsWarEntry_ShowPlatformInviteBtn_Tips bool
+---@field BP_CorpsWarEntry_JoinMax int32
+---@field BP_CorpsWarEntry_IsShowRankButton bool
+---@field BP_CorpsWarEntry_WeekHonor int32
+---@field BP_ARRAY_CorpsWarEntry_ChestAvatarList ULuaArrayHelper
+---@field BP_CorpsWarEntry_RemainTime int32
+---@field BP_CorpsWarEntry_RemainJoinCount int32

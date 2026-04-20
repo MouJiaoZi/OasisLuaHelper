@@ -1,0 +1,2 @@
+---@class LuaTestBPForLuaBind_C:ULuaTestBP_C
+---@field BPTestString FString

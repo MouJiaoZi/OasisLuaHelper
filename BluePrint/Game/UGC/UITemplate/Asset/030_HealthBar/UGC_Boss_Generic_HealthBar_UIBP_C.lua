@@ -1,0 +1,49 @@
+---@class UGC_Boss_Generic_HealthBar_UIBP_C:UUGCGenericCharacterPositionWidget
+---@field GetLuaModule:fun():FString
+---@field GetNearKey:fun(NewParam:float):float
+---@field GetAllBuffs:fun(目标:UPersistBaseComponent)
+---@field SetbuffItems:fun()
+---@field SetBuffs:fun(目标:UPersistBaseComponent)
+---@field SetName:fun(Name:FString)
+---@field SetBossName:fun(NewParam:FString)
+---@field SetBloodText:fun(Cur:int32,Total:int32)
+---@field SetFillImage:fun(NewParam:float)
+---@field SetBloodColor:fun(CurrentBlood:float)
+---@field SetShowBlood:fun(Show:bool)
+---@field SetShowName:fun(Show:bool)
+---@field PreConstruct:fun(IsDesignTime:bool)
+---@field Event_InitParamEnd:fun()
+---@field BP_CharacterNameChange:fun(Name:FName)
+---@field Event_InitParam:fun(InParam:FWidgetParamInfo,InDestinPos:FVector,InTargetActor:AActor)
+---@field 030_NPC_HealthBar_Buff_01 UGC_NPC_HealthBar_Buff_UIBP_C
+---@field 030_NPC_HealthBar_Buff_02 UGC_NPC_HealthBar_Buff_UIBP_C
+---@field 030_NPC_HealthBar_Buff_03 UGC_NPC_HealthBar_Buff_UIBP_C
+---@field 030_NPC_HealthBar_Buff_04 UGC_NPC_HealthBar_Buff_UIBP_C
+---@field 030_NPC_HealthBar_Buff_05 UGC_NPC_HealthBar_Buff_UIBP_C
+---@field 030_NPC_HealthBar_Buff_06 UGC_NPC_HealthBar_Buff_UIBP_C
+---@field CanvasPanel_5 UCanvasPanel
+---@field CanvasPanel_Arrow UCanvasPanel
+---@field CanvasPanel_BuffItem UCanvasPanel
+---@field CanvasPanel_HP UCanvasPanel
+---@field HorizontalBox_1 UHorizontalBox
+---@field Image_Arrow UImage
+---@field Image_Icon UImage
+---@field InScreenPnl UHorizontalBox
+---@field OutScreenPnl UCanvasPanel
+---@field ProgressBar_HP UProgressBar
+---@field ProgressBar_LessBloodVFX UProgressBar
+---@field SizeBox_3 USizeBox
+---@field TextBlock_1 UTextBlock
+---@field TextBlock_CurrentHP UTextBlock
+---@field TextBlock_PlayInfo UTextBlock
+---@field TextBlock_TotalHP UTextBlock
+---@field UGC_ReuseList2_AttrBar UGC_ReuseList2_C
+---@field isShowName bool
+---@field IsShowBloodNum bool
+---@field BloodFillImage ULuaMapHelper
+---@field BackgroundImage FSlateBrush
+---@field Buffs ULuaArrayHelper
+---@field BuffItems ULuaArrayHelper
+---@field Last int32
+---@field HealthPreDeductFillImage FSlateBrush
+---@field GameAttributeFillImageMap ULuaArrayHelper

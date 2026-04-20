@@ -1,0 +1,11 @@
+---@class BP_PlayerSniperBullet_C:ASTExtraShootWeaponBulletBase
+---@field CheckEnableSniperEffect:fun()
+---@field UserConstructionScript:fun()
+---@field OnShowBulletEffect:fun()
+---@field Sphere USphereComponent
+---@field P_Sniper_bullet_01 UParticleSystemComponent
+---@field EffectFxDelayShowTime float
+---@field LaunchPos FVector
+---@field MaxTryActiveEffectNum int32
+---@field CurTryActiveEffectNum int32
+---@field MinShowEffectDistance float

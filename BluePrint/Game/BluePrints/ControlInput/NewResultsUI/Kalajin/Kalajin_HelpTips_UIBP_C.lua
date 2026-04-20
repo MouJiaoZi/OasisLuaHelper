@@ -1,0 +1,4 @@
+---@class Kalajin_HelpTips_UIBP_C:UUAEUserWidget
+---@field CanvasPanel_TextTips02 UCanvasPanel
+---@field NewButton_KLJ_Help01 UNewButton
+---@field UTRichTextBlock_KLJ_Text UUTRichTextBlock

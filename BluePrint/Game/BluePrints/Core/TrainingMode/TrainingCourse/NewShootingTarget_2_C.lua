@@ -1,0 +1,3 @@
+---@class NewShootingTarget_2_C:ANewShootingTargetBase_C
+---@field GetLuaModule:fun():FString
+---@field UserConstructionScript:fun()

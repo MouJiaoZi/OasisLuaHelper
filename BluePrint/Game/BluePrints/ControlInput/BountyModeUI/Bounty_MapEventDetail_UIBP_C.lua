@@ -1,0 +1,13 @@
+---@class Bounty_MapEventDetail_UIBP_C:UUAEUserWidget
+---@field OnInitItem:fun(UserWidgetItem:UUserWidget,Index:int32)
+---@field RefreshDetailsStatus:fun(CurTimer:int32)
+---@field InitItemThree:fun()
+---@field InitItemTwo:fun()
+---@field InitItemOne:fun()
+---@field InitDetailInfos:fun()
+---@field Button_close UButton
+---@field CanvasPanel_IPX UCanvasPanel
+---@field ReuseList2 ReuseList2_C
+---@field TextBlock_Details UTextBlock
+---@field TimeArray ULuaArrayHelper
+---@field CurFightingTimer int32

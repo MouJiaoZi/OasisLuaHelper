@@ -1,0 +1,5 @@
+---@class OB_SkydivingAreaAriLine_UIBP_C:UUAEUserWidget
+---@field CanvasPanel_Rot UCanvasPanel
+---@field CanvasSkydivingArea UCanvasPanel
+---@field OB_AirLineGroup UCanvasPanel
+---@field TextBlock_Title UTextBlock

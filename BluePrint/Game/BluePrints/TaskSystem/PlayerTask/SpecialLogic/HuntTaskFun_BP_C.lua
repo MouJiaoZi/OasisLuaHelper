@@ -1,0 +1,29 @@
+---@class HuntTaskFun_BP_C:UUniversalTaskFuncBPBase
+---@field AwardAssistPlayer:fun()
+---@field IsKillHuntTarget:fun():bool
+---@field PickHuntEnemyList:fun()
+---@field ClearTaskData:fun()
+---@field UpdateHuntInfo:fun()
+---@field PickRandomCenter:fun(Radius:float,TargetLoc:FVector,RadiusRate:float):FVector
+---@field CalHuntedTargetMark:fun()
+---@field PickHuntedPlayer:fun()
+---@field HuntedPlayerKey FTaskBlackboardKeySelector
+---@field TaskPickerKey FTaskBlackboardKeySelector
+---@field MinTeamNum int32
+---@field MinPickDistance float
+---@field SearchRangeList ULuaArrayHelper
+---@field AwardMoneyKey FTaskBlackboardKeySelector
+---@field IncreaseRate float
+---@field UpdateEventName FString
+---@field AwardMoney int32
+---@field RadiusRate float
+---@field MarkRadiusKey FTaskBlackboardKeySelector
+---@field CircleRadiusList ULuaArrayHelper
+---@field MarkEventName FString
+---@field MaxPickDistance float
+---@field MarkCircleRadius float
+---@field DiePlayerKey FTriggerEventParamKeySelector
+---@field AwardItemDefineID int32
+---@field TimeCountKey FTaskBlackboardKeySelector
+---@field TaskTime int32
+---@field TargetKillerKey FTaskBlackboardKeySelector

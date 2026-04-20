@@ -1,0 +1,1 @@
+---@class LevelDirector_HeavyWeaponTD_4V4_C:ALevelDirector_TeamDeathMatch_4V4_C

@@ -1,0 +1,10 @@
+---@class IngameSpecMotionInfo_UIBP_C:UUAEUserWidget
+---@field RefreshSpecMotionInfo_Inf:fun():bool
+---@field CheckNeedInterrupteEmote:fun()
+---@field SetPlayerOpenCostState:fun(bOpen:bool)
+---@field SaveOpenState:fun()
+---@field ReadOpenState:fun():bool
+---@field UnEnougnCostStatus:fun()
+---@field CheckBox_Switch UCheckBox
+---@field Text_Count UTextBlock
+---@field Text_TitleInfo UTextBlock

@@ -1,0 +1,1 @@
+---@class PESkill_UGC_FireDragon_Skill_2_C:PESkillTemplate_Base_C

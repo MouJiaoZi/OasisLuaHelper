@@ -1,0 +1,12 @@
+---@class DeathPlayBackController_C:ASTExtraPlayerController
+---@field ReadEmoteDataRowPC:fun()
+---@field DoShowTouchInterface:fun(Show:bool)
+---@field UserConstructionScript:fun()
+---@field CallShowTouchInterface:fun(InShow:bool)
+---@field ShowTouchInterface:fun(BShow:bool)
+---@field QuickSignComponent_BP QuickSignComponent_BP_C
+---@field ChatComponent_BP ChatComponent_BP_C
+---@field BP_TipsManager BP_TipsManager_C
+---@field BP_GameEventListener BP_GameEventListener_C
+---@field STExtraUnderWaterEffectComp USTExtraUnderWaterEffectComp
+---@field BP_VehicleUser BP_VehicleUser_C

@@ -1,0 +1,53 @@
+---@class BountyMode_knapsackList_UIBP_C:UUAEUserWidget
+---@field UIMsg_HideBountyList:fun()
+---@field UIMsg_SwitchShowBountyList:fun()
+---@field DeleteItem:fun(id:FItemDefineID)
+---@field UpdateItem:fun(id:FItemDefineID)
+---@field Construct:fun()
+---@field RespawnInitWidget:fun()
+---@field Border_001 UBorder
+---@field Border_002 UBorder
+---@field Border_003 UBorder
+---@field Border_004 UBorder
+---@field CanvasPanel_1 UCanvasPanel
+---@field CanvasPanel_11 UCanvasPanel
+---@field CanvasPanel_15 UCanvasPanel
+---@field CanvasPanel_19 UCanvasPanel
+---@field CanvasPanel_show UCanvasPanel
+---@field Image_line UImage
+---@field Item1 BackProfession_SkillModuleItem_UIBP_C
+---@field Item2 BackProfession_SkillModuleItem_UIBP_C
+---@field Item3 BackProfession_SkillModuleItem_UIBP_C
+---@field Item4 BackProfession_SkillModuleItem_UIBP_C
+---@field NewButton_return UNewButton
+---@field Text_PrtofessionName UTextBlock
+---@field TextBlock_0 UTextBlock
+---@field TextBlock_1 UTextBlock
+---@field TextBlock_2 UTextBlock
+---@field TextBlock_3 UTextBlock
+---@field TextBlock_4 UTextBlock
+---@field TextBlock_5 UTextBlock
+---@field TextBlock_6 UTextBlock
+---@field TextBlock_7 UTextBlock
+---@field TextBlock_8 UTextBlock
+---@field TextBlock_9 UTextBlock
+---@field TextBlock_10 UTextBlock
+---@field TextBlock_11 UTextBlock
+---@field TextBlock_12 UTextBlock
+---@field TextBlock_13 UTextBlock
+---@field TextBlock_14 UTextBlock
+---@field TextBlock_15 UTextBlock
+---@field TextBlock_16 UTextBlock
+---@field TextBlock_SkillName UTextBlock
+---@field TextBlock_Skilltype UTextBlock
+---@field TextBlock_Time UTextBlock
+---@field ItemIDList ULuaArrayHelper
+---@field ItemList ULuaArrayHelper
+---@field ItemNameList ULuaArrayHelper
+---@field DescList ULuaArrayHelper
+---@field SkillIDList ULuaArrayHelper
+---@field CDList ULuaArrayHelper
+---@field ImageGray FLinearColor
+---@field EquipList ULuaArrayHelper
+---@field BorderList ULuaArrayHelper
+---@field CDText ULuaArrayHelper

@@ -1,0 +1,140 @@
+---@class OB_PlayerInfoPanel_BP_C:UUAEUserWidget
+---@field ChangeWeaponCallback:fun(Slot1:ESurviveWeaponPropSlot,Slot2:ESurviveWeaponPropSlot)
+---@field HandleThrownWeapon:fun(Manager:UWeaponManagerComponent)
+---@field SetInfo_MainWeaponBlack:fun(Manager:UWeaponManagerComponent)
+---@field HandleOtherWeapon:fun(Manager:UWeaponManagerComponent)
+---@field HandleSubWeapon:fun(Manager:UWeaponManagerComponent)
+---@field HandleSecWeapon:fun(Manager:UWeaponManagerComponent)
+---@field HandleMainWeapon:fun(Manager:UWeaponManagerComponent)
+---@field SetInfo_SecWeaponNew:fun()
+---@field WeaponIcon2Callback:fun(ObjRef:UObject)
+---@field ImageIconCallback:fun(OjbRef:UObject)
+---@field SetInfo_RefreshAmmoNum:fun(AmmoNum:int32)
+---@field SetInfo_SecondaryWeaponIcon:fun(Weapon:ASTExtraWeapon)
+---@field SetInfo_Sight:fun(CurWeapon:ASTExtraWeapon)
+---@field SetInfo_GunIcon:fun(Weapon:ASTExtraWeapon,bPistol:bool,bBlack:bool)
+---@field OnViewTargetDetachedFromVehicle:fun()
+---@field OnViewTargetAttachedToVehicle:fun()
+---@field SetInfo_MainWeapon:fun()
+---@field SetInfo_SecondaryWeapon:fun()
+---@field OnOBRefreshBackpackBullet:fun()
+---@field WeaponIconGrenadeCallback:fun(NewParam:UObject)
+---@field GetAllBackpackHelmetArmorArray:fun():ULuaArrayHelper
+---@field TryPlayBloodReducingAnim:fun(CurPlayerHealthPercent:float):float
+---@field OnDownloaderSuccess:fun(Texture:UTexture2D,Downloader:UImageDownloader)
+---@field SetImgByID:fun(ItemID:int32,SubType:int32,IconImage:UImage,LevelImage:UImage)
+---@field OnOBPlayerBulletChanged:fun()
+---@field OnOBPlayerWeaponChanged:fun()
+---@field OnOBPlayerItemChanged:fun()
+---@field SetArmorHelmetHP:fun(ItemID:int32,AdditionData:ULuaArrayHelper,TargetPB:UProgressBar)
+---@field SetImgByIcon:fun(TargetImage:UImage,PathString:FString)
+---@field ShowPlayerInfo:fun(PlayerData:FObservedData,TeamData:FTeamInfoInOB,OBPlayerPawn:APawn)
+---@field PlayerHeadListRefreshOBData:fun(MapPlayerList:ULuaArrayHelper,ObservedPlayer:FObservedData,Force:bool)
+---@field ReceivedInitWidget:fun()
+---@field SetPlayerInfoPlayerBackpackVisible:fun(bIsShow:bool)
+---@field SetPlayerInfoPlayerStausVisible:fun(bIsShow:bool)
+---@field ReceiveUseWeseeStyle:fun()
+---@field ResetPlayerInfo:fun(PlayerPawn:APawn)
+---@field CreateSignalBarWidget:fun()
+---@field BloodReducing UWidgetAnimation
+---@field Armor_Image UImage
+---@field Armor_Level UImage
+---@field Armor_RuinPercentage UProgressBar
+---@field Backpack_Image UImage
+---@field Backpack_Level UImage
+---@field Border_EnergyDrink UBorder
+---@field Border_FirstAid UBorder
+---@field Border_Grenade UBorder
+---@field Border_MedKit UBorder
+---@field Border_MolotovCocktail UBorder
+---@field Border_PainKiller UBorder
+---@field Border_ShockBomb UBorder
+---@field Border_SmokeGrenade UBorder
+---@field CanvasPanel_3 UCanvasPanel
+---@field CanvasPanel_20 UCanvasPanel
+---@field CanvasPanel_BloodReduce UCanvasPanel
+---@field CanvasPanel_Info_01 UCanvasPanel
+---@field CanvasPanel_Info_02 UCanvasPanel
+---@field CanvasPanel_NationalityIcon UCanvasPanel
+---@field CanvasPanel_SignalOB UCanvasPanel
+---@field CanvasPanel_TeamInfo UCanvasPanel
+---@field Helmet_Image UImage
+---@field Helmet_Level UImage
+---@field Helmet_RuinPercentage UProgressBar
+---@field HorizonSightInfo UHorizontalBox
+---@field HorizontalBox_BulletInfo UHorizontalBox
+---@field Image_9 UImage
+---@field Image_HP75 UImage
+---@field Image_Name_BG UImage
+---@field Image_NationalityIcon UImage
+---@field Image_NewTeamNameBG UImage
+---@field Image_NULL_Left UImage
+---@field Image_Null_Right UImage
+---@field Image_TeamLogo UImage
+---@field Image_TeamLogo_BG UImage
+---@field ProgressBar_BloodReduce UProgressBar
+---@field ProgressBar_HP UProgressBar
+---@field ProgressBar_Power1 UProgressBar
+---@field ProgressBar_Power2 UProgressBar
+---@field ProgressBar_Power3 UProgressBar
+---@field ProgressBar_Power4 UProgressBar
+---@field Sight_Image UImage
+---@field SizeBox_OBSignal USizeBox
+---@field TeamLogo_CanvasPanel UCanvasPanel
+---@field Text_MolotovCocktail UTextBlock
+---@field TextBlock_Bullet_Num UTextBlock
+---@field TextBlock_Bullet_Total UTextBlock
+---@field TextBlock_CrtPlayerName UTextBlock
+---@field TextBlock_EnergyDrink_Num UTextBlock
+---@field TextBlock_FirstAid_Num UTextBlock
+---@field TextBlock_Grenade_Num UTextBlock
+---@field TextBlock_isGun UTextBlock
+---@field TextBlock_KilledNum UTextBlock
+---@field TextBlock_MedKit_Num UTextBlock
+---@field TextBlock_PainKiller_Num UTextBlock
+---@field TextBlock_SightNum UTextBlock
+---@field TextBlock_SmokeGrenade_Num UTextBlock
+---@field TextBlock_TeamID UTextBlock
+---@field TextBlock_TeamName UTextBlock
+---@field TextShockBomb UTextBlock
+---@field VehicleIcon UImage
+---@field VerticalBox_0 UVerticalBox
+---@field WeaponIcon UImage
+---@field WeaponIcon2 UImage
+---@field WidgetSwitcher_Sight UWidgetSwitcher
+---@field WidgetSwitcher_TeamSwitch UWidgetSwitcher
+---@field ArmorLvDict ULuaMapHelper
+---@field MyBaseCharacter ASTExtraBaseCharacter
+---@field MyPlayerState ASTExtraPlayerState
+---@field MyOBPlayerData FObservedData
+---@field RefreshHPEnergyTimer FTimerHandle
+---@field FistImage FSlateBrush
+---@field GrenadeImage_Frag FSlateBrush
+---@field GrenadeImage_Smoke FSlateBrush
+---@field GrenadeImage_Fire FSlateBrush
+---@field GrenadeImage_Stun FSlateBrush
+---@field MeleeImage FSlateBrush
+---@field ColorWhite FLinearColor
+---@field ColorNull FLinearColor
+---@field SilhouetteBrushDict ULuaMapHelper
+---@field PlayerNumPerTeam int32
+---@field MyTeamData FTeamInfoInOB
+---@field GrenadeImage_Apple FSlateBrush
+---@field GrenadeImage_Dance FSlateBrush
+---@field HPEnergy_LastTimePlayerHealthPercent float
+---@field HPEnergy_LastTimePlayerID int32
+---@field BackpackHelmetArmorArray ULuaArrayHelper
+---@field CurSTExtraShootWeapon ASTExtraShootWeapon
+---@field SumOfBulletCount int32
+---@field BInitDefaultColor bool
+---@field DefaultTeamColor FColor
+---@field DefaultPlayerColor FColor
+---@field VehicleImage FSlateBrush
+---@field QuanxiImage FSlateBrush
+---@field HongdianImage FSlateBrush
+---@field BeijingImage FSlateBrush
+---@field BeijingMap ULuaMapHelper
+---@field TextColorRed FSlateColor
+---@field TextColorWhite FSlateColor
+---@field ColorRead FLinearColor
+---@field CornerCache ULuaMapHelper

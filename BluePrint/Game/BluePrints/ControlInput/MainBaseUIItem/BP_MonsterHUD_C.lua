@@ -1,0 +1,1 @@
+---@class BP_MonsterHUD_C:ABP_BattleRoyaleHUD_C

@@ -1,0 +1,1 @@
+---@class BP_NewFakePlayerAIC_DoubleCircle_SuperTeam_C:ABP_NewFakePlayerAIC_SuperTeam_C

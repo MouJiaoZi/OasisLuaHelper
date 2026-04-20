@@ -1,0 +1,3 @@
+---@class Duel_PlayerGroup_UIBP_C:UUAEUserWidget
+---@field Common_Avatar_BP Common_Avatar_BP_C
+---@field Duel_PlayerInfo Duel_PlayerInfo_UIBP_C

@@ -1,0 +1,3 @@
+---@class BP_PVEPlayerState_C:ASTPVEPlayerState
+---@field UserConstructionScript:fun()
+---@field DefaultSceneRoot USceneComponent

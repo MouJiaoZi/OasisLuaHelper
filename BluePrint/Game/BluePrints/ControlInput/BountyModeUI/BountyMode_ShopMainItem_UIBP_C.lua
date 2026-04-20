@@ -1,0 +1,11 @@
+---@class BountyMode_ShopMainItem_UIBP_C:UUserWidget
+---@field Border_butColor UBorder
+---@field BountyMode_Clod_01 BountyMode_ClodItem_UIBP_C
+---@field BountyMode_Clod_02 BountyMode_ClodItem_UIBP_C
+---@field Image_0 UImage
+---@field Image_1 UImage
+---@field Image_2 UImage
+---@field Image_BoneIcon UImage
+---@field Image_Select UImage
+---@field Text_name UTextBlock
+---@field TipsSwitcher UWidgetSwitcher

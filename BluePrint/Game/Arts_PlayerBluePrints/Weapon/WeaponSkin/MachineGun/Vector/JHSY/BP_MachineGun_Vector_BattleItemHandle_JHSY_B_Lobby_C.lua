@@ -1,0 +1,1 @@
+---@class BP_MachineGun_Vector_BattleItemHandle_JHSY_B_Lobby_C:UBackpackWeaponHandle

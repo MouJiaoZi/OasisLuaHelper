@@ -1,0 +1,14 @@
+---@class AsianOB_PanelScore_UIBP_C:UUAEUserWidget
+---@field AsianGames_Flag AsianGames_FlagItem_UIBP_C
+---@field AsianOB_PlayerScore01 AsianOB_NameItem2_UIBP_C
+---@field AsianOB_PlayerScore02 AsianOB_NameItem2_UIBP_C
+---@field AsianOB_PlayerScore03 AsianOB_NameItem2_UIBP_C
+---@field AsianOB_PlayerScore04 AsianOB_NameItem2_UIBP_C
+---@field TextBlock_Country UTextBlock
+---@field TextBlock_Desc1 UTextBlock
+---@field TextBlock_Desc2 UTextBlock
+---@field TextBlock_Desc3 UTextBlock
+---@field TextBlock_Desc4 UTextBlock
+---@field TextBlock_Desc5 UTextBlock
+---@field TextBlock_Ranking UTextBlock
+---@field VerticalBox_Panel UVerticalBox

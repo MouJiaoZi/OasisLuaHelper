@@ -1,0 +1,4 @@
+---@class TestModelWidgetBase_C:UUserWidget
+---@field InitData:fun(GameStateInstance:TestModelGameState_C)
+---@field ResetWidget:fun()
+---@field GameStateInstance TestModelGameState_C

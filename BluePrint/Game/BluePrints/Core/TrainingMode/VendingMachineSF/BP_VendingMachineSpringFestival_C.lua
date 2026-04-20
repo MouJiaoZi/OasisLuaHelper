@@ -1,0 +1,25 @@
+---@class BP_VendingMachineSpringFestival_C:ABP_VendingMachineCode_C
+---@field UpdateTLog:fun(Player:AController)
+---@field OnLoadActorDone:fun(Class:UClass)
+---@field CanTriggertEvent:fun(CurPawn:APawn):bool
+---@field ProduceDestinItemToPos:fun()
+---@field OnAnimDone:fun()
+---@field UserConstructionScript:fun()
+---@field SellOne:fun(PlayerController:ASTExtraPlayerController)
+---@field TrySellOne:fun(PlayerController:ASTExtraPlayerController)
+---@field OnSellOne:fun(PlayerController:ASTExtraPlayerController)
+---@field ProduceOne:fun(InSellIndex:int32,PlayerController:ASTExtraPlayerController,SpawnPos:FVector)
+---@field RPCSellToClient:fun(NewParam:int32,PC:ASTExtraPlayerController)
+---@field BP_BackpackCostComponent BP_BackpackCostComponent_C
+---@field TargetSellIndex int32
+---@field TempTargetPos FVector
+---@field CurrentProduceActor AActor
+---@field TargetBronPos FTransform
+---@field DropPlayer ASTExtraPlayerController
+---@field DelaySpawnTime float
+---@field CanShowButton bool
+---@field DropOffsetRangeX FVector
+---@field DropOffsetRangeY FVector
+---@field UseStartParticle bool
+---@field NotEnoughMsgID int32
+---@field TargetActorSoft ULuaArrayHelper

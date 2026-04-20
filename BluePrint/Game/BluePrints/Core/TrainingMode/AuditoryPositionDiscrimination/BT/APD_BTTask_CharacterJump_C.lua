@@ -1,0 +1,3 @@
+---@class APD_BTTask_CharacterJump_C:UBTTask_BlueprintBase
+---@field IsJumpping bool
+---@field IsStart bool

@@ -1,0 +1,25 @@
+---@class FitingSlotItem_BP_C:UUAEUserWidget
+---@field RefreshIcon:fun(obj:UObject)
+---@field GetGunBattleData:fun():FBattleItemData
+---@field OnDragDetected:fun(MyGeometry:FGeometry,PointerEvent:FPointerEvent):UDragDropOperation
+---@field OnTouchEnded:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field OnTouchStarted:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field HighLightSocket:fun(highLight:bool,defineID:FItemDefineID)
+---@field UpdateSlotItem:fun(resID:int32,defineID:FItemDefineID,dragOrigin:EBackPackDragOrigin)
+---@field OnDragCancelled:fun(PointerEvent:FPointerEvent,Operation:UDragDropOperation)
+---@field ItemBeDragCancel__DelegateSignature:fun()
+---@field ItemBeDragBegin__DelegateSignature:fun(ItemData:FBattleItemData,DragOrigin:EBackPackDragOrigin)
+---@field Button_SlotClick UButton
+---@field Image_FittingIcon UImage
+---@field Image_SlotHoverStatus UImage
+---@field TextBlock_FittingName UTextBlock
+---@field DefineID FItemDefineID
+---@field isTouchStart bool
+---@field DragOrigin EBackPackDragOrigin
+---@field highlightAttachID FItemDefineID
+---@field parentWeaponInfo MainWeaponInfoItem_BP_C
+---@field ItemBeDragBegin ULuaMulticastDelegate
+---@field ItemBeDragCancel ULuaMulticastDelegate
+---@field PistolInfo PistolInfoItem_BP_C
+---@field FittingName FString
+---@field ChatText int32

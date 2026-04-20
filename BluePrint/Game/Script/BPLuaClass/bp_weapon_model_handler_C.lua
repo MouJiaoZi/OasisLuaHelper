@@ -1,0 +1,12 @@
+---@class bp_weapon_model_handler_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field VSS_Item_Id int32
+---@field BP_Armory_Cur_Show_Weapon_Resid int32
+---@field BP_Armory_Cur_Show_Weapon_Need_ResetRotation bool
+---@field BP_Armory_ShowWeaponNotShowBox bool
+---@field BP_Armory_Cur_Show_Weapon_Skin bool
+---@field BP_Armory_Cur_Weapon_CameraId int32
+---@field VSS_Sight_Item_Id int32
+---@field BP_Armory_Cur_Equipment_Resid int32
+---@field BP_Array_Armory_PutOnEquipment_Resid_List ULuaArrayHelper

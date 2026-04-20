@@ -1,0 +1,1 @@
+---@class BackPack_Ammunition_NewGuideTips_UIBP_C:UNewbieGuideWidget

@@ -1,0 +1,34 @@
+---@class BP_Base_C:AActivityBaseActor
+---@field CheckAngle:fun(ForwaVector:FVector,CharacterPosition:FVector,TriggerPosition:FVector):bool
+---@field CheakDistanceFormPosition:fun(Controller:ASTExtraPlayerController):BP_BaseCharacterTriger_C
+---@field CheakCharacterLeave:fun(NewParam:FGISCCF_Param):bool
+---@field CharacterLeave:fun(NewParam:FGISCCF_Param)
+---@field CheakEmptyPossessed:fun(Controller:ASTExtraPlayerController):BP_BaseCharacterTriger_C
+---@field Triger:fun(NewParam:FGISCCF_Param)
+---@field CanTriger:fun(NewParam:FGISCCF_Param):bool
+---@field GetCurrentPossessedNumbs:fun():int32
+---@field UserConstructionScript:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field Camera UCameraComponent
+---@field STExtraSpringArm USTExtraSpringArmComponent
+---@field PerformCharacterMesh USkeletalMeshComponent
+---@field Pillal UChildActorComponent
+---@field TrigetCollision USphereComponent
+---@field CharacterPosition4 UChildActorComponent
+---@field CharacterPosition3 UChildActorComponent
+---@field CharacterPosition2 UChildActorComponent
+---@field CharacterPosition1 UChildActorComponent
+---@field GISActorComponentBase UGISActorComponentBase
+---@field DefaultSceneRoot USceneComponent
+---@field ChildActorArray ULuaArrayHelper
+---@field HidenUIStyle UUserWidgetStyle
+---@field ProfuctItem int32
+---@field TeamID int32
+---@field RandomAnimIndex int32
+---@field bPossessed bool
+---@field Timer float
+---@field LastIndex int32
+---@field Distnace float
+---@field MixDistancePosition BP_BaseCharacterTriger_C
+---@field LocalVector FRotator
+---@field bIsInOverlapeRange bool

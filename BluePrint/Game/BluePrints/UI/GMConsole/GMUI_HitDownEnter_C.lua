@@ -1,0 +1,6 @@
+---@class GMUI_HitDownEnter_C:UUserWidget
+---@field Button_91 UButton
+---@field Button_186 UButton
+---@field Button_319 UButton
+---@field HitDownDirNum USpinBox
+---@field GMActor GM_EscapeTrainingActor_C

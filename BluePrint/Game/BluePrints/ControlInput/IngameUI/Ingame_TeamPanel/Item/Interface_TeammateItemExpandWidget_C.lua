@@ -1,0 +1,2 @@
+---@class Interface_TeammateItemExpandWidget_C:UInterface
+---@field TeammateExpandWidget_UpdatePlayerState:fun(PlayerStateNew:ASTExtraPlayerState,PlayerStateOld:ASTExtraPlayerState):bool

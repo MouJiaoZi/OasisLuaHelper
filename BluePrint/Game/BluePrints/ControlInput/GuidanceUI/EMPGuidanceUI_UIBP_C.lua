@@ -1,0 +1,20 @@
+---@class EMPGuidanceUI_UIBP_C:UEMPSeekAndLockWeapon3DWidget
+---@field SetSpecialBigTipsText:fun(Rotation:int32)
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field Construct:fun()
+---@field CompassImage UImage
+---@field TextBlock_Bigtips UTextBlock
+---@field TextBlock_Data UTextBlock
+---@field TextBlock_Degree UTextBlock
+---@field TextBlock_Distance UTextBlock
+---@field TextBlock_FunctionName UTextBlock
+---@field TextBlock_Lside_Data1 UTextBlock
+---@field TextBlock_Lside_Data2 UTextBlock
+---@field TextBlock_LSide_DataName UTextBlock
+---@field TextBlock_Rside_Data1 UTextBlock
+---@field TextBlock_Rside_Data2 UTextBlock
+---@field TextBlock_Rside_Data3 UTextBlock
+---@field TextBlock_Rside_Data4 UTextBlock
+---@field TextBlock_Rside_DataName UTextBlock
+---@field BigTipsText FText
+---@field BigTipTextColor FLinearColor

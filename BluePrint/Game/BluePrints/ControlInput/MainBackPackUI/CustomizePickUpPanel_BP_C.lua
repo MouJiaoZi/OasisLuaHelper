@@ -1,0 +1,20 @@
+---@class CustomizePickUpPanel_BP_C:UUAEUserWidget
+---@field PickUpListTipsExistVisibilistyControl:fun(IsExist:bool)
+---@field IsPlayerCanSeeWidget:fun(NewParam:UWidget):bool
+---@field ReceivedInitWidget:fun()
+---@field CloseCustomBoxPanel__DelegateSignature:fun()
+---@field CloseCustomPickUpPanel__DelegateSignature:fun()
+---@field Border_PickUp UBorder
+---@field BTReuseList BTReuseList_BP_C
+---@field Canvas_PickUp UCanvasPanel
+---@field DeadBoxBtnExistControl UCanvasPanel
+---@field GridPanel_PickUpList UGridPanel
+---@field PickupBtnExistControl UCanvasPanel
+---@field ScrollPickUpList UCustomScrollBox
+---@field ShortcutMenu_BP ShortcutMenu_BP_C
+---@field SizeBox_PanelList USizeBox
+---@field WidgetSwitcher_0 UWidgetSwitcher
+---@field WrapBoxPickUpList UWrapBox
+---@field CloseCustomPickUpPanel ULuaMulticastDelegate
+---@field CloseCustomBoxPanel ULuaMulticastDelegate
+---@field bMoveOut bool

@@ -1,0 +1,15 @@
+---@class BP_WeaponDamageMonitorPawn_Escape_C:BP_PlayerPawn_C
+---@field UserConstructionScript:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field ReceiveAnyDamage:fun(Damage:float,DamageType:UDamageType,InstigatedBy:AController,DamageCauser:AActor)
+---@field DamageOverrideComp_Escape DamageOverrideComp_Escape_C
+---@field Widget UWidgetComponent
+---@field TotalDamage float
+---@field ResetInterval float
+---@field ContinuousNoDamageTime float
+---@field WeaponName FString
+---@field UI_WeaponDamege UI_WeaponDamage_C
+---@field SurviveHUD ASurviveHUD
+---@field SingleDamage float
+---@field SingleDamageInterval float
+---@field ContinuousNoSingleDamageTime float

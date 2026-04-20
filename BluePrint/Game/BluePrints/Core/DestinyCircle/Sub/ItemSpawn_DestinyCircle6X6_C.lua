@@ -1,0 +1,1 @@
+---@class ItemSpawn_DestinyCircle6X6_C:UItemSpawn_SanHok628_C

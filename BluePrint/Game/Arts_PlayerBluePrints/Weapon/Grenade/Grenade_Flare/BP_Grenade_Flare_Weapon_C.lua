@@ -1,0 +1,9 @@
+---@class BP_Grenade_Flare_Weapon_C:ASTExtraWeapon_Throw
+---@field UserConstructionScript:fun()
+---@field BP_ThrowComponent BP_ThrowComponent_C
+---@field ThrowableWeaponCrossHair UThrowableWeaponCrossHairComponent
+---@field WeaponAnimList_Grenade WeaponAnimList_Grenade_C
+---@field WeaponEntity UWeaponEntity
+---@field WeaponSpecificHandler UWeaponSpecificHandler
+---@field WeaponStateDefault UWeaponStateDefault
+---@field WeaponStateManager UWeaponStateManager

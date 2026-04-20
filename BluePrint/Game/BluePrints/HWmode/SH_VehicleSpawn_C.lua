@@ -1,0 +1,5 @@
+---@class SH_VehicleSpawn_C:AUAEHouseActor
+---@field UserConstructionScript:fun()
+---@field VehicleSpot_1 BP_WerewolfBoxSpotComponent_C
+---@field BP_SH_VehicleGroup BP_WerewolfBoxGroupSceneComponent_C
+---@field DefaultSceneRoot USceneComponent

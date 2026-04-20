@@ -1,0 +1,7 @@
+---@class FBP_Struct_VendingConfig
+---@field ProduceDropID int32
+---@field Particle UParticleSystem
+---@field ParticleTrans FTransform
+---@field ParticleLifeTime float
+---@field AkEvent UAkAudioEvent
+---@field Weight int32

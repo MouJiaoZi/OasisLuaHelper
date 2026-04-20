@@ -1,0 +1,7 @@
+---@class BPPawn_Karakin_Minder_C:ABPPawn_Zombie_Base_C
+---@field GetBulletHitEffectDataAsset:fun(HitComp:UPrimitiveComponent):UHitEffectDataAsset
+---@field GetBulletHitEffectDataAssetTag:fun(Comp:UPrimitiveComponent):FString
+---@field UserConstructionScript:fun()
+---@field MonsterAnimList_Human_Minder MonsterAnimList_Human_Minder_C
+---@field SimpleWeaponManager USimpleWeaponManagerComponent
+---@field WeaponOwner UWeaponOwnerComponent

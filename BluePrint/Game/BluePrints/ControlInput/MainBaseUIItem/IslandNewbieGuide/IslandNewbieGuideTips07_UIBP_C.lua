@@ -1,0 +1,4 @@
+---@class IslandNewbieGuideTips07_UIBP_C:UNewbieGuideWidget
+---@field OnCreateAndShow:fun(GuideId:int32,UIConfigIndex:int32)
+---@field DX_Loop UWidgetAnimation
+---@field UTRichTextBlock_OperatingTips7 UUTRichTextBlock

@@ -1,0 +1,7 @@
+---@class CaptureFrame_C:AFrameCaptureActor
+---@field GetLuaModule:fun():FString
+---@field SendUpdateFailPacket:fun(res:int32,picurl:FString)
+---@field UserConstructionScript:fun()
+---@field CaptureFrame:fun()
+---@field C2S_OnFramesUploaded:fun(Res:int32,URL:FString)
+---@field DefaultSceneRoot USceneComponent

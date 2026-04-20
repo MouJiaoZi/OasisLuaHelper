@@ -1,0 +1,17 @@
+---@class bp_chat_voice_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_GlobalChatvoiceCurrentMode int32
+---@field BP_ARRAY_GlobalChatvoiceDownloadList ULuaArrayHelper
+---@field BP_GlobalChatvoiceCurrentRoom FString
+---@field BP_GlobalChatvoiceOpenRecord bool
+---@field BP_GlobalChatvoiceCurrentRole FString
+---@field BP_GlobalChatvoiceToTextContent FString
+---@field BP_GlobalChatvoiceRecordSuccess bool
+---@field BP_GlobalChatvoiceUploadTime int32
+---@field BP_GlobalChatvoiceUploadMsgId FString
+---@field BP_GlobalChatvoiceDefaultOpenTeam bool
+---@field BP_GlobalChatvoiceCurrentStage FString
+---@field BP_GlobalChatvoiceOpenSpeaker bool
+---@field BP_GlobalChatvoiceCurrentPlayFile FString
+---@field BP_GlobalChatvoiceTotalLimit int32

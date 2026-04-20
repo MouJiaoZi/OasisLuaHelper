@@ -1,0 +1,6 @@
+---@class NewTraining_InteractiveItem_UIBP_C:UUAEUserWidget
+---@field On_Button_Selectced_MouseButtonDown_0:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent)
+---@field Button_Selectced UButton
+---@field Image_Icon UImage
+---@field Image_Selected UImage
+---@field ItemNum UTextBlock

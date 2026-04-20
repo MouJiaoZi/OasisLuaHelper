@@ -1,0 +1,7 @@
+---@class bp_reflux_new_award_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_STRUCT_Reflux_New_Award_Panel int32
+---@field BP_Reflux_New_UserName FString
+---@field BP_ARRAY_Reflux_New_Back_Award_List ULuaArrayHelper
+---@field BP_STRUCT_Reflux_New_Award_Team_Window int32

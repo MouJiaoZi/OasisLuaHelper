@@ -1,0 +1,4 @@
+---@class UGCM_Sponsorips_Tips_UIBP_C:UUAEUserWidget
+---@field DX_IN UWidgetAnimation
+---@field TextPlayerName UTextBlock
+---@field TextRankPre UTextBlock

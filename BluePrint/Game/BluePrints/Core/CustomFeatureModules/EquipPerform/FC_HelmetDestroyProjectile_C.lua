@@ -1,0 +1,3 @@
+---@class FC_HelmetDestroyProjectile_C:AEliteProjectile
+---@field UserConstructionScript:fun()
+---@field bPendingDestroy bool

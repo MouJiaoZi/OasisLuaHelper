@@ -1,0 +1,131 @@
+---@class QuickExpressionUIBP_C:UUAEUserWidget
+---@field IsCustomUIDataValid:fun(Widget:UWidget,SaveDataSize:FVector2D):bool
+---@field EmoteEnableEffect:fun(EmoteID:int32):bool
+---@field RefreshSpecMotionSocket:fun()
+---@field HaveAnyEffectMotionEmote:fun():bool
+---@field UpdatePageButton:fun(bHideAll:bool)
+---@field LoadIcon:fun(TypeSpecificID:int32)
+---@field SetEmoteImageOnUI:fun(texture2d:UTexture2D,resID:int32)
+---@field GetEmoteItems:fun(BackpackComp:UBackpackComponent):ULuaArrayHelper
+---@field ShowHideOver:fun(isShow:bool)
+---@field GetItemSmallIcon:fun(itemID:int32):FString
+---@field GetSpecMotionIsOpen:fun():bool
+---@field RefreshSpecMotionInfo:fun()
+---@field CanEnterPhotoMode:fun(Player:ASTExtraPlayerController):bool,int32
+---@field PlayEmote:fun(EmoteID:int32)
+---@field SetAvatarEmoteImage:fun(ImageObject:UObject,ResID:int32)
+---@field EmoteFromAvatar:fun():ULuaArrayHelper
+---@field PlayBattleSceneAvatarEmote:fun(InEmoteID:int32):bool
+---@field SupervisorControlVisibility:fun(isShow:bool)
+---@field GetEmoteImagePalthMap:fun()
+---@field TryToPlayEmote:fun(EmoteIndex:int32)
+---@field On_BorderEX_Ring_MouseButtonDown_0:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field SetEmoteImage:fun(ImageObject:UObject,ResID:int32)
+---@field RefreshEmote:fun()
+---@field SetSettingControlUI:fun()
+---@field ReceivedInitWidget:fun()
+---@field SetCustomizeUIInfo:fun(SaveGame:BP_SAVEGAME_UIElemLayout_C,FireMode:int32)
+---@field RespawnInitWidget:fun()
+---@field OnRingVisibilityChanged__DelegateSignature:fun(bNewVisible:bool)
+---@field BExpression_close UBorder
+---@field BExpression_Normal UBorder
+---@field BorderEX_Ring UBorder
+---@field Button_Normal_EX UButton
+---@field Canvas_SupervisorControl UCanvasPanel
+---@field CanvasGuide UCanvasPanel
+---@field CanvasPanel_Ingame_Photo UCanvasPanel
+---@field EX_Role01 UCanvasPanel
+---@field EX_Role02 UCanvasPanel
+---@field EX_Role12 UCanvasPanel
+---@field EXButton_close UButton
+---@field Image_EmoteLooping UImage
+---@field Image_EX_Ring_10 UImage
+---@field Image_EX_Ring_11 UImage
+---@field Image_EX_Ring_12 UImage
+---@field Image_EX_Ring_01 UImage
+---@field Image_EX_Ring_02 UImage
+---@field Image_EX_Ring_03 UImage
+---@field Image_EX_Ring_04 UImage
+---@field Image_EX_Ring_05 UImage
+---@field Image_EX_Ring_06 UImage
+---@field Image_EX_Ring_07 UImage
+---@field Image_EX_Ring_08 UImage
+---@field Image_EX_Ring_09 UImage
+---@field Image_QuickExpression_Icon UImage
+---@field NewButton_Ingame_Photo UNewButton
+---@field NewButton_PgDn UNewButton
+---@field NewButton_PgUP UNewButton
+---@field NewButton_QuickExpression_Play UNewButton
+---@field SpecMotionInfoSock UCustomSocketPanel
+---@field Switcher_Expression UWidgetSwitcher
+---@field T02_Ring01 UCanvasPanel
+---@field T02_Ring02 UCanvasPanel
+---@field T02_Ring12 UCanvasPanel
+---@field Text_EX_Ring_10 UTextBlock
+---@field Text_EX_Ring_11 UTextBlock
+---@field Text_EX_Ring_12 UTextBlock
+---@field Text_EX_Ring_01 UTextBlock
+---@field Text_EX_Ring_02 UTextBlock
+---@field Text_EX_Ring_03 UTextBlock
+---@field Text_EX_Ring_04 UTextBlock
+---@field Text_EX_Ring_08 UTextBlock
+---@field TextBlock_22 UTextBlock
+---@field TextBlock_EX_Ring_06 UTextBlock
+---@field TextBlock_EX_Ring_07 UTextBlock
+---@field TextBlock_QuickExpression_Name UTextBlock
+---@field TextEX_Ring_09 UTextBlock
+---@field WidgetSwitcher_EffectExpression_10 UWidgetSwitcher
+---@field WidgetSwitcher_EffectExpression_11 UWidgetSwitcher
+---@field WidgetSwitcher_EffectExpression_12 UWidgetSwitcher
+---@field WidgetSwitcher_EffectExpression_01 UWidgetSwitcher
+---@field WidgetSwitcher_EffectExpression_02 UWidgetSwitcher
+---@field WidgetSwitcher_EffectExpression_03 UWidgetSwitcher
+---@field WidgetSwitcher_EffectExpression_04 UWidgetSwitcher
+---@field WidgetSwitcher_EffectExpression_05 UWidgetSwitcher
+---@field WidgetSwitcher_EffectExpression_06 UWidgetSwitcher
+---@field WidgetSwitcher_EffectExpression_07 UWidgetSwitcher
+---@field WidgetSwitcher_EffectExpression_08 UWidgetSwitcher
+---@field WidgetSwitcher_EffectExpression_09 UWidgetSwitcher
+---@field WidgetSwitcher_EX01 UWidgetSwitcher
+---@field WidgetSwitcher_EX07 UWidgetSwitcher
+---@field WidgetSwitcher_QuickExpression_Exclusive UWidgetSwitcher
+---@field WidgetSwitcherEX02 UWidgetSwitcher
+---@field WidgetSwitcherEX03 UWidgetSwitcher
+---@field WidgetSwitcherEX04 UWidgetSwitcher
+---@field WidgetSwitcherEX05 UWidgetSwitcher
+---@field WidgetSwitcherEX06 UWidgetSwitcher
+---@field WidgetSwitcherEX08 UWidgetSwitcher
+---@field WidgetSwitcherEX09 UWidgetSwitcher
+---@field WidgetSwitcherEX10 UWidgetSwitcher
+---@field WidgetSwitcherEX11 UWidgetSwitcher
+---@field WidgetSwitcherEX12 UWidgetSwitcher
+---@field RingCenter FVector2D
+---@field EmoteImageArray ULuaArrayHelper
+---@field SlotSwitcherArray ULuaArrayHelper
+---@field EmoteNameArray ULuaArrayHelper
+---@field BackpackComp UBackpackComponent
+---@field EmoteBackpackItem ULuaArrayHelper
+---@field ItemIDToImagePathMap ULuaMapHelper
+---@field ItemInTheRing ULuaArrayHelper
+---@field InnerCircleRadius int32
+---@field ButtonLength int32
+---@field SectorButtonDegree float
+---@field SectorButtonHalfDegree float
+---@field RingLength float
+---@field EmoteSlotType EAvatarSlotType
+---@field EmptyAdditionalData ULuaArrayHelper
+---@field EmptyAssociationArray ULuaArrayHelper
+---@field AvatarEmoteBackpackItem FBattleItemData
+---@field AvatarEmoteID int32
+---@field OnRingVisibilityChanged ULuaMulticastDelegate
+---@field Init bool
+---@field AvatarTypeSpecificID int32
+---@field EmoteSwitcherEffectImageArray ULuaArrayHelper
+---@field NewVar_0 EBattleItemUseReason
+---@field AvatarEmoteIDList ULuaArrayHelper
+---@field EmoteTexture ULuaMapHelper
+---@field CurPage int32
+---@field TotalPage int32
+---@field EmoteRoleArray ULuaArrayHelper
+---@field bEmoteLoop bool
+---@field EmoteRoleArray2 ULuaArrayHelper

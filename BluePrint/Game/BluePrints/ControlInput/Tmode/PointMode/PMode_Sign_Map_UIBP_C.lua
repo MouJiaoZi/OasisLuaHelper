@@ -1,0 +1,7 @@
+---@class PMode_Sign_Map_UIBP_C:UMapUIMarkBaseWidget
+---@field UpdateIcon:fun(NewParam:FCustomMarkEventData)
+---@field OnUIBPShow:fun(InState:FCustomMarkEventData)
+---@field OnUIBPDestroy:fun()
+---@field UpdateUIBPState:fun(InState:FCustomMarkEventData)
+---@field TextBlock_Map_Number UTextBlock
+---@field WidgetSwitcher_OP_Map UWidgetSwitcher

@@ -1,0 +1,10 @@
+---@class SP_ReplayEliminateInfo_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field RefreshDamageInfo:fun()
+---@field GetDamageInfoCount:fun(InBattleResult:bool):int32
+---@field GetDamageInfo:fun(IsBattleResult:bool)
+---@field Construct:fun()
+---@field DynaCanvasPanel_Details UDynaCanvasPanel
+---@field NewButton_Close UNewButton
+---@field ReuseListSp_ItemList ReuseListSp_C
+---@field ScaleBox_IPX UScaleBox

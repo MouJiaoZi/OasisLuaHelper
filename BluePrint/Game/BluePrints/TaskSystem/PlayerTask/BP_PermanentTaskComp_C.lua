@@ -1,0 +1,2 @@
+---@class BP_PermanentTaskComp_C:UTaskControllerComponent
+---@field OnTaskDoneNotify:fun(TaskId:int32)

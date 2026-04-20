@@ -1,0 +1,4 @@
+---@class BP_TriggerItemPicnicBlanket_C:ATriggerItem_CommonArea
+---@field UserConstructionScript:fun()
+---@field AkSoundPlayerScene UAkSoundPlayerSceneComponent
+---@field TriggerMesh UStaticMeshComponent

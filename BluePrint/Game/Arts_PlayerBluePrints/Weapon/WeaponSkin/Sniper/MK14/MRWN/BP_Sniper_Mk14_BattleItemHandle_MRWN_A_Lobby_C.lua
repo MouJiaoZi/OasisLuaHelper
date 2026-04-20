@@ -1,0 +1,1 @@
+---@class BP_Sniper_Mk14_BattleItemHandle_MRWN_A_Lobby_C:UBackpackWeaponHandle

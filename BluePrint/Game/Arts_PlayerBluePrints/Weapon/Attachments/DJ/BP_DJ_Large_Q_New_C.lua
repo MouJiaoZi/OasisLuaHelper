@@ -1,0 +1,1 @@
+---@class BP_DJ_Large_Q_New_C:BP_DJ_Large_Q_C

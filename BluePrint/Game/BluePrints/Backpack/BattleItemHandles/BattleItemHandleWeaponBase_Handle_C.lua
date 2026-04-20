@@ -1,0 +1,18 @@
+---@class BattleItemHandleWeaponBase_Handle_C:UBackpackWeaponHandle
+---@field ParseAdditionalData:fun(PickUpInfo:FBattleItemPickupInfo)
+---@field GetOwingtWeapon:fun():ASTExtraWeapon
+---@field SpawnWrapperOnGround:fun(WrapperClass:UClass,bUseRandomLoc:bool):APickUpWrapperActor
+---@field HandleDisuse:fun(Reason:EBattleItemDisuseReason):bool
+---@field HandleUse:fun(Target:FBattleItemUseTarget,Reason:EBattleItemUseReason):bool
+---@field HandleDrop:fun(InCount:int32,Reason:EBattleItemDropReason):bool
+---@field HandlePickup:fun(ItemContainer:TScriptInterface,PickupInfo:FBattleItemPickupInfo,Reason:EBattleItemPickupReason):bool
+---@field ExtractItemData:fun():FBattleItemData
+---@field SetClientItemContainer:fun(ItemContainer:TScriptInterface)
+---@field OwningPlayerController ASTExtraPlayerController
+---@field OwningCharacter ASTExtraBaseCharacter
+---@field OwningBackpackComponent UBackpackComponent
+---@field WrapperPutdownTrans FTransform
+---@field SourceWrapperTrans FTransform
+---@field OwningAIController ABaseAIController
+---@field TargetLogicSocket FName
+---@field TargetAutoUse bool

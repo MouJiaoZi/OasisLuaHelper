@@ -1,0 +1,7 @@
+---@class BP_PlayerPawn_SniperTDM2_C:BP_PlayerPawn_TDM_C
+---@field GetLuaModule:fun():FString
+---@field UserConstructionScript:fun()
+---@field SpecialWeaponIDList ULuaArrayHelper
+---@field SpecialWeaponBuffName FString
+---@field OutlineColor FLinearColor
+---@field OcclusionColor FLinearColor

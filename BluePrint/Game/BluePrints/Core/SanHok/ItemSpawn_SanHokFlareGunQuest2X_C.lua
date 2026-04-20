@@ -1,0 +1,1 @@
+---@class ItemSpawn_SanHokFlareGunQuest2X_C:UItemSpawn_SanHokFlareGunQuest_C

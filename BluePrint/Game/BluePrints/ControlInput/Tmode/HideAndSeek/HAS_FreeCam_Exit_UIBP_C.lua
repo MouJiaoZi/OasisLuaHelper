@@ -1,0 +1,4 @@
+---@class HAS_FreeCam_Exit_UIBP_C:UUAEUserWidget
+---@field NewButton_DownCam UNewButton
+---@field NewButton_ExitFreeCam UNewButton
+---@field NewButton_UpCam UNewButton

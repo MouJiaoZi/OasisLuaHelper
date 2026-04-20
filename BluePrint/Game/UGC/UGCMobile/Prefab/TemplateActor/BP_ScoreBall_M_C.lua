@@ -1,0 +1,59 @@
+---@class BP_ScoreBall_M_C:BP_UGCMobileBaseActor_C
+---@field CallBPAddBuff:fun(BuffName:FName,SkillActor:AController,LayerCount:int32,BuffApplierActor:AActor,CauserActor:AActor):int32
+---@field CallBPHasBuff:fun(BuffName:FName):bool
+---@field CallBPRemoveBuff:fun(BuffName:FName,RemoveLayerOnly:bool,BuffApplierActor:AActor):bool
+---@field CallBPShouldAddBuff:fun(BuffName:FName):bool
+---@field IsSameTeamWithFirstPC:fun():bool
+---@field IsSameTeamWithUnicPawn:fun(UnicController:AController):bool
+---@field GetLuaModule:fun():FString
+---@field InitMechaWeaponData:fun()
+---@field InitSpecialWeaponData:fun()
+---@field InitVehicleWeaponData:fun()
+---@field InitHeavyWeaponData:fun()
+---@field IsCollisionEnabledDuringPlay:fun():bool
+---@field InitMeleeWeaponData:fun()
+---@field InitProjectileData:fun()
+---@field InitBulletData:fun()
+---@field OnBeginPlayBP:fun()
+---@field UserConstructionScript:fun()
+---@field Music UStaticMeshComponent
+---@field P_Music UParticleSystemComponent
+---@field MusicRoot USceneComponent
+---@field Ring UStaticMeshComponent
+---@field P_Ring UParticleSystemComponent
+---@field P_Heart UParticleSystemComponent
+---@field P_Diamond UParticleSystemComponent
+---@field Heart UStaticMeshComponent
+---@field Diamond UStaticMeshComponent
+---@field RingRoot USceneComponent
+---@field DiamondRoot USceneComponent
+---@field HeartRoot USceneComponent
+---@field Sphere USphereComponent
+---@field P_Ball UParticleSystemComponent
+---@field Sphere1 UStaticMeshComponent
+---@field BallRoot USceneComponent
+---@field OverlapCheckArea UOverlapCheckAreaComponent
+---@field Text UWidget3DInstancedComponent
+---@field BP_UGCDamageableActorComponent BP_UGCDamageableActorComponent_C
+---@field ItemParamSetting_Bullet ULuaArrayHelper
+---@field ItemParamSetting_Projectile ULuaArrayHelper
+---@field ItemParamSetting_MeleeWeapon ULuaArrayHelper
+---@field ItemParamSetting_Pawn bool
+---@field ItemIDList ULuaArrayHelper
+---@field OwnerTeamID S_TeamChoice
+---@field Score int32
+---@field bNeedToDestroy bool
+---@field RespawnTimes int32
+---@field RespawnInterval float
+---@field bEnable bool
+---@field WinnerTeamID int32
+---@field AddScoreEvent FUGCMobileObjectEvent
+---@field DisableAction FUGCMobileObjectAction
+---@field EnableAction FUGCMobileObjectAction
+---@field ParamSetting S_ScoreBallChoice
+---@field AudioEventPath FText
+---@field DestroyParticleActorClass UClass
+---@field DestroyParticleLifeSpan float
+---@field Style EUGCScoreBallStyle
+---@field ScoreOffset_Ring FVector
+---@field ScoreOffset_Default FVector

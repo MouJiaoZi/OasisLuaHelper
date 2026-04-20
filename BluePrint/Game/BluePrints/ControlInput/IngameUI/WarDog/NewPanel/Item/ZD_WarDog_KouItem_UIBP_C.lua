@@ -1,0 +1,32 @@
+---@class ZD_WarDog_KouItem_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field ClearAbnormalStatus:fun()
+---@field OnBtnControlShortPressed:fun()
+---@field OnBtnControlLongReleased:fun()
+---@field OnBtnControlLongPressed:fun()
+---@field CanvasPanel_Common UCanvasPanel
+---@field CanvasPanel_DiSong UCanvasPanel
+---@field CanvasPanel_GuanBi UCanvasPanel
+---@field CanvasPanel_HeZi UCanvasPanel
+---@field CanvasPanel_KouTou UCanvasPanel
+---@field CanvasPanel_MoRen UCanvasPanel
+---@field CanvasPanel_ShiQu UCanvasPanel
+---@field CanvasPanel_XiangZi UCanvasPanel
+---@field CanvasPanel_YuYin UCanvasPanel
+---@field CanvasPanel_ZhaoyunChe UCanvasPanel
+---@field CanvasPanel_ZhaoyunDiRen UCanvasPanel
+---@field Image_CD UImage
+---@field Image_CheCD UImage
+---@field Image_CommonCD UImage
+---@field Image_Icon UImage
+---@field Image_Mai UImage
+---@field NewButton_Click UNewButton
+---@field Text_NotifyMode UTextBlock
+---@field TextBlock_6 UTextBlock
+---@field TextBlock_Dog UTextBlock
+---@field TextBlock_Text UTextBlock
+---@field WidgetSwitcher_Conment UWidgetSwitcher
+---@field WidgetSwitcher_Stat UWidgetSwitcher
+---@field bControlBtnPressed bool
+---@field ControlBtnLongPressThreshold float
+---@field bControlBtnLongPressed bool

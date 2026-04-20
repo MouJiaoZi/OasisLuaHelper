@@ -1,0 +1,103 @@
+---@class BasicSkillsMenu_BP_C:UUAEUserWidget
+---@field UpdateJumpWithButton_Inf:fun(InVisable:bool):bool
+---@field GetColdMode_Inf:fun():UCanvasPanel
+---@field ShowOrHideSurboard_Inf:fun(visible:bool):bool
+---@field ShowOrHideBtnMonsterBox_Inf:fun(flag:bool):bool
+---@field BleGetOnCar_Inf:fun():bool
+---@field BleEnterDrive_Inf:fun():bool
+---@field ShowDoorBtnPanel_Inf:fun():bool
+---@field HideDoorBtnPanel_Inf:fun():bool
+---@field HideEnterVehicleButtons_Inf:fun():bool
+---@field ShowEnterVehicleButtons_Inf:fun(HasDriverSeet:bool,HasPsgersSeat:bool,HasSameTeam:bool):bool
+---@field BindBPCommonBtn_Inf:fun(comBtn:BP_CommonBtn_C,bind:bool):bool
+---@field UpdateDoorBtn_Inf:fun(type:ECommonBtn,autoMode:int32):bool
+---@field ED_CommonBtn_Inf:fun():bool
+---@field CheckColdSkillBtn:fun():bool
+---@field IsCustomUIDataValid:fun(Widget:UWidget,SaveDataSize:FVector2D):bool
+---@field OnCanCarryOtherEvent:fun(Owner:ACharacter,CarriedPawn:ACharacter,IsTurnInto:bool,SwitcherIndex:int32)
+---@field ShowOrHideJumpWithButton:fun(InVisable:bool)
+---@field UpdateJumpWithButton:fun(InVisable:bool)
+---@field UIMsg_HideInteractionPanel:fun()
+---@field UIMsg_ShowInteractionPanel:fun()
+---@field UIMsg_HideCatchRabbitBtnPanel:fun()
+---@field UIMsg_ShowCatchRabbitBtnPanel:fun()
+---@field UIMsg_ShowRescueCanvas:fun()
+---@field UIMsg_HideRescueCanvas:fun()
+---@field ShowOrHideSurfboard:fun(visible:bool)
+---@field UIMsg_PlayerInfo_IsCanGiftBasicSkill:fun()
+---@field GerPlayerPawnRef:fun():BP_PlayerPawn_C
+---@field UIMsg_HideWateringBtnPanel:fun()
+---@field UIMsg_ShowWateringBtnPanel:fun()
+---@field CheckColdBtn:fun()
+---@field ShowOrHideBtnMonsterBox:fun(flag:bool)
+---@field HideSkillPanel:fun()
+---@field ShowSkillPanel:fun()
+---@field CanShowDoorPanel:fun():bool
+---@field HideDoorBtnPanel:fun()
+---@field ShowDoorBtnPanel:fun()
+---@field OnCanRescueOtherEvent:fun(OwnerPawn:ACharacter,RescuedPawn:ACharacter,IsTurnInto:bool)
+---@field UpdateDoorBtn:fun(Type:ECommonBtn,autoMode:int32)
+---@field HideEnterVehicleButtons:fun()
+---@field ShowEnterVehicleButtons:fun(HasDriversSeat:bool,HasPsgersSeat:bool,HasSameTeam:bool)
+---@field Destruct:fun()
+---@field ReceivedInitWidget:fun()
+---@field Construct:fun()
+---@field SetSettingControlUI:fun()
+---@field SetCustomizeUIInfo:fun(SaveGame:BP_SAVEGAME_UIElemLayout_C,FireMode:int32)
+---@field RespawnInitWidget:fun()
+---@field ED_ShowVehicleBtn__DelegateSignature:fun()
+---@field ED_AutoOpenDoor__DelegateSignature:fun(openMode:int32)
+---@field ED_CommonBtn__DelegateSignature:fun(Type:ECommonBtn)
+---@field DX_DriverEnter UWidgetAnimation
+---@field DX_PassengerEnter UWidgetAnimation
+---@field DX_OpenDoor UWidgetAnimation
+---@field Border_Door UBorder
+---@field Border_DriveAndGetIn UBorder
+---@field Border_JumpWith UBorder
+---@field Border_Save UBorder
+---@field BtnDriverEnter UButton
+---@field BtnPassengerEnter UButton
+---@field BtnRescue UButton
+---@field Button_AutoDoor UButton
+---@field Button_Bear UButton
+---@field Button_OpenAndCloseDoor UButton
+---@field Button_Surfing UButton
+---@field Button_unlock UButton
+---@field CanvasPanel_Bear UCanvasPanel
+---@field CanvasPanel_ColdMode UCanvasPanel
+---@field CanvasPanel_OtherSkillBtn UCanvasPanel
+---@field CustomJumpWith CustomizeCanvasPanel_BP_C
+---@field GIS_ButtonStyle GIS_ButtonStyle_C
+---@field GridPanel_Door UGridPanel
+---@field GridPanel_DriveAndGetIn UGridPanel
+---@field GridPanel_Save UGridPanel
+---@field GridPanel_Surfing UGridPanel
+---@field HorizontalBox_CloseDoor UHorizontalBox
+---@field HorizontalBox_OpenDoor UHorizontalBox
+---@field InteractionPanel UCanvasPanel
+---@field NewButton_JumpWith UNewButton
+---@field Text_Rescue UTextBlock
+---@field TextBlock_BtnName UTextBlock
+---@field VerticalBox_GISVerticalContainer UGridPanel
+---@field WidgetSwitcher_Bear UWidgetSwitcher
+---@field WidgetSwitcher_ModeSwitch UWidgetSwitcher
+---@field CommonBtnType ECommonBtn
+---@field ED_CommonBtn ULuaMulticastDelegate
+---@field ED_AutoOpenDoor ULuaMulticastDelegate
+---@field autoopendoor FText
+---@field manualopendoor FText
+---@field OpenDoorMode int32
+---@field ShowSkillPanelMutex int32
+---@field ColdVisible bool
+---@field CDTable ULuaMapHelper
+---@field CanWater bool
+---@field PlayerPawnRef BP_PlayerPawn_C
+---@field Nametable ULuaMapHelper
+---@field ImageTable ULuaMapHelper
+---@field GiftType EUTGiftType
+---@field BestWishesImageTable ULuaMapHelper
+---@field BestWishesNametable ULuaMapHelper
+---@field ActorCache AActor
+---@field DriverEnterColor FLinearColor
+---@field PassengerEnterColor FLinearColor
+---@field ED_ShowVehicleBtn ULuaMulticastDelegate

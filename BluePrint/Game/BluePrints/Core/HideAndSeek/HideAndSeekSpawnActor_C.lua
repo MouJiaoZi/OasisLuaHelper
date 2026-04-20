@@ -1,0 +1,28 @@
+---@class HideAndSeekSpawnActor_C:AActor
+---@field GetLuaModule:fun():FString
+---@field SpawnItem:fun(Array:ULuaArrayHelper,Config:FHideAndSeekItemConfig)
+---@field InitSpawnLocs:fun()
+---@field ClearAllItems:fun()
+---@field BatchSpawnItems:fun(Magnification:int32)
+---@field PickSpawnPartLocs:fun(Num:int32):ULuaArrayHelper
+---@field UserConstructionScript:fun()
+---@field PartSpawnPoint_13 UArrowComponent
+---@field PartSpawnPoint_12 UArrowComponent
+---@field PartSpawnPoint_11 UArrowComponent
+---@field PartSpawnPoint_10 UArrowComponent
+---@field PartSpawnPoint_9 UArrowComponent
+---@field PartSpawnPoint_8 UArrowComponent
+---@field PartSpawnPoint_7 UArrowComponent
+---@field PartSpawnPoint_5 UArrowComponent
+---@field PartSpawnPoint_6 UArrowComponent
+---@field PartSpawnPoint_4 UArrowComponent
+---@field PartSpawnPoint_3 UArrowComponent
+---@field PartSpawnPoint_2 UArrowComponent
+---@field PartSpawnPoint_1 UArrowComponent
+---@field DefaultSceneRoot USceneComponent
+---@field SpawnLocs ULuaArrayHelper
+---@field Items ULuaArrayHelper
+---@field RoundConfig ULuaArrayHelper
+---@field Round int32
+---@field RoundLocIndex int32
+---@field RoundSpawnIndexs ULuaArrayHelper

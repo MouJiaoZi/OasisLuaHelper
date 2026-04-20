@@ -1,0 +1,2 @@
+---@class Template_Consumable_Injection_C:UGCItemHandle_ConsumeBase_C
+---@field UGC_TemplateSaveItemID:fun():int32

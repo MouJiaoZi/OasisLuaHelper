@@ -1,0 +1,29 @@
+---@class GM_ReplayTest_C:UUserWidget
+---@field GetRecordClass:fun():FString
+---@field GetShotFileName:fun():FString
+---@field GetFileName:fun():FString
+---@field StartCompare:fun()
+---@field StartWriterData:fun()
+---@field StopPlayInner:fun()
+---@field StartPlayInner:fun()
+---@field StopInner:fun()
+---@field StartInner:fun()
+---@field Init:fun()
+---@field Construct:fun()
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field AutoText UTextBlock
+---@field CompareData UButton
+---@field EditableTextBox_0 UEditableTextBox
+---@field EditableTextBox_1 UEditableTextBox
+---@field EditableTextBox_2 UEditableTextBox
+---@field Record UButton
+---@field RecordData UButton
+---@field StartPlay UButton
+---@field StopPlay UButton
+---@field StopRecord UButton
+---@field TextBlock_2 UTextBlock
+---@field TextBlock_82 UTextBlock
+---@field bStart bool
+---@field DeltaTime float
+---@field InputRecoder InputRecoderTest_C
+---@field GMCheat UCheatManager

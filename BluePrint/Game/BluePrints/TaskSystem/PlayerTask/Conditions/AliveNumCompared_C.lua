@@ -1,0 +1,5 @@
+---@class AliveNumCompared_C:UTaskCondition_Base
+---@field IsConditionSatisfy:fun():bool
+---@field AliveNum int32
+---@field Operation EParamCompareType
+---@field IsTeamNum bool

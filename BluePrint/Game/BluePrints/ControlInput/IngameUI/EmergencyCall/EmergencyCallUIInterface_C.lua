@@ -1,0 +1,2 @@
+---@class EmergencyCallUIInterface_C:UInterface
+---@field OnInitStart:fun(StartTime:float,InCountTime:int32):bool

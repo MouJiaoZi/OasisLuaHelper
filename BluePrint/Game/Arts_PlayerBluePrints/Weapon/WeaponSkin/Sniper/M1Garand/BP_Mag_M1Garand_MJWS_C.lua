@@ -1,0 +1,1 @@
+---@class BP_Mag_M1Garand_MJWS_C:BP_Mag_M1Garand_C

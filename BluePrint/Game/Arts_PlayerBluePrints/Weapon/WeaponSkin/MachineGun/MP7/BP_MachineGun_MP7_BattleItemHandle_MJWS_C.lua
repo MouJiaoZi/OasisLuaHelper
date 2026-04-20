@@ -1,0 +1,1 @@
+---@class BP_MachineGun_MP7_BattleItemHandle_MJWS_C:BP_MachineGun_MP7_BattleItemHandle_C

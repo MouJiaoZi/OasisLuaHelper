@@ -1,0 +1,29 @@
+---@class InteractiveThumbUp_UIBP_C:UUAEUserWidget
+---@field UpdateQueue:fun()
+---@field GetDataFromBattleText:fun(TextID:int32):FString
+---@field SendMsgToServer:fun()
+---@field SetData:fun(GiveLikeInstanceID:UNetAlienationData,GiveLikeType:int32,PlayerKey:FString)
+---@field ShowSelf:fun(TextID:int32,PlayerName:FString,PlayerUID:FString,OperationID:int32)
+---@field ShowMainStatus:fun(CauserName:FString)
+---@field ShowSpecatingGiveLike:fun(CuaserName:FString,ReultType:EExcellentOperationResultType)
+---@field ReceivedInitWidget:fun()
+---@field DX_Out UWidgetAnimation
+---@field DX_Click UWidgetAnimation
+---@field DX_In UWidgetAnimation
+---@field CanvasPanel_Main UCanvasPanel
+---@field NewButton_zan UNewButton
+---@field TextBlock_Tips UTextBlock
+---@field UIParticleEmitter_8 UUIParticleEmitter
+---@field WidgetSwitcher_ResultType UWidgetSwitcher
+---@field CurCauserName FString
+---@field CurCauserUID FString
+---@field Text FString
+---@field GiveLikeType int32
+---@field InstanceID UNetAlienationData
+---@field ClickLikeBtnCDTime float
+---@field LastClickLikeBtnTimer float
+---@field IsClicked bool
+---@field OperationID int32
+---@field CauserPlayerKey FString
+---@field GiveLikePlayerUID FString
+---@field TeamID int32

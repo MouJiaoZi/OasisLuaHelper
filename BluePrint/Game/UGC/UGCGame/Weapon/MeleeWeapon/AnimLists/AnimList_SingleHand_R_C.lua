@@ -1,0 +1,1 @@
+---@class AnimList_SingleHand_R_C:UUAECharacterAnimListComponent

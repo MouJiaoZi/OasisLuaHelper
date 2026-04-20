@@ -1,0 +1,16 @@
+---@class Bounty_Achievements_ListDetails_C:UUAEUserWidget
+---@field ListIndexToTabelRowName:fun(InListIndex:int32):FName,bool
+---@field OnPlayerDataChanged:fun()
+---@field OnInitItem:fun(Widget:UUserWidget,Index:int32)
+---@field InitAchievementsList:fun()
+---@field UIMsg_HideBountyAchievementsList:fun()
+---@field UIMsg_SwitchShowBountyAchievementsList:fun()
+---@field Construct:fun()
+---@field CanvasPanel_2 UCanvasPanel
+---@field NewButton_packup UNewButton
+---@field NewButton_return UNewButton
+---@field ReuseList2 ReuseList2_C
+---@field Text_Name UTextBlock
+---@field WidgetSwitcher_0 UWidgetSwitcher
+---@field AchievementsMetalTable UUAEDataTable
+---@field AchievementsTmpData ULuaArrayHelper

@@ -1,0 +1,1 @@
+---@class AIPathNavLink_pingfang_C:AAIPathNavLink

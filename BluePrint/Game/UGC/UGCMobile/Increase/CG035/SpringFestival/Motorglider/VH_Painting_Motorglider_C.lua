@@ -1,0 +1,27 @@
+---@class VH_Painting_Motorglider_C:ASTExtraMotorgliderVehicle
+---@field SetDMIParam:fun(ParamName:FName,Value:float)
+---@field CancelDontDamage:fun()
+---@field SetDontDamageAndTime:fun(DontDamage:bool,Time:float)
+---@field CanLeaveVehilce:fun():bool
+---@field UserConstructionScript:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field OnUpdateEffects:fun()
+---@field SetAvatarMID:fun(MatDMI:UMaterialInterface)
+---@field SetDontDamageAndCancelTime:fun(DontDamage:bool,CancelTime:float)
+---@field AirVehicle UAirVehicleComponent
+---@field HardreferenceUObject UHardreferenceUObject
+---@field MotorgliderFly UMotorgliderFlyComponent
+---@field Camera UCameraComponent
+---@field VehicleSpringArm UVehicleSpringArmComponent
+---@field AnimList_Passager UUAEChaVehAnimListComponent
+---@field UAEChaVehAnimList_driver UUAEChaVehAnimListComponent
+---@field FlyState bool
+---@field FlyStateHeight_Low float
+---@field ExplosionDamage_Air float
+---@field ExplosionDamage_Land float
+---@field FlyStateHeight_High float
+---@field DMI UMaterialInstanceDynamic
+---@field DontDamageState bool
+---@field Client_DontDamageEffectTime float
+---@field DS_DontDamageTimer FTimerHandle
+---@field DontDamageCurve UCurveFloat

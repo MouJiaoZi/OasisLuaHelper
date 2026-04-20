@@ -1,0 +1,1 @@
+---@class UGC_Grenade_SomkeItemHandle_C:UGrenade_Smoke_ItemHandle_C

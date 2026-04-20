@@ -1,0 +1,2 @@
+---@class OB_RouteMainList_Interface_C:UInterface
+---@field RouteMainListRefreshAll:fun():bool

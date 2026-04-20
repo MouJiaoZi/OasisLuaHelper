@@ -1,0 +1,6 @@
+---@class Bounty_Ingame_TeamGold_C:UUAEUserWidget
+---@field Border_Color UBorder
+---@field CanvasPanel_Add UCanvasPanel
+---@field Image_GoldIcon UImage
+---@field TextBlock_GoldNum UTextBlock
+---@field TextBlock_RadarTime UTextBlock

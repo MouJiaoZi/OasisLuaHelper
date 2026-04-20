@@ -1,0 +1,10 @@
+---@class BP_HrleyShowcase_C:AActor
+---@field UserConstructionScript:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field Sphere USphereComponent
+---@field SK_VH_Motorcycle_Harley USkeletalMeshComponent
+---@field CG03_Motorbooth_Platform UStaticMeshComponent
+---@field CG03_Motorbooth UStaticMeshComponent
+---@field DefaultSceneRoot USceneComponent
+---@field RotationSpeed float
+---@field CurrentYaw float

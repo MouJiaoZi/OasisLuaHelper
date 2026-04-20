@@ -1,0 +1,1 @@
+---@class DestinyCircle_Desert_2_C:ADestinyCircle_2_C

@@ -1,0 +1,17 @@
+---@class bp_share_result_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_PeakCompetition_Data_PageType int32
+---@field BP_PlayerIcon FString
+---@field BP_PlayerCount int32
+---@field BP_PlayerRank int32
+---@field BP_PlayerName FString
+---@field BP_LoginChannel int32
+---@field BP_SHARE_RESULT_TYPE int32
+---@field BP_ShareResult_FamousId int32
+---@field BP_ShareResult_SelectedTitle int32
+---@field BP_ShareResult_TeamShowSingle bool
+---@field BP_ShareImagePath FString
+---@field BP_ModeKillInfo FString
+---@field BP_ShareResultTeamNum int32
+---@field BP_KillNum int32

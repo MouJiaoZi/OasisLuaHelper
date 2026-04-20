@@ -1,0 +1,1 @@
+---@class BP_DoorWoodStripeInside_Savage_C:ABP_DoorNormal_C

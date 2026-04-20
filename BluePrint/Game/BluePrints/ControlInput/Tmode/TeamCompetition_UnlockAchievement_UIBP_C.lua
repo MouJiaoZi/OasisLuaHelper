@@ -1,0 +1,7 @@
+---@class TeamCompetition_UnlockAchievement_UIBP_C:UUAEUserWidget
+---@field InitWidgetAndShow:fun(achieve_name:FString,icon_path:FString)
+---@field DX_DisappearUp UWidgetAnimation
+---@field DX_DisappearNormal UWidgetAnimation
+---@field DX_AchieveShow UWidgetAnimation
+---@field Image_TC_Result_Date_Badge UImage
+---@field TextBlock_TC_Result_Data_Achievement UTextBlock

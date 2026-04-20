@@ -1,0 +1,43 @@
+---@class Resurrection_ModeUIBP_C:URevivalPointInteractionWidget
+---@field IsCustomUIDataValid:fun(Widget:UWidget,SaveDataSize:FVector2D):bool
+---@field UIMsg_ShowCDTips:fun(CD:float,TotalCD:float)
+---@field ShowBattleReusltMsg:fun()
+---@field UIMsg_ShowResurrectionTowerUI:fun()
+---@field UIMsg_HideResurrectionTowerUI:fun()
+---@field UIMsg_ResurrectionUICustomLayout:fun()
+---@field HideTeammateIDCardExist:fun()
+---@field ShowTeammateIDCardExist:fun()
+---@field HideTeammateIDCardPicked:fun()
+---@field ShowTeammateIDCardPicked:fun()
+---@field UIMsg_ShowTowerOccupied:fun()
+---@field UIMsg_SetRevivalTips:fun()
+---@field UIMsg_ShowTowerUnavailable:fun()
+---@field ShowResurrectionUI:fun()
+---@field UIMsg_HideResurrectionUI:fun()
+---@field UIMsg_ShowIDCardNeeded:fun()
+---@field UIMsg_ShowResurrectionButton:fun()
+---@field SetCustomizeUIInfo:fun(SaveGame:BP_SAVEGAME_UIElemLayout_C,FireMode:int32)
+---@field SetSettingControlUI:fun()
+---@field Construct:fun()
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field ReceivedInitWidget:fun()
+---@field ShowHideTowerUI:fun(isFreeCameraInOB:bool)
+---@field RES_Tips_Ani UWidgetAnimation
+---@field NewAnimation_pickTips UWidgetAnimation
+---@field ProgressRunning UWidgetAnimation
+---@field Border_pickTips UBorder
+---@field Border_RecallSelct UBorder
+---@field Border_RES_Tips UBorder
+---@field Button_CancelUse UButton
+---@field Button_selct UButton
+---@field CanvasPanel_0 UCanvasPanel
+---@field CanvasPanel_RecallSelct UCanvasPanel
+---@field CanvasPanel_Retrieve UCanvasPanel
+---@field CanvasPanel_TowerInteraction UCanvasPanel
+---@field Image_10 UImage
+---@field Image_CD UImage
+---@field TextBlock_7 UTextBlock
+---@field TextBlock_11 UTextBlock
+---@field UTRichTextBlock_TIPS UUTRichTextBlock
+---@field UTRichTextBlock_Turorial UUTRichTextBlock
+---@field WidgetSwitcher_Tips UWidgetSwitcher

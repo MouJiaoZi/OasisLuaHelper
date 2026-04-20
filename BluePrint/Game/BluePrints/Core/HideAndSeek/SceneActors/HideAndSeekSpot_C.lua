@@ -1,0 +1,1 @@
+---@class HideAndSeekSpot_C:UEditorOnlySceneSpot

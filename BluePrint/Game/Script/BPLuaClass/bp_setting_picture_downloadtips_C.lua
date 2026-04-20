@@ -1,0 +1,5 @@
+---@class bp_setting_picture_downloadtips_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_DownloadTextStr FString
+---@field BP_DownloadSizeStr FString

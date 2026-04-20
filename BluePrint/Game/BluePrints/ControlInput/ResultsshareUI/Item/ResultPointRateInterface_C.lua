@@ -1,0 +1,2 @@
+---@class ResultPointRateInterface_C:UInterface
+---@field SetPointRate:fun(id:int32):bool

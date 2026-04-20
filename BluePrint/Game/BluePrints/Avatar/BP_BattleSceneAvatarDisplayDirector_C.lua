@@ -1,0 +1,8 @@
+---@class BP_BattleSceneAvatarDisplayDirector_C:ABattleSceneAvatarDisplayDirector
+---@field UserConstructionScript:fun()
+---@field AvatarPosition_FourthTeammate BP_BattleSceneAvatarPoseComponent_C
+---@field AvatarPosition_SelfOrSecondTeammate BP_BattleSceneAvatarPoseComponent_C
+---@field AvatarPosition_SelfOrMVP BP_BattleSceneAvatarPoseComponent_C
+---@field AvatarPosition_ThirdTeammate BP_BattleSceneAvatarPoseComponent_C
+---@field Camera UCameraComponent
+---@field Scene USceneComponent

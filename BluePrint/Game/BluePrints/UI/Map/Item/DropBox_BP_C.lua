@@ -1,0 +1,8 @@
+---@class DropBox_BP_C:UOBModeAirDropWidget
+---@field Construct:fun()
+---@field BP_CallButtonLook:fun()
+---@field Button_Look UButton
+---@field CanvasPanel_0 UCanvasPanel
+---@field Image_BOX1 UImage
+---@field Image_BOX2 UImage
+---@field IsOpen bool

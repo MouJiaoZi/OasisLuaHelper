@@ -1,0 +1,3 @@
+---@class BP_Boss_Small_C:AMobAIController
+---@field UserConstructionScript:fun()
+---@field AIChooseEnemy UAIChooseEnemyComponent

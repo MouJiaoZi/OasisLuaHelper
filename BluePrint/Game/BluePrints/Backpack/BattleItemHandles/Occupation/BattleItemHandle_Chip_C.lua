@@ -1,0 +1,10 @@
+---@class BattleItemHandle_Chip_C:UOccupationChipItemHandle
+---@field HandleDrop:fun(InCount:int32,Reason:EBattleItemDropReason):bool
+---@field HandleUse:fun(Target:FBattleItemUseTarget,Reason:EBattleItemUseReason):bool
+---@field HandlePickup:fun(ItemContainer:TScriptInterface,PickupInfo:FBattleItemPickupInfo,Reason:EBattleItemPickupReason):bool
+---@field ExtractItemData:fun():FBattleItemData
+---@field OwningPlayerController ASTExtraPlayerController
+---@field OwningAIController ABaseAIController
+---@field OwningCharacter ASTExtraBaseCharacter
+---@field OwningBackpackComponent UBackpackComponent
+---@field SoftWrapperClass UClass

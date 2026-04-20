@@ -1,0 +1,9 @@
+---@class APD_FakeAIController_C:ABaseAIController
+---@field GetLuaModule:fun():FString
+---@field LuaStopMove:fun()
+---@field LuaStartMove:fun()
+---@field StopMove:fun()
+---@field StartMove:fun()
+---@field UserConstructionScript:fun()
+---@field AISplineMove UAISplineMoveComponent
+---@field AIPlayerName FString

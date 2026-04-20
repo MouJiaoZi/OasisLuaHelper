@@ -1,0 +1,1 @@
+---@class ItemSpawn_Forest_TestSpot_C:UBP_ItemGeneratorComponent_C

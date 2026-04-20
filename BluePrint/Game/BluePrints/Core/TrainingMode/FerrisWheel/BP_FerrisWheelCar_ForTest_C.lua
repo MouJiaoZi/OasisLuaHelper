@@ -1,0 +1,29 @@
+---@class BP_FerrisWheelCar_ForTest_C:AActor
+---@field CanTrigger:fun(InController:APlayerController,Param:ULuaArrayHelper):bool
+---@field TestCheckPlayer:fun()
+---@field CheckPlayer:fun()
+---@field DisableCameraOffset:fun(Player:ASTExtraPlayerCharacter)
+---@field SetCameraOffset:fun(Alpha:float)
+---@field Follow:fun(DeltaSeconds:float)
+---@field CanEnterCar:fun(NewParam:FGISCCF_Param):bool
+---@field UserConstructionScript:fun()
+---@field OnExecute:fun(InController:APlayerController,Param:ULuaArrayHelper)
+---@field OnReceiveCUstomMessage:fun(InController:APlayerController,Param:ULuaArrayHelper)
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field ReceiveEndPlay:fun(EndPlayReason:EEndPlayReason)
+---@field StaticMesh UStaticMeshComponent
+---@field VoiceChannelGrouping UVoiceChannelGroupingComponent
+---@field BP_AsyncLoadUIComp BP_AsyncLoadUIComp_C
+---@field ChangeSpringArm UChangeSpringArmComponent
+---@field AttachPlayerTo UAttachPlayerToComponent
+---@field AttachParamName FName
+---@field FollowSceneComp USceneComponent
+---@field CameraDataBackup FCameraOffsetData
+---@field MinCameraOffset float
+---@field CheckPlayerDelta float
+---@field CheckPlayerTime float
+---@field CheckPointOffset FVector
+---@field CurPlayerInCars ULuaArrayHelper
+---@field LastPlayerInCars ULuaArrayHelper
+---@field min float
+---@field IsLeave bool

@@ -1,0 +1,7 @@
+---@class BP_ShotGun_S1897_C:BP_ShotGunBase_C
+---@field UserConstructionScript:fun()
+---@field WeaponAnimList_ShotGun_S1897 WeaponAnimList_ShotGun_S1897_C
+---@field WeaponPostReloadState UWeaponPostReloadState
+---@field WeaponPostFireState UWeaponPostFireState
+---@field WeaponPreFireState UWeaponPreFireState
+---@field bUseIdleAnim_0_0_0 bool

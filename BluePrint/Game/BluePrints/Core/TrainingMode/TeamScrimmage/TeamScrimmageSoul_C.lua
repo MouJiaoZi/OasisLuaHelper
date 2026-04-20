@@ -1,0 +1,9 @@
+---@class TeamScrimmageSoul_C:AEliteProjectile
+---@field SetTargetPawn:fun(Pawn:BP_PlayerPawn_TeamScrimmage_C)
+---@field UserConstructionScript:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field CustomParticleSystem UCustomParticleSystemComponent
+---@field Score int32
+---@field TargetPawn BP_PlayerPawn_TeamScrimmage_C
+---@field LastDist float
+---@field Range float

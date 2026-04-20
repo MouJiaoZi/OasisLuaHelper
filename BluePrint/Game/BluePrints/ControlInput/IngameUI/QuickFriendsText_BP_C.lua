@@ -1,0 +1,23 @@
+---@class QuickFriendsText_BP_C:UUAEUserWidget
+---@field UpdateButtonState:fun(MsgType:int32,reply:bool)
+---@field ShowUnread:fun()
+---@field ClearUnread:fun()
+---@field AddUnread:fun()
+---@field OnTouchEnded:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field ClickWaitButton__DelegateSignature:fun(gid:FString)
+---@field ClickRefuseButton__DelegateSignature:fun(gid:FString)
+---@field ClickChatFriend__DelegateSignature:fun(friendGid:FString)
+---@field Button_Refuse UButton
+---@field Button_Wait UButton
+---@field friendName UUTRichTextBlock
+---@field lastMsg UUTRichTextBlock
+---@field msgNum UTextBlock
+---@field redpoint UCanvasPanel
+---@field WidgetSwitcher_Button UWidgetSwitcher
+---@field gid FString
+---@field name FString
+---@field ClickChatFriend ULuaMulticastDelegate
+---@field unreadNum int32
+---@field MsgType int32
+---@field ClickRefuseButton ULuaMulticastDelegate
+---@field ClickWaitButton ULuaMulticastDelegate

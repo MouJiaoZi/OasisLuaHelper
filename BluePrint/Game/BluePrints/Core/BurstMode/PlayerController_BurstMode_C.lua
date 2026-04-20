@@ -1,0 +1,4 @@
+---@class PlayerController_BurstMode_C:ABP_STExtraPlayerController_C
+---@field GetLuaModule:fun():FString
+---@field UserConstructionScript:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)

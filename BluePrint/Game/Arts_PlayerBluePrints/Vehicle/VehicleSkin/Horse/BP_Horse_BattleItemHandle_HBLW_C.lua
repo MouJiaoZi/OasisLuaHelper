@@ -1,0 +1,5 @@
+---@class BP_Horse_BattleItemHandle_HBLW_C:UBackpackVehicleHandle
+---@field ParticleSoftWrapperMap ULuaMapHelper
+---@field bUpdateIdleMoveParticle bool
+---@field HorseAvatarType EHorseAvatarType
+---@field NotifyAKEventMap ULuaMapHelper

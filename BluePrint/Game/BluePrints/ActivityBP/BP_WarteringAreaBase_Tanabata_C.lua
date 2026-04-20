@@ -1,0 +1,26 @@
+---@class BP_WarteringAreaBase_Tanabata_C:ABP_WarteringAreaBase_C
+---@field TriggerEntryEvent:fun(EntryEvent:EUTSkillEntry):bool
+---@field FindNearestPoint:fun(StartLoc:FVector,Forward:FVector):FVector,bool,FRotator
+---@field UserConstructionScript:fun()
+---@field TriggerCustomEvent:fun(EventType:EUAESkillEvent)
+---@field Scene16 USceneComponent
+---@field InstancedStaticMesh_Flower UInstancedStaticMeshComponent
+---@field Scene15 USceneComponent
+---@field Scene14 USceneComponent
+---@field Scene13 USceneComponent
+---@field Scene12 USceneComponent
+---@field Scene11 USceneComponent
+---@field Scene10 USceneComponent
+---@field Scene9 USceneComponent
+---@field Scene8 USceneComponent
+---@field InstancedStaticMesh_Trees UInstancedStaticMeshComponent
+---@field Scene5 USceneComponent
+---@field Scene7 USceneComponent
+---@field Scene6 USceneComponent
+---@field Scene4 USceneComponent
+---@field P_qixi_leaf01 UParticleSystemComponent
+---@field Scene3 USceneComponent
+---@field Scene2 USceneComponent
+---@field Scene1 USceneComponent
+---@field Scene USceneComponent
+---@field ParticleSystem UParticleSystemComponent

@@ -1,0 +1,4 @@
+---@class GM_Teleportor_C:AGMPointActor
+---@field UserConstructionScript:fun()
+---@field Billboard UBillboardComponent
+---@field DefaultSceneRoot USceneComponent

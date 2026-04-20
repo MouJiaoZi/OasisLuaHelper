@@ -1,0 +1,2 @@
+---@class PeakDisplayPawn_AnimBP_C:UAnimInstance
+---@field AnimationToPlay UAnimSequenceBase

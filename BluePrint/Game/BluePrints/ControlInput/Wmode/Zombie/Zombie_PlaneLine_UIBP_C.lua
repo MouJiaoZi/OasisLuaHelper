@@ -1,0 +1,15 @@
+---@class Zombie_PlaneLine_UIBP_C:UUAEUserWidget
+---@field MapScaleChangeRedrawPos:fun(NewScale:float):bool
+---@field CustomTickFunc:fun(DeltaTime:float):bool
+---@field GetMiniMapAdjustOffset:fun():FVector2D
+---@field CanvasPanel_Airline UCanvasPanel
+---@field Helicopter ARescueHelicopterBase
+---@field LevelToMapScale float
+---@field RotateAngle float
+---@field LevelLandscapeCenter FVector
+---@field CacheTargetLoc FVector
+---@field CacheActorLoc FVector
+---@field CacheHelicopterState ERescueHelicopterState
+---@field HelicopterTargetPoint FVector2D
+---@field IsNeedDockInMap bool
+---@field MiniMap NewMiniMap_C

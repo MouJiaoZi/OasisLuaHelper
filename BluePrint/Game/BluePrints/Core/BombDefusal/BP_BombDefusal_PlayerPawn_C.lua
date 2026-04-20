@@ -1,0 +1,3 @@
+---@class BP_BombDefusal_PlayerPawn_C:BP_PlayerPawn_C
+---@field GetLuaModule:fun():FString
+---@field UserConstructionScript:fun()

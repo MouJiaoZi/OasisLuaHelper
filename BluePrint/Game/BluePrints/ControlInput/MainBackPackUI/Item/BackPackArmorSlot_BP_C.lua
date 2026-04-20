@@ -1,0 +1,63 @@
+---@class BackPackArmorSlot_BP_C:UUAEUserWidget
+---@field UIMsg_RefreshActivityItemState:fun(ItemSpecificID:FString,bEnable:FString)
+---@field UIMsg_SwitchActivityItemState:fun(ItemSpecificID:FString,bEnable:FString)
+---@field UIMsg_ActivityItemCannotEnable:fun()
+---@field HandleClick:fun()
+---@field RefreshSnowboardSwitch:fun(IsEnabled:bool)
+---@field UIMsg_DisableActivityItem:fun()
+---@field UIMsg_EnableActivityItem:fun()
+---@field UIMsg_ActivityItemCanEnable:fun()
+---@field RefreshActivityItemSwitch:fun(IsEnabled:bool)
+---@field SwitchActivityItem:fun()
+---@field SwitchSnowBoard:fun()
+---@field UpdateSurfBoardSwitch:fun()
+---@field SwitchSurfBoard:fun()
+---@field RefreshSurfBoardSwitch:fun(IsEnter:bool)
+---@field RefreshVisionSwitch:fun()
+---@field ShowSlot:fun(itemData:FBattleItemData)
+---@field SwitchNightVision:fun()
+---@field OnTouchStarted:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field OnMouseButtonDown:fun(MyGeometry:FGeometry,MouseEvent:FPointerEvent):FEventReply
+---@field OnTouchEnded:fun(MyGeometry:FGeometry,InTouchEvent:FPointerEvent):FEventReply
+---@field GetArmorHP:fun():int32,int32
+---@field OnDragDetected:fun(MyGeometry:FGeometry,PointerEvent:FPointerEvent):UDragDropOperation
+---@field SetArmorName:fun(ShowDefault:bool)
+---@field SetArmorHP:fun(HPCrt:int32,HPMax:int32)
+---@field ShowArmor:fun()
+---@field GetNameByClothArmorType:fun():FText
+---@field ShowNull:fun()
+---@field OnDragCancelled:fun(PointerEvent:FPointerEvent,Operation:UDragDropOperation)
+---@field Tick:fun(MyGeometry:FGeometry,InDeltaTime:float)
+---@field Construct:fun()
+---@field ItemBeDragCancelled__DelegateSignature:fun()
+---@field ItemBeDragBegin__DelegateSignature:fun(ItemData:FBattleItemData,DragOrigin:EBackPackDragOrigin)
+---@field Button_anjian UButton
+---@field Button_Lighter UButton
+---@field Button_Skateboard UButton
+---@field CanvasPanel_LighterGroup UCanvasPanel
+---@field CanvasPanel_Skateboard UCanvasPanel
+---@field GridPanel_Switch UGridPanel
+---@field Image_EquipIcon UImage
+---@field ProgressBar_Damage UProgressBar
+---@field Text_Board UTextBlock
+---@field TextBlock_0 UTextBlock
+---@field TextBlock_ItemName UTextBlock
+---@field TextBlock_ShieldNum UTextBlock
+---@field WidgetSwitcher_oc UWidgetSwitcher
+---@field WidgetSwitcher_ShieldState UWidgetSwitcher
+---@field ClothArmorType EBackpackClothArmorType
+---@field ItemData FBattleItemData
+---@field IsDataNull bool
+---@field TimeRecorder float
+---@field ItemBeDragBegin ULuaMulticastDelegate
+---@field ItemBeDragCancelled ULuaMulticastDelegate
+---@field IsDetectDrag bool
+---@field NightVisionOpen bool
+---@field isNewbieGuide bool
+---@field IsSurfBoardEnabled bool
+---@field IsStickInScreen bool
+---@field IsActivityItemEnabled bool
+---@field ActivityItemCanEnable bool
+---@field SlotPriority int32
+---@field SlotOccupiedItemID int32
+---@field LockForNextShow bool

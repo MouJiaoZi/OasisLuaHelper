@@ -1,0 +1,4 @@
+---@class IngaIngame_LookersVideo_UIBP_C:UUAEUserWidget
+---@field ShowLookerVideo:fun(PS:ASTExtraPlayerState):bool
+---@field CanvasPanel_OnlookersVideo UCanvasPanel
+---@field Ingame_OnlookersVideo_Tips Ingame_OnlookersVideo_Tips_UIBP_C

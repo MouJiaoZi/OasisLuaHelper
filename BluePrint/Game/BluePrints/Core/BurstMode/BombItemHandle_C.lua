@@ -1,0 +1,2 @@
+---@class BombItemHandle_C:UBattleItemHandleBase_BP_C
+---@field GetLuaModule:fun():FString

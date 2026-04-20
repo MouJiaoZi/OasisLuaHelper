@@ -1,0 +1,20 @@
+---@class PMode_TimingSkill_WithCancel_C:UUTSkillIconWidgetTemplate
+---@field UIMsg_HideCancel_TimningSKill_WithCancel:fun()
+---@field UIMsg_ShowCancel_TimningSKill_WithCancel:fun()
+---@field Construct:fun()
+---@field DX_UpgradeSkills UWidgetAnimation
+---@field DX_UpgradeSkills_old UWidgetAnimation
+---@field DX_RefreshSkill UWidgetAnimation
+---@field Border_SkillSlot UBorder
+---@field Button_0 UButton
+---@field Button_Cancel UButton
+---@field CanvasPanel_tips UCanvasPanel
+---@field CustomizeCanvasPanel_BP CustomizeCanvasPanel_BP_C
+---@field Image_0 UImage
+---@field Image_BG UImage
+---@field Image_CDTime UImage
+---@field Image_Icon UImage
+---@field Image_Select UImage
+---@field Text_Time UTextBlock
+---@field FunctionBPParam ULuaMapHelper
+---@field IsButtonZeroPressed bool

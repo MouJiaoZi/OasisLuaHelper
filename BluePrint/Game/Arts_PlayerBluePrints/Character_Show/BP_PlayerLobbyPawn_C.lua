@@ -1,0 +1,151 @@
+---@class BP_PlayerLobbyPawn_C:ASTExtraLobbyCharacter
+---@field SeWeaponPendantAnimInsDynamicDisableByWeapon:fun(bDisableAnimDynamic:bool,Target:ASTExtraWeapon)
+---@field SetRotatetoAngleWithTime:fun(dst:float,TimeLenth:float,bImmediately:bool)
+---@field AvatarDisplaySceneEquipWeaponEscape:fun(ForceClientMode:bool,ResID:int32)
+---@field RecordHelmetWhenGlide:fun(HelmetIdWhenGlide:int32)
+---@field CallOnClickIfNeeded:fun()
+---@field GetCurEmoteIsScaleActorAtStart:fun():bool
+---@field SetPendantAnimInsDynamicDisable:fun(bDisableAnimDynamic:bool)
+---@field GetWeaponBackpackAttachSocketName:fun(weapon:ASTExtraWeapon,posIndex:int32):FName
+---@field SetWeaponMeshUpdateFlag:fun(SlotID:int32,MeshComponentUpdateFlag:EMeshComponentUpdateFlag)
+---@field RefreshIdleTemporalMaterialParameterList:fun()
+---@field OnReveiveAvatarEquiped:fun()
+---@field OnEmoteMontageEnd:fun()
+---@field OnEmoteMontageStart:fun()
+---@field TickTemporalMaterialParameter:fun()
+---@field GetWeaponAttachPartType:fun(ItemTableID:int32):EWeaponAttachmentSocketType
+---@field GetWeaponSlotPartRelativeTrans:fun(CurWeapon:ASTExtraWeapon,ResId:int32):FTransform
+---@field ReplaceGlideAnimBP:fun(ClothId:int32,ParachuteType:FString)
+---@field GetWeaponAttachSocketName:fun(weapon:ASTExtraWeapon,posIndex:int32):FName
+---@field UpdateBackWeaponFinalOffset:fun(ConfigMapIn:ULuaMapHelper):bool
+---@field SetAvatarScalarParam:fun(Avatarslot:int32,MatIndex:int32,ParamName:FString,Value:float)
+---@field CharUnEquipOffHandWeapon:fun(PosIndex:int32)
+---@field CharEquipOffhandWeaponByResId:fun(ResId:int32,PosIndex:int32)
+---@field SetGlideType:fun(type:int32)
+---@field SetEmoteAdditionData:fun(additional:ULuaMapHelper)
+---@field ChangeCharacterWeaponCountingNumber:fun(InCountingInfo:FWeaponCountingInfo)
+---@field SwitchOffAvatarParticleEffect:fun()
+---@field RefreshAvatar:fun()
+---@field GetLobbyPawnShowLockStatus:fun():bool
+---@field UpdateCostarAlpha:fun(isGrad:bool,TargetAlpha:float,FrameNum:int32,IsRotateStop:bool)
+---@field BPResetAvatarPhysics:fun()
+---@field BPResetCharacterPhysics:fun()
+---@field SetAllCharacterVisibility:fun(isShow:bool)
+---@field ForceOpenLobbyReset:fun()
+---@field IsPlayingFashionShow:fun():bool
+---@field GetCharacterVisibility:fun():bool
+---@field PostProfileShot:fun(TargetFileName:FString):FString
+---@field GetIfPressinAutoRotate:fun():bool
+---@field SetRotateToAngle:fun(dst:float)
+---@field RotateTo:fun(deltaTime:float)
+---@field GetClothAnimInstance:fun():ULuaMapHelper
+---@field SetBackpackVisibilty:fun(show:bool)
+---@field SetCanRollPlayer:fun(can:bool)
+---@field GetEmotionPosition:fun():float
+---@field SetEmoteResume:fun()
+---@field GetEmoteLength:fun():float
+---@field SetEmotePosition:fun(position:float)
+---@field SetEmotePause:fun()
+---@field CharStopEmote:fun()
+---@field GetCurWeaponResId:fun():int32
+---@field ResetRotation:fun()
+---@field SetEmoteHideComponentVisibility:fun(show:bool)
+---@field SetCharacterVisibility:fun(show:bool)
+---@field CharPutOffBagPedant:fun()
+---@field CharPutOnBagPedant:fun(bagId:int32,pedantId:int32)
+---@field CharWeaponPutoffEquipment:fun(ResIdList:ULuaArrayHelper,PosIndex:int32)
+---@field SetMeshOffset:fun(Offset:FVector)
+---@field CharWeaponPutonEquipment:fun(ResIdList:ULuaArrayHelper,PosIndex:int32)
+---@field AvatarDisplaySceneEquipWeapon:fun(ForceClientMode:bool,ResID:int32)
+---@field ShowWeapon:fun(isShow:bool)
+---@field CharPlayEmoteByResId:fun(ResId:int32,ignoreParticle:bool,NeedLoop:bool)
+---@field CharUnEquipWeapon:fun()
+---@field CharEquipWeaponByResId:fun(ResId:int32)
+---@field GetEmoteHandle:fun(ItemID:int32):UBackpackEmoteHandle
+---@field GetWeaponSubType:fun(RowNum:int32):int32
+---@field GetExtraWeaponByResID:fun(Idx:int32):ASTExtraWeapon,UBattleItemHandleBase
+---@field GetBattleItemFromResID:fun(RowName:int32):UBackpackAvatarHandle
+---@field GetBPID:fun(RowName:int32):int32
+---@field GetHiddenFlags:fun(resId:int32):ULuaArrayHelper
+---@field UserConstructionScript:fun()
+---@field ReceiveTick:fun(DeltaSeconds:float)
+---@field ReceiveDestroyed:fun()
+---@field SetCanTouchRollPawn:fun(bIsCan:bool)
+---@field SetCharacterShow:fun()
+---@field SetCharacterHide:fun()
+---@field SetWeaponSlotPartRelativeTrans:fun(CurWeapon:ASTExtraWeapon,ResId:int32,InTrans:FTransform)
+---@field RefreshAllSlotRelativeTrans:fun(CurWeapon:ASTExtraWeapon)
+---@field SetNowInGlideTrail:fun(isIn:bool)
+---@field CallShowWeapon:fun(bshow:bool)
+---@field ReceiveEndPlay:fun(EndPlayReason:EEndPlayReason)
+---@field BPOnAvatarEquipedEnd:fun(SlotType:int32,IsEquipped:bool)
+---@field EmoteFinishSetPlayerCanRoll__DelegateSignature:fun()
+---@field OnClickCapsule__DelegateSignature:fun(dsttag:FString,uid:FString)
+---@field PawnTouchEnd__DelegateSignature:fun()
+---@field PawnTouchBegin__DelegateSignature:fun()
+---@field PaintTrayDelagate__DelegateSignature:fun(Param:PaintTrayParam)
+---@field EmoteResetControll__DelegateSignature:fun()
+---@field EmoteFinish__DelegateSignature:fun()
+---@field LobbyClickInteractive ULobbyClickInteractiveComponent
+---@field LobbyModelFeatureComp_BP LobbyModelFeatureComp_BP_C
+---@field RotateComponent RotateComponent_C
+---@field LobbyEmoteComponent LobbyEmoteComponent_C
+---@field PhysicsAlphaMgrComp ULobbyCharacterPhysicsAlphaMgr
+---@field GalaxyFaceComponent GalaxyFaceComponent_C
+---@field ParticleSystem UParticleSystemComponent
+---@field Camera UCameraComponent
+---@field AELobbyCharAnimListComp UAELobbyCharAnimListComp
+---@field CharacterAvatarComp_BP CharacterAvatarComp_BP_C
+---@field headid int32
+---@field resid int32
+---@field press bool
+---@field locationX float
+---@field lastrotator FRotator
+---@field fingerIndex ETouchIndex
+---@field LobbyPosition int32
+---@field IsHoldingWeapon bool
+---@field curEquipingWeapon ASTExtraWeapon
+---@field EmoteItemIDToHandleMap ULuaMapHelper
+---@field lowerarm_r FName
+---@field curWeaponResId int32
+---@field EmoteFinish ULuaMulticastDelegate
+---@field curVisibility bool
+---@field canRollPlayer bool
+---@field EmoteResetControll ULuaMulticastDelegate
+---@field MainSkelHairAnimDyAlpha float
+---@field DstAngle float
+---@field TouchBetweenAutoRotate bool
+---@field curBackTime float
+---@field backTime float
+---@field AnimInstans ULuaMapHelper
+---@field EAvatarSlotType EAvatarSlotType
+---@field bDisableClothAnimDynamic bool
+---@field DestroyActors ULuaArrayHelper
+---@field CurWeaponCompList ULuaArrayHelper
+---@field PawnShowLockStatus bool
+---@field StopEmoteWhenHide bool
+---@field PaintTrayDelagate ULuaMulticastDelegate
+---@field MagicItemID int32
+---@field PaintParamToWho ULuaArrayHelper
+---@field PaintParamFromWho FString
+---@field Uid FString
+---@field dstTag FString
+---@field NotNeedMask bool
+---@field CharacterWeaponMatInstanceLeft UMaterialInstanceDynamic
+---@field PawnTouchBegin ULuaMulticastDelegate
+---@field PawnTouchEnd ULuaMulticastDelegate
+---@field GlideType int32
+---@field CurEquipedOffhandWeaponsResID ULuaMapHelper
+---@field OffHandWeaponsCompList ULuaMapHelper
+---@field CharacterParachuteSubAnimMap ULuaMapHelper
+---@field bInGlide bool
+---@field patrol_right_cases int32
+---@field OnClickCapsule ULuaMulticastDelegate
+---@field FirstTouchPos FVector
+---@field LastTouchPos FVector
+---@field MaxClickBias float
+---@field CanClickAvatar bool
+---@field bLobbyPawnInPlaneShow bool
+---@field EmoteFinishSetPlayerCanRoll ULuaMulticastDelegate
+---@field bIsWearingDADCloth bool
+---@field HideWeaponArray ULuaArrayHelper

@@ -1,0 +1,11 @@
+---@class HoldComponent_C:UActorComponent
+---@field HoldTime:fun():float
+---@field Release:fun(FingerIndex:ETouchIndex)
+---@field Push:fun(FingerIndex:int32)
+---@field HoldAndRelease__DelegateSignature:fun(FingeerIndex:int32)
+---@field HoldAndRelease ULuaMulticastDelegate
+---@field HoldTimeThreshold float
+---@field HoldFingerIndex int32
+---@field HoldMode EHoldMode
+---@field PushTime float
+---@field isPush bool

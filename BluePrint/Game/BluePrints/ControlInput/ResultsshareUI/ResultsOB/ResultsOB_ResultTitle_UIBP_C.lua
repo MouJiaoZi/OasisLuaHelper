@@ -1,0 +1,21 @@
+---@class ResultsOB_ResultTitle_UIBP_C:UUAEUserWidget
+---@field KeepAllPlayerData:fun()
+---@field UpdateTopDamageTitle:fun()
+---@field SyncTitleData:fun()
+---@field GetTitleBPByIndex:fun(ItemType:ResultsOB_ResultTitle_Type):ResultsOB_ResultTitle_Item_UIBP_C
+---@field ShowOBResultTitle:fun()
+---@field UpdateTopHitRateTitle:fun()
+---@field UpdateTopKillerTitle:fun()
+---@field UpdateFirstBloodTitle:fun()
+---@field UpdateAllResultTitle:fun()
+---@field DX_In UWidgetAnimation
+---@field Button_out UButton
+---@field CanvasPanel_FirstBlood UCanvasPanel
+---@field CanvasPanel_MostAccuracy UCanvasPanel
+---@field CanvasPanel_TopDamage UCanvasPanel
+---@field Image_MostAccuracy UImage
+---@field Image_TopDamage UImage
+---@field ResultsOB_MVPself_FirstBlood ResultsOB_ResultTitle_Item_UIBP_C
+---@field ResultsOB_MVPself_MostAccuracy ResultsOB_ResultTitle_Item_UIBP_C
+---@field ResultsOB_MVPself_TopDamage ResultsOB_ResultTitle_Item_UIBP_C
+---@field AllPlayerList ULuaMapHelper

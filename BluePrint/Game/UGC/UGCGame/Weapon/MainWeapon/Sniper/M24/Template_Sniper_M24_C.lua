@@ -1,0 +1,2 @@
+---@class Template_Sniper_M24_C:UGCBackpackShootWeaponHandle_BP_C
+---@field UGC_TemplateSaveItemID:fun():int32

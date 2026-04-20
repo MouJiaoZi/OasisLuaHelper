@@ -1,0 +1,3 @@
+---@class RegionalMapActor_ShootingRange_C:ARegionalMapActor_C
+---@field GetLuaModule:fun():FString
+---@field UserConstructionScript:fun()

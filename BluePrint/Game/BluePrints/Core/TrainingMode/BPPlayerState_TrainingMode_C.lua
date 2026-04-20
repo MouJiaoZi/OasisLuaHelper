@@ -1,0 +1,41 @@
+---@class BPPlayerState_TrainingMode_C:ASTTrainingModePlayerState
+---@field GetLuaModule:fun():FString
+---@field OnRep_ShootRingsParam:fun()
+---@field OnRep_RacingParam:fun()
+---@field OnRep_PanParam:fun()
+---@field OnRep_AreaParam:fun()
+---@field OnRep_CurrentTitleList:fun()
+---@field OnRep_CurrentEquipTitleID:fun()
+---@field AddInteractDataByIndex:fun(Index:int32)
+---@field AddCoinChestData:fun(X:float,Y:float,Z:float)
+---@field AddInteractItemDataByIndex:fun(Index:int32,bSuccess:bool)
+---@field AddInteractData:fun(InteractID:int32)
+---@field AddInteractItemData:fun(InteractID:int32,bSuccess:bool)
+---@field UserConstructionScript:fun()
+---@field UIEvent_ShootRingsParam__DelegateSignature:fun()
+---@field UIEvent_RacingParam__DelegateSignature:fun()
+---@field UIEvent_PanParam__DelegateSignature:fun()
+---@field UIEvent_AreaParam__DelegateSignature:fun()
+---@field UIEvent_CurrentEquipTitleID__DelegateSignature:fun()
+---@field UIEvent_CurrentTitleList__DelegateSignature:fun()
+---@field DefaultSceneRoot USceneComponent
+---@field IsInTeamScrimmageGuideArea bool
+---@field DefaultWidgetStyle UUserWidgetStyle
+---@field ArenaWidgetStyle UUserWidgetStyle
+---@field TeamScrimmageWidgetStyle UUserWidgetStyle
+---@field CurrentTitleList ULuaArrayHelper
+---@field CurrentEquipTitleID int32
+---@field AreaParam int32
+---@field PanParam int32
+---@field RacingParam int32
+---@field ShootRingsParam int32
+---@field KingParam bool
+---@field UIEvent_CurrentTitleList ULuaMulticastDelegate
+---@field UIEvent_CurrentEquipTitleID ULuaMulticastDelegate
+---@field UIEvent_AreaParam ULuaMulticastDelegate
+---@field UIEvent_PanParam ULuaMulticastDelegate
+---@field UIEvent_RacingParam ULuaMulticastDelegate
+---@field UIEvent_ShootRingsParam ULuaMulticastDelegate
+---@field RTPCName FString
+---@field NormalRTPCVal float
+---@field ArenaRTPCVal float

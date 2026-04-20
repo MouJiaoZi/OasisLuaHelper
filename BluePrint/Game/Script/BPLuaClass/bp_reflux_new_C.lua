@@ -1,0 +1,25 @@
+---@class bp_reflux_new_C:ALuaClassObj
+---@field UserConstructionScript:fun()
+---@field Generated_ScriptContext UScriptContextComponent
+---@field BP_Reflux_New_Help_Content FString
+---@field BP_Reflux_New_Total_Back_Count int32
+---@field BP_RefluxNew_Team_CurrentID FString
+---@field BP_Reflux_New_Award_Index_Get int32
+---@field BP_Reflux_New_Team_Image_URL FString
+---@field BP_Reflux_New_Call_Friend_OpenID FString
+---@field BP_Reflux_New_Team_Page_Idx int32
+---@field BP_Reflux_New_Is_OneClickInvite_Open bool
+---@field BP_ARRAY_Reflux_New_Team_FriendList ULuaArrayHelper
+---@field BP_Reflux_New_Invite_Image_URL FString
+---@field BP_ARRAY_Reflux_New_Award_Infos ULuaArrayHelper
+---@field BP_ARRAY_Reflux_New_Task_Infos ULuaArrayHelper
+---@field BP_Reflux_New_Task_ID int32
+---@field BP_Reflux_New_Friend_Count int32
+---@field BP_Reflux_New_Open_Time FString
+---@field BP_Reflux_New_Friend_Page_Idx int32
+---@field BP_Reflux_New_Call_Friend_UID FString
+---@field BP_Reflux_New_Invite_Award_Status bool
+---@field BP_Reflux_New_TabIdx int32
+---@field BP_Reflux_New_Task_Award_Status bool
+---@field BP_ARRAY_Reflux_New_Register_Friend_Infos ULuaArrayHelper
+---@field BP_ARRAY_Reflux_New_Friend_Infos ULuaArrayHelper

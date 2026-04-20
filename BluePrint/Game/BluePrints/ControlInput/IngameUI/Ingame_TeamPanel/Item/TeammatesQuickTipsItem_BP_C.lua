@@ -1,0 +1,17 @@
+---@class TeammatesQuickTipsItem_BP_C:UGroundFlagWidget
+---@field RefreshIcon:fun(intpuObj:UObject)
+---@field LoadItemImage:fun()
+---@field HideTipImage:fun()
+---@field ConstructFunc:fun()
+---@field StartShow:fun(index:int32,worldLoc:FVector,ItemResID:int32)
+---@field Construct:fun()
+---@field ShowItem:fun()
+---@field HideItem:fun()
+---@field ImageDefault UImage
+---@field ImageItem UImage
+---@field PanelItem UCanvasPanel
+---@field TextBlock_Distance2 UTextBlock
+---@field WidgetSwitcher_TipsType UWidgetSwitcher
+---@field duration float
+---@field ItemResID int32
+---@field ShowItemResID int32

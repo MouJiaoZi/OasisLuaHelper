@@ -1,0 +1,1 @@
+---@class UGC_E_Armor1PickupWrapper_C:AArmor_Lv1_Wrapper_C

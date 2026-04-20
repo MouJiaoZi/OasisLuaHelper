@@ -1,0 +1,1 @@
+---@class DestinyCircleAllweapon_Livik_2_C:ADestinyCircleAllweapon_2_C

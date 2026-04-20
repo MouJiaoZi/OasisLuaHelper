@@ -1,0 +1,1 @@
+---@class WeaponAnimList_PistolWithShieldADS_Sim_R1895_C:UUAECharacterAnimListComponent

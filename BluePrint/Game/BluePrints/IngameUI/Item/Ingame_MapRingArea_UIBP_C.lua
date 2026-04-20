@@ -1,0 +1,1 @@
+---@class Ingame_MapRingArea_UIBP_C:UUserWidget

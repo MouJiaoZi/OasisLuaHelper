@@ -1,0 +1,1 @@
+---@class BattleItemHandle_FRUT_BP_Hat_1198_C:BattleItemHandle_AvatarBP_C

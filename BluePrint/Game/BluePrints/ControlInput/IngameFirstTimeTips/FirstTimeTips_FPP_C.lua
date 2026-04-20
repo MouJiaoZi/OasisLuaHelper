@@ -1,0 +1,2 @@
+---@class FirstTimeTips_FPP_C:UUAEUserWidget
+---@field Button_0 UButton

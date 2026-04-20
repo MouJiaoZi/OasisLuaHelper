@@ -1,0 +1,1 @@
+---@class BattleItemHandle_GTMW_BP_Bag_Lv2_C:BattleItemHandle_VolAvaBP_C

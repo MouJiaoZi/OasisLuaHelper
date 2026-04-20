@@ -1,0 +1,1 @@
+---@class AIPathNavLink_langan_C:AAIPathNavLink

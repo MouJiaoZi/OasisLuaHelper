@@ -1,0 +1,98 @@
+---@class BP_DuoActionPerformanceActivityActor_C:ADuoActionPerformance
+---@field SetParticleState:fun(bActivate:bool)
+---@field CanClearInviteeData:fun(Invitee:ASTExtraBaseCharacter):bool
+---@field EnterPhotoMode:fun(EnterPhotoModeStr:FString)
+---@field ExcutePhoto:fun(Click_Param:FClick_Param)
+---@field CheckPhoto:fun(Click_Param:FClick_Param):bool
+---@field IsTeamMate:fun(InviterPlayer:ASTExtraBaseCharacter,InviteePlayer:ASTExtraBaseCharacter):bool
+---@field ExcuteLeave:fun(Click_Param:FClick_Param)
+---@field CheckLeave:fun(Click_Param:FClick_Param):bool
+---@field IsAttachParent:fun(InPlayer:ASTExtraBaseCharacter):bool
+---@field CanShowButton:fun(InviterCharacter:ASTExtraBaseCharacter,InviteeCharacter:ASTExtraBaseCharacter):bool
+---@field CheckInviteeCanRealDo:fun(InInviterPlayerController:ASTExtraPlayerController,InInviteePlayerController:ASTExtraPlayerController):bool
+---@field CheckCanDo:fun(InPlayerController:ASTExtraPlayerController):bool
+---@field GetPlayerName:fun(InPlayer:ASTExtraBaseCharacter):FString
+---@field RestoreInviterHeadLogoByData:fun()
+---@field GetDuoActionPerformanceAvatarSubSystem:fun(Target:ASTExtraBaseCharacter):BP_DuoActionPerformanceAvatarSubSystem_C
+---@field RemoveBind:fun(InInviterPlayer:ASTExtraBaseCharacter,InInviteePlayer:ASTExtraBaseCharacter,Commercialize:bool,State:FName)
+---@field RemoveHeadLogo:fun()
+---@field AddHeadLogo:fun()
+---@field ExitSinglePlay:fun()
+---@field EnterSinglePlay:fun():bool
+---@field ExitPlayDuoActionPerformance:fun()
+---@field EnterPlayDuoActionPerformance:fun()
+---@field EnterDuoPlay:fun(InInviteePlayerController:ASTExtraPlayerController):bool
+---@field AddBind:fun(InInviterPlayer:ASTExtraBaseCharacter,InInviteePlayer:ASTExtraBaseCharacter,Commercialize:bool,State:FName)
+---@field GetAvatarSubSystem:fun(Target:ASTExtraBaseCharacter):UAvatarSubSystem
+---@field ExcuteAccept:fun(Click_Param:FClick_Param)
+---@field CheckAccept:fun(Click_Param:FClick_Param):bool
+---@field ExcuteInvitee:fun(Click_Param:FClick_Param)
+---@field CheckInvitee:fun(Click_Param:FClick_Param):bool
+---@field GetEmoteHandleConfig:fun():FDuoActionPerformanceBattleConfig,FDuoActionPerformanceCommonConfig
+---@field DSGetEmoteHandle:fun(Controller:AController):UBackpackEmoteHandle
+---@field ExcuteHold:fun(Click_Param:FClick_Param)
+---@field CheckHold:fun(Click_Param:FClick_Param):bool
+---@field ExcuteInviter:fun(Click_Param:FClick_Param)
+---@field CheckInviter:fun(Click_Param:FClick_Param):bool
+---@field UserConstructionScript:fun()
+---@field BP_ActiveDuoActionPerformance:fun()
+---@field BP_OnRep_DuoActionPerformanceRepData:fun()
+---@field BP_ClearData:fun()
+---@field BP_OnRep_DuoActionPerformanceClearHeadLogoRepData:fun()
+---@field BP_InterruptDuoActionPerformance:fun()
+---@field BP_ClearCustomData:fun()
+---@field BP_ServerCloseDuoActionPerformancePhotoUI:fun(InPlayerKey:int64,bFromUI:bool)
+---@field SetDuoActionPerformanceClientParticleState:fun(bDetectCollision:bool,bDetectTerrain:bool,Size:int32,PlayerKey:int64)
+---@field BP_OnRep_ActiveDuoActionPerformance:fun()
+---@field BP_OnRep_CanShowInvitingAndHoldingButton:fun()
+---@field BP_OnRep_PreActiveDuoActionPerformance:fun()
+---@field ColorAndSizeParticleSystem UParticleSystemComponent
+---@field Arrow UArrowComponent
+---@field InviteOrHoldCapsule2 UCapsuleComponent
+---@field InviteOrHoldCapsule1 UCapsuleComponent
+---@field OverlapCapsuleWhenHold UCapsuleComponent
+---@field OverlapBoxWhenPlay UBoxComponent
+---@field Camera UCameraComponent
+---@field ActivitySpringArm UActivitySpringArmComponent
+---@field AttachScene2 USceneComponent
+---@field AttachScene1 USceneComponent
+---@field TransformScene2 USceneComponent
+---@field TransformScene1 USceneComponent
+---@field PreviewSkeletalMesh2 USkeletalMeshComponent
+---@field PreviewSkeletalMesh1 USkeletalMeshComponent
+---@field InviteeActivityFakePossess UActivityFakePossessComponent
+---@field DuoActionSphere USphereComponent
+---@field DuoActionClickActorComponentBase UClickActorComponentBase
+---@field InviterActivityFakePossess UActivityFakePossessComponent
+---@field DefaultSceneRoot USceneComponent
+---@field CacheEmoteHandle UBackpackEmoteHandle
+---@field InviteeLocation FVector
+---@field BeforeDuoActionPerformanceInviteeTransfrom FTransform
+---@field BeforeDuoActionPerformanceInviterTransfrom FTransform
+---@field MeshBinding1 FActivityLevelSequenceBinding
+---@field MeshBinding2 FActivityLevelSequenceBinding
+---@field ActorBinding FActivityLevelSequenceBinding
+---@field CurrentHeadLogoID int32
+---@field MeshBinding1Commercialize FActivityLevelSequenceBinding
+---@field MeshBinding2Commercialize FActivityLevelSequenceBinding
+---@field ActorBindingCommercialize FActivityLevelSequenceBinding
+---@field bUseDuoSequence bool
+---@field DuoActionPerformanceBattleConfig FDuoActionPerformanceBattleConfig
+---@field DuoActionPerformanceCommonConfig FDuoActionPerformanceCommonConfig
+---@field EmoteBackpackHandle UBackpackEmoteHandle
+---@field ObjectPosUIInfo FObjectPosUIInfo
+---@field HoldingOverlapPawns ULuaArrayHelper
+---@field LastHeadLogoID int32
+---@field RestoreInviterHeadLogoRepID int32
+---@field bRestoreInviterHeadLogo bool
+---@field TempDuoActionPerformance ADuoActionPerformance
+---@field TempWhoInviteMeOrWhoOverlapMe ASTExtraPlayerCharacter
+---@field CanShowInviteeAndAcceptButtonPawnStates ULuaArrayHelper
+---@field bUseNewSetTransform bool
+---@field bEnterPreciseInteract bool
+---@field LastSlotWeapon ESurviveWeaponPropSlot
+---@field bHasWeaponWhenActivate bool
+---@field EnterPhotoModeStr FString
+---@field bOpenShareUI bool
+---@field EnterPhotoModeMap ULuaMapHelper
+---@field DuoActionPerformanceParticleRepData FDuoActionPerformanceParticleRepData

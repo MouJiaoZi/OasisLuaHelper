@@ -1,0 +1,29 @@
+---@class UGCM_TerrainEdit_Main_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field _Decorate_Box UGCM_TerrainEdit_Decorate_Box_UIBP_C
+---@field BrushValue_Size UGCM_TerrainEdit_BrushValue_UIBP_C
+---@field BrushValue_Strength UGCM_TerrainEdit_BrushValue_UIBP_C
+---@field CustomSocket_GuideHelp UCustomSocketPanel
+---@field NewButton_Advanced UNewButton
+---@field NewButton_Clear UNewButton
+---@field NewButton_Decorate UNewButton
+---@field NewButton_Erosion UNewButton
+---@field NewButton_Fixed UNewButton
+---@field NewButton_Flat UNewButton
+---@field NewButton_Help UNewButton
+---@field NewButton_High UNewButton
+---@field NewButton_Quit UNewButton
+---@field NewButton_Restore UNewButton
+---@field NewButton_Revoke UNewButton
+---@field NewButton_Save UNewButton
+---@field NewButton_Smooth UNewButton
+---@field TerrainEdit_AddVegetation UGCM_TerrainEdit_AddVegetation_UIBP_C
+---@field WidgetSwitcher_Advanced UWidgetSwitcher
+---@field WidgetSwitcher_Decorate UWidgetSwitcher
+---@field WidgetSwitcher_Erosion UWidgetSwitcher
+---@field WidgetSwitcher_Fixed UWidgetSwitcher
+---@field WidgetSwitcher_Flat UWidgetSwitcher
+---@field WidgetSwitcher_High UWidgetSwitcher
+---@field WidgetSwitcher_Restore UWidgetSwitcher
+---@field WidgetSwitcher_Revoke UWidgetSwitcher
+---@field WidgetSwitcher_Smooth UWidgetSwitcher

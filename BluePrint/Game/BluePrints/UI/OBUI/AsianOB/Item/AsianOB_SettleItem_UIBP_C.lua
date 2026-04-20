@@ -1,0 +1,12 @@
+---@class AsianOB_SettleItem_UIBP_C:UUAEUserWidget
+---@field GetPlayerItem:fun(number:int32):AsianOB_PlayerItem_UIBP_C
+---@field AsianOB_Player_00 AsianOB_PlayerItem_UIBP_C
+---@field AsianOB_Player_01 AsianOB_PlayerItem_UIBP_C
+---@field AsianOB_Player_02 AsianOB_PlayerItem_UIBP_C
+---@field AsianOB_Player_03 AsianOB_PlayerItem_UIBP_C
+---@field Image_Flag UImage
+---@field TextBlock_CountryName UTextBlock
+---@field TextBlock_Desc UTextBlock
+---@field TextBlock_Rank UTextBlock
+---@field TextBlock_Time UTextBlock
+---@field WidgetSwitcher_Data UWidgetSwitcher

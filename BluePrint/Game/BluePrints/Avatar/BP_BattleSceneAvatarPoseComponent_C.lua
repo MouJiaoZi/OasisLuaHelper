@@ -1,0 +1,6 @@
+---@class BP_BattleSceneAvatarPoseComponent_C:UBattleSceneAvatarDisplayPoseComponent
+---@field MarkPawnPoseType:fun(PawnPoseType:ESkirtPoseType)
+---@field PawnUseFixedSkelBounds:fun(IsUseFixedSkelBounds:bool)
+---@field EquipWeaponForDisplayAvatar:fun()
+---@field SpawnAvatar:fun(IsUseLod:bool)
+---@field ReceiveEndPlay:fun(EndPlayReason:EEndPlayReason)

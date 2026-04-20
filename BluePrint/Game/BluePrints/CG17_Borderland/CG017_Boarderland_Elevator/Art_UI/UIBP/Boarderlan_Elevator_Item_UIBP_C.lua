@@ -1,0 +1,11 @@
+---@class Boarderlan_Elevator_Item_UIBP_C:UActivityUIWidget
+---@field UpdateState:fun()
+---@field Get_TextBlock_Num_Text_0:fun():FText
+---@field Construct:fun()
+---@field NewButton_Selected UNewButton
+---@field TextBlock_Num UTextBlock
+---@field WidgetSwitcher_BtnState UWidgetSwitcher
+---@field FloorBase BP_FloorBase_C
+---@field FloorNum int32
+---@field Parent BP_Position_C
+---@field bIs_Loop bool

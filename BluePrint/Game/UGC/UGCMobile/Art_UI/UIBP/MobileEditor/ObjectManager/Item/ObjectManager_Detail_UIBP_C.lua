@@ -1,0 +1,4 @@
+---@class ObjectManager_Detail_UIBP_C:UUAEUserWidget
+---@field NewButton_Click UNewButton
+---@field TextBlock_Name UTextBlock
+---@field CategorySetName FString

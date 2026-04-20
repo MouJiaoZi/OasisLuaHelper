@@ -1,0 +1,1 @@
+---@class BattleItemHandle_XGQL_BP_Jacket_1662_C:BattleItemHandle_AvatarBP_C

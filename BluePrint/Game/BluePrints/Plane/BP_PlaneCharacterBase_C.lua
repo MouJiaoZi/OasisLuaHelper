@@ -1,0 +1,13 @@
+---@class BP_PlaneCharacterBase_C:APlaneCharacter
+---@field GetSpringArm:fun():USpringArmComponent
+---@field GetPlaneCamera:fun():UCameraComponent
+---@field UserConstructionScript:fun()
+---@field ReceiveFlyToJumpPoint:fun()
+---@field PlayPlaneSound:fun()
+---@field PlaneCamera UCameraComponent
+---@field PlaneSpringArm USpringArmComponent
+---@field StaticMesh UStaticMeshComponent
+---@field Ak UAkComponent
+---@field Timeline_0 UTimelineComponent
+---@field SpringDist2Original float
+---@field NewVar_0 UCurveFloat

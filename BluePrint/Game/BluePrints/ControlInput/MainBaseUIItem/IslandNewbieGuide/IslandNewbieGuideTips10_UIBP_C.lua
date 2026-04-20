@@ -1,0 +1,3 @@
+---@class IslandNewbieGuideTips10_UIBP_C:UMonsterWarningWidget
+---@field Construct:fun()
+---@field ReceivedInitWidget:fun()

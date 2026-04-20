@@ -1,0 +1,5 @@
+---@class DMPlayerTaskTemplate_C:ATaskPoolObj
+---@field GetTaskParamsFromDataTableBlueprint:fun(InTaskID:int32):ULuaArrayHelper,ULuaArrayHelper,bool
+---@field CreatePlayerBornTaskFormDataTable:fun():bool
+---@field UserConstructionScript:fun()
+---@field DefaultSceneRoot USceneComponent

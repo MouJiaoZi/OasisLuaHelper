@@ -1,0 +1,13 @@
+---@class ReplaySkeletalDataGMUI_C:UUserWidget
+---@field Construct:fun()
+---@field Button_compare UButton
+---@field Button_openreplayfile UButton
+---@field Button_pause UButton
+---@field Button_showcompare UButton
+---@field Button_write UButton
+---@field CheckBox_IsPauseWhenError UCheckBox
+---@field CheckBox_UseErrorMaterial UCheckBox
+---@field DatafileTextBox_0 UEditableTextBox
+---@field EditableTextBox_AdditionName UEditableTextBox
+---@field EditableTextBox_Replayfullpath UEditableTextBox
+---@field Manager UReplay_SkeletalData_Manager

@@ -1,0 +1,5 @@
+---@class WeaponCompanionRule_13_C:UBP_WeaponCompanionRuleBase_C
+---@field OnInit:fun()
+---@field OnTringgerEvent:fun(eventType:EWeaponsCompanionVoiceEvent,eventParam:UObject)
+---@field GetWeaponTime float
+---@field WaitTime float

@@ -1,0 +1,2 @@
+---@class BP_KartriderSkillHandle_C:UBackpackSkillHandleBase
+---@field ExtractItemData:fun():FBattleItemData

@@ -1,0 +1,1 @@
+---@class BP_RevivalModeComp_C:URevivalModeComponent

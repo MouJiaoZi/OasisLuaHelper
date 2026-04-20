@@ -1,0 +1,14 @@
+---@class AtlasStat_UIBP_C:UAtlasUI
+---@field OnPaint:fun(Context:FPaintContext)
+---@field OnClickItem:fun(image:UImage)
+---@field OnClickAtlas:fun(ItemName:FString)
+---@field SearchAtlasBP:fun(allAtlas:ULuaArrayHelper)
+---@field Construct:fun()
+---@field OnSearchAtlas:fun(AtlasList:ULuaArrayHelper)
+---@field OnClickOneAtlas:fun(Size:FVector2D,ImageList:ULuaArrayHelper,UsedSize:int32,retTexture:UTexture2D,ImageNameList:ULuaArrayHelper)
+---@field Button_Search UButton
+---@field CustomScrollBox_Atlas UCustomScrollBox
+---@field CustomScrollBox_Element UCustomScrollBox
+---@field Image_Atlas UImage
+---@field TextBlock_Info UTextBlock
+---@field CurrSelectAtlasName FString

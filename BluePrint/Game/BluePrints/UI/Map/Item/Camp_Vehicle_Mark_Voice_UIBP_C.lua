@@ -1,0 +1,8 @@
+---@class Camp_Vehicle_Mark_Voice_UIBP_C:UMapUIMarkBaseWidget
+---@field GetPlayerColorByIndex:fun(index:int32):FLinearColor
+---@field OnUIBPShow:fun(InState:FCustomMarkEventData)
+---@field Border_VehicleColor UBorder
+---@field CanvasPanel_Report UCanvasPanel
+---@field Image_VehicleColor UImage
+---@field NewButton_Voice UNewButton
+---@field ColorMap ULuaMapHelper

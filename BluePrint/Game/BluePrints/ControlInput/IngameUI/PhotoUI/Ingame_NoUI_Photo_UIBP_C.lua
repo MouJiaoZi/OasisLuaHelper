@@ -1,0 +1,110 @@
+---@class Ingame_NoUI_Photo_UIBP_C:UUAEUserWidget
+---@field EnableMotionBlur:fun(bEnable:bool,bQuit:bool)
+---@field UnloadAllUIStyle:fun()
+---@field FindLocalSkySphere:fun():AActor
+---@field GetTouchCounts:fun():int32
+---@field ShowSettings&Templates:fun(bShow:bool)
+---@field QuitPhotoUI:fun()
+---@field HideMainControlTouchButtonUI:fun(PlayMode:EUMGSequencePlayMode)
+---@field UnLoadStyle:fun()
+---@field LoadStyle:fun()
+---@field SetAllUIOpacity:fun(Opacity:float)
+---@field UIMsg_QuitPhoto:fun()
+---@field UIMSG_SetPhotoUICreatedBy:fun(CreatedBy:FString)
+---@field InitExpressionUI:fun(ExpressionUI:QuickExpressionUIBP_C)
+---@field FindExpressionUI:fun():UCanvasPanel,QuickExpressionUIBP_C
+---@field SetPawnVisible:fun(SelfHidden:bool,TeammateHidden:bool,EnemyHidden:bool)
+---@field SetCameraModeUI:fun(NewMode:ESmartPhotographerMode)
+---@field ReceivedInitWidget:fun()
+---@field Construct:fun()
+---@field Destruct:fun()
+---@field AutoHideFreeCamera UWidgetAnimation
+---@field DX_IN_CountDownTime UWidgetAnimation
+---@field AutoHide UWidgetAnimation
+---@field Tips2_anima UWidgetAnimation
+---@field Tips1_anima UWidgetAnimation
+---@field Border_FocalLength UBorder
+---@field Border_FreeCamera UBorder
+---@field Border_Ingame_PhotoTips1 UBorder
+---@field Border_Ingame_PhotoTips2 UBorder
+---@field BorderMask UBorder
+---@field Button_ChromaSky UNewButton
+---@field Canvas_focalLength UCanvasPanel
+---@field Canvas_Settings UCanvasPanel
+---@field Canvas_SettingsTemplates UCanvasPanel
+---@field Canvas_Templates UCanvasPanel
+---@field CanvasPanel_1 UCanvasPanel
+---@field CanvasPanel_Countdown UCanvasPanel
+---@field CanvasPanel_FreeCamera UCanvasPanel
+---@field CanvasPanel_Guide1 UCanvasPanel
+---@field CanvasPanel_Guide2 UCanvasPanel
+---@field CanvasPanel_Guide3 UCanvasPanel
+---@field CanvasPanel_Ingame_Emote UCanvasPanel
+---@field CanvasPanel_Ingame_Photo1 UCanvasPanel
+---@field CanvasPanel_Ingame_PhotoClose UCanvasPanel
+---@field CanvasPanel_Mode_Set_Content UCanvasPanel
+---@field CanvasPanel_Photo2 UCanvasPanel
+---@field CanvasPanel_Ring UCanvasPanel
+---@field CanvasPanel_ShareLayer UCanvasPanel
+---@field CanvasPanel_Template UCanvasPanel
+---@field CanvasPanel_TouMingDu UCanvasPanel
+---@field CanvasPanel_transparency UCanvasPanel
+---@field DynaCanvasPanel_Window UDynaCanvasPanel
+---@field HideSelf UNewCheckBox
+---@field HideTeammates UNewCheckBox
+---@field Image_3 UImage
+---@field Image_15 UImage
+---@field Image_18 UImage
+---@field Image_BtnIcon UImage
+---@field Image_IngameLogo UImage
+---@field Image_off UImage
+---@field Image_on UImage
+---@field Image_Template UImage
+---@field Ingame_Photo_FreeCamera_UIBP Ingame_Photo_FreeCamera_UIBP_C
+---@field InvalidationBox_3 UInvalidationBox
+---@field InvalidationBox_6 UCanvasPanel
+---@field InvalidationBox_8 UCanvasPanel
+---@field NewButton_CloseUI UNewButton
+---@field NewButton_Ingame_ModeClose UNewButton
+---@field NewButton_Ingame_ModeSet UNewButton
+---@field NewButton_Ingame_Photo1 UNewButton
+---@field NewButton_Ingame_PhotoOut UNewButton
+---@field NewButton_OpenSettingsTemplate UNewButton
+---@field NewButton_Photo2 UNewButton
+---@field NewButton_Suo UNewButton
+---@field NewButton_TouMingDu UNewButton
+---@field NewButton_UseTemplates UNewButton
+---@field ProgressBar_Length UProgressBar
+---@field ProgressBar_transparency UProgressBar
+---@field SettingsTemplateImage UImage
+---@field Slider_focalLength USlider
+---@field Slider_transparency USlider
+---@field TextBlock_11 UTextBlock
+---@field TextBlock_12 UTextBlock
+---@field TextBlock_Absolutely UTextBlock
+---@field TextBlock_BtnName_off UTextBlock
+---@field TextBlock_BtnName_on UTextBlock
+---@field TextBlock_Countdown01 UTextBlock
+---@field TextBlock_Countdown02 UTextBlock
+---@field TextBlock_Countdown03 UTextBlock
+---@field TextBlock_FocalLength UTextBlock
+---@field TextBlock_ModeName UTextBlock
+---@field WidgetSwitcher_IconType UWidgetSwitcher
+---@field WidgetSwitcher_Sky UWidgetSwitcher
+---@field WidgetSwitcher_Template UWidgetSwitcher
+---@field WidgetSwitcher_Transparency UWidgetSwitcher
+---@field ShareUI Ingame_Photo_Share_UIBP_C
+---@field CreateBy Ingame_Photo_CreateMode
+---@field bVideoOperatorUI bool
+---@field bWantsHideOperatorUI bool
+---@field JoyStickWansHide bool
+---@field MainBaseUI UUAEUserWidget
+---@field MinCameraLenth float
+---@field MaxCameraLenth float
+---@field BorderMaskTimer FTimerHandle
+---@field TLogActivityCount ULuaMapHelper
+---@field GreenSky BP_NoUI_ChromaSky_C
+---@field UIStyle_NoUI UUserWidgetStyle
+---@field UIStyle_NoUI_Variety UUserWidgetStyle
+---@field UIStyle_CamMaster UUserWidgetStyle
+---@field MotionBlurPPV APostProcessVolume

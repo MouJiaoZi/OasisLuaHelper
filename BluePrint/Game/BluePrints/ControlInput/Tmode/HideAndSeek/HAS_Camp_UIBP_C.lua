@@ -1,0 +1,12 @@
+---@class HAS_Camp_UIBP_C:UUAEUserWidget
+---@field GetLuaModule:fun():FString
+---@field SetCountDownTime:fun(time:int32)
+---@field DX_In UWidgetAnimation
+---@field CanvasPanel_Content UCanvasPanel
+---@field CanvasPanel_Time UCanvasPanel
+---@field Image_SelectHide UImage
+---@field Image_SelectSeek UImage
+---@field NewButton_Confirm UNewButton
+---@field NewButton_SelectHide UNewButton
+---@field NewButton_SelectSeek UNewButton
+---@field TextBlock_CD UTextBlock

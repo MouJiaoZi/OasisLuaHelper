@@ -1,0 +1,10 @@
+---@class Ingame_ARMode_WeaponItem_UIBP_C:UUAEUserWidget
+---@field SetWeaponActive:fun(BActive:bool)
+---@field OnUpdateWeapon:fun(Image:UObject)
+---@field SetWeapon:fun(Index:int32,WeaponID:int32)
+---@field Image_NextWeaponIcon UImage
+---@field NewButton_Selected UNewButton
+---@field TextBlock_Levle UTextBlock
+---@field TextBlock_WeaponName UTextBlock
+---@field WidgetSwitcher_BoxType UWidgetSwitcher
+---@field ImageIcon FString

@@ -1,0 +1,1 @@
+---@class Replay_CompleteProgressBarEventUIItem_C:UReplay_BaseProgressBarEventUIItem_C

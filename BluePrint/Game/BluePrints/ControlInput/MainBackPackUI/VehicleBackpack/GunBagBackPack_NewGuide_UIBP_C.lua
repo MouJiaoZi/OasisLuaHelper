@@ -1,0 +1,2 @@
+---@class GunBagBackPack_NewGuide_UIBP_C:UUAEUserWidget
+---@field TextBlock_Content UTextBlock

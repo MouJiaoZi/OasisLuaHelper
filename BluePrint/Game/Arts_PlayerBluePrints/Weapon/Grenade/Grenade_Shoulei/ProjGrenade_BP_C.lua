@@ -1,0 +1,12 @@
+---@class ProjGrenade_BP_C:AEliteProjectile
+---@field GetExplosionFindFunction:fun():UExplosionFinder
+---@field ApplyDamage:fun()
+---@field UserConstructionScript:fun()
+---@field ReceiveEndPlay:fun(EndPlayReason:EEndPlayReason)
+---@field Noise FProjectileExplosionNoise
+---@field RadialTargetsFinder FExplosionFinderWrapper
+---@field LocationMarker FActorLocationMarker
+---@field ExplosionFindFunction UExplosionFinder
+---@field OldSchoolGameModeIDs ULuaArrayHelper
+---@field RangeScale float
+---@field EffectScale float

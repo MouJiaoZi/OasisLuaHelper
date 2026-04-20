@@ -1,0 +1,8 @@
+---@class IndoorShooting_RankChoose_UIBP_C:UUAEUserWidget
+---@field BIsBeginTrain:fun(NewParam1:int32):bool
+---@field OnCustomMessage:fun(InMessage:FString)
+---@field OnSetActor:fun(InActor:AActor)
+---@field NewButtonEasy UNewButton
+---@field NewButtonHard UNewButton
+---@field NewButtonMid UNewButton
+---@field BeginTrainingPlace BegintrainingPlace_C

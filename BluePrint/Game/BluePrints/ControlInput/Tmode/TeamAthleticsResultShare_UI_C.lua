@@ -1,0 +1,84 @@
+---@class TeamAthleticsResultShare_UI_C:UUAEUserWidget
+---@field InitGlobalMVPUID:fun()
+---@field GetSortedHasModeTeamData:fun()
+---@field GetSortedAdditionModeTeamData:fun()
+---@field RefreshEscapeText:fun(myCount:int32,oppoCount:int32)
+---@field GetAchieveTableData:fun(id:int32):FString,FString
+---@field InitAchivementInfo:fun()
+---@field SetCorrectTitleBg:fun(result:FString)
+---@field GetSortedTeamData:fun()
+---@field ShowScreenCapture:fun()
+---@field InitAsSharePose:fun()
+---@field InitTitleInfo:fun()
+---@field InitBattleDetail:fun()
+---@field InitUI:fun(parentObj:bp_resultshare_deathmatch_C,historyBattleResult:bp_history_deathmatch_C,deathmatchBattleRFesult:bp_battleresult_deathmatch_C,parentWidget:TeamAthleticsResultShare_UIBP_C)
+---@field Construct:fun()
+---@field CanvasPanel_EMode_Grade UCanvasPanel
+---@field CanvasPanel_ResultShare_Data UCanvasPanel
+---@field CanvasPanel_ResultShare_Role UCanvasPanel
+---@field GridPanel_ScreenCapture UGridPanel
+---@field Image_Logo UImage
+---@field Image_TC_Result_Title UImage
+---@field Image_TC_Trapezoid_Left UImage
+---@field Image_TC_Trapezoid_Right UImage
+---@field Image_Title_Bg1 UImage
+---@field Image_TMode_ResultShare_Title UImage
+---@field rank_ad_bg UImage
+---@field TeamAthletics_RoleShare_UIBP1 TeamAthletics_RoleShare_UIBP_C
+---@field TeamAthletics_RoleShare_UIBP2 TeamAthletics_RoleShare_UIBP_C
+---@field TeamAthletics_RoleShare_UIBP3 TeamAthletics_RoleShare_UIBP_C
+---@field TeamAthletics_RoleShare_UIBP4 TeamAthletics_RoleShare_UIBP_C
+---@field TeamAthleticsResultShareItem_UIBP TeamAthleticsResultShareItem_UIBP_C
+---@field TeamAthleticsResultShareItem_UIBP_0 TeamAthleticsResultShareItem_UIBP_C
+---@field TeamAthleticsResultShareItem_UIBP_1 TeamAthleticsResultShareItem_UIBP_C
+---@field TeamAthleticsResultShareItem_UIBP_2 TeamAthleticsResultShareItem_UIBP_C
+---@field TeamAthleticsResultShareItem_UIBP_3 TeamAthleticsResultShareItem_UIBP_C
+---@field TeamAthleticsResultShareItem_UIBP_4 TeamAthleticsResultShareItem_UIBP_C
+---@field TeamAthleticsResultShareItem_UIBP_5 TeamAthleticsResultShareItem_UIBP_C
+---@field TeamAthleticsResultShareItem_UIBP_6 TeamAthleticsResultShareItem_UIBP_C
+---@field TeamAthleticsResultShareItem_UIBP_7 TeamAthleticsResultShareItem_UIBP_C
+---@field TeamAthleticsResultShareItem_UIBP_8 TeamAthleticsResultShareItem_UIBP_C
+---@field TeamAthleticsResultShareItem_UIBP_9 TeamAthleticsResultShareItem_UIBP_C
+---@field TeamAthleticsResultShareItem_UIBP_10 TeamAthleticsResultShareItem_UIBP_C
+---@field TeamAthleticsResultShareItem_UIBP_11 TeamAthleticsResultShareItem_UIBP_C
+---@field TeamAthleticsResultShareItem_UIBP_12 TeamAthleticsResultShareItem_UIBP_C
+---@field TeamAthleticsResultShareItem_UIBP_13 TeamAthleticsResultShareItem_UIBP_C
+---@field TeamAthleticsResultShareItem_UIBP_14 TeamAthleticsResultShareItem_UIBP_C
+---@field TeamCompetition_UnlockAchievement_1 TeamCompetition_UnlockAchievement_UIBP_C
+---@field TeamCompetition_UnlockAchievement_2 TeamCompetition_UnlockAchievement_UIBP_C
+---@field TeamCompetition_UnlockAchievement_3 TeamCompetition_UnlockAchievement_UIBP_C
+---@field text_Op_left UTextBlock
+---@field text_op_right UTextBlock
+---@field TextBlock_EMode_Grade UTextBlock
+---@field TextBlock_EMode_Rank UTextBlock
+---@field TextBlock_MyTeamScore UTextBlock
+---@field TextBlock_OpponentTeamScore UTextBlock
+---@field TextBlock_PlayerExit UTextBlock
+---@field TextBlock_ResultShare_Score1 UTextBlock
+---@field TextBlock_ResultShare_Score2 UTextBlock
+---@field TextBlock_TC_ModeName UTextBlock
+---@field TextBlock_TC_Share_Date_Experience UTextBlock
+---@field TextBlock_TC_Victory_Left UTextBlock
+---@field TextBlock_TC_Victory_Right UTextBlock
+---@field VerticalBox_TC_Share_MyTeam UVerticalBox
+---@field VerticalBox_TC_Share_OpppTeam UVerticalBox
+---@field WidgetSwitcher_Flag UWidgetSwitcher
+---@field WidgetSwitcher_ResultShare_Final UWidgetSwitcher
+---@field WidgetSwitcher_ResultShare_Title UWidgetSwitcher
+---@field WidgetSwitcher_TC_Share_Left UWidgetSwitcher
+---@field WidgetSwitcher_TC_Share_Right UWidgetSwitcher
+---@field ArrayTeamate ULuaArrayHelper
+---@field ArrayEnemy ULuaArrayHelper
+---@field ParentBPObject bp_resultshare_deathmatch_C
+---@field ResultDeathMatchObj bp_battleresult_deathmatch_C
+---@field myTeamId int32
+---@field myNameStr FString
+---@field HistoryDeathMatchObj bp_history_deathmatch_C
+---@field BottomPlayerUIList ULuaArrayHelper
+---@field uiListIndex int32
+---@field isPoseInited bool
+---@field isBattleInfoInited bool
+---@field MyTeamateInfoList ULuaArrayHelper
+---@field resultReason FString
+---@field ParentPanel TeamAthleticsResultShare_UIBP_C
+---@field GlobalMVPUID FString

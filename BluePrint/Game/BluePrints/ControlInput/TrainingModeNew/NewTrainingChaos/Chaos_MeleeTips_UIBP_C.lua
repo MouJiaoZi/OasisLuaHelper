@@ -1,0 +1,9 @@
+---@class Chaos_MeleeTips_UIBP_C:UUAEUserWidget
+---@field DX_MeleeResult UWidgetAnimation
+---@field DX_LevelWarning UWidgetAnimation
+---@field Canvas_LevelWarning UCanvasPanel
+---@field CanvasPanel_MeleeResult UCanvasPanel
+---@field Chaos_Weapon_UIBP Chaos_Weapon_UIBP_C
+---@field KillNotifyUI RaceRrack_RankingMedal_UIBP_C
+---@field Text_LeaveWarningRemainTime UTextBlock
+---@field WidgetSwitcher_Melee UWidgetSwitcher

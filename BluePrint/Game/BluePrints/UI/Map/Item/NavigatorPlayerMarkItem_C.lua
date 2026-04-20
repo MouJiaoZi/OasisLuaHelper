@@ -1,0 +1,11 @@
+---@class NavigatorPlayerMarkItem_C:UUAEUserWidget
+---@field ChangeAlpha:fun(bHigher:bool):bool
+---@field SetMarkColor:fun(Color:FLinearColor,bSelfPlayer:bool):FLinearColor
+---@field GetIconDisplayWidget:fun():UWidget
+---@field GetMarkDistWidget:fun():UTextBlock
+---@field Canvas_PlayerMark UCanvasPanel
+---@field CanvasPanel_3 UCanvasPanel
+---@field DirectionMarker UImage
+---@field DirectionMarker_Dist UTextBlock
+---@field Image_30 UImage
+---@field AlphaOpacity float

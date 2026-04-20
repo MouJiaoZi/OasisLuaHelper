@@ -1,0 +1,1 @@
+---@class BP_Other_MGL_BattleItemHandle_Mech_Lobby_C:UBackpackWeaponHandle

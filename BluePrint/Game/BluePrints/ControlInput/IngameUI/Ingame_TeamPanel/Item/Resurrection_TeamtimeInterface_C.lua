@@ -1,0 +1,3 @@
+---@class Resurrection_TeamtimeInterface_C:UInterface
+---@field TeamtimeUIBP_SetPickupState:fun(IsPickUp:bool,PlayAniAndSound:bool)
+---@field TeamtimeUIBP_SetTime:fun(InTime:int32)

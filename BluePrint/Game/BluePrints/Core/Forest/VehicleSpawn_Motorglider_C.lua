@@ -1,0 +1,1 @@
+---@class VehicleSpawn_Motorglider_C:UVehicleSpawn_C
